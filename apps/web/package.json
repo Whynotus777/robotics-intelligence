@@ -15,15 +15,21 @@
     "@ri/domain": "workspace:*",
     "@ri/fixtures": "workspace:*",
     "@ri/viz": "workspace:*",
+    "d3-geo": "^3.1.1",
     "geist": "^1.7.2",
     "next": "^15.5.4",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
+    "@types/d3-geo": "^3.1.1",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-specification": "^1.0.5",
     "tailwindcss": "^4.3.3"
   }
 }

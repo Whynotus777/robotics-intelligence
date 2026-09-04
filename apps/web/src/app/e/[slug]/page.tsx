@@ -1,6 +1,8 @@
 import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
+import { CompanyProfile } from "@/components/profile/company-profile";
 import { EntityProfile } from "@/components/profile/entity-profile";
+import { companyView } from "@/lib/company";
 import { data, orNotFound } from "@/lib/data";
 import { hrefFor } from "@/lib/vocabulary";
 
@@ -15,6 +17,8 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 /**
  * The same profile template for every entity type that does not have a screen of
  * its own — company, technology, product, place, deployment. No dead ends.
+ * ORGANIZATION enters the company state of the template; everything else enters
+ * the generic one.
  */
 export default async function EntityProfilePage({ params }: Params) {
   const { slug } = await params;
@@ -23,6 +27,9 @@ export default async function EntityProfilePage({ params }: Params) {
 
   const canonical = hrefFor(entity.entity);
   if (canonical !== `/e/${slug}`) redirect(canonical);
+
+  if (entity.entity.entity_type === "ORGANIZATION")
+    return <CompanyProfile entity={entity} view={await companyView(entity)} />;
 
   return <EntityProfile entity={entity} />;
 }
