@@ -8,6 +8,7 @@
     "seed": "pnpm --filter @ri/seed run seed",
     "fixtures": "pnpm --filter @ri/fixtures generate",
     "queries": "pnpm --filter @ri/api queries",
+    "ingest:fetch": "pnpm --filter @ri/ingestion run fetch",
     "check": "pnpm -r typecheck && vitest run"
   },
   "devDependencies": { "@types/node": "^22.15.0", "dotenv": "^16.4.5", "tsx": "^4.19.0", "typescript": "~5.9.3", "vitest": "^3.2.7" }

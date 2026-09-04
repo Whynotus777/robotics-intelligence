@@ -4,6 +4,6 @@
   "private": true,
   "type": "module",
   "main": "src/index.ts",
-  "dependencies": { "@ri/db": "workspace:*" },
-  "scripts": { "typecheck": "tsc --noEmit -p .", "test": "vitest run --passWithNoTests" }
+  "dependencies": { "@ri/db": "workspace:*", "drizzle-orm": "^0.45.2" },
+  "scripts": { "fetch": "tsx src/fetch.ts", "typecheck": "tsc --noEmit -p .", "test": "vitest run --passWithNoTests" }
 }
