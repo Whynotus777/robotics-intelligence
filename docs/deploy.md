@@ -22,9 +22,10 @@ the last known good deployment, and use **Promote to Production**. Alternatively
 restore the corresponding Git commit on `main`; Vercel will create and promote
 the resulting production deployment through the normal integration.
 
-The repository currently reserves `apps/web` for Agent 1 and does not yet have
-a Next.js app. Vercel project settings may be created in advance, but the first
-production build can succeed only after that app is pushed.
+`apps/web` now holds the Next.js 15 App Router application. `pnpm --filter web
+build` succeeds from the repository root, and `next.config.ts` sets
+`outputFileTracingRoot` to the repository root so the Vercel build from root
+directory `apps/web` traces the linked workspace packages.
 
 `npx vercel domains inspect map.quantumroboticslab.ai` on 4 September 2026 did
 not report the subdomain as verified. It reports the apex as a third-party
