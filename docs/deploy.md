@@ -33,3 +33,4 @@ domain with current GoDaddy nameservers (`ns05.domaincontrol.com`,
 `ns06.domaincontrol.com`) rather than the intended Vercel nameservers. The
 GoDaddy CNAME (`map` → `cname.vercel-dns.com`) may still be propagating; inspect
 or verify the domain again after propagation before relying on the custom domain.
+Git connection live 4 Sep 2026
