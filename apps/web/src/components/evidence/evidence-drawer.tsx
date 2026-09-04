@@ -65,18 +65,25 @@ export function EvidenceDrawer() {
         onClick={close}
         className="fixed inset-0 z-40 bg-black/45 motion-safe:animate-[fade_.15s_ease-out]"
       />
+      {/*
+        A right-side drawer at 640px and up; a bottom sheet below it, opening to
+        72% of the viewport with the parent still visible above, exactly as the
+        phase 2 mobile pass draws it.
+      */}
       <aside
         aria-label="Evidence"
-        className="fixed inset-y-0 right-0 z-50 flex w-full max-w-[420px] flex-col overflow-y-auto border-l border-line-strong bg-panel shadow-[0_0_60px_rgba(0,0,0,.6)]"
+        className="fixed inset-x-0 bottom-0 z-50 flex max-h-[72dvh] flex-col overflow-y-auto rounded-t-xl border-t border-line-strong bg-panel shadow-[0_-8px_60px_rgba(0,0,0,.6)] motion-safe:animate-[sheet_.2s_cubic-bezier(.2,.7,.2,1)] sm:inset-x-auto sm:inset-y-0 sm:right-0 sm:max-h-none sm:w-full sm:max-w-[420px] sm:rounded-none sm:border-t-0 sm:border-l sm:shadow-[0_0_60px_rgba(0,0,0,.6)] sm:motion-safe:animate-none"
       >
+        <div className="mx-auto mt-2 h-1 w-9 shrink-0 rounded-full bg-line-strong sm:hidden" aria-hidden />
         <header className="flex items-center justify-between border-b border-line-soft px-5 py-3">
           <span className="eyebrow">Evidence · {assessment ? "Assessment" : "Fact"}</span>
           <button
             type="button"
             onClick={close}
-            className="num cursor-pointer rounded-[3px] border border-line-strong px-1.5 py-[3px] text-[10px] text-ink-4 hover:text-ink"
+            className="num cursor-pointer rounded-[3px] border border-line-strong px-2 py-1.5 text-[10px] text-ink-4 hover:text-ink sm:px-1.5 sm:py-[3px]"
           >
-            Esc
+            <span className="sm:hidden">Close</span>
+            <span className="hidden sm:inline">Esc</span>
           </button>
         </header>
 

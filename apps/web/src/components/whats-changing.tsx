@@ -27,19 +27,30 @@ export async function WhatsChanging({ limit = 5 }: { limit?: number }) {
       </div>
       <div className="flex flex-col divide-y divide-line-soft">
         {events.map((event) => (
-          <div key={event.id} className="flex flex-wrap items-center gap-x-3 gap-y-1.5 py-2 text-[12px]">
-            <span className="num w-[84px] shrink-0 text-[11px] text-ink-4">{formatDate(event.observed_at)}</span>
-            <EntityChipLink chip={event.entity} />
-            <span className="num text-[10px] tracking-[0.06em] text-ink-4">
+          <div
+            key={event.id}
+            className="flex flex-col gap-1.5 py-2.5 text-[12px] sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-3 sm:gap-y-1.5 sm:py-2"
+          >
+            <div className="flex min-w-0 items-center gap-2">
+              <span className="num shrink-0 text-[11px] text-ink-4 sm:w-[84px]">{formatDate(event.observed_at)}</span>
+              <span className="min-w-0">
+                <EntityChipLink chip={event.entity} />
+              </span>
+            </div>
+            <span className="num shrink-0 text-[10px] tracking-[0.06em] text-ink-4">
               {CHANGE_EVENT_LABEL[event.event_type] ?? event.event_type}
             </span>
-            <span className="min-w-0 flex-1 text-ink-2">{event.summary}</span>
+            <span className="min-w-0 flex-1 break-words text-ink-2">{event.summary}</span>
             {event.before && event.after ? (
-              <span className="num text-[11px] text-ink-3">
+              <span className="num min-w-0 break-words text-[11px] text-ink-3">
                 {formatValue(event.before)} → <span className="text-ink">{formatValue(event.after)}</span>
               </span>
             ) : null}
-            {event.evidence_summary ? <EvidenceChip summary={event.evidence_summary} /> : null}
+            {event.evidence_summary ? (
+              <span className="shrink-0">
+                <EvidenceChip summary={event.evidence_summary} />
+              </span>
+            ) : null}
           </div>
         ))}
       </div>

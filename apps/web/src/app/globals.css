@@ -118,3 +118,15 @@ body {
     opacity: 1;
   }
 }
+
+/* The Evidence Drawer arrives as a bottom sheet below 640px. */
+@keyframes sheet {
+  from {
+    transform: translateY(12px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}

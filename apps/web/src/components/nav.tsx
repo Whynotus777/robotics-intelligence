@@ -20,12 +20,23 @@ export function NavRail() {
   const { open } = useCommandPalette();
 
   return (
-    <nav className="flex shrink-0 flex-col gap-0.5 border-b border-line-soft bg-rail px-3 py-3 lg:h-dvh lg:w-[200px] lg:border-r lg:border-b-0 lg:py-4">
-      <Link href="/" className="flex items-center gap-2 px-2 pb-2 lg:pb-[18px]">
-        <span className="inline-block size-[18px] rounded-chip bg-ink" />
-        <span className="text-[13px] font-semibold">Robotics Intelligence</span>
-      </Link>
-      <div className="-mx-3 flex gap-0.5 overflow-x-auto px-3 lg:mx-0 lg:flex-col lg:overflow-visible lg:px-0">
+    <nav className="flex w-full min-w-0 shrink-0 flex-col gap-0.5 overflow-x-clip border-b border-line-soft bg-rail px-3 py-3 lg:h-dvh lg:w-[200px] lg:overflow-x-visible lg:border-r lg:border-b-0 lg:py-4">
+      <div className="flex items-center justify-between gap-2 pb-2 lg:pb-[18px]">
+        <Link href="/" className="flex min-w-0 items-center gap-2 px-2">
+          <span className="inline-block size-[18px] shrink-0 rounded-chip bg-ink" />
+          <span className="truncate text-[13px] font-semibold">Robotics Intelligence</span>
+        </Link>
+        {/* Below 1024px there is no keyboard to press ⌘K with, so search is a tap target. */}
+        <button
+          type="button"
+          onClick={open}
+          aria-label="Search"
+          className="flex size-9 shrink-0 cursor-pointer items-center justify-center rounded-[5px] border border-line-soft text-ink-3 active:bg-raised lg:hidden"
+        >
+          <span className="box-border inline-block size-4 rounded-full border-[1.5px] border-current" />
+        </button>
+      </div>
+      <div className="flex min-w-0 gap-0.5 overflow-x-auto lg:flex-col lg:overflow-visible">
         {NAV.map((item) => {
           const active = item.match(pathname);
           return (
