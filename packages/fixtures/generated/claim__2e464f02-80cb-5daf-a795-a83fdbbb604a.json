@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "2e464f02-80cb-5daf-a795-a83fdbbb604a",
+    "subject": {
+      "id": "60245a27-6286-59df-a3ed-9487c3c0d92a",
+      "slug": "palletizing",
+      "entity_type": "TASK",
+      "name": "Palletizing",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_TECHNICAL_REQUIREMENT",
+    "label": "technical requirement",
+    "sentence": "Palletizing technical requirement Tooling that holds the actual package",
+    "value": {
+      "kind": "text",
+      "text": "Tooling that holds the actual package"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8a5cad60-94e6-5433-aed3-e0aa5e7d6de4",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Vacuum works on a sealed case and fails on a shrink-wrapped bundle or a bag; the end effector, not the arm, decides whether a given plant's product can be palletized at all.",
+        "advance_criteria": [
+          "Would be relaxed by tooling that spans case, bag and tray without a change."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "b3e87e62-371b-5351-997f-21f6cdbb87e8",
+      "value": {
+        "kind": "text",
+        "text": "Pattern generation for mixed SKUs"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

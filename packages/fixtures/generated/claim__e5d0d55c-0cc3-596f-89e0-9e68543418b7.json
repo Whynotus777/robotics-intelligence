@@ -1,0 +1,53 @@
+{
+  "claim": {
+    "claim_id": "e5d0d55c-0cc3-596f-89e0-9e68543418b7",
+    "subject": {
+      "id": "457bd7cf-650f-52b3-96c3-48ae487f507f",
+      "slug": "fixed-machine-vision-station",
+      "entity_type": "APPROACH",
+      "name": "Fixed machine vision station",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_TECHNICAL_REQUIREMENT",
+    "label": "technical requirement",
+    "sentence": "Fixed machine vision station technical requirement Repeatable part presentation",
+    "value": {
+      "kind": "text",
+      "text": "Repeatable part presentation"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8792ff73-c90f-5c4e-9171-e686d6edc104",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Fixed optics assume the part arrives in the same pose every time; the fixture, not the camera, is what actually makes the inspection work, and it is what has to be rebuilt for every new part.",
+        "advance_criteria": [
+          "Would be relaxed by pose-invariant learned inspection models."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

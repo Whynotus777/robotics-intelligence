@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "a0018379-33c2-5b8d-9f61-bf45333ef90a",
+    "subject": {
+      "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
+      "slug": "onex-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "1X Technologies",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "1X Technologies builds 1X NEO",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f668e79f-b182-5799-b65e-e683fde93b6d",
+        "slug": "onex-neo",
+        "entity_type": "ROBOT",
+        "name": "1X NEO",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ebe3ad98-e8be-5a76-88bc-d4dc70df7676",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "NEO product page.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "88d10976-5fc9-57b7-816d-fc8e14a5abb6",
+        "url": "https://www.1x.tech/neo",
+        "canonical_url": null,
+        "publisher": "1X Technologies",
+        "title": "NEO home humanoid",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

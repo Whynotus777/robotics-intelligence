@@ -1,0 +1,144 @@
+{
+  "entity": {
+    "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
+    "slug": "fourier-intelligence",
+    "entity_type": "ORGANIZATION",
+    "name": "Fourier Intelligence",
+    "short_description": "Shanghai company that came from rehabilitation robotics into humanoids; the GR series is sold to research buyers as much as to industry.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "CN",
+    "aliases": [
+      "Fourier"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "8475cdf1-41b2-5cd8-a505-02c591abbc39",
+          "target": {
+            "id": "765495b3-ca1b-5f8c-943c-b68a87c2dbcb",
+            "slug": "healthcare",
+            "entity_type": "MARKET",
+            "name": "Healthcare",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "9d07aa0b-6ae0-57b5-80a0-250dca682f86",
+          "target": {
+            "id": "e040adf8-acc0-5d93-85cf-aa89cfbbcdea",
+            "slug": "fourier-gr-1",
+            "entity_type": "ROBOT",
+            "name": "Fourier GR-1",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "c1246d87-59fb-56c9-9559-3656f32472ba",
+          "target": {
+            "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+            "slug": "shanghai",
+            "entity_type": "PLACE",
+            "name": "Shanghai",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "markets": [
+      {
+        "id": "765495b3-ca1b-5f8c-943c-b68a87c2dbcb",
+        "slug": "healthcare",
+        "entity_type": "MARKET",
+        "name": "Healthcare",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 3,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

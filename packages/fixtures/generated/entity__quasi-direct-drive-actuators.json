@@ -27,7 +27,33 @@
   "place": null,
   "claims": [],
   "relationships": [],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "cbb7e30e-68b3-5e2f-ba41-25cc3e84f5e1",
+          "source": {
+            "id": "0381305b-a566-5f60-82d3-b09265eff980",
+            "slug": "maxon-ec-flat",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "maxon EC flat",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {},
   "intelligence": {
     "evidence_summary": {
@@ -44,7 +70,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

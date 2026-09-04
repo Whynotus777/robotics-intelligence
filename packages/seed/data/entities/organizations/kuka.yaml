@@ -28,3 +28,24 @@ claims:
     confidence: HIGH
     source: kuka-site
     excerpt: Automotive is a named sector.
+- predicate: BUILDS
+  object: kuka-kr-quantec
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: kuka-quantec-page
+    excerpt: KR QUANTEC is listed in KUKA's industrial robot range.
+- predicate: TARGETS_TASK
+  object: industrial-welding
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: kuka-site
+    excerpt: Welding is named among industrial automation applications.
+- predicate: TARGETS_TASK
+  object: palletizing
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: kuka-site
+    excerpt: Palletizing is named among industrial automation applications.

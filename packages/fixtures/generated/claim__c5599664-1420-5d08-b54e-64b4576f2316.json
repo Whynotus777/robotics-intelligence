@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "c5599664-1420-5d08-b54e-64b4576f2316",
+    "subject": {
+      "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+      "slug": "cnc-machine-tending",
+      "entity_type": "TASK",
+      "name": "CNC machine tending",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_TECHNICAL_REQUIREMENT",
+    "label": "technical requirement",
+    "sentence": "CNC machine tending technical requirement Fast changeover between part numbers",
+    "value": {
+      "kind": "text",
+      "text": "Fast changeover between part numbers"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1822c56b-2be1-5596-a1d9-37872142be33",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "A job shop changes parts weekly. If reprogramming and refixturing takes a day, the robot is idle for the batch it was bought to run.",
+        "advance_criteria": [
+          "Would be relaxed by teach-by-demonstration that a machinist can use without vendor support."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "784fce6c-cb22-5bdc-9fa9-2a57a48ea1a6",
+      "value": {
+        "kind": "text",
+        "text": "Machine controller integration"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "9d1e3c4e-eb1c-5872-8891-a8bc397422bc",
+      "value": {
+        "kind": "text",
+        "text": "Reliable part presentation and gripping"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

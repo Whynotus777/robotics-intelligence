@@ -1,0 +1,29 @@
+slug: zebra-technologies
+entity_type: ORGANIZATION
+name: Zebra Technologies
+short_description: Lincolnshire enterprise-scanning incumbent that bought Fetch Robotics in 2021 and now sells AMRs alongside barcode and RFID hardware.
+country_code: US
+depth_tier: DISCOVERY
+aliases: [Zebra, Fetch Robotics]
+claims:
+- predicate: HQ_AT
+  object: lincolnshire
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: zebra-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: zebra-fetch-page
+    excerpt: Robotics automation pages position AMRs for warehouse and fulfilment operations.
+- predicate: BUILDS
+  object: fetch-freight1500
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: zebra-fetch-page
+    excerpt: Zebra's robotics automation range covers the Fetch autonomous mobile robots.

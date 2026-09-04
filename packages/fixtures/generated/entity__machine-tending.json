@@ -1,0 +1,215 @@
+{
+  "entity": {
+    "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+    "slug": "machine-tending",
+    "entity_type": "MARKET",
+    "name": "Machine tending",
+    "short_description": "The robot-adjacent work around a machine or a line — loading and unloading machines, stacking output, joining, checking and assembling parts. The oldest robotics market and still the one that buys the most arms.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "Cell automation",
+      "Factory floor automation"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_TAGLINE",
+      "label": "tagline",
+      "claims": [
+        {
+          "claim_id": "cf330b3c-0e32-509e-aba9-a62441882842",
+          "predicate": "HAS_TAGLINE",
+          "value": {
+            "kind": "text",
+            "text": "Where robotics already won, and where the remaining wins are all about setup cost."
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "CHILD_OF",
+      "label": "is a domain of",
+      "items": [
+        {
+          "claim_id": "80bded4f-3bef-52b2-9f2c-3b0e9a36e95c",
+          "target": {
+            "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+            "slug": "manufacturing",
+            "entity_type": "MARKET",
+            "name": "Manufacturing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "227a47e3-7dee-5361-b45f-2c7035f21590",
+          "source": {
+            "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+            "slug": "in-process-inspection",
+            "entity_type": "TASK",
+            "name": "In-process inspection",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "719a1bb1-85a5-5867-b882-f23217ea3199",
+          "source": {
+            "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+            "slug": "industrial-welding",
+            "entity_type": "TASK",
+            "name": "Industrial welding",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "ac265728-a661-5dc8-8a4b-7cc20fcd0b9d",
+          "source": {
+            "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+            "slug": "cnc-machine-tending",
+            "entity_type": "TASK",
+            "name": "CNC machine tending",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "ce079cc9-59cc-58ba-8594-e56dff62e65d",
+          "source": {
+            "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+            "slug": "assembly",
+            "entity_type": "TASK",
+            "name": "Assembly",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "dc768463-26ec-5d52-af14-71d273252162",
+          "source": {
+            "id": "60245a27-6286-59df-a3ed-9487c3c0d92a",
+            "slug": "palletizing",
+            "entity_type": "TASK",
+            "name": "Palletizing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "markets": [
+      {
+        "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+        "slug": "manufacturing",
+        "entity_type": "MARKET",
+        "name": "Manufacturing",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 2
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 6
+  },
+  "as_of": null
+}

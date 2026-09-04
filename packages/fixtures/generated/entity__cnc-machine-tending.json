@@ -1,0 +1,695 @@
+{
+  "entity": {
+    "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+    "slug": "cnc-machine-tending",
+    "entity_type": "TASK",
+    "name": "CNC machine tending",
+    "short_description": "Loading blanks into a machine tool and unloading finished parts, shift after shift, so the spindle keeps cutting.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "Machine loading",
+      "Machine tending"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "MATURE"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
+      "claims": [
+        {
+          "claim_id": "1f0f5e91-098a-5c0d-999b-3872b327d789",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Contract machine shops"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "5e52a7c1-8dfe-586a-96f4-cba07c718f92",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Tier 1 and Tier 2 automotive suppliers"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "b6c0ef5f-379e-5f6c-8cc3-df6f636f553f",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Machine tool builders and distributors"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "6d7230ce-3a84-5f11-b8eb-b5bd735c1074",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "MATURE"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_TECHNICAL_REQUIREMENT",
+      "label": "technical requirement",
+      "claims": [
+        {
+          "claim_id": "784fce6c-cb22-5bdc-9fa9-2a57a48ea1a6",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Machine controller integration"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "9d1e3c4e-eb1c-5872-8891-a8bc397422bc",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Reliable part presentation and gripping"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "c5599664-1420-5d08-b54e-64b4576f2316",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Fast changeover between part numbers"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_ADOPTION_BLOCKER",
+      "label": "adoption blocker",
+      "claims": [
+        {
+          "claim_id": "af7fe69a-30d2-558f-b6c9-e764dfaa3029",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Batch size economics"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "d0f89f8b-d3a9-5392-96c2-3d1b0cfc5c6c",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Programming skills on the shop floor"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "e2f62904-1ec1-528a-aee2-744374c54489",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Fixturing and part presentation cost"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_INCUMBENT_PROCESS",
+      "label": "incumbent process",
+      "claims": [
+        {
+          "claim_id": "e51a80d5-de8f-5145-a80f-6e2236752715",
+          "predicate": "HAS_INCUMBENT_PROCESS",
+          "value": {
+            "kind": "text",
+            "text": "An operator standing at the machine, opening the door, swapping the part and pressing cycle start, typically running two or three machines at once."
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "0452f793-64f0-5c74-8489-22864cd52747",
+          "target": {
+            "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
+            "slug": "cobot-tending-cell",
+            "entity_type": "APPROACH",
+            "name": "Cobot tending cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "4315cda4-0e26-5be8-8bde-84c3c3d06395",
+          "target": {
+            "id": "d6c78acc-fb7b-568f-b1af-28f50449cb17",
+            "slug": "mobile-manipulator-tending",
+            "entity_type": "APPROACH",
+            "name": "Mobile manipulator tending",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "7e982248-c580-5d07-bffb-0d242914d9a8",
+          "target": {
+            "id": "421d32b6-1844-5d0b-8ee9-d6995cf143dd",
+            "slug": "caged-arm-tending-cell",
+            "entity_type": "APPROACH",
+            "name": "Caged arm tending cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "ac265728-a661-5dc8-8a4b-7cc20fcd0b9d",
+          "target": {
+            "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+            "slug": "machine-tending",
+            "entity_type": "MARKET",
+            "name": "Machine tending",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
+      "items": [
+        {
+          "claim_id": "d43fc8ee-6d93-5b87-80be-b798bcc3072a",
+          "target": {
+            "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+            "slug": "assembly",
+            "entity_type": "TASK",
+            "name": "Assembly",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "e9883765-7602-5cfa-8d10-c8db9f009edb",
+          "target": {
+            "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+            "slug": "in-process-inspection",
+            "entity_type": "TASK",
+            "name": "In-process inspection",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "2f75535c-09eb-59e0-9a9c-e4440e694ef4",
+          "source": {
+            "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+            "slug": "fanuc",
+            "entity_type": "ORGANIZATION",
+            "name": "FANUC",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "2f9850d7-e875-5be1-b3fb-073617ae0f4b",
+          "source": {
+            "id": "fea14c4f-a335-569e-8de3-bc4b6a94b6ea",
+            "slug": "doosan-m1013",
+            "entity_type": "ROBOT",
+            "name": "Doosan M1013",
+            "primary_embodiment": "COBOT"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "2fd5d2a6-633e-51c7-8b0c-a866ba047162",
+          "source": {
+            "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+            "slug": "abb-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "ABB Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "3efcf5f1-ba91-59c7-a074-1021a66bac04",
+          "source": {
+            "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+            "slug": "techman-robot",
+            "entity_type": "ORGANIZATION",
+            "name": "Techman Robot",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "659fcb23-6c0b-55dc-8406-41010b08b014",
+          "source": {
+            "id": "12d4f360-9403-523f-a0bb-252978213506",
+            "slug": "yaskawa-motoman-gp12",
+            "entity_type": "ROBOT",
+            "name": "Yaskawa MOTOMAN GP12",
+            "primary_embodiment": "INDUSTRIAL_ARM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "892e0cc2-ba6f-5d68-ab89-54123cb21ade",
+          "source": {
+            "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+            "slug": "doosan-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Doosan Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "a9aed12b-aa94-5b8a-8dfc-b3f2638a8714",
+          "source": {
+            "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+            "slug": "universal-robots",
+            "entity_type": "ORGANIZATION",
+            "name": "Universal Robots",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "f180fd0c-0f2f-55b0-9790-f13231aa975b",
+          "source": {
+            "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+            "slug": "yaskawa",
+            "entity_type": "ORGANIZATION",
+            "name": "Yaskawa Electric",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
+      "items": [
+        {
+          "claim_id": "dca9130b-7b87-54a9-8be5-c0fb60f61aa1",
+          "source": {
+            "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+            "slug": "in-process-inspection",
+            "entity_type": "TASK",
+            "name": "In-process inspection",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "421d32b6-1844-5d0b-8ee9-d6995cf143dd",
+        "slug": "caged-arm-tending-cell",
+        "entity_type": "APPROACH",
+        "name": "Caged arm tending cell",
+        "primary_embodiment": null
+      },
+      {
+        "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
+        "slug": "cobot-tending-cell",
+        "entity_type": "APPROACH",
+        "name": "Cobot tending cell",
+        "primary_embodiment": null
+      },
+      {
+        "id": "d6c78acc-fb7b-568f-b1af-28f50449cb17",
+        "slug": "mobile-manipulator-tending",
+        "entity_type": "APPROACH",
+        "name": "Mobile manipulator tending",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+        "slug": "abb-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ABB Robotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+        "slug": "doosan-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Doosan Robotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+        "slug": "fanuc",
+        "entity_type": "ORGANIZATION",
+        "name": "FANUC",
+        "primary_embodiment": null
+      },
+      {
+        "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+        "slug": "techman-robot",
+        "entity_type": "ORGANIZATION",
+        "name": "Techman Robot",
+        "primary_embodiment": null
+      },
+      {
+        "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+        "slug": "universal-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Universal Robots",
+        "primary_embodiment": null
+      },
+      {
+        "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+        "slug": "yaskawa",
+        "entity_type": "ORGANIZATION",
+        "name": "Yaskawa Electric",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+        "slug": "machine-tending",
+        "entity_type": "MARKET",
+        "name": "Machine tending",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 17
+      },
+      "claim_count": 17,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 17,
+    "deployment_count": 0,
+    "related_count": 14
+  },
+  "as_of": null
+}

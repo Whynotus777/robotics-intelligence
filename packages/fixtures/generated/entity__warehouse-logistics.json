@@ -26,53 +26,28 @@
   "relationships": [],
   "inbound_relationships": [
     {
-      "predicate": "CHILD_OF",
-      "label": "is a domain of",
-      "items": [
-        {
-          "claim_id": "030182a4-c50c-5c2d-88a0-baf4302b0f3d",
-          "source": {
-            "id": "501d5b0b-94fb-5678-821c-49709246b039",
-            "slug": "yard-and-dock",
-            "entity_type": "MARKET",
-            "name": "Yard & dock",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "qualifier": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        },
-        {
-          "claim_id": "0ea37756-53bf-590a-8019-98c78f5caebb",
-          "source": {
-            "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
-            "slug": "material-movement",
-            "entity_type": "MARKET",
-            "name": "Warehouse",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "qualifier": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        }
-      ]
-    },
-    {
       "predicate": "TARGETS_MARKET",
       "label": "targets market",
       "items": [
+        {
+          "claim_id": "000d7271-b915-5709-9ce0-04e8b09f121e",
+          "source": {
+            "id": "b0f83f46-ab25-5f87-aed0-18c1598a442b",
+            "slug": "exotec",
+            "entity_type": "ORGANIZATION",
+            "name": "Exotec",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
         {
           "claim_id": "06945d0d-7478-586e-9d0c-1cfa0abedd43",
           "source": {
@@ -127,6 +102,44 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "886ed030-1f22-56f9-b2b6-ac7224f71056",
+          "source": {
+            "id": "aa6d7895-9539-532d-a5cd-3f41aa1efbaa",
+            "slug": "gatik-autonomous-box-truck",
+            "entity_type": "ROBOT",
+            "name": "Gatik autonomous box truck",
+            "primary_embodiment": "AUTONOMOUS_VEHICLE"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "913454ec-67b9-5d51-b04e-697b84010dd9",
+          "source": {
+            "id": "c9b84a3a-f7dd-578a-a6c9-6c0a2b061b1b",
+            "slug": "gatik",
+            "entity_type": "ORGANIZATION",
+            "name": "Gatik",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
             "source_count": 1
           }
         },
@@ -207,6 +220,63 @@
           }
         },
         {
+          "claim_id": "b6ed2cae-2acf-5e97-8323-4e34fbef885e",
+          "source": {
+            "id": "a1a3d963-78b7-5572-bf2a-0f1810db3337",
+            "slug": "six-river-systems",
+            "entity_type": "ORGANIZATION",
+            "name": "6 River Systems",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "b7ae6353-a259-5f9c-bf48-3bf1f5a932cf",
+          "source": {
+            "id": "32f4fe35-c685-537a-8ef0-68cd02e5ccc9",
+            "slug": "autostore",
+            "entity_type": "ORGANIZATION",
+            "name": "AutoStore",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "c4653f08-71f0-55e3-873e-873f58a8ae64",
+          "source": {
+            "id": "2af4b707-5460-5da6-b7ad-3addf359a049",
+            "slug": "geek-plus",
+            "entity_type": "ORGANIZATION",
+            "name": "Geek+",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "d5905a4c-86aa-5170-8b59-210434a78472",
           "source": {
             "id": "ba14d056-2a53-544b-b02c-713a99e06c56",
@@ -243,12 +313,82 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "ed9ea150-0f31-51f3-be26-115edffce43a",
+          "source": {
+            "id": "3cb0b126-ccfc-5bfb-be9a-95938e0d69f8",
+            "slug": "zebra-technologies",
+            "entity_type": "ORGANIZATION",
+            "name": "Zebra Technologies",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "CHILD_OF",
+      "label": "is a domain of",
+      "items": [
+        {
+          "claim_id": "030182a4-c50c-5c2d-88a0-baf4302b0f3d",
+          "source": {
+            "id": "501d5b0b-94fb-5678-821c-49709246b039",
+            "slug": "yard-and-dock",
+            "entity_type": "MARKET",
+            "name": "Yard & dock",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "0ea37756-53bf-590a-8019-98c78f5caebb",
+          "source": {
+            "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+            "slug": "material-movement",
+            "entity_type": "MARKET",
+            "name": "Warehouse",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "a1a3d963-78b7-5572-bf2a-0f1810db3337",
+        "slug": "six-river-systems",
+        "entity_type": "ORGANIZATION",
+        "name": "6 River Systems",
+        "primary_embodiment": null
+      },
       {
         "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
         "slug": "agility",
@@ -264,10 +404,38 @@
         "primary_embodiment": null
       },
       {
+        "id": "32f4fe35-c685-537a-8ef0-68cd02e5ccc9",
+        "slug": "autostore",
+        "entity_type": "ORGANIZATION",
+        "name": "AutoStore",
+        "primary_embodiment": null
+      },
+      {
+        "id": "b0f83f46-ab25-5f87-aed0-18c1598a442b",
+        "slug": "exotec",
+        "entity_type": "ORGANIZATION",
+        "name": "Exotec",
+        "primary_embodiment": null
+      },
+      {
         "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
         "slug": "fox-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Fox Robotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "c9b84a3a-f7dd-578a-a6c9-6c0a2b061b1b",
+        "slug": "gatik",
+        "entity_type": "ORGANIZATION",
+        "name": "Gatik",
+        "primary_embodiment": null
+      },
+      {
+        "id": "2af4b707-5460-5da6-b7ad-3addf359a049",
+        "slug": "geek-plus",
+        "entity_type": "ORGANIZATION",
+        "name": "Geek+",
         "primary_embodiment": null
       },
       {
@@ -304,6 +472,13 @@
         "entity_type": "ORGANIZATION",
         "name": "Vecna Robotics",
         "primary_embodiment": null
+      },
+      {
+        "id": "3cb0b126-ccfc-5bfb-be9a-95938e0d69f8",
+        "slug": "zebra-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "Zebra Technologies",
+        "primary_embodiment": null
       }
     ],
     "markets": [
@@ -338,7 +513,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 11
+    "related_count": 18
   },
   "as_of": null
 }

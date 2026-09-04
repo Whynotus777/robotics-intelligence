@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "d6995c54-312d-54fb-8788-b8709754b860",
+    "subject": {
+      "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
+      "slug": "galbot",
+      "entity_type": "ORGANIZATION",
+      "name": "Galbot",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Galbot builds Galbot G1",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f48a2189-2c89-576f-a2d6-7ff9ba533210",
+        "slug": "galbot-g1",
+        "entity_type": "ROBOT",
+        "name": "Galbot G1",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c0bef895-2864-5772-8d93-a24c6c0189f3",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "G1 is presented as the company's robot platform.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8d8cd5bd-c632-5ddc-98a8-a3451056c289",
+        "url": "https://www.galbot.com/en",
+        "canonical_url": null,
+        "publisher": "Galbot",
+        "title": "Galbot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

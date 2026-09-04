@@ -50,6 +50,50 @@
       ]
     },
     {
+      "predicate": "DEVELOPS",
+      "label": "develops",
+      "items": [
+        {
+          "claim_id": "78599645-a52a-5884-873e-377551062f43",
+          "target": {
+            "id": "416d598d-01ab-563f-ba08-b6c58a9c6320",
+            "slug": "nvidia-isaac-gr00t-n1",
+            "entity_type": "MODEL",
+            "name": "NVIDIA Isaac GR00T N1",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "fed75d3d-8f86-5013-988e-7e75672191bd",
+          "target": {
+            "id": "7a815a44-1bd7-5a3c-b191-f9ce732e5ec1",
+            "slug": "nvidia-isaac-sim",
+            "entity_type": "SOFTWARE_PRODUCT",
+            "name": "NVIDIA Isaac Sim",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "PROVIDES",
       "label": "provides",
       "items": [
@@ -79,31 +123,6 @@
             "slug": "nvidia-jetson-thor",
             "entity_type": "COMPONENT_PRODUCT",
             "name": "NVIDIA Jetson Thor",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "qualifier": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "DEVELOPS",
-      "label": "develops",
-      "items": [
-        {
-          "claim_id": "fed75d3d-8f86-5013-988e-7e75672191bd",
-          "target": {
-            "id": "7a815a44-1bd7-5a3c-b191-f9ce732e5ec1",
-            "slug": "nvidia-isaac-sim",
-            "entity_type": "SOFTWARE_PRODUCT",
-            "name": "NVIDIA Isaac Sim",
             "primary_embodiment": null
           },
           "stack_layer": null,
@@ -163,6 +182,25 @@
           }
         },
         {
+          "claim_id": "bb4047ad-cae3-5fb1-8868-9be1ca313acc",
+          "source": {
+            "id": "416d598d-01ab-563f-ba08-b6c58a9c6320",
+            "slug": "nvidia-isaac-gr00t-n1",
+            "entity_type": "MODEL",
+            "name": "NVIDIA Isaac GR00T N1",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "c6e4ba36-3323-5e84-a989-2e3a425d6422",
           "source": {
             "id": "40524241-ae32-56e4-a625-84a0dc3ffb5d",
@@ -198,19 +236,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 4,
+        "PRIMARY": 5,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 4,
+      "claim_count": 5,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 4,
+    "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 4
+    "related_count": 5
   },
   "as_of": null
 }

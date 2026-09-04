@@ -1,0 +1,31 @@
+slug: sanctuary-phoenix
+entity_type: ROBOT
+name: Sanctuary Phoenix
+short_description: Humanoid built around hydraulic dexterous hands, with teleoperation used as the data engine for autonomy.
+primary_embodiment: HUMANOID
+country_code: CA
+depth_tier: DISCOVERY
+aliases: [Phoenix]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: HUMANOID
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: sanctuary-site
+    excerpt: Phoenix is presented as a general-purpose humanoid robot.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: PROTOTYPE
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: sanctuary-site
+    excerpt: Presented as a research and pilot platform rather than a catalogue product.
+- predicate: HAS_ARCHITECTURE_NOTE
+  stack_layer: END_EFFECTOR_PAYLOAD
+  text: "The hands are the product thesis: high-DOF hydraulic hands aimed at human-equivalent manipulation, on the bet that dexterity, not locomotion, is what gates useful work."
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: sanctuary-site
+    excerpt: Company materials emphasise dexterous hydraulic hands.

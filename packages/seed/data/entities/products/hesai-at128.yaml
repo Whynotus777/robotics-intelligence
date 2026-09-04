@@ -1,0 +1,22 @@
+slug: hesai-at128
+entity_type: COMPONENT_PRODUCT
+name: Hesai AT128
+short_description: Long-range automotive lidar shipped at series-production volumes into Chinese OEM programmes.
+country_code: CN
+depth_tier: DISCOVERY
+aliases: [AT128]
+claims:
+- predicate: MADE_BY
+  object: hesai
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: hesai-at128-page
+    excerpt: AT128 is listed in Hesai's product range.
+- predicate: IS_INSTANCE_OF
+  object: 3d-lidar
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: hesai-at128-page
+    excerpt: Presented as a long-range lidar sensor.

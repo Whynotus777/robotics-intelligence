@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "3169a685-0876-5200-b100-34cecdebf8a0",
+    "subject": {
+      "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+      "slug": "skild-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Skild AI",
+      "primary_embodiment": null
+    },
+    "predicate": "DEVELOPS",
+    "label": "develops",
+    "sentence": "Skild AI develops Skild Brain",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "041263f5-f36b-59ab-b31e-0c5adee373ab",
+        "slug": "skild-brain",
+        "entity_type": "MODEL",
+        "name": "Skild Brain",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "03368bdf-7d4f-5665-9bca-90f8e2696075",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "The company describes a general-purpose robot brain model.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "abffa19f-191f-5d39-87fe-6bef5992a4d8",
+        "url": "https://www.skild.ai/",
+        "canonical_url": null,
+        "publisher": "Skild AI",
+        "title": "Skild AI",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -24,8 +24,96 @@
   "place": null,
   "claims": [],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "8475cdf1-41b2-5cd8-a505-02c591abbc39",
+          "source": {
+            "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
+            "slug": "fourier-intelligence",
+            "entity_type": "ORGANIZATION",
+            "name": "Fourier Intelligence",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "8e40df5c-5e16-5535-92ef-e6a05eab59dd",
+          "source": {
+            "id": "2b6c10f5-2b2d-57f9-bca9-b5826f71f58f",
+            "slug": "wingcopter",
+            "entity_type": "ORGANIZATION",
+            "name": "Wingcopter",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "f1f503c6-2939-566d-b977-1cdf974129c3",
+          "source": {
+            "id": "371b8e82-3403-50d4-be34-8d2ce0408277",
+            "slug": "zipline",
+            "entity_type": "ORGANIZATION",
+            "name": "Zipline",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
+        "slug": "fourier-intelligence",
+        "entity_type": "ORGANIZATION",
+        "name": "Fourier Intelligence",
+        "primary_embodiment": null
+      },
+      {
+        "id": "2b6c10f5-2b2d-57f9-bca9-b5826f71f58f",
+        "slug": "wingcopter",
+        "entity_type": "ORGANIZATION",
+        "name": "Wingcopter",
+        "primary_embodiment": null
+      },
+      {
+        "id": "371b8e82-3403-50d4-be34-8d2ce0408277",
+        "slug": "zipline",
+        "entity_type": "ORGANIZATION",
+        "name": "Zipline",
+        "primary_embodiment": null
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -41,7 +129,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 3
   },
   "as_of": null
 }

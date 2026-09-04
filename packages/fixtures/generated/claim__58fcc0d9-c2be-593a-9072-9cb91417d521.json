@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "58fcc0d9-c2be-593a-9072-9cb91417d521",
+    "subject": {
+      "id": "aee2df0e-15d7-595b-aa32-8cd84a7f08cb",
+      "slug": "flyability-elios-3",
+      "entity_type": "ROBOT",
+      "name": "Flyability Elios 3",
+      "primary_embodiment": "DRONE"
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Flyability Elios 3 targets task Contact NDT",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+        "slug": "contact-ndt",
+        "entity_type": "TASK",
+        "name": "Contact NDT",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "457f5307-54f6-5842-8af5-b7996333ec18",
+      "class": "PRIMARY",
+      "confidence": "LOW",
+      "stance": "SUPPORTS",
+      "excerpt": "Inspection payload options are offered for asset condition assessment; contact measurement is a payload-dependent capability.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "936daca5-444e-5f98-845a-91b0e10b1390",
+        "url": "https://www.flyability.com/elios-3",
+        "canonical_url": null,
+        "publisher": "Flyability",
+        "title": "Elios 3 indoor inspection drone",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

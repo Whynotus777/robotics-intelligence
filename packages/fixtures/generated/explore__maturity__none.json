@@ -3,15 +3,95 @@
   "measure": "none",
   "regions": [
     {
+      "id": "MATURE",
+      "label": "MATURE",
+      "count": 5,
+      "districts": [
+        {
+          "id": "MATURE",
+          "label": "MATURE",
+          "count": 5,
+          "entities": [
+            {
+              "chip": {
+                "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+                "slug": "automated-storage-and-retrieval",
+                "entity_type": "TASK",
+                "name": "Automated storage and retrieval",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+                "slug": "blade-visual-inspection",
+                "entity_type": "TASK",
+                "name": "Blade visual inspection",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+                "slug": "cnc-machine-tending",
+                "entity_type": "TASK",
+                "name": "CNC machine tending",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+                "slug": "industrial-welding",
+                "entity_type": "TASK",
+                "name": "Industrial welding",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "60245a27-6286-59df-a3ed-9487c3c0d92a",
+                "slug": "palletizing",
+                "entity_type": "TASK",
+                "name": "Palletizing",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "EARLY_COMMERCIAL",
       "label": "EARLY_COMMERCIAL",
-      "count": 3,
+      "count": 4,
       "districts": [
         {
           "id": "EARLY_COMMERCIAL",
           "label": "EARLY_COMMERCIAL",
-          "count": 3,
+          "count": 4,
           "entities": [
+            {
+              "chip": {
+                "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+                "slug": "assembly",
+                "entity_type": "TASK",
+                "name": "Assembly",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
             {
               "chip": {
                 "id": "7831a686-465b-5c38-9904-bf9354227e01",
@@ -40,6 +120,64 @@
                 "slug": "lightning-protection-testing",
                 "entity_type": "TASK",
                 "name": "Lightning-protection testing",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SCALING",
+      "label": "SCALING",
+      "count": 4,
+      "districts": [
+        {
+          "id": "SCALING",
+          "label": "SCALING",
+          "count": 4,
+          "entities": [
+            {
+              "chip": {
+                "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+                "slug": "each-picking-assistance",
+                "entity_type": "TASK",
+                "name": "Each-picking assistance",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+                "slug": "in-process-inspection",
+                "entity_type": "TASK",
+                "name": "In-process inspection",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+                "slug": "pallet-movement",
+                "entity_type": "TASK",
+                "name": "Pallet movement",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+                "slug": "tower-nacelle-inspection",
+                "entity_type": "TASK",
+                "name": "Tower and nacelle inspection",
                 "primary_embodiment": null
               },
               "measure_value": null,
@@ -95,92 +233,32 @@
           ]
         }
       ]
-    },
-    {
-      "id": "SCALING",
-      "label": "SCALING",
-      "count": 3,
-      "districts": [
-        {
-          "id": "SCALING",
-          "label": "SCALING",
-          "count": 3,
-          "entities": [
-            {
-              "chip": {
-                "id": "049a4db5-938c-5625-b226-2831e05e34e1",
-                "slug": "each-picking-assistance",
-                "entity_type": "TASK",
-                "name": "Each-picking assistance",
-                "primary_embodiment": null
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
-                "slug": "pallet-movement",
-                "entity_type": "TASK",
-                "name": "Pallet movement",
-                "primary_embodiment": null
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
-                "slug": "tower-nacelle-inspection",
-                "entity_type": "TASK",
-                "name": "Tower and nacelle inspection",
-                "primary_embodiment": null
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "MATURE",
-      "label": "MATURE",
-      "count": 2,
-      "districts": [
-        {
-          "id": "MATURE",
-          "label": "MATURE",
-          "count": 2,
-          "entities": [
-            {
-              "chip": {
-                "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
-                "slug": "automated-storage-and-retrieval",
-                "entity_type": "TASK",
-                "name": "Automated storage and retrieval",
-                "primary_embodiment": null
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
-                "slug": "blade-visual-inspection",
-                "entity_type": "TASK",
-                "name": "Blade visual inspection",
-                "primary_embodiment": null
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            }
-          ]
-        }
-      ]
     }
   ],
   "whats_changing": [
+    {
+      "id": "0030e49b-2605-5b9e-9032-c591cf9451d8",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "c96b4942-8858-59aa-aac5-09f15dd6bddc",
+        "slug": "deep-robotics-x30",
+        "entity_type": "ROBOT",
+        "name": "Deep Robotics X30",
+        "primary_embodiment": "QUADRUPED"
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "QUADRUPED"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Deep Robotics X30: has embodiment approved."
+    },
     {
       "id": "0066a637-73ac-5037-9b5f-0b090e436ccc",
       "event_type": "CLAIM_CHANGED",
@@ -212,6 +290,29 @@
       "summary": "BladeBUG: targets market approved."
     },
     {
+      "id": "01098c7a-9c46-533e-a1c6-1312e0ed9acf",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+        "slug": "in-process-inspection",
+        "entity_type": "TASK",
+        "name": "In-process inspection",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "False reject cost"
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "In-process inspection: has adoption blocker approved."
+    },
+    {
       "id": "01531fe0-e88f-57b4-8bc2-0a314c0ba2d1",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -235,46 +336,23 @@
       "summary": "Apptronik Apollo: has embodiment approved."
     },
     {
-      "id": "01b5e66a-50e3-53e2-84ea-7c1b67fb5971",
+      "id": "0155e365-b112-55e0-a68a-dc51fbbda42c",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
-        "slug": "rope-cable-suspended-robot",
-        "entity_type": "APPROACH",
-        "name": "Rope/cable-suspended robot",
-        "primary_embodiment": null
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OTHER_MOBILE"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Rope/cable-suspended robot: uses embodiment approved."
-    },
-    {
-      "id": "024d5306-849b-5afc-99d8-31579b95f824",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
-        "slug": "agility",
+        "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
+        "slug": "fourier-intelligence",
         "entity_type": "ORGANIZATION",
-        "name": "Agility Robotics",
+        "name": "Fourier Intelligence",
         "primary_embodiment": null
       },
       "before": null,
       "after": {
         "kind": "entity",
         "entity": {
-          "id": "68407748-0447-505b-aa53-0d87ab606e33",
-          "slug": "warehouse-logistics",
-          "entity_type": "MARKET",
-          "name": "Warehouse & Logistics",
+          "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+          "slug": "shanghai",
+          "entity_type": "PLACE",
+          "name": "Shanghai",
           "primary_embodiment": null
         },
         "measure": null
@@ -285,37 +363,7 @@
         "source_count": 1
       },
       "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Agility Robotics: targets market approved."
-    },
-    {
-      "id": "026c7d43-3355-5e41-a9c6-7159d3088702",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
-        "slug": "contact-ndt",
-        "entity_type": "TASK",
-        "name": "Contact NDT",
-        "primary_embodiment": null
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
-          "slug": "wind",
-          "entity_type": "MARKET",
-          "name": "Wind",
-          "primary_embodiment": null
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "HIGH",
-        "source_count": 0
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Contact NDT: belongs to market approved."
+      "summary": "Fourier Intelligence: hq at approved."
     }
   ],
   "as_of": null

@@ -71,9 +71,69 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "47cbe5db-6835-53e7-8b4b-da3a8798f240",
+          "source": {
+            "id": "a1bdb99a-8e70-58d4-9058-06b7c8836c8a",
+            "slug": "intel-realsense-d435i",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "Intel RealSense D435i",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "REQUIRES_TECHNOLOGY",
+      "label": "requires",
+      "items": [
+        {
+          "claim_id": "97ba38da-fd4c-58d7-8617-9289660d2f3a",
+          "source": {
+            "id": "d8f60b1b-aa0b-56e5-b406-351cb45a68fb",
+            "slug": "robot-mounted-vision-inspection",
+            "entity_type": "APPROACH",
+            "name": "Robot-mounted vision inspection",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
     }
   ],
-  "lateral_links": {},
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "d8f60b1b-aa0b-56e5-b406-351cb45a68fb",
+        "slug": "robot-mounted-vision-inspection",
+        "entity_type": "APPROACH",
+        "name": "Robot-mounted vision inspection",
+        "primary_embodiment": null
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -89,7 +149,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 4
   },
   "as_of": null
 }

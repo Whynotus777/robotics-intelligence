@@ -1,0 +1,78 @@
+{
+  "claim": {
+    "claim_id": "2ba9bbb6-b054-55dc-863f-500676f5dfaf",
+    "subject": {
+      "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
+      "slug": "robotic-arc-welding-cell",
+      "entity_type": "APPROACH",
+      "name": "Robotic arc welding cell",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "Robotic arc welding cell example vendor ABB Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+        "slug": "abb-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ABB Robotics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e5a329f8-be64-5adc-a798-bdd57cd3df40",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Welding is named among robotics applications.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f49fb07b-3c7d-5849-8fba-920a543e9d18",
+        "url": "https://new.abb.com/products/robotics",
+        "canonical_url": null,
+        "publisher": "ABB",
+        "title": "ABB Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "7cafcb02-818b-5e75-9d54-e75b612b11bc",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+          "slug": "yaskawa",
+          "entity_type": "ORGANIZATION",
+          "name": "Yaskawa Electric",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

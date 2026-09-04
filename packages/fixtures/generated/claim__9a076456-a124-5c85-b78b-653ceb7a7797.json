@@ -1,0 +1,53 @@
+{
+  "claim": {
+    "claim_id": "9a076456-a124-5c85-b78b-653ceb7a7797",
+    "subject": {
+      "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+      "slug": "assembly",
+      "entity_type": "TASK",
+      "name": "Assembly",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_INCUMBENT_PROCESS",
+    "label": "incumbent process",
+    "sentence": "Assembly incumbent process Manual assembly at a bench or a moving line, with jigs, torque drivers and a trained operator absorbing every part variation without anyone writing it down.",
+    "value": {
+      "kind": "text",
+      "text": "Manual assembly at a bench or a moving line, with jigs, torque drivers and a trained operator absorbing every part variation without anyone writing it down."
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "69da2cfd-67ba-5c9d-9013-19b623bc49ca",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Human hands remain extraordinarily good at compliant insertion and at silently compensating for parts that are out of spec — which is exactly what makes the automation gap so persistent.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

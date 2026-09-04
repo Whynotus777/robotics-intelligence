@@ -1,0 +1,240 @@
+{
+  "entity": {
+    "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
+    "slug": "cobot-tending-cell",
+    "entity_type": "APPROACH",
+    "name": "Cobot tending cell",
+    "short_description": "A collaborative arm parked at a machine door, loading and unloading blanks and finished parts without a fence.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "MATURE"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "USES_EMBODIMENT",
+      "label": "uses embodiment",
+      "claims": [
+        {
+          "claim_id": "2a5eb78a-664f-5651-b58f-a46382402b1f",
+          "predicate": "USES_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "COBOT"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "91117e64-dfed-5a4e-b977-8ffd038fa740",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "MATURE"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_TECHNICAL_REQUIREMENT",
+      "label": "technical requirement",
+      "claims": [
+        {
+          "claim_id": "b9f9b114-2c20-508d-9c52-3bec5890a909",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Reach into the machine envelope without fencing"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "2381f548-5d3e-500c-8601-937c57995431",
+          "target": {
+            "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+            "slug": "universal-robots",
+            "entity_type": "ORGANIZATION",
+            "name": "Universal Robots",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "83a1f972-2d1d-5591-a868-4dce0104bc5b",
+          "target": {
+            "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+            "slug": "techman-robot",
+            "entity_type": "ORGANIZATION",
+            "name": "Techman Robot",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "c708c870-02c9-5b36-9041-917193d3a9b3",
+          "target": {
+            "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+            "slug": "doosan-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Doosan Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "0452f793-64f0-5c74-8489-22864cd52747",
+          "source": {
+            "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+            "slug": "cnc-machine-tending",
+            "entity_type": "TASK",
+            "name": "CNC machine tending",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+        "slug": "doosan-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Doosan Robotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+        "slug": "techman-robot",
+        "entity_type": "ORGANIZATION",
+        "name": "Techman Robot",
+        "primary_embodiment": null
+      },
+      {
+        "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+        "slug": "universal-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Universal Robots",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 4,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 2
+      },
+      "claim_count": 6,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 6,
+    "deployment_count": 0,
+    "related_count": 4
+  },
+  "as_of": null
+}

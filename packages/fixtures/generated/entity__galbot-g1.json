@@ -1,0 +1,173 @@
+{
+  "entity": {
+    "id": "f48a2189-2c89-576f-a2d6-7ff9ba533210",
+    "slug": "galbot-g1",
+    "entity_type": "ROBOT",
+    "name": "Galbot G1",
+    "short_description": "Wheeled dual-arm humanoid working unmanned retail stores, where a constrained environment buys reliable manipulation data.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": "HUMANOID",
+    "country_code": "CN",
+    "aliases": [
+      "G1 wheeled humanoid"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": "PILOT_DEPLOYMENTS",
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "069e3ad6-dcb2-52a6-aa33-96167730c3c1",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "ba006766-8432-5d51-8209-010e58c84a11",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "PILOT_DEPLOYMENTS"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "4d3c3da3-f49e-5c89-a831-f95a03a1674c",
+          "target": {
+            "id": "8b8c0af0-2404-5bd1-9a00-ae94406f4b1b",
+            "slug": "retail-service",
+            "entity_type": "MARKET",
+            "name": "Retail & Service",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "d6995c54-312d-54fb-8788-b8709754b860",
+          "source": {
+            "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
+            "slug": "galbot",
+            "entity_type": "ORGANIZATION",
+            "name": "Galbot",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
+        "slug": "galbot",
+        "entity_type": "ORGANIZATION",
+        "name": "Galbot",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "8b8c0af0-2404-5bd1-9a00-ae94406f4b1b",
+        "slug": "retail-service",
+        "entity_type": "MARKET",
+        "name": "Retail & Service",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 3,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

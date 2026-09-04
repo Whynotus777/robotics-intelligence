@@ -49,6 +49,25 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "e6a06cd6-ff07-54fe-8bf7-e8d0f326c300",
+          "target": {
+            "id": "709d836b-770d-5250-bdb3-e4b15e6d27ee",
+            "slug": "pi05",
+            "entity_type": "MODEL",
+            "name": "Physical Intelligence pi-0.5",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     },
@@ -109,6 +128,25 @@
       "label": "is made by",
       "items": [
         {
+          "claim_id": "234cbb53-122f-5b29-a6bc-9be01a8d66ed",
+          "source": {
+            "id": "709d836b-770d-5250-bdb3-e4b15e6d27ee",
+            "slug": "pi05",
+            "entity_type": "MODEL",
+            "name": "Physical Intelligence pi-0.5",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "6a6fc57c-4f4b-5051-92e9-995951791dbc",
           "source": {
             "id": "3efa143b-c4c7-5c49-bc42-af2abd624356",
@@ -144,19 +182,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 3,
         "THIRD_PARTY": 0,
         "ACADEMIC": 1,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 4
   },
   "as_of": null
 }

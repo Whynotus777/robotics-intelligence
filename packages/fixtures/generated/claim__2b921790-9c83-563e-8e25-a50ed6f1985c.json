@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "2b921790-9c83-563e-8e25-a50ed6f1985c",
+    "subject": {
+      "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+      "slug": "doosan-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Doosan Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Doosan Robotics is headquartered at Suwon",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f89a18fb-337d-5e25-91da-66048da131d4",
+        "slug": "suwon",
+        "entity_type": "PLACE",
+        "name": "Suwon",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2671f071-f109-5c08-8eca-fd260f783e8f",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives a Gyeonggi-province headquarters and plant.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e64db866-6bab-5cff-8dd5-4ee3b9099603",
+        "url": "https://www.doosanrobotics.com/en",
+        "canonical_url": null,
+        "publisher": "Doosan Robotics",
+        "title": "Doosan Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,30 @@
+slug: ubtech-walker-s1
+entity_type: ROBOT
+name: UBTech Walker S1
+short_description: Industrial humanoid trialled on Chinese automotive assembly lines for handling and inspection tasks.
+primary_embodiment: HUMANOID
+country_code: CN
+depth_tier: DISCOVERY
+aliases: [Walker S1]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: HUMANOID
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: ubtech-site
+    excerpt: Walker S1 is presented as an industrial humanoid robot.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: PILOT_DEPLOYMENTS
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: ubtech-site
+    excerpt: Described as running trials on automotive production lines.
+- predicate: TARGETS_MARKET
+  object: automotive
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: ubtech-site
+    excerpt: Automotive plants are the named trial environment.

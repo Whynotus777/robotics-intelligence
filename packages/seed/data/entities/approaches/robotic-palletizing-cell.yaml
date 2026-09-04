@@ -1,0 +1,40 @@
+slug: robotic-palletizing-cell
+entity_type: APPROACH
+name: Robotic palletizing cell
+short_description: A dedicated arm at the end of a line stacking cases or bags to a pattern, usually with a vacuum or clamp tool.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: MATURE
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: "End-of-line palletizing is the single most standardised robot application in existence: the part geometry is a box, the pattern is software, and the vendors sell it as a configured product with a quoted rate. Buyers argue about price and footprint, not feasibility."
+          advance_criteria:
+            - Already at the top of the scale; watch mixed-SKU pattern building as the next frontier
+          regress_criteria:
+            - None credible
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: INDUSTRIAL_ARM
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: abb-irb6700-page
+        excerpt: Palletizing is a named application for high-payload arms.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: fanuc
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: fanuc-site
+        excerpt: Palletizing is a named application in the industrial robot range.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: kuka
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: kuka-site
+        excerpt: Palletizing is named among industrial automation applications.

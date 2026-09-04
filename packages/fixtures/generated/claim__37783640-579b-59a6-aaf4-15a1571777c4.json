@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "37783640-579b-59a6-aaf4-15a1571777c4",
+    "subject": {
+      "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
+      "slug": "anybotics",
+      "entity_type": "ORGANIZATION",
+      "name": "ANYbotics",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "ANYbotics targets task Tower and nacelle inspection",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+        "slug": "tower-nacelle-inspection",
+        "entity_type": "TASK",
+        "name": "Tower and nacelle inspection",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3758aee9-0d6c-50b8-93c1-6fdbf6f16c5a",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "ANYmal is positioned for routine inspection rounds on industrial assets.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "a896e3a6-345e-5ab8-a229-ae1be439c9d7",
+        "url": "https://www.anybotics.com/robotics/anymal/",
+        "canonical_url": null,
+        "publisher": "ANYbotics",
+        "title": "ANYmal inspection robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

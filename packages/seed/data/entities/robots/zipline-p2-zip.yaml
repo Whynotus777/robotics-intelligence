@@ -1,0 +1,31 @@
+slug: zipline-p2-zip
+entity_type: ROBOT
+name: Zipline P2 Zip
+short_description: Second-generation delivery aircraft that hovers and lowers a tethered droid to place the package, rather than parachuting it.
+primary_embodiment: DRONE
+country_code: US
+depth_tier: DISCOVERY
+aliases: [P2 Zip]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: DRONE
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: zipline-site
+    excerpt: P2 is presented as the company's delivery aircraft.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: COMMERCIAL
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: zipline-site
+    excerpt: Operated as a paid delivery service on live customer routes.
+- predicate: HAS_ARCHITECTURE_NOTE
+  stack_layer: END_EFFECTOR_PAYLOAD
+  text: Delivery is done by a tethered droid lowered from the hovering aircraft, which keeps the aircraft high and quiet and puts the precision problem in a small, cheap, replaceable part.
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: zipline-site
+    excerpt: The P2 delivery method is described as a droid lowered on a tether.

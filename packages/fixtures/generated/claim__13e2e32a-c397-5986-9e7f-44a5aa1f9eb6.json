@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "13e2e32a-c397-5986-9e7f-44a5aa1f9eb6",
+    "subject": {
+      "id": "c96b4942-8858-59aa-aac5-09f15dd6bddc",
+      "slug": "deep-robotics-x30",
+      "entity_type": "ROBOT",
+      "name": "Deep Robotics X30",
+      "primary_embodiment": "QUADRUPED"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "Deep Robotics X30 embodiment QUADRUPED",
+    "value": {
+      "kind": "enum",
+      "value": "QUADRUPED"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0b8a7c8c-c7d2-50df-be96-470f9073ed2b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "X30 is presented as a four-legged industrial inspection robot.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "3e77488f-1ab6-5fce-91fd-b06e5baebb77",
+        "url": "https://www.deeprobotics.cn/en",
+        "canonical_url": null,
+        "publisher": "Deep Robotics",
+        "title": "Deep Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,35 @@
+slug: percepto
+entity_type: ORGANIZATION
+name: Percepto
+short_description: Israeli drone-in-a-box vendor selling resident, remotely supervised inspection flights over industrial sites.
+country_code: IL
+depth_tier: DISCOVERY
+claims:
+- predicate: HQ_AT
+  object: modiin
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: percepto-site
+    excerpt: Company site gives an Israeli headquarters.
+- predicate: TARGETS_MARKET
+  object: energy
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: percepto-site
+    excerpt: Energy and utility sites are named customer environments.
+- predicate: TARGETS_TASK
+  object: tower-nacelle-inspection
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: percepto-site
+    excerpt: Autonomous inspection of fixed industrial assets is the core offering.
+- predicate: BUILDS
+  object: percepto-air-mobile
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: percepto-site
+    excerpt: The Air Mobile drone-in-a-box is listed in the product range.

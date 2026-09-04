@@ -1,0 +1,43 @@
+slug: doosan-robotics
+entity_type: ORGANIZATION
+name: Doosan Robotics
+short_description: Korean cobot maker, listed in Seoul in 2023; M, A and H series collaborative arms built near Suwon.
+country_code: KR
+depth_tier: DISCOVERY
+aliases: [Doosan]
+claims:
+- predicate: HQ_AT
+  object: suwon
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: doosan-robotics-site
+    excerpt: Company site gives a Gyeonggi-province headquarters and plant.
+- predicate: TARGETS_MARKET
+  object: manufacturing
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: doosan-robotics-site
+    excerpt: Collaborative robots positioned for manufacturing and service applications.
+- predicate: BUILDS
+  object: doosan-m1013
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: doosan-m-series-page
+    excerpt: M1013 is listed in the M series collaborative robot range.
+- predicate: TARGETS_TASK
+  object: cnc-machine-tending
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: doosan-m-series-page
+    excerpt: Machine tending is a named application for the M series.
+- predicate: TARGETS_TASK
+  object: palletizing
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: doosan-robotics-site
+    excerpt: Palletizing is presented among the company's application packages.

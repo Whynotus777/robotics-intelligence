@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "668819b8-0cac-5c5e-90b5-3f44a049b87e",
+    "subject": {
+      "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
+      "slug": "waymo",
+      "entity_type": "ORGANIZATION",
+      "name": "Waymo",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Waymo targets market Automotive",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
+        "slug": "automotive",
+        "entity_type": "MARKET",
+        "name": "Automotive",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1bb3c9ed-a96c-53c7-b66e-5ef7b3478891",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "The Waymo Driver is presented as an autonomous driving system for vehicles.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "d35e05b7-5dde-581c-a5a8-1e7b942c0ffc",
+        "url": "https://waymo.com/waymo-driver/",
+        "canonical_url": null,
+        "publisher": "Waymo",
+        "title": "The Waymo Driver",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

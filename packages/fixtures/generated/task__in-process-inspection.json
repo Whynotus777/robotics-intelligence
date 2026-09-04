@@ -1,0 +1,401 @@
+{
+  "task": {
+    "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+    "slug": "in-process-inspection",
+    "entity_type": "TASK",
+    "name": "In-process inspection",
+    "primary_embodiment": null
+  },
+  "short_description": "Checking parts for dimensional and cosmetic defects on the line, rather than pulling samples to a quality lab afterwards.",
+  "market_path": [
+    {
+      "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+      "slug": "manufacturing",
+      "entity_type": "MARKET",
+      "name": "Manufacturing",
+      "primary_embodiment": null
+    },
+    {
+      "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+      "slug": "machine-tending",
+      "entity_type": "MARKET",
+      "name": "Machine tending",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "SCALING",
+    "claim_id": "bee6d41c-ec86-5a37-9b4e-0a478c0e9506",
+    "qualifier": null,
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "Fixed machine vision has been production-standard for decades and learned defect detection is now shipping in real plants, not just pilots — which puts this well past early commercial. It is not mature because the two halves have not merged: the fixed station is validated but blind to new parts, and the learned model that handles variety still struggles to get through a quality department's sign-off. Scaling, with the sign-off problem as the gate.",
+      "advance_criteria": [
+        "Learned defect models accepted as the system of record in customer quality systems",
+        "Inspection requalified for a new part without re-engineering the optics",
+        "Arm-mounted inspection matching fixed-station cycle times on production lines"
+      ],
+      "regress_criteria": [
+        "A quality escape traced to a learned model that pushes buyers back to rule-based vision"
+      ],
+      "evidence_considered": [
+        {
+          "claim_id": "c3f60fe4-0104-5548-967d-cc1b81145fdf",
+          "sentence": "Fixed machine vision station maturity MATURE"
+        },
+        {
+          "claim_id": "ba197658-b313-5854-a7b9-21d645508a3b",
+          "sentence": "Robot-mounted vision inspection maturity EARLY_COMMERCIAL"
+        }
+      ],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "4587a630-7bf7-5ab4-b5a5-4f0a0f3206b2",
+      "text": "An operator eyeballing parts against a boundary sample, plus a periodic trip to a CMM or gauge lab for dimensional checks on a sample.",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Sampling means defects are found batches late, and human visual inspection degrades measurably across a shift — the two facts that fund every inspection automation project.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "approaches": [
+    {
+      "approach": {
+        "id": "d8f60b1b-aa0b-56e5-b406-351cb45a68fb",
+        "slug": "robot-mounted-vision-inspection",
+        "entity_type": "APPROACH",
+        "name": "Robot-mounted vision inspection",
+        "primary_embodiment": null
+      },
+      "short_description": "A camera on an arm walking a part through inspection poses, replacing a fixed multi-camera station with one moving eye.",
+      "maturity": {
+        "value": "EARLY_COMMERCIAL",
+        "claim_id": "ba197658-b313-5854-a7b9-21d645508a3b",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "MEDIUM",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Vendors ship arm-mounted inspection as a packaged cell and cobots now arrive with the camera built in, but most plants still buy a fixed vision station because it is faster and easier to validate. The moving camera earns its place only where part variety defeats fixed optics, which is a real but narrow slice today.",
+          "advance_criteria": [
+            "Inspection cells requalified for a new part without re-engineering the optics",
+            "Learned defect models accepted in customer quality systems, not just as a pre-filter",
+            "Cycle times competitive with fixed multi-camera stations"
+          ],
+          "regress_criteria": [
+            "Cheaper high-resolution fixed stations removing the reason to move the camera"
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "COBOT"
+      ],
+      "example_vendors": [
+        {
+          "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+          "slug": "techman-robot",
+          "entity_type": "ORGANIZATION",
+          "name": "Techman Robot",
+          "primary_embodiment": null
+        }
+      ]
+    },
+    {
+      "approach": {
+        "id": "457bd7cf-650f-52b3-96c3-48ae487f507f",
+        "slug": "fixed-machine-vision-station",
+        "entity_type": "APPROACH",
+        "name": "Fixed machine vision station",
+        "primary_embodiment": null
+      },
+      "short_description": "Cameras and lights bolted around a conveyor, inspecting every part in the same pose at line rate.",
+      "maturity": {
+        "value": "MATURE",
+        "claim_id": "c3f60fe4-0104-5548-967d-cc1b81145fdf",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "HIGH",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Fixed vision is a decades-old, thoroughly validated category with an entrenched vendor set and quality departments that already know how to sign it off. It is the incumbent any robotic inspection approach must beat, and on repeat parts it usually wins.",
+          "advance_criteria": [
+            "Already at the top of the scale"
+          ],
+          "regress_criteria": [
+            "Part variety rising fast enough that fixed optics stop being requalifiable"
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [],
+      "example_vendors": []
+    }
+  ],
+  "technical_requirements": [
+    {
+      "claim_id": "540bcc83-ddf4-5676-a20a-3a3edf07b4ba",
+      "text": "Defect definition that survives contact with production",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Plants routinely cannot state what counts as a defect in terms a system can measure, and inspectors disagree with each other. The labelling problem, not the vision problem, is what stalls these projects.",
+        "advance_criteria": [
+          "Would be relaxed by anomaly detection that learns from good parts alone."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "74a03db0-7b8f-5133-b969-69b5e3a1f294",
+      "text": "Inspection inside the line's cycle time",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "An inspection that takes longer than the machine cycle becomes the bottleneck and gets switched off in the first busy week.",
+        "advance_criteria": [
+          "Would be relaxed where inspection runs off-line on a parallel station."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "e05f4b47-029a-54d2-8df9-27c4a693f616",
+      "text": "Lighting and surface control",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Machined, coated and reflective surfaces defeat naive imaging; the lighting design is usually a larger share of the engineering than the algorithm.",
+        "advance_criteria": [
+          "Would be relaxed by imaging robust to specular surfaces without bespoke lighting."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+        "slug": "techman-robot",
+        "entity_type": "ORGANIZATION",
+        "name": "Techman Robot",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Taoyuan"
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "28183d27-556d-55a6-a441-6bd2bab2dc93",
+      "text": "Automotive and aerospace suppliers",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Documented per-part inspection is contractually required in these supply chains, which converts inspection from a cost into an obligation.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "5972e419-0bf8-559b-95b4-2c459e631ccb",
+      "text": "Medical device manufacturers",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Regulated traceability makes per-part inspection records valuable in themselves, independent of the labour saved.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "f68ca27b-e7ab-5fab-8987-2c0e13b70e5e",
+      "text": "Electronics manufacturers",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "High volumes and small features make automated optical inspection standard practice rather than an upgrade.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "blockers": [
+    {
+      "claim_id": "20cfc552-643f-5706-a602-7e3aa24424a7",
+      "text": "Validation and quality sign-off",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "A learned inspection model has to be proven against the existing method to a quality department that carries the liability. That process is measured in months and is rarely in the vendor's project plan, which is why so many inspection pilots never turn into production systems.",
+        "advance_criteria": [
+          "Statistically validated model performance accepted in place of a manual reference check",
+          "Regulated customers approving learned inspection in their quality systems"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "647860be-6c65-596b-987e-3d59feb030da",
+      "text": "False reject cost",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Over-rejection scraps good parts and destroys the business case faster than missed defects do, because it is immediately visible on the yield report. Tuning the threshold is a commercial negotiation dressed up as a technical setting.",
+        "advance_criteria": [
+          "False reject rates published and held below the manual baseline in production"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "887926c9-8eef-51e2-9f6b-e29c022d86ed",
+      "text": "Defect data scarcity",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "A good plant makes very few defects, so the training set for the thing you care about is nearly empty. Vendors either manufacture defects deliberately or model normality instead, and both have consequences the buyer discovers late.",
+        "advance_criteria": [
+          "Anomaly-detection approaches deployed on good-part data alone at production yield",
+          "Defect libraries shared across plants or vendors"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "adjacent_tasks": [
+    {
+      "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+      "slug": "cnc-machine-tending",
+      "entity_type": "TASK",
+      "name": "CNC machine tending",
+      "primary_embodiment": null
+    }
+  ],
+  "intelligence_rail": {
+    "assessment_count": 15,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 15
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 1,
+    "deployment_count": 0,
+    "field_trial_count": 0
+  },
+  "as_of": null
+}

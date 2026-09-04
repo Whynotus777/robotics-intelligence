@@ -1,0 +1,44 @@
+slug: robot-mounted-vision-inspection
+entity_type: APPROACH
+name: Robot-mounted vision inspection
+short_description: A camera on an arm walking a part through inspection poses, replacing a fixed multi-camera station with one moving eye.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: EARLY_COMMERCIAL
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Vendors ship arm-mounted inspection as a packaged cell and cobots now arrive with the camera built in, but most plants still buy a fixed vision station because it is faster and easier to validate. The moving camera earns its place only where part variety defeats fixed optics, which is a real but narrow slice today.
+          advance_criteria:
+            - Inspection cells requalified for a new part without re-engineering the optics
+            - Learned defect models accepted in customer quality systems, not just as a pre-filter
+            - Cycle times competitive with fixed multi-camera stations
+          regress_criteria:
+            - Cheaper high-resolution fixed stations removing the reason to move the camera
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: COBOT
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: techman-tm12-page
+        excerpt: The arm ships with an integrated vision system for inspection applications.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: techman-robot
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: techman-tm12-page
+        excerpt: Built-in vision is presented for inspection work.
+  - predicate: REQUIRES_TECHNOLOGY
+    object: depth-cameras
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Pose-accurate imaging of a three-dimensional part needs depth or structured light to hold standoff and detect geometric defects; a flat 2D camera only catches surface features.
+          advance_criteria: ["Would be relaxed for purely surface-appearance inspection."]
+          reviewed_at: 2026-09-01

@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "3e6a398b-554d-58b4-982c-5c662f38fb4e",
+    "subject": {
+      "id": "c9b84a3a-f7dd-578a-a6c9-6c0a2b061b1b",
+      "slug": "gatik",
+      "entity_type": "ORGANIZATION",
+      "name": "Gatik",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Gatik builds Gatik autonomous box truck",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "aa6d7895-9539-532d-a5cd-3f41aa1efbaa",
+        "slug": "gatik-autonomous-box-truck",
+        "entity_type": "ROBOT",
+        "name": "Gatik autonomous box truck",
+        "primary_embodiment": "AUTONOMOUS_VEHICLE"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7f55619a-d764-5ec6-90f7-dad109c42654",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Autonomous box trucks are the company's described fleet.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8da5deb8-198d-5b93-b7b2-222179cff1ea",
+        "url": "https://www.gatik.ai/",
+        "canonical_url": null,
+        "publisher": "Gatik",
+        "title": "Gatik autonomous middle-mile logistics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

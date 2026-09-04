@@ -1,0 +1,157 @@
+slug: in-process-inspection
+entity_type: TASK
+name: In-process inspection
+short_description: Checking parts for dimensional and cosmetic defects on the line, rather than pulling samples to a quality lab afterwards.
+depth_tier: STANDARD
+aliases: [Quality inspection, Visual inspection of parts]
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: machine-tending
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Inspection sits in the same cell, on the same line, bought by the same plant, and is frequently added to a tending cell rather than purchased separately.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: SCALING
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          author: editorial
+          rationale: "Fixed machine vision has been production-standard for decades and learned defect detection is now shipping in real plants, not just pilots — which puts this well past early commercial. It is not mature because the two halves have not merged: the fixed station is validated but blind to new parts, and the learned model that handles variety still struggles to get through a quality department's sign-off. Scaling, with the sign-off problem as the gate."
+          advance_criteria:
+            - Learned defect models accepted as the system of record in customer quality systems
+            - Inspection requalified for a new part without re-engineering the optics
+            - Arm-mounted inspection matching fixed-station cycle times on production lines
+          regress_criteria:
+            - A quality escape traced to a learned model that pushes buyers back to rule-based vision
+          evidence_considered:
+            - fixed-machine-vision-station:HAS_MATURITY
+            - robot-mounted-vision-inspection:HAS_MATURITY
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: An operator eyeballing parts against a boundary sample, plus a periodic trip to a CMM or gauge lab for dimensional checks on a sample.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Sampling means defects are found batches late, and human visual inspection degrades measurably across a shift — the two facts that fund every inspection automation project.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: fixed-machine-vision-station
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The fixed station is the incumbent automated approach and the rate benchmark any robot-mounted alternative must beat.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: robot-mounted-vision-inspection
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Moving the camera on an arm is what makes inspection viable where part variety defeats fixed optics.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Defect definition that survives contact with production
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Plants routinely cannot state what counts as a defect in terms a system can measure, and inspectors disagree with each other. The labelling problem, not the vision problem, is what stalls these projects.
+          advance_criteria: ["Would be relaxed by anomaly detection that learns from good parts alone."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Lighting and surface control
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Machined, coated and reflective surfaces defeat naive imaging; the lighting design is usually a larger share of the engineering than the algorithm.
+          advance_criteria: ["Would be relaxed by imaging robust to specular surfaces without bespoke lighting."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Inspection inside the line's cycle time
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: An inspection that takes longer than the machine cycle becomes the bottleneck and gets switched off in the first busy week.
+          advance_criteria: ["Would be relaxed where inspection runs off-line on a parallel station."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Automotive and aerospace suppliers
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Documented per-part inspection is contractually required in these supply chains, which converts inspection from a cost into an obligation.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Electronics manufacturers
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: High volumes and small features make automated optical inspection standard practice rather than an upgrade.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Medical device manufacturers
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Regulated traceability makes per-part inspection records valuable in themselves, independent of the labour saved.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Validation and quality sign-off
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A learned inspection model has to be proven against the existing method to a quality department that carries the liability. That process is measured in months and is rarely in the vendor's project plan, which is why so many inspection pilots never turn into production systems.
+          advance_criteria:
+            - Statistically validated model performance accepted in place of a manual reference check
+            - Regulated customers approving learned inspection in their quality systems
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Defect data scarcity
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A good plant makes very few defects, so the training set for the thing you care about is nearly empty. Vendors either manufacture defects deliberately or model normality instead, and both have consequences the buyer discovers late.
+          advance_criteria:
+            - Anomaly-detection approaches deployed on good-part data alone at production yield
+            - Defect libraries shared across plants or vendors
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: False reject cost
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Over-rejection scraps good parts and destroys the business case faster than missed defects do, because it is immediately visible on the yield report. Tuning the threshold is a commercial negotiation dressed up as a technical setting.
+          advance_criteria:
+            - False reject rates published and held below the manual baseline in production
+          reviewed_at: 2026-09-01
+  - predicate: ADJACENT_TO
+    object: cnc-machine-tending
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The tending arm already handles every part, so adding a gauge or camera station is the cheapest inspection deployment available.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01

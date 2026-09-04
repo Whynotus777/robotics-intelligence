@@ -1,0 +1,30 @@
+slug: kuka-kr-quantec
+entity_type: ROBOT
+name: KUKA KR QUANTEC
+short_description: KUKA's high-payload six-axis industrial arm series, the workhorse of body-in-white lines.
+primary_embodiment: INDUSTRIAL_ARM
+country_code: DE
+depth_tier: DISCOVERY
+aliases: [KR QUANTEC]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: INDUSTRIAL_ARM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: kuka-quantec-page
+    excerpt: Presented as a six-axis industrial robot series.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: VOLUME_PRODUCTION
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: kuka-quantec-page
+    excerpt: Sold as a catalogue product across payload and reach variants.
+- predicate: TARGETS_MARKET
+  object: automotive
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: kuka-quantec-page
+    excerpt: Automotive body construction is a named application.

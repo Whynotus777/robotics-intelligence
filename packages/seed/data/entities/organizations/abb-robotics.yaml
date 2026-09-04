@@ -28,3 +28,24 @@ claims:
     confidence: MEDIUM
     source: abb-robotics-site
     excerpt: ABB operates a robotics factory in Shanghai.
+- predicate: BUILDS
+  object: abb-irb-6700
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: abb-irb6700-page
+    excerpt: IRB 6700 is listed in ABB's articulated robot range.
+- predicate: TARGETS_TASK
+  object: industrial-welding
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: abb-site
+    excerpt: Welding is named among ABB robotics applications.
+- predicate: TARGETS_TASK
+  object: cnc-machine-tending
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: abb-site
+    excerpt: Machine tending and material handling are named applications.

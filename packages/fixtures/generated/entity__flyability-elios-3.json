@@ -1,0 +1,190 @@
+{
+  "entity": {
+    "id": "aee2df0e-15d7-595b-aa32-8cd84a7f08cb",
+    "slug": "flyability-elios-3",
+    "entity_type": "ROBOT",
+    "name": "Flyability Elios 3",
+    "short_description": "Caged indoor inspection drone with onboard lidar SLAM, built to bounce off walls in tanks and sewers where there is no GPS.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": "DRONE",
+    "country_code": "CH",
+    "aliases": [
+      "Elios 3"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": "VOLUME_PRODUCTION",
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ARCHITECTURE_NOTE",
+      "label": "architecture note",
+      "claims": [
+        {
+          "claim_id": "38ce15a2-d362-573a-a012-700d548221ad",
+          "predicate": "HAS_ARCHITECTURE_NOTE",
+          "value": {
+            "kind": "text",
+            "text": "Localisation is lidar-based SLAM rather than GNSS, because the whole point of the product is flying where satellites do not reach."
+          },
+          "stack_layer": "STATE_ESTIMATION",
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "4cefa1a6-7064-568e-9b86-e4eae7588a60",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "DRONE"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "e2f8316c-7c6d-52bf-afef-cb5eea3ad481",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "VOLUME_PRODUCTION"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "58fcc0d9-c2be-593a-9072-9cb91417d521",
+          "target": {
+            "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+            "slug": "contact-ndt",
+            "entity_type": "TASK",
+            "name": "Contact NDT",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "7f104314-cb35-5fec-9ea7-43390fc81f1f",
+          "source": {
+            "id": "8f3dd14f-c1f5-53e2-899e-b433935b79be",
+            "slug": "flyability",
+            "entity_type": "ORGANIZATION",
+            "name": "Flyability",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "8f3dd14f-c1f5-53e2-899e-b433935b79be",
+        "slug": "flyability",
+        "entity_type": "ORGANIZATION",
+        "name": "Flyability",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 4,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 4,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

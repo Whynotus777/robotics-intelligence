@@ -1,0 +1,30 @@
+slug: abb-irb-6700
+entity_type: ROBOT
+name: ABB IRB 6700
+short_description: ABB's large six-axis arm family for spot welding, material handling and machine tending in high-duty lines.
+primary_embodiment: INDUSTRIAL_ARM
+country_code: CH
+depth_tier: DISCOVERY
+aliases: [IRB 6700]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: INDUSTRIAL_ARM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: abb-irb6700-page
+    excerpt: Listed among ABB's articulated industrial robots.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: VOLUME_PRODUCTION
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: abb-irb6700-page
+    excerpt: Sold as a catalogue product in multiple payload and reach variants.
+- predicate: TARGETS_MARKET
+  object: manufacturing
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: abb-irb6700-page
+    excerpt: Positioned for general industrial production applications.

@@ -1,0 +1,22 @@
+slug: nvidia-isaac-gr00t-n1
+entity_type: MODEL
+name: NVIDIA Isaac GR00T N1
+short_description: Open humanoid foundation model released as a starting point for developers; NVIDIA selling shovels rather than digging.
+country_code: US
+depth_tier: DISCOVERY
+aliases: [GR00T N1, Isaac GR00T]
+claims:
+- predicate: MADE_BY
+  object: nvidia
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: nvidia-isaac-groot-page
+    excerpt: Isaac GR00T is presented as NVIDIA's humanoid foundation-model family.
+- predicate: IS_INSTANCE_OF
+  object: vla-models
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: nvidia-isaac-groot-page
+    excerpt: Described as a foundation model mapping perception and instructions to robot actions.

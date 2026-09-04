@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "216bde9a-09aa-5fa5-a928-ae6352ad97ad",
+    "subject": {
+      "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
+      "slug": "onex-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "1X Technologies",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "1X Technologies is headquartered at Moss",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5a044caa-f982-56c2-ad96-150e160b6f72",
+        "slug": "moss",
+        "entity_type": "PLACE",
+        "name": "Moss",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "566bed9f-1fb1-5425-8731-ad5352d1fa45",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives a Norwegian hardware base alongside a US office.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "abe5d07f-d87c-57f6-8e74-561dc170b45b",
+        "url": "https://www.1x.tech/",
+        "canonical_url": null,
+        "publisher": "1X Technologies",
+        "title": "1X Technologies",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

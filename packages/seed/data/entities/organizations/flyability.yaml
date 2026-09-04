@@ -1,0 +1,28 @@
+slug: flyability
+entity_type: ORGANIZATION
+name: Flyability
+short_description: EPFL spin-off building caged indoor inspection drones for tanks, boilers and sewers where GPS does not reach.
+country_code: CH
+depth_tier: DISCOVERY
+claims:
+- predicate: HQ_AT
+  object: lausanne
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: flyability-site
+    excerpt: Company site gives a Lausanne-area headquarters.
+- predicate: TARGETS_MARKET
+  object: oil-and-gas
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: flyability-site
+    excerpt: Confined-space inspection in process industries is a named market.
+- predicate: BUILDS
+  object: flyability-elios-3
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: flyability-elios3-page
+    excerpt: Elios 3 product page.

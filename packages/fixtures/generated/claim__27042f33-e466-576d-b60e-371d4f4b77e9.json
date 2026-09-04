@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "27042f33-e466-576d-b60e-371d4f4b77e9",
+    "subject": {
+      "id": "02581ba3-774b-52c7-8a13-f450c116f66e",
+      "slug": "fetch-freight1500",
+      "entity_type": "ROBOT",
+      "name": "Fetch Freight1500",
+      "primary_embodiment": "AMR"
+    },
+    "predicate": "HAS_PAYLOAD",
+    "label": "payload",
+    "sentence": "Fetch Freight1500 payload 1,500 kg",
+    "value": {
+      "kind": "number",
+      "number": 1500,
+      "unit": "kg",
+      "is_approximate": false,
+      "min": null,
+      "max": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2b4c9901-21fe-558b-bd19-cca9abaa2da0",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "The Freight1500 is named for its 1500 kg payload class.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "47f20bdb-5b38-595a-87ab-dbc6fb2fe6cd",
+        "url": "https://www.zebra.com/us/en/products/robotics-automation.html",
+        "canonical_url": null,
+        "publisher": "Zebra Technologies",
+        "title": "Zebra robotics automation and autonomous mobile robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

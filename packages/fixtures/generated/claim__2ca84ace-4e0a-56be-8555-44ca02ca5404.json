@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "2ca84ace-4e0a-56be-8555-44ca02ca5404",
+    "subject": {
+      "id": "f1dac3df-2220-57ca-aaa6-58cb1a8f7db3",
+      "slug": "ouster-os1",
+      "entity_type": "COMPONENT_PRODUCT",
+      "name": "Ouster OS1",
+      "primary_embodiment": null
+    },
+    "predicate": "IS_INSTANCE_OF",
+    "label": "is an instance of",
+    "sentence": "Ouster OS1 is an instance of 3D LiDAR",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
+        "slug": "3d-lidar",
+        "entity_type": "TECHNOLOGY",
+        "name": "3D LiDAR",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "18a5cbc7-f0af-5a53-8e2c-2638b6b46411",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Presented as a 3D lidar sensor.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "61992bda-1ac2-52c7-91fa-ce258a603bc5",
+        "url": "https://ouster.com/products/hardware/os1-lidar-sensor",
+        "canonical_url": null,
+        "publisher": "Ouster",
+        "title": "OS1 mid-range digital lidar sensor",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

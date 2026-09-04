@@ -197,6 +197,31 @@
   ],
   "inbound_relationships": [
     {
+      "predicate": "COMPETES_WITH",
+      "label": "competes with",
+      "items": [
+        {
+          "claim_id": "0c9cef72-efa4-5d19-abfa-766d8264522b",
+          "source": {
+            "id": "6eed56ac-41c3-573d-be63-dac3ff72ece3",
+            "slug": "anybotics-anymal-d",
+            "entity_type": "ROBOT",
+            "name": "ANYbotics ANYmal D",
+            "primary_embodiment": "QUADRUPED"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
       "predicate": "BUILDS",
       "label": "builds",
       "items": [
@@ -265,6 +290,15 @@
         "name": "Depth cameras",
         "primary_embodiment": null
       }
+    ],
+    "peers": [
+      {
+        "id": "6eed56ac-41c3-573d-be63-dac3ff72ece3",
+        "slug": "anybotics-anymal-d",
+        "entity_type": "ROBOT",
+        "name": "ANYbotics ANYmal D",
+        "primary_embodiment": "QUADRUPED"
+      }
     ]
   },
   "intelligence": {
@@ -282,7 +316,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 6,
     "deployment_count": 1,
-    "related_count": 3
+    "related_count": 4
   },
   "as_of": null
 }

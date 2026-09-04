@@ -1,0 +1,27 @@
+slug: machine-tending
+entity_type: MARKET
+name: Machine tending
+short_description: The robot-adjacent work around a machine or a line — loading and unloading machines, stacking output, joining, checking and assembling parts. The oldest robotics market and still the one that buys the most arms.
+depth_tier: ANCHOR
+aliases: [Factory floor automation, Cell automation]
+claims:
+  - predicate: CHILD_OF
+    object: manufacturing
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: These tasks share one buyer (the plant or line manager), one integration surface (the cell, its fixturing and the PLC) and one economic test (cycle time against an operator's fully loaded hourly cost). They sit under Manufacturing because the customer makes the goods rather than moves them; the moment the same pallet leaves the plant it becomes a Warehouse & Logistics problem with a different buyer.
+          advance_criteria:
+            - Would only change if process manufacturing were split from discrete manufacturing as a separate sector.
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TAGLINE
+    text: Where robotics already won, and where the remaining wins are all about setup cost.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Arms have done this work for forty years. Everything still contested here — small batches, mixed parts, programming time, quality sign-off — is a cost-of-changeover problem rather than a capability problem, which is a different investment thesis from the mobile and humanoid markets.
+          advance_criteria:
+            - Would change if a capability gap, not a setup-cost gap, became the binding constraint again
+          reviewed_at: 2026-09-01

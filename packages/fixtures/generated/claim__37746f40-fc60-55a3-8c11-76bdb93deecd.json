@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "37746f40-fc60-55a3-8c11-76bdb93deecd",
+    "subject": {
+      "id": "d31f2d2e-9dce-5f5d-9ac6-062cd182b353",
+      "slug": "percepto",
+      "entity_type": "ORGANIZATION",
+      "name": "Percepto",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Percepto is headquartered at Modiin",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "991a92fa-4aca-5c91-8e9e-96209011e5da",
+        "slug": "modiin",
+        "entity_type": "PLACE",
+        "name": "Modiin",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "fb4f070b-c85b-5197-9d98-b3201062d83b",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives an Israeli headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "21c90c30-2b6b-546f-9f78-8c6cd3581cd3",
+        "url": "https://percepto.co/",
+        "canonical_url": null,
+        "publisher": "Percepto",
+        "title": "Percepto autonomous inspection",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

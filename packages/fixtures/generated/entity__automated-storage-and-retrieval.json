@@ -179,6 +179,82 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "14b9d2f0-71b9-55d8-b7d3-22156322e746",
+          "source": {
+            "id": "32f4fe35-c685-537a-8ef0-68cd02e5ccc9",
+            "slug": "autostore",
+            "entity_type": "ORGANIZATION",
+            "name": "AutoStore",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "ab225ec9-06ee-5078-86f5-0954a9beb23a",
+          "source": {
+            "id": "f7f3cd48-fc9b-5272-9b11-8b67a56bafae",
+            "slug": "exotec-skypod",
+            "entity_type": "ROBOT",
+            "name": "Exotec Skypod",
+            "primary_embodiment": "AMR"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "aeb30ee9-6234-5d61-992e-338c4cf50c31",
+          "source": {
+            "id": "b0f83f46-ab25-5f87-aed0-18c1598a442b",
+            "slug": "exotec",
+            "entity_type": "ORGANIZATION",
+            "name": "Exotec",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "b2f34709-fbe4-5a78-9715-a9c96c44c4cc",
+          "source": {
+            "id": "e236fea6-114c-54cc-a269-490132d532fa",
+            "slug": "autostore-r5",
+            "entity_type": "ROBOT",
+            "name": "AutoStore R5",
+            "primary_embodiment": "OTHER_MOBILE"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     },
@@ -245,6 +321,20 @@
     ],
     "company": [
       {
+        "id": "32f4fe35-c685-537a-8ef0-68cd02e5ccc9",
+        "slug": "autostore",
+        "entity_type": "ORGANIZATION",
+        "name": "AutoStore",
+        "primary_embodiment": null
+      },
+      {
+        "id": "b0f83f46-ab25-5f87-aed0-18c1598a442b",
+        "slug": "exotec",
+        "entity_type": "ORGANIZATION",
+        "name": "Exotec",
+        "primary_embodiment": null
+      },
+      {
         "id": "74914967-d3be-58ab-aacb-456441b741b1",
         "slug": "symbotic",
         "entity_type": "ORGANIZATION",
@@ -277,7 +367,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 5
+    "related_count": 9
   },
   "as_of": null
 }

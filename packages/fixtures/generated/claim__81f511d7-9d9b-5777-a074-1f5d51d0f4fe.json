@@ -1,0 +1,57 @@
+{
+  "claim": {
+    "claim_id": "81f511d7-9d9b-5777-a074-1f5d51d0f4fe",
+    "subject": {
+      "id": "05ee564d-1a73-5207-a2d6-212eadbedb06",
+      "slug": "cobot-welding",
+      "entity_type": "APPROACH",
+      "name": "Cobot welding",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Cobot welding maturity SCALING",
+    "value": {
+      "kind": "enum",
+      "value": "SCALING"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1399eed6-ce77-55be-8cbf-45d38747d411",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "This is the sharpest product-market fit in the cobot category: welder shortages are acute, the units are cheap enough to buy without a capital committee, and hand-guided teaching means the existing welder programs it. It is not mature because weld quality sign-off and duty cycle still send the hard work back to the fenced cell.",
+        "advance_criteria": [
+          "Certified weld procedures accepted on cobot-welded parts as routine",
+          "Job shops reporting a second and third unit after the first",
+          "Teaching times that beat an experienced welder's setup on a small batch"
+        ],
+        "regress_criteria": [
+          "Quality rejections in regulated work pushing shops back to manual welding"
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

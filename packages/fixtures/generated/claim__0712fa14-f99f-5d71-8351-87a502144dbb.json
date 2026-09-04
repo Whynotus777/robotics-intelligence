@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "0712fa14-f99f-5d71-8351-87a502144dbb",
+    "subject": {
+      "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+      "slug": "techman-robot",
+      "entity_type": "ORGANIZATION",
+      "name": "Techman Robot",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Techman Robot builds Techman TM12",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5f04e5c3-3101-536e-9158-89a56a06b3d5",
+        "slug": "techman-tm12",
+        "entity_type": "ROBOT",
+        "name": "Techman TM12",
+        "primary_embodiment": "COBOT"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d3a481c4-8eb7-5d88-8f69-ad47df628ad0",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "TM12 is listed on the TM12/TM14 product page.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "59d19680-a800-5a6d-8772-9bd3e2068103",
+        "url": "https://www.tm-robot.com/en/tm12-tm14/",
+        "canonical_url": null,
+        "publisher": "Techman Robot",
+        "title": "TM12 and TM14 collaborative robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

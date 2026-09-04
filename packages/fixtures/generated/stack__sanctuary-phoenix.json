@@ -1,0 +1,101 @@
+{
+  "robot": {
+    "id": "1846bec8-e521-5a03-8035-1633f971e390",
+    "slug": "sanctuary-phoenix",
+    "entity_type": "ROBOT",
+    "name": "Sanctuary Phoenix",
+    "primary_embodiment": "HUMANOID"
+  },
+  "embodiment": "HUMANOID",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "VLA / policy models",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Task planning",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Perception",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "STATE_ESTIMATION",
+      "label": "State estimation",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Whole-body control",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Compute",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "Cameras, depth, IMU, F/T",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Joint actuators",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "Hands / grippers",
+      "applies": true,
+      "items": [],
+      "competing_technologies": [],
+      "architecture_note": {
+        "claim_id": "9d48b924-724a-53bd-ac99-612507adb43b",
+        "text": "The hands are the product thesis: high-DOF hydraulic hands aimed at human-equivalent manipulation, on the bet that dexterity, not locomotion, is what gates useful work.",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "MEDIUM",
+          "source_count": 1
+        }
+      }
+    },
+    {
+      "canonical": "POWER",
+      "label": "Battery, BMS",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Frame, joints, legs",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

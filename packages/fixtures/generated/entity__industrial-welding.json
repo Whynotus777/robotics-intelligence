@@ -1,0 +1,560 @@
+{
+  "entity": {
+    "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+    "slug": "industrial-welding",
+    "entity_type": "TASK",
+    "name": "Industrial welding",
+    "short_description": "Joining metal parts by arc or spot welding to a specified procedure, repeatably and to a standard someone will inspect.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "Arc welding",
+      "Robotic welding"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "MATURE"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_TECHNICAL_REQUIREMENT",
+      "label": "technical requirement",
+      "claims": [
+        {
+          "claim_id": "0480b326-4b14-53ab-b255-f611d2c2a462",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Seam finding and fit-up tolerance"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "8a59fd00-2eb3-5da7-b808-4b8c3927cedf",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Fume, spatter and consumable management"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "b50a3a3f-642d-583b-84ec-86e2483640af",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Weld procedure qualification"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
+      "claims": [
+        {
+          "claim_id": "2ea949f5-ded0-59cc-bfae-38f625b51123",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Heavy equipment and structural manufacturers"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "71b43fbe-67ad-5490-81ac-0fafd4ef371c",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Automotive OEMs and body shops"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "e8ccf4f4-b471-5d8d-a9e2-558294fa4215",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Metal fabricators and job shops"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_INCUMBENT_PROCESS",
+      "label": "incumbent process",
+      "claims": [
+        {
+          "claim_id": "301fbe21-5376-570b-a164-e0d27dea7a38",
+          "predicate": "HAS_INCUMBENT_PROCESS",
+          "value": {
+            "kind": "text",
+            "text": "A certified welder working from a drawing and a weld procedure, with quality riding on that individual's hand and day."
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_ADOPTION_BLOCKER",
+      "label": "adoption blocker",
+      "claims": [
+        {
+          "claim_id": "357f1b1a-a5e0-572c-abc4-ba0550bafe17",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Quality sign-off for regulated work"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "ca9483c5-773e-5214-b257-8d3aa1dcb213",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Programming time per part number"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "ebbe71af-58ac-51ce-bf2d-44c32623e5d0",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Fixturing cost per part family"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "a1b3f4d7-1ffb-553f-b1b4-006eae0fc877",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "MATURE"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "3aa124ba-a8be-5ea8-aca6-e18450df02e9",
+          "target": {
+            "id": "05ee564d-1a73-5207-a2d6-212eadbedb06",
+            "slug": "cobot-welding",
+            "entity_type": "APPROACH",
+            "name": "Cobot welding",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "842f09b3-fe17-5cf6-8b24-eb3d8a75b582",
+          "target": {
+            "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
+            "slug": "robotic-arc-welding-cell",
+            "entity_type": "APPROACH",
+            "name": "Robotic arc welding cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "719a1bb1-85a5-5867-b882-f23217ea3199",
+          "target": {
+            "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+            "slug": "machine-tending",
+            "entity_type": "MARKET",
+            "name": "Machine tending",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
+      "items": [
+        {
+          "claim_id": "86577afe-9355-56ae-8814-80fd37520795",
+          "target": {
+            "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+            "slug": "assembly",
+            "entity_type": "TASK",
+            "name": "Assembly",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "3fcf6787-a21d-5d12-babf-8407618929b7",
+          "source": {
+            "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+            "slug": "kuka",
+            "entity_type": "ORGANIZATION",
+            "name": "KUKA",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "7f0d7226-4a07-53a6-90bd-f8c2f7c0bb71",
+          "source": {
+            "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+            "slug": "universal-robots",
+            "entity_type": "ORGANIZATION",
+            "name": "Universal Robots",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "945c2551-d4a9-5aed-a21a-7fe4962e6fc8",
+          "source": {
+            "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+            "slug": "abb-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "ABB Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d55124b3-1e6c-5270-9a58-6b3ead1089cc",
+          "source": {
+            "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+            "slug": "yaskawa",
+            "entity_type": "ORGANIZATION",
+            "name": "Yaskawa Electric",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
+      "items": [
+        {
+          "claim_id": "bd337f1e-4ccc-52a6-83c7-0ba42f0e4ed6",
+          "source": {
+            "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+            "slug": "assembly",
+            "entity_type": "TASK",
+            "name": "Assembly",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "05ee564d-1a73-5207-a2d6-212eadbedb06",
+        "slug": "cobot-welding",
+        "entity_type": "APPROACH",
+        "name": "Cobot welding",
+        "primary_embodiment": null
+      },
+      {
+        "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
+        "slug": "robotic-arc-welding-cell",
+        "entity_type": "APPROACH",
+        "name": "Robotic arc welding cell",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+        "slug": "abb-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ABB Robotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+        "slug": "kuka",
+        "entity_type": "ORGANIZATION",
+        "name": "KUKA",
+        "primary_embodiment": null
+      },
+      {
+        "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+        "slug": "universal-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Universal Robots",
+        "primary_embodiment": null
+      },
+      {
+        "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+        "slug": "yaskawa",
+        "entity_type": "ORGANIZATION",
+        "name": "Yaskawa Electric",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+        "slug": "machine-tending",
+        "entity_type": "MARKET",
+        "name": "Machine tending",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 15
+      },
+      "claim_count": 15,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 15,
+    "deployment_count": 0,
+    "related_count": 8
+  },
+  "as_of": null
+}

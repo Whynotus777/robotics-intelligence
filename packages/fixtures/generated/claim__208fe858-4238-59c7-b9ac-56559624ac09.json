@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "208fe858-4238-59c7-b9ac-56559624ac09",
+    "subject": {
+      "id": "f668e79f-b182-5799-b65e-e683fde93b6d",
+      "slug": "onex-neo",
+      "entity_type": "ROBOT",
+      "name": "1X NEO",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "1X NEO embodiment HUMANOID",
+    "value": {
+      "kind": "enum",
+      "value": "HUMANOID"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e4c20ae4-5c9a-559e-8b1e-01b4d629d02b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "NEO is presented as a humanoid robot.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "88d10976-5fc9-57b7-816d-fc8e14a5abb6",
+        "url": "https://www.1x.tech/neo",
+        "canonical_url": null,
+        "publisher": "1X Technologies",
+        "title": "NEO home humanoid",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

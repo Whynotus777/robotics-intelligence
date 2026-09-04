@@ -1,0 +1,22 @@
+slug: intel
+entity_type: ORGANIZATION
+name: Intel
+short_description: Semiconductor incumbent whose RealSense depth cameras became the default perception sensor on research and light industrial robots.
+country_code: US
+depth_tier: DISCOVERY
+aliases: [Intel Corporation]
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: intel-site
+    excerpt: Company site gives a Santa Clara headquarters.
+- predicate: PROVIDES
+  object: intel-realsense-d435i
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: intel-realsense-d435i-page
+    excerpt: RealSense D435i product page.

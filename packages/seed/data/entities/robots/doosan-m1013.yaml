@@ -1,0 +1,38 @@
+slug: doosan-m1013
+entity_type: ROBOT
+name: Doosan M1013
+short_description: 10 kg collaborative arm in Doosan's M series, with joint torque sensing on all six axes.
+primary_embodiment: COBOT
+country_code: KR
+depth_tier: DISCOVERY
+aliases: [M1013]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: COBOT
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: doosan-m-series-page
+    excerpt: M series is presented as collaborative robots.
+- predicate: HAS_PAYLOAD
+  number: 10
+  unit: kg
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: doosan-m-series-page
+    excerpt: M1013 is listed with a 10 kg payload.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: VOLUME_PRODUCTION
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: doosan-robotics-site
+    excerpt: Sold as a catalogue product.
+- predicate: TARGETS_TASK
+  object: cnc-machine-tending
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: doosan-m-series-page
+    excerpt: Machine tending is a named application for the M series.

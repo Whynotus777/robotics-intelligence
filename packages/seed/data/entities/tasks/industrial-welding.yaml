@@ -1,0 +1,156 @@
+slug: industrial-welding
+entity_type: TASK
+name: Industrial welding
+short_description: Joining metal parts by arc or spot welding to a specified procedure, repeatably and to a standard someone will inspect.
+depth_tier: STANDARD
+aliases: [Arc welding, Robotic welding]
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: machine-tending
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Welding cells are bought by the fabricator or plant that makes the part, and integrate with the same fixtures, controllers and floor as the tending cells beside them.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: MATURE
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          author: editorial
+          rationale: Automotive body shops have welded robotically at enormous scale for decades; the process physics, the equipment and the qualification path are all settled. What is unsettled is who else can afford it — the job shop with a welder shortage and a hundred part numbers — and that is a setup-cost problem, not a maturity one. Cobot welding is the interesting frontier, and it is tracked separately as an approach.
+          advance_criteria:
+            - Already at the top of the scale for repeat-volume parts
+          regress_criteria:
+            - A joining-method shift, such as structural adhesives displacing welds in volume assemblies
+          evidence_considered:
+            - robotic-arc-welding-cell:HAS_MATURITY
+            - cobot-welding:HAS_MATURITY
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: A certified welder working from a drawing and a weld procedure, with quality riding on that individual's hand and day.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Manual welding is skilled, hot, and increasingly hard to staff; the shortage of certified welders is the reason this task keeps returning to the automation agenda.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: robotic-arc-welding-cell
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The fenced cell with a positioner is the volume standard and the quality benchmark.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: cobot-welding
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Hand-guided cobot welding is the only approach that reaches the small fabricator, which is where the labour shortage actually bites.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Seam finding and fit-up tolerance
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Parts do not arrive where the program thinks they are. Touch sensing, laser seam tracking or through-arc tracking is what separates a cell that welds parts from a cell that welds air.
+          advance_criteria: ["Would be relaxed by upstream tolerances tight enough to weld blind, which job-shop economics rule out."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Weld procedure qualification
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: In structural, pressure or transport work the weld must satisfy a code and an inspector. A robot that lays a good-looking bead but cannot be qualified is unsellable into exactly the segments that pay best.
+          advance_criteria: ["Would be relaxed by codes and inspectors treating robotic procedures as routine."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Fume, spatter and consumable management
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Torch cleaning, wire feed and tip changes are the unglamorous reasons a welding cell stops; unattended running depends on them more than on the motion program.
+          advance_criteria: ["Would be relaxed by automatic torch servicing running a full shift unattended."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Metal fabricators and job shops
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: This is where the welder shortage is most acute and where the cobot welding cell finds its buyer.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Automotive OEMs and body shops
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Body-in-white spot welding is the largest installed base of welding robots in the world.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Heavy equipment and structural manufacturers
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Large weldments in agriculture, construction and rail equipment run in medium volume with code-qualified procedures, which suits a fenced cell.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Programming time per part number
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A shop with two hundred part numbers cannot pay for two hundred programs. Offline programming and hand-guided teaching exist, but the honest measure is whether a welder can teach a new part before lunch, and usually they cannot.
+          advance_criteria:
+            - Teaching a new weldment in under an hour by shop staff
+            - CAD-driven program generation used in production, not demonstrations
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Fixturing cost per part family
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The weld fixture holds tolerance the robot cannot recover. It is engineered per part family and frequently costs more than the robot, which is why welding automation stalls in high-mix shops.
+          advance_criteria:
+            - Modular fixturing reconfigured by shop staff for a new part family
+            - Sensing good enough to weld parts held in generic clamping
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Quality sign-off for regulated work
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Where the weld is inspected against a code, the customer's quality department, not the plant manager, decides whether the robot runs. That approval cycle is slow and is rarely counted in the payback model.
+          advance_criteria:
+            - Robotic weld procedures accepted as routine by third-party inspectors
+            - In-process weld monitoring accepted in place of destructive sampling
+          reviewed_at: 2026-09-01
+  - predicate: ADJACENT_TO
+    object: assembly
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Welding is a joining step inside an assembly sequence; the same cell and fixturing frequently serve both.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01

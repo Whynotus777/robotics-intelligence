@@ -1,0 +1,79 @@
+{
+  "claim": {
+    "claim_id": "863d9c18-6f17-5111-9e69-52ed0f94418a",
+    "subject": {
+      "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+      "slug": "in-process-inspection",
+      "entity_type": "TASK",
+      "name": "In-process inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_APPROACH",
+    "label": "has approach",
+    "sentence": "In-process inspection has approach Robot-mounted vision inspection",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d8f60b1b-aa0b-56e5-b406-351cb45a68fb",
+        "slug": "robot-mounted-vision-inspection",
+        "entity_type": "APPROACH",
+        "name": "Robot-mounted vision inspection",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "029bd81d-eac2-503a-b72f-89a93fc87ca8",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Moving the camera on an arm is what makes inspection viable where part variety defeats fixed optics.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "a5e58c08-78f0-58de-a185-cdbc5205caec",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "457bd7cf-650f-52b3-96c3-48ae487f507f",
+          "slug": "fixed-machine-vision-station",
+          "entity_type": "APPROACH",
+          "name": "Fixed machine vision station",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

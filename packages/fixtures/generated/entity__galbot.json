@@ -1,0 +1,142 @@
+{
+  "entity": {
+    "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
+    "slug": "galbot",
+    "entity_type": "ORGANIZATION",
+    "name": "Galbot",
+    "short_description": "Beijing embodied-AI company; wheeled dual-arm humanoids deployed in unmanned retail stores as a data-collection wedge.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "CN",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "65ac1bcc-3b2f-5afd-adc8-9c3812d8bc39",
+          "target": {
+            "id": "8b8c0af0-2404-5bd1-9a00-ae94406f4b1b",
+            "slug": "retail-service",
+            "entity_type": "MARKET",
+            "name": "Retail & Service",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "8199a8f1-5711-5363-9813-fe4f7015d873",
+          "target": {
+            "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+            "slug": "beijing",
+            "entity_type": "PLACE",
+            "name": "Beijing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "d6995c54-312d-54fb-8788-b8709754b860",
+          "target": {
+            "id": "f48a2189-2c89-576f-a2d6-7ff9ba533210",
+            "slug": "galbot-g1",
+            "entity_type": "ROBOT",
+            "name": "Galbot G1",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "markets": [
+      {
+        "id": "8b8c0af0-2404-5bd1-9a00-ae94406f4b1b",
+        "slug": "retail-service",
+        "entity_type": "MARKET",
+        "name": "Retail & Service",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 3,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

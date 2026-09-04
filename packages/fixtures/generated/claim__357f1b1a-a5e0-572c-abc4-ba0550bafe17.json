@@ -1,0 +1,77 @@
+{
+  "claim": {
+    "claim_id": "357f1b1a-a5e0-572c-abc4-ba0550bafe17",
+    "subject": {
+      "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+      "slug": "industrial-welding",
+      "entity_type": "TASK",
+      "name": "Industrial welding",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_ADOPTION_BLOCKER",
+    "label": "adoption blocker",
+    "sentence": "Industrial welding adoption blocker Quality sign-off for regulated work",
+    "value": {
+      "kind": "text",
+      "text": "Quality sign-off for regulated work"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "468cfa4b-8399-5336-91bf-0296ee954251",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Where the weld is inspected against a code, the customer's quality department, not the plant manager, decides whether the robot runs. That approval cycle is slow and is rarely counted in the payback model.",
+        "advance_criteria": [
+          "Robotic weld procedures accepted as routine by third-party inspectors",
+          "In-process weld monitoring accepted in place of destructive sampling"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "ca9483c5-773e-5214-b257-8d3aa1dcb213",
+      "value": {
+        "kind": "text",
+        "text": "Programming time per part number"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "ebbe71af-58ac-51ce-bf2d-44c32623e5d0",
+      "value": {
+        "kind": "text",
+        "text": "Fixturing cost per part family"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

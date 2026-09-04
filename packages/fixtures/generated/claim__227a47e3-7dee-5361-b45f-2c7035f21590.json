@@ -1,0 +1,60 @@
+{
+  "claim": {
+    "claim_id": "227a47e3-7dee-5361-b45f-2c7035f21590",
+    "subject": {
+      "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+      "slug": "in-process-inspection",
+      "entity_type": "TASK",
+      "name": "In-process inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "BELONGS_TO_MARKET",
+    "label": "belongs to",
+    "sentence": "In-process inspection belongs to Machine tending",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+        "slug": "machine-tending",
+        "entity_type": "MARKET",
+        "name": "Machine tending",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bb75981c-0880-5e90-b638-cdff37dc0624",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Inspection sits in the same cell, on the same line, bought by the same plant, and is frequently added to a tending cell rather than purchased separately.",
+        "advance_criteria": [
+          "Would only change with a taxonomy redesign."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

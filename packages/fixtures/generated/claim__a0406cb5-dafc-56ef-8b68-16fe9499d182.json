@@ -1,0 +1,53 @@
+{
+  "claim": {
+    "claim_id": "a0406cb5-dafc-56ef-8b68-16fe9499d182",
+    "subject": {
+      "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
+      "slug": "robotic-arc-welding-cell",
+      "entity_type": "APPROACH",
+      "name": "Robotic arc welding cell",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_TECHNICAL_REQUIREMENT",
+    "label": "technical requirement",
+    "sentence": "Robotic arc welding cell technical requirement Seam finding and through-arc tracking",
+    "value": {
+      "kind": "text",
+      "text": "Seam finding and through-arc tracking"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e59b57f3-665d-5329-9f03-89cced9898ba",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Real parts arrive with fit-up variation the program does not know about; without touch sensing or arc tracking the torch welds air or burns through.",
+        "advance_criteria": [
+          "Would be relaxed by tighter upstream part tolerances, which job shops cannot afford."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

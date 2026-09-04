@@ -1,0 +1,89 @@
+{
+  "entity": {
+    "id": "27ae8900-bb14-5014-8849-b3f3e94d3c82",
+    "slug": "waltham",
+    "entity_type": "PLACE",
+    "name": "Waltham",
+    "short_description": "Route 128 belt west of Boston; 6 River Systems and a cluster of warehouse robotics firms.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": "Massachusetts",
+    "city": "Waltham",
+    "lat": 42.38,
+    "lng": -71.24,
+    "cluster_label": "Boston"
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "9e8baab9-bfba-5637-a227-1efea067fc04",
+          "source": {
+            "id": "a1a3d963-78b7-5572-bf2a-0f1810db3337",
+            "slug": "six-river-systems",
+            "entity_type": "ORGANIZATION",
+            "name": "6 River Systems",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "a1a3d963-78b7-5572-bf2a-0f1810db3337",
+        "slug": "six-river-systems",
+        "entity_type": "ORGANIZATION",
+        "name": "6 River Systems",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

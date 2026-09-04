@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "db0eb60d-b1e6-57ed-8a47-ecc766818610",
+    "subject": {
+      "id": "c5d2e5c2-05d4-5e1d-a0df-bbb28258a411",
+      "slug": "nuro-r3",
+      "entity_type": "ROBOT",
+      "name": "Nuro R3",
+      "primary_embodiment": "AUTONOMOUS_VEHICLE"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "Nuro R3 embodiment AUTONOMOUS_VEHICLE",
+    "value": {
+      "kind": "enum",
+      "value": "AUTONOMOUS_VEHICLE"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "791fc744-12fd-5f66-a811-335774f355d1",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "The R3 is described as a purpose-built autonomous delivery vehicle.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "decad0b4-0ba2-54b7-8c63-ec1b9132528a",
+        "url": "https://www.nuro.ai/",
+        "canonical_url": null,
+        "publisher": "Nuro",
+        "title": "Nuro",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

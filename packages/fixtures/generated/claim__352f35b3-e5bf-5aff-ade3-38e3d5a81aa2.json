@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "352f35b3-e5bf-5aff-ade3-38e3d5a81aa2",
+    "subject": {
+      "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
+      "slug": "intel",
+      "entity_type": "ORGANIZATION",
+      "name": "Intel",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Intel is headquartered at San Francisco Bay Area",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e2c42691-55d4-5d7a-acc1-b765238dd4cd",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives a Santa Clara headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "fee58ca7-a14d-5030-8550-d6cc43fe6de8",
+        "url": "https://www.intel.com/",
+        "canonical_url": null,
+        "publisher": "Intel",
+        "title": "Intel Corporation",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

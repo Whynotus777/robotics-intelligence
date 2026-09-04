@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "b85e6ccc-dc23-579d-8e5d-623a2dc05d0c",
+    "subject": {
+      "id": "fca9f317-0e6b-54a4-97ca-ff54a37b4c49",
+      "slug": "kuka-kr-quantec",
+      "entity_type": "ROBOT",
+      "name": "KUKA KR QUANTEC",
+      "primary_embodiment": "INDUSTRIAL_ARM"
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "KUKA KR QUANTEC targets market Automotive",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
+        "slug": "automotive",
+        "entity_type": "MARKET",
+        "name": "Automotive",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "770d42b5-32e8-5714-b8b3-3887a72b226a",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Automotive body construction is a named application.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e553ac73-8158-53a8-99b8-f2cb7482b38c",
+        "url": "https://www.kuka.com/en-de/products/robot-systems/industrial-robots/kr-quantec",
+        "canonical_url": null,
+        "publisher": "KUKA",
+        "title": "KR QUANTEC industrial robot series",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,546 @@
+{
+  "task": {
+    "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+    "slug": "cnc-machine-tending",
+    "entity_type": "TASK",
+    "name": "CNC machine tending",
+    "primary_embodiment": null
+  },
+  "short_description": "Loading blanks into a machine tool and unloading finished parts, shift after shift, so the spindle keeps cutting.",
+  "market_path": [
+    {
+      "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+      "slug": "manufacturing",
+      "entity_type": "MARKET",
+      "name": "Manufacturing",
+      "primary_embodiment": null
+    },
+    {
+      "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+      "slug": "machine-tending",
+      "entity_type": "MARKET",
+      "name": "Machine tending",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "MATURE",
+    "claim_id": "6d7230ce-3a84-5f11-b8eb-b5bd735c1074",
+    "qualifier": null,
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "This is the reference case for industrial robotics. Cobot and caged tending cells are sold as configured products by every arm vendor, integrators quote them from a site photo, and the payback is a spreadsheet, not a pilot. Penetration is still low in job shops, but that gap is capital discipline and part variety, not an unsolved capability — which is exactly what separates a mature task from a scaling one.",
+      "advance_criteria": [
+        "Already at the top of the scale; watch tending attach rates on new machine tool sales",
+        "Machine builders shipping robot-ready doors and interlocks as standard"
+      ],
+      "regress_criteria": [
+        "A safety-standard change that forces fencing back onto collaborative cells and destroys the small-shop economics"
+      ],
+      "evidence_considered": [
+        {
+          "claim_id": "91117e64-dfed-5a4e-b977-8ffd038fa740",
+          "sentence": "Cobot tending cell maturity MATURE"
+        },
+        {
+          "claim_id": "1cb43af2-db56-5aeb-9a3b-53f3db48ebe0",
+          "sentence": "Caged arm tending cell maturity MATURE"
+        },
+        {
+          "claim_id": "e2fcf53f-4290-5c2c-85ba-3d495d09dff7",
+          "sentence": "Universal Robots targets market Manufacturing"
+        },
+        {
+          "claim_id": "b25b91ee-b497-59a9-986f-960da09aa867",
+          "sentence": "FANUC targets market Manufacturing"
+        }
+      ],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "e51a80d5-de8f-5145-a80f-6e2236752715",
+      "text": "An operator standing at the machine, opening the door, swapping the part and pressing cycle start, typically running two or three machines at once.",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The manual method is well understood and its cost is directly observable, which is why the business case for tending is the easiest in robotics to write.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "approaches": [
+    {
+      "approach": {
+        "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
+        "slug": "cobot-tending-cell",
+        "entity_type": "APPROACH",
+        "name": "Cobot tending cell",
+        "primary_embodiment": null
+      },
+      "short_description": "A collaborative arm parked at a machine door, loading and unloading blanks and finished parts without a fence.",
+      "maturity": {
+        "value": "MATURE",
+        "claim_id": "91117e64-dfed-5a4e-b977-8ffd038fa740",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "HIGH",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Every major cobot vendor sells a packaged tending cell, integrators quote them from a photo of the machine, and the payback is arithmetic rather than argument. There is no open technical question here — the constraint is the customer's willingness to standardise fixturing.",
+          "advance_criteria": [
+            "Already at the top of the scale; watch for price compression as Asian vendors take share"
+          ],
+          "regress_criteria": [
+            "A safety-standard change that reintroduces fencing around collaborative cells"
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "COBOT"
+      ],
+      "example_vendors": [
+        {
+          "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+          "slug": "doosan-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Doosan Robotics",
+          "primary_embodiment": null
+        },
+        {
+          "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+          "slug": "techman-robot",
+          "entity_type": "ORGANIZATION",
+          "name": "Techman Robot",
+          "primary_embodiment": null
+        },
+        {
+          "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+          "slug": "universal-robots",
+          "entity_type": "ORGANIZATION",
+          "name": "Universal Robots",
+          "primary_embodiment": null
+        }
+      ]
+    },
+    {
+      "approach": {
+        "id": "d6c78acc-fb7b-568f-b1af-28f50449cb17",
+        "slug": "mobile-manipulator-tending",
+        "entity_type": "APPROACH",
+        "name": "Mobile manipulator tending",
+        "primary_embodiment": null
+      },
+      "short_description": "An arm on an autonomous base that drives between machines, so one robot covers a cell rather than a door.",
+      "maturity": {
+        "value": "PILOT",
+        "claim_id": "bf2371dd-7c5a-54d6-b794-72eaa730532d",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "MEDIUM",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "The economics are attractive on paper — one robot amortised across several low-utilisation machines — and every large vendor has a platform. In practice, docking repeatability, safety across a moving envelope and the integration cost of talking to several different machine controllers keep these in single-site trials. Pilot, not early commercial, because the repeat orders are not there.",
+          "advance_criteria": [
+            "Multi-machine routes running unattended across a full shift",
+            "Docking accuracy that removes the need for per-machine fixtures",
+            "A second site ordered by a customer who ran the first"
+          ],
+          "regress_criteria": [
+            "Customers concluding that a fixed arm per machine is simply cheaper"
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "AMR"
+      ],
+      "example_vendors": []
+    },
+    {
+      "approach": {
+        "id": "421d32b6-1844-5d0b-8ee9-d6995cf143dd",
+        "slug": "caged-arm-tending-cell",
+        "entity_type": "APPROACH",
+        "name": "Caged arm tending cell",
+        "primary_embodiment": null
+      },
+      "short_description": "A fenced industrial arm serving one or more machines at full speed, with a guarded gate for operator access.",
+      "maturity": {
+        "value": "MATURE",
+        "claim_id": "1cb43af2-db56-5aeb-9a3b-53f3db48ebe0",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "HIGH",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "This is the oldest deployed form of industrial robotics and remains the default whenever cycle time matters more than floor space. Nothing about it is technically open; it competes on integration cost against the collaborative alternative.",
+          "advance_criteria": [
+            "Already at the top of the scale"
+          ],
+          "regress_criteria": [
+            "None credible; the installed base alone sustains it"
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "INDUSTRIAL_ARM"
+      ],
+      "example_vendors": [
+        {
+          "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+          "slug": "abb-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "ABB Robotics",
+          "primary_embodiment": null
+        },
+        {
+          "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+          "slug": "fanuc",
+          "entity_type": "ORGANIZATION",
+          "name": "FANUC",
+          "primary_embodiment": null
+        },
+        {
+          "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+          "slug": "yaskawa",
+          "entity_type": "ORGANIZATION",
+          "name": "Yaskawa Electric",
+          "primary_embodiment": null
+        }
+      ]
+    }
+  ],
+  "technical_requirements": [
+    {
+      "claim_id": "784fce6c-cb22-5bdc-9fa9-2a57a48ea1a6",
+      "text": "Machine controller integration",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The robot must know when the door is open, the chuck is clear and the cycle is done. Without an I/O or protocol handshake into the machine, the robot is guessing and the cell runs at human pace.",
+        "advance_criteria": [
+          "Would be relaxed by machine tools exposing a standard robot interface out of the box."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "9d1e3c4e-eb1c-5872-8891-a8bc397422bc",
+      "text": "Reliable part presentation and gripping",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Blanks arrive in bins, totes or on carts and finished parts are hot, oily and slippery. Everything upstream of the gripper — the fixture, the tray, the bin — is where the cost actually sits.",
+        "advance_criteria": [
+          "Would be relaxed by bin picking robust enough to skip trays entirely."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "c5599664-1420-5d08-b54e-64b4576f2316",
+      "text": "Fast changeover between part numbers",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "A job shop changes parts weekly. If reprogramming and refixturing takes a day, the robot is idle for the batch it was bought to run.",
+        "advance_criteria": [
+          "Would be relaxed by teach-by-demonstration that a machinist can use without vendor support."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+        "slug": "abb-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ABB Robotics",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Zurich"
+    },
+    {
+      "organization": {
+        "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+        "slug": "doosan-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Doosan Robotics",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Suwon"
+    },
+    {
+      "organization": {
+        "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+        "slug": "fanuc",
+        "entity_type": "ORGANIZATION",
+        "name": "FANUC",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Oshino"
+    },
+    {
+      "organization": {
+        "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+        "slug": "techman-robot",
+        "entity_type": "ORGANIZATION",
+        "name": "Techman Robot",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Taoyuan"
+    },
+    {
+      "organization": {
+        "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+        "slug": "universal-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Universal Robots",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Odense"
+    },
+    {
+      "organization": {
+        "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+        "slug": "yaskawa",
+        "entity_type": "ORGANIZATION",
+        "name": "Yaskawa Electric",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Kitakyushu"
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "1f0f5e91-098a-5c0d-999b-3872b327d789",
+      "text": "Contract machine shops",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Job shops feel the machinist shortage first and buy single cells out of operating budget.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "5e52a7c1-8dfe-586a-96f4-cba07c718f92",
+      "text": "Tier 1 and Tier 2 automotive suppliers",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "High-volume machined parts on long programmes are where fenced tending cells were first justified and are still bought in quantity.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "b6c0ef5f-379e-5f6c-8cc3-df6f636f553f",
+      "text": "Machine tool builders and distributors",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Increasingly the tending cell is sold with the machine rather than after it, which moves the buying decision to the machine tool channel.",
+        "advance_criteria": [
+          "Would strengthen if attach rates on new machine sales become the main route to market."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "blockers": [
+    {
+      "claim_id": "af7fe69a-30d2-558f-b6c9-e764dfaa3029",
+      "text": "Batch size economics",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The cell pays back on volume, and the shops with the worst labour problem are the ones running the smallest batches. Every hour of setup is an hour the robot is not cutting, so the automation argument inverts exactly where the labour argument is strongest.",
+        "advance_criteria": [
+          "Setup times measured in minutes by shop staff, not hours by an integrator",
+          "Vendors publishing payback at batch sizes typical of job shops"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "d0f89f8b-d3a9-5392-96c2-3d1b0cfc5c6c",
+      "text": "Programming skills on the shop floor",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The shop that cannot hire a machinist certainly cannot hire a robot programmer. If changeover depends on the integrator returning, the cell runs one part number forever and the customer quietly writes off the rest of the plan.",
+        "advance_criteria": [
+          "Machinists reprogramming cells without vendor involvement as the norm",
+          "Vendor training measured in hours rather than weeks"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "e2f62904-1ec1-528a-aee2-744374c54489",
+      "text": "Fixturing and part presentation cost",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The arm is the cheap part. Trays, feeders and grippers are engineered per part and routinely cost more than the robot, and they are the line item that kills a quote at a small shop.",
+        "advance_criteria": [
+          "Production-grade bin picking removing the need for engineered trays",
+          "Gripper families that cover a part range without custom tooling"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "adjacent_tasks": [
+    {
+      "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+      "slug": "assembly",
+      "entity_type": "TASK",
+      "name": "Assembly",
+      "primary_embodiment": null
+    },
+    {
+      "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+      "slug": "in-process-inspection",
+      "entity_type": "TASK",
+      "name": "In-process inspection",
+      "primary_embodiment": null
+    }
+  ],
+  "intelligence_rail": {
+    "assessment_count": 17,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 17
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 6,
+    "deployment_count": 0,
+    "field_trial_count": 0
+  },
+  "as_of": null
+}

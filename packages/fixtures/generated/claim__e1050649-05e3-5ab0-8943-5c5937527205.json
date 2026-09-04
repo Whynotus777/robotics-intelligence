@@ -1,0 +1,78 @@
+{
+  "claim": {
+    "claim_id": "e1050649-05e3-5ab0-8943-5c5937527205",
+    "subject": {
+      "id": "05ee564d-1a73-5207-a2d6-212eadbedb06",
+      "slug": "cobot-welding",
+      "entity_type": "APPROACH",
+      "name": "Cobot welding",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "Cobot welding example vendor Doosan Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+        "slug": "doosan-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Doosan Robotics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0fc033ff-16a7-5f8a-ba0d-685f78d77a38",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Welding is presented among the company's application packages.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e64db866-6bab-5cff-8dd5-4ee3b9099603",
+        "url": "https://www.doosanrobotics.com/en",
+        "canonical_url": null,
+        "publisher": "Doosan Robotics",
+        "title": "Doosan Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "874e0b9c-59a4-57a5-99e1-00f41cf9964b",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+          "slug": "universal-robots",
+          "entity_type": "ORGANIZATION",
+          "name": "Universal Robots",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

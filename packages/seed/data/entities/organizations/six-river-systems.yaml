@@ -1,0 +1,36 @@
+slug: six-river-systems
+entity_type: ORGANIZATION
+name: 6 River Systems
+short_description: Waltham maker of Chuck, the collaborative picking cart that walks associates through a pick path; acquired by Shopify in 2019 and by Ocado Group in 2023.
+country_code: US
+depth_tier: DISCOVERY
+aliases: [6 River]
+claims:
+- predicate: HQ_AT
+  object: waltham
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: six-river-site
+    excerpt: Company site gives a Massachusetts headquarters.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: six-river-site
+    excerpt: Positioned for warehouse and fulfilment operations.
+- predicate: TARGETS_TASK
+  object: each-picking-assistance
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: six-river-chuck-page
+    excerpt: Chuck is described as a collaborative robot that guides associates through picking.
+- predicate: BUILDS
+  object: six-river-chuck
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: six-river-chuck-page
+    excerpt: Chuck product page.

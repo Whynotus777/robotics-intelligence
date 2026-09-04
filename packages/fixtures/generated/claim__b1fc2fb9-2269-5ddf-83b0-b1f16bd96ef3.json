@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "b1fc2fb9-2269-5ddf-83b0-b1f16bd96ef3",
+    "subject": {
+      "id": "dd4d153d-3b8f-5b85-894c-5d6f3903be90",
+      "slug": "zipline-p2-zip",
+      "entity_type": "ROBOT",
+      "name": "Zipline P2 Zip",
+      "primary_embodiment": "DRONE"
+    },
+    "predicate": "HAS_ARCHITECTURE_NOTE",
+    "label": "architecture note",
+    "sentence": "Zipline P2 Zip architecture note Delivery is done by a tethered droid lowered from the hovering aircraft, which keeps the aircraft high and quiet and puts the precision problem in a small, cheap, replaceable part.",
+    "value": {
+      "kind": "text",
+      "text": "Delivery is done by a tethered droid lowered from the hovering aircraft, which keeps the aircraft high and quiet and puts the precision problem in a small, cheap, replaceable part."
+    },
+    "stack_layer": "END_EFFECTOR_PAYLOAD",
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "29060a87-0c7e-5e2e-ab4b-772e70d9f69e",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "The P2 delivery method is described as a droid lowered on a tether.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "47c34812-db4d-54ed-958c-ea6e06b9e139",
+        "url": "https://www.flyzipline.com/",
+        "canonical_url": null,
+        "publisher": "Zipline",
+        "title": "Zipline instant logistics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

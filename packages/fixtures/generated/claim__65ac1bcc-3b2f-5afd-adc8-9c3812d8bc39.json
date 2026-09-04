@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "65ac1bcc-3b2f-5afd-adc8-9c3812d8bc39",
+    "subject": {
+      "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
+      "slug": "galbot",
+      "entity_type": "ORGANIZATION",
+      "name": "Galbot",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Galbot targets market Retail & Service",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "8b8c0af0-2404-5bd1-9a00-ae94406f4b1b",
+        "slug": "retail-service",
+        "entity_type": "MARKET",
+        "name": "Retail & Service",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2e3048a1-06a1-54ff-8c50-34cade2c84ee",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Retail store operation is the named deployment environment.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8d8cd5bd-c632-5ddc-98a8-a3451056c289",
+        "url": "https://www.galbot.com/en",
+        "canonical_url": null,
+        "publisher": "Galbot",
+        "title": "Galbot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

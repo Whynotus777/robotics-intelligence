@@ -1,0 +1,77 @@
+{
+  "claim": {
+    "claim_id": "d60209e8-ac30-52d5-b632-fd3694799165",
+    "subject": {
+      "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+      "slug": "assembly",
+      "entity_type": "TASK",
+      "name": "Assembly",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_ADOPTION_BLOCKER",
+    "label": "adoption blocker",
+    "sentence": "Assembly adoption blocker Product design that assumes hands",
+    "value": {
+      "kind": "text",
+      "text": "Product design that assumes hands"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e82716f2-9ea5-5d81-8069-c62ce6a9d72d",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Products designed for human assembly hide fasteners, use floppy parts and demand two-handed coordination. Design-for-automation fixes it, but the design decision is made years before and by a different team, so the robot inherits a product that was never meant for it.",
+        "advance_criteria": [
+          "Design-for-automation reviews standard in new product introduction",
+          "Robot-assembled variants shipping alongside manually assembled ones"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "1aae45f0-f1f2-556b-9ead-714f63d3eec7",
+      "value": {
+        "kind": "text",
+        "text": "Engineering cost per product"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "e06b417d-1f45-53ec-8972-e8d171c28995",
+      "value": {
+        "kind": "text",
+        "text": "Line changeover risk"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

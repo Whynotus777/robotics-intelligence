@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "0fcf0ace-ac42-54cd-966c-dfba70df411b",
+    "subject": {
+      "id": "6e477c0c-cf3f-5b88-9d5b-2f80f10c52f4",
+      "slug": "ubtech-walker-s1",
+      "entity_type": "ROBOT",
+      "name": "UBTech Walker S1",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "UBTech Walker S1 commercial stage PILOT_DEPLOYMENTS",
+    "value": {
+      "kind": "enum",
+      "value": "PILOT_DEPLOYMENTS"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f14caf50-f290-55cd-ae2c-280db16ccaca",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Described as running trials on automotive production lines.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "2a2da8ee-300f-5601-a275-0656cd3b3fa9",
+        "url": "https://www.ubtrobot.com/",
+        "canonical_url": null,
+        "publisher": "UBTech Robotics",
+        "title": "UBTech Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

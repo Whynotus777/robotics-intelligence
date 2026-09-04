@@ -1,0 +1,35 @@
+slug: autostore
+entity_type: ORGANIZATION
+name: AutoStore
+short_description: Norwegian cube-storage vendor; robots drive on top of a stacked bin grid, and the grid itself is the product.
+country_code: 'NO'
+depth_tier: DISCOVERY
+claims:
+- predicate: HQ_AT
+  object: nedre-vats
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: autostore-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: autostore-site
+    excerpt: Cube storage automation positioning for warehouses.
+- predicate: TARGETS_TASK
+  object: automated-storage-and-retrieval
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: autostore-site
+    excerpt: The system is sold as automated storage and retrieval.
+- predicate: BUILDS
+  object: autostore-r5
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: autostore-robots-page
+    excerpt: Grid robots are listed on the system pages.

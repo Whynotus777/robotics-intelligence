@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "206470db-bcec-50a3-9d3a-a743eb2c12d8",
+    "subject": {
+      "id": "e236fea6-114c-54cc-a269-490132d532fa",
+      "slug": "autostore-r5",
+      "entity_type": "ROBOT",
+      "name": "AutoStore R5",
+      "primary_embodiment": "OTHER_MOBILE"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "AutoStore R5 commercial stage VOLUME_PRODUCTION",
+    "value": {
+      "kind": "enum",
+      "value": "VOLUME_PRODUCTION"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "430425ef-1c8b-5f34-a781-ca07e89143d9",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Grid robots ship in volume as part of installed AutoStore systems.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e8bdbd90-039a-5e80-8a46-ecd5fbb5be8a",
+        "url": "https://www.autostoresystem.com/",
+        "canonical_url": null,
+        "publisher": "AutoStore",
+        "title": "AutoStore",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

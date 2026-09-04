@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "647860be-6c65-596b-987e-3d59feb030da",
+    "subject": {
+      "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+      "slug": "in-process-inspection",
+      "entity_type": "TASK",
+      "name": "In-process inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_ADOPTION_BLOCKER",
+    "label": "adoption blocker",
+    "sentence": "In-process inspection adoption blocker False reject cost",
+    "value": {
+      "kind": "text",
+      "text": "False reject cost"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1c078dd6-4ecb-5157-accb-676e4041fbf9",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Over-rejection scraps good parts and destroys the business case faster than missed defects do, because it is immediately visible on the yield report. Tuning the threshold is a commercial negotiation dressed up as a technical setting.",
+        "advance_criteria": [
+          "False reject rates published and held below the manual baseline in production"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "20cfc552-643f-5706-a602-7e3aa24424a7",
+      "value": {
+        "kind": "text",
+        "text": "Validation and quality sign-off"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "887926c9-8eef-51e2-9f6b-e29c022d86ed",
+      "value": {
+        "kind": "text",
+        "text": "Defect data scarcity"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

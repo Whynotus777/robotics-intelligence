@@ -1,0 +1,46 @@
+slug: techman-tm12
+entity_type: ROBOT
+name: Techman TM12
+short_description: 12 kg collaborative arm with a built-in vision system, sold as an out-of-the-box inspection and tending cell.
+primary_embodiment: COBOT
+country_code: TW
+depth_tier: DISCOVERY
+aliases: [TM12]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: COBOT
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: techman-tm12-page
+    excerpt: Presented as a collaborative robot.
+- predicate: HAS_PAYLOAD
+  number: 12
+  unit: kg
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: techman-tm12-page
+    excerpt: TM12 is listed with a 12 kg payload.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: VOLUME_PRODUCTION
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: techman-site
+    excerpt: Sold as a catalogue product.
+- predicate: HAS_ARCHITECTURE_NOTE
+  stack_layer: SENSORS
+  text: "The arm ships with an integrated camera in the wrist rather than a third-party vision kit, which is the whole positioning: the customer buys one supported product instead of integrating two."
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: techman-tm12-page
+    excerpt: Product page describes a built-in vision system.
+- predicate: TARGETS_TASK
+  object: in-process-inspection
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: techman-tm12-page
+    excerpt: Built-in vision is presented for inspection applications.

@@ -26,7 +26,33 @@
   "place": null,
   "claims": [],
   "relationships": [],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "6577102c-fda4-5972-a7a5-2e55a8a3f82f",
+          "source": {
+            "id": "e1b756a7-b704-58be-bdc6-603f60b30924",
+            "slug": "nabtesco-rv-series",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "Nabtesco RV series",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {},
   "intelligence": {
     "evidence_summary": {
@@ -43,7 +69,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "4d4d2c9e-61d8-5763-bd84-a895e9acf0ca",
+    "subject": {
+      "id": "af96607d-e4ee-5ac6-b7de-b4f9d7990783",
+      "slug": "nuro",
+      "entity_type": "ORGANIZATION",
+      "name": "Nuro",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Nuro targets market Retail & Service",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "8b8c0af0-2404-5bd1-9a00-ae94406f4b1b",
+        "slug": "retail-service",
+        "entity_type": "MARKET",
+        "name": "Retail & Service",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "29d00b61-40bd-58fb-9db8-58140da5ed52",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Local goods delivery is the named application.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "decad0b4-0ba2-54b7-8c63-ec1b9132528a",
+        "url": "https://www.nuro.ai/",
+        "canonical_url": null,
+        "publisher": "Nuro",
+        "title": "Nuro",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

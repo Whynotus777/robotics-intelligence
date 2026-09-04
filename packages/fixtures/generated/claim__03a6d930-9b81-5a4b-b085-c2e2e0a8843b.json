@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "03a6d930-9b81-5a4b-b085-c2e2e0a8843b",
+    "subject": {
+      "id": "041263f5-f36b-59ab-b31e-0c5adee373ab",
+      "slug": "skild-brain",
+      "entity_type": "MODEL",
+      "name": "Skild Brain",
+      "primary_embodiment": null
+    },
+    "predicate": "IS_INSTANCE_OF",
+    "label": "is an instance of",
+    "sentence": "Skild Brain is an instance of VLA models",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "bc3bbbc6-d8b1-5fdc-b75e-722ffc380762",
+        "slug": "vla-models",
+        "entity_type": "TECHNOLOGY",
+        "name": "VLA models",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "40322e2b-c205-5c83-811e-0a8bb960771c",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Described as a learned general-purpose policy driving robot behaviour from perception.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "abffa19f-191f-5d39-87fe-6bef5992a4d8",
+        "url": "https://www.skild.ai/",
+        "canonical_url": null,
+        "publisher": "Skild AI",
+        "title": "Skild AI",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

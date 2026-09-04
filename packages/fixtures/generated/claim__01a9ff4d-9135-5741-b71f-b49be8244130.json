@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "01a9ff4d-9135-5741-b71f-b49be8244130",
+    "subject": {
+      "id": "e35b836e-1830-5e51-8c65-03a889bc8a84",
+      "slug": "robotic-palletizing-cell",
+      "entity_type": "APPROACH",
+      "name": "Robotic palletizing cell",
+      "primary_embodiment": null
+    },
+    "predicate": "USES_EMBODIMENT",
+    "label": "uses embodiment",
+    "sentence": "Robotic palletizing cell uses embodiment INDUSTRIAL_ARM",
+    "value": {
+      "kind": "enum",
+      "value": "INDUSTRIAL_ARM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8dd7954e-5339-566b-9d66-1781bfab04ad",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Palletizing is a named application for high-payload arms.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "b9c6f20a-84bf-54bc-8703-76731dc817d9",
+        "url": "https://new.abb.com/products/robotics/robots/articulated-robots/irb-6700",
+        "canonical_url": null,
+        "publisher": "ABB",
+        "title": "IRB 6700 articulated robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

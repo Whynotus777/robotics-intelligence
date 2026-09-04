@@ -138,12 +138,69 @@
       "label": "targets task",
       "items": [
         {
+          "claim_id": "320e6f2d-2141-5510-96aa-d2bbcaf37341",
+          "source": {
+            "id": "2af4b707-5460-5da6-b7ad-3addf359a049",
+            "slug": "geek-plus",
+            "entity_type": "ORGANIZATION",
+            "name": "Geek+",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "4ab07e26-ed5f-523a-955e-14497fa1c292",
+          "source": {
+            "id": "a1a3d963-78b7-5572-bf2a-0f1810db3337",
+            "slug": "six-river-systems",
+            "entity_type": "ORGANIZATION",
+            "name": "6 River Systems",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "5d36063f-56e6-5e63-b62b-affa590b84b1",
           "source": {
             "id": "d0bdf70a-64a1-5faf-8210-b2d4df93141d",
             "slug": "locus-origin",
             "entity_type": "ROBOT",
             "name": "Locus Origin",
+            "primary_embodiment": "AMR"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "cdd1554f-b2c8-5274-bb3e-44b977241c7c",
+          "source": {
+            "id": "dcdb74cb-e80a-59f2-b596-07c5201d9da4",
+            "slug": "six-river-chuck",
+            "entity_type": "ROBOT",
+            "name": "6 River Chuck",
             "primary_embodiment": "AMR"
           },
           "stack_layer": null,
@@ -206,6 +263,20 @@
   "lateral_links": {
     "company": [
       {
+        "id": "a1a3d963-78b7-5572-bf2a-0f1810db3337",
+        "slug": "six-river-systems",
+        "entity_type": "ORGANIZATION",
+        "name": "6 River Systems",
+        "primary_embodiment": null
+      },
+      {
+        "id": "2af4b707-5460-5da6-b7ad-3addf359a049",
+        "slug": "geek-plus",
+        "entity_type": "ORGANIZATION",
+        "name": "Geek+",
+        "primary_embodiment": null
+      },
+      {
         "id": "79815395-59ce-5c93-aef0-8686647839c6",
         "slug": "locus",
         "entity_type": "ORGANIZATION",
@@ -238,7 +309,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 4
+    "related_count": 7
   },
   "as_of": null
 }

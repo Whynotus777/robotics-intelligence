@@ -1,0 +1,94 @@
+{
+  "robot": {
+    "id": "5f04e5c3-3101-536e-9158-89a56a06b3d5",
+    "slug": "techman-tm12",
+    "entity_type": "ROBOT",
+    "name": "Techman TM12",
+    "primary_embodiment": "COBOT"
+  },
+  "embodiment": "COBOT",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "Application software / programming",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Motion planning",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Vision (if present)",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Servo control / controller",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Controller cabinet",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "Encoders, F/T, safety",
+      "applies": true,
+      "items": [],
+      "competing_technologies": [],
+      "architecture_note": {
+        "claim_id": "888167f6-182a-55bf-9668-edf0df913fc7",
+        "text": "The arm ships with an integrated camera in the wrist rather than a third-party vision kit, which is the whole positioning: the customer buys one supported product instead of integrating two.",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "MEDIUM",
+          "source_count": 1
+        }
+      }
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Joint modules & reducers",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "End effector / tooling",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "POWER",
+      "label": "Mains power",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Links, base",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

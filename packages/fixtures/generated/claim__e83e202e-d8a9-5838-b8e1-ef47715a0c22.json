@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "e83e202e-d8a9-5838-b8e1-ef47715a0c22",
+    "subject": {
+      "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
+      "slug": "anybotics",
+      "entity_type": "ORGANIZATION",
+      "name": "ANYbotics",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "ANYbotics is headquartered at Zurich",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c18ec3d8-b5ec-50d7-97ef-eee6e09d8cfd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "c313a4a0-ebfa-5427-bf9f-efe5239ac165",
+        "url": "https://www.anybotics.com/",
+        "canonical_url": null,
+        "publisher": "ANYbotics",
+        "title": "ANYbotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

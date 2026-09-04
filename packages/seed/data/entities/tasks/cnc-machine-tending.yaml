@@ -1,0 +1,177 @@
+slug: cnc-machine-tending
+entity_type: TASK
+name: CNC machine tending
+short_description: Loading blanks into a machine tool and unloading finished parts, shift after shift, so the spindle keeps cutting.
+depth_tier: ANCHOR
+aliases: [Machine tending, Machine loading]
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: machine-tending
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The buyer is the plant that owns the machine tool, and the integration surface is the machine door, chuck and controller.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: MATURE
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          author: editorial
+          rationale: This is the reference case for industrial robotics. Cobot and caged tending cells are sold as configured products by every arm vendor, integrators quote them from a site photo, and the payback is a spreadsheet, not a pilot. Penetration is still low in job shops, but that gap is capital discipline and part variety, not an unsolved capability — which is exactly what separates a mature task from a scaling one.
+          advance_criteria:
+            - Already at the top of the scale; watch tending attach rates on new machine tool sales
+            - Machine builders shipping robot-ready doors and interlocks as standard
+          regress_criteria:
+            - A safety-standard change that forces fencing back onto collaborative cells and destroys the small-shop economics
+          evidence_considered:
+            - cobot-tending-cell:HAS_MATURITY
+            - caged-arm-tending-cell:HAS_MATURITY
+            - universal-robots:TARGETS_MARKET
+            - fanuc:TARGETS_MARKET
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: An operator standing at the machine, opening the door, swapping the part and pressing cycle start, typically running two or three machines at once.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The manual method is well understood and its cost is directly observable, which is why the business case for tending is the easiest in robotics to write.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: cobot-tending-cell
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The unfenced cobot cell is what opened this task to shops that have no room and no integrator.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: caged-arm-tending-cell
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The fenced arm remains the default whenever cycle time or payload rules out a collaborative arm.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: mobile-manipulator-tending
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Included because buyers with many low-utilisation machines actively evaluate it against buying one arm per machine, even though it is still in trials.
+          advance_criteria: ["Would strengthen if multi-machine routes run unattended across a full shift."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Reliable part presentation and gripping
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Blanks arrive in bins, totes or on carts and finished parts are hot, oily and slippery. Everything upstream of the gripper — the fixture, the tray, the bin — is where the cost actually sits.
+          advance_criteria: ["Would be relaxed by bin picking robust enough to skip trays entirely."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Machine controller integration
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The robot must know when the door is open, the chuck is clear and the cycle is done. Without an I/O or protocol handshake into the machine, the robot is guessing and the cell runs at human pace.
+          advance_criteria: ["Would be relaxed by machine tools exposing a standard robot interface out of the box."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Fast changeover between part numbers
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A job shop changes parts weekly. If reprogramming and refixturing takes a day, the robot is idle for the batch it was bought to run.
+          advance_criteria: ["Would be relaxed by teach-by-demonstration that a machinist can use without vendor support."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Contract machine shops
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Job shops feel the machinist shortage first and buy single cells out of operating budget.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Tier 1 and Tier 2 automotive suppliers
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: High-volume machined parts on long programmes are where fenced tending cells were first justified and are still bought in quantity.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Machine tool builders and distributors
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Increasingly the tending cell is sold with the machine rather than after it, which moves the buying decision to the machine tool channel.
+          advance_criteria: ["Would strengthen if attach rates on new machine sales become the main route to market."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Batch size economics
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The cell pays back on volume, and the shops with the worst labour problem are the ones running the smallest batches. Every hour of setup is an hour the robot is not cutting, so the automation argument inverts exactly where the labour argument is strongest.
+          advance_criteria:
+            - Setup times measured in minutes by shop staff, not hours by an integrator
+            - Vendors publishing payback at batch sizes typical of job shops
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Programming skills on the shop floor
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The shop that cannot hire a machinist certainly cannot hire a robot programmer. If changeover depends on the integrator returning, the cell runs one part number forever and the customer quietly writes off the rest of the plan.
+          advance_criteria:
+            - Machinists reprogramming cells without vendor involvement as the norm
+            - Vendor training measured in hours rather than weeks
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Fixturing and part presentation cost
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: The arm is the cheap part. Trays, feeders and grippers are engineered per part and routinely cost more than the robot, and they are the line item that kills a quote at a small shop.
+          advance_criteria:
+            - Production-grade bin picking removing the need for engineered trays
+            - Gripper families that cover a part range without custom tooling
+          reviewed_at: 2026-09-01
+  - predicate: ADJACENT_TO
+    object: assembly
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: The same arm, cell and integrator serve both, and shops that automate tending are the ones that next look at assembly.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: ADJACENT_TO
+    object: in-process-inspection
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The arm already holds every part it unloads, which makes the gauge station the cheapest capability to add next.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01

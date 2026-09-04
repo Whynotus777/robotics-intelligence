@@ -1,0 +1,21 @@
+slug: skild-brain
+entity_type: MODEL
+name: Skild Brain
+short_description: General-purpose robot foundation model intended to transfer across embodiments rather than be retrained per platform.
+country_code: US
+depth_tier: DISCOVERY
+claims:
+- predicate: MADE_BY
+  object: skild-ai
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: skild-site
+    excerpt: The company presents a general-purpose robot brain as its product.
+- predicate: IS_INSTANCE_OF
+  object: vla-models
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: skild-site
+    excerpt: Described as a learned general-purpose policy driving robot behaviour from perception.

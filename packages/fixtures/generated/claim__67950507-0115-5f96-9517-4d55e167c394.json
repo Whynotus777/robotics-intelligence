@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "67950507-0115-5f96-9517-4d55e167c394",
+    "subject": {
+      "id": "dcdb74cb-e80a-59f2-b596-07c5201d9da4",
+      "slug": "six-river-chuck",
+      "entity_type": "ROBOT",
+      "name": "6 River Chuck",
+      "primary_embodiment": "AMR"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "6 River Chuck commercial stage COMMERCIAL",
+    "value": {
+      "kind": "enum",
+      "value": "COMMERCIAL"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5cda8c4b-7724-5bd7-8dbd-fdca2b7ef794",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Sold and deployed in customer fulfilment sites.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "85497f49-5cbb-5bdd-898e-2d785eb7a840",
+        "url": "https://6river.com/",
+        "canonical_url": null,
+        "publisher": "6 River Systems",
+        "title": "6 River Systems",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

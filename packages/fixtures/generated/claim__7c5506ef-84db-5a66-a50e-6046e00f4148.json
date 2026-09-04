@@ -1,0 +1,60 @@
+{
+  "claim": {
+    "claim_id": "7c5506ef-84db-5a66-a50e-6046e00f4148",
+    "subject": {
+      "id": "328424e6-545a-582d-8d5a-fae72ba2626b",
+      "slug": "force-controlled-assembly",
+      "entity_type": "APPROACH",
+      "name": "Force-controlled robotic assembly",
+      "primary_embodiment": null
+    },
+    "predicate": "REQUIRES_TECHNOLOGY",
+    "label": "requires",
+    "sentence": "Force-controlled robotic assembly requires Force-torque sensors",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "dc402f1d-c66a-55b7-a5b3-69928bb722bc",
+        "slug": "force-torque-sensors",
+        "entity_type": "TECHNOLOGY",
+        "name": "Force-torque sensors",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0f1aef00-c6a3-57b9-8e34-6958669917ca",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Position control alone jams on tolerance stack-up; the contact force is the only signal that tells the robot whether the part is going in or being destroyed.",
+        "advance_criteria": [
+          "Would be relaxed by joint-current-based force estimation good enough for fine insertion."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

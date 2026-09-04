@@ -1,0 +1,33 @@
+slug: anybotics-anymal-d
+entity_type: ROBOT
+name: ANYbotics ANYmal D
+short_description: Industrial inspection quadruped built for permanent residence on a plant, with explosion-protected variants for process sites.
+primary_embodiment: QUADRUPED
+country_code: CH
+depth_tier: DISCOVERY
+aliases: [ANYmal D, ANYmal]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: QUADRUPED
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: anybotics-anymal-page
+    excerpt: Presented as a four-legged inspection robot.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: COMMERCIAL
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: anybotics-anymal-page
+    excerpt: Sold into industrial inspection deployments rather than as a research licence.
+- predicate: COMPETES_WITH
+  object: boston-dynamics-spot
+  evidence:
+  - class: ANALYST
+    confidence: HIGH
+    assessment:
+      rationale: Both are sold to the same buyer for the same job — autonomous inspection rounds on process and utility sites — and customers evaluate them head to head on autonomy, hazardous-area certification and data pipeline rather than on locomotion.
+      advance_criteria:
+      - Would change if either vendor exits industrial inspection for a different primary market
+      reviewed_at: 2026-09-01

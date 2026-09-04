@@ -1,0 +1,501 @@
+{
+  "entity": {
+    "id": "60245a27-6286-59df-a3ed-9487c3c0d92a",
+    "slug": "palletizing",
+    "entity_type": "TASK",
+    "name": "Palletizing",
+    "short_description": "Stacking cases, bags or trays onto a pallet at the end of a production line, to a pattern and at line rate.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "Depalletizing",
+      "End-of-line palletizing"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "MATURE"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
+      "claims": [
+        {
+          "claim_id": "0939f380-b94e-528f-b4bf-87849e83a58e",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Food and beverage producers"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "5e95959f-bcf2-596f-b2fb-76fb6dc8d789",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "CPG manufacturers"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_TECHNICAL_REQUIREMENT",
+      "label": "technical requirement",
+      "claims": [
+        {
+          "claim_id": "2e464f02-80cb-5daf-a795-a83fdbbb604a",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Tooling that holds the actual package"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "b3e87e62-371b-5351-997f-21f6cdbb87e8",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Pattern generation for mixed SKUs"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_INCUMBENT_PROCESS",
+      "label": "incumbent process",
+      "claims": [
+        {
+          "claim_id": "342b690c-6f3c-5a5d-b3e2-f2596401bf6e",
+          "predicate": "HAS_INCUMBENT_PROCESS",
+          "value": {
+            "kind": "text",
+            "text": "Operators lifting cases off a conveyor onto a pallet by hand, or a fixed mechanical layer palletizer built for one pattern."
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "4aac7670-c923-516c-bdb4-158e391b4933",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "MATURE"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_ADOPTION_BLOCKER",
+      "label": "adoption blocker",
+      "claims": [
+        {
+          "claim_id": "600c8f91-e1c9-5c50-a2df-6114b9a60b30",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Package variability"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "8cf7d9c4-f6c2-5056-96ae-438298fc06dd",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Floor space at the end of the line"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_ECONOMICS_NOTE",
+      "label": "economics",
+      "claims": [
+        {
+          "claim_id": "a2541d47-ee25-5157-8f2c-1a61f74f4c73",
+          "predicate": "HAS_ECONOMICS_NOTE",
+          "value": {
+            "kind": "text",
+            "text": "Payback is usually argued on injury and turnover as much as on headcount, because manual case stacking carries some of the highest recordable injury rates in a plant."
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
+      "items": [
+        {
+          "claim_id": "6008e573-eb55-5e0d-8317-28f427b382a2",
+          "target": {
+            "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+            "slug": "pallet-movement",
+            "entity_type": "TASK",
+            "name": "Pallet movement",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "68deca20-fbe2-5484-9fbd-a2244c9e6e9c",
+          "target": {
+            "id": "2bea54e2-cb77-5728-b445-707f09039b05",
+            "slug": "cobot-palletizer",
+            "entity_type": "APPROACH",
+            "name": "Cobot palletizer",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "826ab893-5552-5dd0-bd31-8d191a5b03cc",
+          "target": {
+            "id": "e35b836e-1830-5e51-8c65-03a889bc8a84",
+            "slug": "robotic-palletizing-cell",
+            "entity_type": "APPROACH",
+            "name": "Robotic palletizing cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "dc768463-26ec-5d52-af14-71d273252162",
+          "target": {
+            "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+            "slug": "machine-tending",
+            "entity_type": "MARKET",
+            "name": "Machine tending",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "63730e51-c6be-573f-8ee3-e46c13d53849",
+          "source": {
+            "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+            "slug": "fanuc",
+            "entity_type": "ORGANIZATION",
+            "name": "FANUC",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "709d4a96-bbd6-56c1-8155-89a1c0df0cc0",
+          "source": {
+            "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+            "slug": "universal-robots",
+            "entity_type": "ORGANIZATION",
+            "name": "Universal Robots",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "7e3438fb-7ffc-52df-84f0-b55538452818",
+          "source": {
+            "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+            "slug": "kuka",
+            "entity_type": "ORGANIZATION",
+            "name": "KUKA",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "dd2c834f-de82-5cb2-8fd8-89982efc850b",
+          "source": {
+            "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+            "slug": "doosan-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Doosan Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "2bea54e2-cb77-5728-b445-707f09039b05",
+        "slug": "cobot-palletizer",
+        "entity_type": "APPROACH",
+        "name": "Cobot palletizer",
+        "primary_embodiment": null
+      },
+      {
+        "id": "e35b836e-1830-5e51-8c65-03a889bc8a84",
+        "slug": "robotic-palletizing-cell",
+        "entity_type": "APPROACH",
+        "name": "Robotic palletizing cell",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+        "slug": "doosan-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Doosan Robotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+        "slug": "fanuc",
+        "entity_type": "ORGANIZATION",
+        "name": "FANUC",
+        "primary_embodiment": null
+      },
+      {
+        "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+        "slug": "kuka",
+        "entity_type": "ORGANIZATION",
+        "name": "KUKA",
+        "primary_embodiment": null
+      },
+      {
+        "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+        "slug": "universal-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Universal Robots",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+        "slug": "machine-tending",
+        "entity_type": "MARKET",
+        "name": "Machine tending",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 13
+      },
+      "claim_count": 13,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 13,
+    "deployment_count": 0,
+    "related_count": 8
+  },
+  "as_of": null
+}

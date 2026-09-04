@@ -33,6 +33,44 @@
       "label": "is an instance of",
       "items": [
         {
+          "claim_id": "03a6d930-9b81-5a4b-b085-c2e2e0a8843b",
+          "source": {
+            "id": "041263f5-f36b-59ab-b31e-0c5adee373ab",
+            "slug": "skild-brain",
+            "entity_type": "MODEL",
+            "name": "Skild Brain",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "5c36f870-c7e7-5b82-aa78-223671fe4a05",
+          "source": {
+            "id": "709d836b-770d-5250-bdb3-e4b15e6d27ee",
+            "slug": "pi05",
+            "entity_type": "MODEL",
+            "name": "Physical Intelligence pi-0.5",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "915b3dc0-8438-5d47-b8f7-5372d421d71d",
           "source": {
             "id": "3efa143b-c4c7-5c49-bc42-af2abd624356",
@@ -69,6 +107,25 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "f0595ce5-d45f-510c-8bc5-e540647cb8e6",
+          "source": {
+            "id": "416d598d-01ab-563f-ba08-b6c58a9c6320",
+            "slug": "nvidia-isaac-gr00t-n1",
+            "entity_type": "MODEL",
+            "name": "NVIDIA Isaac GR00T N1",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -89,7 +146,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 5
   },
   "as_of": null
 }

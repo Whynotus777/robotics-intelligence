@@ -35,3 +35,24 @@ claims:
     confidence: HIGH
     source: fanuc-site
     excerpt: Automotive is a named application sector.
+- predicate: TARGETS_TASK
+  object: cnc-machine-tending
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: fanuc-site
+    excerpt: Machine tending is a named application in the industrial robot range.
+- predicate: TARGETS_TASK
+  object: palletizing
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: fanuc-site
+    excerpt: Palletizing is a named application in the industrial robot range.
+- predicate: TARGETS_TASK
+  object: assembly
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: fanuc-site
+    excerpt: Assembly is a named application in the industrial robot range.

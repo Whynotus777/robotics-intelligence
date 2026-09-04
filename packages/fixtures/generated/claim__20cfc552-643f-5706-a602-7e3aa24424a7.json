@@ -1,0 +1,77 @@
+{
+  "claim": {
+    "claim_id": "20cfc552-643f-5706-a602-7e3aa24424a7",
+    "subject": {
+      "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+      "slug": "in-process-inspection",
+      "entity_type": "TASK",
+      "name": "In-process inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_ADOPTION_BLOCKER",
+    "label": "adoption blocker",
+    "sentence": "In-process inspection adoption blocker Validation and quality sign-off",
+    "value": {
+      "kind": "text",
+      "text": "Validation and quality sign-off"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8dff8359-6ef0-5e09-ac7e-0830dc6a15c2",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "A learned inspection model has to be proven against the existing method to a quality department that carries the liability. That process is measured in months and is rarely in the vendor's project plan, which is why so many inspection pilots never turn into production systems.",
+        "advance_criteria": [
+          "Statistically validated model performance accepted in place of a manual reference check",
+          "Regulated customers approving learned inspection in their quality systems"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "647860be-6c65-596b-987e-3d59feb030da",
+      "value": {
+        "kind": "text",
+        "text": "False reject cost"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "887926c9-8eef-51e2-9f6b-e29c022d86ed",
+      "value": {
+        "kind": "text",
+        "text": "Defect data scarcity"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

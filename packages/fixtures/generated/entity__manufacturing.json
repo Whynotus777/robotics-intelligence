@@ -68,12 +68,69 @@
           }
         },
         {
+          "claim_id": "51b13271-4dfa-5184-8b5a-831cd1dc776f",
+          "source": {
+            "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+            "slug": "yaskawa",
+            "entity_type": "ORGANIZATION",
+            "name": "Yaskawa Electric",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "74efedbe-40a6-57e4-9d20-bd51fabcc0ed",
           "source": {
             "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
             "slug": "otto-motors",
             "entity_type": "ORGANIZATION",
             "name": "OTTO Motors",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "777913c5-27aa-59db-834a-b3798e532cde",
+          "source": {
+            "id": "6a3ad67c-5549-528b-a5ed-0391f2c0f8a3",
+            "slug": "sanctuary-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Sanctuary AI",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "7c7ca456-ff7e-5c8d-bb1c-a96301c2bc0f",
+          "source": {
+            "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+            "slug": "techman-robot",
+            "entity_type": "ORGANIZATION",
+            "name": "Techman Robot",
             "primary_embodiment": null
           },
           "stack_layer": null,
@@ -123,6 +180,69 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "e406c5e3-899f-57b8-8f36-5d1dad5eff97",
+          "source": {
+            "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+            "slug": "doosan-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Doosan Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "ffab225c-e05a-5081-97ef-fda96d51020a",
+          "source": {
+            "id": "0f04ed2f-3cb7-5835-926a-1fbf13fa03ad",
+            "slug": "abb-irb-6700",
+            "entity_type": "ROBOT",
+            "name": "ABB IRB 6700",
+            "primary_embodiment": "INDUSTRIAL_ARM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "CHILD_OF",
+      "label": "is a domain of",
+      "items": [
+        {
+          "claim_id": "80bded4f-3bef-52b2-9f2c-3b0e9a36e95c",
+          "source": {
+            "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+            "slug": "machine-tending",
+            "entity_type": "MARKET",
+            "name": "Machine tending",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
         }
       ]
     }
@@ -134,6 +254,13 @@
         "slug": "abb-robotics",
         "entity_type": "ORGANIZATION",
         "name": "ABB Robotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+        "slug": "doosan-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Doosan Robotics",
         "primary_embodiment": null
       },
       {
@@ -158,10 +285,40 @@
         "primary_embodiment": null
       },
       {
+        "id": "6a3ad67c-5549-528b-a5ed-0391f2c0f8a3",
+        "slug": "sanctuary-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Sanctuary AI",
+        "primary_embodiment": null
+      },
+      {
+        "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+        "slug": "techman-robot",
+        "entity_type": "ORGANIZATION",
+        "name": "Techman Robot",
+        "primary_embodiment": null
+      },
+      {
         "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
         "slug": "universal-robots",
         "entity_type": "ORGANIZATION",
         "name": "Universal Robots",
+        "primary_embodiment": null
+      },
+      {
+        "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+        "slug": "yaskawa",
+        "entity_type": "ORGANIZATION",
+        "name": "Yaskawa Electric",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+        "slug": "machine-tending",
+        "entity_type": "MARKET",
+        "name": "Machine tending",
         "primary_embodiment": null
       }
     ]
@@ -181,7 +338,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 5
+    "related_count": 11
   },
   "as_of": null
 }

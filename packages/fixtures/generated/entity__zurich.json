@@ -36,6 +36,25 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "e83e202e-d8a9-5838-b8e1-ef47715a0c22",
+          "source": {
+            "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
+            "slug": "anybotics",
+            "entity_type": "ORGANIZATION",
+            "name": "ANYbotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "fc54ed84-1c9c-5e13-a0f7-26f1cc3ce2fb",
           "source": {
             "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
@@ -65,6 +84,13 @@
         "entity_type": "ORGANIZATION",
         "name": "ABB Robotics",
         "primary_embodiment": null
+      },
+      {
+        "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
+        "slug": "anybotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ANYbotics",
+        "primary_embodiment": null
       }
     ]
   },
@@ -83,7 +109,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "9e8baab9-bfba-5637-a227-1efea067fc04",
+    "subject": {
+      "id": "a1a3d963-78b7-5572-bf2a-0f1810db3337",
+      "slug": "six-river-systems",
+      "entity_type": "ORGANIZATION",
+      "name": "6 River Systems",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "6 River Systems is headquartered at Waltham",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "27ae8900-bb14-5014-8849-b3f3e94d3c82",
+        "slug": "waltham",
+        "entity_type": "PLACE",
+        "name": "Waltham",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ec0c1e2d-73d6-5360-88fe-75cab32ac0e9",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives a Massachusetts headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "85497f49-5cbb-5bdd-898e-2d785eb7a840",
+        "url": "https://6river.com/",
+        "canonical_url": null,
+        "publisher": "6 River Systems",
+        "title": "6 River Systems",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,28 @@
+slug: nuro
+entity_type: ORGANIZATION
+name: Nuro
+short_description: Bay Area company that built purpose-made occupantless delivery vehicles and has since pivoted towards licensing its autonomy stack.
+country_code: US
+depth_tier: DISCOVERY
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: nuro-site
+    excerpt: Company site gives a Mountain View headquarters.
+- predicate: TARGETS_MARKET
+  object: retail-service
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: nuro-site
+    excerpt: Local goods delivery is the named application.
+- predicate: BUILDS
+  object: nuro-r3
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: nuro-site
+    excerpt: The R3 delivery vehicle is presented on the company site.

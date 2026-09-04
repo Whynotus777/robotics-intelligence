@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "f4eef998-d125-559f-b56e-ac87f2aa5735",
+    "subject": {
+      "id": "aa6d7895-9539-532d-a5cd-3f41aa1efbaa",
+      "slug": "gatik-autonomous-box-truck",
+      "entity_type": "ROBOT",
+      "name": "Gatik autonomous box truck",
+      "primary_embodiment": "AUTONOMOUS_VEHICLE"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "Gatik autonomous box truck embodiment AUTONOMOUS_VEHICLE",
+    "value": {
+      "kind": "enum",
+      "value": "AUTONOMOUS_VEHICLE"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f0e22ac9-0f61-5258-a349-bb88b834225c",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "The fleet is described as autonomous box trucks on middle-mile routes.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8da5deb8-198d-5b93-b7b2-222179cff1ea",
+        "url": "https://www.gatik.ai/",
+        "canonical_url": null,
+        "publisher": "Gatik",
+        "title": "Gatik autonomous middle-mile logistics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

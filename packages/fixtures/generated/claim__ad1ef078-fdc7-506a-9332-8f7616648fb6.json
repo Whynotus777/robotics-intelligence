@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "ad1ef078-fdc7-506a-9332-8f7616648fb6",
+    "subject": {
+      "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+      "slug": "kuka",
+      "entity_type": "ORGANIZATION",
+      "name": "KUKA",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "KUKA builds KUKA KR QUANTEC",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "fca9f317-0e6b-54a4-97ca-ff54a37b4c49",
+        "slug": "kuka-kr-quantec",
+        "entity_type": "ROBOT",
+        "name": "KUKA KR QUANTEC",
+        "primary_embodiment": "INDUSTRIAL_ARM"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2b04034a-6a52-533d-87c0-0ca39417eeef",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "KR QUANTEC is listed in KUKA's industrial robot range.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e553ac73-8158-53a8-99b8-f2cb7482b38c",
+        "url": "https://www.kuka.com/en-de/products/robot-systems/industrial-robots/kr-quantec",
+        "canonical_url": null,
+        "publisher": "KUKA",
+        "title": "KR QUANTEC industrial robot series",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,30 @@
+slug: six-river-chuck
+entity_type: ROBOT
+name: 6 River Chuck
+short_description: Collaborative picking cart that leads an associate along an optimised pick path; the human still picks, the robot owns the route and the count.
+primary_embodiment: AMR
+country_code: US
+depth_tier: DISCOVERY
+aliases: [Chuck]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: AMR
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: six-river-chuck-page
+    excerpt: Presented as a collaborative mobile robot for warehouses.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: COMMERCIAL
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: six-river-site
+    excerpt: Sold and deployed in customer fulfilment sites.
+- predicate: TARGETS_TASK
+  object: each-picking-assistance
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: six-river-chuck-page
+    excerpt: Chuck guides associates through each-picking work.

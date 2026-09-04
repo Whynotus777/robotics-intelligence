@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "6577102c-fda4-5972-a7a5-2e55a8a3f82f",
+    "subject": {
+      "id": "e1b756a7-b704-58be-bdc6-603f60b30924",
+      "slug": "nabtesco-rv-series",
+      "entity_type": "COMPONENT_PRODUCT",
+      "name": "Nabtesco RV series",
+      "primary_embodiment": null
+    },
+    "predicate": "IS_INSTANCE_OF",
+    "label": "is an instance of",
+    "sentence": "Nabtesco RV series is an instance of Cycloidal drives",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "81127784-74b7-520d-bcee-c95a0cc17bf6",
+        "slug": "cycloidal-drives",
+        "entity_type": "TECHNOLOGY",
+        "name": "Cycloidal drives",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "256fd294-b952-5b0b-b788-7b15cf6f46f9",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "The RV series is presented as cycloidal-type precision reduction gearing.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "0807bbae-40ea-5398-b56b-d0e1000260ed",
+        "url": "https://precision.nabtesco.com/products/",
+        "canonical_url": null,
+        "publisher": "Nabtesco Precision Equipment",
+        "title": "RV series precision reduction gears",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

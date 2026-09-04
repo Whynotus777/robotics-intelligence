@@ -1,0 +1,145 @@
+{
+  "entity": {
+    "id": "e1b756a7-b704-58be-bdc6-603f60b30924",
+    "slug": "nabtesco-rv-series",
+    "entity_type": "COMPONENT_PRODUCT",
+    "name": "Nabtesco RV series",
+    "short_description": "Cycloidal precision reduction gears for robot joints; high stiffness and shock tolerance at the base axes of industrial arms.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "JP",
+    "aliases": [
+      "RV reducer"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "MADE_BY",
+      "label": "is made by",
+      "items": [
+        {
+          "claim_id": "60655f28-49ef-5766-be30-8834bdf628cd",
+          "target": {
+            "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
+            "slug": "nabtesco",
+            "entity_type": "ORGANIZATION",
+            "name": "Nabtesco",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "6577102c-fda4-5972-a7a5-2e55a8a3f82f",
+          "target": {
+            "id": "81127784-74b7-520d-bcee-c95a0cc17bf6",
+            "slug": "cycloidal-drives",
+            "entity_type": "TECHNOLOGY",
+            "name": "Cycloidal drives",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "PROVIDES",
+      "label": "provides",
+      "items": [
+        {
+          "claim_id": "f0a37fa5-25b6-52cf-a03d-613d3ebd9806",
+          "source": {
+            "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
+            "slug": "nabtesco",
+            "entity_type": "ORGANIZATION",
+            "name": "Nabtesco",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
+        "slug": "nabtesco",
+        "entity_type": "ORGANIZATION",
+        "name": "Nabtesco",
+        "primary_embodiment": null
+      }
+    ],
+    "technologies": [
+      {
+        "id": "81127784-74b7-520d-bcee-c95a0cc17bf6",
+        "slug": "cycloidal-drives",
+        "entity_type": "TECHNOLOGY",
+        "name": "Cycloidal drives",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

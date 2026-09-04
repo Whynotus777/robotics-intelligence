@@ -1,0 +1,23 @@
+slug: deep-robotics-x30
+entity_type: ROBOT
+name: Deep Robotics X30
+short_description: Industrial quadruped for substation and tunnel inspection rounds, priced against Chinese domestic utility budgets.
+primary_embodiment: QUADRUPED
+country_code: CN
+depth_tier: DISCOVERY
+aliases: [X30]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: QUADRUPED
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: deeprobotics-site
+    excerpt: X30 is presented as a four-legged industrial inspection robot.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: COMMERCIAL
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: deeprobotics-site
+    excerpt: Offered for sale for power and industrial inspection work.

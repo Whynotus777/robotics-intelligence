@@ -1,0 +1,78 @@
+{
+  "claim": {
+    "claim_id": "18eccd5a-4957-5db2-8ee8-245a42281a47",
+    "subject": {
+      "id": "2bea54e2-cb77-5728-b445-707f09039b05",
+      "slug": "cobot-palletizer",
+      "entity_type": "APPROACH",
+      "name": "Cobot palletizer",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "Cobot palletizer example vendor Doosan Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+        "slug": "doosan-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Doosan Robotics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c5444aa8-cd05-5188-b41b-ec5ea8e02c8c",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Palletizing is presented among the company's application packages.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e64db866-6bab-5cff-8dd5-4ee3b9099603",
+        "url": "https://www.doosanrobotics.com/en",
+        "canonical_url": null,
+        "publisher": "Doosan Robotics",
+        "title": "Doosan Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "6514c5c8-1aa4-532f-a674-2073071ecdf6",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+          "slug": "universal-robots",
+          "entity_type": "ORGANIZATION",
+          "name": "Universal Robots",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

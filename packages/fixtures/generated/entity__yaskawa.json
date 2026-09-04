@@ -1,0 +1,250 @@
+{
+  "entity": {
+    "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+    "slug": "yaskawa",
+    "entity_type": "ORGANIZATION",
+    "name": "Yaskawa Electric",
+    "short_description": "Kitakyushu motion-control and industrial robot maker; the Motoman arm line and the servo drives under much of the industry.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "JP",
+    "aliases": [
+      "Motoman",
+      "Yaskawa"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "44336d98-065f-5f61-aa86-1ae86566660a",
+          "target": {
+            "id": "dbd7b2d3-26c1-5c57-a3c5-e803ea6e3e32",
+            "slug": "kitakyushu",
+            "entity_type": "PLACE",
+            "name": "Kitakyushu",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "51b13271-4dfa-5184-8b5a-831cd1dc776f",
+          "target": {
+            "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+            "slug": "manufacturing",
+            "entity_type": "MARKET",
+            "name": "Manufacturing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "88ec3dfb-2191-5357-812d-e0e574a5c63d",
+          "target": {
+            "id": "12d4f360-9403-523f-a0bb-252978213506",
+            "slug": "yaskawa-motoman-gp12",
+            "entity_type": "ROBOT",
+            "name": "Yaskawa MOTOMAN GP12",
+            "primary_embodiment": "INDUSTRIAL_ARM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "d55124b3-1e6c-5270-9a58-6b3ead1089cc",
+          "target": {
+            "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+            "slug": "industrial-welding",
+            "entity_type": "TASK",
+            "name": "Industrial welding",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "f180fd0c-0f2f-55b0-9790-f13231aa975b",
+          "target": {
+            "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+            "slug": "cnc-machine-tending",
+            "entity_type": "TASK",
+            "name": "CNC machine tending",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "7cafcb02-818b-5e75-9d54-e75b612b11bc",
+          "source": {
+            "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
+            "slug": "robotic-arc-welding-cell",
+            "entity_type": "APPROACH",
+            "name": "Robotic arc welding cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "a8c102b3-7d7a-5327-a6a7-b7711da65b5f",
+          "source": {
+            "id": "421d32b6-1844-5d0b-8ee9-d6995cf143dd",
+            "slug": "caged-arm-tending-cell",
+            "entity_type": "APPROACH",
+            "name": "Caged arm tending cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "421d32b6-1844-5d0b-8ee9-d6995cf143dd",
+        "slug": "caged-arm-tending-cell",
+        "entity_type": "APPROACH",
+        "name": "Caged arm tending cell",
+        "primary_embodiment": null
+      },
+      {
+        "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
+        "slug": "robotic-arc-welding-cell",
+        "entity_type": "APPROACH",
+        "name": "Robotic arc welding cell",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+        "slug": "manufacturing",
+        "entity_type": "MARKET",
+        "name": "Manufacturing",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "dbd7b2d3-26c1-5c57-a3c5-e803ea6e3e32",
+        "slug": "kitakyushu",
+        "entity_type": "PLACE",
+        "name": "Kitakyushu",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 5,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 5,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 5,
+    "deployment_count": 0,
+    "related_count": 7
+  },
+  "as_of": null
+}

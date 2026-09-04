@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "7ee41aa1-f3b4-57e6-9a21-0d5f4e162924",
+    "subject": {
+      "id": "6e477c0c-cf3f-5b88-9d5b-2f80f10c52f4",
+      "slug": "ubtech-walker-s1",
+      "entity_type": "ROBOT",
+      "name": "UBTech Walker S1",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "UBTech Walker S1 targets market Automotive",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
+        "slug": "automotive",
+        "entity_type": "MARKET",
+        "name": "Automotive",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "89c6732e-9c0f-5512-bd8d-048a48f656df",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Automotive plants are the named trial environment.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "2a2da8ee-300f-5601-a275-0656cd3b3fa9",
+        "url": "https://www.ubtrobot.com/",
+        "canonical_url": null,
+        "publisher": "UBTech Robotics",
+        "title": "UBTech Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

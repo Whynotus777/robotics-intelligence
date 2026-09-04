@@ -1,0 +1,42 @@
+slug: cobot-welding
+entity_type: APPROACH
+name: Cobot welding
+short_description: A collaborative arm with a torch, taught by hand-guiding, aimed at the job shop that welds fifty of something rather than fifty thousand.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: SCALING
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: "This is the sharpest product-market fit in the cobot category: welder shortages are acute, the units are cheap enough to buy without a capital committee, and hand-guided teaching means the existing welder programs it. It is not mature because weld quality sign-off and duty cycle still send the hard work back to the fenced cell."
+          advance_criteria:
+            - Certified weld procedures accepted on cobot-welded parts as routine
+            - Job shops reporting a second and third unit after the first
+            - Teaching times that beat an experienced welder's setup on a small batch
+          regress_criteria:
+            - Quality rejections in regulated work pushing shops back to manual welding
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: COBOT
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: ur-site
+        excerpt: Welding is listed among collaborative robot applications.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: universal-robots
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: ur-site
+        excerpt: Welding application packages are offered for the arm range.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: doosan-robotics
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: doosan-robotics-site
+        excerpt: Welding is presented among the company's application packages.

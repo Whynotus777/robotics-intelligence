@@ -1,0 +1,29 @@
+slug: sanctuary-ai
+entity_type: ORGANIZATION
+name: Sanctuary AI
+short_description: Vancouver humanoid company betting on hydraulic dexterous hands and teleoperation-derived data rather than pure end-to-end learning.
+country_code: CA
+depth_tier: DISCOVERY
+aliases: [Sanctuary]
+claims:
+- predicate: HQ_AT
+  object: vancouver
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: sanctuary-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: manufacturing
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: sanctuary-site
+    excerpt: General-purpose work in industrial settings is the stated target.
+- predicate: BUILDS
+  object: sanctuary-phoenix
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: sanctuary-site
+    excerpt: Phoenix is the company's named humanoid platform.

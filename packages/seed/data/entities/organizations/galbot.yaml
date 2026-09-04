@@ -1,0 +1,28 @@
+slug: galbot
+entity_type: ORGANIZATION
+name: Galbot
+short_description: Beijing embodied-AI company; wheeled dual-arm humanoids deployed in unmanned retail stores as a data-collection wedge.
+country_code: CN
+depth_tier: DISCOVERY
+claims:
+- predicate: HQ_AT
+  object: beijing
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: galbot-site
+    excerpt: Company site gives a Beijing headquarters.
+- predicate: TARGETS_MARKET
+  object: retail-service
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: galbot-site
+    excerpt: Retail store operation is the named deployment environment.
+- predicate: BUILDS
+  object: galbot-g1
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: galbot-site
+    excerpt: G1 is presented as the company's robot platform.

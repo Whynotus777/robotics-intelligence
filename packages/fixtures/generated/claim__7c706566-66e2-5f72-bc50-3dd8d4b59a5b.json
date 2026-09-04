@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "7c706566-66e2-5f72-bc50-3dd8d4b59a5b",
+    "subject": {
+      "id": "a1bdb99a-8e70-58d4-9058-06b7c8836c8a",
+      "slug": "intel-realsense-d435i",
+      "entity_type": "COMPONENT_PRODUCT",
+      "name": "Intel RealSense D435i",
+      "primary_embodiment": null
+    },
+    "predicate": "MADE_BY",
+    "label": "is made by",
+    "sentence": "Intel RealSense D435i is made by Intel",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
+        "slug": "intel",
+        "entity_type": "ORGANIZATION",
+        "name": "Intel",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "abb9bd5e-e928-5503-a327-1637a2c919eb",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "D435i is listed on Intel's RealSense product pages.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "59a4a9d5-0073-51fc-99ea-fa79868bc578",
+        "url": "https://www.intelrealsense.com/depth-camera-d435i/",
+        "canonical_url": null,
+        "publisher": "Intel RealSense",
+        "title": "Intel RealSense Depth Camera D435i",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

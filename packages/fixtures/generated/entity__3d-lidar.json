@@ -28,6 +28,50 @@
   "relationships": [],
   "inbound_relationships": [
     {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "2ca84ace-4e0a-56be-8555-44ca02ca5404",
+          "source": {
+            "id": "f1dac3df-2220-57ca-aaa6-58cb1a8f7db3",
+            "slug": "ouster-os1",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "Ouster OS1",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "850d781f-e2f9-57f7-b9ea-a69a2cb22aa5",
+          "source": {
+            "id": "7e98d069-38f6-56c6-96a6-80a447b6deb3",
+            "slug": "hesai-at128",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "Hesai AT128",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "USES_TECHNOLOGY",
       "label": "uses",
       "items": [
@@ -69,7 +113,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 3
   },
   "as_of": null
 }

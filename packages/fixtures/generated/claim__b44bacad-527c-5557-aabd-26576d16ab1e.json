@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "b44bacad-527c-5557-aabd-26576d16ab1e",
+    "subject": {
+      "id": "634f0531-a0d7-5d56-b836-691d66886e2a",
+      "slug": "hesai",
+      "entity_type": "ORGANIZATION",
+      "name": "Hesai Technology",
+      "primary_embodiment": null
+    },
+    "predicate": "PROVIDES",
+    "label": "provides",
+    "sentence": "Hesai Technology provides Hesai AT128",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7e98d069-38f6-56c6-96a6-80a447b6deb3",
+        "slug": "hesai-at128",
+        "entity_type": "COMPONENT_PRODUCT",
+        "name": "Hesai AT128",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b5c7b92b-e76a-5f4f-a542-7da9aaa5c00f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "AT128 product page.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "17e7bb9f-5d01-5a23-a142-23be336d5835",
+        "url": "https://www.hesaitech.com/product/at128/",
+        "canonical_url": null,
+        "publisher": "Hesai Technology",
+        "title": "AT128 long-range lidar",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

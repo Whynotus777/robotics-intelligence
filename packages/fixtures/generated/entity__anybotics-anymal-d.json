@@ -1,0 +1,174 @@
+{
+  "entity": {
+    "id": "6eed56ac-41c3-573d-be63-dac3ff72ece3",
+    "slug": "anybotics-anymal-d",
+    "entity_type": "ROBOT",
+    "name": "ANYbotics ANYmal D",
+    "short_description": "Industrial inspection quadruped built for permanent residence on a plant, with explosion-protected variants for process sites.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": "QUADRUPED",
+    "country_code": "CH",
+    "aliases": [
+      "ANYmal D",
+      "ANYmal"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": "COMMERCIAL",
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "72e82939-595f-595a-a212-d44fe67dbaf3",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "COMMERCIAL"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "da468126-3d28-5626-bfaa-63c9813ade0c",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "QUADRUPED"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "COMPETES_WITH",
+      "label": "competes with",
+      "items": [
+        {
+          "claim_id": "0c9cef72-efa4-5d19-abfa-766d8264522b",
+          "target": {
+            "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+            "slug": "boston-dynamics-spot",
+            "entity_type": "ROBOT",
+            "name": "Boston Dynamics Spot",
+            "primary_embodiment": "QUADRUPED"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "74f09413-db11-5e28-9078-f651c0d14aca",
+          "source": {
+            "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
+            "slug": "anybotics",
+            "entity_type": "ORGANIZATION",
+            "name": "ANYbotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
+        "slug": "anybotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ANYbotics",
+        "primary_embodiment": null
+      }
+    ],
+    "peers": [
+      {
+        "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+        "slug": "boston-dynamics-spot",
+        "entity_type": "ROBOT",
+        "name": "Boston Dynamics Spot",
+        "primary_embodiment": "QUADRUPED"
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 1
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 3,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

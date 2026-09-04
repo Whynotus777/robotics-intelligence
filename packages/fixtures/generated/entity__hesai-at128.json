@@ -1,0 +1,145 @@
+{
+  "entity": {
+    "id": "7e98d069-38f6-56c6-96a6-80a447b6deb3",
+    "slug": "hesai-at128",
+    "entity_type": "COMPONENT_PRODUCT",
+    "name": "Hesai AT128",
+    "short_description": "Long-range automotive lidar shipped at series-production volumes into Chinese OEM programmes.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "CN",
+    "aliases": [
+      "AT128"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "MADE_BY",
+      "label": "is made by",
+      "items": [
+        {
+          "claim_id": "02ad3b07-357e-59b3-b059-bbc2fb831f1b",
+          "target": {
+            "id": "634f0531-a0d7-5d56-b836-691d66886e2a",
+            "slug": "hesai",
+            "entity_type": "ORGANIZATION",
+            "name": "Hesai Technology",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "850d781f-e2f9-57f7-b9ea-a69a2cb22aa5",
+          "target": {
+            "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
+            "slug": "3d-lidar",
+            "entity_type": "TECHNOLOGY",
+            "name": "3D LiDAR",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "PROVIDES",
+      "label": "provides",
+      "items": [
+        {
+          "claim_id": "b44bacad-527c-5557-aabd-26576d16ab1e",
+          "source": {
+            "id": "634f0531-a0d7-5d56-b836-691d66886e2a",
+            "slug": "hesai",
+            "entity_type": "ORGANIZATION",
+            "name": "Hesai Technology",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "634f0531-a0d7-5d56-b836-691d66886e2a",
+        "slug": "hesai",
+        "entity_type": "ORGANIZATION",
+        "name": "Hesai Technology",
+        "primary_embodiment": null
+      }
+    ],
+    "technologies": [
+      {
+        "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
+        "slug": "3d-lidar",
+        "entity_type": "TECHNOLOGY",
+        "name": "3D LiDAR",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

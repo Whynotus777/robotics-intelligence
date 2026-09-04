@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "be416538-59b2-5814-8d20-ee29413b7b93",
+    "subject": {
+      "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
+      "slug": "nabtesco",
+      "entity_type": "ORGANIZATION",
+      "name": "Nabtesco",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Nabtesco is headquartered at Tokyo",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "95578376-f0ca-55c9-be60-81b0e46b49f1",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "7fd54809-9f32-5870-82e1-083d6576c064",
+        "url": "https://www.nabtesco.com/en/",
+        "canonical_url": null,
+        "publisher": "Nabtesco",
+        "title": "Nabtesco Corporation",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

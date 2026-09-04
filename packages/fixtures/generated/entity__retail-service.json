@@ -24,8 +24,115 @@
   "place": null,
   "claims": [],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "4d3c3da3-f49e-5c89-a831-f95a03a1674c",
+          "source": {
+            "id": "f48a2189-2c89-576f-a2d6-7ff9ba533210",
+            "slug": "galbot-g1",
+            "entity_type": "ROBOT",
+            "name": "Galbot G1",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "4d4d2c9e-61d8-5763-bd84-a895e9acf0ca",
+          "source": {
+            "id": "af96607d-e4ee-5ac6-b7de-b4f9d7990783",
+            "slug": "nuro",
+            "entity_type": "ORGANIZATION",
+            "name": "Nuro",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "65ac1bcc-3b2f-5afd-adc8-9c3812d8bc39",
+          "source": {
+            "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
+            "slug": "galbot",
+            "entity_type": "ORGANIZATION",
+            "name": "Galbot",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "78a0cc7e-c6ef-5c74-bbd2-25c755573096",
+          "source": {
+            "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
+            "slug": "onex-technologies",
+            "entity_type": "ORGANIZATION",
+            "name": "1X Technologies",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
+        "slug": "onex-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "1X Technologies",
+        "primary_embodiment": null
+      },
+      {
+        "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
+        "slug": "galbot",
+        "entity_type": "ORGANIZATION",
+        "name": "Galbot",
+        "primary_embodiment": null
+      },
+      {
+        "id": "af96607d-e4ee-5ac6-b7de-b4f9d7990783",
+        "slug": "nuro",
+        "entity_type": "ORGANIZATION",
+        "name": "Nuro",
+        "primary_embodiment": null
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -41,7 +148,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 4
   },
   "as_of": null
 }

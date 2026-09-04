@@ -1,0 +1,22 @@
+slug: intel-realsense-d435i
+entity_type: COMPONENT_PRODUCT
+name: Intel RealSense D435i
+short_description: Stereo depth camera with an onboard IMU; the cheapest way to get usable depth on a research or light industrial robot.
+country_code: US
+depth_tier: DISCOVERY
+aliases: [RealSense D435i, D435i]
+claims:
+- predicate: MADE_BY
+  object: intel
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: intel-realsense-d435i-page
+    excerpt: D435i is listed on Intel's RealSense product pages.
+- predicate: IS_INSTANCE_OF
+  object: depth-cameras
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: intel-realsense-d435i-page
+    excerpt: Presented as a stereo depth camera.

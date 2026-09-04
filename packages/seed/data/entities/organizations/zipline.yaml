@@ -1,0 +1,28 @@
+slug: zipline
+entity_type: ORGANIZATION
+name: Zipline
+short_description: Bay Area operator of autonomous delivery drones flying at national scale in Rwanda, Ghana and now US retail and health routes.
+country_code: US
+depth_tier: DISCOVERY
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: zipline-site
+    excerpt: Company site gives a South San Francisco headquarters.
+- predicate: TARGETS_MARKET
+  object: healthcare
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: zipline-site
+    excerpt: Medical delivery is the founding and still-named use case.
+- predicate: BUILDS
+  object: zipline-p2-zip
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: zipline-site
+    excerpt: The P2 Zip delivery aircraft is presented on the company site.

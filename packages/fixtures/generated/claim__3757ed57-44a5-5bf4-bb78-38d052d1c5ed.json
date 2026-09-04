@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "3757ed57-44a5-5bf4-bb78-38d052d1c5ed",
+    "subject": {
+      "id": "eb46b6af-ce87-5ea9-adb0-183491fa85f7",
+      "slug": "deep-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Deep Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Deep Robotics is headquartered at Hangzhou",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c5da4207-66e6-58af-b465-9432764e2a62",
+        "slug": "hangzhou",
+        "entity_type": "PLACE",
+        "name": "Hangzhou",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "63977a78-a827-5a23-ba70-34083855ccee",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "3e77488f-1ab6-5fce-91fd-b06e5baebb77",
+        "url": "https://www.deeprobotics.cn/en",
+        "canonical_url": null,
+        "publisher": "Deep Robotics",
+        "title": "Deep Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

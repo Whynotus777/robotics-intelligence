@@ -1,0 +1,22 @@
+slug: nabtesco
+entity_type: ORGANIZATION
+name: Nabtesco
+short_description: Tokyo maker of RV cycloidal precision reducers; the joint gearbox in a large share of the world's industrial arms.
+country_code: JP
+depth_tier: DISCOVERY
+aliases: [Nabtesco Corporation]
+claims:
+- predicate: HQ_AT
+  object: tokyo
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: nabtesco-site
+    excerpt: Company site gives the headquarters location.
+- predicate: PROVIDES
+  object: nabtesco-rv-series
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: nabtesco-rv-page
+    excerpt: RV series precision reduction gears are listed in the product range.

@@ -1,0 +1,77 @@
+{
+  "claim": {
+    "claim_id": "ca9483c5-773e-5214-b257-8d3aa1dcb213",
+    "subject": {
+      "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+      "slug": "industrial-welding",
+      "entity_type": "TASK",
+      "name": "Industrial welding",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_ADOPTION_BLOCKER",
+    "label": "adoption blocker",
+    "sentence": "Industrial welding adoption blocker Programming time per part number",
+    "value": {
+      "kind": "text",
+      "text": "Programming time per part number"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5f91f79c-2ce8-51dd-9d33-972ed7cababd",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "A shop with two hundred part numbers cannot pay for two hundred programs. Offline programming and hand-guided teaching exist, but the honest measure is whether a welder can teach a new part before lunch, and usually they cannot.",
+        "advance_criteria": [
+          "Teaching a new weldment in under an hour by shop staff",
+          "CAD-driven program generation used in production, not demonstrations"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "357f1b1a-a5e0-572c-abc4-ba0550bafe17",
+      "value": {
+        "kind": "text",
+        "text": "Quality sign-off for regulated work"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "ebbe71af-58ac-51ce-bf2d-44c32623e5d0",
+      "value": {
+        "kind": "text",
+        "text": "Fixturing cost per part family"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

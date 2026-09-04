@@ -1,0 +1,22 @@
+slug: maxon-ec-flat
+entity_type: COMPONENT_PRODUCT
+name: maxon EC flat
+short_description: Family of flat brushless DC motors used where axial length is the binding constraint — wrists, hands and compact joints.
+country_code: CH
+depth_tier: DISCOVERY
+aliases: [EC flat]
+claims:
+- predicate: MADE_BY
+  object: maxon
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: maxon-ec-flat-page
+    excerpt: EC flat motors are listed in maxon's own drive catalogue.
+- predicate: IS_INSTANCE_OF
+  object: quasi-direct-drive-actuators
+  evidence:
+  - class: PRIMARY
+    confidence: LOW
+    source: maxon-ec-flat-page
+    excerpt: Flat brushless motors are the motor class used in low-ratio direct and quasi-direct drive joints; the catalogue lists the motors, not the drive architecture.

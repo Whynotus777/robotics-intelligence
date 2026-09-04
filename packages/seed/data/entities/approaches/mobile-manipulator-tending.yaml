@@ -1,0 +1,37 @@
+slug: mobile-manipulator-tending
+entity_type: APPROACH
+name: Mobile manipulator tending
+short_description: An arm on an autonomous base that drives between machines, so one robot covers a cell rather than a door.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: PILOT
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: The economics are attractive on paper — one robot amortised across several low-utilisation machines — and every large vendor has a platform. In practice, docking repeatability, safety across a moving envelope and the integration cost of talking to several different machine controllers keep these in single-site trials. Pilot, not early commercial, because the repeat orders are not there.
+          advance_criteria:
+            - Multi-machine routes running unattended across a full shift
+            - Docking accuracy that removes the need for per-machine fixtures
+            - A second site ordered by a customer who ran the first
+          regress_criteria:
+            - Customers concluding that a fixed arm per machine is simply cheaper
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: AMR
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: zebra-fetch-page
+        excerpt: Mobile bases with manipulation payloads are presented for material handling in production environments.
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Docking repeatability at the machine
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A base that parks a centimetre off turns a taught pick into a crash; either the base docks to a fixture or the arm re-localises visually every time, and both cost cycle time.
+          advance_criteria: ["Would be relaxed by arm-mounted visual servoing accurate enough to absorb base error."]
+          reviewed_at: 2026-09-01

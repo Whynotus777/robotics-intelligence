@@ -1,0 +1,47 @@
+slug: caged-arm-tending-cell
+entity_type: APPROACH
+name: Caged arm tending cell
+short_description: A fenced industrial arm serving one or more machines at full speed, with a guarded gate for operator access.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: MATURE
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: This is the oldest deployed form of industrial robotics and remains the default whenever cycle time matters more than floor space. Nothing about it is technically open; it competes on integration cost against the collaborative alternative.
+          advance_criteria:
+            - Already at the top of the scale
+          regress_criteria:
+            - None credible; the installed base alone sustains it
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: INDUSTRIAL_ARM
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: abb-irb6700-page
+        excerpt: Machine tending and material handling are named applications for the arm family.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: fanuc
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: fanuc-site
+        excerpt: Machine tending is a named application across the industrial robot range.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: yaskawa
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: yaskawa-gp12-page
+        excerpt: The GP series is positioned for handling and machine tending.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: abb-robotics
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: abb-irb6700-page
+        excerpt: General industrial handling applications are named for the IRB 6700.

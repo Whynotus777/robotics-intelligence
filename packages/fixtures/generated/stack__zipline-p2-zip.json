@@ -1,0 +1,101 @@
+{
+  "robot": {
+    "id": "dd4d153d-3b8f-5b85-894c-5d6f3903be90",
+    "slug": "zipline-p2-zip",
+    "entity_type": "ROBOT",
+    "name": "Zipline P2 Zip",
+    "primary_embodiment": "DRONE"
+  },
+  "embodiment": "DRONE",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "Mission autonomy",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Route & mission planning",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Perception / detection",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "STATE_ESTIMATION",
+      "label": "State estimation / EKF",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Flight control",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Flight computer + companion compute",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "Cameras, GNSS, IMU, LiDAR/radar",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Motors, ESCs, propulsion",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "Payload / gimbal / manipulator",
+      "applies": true,
+      "items": [],
+      "competing_technologies": [],
+      "architecture_note": {
+        "claim_id": "b1fc2fb9-2269-5ddf-83b0-b1f16bd96ef3",
+        "text": "Delivery is done by a tethered droid lowered from the hovering aircraft, which keeps the aircraft high and quiet and puts the precision problem in a small, cheap, replaceable part.",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "MEDIUM",
+          "source_count": 1
+        }
+      }
+    },
+    {
+      "canonical": "POWER",
+      "label": "Battery / hybrid",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Airframe",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

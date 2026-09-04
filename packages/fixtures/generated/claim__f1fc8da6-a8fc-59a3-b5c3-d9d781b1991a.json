@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "f1fc8da6-a8fc-59a3-b5c3-d9d781b1991a",
+    "subject": {
+      "id": "e236fea6-114c-54cc-a269-490132d532fa",
+      "slug": "autostore-r5",
+      "entity_type": "ROBOT",
+      "name": "AutoStore R5",
+      "primary_embodiment": "OTHER_MOBILE"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "AutoStore R5 embodiment OTHER_MOBILE",
+    "value": {
+      "kind": "enum",
+      "value": "OTHER_MOBILE"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "40359c8e-c702-5ca7-852d-aa28117256db",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "The robot runs on rails on top of the storage grid rather than navigating a floor.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "d5fd8e30-6268-5eb9-b720-6c47cc956368",
+        "url": "https://www.autostoresystem.com/system/robots",
+        "canonical_url": null,
+        "publisher": "AutoStore",
+        "title": "AutoStore grid robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

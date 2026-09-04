@@ -50,8 +50,69 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "b4eec0ba-a0d0-5c80-935a-41701e79f45c",
+          "source": {
+            "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
+            "slug": "anybotics",
+            "entity_type": "ORGANIZATION",
+            "name": "ANYbotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "fab60883-aa24-5798-a462-a67a8e325f40",
+          "source": {
+            "id": "8f3dd14f-c1f5-53e2-899e-b433935b79be",
+            "slug": "flyability",
+            "entity_type": "ORGANIZATION",
+            "name": "Flyability",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
+        "slug": "anybotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ANYbotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "8f3dd14f-c1f5-53e2-899e-b433935b79be",
+        "slug": "flyability",
+        "entity_type": "ORGANIZATION",
+        "name": "Flyability",
+        "primary_embodiment": null
+      }
+    ],
     "markets": [
       {
         "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
@@ -77,7 +138,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 1,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 3
   },
   "as_of": null
 }

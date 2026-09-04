@@ -596,6 +596,25 @@
       "label": "is adjacent to",
       "items": [
         {
+          "claim_id": "6008e573-eb55-5e0d-8317-28f427b382a2",
+          "source": {
+            "id": "60245a27-6286-59df-a3ed-9487c3c0d92a",
+            "slug": "palletizing",
+            "entity_type": "TASK",
+            "name": "Palletizing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
           "claim_id": "c7a420c4-9233-56c5-8537-398e480cbc37",
           "source": {
             "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
@@ -703,7 +722,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 19,
     "deployment_count": 0,
-    "related_count": 13
+    "related_count": 14
   },
   "as_of": null
 }

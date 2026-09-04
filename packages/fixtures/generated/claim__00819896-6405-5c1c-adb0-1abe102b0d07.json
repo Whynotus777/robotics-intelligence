@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "00819896-6405-5c1c-adb0-1abe102b0d07",
+    "subject": {
+      "id": "c9b84a3a-f7dd-578a-a6c9-6c0a2b061b1b",
+      "slug": "gatik",
+      "entity_type": "ORGANIZATION",
+      "name": "Gatik",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Gatik is headquartered at San Francisco Bay Area",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9e5cc6bc-3378-518d-882d-0ee7dfd00fdb",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives a Mountain View headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8da5deb8-198d-5b93-b7b2-222179cff1ea",
+        "url": "https://www.gatik.ai/",
+        "canonical_url": null,
+        "publisher": "Gatik",
+        "title": "Gatik autonomous middle-mile logistics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

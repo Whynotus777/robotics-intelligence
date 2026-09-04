@@ -1,0 +1,29 @@
+slug: onex-technologies
+entity_type: ORGANIZATION
+name: 1X Technologies
+short_description: Norwegian-American humanoid company; tendon-driven, deliberately soft hardware aimed at the home rather than the factory.
+country_code: 'NO'
+depth_tier: DISCOVERY
+aliases: [1X, Halodi Robotics]
+claims:
+- predicate: HQ_AT
+  object: moss
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: onex-site
+    excerpt: Company site gives a Norwegian hardware base alongside a US office.
+- predicate: TARGETS_MARKET
+  object: retail-service
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: onex-neo-page
+    excerpt: NEO is presented as a home and service humanoid.
+- predicate: BUILDS
+  object: onex-neo
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: onex-neo-page
+    excerpt: NEO product page.

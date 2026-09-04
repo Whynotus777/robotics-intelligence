@@ -1,0 +1,28 @@
+slug: gatik
+entity_type: ORGANIZATION
+name: Gatik
+short_description: Middle-mile autonomy company running fixed, repeated box-truck routes between distribution centres and stores — the narrowest ODD in trucking, deliberately.
+country_code: US
+depth_tier: DISCOVERY
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: gatik-site
+    excerpt: Company site gives a Mountain View headquarters.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: gatik-site
+    excerpt: Middle-mile logistics between distribution centres and retail is the stated market.
+- predicate: BUILDS
+  object: gatik-autonomous-box-truck
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: gatik-site
+    excerpt: Autonomous box trucks are the company's described fleet.

@@ -1,0 +1,38 @@
+slug: yaskawa-motoman-gp12
+entity_type: ROBOT
+name: Yaskawa MOTOMAN GP12
+short_description: 12 kg six-axis handling arm in Yaskawa's GP series, aimed at machine tending and part transfer.
+primary_embodiment: INDUSTRIAL_ARM
+country_code: JP
+depth_tier: DISCOVERY
+aliases: [MOTOMAN GP12, GP12]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: INDUSTRIAL_ARM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: yaskawa-gp12-page
+    excerpt: Listed as a six-axis industrial handling robot.
+- predicate: HAS_PAYLOAD
+  number: 12
+  unit: kg
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: yaskawa-gp12-page
+    excerpt: GP12 is listed with a 12 kg payload.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: VOLUME_PRODUCTION
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: yaskawa-gp12-page
+    excerpt: Sold as a catalogue product.
+- predicate: TARGETS_TASK
+  object: cnc-machine-tending
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: yaskawa-gp12-page
+    excerpt: The GP12 is positioned for handling and machine tending.

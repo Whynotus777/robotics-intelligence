@@ -1,0 +1,30 @@
+slug: galbot-g1
+entity_type: ROBOT
+name: Galbot G1
+short_description: Wheeled dual-arm humanoid working unmanned retail stores, where a constrained environment buys reliable manipulation data.
+primary_embodiment: HUMANOID
+country_code: CN
+depth_tier: DISCOVERY
+aliases: [G1 wheeled humanoid]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: HUMANOID
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: galbot-site
+    excerpt: Presented as a wheeled dual-arm humanoid robot.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: PILOT_DEPLOYMENTS
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: galbot-site
+    excerpt: Store deployments are described as an early operating programme.
+- predicate: TARGETS_MARKET
+  object: retail-service
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: galbot-site
+    excerpt: Retail stores are the named deployment environment.

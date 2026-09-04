@@ -1,0 +1,22 @@
+slug: wingcopter-198
+entity_type: ROBOT
+name: Wingcopter 198
+short_description: Tilt-rotor delivery eVTOL that takes off vertically and cruises on a wing, built for long medical and rural routes.
+primary_embodiment: DRONE
+country_code: DE
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: DRONE
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: wingcopter-198-page
+    excerpt: Presented as a delivery drone with tilt-rotor VTOL and fixed-wing cruise.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: PILOT_DEPLOYMENTS
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: wingcopter-site
+    excerpt: Delivery projects are described as programmes with partners rather than open catalogue sales.

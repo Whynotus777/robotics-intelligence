@@ -1,0 +1,22 @@
+slug: ouster-os1
+entity_type: COMPONENT_PRODUCT
+name: Ouster OS1
+short_description: Mid-range spinning digital lidar; the default 3D sensor on a large share of AMRs and inspection robots.
+country_code: US
+depth_tier: DISCOVERY
+aliases: [OS1]
+claims:
+- predicate: MADE_BY
+  object: ouster
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: ouster-os1-page
+    excerpt: OS1 is listed in Ouster's sensor hardware range.
+- predicate: IS_INSTANCE_OF
+  object: 3d-lidar
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: ouster-os1-page
+    excerpt: Presented as a 3D lidar sensor.

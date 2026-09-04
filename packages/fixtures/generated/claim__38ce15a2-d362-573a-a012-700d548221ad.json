@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "38ce15a2-d362-573a-a012-700d548221ad",
+    "subject": {
+      "id": "aee2df0e-15d7-595b-aa32-8cd84a7f08cb",
+      "slug": "flyability-elios-3",
+      "entity_type": "ROBOT",
+      "name": "Flyability Elios 3",
+      "primary_embodiment": "DRONE"
+    },
+    "predicate": "HAS_ARCHITECTURE_NOTE",
+    "label": "architecture note",
+    "sentence": "Flyability Elios 3 architecture note Localisation is lidar-based SLAM rather than GNSS, because the whole point of the product is flying where satellites do not reach.",
+    "value": {
+      "kind": "text",
+      "text": "Localisation is lidar-based SLAM rather than GNSS, because the whole point of the product is flying where satellites do not reach."
+    },
+    "stack_layer": "STATE_ESTIMATION",
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "466c6280-0f21-5785-be45-5cc76eea6d3c",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Product page describes lidar-based SLAM for indoor flight.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "936daca5-444e-5f98-845a-91b0e10b1390",
+        "url": "https://www.flyability.com/elios-3",
+        "canonical_url": null,
+        "publisher": "Flyability",
+        "title": "Elios 3 indoor inspection drone",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

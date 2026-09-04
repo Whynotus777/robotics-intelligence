@@ -121,6 +121,30 @@
       ]
     }
   ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
+        "slug": "anybotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ANYbotics",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Zurich"
+    },
+    {
+      "organization": {
+        "id": "d31f2d2e-9dce-5f5d-9ac6-062cd182b353",
+        "slug": "percepto",
+        "entity_type": "ORGANIZATION",
+        "name": "Percepto",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Modiin"
+    }
+  ],
   "customer_types": [
     {
       "claim_id": "4b3c5673-7db4-5eef-8fa7-f003c0555231",
@@ -154,7 +178,7 @@
       "ANALYST": 5
     },
     "last_reviewed": "2026-09-01T00:00:00.000Z",
-    "vendor_count": 0,
+    "vendor_count": 2,
     "deployment_count": 0,
     "field_trial_count": 0
   },

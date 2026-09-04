@@ -1,0 +1,29 @@
+slug: pi05
+entity_type: MODEL
+name: Physical Intelligence pi-0.5
+short_description: Successor policy to pi-0, presented with open-world generalisation to homes and environments not seen in training.
+country_code: US
+depth_tier: DISCOVERY
+aliases: ["π0.5", "pi 0.5"]
+claims:
+- predicate: MADE_BY
+  object: physical-intelligence
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: pi-pi05-blog
+    excerpt: Company blog introduces the model.
+- predicate: IS_INSTANCE_OF
+  object: vla-models
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: pi-pi05-blog
+    excerpt: Described as a vision-language-action model.
+- predicate: ANNOUNCED_ON
+  date: 2025-04-22
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: pi-pi05-blog
+    excerpt: Blog post announcing the model.

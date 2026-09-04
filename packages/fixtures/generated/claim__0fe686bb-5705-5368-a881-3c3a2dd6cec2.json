@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "0fe686bb-5705-5368-a881-3c3a2dd6cec2",
+    "subject": {
+      "id": "371b8e82-3403-50d4-be34-8d2ce0408277",
+      "slug": "zipline",
+      "entity_type": "ORGANIZATION",
+      "name": "Zipline",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Zipline builds Zipline P2 Zip",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "dd4d153d-3b8f-5b85-894c-5d6f3903be90",
+        "slug": "zipline-p2-zip",
+        "entity_type": "ROBOT",
+        "name": "Zipline P2 Zip",
+        "primary_embodiment": "DRONE"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2dbac5b7-b17d-5e81-a891-ecd4194b82cb",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "The P2 Zip delivery aircraft is presented on the company site.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "47c34812-db4d-54ed-958c-ea6e06b9e139",
+        "url": "https://www.flyzipline.com/",
+        "canonical_url": null,
+        "publisher": "Zipline",
+        "title": "Zipline instant logistics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "a1b3f4d7-1ffb-553f-b1b4-006eae0fc877",
+    "subject": {
+      "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+      "slug": "industrial-welding",
+      "entity_type": "TASK",
+      "name": "Industrial welding",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Industrial welding maturity MATURE",
+    "value": {
+      "kind": "enum",
+      "value": "MATURE"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "35a10b41-c4dd-55d3-86cc-9dc1263de93c",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Automotive body shops have welded robotically at enormous scale for decades; the process physics, the equipment and the qualification path are all settled. What is unsettled is who else can afford it — the job shop with a welder shortage and a hundred part numbers — and that is a setup-cost problem, not a maturity one. Cobot welding is the interesting frontier, and it is tracked separately as an approach.",
+        "advance_criteria": [
+          "Already at the top of the scale for repeat-volume parts"
+        ],
+        "regress_criteria": [
+          "A joining-method shift, such as structural adhesives displacing welds in volume assemblies"
+        ],
+        "evidence_considered": [
+          {
+            "claim_id": "6d4e19f7-8261-51a4-9a70-4c03a6b560ff",
+            "sentence": "Robotic arc welding cell maturity MATURE"
+          },
+          {
+            "claim_id": "81f511d7-9d9b-5777-a074-1f5d51d0f4fe",
+            "sentence": "Cobot welding maturity SCALING"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

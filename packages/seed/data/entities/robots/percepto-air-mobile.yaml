@@ -1,0 +1,22 @@
+slug: percepto-air-mobile
+entity_type: ROBOT
+name: Percepto Air Mobile
+short_description: Resident drone-in-a-box that launches inspection missions from a fixed base under remote supervision.
+primary_embodiment: DRONE
+country_code: IL
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: DRONE
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: percepto-site
+    excerpt: The product is described as an autonomous drone operating from a base station.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: COMMERCIAL
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: percepto-site
+    excerpt: Sold as a deployed inspection service at industrial sites.

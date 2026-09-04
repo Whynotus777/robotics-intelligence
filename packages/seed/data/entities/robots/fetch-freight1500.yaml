@@ -1,0 +1,31 @@
+slug: fetch-freight1500
+entity_type: ROBOT
+name: Fetch Freight1500
+short_description: High-payload autonomous mobile base in the Fetch line, now sold by Zebra for pallet and cart transport.
+primary_embodiment: AMR
+country_code: US
+depth_tier: DISCOVERY
+aliases: [Freight1500]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: AMR
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: zebra-fetch-page
+    excerpt: Listed among autonomous mobile robots for material transport.
+- predicate: HAS_PAYLOAD
+  number: 1500
+  unit: kg
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: zebra-fetch-page
+    excerpt: The Freight1500 is named for its 1500 kg payload class.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: COMMERCIAL
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: zebra-fetch-page
+    excerpt: Sold as part of Zebra's robotics automation range.

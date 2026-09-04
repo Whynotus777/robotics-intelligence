@@ -156,7 +156,33 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "58fcc0d9-c2be-593a-9072-9cb91417d521",
+          "source": {
+            "id": "aee2df0e-15d7-595b-aa32-8cd84a7f08cb",
+            "slug": "flyability-elios-3",
+            "entity_type": "ROBOT",
+            "name": "Flyability Elios 3",
+            "primary_embodiment": "DRONE"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
     "categories": [
       {
@@ -192,7 +218,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

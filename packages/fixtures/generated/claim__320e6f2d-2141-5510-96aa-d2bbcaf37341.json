@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "320e6f2d-2141-5510-96aa-d2bbcaf37341",
+    "subject": {
+      "id": "2af4b707-5460-5da6-b7ad-3addf359a049",
+      "slug": "geek-plus",
+      "entity_type": "ORGANIZATION",
+      "name": "Geek+",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Geek+ targets task Each-picking assistance",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+        "slug": "each-picking-assistance",
+        "entity_type": "TASK",
+        "name": "Each-picking assistance",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b60e42f9-c4cf-50f4-bf24-018aead8a33d",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Goods-to-person systems bring shelves to picking stations.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "fac74701-3080-5b02-a525-7af9b0ccab1d",
+        "url": "https://www.geekplus.com/products/goods-to-person",
+        "canonical_url": null,
+        "publisher": "Geek+",
+        "title": "Goods-to-person picking robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

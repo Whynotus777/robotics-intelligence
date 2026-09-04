@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "777913c5-27aa-59db-834a-b3798e532cde",
+    "subject": {
+      "id": "6a3ad67c-5549-528b-a5ed-0391f2c0f8a3",
+      "slug": "sanctuary-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Sanctuary AI",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Sanctuary AI targets market Manufacturing",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+        "slug": "manufacturing",
+        "entity_type": "MARKET",
+        "name": "Manufacturing",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2179fd65-e9af-5c73-9a55-0e55cae8a428",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "General-purpose work in industrial settings is the stated target.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "cd37915c-bda5-549a-bbc1-a507f8dbf081",
+        "url": "https://www.sanctuary.ai/",
+        "canonical_url": null,
+        "publisher": "Sanctuary AI",
+        "title": "Sanctuary AI",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

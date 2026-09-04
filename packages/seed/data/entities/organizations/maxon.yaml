@@ -1,0 +1,22 @@
+slug: maxon
+entity_type: ORGANIZATION
+name: maxon group
+short_description: Swiss precision drive maker; brushless motors and gearheads that show up in surgical robots, space rovers and high-end actuators.
+country_code: CH
+depth_tier: DISCOVERY
+aliases: [maxon motor, maxon]
+claims:
+- predicate: HQ_AT
+  object: sachseln
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: maxon-site
+    excerpt: Company site gives the headquarters location.
+- predicate: PROVIDES
+  object: maxon-ec-flat
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: maxon-ec-flat-page
+    excerpt: EC flat brushless motors are listed in the drive catalogue.

@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "8a59fd00-2eb3-5da7-b808-4b8c3927cedf",
+    "subject": {
+      "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+      "slug": "industrial-welding",
+      "entity_type": "TASK",
+      "name": "Industrial welding",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_TECHNICAL_REQUIREMENT",
+    "label": "technical requirement",
+    "sentence": "Industrial welding technical requirement Fume, spatter and consumable management",
+    "value": {
+      "kind": "text",
+      "text": "Fume, spatter and consumable management"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e95cf3b9-589c-583c-bf41-8059711e8d01",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Torch cleaning, wire feed and tip changes are the unglamorous reasons a welding cell stops; unattended running depends on them more than on the motion program.",
+        "advance_criteria": [
+          "Would be relaxed by automatic torch servicing running a full shift unattended."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "0480b326-4b14-53ab-b255-f611d2c2a462",
+      "value": {
+        "kind": "text",
+        "text": "Seam finding and fit-up tolerance"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "b50a3a3f-642d-583b-84ec-86e2483640af",
+      "value": {
+        "kind": "text",
+        "text": "Weld procedure qualification"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

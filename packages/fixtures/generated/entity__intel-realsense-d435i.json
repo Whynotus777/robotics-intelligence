@@ -1,0 +1,146 @@
+{
+  "entity": {
+    "id": "a1bdb99a-8e70-58d4-9058-06b7c8836c8a",
+    "slug": "intel-realsense-d435i",
+    "entity_type": "COMPONENT_PRODUCT",
+    "name": "Intel RealSense D435i",
+    "short_description": "Stereo depth camera with an onboard IMU; the cheapest way to get usable depth on a research or light industrial robot.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [
+      "D435i",
+      "RealSense D435i"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "47cbe5db-6835-53e7-8b4b-da3a8798f240",
+          "target": {
+            "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
+            "slug": "depth-cameras",
+            "entity_type": "TECHNOLOGY",
+            "name": "Depth cameras",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "MADE_BY",
+      "label": "is made by",
+      "items": [
+        {
+          "claim_id": "7c706566-66e2-5f72-bc50-3dd8d4b59a5b",
+          "target": {
+            "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
+            "slug": "intel",
+            "entity_type": "ORGANIZATION",
+            "name": "Intel",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "PROVIDES",
+      "label": "provides",
+      "items": [
+        {
+          "claim_id": "45d90cfc-9075-53af-8f6a-5bd1d9f73855",
+          "source": {
+            "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
+            "slug": "intel",
+            "entity_type": "ORGANIZATION",
+            "name": "Intel",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
+        "slug": "intel",
+        "entity_type": "ORGANIZATION",
+        "name": "Intel",
+        "primary_embodiment": null
+      }
+    ],
+    "technologies": [
+      {
+        "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
+        "slug": "depth-cameras",
+        "entity_type": "TECHNOLOGY",
+        "name": "Depth cameras",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

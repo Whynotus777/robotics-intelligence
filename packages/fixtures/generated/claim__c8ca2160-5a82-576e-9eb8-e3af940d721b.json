@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "c8ca2160-5a82-576e-9eb8-e3af940d721b",
+    "subject": {
+      "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+      "slug": "doosan-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Doosan Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Doosan Robotics builds Doosan M1013",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "fea14c4f-a335-569e-8de3-bc4b6a94b6ea",
+        "slug": "doosan-m1013",
+        "entity_type": "ROBOT",
+        "name": "Doosan M1013",
+        "primary_embodiment": "COBOT"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "28087c5c-7cdc-5cf5-a6da-a6269fdd6763",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "M1013 is listed in the M series collaborative robot range.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "51ea8e50-29bc-5e47-95fa-dac1d7de174f",
+        "url": "https://www.doosanrobotics.com/en/products/series/m",
+        "canonical_url": null,
+        "publisher": "Doosan Robotics",
+        "title": "M series collaborative robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

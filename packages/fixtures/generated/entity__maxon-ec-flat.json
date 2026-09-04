@@ -1,0 +1,145 @@
+{
+  "entity": {
+    "id": "0381305b-a566-5f60-82d3-b09265eff980",
+    "slug": "maxon-ec-flat",
+    "entity_type": "COMPONENT_PRODUCT",
+    "name": "maxon EC flat",
+    "short_description": "Family of flat brushless DC motors used where axial length is the binding constraint — wrists, hands and compact joints.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "CH",
+    "aliases": [
+      "EC flat"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "MADE_BY",
+      "label": "is made by",
+      "items": [
+        {
+          "claim_id": "4df4109b-b2c7-5d8b-9f7c-ee7f2e4ec696",
+          "target": {
+            "id": "e05f8ee9-729b-5420-8374-2825cab9dcb6",
+            "slug": "maxon",
+            "entity_type": "ORGANIZATION",
+            "name": "maxon group",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "cbb7e30e-68b3-5e2f-ba41-25cc3e84f5e1",
+          "target": {
+            "id": "62b6cfbe-80a1-57f5-8bf3-58cded25714c",
+            "slug": "quasi-direct-drive-actuators",
+            "entity_type": "TECHNOLOGY",
+            "name": "Quasi-direct-drive actuators",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "PROVIDES",
+      "label": "provides",
+      "items": [
+        {
+          "claim_id": "103e7a54-42cc-5498-b801-80fd7897a64a",
+          "source": {
+            "id": "e05f8ee9-729b-5420-8374-2825cab9dcb6",
+            "slug": "maxon",
+            "entity_type": "ORGANIZATION",
+            "name": "maxon group",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "e05f8ee9-729b-5420-8374-2825cab9dcb6",
+        "slug": "maxon",
+        "entity_type": "ORGANIZATION",
+        "name": "maxon group",
+        "primary_embodiment": null
+      }
+    ],
+    "technologies": [
+      {
+        "id": "62b6cfbe-80a1-57f5-8bf3-58cded25714c",
+        "slug": "quasi-direct-drive-actuators",
+        "entity_type": "TECHNOLOGY",
+        "name": "Quasi-direct-drive actuators",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

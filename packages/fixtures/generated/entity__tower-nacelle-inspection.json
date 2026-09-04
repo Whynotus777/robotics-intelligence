@@ -154,7 +154,52 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "37783640-579b-59a6-aaf4-15a1571777c4",
+          "source": {
+            "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
+            "slug": "anybotics",
+            "entity_type": "ORGANIZATION",
+            "name": "ANYbotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "93d5bd15-06d0-524a-8c67-12f9257cdd71",
+          "source": {
+            "id": "d31f2d2e-9dce-5f5d-9ac6-062cd182b353",
+            "slug": "percepto",
+            "entity_type": "ORGANIZATION",
+            "name": "Percepto",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
     "categories": [
       {
@@ -162,6 +207,22 @@
         "slug": "drone-based-blade-maintenance",
         "entity_type": "APPROACH",
         "name": "Drone-based",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
+        "slug": "anybotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ANYbotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "d31f2d2e-9dce-5f5d-9ac6-062cd182b353",
+        "slug": "percepto",
+        "entity_type": "ORGANIZATION",
+        "name": "Percepto",
         "primary_embodiment": null
       }
     ],
@@ -190,7 +251,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 4
   },
   "as_of": null
 }

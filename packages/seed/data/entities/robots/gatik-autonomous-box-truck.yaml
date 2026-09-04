@@ -1,0 +1,29 @@
+slug: gatik-autonomous-box-truck
+entity_type: ROBOT
+name: Gatik autonomous box truck
+short_description: Class 6/7 box truck running fixed, repeated middle-mile routes; the ODD is chosen to be boring on purpose.
+primary_embodiment: AUTONOMOUS_VEHICLE
+country_code: US
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: AUTONOMOUS_VEHICLE
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: gatik-site
+    excerpt: The fleet is described as autonomous box trucks on middle-mile routes.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: COMMERCIAL
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: gatik-site
+    excerpt: Routes are run for paying retail and logistics customers.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: gatik-site
+    excerpt: Middle-mile distribution between DCs and stores is the stated market.

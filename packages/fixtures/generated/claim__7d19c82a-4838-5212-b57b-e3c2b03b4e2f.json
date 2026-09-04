@@ -1,0 +1,53 @@
+{
+  "claim": {
+    "claim_id": "7d19c82a-4838-5212-b57b-e3c2b03b4e2f",
+    "subject": {
+      "id": "d6c78acc-fb7b-568f-b1af-28f50449cb17",
+      "slug": "mobile-manipulator-tending",
+      "entity_type": "APPROACH",
+      "name": "Mobile manipulator tending",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_TECHNICAL_REQUIREMENT",
+    "label": "technical requirement",
+    "sentence": "Mobile manipulator tending technical requirement Docking repeatability at the machine",
+    "value": {
+      "kind": "text",
+      "text": "Docking repeatability at the machine"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ae654ad3-ff23-5a88-b149-437ae6122ea5",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "A base that parks a centimetre off turns a taught pick into a crash; either the base docks to a fixture or the arm re-localises visually every time, and both cost cycle time.",
+        "advance_criteria": [
+          "Would be relaxed by arm-mounted visual servoing accurate enough to absorb base error."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

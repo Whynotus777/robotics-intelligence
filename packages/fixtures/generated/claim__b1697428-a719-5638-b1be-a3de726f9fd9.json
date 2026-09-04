@@ -1,0 +1,78 @@
+{
+  "claim": {
+    "claim_id": "b1697428-a719-5638-b1be-a3de726f9fd9",
+    "subject": {
+      "id": "328424e6-545a-582d-8d5a-fae72ba2626b",
+      "slug": "force-controlled-assembly",
+      "entity_type": "APPROACH",
+      "name": "Force-controlled robotic assembly",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "Force-controlled robotic assembly example vendor FANUC",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+        "slug": "fanuc",
+        "entity_type": "ORGANIZATION",
+        "name": "FANUC",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "18e766ee-5c77-5ed5-b9b7-4281716d51d5",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Assembly is named among industrial robot applications.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "0e5c2bb5-d938-5d8b-b7f0-0384cb6b476e",
+        "url": "https://www.fanuc.co.jp/en/",
+        "canonical_url": null,
+        "publisher": "FANUC Corporation",
+        "title": "FANUC Corporation",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "1bc344fe-c7ae-5160-b3a4-7c8d44962b8b",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+          "slug": "doosan-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Doosan Robotics",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

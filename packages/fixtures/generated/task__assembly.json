@@ -1,0 +1,451 @@
+{
+  "task": {
+    "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+    "slug": "assembly",
+    "entity_type": "TASK",
+    "name": "Assembly",
+    "primary_embodiment": null
+  },
+  "short_description": "Putting parts together — insertions, fastening, connectors, clips — where the robot has to feel what it is doing rather than repeat a position.",
+  "market_path": [
+    {
+      "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+      "slug": "manufacturing",
+      "entity_type": "MARKET",
+      "name": "Manufacturing",
+      "primary_embodiment": null
+    },
+    {
+      "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+      "slug": "machine-tending",
+      "entity_type": "MARKET",
+      "name": "Machine tending",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "EARLY_COMMERCIAL",
+    "claim_id": "fde924c9-ccc3-516c-844c-d41d06bac891",
+    "qualifier": null,
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "Screwdriving and press-fit cells run in production at scale in electronics and automotive, so this is genuinely commercial — but every one of those cells was engineered for its part set, and nothing transfers. The category has revenue without leverage: each new part is a fresh integration project, and the flexible-assembly demonstrations that would change that are still demonstrations. Early commercial until a cell absorbs a new part without an engineer.",
+      "advance_criteria": [
+        "Assembly cells requalified for a new product without re-tuning insertion strategies",
+        "Learned manipulation policies handling connectors and cables at production yield",
+        "Integrators quoting assembly cells at fixed price rather than as engineering time"
+      ],
+      "regress_criteria": [
+        "Continued growth of manual assembly in low-cost regions removing the pressure to automate at all"
+      ],
+      "evidence_considered": [
+        {
+          "claim_id": "133580c2-205d-503f-82a1-b44bcf27abcc",
+          "sentence": "Force-controlled robotic assembly maturity EARLY_COMMERCIAL"
+        }
+      ],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "9a076456-a124-5c85-b78b-653ceb7a7797",
+      "text": "Manual assembly at a bench or a moving line, with jigs, torque drivers and a trained operator absorbing every part variation without anyone writing it down.",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Human hands remain extraordinarily good at compliant insertion and at silently compensating for parts that are out of spec — which is exactly what makes the automation gap so persistent.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "approaches": [
+    {
+      "approach": {
+        "id": "328424e6-545a-582d-8d5a-fae72ba2626b",
+        "slug": "force-controlled-assembly",
+        "entity_type": "APPROACH",
+        "name": "Force-controlled robotic assembly",
+        "primary_embodiment": null
+      },
+      "short_description": "An arm with force-torque sensing feeling its way through insertions and fastening, instead of relying on position alone.",
+      "maturity": {
+        "value": "EARLY_COMMERCIAL",
+        "claim_id": "133580c2-205d-503f-82a1-b44bcf27abcc",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "MEDIUM",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Screwdriving, press-fits and connector insertion ship today in electronics and automotive cells where the part set is fixed and someone paid an integrator to tune the search strategies. What does not exist is a cell that absorbs a new part without that tuning, so each deployment is a project and the category cannot compound.",
+          "advance_criteria": [
+            "Insertion strategies transferring to a new part family without re-tuning",
+            "Assembly cells quoted at a fixed price rather than as engineering time",
+            "Learned policies handling connector and cable work at production yield"
+          ],
+          "regress_criteria": [
+            "Continued reliance on bespoke fixturing pushing buyers back to manual assembly"
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "COBOT"
+      ],
+      "example_vendors": [
+        {
+          "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+          "slug": "doosan-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Doosan Robotics",
+          "primary_embodiment": null
+        },
+        {
+          "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+          "slug": "fanuc",
+          "entity_type": "ORGANIZATION",
+          "name": "FANUC",
+          "primary_embodiment": null
+        }
+      ]
+    },
+    {
+      "approach": {
+        "id": "421d32b6-1844-5d0b-8ee9-d6995cf143dd",
+        "slug": "caged-arm-tending-cell",
+        "entity_type": "APPROACH",
+        "name": "Caged arm tending cell",
+        "primary_embodiment": null
+      },
+      "short_description": "A fenced industrial arm serving one or more machines at full speed, with a guarded gate for operator access.",
+      "maturity": {
+        "value": "MATURE",
+        "claim_id": "1cb43af2-db56-5aeb-9a3b-53f3db48ebe0",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "HIGH",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "This is the oldest deployed form of industrial robotics and remains the default whenever cycle time matters more than floor space. Nothing about it is technically open; it competes on integration cost against the collaborative alternative.",
+          "advance_criteria": [
+            "Already at the top of the scale"
+          ],
+          "regress_criteria": [
+            "None credible; the installed base alone sustains it"
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "INDUSTRIAL_ARM"
+      ],
+      "example_vendors": [
+        {
+          "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+          "slug": "abb-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "ABB Robotics",
+          "primary_embodiment": null
+        },
+        {
+          "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+          "slug": "fanuc",
+          "entity_type": "ORGANIZATION",
+          "name": "FANUC",
+          "primary_embodiment": null
+        },
+        {
+          "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+          "slug": "yaskawa",
+          "entity_type": "ORGANIZATION",
+          "name": "Yaskawa Electric",
+          "primary_embodiment": null
+        }
+      ]
+    }
+  ],
+  "technical_requirements": [
+    {
+      "claim_id": "1e7639f2-1aed-5fd6-becf-1f19ce327811",
+      "text": "Compliant insertion under tolerance stack-up",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Every part in the stack is slightly wrong, and a position-controlled arm resolves the disagreement by breaking something. Contact force is the only signal that distinguishes seating from jamming.",
+        "advance_criteria": [
+          "Would be relaxed by tolerances tight enough for blind insertion, which nobody pays for."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "2bbee5c8-0758-51b3-bbed-65b674524347",
+      "text": "Handling flexible parts",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Cables, harnesses, clips and gaskets change shape while being held, which breaks the rigid-body assumption underneath most robot software. This is the single largest reason final assembly is still manual.",
+        "advance_criteria": [
+          "Would be satisfied by production cells routing and seating wiring harnesses at line rate."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "a74150b1-92b6-5fb0-bf25-f1e8268c3298",
+      "text": "Error recovery without a human",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "An assembly cell that stops on every misfeed needs an attendant, and an attended cell has not removed the labour it was bought to remove.",
+        "advance_criteria": [
+          "Would be satisfied by cells clearing their own faults across a shift."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+        "slug": "fanuc",
+        "entity_type": "ORGANIZATION",
+        "name": "FANUC",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Oshino"
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "3f24aa5b-06e1-5a52-84f7-a5db84f5eead",
+      "text": "Appliance and consumer goods manufacturers",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Medium-volume durable goods assembly is the segment humanoid and flexible-cell vendors most often name as their entry point.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "b441caa8-ff03-5054-9bcb-c72a79626538",
+      "text": "Automotive component suppliers",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Component subassembly runs at volumes and programme lengths that justify a dedicated cell.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "d6d14e03-bb73-5104-8613-9db8f69df365",
+      "text": "Electronics manufacturers and EMS providers",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "High volumes, small parts and severe labour cost pressure make this the deepest installed base of automated assembly.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "blockers": [
+    {
+      "claim_id": "1aae45f0-f1f2-556b-9ead-714f63d3eec7",
+      "text": "Engineering cost per product",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Nothing transfers between cells. Each product means new fixtures, new grippers and new tuned search strategies, so the vendor's cost scales with customers rather than falling with volume. That is why the category has revenue but no compounding.",
+        "advance_criteria": [
+          "The same cell absorbing a new product without an engineer on site",
+          "Vendors reporting falling engineering hours per deployment"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "d60209e8-ac30-52d5-b632-fd3694799165",
+      "text": "Product design that assumes hands",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Products designed for human assembly hide fasteners, use floppy parts and demand two-handed coordination. Design-for-automation fixes it, but the design decision is made years before and by a different team, so the robot inherits a product that was never meant for it.",
+        "advance_criteria": [
+          "Design-for-automation reviews standard in new product introduction",
+          "Robot-assembled variants shipping alongside manually assembled ones"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "e06b417d-1f45-53ec-8972-e8d171c28995",
+      "text": "Line changeover risk",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "A cell that cannot be re-tasked in a model-year change is capital stranded on a product with a two-year life. Plants price that risk in, and it often outweighs the labour saving.",
+        "advance_criteria": [
+          "Cells re-tasked across a model change within a planned shutdown"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "adjacent_tasks": [
+    {
+      "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+      "slug": "industrial-welding",
+      "entity_type": "TASK",
+      "name": "Industrial welding",
+      "primary_embodiment": null
+    }
+  ],
+  "economics_notes": [
+    {
+      "claim_id": "9f9c853c-e00a-542f-8b21-1707c2cb84fa",
+      "text": "The honest unit of account here is engineering hours per part number, not robots per line; a vendor whose deployment cost does not fall with the tenth customer does not have a product yet.",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Assembly vendors are routinely valued on installed cells, which flatters a business whose margin is consumed by per-customer integration. The metric that predicts whether the category compounds is the trend in engineering hours per deployment.",
+        "advance_criteria": [
+          "Would firm up with vendors disclosing deployment engineering hours over time."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "intelligence_rail": {
+    "assessment_count": 16,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 16
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 1,
+    "deployment_count": 0,
+    "field_trial_count": 0
+  },
+  "as_of": null
+}

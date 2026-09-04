@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "6d4e19f7-8261-51a4-9a70-4c03a6b560ff",
+    "subject": {
+      "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
+      "slug": "robotic-arc-welding-cell",
+      "entity_type": "APPROACH",
+      "name": "Robotic arc welding cell",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Robotic arc welding cell maturity MATURE",
+    "value": {
+      "kind": "enum",
+      "value": "MATURE"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4d7572a6-7c5f-5a92-a7fb-837a26ca28f5",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Automotive has welded robotically for decades and the process is thoroughly characterised. What keeps the rest of the market manual is not welding physics but fixturing and programming cost, which scales with part variety, not with the number of robots.",
+        "advance_criteria": [
+          "Already at the top of the scale for repeat-volume parts"
+        ],
+        "regress_criteria": [
+          "A shift to joining methods that robots handle less well than humans"
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

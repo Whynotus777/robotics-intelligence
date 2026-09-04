@@ -1,0 +1,31 @@
+slug: geek-plus-p800
+entity_type: ROBOT
+name: Geek+ P800
+short_description: Goods-to-person robot that lifts and carries a shelving pod to a picking station.
+primary_embodiment: AMR
+country_code: CN
+depth_tier: DISCOVERY
+aliases: [P800]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: AMR
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: geekplus-p-series-page
+    excerpt: Goods-to-person robots are presented as mobile shelf-carrying units.
+- predicate: HAS_PAYLOAD
+  number: 800
+  unit: kg
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: geekplus-p-series-page
+    excerpt: The P800 designation corresponds to an 800 kg carrying class in the P series.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: COMMERCIAL
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: geekplus-site
+    excerpt: Sold and installed in customer fulfilment centres.

@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "f1f503c6-2939-566d-b977-1cdf974129c3",
+    "subject": {
+      "id": "371b8e82-3403-50d4-be34-8d2ce0408277",
+      "slug": "zipline",
+      "entity_type": "ORGANIZATION",
+      "name": "Zipline",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Zipline targets market Healthcare",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "765495b3-ca1b-5f8c-943c-b68a87c2dbcb",
+        "slug": "healthcare",
+        "entity_type": "MARKET",
+        "name": "Healthcare",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8d6488cd-9c03-5c10-9b63-36296296efa8",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Medical delivery is the founding and still-named use case.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "47c34812-db4d-54ed-958c-ea6e06b9e139",
+        "url": "https://www.flyzipline.com/",
+        "canonical_url": null,
+        "publisher": "Zipline",
+        "title": "Zipline instant logistics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

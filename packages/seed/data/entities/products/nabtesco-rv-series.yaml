@@ -1,0 +1,22 @@
+slug: nabtesco-rv-series
+entity_type: COMPONENT_PRODUCT
+name: Nabtesco RV series
+short_description: Cycloidal precision reduction gears for robot joints; high stiffness and shock tolerance at the base axes of industrial arms.
+country_code: JP
+depth_tier: DISCOVERY
+aliases: [RV reducer]
+claims:
+- predicate: MADE_BY
+  object: nabtesco
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: nabtesco-rv-page
+    excerpt: RV series reduction gears are listed in Nabtesco's precision equipment range.
+- predicate: IS_INSTANCE_OF
+  object: cycloidal-drives
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: nabtesco-rv-page
+    excerpt: The RV series is presented as cycloidal-type precision reduction gearing.

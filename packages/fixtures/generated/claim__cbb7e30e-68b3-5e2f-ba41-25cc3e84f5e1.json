@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "cbb7e30e-68b3-5e2f-ba41-25cc3e84f5e1",
+    "subject": {
+      "id": "0381305b-a566-5f60-82d3-b09265eff980",
+      "slug": "maxon-ec-flat",
+      "entity_type": "COMPONENT_PRODUCT",
+      "name": "maxon EC flat",
+      "primary_embodiment": null
+    },
+    "predicate": "IS_INSTANCE_OF",
+    "label": "is an instance of",
+    "sentence": "maxon EC flat is an instance of Quasi-direct-drive actuators",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "62b6cfbe-80a1-57f5-8bf3-58cded25714c",
+        "slug": "quasi-direct-drive-actuators",
+        "entity_type": "TECHNOLOGY",
+        "name": "Quasi-direct-drive actuators",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b03cb4a8-d419-584e-994f-5b84b6647749",
+      "class": "PRIMARY",
+      "confidence": "LOW",
+      "stance": "SUPPORTS",
+      "excerpt": "Flat brushless motors are the motor class used in low-ratio direct and quasi-direct drive joints; the catalogue lists the motors, not the drive architecture.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "5af2e59d-8a58-53e8-bd3d-f9e899194698",
+        "url": "https://www.maxongroup.com/maxon/view/product/motor/ecmotor/ecflat",
+        "canonical_url": null,
+        "publisher": "maxon group",
+        "title": "EC flat brushless DC motors",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

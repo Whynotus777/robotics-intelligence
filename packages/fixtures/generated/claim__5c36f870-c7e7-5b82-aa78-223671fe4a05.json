@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "5c36f870-c7e7-5b82-aa78-223671fe4a05",
+    "subject": {
+      "id": "709d836b-770d-5250-bdb3-e4b15e6d27ee",
+      "slug": "pi05",
+      "entity_type": "MODEL",
+      "name": "Physical Intelligence pi-0.5",
+      "primary_embodiment": null
+    },
+    "predicate": "IS_INSTANCE_OF",
+    "label": "is an instance of",
+    "sentence": "Physical Intelligence pi-0.5 is an instance of VLA models",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "bc3bbbc6-d8b1-5fdc-b75e-722ffc380762",
+        "slug": "vla-models",
+        "entity_type": "TECHNOLOGY",
+        "name": "VLA models",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ab912fd9-4b30-5488-8206-5cdfd3017e07",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Described as a vision-language-action model.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "78401c2b-59ca-587c-9d37-bc69373ae464",
+        "url": "https://www.physicalintelligence.company/blog/pi05",
+        "canonical_url": null,
+        "publisher": "Physical Intelligence",
+        "title": "π0.5: a VLA with open-world generalization",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-04-22T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

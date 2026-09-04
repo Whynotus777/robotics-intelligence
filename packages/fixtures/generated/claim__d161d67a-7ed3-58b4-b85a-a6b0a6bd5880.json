@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "d161d67a-7ed3-58b4-b85a-a6b0a6bd5880",
+    "subject": {
+      "id": "d6c78acc-fb7b-568f-b1af-28f50449cb17",
+      "slug": "mobile-manipulator-tending",
+      "entity_type": "APPROACH",
+      "name": "Mobile manipulator tending",
+      "primary_embodiment": null
+    },
+    "predicate": "USES_EMBODIMENT",
+    "label": "uses embodiment",
+    "sentence": "Mobile manipulator tending uses embodiment AMR",
+    "value": {
+      "kind": "enum",
+      "value": "AMR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3a7d1994-ec88-549e-8560-df178083868f",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Mobile bases with manipulation payloads are presented for material handling in production environments.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "47f20bdb-5b38-595a-87ab-dbc6fb2fe6cd",
+        "url": "https://www.zebra.com/us/en/products/robotics-automation.html",
+        "canonical_url": null,
+        "publisher": "Zebra Technologies",
+        "title": "Zebra robotics automation and autonomous mobile robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

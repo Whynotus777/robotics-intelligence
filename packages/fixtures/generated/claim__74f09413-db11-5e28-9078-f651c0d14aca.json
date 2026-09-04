@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "74f09413-db11-5e28-9078-f651c0d14aca",
+    "subject": {
+      "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
+      "slug": "anybotics",
+      "entity_type": "ORGANIZATION",
+      "name": "ANYbotics",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "ANYbotics builds ANYbotics ANYmal D",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "6eed56ac-41c3-573d-be63-dac3ff72ece3",
+        "slug": "anybotics-anymal-d",
+        "entity_type": "ROBOT",
+        "name": "ANYbotics ANYmal D",
+        "primary_embodiment": "QUADRUPED"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7350d1cf-ec17-5c6d-be25-e00bf68bc388",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "ANYmal product page.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "a896e3a6-345e-5ab8-a229-ae1be439c9d7",
+        "url": "https://www.anybotics.com/robotics/anymal/",
+        "canonical_url": null,
+        "publisher": "ANYbotics",
+        "title": "ANYmal inspection robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

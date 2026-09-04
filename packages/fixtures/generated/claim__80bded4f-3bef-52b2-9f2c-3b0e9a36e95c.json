@@ -1,0 +1,60 @@
+{
+  "claim": {
+    "claim_id": "80bded4f-3bef-52b2-9f2c-3b0e9a36e95c",
+    "subject": {
+      "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+      "slug": "machine-tending",
+      "entity_type": "MARKET",
+      "name": "Machine tending",
+      "primary_embodiment": null
+    },
+    "predicate": "CHILD_OF",
+    "label": "is a domain of",
+    "sentence": "Machine tending is a domain of Manufacturing",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+        "slug": "manufacturing",
+        "entity_type": "MARKET",
+        "name": "Manufacturing",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a92dab49-b0a3-5434-b1a7-5004c5e3bd0c",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "These tasks share one buyer (the plant or line manager), one integration surface (the cell, its fixturing and the PLC) and one economic test (cycle time against an operator's fully loaded hourly cost). They sit under Manufacturing because the customer makes the goods rather than moves them; the moment the same pallet leaves the plant it becomes a Warehouse & Logistics problem with a different buyer.",
+        "advance_criteria": [
+          "Would only change if process manufacturing were split from discrete manufacturing as a separate sector."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

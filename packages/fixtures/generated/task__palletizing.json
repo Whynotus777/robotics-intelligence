@@ -1,0 +1,416 @@
+{
+  "task": {
+    "id": "60245a27-6286-59df-a3ed-9487c3c0d92a",
+    "slug": "palletizing",
+    "entity_type": "TASK",
+    "name": "Palletizing",
+    "primary_embodiment": null
+  },
+  "short_description": "Stacking cases, bags or trays onto a pallet at the end of a production line, to a pattern and at line rate.",
+  "market_path": [
+    {
+      "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+      "slug": "manufacturing",
+      "entity_type": "MARKET",
+      "name": "Manufacturing",
+      "primary_embodiment": null
+    },
+    {
+      "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+      "slug": "machine-tending",
+      "entity_type": "MARKET",
+      "name": "Machine tending",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "MATURE",
+    "claim_id": "4aac7670-c923-516c-bdb4-158e391b4933",
+    "qualifier": null,
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "A box on a conveyor is the friendliest object in manufacturing: known geometry, known pose, known rate. Vendors quote guaranteed case rates, dozens of integrators compete, and cobot palletizers have pushed the price down to where a single line can justify one. Nothing here is a research question; the argument is footprint and price.",
+      "advance_criteria": [
+        "Already at the top of the scale; mixed-SKU pattern building is the remaining frontier"
+      ],
+      "regress_criteria": [
+        "A shift to packaging formats that defeat vacuum and clamp tooling"
+      ],
+      "evidence_considered": [
+        {
+          "claim_id": "5a99696f-0f03-57ed-9d15-978f0656a421",
+          "sentence": "Robotic palletizing cell maturity MATURE"
+        },
+        {
+          "claim_id": "0d8083ec-5a1e-5e90-a085-1322bdb76035",
+          "sentence": "Cobot palletizer maturity SCALING"
+        }
+      ],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "342b690c-6f3c-5a5d-b3e2-f2596401bf6e",
+      "text": "Operators lifting cases off a conveyor onto a pallet by hand, or a fixed mechanical layer palletizer built for one pattern.",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Manual palletizing is among the highest injury-rate jobs in a plant, and the mechanical alternative cannot change pattern without retooling — which is why the robot displaced both.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "approaches": [
+    {
+      "approach": {
+        "id": "2bea54e2-cb77-5728-b445-707f09039b05",
+        "slug": "cobot-palletizer",
+        "entity_type": "APPROACH",
+        "name": "Cobot palletizer",
+        "primary_embodiment": null
+      },
+      "short_description": "A collaborative arm on a wheeled base or lift column, moved between lines and set up by an operator rather than an integrator.",
+      "maturity": {
+        "value": "SCALING",
+        "claim_id": "0d8083ec-5a1e-5e90-a085-1322bdb76035",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "MEDIUM",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Packaged cobot palletizers are sold by every cobot vendor and several specialists, and small manufacturers buy them precisely because there is no integration project. They stay a step behind the fixed cell because payload and reach cap the case rate, so they win the low-volume line and lose the high one. Scaling rather than mature until they take share on the fast lines too.",
+          "advance_criteria": [
+            "Cobot palletizers quoted at case rates competitive with fixed cells",
+            "Operators reconfiguring patterns without vendor support as the norm",
+            "Repeat purchases across multiple lines at the same plant"
+          ],
+          "regress_criteria": [
+            "Payload and speed limits proving a hard ceiling, confining these to demonstration lines"
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "COBOT"
+      ],
+      "example_vendors": [
+        {
+          "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+          "slug": "doosan-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Doosan Robotics",
+          "primary_embodiment": null
+        },
+        {
+          "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+          "slug": "universal-robots",
+          "entity_type": "ORGANIZATION",
+          "name": "Universal Robots",
+          "primary_embodiment": null
+        }
+      ]
+    },
+    {
+      "approach": {
+        "id": "e35b836e-1830-5e51-8c65-03a889bc8a84",
+        "slug": "robotic-palletizing-cell",
+        "entity_type": "APPROACH",
+        "name": "Robotic palletizing cell",
+        "primary_embodiment": null
+      },
+      "short_description": "A dedicated arm at the end of a line stacking cases or bags to a pattern, usually with a vacuum or clamp tool.",
+      "maturity": {
+        "value": "MATURE",
+        "claim_id": "5a99696f-0f03-57ed-9d15-978f0656a421",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "HIGH",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "End-of-line palletizing is the single most standardised robot application in existence: the part geometry is a box, the pattern is software, and the vendors sell it as a configured product with a quoted rate. Buyers argue about price and footprint, not feasibility.",
+          "advance_criteria": [
+            "Already at the top of the scale; watch mixed-SKU pattern building as the next frontier"
+          ],
+          "regress_criteria": [
+            "None credible"
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "INDUSTRIAL_ARM"
+      ],
+      "example_vendors": [
+        {
+          "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+          "slug": "fanuc",
+          "entity_type": "ORGANIZATION",
+          "name": "FANUC",
+          "primary_embodiment": null
+        },
+        {
+          "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+          "slug": "kuka",
+          "entity_type": "ORGANIZATION",
+          "name": "KUKA",
+          "primary_embodiment": null
+        }
+      ]
+    }
+  ],
+  "technical_requirements": [
+    {
+      "claim_id": "2e464f02-80cb-5daf-a795-a83fdbbb604a",
+      "text": "Tooling that holds the actual package",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Vacuum works on a sealed case and fails on a shrink-wrapped bundle or a bag; the end effector, not the arm, decides whether a given plant's product can be palletized at all.",
+        "advance_criteria": [
+          "Would be relaxed by tooling that spans case, bag and tray without a change."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "b3e87e62-371b-5351-997f-21f6cdbb87e8",
+      "text": "Pattern generation for mixed SKUs",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Single-SKU patterns are solved. Building a stable mixed pallet from an arbitrary order is a packing problem plus a stability problem, and it is where the remaining engineering sits.",
+        "advance_criteria": [
+          "Would be satisfied by mixed-case pallets built at rate without human correction."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+        "slug": "doosan-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Doosan Robotics",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Suwon"
+    },
+    {
+      "organization": {
+        "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+        "slug": "fanuc",
+        "entity_type": "ORGANIZATION",
+        "name": "FANUC",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Oshino"
+    },
+    {
+      "organization": {
+        "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+        "slug": "kuka",
+        "entity_type": "ORGANIZATION",
+        "name": "KUKA",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Augsburg"
+    },
+    {
+      "organization": {
+        "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+        "slug": "universal-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Universal Robots",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Odense"
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "0939f380-b94e-528f-b4bf-87849e83a58e",
+      "text": "Food and beverage producers",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "High case volumes, hard washdown environments and severe manual-handling injury exposure make this the densest palletizing buyer.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "5e95959f-bcf2-596f-b2fb-76fb6dc8d789",
+      "text": "CPG manufacturers",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Consumer goods lines run continuously with stable case formats, which is the best possible fit for a fixed palletizing cell.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "blockers": [
+    {
+      "claim_id": "600c8f91-e1c9-5c50-a2df-6114b9a60b30",
+      "text": "Package variability",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Marketing changes the pack format and the tooling stops working. The cell's lifetime is tied to a package design decision that the plant does not control.",
+        "advance_criteria": [
+          "Tooling changes handled in-house within a shift",
+          "Cells requalified for a new pack format without vendor engineering"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "8cf7d9c4-f6c2-5056-96ae-438298fc06dd",
+      "text": "Floor space at the end of the line",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Plants were laid out before the cell existed, and the end of the line is the most congested place in the building. This is the single most common reason a justified palletizer does not get installed.",
+        "advance_criteria": [
+          "Cells with a footprint small enough to drop in without moving the line",
+          "Vendors quoting installation without a plant layout change"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "adjacent_tasks": [
+    {
+      "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+      "slug": "pallet-movement",
+      "entity_type": "TASK",
+      "name": "Pallet movement",
+      "primary_embodiment": null
+    }
+  ],
+  "economics_notes": [
+    {
+      "claim_id": "a2541d47-ee25-5157-8f2c-1a61f74f4c73",
+      "text": "Payback is usually argued on injury and turnover as much as on headcount, because manual case stacking carries some of the highest recordable injury rates in a plant.",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Plants that only count hourly wages undervalue the cell; the insurance and absence line is often the larger number, though it varies enough by employer that it should not be quoted as a rule.",
+        "advance_criteria": [
+          "Would firm up with published customer injury-rate data before and after installation."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "intelligence_rail": {
+    "assessment_count": 13,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 13
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 4,
+    "deployment_count": 0,
+    "field_trial_count": 0
+  },
+  "as_of": null
+}

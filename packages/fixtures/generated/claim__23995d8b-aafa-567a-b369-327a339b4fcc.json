@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "23995d8b-aafa-567a-b369-327a339b4fcc",
+    "subject": {
+      "id": "12d4f360-9403-523f-a0bb-252978213506",
+      "slug": "yaskawa-motoman-gp12",
+      "entity_type": "ROBOT",
+      "name": "Yaskawa MOTOMAN GP12",
+      "primary_embodiment": "INDUSTRIAL_ARM"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "Yaskawa MOTOMAN GP12 embodiment INDUSTRIAL_ARM",
+    "value": {
+      "kind": "enum",
+      "value": "INDUSTRIAL_ARM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a2929827-52bb-50f9-98e2-de029d68a1c6",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Listed as a six-axis industrial handling robot.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "650022f9-dd44-59ab-8f32-740061d8d896",
+        "url": "https://www.motoman.com/en-us/products/robots/industrial/assembly-handling/gp-series/gp12",
+        "canonical_url": null,
+        "publisher": "Yaskawa Motoman",
+        "title": "MOTOMAN GP12 handling robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

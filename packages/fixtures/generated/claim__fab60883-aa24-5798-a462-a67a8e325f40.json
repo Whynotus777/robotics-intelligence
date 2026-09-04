@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "fab60883-aa24-5798-a462-a67a8e325f40",
+    "subject": {
+      "id": "8f3dd14f-c1f5-53e2-899e-b433935b79be",
+      "slug": "flyability",
+      "entity_type": "ORGANIZATION",
+      "name": "Flyability",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Flyability targets market Oil & gas",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "bf24c58e-1c83-58d4-b810-bbeacce0f9b8",
+        "slug": "oil-and-gas",
+        "entity_type": "MARKET",
+        "name": "Oil & gas",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c229da53-23e1-5029-80cb-c95cc7ae84c3",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Confined-space inspection in process industries is a named market.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "b7bc78ae-1fce-5bd7-ba0d-4377858e970e",
+        "url": "https://www.flyability.com/",
+        "canonical_url": null,
+        "publisher": "Flyability",
+        "title": "Flyability",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

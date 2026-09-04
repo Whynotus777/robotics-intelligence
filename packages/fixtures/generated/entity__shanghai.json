@@ -55,6 +55,50 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "c1246d87-59fb-56c9-9559-3656f32472ba",
+          "source": {
+            "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
+            "slug": "fourier-intelligence",
+            "entity_type": "ORGANIZATION",
+            "name": "Fourier Intelligence",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d3543cf9-3efe-598c-8d17-512c8d90d0e4",
+          "source": {
+            "id": "634f0531-a0d7-5d56-b836-691d66886e2a",
+            "slug": "hesai",
+            "entity_type": "ORGANIZATION",
+            "name": "Hesai Technology",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "lateral_links": {
@@ -64,6 +108,20 @@
         "slug": "abb-robotics",
         "entity_type": "ORGANIZATION",
         "name": "ABB Robotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
+        "slug": "fourier-intelligence",
+        "entity_type": "ORGANIZATION",
+        "name": "Fourier Intelligence",
+        "primary_embodiment": null
+      },
+      {
+        "id": "634f0531-a0d7-5d56-b836-691d66886e2a",
+        "slug": "hesai",
+        "entity_type": "ORGANIZATION",
+        "name": "Hesai Technology",
         "primary_embodiment": null
       }
     ]
@@ -83,7 +141,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 3
   },
   "as_of": null
 }

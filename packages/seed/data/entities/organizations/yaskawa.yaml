@@ -1,0 +1,43 @@
+slug: yaskawa
+entity_type: ORGANIZATION
+name: Yaskawa Electric
+short_description: Kitakyushu motion-control and industrial robot maker; the Motoman arm line and the servo drives under much of the industry.
+country_code: JP
+depth_tier: DISCOVERY
+aliases: [Yaskawa, Motoman]
+claims:
+- predicate: HQ_AT
+  object: kitakyushu
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: yaskawa-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: manufacturing
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: yaskawa-site
+    excerpt: Industrial automation and robotics positioning.
+- predicate: BUILDS
+  object: yaskawa-motoman-gp12
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: yaskawa-gp12-page
+    excerpt: MOTOMAN GP12 is listed on Yaskawa's robot product pages.
+- predicate: TARGETS_TASK
+  object: industrial-welding
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: yaskawa-site
+    excerpt: Arc welding robots are a named product family.
+- predicate: TARGETS_TASK
+  object: cnc-machine-tending
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: yaskawa-gp12-page
+    excerpt: The GP series is positioned for handling and machine tending.

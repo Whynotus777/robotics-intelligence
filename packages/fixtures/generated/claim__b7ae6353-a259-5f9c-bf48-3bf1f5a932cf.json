@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "b7ae6353-a259-5f9c-bf48-3bf1f5a932cf",
+    "subject": {
+      "id": "32f4fe35-c685-537a-8ef0-68cd02e5ccc9",
+      "slug": "autostore",
+      "entity_type": "ORGANIZATION",
+      "name": "AutoStore",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "AutoStore targets market Warehouse & Logistics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "68407748-0447-505b-aa53-0d87ab606e33",
+        "slug": "warehouse-logistics",
+        "entity_type": "MARKET",
+        "name": "Warehouse & Logistics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1862c841-f0a2-54cf-8017-ebdc49d80e56",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Cube storage automation positioning for warehouses.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e8bdbd90-039a-5e80-8a46-ecd5fbb5be8a",
+        "url": "https://www.autostoresystem.com/",
+        "canonical_url": null,
+        "publisher": "AutoStore",
+        "title": "AutoStore",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

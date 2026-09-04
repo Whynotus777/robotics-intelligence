@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "badc1051-1f0f-5594-ad04-b8bed26e1436",
+    "subject": {
+      "id": "aa6d7895-9539-532d-a5cd-3f41aa1efbaa",
+      "slug": "gatik-autonomous-box-truck",
+      "entity_type": "ROBOT",
+      "name": "Gatik autonomous box truck",
+      "primary_embodiment": "AUTONOMOUS_VEHICLE"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "Gatik autonomous box truck commercial stage COMMERCIAL",
+    "value": {
+      "kind": "enum",
+      "value": "COMMERCIAL"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "df559c32-ed1d-52fb-9760-cdf55c2c4787",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Routes are run for paying retail and logistics customers.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8da5deb8-198d-5b93-b7b2-222179cff1ea",
+        "url": "https://www.gatik.ai/",
+        "canonical_url": null,
+        "publisher": "Gatik",
+        "title": "Gatik autonomous middle-mile logistics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,165 @@
+slug: assembly
+entity_type: TASK
+name: Assembly
+short_description: Putting parts together — insertions, fastening, connectors, clips — where the robot has to feel what it is doing rather than repeat a position.
+depth_tier: STANDARD
+aliases: [Robotic assembly, Parts assembly]
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: machine-tending
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Assembly cells sit on the same floor, are bought by the same plant, and compete for the same capital as tending and welding cells.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: EARLY_COMMERCIAL
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          author: editorial
+          rationale: "Screwdriving and press-fit cells run in production at scale in electronics and automotive, so this is genuinely commercial — but every one of those cells was engineered for its part set, and nothing transfers. The category has revenue without leverage: each new part is a fresh integration project, and the flexible-assembly demonstrations that would change that are still demonstrations. Early commercial until a cell absorbs a new part without an engineer."
+          advance_criteria:
+            - Assembly cells requalified for a new product without re-tuning insertion strategies
+            - Learned manipulation policies handling connectors and cables at production yield
+            - Integrators quoting assembly cells at fixed price rather than as engineering time
+          regress_criteria:
+            - Continued growth of manual assembly in low-cost regions removing the pressure to automate at all
+          evidence_considered:
+            - force-controlled-assembly:HAS_MATURITY
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: Manual assembly at a bench or a moving line, with jigs, torque drivers and a trained operator absorbing every part variation without anyone writing it down.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Human hands remain extraordinarily good at compliant insertion and at silently compensating for parts that are out of spec — which is exactly what makes the automation gap so persistent.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: force-controlled-assembly
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Force-torque-guided insertion is the only approach shipping in production for anything tighter than a drop-in fit.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: caged-arm-tending-cell
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: For high-volume, well-fixtured products the fenced arm cell doing pure position-controlled placement remains the cheapest working answer, and buyers compare against it.
+          advance_criteria: ["Would weaken if force-controlled cells matched its cycle time and price."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Compliant insertion under tolerance stack-up
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Every part in the stack is slightly wrong, and a position-controlled arm resolves the disagreement by breaking something. Contact force is the only signal that distinguishes seating from jamming.
+          advance_criteria: ["Would be relaxed by tolerances tight enough for blind insertion, which nobody pays for."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Handling flexible parts
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Cables, harnesses, clips and gaskets change shape while being held, which breaks the rigid-body assumption underneath most robot software. This is the single largest reason final assembly is still manual.
+          advance_criteria: ["Would be satisfied by production cells routing and seating wiring harnesses at line rate."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Error recovery without a human
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: An assembly cell that stops on every misfeed needs an attendant, and an attended cell has not removed the labour it was bought to remove.
+          advance_criteria: ["Would be satisfied by cells clearing their own faults across a shift."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Electronics manufacturers and EMS providers
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: High volumes, small parts and severe labour cost pressure make this the deepest installed base of automated assembly.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Automotive component suppliers
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Component subassembly runs at volumes and programme lengths that justify a dedicated cell.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Appliance and consumer goods manufacturers
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Medium-volume durable goods assembly is the segment humanoid and flexible-cell vendors most often name as their entry point.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Engineering cost per product
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Nothing transfers between cells. Each product means new fixtures, new grippers and new tuned search strategies, so the vendor's cost scales with customers rather than falling with volume. That is why the category has revenue but no compounding.
+          advance_criteria:
+            - The same cell absorbing a new product without an engineer on site
+            - Vendors reporting falling engineering hours per deployment
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Product design that assumes hands
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Products designed for human assembly hide fasteners, use floppy parts and demand two-handed coordination. Design-for-automation fixes it, but the design decision is made years before and by a different team, so the robot inherits a product that was never meant for it.
+          advance_criteria:
+            - Design-for-automation reviews standard in new product introduction
+            - Robot-assembled variants shipping alongside manually assembled ones
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Line changeover risk
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: A cell that cannot be re-tasked in a model-year change is capital stranded on a product with a two-year life. Plants price that risk in, and it often outweighs the labour saving.
+          advance_criteria:
+            - Cells re-tasked across a model change within a planned shutdown
+          reviewed_at: 2026-09-01
+  - predicate: ADJACENT_TO
+    object: industrial-welding
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Welding is a joining operation inside an assembly sequence; the fixturing and the buyer are shared.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ECONOMICS_NOTE
+    text: The honest unit of account here is engineering hours per part number, not robots per line; a vendor whose deployment cost does not fall with the tenth customer does not have a product yet.
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Assembly vendors are routinely valued on installed cells, which flatters a business whose margin is consumed by per-customer integration. The metric that predicts whether the category compounds is the trend in engineering hours per deployment.
+          advance_criteria: ["Would firm up with vendors disclosing deployment engineering hours over time."]
+          reviewed_at: 2026-09-01

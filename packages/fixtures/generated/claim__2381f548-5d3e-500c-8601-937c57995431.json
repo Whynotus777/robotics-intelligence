@@ -1,0 +1,96 @@
+{
+  "claim": {
+    "claim_id": "2381f548-5d3e-500c-8601-937c57995431",
+    "subject": {
+      "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
+      "slug": "cobot-tending-cell",
+      "entity_type": "APPROACH",
+      "name": "Cobot tending cell",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "Cobot tending cell example vendor Universal Robots",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+        "slug": "universal-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Universal Robots",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "853981d9-8ca6-58ba-890e-34eea1026b81",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Machine tending is listed as an application for Universal Robots arms.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "01df52f5-a475-5904-b615-77d31452be55",
+        "url": "https://www.universal-robots.com/",
+        "canonical_url": null,
+        "publisher": "Universal Robots",
+        "title": "Universal Robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "83a1f972-2d1d-5591-a868-4dce0104bc5b",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+          "slug": "techman-robot",
+          "entity_type": "ORGANIZATION",
+          "name": "Techman Robot",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "c708c870-02c9-5b36-9041-917193d3a9b3",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+          "slug": "doosan-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Doosan Robotics",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,144 @@
+{
+  "entity": {
+    "id": "eb46b6af-ce87-5ea9-adb0-183491fa85f7",
+    "slug": "deep-robotics",
+    "entity_type": "ORGANIZATION",
+    "name": "Deep Robotics",
+    "short_description": "Hangzhou quadruped maker; industrial inspection dogs sold at Chinese domestic prices into utilities and power grids.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "CN",
+    "aliases": [
+      "DEEP Robotics"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "2baa835d-f1cb-5d44-b5a3-716f6c121cea",
+          "target": {
+            "id": "b68dee12-fd2b-52e9-8e63-85bcc3263b17",
+            "slug": "utilities",
+            "entity_type": "MARKET",
+            "name": "Utilities",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "3757ed57-44a5-5bf4-bb78-38d052d1c5ed",
+          "target": {
+            "id": "c5da4207-66e6-58af-b465-9432764e2a62",
+            "slug": "hangzhou",
+            "entity_type": "PLACE",
+            "name": "Hangzhou",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "69c9a6d1-40dd-5794-a0e7-67f8d0a54844",
+          "target": {
+            "id": "c96b4942-8858-59aa-aac5-09f15dd6bddc",
+            "slug": "deep-robotics-x30",
+            "entity_type": "ROBOT",
+            "name": "Deep Robotics X30",
+            "primary_embodiment": "QUADRUPED"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "markets": [
+      {
+        "id": "b68dee12-fd2b-52e9-8e63-85bcc3263b17",
+        "slug": "utilities",
+        "entity_type": "MARKET",
+        "name": "Utilities",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "c5da4207-66e6-58af-b465-9432764e2a62",
+        "slug": "hangzhou",
+        "entity_type": "PLACE",
+        "name": "Hangzhou",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 3,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

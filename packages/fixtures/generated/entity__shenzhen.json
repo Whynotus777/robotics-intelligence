@@ -61,6 +61,25 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "acd9be18-956e-5e84-b8f0-db2d788cf254",
+          "source": {
+            "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
+            "slug": "ubtech",
+            "entity_type": "ORGANIZATION",
+            "name": "UBTech Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "af2bf497-4272-5a40-9039-1f8b97d4c58c",
           "source": {
             "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
@@ -90,6 +109,13 @@
         "entity_type": "ORGANIZATION",
         "name": "DJI",
         "primary_embodiment": null
+      },
+      {
+        "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
+        "slug": "ubtech",
+        "entity_type": "ORGANIZATION",
+        "name": "UBTech Robotics",
+        "primary_embodiment": null
       }
     ]
   },
@@ -108,7 +134,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

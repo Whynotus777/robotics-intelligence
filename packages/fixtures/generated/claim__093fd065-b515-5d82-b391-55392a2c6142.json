@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "093fd065-b515-5d82-b391-55392a2c6142",
+    "subject": {
+      "id": "0f525e86-2f1f-5a49-b4a9-fa0cdbae9716",
+      "slug": "waymo-i-pace-robotaxi",
+      "entity_type": "ROBOT",
+      "name": "Waymo Jaguar I-Pace robotaxi",
+      "primary_embodiment": "AUTONOMOUS_VEHICLE"
+    },
+    "predicate": "HAS_ARCHITECTURE_NOTE",
+    "label": "architecture note",
+    "sentence": "Waymo Jaguar I-Pace robotaxi architecture note Lidar, radar and camera are all carried, in-house designed, and treated as redundant rather than complementary; the cost argument is deferred in favour of a sensor set that fails independently.",
+    "value": {
+      "kind": "text",
+      "text": "Lidar, radar and camera are all carried, in-house designed, and treated as redundant rather than complementary; the cost argument is deferred in favour of a sensor set that fails independently."
+    },
+    "stack_layer": "SENSORS",
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f6d90670-b732-5e13-9dcf-f95dde037fc5",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "The Waymo Driver is described as combining lidar, radar and cameras.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "d35e05b7-5dde-581c-a5a8-1e7b942c0ffc",
+        "url": "https://waymo.com/waymo-driver/",
+        "canonical_url": null,
+        "publisher": "Waymo",
+        "title": "The Waymo Driver",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

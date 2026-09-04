@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "e55f944f-7f69-511b-bbd0-68af2e3999eb",
+    "subject": {
+      "id": "f1dac3df-2220-57ca-aaa6-58cb1a8f7db3",
+      "slug": "ouster-os1",
+      "entity_type": "COMPONENT_PRODUCT",
+      "name": "Ouster OS1",
+      "primary_embodiment": null
+    },
+    "predicate": "MADE_BY",
+    "label": "is made by",
+    "sentence": "Ouster OS1 is made by Ouster",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "280d3938-3677-5286-bf7f-9c85402c4d90",
+        "slug": "ouster",
+        "entity_type": "ORGANIZATION",
+        "name": "Ouster",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "42e3f85d-0967-52fc-a1d9-f19e49bd1799",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "OS1 is listed in Ouster's sensor hardware range.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "61992bda-1ac2-52c7-91fa-ce258a603bc5",
+        "url": "https://ouster.com/products/hardware/os1-lidar-sensor",
+        "canonical_url": null,
+        "publisher": "Ouster",
+        "title": "OS1 mid-range digital lidar sensor",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

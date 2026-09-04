@@ -1,0 +1,77 @@
+{
+  "claim": {
+    "claim_id": "1aae45f0-f1f2-556b-9ead-714f63d3eec7",
+    "subject": {
+      "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+      "slug": "assembly",
+      "entity_type": "TASK",
+      "name": "Assembly",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_ADOPTION_BLOCKER",
+    "label": "adoption blocker",
+    "sentence": "Assembly adoption blocker Engineering cost per product",
+    "value": {
+      "kind": "text",
+      "text": "Engineering cost per product"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a7f9482b-14bb-5fde-beb4-2954efe9fcdb",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Nothing transfers between cells. Each product means new fixtures, new grippers and new tuned search strategies, so the vendor's cost scales with customers rather than falling with volume. That is why the category has revenue but no compounding.",
+        "advance_criteria": [
+          "The same cell absorbing a new product without an engineer on site",
+          "Vendors reporting falling engineering hours per deployment"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "d60209e8-ac30-52d5-b632-fd3694799165",
+      "value": {
+        "kind": "text",
+        "text": "Product design that assumes hands"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "e06b417d-1f45-53ec-8972-e8d171c28995",
+      "value": {
+        "kind": "text",
+        "text": "Line changeover risk"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

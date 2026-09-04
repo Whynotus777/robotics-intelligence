@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "5a99696f-0f03-57ed-9d15-978f0656a421",
+    "subject": {
+      "id": "e35b836e-1830-5e51-8c65-03a889bc8a84",
+      "slug": "robotic-palletizing-cell",
+      "entity_type": "APPROACH",
+      "name": "Robotic palletizing cell",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Robotic palletizing cell maturity MATURE",
+    "value": {
+      "kind": "enum",
+      "value": "MATURE"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "dd1eb67f-5780-519b-b880-a6ffad308748",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "End-of-line palletizing is the single most standardised robot application in existence: the part geometry is a box, the pattern is software, and the vendors sell it as a configured product with a quoted rate. Buyers argue about price and footprint, not feasibility.",
+        "advance_criteria": [
+          "Already at the top of the scale; watch mixed-SKU pattern building as the next frontier"
+        ],
+        "regress_criteria": [
+          "None credible"
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

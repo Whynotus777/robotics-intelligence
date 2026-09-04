@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "02787d7a-5708-5ea7-a53c-048fa969fda0",
+    "subject": {
+      "id": "5f04e5c3-3101-536e-9158-89a56a06b3d5",
+      "slug": "techman-tm12",
+      "entity_type": "ROBOT",
+      "name": "Techman TM12",
+      "primary_embodiment": "COBOT"
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Techman TM12 targets task In-process inspection",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+        "slug": "in-process-inspection",
+        "entity_type": "TASK",
+        "name": "In-process inspection",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "841a9a21-268c-5acd-8c75-ce4cef93fbd7",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Built-in vision is presented for inspection applications.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "59d19680-a800-5a6d-8772-9bd3e2068103",
+        "url": "https://www.tm-robot.com/en/tm12-tm14/",
+        "canonical_url": null,
+        "publisher": "Techman Robot",
+        "title": "TM12 and TM14 collaborative robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

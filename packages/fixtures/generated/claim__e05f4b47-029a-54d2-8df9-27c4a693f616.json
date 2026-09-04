@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "e05f4b47-029a-54d2-8df9-27c4a693f616",
+    "subject": {
+      "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+      "slug": "in-process-inspection",
+      "entity_type": "TASK",
+      "name": "In-process inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_TECHNICAL_REQUIREMENT",
+    "label": "technical requirement",
+    "sentence": "In-process inspection technical requirement Lighting and surface control",
+    "value": {
+      "kind": "text",
+      "text": "Lighting and surface control"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "30a72c4a-ac1e-5df2-a7aa-89a83a46ba29",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Machined, coated and reflective surfaces defeat naive imaging; the lighting design is usually a larger share of the engineering than the algorithm.",
+        "advance_criteria": [
+          "Would be relaxed by imaging robust to specular surfaces without bespoke lighting."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "540bcc83-ddf4-5676-a20a-3a3edf07b4ba",
+      "value": {
+        "kind": "text",
+        "text": "Defect definition that survives contact with production"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "74a03db0-7b8f-5133-b969-69b5e3a1f294",
+      "value": {
+        "kind": "text",
+        "text": "Inspection inside the line's cycle time"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

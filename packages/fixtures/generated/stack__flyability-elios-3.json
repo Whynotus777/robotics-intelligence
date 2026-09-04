@@ -1,0 +1,101 @@
+{
+  "robot": {
+    "id": "aee2df0e-15d7-595b-aa32-8cd84a7f08cb",
+    "slug": "flyability-elios-3",
+    "entity_type": "ROBOT",
+    "name": "Flyability Elios 3",
+    "primary_embodiment": "DRONE"
+  },
+  "embodiment": "DRONE",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "Mission autonomy",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Route & mission planning",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Perception / detection",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "STATE_ESTIMATION",
+      "label": "State estimation / EKF",
+      "applies": true,
+      "items": [],
+      "competing_technologies": [],
+      "architecture_note": {
+        "claim_id": "38ce15a2-d362-573a-a012-700d548221ad",
+        "text": "Localisation is lidar-based SLAM rather than GNSS, because the whole point of the product is flying where satellites do not reach.",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "MEDIUM",
+          "source_count": 1
+        }
+      }
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Flight control",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Flight computer + companion compute",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "Cameras, GNSS, IMU, LiDAR/radar",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Motors, ESCs, propulsion",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "Payload / gimbal / manipulator",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "POWER",
+      "label": "Battery / hybrid",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Airframe",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

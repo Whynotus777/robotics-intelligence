@@ -1,0 +1,169 @@
+{
+  "entity": {
+    "id": "a1a3d963-78b7-5572-bf2a-0f1810db3337",
+    "slug": "six-river-systems",
+    "entity_type": "ORGANIZATION",
+    "name": "6 River Systems",
+    "short_description": "Waltham maker of Chuck, the collaborative picking cart that walks associates through a pick path; acquired by Shopify in 2019 and by Ocado Group in 2023.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [
+      "6 River"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "4ab07e26-ed5f-523a-955e-14497fa1c292",
+          "target": {
+            "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+            "slug": "each-picking-assistance",
+            "entity_type": "TASK",
+            "name": "Each-picking assistance",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "517b6698-2a77-5d5d-919f-79e7202dca59",
+          "target": {
+            "id": "dcdb74cb-e80a-59f2-b596-07c5201d9da4",
+            "slug": "six-river-chuck",
+            "entity_type": "ROBOT",
+            "name": "6 River Chuck",
+            "primary_embodiment": "AMR"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "9e8baab9-bfba-5637-a227-1efea067fc04",
+          "target": {
+            "id": "27ae8900-bb14-5014-8849-b3f3e94d3c82",
+            "slug": "waltham",
+            "entity_type": "PLACE",
+            "name": "Waltham",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "b6ed2cae-2acf-5e97-8323-4e34fbef885e",
+          "target": {
+            "id": "68407748-0447-505b-aa53-0d87ab606e33",
+            "slug": "warehouse-logistics",
+            "entity_type": "MARKET",
+            "name": "Warehouse & Logistics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "markets": [
+      {
+        "id": "68407748-0447-505b-aa53-0d87ab606e33",
+        "slug": "warehouse-logistics",
+        "entity_type": "MARKET",
+        "name": "Warehouse & Logistics",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "27ae8900-bb14-5014-8849-b3f3e94d3c82",
+        "slug": "waltham",
+        "entity_type": "PLACE",
+        "name": "Waltham",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 4,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 4,
+    "deployment_count": 0,
+    "related_count": 4
+  },
+  "as_of": null
+}

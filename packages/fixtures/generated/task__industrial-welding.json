@@ -1,0 +1,457 @@
+{
+  "task": {
+    "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+    "slug": "industrial-welding",
+    "entity_type": "TASK",
+    "name": "Industrial welding",
+    "primary_embodiment": null
+  },
+  "short_description": "Joining metal parts by arc or spot welding to a specified procedure, repeatably and to a standard someone will inspect.",
+  "market_path": [
+    {
+      "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+      "slug": "manufacturing",
+      "entity_type": "MARKET",
+      "name": "Manufacturing",
+      "primary_embodiment": null
+    },
+    {
+      "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
+      "slug": "machine-tending",
+      "entity_type": "MARKET",
+      "name": "Machine tending",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "MATURE",
+    "claim_id": "a1b3f4d7-1ffb-553f-b1b4-006eae0fc877",
+    "qualifier": null,
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "Automotive body shops have welded robotically at enormous scale for decades; the process physics, the equipment and the qualification path are all settled. What is unsettled is who else can afford it — the job shop with a welder shortage and a hundred part numbers — and that is a setup-cost problem, not a maturity one. Cobot welding is the interesting frontier, and it is tracked separately as an approach.",
+      "advance_criteria": [
+        "Already at the top of the scale for repeat-volume parts"
+      ],
+      "regress_criteria": [
+        "A joining-method shift, such as structural adhesives displacing welds in volume assemblies"
+      ],
+      "evidence_considered": [
+        {
+          "claim_id": "6d4e19f7-8261-51a4-9a70-4c03a6b560ff",
+          "sentence": "Robotic arc welding cell maturity MATURE"
+        },
+        {
+          "claim_id": "81f511d7-9d9b-5777-a074-1f5d51d0f4fe",
+          "sentence": "Cobot welding maturity SCALING"
+        }
+      ],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "301fbe21-5376-570b-a164-e0d27dea7a38",
+      "text": "A certified welder working from a drawing and a weld procedure, with quality riding on that individual's hand and day.",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Manual welding is skilled, hot, and increasingly hard to staff; the shortage of certified welders is the reason this task keeps returning to the automation agenda.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "approaches": [
+    {
+      "approach": {
+        "id": "05ee564d-1a73-5207-a2d6-212eadbedb06",
+        "slug": "cobot-welding",
+        "entity_type": "APPROACH",
+        "name": "Cobot welding",
+        "primary_embodiment": null
+      },
+      "short_description": "A collaborative arm with a torch, taught by hand-guiding, aimed at the job shop that welds fifty of something rather than fifty thousand.",
+      "maturity": {
+        "value": "SCALING",
+        "claim_id": "81f511d7-9d9b-5777-a074-1f5d51d0f4fe",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "MEDIUM",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "This is the sharpest product-market fit in the cobot category: welder shortages are acute, the units are cheap enough to buy without a capital committee, and hand-guided teaching means the existing welder programs it. It is not mature because weld quality sign-off and duty cycle still send the hard work back to the fenced cell.",
+          "advance_criteria": [
+            "Certified weld procedures accepted on cobot-welded parts as routine",
+            "Job shops reporting a second and third unit after the first",
+            "Teaching times that beat an experienced welder's setup on a small batch"
+          ],
+          "regress_criteria": [
+            "Quality rejections in regulated work pushing shops back to manual welding"
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "COBOT"
+      ],
+      "example_vendors": [
+        {
+          "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+          "slug": "doosan-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Doosan Robotics",
+          "primary_embodiment": null
+        },
+        {
+          "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+          "slug": "universal-robots",
+          "entity_type": "ORGANIZATION",
+          "name": "Universal Robots",
+          "primary_embodiment": null
+        }
+      ]
+    },
+    {
+      "approach": {
+        "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
+        "slug": "robotic-arc-welding-cell",
+        "entity_type": "APPROACH",
+        "name": "Robotic arc welding cell",
+        "primary_embodiment": null
+      },
+      "short_description": "A fenced arm with a welding torch and positioner, programmed offline for a fixed part family.",
+      "maturity": {
+        "value": "MATURE",
+        "claim_id": "6d4e19f7-8261-51a4-9a70-4c03a6b560ff",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "HIGH",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Automotive has welded robotically for decades and the process is thoroughly characterised. What keeps the rest of the market manual is not welding physics but fixturing and programming cost, which scales with part variety, not with the number of robots.",
+          "advance_criteria": [
+            "Already at the top of the scale for repeat-volume parts"
+          ],
+          "regress_criteria": [
+            "A shift to joining methods that robots handle less well than humans"
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "INDUSTRIAL_ARM"
+      ],
+      "example_vendors": [
+        {
+          "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+          "slug": "abb-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "ABB Robotics",
+          "primary_embodiment": null
+        },
+        {
+          "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+          "slug": "yaskawa",
+          "entity_type": "ORGANIZATION",
+          "name": "Yaskawa Electric",
+          "primary_embodiment": null
+        }
+      ]
+    }
+  ],
+  "technical_requirements": [
+    {
+      "claim_id": "0480b326-4b14-53ab-b255-f611d2c2a462",
+      "text": "Seam finding and fit-up tolerance",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Parts do not arrive where the program thinks they are. Touch sensing, laser seam tracking or through-arc tracking is what separates a cell that welds parts from a cell that welds air.",
+        "advance_criteria": [
+          "Would be relaxed by upstream tolerances tight enough to weld blind, which job-shop economics rule out."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "8a59fd00-2eb3-5da7-b808-4b8c3927cedf",
+      "text": "Fume, spatter and consumable management",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Torch cleaning, wire feed and tip changes are the unglamorous reasons a welding cell stops; unattended running depends on them more than on the motion program.",
+        "advance_criteria": [
+          "Would be relaxed by automatic torch servicing running a full shift unattended."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "b50a3a3f-642d-583b-84ec-86e2483640af",
+      "text": "Weld procedure qualification",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "In structural, pressure or transport work the weld must satisfy a code and an inspector. A robot that lays a good-looking bead but cannot be qualified is unsellable into exactly the segments that pay best.",
+        "advance_criteria": [
+          "Would be relaxed by codes and inspectors treating robotic procedures as routine."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+        "slug": "abb-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ABB Robotics",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Zurich"
+    },
+    {
+      "organization": {
+        "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+        "slug": "kuka",
+        "entity_type": "ORGANIZATION",
+        "name": "KUKA",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Augsburg"
+    },
+    {
+      "organization": {
+        "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+        "slug": "universal-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Universal Robots",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Odense"
+    },
+    {
+      "organization": {
+        "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+        "slug": "yaskawa",
+        "entity_type": "ORGANIZATION",
+        "name": "Yaskawa Electric",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Kitakyushu"
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "2ea949f5-ded0-59cc-bfae-38f625b51123",
+      "text": "Heavy equipment and structural manufacturers",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Large weldments in agriculture, construction and rail equipment run in medium volume with code-qualified procedures, which suits a fenced cell.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "71b43fbe-67ad-5490-81ac-0fafd4ef371c",
+      "text": "Automotive OEMs and body shops",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Body-in-white spot welding is the largest installed base of welding robots in the world.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "e8ccf4f4-b471-5d8d-a9e2-558294fa4215",
+      "text": "Metal fabricators and job shops",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "This is where the welder shortage is most acute and where the cobot welding cell finds its buyer.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "blockers": [
+    {
+      "claim_id": "357f1b1a-a5e0-572c-abc4-ba0550bafe17",
+      "text": "Quality sign-off for regulated work",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Where the weld is inspected against a code, the customer's quality department, not the plant manager, decides whether the robot runs. That approval cycle is slow and is rarely counted in the payback model.",
+        "advance_criteria": [
+          "Robotic weld procedures accepted as routine by third-party inspectors",
+          "In-process weld monitoring accepted in place of destructive sampling"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "ca9483c5-773e-5214-b257-8d3aa1dcb213",
+      "text": "Programming time per part number",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "A shop with two hundred part numbers cannot pay for two hundred programs. Offline programming and hand-guided teaching exist, but the honest measure is whether a welder can teach a new part before lunch, and usually they cannot.",
+        "advance_criteria": [
+          "Teaching a new weldment in under an hour by shop staff",
+          "CAD-driven program generation used in production, not demonstrations"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "ebbe71af-58ac-51ce-bf2d-44c32623e5d0",
+      "text": "Fixturing cost per part family",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The weld fixture holds tolerance the robot cannot recover. It is engineered per part family and frequently costs more than the robot, which is why welding automation stalls in high-mix shops.",
+        "advance_criteria": [
+          "Modular fixturing reconfigured by shop staff for a new part family",
+          "Sensing good enough to weld parts held in generic clamping"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "adjacent_tasks": [
+    {
+      "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+      "slug": "assembly",
+      "entity_type": "TASK",
+      "name": "Assembly",
+      "primary_embodiment": null
+    }
+  ],
+  "intelligence_rail": {
+    "assessment_count": 15,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 15
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 4,
+    "deployment_count": 0,
+    "field_trial_count": 0
+  },
+  "as_of": null
+}

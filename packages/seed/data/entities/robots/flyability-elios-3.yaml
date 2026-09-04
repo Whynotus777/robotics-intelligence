@@ -1,0 +1,38 @@
+slug: flyability-elios-3
+entity_type: ROBOT
+name: Flyability Elios 3
+short_description: Caged indoor inspection drone with onboard lidar SLAM, built to bounce off walls in tanks and sewers where there is no GPS.
+primary_embodiment: DRONE
+country_code: CH
+depth_tier: DISCOVERY
+aliases: [Elios 3]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: DRONE
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: flyability-elios3-page
+    excerpt: Presented as an indoor inspection drone.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: VOLUME_PRODUCTION
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: flyability-elios3-page
+    excerpt: Sold as a catalogue product to inspection service providers.
+- predicate: HAS_ARCHITECTURE_NOTE
+  stack_layer: STATE_ESTIMATION
+  text: Localisation is lidar-based SLAM rather than GNSS, because the whole point of the product is flying where satellites do not reach.
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: flyability-elios3-page
+    excerpt: Product page describes lidar-based SLAM for indoor flight.
+- predicate: TARGETS_TASK
+  object: contact-ndt
+  evidence:
+  - class: PRIMARY
+    confidence: LOW
+    source: flyability-elios3-page
+    excerpt: Inspection payload options are offered for asset condition assessment; contact measurement is a payload-dependent capability.

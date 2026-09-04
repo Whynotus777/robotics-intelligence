@@ -1,0 +1,143 @@
+{
+  "entity": {
+    "id": "041263f5-f36b-59ab-b31e-0c5adee373ab",
+    "slug": "skild-brain",
+    "entity_type": "MODEL",
+    "name": "Skild Brain",
+    "short_description": "General-purpose robot foundation model intended to transfer across embodiments rather than be retrained per platform.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "03a6d930-9b81-5a4b-b085-c2e2e0a8843b",
+          "target": {
+            "id": "bc3bbbc6-d8b1-5fdc-b75e-722ffc380762",
+            "slug": "vla-models",
+            "entity_type": "TECHNOLOGY",
+            "name": "VLA models",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "MADE_BY",
+      "label": "is made by",
+      "items": [
+        {
+          "claim_id": "d7088afe-823f-5caf-a66e-092b5476b753",
+          "target": {
+            "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+            "slug": "skild-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Skild AI",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "DEVELOPS",
+      "label": "develops",
+      "items": [
+        {
+          "claim_id": "3169a685-0876-5200-b100-34cecdebf8a0",
+          "source": {
+            "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+            "slug": "skild-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Skild AI",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+        "slug": "skild-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Skild AI",
+        "primary_embodiment": null
+      }
+    ],
+    "technologies": [
+      {
+        "id": "bc3bbbc6-d8b1-5fdc-b75e-722ffc380762",
+        "slug": "vla-models",
+        "entity_type": "TECHNOLOGY",
+        "name": "VLA models",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

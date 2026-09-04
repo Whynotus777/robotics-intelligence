@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "d3543cf9-3efe-598c-8d17-512c8d90d0e4",
+    "subject": {
+      "id": "634f0531-a0d7-5d56-b836-691d66886e2a",
+      "slug": "hesai",
+      "entity_type": "ORGANIZATION",
+      "name": "Hesai Technology",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Hesai Technology is headquartered at Shanghai",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8a88c67f-b2d0-5bfe-a633-03da9155f4bd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "ce6dbcbc-3bdd-5da5-84bc-746ea17f9ed0",
+        "url": "https://www.hesaitech.com/",
+        "canonical_url": null,
+        "publisher": "Hesai Technology",
+        "title": "Hesai Technology",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,29 @@
+slug: waymo
+entity_type: ORGANIZATION
+name: Waymo
+short_description: Alphabet's autonomous driving unit; the only US operator running paid driverless passenger service across multiple metros.
+country_code: US
+depth_tier: DISCOVERY
+aliases: [Waymo LLC, Google self-driving car project]
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: waymo-site
+    excerpt: Company site gives a Mountain View headquarters.
+- predicate: TARGETS_MARKET
+  object: automotive
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: waymo-driver-page
+    excerpt: The Waymo Driver is presented as an autonomous driving system for vehicles.
+- predicate: BUILDS
+  object: waymo-i-pace-robotaxi
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: waymo-driver-page
+    excerpt: The Waymo Driver is described as integrated into the company's ride-hailing fleet vehicles.

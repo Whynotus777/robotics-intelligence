@@ -1,0 +1,77 @@
+{
+  "claim": {
+    "claim_id": "d0f89f8b-d3a9-5392-96c2-3d1b0cfc5c6c",
+    "subject": {
+      "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+      "slug": "cnc-machine-tending",
+      "entity_type": "TASK",
+      "name": "CNC machine tending",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_ADOPTION_BLOCKER",
+    "label": "adoption blocker",
+    "sentence": "CNC machine tending adoption blocker Programming skills on the shop floor",
+    "value": {
+      "kind": "text",
+      "text": "Programming skills on the shop floor"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b15577a2-3aa6-53f7-9d6a-642c2966a536",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The shop that cannot hire a machinist certainly cannot hire a robot programmer. If changeover depends on the integrator returning, the cell runs one part number forever and the customer quietly writes off the rest of the plan.",
+        "advance_criteria": [
+          "Machinists reprogramming cells without vendor involvement as the norm",
+          "Vendor training measured in hours rather than weeks"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "af7fe69a-30d2-558f-b6c9-e764dfaa3029",
+      "value": {
+        "kind": "text",
+        "text": "Batch size economics"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "e2f62904-1ec1-528a-aee2-744374c54489",
+      "value": {
+        "kind": "text",
+        "text": "Fixturing and part presentation cost"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,23 @@
+slug: nuro-r3
+entity_type: ROBOT
+name: Nuro R3
+short_description: Purpose-built occupantless delivery vehicle — narrower than a car, with no seat to protect, which changes the whole safety case.
+primary_embodiment: AUTONOMOUS_VEHICLE
+country_code: US
+depth_tier: DISCOVERY
+aliases: [R3]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: AUTONOMOUS_VEHICLE
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: nuro-site
+    excerpt: The R3 is described as a purpose-built autonomous delivery vehicle.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: PILOT_DEPLOYMENTS
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: nuro-site
+    excerpt: Delivery operations are described as programmes with partners rather than open service.

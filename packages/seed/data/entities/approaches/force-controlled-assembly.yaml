@@ -1,0 +1,51 @@
+slug: force-controlled-assembly
+entity_type: APPROACH
+name: Force-controlled robotic assembly
+short_description: An arm with force-torque sensing feeling its way through insertions and fastening, instead of relying on position alone.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: EARLY_COMMERCIAL
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Screwdriving, press-fits and connector insertion ship today in electronics and automotive cells where the part set is fixed and someone paid an integrator to tune the search strategies. What does not exist is a cell that absorbs a new part without that tuning, so each deployment is a project and the category cannot compound.
+          advance_criteria:
+            - Insertion strategies transferring to a new part family without re-tuning
+            - Assembly cells quoted at a fixed price rather than as engineering time
+            - Learned policies handling connector and cable work at production yield
+          regress_criteria:
+            - Continued reliance on bespoke fixturing pushing buyers back to manual assembly
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: COBOT
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: doosan-m-series-page
+        excerpt: Joint torque sensing is presented as enabling force-controlled assembly applications.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: doosan-robotics
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: doosan-m-series-page
+        excerpt: Assembly is a named application for the torque-sensing M series.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: fanuc
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: fanuc-site
+        excerpt: Assembly is named among industrial robot applications.
+  - predicate: REQUIRES_TECHNOLOGY
+    object: force-torque-sensors
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Position control alone jams on tolerance stack-up; the contact force is the only signal that tells the robot whether the part is going in or being destroyed.
+          advance_criteria: ["Would be relaxed by joint-current-based force estimation good enough for fine insertion."]
+          reviewed_at: 2026-09-01

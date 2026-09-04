@@ -1,0 +1,35 @@
+slug: anybotics
+entity_type: ORGANIZATION
+name: ANYbotics
+short_description: ETH Zurich spin-off selling ANYmal legged inspection robots into oil, gas and power plants on a route-inspection contract, not a research licence.
+country_code: CH
+depth_tier: DISCOVERY
+claims:
+- predicate: HQ_AT
+  object: zurich
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: anybotics-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: oil-and-gas
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: anybotics-site
+    excerpt: Oil, gas and chemical plant inspection is a named market.
+- predicate: TARGETS_TASK
+  object: tower-nacelle-inspection
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: anybotics-anymal-page
+    excerpt: ANYmal is positioned for routine inspection rounds on industrial assets.
+- predicate: BUILDS
+  object: anybotics-anymal-d
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: anybotics-anymal-page
+    excerpt: ANYmal product page.

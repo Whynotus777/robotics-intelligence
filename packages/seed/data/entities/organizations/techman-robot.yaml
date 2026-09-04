@@ -1,0 +1,43 @@
+slug: techman-robot
+entity_type: ORGANIZATION
+name: Techman Robot
+short_description: Taoyuan cobot maker inside the Quanta group; arms ship with an integrated vision system rather than a bolt-on camera.
+country_code: TW
+depth_tier: DISCOVERY
+aliases: [Techman, TM Robot]
+claims:
+- predicate: HQ_AT
+  object: taoyuan
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: techman-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: manufacturing
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: techman-site
+    excerpt: Collaborative robots positioned for manufacturing.
+- predicate: BUILDS
+  object: techman-tm12
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: techman-tm12-page
+    excerpt: TM12 is listed on the TM12/TM14 product page.
+- predicate: TARGETS_TASK
+  object: cnc-machine-tending
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: techman-site
+    excerpt: Machine tending is presented among the supported applications.
+- predicate: TARGETS_TASK
+  object: in-process-inspection
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: techman-tm12-page
+    excerpt: Built-in vision is presented for inspection applications.

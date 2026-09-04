@@ -1,0 +1,145 @@
+{
+  "entity": {
+    "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
+    "slug": "waymo",
+    "entity_type": "ORGANIZATION",
+    "name": "Waymo",
+    "short_description": "Alphabet's autonomous driving unit; the only US operator running paid driverless passenger service across multiple metros.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [
+      "Google self-driving car project",
+      "Waymo LLC"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "176acb74-8a77-5bdc-bdd6-ef811c6ce221",
+          "target": {
+            "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+            "slug": "bay-area",
+            "entity_type": "PLACE",
+            "name": "San Francisco Bay Area",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "668819b8-0cac-5c5e-90b5-3f44a049b87e",
+          "target": {
+            "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
+            "slug": "automotive",
+            "entity_type": "MARKET",
+            "name": "Automotive",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "ff32f56f-d9c0-5fcb-802c-9bd9e0934988",
+          "target": {
+            "id": "0f525e86-2f1f-5a49-b4a9-fa0cdbae9716",
+            "slug": "waymo-i-pace-robotaxi",
+            "entity_type": "ROBOT",
+            "name": "Waymo Jaguar I-Pace robotaxi",
+            "primary_embodiment": "AUTONOMOUS_VEHICLE"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "markets": [
+      {
+        "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
+        "slug": "automotive",
+        "entity_type": "MARKET",
+        "name": "Automotive",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 3,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

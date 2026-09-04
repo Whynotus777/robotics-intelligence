@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "bf06f1bc-076d-525b-a85c-4d111afedb60",
+    "subject": {
+      "id": "2f9bca2c-8161-5aa4-a0b0-25285c29eae6",
+      "slug": "percepto-air-mobile",
+      "entity_type": "ROBOT",
+      "name": "Percepto Air Mobile",
+      "primary_embodiment": "DRONE"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "Percepto Air Mobile embodiment DRONE",
+    "value": {
+      "kind": "enum",
+      "value": "DRONE"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "75cb77f4-483f-57db-9a36-a383b1c16a87",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "The product is described as an autonomous drone operating from a base station.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "21c90c30-2b6b-546f-9f78-8c6cd3581cd3",
+        "url": "https://percepto.co/",
+        "canonical_url": null,
+        "publisher": "Percepto",
+        "title": "Percepto autonomous inspection",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

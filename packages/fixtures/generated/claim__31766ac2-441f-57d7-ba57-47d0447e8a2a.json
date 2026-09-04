@@ -1,0 +1,78 @@
+{
+  "claim": {
+    "claim_id": "31766ac2-441f-57d7-ba57-47d0447e8a2a",
+    "subject": {
+      "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+      "slug": "techman-robot",
+      "entity_type": "ORGANIZATION",
+      "name": "Techman Robot",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Techman Robot targets task In-process inspection",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+        "slug": "in-process-inspection",
+        "entity_type": "TASK",
+        "name": "In-process inspection",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e476892d-93d1-5a19-b50d-ff62e1e6148e",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Built-in vision is presented for inspection applications.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "59d19680-a800-5a6d-8772-9bd3e2068103",
+        "url": "https://www.tm-robot.com/en/tm12-tm14/",
+        "canonical_url": null,
+        "publisher": "Techman Robot",
+        "title": "TM12 and TM14 collaborative robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "3efcf5f1-ba91-59c7-a074-1021a66bac04",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+          "slug": "cnc-machine-tending",
+          "entity_type": "TASK",
+          "name": "CNC machine tending",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

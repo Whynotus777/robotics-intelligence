@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "54618e28-7ae5-52bd-9728-9a49af1826d6",
+    "subject": {
+      "id": "5f04e5c3-3101-536e-9158-89a56a06b3d5",
+      "slug": "techman-tm12",
+      "entity_type": "ROBOT",
+      "name": "Techman TM12",
+      "primary_embodiment": "COBOT"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "Techman TM12 commercial stage VOLUME_PRODUCTION",
+    "value": {
+      "kind": "enum",
+      "value": "VOLUME_PRODUCTION"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5969cb1b-cb34-53d7-b67d-37d86be7911e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Sold as a catalogue product.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f7f668a7-3325-522e-aa59-6d6b30282a33",
+        "url": "https://www.tm-robot.com/en/",
+        "canonical_url": null,
+        "publisher": "Techman Robot",
+        "title": "Techman Robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

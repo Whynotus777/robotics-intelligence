@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "850d781f-e2f9-57f7-b9ea-a69a2cb22aa5",
+    "subject": {
+      "id": "7e98d069-38f6-56c6-96a6-80a447b6deb3",
+      "slug": "hesai-at128",
+      "entity_type": "COMPONENT_PRODUCT",
+      "name": "Hesai AT128",
+      "primary_embodiment": null
+    },
+    "predicate": "IS_INSTANCE_OF",
+    "label": "is an instance of",
+    "sentence": "Hesai AT128 is an instance of 3D LiDAR",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
+        "slug": "3d-lidar",
+        "entity_type": "TECHNOLOGY",
+        "name": "3D LiDAR",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8580c6b8-25a5-5005-b4a6-0afa4aaff7f6",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Presented as a long-range lidar sensor.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "17e7bb9f-5d01-5a23-a142-23be336d5835",
+        "url": "https://www.hesaitech.com/product/at128/",
+        "canonical_url": null,
+        "publisher": "Hesai Technology",
+        "title": "AT128 long-range lidar",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

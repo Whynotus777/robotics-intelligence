@@ -5,13 +5,24 @@
     {
       "id": "HUMANOID",
       "label": "Humanoids",
-      "count": 7,
+      "count": 12,
       "districts": [
         {
           "id": "HUMANOID",
           "label": "HUMANOID",
-          "count": 7,
+          "count": 12,
           "entities": [
+            {
+              "chip": {
+                "id": "f668e79f-b182-5799-b65e-e683fde93b6d",
+                "slug": "onex-neo",
+                "entity_type": "ROBOT",
+                "name": "1X NEO",
+                "primary_embodiment": "HUMANOID"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
             {
               "chip": {
                 "id": "ba14d056-2a53-544b-b02c-713a99e06c56",
@@ -69,10 +80,54 @@
             },
             {
               "chip": {
+                "id": "e040adf8-acc0-5d93-85cf-aa89cfbbcdea",
+                "slug": "fourier-gr-1",
+                "entity_type": "ROBOT",
+                "name": "Fourier GR-1",
+                "primary_embodiment": "HUMANOID"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "f48a2189-2c89-576f-a2d6-7ff9ba533210",
+                "slug": "galbot-g1",
+                "entity_type": "ROBOT",
+                "name": "Galbot G1",
+                "primary_embodiment": "HUMANOID"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "1846bec8-e521-5a03-8035-1633f971e390",
+                "slug": "sanctuary-phoenix",
+                "entity_type": "ROBOT",
+                "name": "Sanctuary Phoenix",
+                "primary_embodiment": "HUMANOID"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
                 "id": "35165fe1-71e5-5525-9c5e-c2afbc16e848",
                 "slug": "tesla-optimus",
                 "entity_type": "ROBOT",
                 "name": "Tesla Optimus",
+                "primary_embodiment": "HUMANOID"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "6e477c0c-cf3f-5b88-9d5b-2f80f10c52f4",
+                "slug": "ubtech-walker-s1",
+                "entity_type": "ROBOT",
+                "name": "UBTech Walker S1",
                 "primary_embodiment": "HUMANOID"
               },
               "measure_value": null,
@@ -94,21 +149,90 @@
       ]
     },
     {
+      "id": "INDUSTRIAL_ARM",
+      "label": "Industrial arms",
+      "count": 3,
+      "districts": [
+        {
+          "id": "INDUSTRIAL_ARM",
+          "label": "INDUSTRIAL_ARM",
+          "count": 3,
+          "entities": [
+            {
+              "chip": {
+                "id": "0f04ed2f-3cb7-5835-926a-1fbf13fa03ad",
+                "slug": "abb-irb-6700",
+                "entity_type": "ROBOT",
+                "name": "ABB IRB 6700",
+                "primary_embodiment": "INDUSTRIAL_ARM"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "fca9f317-0e6b-54a4-97ca-ff54a37b4c49",
+                "slug": "kuka-kr-quantec",
+                "entity_type": "ROBOT",
+                "name": "KUKA KR QUANTEC",
+                "primary_embodiment": "INDUSTRIAL_ARM"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "12d4f360-9403-523f-a0bb-252978213506",
+                "slug": "yaskawa-motoman-gp12",
+                "entity_type": "ROBOT",
+                "name": "Yaskawa MOTOMAN GP12",
+                "primary_embodiment": "INDUSTRIAL_ARM"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "COBOT",
       "label": "Cobots",
-      "count": 2,
+      "count": 4,
       "districts": [
         {
           "id": "COBOT",
           "label": "COBOT",
-          "count": 2,
+          "count": 4,
           "entities": [
+            {
+              "chip": {
+                "id": "fea14c4f-a335-569e-8de3-bc4b6a94b6ea",
+                "slug": "doosan-m1013",
+                "entity_type": "ROBOT",
+                "name": "Doosan M1013",
+                "primary_embodiment": "COBOT"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
             {
               "chip": {
                 "id": "e7b662ae-fd0b-5b6d-b51e-066c372b460a",
                 "slug": "fanuc-crx-10ia",
                 "entity_type": "ROBOT",
                 "name": "FANUC CRX-10iA",
+                "primary_embodiment": "COBOT"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "5f04e5c3-3101-536e-9158-89a56a06b3d5",
+                "slug": "techman-tm12",
+                "entity_type": "ROBOT",
+                "name": "Techman TM12",
                 "primary_embodiment": "COBOT"
               },
               "measure_value": null,
@@ -132,19 +256,63 @@
     {
       "id": "AMR",
       "label": "AMRs & warehouse",
-      "count": 3,
+      "count": 7,
       "districts": [
         {
           "id": "AMR",
           "label": "AMR",
-          "count": 3,
+          "count": 7,
           "entities": [
+            {
+              "chip": {
+                "id": "dcdb74cb-e80a-59f2-b596-07c5201d9da4",
+                "slug": "six-river-chuck",
+                "entity_type": "ROBOT",
+                "name": "6 River Chuck",
+                "primary_embodiment": "AMR"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "f7f3cd48-fc9b-5272-9b11-8b67a56bafae",
+                "slug": "exotec-skypod",
+                "entity_type": "ROBOT",
+                "name": "Exotec Skypod",
+                "primary_embodiment": "AMR"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "02581ba3-774b-52c7-8a13-f450c116f66e",
+                "slug": "fetch-freight1500",
+                "entity_type": "ROBOT",
+                "name": "Fetch Freight1500",
+                "primary_embodiment": "AMR"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
             {
               "chip": {
                 "id": "9c12a0ae-d1aa-5eed-ab85-416b54bece15",
                 "slug": "fox-robotics-foxbot",
                 "entity_type": "ROBOT",
                 "name": "Fox Robotics FoxBot",
+                "primary_embodiment": "AMR"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "97e11995-fb76-5883-8ee3-22f0eec1ac95",
+                "slug": "geek-plus-p800",
+                "entity_type": "ROBOT",
+                "name": "Geek+ P800",
                 "primary_embodiment": "AMR"
               },
               "measure_value": null,
@@ -179,12 +347,12 @@
     {
       "id": "DRONE",
       "label": "Drones",
-      "count": 2,
+      "count": 6,
       "districts": [
         {
           "id": "DRONE",
           "label": "DRONE",
-          "count": 2,
+          "count": 6,
           "entities": [
             {
               "chip": {
@@ -192,6 +360,28 @@
                 "slug": "dji-matrice-350-rtk",
                 "entity_type": "ROBOT",
                 "name": "DJI Matrice 350 RTK",
+                "primary_embodiment": "DRONE"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "aee2df0e-15d7-595b-aa32-8cd84a7f08cb",
+                "slug": "flyability-elios-3",
+                "entity_type": "ROBOT",
+                "name": "Flyability Elios 3",
+                "primary_embodiment": "DRONE"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "2f9bca2c-8161-5aa4-a0b0-25285c29eae6",
+                "slug": "percepto-air-mobile",
+                "entity_type": "ROBOT",
+                "name": "Percepto Air Mobile",
                 "primary_embodiment": "DRONE"
               },
               "measure_value": null,
@@ -207,6 +397,28 @@
               },
               "measure_value": null,
               "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "ceb6d490-3d66-52ce-989a-69907de046e7",
+                "slug": "wingcopter-198",
+                "entity_type": "ROBOT",
+                "name": "Wingcopter 198",
+                "primary_embodiment": "DRONE"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "dd4d153d-3b8f-5b85-894c-5d6f3903be90",
+                "slug": "zipline-p2-zip",
+                "entity_type": "ROBOT",
+                "name": "Zipline P2 Zip",
+                "primary_embodiment": "DRONE"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
             }
           ]
         }
@@ -215,19 +427,41 @@
     {
       "id": "QUADRUPED",
       "label": "Quadrupeds & legged",
-      "count": 2,
+      "count": 4,
       "districts": [
         {
           "id": "QUADRUPED",
           "label": "QUADRUPED",
-          "count": 2,
+          "count": 4,
           "entities": [
+            {
+              "chip": {
+                "id": "6eed56ac-41c3-573d-be63-dac3ff72ece3",
+                "slug": "anybotics-anymal-d",
+                "entity_type": "ROBOT",
+                "name": "ANYbotics ANYmal D",
+                "primary_embodiment": "QUADRUPED"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
             {
               "chip": {
                 "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
                 "slug": "boston-dynamics-spot",
                 "entity_type": "ROBOT",
                 "name": "Boston Dynamics Spot",
+                "primary_embodiment": "QUADRUPED"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "c96b4942-8858-59aa-aac5-09f15dd6bddc",
+                "slug": "deep-robotics-x30",
+                "entity_type": "ROBOT",
+                "name": "Deep Robotics X30",
                 "primary_embodiment": "QUADRUPED"
               },
               "measure_value": null,
@@ -247,9 +481,104 @@
           ]
         }
       ]
+    },
+    {
+      "id": "AUTONOMOUS_VEHICLE",
+      "label": "Autonomous vehicles",
+      "count": 3,
+      "districts": [
+        {
+          "id": "AUTONOMOUS_VEHICLE",
+          "label": "AUTONOMOUS_VEHICLE",
+          "count": 3,
+          "entities": [
+            {
+              "chip": {
+                "id": "aa6d7895-9539-532d-a5cd-3f41aa1efbaa",
+                "slug": "gatik-autonomous-box-truck",
+                "entity_type": "ROBOT",
+                "name": "Gatik autonomous box truck",
+                "primary_embodiment": "AUTONOMOUS_VEHICLE"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "c5d2e5c2-05d4-5e1d-a0df-bbb28258a411",
+                "slug": "nuro-r3",
+                "entity_type": "ROBOT",
+                "name": "Nuro R3",
+                "primary_embodiment": "AUTONOMOUS_VEHICLE"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "0f525e86-2f1f-5a49-b4a9-fa0cdbae9716",
+                "slug": "waymo-i-pace-robotaxi",
+                "entity_type": "ROBOT",
+                "name": "Waymo Jaguar I-Pace robotaxi",
+                "primary_embodiment": "AUTONOMOUS_VEHICLE"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OTHER_MOBILE",
+      "label": "Field & specialized robots",
+      "count": 1,
+      "districts": [
+        {
+          "id": "OTHER_MOBILE",
+          "label": "OTHER_MOBILE",
+          "count": 1,
+          "entities": [
+            {
+              "chip": {
+                "id": "e236fea6-114c-54cc-a269-490132d532fa",
+                "slug": "autostore-r5",
+                "entity_type": "ROBOT",
+                "name": "AutoStore R5",
+                "primary_embodiment": "OTHER_MOBILE"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "whats_changing": [
+    {
+      "id": "0030e49b-2605-5b9e-9032-c591cf9451d8",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "c96b4942-8858-59aa-aac5-09f15dd6bddc",
+        "slug": "deep-robotics-x30",
+        "entity_type": "ROBOT",
+        "name": "Deep Robotics X30",
+        "primary_embodiment": "QUADRUPED"
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "QUADRUPED"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Deep Robotics X30: has embodiment approved."
+    },
     {
       "id": "0066a637-73ac-5037-9b5f-0b090e436ccc",
       "event_type": "CLAIM_CHANGED",
@@ -281,6 +610,29 @@
       "summary": "BladeBUG: targets market approved."
     },
     {
+      "id": "01098c7a-9c46-533e-a1c6-1312e0ed9acf",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+        "slug": "in-process-inspection",
+        "entity_type": "TASK",
+        "name": "In-process inspection",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "False reject cost"
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "In-process inspection: has adoption blocker approved."
+    },
+    {
       "id": "01531fe0-e88f-57b4-8bc2-0a314c0ba2d1",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -304,46 +656,23 @@
       "summary": "Apptronik Apollo: has embodiment approved."
     },
     {
-      "id": "01b5e66a-50e3-53e2-84ea-7c1b67fb5971",
+      "id": "0155e365-b112-55e0-a68a-dc51fbbda42c",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
-        "slug": "rope-cable-suspended-robot",
-        "entity_type": "APPROACH",
-        "name": "Rope/cable-suspended robot",
-        "primary_embodiment": null
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OTHER_MOBILE"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Rope/cable-suspended robot: uses embodiment approved."
-    },
-    {
-      "id": "024d5306-849b-5afc-99d8-31579b95f824",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
-        "slug": "agility",
+        "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
+        "slug": "fourier-intelligence",
         "entity_type": "ORGANIZATION",
-        "name": "Agility Robotics",
+        "name": "Fourier Intelligence",
         "primary_embodiment": null
       },
       "before": null,
       "after": {
         "kind": "entity",
         "entity": {
-          "id": "68407748-0447-505b-aa53-0d87ab606e33",
-          "slug": "warehouse-logistics",
-          "entity_type": "MARKET",
-          "name": "Warehouse & Logistics",
+          "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+          "slug": "shanghai",
+          "entity_type": "PLACE",
+          "name": "Shanghai",
           "primary_embodiment": null
         },
         "measure": null
@@ -354,37 +683,7 @@
         "source_count": 1
       },
       "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Agility Robotics: targets market approved."
-    },
-    {
-      "id": "026c7d43-3355-5e41-a9c6-7159d3088702",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
-        "slug": "contact-ndt",
-        "entity_type": "TASK",
-        "name": "Contact NDT",
-        "primary_embodiment": null
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
-          "slug": "wind",
-          "entity_type": "MARKET",
-          "name": "Wind",
-          "primary_embodiment": null
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "HIGH",
-        "source_count": 0
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Contact NDT: belongs to market approved."
+      "summary": "Fourier Intelligence: hq at approved."
     }
   ],
   "as_of": null

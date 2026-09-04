@@ -1,0 +1,31 @@
+slug: waymo-i-pace-robotaxi
+entity_type: ROBOT
+name: Waymo Jaguar I-Pace robotaxi
+short_description: Production passenger vehicle carrying the Waymo Driver; the fleet that made driverless ride-hailing a paid service rather than a demo.
+primary_embodiment: AUTONOMOUS_VEHICLE
+country_code: US
+depth_tier: DISCOVERY
+aliases: [Waymo Driver, Waymo robotaxi]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: AUTONOMOUS_VEHICLE
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: waymo-driver-page
+    excerpt: The Waymo Driver is described as an autonomous driving system operating passenger vehicles.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: COMMERCIAL
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: waymo-site
+    excerpt: Paid driverless ride-hailing is offered to the public in named metros.
+- predicate: HAS_ARCHITECTURE_NOTE
+  stack_layer: SENSORS
+  text: Lidar, radar and camera are all carried, in-house designed, and treated as redundant rather than complementary; the cost argument is deferred in favour of a sensor set that fails independently.
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: waymo-driver-page
+    excerpt: The Waymo Driver is described as combining lidar, radar and cameras.

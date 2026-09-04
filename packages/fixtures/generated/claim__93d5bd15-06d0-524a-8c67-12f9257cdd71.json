@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "93d5bd15-06d0-524a-8c67-12f9257cdd71",
+    "subject": {
+      "id": "d31f2d2e-9dce-5f5d-9ac6-062cd182b353",
+      "slug": "percepto",
+      "entity_type": "ORGANIZATION",
+      "name": "Percepto",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Percepto targets task Tower and nacelle inspection",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+        "slug": "tower-nacelle-inspection",
+        "entity_type": "TASK",
+        "name": "Tower and nacelle inspection",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b685b73a-e3db-5d9a-be58-ff98cf23582a",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Autonomous inspection of fixed industrial assets is the core offering.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "21c90c30-2b6b-546f-9f78-8c6cd3581cd3",
+        "url": "https://percepto.co/",
+        "canonical_url": null,
+        "publisher": "Percepto",
+        "title": "Percepto autonomous inspection",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

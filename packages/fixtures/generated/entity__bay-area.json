@@ -36,6 +36,25 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "00819896-6405-5c1c-adb0-1abe102b0d07",
+          "source": {
+            "id": "c9b84a3a-f7dd-578a-a6c9-6c0a2b061b1b",
+            "slug": "gatik",
+            "entity_type": "ORGANIZATION",
+            "name": "Gatik",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "104a5490-a54c-5896-a64e-1d669ca5301e",
           "source": {
             "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
@@ -51,6 +70,44 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "176acb74-8a77-5bdc-bdd6-ef811c6ce221",
+          "source": {
+            "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
+            "slug": "waymo",
+            "entity_type": "ORGANIZATION",
+            "name": "Waymo",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "23f788ad-36c8-541a-b45a-45dbc60b5401",
+          "source": {
+            "id": "371b8e82-3403-50d4-be34-8d2ce0408277",
+            "slug": "zipline",
+            "entity_type": "ORGANIZATION",
+            "name": "Zipline",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
             "source_count": 1
           }
         },
@@ -74,12 +131,69 @@
           }
         },
         {
+          "claim_id": "32791450-5feb-5ee4-9ff9-cc68f00b1325",
+          "source": {
+            "id": "280d3938-3677-5286-bf7f-9c85402c4d90",
+            "slug": "ouster",
+            "entity_type": "ORGANIZATION",
+            "name": "Ouster",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "352f35b3-e5bf-5aff-ade3-38e3d5a81aa2",
+          "source": {
+            "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
+            "slug": "intel",
+            "entity_type": "ORGANIZATION",
+            "name": "Intel",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "3789e105-a1f2-5d31-becb-91c8dcf6bed6",
           "source": {
             "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
             "slug": "skydio",
             "entity_type": "ORGANIZATION",
             "name": "Skydio",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "49daa68f-1a39-57f8-97f5-e196bd659b98",
+          "source": {
+            "id": "af96607d-e4ee-5ac6-b7de-b4f9d7990783",
+            "slug": "nuro",
+            "entity_type": "ORGANIZATION",
+            "name": "Nuro",
             "primary_embodiment": null
           },
           "stack_layer": null,
@@ -143,10 +257,38 @@
         "primary_embodiment": null
       },
       {
+        "id": "c9b84a3a-f7dd-578a-a6c9-6c0a2b061b1b",
+        "slug": "gatik",
+        "entity_type": "ORGANIZATION",
+        "name": "Gatik",
+        "primary_embodiment": null
+      },
+      {
+        "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
+        "slug": "intel",
+        "entity_type": "ORGANIZATION",
+        "name": "Intel",
+        "primary_embodiment": null
+      },
+      {
+        "id": "af96607d-e4ee-5ac6-b7de-b4f9d7990783",
+        "slug": "nuro",
+        "entity_type": "ORGANIZATION",
+        "name": "Nuro",
+        "primary_embodiment": null
+      },
+      {
         "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
         "slug": "nvidia",
         "entity_type": "ORGANIZATION",
         "name": "NVIDIA",
+        "primary_embodiment": null
+      },
+      {
+        "id": "280d3938-3677-5286-bf7f-9c85402c4d90",
+        "slug": "ouster",
+        "entity_type": "ORGANIZATION",
+        "name": "Ouster",
         "primary_embodiment": null
       },
       {
@@ -169,6 +311,20 @@
         "entity_type": "ORGANIZATION",
         "name": "Third Wave Automation",
         "primary_embodiment": null
+      },
+      {
+        "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
+        "slug": "waymo",
+        "entity_type": "ORGANIZATION",
+        "name": "Waymo",
+        "primary_embodiment": null
+      },
+      {
+        "id": "371b8e82-3403-50d4-be34-8d2ce0408277",
+        "slug": "zipline",
+        "entity_type": "ORGANIZATION",
+        "name": "Zipline",
+        "primary_embodiment": null
       }
     ]
   },
@@ -187,7 +343,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 5
+    "related_count": 11
   },
   "as_of": null
 }

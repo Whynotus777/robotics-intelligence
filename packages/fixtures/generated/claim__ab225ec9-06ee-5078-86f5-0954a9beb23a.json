@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "ab225ec9-06ee-5078-86f5-0954a9beb23a",
+    "subject": {
+      "id": "f7f3cd48-fc9b-5272-9b11-8b67a56bafae",
+      "slug": "exotec-skypod",
+      "entity_type": "ROBOT",
+      "name": "Exotec Skypod",
+      "primary_embodiment": "AMR"
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Exotec Skypod targets task Automated storage and retrieval",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+        "slug": "automated-storage-and-retrieval",
+        "entity_type": "TASK",
+        "name": "Automated storage and retrieval",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "292374e8-900e-5cae-99c9-8a59a8e777ab",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "The system performs storage and retrieval of totes.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "1f498930-ef46-592c-94da-5f305889df55",
+        "url": "https://www.exotec.com/skypod-system/",
+        "canonical_url": null,
+        "publisher": "Exotec",
+        "title": "Skypod system",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

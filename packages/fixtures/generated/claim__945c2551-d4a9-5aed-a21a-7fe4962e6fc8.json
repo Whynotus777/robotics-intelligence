@@ -1,0 +1,78 @@
+{
+  "claim": {
+    "claim_id": "945c2551-d4a9-5aed-a21a-7fe4962e6fc8",
+    "subject": {
+      "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+      "slug": "abb-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "ABB Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "ABB Robotics targets task Industrial welding",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+        "slug": "industrial-welding",
+        "entity_type": "TASK",
+        "name": "Industrial welding",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8ae2e02f-7beb-5deb-ad6c-d47881e6b274",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Welding is named among ABB robotics applications.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f49fb07b-3c7d-5849-8fba-920a543e9d18",
+        "url": "https://new.abb.com/products/robotics",
+        "canonical_url": null,
+        "publisher": "ABB",
+        "title": "ABB Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "2fd5d2a6-633e-51c7-8b0c-a866ba047162",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+          "slug": "cnc-machine-tending",
+          "entity_type": "TASK",
+          "name": "CNC machine tending",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,142 @@
+{
+  "entity": {
+    "id": "af96607d-e4ee-5ac6-b7de-b4f9d7990783",
+    "slug": "nuro",
+    "entity_type": "ORGANIZATION",
+    "name": "Nuro",
+    "short_description": "Bay Area company that built purpose-made occupantless delivery vehicles and has since pivoted towards licensing its autonomy stack.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "2e48b0eb-2d46-5f7d-b898-1a1a117fcc10",
+          "target": {
+            "id": "c5d2e5c2-05d4-5e1d-a0df-bbb28258a411",
+            "slug": "nuro-r3",
+            "entity_type": "ROBOT",
+            "name": "Nuro R3",
+            "primary_embodiment": "AUTONOMOUS_VEHICLE"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "49daa68f-1a39-57f8-97f5-e196bd659b98",
+          "target": {
+            "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+            "slug": "bay-area",
+            "entity_type": "PLACE",
+            "name": "San Francisco Bay Area",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "4d4d2c9e-61d8-5763-bd84-a895e9acf0ca",
+          "target": {
+            "id": "8b8c0af0-2404-5bd1-9a00-ae94406f4b1b",
+            "slug": "retail-service",
+            "entity_type": "MARKET",
+            "name": "Retail & Service",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "markets": [
+      {
+        "id": "8b8c0af0-2404-5bd1-9a00-ae94406f4b1b",
+        "slug": "retail-service",
+        "entity_type": "MARKET",
+        "name": "Retail & Service",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 3,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

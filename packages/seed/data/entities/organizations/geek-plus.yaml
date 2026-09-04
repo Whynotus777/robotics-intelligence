@@ -1,0 +1,36 @@
+slug: geek-plus
+entity_type: ORGANIZATION
+name: Geek+
+short_description: Beijing goods-to-person and mobile-robot vendor with one of the largest installed AMR fleets outside Amazon.
+country_code: CN
+depth_tier: DISCOVERY
+aliases: [Geekplus, Geek Plus]
+claims:
+- predicate: HQ_AT
+  object: beijing
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: geekplus-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: geekplus-site
+    excerpt: Warehouse robotics positioning.
+- predicate: TARGETS_TASK
+  object: each-picking-assistance
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: geekplus-p-series-page
+    excerpt: Goods-to-person systems bring shelves to picking stations.
+- predicate: BUILDS
+  object: geek-plus-p800
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: geekplus-p-series-page
+    excerpt: P-series goods-to-person robots are listed in the product range.

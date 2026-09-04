@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "c3f60fe4-0104-5548-967d-cc1b81145fdf",
+    "subject": {
+      "id": "457bd7cf-650f-52b3-96c3-48ae487f507f",
+      "slug": "fixed-machine-vision-station",
+      "entity_type": "APPROACH",
+      "name": "Fixed machine vision station",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Fixed machine vision station maturity MATURE",
+    "value": {
+      "kind": "enum",
+      "value": "MATURE"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "40b056d9-0406-52b1-9e7c-86b8a701e2f2",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Fixed vision is a decades-old, thoroughly validated category with an entrenched vendor set and quality departments that already know how to sign it off. It is the incumbent any robotic inspection approach must beat, and on repeat parts it usually wins.",
+        "advance_criteria": [
+          "Already at the top of the scale"
+        ],
+        "regress_criteria": [
+          "Part variety rising fast enough that fixed optics stop being requalifiable"
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,21 @@
+slug: ouster
+entity_type: ORGANIZATION
+name: Ouster
+short_description: San Francisco digital lidar maker; one sensor architecture sold across robotics, industrial and smart-infrastructure buyers.
+country_code: US
+depth_tier: DISCOVERY
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: ouster-site
+    excerpt: Company site gives a San Francisco headquarters.
+- predicate: PROVIDES
+  object: ouster-os1
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: ouster-os1-page
+    excerpt: OS1 sensor product page.

@@ -1,0 +1,57 @@
+{
+  "claim": {
+    "claim_id": "133580c2-205d-503f-82a1-b44bcf27abcc",
+    "subject": {
+      "id": "328424e6-545a-582d-8d5a-fae72ba2626b",
+      "slug": "force-controlled-assembly",
+      "entity_type": "APPROACH",
+      "name": "Force-controlled robotic assembly",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Force-controlled robotic assembly maturity EARLY_COMMERCIAL",
+    "value": {
+      "kind": "enum",
+      "value": "EARLY_COMMERCIAL"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "fde297a4-203d-5502-8bf6-5b1424f00241",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Screwdriving, press-fits and connector insertion ship today in electronics and automotive cells where the part set is fixed and someone paid an integrator to tune the search strategies. What does not exist is a cell that absorbs a new part without that tuning, so each deployment is a project and the category cannot compound.",
+        "advance_criteria": [
+          "Insertion strategies transferring to a new part family without re-tuning",
+          "Assembly cells quoted at a fixed price rather than as engineering time",
+          "Learned policies handling connector and cable work at production yield"
+        ],
+        "regress_criteria": [
+          "Continued reliance on bespoke fixturing pushing buyers back to manual assembly"
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,49 @@
+slug: robotic-arc-welding-cell
+entity_type: APPROACH
+name: Robotic arc welding cell
+short_description: A fenced arm with a welding torch and positioner, programmed offline for a fixed part family.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: MATURE
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Automotive has welded robotically for decades and the process is thoroughly characterised. What keeps the rest of the market manual is not welding physics but fixturing and programming cost, which scales with part variety, not with the number of robots.
+          advance_criteria:
+            - Already at the top of the scale for repeat-volume parts
+          regress_criteria:
+            - A shift to joining methods that robots handle less well than humans
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: INDUSTRIAL_ARM
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: yaskawa-site
+        excerpt: Arc welding is a named application across the robot range.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: yaskawa
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: yaskawa-site
+        excerpt: Welding robots are a named product family.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: abb-robotics
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: abb-site
+        excerpt: Welding is named among robotics applications.
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Seam finding and through-arc tracking
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Real parts arrive with fit-up variation the program does not know about; without touch sensing or arc tracking the torch welds air or burns through.
+          advance_criteria: ["Would be relaxed by tighter upstream part tolerances, which job shops cannot afford."]
+          reviewed_at: 2026-09-01

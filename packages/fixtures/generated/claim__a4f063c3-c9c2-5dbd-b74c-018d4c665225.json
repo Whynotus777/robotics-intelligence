@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "a4f063c3-c9c2-5dbd-b74c-018d4c665225",
+    "subject": {
+      "id": "0f04ed2f-3cb7-5835-926a-1fbf13fa03ad",
+      "slug": "abb-irb-6700",
+      "entity_type": "ROBOT",
+      "name": "ABB IRB 6700",
+      "primary_embodiment": "INDUSTRIAL_ARM"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "ABB IRB 6700 embodiment INDUSTRIAL_ARM",
+    "value": {
+      "kind": "enum",
+      "value": "INDUSTRIAL_ARM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3174ffab-3675-5908-81eb-342e60e1ab31",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Listed among ABB's articulated industrial robots.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "b9c6f20a-84bf-54bc-8703-76731dc817d9",
+        "url": "https://new.abb.com/products/robotics/robots/articulated-robots/irb-6700",
+        "canonical_url": null,
+        "publisher": "ABB",
+        "title": "IRB 6700 articulated robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

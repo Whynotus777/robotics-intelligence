@@ -30,6 +30,25 @@
       "label": "targets market",
       "items": [
         {
+          "claim_id": "2baa835d-f1cb-5d44-b5a3-716f6c121cea",
+          "source": {
+            "id": "eb46b6af-ce87-5ea9-adb0-183491fa85f7",
+            "slug": "deep-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Deep Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "31055d10-870d-543f-90c9-feffb4654bd2",
           "source": {
             "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
@@ -54,6 +73,13 @@
   "lateral_links": {
     "company": [
       {
+        "id": "eb46b6af-ce87-5ea9-adb0-183491fa85f7",
+        "slug": "deep-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Deep Robotics",
+        "primary_embodiment": null
+      },
+      {
         "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
         "slug": "skydio",
         "entity_type": "ORGANIZATION",
@@ -77,7 +103,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

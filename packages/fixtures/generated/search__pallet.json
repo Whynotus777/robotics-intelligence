@@ -27,6 +27,18 @@
     },
     {
       "chip": {
+        "id": "2bea54e2-cb77-5728-b445-707f09039b05",
+        "slug": "cobot-palletizer",
+        "entity_type": "APPROACH",
+        "name": "Cobot palletizer",
+        "primary_embodiment": null
+      },
+      "entity_type": "APPROACH",
+      "match_field": "name",
+      "rank": 3
+    },
+    {
+      "chip": {
         "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
         "slug": "pallet-movement",
         "entity_type": "TASK",
@@ -34,6 +46,30 @@
         "primary_embodiment": null
       },
       "entity_type": "TASK",
+      "match_field": "name",
+      "rank": 3
+    },
+    {
+      "chip": {
+        "id": "60245a27-6286-59df-a3ed-9487c3c0d92a",
+        "slug": "palletizing",
+        "entity_type": "TASK",
+        "name": "Palletizing",
+        "primary_embodiment": null
+      },
+      "entity_type": "TASK",
+      "match_field": "name",
+      "rank": 3
+    },
+    {
+      "chip": {
+        "id": "e35b836e-1830-5e51-8c65-03a889bc8a84",
+        "slug": "robotic-palletizing-cell",
+        "entity_type": "APPROACH",
+        "name": "Robotic palletizing cell",
+        "primary_embodiment": null
+      },
+      "entity_type": "APPROACH",
       "match_field": "name",
       "rank": 3
     },
@@ -58,6 +94,18 @@
         "primary_embodiment": null
       },
       "entity_type": "TASK",
+      "match_field": "description",
+      "rank": 1
+    },
+    {
+      "chip": {
+        "id": "02581ba3-774b-52c7-8a13-f450c116f66e",
+        "slug": "fetch-freight1500",
+        "entity_type": "ROBOT",
+        "name": "Fetch Freight1500",
+        "primary_embodiment": "AMR"
+      },
+      "entity_type": "ROBOT",
       "match_field": "description",
       "rank": 1
     },

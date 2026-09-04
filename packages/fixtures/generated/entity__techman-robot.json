@@ -1,0 +1,250 @@
+{
+  "entity": {
+    "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+    "slug": "techman-robot",
+    "entity_type": "ORGANIZATION",
+    "name": "Techman Robot",
+    "short_description": "Taoyuan cobot maker inside the Quanta group; arms ship with an integrated vision system rather than a bolt-on camera.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "TW",
+    "aliases": [
+      "Techman",
+      "TM Robot"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "03efa45f-3f5c-550e-b1c8-647a8d35fa4d",
+          "target": {
+            "id": "8e661a80-5a17-5ff7-a669-bf1217ebcfca",
+            "slug": "taoyuan",
+            "entity_type": "PLACE",
+            "name": "Taoyuan",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "0712fa14-f99f-5d71-8351-87a502144dbb",
+          "target": {
+            "id": "5f04e5c3-3101-536e-9158-89a56a06b3d5",
+            "slug": "techman-tm12",
+            "entity_type": "ROBOT",
+            "name": "Techman TM12",
+            "primary_embodiment": "COBOT"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "31766ac2-441f-57d7-ba57-47d0447e8a2a",
+          "target": {
+            "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+            "slug": "in-process-inspection",
+            "entity_type": "TASK",
+            "name": "In-process inspection",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "3efcf5f1-ba91-59c7-a074-1021a66bac04",
+          "target": {
+            "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+            "slug": "cnc-machine-tending",
+            "entity_type": "TASK",
+            "name": "CNC machine tending",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "7c7ca456-ff7e-5c8d-bb1c-a96301c2bc0f",
+          "target": {
+            "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+            "slug": "manufacturing",
+            "entity_type": "MARKET",
+            "name": "Manufacturing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "83a1f972-2d1d-5591-a868-4dce0104bc5b",
+          "source": {
+            "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
+            "slug": "cobot-tending-cell",
+            "entity_type": "APPROACH",
+            "name": "Cobot tending cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d943ceb0-3513-5858-8f87-43116205b3d4",
+          "source": {
+            "id": "d8f60b1b-aa0b-56e5-b406-351cb45a68fb",
+            "slug": "robot-mounted-vision-inspection",
+            "entity_type": "APPROACH",
+            "name": "Robot-mounted vision inspection",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
+        "slug": "cobot-tending-cell",
+        "entity_type": "APPROACH",
+        "name": "Cobot tending cell",
+        "primary_embodiment": null
+      },
+      {
+        "id": "d8f60b1b-aa0b-56e5-b406-351cb45a68fb",
+        "slug": "robot-mounted-vision-inspection",
+        "entity_type": "APPROACH",
+        "name": "Robot-mounted vision inspection",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+        "slug": "manufacturing",
+        "entity_type": "MARKET",
+        "name": "Manufacturing",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "8e661a80-5a17-5ff7-a669-bf1217ebcfca",
+        "slug": "taoyuan",
+        "entity_type": "PLACE",
+        "name": "Taoyuan",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 5,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 5,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 5,
+    "deployment_count": 0,
+    "related_count": 7
+  },
+  "as_of": null
+}

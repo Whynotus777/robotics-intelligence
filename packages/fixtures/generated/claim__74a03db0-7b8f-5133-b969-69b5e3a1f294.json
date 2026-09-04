@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "74a03db0-7b8f-5133-b969-69b5e3a1f294",
+    "subject": {
+      "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+      "slug": "in-process-inspection",
+      "entity_type": "TASK",
+      "name": "In-process inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_TECHNICAL_REQUIREMENT",
+    "label": "technical requirement",
+    "sentence": "In-process inspection technical requirement Inspection inside the line's cycle time",
+    "value": {
+      "kind": "text",
+      "text": "Inspection inside the line's cycle time"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3d81eff0-9187-55da-aeb8-22f63f2d4a52",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "An inspection that takes longer than the machine cycle becomes the bottleneck and gets switched off in the first busy week.",
+        "advance_criteria": [
+          "Would be relaxed where inspection runs off-line on a parallel station."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "540bcc83-ddf4-5676-a20a-3a3edf07b4ba",
+      "value": {
+        "kind": "text",
+        "text": "Defect definition that survives contact with production"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "e05f4b47-029a-54d2-8df9-27c4a693f616",
+      "value": {
+        "kind": "text",
+        "text": "Lighting and surface control"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

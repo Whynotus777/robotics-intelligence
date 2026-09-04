@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "bb4047ad-cae3-5fb1-8868-9be1ca313acc",
+    "subject": {
+      "id": "416d598d-01ab-563f-ba08-b6c58a9c6320",
+      "slug": "nvidia-isaac-gr00t-n1",
+      "entity_type": "MODEL",
+      "name": "NVIDIA Isaac GR00T N1",
+      "primary_embodiment": null
+    },
+    "predicate": "MADE_BY",
+    "label": "is made by",
+    "sentence": "NVIDIA Isaac GR00T N1 is made by NVIDIA",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+        "slug": "nvidia",
+        "entity_type": "ORGANIZATION",
+        "name": "NVIDIA",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d9bf8fca-1cb4-5812-910d-5178d6685bf6",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Isaac GR00T is presented as NVIDIA's humanoid foundation-model family.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "89d29371-af16-52fd-b599-7f89b63a311a",
+        "url": "https://developer.nvidia.com/isaac/gr00t",
+        "canonical_url": null,
+        "publisher": "NVIDIA",
+        "title": "NVIDIA Isaac GR00T foundation models",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

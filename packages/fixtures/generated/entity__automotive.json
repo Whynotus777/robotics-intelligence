@@ -66,6 +66,82 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "668819b8-0cac-5c5e-90b5-3f44a049b87e",
+          "source": {
+            "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
+            "slug": "waymo",
+            "entity_type": "ORGANIZATION",
+            "name": "Waymo",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "68fe3fc6-bcbe-5093-ab24-52607f471313",
+          "source": {
+            "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
+            "slug": "ubtech",
+            "entity_type": "ORGANIZATION",
+            "name": "UBTech Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "7ee41aa1-f3b4-57e6-9a21-0d5f4e162924",
+          "source": {
+            "id": "6e477c0c-cf3f-5b88-9d5b-2f80f10c52f4",
+            "slug": "ubtech-walker-s1",
+            "entity_type": "ROBOT",
+            "name": "UBTech Walker S1",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "b85e6ccc-dc23-579d-8e5d-623a2dc05d0c",
+          "source": {
+            "id": "fca9f317-0e6b-54a4-97ca-ff54a37b4c49",
+            "slug": "kuka-kr-quantec",
+            "entity_type": "ROBOT",
+            "name": "KUKA KR QUANTEC",
+            "primary_embodiment": "INDUSTRIAL_ARM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -85,6 +161,20 @@
         "entity_type": "ORGANIZATION",
         "name": "KUKA",
         "primary_embodiment": null
+      },
+      {
+        "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
+        "slug": "ubtech",
+        "entity_type": "ORGANIZATION",
+        "name": "UBTech Robotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
+        "slug": "waymo",
+        "entity_type": "ORGANIZATION",
+        "name": "Waymo",
+        "primary_embodiment": null
       }
     ]
   },
@@ -103,7 +193,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 6
   },
   "as_of": null
 }

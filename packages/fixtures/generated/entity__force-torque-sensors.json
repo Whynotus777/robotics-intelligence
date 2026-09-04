@@ -26,8 +26,44 @@
   "place": null,
   "claims": [],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "REQUIRES_TECHNOLOGY",
+      "label": "requires",
+      "items": [
+        {
+          "claim_id": "7c5506ef-84db-5a66-a50e-6046e00f4148",
+          "source": {
+            "id": "328424e6-545a-582d-8d5a-fae72ba2626b",
+            "slug": "force-controlled-assembly",
+            "entity_type": "APPROACH",
+            "name": "Force-controlled robotic assembly",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "328424e6-545a-582d-8d5a-fae72ba2626b",
+        "slug": "force-controlled-assembly",
+        "entity_type": "APPROACH",
+        "name": "Force-controlled robotic assembly",
+        "primary_embodiment": null
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -43,7 +79,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

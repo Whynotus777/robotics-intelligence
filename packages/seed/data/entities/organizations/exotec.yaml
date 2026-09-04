@@ -1,0 +1,35 @@
+slug: exotec
+entity_type: ORGANIZATION
+name: Exotec
+short_description: French warehouse-automation vendor whose Skypod robots climb racking to reach totes, sold as a system rather than a fleet of vehicles.
+country_code: FR
+depth_tier: DISCOVERY
+claims:
+- predicate: HQ_AT
+  object: croix
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: exotec-site
+    excerpt: Company site gives a northern France headquarters.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: exotec-site
+    excerpt: Warehouse automation positioning.
+- predicate: TARGETS_TASK
+  object: automated-storage-and-retrieval
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: exotec-skypod-page
+    excerpt: Skypod is described as a storage and retrieval system for totes.
+- predicate: BUILDS
+  object: exotec-skypod
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: exotec-skypod-page
+    excerpt: Skypod system product page.

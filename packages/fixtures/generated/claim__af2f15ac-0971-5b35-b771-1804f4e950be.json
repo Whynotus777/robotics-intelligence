@@ -1,0 +1,96 @@
+{
+  "claim": {
+    "claim_id": "af2f15ac-0971-5b35-b771-1804f4e950be",
+    "subject": {
+      "id": "421d32b6-1844-5d0b-8ee9-d6995cf143dd",
+      "slug": "caged-arm-tending-cell",
+      "entity_type": "APPROACH",
+      "name": "Caged arm tending cell",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "Caged arm tending cell example vendor ABB Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+        "slug": "abb-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ABB Robotics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8a92d110-30ed-5b32-b1c1-de0faf388bd9",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "General industrial handling applications are named for the IRB 6700.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "b9c6f20a-84bf-54bc-8703-76731dc817d9",
+        "url": "https://new.abb.com/products/robotics/robots/articulated-robots/irb-6700",
+        "canonical_url": null,
+        "publisher": "ABB",
+        "title": "IRB 6700 articulated robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "a8c102b3-7d7a-5327-a6a7-b7711da65b5f",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+          "slug": "yaskawa",
+          "entity_type": "ORGANIZATION",
+          "name": "Yaskawa Electric",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "ca600a99-9932-58b8-827c-e45f3e0ecc6f",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+          "slug": "fanuc",
+          "entity_type": "ORGANIZATION",
+          "name": "FANUC",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

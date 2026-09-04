@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "888167f6-182a-55bf-9668-edf0df913fc7",
+    "subject": {
+      "id": "5f04e5c3-3101-536e-9158-89a56a06b3d5",
+      "slug": "techman-tm12",
+      "entity_type": "ROBOT",
+      "name": "Techman TM12",
+      "primary_embodiment": "COBOT"
+    },
+    "predicate": "HAS_ARCHITECTURE_NOTE",
+    "label": "architecture note",
+    "sentence": "Techman TM12 architecture note The arm ships with an integrated camera in the wrist rather than a third-party vision kit, which is the whole positioning: the customer buys one supported product instead of integrating two.",
+    "value": {
+      "kind": "text",
+      "text": "The arm ships with an integrated camera in the wrist rather than a third-party vision kit, which is the whole positioning: the customer buys one supported product instead of integrating two."
+    },
+    "stack_layer": "SENSORS",
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e667ce1a-6466-5964-9d50-611f604b69b9",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Product page describes a built-in vision system.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "59d19680-a800-5a6d-8772-9bd3e2068103",
+        "url": "https://www.tm-robot.com/en/tm12-tm14/",
+        "canonical_url": null,
+        "publisher": "Techman Robot",
+        "title": "TM12 and TM14 collaborative robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

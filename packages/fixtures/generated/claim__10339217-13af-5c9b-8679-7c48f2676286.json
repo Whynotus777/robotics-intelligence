@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "10339217-13af-5c9b-8679-7c48f2676286",
+    "subject": {
+      "id": "02581ba3-774b-52c7-8a13-f450c116f66e",
+      "slug": "fetch-freight1500",
+      "entity_type": "ROBOT",
+      "name": "Fetch Freight1500",
+      "primary_embodiment": "AMR"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "Fetch Freight1500 embodiment AMR",
+    "value": {
+      "kind": "enum",
+      "value": "AMR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4d9bf8df-71ce-5ebc-8b17-08c452473ebc",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Listed among autonomous mobile robots for material transport.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "47f20bdb-5b38-595a-87ab-dbc6fb2fe6cd",
+        "url": "https://www.zebra.com/us/en/products/robotics-automation.html",
+        "canonical_url": null,
+        "publisher": "Zebra Technologies",
+        "title": "Zebra robotics automation and autonomous mobile robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

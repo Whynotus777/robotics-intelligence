@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "24bd8253-9a60-5f42-aa3c-4c9183e2b346",
+    "subject": {
+      "id": "dd4d153d-3b8f-5b85-894c-5d6f3903be90",
+      "slug": "zipline-p2-zip",
+      "entity_type": "ROBOT",
+      "name": "Zipline P2 Zip",
+      "primary_embodiment": "DRONE"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "Zipline P2 Zip commercial stage COMMERCIAL",
+    "value": {
+      "kind": "enum",
+      "value": "COMMERCIAL"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d30585a6-7985-5450-805d-f1ad432cfdb7",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Operated as a paid delivery service on live customer routes.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "47c34812-db4d-54ed-958c-ea6e06b9e139",
+        "url": "https://www.flyzipline.com/",
+        "canonical_url": null,
+        "publisher": "Zipline",
+        "title": "Zipline instant logistics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

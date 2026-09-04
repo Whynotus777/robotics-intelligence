@@ -94,10 +94,114 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "3fcf6787-a21d-5d12-babf-8407618929b7",
+          "target": {
+            "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+            "slug": "industrial-welding",
+            "entity_type": "TASK",
+            "name": "Industrial welding",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "7e3438fb-7ffc-52df-84f0-b55538452818",
+          "target": {
+            "id": "60245a27-6286-59df-a3ed-9487c3c0d92a",
+            "slug": "palletizing",
+            "entity_type": "TASK",
+            "name": "Palletizing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "ad1ef078-fdc7-506a-9332-8f7616648fb6",
+          "target": {
+            "id": "fca9f317-0e6b-54a4-97ca-ff54a37b4c49",
+            "slug": "kuka-kr-quantec",
+            "entity_type": "ROBOT",
+            "name": "KUKA KR QUANTEC",
+            "primary_embodiment": "INDUSTRIAL_ARM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "86d1452f-5f3b-5528-9c37-68e44b65045c",
+          "source": {
+            "id": "e35b836e-1830-5e51-8c65-03a889bc8a84",
+            "slug": "robotic-palletizing-cell",
+            "entity_type": "APPROACH",
+            "name": "Robotic palletizing cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "categories": [
+      {
+        "id": "e35b836e-1830-5e51-8c65-03a889bc8a84",
+        "slug": "robotic-palletizing-cell",
+        "entity_type": "APPROACH",
+        "name": "Robotic palletizing cell",
+        "primary_embodiment": null
+      }
+    ],
     "markets": [
       {
         "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
@@ -127,19 +231,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 3,
+        "PRIMARY": 6,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 6,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 6,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 7
   },
   "as_of": null
 }

@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "83ccc31d-23d3-5e2d-b0dd-115498186bd7",
+    "subject": {
+      "id": "709d836b-770d-5250-bdb3-e4b15e6d27ee",
+      "slug": "pi05",
+      "entity_type": "MODEL",
+      "name": "Physical Intelligence pi-0.5",
+      "primary_embodiment": null
+    },
+    "predicate": "ANNOUNCED_ON",
+    "label": "was announced on",
+    "sentence": "Physical Intelligence pi-0.5 was announced on 2025-04-22",
+    "value": {
+      "kind": "date",
+      "date": "2025-04-22"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "485f678f-ed21-5ad6-92fe-6204f62f1fbc",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Blog post announcing the model.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "78401c2b-59ca-587c-9d37-bc69373ae464",
+        "url": "https://www.physicalintelligence.company/blog/pi05",
+        "canonical_url": null,
+        "publisher": "Physical Intelligence",
+        "title": "π0.5: a VLA with open-world generalization",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-04-22T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

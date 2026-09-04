@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "e9b4664e-8aad-5450-90c5-efaddcb08ad5",
+    "subject": {
+      "id": "b0f83f46-ab25-5f87-aed0-18c1598a442b",
+      "slug": "exotec",
+      "entity_type": "ORGANIZATION",
+      "name": "Exotec",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Exotec is headquartered at Croix",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "38257774-3190-5a7f-8299-a46e418e00e6",
+        "slug": "croix",
+        "entity_type": "PLACE",
+        "name": "Croix",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0bf1c8ac-35cb-5950-a831-b746e9d97e14",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives a northern France headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "0171fdb8-89a1-54a6-aac0-7dfb77e67ad7",
+        "url": "https://www.exotec.com/",
+        "canonical_url": null,
+        "publisher": "Exotec",
+        "title": "Exotec",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

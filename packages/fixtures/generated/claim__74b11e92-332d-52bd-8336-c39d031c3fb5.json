@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "74b11e92-332d-52bd-8336-c39d031c3fb5",
+    "subject": {
+      "id": "f668e79f-b182-5799-b65e-e683fde93b6d",
+      "slug": "onex-neo",
+      "entity_type": "ROBOT",
+      "name": "1X NEO",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "1X NEO commercial stage PILOT_DEPLOYMENTS",
+    "value": {
+      "kind": "enum",
+      "value": "PILOT_DEPLOYMENTS"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "605101f1-c97c-5382-8d1a-1831031b57d3",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Early home deployments are described as a limited programme rather than general availability.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "88d10976-5fc9-57b7-816d-fc8e14a5abb6",
+        "url": "https://www.1x.tech/neo",
+        "canonical_url": null,
+        "publisher": "1X Technologies",
+        "title": "NEO home humanoid",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

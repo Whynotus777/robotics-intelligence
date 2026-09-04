@@ -1,0 +1,29 @@
+slug: fourier-intelligence
+entity_type: ORGANIZATION
+name: Fourier Intelligence
+short_description: Shanghai company that came from rehabilitation robotics into humanoids; the GR series is sold to research buyers as much as to industry.
+country_code: CN
+depth_tier: DISCOVERY
+aliases: [Fourier]
+claims:
+- predicate: HQ_AT
+  object: shanghai
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: fourier-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: healthcare
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: fourier-site
+    excerpt: Rehabilitation robotics remains a named product line.
+- predicate: BUILDS
+  object: fourier-gr-1
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: fourier-site
+    excerpt: GR-1 is presented as the company's general-purpose humanoid.

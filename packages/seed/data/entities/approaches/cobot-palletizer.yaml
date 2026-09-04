@@ -1,0 +1,42 @@
+slug: cobot-palletizer
+entity_type: APPROACH
+name: Cobot palletizer
+short_description: A collaborative arm on a wheeled base or lift column, moved between lines and set up by an operator rather than an integrator.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: SCALING
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Packaged cobot palletizers are sold by every cobot vendor and several specialists, and small manufacturers buy them precisely because there is no integration project. They stay a step behind the fixed cell because payload and reach cap the case rate, so they win the low-volume line and lose the high one. Scaling rather than mature until they take share on the fast lines too.
+          advance_criteria:
+            - Cobot palletizers quoted at case rates competitive with fixed cells
+            - Operators reconfiguring patterns without vendor support as the norm
+            - Repeat purchases across multiple lines at the same plant
+          regress_criteria:
+            - Payload and speed limits proving a hard ceiling, confining these to demonstration lines
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: COBOT
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: ur-site
+        excerpt: Palletizing is listed as an application for collaborative arms.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: universal-robots
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: ur-site
+        excerpt: Palletizing is named among supported applications.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: doosan-robotics
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: doosan-robotics-site
+        excerpt: Palletizing is presented among the company's application packages.

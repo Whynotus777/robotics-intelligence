@@ -27,6 +27,69 @@
   "claims": [],
   "relationships": [
     {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "2f75535c-09eb-59e0-9a9c-e4440e694ef4",
+          "target": {
+            "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+            "slug": "cnc-machine-tending",
+            "entity_type": "TASK",
+            "name": "CNC machine tending",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "63730e51-c6be-573f-8ee3-e46c13d53849",
+          "target": {
+            "id": "60245a27-6286-59df-a3ed-9487c3c0d92a",
+            "slug": "palletizing",
+            "entity_type": "TASK",
+            "name": "Palletizing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "ee527af5-53ee-5a7f-8550-efb61fa8904e",
+          "target": {
+            "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+            "slug": "assembly",
+            "entity_type": "TASK",
+            "name": "Assembly",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "TARGETS_MARKET",
       "label": "targets market",
       "items": [
@@ -121,8 +184,95 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "0c0877f6-645b-5e2a-8e77-c16bb00ebe92",
+          "source": {
+            "id": "e35b836e-1830-5e51-8c65-03a889bc8a84",
+            "slug": "robotic-palletizing-cell",
+            "entity_type": "APPROACH",
+            "name": "Robotic palletizing cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "b1697428-a719-5638-b1be-a3de726f9fd9",
+          "source": {
+            "id": "328424e6-545a-582d-8d5a-fae72ba2626b",
+            "slug": "force-controlled-assembly",
+            "entity_type": "APPROACH",
+            "name": "Force-controlled robotic assembly",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "ca600a99-9932-58b8-827c-e45f3e0ecc6f",
+          "source": {
+            "id": "421d32b6-1844-5d0b-8ee9-d6995cf143dd",
+            "slug": "caged-arm-tending-cell",
+            "entity_type": "APPROACH",
+            "name": "Caged arm tending cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "categories": [
+      {
+        "id": "421d32b6-1844-5d0b-8ee9-d6995cf143dd",
+        "slug": "caged-arm-tending-cell",
+        "entity_type": "APPROACH",
+        "name": "Caged arm tending cell",
+        "primary_embodiment": null
+      },
+      {
+        "id": "328424e6-545a-582d-8d5a-fae72ba2626b",
+        "slug": "force-controlled-assembly",
+        "entity_type": "APPROACH",
+        "name": "Force-controlled robotic assembly",
+        "primary_embodiment": null
+      },
+      {
+        "id": "e35b836e-1830-5e51-8c65-03a889bc8a84",
+        "slug": "robotic-palletizing-cell",
+        "entity_type": "APPROACH",
+        "name": "Robotic palletizing cell",
+        "primary_embodiment": null
+      }
+    ],
     "markets": [
       {
         "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
@@ -152,19 +302,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 4,
+        "PRIMARY": 7,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 4,
+      "claim_count": 7,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 4,
+    "recent_change_count": 7,
     "deployment_count": 0,
-    "related_count": 4
+    "related_count": 10
   },
   "as_of": null
 }

@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "4d3c3da3-f49e-5c89-a831-f95a03a1674c",
+    "subject": {
+      "id": "f48a2189-2c89-576f-a2d6-7ff9ba533210",
+      "slug": "galbot-g1",
+      "entity_type": "ROBOT",
+      "name": "Galbot G1",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Galbot G1 targets market Retail & Service",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "8b8c0af0-2404-5bd1-9a00-ae94406f4b1b",
+        "slug": "retail-service",
+        "entity_type": "MARKET",
+        "name": "Retail & Service",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e1c8c534-5266-556b-98c0-4aaba1f62c48",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Retail stores are the named deployment environment.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8d8cd5bd-c632-5ddc-98a8-a3451056c289",
+        "url": "https://www.galbot.com/en",
+        "canonical_url": null,
+        "publisher": "Galbot",
+        "title": "Galbot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

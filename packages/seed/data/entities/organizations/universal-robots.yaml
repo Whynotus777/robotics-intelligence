@@ -29,3 +29,24 @@ claims:
     confidence: HIGH
     source: ur-site
     excerpt: Cobots positioned for manufacturing applications.
+- predicate: TARGETS_TASK
+  object: cnc-machine-tending
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: ur-site
+    excerpt: Machine tending is listed among the applications for the arm range.
+- predicate: TARGETS_TASK
+  object: palletizing
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: ur-site
+    excerpt: Palletizing is listed among the applications for the arm range.
+- predicate: TARGETS_TASK
+  object: industrial-welding
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: ur-site
+    excerpt: Welding is listed among the applications for the arm range.

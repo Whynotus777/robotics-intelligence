@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "32791450-5feb-5ee4-9ff9-cc68f00b1325",
+    "subject": {
+      "id": "280d3938-3677-5286-bf7f-9c85402c4d90",
+      "slug": "ouster",
+      "entity_type": "ORGANIZATION",
+      "name": "Ouster",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Ouster is headquartered at San Francisco Bay Area",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a256e207-c52d-5ec6-b6ed-b8935b38d7c3",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives a San Francisco headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "292e12ae-571d-5bce-9951-c93872784093",
+        "url": "https://ouster.com/",
+        "canonical_url": null,
+        "publisher": "Ouster",
+        "title": "Ouster digital lidar",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,29 @@
+slug: deep-robotics
+entity_type: ORGANIZATION
+name: Deep Robotics
+short_description: Hangzhou quadruped maker; industrial inspection dogs sold at Chinese domestic prices into utilities and power grids.
+country_code: CN
+depth_tier: DISCOVERY
+aliases: [DEEP Robotics]
+claims:
+- predicate: HQ_AT
+  object: hangzhou
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: deeprobotics-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: utilities
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: deeprobotics-site
+    excerpt: Power inspection is a named application.
+- predicate: BUILDS
+  object: deep-robotics-x30
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: deeprobotics-site
+    excerpt: The X30 industrial quadruped is listed in the product range.

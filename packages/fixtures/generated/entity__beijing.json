@@ -30,8 +30,70 @@
   },
   "claims": [],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "8199a8f1-5711-5363-9813-fe4f7015d873",
+          "source": {
+            "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
+            "slug": "galbot",
+            "entity_type": "ORGANIZATION",
+            "name": "Galbot",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "95eea6c9-c762-54ca-9f78-5548247c6228",
+          "source": {
+            "id": "2af4b707-5460-5da6-b7ad-3addf359a049",
+            "slug": "geek-plus",
+            "entity_type": "ORGANIZATION",
+            "name": "Geek+",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
+        "slug": "galbot",
+        "entity_type": "ORGANIZATION",
+        "name": "Galbot",
+        "primary_embodiment": null
+      },
+      {
+        "id": "2af4b707-5460-5da6-b7ad-3addf359a049",
+        "slug": "geek-plus",
+        "entity_type": "ORGANIZATION",
+        "name": "Geek+",
+        "primary_embodiment": null
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -47,7 +109,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 2
   },
   "as_of": null
 }

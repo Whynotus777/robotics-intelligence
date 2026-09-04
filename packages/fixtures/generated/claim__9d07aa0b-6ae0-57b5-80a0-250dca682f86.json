@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "9d07aa0b-6ae0-57b5-80a0-250dca682f86",
+    "subject": {
+      "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
+      "slug": "fourier-intelligence",
+      "entity_type": "ORGANIZATION",
+      "name": "Fourier Intelligence",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Fourier Intelligence builds Fourier GR-1",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "e040adf8-acc0-5d93-85cf-aa89cfbbcdea",
+        "slug": "fourier-gr-1",
+        "entity_type": "ROBOT",
+        "name": "Fourier GR-1",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "71d578c9-891b-5876-b11f-159b4a33182b",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "GR-1 is presented as the company's general-purpose humanoid.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "df667085-4fb0-5c6b-b91d-583ece5fe969",
+        "url": "https://www.fftai.com/",
+        "canonical_url": null,
+        "publisher": "Fourier Intelligence",
+        "title": "Fourier Intelligence",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,78 @@
+{
+  "claim": {
+    "claim_id": "e6a06cd6-ff07-54fe-8bf7-e8d0f326c300",
+    "subject": {
+      "id": "b81a66f4-ff3d-5c78-a247-7dea374bed6a",
+      "slug": "physical-intelligence",
+      "entity_type": "ORGANIZATION",
+      "name": "Physical Intelligence",
+      "primary_embodiment": null
+    },
+    "predicate": "DEVELOPS",
+    "label": "develops",
+    "sentence": "Physical Intelligence develops Physical Intelligence pi-0.5",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "709d836b-770d-5250-bdb3-e4b15e6d27ee",
+        "slug": "pi05",
+        "entity_type": "MODEL",
+        "name": "Physical Intelligence pi-0.5",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "24abf3c7-53fc-5764-9d85-a524ad075d72",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company blog introduces the pi-0.5 model.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "78401c2b-59ca-587c-9d37-bc69373ae464",
+        "url": "https://www.physicalintelligence.company/blog/pi05",
+        "canonical_url": null,
+        "publisher": "Physical Intelligence",
+        "title": "π0.5: a VLA with open-world generalization",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-04-22T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "5991f187-9b63-5923-bf8a-aff372cdccaa",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "3efa143b-c4c7-5c49-bc42-af2abd624356",
+          "slug": "pi0",
+          "entity_type": "MODEL",
+          "name": "π0",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

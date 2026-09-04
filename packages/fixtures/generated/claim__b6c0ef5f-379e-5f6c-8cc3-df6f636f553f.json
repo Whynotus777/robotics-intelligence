@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "b6c0ef5f-379e-5f6c-8cc3-df6f636f553f",
+    "subject": {
+      "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+      "slug": "cnc-machine-tending",
+      "entity_type": "TASK",
+      "name": "CNC machine tending",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_CUSTOMER_TYPE",
+    "label": "customer type",
+    "sentence": "CNC machine tending customer type Machine tool builders and distributors",
+    "value": {
+      "kind": "text",
+      "text": "Machine tool builders and distributors"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f6b616f3-513a-5619-8015-82d7fa74903a",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Increasingly the tending cell is sold with the machine rather than after it, which moves the buying decision to the machine tool channel.",
+        "advance_criteria": [
+          "Would strengthen if attach rates on new machine sales become the main route to market."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "1f0f5e91-098a-5c0d-999b-3872b327d789",
+      "value": {
+        "kind": "text",
+        "text": "Contract machine shops"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "5e52a7c1-8dfe-586a-96f4-cba07c718f92",
+      "value": {
+        "kind": "text",
+        "text": "Tier 1 and Tier 2 automotive suppliers"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

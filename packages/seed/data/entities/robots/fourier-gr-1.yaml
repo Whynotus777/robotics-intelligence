@@ -1,0 +1,23 @@
+slug: fourier-gr-1
+entity_type: ROBOT
+name: Fourier GR-1
+short_description: General-purpose humanoid sold largely to research buyers, carrying over Fourier's rehabilitation-robotics actuator work.
+primary_embodiment: HUMANOID
+country_code: CN
+depth_tier: DISCOVERY
+aliases: [GR-1]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: HUMANOID
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: fourier-site
+    excerpt: GR-1 is presented as a general-purpose humanoid robot.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: PILOT_DEPLOYMENTS
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: fourier-site
+    excerpt: Offered to research and development customers rather than as a production line robot.

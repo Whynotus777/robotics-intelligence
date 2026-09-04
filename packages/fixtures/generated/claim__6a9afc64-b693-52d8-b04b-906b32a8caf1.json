@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "6a9afc64-b693-52d8-b04b-906b32a8caf1",
+    "subject": {
+      "id": "0f04ed2f-3cb7-5835-926a-1fbf13fa03ad",
+      "slug": "abb-irb-6700",
+      "entity_type": "ROBOT",
+      "name": "ABB IRB 6700",
+      "primary_embodiment": "INDUSTRIAL_ARM"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "ABB IRB 6700 commercial stage VOLUME_PRODUCTION",
+    "value": {
+      "kind": "enum",
+      "value": "VOLUME_PRODUCTION"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c2efaceb-ba72-53f5-b4a9-f9bad67bdaf3",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Sold as a catalogue product in multiple payload and reach variants.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "b9c6f20a-84bf-54bc-8703-76731dc817d9",
+        "url": "https://new.abb.com/products/robotics/robots/articulated-robots/irb-6700",
+        "canonical_url": null,
+        "publisher": "ABB",
+        "title": "IRB 6700 articulated robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

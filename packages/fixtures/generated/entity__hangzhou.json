@@ -36,6 +36,25 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "3757ed57-44a5-5bf4-bb78-38d052d1c5ed",
+          "source": {
+            "id": "eb46b6af-ce87-5ea9-adb0-183491fa85f7",
+            "slug": "deep-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Deep Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "d4a63105-14e5-58ea-bd78-5e2e2b67b581",
           "source": {
             "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
@@ -60,6 +79,13 @@
   "lateral_links": {
     "company": [
       {
+        "id": "eb46b6af-ce87-5ea9-adb0-183491fa85f7",
+        "slug": "deep-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Deep Robotics",
+        "primary_embodiment": null
+      },
+      {
         "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
         "slug": "unitree",
         "entity_type": "ORGANIZATION",
@@ -83,7 +109,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

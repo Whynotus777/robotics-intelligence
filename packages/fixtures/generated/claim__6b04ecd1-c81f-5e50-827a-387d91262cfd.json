@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "6b04ecd1-c81f-5e50-827a-387d91262cfd",
+    "subject": {
+      "id": "1846bec8-e521-5a03-8035-1633f971e390",
+      "slug": "sanctuary-phoenix",
+      "entity_type": "ROBOT",
+      "name": "Sanctuary Phoenix",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "Sanctuary Phoenix commercial stage PROTOTYPE",
+    "value": {
+      "kind": "enum",
+      "value": "PROTOTYPE"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b4456721-dde1-5abb-a59e-b53a98ce80c2",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Presented as a research and pilot platform rather than a catalogue product.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "cd37915c-bda5-549a-bbc1-a507f8dbf081",
+        "url": "https://www.sanctuary.ai/",
+        "canonical_url": null,
+        "publisher": "Sanctuary AI",
+        "title": "Sanctuary AI",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

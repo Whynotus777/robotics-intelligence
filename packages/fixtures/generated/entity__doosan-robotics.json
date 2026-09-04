@@ -1,0 +1,301 @@
+{
+  "entity": {
+    "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+    "slug": "doosan-robotics",
+    "entity_type": "ORGANIZATION",
+    "name": "Doosan Robotics",
+    "short_description": "Korean cobot maker, listed in Seoul in 2023; M, A and H series collaborative arms built near Suwon.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "KR",
+    "aliases": [
+      "Doosan"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "2b921790-9c83-563e-8e25-a50ed6f1985c",
+          "target": {
+            "id": "f89a18fb-337d-5e25-91da-66048da131d4",
+            "slug": "suwon",
+            "entity_type": "PLACE",
+            "name": "Suwon",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "892e0cc2-ba6f-5d68-ab89-54123cb21ade",
+          "target": {
+            "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+            "slug": "cnc-machine-tending",
+            "entity_type": "TASK",
+            "name": "CNC machine tending",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "dd2c834f-de82-5cb2-8fd8-89982efc850b",
+          "target": {
+            "id": "60245a27-6286-59df-a3ed-9487c3c0d92a",
+            "slug": "palletizing",
+            "entity_type": "TASK",
+            "name": "Palletizing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "c8ca2160-5a82-576e-9eb8-e3af940d721b",
+          "target": {
+            "id": "fea14c4f-a335-569e-8de3-bc4b6a94b6ea",
+            "slug": "doosan-m1013",
+            "entity_type": "ROBOT",
+            "name": "Doosan M1013",
+            "primary_embodiment": "COBOT"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "e406c5e3-899f-57b8-8f36-5d1dad5eff97",
+          "target": {
+            "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+            "slug": "manufacturing",
+            "entity_type": "MARKET",
+            "name": "Manufacturing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "18eccd5a-4957-5db2-8ee8-245a42281a47",
+          "source": {
+            "id": "2bea54e2-cb77-5728-b445-707f09039b05",
+            "slug": "cobot-palletizer",
+            "entity_type": "APPROACH",
+            "name": "Cobot palletizer",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "1bc344fe-c7ae-5160-b3a4-7c8d44962b8b",
+          "source": {
+            "id": "328424e6-545a-582d-8d5a-fae72ba2626b",
+            "slug": "force-controlled-assembly",
+            "entity_type": "APPROACH",
+            "name": "Force-controlled robotic assembly",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "c708c870-02c9-5b36-9041-917193d3a9b3",
+          "source": {
+            "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
+            "slug": "cobot-tending-cell",
+            "entity_type": "APPROACH",
+            "name": "Cobot tending cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "e1050649-05e3-5ab0-8943-5c5937527205",
+          "source": {
+            "id": "05ee564d-1a73-5207-a2d6-212eadbedb06",
+            "slug": "cobot-welding",
+            "entity_type": "APPROACH",
+            "name": "Cobot welding",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "2bea54e2-cb77-5728-b445-707f09039b05",
+        "slug": "cobot-palletizer",
+        "entity_type": "APPROACH",
+        "name": "Cobot palletizer",
+        "primary_embodiment": null
+      },
+      {
+        "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
+        "slug": "cobot-tending-cell",
+        "entity_type": "APPROACH",
+        "name": "Cobot tending cell",
+        "primary_embodiment": null
+      },
+      {
+        "id": "05ee564d-1a73-5207-a2d6-212eadbedb06",
+        "slug": "cobot-welding",
+        "entity_type": "APPROACH",
+        "name": "Cobot welding",
+        "primary_embodiment": null
+      },
+      {
+        "id": "328424e6-545a-582d-8d5a-fae72ba2626b",
+        "slug": "force-controlled-assembly",
+        "entity_type": "APPROACH",
+        "name": "Force-controlled robotic assembly",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+        "slug": "manufacturing",
+        "entity_type": "MARKET",
+        "name": "Manufacturing",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "f89a18fb-337d-5e25-91da-66048da131d4",
+        "slug": "suwon",
+        "entity_type": "PLACE",
+        "name": "Suwon",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 5,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 5,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 5,
+    "deployment_count": 0,
+    "related_count": 9
+  },
+  "as_of": null
+}

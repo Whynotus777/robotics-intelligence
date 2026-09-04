@@ -1,0 +1,78 @@
+{
+  "claim": {
+    "claim_id": "78599645-a52a-5884-873e-377551062f43",
+    "subject": {
+      "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+      "slug": "nvidia",
+      "entity_type": "ORGANIZATION",
+      "name": "NVIDIA",
+      "primary_embodiment": null
+    },
+    "predicate": "DEVELOPS",
+    "label": "develops",
+    "sentence": "NVIDIA develops NVIDIA Isaac GR00T N1",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "416d598d-01ab-563f-ba08-b6c58a9c6320",
+        "slug": "nvidia-isaac-gr00t-n1",
+        "entity_type": "MODEL",
+        "name": "NVIDIA Isaac GR00T N1",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "859486b5-9ffb-542e-8040-a733ab7f125d",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Isaac GR00T is presented as NVIDIA's humanoid foundation-model family.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "89d29371-af16-52fd-b599-7f89b63a311a",
+        "url": "https://developer.nvidia.com/isaac/gr00t",
+        "canonical_url": null,
+        "publisher": "NVIDIA",
+        "title": "NVIDIA Isaac GR00T foundation models",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "fed75d3d-8f86-5013-988e-7e75672191bd",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "7a815a44-1bd7-5a3c-b191-f9ce732e5ec1",
+          "slug": "nvidia-isaac-sim",
+          "entity_type": "SOFTWARE_PRODUCT",
+          "name": "NVIDIA Isaac Sim",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,28 @@
+slug: fixed-machine-vision-station
+entity_type: APPROACH
+name: Fixed machine vision station
+short_description: Cameras and lights bolted around a conveyor, inspecting every part in the same pose at line rate.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: MATURE
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Fixed vision is a decades-old, thoroughly validated category with an entrenched vendor set and quality departments that already know how to sign it off. It is the incumbent any robotic inspection approach must beat, and on repeat parts it usually wins.
+          advance_criteria:
+            - Already at the top of the scale
+          regress_criteria:
+            - Part variety rising fast enough that fixed optics stop being requalifiable
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Repeatable part presentation
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Fixed optics assume the part arrives in the same pose every time; the fixture, not the camera, is what actually makes the inspection work, and it is what has to be rebuilt for every new part.
+          advance_criteria: ["Would be relaxed by pose-invariant learned inspection models."]
+          reviewed_at: 2026-09-01

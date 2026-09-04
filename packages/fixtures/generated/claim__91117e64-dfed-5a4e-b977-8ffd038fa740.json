@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "91117e64-dfed-5a4e-b977-8ffd038fa740",
+    "subject": {
+      "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
+      "slug": "cobot-tending-cell",
+      "entity_type": "APPROACH",
+      "name": "Cobot tending cell",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Cobot tending cell maturity MATURE",
+    "value": {
+      "kind": "enum",
+      "value": "MATURE"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a556913a-f594-5a7b-bfe0-4d1ad7c00095",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Every major cobot vendor sells a packaged tending cell, integrators quote them from a photo of the machine, and the payback is arithmetic rather than argument. There is no open technical question here — the constraint is the customer's willingness to standardise fixturing.",
+        "advance_criteria": [
+          "Already at the top of the scale; watch for price compression as Asian vendors take share"
+        ],
+        "regress_criteria": [
+          "A safety-standard change that reintroduces fencing around collaborative cells"
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

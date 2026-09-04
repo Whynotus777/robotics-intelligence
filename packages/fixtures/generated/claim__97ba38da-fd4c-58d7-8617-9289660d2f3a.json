@@ -1,0 +1,60 @@
+{
+  "claim": {
+    "claim_id": "97ba38da-fd4c-58d7-8617-9289660d2f3a",
+    "subject": {
+      "id": "d8f60b1b-aa0b-56e5-b406-351cb45a68fb",
+      "slug": "robot-mounted-vision-inspection",
+      "entity_type": "APPROACH",
+      "name": "Robot-mounted vision inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "REQUIRES_TECHNOLOGY",
+    "label": "requires",
+    "sentence": "Robot-mounted vision inspection requires Depth cameras",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
+        "slug": "depth-cameras",
+        "entity_type": "TECHNOLOGY",
+        "name": "Depth cameras",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b62c29f4-67d1-510c-9777-7579d4f576f9",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Pose-accurate imaging of a three-dimensional part needs depth or structured light to hold standoff and detect geometric defects; a flat 2D camera only catches surface features.",
+        "advance_criteria": [
+          "Would be relaxed for purely surface-appearance inspection."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

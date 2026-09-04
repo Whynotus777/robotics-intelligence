@@ -1,0 +1,30 @@
+slug: exotec-skypod
+entity_type: ROBOT
+name: Exotec Skypod
+short_description: Tote-handling robot that drives on the floor and then climbs the rack face, trading a fixed crane for a fleet of climbers.
+primary_embodiment: AMR
+country_code: FR
+depth_tier: DISCOVERY
+aliases: [Skypod]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: AMR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: exotec-skypod-page
+    excerpt: Skypod robots move on the floor and climb racking to retrieve totes.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: COMMERCIAL
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: exotec-skypod-page
+    excerpt: Sold as an installed system to retail and industrial customers.
+- predicate: TARGETS_TASK
+  object: automated-storage-and-retrieval
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: exotec-skypod-page
+    excerpt: The system performs storage and retrieval of totes.

@@ -1,0 +1,60 @@
+{
+  "claim": {
+    "claim_id": "0c9cef72-efa4-5d19-abfa-766d8264522b",
+    "subject": {
+      "id": "6eed56ac-41c3-573d-be63-dac3ff72ece3",
+      "slug": "anybotics-anymal-d",
+      "entity_type": "ROBOT",
+      "name": "ANYbotics ANYmal D",
+      "primary_embodiment": "QUADRUPED"
+    },
+    "predicate": "COMPETES_WITH",
+    "label": "competes with",
+    "sentence": "ANYbotics ANYmal D competes with Boston Dynamics Spot",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+        "slug": "boston-dynamics-spot",
+        "entity_type": "ROBOT",
+        "name": "Boston Dynamics Spot",
+        "primary_embodiment": "QUADRUPED"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bfa2c988-ef4e-5436-abde-722f2e55ce63",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Both are sold to the same buyer for the same job — autonomous inspection rounds on process and utility sites — and customers evaluate them head to head on autonomy, hazardous-area certification and data pipeline rather than on locomotion.",
+        "advance_criteria": [
+          "Would change if either vendor exits industrial inspection for a different primary market"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

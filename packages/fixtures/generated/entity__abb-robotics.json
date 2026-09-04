@@ -52,6 +52,50 @@
       ]
     },
     {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "2fd5d2a6-633e-51c7-8b0c-a866ba047162",
+          "target": {
+            "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+            "slug": "cnc-machine-tending",
+            "entity_type": "TASK",
+            "name": "CNC machine tending",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "945c2551-d4a9-5aed-a21a-7fe4962e6fc8",
+          "target": {
+            "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
+            "slug": "industrial-welding",
+            "entity_type": "TASK",
+            "name": "Industrial welding",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "MANUFACTURES_AT",
       "label": "manufactures at",
       "items": [
@@ -71,6 +115,31 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "cf75714e-7877-58c8-8ad4-13033f7e62ca",
+          "target": {
+            "id": "0f04ed2f-3cb7-5835-926a-1fbf13fa03ad",
+            "slug": "abb-irb-6700",
+            "entity_type": "ROBOT",
+            "name": "ABB IRB 6700",
+            "primary_embodiment": "INDUSTRIAL_ARM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
             "source_count": 1
           }
         }
@@ -102,8 +171,69 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "2ba9bbb6-b054-55dc-863f-500676f5dfaf",
+          "source": {
+            "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
+            "slug": "robotic-arc-welding-cell",
+            "entity_type": "APPROACH",
+            "name": "Robotic arc welding cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "af2f15ac-0971-5b35-b771-1804f4e950be",
+          "source": {
+            "id": "421d32b6-1844-5d0b-8ee9-d6995cf143dd",
+            "slug": "caged-arm-tending-cell",
+            "entity_type": "APPROACH",
+            "name": "Caged arm tending cell",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "categories": [
+      {
+        "id": "421d32b6-1844-5d0b-8ee9-d6995cf143dd",
+        "slug": "caged-arm-tending-cell",
+        "entity_type": "APPROACH",
+        "name": "Caged arm tending cell",
+        "primary_embodiment": null
+      },
+      {
+        "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
+        "slug": "robotic-arc-welding-cell",
+        "entity_type": "APPROACH",
+        "name": "Robotic arc welding cell",
+        "primary_embodiment": null
+      }
+    ],
     "markets": [
       {
         "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
@@ -133,19 +263,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 3,
+        "PRIMARY": 6,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 6,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 6,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 8
   },
   "as_of": null
 }

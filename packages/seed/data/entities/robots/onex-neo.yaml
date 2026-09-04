@@ -1,0 +1,31 @@
+slug: onex-neo
+entity_type: ROBOT
+name: 1X NEO
+short_description: Tendon-driven home humanoid designed to be safe to stand next to; softness is the safety argument instead of force limiting a rigid arm.
+primary_embodiment: HUMANOID
+country_code: 'NO'
+depth_tier: DISCOVERY
+aliases: [NEO]
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: HUMANOID
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: onex-neo-page
+    excerpt: NEO is presented as a humanoid robot.
+- predicate: HAS_COMMERCIAL_STAGE
+  enum: PILOT_DEPLOYMENTS
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: onex-neo-page
+    excerpt: Early home deployments are described as a limited programme rather than general availability.
+- predicate: HAS_ARCHITECTURE_NOTE
+  stack_layer: ACTUATION
+  text: Tendon-driven, deliberately compliant actuation instead of rigid geared joints, which lowers the injury risk in a home but caps peak force and complicates precise position control.
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: onex-neo-page
+    excerpt: Product page describes a soft, tendon-driven design intended for safe human contact.

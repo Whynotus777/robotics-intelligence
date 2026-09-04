@@ -1,0 +1,97 @@
+{
+  "claim": {
+    "claim_id": "7e982248-c580-5d07-bffb-0d242914d9a8",
+    "subject": {
+      "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+      "slug": "cnc-machine-tending",
+      "entity_type": "TASK",
+      "name": "CNC machine tending",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_APPROACH",
+    "label": "has approach",
+    "sentence": "CNC machine tending has approach Caged arm tending cell",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "421d32b6-1844-5d0b-8ee9-d6995cf143dd",
+        "slug": "caged-arm-tending-cell",
+        "entity_type": "APPROACH",
+        "name": "Caged arm tending cell",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "780dfa8a-78c8-588f-a7f4-acb6bef016c4",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The fenced arm remains the default whenever cycle time or payload rules out a collaborative arm.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "0452f793-64f0-5c74-8489-22864cd52747",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
+          "slug": "cobot-tending-cell",
+          "entity_type": "APPROACH",
+          "name": "Cobot tending cell",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "4315cda4-0e26-5be8-8bde-84c3c3d06395",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "d6c78acc-fb7b-568f-b1af-28f50449cb17",
+          "slug": "mobile-manipulator-tending",
+          "entity_type": "APPROACH",
+          "name": "Mobile manipulator tending",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

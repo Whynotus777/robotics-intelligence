@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "b2f34709-fbe4-5a78-9715-a9c96c44c4cc",
+    "subject": {
+      "id": "e236fea6-114c-54cc-a269-490132d532fa",
+      "slug": "autostore-r5",
+      "entity_type": "ROBOT",
+      "name": "AutoStore R5",
+      "primary_embodiment": "OTHER_MOBILE"
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "AutoStore R5 targets task Automated storage and retrieval",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+        "slug": "automated-storage-and-retrieval",
+        "entity_type": "TASK",
+        "name": "Automated storage and retrieval",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6e438d47-88d3-5277-af07-fcf9f23e73ed",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "The system is sold as automated storage and retrieval.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e8bdbd90-039a-5e80-8a46-ecd5fbb5be8a",
+        "url": "https://www.autostoresystem.com/",
+        "canonical_url": null,
+        "publisher": "AutoStore",
+        "title": "AutoStore",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

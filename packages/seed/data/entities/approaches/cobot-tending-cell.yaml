@@ -1,0 +1,56 @@
+slug: cobot-tending-cell
+entity_type: APPROACH
+name: Cobot tending cell
+short_description: A collaborative arm parked at a machine door, loading and unloading blanks and finished parts without a fence.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: MATURE
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Every major cobot vendor sells a packaged tending cell, integrators quote them from a photo of the machine, and the payback is arithmetic rather than argument. There is no open technical question here — the constraint is the customer's willingness to standardise fixturing.
+          advance_criteria:
+            - Already at the top of the scale; watch for price compression as Asian vendors take share
+          regress_criteria:
+            - A safety-standard change that reintroduces fencing around collaborative cells
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: COBOT
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: doosan-m-series-page
+        excerpt: Machine tending is a named application for the collaborative arm range.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: universal-robots
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: ur-site
+        excerpt: Machine tending is listed as an application for Universal Robots arms.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: doosan-robotics
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: doosan-m-series-page
+        excerpt: Machine tending is a named application for the M series.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: techman-robot
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: techman-site
+        excerpt: Machine tending is presented among the supported applications.
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Reach into the machine envelope without fencing
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The unfenced footprint is the entire reason a cobot is chosen over a caged arm; if the risk assessment forces a fence, the cheaper industrial arm wins on cycle time.
+          advance_criteria: ["Would be relaxed by machine builders shipping robot-ready doors and interlocks."]
+          reviewed_at: 2026-09-01

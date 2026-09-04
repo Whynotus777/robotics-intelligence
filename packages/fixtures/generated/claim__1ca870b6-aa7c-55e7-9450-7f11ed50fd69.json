@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "1ca870b6-aa7c-55e7-9450-7f11ed50fd69",
+    "subject": {
+      "id": "2b6c10f5-2b2d-57f9-bca9-b5826f71f58f",
+      "slug": "wingcopter",
+      "entity_type": "ORGANIZATION",
+      "name": "Wingcopter",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Wingcopter is headquartered at Darmstadt",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "6d438612-a3c6-548f-99f6-3f8ee7ba6388",
+        "slug": "darmstadt",
+        "entity_type": "PLACE",
+        "name": "Darmstadt",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "331c40a1-ba0c-5f51-8501-327e6f782ccd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4fa83c89-950d-55c1-8a12-6a22037d0bcb",
+        "url": "https://wingcopter.com/",
+        "canonical_url": null,
+        "publisher": "Wingcopter",
+        "title": "Wingcopter",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

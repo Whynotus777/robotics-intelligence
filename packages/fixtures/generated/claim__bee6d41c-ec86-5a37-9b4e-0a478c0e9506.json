@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "bee6d41c-ec86-5a37-9b4e-0a478c0e9506",
+    "subject": {
+      "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+      "slug": "in-process-inspection",
+      "entity_type": "TASK",
+      "name": "In-process inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "In-process inspection maturity SCALING",
+    "value": {
+      "kind": "enum",
+      "value": "SCALING"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3119d348-dfb3-5453-8f1c-dcc6bfc307b2",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Fixed machine vision has been production-standard for decades and learned defect detection is now shipping in real plants, not just pilots — which puts this well past early commercial. It is not mature because the two halves have not merged: the fixed station is validated but blind to new parts, and the learned model that handles variety still struggles to get through a quality department's sign-off. Scaling, with the sign-off problem as the gate.",
+        "advance_criteria": [
+          "Learned defect models accepted as the system of record in customer quality systems",
+          "Inspection requalified for a new part without re-engineering the optics",
+          "Arm-mounted inspection matching fixed-station cycle times on production lines"
+        ],
+        "regress_criteria": [
+          "A quality escape traced to a learned model that pushes buyers back to rule-based vision"
+        ],
+        "evidence_considered": [
+          {
+            "claim_id": "c3f60fe4-0104-5548-967d-cc1b81145fdf",
+            "sentence": "Fixed machine vision station maturity MATURE"
+          },
+          {
+            "claim_id": "ba197658-b313-5854-a7b9-21d645508a3b",
+            "sentence": "Robot-mounted vision inspection maturity EARLY_COMMERCIAL"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

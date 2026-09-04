@@ -1,0 +1,28 @@
+slug: wingcopter
+entity_type: ORGANIZATION
+name: Wingcopter
+short_description: Darmstadt maker of tilt-rotor delivery eVTOLs aimed at medical and hard-to-reach logistics rather than consumer parcels.
+country_code: DE
+depth_tier: DISCOVERY
+claims:
+- predicate: HQ_AT
+  object: darmstadt
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: wingcopter-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: healthcare
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: wingcopter-site
+    excerpt: Medical and humanitarian delivery is a named use case.
+- predicate: BUILDS
+  object: wingcopter-198
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: wingcopter-198-page
+    excerpt: Wingcopter 198 product page.

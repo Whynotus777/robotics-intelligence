@@ -1,0 +1,79 @@
+{
+  "claim": {
+    "claim_id": "d43fc8ee-6d93-5b87-80be-b798bcc3072a",
+    "subject": {
+      "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
+      "slug": "cnc-machine-tending",
+      "entity_type": "TASK",
+      "name": "CNC machine tending",
+      "primary_embodiment": null
+    },
+    "predicate": "ADJACENT_TO",
+    "label": "is adjacent to",
+    "sentence": "CNC machine tending is adjacent to Assembly",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
+        "slug": "assembly",
+        "entity_type": "TASK",
+        "name": "Assembly",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "eaaadbcf-8209-5ed7-8985-77ae38cc3484",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The same arm, cell and integrator serve both, and shops that automate tending are the ones that next look at assembly.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "e9883765-7602-5cfa-8d10-c8db9f009edb",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
+          "slug": "in-process-inspection",
+          "entity_type": "TASK",
+          "name": "In-process inspection",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

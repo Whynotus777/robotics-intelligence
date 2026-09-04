@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "478a7644-e22a-5cec-b562-8723e3569ad4",
+    "subject": {
+      "id": "05ee564d-1a73-5207-a2d6-212eadbedb06",
+      "slug": "cobot-welding",
+      "entity_type": "APPROACH",
+      "name": "Cobot welding",
+      "primary_embodiment": null
+    },
+    "predicate": "USES_EMBODIMENT",
+    "label": "uses embodiment",
+    "sentence": "Cobot welding uses embodiment COBOT",
+    "value": {
+      "kind": "enum",
+      "value": "COBOT"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "214ad745-e195-5e9d-a410-cc90537c41b2",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Welding is listed among collaborative robot applications.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "01df52f5-a475-5904-b615-77d31452be55",
+        "url": "https://www.universal-robots.com/",
+        "canonical_url": null,
+        "publisher": "Universal Robots",
+        "title": "Universal Robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

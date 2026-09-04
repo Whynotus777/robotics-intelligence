@@ -1,0 +1,22 @@
+slug: hesai
+entity_type: ORGANIZATION
+name: Hesai Technology
+short_description: Shanghai lidar maker shipping at automotive volumes; price per unit is the competitive weapon.
+country_code: CN
+depth_tier: DISCOVERY
+aliases: [Hesai]
+claims:
+- predicate: HQ_AT
+  object: shanghai
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: hesai-site
+    excerpt: Company site gives the headquarters location.
+- predicate: PROVIDES
+  object: hesai-at128
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: hesai-at128-page
+    excerpt: AT128 product page.

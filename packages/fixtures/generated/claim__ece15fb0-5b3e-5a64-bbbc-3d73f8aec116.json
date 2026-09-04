@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "ece15fb0-5b3e-5a64-bbbc-3d73f8aec116",
+    "subject": {
+      "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
+      "slug": "robotic-arc-welding-cell",
+      "entity_type": "APPROACH",
+      "name": "Robotic arc welding cell",
+      "primary_embodiment": null
+    },
+    "predicate": "USES_EMBODIMENT",
+    "label": "uses embodiment",
+    "sentence": "Robotic arc welding cell uses embodiment INDUSTRIAL_ARM",
+    "value": {
+      "kind": "enum",
+      "value": "INDUSTRIAL_ARM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "590b5054-c45a-5739-a68b-c7d5f0483f70",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Arc welding is a named application across the robot range.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "38fa7e84-07c3-5b54-8d14-a05d9cdf987a",
+        "url": "https://www.yaskawa-global.com/",
+        "canonical_url": null,
+        "publisher": "Yaskawa Electric",
+        "title": "Yaskawa Electric Corporation",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

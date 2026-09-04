@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "d943ceb0-3513-5858-8f87-43116205b3d4",
+    "subject": {
+      "id": "d8f60b1b-aa0b-56e5-b406-351cb45a68fb",
+      "slug": "robot-mounted-vision-inspection",
+      "entity_type": "APPROACH",
+      "name": "Robot-mounted vision inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "Robot-mounted vision inspection example vendor Techman Robot",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
+        "slug": "techman-robot",
+        "entity_type": "ORGANIZATION",
+        "name": "Techman Robot",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f61304e7-769f-5aec-9c37-6f4a496da228",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Built-in vision is presented for inspection work.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "59d19680-a800-5a6d-8772-9bd3e2068103",
+        "url": "https://www.tm-robot.com/en/tm12-tm14/",
+        "canonical_url": null,
+        "publisher": "Techman Robot",
+        "title": "TM12 and TM14 collaborative robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

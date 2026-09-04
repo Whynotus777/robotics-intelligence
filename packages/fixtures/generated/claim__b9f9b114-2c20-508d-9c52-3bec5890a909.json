@@ -1,0 +1,53 @@
+{
+  "claim": {
+    "claim_id": "b9f9b114-2c20-508d-9c52-3bec5890a909",
+    "subject": {
+      "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
+      "slug": "cobot-tending-cell",
+      "entity_type": "APPROACH",
+      "name": "Cobot tending cell",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_TECHNICAL_REQUIREMENT",
+    "label": "technical requirement",
+    "sentence": "Cobot tending cell technical requirement Reach into the machine envelope without fencing",
+    "value": {
+      "kind": "text",
+      "text": "Reach into the machine envelope without fencing"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e285b977-e3e2-5d0a-b550-ec5b807648c1",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The unfenced footprint is the entire reason a cobot is chosen over a caged arm; if the risk assessment forces a fence, the cheaper industrial arm wins on cycle time.",
+        "advance_criteria": [
+          "Would be relaxed by machine builders shipping robot-ready doors and interlocks."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}
