@@ -13,10 +13,12 @@ jobs:
       DATABASE_URL: postgres://ri:ri@localhost:5432/robotics_intelligence
     steps:
       - uses: actions/checkout@v4
+      # No `version:` here — package.json's packageManager field is the single
+      # source of truth. Setting both fails the step before anything installs.
       - uses: pnpm/action-setup@v4
-        with: { version: 10 }
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: pnpm }
       - run: pnpm install --frozen-lockfile
       - run: pnpm db:migrate && pnpm seed && pnpm fixtures && pnpm check
+      - run: pnpm --filter web build
       - run: git diff --exit-code -- packages/fixtures/generated || (echo "fixtures drifted; run pnpm fixtures" && exit 1)
