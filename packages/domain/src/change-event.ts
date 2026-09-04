@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { ChangeEventType } from "./enums.js";
 
-/** Read model in 0a (hand-seeded); in 0b the approve/supersede path is the sole writer. */
+/** Derived read model; the approve/supersede write paths are its sole writers. */
 export const ChangeEventRow = z.object({
   id: z.uuid(),
   event_type: ChangeEventType,

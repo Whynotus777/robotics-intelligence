@@ -35,7 +35,6 @@ export async function insertRows(db: Db, rows: SeedRows): Promise<void> {
     await insertAll((r) => tx.insert(claimDependencies).values(r), rows.dependencies);
     await insertAll((r) => tx.insert(evidence).values(r), rows.evidence);
     await insertAll((r) => tx.insert(assessments).values(r), rows.assessments);
-    await insertAll((r) => tx.insert(changeEvents).values(r), rows.changeEvents);
     await insertAll((r) => tx.insert(embodimentLayerLabels).values(r), rows.layerLabels);
   });
   await recomputeCachedColumns(db);

@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { Confidence, EvidenceClass, EvidenceStance, SourceKind } from "./enums.js";
+import { Confidence, EvidenceClass, EvidenceStance, ExtractionStatus, LicensePolicy, RefreshCadence, ReviewAction, SourceKind } from "./enums.js";
 
 /** Canonical source identity. 0b extends this same table with operational fields. */
 export const SourceRow = z.object({
@@ -11,6 +11,14 @@ export const SourceRow = z.object({
   source_kind: SourceKind,
   published_at: z.iso.datetime().nullable(),
   language: z.string().max(8).nullable(),
+  license_policy: LicensePolicy,
+  fetched_at: z.iso.datetime().nullable(),
+  content_hash: z.string().nullable(),
+  extraction_status: ExtractionStatus,
+  refresh_cadence: RefreshCadence,
+  next_check_at: z.iso.datetime().nullable(),
+  priority: z.number().int(),
+  latest_snapshot_id: z.uuid().nullable(),
 });
 export type SourceRow = z.infer<typeof SourceRow>;
 
@@ -48,3 +56,23 @@ export const AssessmentRow = z.object({
   notes: z.string().nullable(),
 });
 export type AssessmentRow = z.infer<typeof AssessmentRow>;
+
+export const SourceSnapshotRow = z.object({
+  id: z.uuid(),
+  source_id: z.uuid(),
+  fetched_at: z.iso.datetime(),
+  content_hash: z.string(),
+  snapshot_pointer: z.string().min(1),
+});
+export type SourceSnapshotRow = z.infer<typeof SourceSnapshotRow>;
+
+export const ReviewActionRow = z.object({
+  id: z.uuid(),
+  claim_id: z.uuid(),
+  reviewer: z.string().min(1),
+  action: ReviewAction,
+  acted_at: z.iso.datetime(),
+  resulting_claim_id: z.uuid().nullable(),
+  reason: z.string().nullable(),
+});
+export type ReviewActionRow = z.infer<typeof ReviewActionRow>;

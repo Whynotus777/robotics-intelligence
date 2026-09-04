@@ -25,7 +25,7 @@ Eleven canonical layers (INTELLIGENCE … MECHANICAL) + SAFETY cross-cutting. `e
 MARKET (sector) → MARKET (domain) → TASK. Tasks carry structured claims: HAS_INCUMBENT_PROCESS, HAS_MATURITY, HAS_APPROACH → APPROACH, REQUIRES_TECHNOLOGY, HAS_ADOPTION_BLOCKER, HAS_CUSTOMER_TYPE, ADJACENT_TO, HAS_ECONOMICS_NOTE. Vendors and deployments are derived from TARGETS_TASK and SERVES_TASK.
 
 ## Sources and change events
-`sources` (identity fields in 0a; operational fields added in 0b). `change_events` (read model in 0a, seeded historically; sole writer becomes the approve/supersede path in 0b).
+`sources` has canonical identity plus its 0b fetch state, reuse policy, cadence, priority and latest snapshot pointer; `source_snapshots` preserves fetch history. `change_events` is a derived read model whose only writers are the approve/supersede paths.
 
 ## Predicate families
 Organization predicates are BUILDS, DEVELOPS, PROVIDES, TARGETS_MARKET, TARGETS_TASK, PARTNERS_WITH, ACQUIRED, PUBLISHES, HQ_AT, RND_AT, MANUFACTURES_AT, FUNDED, and FOUNDED_ON. Robot predicates include stack membership (USES_PRODUCT and USES_TECHNOLOGY), generation/family links, task/competition/model links, benchmark scores, and physical/commercial scalar claims. Deployments link robot, customer, operator, place and task. Market/task predicates model hierarchy, maturity, approaches, technologies, incumbents, customer types, blockers, adjacency and economics. Product/model predicates connect instances, makers, papers, benchmarks and datasets. The complete machine-readable registry is intentionally adjacent to validation code rather than copied into prose.

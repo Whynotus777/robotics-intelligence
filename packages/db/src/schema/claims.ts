@@ -1,7 +1,7 @@
 import { sql } from "drizzle-orm";
 import { boolean, check, date, doublePrecision, index, pgTable, primaryKey, text, timestamp, uuid } from "drizzle-orm/pg-core";
 import { entities } from "./entities.js";
-import { claimStatusEnum, stackLayerEnum } from "./enums.js";
+import { claimOriginEnum, claimStatusEnum, stackLayerEnum } from "./enums.js";
 
 export const claims = pgTable(
   "claims",
@@ -23,6 +23,7 @@ export const claims = pgTable(
     valueDate: date("value_date", { mode: "string" }),
     stackLayer: stackLayerEnum("stack_layer"),
     status: claimStatusEnum("status").notNull().default("PROPOSED"),
+    origin: claimOriginEnum("origin").notNull().default("MANUAL"),
     validFrom: date("valid_from", { mode: "string" }).notNull(),
     validTo: date("valid_to", { mode: "string" }),
     observedAt: timestamp("observed_at", { withTimezone: true, mode: "string" }).notNull(),

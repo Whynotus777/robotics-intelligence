@@ -55,6 +55,17 @@ export const entityAliases = pgTable(
   ],
 );
 
+/** Stable foreign identifiers supplied by data sources; no ML resolution is implied. */
+export const externalIds = pgTable(
+  "external_ids",
+  {
+    entityId: uuid("entity_id").notNull().references(() => entities.id, { onDelete: "cascade" }),
+    system: text("system").notNull(),
+    externalId: text("external_id").notNull(),
+  },
+  (t) => [uniqueIndex("external_ids_system_id_idx").on(t.system, t.externalId), index("external_ids_entity_idx").on(t.entityId)],
+);
+
 /** PLACE extension. */
 export const places = pgTable("places", {
   entityId: uuid("entity_id")

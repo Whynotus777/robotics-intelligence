@@ -1,6 +1,5 @@
 import {
   CANONICAL_LAYERS,
-  ChangeEventType,
   normalizeName,
   validateClaimShape,
   type EntityType,
@@ -8,7 +7,6 @@ import {
 } from "@ri/domain";
 import type {
   assessments,
-  changeEvents,
   claimDependencies,
   claims,
   embodimentLayerLabels,
@@ -18,7 +16,7 @@ import type {
   places,
   sources,
 } from "@ri/db";
-import { changeEventId, claimId, entityId, evidenceId, sourceId } from "./ids.js";
+import { claimId, entityId, evidenceId, sourceId } from "./ids.js";
 import type { SeedInput } from "./read.js";
 
 /** Editorial defaults for timestamps the YAML leaves out. */
@@ -35,7 +33,6 @@ export interface SeedRows {
   dependencies: (typeof claimDependencies.$inferInsert)[];
   evidence: (typeof evidence.$inferInsert)[];
   assessments: (typeof assessments.$inferInsert)[];
-  changeEvents: (typeof changeEvents.$inferInsert)[];
   layerLabels: (typeof embodimentLayerLabels.$inferInsert)[];
 }
 
@@ -59,7 +56,6 @@ export function buildRows(input: SeedInput): SeedRows {
     dependencies: [],
     evidence: [],
     assessments: [],
-    changeEvents: [],
     layerLabels: [],
   };
 
@@ -73,6 +69,11 @@ export function buildRows(input: SeedInput): SeedRows {
       sourceKind: s.source_kind,
       publishedAt: s.published_at ? ts(s.published_at) : null,
       language: s.language,
+      licensePolicy: s.license_policy,
+      extractionStatus: s.extraction_status,
+      refreshCadence: s.refresh_cadence,
+      nextCheckAt: s.next_check_at ? ts(s.next_check_at) : null,
+      priority: s.priority,
     });
   }
 
@@ -163,6 +164,7 @@ export function buildRows(input: SeedInput): SeedRows {
         valueDate: shape.value_date,
         stackLayer: shape.stack_layer,
         status: c.status,
+        origin: c.origin,
         validFrom: validFrom,
         validTo: shape.valid_to,
         observedAt: ts(observed),
@@ -221,27 +223,6 @@ export function buildRows(input: SeedInput): SeedRows {
           });
         }
       });
-    });
-  }
-
-  for (const ev of input.changeEvents) {
-    const type = ChangeEventType.safeParse(ev.event_type);
-    if (!type.success) problems.push(`change event ${ev.key}: bad event_type ${ev.event_type}`);
-    if (!typeBySlug.has(ev.entity)) problems.push(`change event ${ev.key}: entity ${ev.entity} does not exist`);
-    for (const ref of [ev.before, ev.after]) if (ref && !claimRefs.has(ref)) problems.push(`change event ${ev.key}: claim ${ref} does not exist`);
-    const toId = (ref?: string) => {
-      if (!ref) return null;
-      const [s, k] = ref.split(":") as [string, string];
-      return claimId(s, k);
-    };
-    rows.changeEvents.push({
-      id: changeEventId(ev.key),
-      eventType: type.success ? type.data : "CLAIM_CHANGED",
-      entityId: entityId(ev.entity),
-      beforeClaimId: toId(ev.before),
-      afterClaimId: toId(ev.after),
-      observedAt: ts(ev.observed_at),
-      summary: ev.summary,
     });
   }
 

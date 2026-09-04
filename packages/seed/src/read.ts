@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
-import { SeedChangeEvent, SeedEntity, SeedLayerLabels, SeedSource } from "./schema.js";
+import { SeedEntity, SeedLayerLabels, SeedSource } from "./schema.js";
 import type { z } from "zod";
 
 export const DATA_DIR = new URL("../data/", import.meta.url).pathname;
@@ -27,14 +27,12 @@ function parseFile<T extends z.ZodTypeAny>(file: string, schema: T): z.infer<T> 
 export interface SeedInput {
   entities: z.infer<typeof SeedEntity>[];
   sources: z.infer<typeof SeedSource>[];
-  changeEvents: z.infer<typeof SeedChangeEvent>[];
   layerLabels: z.infer<typeof SeedLayerLabels>;
 }
 
 export function readSeedData(dataDir: string = DATA_DIR): SeedInput {
   const entities = yamlFiles(join(dataDir, "entities")).map((f) => parseFile(f, SeedEntity));
   const sources = yamlFiles(join(dataDir, "sources")).flatMap((f) => parseFile(f, SeedSource.array()));
-  const changeEvents = parseFile(join(dataDir, "change-events.yaml"), SeedChangeEvent.array());
   const layerLabels = parseFile(join(dataDir, "embodiment-layer-labels.yaml"), SeedLayerLabels);
-  return { entities, sources, changeEvents, layerLabels };
+  return { entities, sources, layerLabels };
 }

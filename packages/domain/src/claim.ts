@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { ClaimStatus, ENUM_VALUES, StackLayer, Unit } from "./enums.js";
+import { ClaimOrigin, ClaimStatus, ENUM_VALUES, StackLayer, Unit } from "./enums.js";
 import { PREDICATES, isPredicate, type Predicate } from "./predicates.js";
 import type { EntityType } from "./enums.js";
 
@@ -26,6 +26,7 @@ export const ClaimRow = z.object({
   value_date: IsoDate.nullable(),
   stack_layer: StackLayer.nullable(),
   status: ClaimStatus,
+  origin: ClaimOrigin,
   valid_from: IsoDate,
   valid_to: IsoDate.nullable(),
   observed_at: z.iso.datetime(),

@@ -2,6 +2,7 @@ import { z } from "zod";
 import {
   CANONICAL_LAYERS,
   ClaimStatus,
+  ClaimOrigin,
   Confidence,
   CountryCode,
   DepthTier,
@@ -13,6 +14,9 @@ import {
   PREDICATE_NAMES,
   Slug,
   SourceKind,
+  LicensePolicy,
+  ExtractionStatus,
+  RefreshCadence,
   StackLayer,
   Unit,
 } from "@ri/domain";
@@ -56,6 +60,7 @@ export const SeedClaim = z.object({
   date: IsoDate.optional(),
   stack_layer: StackLayer.optional(),
   status: ClaimStatus.default("APPROVED"),
+  origin: ClaimOrigin.default("MANUAL"),
   valid_from: IsoDate.optional(),
   valid_to: IsoDate.optional(),
   observed_at: IsoDate.optional(),
@@ -96,19 +101,13 @@ export const SeedSource = z.object({
   source_kind: SourceKind,
   published_at: IsoDate.optional(),
   language: z.string().default("en"),
+  license_policy: LicensePolicy.default("LINK_ONLY"),
+  extraction_status: ExtractionStatus.default("PENDING"),
+  refresh_cadence: RefreshCadence.default("MANUAL"),
+  next_check_at: IsoDate.optional(),
+  priority: z.number().int().default(0),
 });
 export type SeedSource = z.infer<typeof SeedSource>;
-
-export const SeedChangeEvent = z.object({
-  key: z.string().min(1),
-  event_type: z.string(),
-  entity: Slug,
-  before: ClaimRef.optional(),
-  after: ClaimRef.optional(),
-  observed_at: IsoDate,
-  summary: z.string().min(1),
-});
-export type SeedChangeEvent = z.infer<typeof SeedChangeEvent>;
 
 /** embodiment → canonical layer → label (null = layer does not apply). */
 export const SeedLayerLabels = z.record(Embodiment, z.record(z.enum(CANONICAL_LAYERS), z.string().nullable()));

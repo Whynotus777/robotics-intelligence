@@ -95,6 +95,27 @@ export const CLAIM_STATUSES = ["PROPOSED", "APPROVED", "REJECTED", "SUPERSEDED"]
 export const ClaimStatus = z.enum(CLAIM_STATUSES);
 export type ClaimStatus = z.infer<typeof ClaimStatus>;
 
+/** How a candidate entered the claim table. PROPOSED claims never have a parallel store. */
+export const CLAIM_ORIGINS = ["MANUAL", "EXTRACTED", "DERIVED"] as const;
+export const ClaimOrigin = z.enum(CLAIM_ORIGINS);
+export type ClaimOrigin = z.infer<typeof ClaimOrigin>;
+
+export const LICENSE_POLICIES = ["VERBATIM_OK", "SUMMARY_ONLY", "LINK_ONLY"] as const;
+export const LicensePolicy = z.enum(LICENSE_POLICIES);
+export type LicensePolicy = z.infer<typeof LicensePolicy>;
+
+export const EXTRACTION_STATUSES = ["PENDING", "EXTRACTED", "UNCHANGED", "FAILED"] as const;
+export const ExtractionStatus = z.enum(EXTRACTION_STATUSES);
+export type ExtractionStatus = z.infer<typeof ExtractionStatus>;
+
+export const REFRESH_CADENCES = ["DAILY", "WEEKLY", "MONTHLY", "MANUAL", "NEVER"] as const;
+export const RefreshCadence = z.enum(REFRESH_CADENCES);
+export type RefreshCadence = z.infer<typeof RefreshCadence>;
+
+export const REVIEW_ACTIONS = ["APPROVE", "EDIT", "REJECT"] as const;
+export const ReviewAction = z.enum(REVIEW_ACTIONS);
+export type ReviewAction = z.infer<typeof ReviewAction>;
+
 export const SOURCE_KINDS = [
   "PRODUCT_PAGE",
   "DATASHEET",

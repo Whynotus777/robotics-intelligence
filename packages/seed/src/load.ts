@@ -20,7 +20,6 @@ try {
     evidenceByClass,
     assessments: rows.assessments.length,
     sources: rows.sources.length,
-    changeEvents: rows.changeEvents.length,
     layerLabels: rows.layerLabels.length,
   });
 } finally {
