@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import type { EntityChip, ExploreLens, ExploreResponse, StackResponse } from "@ri/api-contracts";
+import type { EntityChip, ExploreLens, ExploreResponse, StackMatrixResponse } from "@ri/api-contracts";
 import { ExploreStackMatrix, ExploreTerritories, type ExploreEntityMeta } from "@ri/viz";
 import { hrefFor } from "@/lib/vocabulary";
 
@@ -23,17 +23,18 @@ type View = (typeof VIEWS)[number]["id"];
  */
 export function ExploreCanvas({
   responses,
-  stacks,
+  matrices,
   entityMeta,
 }: {
   responses: Partial<Record<ExploreLens, ExploreResponse>>;
-  stacks: StackResponse[];
+  matrices: Partial<Record<ExploreLens, StackMatrixResponse>>;
   entityMeta: Record<string, ExploreEntityMeta>;
 }) {
   const router = useRouter();
   const [view, setView] = useState<View>("territories");
 
   const base = responses.embodiment ?? Object.values(responses)[0];
+  const matrix = matrices.embodiment ?? Object.values(matrices)[0];
   if (!base) return null;
 
   const open = (chip: EntityChip) => router.push(hrefFor(chip));
@@ -64,9 +65,9 @@ export function ExploreCanvas({
 
       {view === "territories" ? (
         <ExploreTerritories data={base} responses={byMeasure} entityMeta={entityMeta} onOpenEntity={open} />
-      ) : (
-        <ExploreStackMatrix data={base} responses={responses} stacks={stacks} onOpenEntity={open} />
-      )}
+      ) : matrix ? (
+        <ExploreStackMatrix data={matrix} responses={matrices} onOpenEntity={open} />
+      ) : null}
     </div>
   );
 }

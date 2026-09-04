@@ -17,7 +17,7 @@ type ExploreEntity = ExploreResponse["regions"][number]["districts"][number]["en
 type LayoutDatum =
   | { kind: "root"; key: string; children: LayoutDatum[] }
   | { kind: "region"; key: string; label: string; count: number; children: LayoutDatum[] }
-  | { kind: "district"; key: string; label: string; count: number; children: LayoutDatum[] }
+  | { kind: "district"; key: string; label: string; regionLabel: string; count: number; children: LayoutDatum[] }
   | { kind: "entity"; key: string; entity: ExploreEntity; value: number };
 type Rect = { x: number; y: number; width: number; height: number; datum: LayoutDatum };
 type Hover = { entity: ExploreEntity; x: number; y: number };
@@ -49,6 +49,7 @@ function toLayout(data: ExploreResponse): LayoutDatum {
         kind: "district",
         key: `district:${region.id}:${district.id}`,
         label: district.label,
+        regionLabel: region.label,
         count: district.count,
         children: district.entities.map((entity) => ({
           kind: "entity",
@@ -85,6 +86,26 @@ function tone(id: string) {
     QUADRUPED: "#d07a7a", AUTONOMOUS_VEHICLE: "#7f8fd6", TECHNOLOGY: "#c2b26a", MARKET: "#c2b26a",
   };
   return match[id] ?? "#7f8fd6";
+}
+
+/**
+ * A district earns a label only when it says something its region has not. Under the
+ * embodiment and maturity lenses every region holds a single district of the same
+ * name, so repeating it would spend the one line the box has on nothing.
+ */
+/**
+ * Territory boxes are sized by the treemap, not by their names, so a long label in a
+ * narrow region has to give way rather than spill over its neighbour. 6.4px is the
+ * advance width of the 11px monospace face the labels are set in.
+ */
+function clamp(label: string, width: number) {
+  const fits = Math.floor(width / 6.4);
+  return label.length <= fits ? label : `${label.slice(0, Math.max(1, fits - 1))}…`;
+}
+
+function showDistrictLabel(district: DistrictDatum, rect: Rect) {
+  if (rect.width <= 110 || rect.height <= 60) return false;
+  return district.label.trim().toUpperCase() !== district.regionLabel.trim().toUpperCase();
 }
 
 function labelForLens(lens: ExploreLens) { return lens === "market" ? "Market" : lens[0]!.toUpperCase() + lens.slice(1); }
@@ -131,19 +152,28 @@ export function ExploreTerritories({ data, responses, initialLens, initialMeasur
     <div className="ri-territories" onMouseLeave={() => setHover(null)}>
       <svg viewBox={`0 0 ${WIDTH} ${HEIGHT}`} role="img" aria-label={`${labelForLens(lens)} territories`}>
         <g style={{ transform, transformOrigin: "0 0" }}>
+          {/*
+            Paint order matters: SVG has no z-index, so region fills go down first,
+            then district fills, and only then the region labels — otherwise a
+            district rectangle covers the name of the region it sits in.
+          */}
           {regionRects.map((rect) => {
             const region = rect.datum;
-            return <g key={region.key} className="ri-territories__region" onClick={() => setFocus(region.key)} onDoubleClick={() => setFocus(region.key)} role="button" tabIndex={0} aria-label={`Zoom to ${region.label}`} onKeyDown={(event) => { if (event.key === "Enter") setFocus(region.key); }}>
-              <rect x={rect.x} y={rect.y} width={rect.width} height={rect.height} rx={5} fill={`${tone(region.key.replace("region:", ""))}22`} stroke="#1e222b" />
-              <text className="ri-territories__label" x={rect.x + 12} y={rect.y + 17}>{region.label.toUpperCase()}</text>
-              <text className="ri-territories__count" x={rect.x + 12} y={rect.y + 34}>{region.count} {region.count === 1 ? "entity" : "entities"}</text>
-            </g>;
+            return <rect key={`${region.key}:fill`} className="ri-territories__region" x={rect.x} y={rect.y} width={rect.width} height={rect.height} rx={5} fill={`${tone(region.key.replace("region:", ""))}22`} stroke="#1e222b" onClick={() => setFocus(region.key)} onDoubleClick={() => setFocus(region.key)} role="button" tabIndex={0} aria-label={`Zoom to ${region.label}`} onKeyDown={(event) => { if (event.key === "Enter") setFocus(region.key); }} />;
           })}
           {districtRects.map((rect) => {
             const district = rect.datum;
+            const named = showDistrictLabel(district, rect);
             return <g key={district.key} className="ri-territories__district" onClick={(event) => { event.stopPropagation(); setFocus(district.key); }} role="button" tabIndex={0} aria-label={`Zoom to ${district.label}`} onKeyDown={(event) => { if (event.key === "Enter") setFocus(district.key); }}>
               <rect x={rect.x} y={rect.y} width={rect.width} height={rect.height} rx={3} fill="#0e0f13" stroke="#232730" />
-              {rect.width > 110 && rect.height > 42 ? <text className="ri-territories__count" x={rect.x + 8} y={rect.y + 15}>{district.label}</text> : null}
+              {named ? <text className="ri-territories__count" x={rect.x + 8} y={rect.y + rect.height - 9}>{district.label}</text> : null}
+            </g>;
+          })}
+          {regionRects.map((rect) => {
+            const region = rect.datum;
+            return <g key={`${region.key}:label`} className="ri-territories__region-label">
+              <text className="ri-territories__label" x={rect.x + 12} y={rect.y + 17}>{clamp(region.label.toUpperCase(), rect.width - 20)}</text>
+              <text className="ri-territories__count" x={rect.x + 12} y={rect.y + 34}>{region.count} {region.count === 1 ? "entity" : "entities"}</text>
             </g>;
           })}
           {entityRects.map((rect) => {

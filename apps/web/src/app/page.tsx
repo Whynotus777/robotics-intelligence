@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { EntityResponse, ExploreLens, ExploreResponse, StackResponse } from "@ri/api-contracts";
+import type { EntityResponse, ExploreLens, ExploreResponse, StackMatrixResponse } from "@ri/api-contracts";
 import type { ExploreEntityMeta } from "@ri/viz";
 import type { Embodiment } from "@ri/domain";
 import { COMMERCIAL_STAGES, EMBODIMENTS } from "@ri/domain";
@@ -50,8 +50,8 @@ export default async function ExplorePage({ searchParams }: { searchParams: Prom
     (entity): entity is EntityResponse => entity !== null,
   );
 
-  // The five lenses and every robot stack: the territories map switches lenses
-  // itself, and the matrix reads stack membership, so both arrive resolved.
+  // Both concepts switch lenses themselves, so every lens arrives resolved: the
+  // partition tree for the territories, the stack matrix for its challenger.
   const lensResponses = Object.fromEntries(
     (
       await Promise.all(
@@ -60,11 +60,15 @@ export default async function ExplorePage({ searchParams }: { searchParams: Prom
     ).filter((entry): entry is readonly [ExploreLens, ExploreResponse] => entry[1] !== null),
   ) as Partial<Record<ExploreLens, ExploreResponse>>;
 
-  const allRobots = (await provider.robots()).robots;
-  const stacks = (await Promise.all(allRobots.map((robot) => orNotFound(provider.stack(robot.slug))))).filter(
-    (stack): stack is StackResponse => stack !== null,
-  );
+  const matrices = Object.fromEntries(
+    (
+      await Promise.all(
+        EXPLORE_LENSES.map(async (lens) => [lens, await orNotFound(provider.stackMatrix(lens))] as const),
+      )
+    ).filter((entry): entry is readonly [ExploreLens, StackMatrixResponse] => entry[1] !== null),
+  ) as Partial<Record<ExploreLens, StackMatrixResponse>>;
 
+  const allRobots = (await provider.robots()).robots;
   const allEntities = (await Promise.all(allRobots.map((robot) => orNotFound(provider.entity(robot.slug))))).filter(
     (entity): entity is EntityResponse => entity !== null,
   );
@@ -148,7 +152,7 @@ export default async function ExplorePage({ searchParams }: { searchParams: Prom
         ) : null}
       </div>
 
-      <ExploreCanvas responses={lensResponses} stacks={stacks} entityMeta={entityMeta} />
+      <ExploreCanvas responses={lensResponses} matrices={matrices} entityMeta={entityMeta} />
 
       {groups.length === 0 ? (
         <p className="py-10 text-[13px] text-ink-3 lg:hidden">Nothing matches those filters.</p>
