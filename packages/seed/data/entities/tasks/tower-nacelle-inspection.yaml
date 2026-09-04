@@ -1,0 +1,57 @@
+slug: tower-nacelle-inspection
+entity_type: TASK
+name: Tower and nacelle inspection
+short_description: External inspection of towers, nacelle housings and transition pieces for corrosion, coating failure and bolt issues.
+depth_tier: STANDARD
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: wind
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A wind O&M task on installed assets.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: SCALING
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: The same drone fleets that inspect blades increasingly cover towers and nacelles in the same visit, and offshore operators buy it to defer technician transfers. It is not yet universal practice because tower inspection is lower value per finding than blade inspection.
+          advance_criteria:
+            - Tower and nacelle coverage bundled by default in fleet inspection contracts
+            - Standardised defect taxonomies accepted by certification bodies
+            - Routine offshore use without vessel support
+          evidence_considered:
+            - blade-visual-inspection:HAS_MATURITY
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: Rope-access or platform inspection by technicians during scheduled maintenance.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Structural inspections were historically bundled into technician maintenance visits.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: drone-based-blade-maintenance
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Drone inspection extends naturally from blades to the rest of the structure.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Asset owners and operators
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Owners buy it as part of fleet inspection campaigns.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01

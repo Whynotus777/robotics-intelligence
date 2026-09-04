@@ -1,0 +1,44 @@
+slug: figure-ai
+entity_type: ORGANIZATION
+name: Figure AI
+short_description: Sunnyvale humanoid OEM building general-purpose humanoids and the Helix VLA model; piloted at BMW Spartanburg.
+country_code: US
+depth_tier: ANCHOR
+aliases:
+- Figure
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: figure-site
+    excerpt: Company site gives the headquarters location.
+- predicate: BUILDS
+  object: figure-03
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: figure-03-announcement
+    excerpt: Figure announced Figure 03 in October 2025.
+- predicate: BUILDS
+  object: figure-02
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: figure-02-announcement
+    excerpt: Figure announced Figure 02 in August 2024.
+- predicate: DEVELOPS
+  object: helix
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: figure-helix-announcement
+    excerpt: Figure announced Helix in February 2025.
+- predicate: PARTNERS_WITH
+  object: bmw
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: bmw-figure-press
+    excerpt: BMW Manufacturing and Figure agreement on humanoid robots, January 2024.

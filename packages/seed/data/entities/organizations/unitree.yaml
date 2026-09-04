@@ -1,0 +1,23 @@
+slug: unitree
+entity_type: ORGANIZATION
+name: Unitree Robotics
+short_description: Hangzhou humanoid and quadruped OEM that also sells its own actuators; set the low price point for legged robots.
+country_code: CN
+depth_tier: ANCHOR
+aliases:
+- Unitree
+claims:
+- predicate: HQ_AT
+  object: hangzhou
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: unitree-site
+    excerpt: Company site gives the headquarters location.
+- predicate: BUILDS
+  object: unitree-g1
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: unitree-site
+    excerpt: Company site lists G1 among its products.

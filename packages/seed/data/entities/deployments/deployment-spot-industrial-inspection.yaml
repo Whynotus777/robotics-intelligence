@@ -1,0 +1,20 @@
+slug: deployment-spot-industrial-inspection
+entity_type: DEPLOYMENT
+name: Spot at industrial inspection sites
+short_description: Spot used for routine inspection rounds at industrial facilities; reported by trade press rather than named customers.
+depth_tier: STANDARD
+claims:
+  - predicate: USES_ROBOT
+    object: boston-dynamics-spot
+    evidence:
+      - class: THIRD_PARTY
+        confidence: MEDIUM
+        source: robot-report-spot-inspection
+        excerpt: Trade press reports Spot in industrial inspection roles at multiple sites.
+  - predicate: OPERATED_BY
+    object: boston-dynamics
+    evidence:
+      - class: THIRD_PARTY
+        confidence: MEDIUM
+        source: robot-report-spot-inspection
+        excerpt: Boston Dynamics supplies the platform; site operators are not named.

@@ -1,0 +1,146 @@
+slug: unitree-g1
+entity_type: ROBOT
+name: Unitree G1
+short_description: Compact humanoid sold broadly to research labs and developers; the price point that reset expectations for humanoid hardware in 2024.
+primary_embodiment: HUMANOID
+country_code: CN
+depth_tier: ANCHOR
+aliases: [G1, Unitree G1 EDU]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: HUMANOID
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: unitree-g1-page
+        excerpt: Product page presents G1 as a humanoid agent.
+  - predicate: HAS_HEIGHT
+    number: 1.32
+    unit: m
+    approximate: true
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: unitree-g1-page
+        published_at: 2024-05-13
+        excerpt: Spec table lists standing height of about 1.32 m.
+  - predicate: HAS_MASS
+    number: 35
+    unit: kg
+    approximate: true
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: unitree-g1-page
+        published_at: 2024-05-13
+        excerpt: Spec table lists total weight of about 35 kg with battery.
+  - predicate: HAS_DOF
+    number: 23
+    unit: count
+    min: 23
+    max: 43
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: unitree-g1-page
+        published_at: 2024-05-13
+        excerpt: 23 degrees of freedom on the base configuration; more with dexterous hands on EDU variants.
+  - predicate: HAS_RUNTIME
+    number: 7200
+    unit: s
+    approximate: true
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: unitree-g1-page
+        published_at: 2024-05-13
+        excerpt: Battery life listed as about 2 hours.
+  - predicate: HAS_LIST_PRICE
+    number: 16000
+    unit: USD
+    valid_from: 2024-05-13
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: unitree-g1-page
+        published_at: 2024-05-13
+        excerpt: Base configuration listed from USD 16,000 at launch.
+  - predicate: ANNOUNCED_ON
+    date: 2024-05-13
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: unitree-g1-page
+        published_at: 2024-05-13
+        excerpt: G1 launched in May 2024.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: COMMERCIAL
+    valid_from: 2024-05-13
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: G1 is sold broadly at a published price to research and developer customers, with units shipping in volume through resellers; that is commercial availability by any test. It is not volume production in the sense of an industrial product line because the buyer is still overwhelmingly research and the robot is not sold into a production task.
+          advance_criteria:
+            - Repeat purchases by non-research customers for a production task
+            - A published deployment programme with a commercial operator
+            - Evidence of monthly output at industrial scale
+          regress_criteria:
+            - Withdrawal of the published price or a shift to quote-only sales
+          evidence_considered:
+            - unitree-g1:HAS_LIST_PRICE
+            - unitree-g1:ANNOUNCED_ON
+          reviewed_at: 2026-09-01
+  - predicate: USES_TECHNOLOGY
+    object: depth-cameras
+    stack_layer: SENSORS
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: unitree-g1-page
+        excerpt: Spec table lists a depth camera in the head.
+  - predicate: USES_TECHNOLOGY
+    object: 3d-lidar
+    stack_layer: SENSORS
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: unitree-g1-page
+        excerpt: Spec table lists a 3D LiDAR in the head.
+  - predicate: USES_PRODUCT
+    object: nvidia-jetson-orin-nx
+    stack_layer: COMPUTE
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: unitree-g1-page
+        excerpt: EDU variants list an NVIDIA Jetson Orin NX as the onboard high-performance compute; the base configuration ships without it.
+  - predicate: HAS_ARCHITECTURE_NOTE
+    stack_layer: COMPUTE
+    text: The base G1 ships with a low-power onboard controller; EDU variants add a Jetson Orin NX for perception and policy workloads, which is why most published research on the platform uses the EDU configuration.
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: unitree-g1-page
+        excerpt: Compute options differ between the base and EDU configurations on the product page.
+  - predicate: MEMBER_OF_FAMILY
+    object: unitree-g1-series
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: unitree-g1-page
+        excerpt: Product page lists G1 and G1 EDU variants as one product line.
+  - predicate: COMPETES_WITH
+    object: apptronik-apollo
+    depends_on: [unitree-g1:HAS_EMBODIMENT, apptronik-apollo:HAS_EMBODIMENT]
+    evidence:
+      - class: DERIVED
+        confidence: MEDIUM
+        excerpt: Derived from shared embodiment (humanoid).
+  - predicate: COMPETES_WITH
+    object: figure-03
+    depends_on: [unitree-g1:HAS_EMBODIMENT, figure-03:HAS_EMBODIMENT]
+    evidence:
+      - class: DERIVED
+        confidence: MEDIUM
+        excerpt: Derived from shared embodiment (humanoid).

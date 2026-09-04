@@ -1,0 +1,47 @@
+slug: amr-pallet-jack-or-lift
+entity_type: APPROACH
+name: AMR pallet jack or lift
+short_description: Purpose-built autonomous pallet trucks and lift trucks that move pallets at floor level or to low rack positions.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: SCALING
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Seegrid, Vecna and OTTO Motors sell autonomous pallet trucks into repeat multi-site deployments with 3PLs and manufacturers, and the category has a Rockwell-owned incumbent. It is scaling rather than mature because penetration is still a small fraction of pallet-truck hours and each site remains a project.
+          advance_criteria:
+            - Autonomous units as a standard line item in 3PL fleet purchases
+            - Order-to-first-shift under a month at brownfield sites
+            - Mixed-vendor fleets orchestrated by a customer-owned system
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: AMR
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: seegrid-site
+        excerpt: Seegrid describes autonomous mobile robots for pallet handling.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: seegrid
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: seegrid-site
+        excerpt: Company site positions Seegrid as an autonomous pallet-handling AMR and lift-truck vendor.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: vecna
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: vecna-site
+        excerpt: Company site lists autonomous pallet jacks and forklifts.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: otto-motors
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: otto-site
+        excerpt: Company site lists industrial AMRs including pallet movers.

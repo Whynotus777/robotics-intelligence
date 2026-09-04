@@ -1,0 +1,37 @@
+slug: symbotic
+entity_type: ORGANIZATION
+name: Symbotic
+short_description: Wilmington, Massachusetts warehouse automation company, public (SYM); Walmart regional DC programme.
+country_code: US
+depth_tier: ANCHOR
+aliases:
+- Symbotic Inc.
+claims:
+- predicate: HQ_AT
+  object: boston
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: symbotic-10k
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: symbotic-10k
+    excerpt: Annual report describes warehouse automation systems.
+- predicate: TARGETS_TASK
+  object: automated-storage-and-retrieval
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: symbotic-10k
+    excerpt: Annual report describes case storage and retrieval.
+- predicate: PARTNERS_WITH
+  object: walmart
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: symbotic-10k
+    excerpt: Annual report describes the Walmart regional distribution centre programme.

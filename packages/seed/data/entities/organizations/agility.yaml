@@ -1,0 +1,37 @@
+slug: agility
+entity_type: ORGANIZATION
+name: Agility Robotics
+short_description: Salem, Oregon humanoid OEM behind Digit; first commercial RaaS humanoid deployment with GXO in 2024.
+country_code: US
+depth_tier: ANCHOR
+aliases:
+- Agility
+claims:
+- predicate: HQ_AT
+  object: salem-or
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: agility-digit-page
+    excerpt: Company site gives the headquarters location.
+- predicate: BUILDS
+  object: agility-digit
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: agility-digit-page
+    excerpt: Company product page for Digit.
+- predicate: PARTNERS_WITH
+  object: gxo
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: agility-gxo-announcement
+    excerpt: Multi-year RaaS agreement announced June 2024.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: agility-digit-page
+    excerpt: Digit positioned for logistics tote handling.

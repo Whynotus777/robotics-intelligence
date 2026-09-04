@@ -1,0 +1,35 @@
+slug: nvidia
+entity_type: ORGANIZATION
+name: NVIDIA
+short_description: Santa Clara; Jetson Orin and Jetson Thor compute modules and the Isaac robotics platform.
+country_code: US
+depth_tier: ANCHOR
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: nvidia-site
+    excerpt: Company site gives the headquarters location.
+- predicate: PROVIDES
+  object: nvidia-jetson-orin-nx
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: nvidia-jetson-orin-page
+    excerpt: Jetson Orin product page.
+- predicate: PROVIDES
+  object: nvidia-jetson-thor
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: nvidia-jetson-thor-page
+    excerpt: Jetson Thor product page.
+- predicate: DEVELOPS
+  object: nvidia-isaac-sim
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: nvidia-isaac-sim-page
+    excerpt: Isaac Sim developer page.

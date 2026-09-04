@@ -1,0 +1,40 @@
+slug: figure-02
+entity_type: ROBOT
+name: Figure 02
+short_description: Figure AI's second-generation humanoid, the model piloted at BMW Spartanburg in 2024.
+primary_embodiment: HUMANOID
+country_code: US
+depth_tier: DISCOVERY
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: HUMANOID
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-02-announcement
+        published_at: 2024-08-06
+        excerpt: Announced as Figure's second humanoid.
+  - predicate: ANNOUNCED_ON
+    date: 2024-08-06
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-02-announcement
+        published_at: 2024-08-06
+        excerpt: Announcement published in August 2024.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: PILOT_DEPLOYMENTS
+    valid_from: 2024-08-06
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: bmw-figure-press
+        published_at: 2024-01-18
+        excerpt: BMW and Figure agreement to deploy humanoid robots at Spartanburg.
+  - predicate: MEMBER_OF_FAMILY
+    object: figure-humanoids
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-site
+        excerpt: Company site presents Figure 01, 02 and 03 as successive generations.

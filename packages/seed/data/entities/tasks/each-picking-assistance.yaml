@@ -1,0 +1,50 @@
+slug: each-picking-assistance
+entity_type: TASK
+name: Each-picking assistance
+short_description: Collaborative mobile robots that carry totes and guide human pickers through each-item order picking.
+depth_tier: STANDARD
+aliases: [Collaborative picking, Goods-to-picker AMRs]
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: material-movement
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A fulfilment-centre flow bought by DC operators.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: SCALING
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Collaborative picking AMRs run at thousands of sites, Locus alone reports billions of picks, and the model is sold as RaaS with predictable unit economics. It stops short of mature because the human picker is still in the loop and the next step, autonomous each-picking, is a different task.
+          advance_criteria:
+            - Default choice in new fulfilment-centre designs across regions
+            - Multi-vendor price competition at commodity margins
+            - Integration with autonomous picking arms in production sites
+          evidence_considered:
+            - locus:TARGETS_TASK
+            - deployment-locus-3pl-sites:SERVES_TASK
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: Pickers walking with carts and paper or RF pick lists.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Walking time is the majority of a manual picker's shift, which is the productivity gap the robots close.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Third-party logistics providers (3PLs)
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: 3PLs buy for seasonal flexibility and roll out across sites.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01

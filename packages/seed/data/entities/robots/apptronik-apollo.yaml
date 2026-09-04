@@ -1,0 +1,92 @@
+slug: apptronik-apollo
+entity_type: ROBOT
+name: Apptronik Apollo
+short_description: Full-size humanoid from Apptronik with a swappable battery, piloted with Mercedes-Benz and GXO.
+primary_embodiment: HUMANOID
+country_code: US
+depth_tier: ANCHOR
+aliases: [Apollo]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: HUMANOID
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: apptronik-apollo-page
+        excerpt: Product page presents Apollo as a general-purpose humanoid.
+  - predicate: HAS_HEIGHT
+    number: 1.73
+    unit: m
+    approximate: true
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: apptronik-apollo-page
+        excerpt: Listed height of 5 ft 8 in, about 1.73 m.
+  - predicate: HAS_MASS
+    number: 73
+    unit: kg
+    approximate: true
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: apptronik-apollo-page
+        excerpt: Listed weight of 160 lb, about 73 kg.
+  - predicate: HAS_PAYLOAD
+    number: 25
+    unit: kg
+    approximate: true
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: apptronik-apollo-page
+        excerpt: Listed payload of 55 lb, about 25 kg.
+  - predicate: HAS_ARCHITECTURE_NOTE
+    stack_layer: POWER
+    text: Apollo uses a swappable battery pack so a robot can be kept on shift by exchanging packs rather than charging in place.
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: apptronik-apollo-page
+        excerpt: Product page describes a swappable battery.
+  - predicate: ANNOUNCED_ON
+    date: 2023-08-23
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: apptronik-apollo-unveil
+        published_at: 2023-08-23
+        excerpt: Apollo unveiled in August 2023.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: PROTOTYPE
+    status: SUPERSEDED
+    valid_from: 2023-08-23
+    valid_to: 2024-03-15
+    observed_at: 2023-08-23
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: At unveiling Apollo was a prototype shown in controlled demonstrations with no announced customer. This assessment was closed when the Mercedes-Benz pilot was announced.
+          advance_criteria:
+            - A named pilot customer
+            - Units operating outside Apptronik's own facility
+          evidence_considered:
+            - apptronik-apollo:ANNOUNCED_ON
+          reviewed_at: 2023-08-23
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: PILOT_DEPLOYMENTS
+    valid_from: 2024-03-15
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: apptronik-mercedes-announcement
+        published_at: 2024-03-15
+        excerpt: Commercial agreement to pilot Apollo in Mercedes-Benz manufacturing.
+  - predicate: COMPETES_WITH
+    object: figure-03
+    depends_on: [apptronik-apollo:HAS_EMBODIMENT, figure-03:HAS_EMBODIMENT]
+    evidence:
+      - class: DERIVED
+        confidence: MEDIUM
+        excerpt: Derived from shared embodiment (humanoid).

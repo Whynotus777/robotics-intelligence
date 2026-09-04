@@ -1,0 +1,40 @@
+slug: fanuc-crx-10ia
+entity_type: ROBOT
+name: FANUC CRX-10iA
+short_description: 10 kg payload collaborative arm in FANUC's CRX line, sold on the same controllers as its industrial robots.
+primary_embodiment: COBOT
+country_code: JP
+depth_tier: STANDARD
+aliases: [CRX-10iA]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: COBOT
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: fanuc-crx-page
+        excerpt: CRX series page presents collaborative robots.
+  - predicate: HAS_PAYLOAD
+    number: 10
+    unit: kg
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: fanuc-crx-page
+        excerpt: CRX-10iA listed with 10 kg payload.
+  - predicate: HAS_REACH
+    number: 1.249
+    unit: m
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: fanuc-crx-page
+        excerpt: CRX-10iA listed with 1249 mm reach.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: VOLUME_PRODUCTION
+    valid_from: 2020-01-01
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: fanuc-crx-page
+        excerpt: Sold as a catalogue product.

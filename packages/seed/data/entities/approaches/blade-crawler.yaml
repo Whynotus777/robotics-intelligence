@@ -1,0 +1,33 @@
+slug: blade-crawler
+entity_type: APPROACH
+name: Blade crawler
+short_description: A robot that adheres to and walks along the blade surface, carrying inspection or repair tooling directly to the defect.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: PILOT
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: BladeBUG-type crawlers have completed offshore trials and demonstrated inspection and light repair on live turbines, but there is no repeated paid deployment programme and deployment to the blade still needs a crew at the nacelle. The approach has the best contact geometry and the worst logistics.
+          advance_criteria:
+            - Paid campaigns across multiple wind farms in a season
+            - Deployment without rope-access crew involvement
+            - Repair quality accepted by an OEM or ISP under contract
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: OTHER_MOBILE
+    evidence:
+      - class: THIRD_PARTY
+        confidence: MEDIUM
+        source: bladebug-offshore-trials-news
+        excerpt: Coverage of blade-walking robot trials on an offshore turbine.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: bladebug
+    evidence:
+      - class: THIRD_PARTY
+        confidence: MEDIUM
+        source: bladebug-offshore-trials-news
+        excerpt: BladeBUG is named as the crawler developer in the trial coverage.

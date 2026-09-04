@@ -1,0 +1,40 @@
+slug: autonomous-forklift
+entity_type: APPROACH
+name: Autonomous forklift
+short_description: Retrofit kits or purpose-built forklifts that drive, lift and enter trailers autonomously.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: EARLY_COMMERCIAL
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Fox Robotics and Third Wave Automation sell autonomous forklifts into paying customer sites, with trailer work as the wedge, but customer counts are small and the trailer edge cases are still being worked through site by site. A step behind the pallet-jack approach on repeatability.
+          advance_criteria:
+            - Repeat multi-site orders from the same customers
+            - Unattended trailer unloading across the full inbound mix
+            - A major forklift OEM shipping autonomy as a factory option
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: AMR
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: fox-site
+        excerpt: Fox Robotics describes autonomous forklifts for trailer unloading.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: fox-robotics
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: fox-site
+        excerpt: Company site positions Fox Robotics as an autonomous forklift vendor for trailer unloading.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: third-wave-automation
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: thirdwave-site
+        excerpt: Company site describes an autonomous forklift platform.

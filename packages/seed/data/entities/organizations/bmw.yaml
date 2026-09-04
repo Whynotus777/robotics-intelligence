@@ -1,0 +1,24 @@
+slug: bmw
+entity_type: ORGANIZATION
+name: BMW Group
+short_description: Munich automotive OEM; Spartanburg plant hosts Figure's humanoid pilot.
+country_code: DE
+depth_tier: STANDARD
+aliases:
+- BMW
+- BMW Manufacturing
+claims:
+- predicate: HQ_AT
+  object: munich
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: bmw-site
+    excerpt: Company site gives the headquarters location.
+- predicate: MANUFACTURES_AT
+  object: spartanburg
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: bmw-site
+    excerpt: Spartanburg is BMW Group's largest plant.

@@ -1,0 +1,35 @@
+slug: seegrid
+entity_type: ORGANIZATION
+name: Seegrid
+short_description: Pittsburgh vendor of autonomous pallet-handling AMRs and lift trucks.
+country_code: US
+depth_tier: STANDARD
+claims:
+- predicate: HQ_AT
+  object: pittsburgh
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: seegrid-site
+    excerpt: Company site gives the headquarters location.
+- predicate: BUILDS
+  object: seegrid-palion-lift
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: seegrid-site
+    excerpt: Company site lists Palion Lift.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: seegrid-site
+    excerpt: Warehouse and manufacturing logistics positioning.
+- predicate: TARGETS_TASK
+  object: pallet-movement
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: seegrid-site
+    excerpt: Autonomous pallet handling is the core product.

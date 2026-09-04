@@ -1,0 +1,47 @@
+slug: universal-robots-ur20
+entity_type: ROBOT
+name: Universal Robots UR20
+short_description: 20 kg payload collaborative arm with 1,750 mm reach; the largest member of the UR line at launch.
+primary_embodiment: COBOT
+country_code: DK
+depth_tier: ANCHOR
+aliases: [UR20]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: COBOT
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: ur-ur20-page
+        excerpt: Product page presents UR20 as a collaborative robot arm.
+  - predicate: HAS_PAYLOAD
+    number: 20
+    unit: kg
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: ur-ur20-page
+        excerpt: Spec table lists 20 kg payload.
+  - predicate: HAS_REACH
+    number: 1.75
+    unit: m
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: ur-ur20-page
+        excerpt: Spec table lists 1750 mm reach.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: VOLUME_PRODUCTION
+    valid_from: 2023-01-01
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: ur-ur20-page
+        excerpt: Sold as a standard catalogue product through the UR distributor network.
+  - predicate: ANNOUNCED_ON
+    date: 2022-06-21
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: ur-site
+        excerpt: UR20 unveiled at Automatica in June 2022.

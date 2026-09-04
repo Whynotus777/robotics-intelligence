@@ -1,0 +1,21 @@
+slug: deployment-skyspecs-wind-fleets
+entity_type: DEPLOYMENT
+name: SkySpecs inspections across utility-scale wind fleets
+short_description: Autonomous drone blade inspection campaigns run by SkySpecs across utility-scale wind fleets; counts are self-reported.
+country_code: US
+depth_tier: STANDARD
+claims:
+  - predicate: OPERATED_BY
+    object: skyspecs
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: skyspecs-site
+        excerpt: SkySpecs reports inspecting turbines across utility-scale fleets.
+  - predicate: SERVES_TASK
+    object: blade-visual-inspection
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: skyspecs-site
+        excerpt: Blade inspection is the service delivered.

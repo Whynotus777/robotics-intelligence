@@ -1,0 +1,21 @@
+slug: qualcomm
+entity_type: ORGANIZATION
+name: Qualcomm
+short_description: San Diego; robotics compute platforms on Snapdragon-class silicon.
+country_code: US
+depth_tier: STANDARD
+claims:
+- predicate: HQ_AT
+  object: san-diego
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: qualcomm-robotics-page
+    excerpt: Company site gives the headquarters location.
+- predicate: PROVIDES
+  object: qualcomm-robotics-platform
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: qualcomm-robotics-page
+    excerpt: Robotics platform page.

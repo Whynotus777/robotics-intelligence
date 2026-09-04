@@ -1,0 +1,40 @@
+slug: rope-cable-suspended-robot
+entity_type: APPROACH
+name: Rope/cable-suspended robot
+short_description: A robot lowered from the nacelle on ropes or cables and positioned against the blade for cleaning, coating, testing and repair.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: EARLY_COMMERCIAL
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Aerones and Rope Robotics sell suspended-robot cleaning, leading-edge protection and lightning-protection testing commercially to multiple owners; structural repair from the same platforms is still in pilot. Early commercial for the approach overall, with the caveat that repair specifically is a step behind.
+          advance_criteria:
+            - Structural repair sold as a standard service, not a trial
+            - Fleets operating in more than one continent per vendor
+            - Multi-year service agreements that name robotic maintenance
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: OTHER_MOBILE
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: aerones-site
+        excerpt: Aerones describes a robot suspended from the nacelle that performs blade maintenance.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: aerones
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: aerones-site
+        excerpt: Company site lists cleaning, leading-edge protection, lightning-protection testing and inspection services.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: rope-robotics
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: roperobotics-site
+        excerpt: Company site describes robotic blade repair and leading-edge maintenance.

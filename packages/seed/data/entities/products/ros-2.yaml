@@ -1,0 +1,21 @@
+slug: ros-2
+entity_type: SOFTWARE_PRODUCT
+name: ROS 2
+short_description: Open-source robot middleware and tooling; the default integration layer for research robots and many commercial AMRs.
+depth_tier: ANCHOR
+aliases: [ROS2, Robot Operating System 2]
+claims:
+  - predicate: MADE_BY
+    object: open-robotics
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: ros2-docs
+        excerpt: ROS 2 documentation maintained by Open Robotics.
+  - predicate: IS_INSTANCE_OF
+    object: robot-middleware
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: ros2-docs
+        excerpt: Described as a set of software libraries and tools for building robot applications.

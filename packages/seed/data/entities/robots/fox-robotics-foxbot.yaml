@@ -1,0 +1,38 @@
+slug: fox-robotics-foxbot
+entity_type: ROBOT
+name: Fox Robotics FoxBot
+short_description: Autonomous forklift for trailer unloading and pallet moves at the receiving dock.
+primary_embodiment: AMR
+country_code: US
+depth_tier: STANDARD
+aliases: [FoxBot]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: AMR
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: fox-site
+        excerpt: Company site presents FoxBot as an autonomous forklift.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: COMMERCIAL
+    valid_from: 2023-01-01
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: fox-site
+        excerpt: Offered commercially to logistics customers.
+  - predicate: TARGETS_TASK
+    object: truck-unloading
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: fox-site
+        excerpt: Positioned for trailer unloading.
+  - predicate: TARGETS_TASK
+    object: pallet-movement
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: fox-site
+        excerpt: Positioned for pallet moves from the dock.

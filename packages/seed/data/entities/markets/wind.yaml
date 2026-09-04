@@ -1,0 +1,17 @@
+slug: wind
+entity_type: MARKET
+name: Wind
+short_description: Onshore and offshore wind turbine operations and maintenance. Blades, towers and nacelles at 80–120 m height make access the dominant cost, which is why robotics enters here first.
+depth_tier: ANCHOR
+aliases: [Wind energy, Wind O&M]
+claims:
+  - predicate: CHILD_OF
+    object: energy
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Wind is an operations-and-maintenance domain inside the energy sector; its buyers (asset owners, turbine OEMs, independent service providers) are energy-sector organisations and its robotics tasks are asset-maintenance tasks rather than generation-technology tasks.
+          advance_criteria:
+            - Would only change if the taxonomy split renewables into its own sector.
+          reviewed_at: 2026-09-01

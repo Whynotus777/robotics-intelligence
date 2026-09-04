@@ -1,0 +1,58 @@
+slug: blade-visual-inspection
+entity_type: TASK
+name: Blade visual inspection
+short_description: Photographic inspection of blade surfaces for erosion, cracks and lightning damage, usually by drone.
+depth_tier: STANDARD
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: wind
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A wind O&M task performed on installed turbines by wind-sector buyers.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: MATURE
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Drone-based blade inspection is standard practice across onshore and offshore fleets, sold as a routine service by multiple vendors with analytics attached. The incumbent (ground-based telephoto or rope access) is now the exception, which is the definition of a mature robotic task.
+          advance_criteria:
+            - Already at the top of the scale; watch for commoditisation of the service price
+          regress_criteria:
+            - Regulatory restriction of BVLOS operations that raises the cost per turbine
+          evidence_considered:
+            - skyspecs:TARGETS_TASK
+            - deployment-skyspecs-wind-fleets:SERVES_TASK
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: Ground-based telephoto photography or rope-access close visual inspection.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: These are the pre-drone methods and remain the fallback where drones cannot fly.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: drone-based-blade-maintenance
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Drones are the dominant and essentially only robotic approach for visual inspection.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Asset owners and operators
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Owners buy fleet-wide inspection campaigns and the resulting defect analytics.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01

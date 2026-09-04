@@ -1,0 +1,30 @@
+slug: kuka
+entity_type: ORGANIZATION
+name: KUKA
+short_description: Augsburg industrial arm OEM, Midea-owned.
+country_code: DE
+depth_tier: STANDARD
+aliases:
+- KUKA AG
+claims:
+- predicate: HQ_AT
+  object: augsburg
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: kuka-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: manufacturing
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: kuka-site
+    excerpt: Industrial automation positioning.
+- predicate: TARGETS_MARKET
+  object: automotive
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: kuka-site
+    excerpt: Automotive is a named sector.

@@ -1,0 +1,67 @@
+slug: truck-unloading
+entity_type: TASK
+name: Truck unloading
+short_description: Unloading pallets or floor-loaded cases from trailers at the receiving dock without a human operator.
+depth_tier: STANDARD
+aliases: [Trailer unloading]
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: material-movement
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The receiving step of the same DC pallet flow.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: PILOT
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: "Robotic trailer unloading runs at early customer sites for both palletised (autonomous forklift) and floor-loaded (arm-based) freight, but it is not routine: trailer condition, lighting and load variability make every trailer an edge case. Vendors report throughput on good trailers, not on the fleet average."
+          advance_criteria:
+            - Unattended operation across a customer's full inbound trailer mix
+            - Throughput parity with a human crew on the fleet average
+            - Repeat orders from more than one customer
+          evidence_considered:
+            - fox-robotics:TARGETS_TASK
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: Manual forklift drivers for palletised freight; manual crews for floor-loaded cases.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Unloading is one of the hardest jobs to staff at a DC, which is the pull.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: autonomous-forklift
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Autonomous forklifts are the approach for palletised trailers.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Third-party logistics providers (3PLs)
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: 3PLs with high inbound volume are the pilot customers.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: ADJACENT_TO
+    object: pallet-movement
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Downstream step of the same flow.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01

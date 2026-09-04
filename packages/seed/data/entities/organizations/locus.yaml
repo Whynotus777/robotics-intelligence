@@ -1,0 +1,37 @@
+slug: locus
+entity_type: ORGANIZATION
+name: Locus Robotics
+short_description: Wilmington, Massachusetts warehouse AMR vendor; four billion picks milestone.
+country_code: US
+depth_tier: ANCHOR
+aliases:
+- Locus
+claims:
+- predicate: HQ_AT
+  object: boston
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: locus-site
+    excerpt: Company site gives the headquarters location.
+- predicate: BUILDS
+  object: locus-origin
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: locus-site
+    excerpt: Company site lists Origin.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: locus-site
+    excerpt: Warehouse fulfilment positioning.
+- predicate: TARGETS_TASK
+  object: each-picking-assistance
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: locus-site
+    excerpt: Collaborative picking is the core product.

@@ -1,0 +1,22 @@
+slug: nvidia-isaac-sim
+entity_type: SOFTWARE_PRODUCT
+name: NVIDIA Isaac Sim
+short_description: GPU-accelerated robot simulation platform for synthetic data generation and policy training.
+country_code: US
+depth_tier: STANDARD
+aliases: [Isaac Sim]
+claims:
+  - predicate: MADE_BY
+    object: nvidia
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: nvidia-isaac-sim-page
+        excerpt: NVIDIA developer page for Isaac Sim.
+  - predicate: IS_INSTANCE_OF
+    object: robot-simulation
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: nvidia-isaac-sim-page
+        excerpt: Described as a robotics simulation platform.

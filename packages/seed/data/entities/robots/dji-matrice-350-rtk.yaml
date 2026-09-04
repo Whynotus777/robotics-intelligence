@@ -1,0 +1,55 @@
+slug: dji-matrice-350-rtk
+entity_type: ROBOT
+name: DJI Matrice 350 RTK
+short_description: Enterprise multirotor in DJI's Matrice line for inspection, mapping and public safety.
+primary_embodiment: DRONE
+country_code: CN
+depth_tier: STANDARD
+aliases: [Matrice 350 RTK, M350 RTK]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: DRONE
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: dji-m350-page
+        excerpt: Product page presents the Matrice 350 RTK as an enterprise drone.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: VOLUME_PRODUCTION
+    valid_from: 2023-05-18
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: dji-m350-page
+        excerpt: Sold as a catalogue product through the DJI enterprise channel.
+  - predicate: HAS_RUNTIME
+    number: 3300
+    unit: s
+    approximate: true
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: dji-m350-page
+        excerpt: Spec table lists a maximum flight time of 55 minutes.
+  - predicate: HAS_PAYLOAD
+    number: 2.7
+    unit: kg
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: dji-m350-page
+        excerpt: Spec table lists 2.7 kg maximum payload.
+  - predicate: ANNOUNCED_ON
+    date: 2023-05-18
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: dji-m350-page
+        excerpt: Announced in May 2023.
+  - predicate: COMPETES_WITH
+    object: skydio-x10
+    depends_on: [dji-matrice-350-rtk:HAS_EMBODIMENT, skydio-x10:HAS_EMBODIMENT]
+    evidence:
+      - class: DERIVED
+        confidence: MEDIUM
+        excerpt: Derived from shared embodiment (drone).

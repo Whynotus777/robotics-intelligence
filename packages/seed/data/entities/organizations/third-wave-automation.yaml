@@ -1,0 +1,30 @@
+slug: third-wave-automation
+entity_type: ORGANIZATION
+name: Third Wave Automation
+short_description: Union City, California autonomous forklift platform.
+country_code: US
+depth_tier: STANDARD
+aliases:
+- Third Wave
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: thirdwave-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_TASK
+  object: pallet-movement
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: thirdwave-site
+    excerpt: Autonomous forklifts for pallet movement.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: thirdwave-site
+    excerpt: Warehouse positioning.

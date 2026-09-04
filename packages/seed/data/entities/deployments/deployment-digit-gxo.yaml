@@ -1,0 +1,40 @@
+slug: deployment-digit-gxo
+entity_type: DEPLOYMENT
+name: Agility Digit at GXO
+short_description: Multi-year robots-as-a-service deployment of Digit moving totes in a GXO-operated facility.
+country_code: US
+depth_tier: ANCHOR
+claims:
+  - predicate: USES_ROBOT
+    object: agility-digit
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: agility-gxo-announcement
+        published_at: 2024-06-27
+        excerpt: Digit deployed under the agreement.
+  - predicate: DEPLOYED_BY
+    object: gxo
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: agility-gxo-announcement
+        published_at: 2024-06-27
+        excerpt: GXO named as the customer.
+  - predicate: OPERATED_BY
+    object: agility
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: agility-gxo-announcement
+        published_at: 2024-06-27
+        excerpt: Agility provides the robots as a service.
+  - predicate: BEGAN
+    date: 2024-06-27
+    valid_from: 2024-06-27
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: agility-gxo-announcement
+        published_at: 2024-06-27
+        excerpt: Agreement announced June 2024.

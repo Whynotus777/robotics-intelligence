@@ -1,0 +1,98 @@
+# (embodiment, canonical layer) -> display label. `~` (null) means the layer does not apply
+# to that embodiment and is omitted from the MRI. Keep all eleven canonical layers per embodiment.
+HUMANOID:
+  INTELLIGENCE: VLA / policy models
+  PLANNING: Task planning
+  PERCEPTION: Perception
+  STATE_ESTIMATION: State estimation
+  CONTROL: Whole-body control
+  COMPUTE: Compute
+  SENSORS: Cameras, depth, IMU, F/T
+  ACTUATION: Joint actuators
+  END_EFFECTOR_PAYLOAD: Hands / grippers
+  POWER: Battery, BMS
+  MECHANICAL: Frame, joints, legs
+QUADRUPED:
+  INTELLIGENCE: Mission autonomy
+  PLANNING: Task & route planning
+  PERCEPTION: Perception
+  STATE_ESTIMATION: State estimation
+  CONTROL: Locomotion control
+  COMPUTE: Compute
+  SENSORS: Cameras, depth, IMU
+  ACTUATION: Leg actuators
+  END_EFFECTOR_PAYLOAD: Payloads / arm
+  POWER: Battery, BMS
+  MECHANICAL: Frame, legs
+DRONE:
+  INTELLIGENCE: Mission autonomy
+  PLANNING: Route & mission planning
+  PERCEPTION: Perception / detection
+  STATE_ESTIMATION: State estimation / EKF
+  CONTROL: Flight control
+  COMPUTE: Flight computer + companion compute
+  SENSORS: Cameras, GNSS, IMU, LiDAR/radar
+  ACTUATION: Motors, ESCs, propulsion
+  END_EFFECTOR_PAYLOAD: Payload / gimbal / manipulator
+  POWER: Battery / hybrid
+  MECHANICAL: Airframe
+AMR:
+  INTELLIGENCE: Fleet orchestration
+  PLANNING: Task & route planning
+  PERCEPTION: Perception
+  STATE_ESTIMATION: Localization & SLAM
+  CONTROL: Motion control
+  COMPUTE: Compute
+  SENSORS: LiDAR, cameras, safety scanners
+  ACTUATION: Drive motors
+  END_EFFECTOR_PAYLOAD: Payload handling (lift, conveyor)
+  POWER: Battery, charging
+  MECHANICAL: Chassis
+AUTONOMOUS_VEHICLE:
+  INTELLIGENCE: Driving policy
+  PLANNING: Route & motion planning
+  PERCEPTION: Perception
+  STATE_ESTIMATION: Localization
+  CONTROL: Vehicle control
+  COMPUTE: Compute
+  SENSORS: LiDAR, radar, cameras, GNSS
+  ACTUATION: Drive-by-wire
+  END_EFFECTOR_PAYLOAD: Payload / cargo handling
+  POWER: Battery / powertrain
+  MECHANICAL: Chassis
+INDUSTRIAL_ARM:
+  INTELLIGENCE: Application software / programming
+  PLANNING: Motion planning
+  PERCEPTION: Vision (if present)
+  STATE_ESTIMATION: ~
+  CONTROL: Servo control / controller
+  COMPUTE: Controller cabinet / PLC
+  SENSORS: Encoders, F/T, safety
+  ACTUATION: Joint modules & reducers
+  END_EFFECTOR_PAYLOAD: End effector / tooling
+  POWER: Mains power
+  MECHANICAL: Links, base
+COBOT:
+  INTELLIGENCE: Application software / programming
+  PLANNING: Motion planning
+  PERCEPTION: Vision (if present)
+  STATE_ESTIMATION: ~
+  CONTROL: Servo control / controller
+  COMPUTE: Controller cabinet
+  SENSORS: Encoders, F/T, safety
+  ACTUATION: Joint modules & reducers
+  END_EFFECTOR_PAYLOAD: End effector / tooling
+  POWER: Mains power
+  MECHANICAL: Links, base
+OTHER_MOBILE:
+  INTELLIGENCE: Mission autonomy
+  PLANNING: Task & route planning
+  PERCEPTION: Perception
+  STATE_ESTIMATION: Localization
+  CONTROL: Motion control
+  COMPUTE: Compute
+  SENSORS: Cameras, IMU, LiDAR
+  ACTUATION: Drive / locomotion actuators
+  END_EFFECTOR_PAYLOAD: Tooling / payload
+  POWER: Battery / tether
+  MECHANICAL: Chassis

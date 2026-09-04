@@ -1,0 +1,31 @@
+slug: universal-robots
+entity_type: ORGANIZATION
+name: Universal Robots
+short_description: Odense cobot OEM, Teradyne-owned; UR3e through UR30 line.
+country_code: DK
+depth_tier: ANCHOR
+aliases:
+- UR
+- Universal Robots A/S
+claims:
+- predicate: HQ_AT
+  object: odense
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: ur-site
+    excerpt: Company site gives the headquarters location.
+- predicate: BUILDS
+  object: universal-robots-ur20
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: ur-ur20-page
+    excerpt: Company product page for UR20.
+- predicate: TARGETS_MARKET
+  object: manufacturing
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: ur-site
+    excerpt: Cobots positioned for manufacturing applications.

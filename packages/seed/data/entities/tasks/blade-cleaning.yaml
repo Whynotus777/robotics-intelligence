@@ -1,0 +1,67 @@
+slug: blade-cleaning
+entity_type: TASK
+name: Blade cleaning
+short_description: Removing dirt, insects and ice residue from blade surfaces to restore aerodynamic performance, including leading-edge protection application.
+depth_tier: STANDARD
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: wind
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A wind O&M task on installed assets.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: EARLY_COMMERCIAL
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Aerones and others operate cleaning and leading-edge protection commercially with suspended robots, and the work is paid, repeated and multi-customer. It is not scaling because it is still a specialist service sold campaign by campaign rather than a line item in standard O&M contracts.
+          advance_criteria:
+            - Cleaning written into multi-year service agreements
+            - Two or more vendors with fleets in more than one region
+            - Published performance-recovery data accepted by owners
+          evidence_considered:
+            - aerones:TARGETS_TASK
+            - rope-cable-suspended-robot:HAS_MATURITY
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: Rope-access crews with pressure washers, or no cleaning at all.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Many owners skip cleaning because the technician cost exceeds the recovered output.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: rope-cable-suspended-robot
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Suspended robots are the commercial approach for cleaning.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Asset owners and operators
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Owners capture the output gain and pay for cleaning.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: ADJACENT_TO
+    object: blade-repair
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Same platforms, same crews, same vendors.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01

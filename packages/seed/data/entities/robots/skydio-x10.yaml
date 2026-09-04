@@ -1,0 +1,47 @@
+slug: skydio-x10
+entity_type: ROBOT
+name: Skydio X10
+short_description: Autonomous enterprise drone with onboard obstacle avoidance, multiple sensor payload options and NDAA-compliant positioning.
+primary_embodiment: DRONE
+country_code: US
+depth_tier: ANCHOR
+aliases: [X10]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: DRONE
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: skydio-x10-page
+        excerpt: Product page presents X10 as an autonomous drone.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: VOLUME_PRODUCTION
+    valid_from: 2024-01-01
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: skydio-x10-page
+        excerpt: Sold as a catalogue product to enterprise and public-safety customers.
+  - predicate: ANNOUNCED_ON
+    date: 2023-09-20
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: skydio-site
+        excerpt: X10 announced in September 2023.
+  - predicate: HAS_ARCHITECTURE_NOTE
+    stack_layer: INTELLIGENCE
+    text: X10 runs Skydio's onboard autonomy stack for obstacle avoidance and autonomous data capture, so missions do not depend on a remote pilot's line of sight.
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: skydio-x10-page
+        excerpt: Product page describes onboard autonomy and obstacle avoidance.
+  - predicate: HAS_ARCHITECTURE_NOTE
+    stack_layer: END_EFFECTOR_PAYLOAD
+    text: Multiple sensor payload options (visual, thermal, zoom) are offered as swappable packages.
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: skydio-x10-page
+        excerpt: Product page lists sensor package options.

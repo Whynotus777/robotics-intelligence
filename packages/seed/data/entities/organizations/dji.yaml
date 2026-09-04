@@ -1,0 +1,30 @@
+slug: dji
+entity_type: ORGANIZATION
+name: DJI
+short_description: Shenzhen drone OEM; Matrice enterprise line.
+country_code: CN
+depth_tier: ANCHOR
+aliases:
+- DJI Technology
+claims:
+- predicate: HQ_AT
+  object: shenzhen
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: dji-site
+    excerpt: Company site gives the headquarters location.
+- predicate: BUILDS
+  object: dji-matrice-350-rtk
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: dji-m350-page
+    excerpt: Product page for Matrice 350 RTK.
+- predicate: MANUFACTURES_AT
+  object: shenzhen
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: dji-site
+    excerpt: Manufacturing based in Shenzhen.

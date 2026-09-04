@@ -1,0 +1,37 @@
+slug: fanuc
+entity_type: ORGANIZATION
+name: FANUC
+short_description: Oshino, Japan industrial robot OEM with over one million robots installed; CRX collaborative line.
+country_code: JP
+depth_tier: ANCHOR
+aliases:
+- FANUC Corporation
+claims:
+- predicate: HQ_AT
+  object: oshino
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: fanuc-site
+    excerpt: Company site gives the headquarters location.
+- predicate: BUILDS
+  object: fanuc-crx-10ia
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: fanuc-crx-page
+    excerpt: CRX series page lists the CRX-10iA.
+- predicate: TARGETS_MARKET
+  object: manufacturing
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: fanuc-site
+    excerpt: Industrial robots for factory automation.
+- predicate: TARGETS_MARKET
+  object: automotive
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: fanuc-site
+    excerpt: Automotive is a named application sector.

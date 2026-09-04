@@ -1,0 +1,44 @@
+slug: pi0
+entity_type: MODEL
+name: π0
+short_description: Physical Intelligence's generalist vision-language-action flow model for robot control, released October 2024.
+country_code: US
+depth_tier: ANCHOR
+aliases: [pi0, pi-zero, pi 0]
+claims:
+  - predicate: MADE_BY
+    object: physical-intelligence
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: pi-pi0-blog
+        excerpt: Announced on the Physical Intelligence blog as the company's first generalist policy.
+  - predicate: IS_INSTANCE_OF
+    object: vla-models
+    evidence:
+      - class: ACADEMIC
+        confidence: HIGH
+        source: pi0-paper
+        published_at: 2024-10-31
+        excerpt: The paper describes π0 as a vision-language-action flow model.
+      - class: PRIMARY
+        confidence: HIGH
+        source: pi-pi0-blog
+        published_at: 2024-10-31
+        excerpt: Blog post describes a VLA model built on a pretrained vision-language backbone.
+  - predicate: INTRODUCED_BY
+    object: pi0-paper
+    evidence:
+      - class: ACADEMIC
+        confidence: HIGH
+        source: pi0-paper
+        published_at: 2024-10-31
+        excerpt: arXiv 2410.24164.
+  - predicate: ANNOUNCED_ON
+    date: 2024-10-31
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: pi-pi0-blog
+        published_at: 2024-10-31
+        excerpt: Blog post dated 31 October 2024.

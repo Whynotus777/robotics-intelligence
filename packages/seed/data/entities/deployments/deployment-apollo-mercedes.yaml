@@ -1,0 +1,40 @@
+slug: deployment-apollo-mercedes
+entity_type: DEPLOYMENT
+name: Apollo pilot at Mercedes-Benz
+short_description: Apptronik Apollo humanoids piloted in Mercedes-Benz manufacturing for parts delivery and inspection tasks.
+country_code: DE
+depth_tier: STANDARD
+claims:
+  - predicate: USES_ROBOT
+    object: apptronik-apollo
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: apptronik-mercedes-announcement
+        published_at: 2024-03-15
+        excerpt: Apollo named in the agreement.
+  - predicate: DEPLOYED_BY
+    object: mercedes-benz
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: apptronik-mercedes-announcement
+        published_at: 2024-03-15
+        excerpt: Mercedes-Benz named as the pilot customer.
+  - predicate: OPERATED_BY
+    object: apptronik
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: apptronik-mercedes-announcement
+        published_at: 2024-03-15
+        excerpt: Apptronik provides the robots.
+  - predicate: BEGAN
+    date: 2024-03-15
+    valid_from: 2024-03-15
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: apptronik-mercedes-announcement
+        published_at: 2024-03-15
+        excerpt: Agreement announced March 2024.

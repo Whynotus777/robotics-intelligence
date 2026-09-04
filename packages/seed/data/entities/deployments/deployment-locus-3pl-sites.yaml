@@ -1,0 +1,29 @@
+slug: deployment-locus-3pl-sites
+entity_type: DEPLOYMENT
+name: Locus fleets at 3PL sites
+short_description: Locus Origin fleets deployed at multiple third-party logistics sites; site counts are self-reported.
+country_code: US
+depth_tier: STANDARD
+claims:
+  - predicate: USES_ROBOT
+    object: locus-origin
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: locus-site
+        excerpt: Origin is the fleet's primary robot.
+  - predicate: OPERATED_BY
+    object: locus
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: locus-site
+        excerpt: Locus operates fleets as a service.
+  - predicate: SERVES_TASK
+    object: each-picking-assistance
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: locus-4b-picks
+        published_at: 2024-11-18
+        excerpt: Four billion picks milestone announced across customer sites.

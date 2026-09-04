@@ -1,0 +1,32 @@
+slug: agility-digit
+entity_type: ROBOT
+name: Agility Digit
+short_description: Bipedal humanoid built for tote handling in logistics; the first humanoid under a commercial RaaS agreement.
+primary_embodiment: HUMANOID
+country_code: US
+depth_tier: STANDARD
+aliases: [Digit]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: HUMANOID
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: agility-digit-page
+        excerpt: Product page presents Digit as a bipedal humanoid for logistics.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: PILOT_DEPLOYMENTS
+    valid_from: 2024-06-27
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: agility-gxo-announcement
+        published_at: 2024-06-27
+        excerpt: Multi-year RaaS agreement with GXO for Digit in a live facility.
+  - predicate: TARGETS_MARKET
+    object: warehouse-logistics
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: agility-digit-page
+        excerpt: Positioned for warehouse and logistics tote handling.

@@ -1,0 +1,48 @@
+slug: deployment-figure-bmw-spartanburg
+entity_type: DEPLOYMENT
+name: Figure humanoids at BMW Spartanburg
+short_description: Figure 02 humanoids working on body-shop tasks at BMW Group's Spartanburg plant under a 2024 agreement.
+country_code: US
+depth_tier: ANCHOR
+claims:
+  - predicate: USES_ROBOT
+    object: figure-02
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-02-announcement
+        published_at: 2024-08-06
+        excerpt: Figure 02 shown operating at BMW Spartanburg.
+  - predicate: DEPLOYED_BY
+    object: bmw
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: bmw-figure-press
+        published_at: 2024-01-18
+        excerpt: BMW Manufacturing agreement with Figure.
+  - predicate: OPERATED_BY
+    object: figure-ai
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: bmw-figure-press
+        published_at: 2024-01-18
+        excerpt: Figure named as the robot provider.
+  - predicate: OCCURS_AT
+    object: spartanburg
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: bmw-figure-press
+        published_at: 2024-01-18
+        excerpt: Deployment at the Spartanburg plant.
+  - predicate: BEGAN
+    date: 2024-08-06
+    valid_from: 2024-08-06
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: figure-02-announcement
+        published_at: 2024-08-06
+        excerpt: Robots reported working at the plant from the Figure 02 announcement onward; the agreement was signed in January 2024.

@@ -1,0 +1,59 @@
+slug: boston-dynamics-spot
+entity_type: ROBOT
+name: Boston Dynamics Spot
+short_description: Quadruped platform for industrial inspection and data capture, with over 1,500 units deployed per the company.
+primary_embodiment: QUADRUPED
+country_code: US
+depth_tier: ANCHOR
+aliases: [Spot]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: QUADRUPED
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: bd-spot-page
+        excerpt: Product page presents Spot as a quadruped robot.
+  - predicate: HAS_MASS
+    number: 32.7
+    unit: kg
+    approximate: true
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: bd-spot-page
+        excerpt: Spec table lists mass of about 32.7 kg.
+  - predicate: HAS_PAYLOAD
+    number: 14
+    unit: kg
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: bd-spot-page
+        excerpt: Spec table lists 14 kg payload.
+  - predicate: HAS_RUNTIME
+    number: 5400
+    unit: s
+    approximate: true
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: bd-spot-page
+        excerpt: Spec table lists about 90 minutes of runtime.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: COMMERCIAL
+    valid_from: 2024-06-11
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: bd-spot-1500
+        published_at: 2024-06-11
+        excerpt: Company states over 1,500 Spot units deployed.
+  - predicate: USES_TECHNOLOGY
+    object: depth-cameras
+    stack_layer: SENSORS
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: bd-spot-page
+        excerpt: Spec table lists stereo depth cameras around the body.

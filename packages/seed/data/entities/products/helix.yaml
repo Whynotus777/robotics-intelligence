@@ -1,0 +1,39 @@
+slug: helix
+entity_type: MODEL
+name: Helix
+short_description: Figure AI's vision-language-action model for whole-upper-body humanoid control, announced February 2025.
+country_code: US
+depth_tier: ANCHOR
+aliases: [Figure Helix]
+claims:
+  - predicate: MADE_BY
+    object: figure-ai
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-helix-announcement
+        published_at: 2025-02-20
+        excerpt: Figure's announcement of Helix.
+  - predicate: IS_INSTANCE_OF
+    object: vla-models
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-helix-announcement
+        published_at: 2025-02-20
+        excerpt: Described as a generalist vision-language-action model.
+  - predicate: ANNOUNCED_ON
+    date: 2025-02-20
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-helix-announcement
+        published_at: 2025-02-20
+        excerpt: Announcement dated 20 February 2025.
+  - predicate: COMPETES_WITH
+    object: pi0
+    depends_on: [helix:IS_INSTANCE_OF, pi0:IS_INSTANCE_OF]
+    evidence:
+      - class: DERIVED
+        confidence: MEDIUM
+        excerpt: Derived from shared technology class (VLA models).

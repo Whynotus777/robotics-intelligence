@@ -1,0 +1,190 @@
+slug: blade-repair
+entity_type: TASK
+name: Blade repair
+short_description: Repairing leading-edge erosion, coating damage and structural defects on installed wind turbine blades.
+depth_tier: ANCHOR
+aliases: [Leading-edge repair, Blade maintenance]
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: wind
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Blade repair is performed on installed turbines by wind O&M buyers; the asset, the site and the budget line are all wind-specific.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: PILOT
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          author: editorial
+          rationale: Robotic systems have demonstrated field repair and coating workflows, and Aerones and Rope Robotics sell leading-edge protection commercially, but deployments remain limited and most structural repair still depends on human rope-access teams. Paid work is concentrated in a few vendors and a few asset owners, which is the signature of a pilot market, not an early-commercial one.
+          advance_criteria:
+            - Repeated paid deployments across seasons, not one-off campaigns
+            - Multiple asset owners, not one pilot partner
+            - Demonstrated repair quality accepted by OEM warranty terms
+            - Reduced on-site human intervention per blade
+          regress_criteria:
+            - A leading vendor exits or pivots to inspection only
+            - Warranty rejection of robot-applied repairs
+          evidence_considered:
+            - aerones:TARGETS_TASK#3
+            - rope-robotics:TARGETS_TASK
+            - bladebug:TARGETS_TASK
+            - rope-cable-suspended-robot:HAS_MATURITY
+            - blade-crawler:HAS_MATURITY
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: Rope-access technicians or suspended platforms, with turbine downtime for every intervention and weather-limited working windows.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Rope access is the default across onshore and offshore fleets; platform access is used for larger repairs. Both stop the turbine and both are gated by wind speed and daylight.
+          advance_criteria: ["Would change if platform-free repair became the default for a fleet operator."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: drone-based-blade-maintenance
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Drones are the incumbent robotic approach for inspection and the natural first attempt at contact work at height.
+          advance_criteria: ["Remove if no vendor pursues contact work from a multirotor."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: blade-crawler
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Crawlers adhere to the blade surface and carry tooling directly to the defect; BladeBUG is the reference vendor.
+          advance_criteria: ["Remove if crawler vendors exit repair."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: rope-cable-suspended-robot
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Rope- or cable-suspended robots lowered from the nacelle are the approach with commercial revenue today (Aerones, Rope Robotics).
+          advance_criteria: ["Remove if suspended systems lose to crawlers on repair quality."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: aerial-manipulator
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Aerial manipulation is a research approach with no commercial vendor yet; it is listed because it is the end state everyone is chasing.
+          advance_criteria: ["Promote when a vendor demonstrates contact-stable repair from a multirotor on a live turbine."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Contact stability in wind
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Grinding, filling and coating all require a stable tool-to-surface contact while gusts load the platform; this is the physical constraint that separates inspection from repair.
+          advance_criteria: ["Drops out only if turbines are routinely stopped and locked for every repair."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Surface preparation and coating application
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A repair is a multi-step process (clean, sand, fill, cure, coat) with process-quality requirements that warranties depend on.
+          advance_criteria: ["Would be relaxed if OEMs accepted protective tapes applied without surface prep."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Blade-edge localization
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The robot must find and track the leading edge to millimetre precision on a curved, uniformly coloured surface, in varying light.
+          advance_criteria: ["Would be simplified by blade-embedded fiducials, which no OEM ships today."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Working at 80–120 m height
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Every approach has to solve deployment to and retrieval from the blade at hub height, which drives system mass, tether design and crew size.
+          advance_criteria: ["Fixed for the installed fleet."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Turbine OEMs (service contracts)
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: OEMs hold long-term service agreements on much of the installed base and control warranty acceptance of repair methods.
+          advance_criteria: ["Would change if owners moved service in-house at scale."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Independent service providers
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: ISPs compete on cost per blade and are the most likely early adopters of robots that cut crew size.
+          advance_criteria: ["Would change if ISP consolidation removed the cost-competition dynamic."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Asset owners and operators
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Owners pay for downtime and are the ultimate sponsor of any method that shortens repair campaigns.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Warranty acceptance of robot-applied repairs by turbine OEMs
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A repair nobody will warrant is a demo. OEM service terms still assume certified technicians, so robot repairs are confined to owner-operated fleets and out-of-warranty assets.
+          advance_criteria:
+            - An OEM publishes an approved robotic repair procedure
+            - Insurers price robot-repaired blades the same as technician-repaired ones
+            - ISPs win service contracts on the basis of robotic repair capacity
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Weather windows and mobilisation cost still dominate campaign economics
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Robots reduce crew hours on the blade but not the days lost to wind and rain, and mobilising a suspended system still needs a crew at the nacelle. Until the system works in higher wind than a technician can, the economic gain is capped.
+          advance_criteria:
+            - Demonstrated operation above the rope-access wind limit
+            - Single-visit multi-blade campaigns without re-rigging
+            - Published cost-per-blade below the ISP benchmark
+          reviewed_at: 2026-09-01
+  - predicate: ADJACENT_TO
+    object: blade-cleaning
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Cleaning and leading-edge protection use the same suspended platforms and the same crews; cleaning is the commercial wedge for repair vendors.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: ADJACENT_TO
+    object: blade-visual-inspection
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Inspection produces the defect list that repair campaigns are planned from; vendors bundle the two.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01

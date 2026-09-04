@@ -1,0 +1,58 @@
+slug: lightning-protection-testing
+entity_type: TASK
+name: Lightning-protection testing
+short_description: Verifying continuity of the blade lightning protection system between receptors and the tower ground path.
+depth_tier: STANDARD
+aliases: [LPS testing]
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: wind
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A wind O&M task on installed assets.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: EARLY_COMMERCIAL
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Aerones sells robotic LPS continuity testing commercially and it is a natural add-on for any suspended platform already on the blade. Volume is limited by how often owners test, which is annual at most, so it will follow cleaning rather than lead it.
+          advance_criteria:
+            - LPS testing bundled into standard inspection campaigns
+            - More than one vendor selling it
+            - Certification bodies accepting robot-generated test records
+          evidence_considered:
+            - aerones:TARGETS_TASK#2
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: Technician continuity measurement from rope access or platform.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: The test itself is simple; the cost is entirely access.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: rope-cable-suspended-robot
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Suspended robots carry the test probe to each receptor.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Asset owners and operators
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Owners carry the insurance obligation to test.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01

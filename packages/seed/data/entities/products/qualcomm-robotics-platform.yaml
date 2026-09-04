@@ -1,0 +1,22 @@
+slug: qualcomm-robotics-platform
+entity_type: COMPONENT_PRODUCT
+name: Qualcomm robotics platforms
+short_description: Qualcomm's robotics compute platforms built on Snapdragon-class SoCs with integrated NPU, aimed at drones, AMRs and consumer robots.
+country_code: US
+depth_tier: STANDARD
+aliases: [Qualcomm Robotics RB series, Qualcomm robotics compute]
+claims:
+  - predicate: MADE_BY
+    object: qualcomm
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: qualcomm-robotics-page
+        excerpt: Qualcomm's robotics product page.
+  - predicate: IS_INSTANCE_OF
+    object: edge-ai-compute
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: qualcomm-robotics-page
+        excerpt: Positioned as on-device compute platforms for robotics.

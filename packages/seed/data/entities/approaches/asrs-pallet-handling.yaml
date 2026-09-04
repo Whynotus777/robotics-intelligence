@@ -1,0 +1,33 @@
+slug: asrs-pallet-handling
+entity_type: APPROACH
+name: AS/RS pallet handling
+short_description: Fixed automated storage and retrieval systems that move pallets or cases within a structure instead of with vehicles.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: MATURE
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Fixed AS/RS is a decades-old category with standard integrators and financing; Symbotic-style systems extend it to case handling at grocery scale. There is no technology question left, only capital allocation.
+          advance_criteria:
+            - Already mature
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: OTHER_MOBILE
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: AS/RS systems combine fixed structure with autonomous case-handling vehicles; classified as other mobile because the mobile element is not a free-roaming AMR.
+          advance_criteria: ["Would change if the taxonomy added a fixed-automation embodiment."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: symbotic
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: symbotic-10k
+        excerpt: Annual report describes an AI-enabled robotic warehouse automation system for case handling.

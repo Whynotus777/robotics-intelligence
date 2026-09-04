@@ -1,0 +1,49 @@
+slug: aerones
+entity_type: ORGANIZATION
+name: Aerones
+short_description: 'Riga-based robotic blade maintenance: cleaning, leading-edge protection, lightning-protection testing and inspection.'
+country_code: LV
+depth_tier: STANDARD
+claims:
+- predicate: HQ_AT
+  object: riga
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: aerones-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: energy
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: aerones-site
+    excerpt: Wind turbine maintenance positioning.
+- predicate: TARGETS_TASK
+  object: blade-cleaning
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: aerones-site
+    excerpt: Cleaning listed as a service.
+- predicate: TARGETS_TASK
+  object: lightning-protection-testing
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: aerones-site
+    excerpt: Lightning-protection testing listed as a service.
+- predicate: TARGETS_TASK
+  object: blade-repair
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: aerones-site
+    excerpt: Leading-edge protection and repair listed as services.
+- predicate: TARGETS_TASK
+  object: blade-visual-inspection
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: aerones-site
+    excerpt: Inspection listed as a service.

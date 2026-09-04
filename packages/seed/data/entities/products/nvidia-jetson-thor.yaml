@@ -1,0 +1,37 @@
+slug: nvidia-jetson-thor
+entity_type: COMPONENT_PRODUCT
+name: NVIDIA Jetson Thor
+short_description: Next-generation robotics compute module aimed at humanoids and physical AI workloads.
+country_code: US
+depth_tier: ANCHOR
+aliases: [Jetson Thor]
+claims:
+  - predicate: MADE_BY
+    object: nvidia
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: nvidia-jetson-thor-page
+        excerpt: NVIDIA product page for Jetson Thor.
+  - predicate: IS_INSTANCE_OF
+    object: edge-ai-compute
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: nvidia-jetson-thor-page
+        excerpt: Positioned as robotics and physical-AI edge compute.
+  - predicate: ANNOUNCED_ON
+    date: 2025-08-25
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: nvidia-jetson-thor-page
+        published_at: 2025-08-25
+        excerpt: General availability announced in August 2025.
+  - predicate: COMPETES_WITH
+    object: qualcomm-robotics-platform
+    depends_on: [nvidia-jetson-thor:IS_INSTANCE_OF, qualcomm-robotics-platform:IS_INSTANCE_OF]
+    evidence:
+      - class: DERIVED
+        confidence: MEDIUM
+        excerpt: Derived from shared technology class (edge AI compute).

@@ -1,0 +1,30 @@
+slug: abb-robotics
+entity_type: ORGANIZATION
+name: ABB Robotics
+short_description: Zurich-headquartered industrial arm and cobot OEM with manufacturing in Västerås and Shanghai.
+country_code: CH
+depth_tier: STANDARD
+aliases:
+- ABB
+claims:
+- predicate: HQ_AT
+  object: zurich
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: abb-robotics-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: manufacturing
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: abb-robotics-site
+    excerpt: Industrial robots and cobots for manufacturing.
+- predicate: MANUFACTURES_AT
+  object: shanghai
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: abb-robotics-site
+    excerpt: ABB operates a robotics factory in Shanghai.

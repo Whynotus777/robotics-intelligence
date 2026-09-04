@@ -1,0 +1,32 @@
+slug: locus-origin
+entity_type: ROBOT
+name: Locus Origin
+short_description: Collaborative picking AMR that carries totes and guides human pickers; the highest-volume robot in Locus's fleet.
+primary_embodiment: AMR
+country_code: US
+depth_tier: ANCHOR
+aliases: [Origin, LocusBot Origin]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: AMR
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: locus-site
+        excerpt: Company site presents Origin as an autonomous mobile robot.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: VOLUME_PRODUCTION
+    valid_from: 2022-01-01
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: locus-4b-picks
+        published_at: 2024-11-18
+        excerpt: Fleet-scale deployment implied by the four-billion-picks milestone.
+  - predicate: TARGETS_TASK
+    object: each-picking-assistance
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: locus-site
+        excerpt: Positioned for collaborative each-picking.

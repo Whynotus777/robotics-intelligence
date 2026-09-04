@@ -1,0 +1,40 @@
+slug: deployment-symbotic-walmart
+entity_type: DEPLOYMENT
+name: Symbotic systems at Walmart regional DCs
+short_description: Symbotic case-handling automation rolled out across Walmart's regional distribution centres under a multi-year programme.
+country_code: US
+depth_tier: ANCHOR
+claims:
+  - predicate: DEPLOYED_BY
+    object: walmart
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: symbotic-10k
+        published_at: 2024-11-25
+        excerpt: Annual report describes the Walmart programme as the company's largest customer commitment.
+  - predicate: OPERATED_BY
+    object: symbotic
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: symbotic-10k
+        published_at: 2024-11-25
+        excerpt: Symbotic installs and operates the systems.
+  - predicate: SERVES_TASK
+    object: automated-storage-and-retrieval
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: symbotic-10k
+        published_at: 2024-11-25
+        excerpt: Systems described as automated case storage, retrieval and pallet building.
+  - predicate: BEGAN
+    date: 2022-01-01
+    valid_from: 2022-01-01
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: symbotic-10k
+        published_at: 2024-11-25
+        excerpt: Programme under way across multiple sites by the 2024 filing; start dated to the programme expansion.

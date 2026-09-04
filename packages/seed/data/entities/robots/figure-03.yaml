@@ -1,0 +1,75 @@
+slug: figure-03
+entity_type: ROBOT
+name: Figure 03
+short_description: "Figure AI's third-generation humanoid, built around the Helix VLA model and targeted at home and commercial use. Deliberately sparse: no supplier data is published."
+primary_embodiment: HUMANOID
+country_code: US
+depth_tier: ANCHOR
+aliases: [Figure 3]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: HUMANOID
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-03-announcement
+        published_at: 2025-10-09
+        excerpt: Announced as Figure's next humanoid.
+  - predicate: ANNOUNCED_ON
+    date: 2025-10-09
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-03-announcement
+        published_at: 2025-10-09
+        excerpt: Announcement published in October 2025.
+  - predicate: CONTROLLED_BY
+    object: helix
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-03-announcement
+        published_at: 2025-10-09
+        excerpt: Described as designed for Helix.
+  - predicate: HAS_ARCHITECTURE_NOTE
+    stack_layer: INTELLIGENCE
+    text: Figure 03 is presented as hardware designed around Helix, Figure's vision-language-action model, with the sensor suite and hands specified for that policy rather than for teleoperation.
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: figure-03-announcement
+        published_at: 2025-10-09
+        excerpt: Announcement frames the robot as built for Helix.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: PILOT_DEPLOYMENTS
+    valid_from: 2025-10-09
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Figure's humanoids have run pilot work at BMW Spartanburg and the company states commercial and home targets, but Figure 03 has no published price, no published customer beyond pilots and no supplier disclosures. That is a pilot-deployments robot with a strong story and thin public evidence.
+          advance_criteria:
+            - A named paying customer beyond the BMW pilot
+            - Published pricing or a RaaS rate card
+            - Third-party reporting of units in daily production use
+          regress_criteria:
+            - Pilot partners not renewing after the initial term
+          evidence_considered:
+            - figure-03:ANNOUNCED_ON
+            - deployment-figure-bmw-spartanburg:BEGAN
+          reviewed_at: 2026-09-01
+  - predicate: MEMBER_OF_FAMILY
+    object: figure-humanoids
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-site
+        excerpt: Company site presents Figure 01, 02 and 03 as successive generations.
+  - predicate: SUCCEEDS
+    object: figure-02
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-03-announcement
+        published_at: 2025-10-09
+        excerpt: Positioned as the successor to Figure 02.

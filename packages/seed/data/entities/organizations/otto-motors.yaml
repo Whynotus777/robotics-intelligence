@@ -1,0 +1,31 @@
+slug: otto-motors
+entity_type: ORGANIZATION
+name: OTTO Motors
+short_description: Kitchener, Ontario industrial AMR vendor including pallet movers; acquired by Rockwell Automation.
+country_code: CA
+depth_tier: STANDARD
+aliases:
+- OTTO Motors by Rockwell Automation
+- Clearpath Robotics
+claims:
+- predicate: HQ_AT
+  object: kitchener
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: otto-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: manufacturing
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: otto-site
+    excerpt: Industrial AMRs for manufacturing.
+- predicate: TARGETS_TASK
+  object: pallet-movement
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: otto-site
+    excerpt: Pallet-moving AMRs listed.

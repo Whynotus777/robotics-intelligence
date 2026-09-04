@@ -1,0 +1,205 @@
+slug: pallet-movement
+entity_type: TASK
+name: Pallet movement
+short_description: Moving full pallets between dock, storage, staging and production areas without a human forklift operator.
+depth_tier: ANCHOR
+aliases: [Autonomous pallet handling, Pallet transport]
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: material-movement
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Pallet movement is the highest-volume intralogistics flow inside a distribution centre and is bought by the DC operator.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: SCALING
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          author: editorial
+          rationale: Autonomous pallet jacks and forklifts are in repeated paid deployments across 3PLs and manufacturers, sold by at least five vendors with multi-site customers and a Rockwell-owned incumbent. Brownfield variability, dock edge cases and safety certification still limit penetration to a small share of forklift hours, which is why this is scaling rather than mature.
+          advance_criteria:
+            - Autonomous units exceeding a double-digit share of new pallet-truck purchases at large 3PLs
+            - Standardised safety certification accepted across regions
+            - Routine trailer loading and unloading without human intervention
+            - Fleet-level WMS integration sold as a product, not a project
+          regress_criteria:
+            - Vendor consolidation that removes multi-vendor competition
+            - A safety incident that triggers regulatory restriction
+          evidence_considered:
+            - seegrid:TARGETS_TASK
+            - vecna:TARGETS_TASK
+            - otto-motors:TARGETS_TASK
+            - fox-robotics:TARGETS_TASK#2
+            - third-wave-automation:TARGETS_TASK
+            - amr-pallet-jack-or-lift:HAS_MATURITY
+            - autonomous-forklift:HAS_MATURITY
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: Manual forklift operators, typically on multiple shifts with high turnover.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Forklift operation is one of the largest hourly labour categories in logistics and the labour-model change is the whole business case.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: amr-pallet-jack-or-lift
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Purpose-built AMR pallet trucks are the most widely deployed approach.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: autonomous-forklift
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Retrofit and purpose-built autonomous forklifts compete on lift height and trailer work.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_APPROACH
+    object: asrs-pallet-handling
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Fixed AS/RS systems eliminate the movement rather than automate the vehicle; included because the buyer compares them.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Pallet detection and pocket localization
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Fork entry into damaged, wrapped or misaligned pallets is the highest-frequency failure mode; 3D perception of the pockets is the core capability.
+          advance_criteria: ["Would be relaxed by standardised pallet quality, which no DC has."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Safety-rated navigation among people
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Pallet trucks share aisles with pedestrians and manual forklifts; certified safety fields and speed limits determine throughput.
+          advance_criteria: ["Would be relaxed in fully segregated automated zones."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Dock and trailer edge cases
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Dock plates, trailer floors, lighting changes and tight clearances break navigation assumptions; this is where pilots stall.
+          advance_criteria: ["Would be relaxed by automated dock equipment."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_TECHNICAL_REQUIREMENT
+    text: Fleet orchestration with the WMS
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Missions originate in the WMS; without integration the robot is a remote-controlled truck.
+          advance_criteria: ["Would be simplified by standard WMS robot interfaces such as VDA 5050 becoming universal."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Third-party logistics providers (3PLs)
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: 3PLs run many similar sites and buy in fleets once one site proves out.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Retailers
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Retail distribution centres are the largest pallet-flow sites.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: CPG manufacturers
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Line-side to warehouse pallet flows in CPG plants are repetitive and 24/7.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Brownfield integration
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Most sites were laid out for human drivers; racking, aisle widths and floor quality vary, and every pilot becomes a site-engineering project. Vendors win when they can deploy without changing the building.
+          advance_criteria:
+            - Deployments quoted from a site survey without custom engineering
+            - Vendors publishing site-readiness criteria that customers can self-assess
+            - Sub-month time from order to first autonomous shift
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Safety certification
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Certification to regional standards for driverless industrial trucks is slow and site-specific, and it caps travel speed, which caps throughput. Customers with global footprints want one certificate, not one per region.
+          advance_criteria:
+            - Harmonised standards accepted across the US and EU
+            - Certified higher-speed operation in mixed traffic
+            - Insurers treating certified fleets as standard risk
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Workflow variability
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Pallet quality, stacking patterns and staging rules differ by shift and by customer, and the robot inherits every exception the humans quietly handled. The fix is process discipline, which the vendor cannot sell.
+          advance_criteria:
+            - Exception rates published and trending below human error rates
+            - Robots handling damaged or non-standard pallets without escalation
+          reviewed_at: 2026-09-01
+  - predicate: HAS_ADOPTION_BLOCKER
+    text: Labor-model change
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Removing operators changes shift structures, union agreements and supervisor roles. Sites that only reassign drivers to exception handling do not realise the savings that justified the purchase.
+          advance_criteria:
+            - Customers reporting realised labour savings, not projected ones
+            - Repeat purchases by the same customer across sites
+          reviewed_at: 2026-09-01
+  - predicate: ADJACENT_TO
+    object: truck-unloading
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Trailer unloading is the upstream step of the same pallet flow and the same vendors pursue both.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: ADJACENT_TO
+    object: automated-storage-and-retrieval
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: AS/RS replaces pallet movement inside storage; the two compete for the same capital budget.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01

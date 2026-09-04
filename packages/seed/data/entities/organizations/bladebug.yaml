@@ -1,0 +1,35 @@
+slug: bladebug
+entity_type: ORGANIZATION
+name: BladeBUG
+short_description: UK developer of a blade-crawling inspection and repair robot; offshore trials.
+country_code: GB
+depth_tier: STANDARD
+claims:
+- predicate: HQ_AT
+  object: london
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: bladebug-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_TASK
+  object: blade-repair
+  evidence:
+  - class: THIRD_PARTY
+    confidence: MEDIUM
+    source: bladebug-offshore-trials-news
+    excerpt: Trial coverage describes inspection and repair capability.
+- predicate: TARGETS_TASK
+  object: blade-visual-inspection
+  evidence:
+  - class: THIRD_PARTY
+    confidence: MEDIUM
+    source: bladebug-offshore-trials-news
+    excerpt: Trial coverage describes close visual inspection.
+- predicate: TARGETS_MARKET
+  object: energy
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: bladebug-site
+    excerpt: Offshore wind positioning.

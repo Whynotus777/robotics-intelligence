@@ -1,0 +1,33 @@
+slug: drone-based-blade-maintenance
+entity_type: APPROACH
+name: Drone-based
+short_description: Multirotor drones flying close to blades for inspection; contact work from the same platform is early.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: SCALING
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: For inspection the drone approach is mature and fleet-wide; for contact work such as cleaning or coating it is early. Rated as scaling for the approach as a whole because the inspection business funds the contact experiments and the same vendors sell both.
+          advance_criteria:
+            - Contact tasks (cleaning, coating) sold commercially from a drone platform
+            - Autonomous, operator-free inspection flights as the default
+            - BVLOS approvals for fleet campaigns in major markets
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: DRONE
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: skyspecs-site
+        excerpt: SkySpecs describes autonomous drone inspection of wind turbine blades.
+  - predicate: HAS_EXAMPLE_VENDOR
+    object: skyspecs
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: skyspecs-site
+        excerpt: Company site positions SkySpecs as an autonomous drone blade inspection and analytics provider.

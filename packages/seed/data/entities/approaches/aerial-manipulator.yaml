@@ -1,0 +1,28 @@
+slug: aerial-manipulator
+entity_type: APPROACH
+name: Aerial manipulator
+short_description: A multirotor carrying an arm or tool that performs contact work on the blade while hovering.
+depth_tier: STANDARD
+claims:
+  - predicate: HAS_MATURITY
+    enum: RESEARCH
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Contact-stable manipulation from a multirotor at height in gusting wind is an open research problem; laboratory and short field demonstrations exist, commercial vendors do not. It stays on the board because it is the only approach that removes the nacelle crew entirely.
+          advance_criteria:
+            - Field demonstration of sustained contact work on a live turbine in measured wind
+            - A vendor with a productised system and a paying pilot customer
+            - Regulatory pathway for tethered or untethered contact flight near turbines
+          reviewed_at: 2026-09-01
+  - predicate: USES_EMBODIMENT
+    enum: DRONE
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: By definition the platform is a multirotor with a manipulator; there is no vendor page to cite.
+          advance_criteria: ["Replace with a PRIMARY source once a vendor exists."]
+          reviewed_at: 2026-09-01

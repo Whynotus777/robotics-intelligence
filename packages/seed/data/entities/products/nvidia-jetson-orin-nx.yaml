@@ -1,0 +1,22 @@
+slug: nvidia-jetson-orin-nx
+entity_type: COMPONENT_PRODUCT
+name: NVIDIA Jetson Orin NX
+short_description: System-on-module in the Jetson Orin family for edge AI, used as onboard compute in research and developer robots.
+country_code: US
+depth_tier: ANCHOR
+aliases: [Jetson Orin, Jetson Orin NX]
+claims:
+  - predicate: MADE_BY
+    object: nvidia
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: nvidia-jetson-orin-page
+        excerpt: NVIDIA's Jetson Orin product page lists the Orin NX module.
+  - predicate: IS_INSTANCE_OF
+    object: edge-ai-compute
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: nvidia-jetson-orin-page
+        excerpt: Positioned as an embedded edge AI and robotics compute module.

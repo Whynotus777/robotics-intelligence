@@ -1,0 +1,35 @@
+slug: skydio
+entity_type: ORGANIZATION
+name: Skydio
+short_description: San Mateo autonomous drone OEM with enterprise and public-safety focus; X10.
+country_code: US
+depth_tier: ANCHOR
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: skydio-site
+    excerpt: Company site gives the headquarters location.
+- predicate: BUILDS
+  object: skydio-x10
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: skydio-x10-page
+    excerpt: Company product page for X10.
+- predicate: TARGETS_MARKET
+  object: utilities
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: skydio-site
+    excerpt: Utilities inspection is a named sector.
+- predicate: TARGETS_MARKET
+  object: defense
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: skydio-site
+    excerpt: Defense and public safety are named sectors.

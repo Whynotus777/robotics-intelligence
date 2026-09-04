@@ -1,0 +1,35 @@
+slug: apptronik
+entity_type: ORGANIZATION
+name: Apptronik
+short_description: Austin humanoid OEM behind Apollo; partnerships announced with Mercedes-Benz and GXO.
+country_code: US
+depth_tier: ANCHOR
+claims:
+- predicate: HQ_AT
+  object: austin
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: apptronik-apollo-page
+    excerpt: Company site gives the headquarters location.
+- predicate: BUILDS
+  object: apptronik-apollo
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: apptronik-apollo-page
+    excerpt: Company product page for Apollo.
+- predicate: PARTNERS_WITH
+  object: mercedes-benz
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: apptronik-mercedes-announcement
+    excerpt: Commercial agreement announced March 2024.
+- predicate: PARTNERS_WITH
+  object: gxo
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: apptronik-gxo-announcement
+    excerpt: Partnership announced June 2024.

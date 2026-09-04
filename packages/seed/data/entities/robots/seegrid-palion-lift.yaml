@@ -1,0 +1,31 @@
+slug: seegrid-palion-lift
+entity_type: ROBOT
+name: Seegrid Palion Lift
+short_description: Autonomous lift truck for pallet movement and low-level rack placement.
+primary_embodiment: AMR
+country_code: US
+depth_tier: STANDARD
+aliases: [Palion Lift]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: AMR
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: seegrid-site
+        excerpt: Company site presents Palion Lift as an autonomous mobile robot.
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: COMMERCIAL
+    valid_from: 2022-01-01
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: seegrid-site
+        excerpt: Offered as a commercial product line.
+  - predicate: TARGETS_TASK
+    object: pallet-movement
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: seegrid-site
+        excerpt: Positioned for autonomous pallet handling.

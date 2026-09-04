@@ -1,0 +1,31 @@
+slug: physical-intelligence
+entity_type: ORGANIZATION
+name: Physical Intelligence
+short_description: San Francisco robotics foundation-model company; released π0 in October 2024.
+country_code: US
+depth_tier: ANCHOR
+aliases:
+- PI
+- π
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: pi-pi0-blog
+    excerpt: Company site gives the headquarters location.
+- predicate: DEVELOPS
+  object: pi0
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: pi-pi0-blog
+    excerpt: π0 announcement.
+- predicate: PUBLISHES
+  object: pi0-paper
+  evidence:
+  - class: ACADEMIC
+    confidence: HIGH
+    source: pi0-paper
+    excerpt: Company authored the π0 paper.

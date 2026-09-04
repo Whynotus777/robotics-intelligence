@@ -1,0 +1,42 @@
+slug: fox-robotics
+entity_type: ORGANIZATION
+name: Fox Robotics
+short_description: Austin vendor of autonomous forklifts for trailer unloading.
+country_code: US
+depth_tier: STANDARD
+claims:
+- predicate: HQ_AT
+  object: austin
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: fox-site
+    excerpt: Company site gives the headquarters location.
+- predicate: BUILDS
+  object: fox-robotics-foxbot
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: fox-site
+    excerpt: Company site presents FoxBot.
+- predicate: TARGETS_TASK
+  object: truck-unloading
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: fox-site
+    excerpt: Trailer unloading is the lead application.
+- predicate: TARGETS_TASK
+  object: pallet-movement
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: fox-site
+    excerpt: Pallet moves from the dock.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: fox-site
+    excerpt: Logistics positioning.

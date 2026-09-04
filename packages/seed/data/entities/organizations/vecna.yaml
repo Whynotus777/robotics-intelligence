@@ -1,0 +1,30 @@
+slug: vecna
+entity_type: ORGANIZATION
+name: Vecna Robotics
+short_description: Waltham, Massachusetts vendor of autonomous pallet jacks and forklifts.
+country_code: US
+depth_tier: STANDARD
+aliases:
+- Vecna
+claims:
+- predicate: HQ_AT
+  object: boston
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: vecna-site
+    excerpt: Company site gives the headquarters location.
+- predicate: TARGETS_MARKET
+  object: warehouse-logistics
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: vecna-site
+    excerpt: Warehouse positioning.
+- predicate: TARGETS_TASK
+  object: pallet-movement
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: vecna-site
+    excerpt: Autonomous pallet jacks and forklifts.

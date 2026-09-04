@@ -1,0 +1,46 @@
+slug: case-picking
+entity_type: TASK
+name: Case picking
+short_description: Building mixed-case pallets or moving full cases from storage to outbound, by arm or by automated system.
+depth_tier: STANDARD
+claims:
+  - predicate: BELONGS_TO_MARKET
+    object: material-movement
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: A distribution-centre flow bought by DC operators.
+          advance_criteria: ["Would only change with a taxonomy redesign."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_MATURITY
+    enum: EARLY_COMMERCIAL
+    valid_from: 2026-09-01
+    evidence:
+      - class: ANALYST
+        confidence: MEDIUM
+        assessment:
+          rationale: Robotic case picking and mixed-pallet building are sold commercially by fixed-automation vendors and a growing set of mobile-manipulation vendors, with paying customers in grocery and CPG. It is early commercial because deployments are still large capital projects with long lead times rather than repeatable installs.
+          advance_criteria:
+            - Repeatable installs quoted in months, not years
+            - Vendors with more than ten production sites each
+            - Mobile manipulators handling the case mix without human exception handling
+          reviewed_at: 2026-09-01
+  - predicate: HAS_INCUMBENT_PROCESS
+    text: Manual case picking with pallet jacks and voice-directed picking.
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Case picking is heavy, injury-prone manual work, which drives demand.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
+  - predicate: HAS_CUSTOMER_TYPE
+    text: Grocery and retail distributors
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Grocery DCs have the highest case volumes and the earliest production systems.
+          advance_criteria: ["Stable."]
+          reviewed_at: 2026-09-01
