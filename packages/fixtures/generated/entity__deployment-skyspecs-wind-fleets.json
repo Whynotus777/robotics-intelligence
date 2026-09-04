@@ -5,6 +5,8 @@
     "entity_type": "DEPLOYMENT",
     "name": "SkySpecs inspections across utility-scale wind fleets",
     "short_description": "Autonomous drone blade inspection campaigns run by SkySpecs across utility-scale wind fleets; counts are self-reported.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [],
@@ -23,30 +25,6 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "OPERATED_BY",
-      "label": "is operated by",
-      "items": [
-        {
-          "claim_id": "f958c949-d1a8-55b3-8007-3d531e88b211",
-          "target": {
-            "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
-            "slug": "skyspecs",
-            "entity_type": "ORGANIZATION",
-            "name": "SkySpecs",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "MEDIUM",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "SERVES_TASK",
       "label": "serves task",
       "items": [
@@ -60,6 +38,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "OPERATED_BY",
+      "label": "is operated by",
+      "items": [
+        {
+          "claim_id": "f958c949-d1a8-55b3-8007-3d531e88b211",
+          "target": {
+            "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
+            "slug": "skyspecs",
+            "entity_type": "ORGANIZATION",
+            "name": "SkySpecs",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -96,7 +100,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 2,
     "deployment_count": 0,
     "related_count": 2
   },

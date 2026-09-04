@@ -13,6 +13,8 @@ export const entities = pgTable(
     name: text("name").notNull(),
     normalizedName: text("normalized_name").notNull(),
     shortDescription: text("short_description"),
+    imageUrl: text("image_url"),
+    imageCredit: text("image_credit"),
     primaryEmbodiment: embodimentEnum("primary_embodiment"),
     countryCode: char("country_code", { length: 2 }),
     depthTier: depthTierEnum("depth_tier").notNull().default("STANDARD"),

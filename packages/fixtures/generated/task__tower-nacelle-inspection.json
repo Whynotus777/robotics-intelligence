@@ -26,6 +26,7 @@
   "maturity": {
     "value": "SCALING",
     "claim_id": "32e534c9-db38-517c-8070-0834e4dad865",
+    "qualifier": null,
     "evidence_summary": {
       "class": "ANALYST",
       "confidence": "MEDIUM",
@@ -54,6 +55,7 @@
     {
       "claim_id": "6ffbd839-ae34-5897-a329-126996f944a7",
       "text": "Rope-access or platform inspection by technicians during scheduled maintenance.",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -85,6 +87,7 @@
       "maturity": {
         "value": "SCALING",
         "claim_id": "595b4a6a-0756-50b6-87b9-9db56dc2a9e1",
+        "qualifier": null,
         "evidence_summary": {
           "class": "ANALYST",
           "confidence": "HIGH",
@@ -122,6 +125,7 @@
     {
       "claim_id": "4b3c5673-7db4-5eef-8fa7-f003c0555231",
       "text": "Asset owners and operators",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -140,5 +144,19 @@
       }
     }
   ],
+  "intelligence_rail": {
+    "assessment_count": 5,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 5
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 0,
+    "deployment_count": 0,
+    "field_trial_count": 0
+  },
   "as_of": null
 }

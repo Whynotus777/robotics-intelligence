@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "ABB Robotics",
     "short_description": "Zurich-headquartered industrial arm and cobot OEM with manufacturing in Västerås and Shanghai.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "CH",
     "aliases": [
@@ -25,30 +27,6 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
-      "items": [
-        {
-          "claim_id": "fc54ed84-1c9c-5e13-a0f7-26f1cc3ce2fb",
-          "target": {
-            "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
-            "slug": "zurich",
-            "entity_type": "PLACE",
-            "name": "Zurich",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "TARGETS_MARKET",
       "label": "targets market",
       "items": [
@@ -62,6 +40,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -86,11 +65,37 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "fc54ed84-1c9c-5e13-a0f7-26f1cc3ce2fb",
+          "target": {
+            "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+            "slug": "zurich",
+            "entity_type": "PLACE",
+            "name": "Zurich",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
             "source_count": 1
           }
         }
@@ -138,7 +143,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 3,
     "deployment_count": 0,
     "related_count": 3
   },

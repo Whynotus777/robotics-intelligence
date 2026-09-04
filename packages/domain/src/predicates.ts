@@ -29,8 +29,17 @@ export interface PredicateDefinition {
 
 const ORG = ["ORGANIZATION"] as const;
 const PRODUCTS = ["COMPONENT_PRODUCT", "SOFTWARE_PRODUCT", "MODEL"] as const;
+const ALL_ENTITIES = ["ORGANIZATION", "ROBOT", "ROBOT_FAMILY", "COMPONENT_PRODUCT", "SOFTWARE_PRODUCT", "MODEL", "TECHNOLOGY", "MARKET", "TASK", "APPROACH", "DEPLOYMENT", "PLACE", "BENCHMARK", "PAPER", "DATASET"] as const;
 
 export const PREDICATES = {
+  HAS_OVERVIEW: {
+    subject_types: ALL_ENTITIES, value_kind: "TEXT", cardinality: "ONE", is_stack_membership: false,
+    stack_layer: "FORBIDDEN", label: "overview", description: "Analyst-authored overview prose for any entity.",
+  },
+  HAS_TAGLINE: {
+    subject_types: ["MARKET"], value_kind: "TEXT", cardinality: "ONE", is_stack_membership: false,
+    stack_layer: "FORBIDDEN", label: "tagline", description: "Short analyst-authored market tagline.",
+  },
   // ---- Organization ---------------------------------------------------
   BUILDS: {
     subject_types: ORG,
@@ -345,6 +354,10 @@ export const PREDICATES = {
   },
 
   // ---- Deployment -----------------------------------------------------
+  HAS_DEPLOYMENT_KIND: {
+    subject_types: ["DEPLOYMENT"], value_kind: "ENUM", enum_name: "DeploymentKind", cardinality: "ONE",
+    is_stack_membership: false, stack_layer: "FORBIDDEN", label: "deployment kind", description: "Field trial, pilot, or commercial deployment.",
+  },
   USES_ROBOT: {
     subject_types: ["DEPLOYMENT"],
     value_kind: "ENTITY",

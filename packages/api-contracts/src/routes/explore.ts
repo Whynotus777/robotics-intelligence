@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { EntityChip, IsoDate } from "../common.js";
 import { DiscoveryFilters } from "./discovery.js";
+import { ChangeEventView } from "./updates.js";
 
 // GET /explore?lens=&measure=
 
@@ -47,6 +48,7 @@ export const ExploreResponse = z.object({
   lens: ExploreLens,
   measure: ExploreMeasure,
   regions: z.array(ExploreRegion),
+  whats_changing: z.array(ChangeEventView),
   as_of: IsoDate.nullable(),
 });
 export type ExploreResponse = z.infer<typeof ExploreResponse>;

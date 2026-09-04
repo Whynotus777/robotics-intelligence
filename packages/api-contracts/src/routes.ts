@@ -4,6 +4,7 @@ import { ClaimEvidenceParams, ClaimEvidenceResponse } from "./routes/claim-evide
 import { CompareBody, CompareResponse } from "./routes/compare.js";
 import { EntityParams, EntityQuery, EntityResponse } from "./routes/entity.js";
 import { ExploreQuery, ExploreResponse } from "./routes/explore.js";
+import { StackMatrixQuery, StackMatrixResponse } from "./routes/stack-matrix.js";
 import { MarketParams, MarketQuery, MarketResponse } from "./routes/market.js";
 import { SearchQuery, SearchResponse } from "./routes/search.js";
 import { StackParams, StackQuery, StackResponse } from "./routes/stack.js";
@@ -15,6 +16,7 @@ export const ROUTES = {
   entity: { method: "GET", path: "/entities/:slug", params: EntityParams, query: EntityQuery, response: EntityResponse },
   search: { method: "GET", path: "/search", query: SearchQuery, response: SearchResponse },
   explore: { method: "GET", path: "/explore", query: ExploreQuery, response: ExploreResponse },
+  stackMatrix: { method: "GET", path: "/explore/stack-matrix", query: StackMatrixQuery, response: StackMatrixResponse },
   stack: { method: "GET", path: "/robots/:slug/stack", params: StackParams, query: StackQuery, response: StackResponse },
   task: { method: "GET", path: "/tasks/:slug", params: TaskParams, query: TaskQuery, response: TaskResponse },
   market: { method: "GET", path: "/markets/:slug", params: MarketParams, query: MarketQuery, response: MarketResponse },

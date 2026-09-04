@@ -1,0 +1,60 @@
+{
+  "claim": {
+    "claim_id": "78fc1cbe-536d-5cbd-8a97-0e6ee3518d84",
+    "subject": {
+      "id": "bf24c58e-1c83-58d4-b810-bbeacce0f9b8",
+      "slug": "oil-and-gas",
+      "entity_type": "MARKET",
+      "name": "Oil & gas",
+      "primary_embodiment": null
+    },
+    "predicate": "CHILD_OF",
+    "label": "is a domain of",
+    "sentence": "Oil & gas is a domain of Energy",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+        "slug": "energy",
+        "entity_type": "MARKET",
+        "name": "Energy",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "939a8171-d7e1-5d15-810b-99b9391db833",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Oil and gas robotics serves energy asset operators across hazardous inspection and maintenance workflows.",
+        "advance_criteria": [
+          "Reclassify only if process industries becomes a separate top-level sector."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

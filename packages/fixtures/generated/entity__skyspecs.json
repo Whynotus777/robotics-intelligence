@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "SkySpecs",
     "short_description": "Ann Arbor provider of autonomous drone blade inspection and analytics for wind fleets.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [],
@@ -36,30 +38,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "TARGETS_MARKET",
-      "label": "targets market",
-      "items": [
-        {
-          "claim_id": "820515c3-5d88-5a0f-9bda-023c1b85d036",
-          "target": {
-            "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
-            "slug": "energy",
-            "entity_type": "MARKET",
-            "name": "Energy",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -84,6 +63,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "820515c3-5d88-5a0f-9bda-023c1b85d036",
+          "target": {
+            "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+            "slug": "energy",
+            "entity_type": "MARKET",
+            "name": "Energy",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -110,6 +115,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -134,6 +140,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -187,7 +194,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 3,
     "deployment_count": 0,
     "related_count": 5
   },

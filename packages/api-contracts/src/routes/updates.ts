@@ -10,7 +10,8 @@ export const UpdatesQuery = z.object({
   embodiment: Embodiment.optional(),
   /** Market slug; matches events whose entity targets or belongs to that market (or its descendants). */
   market: z.string().optional(),
-  limit: z.number().int().min(1).max(200).default(50),
+  entity: z.string().optional(),
+  limit: z.coerce.number().int().min(1).max(200).default(50),
 });
 export type UpdatesQuery = z.infer<typeof UpdatesQuery>;
 

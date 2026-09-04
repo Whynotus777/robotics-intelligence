@@ -2,6 +2,8 @@
 
 Source of truth for enums and predicates is code: `packages/domain/src/enums.ts` and `packages/domain/src/predicates.ts`. Each registry entry declares subject types, typed value kind, allowed object types, canonical numeric unit, cardinality, and stack-layer rule; unknown predicates are rejected at seed and API boundaries. This page is the human-readable registry guide.
 
+Additive design-reconciliation vocabulary: `HAS_OVERVIEW` is analyst prose available on any entity; `HAS_TAGLINE` is analyst prose for markets; and `HAS_DEPLOYMENT_KIND` classifies deployments as `FIELD_TRIAL`, `PILOT`, or `COMMERCIAL`. Claims can carry a short display `qualifier` without changing their typed value.
+
 ## Primitive
 `entity + claim + relationship + evidence + time`. A relationship is a claim whose value is another entity. Entities carry a small typed core plus cached current-value columns derived from APPROVED claims (never written directly).
 

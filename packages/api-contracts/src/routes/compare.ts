@@ -11,6 +11,7 @@ export type CompareBody = z.infer<typeof CompareBody>;
 
 export const CompareCellValue = z.object({
   claim_id: z.uuid(),
+  qualifier: z.string().nullable(),
   value: ClaimValue,
   evidence_summary: EvidenceSummary,
 });

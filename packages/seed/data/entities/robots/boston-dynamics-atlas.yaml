@@ -1,0 +1,21 @@
+slug: boston-dynamics-atlas
+entity_type: ROBOT
+name: Boston Dynamics Atlas
+short_description: Electric humanoid robot platform developed for industrial manipulation research and deployment.
+primary_embodiment: HUMANOID
+country_code: US
+depth_tier: ANCHOR
+aliases: [Atlas]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: HUMANOID
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: bd-atlas
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: PILOT_DEPLOYMENTS
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: bd-atlas

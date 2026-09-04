@@ -1,0 +1,138 @@
+{
+  "entity": {
+    "id": "f983eaaf-ab4b-52fb-a311-d1831ee628db",
+    "slug": "boston-dynamics-atlas",
+    "entity_type": "ROBOT",
+    "name": "Boston Dynamics Atlas",
+    "short_description": "Electric humanoid robot platform developed for industrial manipulation research and deployment.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": "HUMANOID",
+    "country_code": "US",
+    "aliases": [
+      "Atlas"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": "PILOT_DEPLOYMENTS",
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "25e69e01-3fa1-54d3-b6a6-31780709fd0e",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "PILOT_DEPLOYMENTS"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "cff76543-057b-5797-b829-ab96f66269b1",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "306d9af9-03b6-5afb-ba1b-a8141dc02d7c",
+          "source": {
+            "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
+            "slug": "boston-dynamics",
+            "entity_type": "ORGANIZATION",
+            "name": "Boston Dynamics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
+        "slug": "boston-dynamics",
+        "entity_type": "ORGANIZATION",
+        "name": "Boston Dynamics",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

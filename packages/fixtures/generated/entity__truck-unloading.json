@@ -5,6 +5,8 @@
     "entity_type": "TASK",
     "name": "Truck unloading",
     "short_description": "Unloading pallets or floor-loaded cases from trailers at the receiving dock without a human operator.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [
@@ -24,6 +26,32 @@
   "place": null,
   "claims": [
     {
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
+      "claims": [
+        {
+          "claim_id": "3ed1817b-50c2-5401-a2d4-9506182d0c63",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Third-party logistics providers (3PLs)"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HAS_MATURITY",
       "label": "maturity",
       "claims": [
@@ -35,6 +63,7 @@
             "value": "PILOT"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -60,31 +89,7 @@
             "text": "Manual forklift drivers for palletised freight; manual crews for floor-loaded cases."
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "HAS_CUSTOMER_TYPE",
-      "label": "customer type",
-      "claims": [
-        {
-          "claim_id": "3ed1817b-50c2-5401-a2d4-9506182d0c63",
-          "predicate": "HAS_CUSTOMER_TYPE",
-          "value": {
-            "kind": "text",
-            "text": "Third-party logistics providers (3PLs)"
-          },
-          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -101,30 +106,6 @@
   ],
   "relationships": [
     {
-      "predicate": "BELONGS_TO_MARKET",
-      "label": "belongs to",
-      "items": [
-        {
-          "claim_id": "20f69d85-4be2-5b63-aaab-cc3def94219c",
-          "target": {
-            "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
-            "slug": "material-movement",
-            "entity_type": "MARKET",
-            "name": "Material movement",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        }
-      ]
-    },
-    {
       "predicate": "HAS_APPROACH",
       "label": "has approach",
       "items": [
@@ -138,6 +119,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "20f69d85-4be2-5b63-aaab-cc3def94219c",
+          "target": {
+            "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+            "slug": "material-movement",
+            "entity_type": "MARKET",
+            "name": "Warehouse",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -162,6 +169,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -179,24 +187,6 @@
       "label": "targets task",
       "items": [
         {
-          "claim_id": "9e553eb2-9c55-5dbb-b946-9232162b317c",
-          "source": {
-            "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
-            "slug": "fox-robotics",
-            "entity_type": "ORGANIZATION",
-            "name": "Fox Robotics",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "MEDIUM",
-            "source_count": 1
-          }
-        },
-        {
           "claim_id": "5d3a339e-7953-58ba-8bc3-30db9163b6c9",
           "source": {
             "id": "9c12a0ae-d1aa-5eed-ab85-416b54bece15",
@@ -206,6 +196,26 @@
             "primary_embodiment": "AMR"
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "9e553eb2-9c55-5dbb-b946-9232162b317c",
+          "source": {
+            "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+            "slug": "fox-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Fox Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -230,6 +240,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -265,7 +276,7 @@
         "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
         "slug": "material-movement",
         "entity_type": "MARKET",
-        "name": "Material movement",
+        "name": "Warehouse",
         "primary_embodiment": null
       }
     ]
@@ -283,7 +294,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 6,
     "deployment_count": 0,
     "related_count": 5
   },

@@ -1,0 +1,139 @@
+{
+  "entity": {
+    "id": "b90e95c1-9318-5905-b0b3-48c39d4ace81",
+    "slug": "ghost-vision-60",
+    "entity_type": "ROBOT",
+    "name": "Ghost Robotics Vision 60",
+    "short_description": "Rugged quadruped unmanned ground vehicle for defense and public-safety missions.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": "QUADRUPED",
+    "country_code": "US",
+    "aliases": [
+      "V60",
+      "Vision 60"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": "COMMERCIAL",
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "164bf9b9-b5d7-502b-b515-ff0a4a6cc6f9",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "COMMERCIAL"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "6f0c95f9-0518-5b1d-9512-1805f544f564",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "QUADRUPED"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "51a1aec9-64a7-5dac-a322-960cff4aa59d",
+          "source": {
+            "id": "88569dea-4f2d-5071-a8cd-2aaf51b1bda1",
+            "slug": "ghost-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Ghost Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "88569dea-4f2d-5071-a8cd-2aaf51b1bda1",
+        "slug": "ghost-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Ghost Robotics",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

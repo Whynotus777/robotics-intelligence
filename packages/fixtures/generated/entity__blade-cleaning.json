@@ -5,6 +5,8 @@
     "entity_type": "TASK",
     "name": "Blade cleaning",
     "short_description": "Removing dirt, insects and ice residue from blade surfaces to restore aerodynamic performance, including leading-edge protection application.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [],
@@ -22,31 +24,6 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_MATURITY",
-      "label": "maturity",
-      "claims": [
-        {
-          "claim_id": "a6e1b03a-dc28-5f9b-9015-eca73bb4621d",
-          "predicate": "HAS_MATURITY",
-          "value": {
-            "kind": "enum",
-            "value": "EARLY_COMMERCIAL"
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "MEDIUM",
-            "source_count": 0
-          }
-        }
-      ]
-    },
-    {
       "predicate": "HAS_INCUMBENT_PROCESS",
       "label": "incumbent process",
       "claims": [
@@ -58,6 +35,7 @@
             "text": "Rope-access crews with pressure washers, or no cleaning at all."
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -66,6 +44,32 @@
           "evidence_summary": {
             "class": "ANALYST",
             "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "a6e1b03a-dc28-5f9b-9015-eca73bb4621d",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "EARLY_COMMERCIAL"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
             "source_count": 0
           }
         }
@@ -83,6 +87,7 @@
             "text": "Asset owners and operators"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -99,6 +104,31 @@
   ],
   "relationships": [
     {
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
+      "items": [
+        {
+          "claim_id": "49df6f48-ce71-5350-be8f-bdf2a2e71501",
+          "target": {
+            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+            "slug": "blade-repair",
+            "entity_type": "TASK",
+            "name": "Blade repair",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
       "predicate": "BELONGS_TO_MARKET",
       "label": "belongs to",
       "items": [
@@ -112,6 +142,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -136,30 +167,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "ADJACENT_TO",
-      "label": "is adjacent to",
-      "items": [
-        {
-          "claim_id": "49df6f48-ce71-5350-be8f-bdf2a2e71501",
-          "target": {
-            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
-            "slug": "blade-repair",
-            "entity_type": "TASK",
-            "name": "Blade repair",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -186,6 +194,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -210,6 +219,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -263,7 +273,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 6,
     "deployment_count": 0,
     "related_count": 4
   },

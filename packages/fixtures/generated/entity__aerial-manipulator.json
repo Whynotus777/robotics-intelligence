@@ -5,6 +5,8 @@
     "entity_type": "APPROACH",
     "name": "Aerial manipulator",
     "short_description": "A multirotor carrying an arm or tool that performs contact work on the blade while hovering.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [],
@@ -22,17 +24,18 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_MATURITY",
-      "label": "maturity",
+      "predicate": "USES_EMBODIMENT",
+      "label": "uses embodiment",
       "claims": [
         {
-          "claim_id": "a340ebc1-9331-5de7-b838-8f011f5c57a2",
-          "predicate": "HAS_MATURITY",
+          "claim_id": "75f72d4d-b45f-5e9b-bb6e-04180a9b7719",
+          "predicate": "USES_EMBODIMENT",
           "value": {
             "kind": "enum",
-            "value": "RESEARCH"
+            "value": "DRONE"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -47,17 +50,18 @@
       ]
     },
     {
-      "predicate": "USES_EMBODIMENT",
-      "label": "uses embodiment",
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
       "claims": [
         {
-          "claim_id": "75f72d4d-b45f-5e9b-bb6e-04180a9b7719",
-          "predicate": "USES_EMBODIMENT",
+          "claim_id": "a340ebc1-9331-5de7-b838-8f011f5c57a2",
+          "predicate": "HAS_MATURITY",
           "value": {
             "kind": "enum",
-            "value": "DRONE"
+            "value": "RESEARCH"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -88,6 +92,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -113,7 +118,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 2,
     "deployment_count": 0,
     "related_count": 1
   },

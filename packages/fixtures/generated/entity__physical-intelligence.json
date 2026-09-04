@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "Physical Intelligence",
     "short_description": "San Francisco robotics foundation-model company; released π0 in October 2024.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [
@@ -26,30 +28,6 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
-      "items": [
-        {
-          "claim_id": "fd85cf6e-2176-5645-8571-d87ea417572c",
-          "target": {
-            "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
-            "slug": "bay-area",
-            "entity_type": "PLACE",
-            "name": "San Francisco Bay Area",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "DEVELOPS",
       "label": "develops",
       "items": [
@@ -63,6 +41,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -87,10 +66,36 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "ACADEMIC",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "fd85cf6e-2176-5645-8571-d87ea417572c",
+          "target": {
+            "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+            "slug": "bay-area",
+            "entity_type": "PLACE",
+            "name": "San Francisco Bay Area",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
             "confidence": "HIGH",
             "source_count": 1
           }
@@ -113,6 +118,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -148,7 +154,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 3,
     "deployment_count": 0,
     "related_count": 3
   },

@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "Agility Robotics",
     "short_description": "Salem, Oregon humanoid OEM behind Digit; first commercial RaaS humanoid deployment with GXO in 2024.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [
@@ -25,54 +27,6 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
-      "items": [
-        {
-          "claim_id": "31c731ec-48cb-5c30-ba30-07fc29380a7a",
-          "target": {
-            "id": "e8ea8a9d-806c-534f-9703-2401f0b4036f",
-            "slug": "salem-or",
-            "entity_type": "PLACE",
-            "name": "Salem",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "BUILDS",
-      "label": "builds",
-      "items": [
-        {
-          "claim_id": "d63314de-9f0f-564d-b564-f6ad77d403fe",
-          "target": {
-            "id": "ba14d056-2a53-544b-b02c-713a99e06c56",
-            "slug": "agility-digit",
-            "entity_type": "ROBOT",
-            "name": "Agility Digit",
-            "primary_embodiment": "HUMANOID"
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "PARTNERS_WITH",
       "label": "partners with",
       "items": [
@@ -86,6 +40,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "31c731ec-48cb-5c30-ba30-07fc29380a7a",
+          "target": {
+            "id": "e8ea8a9d-806c-534f-9703-2401f0b4036f",
+            "slug": "salem-or",
+            "entity_type": "PLACE",
+            "name": "Salem",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -110,6 +90,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "d63314de-9f0f-564d-b564-f6ad77d403fe",
+          "target": {
+            "id": "ba14d056-2a53-544b-b02c-713a99e06c56",
+            "slug": "agility-digit",
+            "entity_type": "ROBOT",
+            "name": "Agility Digit",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -136,6 +142,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-06-27",
           "has_evidence": true,
           "evidence_summary": {
@@ -189,7 +196,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 5
   },

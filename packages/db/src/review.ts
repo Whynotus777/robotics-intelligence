@@ -20,6 +20,9 @@ export interface ReviewDecision {
   reviewer: string;
   reason?: string;
   actedAt?: string;
+  eventId?: string;
+  reviewActionId?: string;
+  skipRecompute?: boolean;
 }
 
 async function validateCandidate(db: Db, candidate: typeof claims.$inferSelect) {
@@ -58,7 +61,7 @@ export async function approveClaim(db: Db, decision: ReviewDecision): Promise<{ 
   }
   const def = PREDICATES[candidate.predicate as keyof typeof PREDICATES]!;
   let supersededClaimId: string | null = null;
-  const eventId = randomUUID();
+  const eventId = decision.eventId ?? randomUUID();
   await db.transaction(async (tx) => {
     if (def.cardinality === "ONE") {
       const open = await tx.select().from(claims).where(and(
@@ -73,10 +76,10 @@ export async function approveClaim(db: Db, decision: ReviewDecision): Promise<{ 
       }
     }
     await tx.update(claims).set({ status: "APPROVED", updatedAt: actedAt }).where(eq(claims.id, candidate.id));
-    await tx.insert(reviewActions).values({ id: randomUUID(), claimId: candidate.id, reviewer: decision.reviewer, action: "APPROVE", actedAt, resultingClaimId: candidate.id, reason: decision.reason ?? null });
+    await tx.insert(reviewActions).values({ id: decision.reviewActionId ?? randomUUID(), claimId: candidate.id, reviewer: decision.reviewer, action: "APPROVE", actedAt, resultingClaimId: candidate.id, reason: decision.reason ?? null });
     await tx.insert(changeEvents).values({ id: eventId, eventType: eventTypeForClaim(candidate.predicate, subject.entityType), entityId: subject.id, beforeClaimId: supersededClaimId, afterClaimId: candidate.id, observedAt: actedAt, summary: eventSummary(candidate.predicate, subject.name) });
   });
-  await recomputeCachedColumns(db);
+  if (!decision.skipRecompute) await recomputeCachedColumns(db);
   return { claimId: candidate.id, supersededClaimId, eventId };
 }
 

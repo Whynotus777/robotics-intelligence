@@ -5,6 +5,8 @@
     "entity_type": "DEPLOYMENT",
     "name": "Agility Digit at GXO",
     "short_description": "Multi-year robots-as-a-service deployment of Digit moving totes in a GXO-operated facility.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [],
@@ -33,6 +35,7 @@
             "date": "2024-06-27"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-06-27",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -49,30 +52,6 @@
   ],
   "relationships": [
     {
-      "predicate": "USES_ROBOT",
-      "label": "uses robot",
-      "items": [
-        {
-          "claim_id": "b953bcd8-b930-5d4b-9bd8-b763ad57601b",
-          "target": {
-            "id": "ba14d056-2a53-544b-b02c-713a99e06c56",
-            "slug": "agility-digit",
-            "entity_type": "ROBOT",
-            "name": "Agility Digit",
-            "primary_embodiment": "HUMANOID"
-          },
-          "stack_layer": null,
-          "valid_from": "2024-06-27",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "DEPLOYED_BY",
       "label": "is deployed by",
       "items": [
@@ -86,6 +65,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-06-27",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_ROBOT",
+      "label": "uses robot",
+      "items": [
+        {
+          "claim_id": "b953bcd8-b930-5d4b-9bd8-b763ad57601b",
+          "target": {
+            "id": "ba14d056-2a53-544b-b02c-713a99e06c56",
+            "slug": "agility-digit",
+            "entity_type": "ROBOT",
+            "name": "Agility Digit",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-06-27",
           "has_evidence": true,
           "evidence_summary": {
@@ -110,6 +115,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-06-27",
           "has_evidence": true,
           "evidence_summary": {
@@ -153,7 +159,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 3
   },

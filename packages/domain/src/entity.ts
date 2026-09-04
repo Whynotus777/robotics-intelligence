@@ -16,6 +16,8 @@ export const EntityCore = z.object({
   entity_type: EntityType,
   name: z.string().min(1).max(200),
   short_description: z.string().max(600).nullable(),
+  image_url: z.url().nullable(),
+  image_credit: z.string().max(300).nullable(),
   primary_embodiment: Embodiment.nullable(),
   country_code: CountryCode.nullable(),
   depth_tier: DepthTier,

@@ -4,13 +4,13 @@
   "regions": [
     {
       "id": "HUMANOID",
-      "label": "US",
-      "count": 5,
+      "label": "Humanoids",
+      "count": 7,
       "districts": [
         {
           "id": "HUMANOID",
           "label": "HUMANOID",
-          "count": 5,
+          "count": 7,
           "entities": [
             {
               "chip": {
@@ -29,6 +29,17 @@
                 "slug": "apptronik-apollo",
                 "entity_type": "ROBOT",
                 "name": "Apptronik Apollo",
+                "primary_embodiment": "HUMANOID"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "f983eaaf-ab4b-52fb-a311-d1831ee628db",
+                "slug": "boston-dynamics-atlas",
+                "entity_type": "ROBOT",
+                "name": "Boston Dynamics Atlas",
                 "primary_embodiment": "HUMANOID"
               },
               "measure_value": null,
@@ -58,6 +69,17 @@
             },
             {
               "chip": {
+                "id": "35165fe1-71e5-5525-9c5e-c2afbc16e848",
+                "slug": "tesla-optimus",
+                "entity_type": "ROBOT",
+                "name": "Tesla Optimus",
+                "primary_embodiment": "HUMANOID"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
                 "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
                 "slug": "unitree-g1",
                 "entity_type": "ROBOT",
@@ -72,69 +94,8 @@
       ]
     },
     {
-      "id": "QUADRUPED",
-      "label": "US",
-      "count": 1,
-      "districts": [
-        {
-          "id": "QUADRUPED",
-          "label": "QUADRUPED",
-          "count": 1,
-          "entities": [
-            {
-              "chip": {
-                "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
-                "slug": "boston-dynamics-spot",
-                "entity_type": "ROBOT",
-                "name": "Boston Dynamics Spot",
-                "primary_embodiment": "QUADRUPED"
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "DRONE",
-      "label": "CN",
-      "count": 2,
-      "districts": [
-        {
-          "id": "DRONE",
-          "label": "DRONE",
-          "count": 2,
-          "entities": [
-            {
-              "chip": {
-                "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
-                "slug": "dji-matrice-350-rtk",
-                "entity_type": "ROBOT",
-                "name": "DJI Matrice 350 RTK",
-                "primary_embodiment": "DRONE"
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "d7947928-8b51-5563-ac9a-8910108075b3",
-                "slug": "skydio-x10",
-                "entity_type": "ROBOT",
-                "name": "Skydio X10",
-                "primary_embodiment": "DRONE"
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "COBOT",
-      "label": "JP",
+      "label": "Cobots",
       "count": 2,
       "districts": [
         {
@@ -170,7 +131,7 @@
     },
     {
       "id": "AMR",
-      "label": "US",
+      "label": "AMRs & warehouse",
       "count": 3,
       "districts": [
         {
@@ -214,6 +175,216 @@
           ]
         }
       ]
+    },
+    {
+      "id": "DRONE",
+      "label": "Drones",
+      "count": 2,
+      "districts": [
+        {
+          "id": "DRONE",
+          "label": "DRONE",
+          "count": 2,
+          "entities": [
+            {
+              "chip": {
+                "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
+                "slug": "dji-matrice-350-rtk",
+                "entity_type": "ROBOT",
+                "name": "DJI Matrice 350 RTK",
+                "primary_embodiment": "DRONE"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "d7947928-8b51-5563-ac9a-8910108075b3",
+                "slug": "skydio-x10",
+                "entity_type": "ROBOT",
+                "name": "Skydio X10",
+                "primary_embodiment": "DRONE"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QUADRUPED",
+      "label": "Quadrupeds & legged",
+      "count": 2,
+      "districts": [
+        {
+          "id": "QUADRUPED",
+          "label": "QUADRUPED",
+          "count": 2,
+          "entities": [
+            {
+              "chip": {
+                "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+                "slug": "boston-dynamics-spot",
+                "entity_type": "ROBOT",
+                "name": "Boston Dynamics Spot",
+                "primary_embodiment": "QUADRUPED"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "b90e95c1-9318-5905-b0b3-48c39d4ace81",
+                "slug": "ghost-vision-60",
+                "entity_type": "ROBOT",
+                "name": "Ghost Robotics Vision 60",
+                "primary_embodiment": "QUADRUPED"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "whats_changing": [
+    {
+      "id": "0066a637-73ac-5037-9b5f-0b090e436ccc",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+        "slug": "bladebug",
+        "entity_type": "ORGANIZATION",
+        "name": "BladeBUG",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+          "slug": "energy",
+          "entity_type": "MARKET",
+          "name": "Energy",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "BladeBUG: targets market approved."
+    },
+    {
+      "id": "01531fe0-e88f-57b4-8bc2-0a314c0ba2d1",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+        "slug": "apptronik-apollo",
+        "entity_type": "ROBOT",
+        "name": "Apptronik Apollo",
+        "primary_embodiment": "HUMANOID"
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "HUMANOID"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Apptronik Apollo: has embodiment approved."
+    },
+    {
+      "id": "01b5e66a-50e3-53e2-84ea-7c1b67fb5971",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+        "slug": "rope-cable-suspended-robot",
+        "entity_type": "APPROACH",
+        "name": "Rope/cable-suspended robot",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "OTHER_MOBILE"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Rope/cable-suspended robot: uses embodiment approved."
+    },
+    {
+      "id": "024d5306-849b-5afc-99d8-31579b95f824",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
+        "slug": "agility",
+        "entity_type": "ORGANIZATION",
+        "name": "Agility Robotics",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "68407748-0447-505b-aa53-0d87ab606e33",
+          "slug": "warehouse-logistics",
+          "entity_type": "MARKET",
+          "name": "Warehouse & Logistics",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Agility Robotics: targets market approved."
+    },
+    {
+      "id": "026c7d43-3355-5e41-a9c6-7159d3088702",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+        "slug": "contact-ndt",
+        "entity_type": "TASK",
+        "name": "Contact NDT",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+          "slug": "wind",
+          "entity_type": "MARKET",
+          "name": "Wind",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Contact NDT: belongs to market approved."
     }
   ],
   "as_of": null

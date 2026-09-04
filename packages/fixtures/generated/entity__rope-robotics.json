@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "Rope Robotics",
     "short_description": "Danish provider of robotic blade repair and leading-edge maintenance.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "DK",
     "aliases": [],
@@ -23,30 +25,6 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "TARGETS_TASK",
-      "label": "targets task",
-      "items": [
-        {
-          "claim_id": "f3e76aff-f7ae-539c-8728-90fbfef84a08",
-          "target": {
-            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
-            "slug": "blade-repair",
-            "entity_type": "TASK",
-            "name": "Blade repair",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "MEDIUM",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "TARGETS_MARKET",
       "label": "targets market",
       "items": [
@@ -60,6 +38,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "f3e76aff-f7ae-539c-8728-90fbfef84a08",
+          "target": {
+            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+            "slug": "blade-repair",
+            "entity_type": "TASK",
+            "name": "Blade repair",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -86,6 +90,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -130,7 +135,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 2,
     "deployment_count": 0,
     "related_count": 3
   },

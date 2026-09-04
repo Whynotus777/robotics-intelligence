@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "Apptronik",
     "short_description": "Austin humanoid OEM behind Apollo; partnerships announced with Mercedes-Benz and GXO.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [],
@@ -23,6 +25,50 @@
   "claims": [],
   "relationships": [
     {
+      "predicate": "PARTNERS_WITH",
+      "label": "partners with",
+      "items": [
+        {
+          "claim_id": "4af95989-50e8-5791-80d8-7a564aa84c48",
+          "target": {
+            "id": "3453edac-f23f-5fea-b881-16321ec6999a",
+            "slug": "gxo",
+            "entity_type": "ORGANIZATION",
+            "name": "GXO Logistics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "9c4edce0-555e-549b-bc52-0d8f6280d15f",
+          "target": {
+            "id": "ca88a44a-f6b4-537a-b678-5bccf9a70bc1",
+            "slug": "mercedes-benz",
+            "entity_type": "ORGANIZATION",
+            "name": "Mercedes-Benz",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HQ_AT",
       "label": "is headquartered at",
       "items": [
@@ -36,6 +82,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -60,48 +107,7 @@
             "primary_embodiment": "HUMANOID"
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "PARTNERS_WITH",
-      "label": "partners with",
-      "items": [
-        {
-          "claim_id": "9c4edce0-555e-549b-bc52-0d8f6280d15f",
-          "target": {
-            "id": "ca88a44a-f6b4-537a-b678-5bccf9a70bc1",
-            "slug": "mercedes-benz",
-            "entity_type": "ORGANIZATION",
-            "name": "Mercedes-Benz",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        },
-        {
-          "claim_id": "4af95989-50e8-5791-80d8-7a564aa84c48",
-          "target": {
-            "id": "3453edac-f23f-5fea-b881-16321ec6999a",
-            "slug": "gxo",
-            "entity_type": "ORGANIZATION",
-            "name": "GXO Logistics",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -128,6 +134,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-03-15",
           "has_evidence": true,
           "evidence_summary": {
@@ -179,7 +186,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 5
   },

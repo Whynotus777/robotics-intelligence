@@ -5,6 +5,8 @@
     "entity_type": "TASK",
     "name": "Contact NDT",
     "short_description": "Non-destructive testing of blade laminates by ultrasonic or thermographic probes in contact with the surface.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [
@@ -24,17 +26,18 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_MATURITY",
-      "label": "maturity",
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
       "claims": [
         {
-          "claim_id": "e01d1d89-f083-5dde-a73f-a19fc2e43061",
-          "predicate": "HAS_MATURITY",
+          "claim_id": "12c059e6-6fca-51a1-905f-b1abf7806a97",
+          "predicate": "HAS_CUSTOMER_TYPE",
           "value": {
-            "kind": "enum",
-            "value": "PILOT"
+            "kind": "text",
+            "text": "Asset owners and operators"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -60,6 +63,7 @@
             "text": "Technician-held probes from rope access, or blade removal for inspection."
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -74,17 +78,18 @@
       ]
     },
     {
-      "predicate": "HAS_CUSTOMER_TYPE",
-      "label": "customer type",
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
       "claims": [
         {
-          "claim_id": "12c059e6-6fca-51a1-905f-b1abf7806a97",
-          "predicate": "HAS_CUSTOMER_TYPE",
+          "claim_id": "e01d1d89-f083-5dde-a73f-a19fc2e43061",
+          "predicate": "HAS_MATURITY",
           "value": {
-            "kind": "text",
-            "text": "Asset owners and operators"
+            "kind": "enum",
+            "value": "PILOT"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -101,30 +106,6 @@
   ],
   "relationships": [
     {
-      "predicate": "BELONGS_TO_MARKET",
-      "label": "belongs to",
-      "items": [
-        {
-          "claim_id": "f7015257-b7ac-54e8-8e35-de7e1b93cd6e",
-          "target": {
-            "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
-            "slug": "wind",
-            "entity_type": "MARKET",
-            "name": "Wind",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        }
-      ]
-    },
-    {
       "predicate": "HAS_APPROACH",
       "label": "has approach",
       "items": [
@@ -138,11 +119,37 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "ANALYST",
             "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "f7015257-b7ac-54e8-8e35-de7e1b93cd6e",
+          "target": {
+            "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+            "slug": "wind",
+            "entity_type": "MARKET",
+            "name": "Wind",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
             "source_count": 0
           }
         }
@@ -183,7 +190,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 5,
     "deployment_count": 0,
     "related_count": 2
   },

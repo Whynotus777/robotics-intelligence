@@ -1,6 +1,6 @@
 import type {
   AtlasResponse, ClaimEvidenceResponse, CompareResponse, DiscoveryFilters, EntityResponse, ExploreResponse, MarketResponse,
-  RobotsResponse, SearchResponse, StackResponse, TaskResponse, UpdatesResponse,
+  RobotsResponse, SearchResponse, StackMatrixResponse, StackResponse, TaskResponse, UpdatesResponse,
 } from "@ri/api-contracts";
 
 export type SearchOptions = DiscoveryFilters & { limit?: number };
@@ -10,6 +10,7 @@ export interface DataProvider {
   entity(slug: string, asOf?: string): Promise<EntityResponse>;
   search(q?: string, filters?: SearchOptions): Promise<SearchResponse>;
   explore(lens: string, measure?: string, asOf?: string, filters?: DiscoveryFilters): Promise<ExploreResponse>;
+  stackMatrix(lens?: string): Promise<StackMatrixResponse>;
   robots(filters?: RobotFilters, asOf?: string): Promise<RobotsResponse>;
   stack(slug: string, asOf?: string): Promise<StackResponse>;
   task(slug: string, asOf?: string): Promise<TaskResponse>;
@@ -52,6 +53,7 @@ export class FixtureProvider implements DataProvider {
       return districts.length ? [{ ...region, count: ids.size, districts }] : [];
     }) };
   }
+  stackMatrix(lens = "embodiment") { return this.get<StackMatrixResponse>(`stack-matrix/${lens}`); }
   robots(filters: RobotFilters = {}) {
     const robots = this.entities().filter((entity) => entity.entity.entity_type === "ROBOT" && matches(entity, filters)).map(({ entity }) => ({ id: entity.id, slug: entity.slug, entity_type: entity.entity_type, name: entity.name, primary_embodiment: entity.primary_embodiment })).sort((a, b) => a.name.localeCompare(b.name) || a.slug.localeCompare(b.slug));
     return Promise.resolve({ robots, as_of: null } as RobotsResponse);
@@ -72,6 +74,7 @@ export class HttpProvider implements DataProvider {
   entity(slug: string, asOf?: string) { return this.send<EntityResponse>(this.query(`/entities/${encodeURIComponent(slug)}`, { as_of: asOf })); }
   search(q?: string, filters: SearchOptions = {}) { return this.send<SearchResponse>(this.query("/search", { q, ...filters })); }
   explore(lens: string, measure = "none", asOf?: string, filters: DiscoveryFilters = {}) { return this.send<ExploreResponse>(this.query("/explore", { lens, measure, as_of: asOf, ...filters })); }
+  stackMatrix(lens = "embodiment") { return this.send<StackMatrixResponse>(this.query("/explore/stack-matrix", { lens })); }
   robots(filters: RobotFilters = {}, asOf?: string) { return this.send<RobotsResponse>(this.query("/robots", { ...filters, as_of: asOf })); }
   stack(slug: string, asOf?: string) { return this.send<StackResponse>(this.query(`/robots/${encodeURIComponent(slug)}/stack`, { as_of: asOf })); }
   task(slug: string, asOf?: string) { return this.send<TaskResponse>(this.query(`/tasks/${encodeURIComponent(slug)}`, { as_of: asOf })); }

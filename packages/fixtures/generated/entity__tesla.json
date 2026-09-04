@@ -1,0 +1,73 @@
+{
+  "entity": {
+    "id": "dbc36fdb-c288-54fe-ad21-b0d2d0085d27",
+    "slug": "tesla",
+    "entity_type": "ORGANIZATION",
+    "name": "Tesla",
+    "short_description": "Electric-vehicle and AI company developing the Optimus humanoid robot.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "ba96affa-ee22-5b9a-9621-9a3a60fea9fc",
+          "target": {
+            "id": "35165fe1-71e5-5525-9c5e-c2afbc16e848",
+            "slug": "tesla-optimus",
+            "entity_type": "ROBOT",
+            "name": "Tesla Optimus",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {},
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 1,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 1,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 1,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

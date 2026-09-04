@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "KUKA",
     "short_description": "Augsburg industrial arm OEM, Midea-owned.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "DE",
     "aliases": [
@@ -25,30 +27,6 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
-      "items": [
-        {
-          "claim_id": "23a4e6ee-33b9-545a-a35b-f0365a6804ff",
-          "target": {
-            "id": "63ea4a0f-c5cc-5670-bc5d-b8ee14a41b77",
-            "slug": "augsburg",
-            "entity_type": "PLACE",
-            "name": "Augsburg",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "TARGETS_MARKET",
       "label": "targets market",
       "items": [
@@ -62,6 +40,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -80,6 +59,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "23a4e6ee-33b9-545a-a35b-f0365a6804ff",
+          "target": {
+            "id": "63ea4a0f-c5cc-5670-bc5d-b8ee14a41b77",
+            "slug": "augsburg",
+            "entity_type": "PLACE",
+            "name": "Augsburg",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -132,7 +137,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 3,
     "deployment_count": 0,
     "related_count": 3
   },

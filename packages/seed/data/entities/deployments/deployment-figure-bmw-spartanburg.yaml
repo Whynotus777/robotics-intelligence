@@ -5,6 +5,14 @@ short_description: Figure 02 humanoids working on body-shop tasks at BMW Group's
 country_code: US
 depth_tier: ANCHOR
 claims:
+  - predicate: HAS_DEPLOYMENT_KIND
+    enum: FIELD_TRIAL
+    qualifier: factory evaluation
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-02-announcement
+        published_at: 2024-08-06
   - predicate: USES_ROBOT
     object: figure-02
     evidence:

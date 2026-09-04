@@ -1,0 +1,14 @@
+slug: oil-and-gas
+entity_type: MARKET
+name: Oil & gas
+short_description: Upstream, midstream, and downstream hydrocarbon assets requiring hazardous inspection and maintenance.
+depth_tier: STANDARD
+claims:
+  - predicate: CHILD_OF
+    object: energy
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Oil and gas robotics serves energy asset operators across hazardous inspection and maintenance workflows.
+          advance_criteria: [Reclassify only if process industries becomes a separate top-level sector.]

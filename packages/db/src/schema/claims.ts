@@ -22,6 +22,7 @@ export const claims = pgTable(
     objectEntityId: uuid("object_entity_id").references(() => entities.id, { onDelete: "restrict" }),
     valueDate: date("value_date", { mode: "string" }),
     stackLayer: stackLayerEnum("stack_layer"),
+    qualifier: text("qualifier"),
     status: claimStatusEnum("status").notNull().default("PROPOSED"),
     origin: claimOriginEnum("origin").notNull().default("MANUAL"),
     validFrom: date("valid_from", { mode: "string" }).notNull(),

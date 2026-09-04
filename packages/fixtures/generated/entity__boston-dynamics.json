@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "Boston Dynamics",
     "short_description": "Waltham, Massachusetts legged-robot OEM, Hyundai-owned; Spot, Atlas and Stretch.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [
@@ -25,6 +27,50 @@
   "claims": [],
   "relationships": [
     {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "306d9af9-03b6-5afb-ba1b-a8141dc02d7c",
+          "target": {
+            "id": "f983eaaf-ab4b-52fb-a311-d1831ee628db",
+            "slug": "boston-dynamics-atlas",
+            "entity_type": "ROBOT",
+            "name": "Boston Dynamics Atlas",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "759921e4-abbc-5eb8-b41c-25ef93cc5cb8",
+          "target": {
+            "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+            "slug": "boston-dynamics-spot",
+            "entity_type": "ROBOT",
+            "name": "Boston Dynamics Spot",
+            "primary_embodiment": "QUADRUPED"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HQ_AT",
       "label": "is headquartered at",
       "items": [
@@ -38,30 +84,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "BUILDS",
-      "label": "builds",
-      "items": [
-        {
-          "claim_id": "759921e4-abbc-5eb8-b41c-25ef93cc5cb8",
-          "target": {
-            "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
-            "slug": "boston-dynamics-spot",
-            "entity_type": "ROBOT",
-            "name": "Boston Dynamics Spot",
-            "primary_embodiment": "QUADRUPED"
-          },
-          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -88,6 +111,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -113,19 +137,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 3,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 4
   },
   "as_of": null
 }

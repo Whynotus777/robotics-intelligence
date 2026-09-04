@@ -1,0 +1,60 @@
+{
+  "claim": {
+    "claim_id": "030182a4-c50c-5c2d-88a0-baf4302b0f3d",
+    "subject": {
+      "id": "501d5b0b-94fb-5678-821c-49709246b039",
+      "slug": "yard-and-dock",
+      "entity_type": "MARKET",
+      "name": "Yard & dock",
+      "primary_embodiment": null
+    },
+    "predicate": "CHILD_OF",
+    "label": "is a domain of",
+    "sentence": "Yard & dock is a domain of Warehouse & Logistics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "68407748-0447-505b-aa53-0d87ab606e33",
+        "slug": "warehouse-logistics",
+        "entity_type": "MARKET",
+        "name": "Warehouse & Logistics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "abe71774-02a4-5e39-9f2f-e5532c8269bd",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Yard and dock automation belongs with warehouse logistics because it manages inbound and outbound facility flow.",
+        "advance_criteria": [
+          "Reclassify only if freight transportation becomes a separate top-level sector."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -5,11 +5,13 @@
     "entity_type": "ORGANIZATION",
     "name": "OTTO Motors",
     "short_description": "Kitchener, Ontario industrial AMR vendor including pallet movers; acquired by Rockwell Automation.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "CA",
     "aliases": [
-      "OTTO Motors by Rockwell Automation",
-      "Clearpath Robotics"
+      "Clearpath Robotics",
+      "OTTO Motors by Rockwell Automation"
     ],
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
@@ -26,30 +28,6 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
-      "items": [
-        {
-          "claim_id": "950b22b1-3f85-511b-a518-3c93d495d1cd",
-          "target": {
-            "id": "89cb7062-9c7b-5274-ac5e-75379f738a35",
-            "slug": "kitchener",
-            "entity_type": "PLACE",
-            "name": "Kitchener",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "TARGETS_MARKET",
       "label": "targets market",
       "items": [
@@ -63,6 +41,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "950b22b1-3f85-511b-a518-3c93d495d1cd",
+          "target": {
+            "id": "89cb7062-9c7b-5274-ac5e-75379f738a35",
+            "slug": "kitchener",
+            "entity_type": "PLACE",
+            "name": "Kitchener",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -87,6 +91,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -113,6 +118,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -166,7 +172,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 3,
     "deployment_count": 0,
     "related_count": 4
   },

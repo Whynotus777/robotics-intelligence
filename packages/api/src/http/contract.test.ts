@@ -14,6 +14,7 @@ function requestFor(key: string, fixture: unknown): Request {
     case "entity": return new Request(`http://test/entities/${encodeURIComponent(parts[1]!)}`);
     case "search": return new Request(`http://test/search?q=${encodeURIComponent(parts[1]!)}`);
     case "explore": return new Request(`http://test/explore?lens=${parts[1]}&measure=${parts[2]}`);
+    case "stack-matrix": return new Request(`http://test/explore/stack-matrix?lens=${parts[1]}`);
     case "stack": return new Request(`http://test/robots/${encodeURIComponent(parts[1]!)}/stack`);
     case "task": return new Request(`http://test/tasks/${encodeURIComponent(parts[1]!)}`);
     case "market": return new Request(`http://test/markets/${encodeURIComponent(parts[1]!)}`);

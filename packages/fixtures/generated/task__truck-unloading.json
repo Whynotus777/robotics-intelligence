@@ -19,13 +19,14 @@
       "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
       "slug": "material-movement",
       "entity_type": "MARKET",
-      "name": "Material movement",
+      "name": "Warehouse",
       "primary_embodiment": null
     }
   ],
   "maturity": {
     "value": "PILOT",
     "claim_id": "c3ec3add-8d88-57b1-8e72-a51051cc4088",
+    "qualifier": null,
     "evidence_summary": {
       "class": "ANALYST",
       "confidence": "MEDIUM",
@@ -54,6 +55,7 @@
     {
       "claim_id": "f818248a-375e-5ca4-9b6e-30bb3f47fd64",
       "text": "Manual forklift drivers for palletised freight; manual crews for floor-loaded cases.",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -85,6 +87,7 @@
       "maturity": {
         "value": "EARLY_COMMERCIAL",
         "claim_id": "2e13a355-7765-5eb6-ba02-427a6d2d96a9",
+        "qualifier": null,
         "evidence_summary": {
           "class": "ANALYST",
           "confidence": "MEDIUM",
@@ -134,13 +137,15 @@
         "name": "Fox Robotics",
         "primary_embodiment": null
       },
-      "via": "TARGETS_TASK"
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Austin"
     }
   ],
   "customer_types": [
     {
       "claim_id": "3ed1817b-50c2-5401-a2d4-9506182d0c63",
       "text": "Third-party logistics providers (3PLs)",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -168,5 +173,19 @@
       "primary_embodiment": null
     }
   ],
+  "intelligence_rail": {
+    "assessment_count": 6,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 6
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 1,
+    "deployment_count": 0,
+    "field_trial_count": 0
+  },
   "as_of": null
 }

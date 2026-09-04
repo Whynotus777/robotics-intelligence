@@ -5,6 +5,8 @@
     "entity_type": "PLACE",
     "name": "San Francisco Bay Area",
     "short_description": "Corridor spanning San Francisco, the Peninsula and Silicon Valley; densest cluster of humanoid, drone, compute and foundation-model companies.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [],
@@ -34,24 +36,6 @@
       "label": "is headquartered at",
       "items": [
         {
-          "claim_id": "dc853f07-60ec-505d-87d9-9ec1257c444e",
-          "source": {
-            "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
-            "slug": "figure-ai",
-            "entity_type": "ORGANIZATION",
-            "name": "Figure AI",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        },
-        {
           "claim_id": "104a5490-a54c-5896-a64e-1d669ca5301e",
           "source": {
             "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
@@ -61,42 +45,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        },
-        {
-          "claim_id": "fd85cf6e-2176-5645-8571-d87ea417572c",
-          "source": {
-            "id": "b81a66f4-ff3d-5c78-a247-7dea374bed6a",
-            "slug": "physical-intelligence",
-            "entity_type": "ORGANIZATION",
-            "name": "Physical Intelligence",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        },
-        {
-          "claim_id": "3789e105-a1f2-5d31-becb-91c8dcf6bed6",
-          "source": {
-            "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
-            "slug": "skydio",
-            "entity_type": "ORGANIZATION",
-            "name": "Skydio",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -115,6 +64,64 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "3789e105-a1f2-5d31-becb-91c8dcf6bed6",
+          "source": {
+            "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+            "slug": "skydio",
+            "entity_type": "ORGANIZATION",
+            "name": "Skydio",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "dc853f07-60ec-505d-87d9-9ec1257c444e",
+          "source": {
+            "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+            "slug": "figure-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Figure AI",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "fd85cf6e-2176-5645-8571-d87ea417572c",
+          "source": {
+            "id": "b81a66f4-ff3d-5c78-a247-7dea374bed6a",
+            "slug": "physical-intelligence",
+            "entity_type": "ORGANIZATION",
+            "name": "Physical Intelligence",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {

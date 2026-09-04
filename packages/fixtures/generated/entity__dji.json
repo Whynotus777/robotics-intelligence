@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "DJI",
     "short_description": "Shenzhen drone OEM; Matrice enterprise line.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "CN",
     "aliases": [
@@ -25,11 +27,11 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
+      "predicate": "MANUFACTURES_AT",
+      "label": "manufactures at",
       "items": [
         {
-          "claim_id": "af2bf497-4272-5a40-9039-1f8b97d4c58c",
+          "claim_id": "2457f1fe-ef81-51be-9a98-4393a92c2ee7",
           "target": {
             "id": "5386047b-9431-5521-8e28-d5f238524771",
             "slug": "shenzhen",
@@ -38,11 +40,12 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
-            "confidence": "HIGH",
+            "confidence": "MEDIUM",
             "source_count": 1
           }
         }
@@ -62,6 +65,7 @@
             "primary_embodiment": "DRONE"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -73,11 +77,11 @@
       ]
     },
     {
-      "predicate": "MANUFACTURES_AT",
-      "label": "manufactures at",
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
       "items": [
         {
-          "claim_id": "2457f1fe-ef81-51be-9a98-4393a92c2ee7",
+          "claim_id": "af2bf497-4272-5a40-9039-1f8b97d4c58c",
           "target": {
             "id": "5386047b-9431-5521-8e28-d5f238524771",
             "slug": "shenzhen",
@@ -86,11 +90,12 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
-            "confidence": "MEDIUM",
+            "confidence": "HIGH",
             "source_count": 1
           }
         }
@@ -122,7 +127,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 3,
     "deployment_count": 0,
     "related_count": 2
   },

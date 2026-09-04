@@ -3,8 +3,10 @@
     "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
     "slug": "material-movement",
     "entity_type": "MARKET",
-    "name": "Material movement",
+    "name": "Warehouse",
     "short_description": "Moving pallets, cases, totes and each-items inside distribution centres and fulfilment sites; the domain where autonomous mobile robots reached scale first.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [
@@ -39,6 +41,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -56,51 +59,16 @@
       "label": "belongs to",
       "items": [
         {
-          "claim_id": "af233bf6-c0e7-555a-b914-07b14061d348",
+          "claim_id": "20f69d85-4be2-5b63-aaab-cc3def94219c",
           "source": {
-            "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
-            "slug": "automated-storage-and-retrieval",
+            "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+            "slug": "truck-unloading",
             "entity_type": "TASK",
-            "name": "Automated storage and retrieval",
+            "name": "Truck unloading",
             "primary_embodiment": null
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        },
-        {
-          "claim_id": "7dbe0fbc-9154-5651-bf4b-fcef4ad5289b",
-          "source": {
-            "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
-            "slug": "case-picking",
-            "entity_type": "TASK",
-            "name": "Case picking",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        },
-        {
-          "claim_id": "a9badcba-ee2a-5745-8c2f-545f4480d4f2",
-          "source": {
-            "id": "049a4db5-938c-5625-b226-2831e05e34e1",
-            "slug": "each-picking-assistance",
-            "entity_type": "TASK",
-            "name": "Each-picking assistance",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -119,6 +87,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -128,15 +97,54 @@
           }
         },
         {
-          "claim_id": "20f69d85-4be2-5b63-aaab-cc3def94219c",
+          "claim_id": "7dbe0fbc-9154-5651-bf4b-fcef4ad5289b",
           "source": {
-            "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
-            "slug": "truck-unloading",
+            "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
+            "slug": "case-picking",
             "entity_type": "TASK",
-            "name": "Truck unloading",
+            "name": "Case picking",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "a9badcba-ee2a-5745-8c2f-545f4480d4f2",
+          "source": {
+            "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+            "slug": "each-picking-assistance",
+            "entity_type": "TASK",
+            "name": "Each-picking assistance",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "af233bf6-c0e7-555a-b914-07b14061d348",
+          "source": {
+            "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+            "slug": "automated-storage-and-retrieval",
+            "entity_type": "TASK",
+            "name": "Automated storage and retrieval",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -172,7 +180,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 1,
     "deployment_count": 0,
     "related_count": 6
   },

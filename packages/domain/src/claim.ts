@@ -25,6 +25,7 @@ export const ClaimRow = z.object({
   object_entity_id: z.uuid().nullable(),
   value_date: IsoDate.nullable(),
   stack_layer: StackLayer.nullable(),
+  qualifier: z.string().max(120).nullable(),
   status: ClaimStatus,
   origin: ClaimOrigin,
   valid_from: IsoDate,

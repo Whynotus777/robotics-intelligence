@@ -26,6 +26,7 @@
   "maturity": {
     "value": "EARLY_COMMERCIAL",
     "claim_id": "84d62641-d364-5eff-94a0-03cf16a13d2a",
+    "qualifier": null,
     "evidence_summary": {
       "class": "ANALYST",
       "confidence": "MEDIUM",
@@ -54,6 +55,7 @@
     {
       "claim_id": "75da0e24-36df-5b94-b1a1-3791fc2ac6bb",
       "text": "Technician continuity measurement from rope access or platform.",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -85,6 +87,7 @@
       "maturity": {
         "value": "EARLY_COMMERCIAL",
         "claim_id": "c1b02147-ed8f-5595-90fc-82c243725e1d",
+        "qualifier": null,
         "evidence_summary": {
           "class": "ANALYST",
           "confidence": "MEDIUM",
@@ -134,13 +137,15 @@
         "name": "Aerones",
         "primary_embodiment": null
       },
-      "via": "TARGETS_TASK"
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Riga"
     }
   ],
   "customer_types": [
     {
       "claim_id": "4106d674-6986-552b-9d1c-78fb2bff725b",
       "text": "Asset owners and operators",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -159,5 +164,19 @@
       }
     }
   ],
+  "intelligence_rail": {
+    "assessment_count": 5,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 5
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 1,
+    "deployment_count": 0,
+    "field_trial_count": 0
+  },
   "as_of": null
 }

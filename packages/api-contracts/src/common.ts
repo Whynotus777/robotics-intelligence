@@ -59,6 +59,7 @@ export const ClaimView = z.object({
   predicate: z.string(),
   value: ClaimValue,
   stack_layer: StackLayer.nullable(),
+  qualifier: z.string().nullable(),
   valid_from: IsoDate,
   valid_to: IsoDate.nullable(),
   observed_at: z.iso.datetime(),
@@ -72,10 +73,21 @@ export type ClaimView = z.infer<typeof ClaimView>;
 export const TextItem = z.object({
   claim_id: z.uuid(),
   text: z.string(),
+  qualifier: z.string().nullable(),
   evidence_summary: EvidenceSummary,
   assessment: z.lazy(() => AssessmentView).nullable(),
 });
 export type TextItem = z.infer<typeof TextItem>;
+
+export const IntelligenceRailSummary = z.object({
+  assessment_count: z.number().int().nonnegative(),
+  evidence_by_class: z.record(EvidenceClass, z.number().int().nonnegative()),
+  last_reviewed: z.iso.datetime().nullable(),
+  vendor_count: z.number().int().nonnegative(),
+  deployment_count: z.number().int().nonnegative(),
+  field_trial_count: z.number().int().nonnegative(),
+});
+export type IntelligenceRailSummary = z.infer<typeof IntelligenceRailSummary>;
 
 export const ClaimRef = z.object({ claim_id: z.uuid(), sentence: z.string() });
 

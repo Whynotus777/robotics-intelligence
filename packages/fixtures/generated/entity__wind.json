@@ -5,6 +5,8 @@
     "entity_type": "MARKET",
     "name": "Wind",
     "short_description": "Onshore and offshore wind turbine operations and maintenance. Blades, towers and nacelles at 80–120 m height make access the dominant cost, which is why robotics enters here first.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [
@@ -39,6 +41,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -56,24 +59,6 @@
       "label": "belongs to",
       "items": [
         {
-          "claim_id": "7ef039f3-cda1-5fa1-8516-debd0e115eb2",
-          "source": {
-            "id": "7831a686-465b-5c38-9904-bf9354227e01",
-            "slug": "blade-cleaning",
-            "entity_type": "TASK",
-            "name": "Blade cleaning",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        },
-        {
           "claim_id": "08ba3064-1662-51f2-8cd2-8ea13ae57e13",
           "source": {
             "id": "91529bd1-9364-58d8-b7c3-a67025832322",
@@ -83,6 +68,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -101,6 +87,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -110,15 +97,16 @@
           }
         },
         {
-          "claim_id": "f7015257-b7ac-54e8-8e35-de7e1b93cd6e",
+          "claim_id": "7ef039f3-cda1-5fa1-8516-debd0e115eb2",
           "source": {
-            "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
-            "slug": "contact-ndt",
+            "id": "7831a686-465b-5c38-9904-bf9354227e01",
+            "slug": "blade-cleaning",
             "entity_type": "TASK",
-            "name": "Contact NDT",
+            "name": "Blade cleaning",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -137,6 +125,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -155,6 +144,26 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "f7015257-b7ac-54e8-8e35-de7e1b93cd6e",
+          "source": {
+            "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+            "slug": "contact-ndt",
+            "entity_type": "TASK",
+            "name": "Contact NDT",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -190,7 +199,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 1,
     "deployment_count": 0,
     "related_count": 7
   },

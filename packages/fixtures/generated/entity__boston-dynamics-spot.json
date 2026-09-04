@@ -5,6 +5,8 @@
     "entity_type": "ROBOT",
     "name": "Boston Dynamics Spot",
     "short_description": "Quadruped platform for industrial inspection and data capture, with over 1,500 units deployed per the company.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": "QUADRUPED",
     "country_code": "US",
     "aliases": [
@@ -24,17 +26,22 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_EMBODIMENT",
-      "label": "embodiment",
+      "predicate": "HAS_RUNTIME",
+      "label": "runtime",
       "claims": [
         {
-          "claim_id": "31ec01e6-9df9-524b-a9d9-c95554208429",
-          "predicate": "HAS_EMBODIMENT",
+          "claim_id": "1a052af7-8c0c-5d25-a025-9822fa69c086",
+          "predicate": "HAS_RUNTIME",
           "value": {
-            "kind": "enum",
-            "value": "QUADRUPED"
+            "kind": "number",
+            "number": 5400,
+            "unit": "s",
+            "is_approximate": true,
+            "min": null,
+            "max": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -49,21 +56,18 @@
       ]
     },
     {
-      "predicate": "HAS_MASS",
-      "label": "mass",
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
       "claims": [
         {
-          "claim_id": "db408f0a-5ea2-5dcf-adc2-0d511366ad7d",
-          "predicate": "HAS_MASS",
+          "claim_id": "31ec01e6-9df9-524b-a9d9-c95554208429",
+          "predicate": "HAS_EMBODIMENT",
           "value": {
-            "kind": "number",
-            "number": 32.7,
-            "unit": "kg",
-            "is_approximate": true,
-            "min": null,
-            "max": null
+            "kind": "enum",
+            "value": "QUADRUPED"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -93,35 +97,7 @@
             "max": null
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "HAS_RUNTIME",
-      "label": "runtime",
-      "claims": [
-        {
-          "claim_id": "1a052af7-8c0c-5d25-a025-9822fa69c086",
-          "predicate": "HAS_RUNTIME",
-          "value": {
-            "kind": "number",
-            "number": 5400,
-            "unit": "s",
-            "is_approximate": true,
-            "min": null,
-            "max": null
-          },
-          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -147,7 +123,38 @@
             "value": "COMMERCIAL"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-06-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_MASS",
+      "label": "mass",
+      "claims": [
+        {
+          "claim_id": "db408f0a-5ea2-5dcf-adc2-0d511366ad7d",
+          "predicate": "HAS_MASS",
+          "value": {
+            "kind": "number",
+            "number": 32.7,
+            "unit": "kg",
+            "is_approximate": true,
+            "min": null,
+            "max": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
           "last_verified_at": "2026-09-01T00:00:00.000Z",
@@ -176,6 +183,7 @@
             "primary_embodiment": null
           },
           "stack_layer": "SENSORS",
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -188,30 +196,6 @@
     }
   ],
   "inbound_relationships": [
-    {
-      "predicate": "USES_ROBOT",
-      "label": "uses robot",
-      "items": [
-        {
-          "claim_id": "c9fa5af9-a5e3-5ea1-8003-b19775e1ae6c",
-          "source": {
-            "id": "d1ed4e89-b016-53b6-a370-d7bc4c52154c",
-            "slug": "deployment-spot-industrial-inspection",
-            "entity_type": "DEPLOYMENT",
-            "name": "Spot at industrial inspection sites",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "THIRD_PARTY",
-            "confidence": "MEDIUM",
-            "source_count": 1
-          }
-        }
-      ]
-    },
     {
       "predicate": "BUILDS",
       "label": "builds",
@@ -226,11 +210,37 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_ROBOT",
+      "label": "uses robot",
+      "items": [
+        {
+          "claim_id": "c9fa5af9-a5e3-5ea1-8003-b19775e1ae6c",
+          "source": {
+            "id": "d1ed4e89-b016-53b6-a370-d7bc4c52154c",
+            "slug": "deployment-spot-industrial-inspection",
+            "entity_type": "DEPLOYMENT",
+            "name": "Spot at industrial inspection sites",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
             "source_count": 1
           }
         }
@@ -270,7 +280,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 6,
     "deployment_count": 1,
     "related_count": 3
   },

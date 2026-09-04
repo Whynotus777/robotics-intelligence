@@ -1,0 +1,60 @@
+{
+  "claim": {
+    "claim_id": "f51d4979-21b7-50f8-ab18-5250ccc22378",
+    "subject": {
+      "id": "04a2ead3-953c-5e6f-b05c-d999fdbfc614",
+      "slug": "solar",
+      "entity_type": "MARKET",
+      "name": "Solar",
+      "primary_embodiment": null
+    },
+    "predicate": "CHILD_OF",
+    "label": "is a domain of",
+    "sentence": "Solar is a domain of Energy",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+        "slug": "energy",
+        "entity_type": "MARKET",
+        "name": "Energy",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "808971a9-6643-58d9-a607-df56da9176f6",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Solar is an energy-sector operating domain with distinct asset inspection and maintenance robotics requirements.",
+        "advance_criteria": [
+          "Reclassify only if renewable operations becomes a separate top-level sector."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

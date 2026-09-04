@@ -26,6 +26,7 @@
   "maturity": {
     "value": "EARLY_COMMERCIAL",
     "claim_id": "a6e1b03a-dc28-5f9b-9015-eca73bb4621d",
+    "qualifier": null,
     "evidence_summary": {
       "class": "ANALYST",
       "confidence": "MEDIUM",
@@ -58,6 +59,7 @@
     {
       "claim_id": "97817714-d9d1-5f14-b714-cad9edcfbee8",
       "text": "Rope-access crews with pressure washers, or no cleaning at all.",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -89,6 +91,7 @@
       "maturity": {
         "value": "EARLY_COMMERCIAL",
         "claim_id": "c1b02147-ed8f-5595-90fc-82c243725e1d",
+        "qualifier": null,
         "evidence_summary": {
           "class": "ANALYST",
           "confidence": "MEDIUM",
@@ -138,13 +141,15 @@
         "name": "Aerones",
         "primary_embodiment": null
       },
-      "via": "TARGETS_TASK"
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Riga"
     }
   ],
   "customer_types": [
     {
       "claim_id": "ca32e2d8-edc1-5545-abad-f8ec20894530",
       "text": "Asset owners and operators",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -172,5 +177,19 @@
       "primary_embodiment": null
     }
   ],
+  "intelligence_rail": {
+    "assessment_count": 6,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 6
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 1,
+    "deployment_count": 0,
+    "field_trial_count": 0
+  },
   "as_of": null
 }

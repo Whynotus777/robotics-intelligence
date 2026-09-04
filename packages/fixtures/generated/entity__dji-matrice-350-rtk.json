@@ -5,11 +5,13 @@
     "entity_type": "ROBOT",
     "name": "DJI Matrice 350 RTK",
     "short_description": "Enterprise multirotor in DJI's Matrice line for inspection, mapping and public safety.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": "DRONE",
     "country_code": "CN",
     "aliases": [
-      "Matrice 350 RTK",
-      "M350 RTK"
+      "M350 RTK",
+      "Matrice 350 RTK"
     ],
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
@@ -25,31 +27,6 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_EMBODIMENT",
-      "label": "embodiment",
-      "claims": [
-        {
-          "claim_id": "cb5492bf-4196-5a67-ad7f-3985177c00c7",
-          "predicate": "HAS_EMBODIMENT",
-          "value": {
-            "kind": "enum",
-            "value": "DRONE"
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "HAS_COMMERCIAL_STAGE",
       "label": "commercial stage",
       "claims": [
@@ -61,6 +38,7 @@
             "value": "VOLUME_PRODUCTION"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2023-05-18",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -69,35 +47,6 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "HAS_RUNTIME",
-      "label": "runtime",
-      "claims": [
-        {
-          "claim_id": "7cbfa3a8-97f3-523c-914d-14a3863031d3",
-          "predicate": "HAS_RUNTIME",
-          "value": {
-            "kind": "number",
-            "number": 3300,
-            "unit": "s",
-            "is_approximate": true,
-            "min": null,
-            "max": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "MEDIUM",
             "source_count": 1
           }
         }
@@ -119,6 +68,7 @@
             "max": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -144,6 +94,7 @@
             "date": "2023-05-18"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -152,6 +103,62 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_RUNTIME",
+      "label": "runtime",
+      "claims": [
+        {
+          "claim_id": "7cbfa3a8-97f3-523c-914d-14a3863031d3",
+          "predicate": "HAS_RUNTIME",
+          "value": {
+            "kind": "number",
+            "number": 3300,
+            "unit": "s",
+            "is_approximate": true,
+            "min": null,
+            "max": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "cb5492bf-4196-5a67-ad7f-3985177c00c7",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "DRONE"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
             "source_count": 1
           }
         }
@@ -173,6 +180,7 @@
             "primary_embodiment": "DRONE"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -199,6 +207,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -243,7 +252,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 6,
     "deployment_count": 0,
     "related_count": 2
   },

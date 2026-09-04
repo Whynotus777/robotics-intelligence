@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "Figure AI",
     "short_description": "Sunnyvale humanoid OEM building general-purpose humanoids and the Helix VLA model; piloted at BMW Spartanburg.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [
@@ -25,19 +27,20 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
+      "predicate": "DEVELOPS",
+      "label": "develops",
       "items": [
         {
-          "claim_id": "dc853f07-60ec-505d-87d9-9ec1257c444e",
+          "claim_id": "0adffff8-a7f0-5ed0-a2c5-5fa02ab3f154",
           "target": {
-            "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
-            "slug": "bay-area",
-            "entity_type": "PLACE",
-            "name": "San Francisco Bay Area",
+            "id": "70bc43e3-1e7f-5d97-9852-8dbc09ee40ee",
+            "slug": "helix",
+            "entity_type": "MODEL",
+            "name": "Helix",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -62,6 +65,7 @@
             "primary_embodiment": "HUMANOID"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -80,6 +84,7 @@
             "primary_embodiment": "HUMANOID"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -91,19 +96,20 @@
       ]
     },
     {
-      "predicate": "DEVELOPS",
-      "label": "develops",
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
       "items": [
         {
-          "claim_id": "0adffff8-a7f0-5ed0-a2c5-5fa02ab3f154",
+          "claim_id": "dc853f07-60ec-505d-87d9-9ec1257c444e",
           "target": {
-            "id": "70bc43e3-1e7f-5d97-9852-8dbc09ee40ee",
-            "slug": "helix",
-            "entity_type": "MODEL",
-            "name": "Helix",
+            "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+            "slug": "bay-area",
+            "entity_type": "PLACE",
+            "name": "San Francisco Bay Area",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -128,6 +134,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -154,6 +161,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-01-18",
           "has_evidence": true,
           "evidence_summary": {
@@ -178,6 +186,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2025-02-20",
           "has_evidence": true,
           "evidence_summary": {
@@ -222,7 +231,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 5,
     "deployment_count": 0,
     "related_count": 6
   },

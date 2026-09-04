@@ -5,6 +5,8 @@
     "entity_type": "PAPER",
     "name": "π0: A Vision-Language-Action Flow Model for General Robot Control",
     "short_description": "arXiv 2410.24164, Physical Intelligence, October 2024.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [],
@@ -24,30 +26,6 @@
   "relationships": [],
   "inbound_relationships": [
     {
-      "predicate": "PUBLISHES",
-      "label": "publishes",
-      "items": [
-        {
-          "claim_id": "a82ee0ba-f153-51c2-8675-1d88340f0a7e",
-          "source": {
-            "id": "b81a66f4-ff3d-5c78-a247-7dea374bed6a",
-            "slug": "physical-intelligence",
-            "entity_type": "ORGANIZATION",
-            "name": "Physical Intelligence",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ACADEMIC",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "INTRODUCED_BY",
       "label": "was introduced by",
       "items": [
@@ -61,7 +39,33 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-10-31",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ACADEMIC",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "PUBLISHES",
+      "label": "publishes",
+      "items": [
+        {
+          "claim_id": "a82ee0ba-f153-51c2-8675-1d88340f0a7e",
+          "source": {
+            "id": "b81a66f4-ff3d-5c78-a247-7dea374bed6a",
+            "slug": "physical-intelligence",
+            "entity_type": "ORGANIZATION",
+            "name": "Physical Intelligence",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "ACADEMIC",

@@ -5,11 +5,13 @@
     "entity_type": "COMPONENT_PRODUCT",
     "name": "NVIDIA Jetson Orin NX",
     "short_description": "System-on-module in the Jetson Orin family for edge AI, used as onboard compute in research and developer robots.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [
-      "Jetson Orin",
-      "Jetson Orin NX"
+      "Jetson Orin NX",
+      "Jetson Orin"
     ],
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
@@ -39,6 +41,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -63,6 +66,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -75,30 +79,6 @@
     }
   ],
   "inbound_relationships": [
-    {
-      "predicate": "PROVIDES",
-      "label": "provides",
-      "items": [
-        {
-          "claim_id": "896f3f59-d49c-585c-b9ec-7e20b61c339d",
-          "source": {
-            "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
-            "slug": "nvidia",
-            "entity_type": "ORGANIZATION",
-            "name": "NVIDIA",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
     {
       "predicate": "USES_PRODUCT",
       "label": "uses",
@@ -113,6 +93,32 @@
             "primary_embodiment": "HUMANOID"
           },
           "stack_layer": "COMPUTE",
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "PROVIDES",
+      "label": "provides",
+      "items": [
+        {
+          "claim_id": "896f3f59-d49c-585c-b9ec-7e20b61c339d",
+          "source": {
+            "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+            "slug": "nvidia",
+            "entity_type": "ORGANIZATION",
+            "name": "NVIDIA",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -157,7 +163,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 2,
     "deployment_count": 0,
     "related_count": 3
   },

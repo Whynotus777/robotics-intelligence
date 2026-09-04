@@ -1,0 +1,14 @@
+slug: solar
+entity_type: MARKET
+name: Solar
+short_description: Solar generation assets and their inspection, cleaning, and maintenance operations.
+depth_tier: STANDARD
+claims:
+  - predicate: CHILD_OF
+    object: energy
+    evidence:
+      - class: ANALYST
+        confidence: HIGH
+        assessment:
+          rationale: Solar is an energy-sector operating domain with distinct asset inspection and maintenance robotics requirements.
+          advance_criteria: [Reclassify only if renewable operations becomes a separate top-level sector.]

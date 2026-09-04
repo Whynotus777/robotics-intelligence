@@ -5,6 +5,8 @@
     "entity_type": "MARKET",
     "name": "Warehouse & Logistics",
     "short_description": "Distribution centres, fulfilment, parcel sorting and 3PL operations: the densest commercial robotics market by installed base.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [],
@@ -28,15 +30,35 @@
       "label": "is a domain of",
       "items": [
         {
+          "claim_id": "030182a4-c50c-5c2d-88a0-baf4302b0f3d",
+          "source": {
+            "id": "501d5b0b-94fb-5678-821c-49709246b039",
+            "slug": "yard-and-dock",
+            "entity_type": "MARKET",
+            "name": "Yard & dock",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
           "claim_id": "0ea37756-53bf-590a-8019-98c78f5caebb",
           "source": {
             "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
             "slug": "material-movement",
             "entity_type": "MARKET",
-            "name": "Material movement",
+            "name": "Warehouse",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -52,87 +74,16 @@
       "label": "targets market",
       "items": [
         {
-          "claim_id": "9caf39a1-14cb-5920-b496-4aa6494bedee",
+          "claim_id": "06945d0d-7478-586e-9d0c-1cfa0abedd43",
           "source": {
-            "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
-            "slug": "agility",
+            "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
+            "slug": "vecna",
             "entity_type": "ORGANIZATION",
-            "name": "Agility Robotics",
+            "name": "Vecna Robotics",
             "primary_embodiment": null
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        },
-        {
-          "claim_id": "a1aad493-947f-5c7e-8bb7-0cd1f5d90f14",
-          "source": {
-            "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
-            "slug": "amazon-robotics",
-            "entity_type": "ORGANIZATION",
-            "name": "Amazon Robotics",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        },
-        {
-          "claim_id": "6a1f197f-d631-557d-8480-130b68144ced",
-          "source": {
-            "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
-            "slug": "fox-robotics",
-            "entity_type": "ORGANIZATION",
-            "name": "Fox Robotics",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "MEDIUM",
-            "source_count": 1
-          }
-        },
-        {
-          "claim_id": "9cce595a-4ed6-53c8-af06-60a989873af4",
-          "source": {
-            "id": "79815395-59ce-5c93-aef0-8686647839c6",
-            "slug": "locus",
-            "entity_type": "ORGANIZATION",
-            "name": "Locus Robotics",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        },
-        {
-          "claim_id": "d87c2792-3a32-5b78-a981-7660ecf0bf2a",
-          "source": {
-            "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
-            "slug": "seegrid",
-            "entity_type": "ORGANIZATION",
-            "name": "Seegrid",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -151,11 +102,31 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "6a1f197f-d631-557d-8480-130b68144ced",
+          "source": {
+            "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+            "slug": "fox-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Fox Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
             "source_count": 1
           }
         },
@@ -169,6 +140,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -178,15 +150,54 @@
           }
         },
         {
-          "claim_id": "06945d0d-7478-586e-9d0c-1cfa0abedd43",
+          "claim_id": "9caf39a1-14cb-5920-b496-4aa6494bedee",
           "source": {
-            "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
-            "slug": "vecna",
+            "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
+            "slug": "agility",
             "entity_type": "ORGANIZATION",
-            "name": "Vecna Robotics",
+            "name": "Agility Robotics",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "9cce595a-4ed6-53c8-af06-60a989873af4",
+          "source": {
+            "id": "79815395-59ce-5c93-aef0-8686647839c6",
+            "slug": "locus",
+            "entity_type": "ORGANIZATION",
+            "name": "Locus Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "a1aad493-947f-5c7e-8bb7-0cd1f5d90f14",
+          "source": {
+            "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
+            "slug": "amazon-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Amazon Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -205,6 +216,26 @@
             "primary_embodiment": "HUMANOID"
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d87c2792-3a32-5b78-a981-7660ecf0bf2a",
+          "source": {
+            "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
+            "slug": "seegrid",
+            "entity_type": "ORGANIZATION",
+            "name": "Seegrid",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -280,7 +311,14 @@
         "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
         "slug": "material-movement",
         "entity_type": "MARKET",
-        "name": "Material movement",
+        "name": "Warehouse",
+        "primary_embodiment": null
+      },
+      {
+        "id": "501d5b0b-94fb-5678-821c-49709246b039",
+        "slug": "yard-and-dock",
+        "entity_type": "MARKET",
+        "name": "Yard & dock",
         "primary_embodiment": null
       }
     ]
@@ -300,7 +338,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 10
+    "related_count": 11
   },
   "as_of": null
 }

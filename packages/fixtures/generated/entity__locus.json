@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "Locus Robotics",
     "short_description": "Wilmington, Massachusetts warehouse AMR vendor; four billion picks milestone.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [
@@ -25,30 +27,6 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
-      "items": [
-        {
-          "claim_id": "e5262db2-697b-5bc7-b40e-3cb97c4c5fb8",
-          "target": {
-            "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
-            "slug": "boston",
-            "entity_type": "PLACE",
-            "name": "Boston",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "BUILDS",
       "label": "builds",
       "items": [
@@ -62,6 +40,7 @@
             "primary_embodiment": "AMR"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -86,6 +65,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "e5262db2-697b-5bc7-b40e-3cb97c4c5fb8",
+          "target": {
+            "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+            "slug": "boston",
+            "entity_type": "PLACE",
+            "name": "Boston",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -110,6 +115,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -136,6 +142,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -180,7 +187,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 5
   },

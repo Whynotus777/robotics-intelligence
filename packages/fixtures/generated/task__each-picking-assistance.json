@@ -19,13 +19,14 @@
       "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
       "slug": "material-movement",
       "entity_type": "MARKET",
-      "name": "Material movement",
+      "name": "Warehouse",
       "primary_embodiment": null
     }
   ],
   "maturity": {
     "value": "SCALING",
     "claim_id": "22382d42-5d84-58f9-b40f-2c71b6af4e00",
+    "qualifier": null,
     "evidence_summary": {
       "class": "ANALYST",
       "confidence": "HIGH",
@@ -58,6 +59,7 @@
     {
       "claim_id": "53d72783-a295-5c0b-af87-e76002510825",
       "text": "Pickers walking with carts and paper or RF pick lists.",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -85,7 +87,8 @@
         "name": "Locus Robotics",
         "primary_embodiment": null
       },
-      "via": "TARGETS_TASK"
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Boston"
     }
   ],
   "deployments": [
@@ -118,6 +121,7 @@
       ],
       "places": [],
       "began": null,
+      "deployment_kind": null,
       "evidence_summary": {
         "class": "PRIMARY",
         "confidence": "HIGH",
@@ -129,6 +133,7 @@
     {
       "claim_id": "10e05d56-f35b-55b5-afe2-e91ddd2853af",
       "text": "Third-party logistics providers (3PLs)",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -147,5 +152,19 @@
       }
     }
   ],
+  "intelligence_rail": {
+    "assessment_count": 4,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 4
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 1,
+    "deployment_count": 1,
+    "field_trial_count": 0
+  },
   "as_of": null
 }

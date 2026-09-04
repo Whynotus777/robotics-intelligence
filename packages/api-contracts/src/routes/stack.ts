@@ -11,6 +11,7 @@ export const StackItem = z.object({
   entity: EntityChip,
   kind: z.enum(["product", "technology"]),
   claim_id: z.uuid(),
+  qualifier: z.string().nullable(),
   evidence_summary: EvidenceSummary,
 });
 
@@ -20,8 +21,9 @@ export const StackLayerView = z.object({
   /** Always true in responses: non-applicable layers are omitted, applicable-but-empty layers are kept. */
   applies: z.literal(true),
   items: z.array(StackItem),
+  competing_technologies: z.array(EntityChip),
   architecture_note: z
-    .object({ claim_id: z.uuid(), text: z.string(), evidence_summary: EvidenceSummary })
+    .object({ claim_id: z.uuid(), text: z.string(), qualifier: z.string().nullable(), evidence_summary: EvidenceSummary })
     .optional(),
 });
 

@@ -5,6 +5,8 @@
     "entity_type": "DEPLOYMENT",
     "name": "Figure humanoids at BMW Spartanburg",
     "short_description": "Figure 02 humanoids working on body-shop tasks at BMW Group's Spartanburg plant under a 2024 agreement.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [],
@@ -33,6 +35,7 @@
             "date": "2024-08-06"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-08-06",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -45,57 +48,35 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "HAS_DEPLOYMENT_KIND",
+      "label": "deployment kind",
+      "claims": [
+        {
+          "claim_id": "ba057d5a-d4d9-55ce-a189-4d6822cd0940",
+          "predicate": "HAS_DEPLOYMENT_KIND",
+          "value": {
+            "kind": "enum",
+            "value": "FIELD_TRIAL"
+          },
+          "stack_layer": null,
+          "qualifier": "factory evaluation",
+          "valid_from": "2024-08-06",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "relationships": [
-    {
-      "predicate": "USES_ROBOT",
-      "label": "uses robot",
-      "items": [
-        {
-          "claim_id": "cd5cb6ee-3bf6-5392-b7e4-56fccae576e9",
-          "target": {
-            "id": "077b0165-6d64-55b6-9e86-0df976c238a9",
-            "slug": "figure-02",
-            "entity_type": "ROBOT",
-            "name": "Figure 02",
-            "primary_embodiment": "HUMANOID"
-          },
-          "stack_layer": null,
-          "valid_from": "2024-08-06",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "DEPLOYED_BY",
-      "label": "is deployed by",
-      "items": [
-        {
-          "claim_id": "152eb2e8-e25e-5b61-97f8-afa79a0e3a2f",
-          "target": {
-            "id": "098db5e0-7b78-56a1-8990-159131dbdb7c",
-            "slug": "bmw",
-            "entity_type": "ORGANIZATION",
-            "name": "BMW Group",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2024-01-18",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
     {
       "predicate": "OPERATED_BY",
       "label": "is operated by",
@@ -110,6 +91,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-01-18",
           "has_evidence": true,
           "evidence_summary": {
@@ -134,7 +116,58 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-01-18",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "DEPLOYED_BY",
+      "label": "is deployed by",
+      "items": [
+        {
+          "claim_id": "152eb2e8-e25e-5b61-97f8-afa79a0e3a2f",
+          "target": {
+            "id": "098db5e0-7b78-56a1-8990-159131dbdb7c",
+            "slug": "bmw",
+            "entity_type": "ORGANIZATION",
+            "name": "BMW Group",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-01-18",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_ROBOT",
+      "label": "uses robot",
+      "items": [
+        {
+          "claim_id": "cd5cb6ee-3bf6-5392-b7e4-56fccae576e9",
+          "target": {
+            "id": "077b0165-6d64-55b6-9e86-0df976c238a9",
+            "slug": "figure-02",
+            "entity_type": "ROBOT",
+            "name": "Figure 02",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-08-06",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
@@ -176,17 +209,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 5,
+        "PRIMARY": 6,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 5,
+      "claim_count": 6,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 6,
     "deployment_count": 0,
     "related_count": 4
   },

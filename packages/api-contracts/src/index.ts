@@ -3,6 +3,7 @@ export * from "./routes/entity.js";
 export * from "./routes/search.js";
 export * from "./routes/discovery.js";
 export * from "./routes/explore.js";
+export * from "./routes/stack-matrix.js";
 export * from "./routes/robots.js";
 export * from "./routes/stack.js";
 export * from "./routes/task.js";

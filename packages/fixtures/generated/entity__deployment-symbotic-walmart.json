@@ -5,6 +5,8 @@
     "entity_type": "DEPLOYMENT",
     "name": "Symbotic systems at Walmart regional DCs",
     "short_description": "Symbotic case-handling automation rolled out across Walmart's regional distribution centres under a multi-year programme.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [],
@@ -33,6 +35,7 @@
             "date": "2022-01-01"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2022-01-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -49,30 +52,6 @@
   ],
   "relationships": [
     {
-      "predicate": "DEPLOYED_BY",
-      "label": "is deployed by",
-      "items": [
-        {
-          "claim_id": "a474a915-03ab-596e-bf4d-ea86722a319b",
-          "target": {
-            "id": "7f880e99-4aa8-51d2-8bd9-c49d613ed706",
-            "slug": "walmart",
-            "entity_type": "ORGANIZATION",
-            "name": "Walmart",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2024-11-25",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "OPERATED_BY",
       "label": "is operated by",
       "items": [
@@ -86,6 +65,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-11-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "DEPLOYED_BY",
+      "label": "is deployed by",
+      "items": [
+        {
+          "claim_id": "a474a915-03ab-596e-bf4d-ea86722a319b",
+          "target": {
+            "id": "7f880e99-4aa8-51d2-8bd9-c49d613ed706",
+            "slug": "walmart",
+            "entity_type": "ORGANIZATION",
+            "name": "Walmart",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-11-25",
           "has_evidence": true,
           "evidence_summary": {
@@ -110,6 +115,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-11-25",
           "has_evidence": true,
           "evidence_summary": {
@@ -153,7 +159,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 3
   },

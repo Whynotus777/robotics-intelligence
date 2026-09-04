@@ -5,6 +5,8 @@
     "entity_type": "DEPLOYMENT",
     "name": "Apollo pilot at Mercedes-Benz",
     "short_description": "Apptronik Apollo humanoids piloted in Mercedes-Benz manufacturing for parts delivery and inspection tasks.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "DE",
     "aliases": [],
@@ -33,6 +35,7 @@
             "date": "2024-03-15"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-03-15",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -49,30 +52,6 @@
   ],
   "relationships": [
     {
-      "predicate": "USES_ROBOT",
-      "label": "uses robot",
-      "items": [
-        {
-          "claim_id": "cef7a480-1961-5cbe-8364-5c1a399ef9b7",
-          "target": {
-            "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
-            "slug": "apptronik-apollo",
-            "entity_type": "ROBOT",
-            "name": "Apptronik Apollo",
-            "primary_embodiment": "HUMANOID"
-          },
-          "stack_layer": null,
-          "valid_from": "2024-03-15",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "DEPLOYED_BY",
       "label": "is deployed by",
       "items": [
@@ -86,6 +65,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-03-15",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_ROBOT",
+      "label": "uses robot",
+      "items": [
+        {
+          "claim_id": "cef7a480-1961-5cbe-8364-5c1a399ef9b7",
+          "target": {
+            "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+            "slug": "apptronik-apollo",
+            "entity_type": "ROBOT",
+            "name": "Apptronik Apollo",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-03-15",
           "has_evidence": true,
           "evidence_summary": {
@@ -110,6 +115,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-03-15",
           "has_evidence": true,
           "evidence_summary": {
@@ -153,7 +159,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 3
   },

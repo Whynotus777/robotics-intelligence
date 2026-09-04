@@ -5,6 +5,8 @@
     "entity_type": "ROBOT",
     "name": "FANUC CRX-10iA",
     "short_description": "10 kg payload collaborative arm in FANUC's CRX line, sold on the same controllers as its industrial robots.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": "COBOT",
     "country_code": "JP",
     "aliases": [
@@ -24,6 +26,32 @@
   "place": null,
   "claims": [
     {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "006ae139-b6f9-5e6f-8444-0d98ca71e67c",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "VOLUME_PRODUCTION"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2020-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HAS_EMBODIMENT",
       "label": "embodiment",
       "claims": [
@@ -35,6 +63,7 @@
             "value": "COBOT"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -64,6 +93,7 @@
             "max": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -93,6 +123,7 @@
             "max": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -101,31 +132,6 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "MEDIUM",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "HAS_COMMERCIAL_STAGE",
-      "label": "commercial stage",
-      "claims": [
-        {
-          "claim_id": "006ae139-b6f9-5e6f-8444-0d98ca71e67c",
-          "predicate": "HAS_COMMERCIAL_STAGE",
-          "value": {
-            "kind": "enum",
-            "value": "VOLUME_PRODUCTION"
-          },
-          "stack_layer": null,
-          "valid_from": "2020-01-01",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
             "source_count": 1
           }
         }
@@ -148,6 +154,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -183,7 +190,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 1
   },

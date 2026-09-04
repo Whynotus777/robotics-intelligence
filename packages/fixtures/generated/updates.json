@@ -1,3 +1,1387 @@
 {
-  "events": []
+  "events": [
+    {
+      "id": "0066a637-73ac-5037-9b5f-0b090e436ccc",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+        "slug": "bladebug",
+        "entity_type": "ORGANIZATION",
+        "name": "BladeBUG",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+          "slug": "energy",
+          "entity_type": "MARKET",
+          "name": "Energy",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "BladeBUG: targets market approved."
+    },
+    {
+      "id": "01531fe0-e88f-57b4-8bc2-0a314c0ba2d1",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+        "slug": "apptronik-apollo",
+        "entity_type": "ROBOT",
+        "name": "Apptronik Apollo",
+        "primary_embodiment": "HUMANOID"
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "HUMANOID"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Apptronik Apollo: has embodiment approved."
+    },
+    {
+      "id": "01b5e66a-50e3-53e2-84ea-7c1b67fb5971",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+        "slug": "rope-cable-suspended-robot",
+        "entity_type": "APPROACH",
+        "name": "Rope/cable-suspended robot",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "OTHER_MOBILE"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Rope/cable-suspended robot: uses embodiment approved."
+    },
+    {
+      "id": "024d5306-849b-5afc-99d8-31579b95f824",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
+        "slug": "agility",
+        "entity_type": "ORGANIZATION",
+        "name": "Agility Robotics",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "68407748-0447-505b-aa53-0d87ab606e33",
+          "slug": "warehouse-logistics",
+          "entity_type": "MARKET",
+          "name": "Warehouse & Logistics",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Agility Robotics: targets market approved."
+    },
+    {
+      "id": "026c7d43-3355-5e41-a9c6-7159d3088702",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+        "slug": "contact-ndt",
+        "entity_type": "TASK",
+        "name": "Contact NDT",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+          "slug": "wind",
+          "entity_type": "MARKET",
+          "name": "Wind",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Contact NDT: belongs to market approved."
+    },
+    {
+      "id": "03bd0009-5793-5522-a942-1642de62308c",
+      "event_type": "MATURITY_CHANGED",
+      "entity": {
+        "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+        "slug": "tower-nacelle-inspection",
+        "entity_type": "TASK",
+        "name": "Tower and nacelle inspection",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "SCALING"
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Tower and nacelle inspection: has maturity approved."
+    },
+    {
+      "id": "03d2f21e-c7b9-578f-bff0-37003b628b1d",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+        "slug": "autonomous-forklift",
+        "entity_type": "APPROACH",
+        "name": "Autonomous forklift",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+          "slug": "third-wave-automation",
+          "entity_type": "ORGANIZATION",
+          "name": "Third Wave Automation",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Autonomous forklift: has example vendor approved."
+    },
+    {
+      "id": "0432ec04-cfe7-5212-b840-2357b54b4146",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "79815395-59ce-5c93-aef0-8686647839c6",
+        "slug": "locus",
+        "entity_type": "ORGANIZATION",
+        "name": "Locus Robotics",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "d0bdf70a-64a1-5faf-8210-b2d4df93141d",
+          "slug": "locus-origin",
+          "entity_type": "ROBOT",
+          "name": "Locus Origin",
+          "primary_embodiment": "AMR"
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Locus Robotics: builds approved."
+    },
+    {
+      "id": "0485be1c-c68c-5cbe-872e-000020524552",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "9c12a0ae-d1aa-5eed-ab85-416b54bece15",
+        "slug": "fox-robotics-foxbot",
+        "entity_type": "ROBOT",
+        "name": "Fox Robotics FoxBot",
+        "primary_embodiment": "AMR"
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "AMR"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Fox Robotics FoxBot: has embodiment approved."
+    },
+    {
+      "id": "051190a4-db76-5bed-9072-051c776761e1",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+        "slug": "fox-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Fox Robotics",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+          "slug": "truck-unloading",
+          "entity_type": "TASK",
+          "name": "Truck unloading",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Fox Robotics: targets task approved."
+    },
+    {
+      "id": "0543676d-ec1d-5886-b3c5-5f40b1cce4ec",
+      "event_type": "MATURITY_CHANGED",
+      "entity": {
+        "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+        "slug": "blade-visual-inspection",
+        "entity_type": "TASK",
+        "name": "Blade visual inspection",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "MATURE"
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Blade visual inspection: has maturity approved."
+    },
+    {
+      "id": "061ca7de-119b-5609-83a0-010c402a5dc3",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+        "slug": "figure-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Figure AI",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+          "slug": "bay-area",
+          "entity_type": "PLACE",
+          "name": "San Francisco Bay Area",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Figure AI: hq at approved."
+    },
+    {
+      "id": "06684ad1-5dc8-5948-9840-71c9dceb2eee",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+        "slug": "skydio",
+        "entity_type": "ORGANIZATION",
+        "name": "Skydio",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "1fcc6eb5-3d99-52ea-9f79-d1d882b3957b",
+          "slug": "defense",
+          "entity_type": "MARKET",
+          "name": "Defense",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Skydio: targets market approved."
+    },
+    {
+      "id": "07d46c22-a435-545a-bf2e-dd82179edc0e",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
+        "slug": "blade-crawler",
+        "entity_type": "APPROACH",
+        "name": "Blade crawler",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+          "slug": "bladebug",
+          "entity_type": "ORGANIZATION",
+          "name": "BladeBUG",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Blade crawler: has example vendor approved."
+    },
+    {
+      "id": "07f37df6-7201-5f9d-9425-448a89235645",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+        "slug": "fox-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Fox Robotics",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+          "slug": "pallet-movement",
+          "entity_type": "TASK",
+          "name": "Pallet movement",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Fox Robotics: targets task approved."
+    },
+    {
+      "id": "088ebb66-3359-5975-8bce-913f355085bf",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
+        "slug": "blade-crawler",
+        "entity_type": "APPROACH",
+        "name": "Blade crawler",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "OTHER_MOBILE"
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Blade crawler: uses embodiment approved."
+    },
+    {
+      "id": "0933aa4e-abe3-5583-8481-5dbcb92e0609",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+        "slug": "unitree-g1",
+        "entity_type": "ROBOT",
+        "name": "Unitree G1",
+        "primary_embodiment": "HUMANOID"
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+          "slug": "nvidia-jetson-orin-nx",
+          "entity_type": "COMPONENT_PRODUCT",
+          "name": "NVIDIA Jetson Orin NX",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Unitree G1: uses product approved."
+    },
+    {
+      "id": "0b834b72-e03e-58b7-8d99-dfd8b5621bcb",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "725c8452-4827-542d-b7fd-49846d70c637",
+        "slug": "universal-robots-ur20",
+        "entity_type": "ROBOT",
+        "name": "Universal Robots UR20",
+        "primary_embodiment": "COBOT"
+      },
+      "before": null,
+      "after": {
+        "kind": "number",
+        "number": 1.75,
+        "unit": "m",
+        "is_approximate": false,
+        "min": null,
+        "max": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Universal Robots UR20: has reach approved."
+    },
+    {
+      "id": "0d03ce31-5ac3-5b4f-900d-cbd8299eff5d",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+        "slug": "rope-cable-suspended-robot",
+        "entity_type": "APPROACH",
+        "name": "Rope/cable-suspended robot",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "81571cfa-9773-5740-a33f-0121af56676c",
+          "slug": "rope-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Rope Robotics",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Rope/cable-suspended robot: has example vendor approved."
+    },
+    {
+      "id": "0e4f5d71-de4f-504a-b93d-542b5dd248de",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+        "slug": "aerones",
+        "entity_type": "ORGANIZATION",
+        "name": "Aerones",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+          "slug": "lightning-protection-testing",
+          "entity_type": "TASK",
+          "name": "Lightning-protection testing",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Aerones: targets task approved."
+    },
+    {
+      "id": "0e50d33c-77c8-50e8-8ba1-a74b5a172044",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "077b0165-6d64-55b6-9e86-0df976c238a9",
+        "slug": "figure-02",
+        "entity_type": "ROBOT",
+        "name": "Figure 02",
+        "primary_embodiment": "HUMANOID"
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "c049ae4e-2f0f-54a0-8b83-b899ae3b05cb",
+          "slug": "figure-humanoids",
+          "entity_type": "ROBOT_FAMILY",
+          "name": "Figure humanoids",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Figure 02: member of family approved."
+    },
+    {
+      "id": "0fa72a8a-2e14-5acb-9383-bb9a097bc510",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "bf24c58e-1c83-58d4-b810-bbeacce0f9b8",
+        "slug": "oil-and-gas",
+        "entity_type": "MARKET",
+        "name": "Oil & gas",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+          "slug": "energy",
+          "entity_type": "MARKET",
+          "name": "Energy",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Oil & gas: child of approved."
+    },
+    {
+      "id": "100e349d-f608-51f4-918c-769c2343db2d",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+        "slug": "blade-repair",
+        "entity_type": "TASK",
+        "name": "Blade repair",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "7831a686-465b-5c38-9904-bf9354227e01",
+          "slug": "blade-cleaning",
+          "entity_type": "TASK",
+          "name": "Blade cleaning",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Blade repair: adjacent to approved."
+    },
+    {
+      "id": "11d1737f-894c-5e7c-b4ab-0a8b1510b42d",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+        "slug": "tower-nacelle-inspection",
+        "entity_type": "TASK",
+        "name": "Tower and nacelle inspection",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "Asset owners and operators"
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Tower and nacelle inspection: has customer type approved."
+    },
+    {
+      "id": "12b46846-ce2f-59eb-b5b3-c57ed31fc5a8",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+        "slug": "automated-storage-and-retrieval",
+        "entity_type": "TASK",
+        "name": "Automated storage and retrieval",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "Retailers"
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Automated storage and retrieval: has customer type approved."
+    },
+    {
+      "id": "1496642a-3c13-57d7-9ad5-07a93ed5b278",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+        "slug": "truck-unloading",
+        "entity_type": "TASK",
+        "name": "Truck unloading",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "Manual forklift drivers for palletised freight; manual crews for floor-loaded cases."
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Truck unloading: has incumbent process approved."
+    },
+    {
+      "id": "155d7f6e-34c7-5f8e-9221-2e220c810571",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+        "slug": "lightning-protection-testing",
+        "entity_type": "TASK",
+        "name": "Lightning-protection testing",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "Asset owners and operators"
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Lightning-protection testing: has customer type approved."
+    },
+    {
+      "id": "1648a69a-7187-5694-9836-977956105699",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
+        "slug": "apptronik",
+        "entity_type": "ORGANIZATION",
+        "name": "Apptronik",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+          "slug": "apptronik-apollo",
+          "entity_type": "ROBOT",
+          "name": "Apptronik Apollo",
+          "primary_embodiment": "HUMANOID"
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Apptronik: builds approved."
+    },
+    {
+      "id": "17492536-6788-53f8-a6ce-70465c63d860",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "c7a570a3-5b5e-57dd-9b63-116a208684e2",
+        "slug": "amr-pallet-jack-or-lift",
+        "entity_type": "APPROACH",
+        "name": "AMR pallet jack or lift",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+          "slug": "otto-motors",
+          "entity_type": "ORGANIZATION",
+          "name": "OTTO Motors",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "AMR pallet jack or lift: has example vendor approved."
+    },
+    {
+      "id": "177bb391-1fa4-5631-b323-fe43a80eafc9",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+        "slug": "nvidia",
+        "entity_type": "ORGANIZATION",
+        "name": "NVIDIA",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "40524241-ae32-56e4-a625-84a0dc3ffb5d",
+          "slug": "nvidia-jetson-thor",
+          "entity_type": "COMPONENT_PRODUCT",
+          "name": "NVIDIA Jetson Thor",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "NVIDIA: provides approved."
+    },
+    {
+      "id": "1782f29a-5564-5dc3-ba42-3735c9612220",
+      "event_type": "PARTNERSHIP_ADDED",
+      "entity": {
+        "id": "74914967-d3be-58ab-aacb-456441b741b1",
+        "slug": "symbotic",
+        "entity_type": "ORGANIZATION",
+        "name": "Symbotic",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "7f880e99-4aa8-51d2-8bd9-c49d613ed706",
+          "slug": "walmart",
+          "entity_type": "ORGANIZATION",
+          "name": "Walmart",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Symbotic: partners with approved."
+    },
+    {
+      "id": "1856b266-dde0-5d69-adbf-d4d74b95772d",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+        "slug": "boston-dynamics-spot",
+        "entity_type": "ROBOT",
+        "name": "Boston Dynamics Spot",
+        "primary_embodiment": "QUADRUPED"
+      },
+      "before": null,
+      "after": {
+        "kind": "number",
+        "number": 32.7,
+        "unit": "kg",
+        "is_approximate": true,
+        "min": null,
+        "max": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Boston Dynamics Spot: has mass approved."
+    },
+    {
+      "id": "19dea8b4-0946-5a07-b965-1c8876e1b834",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+        "slug": "unitree-g1",
+        "entity_type": "ROBOT",
+        "name": "Unitree G1",
+        "primary_embodiment": "HUMANOID"
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+          "slug": "apptronik-apollo",
+          "entity_type": "ROBOT",
+          "name": "Apptronik Apollo",
+          "primary_embodiment": "HUMANOID"
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "DERIVED",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Unitree G1: competes with approved."
+    },
+    {
+      "id": "1a1a42e6-99d6-5079-a60a-4fddb27046dd",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+        "slug": "blade-repair",
+        "entity_type": "TASK",
+        "name": "Blade repair",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "Working at 80–120 m height"
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Blade repair: has technical requirement approved."
+    },
+    {
+      "id": "1a99f24b-e357-5f95-a68f-87d48875ecdb",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+        "slug": "apptronik-apollo",
+        "entity_type": "ROBOT",
+        "name": "Apptronik Apollo",
+        "primary_embodiment": "HUMANOID"
+      },
+      "before": null,
+      "after": {
+        "kind": "number",
+        "number": 73,
+        "unit": "kg",
+        "is_approximate": true,
+        "min": null,
+        "max": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Apptronik Apollo: has mass approved."
+    },
+    {
+      "id": "1acb92f5-3fc8-56d2-bc4d-5808c0a3a75d",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
+        "slug": "unitree",
+        "entity_type": "ORGANIZATION",
+        "name": "Unitree Robotics",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+          "slug": "unitree-g1",
+          "entity_type": "ROBOT",
+          "name": "Unitree G1",
+          "primary_embodiment": "HUMANOID"
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Unitree Robotics: builds approved."
+    },
+    {
+      "id": "1ae9f7f3-2f53-5882-b4e1-989162d9c347",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+        "slug": "fanuc",
+        "entity_type": "ORGANIZATION",
+        "name": "FANUC",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+          "slug": "manufacturing",
+          "entity_type": "MARKET",
+          "name": "Manufacturing",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "FANUC: targets market approved."
+    },
+    {
+      "id": "1af03c30-3100-546a-9c1c-d5e114cc9f57",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+        "slug": "blade-repair",
+        "entity_type": "TASK",
+        "name": "Blade repair",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
+          "slug": "blade-crawler",
+          "entity_type": "APPROACH",
+          "name": "Blade crawler",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Blade repair: has approach approved."
+    },
+    {
+      "id": "1b13d0b0-4478-5baf-92a4-27025ced9a6d",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+        "slug": "autonomous-forklift",
+        "entity_type": "APPROACH",
+        "name": "Autonomous forklift",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "AMR"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Autonomous forklift: uses embodiment approved."
+    },
+    {
+      "id": "1c9f69aa-f92d-5116-8bb1-4183111e7e08",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
+        "slug": "harmonic-drive",
+        "entity_type": "ORGANIZATION",
+        "name": "Harmonic Drive",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+          "slug": "tokyo",
+          "entity_type": "PLACE",
+          "name": "Tokyo",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Harmonic Drive: hq at approved."
+    },
+    {
+      "id": "1cfe2f6e-4bf5-5e64-9e10-819ea26c4564",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "79815395-59ce-5c93-aef0-8686647839c6",
+        "slug": "locus",
+        "entity_type": "ORGANIZATION",
+        "name": "Locus Robotics",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "68407748-0447-505b-aa53-0d87ab606e33",
+          "slug": "warehouse-logistics",
+          "entity_type": "MARKET",
+          "name": "Warehouse & Logistics",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Locus Robotics: targets market approved."
+    },
+    {
+      "id": "1d334042-ea08-5266-aed3-638de7b16628",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+        "slug": "abb-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ABB Robotics",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+          "slug": "shanghai",
+          "entity_type": "PLACE",
+          "name": "Shanghai",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "ABB Robotics: manufactures at approved."
+    },
+    {
+      "id": "1d44b5d5-2796-5309-a357-7bcae870e1d9",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "e7b662ae-fd0b-5b6d-b51e-066c372b460a",
+        "slug": "fanuc-crx-10ia",
+        "entity_type": "ROBOT",
+        "name": "FANUC CRX-10iA",
+        "primary_embodiment": "COBOT"
+      },
+      "before": null,
+      "after": {
+        "kind": "number",
+        "number": 10,
+        "unit": "kg",
+        "is_approximate": false,
+        "min": null,
+        "max": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "FANUC CRX-10iA: has payload approved."
+    },
+    {
+      "id": "1d72124e-9150-58e3-8939-8ccfb652a036",
+      "event_type": "COMMERCIAL_STAGE_CHANGED",
+      "entity": {
+        "id": "b90e95c1-9318-5905-b0b3-48c39d4ace81",
+        "slug": "ghost-vision-60",
+        "entity_type": "ROBOT",
+        "name": "Ghost Robotics Vision 60",
+        "primary_embodiment": "QUADRUPED"
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "COMMERCIAL"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Ghost Robotics Vision 60: has commercial stage approved."
+    },
+    {
+      "id": "1d79d161-62e3-5f6b-a095-b61eaf4b4797",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+        "slug": "pallet-movement",
+        "entity_type": "TASK",
+        "name": "Pallet movement",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "Third-party logistics providers (3PLs)"
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Pallet movement: has customer type approved."
+    },
+    {
+      "id": "1e226556-9825-5591-a2d7-b4f0fbf5962b",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "35165fe1-71e5-5525-9c5e-c2afbc16e848",
+        "slug": "tesla-optimus",
+        "entity_type": "ROBOT",
+        "name": "Tesla Optimus",
+        "primary_embodiment": "HUMANOID"
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "HUMANOID"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Tesla Optimus: has embodiment approved."
+    },
+    {
+      "id": "1e310940-310b-5f07-9382-7127c683acb2",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+        "slug": "automated-storage-and-retrieval",
+        "entity_type": "TASK",
+        "name": "Automated storage and retrieval",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+          "slug": "asrs-pallet-handling",
+          "entity_type": "APPROACH",
+          "name": "AS/RS pallet handling",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Automated storage and retrieval: has approach approved."
+    },
+    {
+      "id": "2195fcbd-a905-53a7-b6a1-a192386e64ab",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+        "slug": "skydio",
+        "entity_type": "ORGANIZATION",
+        "name": "Skydio",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "b68dee12-fd2b-52e9-8e63-85bcc3263b17",
+          "slug": "utilities",
+          "entity_type": "MARKET",
+          "name": "Utilities",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Skydio: targets market approved."
+    },
+    {
+      "id": "250b9ea8-7bd5-530d-ad0a-cea4b591cf54",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+        "slug": "boston-dynamics-spot",
+        "entity_type": "ROBOT",
+        "name": "Boston Dynamics Spot",
+        "primary_embodiment": "QUADRUPED"
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
+          "slug": "depth-cameras",
+          "entity_type": "TECHNOLOGY",
+          "name": "Depth cameras",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Boston Dynamics Spot: uses technology approved."
+    },
+    {
+      "id": "25311f34-043c-508e-ae48-aa494b2ba1af",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+        "slug": "aerones",
+        "entity_type": "ORGANIZATION",
+        "name": "Aerones",
+        "primary_embodiment": null
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+          "slug": "blade-repair",
+          "entity_type": "TASK",
+          "name": "Blade repair",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "summary": "Aerones: targets task approved."
+    }
+  ]
 }

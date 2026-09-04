@@ -1,0 +1,21 @@
+slug: tesla-optimus
+entity_type: ROBOT
+name: Tesla Optimus
+short_description: Tesla's general-purpose humanoid robot program.
+primary_embodiment: HUMANOID
+country_code: US
+depth_tier: ANCHOR
+aliases: [Optimus, Tesla Bot]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: HUMANOID
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: tesla-optimus
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: PROTOTYPE
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: tesla-optimus

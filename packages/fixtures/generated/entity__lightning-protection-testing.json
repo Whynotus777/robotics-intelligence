@@ -5,6 +5,8 @@
     "entity_type": "TASK",
     "name": "Lightning-protection testing",
     "short_description": "Verifying continuity of the blade lightning protection system between receptors and the tower ground path.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [
@@ -24,17 +26,18 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_MATURITY",
-      "label": "maturity",
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
       "claims": [
         {
-          "claim_id": "84d62641-d364-5eff-94a0-03cf16a13d2a",
-          "predicate": "HAS_MATURITY",
+          "claim_id": "4106d674-6986-552b-9d1c-78fb2bff725b",
+          "predicate": "HAS_CUSTOMER_TYPE",
           "value": {
-            "kind": "enum",
-            "value": "EARLY_COMMERCIAL"
+            "kind": "text",
+            "text": "Asset owners and operators"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -42,7 +45,7 @@
           "has_evidence": true,
           "evidence_summary": {
             "class": "ANALYST",
-            "confidence": "MEDIUM",
+            "confidence": "HIGH",
             "source_count": 0
           }
         }
@@ -60,6 +63,7 @@
             "text": "Technician continuity measurement from rope access or platform."
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -74,17 +78,18 @@
       ]
     },
     {
-      "predicate": "HAS_CUSTOMER_TYPE",
-      "label": "customer type",
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
       "claims": [
         {
-          "claim_id": "4106d674-6986-552b-9d1c-78fb2bff725b",
-          "predicate": "HAS_CUSTOMER_TYPE",
+          "claim_id": "84d62641-d364-5eff-94a0-03cf16a13d2a",
+          "predicate": "HAS_MATURITY",
           "value": {
-            "kind": "text",
-            "text": "Asset owners and operators"
+            "kind": "enum",
+            "value": "EARLY_COMMERCIAL"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -92,7 +97,7 @@
           "has_evidence": true,
           "evidence_summary": {
             "class": "ANALYST",
-            "confidence": "HIGH",
+            "confidence": "MEDIUM",
             "source_count": 0
           }
         }
@@ -114,6 +119,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -138,6 +144,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -164,6 +171,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -217,7 +225,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 5,
     "deployment_count": 0,
     "related_count": 3
   },

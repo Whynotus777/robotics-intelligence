@@ -19,13 +19,14 @@
       "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
       "slug": "material-movement",
       "entity_type": "MARKET",
-      "name": "Material movement",
+      "name": "Warehouse",
       "primary_embodiment": null
     }
   ],
   "maturity": {
     "value": "EARLY_COMMERCIAL",
     "claim_id": "58a6e753-029b-503a-9194-cf36aeb8f0c2",
+    "qualifier": null,
     "evidence_summary": {
       "class": "ANALYST",
       "confidence": "MEDIUM",
@@ -49,6 +50,7 @@
     {
       "claim_id": "e64b26a7-f7b1-52a1-a002-f39bc5a96d03",
       "text": "Manual case picking with pallet jacks and voice-directed picking.",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -71,6 +73,7 @@
     {
       "claim_id": "d2582827-fde9-5502-b61b-f236cd211bb6",
       "text": "Grocery and retail distributors",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -89,5 +92,19 @@
       }
     }
   ],
+  "intelligence_rail": {
+    "assessment_count": 4,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 4
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 0,
+    "deployment_count": 0,
+    "field_trial_count": 0
+  },
   "as_of": null
 }

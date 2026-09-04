@@ -1,0 +1,78 @@
+{
+  "claim": {
+    "claim_id": "306d9af9-03b6-5afb-ba1b-a8141dc02d7c",
+    "subject": {
+      "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
+      "slug": "boston-dynamics",
+      "entity_type": "ORGANIZATION",
+      "name": "Boston Dynamics",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Boston Dynamics builds Boston Dynamics Atlas",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f983eaaf-ab4b-52fb-a311-d1831ee628db",
+        "slug": "boston-dynamics-atlas",
+        "entity_type": "ROBOT",
+        "name": "Boston Dynamics Atlas",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3156b2c9-b4dc-5606-904d-2de6cfae211d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Boston Dynamics presents Atlas as its humanoid robot.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "bfb9abfd-422d-5b5e-8a8c-3459f17575c4",
+        "url": "https://bostondynamics.com/atlas/",
+        "canonical_url": null,
+        "publisher": "Boston Dynamics",
+        "title": "Atlas",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "759921e4-abbc-5eb8-b41c-25ef93cc5cb8",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+          "slug": "boston-dynamics-spot",
+          "entity_type": "ROBOT",
+          "name": "Boston Dynamics Spot",
+          "primary_embodiment": "QUADRUPED"
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

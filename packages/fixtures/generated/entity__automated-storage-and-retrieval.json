@@ -5,6 +5,8 @@
     "entity_type": "TASK",
     "name": "Automated storage and retrieval",
     "short_description": "Fixed automated systems that store, retrieve and sequence pallets, cases or totes with no human inside the storage volume.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [
@@ -24,17 +26,18 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_MATURITY",
-      "label": "maturity",
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
       "claims": [
         {
-          "claim_id": "de3359b3-48ed-5964-8977-1328184dbcf9",
-          "predicate": "HAS_MATURITY",
+          "claim_id": "3fa4b6d7-6845-5464-a1d1-7f40487f8f72",
+          "predicate": "HAS_CUSTOMER_TYPE",
           "value": {
-            "kind": "enum",
-            "value": "MATURE"
+            "kind": "text",
+            "text": "Retailers"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -60,6 +63,7 @@
             "text": "Conventional racking served by manual forklifts and order pickers."
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -74,17 +78,18 @@
       ]
     },
     {
-      "predicate": "HAS_CUSTOMER_TYPE",
-      "label": "customer type",
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
       "claims": [
         {
-          "claim_id": "3fa4b6d7-6845-5464-a1d1-7f40487f8f72",
-          "predicate": "HAS_CUSTOMER_TYPE",
+          "claim_id": "de3359b3-48ed-5964-8977-1328184dbcf9",
+          "predicate": "HAS_MATURITY",
           "value": {
-            "kind": "text",
-            "text": "Retailers"
+            "kind": "enum",
+            "value": "MATURE"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -101,30 +106,6 @@
   ],
   "relationships": [
     {
-      "predicate": "BELONGS_TO_MARKET",
-      "label": "belongs to",
-      "items": [
-        {
-          "claim_id": "af233bf6-c0e7-555a-b914-07b14061d348",
-          "target": {
-            "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
-            "slug": "material-movement",
-            "entity_type": "MARKET",
-            "name": "Material movement",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        }
-      ]
-    },
-    {
       "predicate": "HAS_APPROACH",
       "label": "has approach",
       "items": [
@@ -138,6 +119,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "af233bf6-c0e7-555a-b914-07b14061d348",
+          "target": {
+            "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+            "slug": "material-movement",
+            "entity_type": "MARKET",
+            "name": "Warehouse",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -150,30 +157,6 @@
     }
   ],
   "inbound_relationships": [
-    {
-      "predicate": "SERVES_TASK",
-      "label": "serves task",
-      "items": [
-        {
-          "claim_id": "d59e0456-1ee5-5e5d-a718-c70094caddcf",
-          "source": {
-            "id": "cf9f255c-b63f-5aea-b67e-307c2973f610",
-            "slug": "deployment-symbotic-walmart",
-            "entity_type": "DEPLOYMENT",
-            "name": "Symbotic systems at Walmart regional DCs",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2024-11-25",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "MEDIUM",
-            "source_count": 1
-          }
-        }
-      ]
-    },
     {
       "predicate": "TARGETS_TASK",
       "label": "targets task",
@@ -188,6 +171,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -212,12 +196,38 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "ANALYST",
             "confidence": "HIGH",
             "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "SERVES_TASK",
+      "label": "serves task",
+      "items": [
+        {
+          "claim_id": "d59e0456-1ee5-5e5d-a718-c70094caddcf",
+          "source": {
+            "id": "cf9f255c-b63f-5aea-b67e-307c2973f610",
+            "slug": "deployment-symbotic-walmart",
+            "entity_type": "DEPLOYMENT",
+            "name": "Symbotic systems at Walmart regional DCs",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-11-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
           }
         }
       ]
@@ -247,7 +257,7 @@
         "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
         "slug": "material-movement",
         "entity_type": "MARKET",
-        "name": "Material movement",
+        "name": "Warehouse",
         "primary_embodiment": null
       }
     ]
@@ -265,7 +275,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 5,
     "deployment_count": 0,
     "related_count": 5
   },

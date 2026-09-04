@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "Symbotic",
     "short_description": "Wilmington, Massachusetts warehouse automation company, public (SYM); Walmart regional DC programme.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [
@@ -25,19 +27,20 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
       "items": [
         {
-          "claim_id": "602c256f-6111-5370-a03f-14c23535df16",
+          "claim_id": "0fa9d70f-ec15-587b-983c-11f7aa9770f1",
           "target": {
-            "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
-            "slug": "boston",
-            "entity_type": "PLACE",
-            "name": "Boston",
+            "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+            "slug": "automated-storage-and-retrieval",
+            "entity_type": "TASK",
+            "name": "Automated storage and retrieval",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -62,6 +65,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -73,19 +77,20 @@
       ]
     },
     {
-      "predicate": "TARGETS_TASK",
-      "label": "targets task",
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
       "items": [
         {
-          "claim_id": "0fa9d70f-ec15-587b-983c-11f7aa9770f1",
+          "claim_id": "602c256f-6111-5370-a03f-14c23535df16",
           "target": {
-            "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
-            "slug": "automated-storage-and-retrieval",
-            "entity_type": "TASK",
-            "name": "Automated storage and retrieval",
+            "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+            "slug": "boston",
+            "entity_type": "PLACE",
+            "name": "Boston",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -110,6 +115,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -122,30 +128,6 @@
     }
   ],
   "inbound_relationships": [
-    {
-      "predicate": "HAS_EXAMPLE_VENDOR",
-      "label": "example vendor",
-      "items": [
-        {
-          "claim_id": "c616d0a9-1df4-5e27-9a7f-b25450a7a133",
-          "source": {
-            "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
-            "slug": "asrs-pallet-handling",
-            "entity_type": "APPROACH",
-            "name": "AS/RS pallet handling",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
     {
       "predicate": "OPERATED_BY",
       "label": "is operated by",
@@ -160,7 +142,33 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-11-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "c616d0a9-1df4-5e27-9a7f-b25450a7a133",
+          "source": {
+            "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+            "slug": "asrs-pallet-handling",
+            "entity_type": "APPROACH",
+            "name": "AS/RS pallet handling",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
@@ -222,7 +230,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 6
   },

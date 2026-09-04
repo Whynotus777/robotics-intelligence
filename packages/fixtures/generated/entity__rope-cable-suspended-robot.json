@@ -5,6 +5,8 @@
     "entity_type": "APPROACH",
     "name": "Rope/cable-suspended robot",
     "short_description": "A robot lowered from the nacelle on ropes or cables and positioned against the blade for cleaning, coating, testing and repair.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [],
@@ -33,6 +35,7 @@
             "value": "EARLY_COMMERCIAL"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -58,6 +61,7 @@
             "value": "OTHER_MOBILE"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -78,24 +82,6 @@
       "label": "example vendor",
       "items": [
         {
-          "claim_id": "c0f5c8a5-1913-5001-b2e9-f59a6abe4a2e",
-          "target": {
-            "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
-            "slug": "aerones",
-            "entity_type": "ORGANIZATION",
-            "name": "Aerones",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        },
-        {
           "claim_id": "1b500e9c-1776-5206-829e-d1e951eec881",
           "target": {
             "id": "81571cfa-9773-5740-a33f-0121af56676c",
@@ -105,11 +91,31 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "c0f5c8a5-1913-5001-b2e9-f59a6abe4a2e",
+          "target": {
+            "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+            "slug": "aerones",
+            "entity_type": "ORGANIZATION",
+            "name": "Aerones",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
             "source_count": 1
           }
         }
@@ -122,24 +128,6 @@
       "label": "has approach",
       "items": [
         {
-          "claim_id": "e8e5c1be-e022-5f0b-9dae-960d9afd5e5f",
-          "source": {
-            "id": "7831a686-465b-5c38-9904-bf9354227e01",
-            "slug": "blade-cleaning",
-            "entity_type": "TASK",
-            "name": "Blade cleaning",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        },
-        {
           "claim_id": "468ae321-4cd0-529e-9b54-f37b9a9e6212",
           "source": {
             "id": "91529bd1-9364-58d8-b7c3-a67025832322",
@@ -149,6 +137,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -167,6 +156,26 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "e8e5c1be-e022-5f0b-9dae-960d9afd5e5f",
+          "source": {
+            "id": "7831a686-465b-5c38-9904-bf9354227e01",
+            "slug": "blade-cleaning",
+            "entity_type": "TASK",
+            "name": "Blade cleaning",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -209,7 +218,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 5
   },

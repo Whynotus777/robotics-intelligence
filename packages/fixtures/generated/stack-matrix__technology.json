@@ -1,0 +1,121 @@
+{
+  "lens": "technology",
+  "columns": [
+    {
+      "id": "3d-lidar",
+      "label": "3D LiDAR"
+    },
+    {
+      "id": "depth-cameras",
+      "label": "Depth cameras"
+    }
+  ],
+  "rows": [
+    {
+      "layer": "INTELLIGENCE",
+      "cells": []
+    },
+    {
+      "layer": "PLANNING",
+      "cells": []
+    },
+    {
+      "layer": "PERCEPTION",
+      "cells": []
+    },
+    {
+      "layer": "STATE_ESTIMATION",
+      "cells": []
+    },
+    {
+      "layer": "CONTROL",
+      "cells": []
+    },
+    {
+      "layer": "COMPUTE",
+      "cells": [
+        {
+          "chip": {
+            "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+            "slug": "nvidia-jetson-orin-nx",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "NVIDIA Jetson Orin NX",
+            "primary_embodiment": null
+          },
+          "robot_count": 1
+        },
+        {
+          "chip": {
+            "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+            "slug": "nvidia-jetson-orin-nx",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "NVIDIA Jetson Orin NX",
+            "primary_embodiment": null
+          },
+          "robot_count": 1
+        }
+      ]
+    },
+    {
+      "layer": "SENSORS",
+      "cells": [
+        {
+          "chip": {
+            "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
+            "slug": "3d-lidar",
+            "entity_type": "TECHNOLOGY",
+            "name": "3D LiDAR",
+            "primary_embodiment": null
+          },
+          "robot_count": 1
+        },
+        {
+          "chip": {
+            "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
+            "slug": "depth-cameras",
+            "entity_type": "TECHNOLOGY",
+            "name": "Depth cameras",
+            "primary_embodiment": null
+          },
+          "robot_count": 1
+        },
+        {
+          "chip": {
+            "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
+            "slug": "3d-lidar",
+            "entity_type": "TECHNOLOGY",
+            "name": "3D LiDAR",
+            "primary_embodiment": null
+          },
+          "robot_count": 1
+        },
+        {
+          "chip": {
+            "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
+            "slug": "depth-cameras",
+            "entity_type": "TECHNOLOGY",
+            "name": "Depth cameras",
+            "primary_embodiment": null
+          },
+          "robot_count": 2
+        }
+      ]
+    },
+    {
+      "layer": "ACTUATION",
+      "cells": []
+    },
+    {
+      "layer": "END_EFFECTOR_PAYLOAD",
+      "cells": []
+    },
+    {
+      "layer": "POWER",
+      "cells": []
+    },
+    {
+      "layer": "MECHANICAL",
+      "cells": []
+    }
+  ]
+}

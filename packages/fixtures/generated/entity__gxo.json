@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "GXO Logistics",
     "short_description": "Contract logistics provider; first commercial RaaS humanoid customer with Agility Digit.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [
@@ -26,30 +28,6 @@
   "relationships": [],
   "inbound_relationships": [
     {
-      "predicate": "DEPLOYED_BY",
-      "label": "is deployed by",
-      "items": [
-        {
-          "claim_id": "7401773a-aa2b-54f3-9ab8-efbe25e71981",
-          "source": {
-            "id": "c03bb1d8-ae3a-58f0-b5a1-5d5f4c91a924",
-            "slug": "deployment-digit-gxo",
-            "entity_type": "DEPLOYMENT",
-            "name": "Agility Digit at GXO",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2024-06-27",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "PARTNERS_WITH",
       "label": "partners with",
       "items": [
@@ -63,6 +41,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -81,7 +60,33 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "DEPLOYED_BY",
+      "label": "is deployed by",
+      "items": [
+        {
+          "claim_id": "7401773a-aa2b-54f3-9ab8-efbe25e71981",
+          "source": {
+            "id": "c03bb1d8-ae3a-58f0-b5a1-5d5f4c91a924",
+            "slug": "deployment-digit-gxo",
+            "entity_type": "DEPLOYMENT",
+            "name": "Agility Digit at GXO",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-06-27",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",

@@ -5,6 +5,8 @@
     "entity_type": "ROBOT",
     "name": "Apptronik Apollo",
     "short_description": "Full-size humanoid from Apptronik with a swappable battery, piloted with Mercedes-Benz and GXO.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": "HUMANOID",
     "country_code": "US",
     "aliases": [
@@ -24,31 +26,6 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_EMBODIMENT",
-      "label": "embodiment",
-      "claims": [
-        {
-          "claim_id": "682375ed-63fe-557f-a647-b64885e6853a",
-          "predicate": "HAS_EMBODIMENT",
-          "value": {
-            "kind": "enum",
-            "value": "HUMANOID"
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "HAS_HEIGHT",
       "label": "height",
       "claims": [
@@ -64,6 +41,7 @@
             "max": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -93,6 +71,33 @@
             "max": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_ARCHITECTURE_NOTE",
+      "label": "architecture note",
+      "claims": [
+        {
+          "claim_id": "49f2d567-c352-5eff-a82c-5f891649cd1a",
+          "predicate": "HAS_ARCHITECTURE_NOTE",
+          "value": {
+            "kind": "text",
+            "text": "Apollo uses a swappable battery pack so a robot can be kept on shift by exchanging packs rather than charging in place."
+          },
+          "stack_layer": "POWER",
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -122,6 +127,7 @@
             "max": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -136,43 +142,19 @@
       ]
     },
     {
-      "predicate": "HAS_ARCHITECTURE_NOTE",
-      "label": "architecture note",
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
       "claims": [
         {
-          "claim_id": "49f2d567-c352-5eff-a82c-5f891649cd1a",
-          "predicate": "HAS_ARCHITECTURE_NOTE",
+          "claim_id": "682375ed-63fe-557f-a647-b64885e6853a",
+          "predicate": "HAS_EMBODIMENT",
           "value": {
-            "kind": "text",
-            "text": "Apollo uses a swappable battery pack so a robot can be kept on shift by exchanging packs rather than charging in place."
-          },
-          "stack_layer": "POWER",
-          "valid_from": "2026-09-01",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "ANNOUNCED_ON",
-      "label": "was announced on",
-      "claims": [
-        {
-          "claim_id": "bb501113-c988-5b15-8f48-0f62df755d37",
-          "predicate": "ANNOUNCED_ON",
-          "value": {
-            "kind": "date",
-            "date": "2023-08-23"
+            "kind": "enum",
+            "value": "HUMANOID"
           },
           "stack_layer": null,
-          "valid_from": "2023-08-23",
+          "qualifier": null,
+          "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
           "last_verified_at": "2026-09-01T00:00:00.000Z",
@@ -197,7 +179,34 @@
             "value": "PILOT_DEPLOYMENTS"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-03-15",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ANNOUNCED_ON",
+      "label": "was announced on",
+      "claims": [
+        {
+          "claim_id": "bb501113-c988-5b15-8f48-0f62df755d37",
+          "predicate": "ANNOUNCED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2023-08-23"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2023-08-23",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
           "last_verified_at": "2026-09-01T00:00:00.000Z",
@@ -226,6 +235,7 @@
             "primary_embodiment": "HUMANOID"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -238,30 +248,6 @@
     }
   ],
   "inbound_relationships": [
-    {
-      "predicate": "USES_ROBOT",
-      "label": "uses robot",
-      "items": [
-        {
-          "claim_id": "cef7a480-1961-5cbe-8364-5c1a399ef9b7",
-          "source": {
-            "id": "da7def0e-8ffc-51fb-b562-a1eac84d32a7",
-            "slug": "deployment-apollo-mercedes",
-            "entity_type": "DEPLOYMENT",
-            "name": "Apollo pilot at Mercedes-Benz",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2024-03-15",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
     {
       "predicate": "BUILDS",
       "label": "builds",
@@ -276,6 +262,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -300,12 +287,38 @@
             "primary_embodiment": "HUMANOID"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "DERIVED",
             "confidence": "MEDIUM",
             "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_ROBOT",
+      "label": "uses robot",
+      "items": [
+        {
+          "claim_id": "cef7a480-1961-5cbe-8364-5c1a399ef9b7",
+          "source": {
+            "id": "da7def0e-8ffc-51fb-b562-a1eac84d32a7",
+            "slug": "deployment-apollo-mercedes",
+            "entity_type": "DEPLOYMENT",
+            "name": "Apollo pilot at Mercedes-Benz",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-03-15",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
           }
         }
       ]
@@ -351,7 +364,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 8,
     "deployment_count": 1,
     "related_count": 4
   },

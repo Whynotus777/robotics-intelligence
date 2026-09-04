@@ -1,0 +1,139 @@
+{
+  "entity": {
+    "id": "35165fe1-71e5-5525-9c5e-c2afbc16e848",
+    "slug": "tesla-optimus",
+    "entity_type": "ROBOT",
+    "name": "Tesla Optimus",
+    "short_description": "Tesla's general-purpose humanoid robot program.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": "HUMANOID",
+    "country_code": "US",
+    "aliases": [
+      "Optimus",
+      "Tesla Bot"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": "PROTOTYPE",
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "b0eebeae-a76f-579d-96a6-a890e8db2a9f",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "d46c10f4-9d69-5992-9c28-be9906d85a5b",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "PROTOTYPE"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "ba96affa-ee22-5b9a-9621-9a3a60fea9fc",
+          "source": {
+            "id": "dbc36fdb-c288-54fe-ad21-b0d2d0085d27",
+            "slug": "tesla",
+            "entity_type": "ORGANIZATION",
+            "name": "Tesla",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "dbc36fdb-c288-54fe-ad21-b0d2d0085d27",
+        "slug": "tesla",
+        "entity_type": "ORGANIZATION",
+        "name": "Tesla",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

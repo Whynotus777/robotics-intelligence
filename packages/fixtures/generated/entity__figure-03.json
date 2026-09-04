@@ -5,6 +5,8 @@
     "entity_type": "ROBOT",
     "name": "Figure 03",
     "short_description": "Figure AI's third-generation humanoid, built around the Helix VLA model and targeted at home and commercial use. Deliberately sparse: no supplier data is published.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": "HUMANOID",
     "country_code": "US",
     "aliases": [
@@ -24,17 +26,18 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_EMBODIMENT",
-      "label": "embodiment",
+      "predicate": "HAS_ARCHITECTURE_NOTE",
+      "label": "architecture note",
       "claims": [
         {
-          "claim_id": "c2ee733a-b52b-5b10-933d-f72dcce22f01",
-          "predicate": "HAS_EMBODIMENT",
+          "claim_id": "1e350357-373e-53c4-af48-812c8cc5df01",
+          "predicate": "HAS_ARCHITECTURE_NOTE",
           "value": {
-            "kind": "enum",
-            "value": "HUMANOID"
+            "kind": "text",
+            "text": "Figure 03 is presented as hardware designed around Helix, Figure's vision-language-action model, with the sensor suite and hands specified for that policy rather than for teleoperation."
           },
-          "stack_layer": null,
+          "stack_layer": "INTELLIGENCE",
+          "qualifier": null,
           "valid_from": "2025-10-09",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -42,7 +45,7 @@
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
-            "confidence": "HIGH",
+            "confidence": "MEDIUM",
             "source_count": 1
           }
         }
@@ -60,6 +63,7 @@
             "date": "2025-10-09"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2025-10-09",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -74,17 +78,18 @@
       ]
     },
     {
-      "predicate": "HAS_ARCHITECTURE_NOTE",
-      "label": "architecture note",
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
       "claims": [
         {
-          "claim_id": "1e350357-373e-53c4-af48-812c8cc5df01",
-          "predicate": "HAS_ARCHITECTURE_NOTE",
+          "claim_id": "c2ee733a-b52b-5b10-933d-f72dcce22f01",
+          "predicate": "HAS_EMBODIMENT",
           "value": {
-            "kind": "text",
-            "text": "Figure 03 is presented as hardware designed around Helix, Figure's vision-language-action model, with the sensor suite and hands specified for that policy rather than for teleoperation."
+            "kind": "enum",
+            "value": "HUMANOID"
           },
-          "stack_layer": "INTELLIGENCE",
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2025-10-09",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -92,7 +97,7 @@
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
-            "confidence": "MEDIUM",
+            "confidence": "HIGH",
             "source_count": 1
           }
         }
@@ -110,6 +115,7 @@
             "value": "PILOT_DEPLOYMENTS"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2025-10-09",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -126,30 +132,6 @@
   ],
   "relationships": [
     {
-      "predicate": "CONTROLLED_BY",
-      "label": "is controlled by",
-      "items": [
-        {
-          "claim_id": "60b83880-09af-5e15-9244-b0fb3614b53c",
-          "target": {
-            "id": "70bc43e3-1e7f-5d97-9852-8dbc09ee40ee",
-            "slug": "helix",
-            "entity_type": "MODEL",
-            "name": "Helix",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2025-10-09",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "MEMBER_OF_FAMILY",
       "label": "is a member of",
       "items": [
@@ -163,7 +145,33 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "CONTROLLED_BY",
+      "label": "is controlled by",
+      "items": [
+        {
+          "claim_id": "60b83880-09af-5e15-9244-b0fb3614b53c",
+          "target": {
+            "id": "70bc43e3-1e7f-5d97-9852-8dbc09ee40ee",
+            "slug": "helix",
+            "entity_type": "MODEL",
+            "name": "Helix",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2025-10-09",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
@@ -187,6 +195,7 @@
             "primary_embodiment": "HUMANOID"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2025-10-09",
           "has_evidence": true,
           "evidence_summary": {
@@ -213,6 +222,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -237,6 +247,7 @@
             "primary_embodiment": "HUMANOID"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -255,6 +266,7 @@
             "primary_embodiment": "HUMANOID"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -315,7 +327,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 7,
     "deployment_count": 0,
     "related_count": 6
   },

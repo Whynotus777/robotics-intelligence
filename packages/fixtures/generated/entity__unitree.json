@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "Unitree Robotics",
     "short_description": "Hangzhou humanoid and quadruped OEM that also sells its own actuators; set the low price point for legged robots.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "CN",
     "aliases": [
@@ -25,30 +27,6 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
-      "items": [
-        {
-          "claim_id": "d4a63105-14e5-58ea-bd78-5e2e2b67b581",
-          "target": {
-            "id": "c5da4207-66e6-58af-b465-9432764e2a62",
-            "slug": "hangzhou",
-            "entity_type": "PLACE",
-            "name": "Hangzhou",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "BUILDS",
       "label": "builds",
       "items": [
@@ -62,6 +40,32 @@
             "primary_embodiment": "HUMANOID"
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "d4a63105-14e5-58ea-bd78-5e2e2b67b581",
+          "target": {
+            "id": "c5da4207-66e6-58af-b465-9432764e2a62",
+            "slug": "hangzhou",
+            "entity_type": "PLACE",
+            "name": "Hangzhou",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -98,7 +102,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 2,
     "deployment_count": 0,
     "related_count": 2
   },

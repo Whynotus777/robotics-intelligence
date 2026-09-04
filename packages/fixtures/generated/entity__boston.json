@@ -5,6 +5,8 @@
     "entity_type": "PLACE",
     "name": "Boston",
     "short_description": "Greater Boston including Waltham, Wilmington and North Reading; legged robots and warehouse automation.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [],
@@ -34,51 +36,16 @@
       "label": "is headquartered at",
       "items": [
         {
-          "claim_id": "62784a2a-cf80-559e-af1e-ef324fce7fc8",
+          "claim_id": "2be5862a-da1f-535d-a21e-f14d371e3b0b",
           "source": {
-            "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
-            "slug": "amazon-robotics",
+            "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
+            "slug": "vecna",
             "entity_type": "ORGANIZATION",
-            "name": "Amazon Robotics",
+            "name": "Vecna Robotics",
             "primary_embodiment": null
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        },
-        {
-          "claim_id": "7d64389e-913a-55a8-8812-653fa8f14441",
-          "source": {
-            "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
-            "slug": "boston-dynamics",
-            "entity_type": "ORGANIZATION",
-            "name": "Boston Dynamics",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        },
-        {
-          "claim_id": "e5262db2-697b-5bc7-b40e-3cb97c4c5fb8",
-          "source": {
-            "id": "79815395-59ce-5c93-aef0-8686647839c6",
-            "slug": "locus",
-            "entity_type": "ORGANIZATION",
-            "name": "Locus Robotics",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -97,6 +64,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -106,15 +74,54 @@
           }
         },
         {
-          "claim_id": "2be5862a-da1f-535d-a21e-f14d371e3b0b",
+          "claim_id": "62784a2a-cf80-559e-af1e-ef324fce7fc8",
           "source": {
-            "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
-            "slug": "vecna",
+            "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
+            "slug": "amazon-robotics",
             "entity_type": "ORGANIZATION",
-            "name": "Vecna Robotics",
+            "name": "Amazon Robotics",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "7d64389e-913a-55a8-8812-653fa8f14441",
+          "source": {
+            "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
+            "slug": "boston-dynamics",
+            "entity_type": "ORGANIZATION",
+            "name": "Boston Dynamics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "e5262db2-697b-5bc7-b40e-3cb97c4c5fb8",
+          "source": {
+            "id": "79815395-59ce-5c93-aef0-8686647839c6",
+            "slug": "locus",
+            "entity_type": "ORGANIZATION",
+            "name": "Locus Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {

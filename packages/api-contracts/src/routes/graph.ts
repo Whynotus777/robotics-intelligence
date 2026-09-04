@@ -24,6 +24,7 @@ export const GraphEdge = z.object({
   source: z.uuid(),
   target: z.uuid(),
   predicate: z.string(),
+  qualifier: z.string().nullable(),
   has_evidence: z.boolean(),
   confidence_max: Confidence.nullable(),
   valid_from: IsoDate,

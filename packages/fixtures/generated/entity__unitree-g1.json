@@ -5,6 +5,8 @@
     "entity_type": "ROBOT",
     "name": "Unitree G1",
     "short_description": "Compact humanoid sold broadly to research labs and developers; the price point that reset expectations for humanoid hardware in 2024.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": "HUMANOID",
     "country_code": "CN",
     "aliases": [
@@ -25,89 +27,6 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_EMBODIMENT",
-      "label": "embodiment",
-      "claims": [
-        {
-          "claim_id": "20c6132a-fc89-5d09-a78c-2791a249098a",
-          "predicate": "HAS_EMBODIMENT",
-          "value": {
-            "kind": "enum",
-            "value": "HUMANOID"
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "HAS_HEIGHT",
-      "label": "height",
-      "claims": [
-        {
-          "claim_id": "a14fc145-e5d1-5854-b8b6-6f89c624da22",
-          "predicate": "HAS_HEIGHT",
-          "value": {
-            "kind": "number",
-            "number": 1.32,
-            "unit": "m",
-            "is_approximate": true,
-            "min": null,
-            "max": null
-          },
-          "stack_layer": null,
-          "valid_from": "2024-05-13",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "HAS_MASS",
-      "label": "mass",
-      "claims": [
-        {
-          "claim_id": "4d96a0d6-d933-5960-b69d-cf2d22c911d2",
-          "predicate": "HAS_MASS",
-          "value": {
-            "kind": "number",
-            "number": 35,
-            "unit": "kg",
-            "is_approximate": true,
-            "min": null,
-            "max": null
-          },
-          "stack_layer": null,
-          "valid_from": "2024-05-13",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "HAS_DOF",
       "label": "degrees of freedom",
       "claims": [
@@ -123,7 +42,34 @@
             "max": 43
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-05-13",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "20c6132a-fc89-5d09-a78c-2791a249098a",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
           "last_verified_at": "2026-09-01T00:00:00.000Z",
@@ -152,6 +98,7 @@
             "max": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-05-13",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -181,6 +128,7 @@
             "max": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-05-13",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -195,17 +143,22 @@
       ]
     },
     {
-      "predicate": "ANNOUNCED_ON",
-      "label": "was announced on",
+      "predicate": "HAS_MASS",
+      "label": "mass",
       "claims": [
         {
-          "claim_id": "a35f4fdb-20a0-5c00-89e3-3b14bda3ba0d",
-          "predicate": "ANNOUNCED_ON",
+          "claim_id": "4d96a0d6-d933-5960-b69d-cf2d22c911d2",
+          "predicate": "HAS_MASS",
           "value": {
-            "kind": "date",
-            "date": "2024-05-13"
+            "kind": "number",
+            "number": 35,
+            "unit": "kg",
+            "is_approximate": true,
+            "min": null,
+            "max": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-05-13",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -231,6 +184,7 @@
             "value": "COMMERCIAL"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-05-13",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -256,6 +210,7 @@
             "text": "The base G1 ships with a low-power onboard controller; EDU variants add a Jetson Orin NX for perception and policy workloads, which is why most published research on the platform uses the EDU configuration."
           },
           "stack_layer": "COMPUTE",
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -264,6 +219,62 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_HEIGHT",
+      "label": "height",
+      "claims": [
+        {
+          "claim_id": "a14fc145-e5d1-5854-b8b6-6f89c624da22",
+          "predicate": "HAS_HEIGHT",
+          "value": {
+            "kind": "number",
+            "number": 1.32,
+            "unit": "m",
+            "is_approximate": true,
+            "min": null,
+            "max": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-05-13",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ANNOUNCED_ON",
+      "label": "was announced on",
+      "claims": [
+        {
+          "claim_id": "a35f4fdb-20a0-5c00-89e3-3b14bda3ba0d",
+          "predicate": "ANNOUNCED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2024-05-13"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-05-13",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
             "source_count": 1
           }
         }
@@ -285,6 +296,7 @@
             "primary_embodiment": null
           },
           "stack_layer": "SENSORS",
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -303,30 +315,7 @@
             "primary_embodiment": null
           },
           "stack_layer": "SENSORS",
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "USES_PRODUCT",
-      "label": "uses",
-      "items": [
-        {
-          "claim_id": "739973c7-394d-57f5-aca1-e55ceb151030",
-          "target": {
-            "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
-            "slug": "nvidia-jetson-orin-nx",
-            "entity_type": "COMPONENT_PRODUCT",
-            "name": "NVIDIA Jetson Orin NX",
-            "primary_embodiment": null
-          },
-          "stack_layer": "COMPUTE",
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -351,6 +340,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -366,24 +356,6 @@
       "label": "competes with",
       "items": [
         {
-          "claim_id": "c36b0065-1db8-59ce-8a8f-1df732637a5f",
-          "target": {
-            "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
-            "slug": "apptronik-apollo",
-            "entity_type": "ROBOT",
-            "name": "Apptronik Apollo",
-            "primary_embodiment": "HUMANOID"
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "DERIVED",
-            "confidence": "MEDIUM",
-            "source_count": 0
-          }
-        },
-        {
           "claim_id": "68fdb84f-1e31-5689-8dc0-658a7ad1d1d7",
           "target": {
             "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
@@ -393,12 +365,57 @@
             "primary_embodiment": "HUMANOID"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "DERIVED",
             "confidence": "MEDIUM",
             "source_count": 0
+          }
+        },
+        {
+          "claim_id": "c36b0065-1db8-59ce-8a8f-1df732637a5f",
+          "target": {
+            "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+            "slug": "apptronik-apollo",
+            "entity_type": "ROBOT",
+            "name": "Apptronik Apollo",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "DERIVED",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_PRODUCT",
+      "label": "uses",
+      "items": [
+        {
+          "claim_id": "739973c7-394d-57f5-aca1-e55ceb151030",
+          "target": {
+            "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+            "slug": "nvidia-jetson-orin-nx",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "NVIDIA Jetson Orin NX",
+            "primary_embodiment": null
+          },
+          "stack_layer": "COMPUTE",
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
           }
         }
       ]
@@ -419,6 +436,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -495,7 +513,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 15,
     "deployment_count": 0,
     "related_count": 7
   },

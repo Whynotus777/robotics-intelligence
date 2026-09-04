@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "65472eea-b4fe-5189-a6ea-920be9c56663",
+    "subject": {
+      "id": "50a1681f-e78c-52cd-9388-0d59b8696a7b",
+      "slug": "lig-nex1",
+      "entity_type": "ORGANIZATION",
+      "name": "LIG Nex1",
+      "primary_embodiment": null
+    },
+    "predicate": "ACQUIRED",
+    "label": "acquired",
+    "sentence": "LIG Nex1 acquired Ghost Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "88569dea-4f2d-5071-a8cd-2aaf51b1bda1",
+        "slug": "ghost-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Ghost Robotics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2023-12-08",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "54f10011-4e46-5264-8d64-8c7490deddff",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2023-12-08T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e4af1030-8f21-5fc1-8eb7-8e967a4643f2",
+        "url": "https://www.reuters.com/markets/deals/south-koreas-lig-nex1-acquire-stake-us-robot-maker-ghost-robotics-2023-12-08/",
+        "canonical_url": null,
+        "publisher": "Reuters",
+        "title": "LIG Nex1 acquisition of Ghost Robotics",
+        "source_kind": "NEWS",
+        "published_at": "2023-12-08T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

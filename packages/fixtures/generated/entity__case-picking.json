@@ -5,6 +5,8 @@
     "entity_type": "TASK",
     "name": "Case picking",
     "short_description": "Building mixed-case pallets or moving full cases from storage to outbound, by arm or by automated system.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [],
@@ -33,6 +35,7 @@
             "value": "EARLY_COMMERCIAL"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -41,31 +44,6 @@
           "evidence_summary": {
             "class": "ANALYST",
             "confidence": "MEDIUM",
-            "source_count": 0
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "HAS_INCUMBENT_PROCESS",
-      "label": "incumbent process",
-      "claims": [
-        {
-          "claim_id": "e64b26a7-f7b1-52a1-a002-f39bc5a96d03",
-          "predicate": "HAS_INCUMBENT_PROCESS",
-          "value": {
-            "kind": "text",
-            "text": "Manual case picking with pallet jacks and voice-directed picking."
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
             "source_count": 0
           }
         }
@@ -83,6 +61,33 @@
             "text": "Grocery and retail distributors"
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_INCUMBENT_PROCESS",
+      "label": "incumbent process",
+      "claims": [
+        {
+          "claim_id": "e64b26a7-f7b1-52a1-a002-f39bc5a96d03",
+          "predicate": "HAS_INCUMBENT_PROCESS",
+          "value": {
+            "kind": "text",
+            "text": "Manual case picking with pallet jacks and voice-directed picking."
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -108,10 +113,11 @@
             "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
             "slug": "material-movement",
             "entity_type": "MARKET",
-            "name": "Material movement",
+            "name": "Warehouse",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -130,7 +136,7 @@
         "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
         "slug": "material-movement",
         "entity_type": "MARKET",
-        "name": "Material movement",
+        "name": "Warehouse",
         "primary_embodiment": null
       }
     ]
@@ -148,7 +154,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 1
   },

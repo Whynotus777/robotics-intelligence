@@ -5,6 +5,8 @@
     "entity_type": "APPROACH",
     "name": "Autonomous forklift",
     "short_description": "Retrofit kits or purpose-built forklifts that drive, lift and enter trailers autonomously.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [],
@@ -33,6 +35,7 @@
             "value": "EARLY_COMMERCIAL"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -58,6 +61,7 @@
             "value": "AMR"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -87,6 +91,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -105,6 +110,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -122,24 +128,6 @@
       "label": "has approach",
       "items": [
         {
-          "claim_id": "7fa58e98-7b33-5cd3-a02f-1c52a87b559d",
-          "source": {
-            "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
-            "slug": "pallet-movement",
-            "entity_type": "TASK",
-            "name": "Pallet movement",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        },
-        {
           "claim_id": "13a35b10-02d5-5c9b-a6d4-de5490f4b758",
           "source": {
             "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
@@ -149,6 +137,26 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "7fa58e98-7b33-5cd3-a02f-1c52a87b559d",
+          "source": {
+            "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+            "slug": "pallet-movement",
+            "entity_type": "TASK",
+            "name": "Pallet movement",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -191,7 +199,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 4
   },

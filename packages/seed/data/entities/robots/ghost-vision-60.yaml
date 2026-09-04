@@ -1,0 +1,21 @@
+slug: ghost-vision-60
+entity_type: ROBOT
+name: Ghost Robotics Vision 60
+short_description: Rugged quadruped unmanned ground vehicle for defense and public-safety missions.
+primary_embodiment: QUADRUPED
+country_code: US
+depth_tier: ANCHOR
+aliases: [Vision 60, V60]
+claims:
+  - predicate: HAS_EMBODIMENT
+    enum: QUADRUPED
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: ghost-vision60
+  - predicate: HAS_COMMERCIAL_STAGE
+    enum: COMMERCIAL
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: ghost-vision60

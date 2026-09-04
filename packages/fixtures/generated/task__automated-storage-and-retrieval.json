@@ -19,13 +19,14 @@
       "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
       "slug": "material-movement",
       "entity_type": "MARKET",
-      "name": "Material movement",
+      "name": "Warehouse",
       "primary_embodiment": null
     }
   ],
   "maturity": {
     "value": "MATURE",
     "claim_id": "de3359b3-48ed-5964-8977-1328184dbcf9",
+    "qualifier": null,
     "evidence_summary": {
       "class": "ANALYST",
       "confidence": "HIGH",
@@ -58,6 +59,7 @@
     {
       "claim_id": "7f1967b1-467d-553d-9a1c-282d2bdf8eaa",
       "text": "Conventional racking served by manual forklifts and order pickers.",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -89,6 +91,7 @@
       "maturity": {
         "value": "MATURE",
         "claim_id": "3abefd5e-7de6-5a0a-b2f4-dbde73d95136",
+        "qualifier": null,
         "evidence_summary": {
           "class": "ANALYST",
           "confidence": "HIGH",
@@ -129,7 +132,8 @@
         "name": "Symbotic",
         "primary_embodiment": null
       },
-      "via": "TARGETS_TASK"
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Boston"
     }
   ],
   "deployments": [
@@ -160,6 +164,7 @@
       "robots": [],
       "places": [],
       "began": "2022-01-01",
+      "deployment_kind": null,
       "evidence_summary": {
         "class": "PRIMARY",
         "confidence": "MEDIUM",
@@ -171,6 +176,7 @@
     {
       "claim_id": "3fa4b6d7-6845-5464-a1d1-7f40487f8f72",
       "text": "Retailers",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -189,5 +195,19 @@
       }
     }
   ],
+  "intelligence_rail": {
+    "assessment_count": 5,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 5
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 1,
+    "deployment_count": 1,
+    "field_trial_count": 0
+  },
   "as_of": null
 }

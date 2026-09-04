@@ -26,6 +26,7 @@
   "maturity": {
     "value": "PILOT",
     "claim_id": "f5a755a7-986d-54cf-af8b-435cba6a6ac8",
+    "qualifier": null,
     "evidence_summary": {
       "class": "ANALYST",
       "confidence": "MEDIUM",
@@ -74,6 +75,7 @@
     {
       "claim_id": "d1562398-1cd2-579f-b0fe-cf70227ba730",
       "text": "Rope-access technicians or suspended platforms, with turbine downtime for every intervention and weather-limited working windows.",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -95,94 +97,6 @@
   "approaches": [
     {
       "approach": {
-        "id": "d22eebac-6216-5a64-937b-ebce946181ff",
-        "slug": "drone-based-blade-maintenance",
-        "entity_type": "APPROACH",
-        "name": "Drone-based",
-        "primary_embodiment": null
-      },
-      "short_description": "Multirotor drones flying close to blades for inspection; contact work from the same platform is early.",
-      "maturity": {
-        "value": "SCALING",
-        "claim_id": "595b4a6a-0756-50b6-87b9-9db56dc2a9e1",
-        "evidence_summary": {
-          "class": "ANALYST",
-          "confidence": "HIGH",
-          "source_count": 0
-        },
-        "assessment": {
-          "author": "editorial",
-          "rationale": "For inspection the drone approach is mature and fleet-wide; for contact work such as cleaning or coating it is early. Rated as scaling for the approach as a whole because the inspection business funds the contact experiments and the same vendors sell both.",
-          "advance_criteria": [
-            "Contact tasks (cleaning, coating) sold commercially from a drone platform",
-            "Autonomous, operator-free inspection flights as the default",
-            "BVLOS approvals for fleet campaigns in major markets"
-          ],
-          "regress_criteria": [],
-          "evidence_considered": [],
-          "reviewed_at": "2026-09-01T00:00:00.000Z",
-          "notes": null
-        }
-      },
-      "embodiments": [
-        "DRONE"
-      ],
-      "example_vendors": [
-        {
-          "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
-          "slug": "skyspecs",
-          "entity_type": "ORGANIZATION",
-          "name": "SkySpecs",
-          "primary_embodiment": null
-        }
-      ]
-    },
-    {
-      "approach": {
-        "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
-        "slug": "blade-crawler",
-        "entity_type": "APPROACH",
-        "name": "Blade crawler",
-        "primary_embodiment": null
-      },
-      "short_description": "A robot that adheres to and walks along the blade surface, carrying inspection or repair tooling directly to the defect.",
-      "maturity": {
-        "value": "PILOT",
-        "claim_id": "b524ba71-a01d-52ca-af78-9ac870325b6b",
-        "evidence_summary": {
-          "class": "ANALYST",
-          "confidence": "MEDIUM",
-          "source_count": 0
-        },
-        "assessment": {
-          "author": "editorial",
-          "rationale": "BladeBUG-type crawlers have completed offshore trials and demonstrated inspection and light repair on live turbines, but there is no repeated paid deployment programme and deployment to the blade still needs a crew at the nacelle. The approach has the best contact geometry and the worst logistics.",
-          "advance_criteria": [
-            "Paid campaigns across multiple wind farms in a season",
-            "Deployment without rope-access crew involvement",
-            "Repair quality accepted by an OEM or ISP under contract"
-          ],
-          "regress_criteria": [],
-          "evidence_considered": [],
-          "reviewed_at": "2026-09-01T00:00:00.000Z",
-          "notes": null
-        }
-      },
-      "embodiments": [
-        "OTHER_MOBILE"
-      ],
-      "example_vendors": [
-        {
-          "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
-          "slug": "bladebug",
-          "entity_type": "ORGANIZATION",
-          "name": "BladeBUG",
-          "primary_embodiment": null
-        }
-      ]
-    },
-    {
-      "approach": {
         "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
         "slug": "rope-cable-suspended-robot",
         "entity_type": "APPROACH",
@@ -193,6 +107,7 @@
       "maturity": {
         "value": "EARLY_COMMERCIAL",
         "claim_id": "c1b02147-ed8f-5595-90fc-82c243725e1d",
+        "qualifier": null,
         "evidence_summary": {
           "class": "ANALYST",
           "confidence": "MEDIUM",
@@ -234,6 +149,51 @@
     },
     {
       "approach": {
+        "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
+        "slug": "blade-crawler",
+        "entity_type": "APPROACH",
+        "name": "Blade crawler",
+        "primary_embodiment": null
+      },
+      "short_description": "A robot that adheres to and walks along the blade surface, carrying inspection or repair tooling directly to the defect.",
+      "maturity": {
+        "value": "PILOT",
+        "claim_id": "b524ba71-a01d-52ca-af78-9ac870325b6b",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "MEDIUM",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "BladeBUG-type crawlers have completed offshore trials and demonstrated inspection and light repair on live turbines, but there is no repeated paid deployment programme and deployment to the blade still needs a crew at the nacelle. The approach has the best contact geometry and the worst logistics.",
+          "advance_criteria": [
+            "Paid campaigns across multiple wind farms in a season",
+            "Deployment without rope-access crew involvement",
+            "Repair quality accepted by an OEM or ISP under contract"
+          ],
+          "regress_criteria": [],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "OTHER_MOBILE"
+      ],
+      "example_vendors": [
+        {
+          "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+          "slug": "bladebug",
+          "entity_type": "ORGANIZATION",
+          "name": "BladeBUG",
+          "primary_embodiment": null
+        }
+      ]
+    },
+    {
+      "approach": {
         "id": "337c1e71-855d-5403-a3fb-6c1979113161",
         "slug": "aerial-manipulator",
         "entity_type": "APPROACH",
@@ -244,6 +204,7 @@
       "maturity": {
         "value": "RESEARCH",
         "claim_id": "a340ebc1-9331-5de7-b838-8f011f5c57a2",
+        "qualifier": null,
         "evidence_summary": {
           "class": "ANALYST",
           "confidence": "HIGH",
@@ -267,32 +228,58 @@
         "DRONE"
       ],
       "example_vendors": []
+    },
+    {
+      "approach": {
+        "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+        "slug": "drone-based-blade-maintenance",
+        "entity_type": "APPROACH",
+        "name": "Drone-based",
+        "primary_embodiment": null
+      },
+      "short_description": "Multirotor drones flying close to blades for inspection; contact work from the same platform is early.",
+      "maturity": {
+        "value": "SCALING",
+        "claim_id": "595b4a6a-0756-50b6-87b9-9db56dc2a9e1",
+        "qualifier": null,
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "HIGH",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "For inspection the drone approach is mature and fleet-wide; for contact work such as cleaning or coating it is early. Rated as scaling for the approach as a whole because the inspection business funds the contact experiments and the same vendors sell both.",
+          "advance_criteria": [
+            "Contact tasks (cleaning, coating) sold commercially from a drone platform",
+            "Autonomous, operator-free inspection flights as the default",
+            "BVLOS approvals for fleet campaigns in major markets"
+          ],
+          "regress_criteria": [],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "DRONE"
+      ],
+      "example_vendors": [
+        {
+          "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
+          "slug": "skyspecs",
+          "entity_type": "ORGANIZATION",
+          "name": "SkySpecs",
+          "primary_embodiment": null
+        }
+      ]
     }
   ],
   "technical_requirements": [
     {
-      "claim_id": "78f6b3a2-bae3-578b-8a50-b2a4cd50a0a3",
-      "text": "Contact stability in wind",
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "HIGH",
-        "source_count": 0
-      },
-      "assessment": {
-        "author": "editorial",
-        "rationale": "Grinding, filling and coating all require a stable tool-to-surface contact while gusts load the platform; this is the physical constraint that separates inspection from repair.",
-        "advance_criteria": [
-          "Drops out only if turbines are routinely stopped and locked for every repair."
-        ],
-        "regress_criteria": [],
-        "evidence_considered": [],
-        "reviewed_at": "2026-09-01T00:00:00.000Z",
-        "notes": null
-      }
-    },
-    {
       "claim_id": "7214d204-9cd7-53a9-9a8c-579fc04538b3",
       "text": "Surface preparation and coating application",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -311,8 +298,9 @@
       }
     },
     {
-      "claim_id": "d833a56c-e425-5bc0-b199-cde4f7f78dcd",
-      "text": "Blade-edge localization",
+      "claim_id": "78f6b3a2-bae3-578b-8a50-b2a4cd50a0a3",
+      "text": "Contact stability in wind",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -320,9 +308,9 @@
       },
       "assessment": {
         "author": "editorial",
-        "rationale": "The robot must find and track the leading edge to millimetre precision on a curved, uniformly coloured surface, in varying light.",
+        "rationale": "Grinding, filling and coating all require a stable tool-to-surface contact while gusts load the platform; this is the physical constraint that separates inspection from repair.",
         "advance_criteria": [
-          "Would be simplified by blade-embedded fiducials, which no OEM ships today."
+          "Drops out only if turbines are routinely stopped and locked for every repair."
         ],
         "regress_criteria": [],
         "evidence_considered": [],
@@ -333,6 +321,7 @@
     {
       "claim_id": "984b9599-7cf8-544a-bc0e-441f739df63f",
       "text": "Working at 80–120 m height",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -343,6 +332,27 @@
         "rationale": "Every approach has to solve deployment to and retrieval from the blade at hub height, which drives system mass, tether design and crew size.",
         "advance_criteria": [
           "Fixed for the installed fleet."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "d833a56c-e425-5bc0-b199-cde4f7f78dcd",
+      "text": "Blade-edge localization",
+      "qualifier": null,
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The robot must find and track the leading edge to millimetre precision on a curved, uniformly coloured surface, in varying light.",
+        "advance_criteria": [
+          "Would be simplified by blade-embedded fiducials, which no OEM ships today."
         ],
         "regress_criteria": [],
         "evidence_considered": [],
@@ -360,7 +370,8 @@
         "name": "Aerones",
         "primary_embodiment": null
       },
-      "via": "TARGETS_TASK"
+      "via": "TARGETS_TASK",
+      "hq_place_label": "Riga"
     },
     {
       "organization": {
@@ -370,7 +381,8 @@
         "name": "BladeBUG",
         "primary_embodiment": null
       },
-      "via": "TARGETS_TASK"
+      "via": "TARGETS_TASK",
+      "hq_place_label": "London"
     },
     {
       "organization": {
@@ -380,13 +392,15 @@
         "name": "Rope Robotics",
         "primary_embodiment": null
       },
-      "via": "TARGETS_TASK"
+      "via": "TARGETS_TASK",
+      "hq_place_label": null
     }
   ],
   "customer_types": [
     {
       "claim_id": "4b4d6db0-2f1e-556c-9ebd-96103b419cad",
       "text": "Turbine OEMs (service contracts)",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -407,6 +421,7 @@
     {
       "claim_id": "6c796635-0d19-5676-bb23-ae186e0ad0ba",
       "text": "Independent service providers",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -427,6 +442,7 @@
     {
       "claim_id": "f5148d6a-ba38-5f0f-b9a3-1949c2a88b7e",
       "text": "Asset owners and operators",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -449,6 +465,7 @@
     {
       "claim_id": "719a4dca-d11d-5c4c-acc0-d1f0c4763ddc",
       "text": "Warranty acceptance of robot-applied repairs by turbine OEMs",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "HIGH",
@@ -471,6 +488,7 @@
     {
       "claim_id": "75e18ae0-91b4-563a-8048-5a38a016ce5c",
       "text": "Weather windows and mobilisation cost still dominate campaign economics",
+      "qualifier": null,
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "MEDIUM",
@@ -507,5 +525,19 @@
       "primary_embodiment": null
     }
   ],
+  "intelligence_rail": {
+    "assessment_count": 18,
+    "evidence_by_class": {
+      "PRIMARY": 0,
+      "THIRD_PARTY": 0,
+      "ACADEMIC": 0,
+      "DERIVED": 0,
+      "ANALYST": 18
+    },
+    "last_reviewed": "2026-09-01T00:00:00.000Z",
+    "vendor_count": 3,
+    "deployment_count": 0,
+    "field_trial_count": 0
+  },
   "as_of": null
 }

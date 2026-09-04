@@ -5,6 +5,8 @@
     "entity_type": "APPROACH",
     "name": "Drone-based",
     "short_description": "Multirotor drones flying close to blades for inspection; contact work from the same platform is early.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [],
@@ -33,6 +35,7 @@
             "value": "SCALING"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -58,6 +61,7 @@
             "value": "DRONE"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -87,6 +91,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -104,15 +109,16 @@
       "label": "has approach",
       "items": [
         {
-          "claim_id": "e9ff8e43-78c7-5b1a-b6ac-590dc5d2cfb0",
+          "claim_id": "1a8a04ec-dc05-5bfd-8646-9156c6ebf75a",
           "source": {
-            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
-            "slug": "blade-repair",
+            "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+            "slug": "tower-nacelle-inspection",
             "entity_type": "TASK",
-            "name": "Blade repair",
+            "name": "Tower and nacelle inspection",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -131,6 +137,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -140,15 +147,16 @@
           }
         },
         {
-          "claim_id": "1a8a04ec-dc05-5bfd-8646-9156c6ebf75a",
+          "claim_id": "e9ff8e43-78c7-5b1a-b6ac-590dc5d2cfb0",
           "source": {
-            "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
-            "slug": "tower-nacelle-inspection",
+            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+            "slug": "blade-repair",
             "entity_type": "TASK",
-            "name": "Tower and nacelle inspection",
+            "name": "Blade repair",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -184,7 +192,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 3,
     "deployment_count": 0,
     "related_count": 4
   },

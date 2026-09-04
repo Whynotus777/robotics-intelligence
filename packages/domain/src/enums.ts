@@ -56,6 +56,10 @@ export const COMMERCIAL_STAGES = [
 export const CommercialStage = z.enum(COMMERCIAL_STAGES);
 export type CommercialStage = z.infer<typeof CommercialStage>;
 
+export const DEPLOYMENT_KINDS = ["FIELD_TRIAL", "PILOT", "COMMERCIAL"] as const;
+export const DeploymentKind = z.enum(DEPLOYMENT_KINDS);
+export type DeploymentKind = z.infer<typeof DeploymentKind>;
+
 // Eleven canonical stack layers in top-to-bottom order, plus SAFETY (cross-cutting).
 export const CANONICAL_LAYERS = [
   "INTELLIGENCE",
@@ -159,7 +163,7 @@ export const Cardinality = z.enum(CARDINALITIES);
 export type Cardinality = z.infer<typeof Cardinality>;
 
 // Names of enums a value_enum claim may draw from.
-export const ENUM_NAMES = ["Maturity", "CommercialStage", "Embodiment"] as const;
+export const ENUM_NAMES = ["Maturity", "CommercialStage", "Embodiment", "DeploymentKind"] as const;
 export const EnumName = z.enum(ENUM_NAMES);
 export type EnumName = z.infer<typeof EnumName>;
 
@@ -167,4 +171,5 @@ export const ENUM_VALUES: Record<EnumName, readonly string[]> = {
   Maturity: MATURITIES,
   CommercialStage: COMMERCIAL_STAGES,
   Embodiment: EMBODIMENTS,
+  DeploymentKind: DEPLOYMENT_KINDS,
 };

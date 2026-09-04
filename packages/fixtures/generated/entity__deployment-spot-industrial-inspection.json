@@ -5,6 +5,8 @@
     "entity_type": "DEPLOYMENT",
     "name": "Spot at industrial inspection sites",
     "short_description": "Spot used for routine inspection rounds at industrial facilities; reported by trade press rather than named customers.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [],
@@ -23,30 +25,6 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "USES_ROBOT",
-      "label": "uses robot",
-      "items": [
-        {
-          "claim_id": "c9fa5af9-a5e3-5ea1-8003-b19775e1ae6c",
-          "target": {
-            "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
-            "slug": "boston-dynamics-spot",
-            "entity_type": "ROBOT",
-            "name": "Boston Dynamics Spot",
-            "primary_embodiment": "QUADRUPED"
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "THIRD_PARTY",
-            "confidence": "MEDIUM",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
       "predicate": "OPERATED_BY",
       "label": "is operated by",
       "items": [
@@ -60,6 +38,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_ROBOT",
+      "label": "uses robot",
+      "items": [
+        {
+          "claim_id": "c9fa5af9-a5e3-5ea1-8003-b19775e1ae6c",
+          "target": {
+            "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+            "slug": "boston-dynamics-spot",
+            "entity_type": "ROBOT",
+            "name": "Boston Dynamics Spot",
+            "primary_embodiment": "QUADRUPED"
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -96,7 +100,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 2,
     "deployment_count": 0,
     "related_count": 2
   },

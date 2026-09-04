@@ -5,11 +5,13 @@
     "entity_type": "ROBOT",
     "name": "Locus Origin",
     "short_description": "Collaborative picking AMR that carries totes and guides human pickers; the highest-volume robot in Locus's fleet.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": "AMR",
     "country_code": "US",
     "aliases": [
-      "Origin",
-      "LocusBot Origin"
+      "LocusBot Origin",
+      "Origin"
     ],
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
@@ -25,18 +27,19 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_EMBODIMENT",
-      "label": "embodiment",
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
       "claims": [
         {
-          "claim_id": "4c33e134-dd9d-554d-8ab1-335159ce80aa",
-          "predicate": "HAS_EMBODIMENT",
+          "claim_id": "253bb71b-b285-5c99-84e9-08fe6f92dd5d",
+          "predicate": "HAS_COMMERCIAL_STAGE",
           "value": {
             "kind": "enum",
-            "value": "AMR"
+            "value": "VOLUME_PRODUCTION"
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
+          "qualifier": null,
+          "valid_from": "2022-01-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
           "last_verified_at": "2026-09-01T00:00:00.000Z",
@@ -50,18 +53,19 @@
       ]
     },
     {
-      "predicate": "HAS_COMMERCIAL_STAGE",
-      "label": "commercial stage",
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
       "claims": [
         {
-          "claim_id": "253bb71b-b285-5c99-84e9-08fe6f92dd5d",
-          "predicate": "HAS_COMMERCIAL_STAGE",
+          "claim_id": "4c33e134-dd9d-554d-8ab1-335159ce80aa",
+          "predicate": "HAS_EMBODIMENT",
           "value": {
             "kind": "enum",
-            "value": "VOLUME_PRODUCTION"
+            "value": "AMR"
           },
           "stack_layer": null,
-          "valid_from": "2022-01-01",
+          "qualifier": null,
+          "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
           "last_verified_at": "2026-09-01T00:00:00.000Z",
@@ -90,6 +94,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -102,30 +107,6 @@
     }
   ],
   "inbound_relationships": [
-    {
-      "predicate": "USES_ROBOT",
-      "label": "uses robot",
-      "items": [
-        {
-          "claim_id": "b382f649-48ec-51b3-b25d-a730e121f40b",
-          "source": {
-            "id": "108bca22-090c-5533-9916-b2e41907451f",
-            "slug": "deployment-locus-3pl-sites",
-            "entity_type": "DEPLOYMENT",
-            "name": "Locus fleets at 3PL sites",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
     {
       "predicate": "BUILDS",
       "label": "builds",
@@ -140,6 +121,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_ROBOT",
+      "label": "uses robot",
+      "items": [
+        {
+          "claim_id": "b382f649-48ec-51b3-b25d-a730e121f40b",
+          "source": {
+            "id": "108bca22-090c-5533-9916-b2e41907451f",
+            "slug": "deployment-locus-3pl-sites",
+            "entity_type": "DEPLOYMENT",
+            "name": "Locus fleets at 3PL sites",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -175,7 +182,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 3,
     "deployment_count": 1,
     "related_count": 3
   },

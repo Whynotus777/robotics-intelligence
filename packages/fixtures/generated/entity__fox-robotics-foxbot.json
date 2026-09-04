@@ -5,6 +5,8 @@
     "entity_type": "ROBOT",
     "name": "Fox Robotics FoxBot",
     "short_description": "Autonomous forklift for trailer unloading and pallet moves at the receiving dock.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": "AMR",
     "country_code": "US",
     "aliases": [
@@ -24,18 +26,19 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_EMBODIMENT",
-      "label": "embodiment",
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
       "claims": [
         {
-          "claim_id": "96fbfa7e-5115-573e-922d-2c9eee2bb83e",
-          "predicate": "HAS_EMBODIMENT",
+          "claim_id": "73286432-dd81-5823-b38e-0b81f259e109",
+          "predicate": "HAS_COMMERCIAL_STAGE",
           "value": {
             "kind": "enum",
-            "value": "AMR"
+            "value": "COMMERCIAL"
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
+          "qualifier": null,
+          "valid_from": "2023-01-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
           "last_verified_at": "2026-09-01T00:00:00.000Z",
@@ -49,18 +52,19 @@
       ]
     },
     {
-      "predicate": "HAS_COMMERCIAL_STAGE",
-      "label": "commercial stage",
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
       "claims": [
         {
-          "claim_id": "73286432-dd81-5823-b38e-0b81f259e109",
-          "predicate": "HAS_COMMERCIAL_STAGE",
+          "claim_id": "96fbfa7e-5115-573e-922d-2c9eee2bb83e",
+          "predicate": "HAS_EMBODIMENT",
           "value": {
             "kind": "enum",
-            "value": "COMMERCIAL"
+            "value": "AMR"
           },
           "stack_layer": null,
-          "valid_from": "2023-01-01",
+          "qualifier": null,
+          "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
           "last_verified_at": "2026-09-01T00:00:00.000Z",
@@ -89,6 +93,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -107,6 +112,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -133,6 +139,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -168,7 +175,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 3
   },

@@ -5,6 +5,8 @@
     "entity_type": "COMPONENT_PRODUCT",
     "name": "NVIDIA Jetson Thor",
     "short_description": "Next-generation robotics compute module aimed at humanoids and physical AI workloads.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [
@@ -35,6 +37,7 @@
             "date": "2025-08-25"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2025-08-25",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -51,6 +54,31 @@
   ],
   "relationships": [
     {
+      "predicate": "COMPETES_WITH",
+      "label": "competes with",
+      "items": [
+        {
+          "claim_id": "1d6a9256-28af-5d38-81d1-afae82046603",
+          "target": {
+            "id": "68d1cdfd-c44e-59c9-9449-498325111690",
+            "slug": "qualcomm-robotics-platform",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "Qualcomm robotics platforms",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "DERIVED",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
       "predicate": "MADE_BY",
       "label": "is made by",
       "items": [
@@ -64,6 +92,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -88,36 +117,13 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "HIGH",
             "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "COMPETES_WITH",
-      "label": "competes with",
-      "items": [
-        {
-          "claim_id": "1d6a9256-28af-5d38-81d1-afae82046603",
-          "target": {
-            "id": "68d1cdfd-c44e-59c9-9449-498325111690",
-            "slug": "qualcomm-robotics-platform",
-            "entity_type": "COMPONENT_PRODUCT",
-            "name": "Qualcomm robotics platforms",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "DERIVED",
-            "confidence": "MEDIUM",
-            "source_count": 0
           }
         }
       ]
@@ -138,6 +144,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -191,7 +198,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 3
   },

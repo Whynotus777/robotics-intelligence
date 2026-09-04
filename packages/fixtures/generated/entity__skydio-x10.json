@@ -5,6 +5,8 @@
     "entity_type": "ROBOT",
     "name": "Skydio X10",
     "short_description": "Autonomous enterprise drone with onboard obstacle avoidance, multiple sensor payload options and NDAA-compliant positioning.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": "DRONE",
     "country_code": "US",
     "aliases": [
@@ -24,17 +26,38 @@
   "place": null,
   "claims": [
     {
-      "predicate": "HAS_EMBODIMENT",
-      "label": "embodiment",
+      "predicate": "HAS_ARCHITECTURE_NOTE",
+      "label": "architecture note",
       "claims": [
         {
-          "claim_id": "eb3d5771-287c-58fb-a41d-59b64e01dd36",
-          "predicate": "HAS_EMBODIMENT",
+          "claim_id": "0e625c9f-b193-58e9-8782-4251ed50f71b",
+          "predicate": "HAS_ARCHITECTURE_NOTE",
           "value": {
-            "kind": "enum",
-            "value": "DRONE"
+            "kind": "text",
+            "text": "X10 runs Skydio's onboard autonomy stack for obstacle avoidance and autonomous data capture, so missions do not depend on a remote pilot's line of sight."
           },
-          "stack_layer": null,
+          "stack_layer": "INTELLIGENCE",
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "9b45df0a-a9a0-56e6-9cac-b090eaa741e3",
+          "predicate": "HAS_ARCHITECTURE_NOTE",
+          "value": {
+            "kind": "text",
+            "text": "Multiple sensor payload options (visual, thermal, zoom) are offered as swappable packages."
+          },
+          "stack_layer": "END_EFFECTOR_PAYLOAD",
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -60,6 +83,7 @@
             "value": "VOLUME_PRODUCTION"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2024-01-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -85,6 +109,7 @@
             "date": "2023-09-20"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -99,36 +124,18 @@
       ]
     },
     {
-      "predicate": "HAS_ARCHITECTURE_NOTE",
-      "label": "architecture note",
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
       "claims": [
         {
-          "claim_id": "0e625c9f-b193-58e9-8782-4251ed50f71b",
-          "predicate": "HAS_ARCHITECTURE_NOTE",
+          "claim_id": "eb3d5771-287c-58fb-a41d-59b64e01dd36",
+          "predicate": "HAS_EMBODIMENT",
           "value": {
-            "kind": "text",
-            "text": "X10 runs Skydio's onboard autonomy stack for obstacle avoidance and autonomous data capture, so missions do not depend on a remote pilot's line of sight."
+            "kind": "enum",
+            "value": "DRONE"
           },
-          "stack_layer": "INTELLIGENCE",
-          "valid_from": "2026-09-01",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        },
-        {
-          "claim_id": "9b45df0a-a9a0-56e6-9cac-b090eaa741e3",
-          "predicate": "HAS_ARCHITECTURE_NOTE",
-          "value": {
-            "kind": "text",
-            "text": "Multiple sensor payload options (visual, thermal, zoom) are offered as swappable packages."
-          },
-          "stack_layer": "END_EFFECTOR_PAYLOAD",
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -159,6 +166,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -183,6 +191,7 @@
             "primary_embodiment": "DRONE"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -227,7 +236,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 5,
     "deployment_count": 0,
     "related_count": 2
   },

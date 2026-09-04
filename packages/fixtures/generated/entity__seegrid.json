@@ -5,6 +5,8 @@
     "entity_type": "ORGANIZATION",
     "name": "Seegrid",
     "short_description": "Pittsburgh vendor of autonomous pallet-handling AMRs and lift trucks.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
     "aliases": [],
@@ -23,19 +25,20 @@
   "claims": [],
   "relationships": [
     {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
       "items": [
         {
-          "claim_id": "aa434d66-6ff1-5256-90e1-e505f897c514",
+          "claim_id": "1576b16e-4949-51f8-a827-dc9d49519966",
           "target": {
-            "id": "87216f35-32ce-54be-9ed9-86c480775092",
-            "slug": "pittsburgh",
-            "entity_type": "PLACE",
-            "name": "Pittsburgh",
+            "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+            "slug": "pallet-movement",
+            "entity_type": "TASK",
+            "name": "Pallet movement",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -60,6 +63,32 @@
             "primary_embodiment": "AMR"
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "aa434d66-6ff1-5256-90e1-e505f897c514",
+          "target": {
+            "id": "87216f35-32ce-54be-9ed9-86c480775092",
+            "slug": "pittsburgh",
+            "entity_type": "PLACE",
+            "name": "Pittsburgh",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -84,30 +113,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
-    },
-    {
-      "predicate": "TARGETS_TASK",
-      "label": "targets task",
-      "items": [
-        {
-          "claim_id": "1576b16e-4949-51f8-a827-dc9d49519966",
-          "target": {
-            "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
-            "slug": "pallet-movement",
-            "entity_type": "TASK",
-            "name": "Pallet movement",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -134,6 +140,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -187,7 +194,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 5
   },

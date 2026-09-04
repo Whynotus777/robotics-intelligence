@@ -5,6 +5,8 @@
     "entity_type": "TASK",
     "name": "Blade visual inspection",
     "short_description": "Photographic inspection of blade surfaces for erosion, cracks and lightning damage, usually by drone.",
+    "image_url": null,
+    "image_credit": null,
     "primary_embodiment": null,
     "country_code": null,
     "aliases": [],
@@ -33,6 +35,7 @@
             "value": "MATURE"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -58,6 +61,7 @@
             "text": "Ground-based telephoto photography or rope-access close visual inspection."
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -83,6 +87,7 @@
             "text": "Asset owners and operators"
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
@@ -99,30 +104,6 @@
   ],
   "relationships": [
     {
-      "predicate": "BELONGS_TO_MARKET",
-      "label": "belongs to",
-      "items": [
-        {
-          "claim_id": "68e2cbf1-db8c-55be-84dd-36a8e1e58e3e",
-          "target": {
-            "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
-            "slug": "wind",
-            "entity_type": "MARKET",
-            "name": "Wind",
-            "primary_embodiment": null
-          },
-          "stack_layer": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
-          }
-        }
-      ]
-    },
-    {
       "predicate": "HAS_APPROACH",
       "label": "has approach",
       "items": [
@@ -136,6 +117,32 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "68e2cbf1-db8c-55be-84dd-36a8e1e58e3e",
+          "target": {
+            "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+            "slug": "wind",
+            "entity_type": "MARKET",
+            "name": "Wind",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -149,25 +156,26 @@
   ],
   "inbound_relationships": [
     {
-      "predicate": "SERVES_TASK",
-      "label": "serves task",
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
       "items": [
         {
-          "claim_id": "5a58eb5a-82b0-5548-a9a5-244470f61cdd",
+          "claim_id": "26a673ab-061e-5c03-9ec1-c2e836df2362",
           "source": {
-            "id": "2ad4ac39-383d-59c3-ad41-466f420c5ee1",
-            "slug": "deployment-skyspecs-wind-fleets",
-            "entity_type": "DEPLOYMENT",
-            "name": "SkySpecs inspections across utility-scale wind fleets",
+            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+            "slug": "blade-repair",
+            "entity_type": "TASK",
+            "name": "Blade repair",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "MEDIUM",
-            "source_count": 1
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
           }
         }
       ]
@@ -186,6 +194,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -204,6 +213,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -222,6 +232,7 @@
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
@@ -233,25 +244,26 @@
       ]
     },
     {
-      "predicate": "ADJACENT_TO",
-      "label": "is adjacent to",
+      "predicate": "SERVES_TASK",
+      "label": "serves task",
       "items": [
         {
-          "claim_id": "26a673ab-061e-5c03-9ec1-c2e836df2362",
+          "claim_id": "5a58eb5a-82b0-5548-a9a5-244470f61cdd",
           "source": {
-            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
-            "slug": "blade-repair",
-            "entity_type": "TASK",
-            "name": "Blade repair",
+            "id": "2ad4ac39-383d-59c3-ad41-466f420c5ee1",
+            "slug": "deployment-skyspecs-wind-fleets",
+            "entity_type": "DEPLOYMENT",
+            "name": "SkySpecs inspections across utility-scale wind fleets",
             "primary_embodiment": null
           },
           "stack_layer": null,
+          "qualifier": null,
           "valid_from": "2026-09-01",
           "has_evidence": true,
           "evidence_summary": {
-            "class": "ANALYST",
-            "confidence": "HIGH",
-            "source_count": 0
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
           }
         }
       ]
@@ -313,7 +325,7 @@
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 0,
+    "recent_change_count": 5,
     "deployment_count": 0,
     "related_count": 7
   },

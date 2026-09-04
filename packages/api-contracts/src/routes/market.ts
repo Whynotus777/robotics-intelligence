@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { Maturity } from "@ri/domain";
-import { AsOfQuery, EntityChip, IsoDate } from "../common.js";
+import { AsOfQuery, EntityChip, IntelligenceRailSummary, IsoDate } from "../common.js";
 
 // GET /markets/:slug
 
@@ -15,6 +15,7 @@ export const MaturityBoardRow = z.object({
   dominant_approach: EntityChip.nullable(),
   vendor_count: z.number().int().nonnegative(),
   deployment_count: z.number().int().nonnegative(),
+  deployment_note: z.string().optional(),
 });
 
 export const MarketResponse = z.object({
@@ -25,6 +26,7 @@ export const MarketResponse = z.object({
   children: z.array(EntityChip),
   /** Tasks in this market and its descendants. */
   board: z.array(MaturityBoardRow),
+  intelligence_rail: IntelligenceRailSummary,
   as_of: IsoDate.nullable(),
 });
 export type MarketResponse = z.infer<typeof MarketResponse>;
