@@ -8,7 +8,8 @@ import {
 import {
   AtlasQuery, AtlasResponse, ClaimEvidenceParams, ClaimEvidenceResponse, CompareBody, CompareResponse, EntityParams, EntityQuery,
   EntityResponse, ExploreQuery, ExploreResponse, MarketParams, MarketQuery, MarketResponse, StackParams, StackQuery, StackResponse,
-  TaskParams, TaskQuery, TaskResponse, UpdatesQuery, UpdatesResponse, type AssessmentView, type ClaimValue, type EntityChip,
+  RobotsQuery, RobotsResponse, SearchQuery, SearchResponse, TaskParams, TaskQuery, TaskResponse, UpdatesQuery, UpdatesResponse,
+  type AssessmentView, type ClaimValue, type DiscoveryFilters, type EntityChip,
 } from "@ri/api-contracts";
 import { CANONICAL_LAYERS, PREDICATES, type Embodiment } from "@ri/domain";
 import type { ApiContext } from "./context.js";
@@ -55,6 +56,13 @@ function publicSubject(s: Snapshot, id: string) { return (s.bySubject.get(id) ??
 function publicObject(s: Snapshot, id: string) { return (s.byObject.get(id) ?? []).filter(s.visible); }
 function getEntity(s: Snapshot, slug: string) { const e = s.es.find((x) => x.slug === slug); if (!e) throw new Error(`entity not found: ${slug}`); return e; }
 function unique(items: EntityChip[]) { const seen = new Set<string>(); return items.filter((x) => !seen.has(x.id) && !!seen.add(x.id)).sort(nameSort); }
+function matchesFilters(e: EntityRow, filters: DiscoveryFilters) {
+  return (!filters.entity_type || e.entityType === filters.entity_type)
+    && (!filters.embodiment || e.primaryEmbodiment === filters.embodiment)
+    && (!filters.commercial_stage || e.commercialStage === filters.commercial_stage)
+    && (!filters.maturity || e.maturity === filters.maturity)
+    && (!filters.country_code || e.countryCode === filters.country_code);
+}
 
 export async function entityHandler(ctx: ApiContext, input: unknown) {
   const p = EntityParams.parse((input as { params?: unknown })?.params ?? input), q = EntityQuery.parse((input as { query?: unknown })?.query ?? {}); const s = await load({ ...ctx, asOf: q.as_of ?? ctx.asOf }); const e = getEntity(s, p.slug);
@@ -92,9 +100,11 @@ export async function taskHandler(ctx:ApiContext,input:unknown){const p=TaskPara
  const vendors=unique(s.es.filter(e=>e.entityType==="ORGANIZATION"&&publicSubject(s,e.id).some(c=>c.predicate==="TARGETS_TASK"&&c.objectEntityId===task.id)).map(chip)).map(organization=>({organization,via:"TARGETS_TASK" as const}));
  const response={task:chip(task),short_description:task.shortDescription,market_path:marketPath(s,task),...(maturity(s,task)?{maturity:maturity(s,task)}:{}),...(of("HAS_INCUMBENT_PROCESS").length?{incumbent_process:of("HAS_INCUMBENT_PROCESS").map(c=>textItem(s,c))}:{}),...(approaches.length?{approaches}:{}),...(chips("REQUIRES_TECHNOLOGY").length?{required_technologies:chips("REQUIRES_TECHNOLOGY")}:{}) ,...(of("HAS_TECHNICAL_REQUIREMENT").length?{technical_requirements:of("HAS_TECHNICAL_REQUIREMENT").map(c=>textItem(s,c))}:{}),...(vendors.length?{vendors}:{}),...(deployments.length?{deployments}:{}),...(of("HAS_CUSTOMER_TYPE").length?{customer_types:of("HAS_CUSTOMER_TYPE").map(c=>textItem(s,c))}:{}),...(of("HAS_ADOPTION_BLOCKER").length?{blockers:of("HAS_ADOPTION_BLOCKER").map(c=>textItem(s,c))}:{}),...(chips("ADJACENT_TO").length?{adjacent_tasks:chips("ADJACENT_TO")}:{}) ,...(of("HAS_ECONOMICS_NOTE").length?{economics_notes:of("HAS_ECONOMICS_NOTE").map(c=>textItem(s,c))}:{}),as_of:s.asOf};return TaskResponse.parse(response);}
 
-export async function searchHandler(ctx:ApiContext,input:unknown){const {q,limit}= (await import("@ri/api-contracts")).SearchQuery.parse(input);const s=await load(ctx),needle=q.toLowerCase();const results=s.es.flatMap(e=>{const aliases=s.aliasesByEntity.get(e.id)??[];const field=e.name.toLowerCase().includes(needle)?"name":aliases.some(a=>a.toLowerCase().includes(needle))?"alias":e.shortDescription?.toLowerCase().includes(needle)?"description":null;return field?[{chip:chip(e),entity_type:e.entityType,match_field:field,rank:field==="name"?3:field==="alias"?2:1}]:[]}).sort((a,b)=>b.rank-a.rank||nameSort(a.chip,b.chip)).slice(0,limit);return (await import("@ri/api-contracts")).SearchResponse.parse({query:q,results});}
+export async function searchHandler(ctx:ApiContext,input:unknown){const query=SearchQuery.parse(input),{q,limit}=query;const s=await load(ctx),needle=q?.toLowerCase();const results=s.es.filter(e=>matchesFilters(e,query)).flatMap(e=>{const aliases=s.aliasesByEntity.get(e.id)??[];const field=!needle?"name":e.name.toLowerCase().includes(needle)?"name":aliases.some(a=>a.toLowerCase().includes(needle))?"alias":e.shortDescription?.toLowerCase().includes(needle)?"description":null;return field?[{chip:chip(e),entity_type:e.entityType,match_field:field,rank:needle?(field==="name"?3:field==="alias"?2:1):0}]:[]}).sort((a,b)=>b.rank-a.rank||nameSort(a.chip,b.chip)).slice(0,limit);return SearchResponse.parse({query:q??"",results});}
 
-export async function exploreHandler(ctx:ApiContext,input:unknown){const q=ExploreQuery.parse(input);const s=await load({...ctx,asOf:q.as_of??ctx.asOf});const groups=new Map<string,Map<string,{label:string;items:{e:EntityRow;primary:boolean}[]}>>();const add=(region:string,regionLabel:string,district:string,districtLabel:string,e:EntityRow,primary=true)=>{const r=groups.get(region)??(groups.set(region,new Map()),groups.get(region)!);const d=r.get(district)??(r.set(district,{label:districtLabel,items:[]}),r.get(district)!);d.items.push({e,primary});};
+export async function robotsHandler(ctx:ApiContext,input:unknown){const q=RobotsQuery.parse(input);const s=await load({...ctx,asOf:q.as_of??ctx.asOf});const robots=s.es.filter(e=>e.entityType==="ROBOT"&&matchesFilters(e,q)).map(chip).sort(nameSort);return RobotsResponse.parse({robots,as_of:s.asOf});}
+
+export async function exploreHandler(ctx:ApiContext,input:unknown){const q=ExploreQuery.parse(input);const s=await load({...ctx,asOf:q.as_of??ctx.asOf});const groups=new Map<string,Map<string,{label:string;items:{e:EntityRow;primary:boolean}[]}>>();const add=(region:string,regionLabel:string,district:string,districtLabel:string,e:EntityRow,primary=true)=>{if(!matchesFilters(e,q))return;const r=groups.get(region)??(groups.set(region,new Map()),groups.get(region)!);const d=r.get(district)??(r.set(district,{label:districtLabel,items:[]}),r.get(district)!);d.items.push({e,primary});};
  if(q.lens==="embodiment") for(const e of s.es.filter(e=>e.entityType==="ROBOT"&&e.primaryEmbodiment))add(e.primaryEmbodiment!,e.primaryEmbodiment!,e.primaryEmbodiment!,e.primaryEmbodiment!,e);
  else if(q.lens==="market") for(const t of s.es.filter(e=>e.entityType==="TASK")){const path=marketPath(s,t);for(const [i,m] of path.entries())add(path[0]?.slug??"other",path[0]?.name??"Other",m.slug,m.name,t,i===path.length-1);}
  else if(q.lens==="technology") for(const r of s.es.filter(e=>e.entityType==="ROBOT"))for(const c of publicSubject(s,r.id).filter(c=>c.predicate==="USES_TECHNOLOGY")){const t=c.objectEntityId&&s.entity.get(c.objectEntityId);if(t)add("technology","Technology",t.slug,t.name,r,true);}

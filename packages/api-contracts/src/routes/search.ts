@@ -1,13 +1,17 @@
 import { z } from "zod";
 import { EntityType } from "@ri/domain";
 import { EntityChip } from "../common.js";
+import { DiscoveryFilters } from "./discovery.js";
 
 // GET /search?q=
 
-export const SearchQuery = z.object({
-  q: z.string().min(1).max(200),
-  limit: z.number().int().min(1).max(50).default(20),
-});
+export const SearchQuery = DiscoveryFilters.extend({
+  q: z.string().min(1).max(200).optional(),
+  limit: z.coerce.number().int().min(1).max(50).default(20),
+}).refine(({ q, entity_type, embodiment, commercial_stage, maturity, country_code }) =>
+  q !== undefined || [entity_type, embodiment, commercial_stage, maturity, country_code].some(Boolean),
+  { message: "q or at least one structured filter is required" },
+);
 export type SearchQuery = z.infer<typeof SearchQuery>;
 
 export const SearchResult = z.object({

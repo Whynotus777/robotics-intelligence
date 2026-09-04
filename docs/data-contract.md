@@ -7,6 +7,7 @@ Schemas live in `packages/api-contracts/src/routes/*`. Fixtures in `packages/fix
 | `GET /entities/:slug` | identity core, claims by predicate with evidence summary, relationships by predicate, lateral links, intelligence rail; empty groups omitted | Profile |
 | `GET /search?q=` | ranked entity chips with match field | Command palette |
 | `GET /explore?lens=&measure=` | partition tree `regions → districts → entities` with `is_primary_membership` | Explore (both concepts) |
+| `GET /robots?embodiment=` | filtered robot entity chips | Robot directory |
 | `GET /robots/:slug/stack` | canonical layers with embodiment labels; non-applicable omitted, applicable-but-empty included | Robot MRI |
 | `GET /tasks/:slug` | market path, maturity + assessment, incumbent, approaches, requirements, vendors, deployments, customers, blockers, adjacent | Market explorer |
 | `GET /markets/:slug` | children + task maturity board | Market explorer |

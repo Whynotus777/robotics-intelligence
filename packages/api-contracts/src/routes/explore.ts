@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { EntityChip, IsoDate } from "../common.js";
+import { DiscoveryFilters } from "./discovery.js";
 
 // GET /explore?lens=&measure=
 
@@ -11,7 +12,7 @@ export const EXPLORE_MEASURES = ["deployments", "robots", "none"] as const;
 export const ExploreMeasure = z.enum(EXPLORE_MEASURES);
 export type ExploreMeasure = z.infer<typeof ExploreMeasure>;
 
-export const ExploreQuery = z.object({
+export const ExploreQuery = DiscoveryFilters.extend({
   lens: ExploreLens.default("embodiment"),
   measure: ExploreMeasure.default("none"),
   as_of: IsoDate.optional(),

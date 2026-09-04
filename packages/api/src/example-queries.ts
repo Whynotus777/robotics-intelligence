@@ -1,12 +1,12 @@
 /** Runnable contract examples. `pnpm queries` runs these against the local seeded DB. */
 import { createDb } from "@ri/db";
 import { context } from "./context.js";
-import { claimEvidenceHandler, compareHandler, entityHandler, marketHandler, searchHandler, stackHandler, taskHandler, updatesHandler } from "./handlers.js";
+import { claimEvidenceHandler, compareHandler, entityHandler, marketHandler, robotsHandler, searchHandler, stackHandler, taskHandler, updatesHandler } from "./handlers.js";
 
 const { db, close } = createDb();
 const ctx = context(db);
 const examples: Record<string, () => Promise<unknown>> = {
-  "all humanoids": () => searchHandler(ctx, { q: "humanoid" }),
+  "all humanoids": () => robotsHandler(ctx, { embodiment: "HUMANOID" }),
   "robots using NVIDIA compute": () => searchHandler(ctx, { q: "NVIDIA" }),
   "tasks in Wind with maturity": () => marketHandler(ctx, { params: { slug: "wind" } }),
   "organizations targeting pallet movement": () => taskHandler(ctx, { params: { slug: "pallet-movement" } }),
