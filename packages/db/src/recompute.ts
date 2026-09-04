@@ -4,8 +4,13 @@ import type { Db } from "./client.js";
 /**
  * Recomputes the cached current-value columns on entities from APPROVED open claims.
  * This is the only writer of those columns. Idempotent.
+ *
+ * `at` stamps `updated_at` when a cached value actually changed, and defaults to
+ * `now()`. Seeding passes the fixed seed instant so a fresh database is
+ * byte-identical to the last one, which the generated fixtures depend on.
  */
-export async function recomputeCachedColumns(db: Db): Promise<void> {
+export async function recomputeCachedColumns(db: Db, at?: string): Promise<void> {
+  const stamp = at ? sql`${at}::timestamptz` : sql`now()`;
   await db.execute(sql`
     UPDATE entities e SET
       commercial_stage = v.commercial_stage::commercial_stage,
@@ -21,7 +26,7 @@ export async function recomputeCachedColumns(db: Db): Promise<void> {
           OR e.payload_kg IS DISTINCT FROM v.payload_kg
           OR e.list_price_usd IS DISTINCT FROM v.list_price_usd
           OR e.maturity IS DISTINCT FROM v.maturity::maturity
-        THEN now() ELSE e.updated_at END
+        THEN ${stamp} ELSE e.updated_at END
     FROM (
       SELECT
         x.id,

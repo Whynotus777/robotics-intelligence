@@ -20,6 +20,33 @@
   "board": [
     {
       "task": {
+        "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+        "slug": "truck-unloading",
+        "entity_type": "TASK",
+        "name": "Truck unloading",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+        "slug": "material-movement",
+        "entity_type": "MARKET",
+        "name": "Material movement",
+        "primary_embodiment": null
+      },
+      "maturity": "PILOT",
+      "maturity_claim_id": "c3ec3add-8d88-57b1-8e72-a51051cc4088",
+      "dominant_approach": {
+        "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+        "slug": "autonomous-forklift",
+        "entity_type": "APPROACH",
+        "name": "Autonomous forklift",
+        "primary_embodiment": null
+      },
+      "vendor_count": 1,
+      "deployment_count": 0
+    },
+    {
+      "task": {
         "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
         "slug": "automated-storage-and-retrieval",
         "entity_type": "TASK",
@@ -44,6 +71,27 @@
       },
       "vendor_count": 1,
       "deployment_count": 1
+    },
+    {
+      "task": {
+        "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
+        "slug": "case-picking",
+        "entity_type": "TASK",
+        "name": "Case picking",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+        "slug": "material-movement",
+        "entity_type": "MARKET",
+        "name": "Material movement",
+        "primary_embodiment": null
+      },
+      "maturity": "EARLY_COMMERCIAL",
+      "maturity_claim_id": "58a6e753-029b-503a-9194-cf36aeb8f0c2",
+      "dominant_approach": null,
+      "vendor_count": 0,
+      "deployment_count": 0
     },
     {
       "task": {
@@ -91,54 +139,6 @@
         "primary_embodiment": null
       },
       "vendor_count": 5,
-      "deployment_count": 0
-    },
-    {
-      "task": {
-        "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
-        "slug": "case-picking",
-        "entity_type": "TASK",
-        "name": "Case picking",
-        "primary_embodiment": null
-      },
-      "domain": {
-        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
-        "slug": "material-movement",
-        "entity_type": "MARKET",
-        "name": "Material movement",
-        "primary_embodiment": null
-      },
-      "maturity": "EARLY_COMMERCIAL",
-      "maturity_claim_id": "58a6e753-029b-503a-9194-cf36aeb8f0c2",
-      "dominant_approach": null,
-      "vendor_count": 0,
-      "deployment_count": 0
-    },
-    {
-      "task": {
-        "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
-        "slug": "truck-unloading",
-        "entity_type": "TASK",
-        "name": "Truck unloading",
-        "primary_embodiment": null
-      },
-      "domain": {
-        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
-        "slug": "material-movement",
-        "entity_type": "MARKET",
-        "name": "Material movement",
-        "primary_embodiment": null
-      },
-      "maturity": "PILOT",
-      "maturity_claim_id": "c3ec3add-8d88-57b1-8e72-a51051cc4088",
-      "dominant_approach": {
-        "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
-        "slug": "autonomous-forklift",
-        "entity_type": "APPROACH",
-        "name": "Autonomous forklift",
-        "primary_embodiment": null
-      },
-      "vendor_count": 1,
       "deployment_count": 0
     }
   ],

@@ -11,27 +11,40 @@ afterAll(async () => close());
 
 describe("0b pipeline substrate", () => {
   it("keeps PROPOSED candidates out of the public visibility rule and approval writes the audit/cache/event", async () => {
-    const [robot] = await db.select().from(entities).where(eq(entities.slug, "figure-03"));
+    // On a scratch entity, not a seeded one: approving legitimately bumps
+    // entities.updated_at, so mutating a seeded entity makes the generated
+    // fixtures stale and fails the contract test on a column that is behaving
+    // correctly.
+    const robotId = randomUUID();
+    const suffix = robotId.slice(0, 8);
     const [source] = await db.select().from(sources).limit(1);
-    expect(robot).toBeDefined(); expect(source).toBeDefined();
+    expect(source).toBeDefined();
     const claimId = randomUUID(); const evidenceId = randomUUID();
-    await db.insert(claims).values({
-      id: claimId, subjectEntityId: robot!.id, predicate: "HAS_HEIGHT", valueNumber: 1.7, unit: "m", isApproximate: true,
-      status: "PROPOSED", origin: "MANUAL", validFrom: "2026-09-01", observedAt: "2026-09-01T00:00:00.000Z", lastVerifiedAt: "2026-09-01T00:00:00.000Z",
-    });
-    await db.insert(evidence).values({ id: evidenceId, claimId, sourceId: source!.id, evidenceClass: "PRIMARY", confidence: "MEDIUM", observedAt: "2026-09-01T00:00:00.000Z" });
-    expect(await db.select().from(claims).where(and(eq(claims.id, claimId), visibleClaims(null)))).toHaveLength(0);
-    const approved = await approveClaim(db, { claimId, reviewer: "seeded-reviewer", reason: "published specification" });
-    expect(approved.supersededClaimId).toBeNull();
-    expect(await db.select().from(reviewActions).where(eq(reviewActions.claimId, claimId))).toHaveLength(1);
-    expect(await db.select().from(changeEvents).where(eq(changeEvents.id, approved.eventId))).toHaveLength(1);
-    const [updated] = await db.select().from(entities).where(eq(entities.id, robot!.id));
-    expect(updated!.heightM).toBe(1.7);
-    await db.delete(reviewActions).where(eq(reviewActions.claimId, claimId));
-    await db.delete(changeEvents).where(eq(changeEvents.id, approved.eventId));
-    await db.delete(evidence).where(eq(evidence.id, evidenceId));
-    await db.delete(claims).where(eq(claims.id, claimId));
-    await recomputeCachedColumns(db);
+    try {
+      await db.insert(entities).values({
+        id: robotId, slug: `pipeline-scratch-robot-${suffix}`, entityType: "ROBOT", name: "Pipeline scratch robot",
+        normalizedName: `pipeline scratch robot ${suffix}`, primaryEmbodiment: "HUMANOID", depthTier: "DISCOVERY",
+      });
+      await db.insert(claims).values({
+        id: claimId, subjectEntityId: robotId, predicate: "HAS_HEIGHT", valueNumber: 1.7, unit: "m", isApproximate: true,
+        status: "PROPOSED", origin: "MANUAL", validFrom: "2026-09-01", observedAt: "2026-09-01T00:00:00.000Z", lastVerifiedAt: "2026-09-01T00:00:00.000Z",
+      });
+      await db.insert(evidence).values({ id: evidenceId, claimId, sourceId: source!.id, evidenceClass: "PRIMARY", confidence: "MEDIUM", observedAt: "2026-09-01T00:00:00.000Z" });
+      expect(await db.select().from(claims).where(and(eq(claims.id, claimId), visibleClaims(null)))).toHaveLength(0);
+      const approved = await approveClaim(db, { claimId, reviewer: "seeded-reviewer", reason: "published specification" });
+      expect(approved.supersededClaimId).toBeNull();
+      expect(await db.select().from(reviewActions).where(eq(reviewActions.claimId, claimId))).toHaveLength(1);
+      expect(await db.select().from(changeEvents).where(eq(changeEvents.id, approved.eventId))).toHaveLength(1);
+      const [updated] = await db.select().from(entities).where(eq(entities.id, robotId));
+      expect(updated!.heightM).toBe(1.7);
+    } finally {
+      await db.delete(reviewActions).where(eq(reviewActions.claimId, claimId));
+      await db.delete(evidence).where(eq(evidence.id, evidenceId));
+      await db.delete(claims).where(eq(claims.id, claimId));
+      await db.delete(changeEvents).where(eq(changeEvents.entityId, robotId));
+      await db.delete(entities).where(eq(entities.id, robotId));
+      await recomputeCachedColumns(db);
+    }
   });
 
   it("stops unchanged source content before extraction and only returns due non-NEVER sources", async () => {

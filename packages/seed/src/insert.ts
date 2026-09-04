@@ -13,7 +13,7 @@ import {
   sources,
   type Db,
 } from "@ri/db";
-import type { SeedRows } from "./build.js";
+import { SEED_OBSERVED_AT, type SeedRows } from "./build.js";
 
 const CHUNK = 500;
 
@@ -37,5 +37,5 @@ export async function insertRows(db: Db, rows: SeedRows): Promise<void> {
     await insertAll((r) => tx.insert(assessments).values(r), rows.assessments);
     await insertAll((r) => tx.insert(embodimentLayerLabels).values(r), rows.layerLabels);
   });
-  await recomputeCachedColumns(db);
+  await recomputeCachedColumns(db, `${SEED_OBSERVED_AT}T00:00:00.000Z`);
 }
