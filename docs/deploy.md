@@ -11,21 +11,24 @@ is `pnpm --filter web build`, and it uses Node.js 22. The production domain is
 application on generated fixtures until a later deployment deliberately changes
 the data provider. Never commit Vercel credentials or environment values.
 
-The account currently needs a GitHub **Login Connection** before the Vercel CLI
-can connect `Whynotus777/robotics-intelligence`. Once connected, Vercel will
-deploy `main` to production and every other branch as a preview. To roll back,
-open the Vercel project dashboard, select the last known good deployment, and
-use **Promote to Production**. Alternatively, restore the corresponding Git
-commit on `main`; Vercel will create and promote the resulting production
-deployment through the normal integration.
+On 4 September 2026, `vercel git connect` could not connect
+`Whynotus777/robotics-intelligence`: the authenticated Vercel account still
+needs a GitHub **Login Connection**. Installing the Vercel GitHub App alone did
+not satisfy that account-level requirement. After the Login Connection is
+added, rerun `npx vercel git connect https://github.com/Whynotus777/robotics-intelligence.git --yes`
+from `apps/web`; Vercel will then deploy `main` to production and every other
+branch as a preview. To roll back, open the Vercel project dashboard, select
+the last known good deployment, and use **Promote to Production**. Alternatively,
+restore the corresponding Git commit on `main`; Vercel will create and promote
+the resulting production deployment through the normal integration.
 
 The repository currently reserves `apps/web` for Agent 1 and does not yet have
 a Next.js app. Vercel project settings may be created in advance, but the first
 production build can succeed only after that app is pushed.
 
-At the time of configuration, the authoritative nameservers remain GoDaddy
-(`ns05.domaincontrol.com`, `ns06.domaincontrol.com`), so Vercel cannot verify or
-serve the subdomain yet. The Vercel DNS record is already present as requested;
-the DNS zone must become authoritative (or the same CNAME must be added at the
-authoritative provider) before `vercel domains verify map.quantumroboticslab.ai`
-will succeed.
+`npx vercel domains inspect map.quantumroboticslab.ai` on 4 September 2026 did
+not report the subdomain as verified. It reports the apex as a third-party
+domain with current GoDaddy nameservers (`ns05.domaincontrol.com`,
+`ns06.domaincontrol.com`) rather than the intended Vercel nameservers. The
+GoDaddy CNAME (`map` → `cname.vercel-dns.com`) may still be propagating; inspect
+or verify the domain again after propagation before relying on the custom domain.
