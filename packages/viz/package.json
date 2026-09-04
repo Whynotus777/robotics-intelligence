@@ -4,5 +4,22 @@
   "private": true,
   "type": "module",
   "main": "src/index.ts",
-  "scripts": { "typecheck": "tsc --noEmit -p .", "test": "vitest run --passWithNoTests" }
+  "scripts": {
+    "dev": "vite --config dev/vite.config.ts",
+    "typecheck": "tsc --noEmit -p .",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@ri/api-contracts": "workspace:*",
+    "@ri/domain": "workspace:*",
+    "d3-hierarchy": "^3.1.2",
+    "react": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/d3-hierarchy": "^3.1.7",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "react-dom": "^19.2.8",
+    "vite": "^6.4.3"
+  }
 }
