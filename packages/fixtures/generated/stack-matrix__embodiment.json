@@ -3,35 +3,35 @@
   "columns": [
     {
       "id": "AMR",
-      "label": "AMR"
+      "label": "AMRs & warehouse"
     },
     {
       "id": "AUTONOMOUS_VEHICLE",
-      "label": "AUTONOMOUS_VEHICLE"
+      "label": "Autonomous vehicles"
     },
     {
       "id": "COBOT",
-      "label": "COBOT"
+      "label": "Cobots"
     },
     {
       "id": "DRONE",
-      "label": "DRONE"
-    },
-    {
-      "id": "HUMANOID",
-      "label": "HUMANOID"
-    },
-    {
-      "id": "INDUSTRIAL_ARM",
-      "label": "INDUSTRIAL_ARM"
+      "label": "Drones"
     },
     {
       "id": "OTHER_MOBILE",
-      "label": "OTHER_MOBILE"
+      "label": "Field & specialized robots"
+    },
+    {
+      "id": "HUMANOID",
+      "label": "Humanoids"
+    },
+    {
+      "id": "INDUSTRIAL_ARM",
+      "label": "Industrial arms"
     },
     {
       "id": "QUADRUPED",
-      "label": "QUADRUPED"
+      "label": "Quadrupeds & legged"
     }
   ],
   "rows": [
@@ -59,6 +59,7 @@
       "layer": "COMPUTE",
       "cells": [
         {
+          "column_id": "HUMANOID",
           "chip": {
             "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
             "slug": "nvidia-jetson-orin-nx",
@@ -74,6 +75,7 @@
       "layer": "SENSORS",
       "cells": [
         {
+          "column_id": "HUMANOID",
           "chip": {
             "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
             "slug": "3d-lidar",
@@ -84,6 +86,7 @@
           "robot_count": 1
         },
         {
+          "column_id": "HUMANOID",
           "chip": {
             "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
             "slug": "depth-cameras",
@@ -94,6 +97,7 @@
           "robot_count": 1
         },
         {
+          "column_id": "QUADRUPED",
           "chip": {
             "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
             "slug": "depth-cameras",

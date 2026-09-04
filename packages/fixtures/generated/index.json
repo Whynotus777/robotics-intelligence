@@ -50773,7 +50773,7 @@
         "districts": [
           {
             "id": "HUMANOID",
-            "label": "HUMANOID",
+            "label": "Humanoids",
             "count": 12,
             "entities": [
               {
@@ -50919,7 +50919,7 @@
         "districts": [
           {
             "id": "INDUSTRIAL_ARM",
-            "label": "INDUSTRIAL_ARM",
+            "label": "Industrial arms",
             "count": 3,
             "entities": [
               {
@@ -50966,7 +50966,7 @@
         "districts": [
           {
             "id": "COBOT",
-            "label": "COBOT",
+            "label": "Cobots",
             "count": 4,
             "entities": [
               {
@@ -51024,7 +51024,7 @@
         "districts": [
           {
             "id": "AMR",
-            "label": "AMR",
+            "label": "AMRs & warehouse",
             "count": 7,
             "entities": [
               {
@@ -51115,7 +51115,7 @@
         "districts": [
           {
             "id": "DRONE",
-            "label": "DRONE",
+            "label": "Drones",
             "count": 6,
             "entities": [
               {
@@ -51195,7 +51195,7 @@
         "districts": [
           {
             "id": "QUADRUPED",
-            "label": "QUADRUPED",
+            "label": "Quadrupeds & legged",
             "count": 4,
             "entities": [
               {
@@ -51253,7 +51253,7 @@
         "districts": [
           {
             "id": "AUTONOMOUS_VEHICLE",
-            "label": "AUTONOMOUS_VEHICLE",
+            "label": "Autonomous vehicles",
             "count": 3,
             "entities": [
               {
@@ -51300,7 +51300,7 @@
         "districts": [
           {
             "id": "OTHER_MOBILE",
-            "label": "OTHER_MOBILE",
+            "label": "Field & specialized robots",
             "count": 1,
             "entities": [
               {
@@ -54330,12 +54330,12 @@
     "regions": [
       {
         "id": "MATURE",
-        "label": "MATURE",
+        "label": "Mature",
         "count": 5,
         "districts": [
           {
             "id": "MATURE",
-            "label": "MATURE",
+            "label": "Mature",
             "count": 5,
             "entities": [
               {
@@ -54399,12 +54399,12 @@
       },
       {
         "id": "EARLY_COMMERCIAL",
-        "label": "EARLY_COMMERCIAL",
+        "label": "Early commercial",
         "count": 4,
         "districts": [
           {
             "id": "EARLY_COMMERCIAL",
-            "label": "EARLY_COMMERCIAL",
+            "label": "Early commercial",
             "count": 4,
             "entities": [
               {
@@ -54457,12 +54457,12 @@
       },
       {
         "id": "SCALING",
-        "label": "SCALING",
+        "label": "Scaling",
         "count": 4,
         "districts": [
           {
             "id": "SCALING",
-            "label": "SCALING",
+            "label": "Scaling",
             "count": 4,
             "entities": [
               {
@@ -54515,12 +54515,12 @@
       },
       {
         "id": "PILOT",
-        "label": "PILOT",
+        "label": "Pilot",
         "count": 3,
         "districts": [
           {
             "id": "PILOT",
-            "label": "PILOT",
+            "label": "Pilot",
             "count": 3,
             "entities": [
               {
@@ -54699,35 +54699,35 @@
     "columns": [
       {
         "id": "AMR",
-        "label": "AMR"
+        "label": "AMRs & warehouse"
       },
       {
         "id": "AUTONOMOUS_VEHICLE",
-        "label": "AUTONOMOUS_VEHICLE"
+        "label": "Autonomous vehicles"
       },
       {
         "id": "COBOT",
-        "label": "COBOT"
+        "label": "Cobots"
       },
       {
         "id": "DRONE",
-        "label": "DRONE"
-      },
-      {
-        "id": "HUMANOID",
-        "label": "HUMANOID"
-      },
-      {
-        "id": "INDUSTRIAL_ARM",
-        "label": "INDUSTRIAL_ARM"
+        "label": "Drones"
       },
       {
         "id": "OTHER_MOBILE",
-        "label": "OTHER_MOBILE"
+        "label": "Field & specialized robots"
+      },
+      {
+        "id": "HUMANOID",
+        "label": "Humanoids"
+      },
+      {
+        "id": "INDUSTRIAL_ARM",
+        "label": "Industrial arms"
       },
       {
         "id": "QUADRUPED",
-        "label": "QUADRUPED"
+        "label": "Quadrupeds & legged"
       }
     ],
     "rows": [
@@ -54755,6 +54755,7 @@
         "layer": "COMPUTE",
         "cells": [
           {
+            "column_id": "HUMANOID",
             "chip": {
               "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
               "slug": "nvidia-jetson-orin-nx",
@@ -54770,6 +54771,7 @@
         "layer": "SENSORS",
         "cells": [
           {
+            "column_id": "HUMANOID",
             "chip": {
               "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
               "slug": "3d-lidar",
@@ -54780,6 +54782,7 @@
             "robot_count": 1
           },
           {
+            "column_id": "HUMANOID",
             "chip": {
               "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
               "slug": "depth-cameras",
@@ -54790,6 +54793,7 @@
             "robot_count": 1
           },
           {
+            "column_id": "QUADRUPED",
             "chip": {
               "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
               "slug": "depth-cameras",
@@ -54923,6 +54927,7 @@
         "layer": "COMPUTE",
         "cells": [
           {
+            "column_id": "3d-lidar",
             "chip": {
               "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
               "slug": "nvidia-jetson-orin-nx",
@@ -54933,6 +54938,7 @@
             "robot_count": 1
           },
           {
+            "column_id": "depth-cameras",
             "chip": {
               "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
               "slug": "nvidia-jetson-orin-nx",
@@ -54948,6 +54954,7 @@
         "layer": "SENSORS",
         "cells": [
           {
+            "column_id": "3d-lidar",
             "chip": {
               "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
               "slug": "3d-lidar",
@@ -54958,6 +54965,7 @@
             "robot_count": 1
           },
           {
+            "column_id": "3d-lidar",
             "chip": {
               "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
               "slug": "depth-cameras",
@@ -54968,6 +54976,7 @@
             "robot_count": 1
           },
           {
+            "column_id": "depth-cameras",
             "chip": {
               "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
               "slug": "3d-lidar",
@@ -54978,6 +54987,7 @@
             "robot_count": 1
           },
           {
+            "column_id": "depth-cameras",
             "chip": {
               "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
               "slug": "depth-cameras",
@@ -55084,6 +55094,7 @@
         "layer": "COMPUTE",
         "cells": [
           {
+            "column_id": "CN",
             "chip": {
               "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
               "slug": "nvidia-jetson-orin-nx",
@@ -55099,6 +55110,7 @@
         "layer": "SENSORS",
         "cells": [
           {
+            "column_id": "CN",
             "chip": {
               "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
               "slug": "3d-lidar",
@@ -55109,6 +55121,7 @@
             "robot_count": 1
           },
           {
+            "column_id": "CN",
             "chip": {
               "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
               "slug": "depth-cameras",
@@ -55119,6 +55132,7 @@
             "robot_count": 1
           },
           {
+            "column_id": "US",
             "chip": {
               "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
               "slug": "depth-cameras",

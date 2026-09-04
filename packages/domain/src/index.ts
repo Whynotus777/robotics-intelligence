@@ -5,3 +5,4 @@ export * from "./claim.js";
 export * from "./evidence.js";
 export * from "./change-event.js";
 export * from "./layers.js";
+export * from "./labels.js";
