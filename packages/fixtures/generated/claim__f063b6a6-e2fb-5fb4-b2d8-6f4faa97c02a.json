@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "f063b6a6-e2fb-5fb4-b2d8-6f4faa97c02a",
+    "subject": {
+      "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+      "slug": "figure-03",
+      "entity_type": "ROBOT",
+      "name": "Figure 03",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "Figure 03 commercial stage PILOT_DEPLOYMENTS",
+    "value": {
+      "kind": "enum",
+      "value": "PILOT_DEPLOYMENTS"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2025-10-09",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "25380358-fff1-53e5-acfe-6063c071d446",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Figure's humanoids have run pilot work at BMW Spartanburg and the company states commercial and home targets, but Figure 03 has no published price, no published customer beyond pilots and no supplier disclosures. That is a pilot-deployments robot with a strong story and thin public evidence.",
+        "advance_criteria": [
+          "A named paying customer beyond the BMW pilot",
+          "Published pricing or a RaaS rate card",
+          "Third-party reporting of units in daily production use"
+        ],
+        "regress_criteria": [
+          "Pilot partners not renewing after the initial term"
+        ],
+        "evidence_considered": [
+          {
+            "claim_id": "579781a1-7b2e-5504-b9bb-5e36ea8dd90d",
+            "sentence": "Figure 03 was announced on 2025-10-09"
+          },
+          {
+            "claim_id": "860a740e-e882-5994-8674-5fa0dd1842fb",
+            "sentence": "Figure humanoids at BMW Spartanburg began 2024-08-06"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

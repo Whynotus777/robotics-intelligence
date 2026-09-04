@@ -1,0 +1,207 @@
+{
+  "entity": {
+    "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+    "slug": "nvidia",
+    "entity_type": "ORGANIZATION",
+    "name": "NVIDIA",
+    "short_description": "Santa Clara; Jetson Orin and Jetson Thor compute modules and the Isaac robotics platform.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "104a5490-a54c-5896-a64e-1d669ca5301e",
+          "target": {
+            "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+            "slug": "bay-area",
+            "entity_type": "PLACE",
+            "name": "San Francisco Bay Area",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "PROVIDES",
+      "label": "provides",
+      "items": [
+        {
+          "claim_id": "896f3f59-d49c-585c-b9ec-7e20b61c339d",
+          "target": {
+            "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+            "slug": "nvidia-jetson-orin-nx",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "NVIDIA Jetson Orin NX",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "bfaa8af0-f730-566e-ad76-44052c18d915",
+          "target": {
+            "id": "40524241-ae32-56e4-a625-84a0dc3ffb5d",
+            "slug": "nvidia-jetson-thor",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "NVIDIA Jetson Thor",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "DEVELOPS",
+      "label": "develops",
+      "items": [
+        {
+          "claim_id": "fed75d3d-8f86-5013-988e-7e75672191bd",
+          "target": {
+            "id": "7a815a44-1bd7-5a3c-b191-f9ce732e5ec1",
+            "slug": "nvidia-isaac-sim",
+            "entity_type": "SOFTWARE_PRODUCT",
+            "name": "NVIDIA Isaac Sim",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "MADE_BY",
+      "label": "is made by",
+      "items": [
+        {
+          "claim_id": "2af97474-a06d-52e0-ae74-51fbbe584483",
+          "source": {
+            "id": "7a815a44-1bd7-5a3c-b191-f9ce732e5ec1",
+            "slug": "nvidia-isaac-sim",
+            "entity_type": "SOFTWARE_PRODUCT",
+            "name": "NVIDIA Isaac Sim",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "02577a22-bfaa-5e90-9cba-1dbacbc16478",
+          "source": {
+            "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+            "slug": "nvidia-jetson-orin-nx",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "NVIDIA Jetson Orin NX",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "c6e4ba36-3323-5e84-a989-2e3a425d6422",
+          "source": {
+            "id": "40524241-ae32-56e4-a625-84a0dc3ffb5d",
+            "slug": "nvidia-jetson-thor",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "NVIDIA Jetson Thor",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "places": [
+      {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 4,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 4
+  },
+  "as_of": null
+}

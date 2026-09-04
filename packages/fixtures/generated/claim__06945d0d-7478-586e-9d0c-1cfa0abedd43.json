@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "06945d0d-7478-586e-9d0c-1cfa0abedd43",
+    "subject": {
+      "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
+      "slug": "vecna",
+      "entity_type": "ORGANIZATION",
+      "name": "Vecna Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Vecna Robotics targets market Warehouse & Logistics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "68407748-0447-505b-aa53-0d87ab606e33",
+        "slug": "warehouse-logistics",
+        "entity_type": "MARKET",
+        "name": "Warehouse & Logistics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "57138834-5b82-5e9a-9df3-92284a485b3d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Warehouse positioning.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "d5df5a02-64c6-5062-9bf3-cd96fb1dffca",
+        "url": "https://www.vecnarobotics.com/",
+        "canonical_url": null,
+        "publisher": "Vecna Robotics",
+        "title": "Vecna Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

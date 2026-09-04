@@ -1,0 +1,213 @@
+{
+  "entity": {
+    "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+    "slug": "fox-robotics",
+    "entity_type": "ORGANIZATION",
+    "name": "Fox Robotics",
+    "short_description": "Austin vendor of autonomous forklifts for trailer unloading.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "caa64839-8509-584d-bdb4-a7716243c3fd",
+          "target": {
+            "id": "c9625e94-0914-541a-a773-0c673a77a1fd",
+            "slug": "austin",
+            "entity_type": "PLACE",
+            "name": "Austin",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "02ae4434-515a-503b-90c9-2a85fc6a7627",
+          "target": {
+            "id": "9c12a0ae-d1aa-5eed-ab85-416b54bece15",
+            "slug": "fox-robotics-foxbot",
+            "entity_type": "ROBOT",
+            "name": "Fox Robotics FoxBot",
+            "primary_embodiment": "AMR"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "9e553eb2-9c55-5dbb-b946-9232162b317c",
+          "target": {
+            "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+            "slug": "truck-unloading",
+            "entity_type": "TASK",
+            "name": "Truck unloading",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "fc5f2545-cd85-565b-8660-3dd838fa8640",
+          "target": {
+            "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+            "slug": "pallet-movement",
+            "entity_type": "TASK",
+            "name": "Pallet movement",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "6a1f197f-d631-557d-8480-130b68144ced",
+          "target": {
+            "id": "68407748-0447-505b-aa53-0d87ab606e33",
+            "slug": "warehouse-logistics",
+            "entity_type": "MARKET",
+            "name": "Warehouse & Logistics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "beeeff2e-d4e0-5b8d-9f4f-011d436df20e",
+          "source": {
+            "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+            "slug": "autonomous-forklift",
+            "entity_type": "APPROACH",
+            "name": "Autonomous forklift",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+        "slug": "autonomous-forklift",
+        "entity_type": "APPROACH",
+        "name": "Autonomous forklift",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "68407748-0447-505b-aa53-0d87ab606e33",
+        "slug": "warehouse-logistics",
+        "entity_type": "MARKET",
+        "name": "Warehouse & Logistics",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "c9625e94-0914-541a-a773-0c673a77a1fd",
+        "slug": "austin",
+        "entity_type": "PLACE",
+        "name": "Austin",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 5,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 5,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 6
+  },
+  "as_of": null
+}

@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "e2fcf53f-4290-5c2c-85ba-3d495d09dff7",
+    "subject": {
+      "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+      "slug": "universal-robots",
+      "entity_type": "ORGANIZATION",
+      "name": "Universal Robots",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Universal Robots targets market Manufacturing",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+        "slug": "manufacturing",
+        "entity_type": "MARKET",
+        "name": "Manufacturing",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e94f6e89-6923-556e-8668-31c637587bec",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Cobots positioned for manufacturing applications.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "01df52f5-a475-5904-b615-77d31452be55",
+        "url": "https://www.universal-robots.com/",
+        "canonical_url": null,
+        "publisher": "Universal Robots",
+        "title": "Universal Robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

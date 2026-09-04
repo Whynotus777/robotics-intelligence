@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "caa64839-8509-584d-bdb4-a7716243c3fd",
+    "subject": {
+      "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+      "slug": "fox-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Fox Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Fox Robotics is headquartered at Austin",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c9625e94-0914-541a-a773-0c673a77a1fd",
+        "slug": "austin",
+        "entity_type": "PLACE",
+        "name": "Austin",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c0f820a9-8f11-51db-99b9-6295feb3cf94",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8b8806bb-2c1f-508f-b5f6-9eed0efb07ed",
+        "url": "https://www.foxrobotics.com/",
+        "canonical_url": null,
+        "publisher": "Fox Robotics",
+        "title": "Fox Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

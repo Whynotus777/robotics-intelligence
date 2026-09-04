@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "af233bf6-c0e7-555a-b914-07b14061d348",
+    "subject": {
+      "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+      "slug": "automated-storage-and-retrieval",
+      "entity_type": "TASK",
+      "name": "Automated storage and retrieval",
+      "primary_embodiment": null
+    },
+    "predicate": "BELONGS_TO_MARKET",
+    "label": "belongs to",
+    "sentence": "Automated storage and retrieval belongs to Material movement",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+        "slug": "material-movement",
+        "entity_type": "MARKET",
+        "name": "Material movement",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7c77d60d-c1c6-5bc3-9152-bffaf64e5903",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Storage and retrieval is the core of DC material flow and is bought by the same operators.",
+        "advance_criteria": [
+          "Would only change with a taxonomy redesign."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "9caf39a1-14cb-5920-b496-4aa6494bedee",
+    "subject": {
+      "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
+      "slug": "agility",
+      "entity_type": "ORGANIZATION",
+      "name": "Agility Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Agility Robotics targets market Warehouse & Logistics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "68407748-0447-505b-aa53-0d87ab606e33",
+        "slug": "warehouse-logistics",
+        "entity_type": "MARKET",
+        "name": "Warehouse & Logistics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "54356fe9-8b39-51bc-8d9a-82a3ed5ab54f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Digit positioned for logistics tote handling.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4a43e56a-60c3-52a9-b5f8-f550155bf4c7",
+        "url": "https://agilityrobotics.com/products/digit",
+        "canonical_url": null,
+        "publisher": "Agility Robotics",
+        "title": "Digit",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

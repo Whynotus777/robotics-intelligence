@@ -1,0 +1,225 @@
+{
+  "entity": {
+    "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+    "slug": "lightning-protection-testing",
+    "entity_type": "TASK",
+    "name": "Lightning-protection testing",
+    "short_description": "Verifying continuity of the blade lightning protection system between receptors and the tower ground path.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "LPS testing"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "EARLY_COMMERCIAL"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "84d62641-d364-5eff-94a0-03cf16a13d2a",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "EARLY_COMMERCIAL"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_INCUMBENT_PROCESS",
+      "label": "incumbent process",
+      "claims": [
+        {
+          "claim_id": "75da0e24-36df-5b94-b1a1-3791fc2ac6bb",
+          "predicate": "HAS_INCUMBENT_PROCESS",
+          "value": {
+            "kind": "text",
+            "text": "Technician continuity measurement from rope access or platform."
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
+      "claims": [
+        {
+          "claim_id": "4106d674-6986-552b-9d1c-78fb2bff725b",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Asset owners and operators"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "8ad8f797-927c-5d89-b594-08f22ac1ec25",
+          "target": {
+            "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+            "slug": "wind",
+            "entity_type": "MARKET",
+            "name": "Wind",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "bbd688ba-f159-5c9f-bab7-b498c729c5b8",
+          "target": {
+            "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+            "slug": "rope-cable-suspended-robot",
+            "entity_type": "APPROACH",
+            "name": "Rope/cable-suspended robot",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "053251ae-15ff-54d9-8b33-641af7e16f0a",
+          "source": {
+            "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+            "slug": "aerones",
+            "entity_type": "ORGANIZATION",
+            "name": "Aerones",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+        "slug": "rope-cable-suspended-robot",
+        "entity_type": "APPROACH",
+        "name": "Rope/cable-suspended robot",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+        "slug": "aerones",
+        "entity_type": "ORGANIZATION",
+        "name": "Aerones",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+        "slug": "wind",
+        "entity_type": "MARKET",
+        "name": "Wind",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 5
+      },
+      "claim_count": 5,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

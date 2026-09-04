@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "cc677c04-fb34-5d1a-b784-790cd247805d",
+    "subject": {
+      "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+      "slug": "wind",
+      "entity_type": "MARKET",
+      "name": "Wind",
+      "primary_embodiment": null
+    },
+    "predicate": "CHILD_OF",
+    "label": "is a domain of",
+    "sentence": "Wind is a domain of Energy",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+        "slug": "energy",
+        "entity_type": "MARKET",
+        "name": "Energy",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "db438c3d-e901-50e3-b431-4bb803e82fae",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Wind is an operations-and-maintenance domain inside the energy sector; its buyers (asset owners, turbine OEMs, independent service providers) are energy-sector organisations and its robotics tasks are asset-maintenance tasks rather than generation-technology tasks.",
+        "advance_criteria": [
+          "Would only change if the taxonomy split renewables into its own sector."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

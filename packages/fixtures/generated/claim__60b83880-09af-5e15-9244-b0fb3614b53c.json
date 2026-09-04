@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "60b83880-09af-5e15-9244-b0fb3614b53c",
+    "subject": {
+      "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+      "slug": "figure-03",
+      "entity_type": "ROBOT",
+      "name": "Figure 03",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "CONTROLLED_BY",
+    "label": "is controlled by",
+    "sentence": "Figure 03 is controlled by Helix",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "70bc43e3-1e7f-5d97-9852-8dbc09ee40ee",
+        "slug": "helix",
+        "entity_type": "MODEL",
+        "name": "Helix",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2025-10-09",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "dd57bc2a-1f91-5893-9f4a-5a3ccbe96399",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Described as designed for Helix.",
+      "published_at": "2025-10-09T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f57ccab1-ef62-5fbd-a2bb-177d1fb78cde",
+        "url": "https://www.figure.ai/news",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Introducing Figure 03",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-10-09T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

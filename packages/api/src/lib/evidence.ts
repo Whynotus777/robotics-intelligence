@@ -1,4 +1,4 @@
-import { inArray } from "drizzle-orm";
+import { eq, inArray } from "drizzle-orm";
 import { assessments, claims, entities, evidence, sources } from "@ri/db";
 import type { AssessmentView, EvidenceSummary, EvidenceView } from "@ri/api-contracts";
 import type { ApiContext } from "../context.js";
@@ -56,12 +56,9 @@ export async function assessmentsByEvidence(ctx: ApiContext, evidenceIds: Iterab
     const considered = await ctx.db
       .select({ claim: claims, subject: entities })
       .from(claims)
-      .innerJoin(entities, (() => {
-        // drizzle needs an SQL condition; keep the join explicit for readability
-        return (await_ => await_)(undefined as never);
-      })() as never)
+      .innerJoin(entities, eq(claims.subjectEntityId, entities.id))
       .where(inArray(claims.id, consideredIds));
-    void considered;
+    for (const row of considered) sentences.set(row.claim.id, rowSentence(row.claim, row.subject));
   }
   for (const r of rows) {
     out.set(r.evidenceId, {

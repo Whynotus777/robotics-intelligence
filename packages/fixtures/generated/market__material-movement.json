@@ -1,0 +1,146 @@
+{
+  "market": {
+    "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+    "slug": "material-movement",
+    "entity_type": "MARKET",
+    "name": "Material movement",
+    "primary_embodiment": null
+  },
+  "short_description": "Moving pallets, cases, totes and each-items inside distribution centres and fulfilment sites; the domain where autonomous mobile robots reached scale first.",
+  "path": [
+    {
+      "id": "68407748-0447-505b-aa53-0d87ab606e33",
+      "slug": "warehouse-logistics",
+      "entity_type": "MARKET",
+      "name": "Warehouse & Logistics",
+      "primary_embodiment": null
+    }
+  ],
+  "children": [],
+  "board": [
+    {
+      "task": {
+        "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+        "slug": "truck-unloading",
+        "entity_type": "TASK",
+        "name": "Truck unloading",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+        "slug": "material-movement",
+        "entity_type": "MARKET",
+        "name": "Material movement",
+        "primary_embodiment": null
+      },
+      "maturity": "PILOT",
+      "maturity_claim_id": "c3ec3add-8d88-57b1-8e72-a51051cc4088",
+      "dominant_approach": {
+        "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+        "slug": "autonomous-forklift",
+        "entity_type": "APPROACH",
+        "name": "Autonomous forklift",
+        "primary_embodiment": null
+      },
+      "vendor_count": 1,
+      "deployment_count": 0
+    },
+    {
+      "task": {
+        "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+        "slug": "automated-storage-and-retrieval",
+        "entity_type": "TASK",
+        "name": "Automated storage and retrieval",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+        "slug": "material-movement",
+        "entity_type": "MARKET",
+        "name": "Material movement",
+        "primary_embodiment": null
+      },
+      "maturity": "MATURE",
+      "maturity_claim_id": "de3359b3-48ed-5964-8977-1328184dbcf9",
+      "dominant_approach": {
+        "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+        "slug": "asrs-pallet-handling",
+        "entity_type": "APPROACH",
+        "name": "AS/RS pallet handling",
+        "primary_embodiment": null
+      },
+      "vendor_count": 1,
+      "deployment_count": 1
+    },
+    {
+      "task": {
+        "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
+        "slug": "case-picking",
+        "entity_type": "TASK",
+        "name": "Case picking",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+        "slug": "material-movement",
+        "entity_type": "MARKET",
+        "name": "Material movement",
+        "primary_embodiment": null
+      },
+      "maturity": "EARLY_COMMERCIAL",
+      "maturity_claim_id": "58a6e753-029b-503a-9194-cf36aeb8f0c2",
+      "dominant_approach": null,
+      "vendor_count": 0,
+      "deployment_count": 0
+    },
+    {
+      "task": {
+        "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+        "slug": "each-picking-assistance",
+        "entity_type": "TASK",
+        "name": "Each-picking assistance",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+        "slug": "material-movement",
+        "entity_type": "MARKET",
+        "name": "Material movement",
+        "primary_embodiment": null
+      },
+      "maturity": "SCALING",
+      "maturity_claim_id": "22382d42-5d84-58f9-b40f-2c71b6af4e00",
+      "dominant_approach": null,
+      "vendor_count": 1,
+      "deployment_count": 1
+    },
+    {
+      "task": {
+        "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+        "slug": "pallet-movement",
+        "entity_type": "TASK",
+        "name": "Pallet movement",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+        "slug": "material-movement",
+        "entity_type": "MARKET",
+        "name": "Material movement",
+        "primary_embodiment": null
+      },
+      "maturity": "SCALING",
+      "maturity_claim_id": "973e1236-a9d4-516e-be6d-257d4490ad69",
+      "dominant_approach": {
+        "id": "c7a570a3-5b5e-57dd-9b63-116a208684e2",
+        "slug": "amr-pallet-jack-or-lift",
+        "entity_type": "APPROACH",
+        "name": "AMR pallet jack or lift",
+        "primary_embodiment": null
+      },
+      "vendor_count": 5,
+      "deployment_count": 0
+    }
+  ],
+  "as_of": null
+}

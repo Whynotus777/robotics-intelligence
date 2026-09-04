@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "2834de53-8a2f-5c94-b1ab-a85eeca26cc1",
+    "subject": {
+      "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+      "slug": "apptronik-apollo",
+      "entity_type": "ROBOT",
+      "name": "Apptronik Apollo",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_HEIGHT",
+    "label": "height",
+    "sentence": "Apptronik Apollo height ~1.73 m",
+    "value": {
+      "kind": "number",
+      "number": 1.73,
+      "unit": "m",
+      "is_approximate": true,
+      "min": null,
+      "max": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "40db58d6-bc0d-576c-a76f-6b56b680074a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Listed height of 5 ft 8 in, about 1.73 m.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "53edd6ba-489a-5ab4-96d2-03c2935ebe0e",
+        "url": "https://apptronik.com/apollo",
+        "canonical_url": null,
+        "publisher": "Apptronik",
+        "title": "Apollo humanoid robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,323 @@
+{
+  "entity": {
+    "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+    "slug": "figure-03",
+    "entity_type": "ROBOT",
+    "name": "Figure 03",
+    "short_description": "Figure AI's third-generation humanoid, built around the Helix VLA model and targeted at home and commercial use. Deliberately sparse: no supplier data is published.",
+    "primary_embodiment": "HUMANOID",
+    "country_code": "US",
+    "aliases": [
+      "Figure 3"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": "PILOT_DEPLOYMENTS",
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "c2ee733a-b52b-5b10-933d-f72dcce22f01",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2025-10-09",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ANNOUNCED_ON",
+      "label": "was announced on",
+      "claims": [
+        {
+          "claim_id": "579781a1-7b2e-5504-b9bb-5e36ea8dd90d",
+          "predicate": "ANNOUNCED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2025-10-09"
+          },
+          "stack_layer": null,
+          "valid_from": "2025-10-09",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_ARCHITECTURE_NOTE",
+      "label": "architecture note",
+      "claims": [
+        {
+          "claim_id": "1e350357-373e-53c4-af48-812c8cc5df01",
+          "predicate": "HAS_ARCHITECTURE_NOTE",
+          "value": {
+            "kind": "text",
+            "text": "Figure 03 is presented as hardware designed around Helix, Figure's vision-language-action model, with the sensor suite and hands specified for that policy rather than for teleoperation."
+          },
+          "stack_layer": "INTELLIGENCE",
+          "valid_from": "2025-10-09",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "f063b6a6-e2fb-5fb4-b2d8-6f4faa97c02a",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "PILOT_DEPLOYMENTS"
+          },
+          "stack_layer": null,
+          "valid_from": "2025-10-09",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "CONTROLLED_BY",
+      "label": "is controlled by",
+      "items": [
+        {
+          "claim_id": "60b83880-09af-5e15-9244-b0fb3614b53c",
+          "target": {
+            "id": "70bc43e3-1e7f-5d97-9852-8dbc09ee40ee",
+            "slug": "helix",
+            "entity_type": "MODEL",
+            "name": "Helix",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2025-10-09",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "MEMBER_OF_FAMILY",
+      "label": "is a member of",
+      "items": [
+        {
+          "claim_id": "2fdf7d95-6dfe-50da-a459-737342ad9e0e",
+          "target": {
+            "id": "c049ae4e-2f0f-54a0-8b83-b899ae3b05cb",
+            "slug": "figure-humanoids",
+            "entity_type": "ROBOT_FAMILY",
+            "name": "Figure humanoids",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "SUCCEEDS",
+      "label": "succeeds",
+      "items": [
+        {
+          "claim_id": "ee396203-afdb-5983-8a31-3d59c4185fd1",
+          "target": {
+            "id": "077b0165-6d64-55b6-9e86-0df976c238a9",
+            "slug": "figure-02",
+            "entity_type": "ROBOT",
+            "name": "Figure 02",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2025-10-09",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "0f0eb3c6-be07-5e5c-ad66-9b694c6c07d2",
+          "source": {
+            "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+            "slug": "figure-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Figure AI",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "COMPETES_WITH",
+      "label": "competes with",
+      "items": [
+        {
+          "claim_id": "4c91edc5-02dd-5e7f-9173-03efa55a2597",
+          "source": {
+            "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+            "slug": "apptronik-apollo",
+            "entity_type": "ROBOT",
+            "name": "Apptronik Apollo",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "DERIVED",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "68fdb84f-1e31-5689-8dc0-658a7ad1d1d7",
+          "source": {
+            "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+            "slug": "unitree-g1",
+            "entity_type": "ROBOT",
+            "name": "Unitree G1",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "DERIVED",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "c049ae4e-2f0f-54a0-8b83-b899ae3b05cb",
+        "slug": "figure-humanoids",
+        "entity_type": "ROBOT_FAMILY",
+        "name": "Figure humanoids",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+        "slug": "figure-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Figure AI",
+        "primary_embodiment": null
+      }
+    ],
+    "peers": [
+      {
+        "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+        "slug": "apptronik-apollo",
+        "entity_type": "ROBOT",
+        "name": "Apptronik Apollo",
+        "primary_embodiment": "HUMANOID"
+      },
+      {
+        "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+        "slug": "unitree-g1",
+        "entity_type": "ROBOT",
+        "name": "Unitree G1",
+        "primary_embodiment": "HUMANOID"
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 6,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 1
+      },
+      "claim_count": 7,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 1,
+    "deployment_count": 0,
+    "related_count": 6
+  },
+  "as_of": null
+}

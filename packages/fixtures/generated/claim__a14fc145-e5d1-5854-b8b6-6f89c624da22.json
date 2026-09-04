@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "a14fc145-e5d1-5854-b8b6-6f89c624da22",
+    "subject": {
+      "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+      "slug": "unitree-g1",
+      "entity_type": "ROBOT",
+      "name": "Unitree G1",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_HEIGHT",
+    "label": "height",
+    "sentence": "Unitree G1 height ~1.32 m",
+    "value": {
+      "kind": "number",
+      "number": 1.32,
+      "unit": "m",
+      "is_approximate": true,
+      "min": null,
+      "max": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-05-13",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "746766bd-a1d5-5f95-b714-355cf1f9caa7",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Spec table lists standing height of about 1.32 m.",
+      "published_at": "2024-05-13T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "12757afb-2e99-5fb4-a2f7-316d704ce8c1",
+        "url": "https://www.unitree.com/g1",
+        "canonical_url": null,
+        "publisher": "Unitree Robotics",
+        "title": "Unitree G1 humanoid agent",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": "2024-05-13T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

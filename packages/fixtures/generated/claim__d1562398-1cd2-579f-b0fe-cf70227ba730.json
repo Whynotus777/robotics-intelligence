@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "d1562398-1cd2-579f-b0fe-cf70227ba730",
+    "subject": {
+      "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+      "slug": "blade-repair",
+      "entity_type": "TASK",
+      "name": "Blade repair",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_INCUMBENT_PROCESS",
+    "label": "incumbent process",
+    "sentence": "Blade repair incumbent process Rope-access technicians or suspended platforms, with turbine downtime for every intervention and weather-limited working windows.",
+    "value": {
+      "kind": "text",
+      "text": "Rope-access technicians or suspended platforms, with turbine downtime for every intervention and weather-limited working windows."
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9d7f1a93-64dc-50dd-bf6e-9ff7de0bcb5d",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Rope access is the default across onshore and offshore fleets; platform access is used for larger repairs. Both stop the turbine and both are gated by wind speed and daylight.",
+        "advance_criteria": [
+          "Would change if platform-free repair became the default for a fleet operator."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

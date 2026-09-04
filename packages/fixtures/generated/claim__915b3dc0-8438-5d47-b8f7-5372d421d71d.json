@@ -1,0 +1,78 @@
+{
+  "claim": {
+    "claim_id": "915b3dc0-8438-5d47-b8f7-5372d421d71d",
+    "subject": {
+      "id": "3efa143b-c4c7-5c49-bc42-af2abd624356",
+      "slug": "pi0",
+      "entity_type": "MODEL",
+      "name": "π0",
+      "primary_embodiment": null
+    },
+    "predicate": "IS_INSTANCE_OF",
+    "label": "is an instance of",
+    "sentence": "π0 is an instance of VLA models",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "bc3bbbc6-d8b1-5fdc-b75e-722ffc380762",
+        "slug": "vla-models",
+        "entity_type": "TECHNOLOGY",
+        "name": "VLA models",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-10-31",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "CORROBORATED",
+  "evidence": [
+    {
+      "id": "7471d452-2a0a-5960-9bce-9531fe5eed95",
+      "class": "ACADEMIC",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "The paper describes π0 as a vision-language-action flow model.",
+      "published_at": "2024-10-31T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "07c0baf8-4c33-5496-aad9-587d8d52e523",
+        "url": "https://arxiv.org/abs/2410.24164",
+        "canonical_url": null,
+        "publisher": "arXiv",
+        "title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
+        "source_kind": "PAPER",
+        "published_at": "2024-10-31T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    },
+    {
+      "id": "0718048c-53ba-5639-a41f-94986caa8bca",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Blog post describes a VLA model built on a pretrained vision-language backbone.",
+      "published_at": "2024-10-31T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "81f33154-9269-5e71-8c65-280651d44e20",
+        "url": "https://www.physicalintelligence.company/blog/pi0",
+        "canonical_url": null,
+        "publisher": "Physical Intelligence",
+        "title": "π0: our first generalist policy",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-10-31T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,121 @@
+{
+  "entity": {
+    "id": "337c1e71-855d-5403-a3fb-6c1979113161",
+    "slug": "aerial-manipulator",
+    "entity_type": "APPROACH",
+    "name": "Aerial manipulator",
+    "short_description": "A multirotor carrying an arm or tool that performs contact work on the blade while hovering.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "RESEARCH"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "a340ebc1-9331-5de7-b838-8f011f5c57a2",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "RESEARCH"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_EMBODIMENT",
+      "label": "uses embodiment",
+      "claims": [
+        {
+          "claim_id": "75f72d4d-b45f-5e9b-bb6e-04180a9b7719",
+          "predicate": "USES_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "DRONE"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "aea376cf-5533-5f45-b6df-79a4288fe624",
+          "source": {
+            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+            "slug": "blade-repair",
+            "entity_type": "TASK",
+            "name": "Blade repair",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {},
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 2
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

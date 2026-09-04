@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "f2a32488-ddd6-57f3-8be0-695c07a87027",
+    "subject": {
+      "id": "40524241-ae32-56e4-a625-84a0dc3ffb5d",
+      "slug": "nvidia-jetson-thor",
+      "entity_type": "COMPONENT_PRODUCT",
+      "name": "NVIDIA Jetson Thor",
+      "primary_embodiment": null
+    },
+    "predicate": "IS_INSTANCE_OF",
+    "label": "is an instance of",
+    "sentence": "NVIDIA Jetson Thor is an instance of Edge AI compute",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c87d3d33-96c5-5851-b406-0551571f6911",
+        "slug": "edge-ai-compute",
+        "entity_type": "TECHNOLOGY",
+        "name": "Edge AI compute",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "33f094e2-3947-576f-a3ca-9c76156d3f88",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Positioned as robotics and physical-AI edge compute.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "2fc1cea4-036f-5d75-8e86-49931d3f8fff",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+        "canonical_url": null,
+        "publisher": "NVIDIA",
+        "title": "NVIDIA Jetson Thor",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": "2025-08-25T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

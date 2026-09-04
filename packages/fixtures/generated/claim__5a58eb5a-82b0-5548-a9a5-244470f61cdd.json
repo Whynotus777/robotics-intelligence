@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "5a58eb5a-82b0-5548-a9a5-244470f61cdd",
+    "subject": {
+      "id": "2ad4ac39-383d-59c3-ad41-466f420c5ee1",
+      "slug": "deployment-skyspecs-wind-fleets",
+      "entity_type": "DEPLOYMENT",
+      "name": "SkySpecs inspections across utility-scale wind fleets",
+      "primary_embodiment": null
+    },
+    "predicate": "SERVES_TASK",
+    "label": "serves task",
+    "sentence": "SkySpecs inspections across utility-scale wind fleets serves task Blade visual inspection",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+        "slug": "blade-visual-inspection",
+        "entity_type": "TASK",
+        "name": "Blade visual inspection",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4b26b7e1-753a-5785-941d-ce0d3cdc3dbd",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Blade inspection is the service delivered.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "61dd170d-1752-555e-9683-dc5e0185a78d",
+        "url": "https://skyspecs.com/",
+        "canonical_url": null,
+        "publisher": "SkySpecs",
+        "title": "SkySpecs",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

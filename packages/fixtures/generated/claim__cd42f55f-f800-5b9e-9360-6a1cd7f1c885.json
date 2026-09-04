@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "cd42f55f-f800-5b9e-9360-6a1cd7f1c885",
+    "subject": {
+      "id": "c03bb1d8-ae3a-58f0-b5a1-5d5f4c91a924",
+      "slug": "deployment-digit-gxo",
+      "entity_type": "DEPLOYMENT",
+      "name": "Agility Digit at GXO",
+      "primary_embodiment": null
+    },
+    "predicate": "OPERATED_BY",
+    "label": "is operated by",
+    "sentence": "Agility Digit at GXO is operated by Agility Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
+        "slug": "agility",
+        "entity_type": "ORGANIZATION",
+        "name": "Agility Robotics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-06-27",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "906310a1-4b7f-5bb7-b1fb-4337d4026491",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Agility provides the robots as a service.",
+      "published_at": "2024-06-27T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "6e6f65fe-47dc-56ef-8c54-b9a116b89fa0",
+        "url": "https://agilityrobotics.com/news",
+        "canonical_url": null,
+        "publisher": "Agility Robotics",
+        "title": "GXO and Agility Robotics sign multi-year RaaS agreement",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-06-27T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

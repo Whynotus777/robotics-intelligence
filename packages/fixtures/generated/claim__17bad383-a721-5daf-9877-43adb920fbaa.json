@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "17bad383-a721-5daf-9877-43adb920fbaa",
+    "subject": {
+      "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+      "slug": "skydio",
+      "entity_type": "ORGANIZATION",
+      "name": "Skydio",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Skydio builds Skydio X10",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d7947928-8b51-5563-ac9a-8910108075b3",
+        "slug": "skydio-x10",
+        "entity_type": "ROBOT",
+        "name": "Skydio X10",
+        "primary_embodiment": "DRONE"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "838af2b0-cf2f-5a72-8e36-d9909c1498e4",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company product page for X10.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "ad7db38e-1905-51d0-b521-015a678f25f7",
+        "url": "https://www.skydio.com/x10",
+        "canonical_url": null,
+        "publisher": "Skydio",
+        "title": "Skydio X10",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

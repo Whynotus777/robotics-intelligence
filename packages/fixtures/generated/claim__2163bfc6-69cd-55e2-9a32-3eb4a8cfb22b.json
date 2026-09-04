@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "2163bfc6-69cd-55e2-9a32-3eb4a8cfb22b",
+    "subject": {
+      "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+      "slug": "contact-ndt",
+      "entity_type": "TASK",
+      "name": "Contact NDT",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_INCUMBENT_PROCESS",
+    "label": "incumbent process",
+    "sentence": "Contact NDT incumbent process Technician-held probes from rope access, or blade removal for inspection.",
+    "value": {
+      "kind": "text",
+      "text": "Technician-held probes from rope access, or blade removal for inspection."
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2ce24f6f-4009-5b63-a196-70c2de20b6e4",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Contact NDT is rarely done on installed blades because of access cost.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

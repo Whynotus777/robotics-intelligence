@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "27a4248f-cbe7-5b7c-948a-18cecc45e368",
+    "subject": {
+      "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+      "slug": "unitree-g1",
+      "entity_type": "ROBOT",
+      "name": "Unitree G1",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "USES_TECHNOLOGY",
+    "label": "uses",
+    "sentence": "Unitree G1 uses Depth cameras",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
+        "slug": "depth-cameras",
+        "entity_type": "TECHNOLOGY",
+        "name": "Depth cameras",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": "SENSORS",
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "591855c3-6d65-5fc8-955b-36a6f92530d8",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Spec table lists a depth camera in the head.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "12757afb-2e99-5fb4-a2f7-316d704ce8c1",
+        "url": "https://www.unitree.com/g1",
+        "canonical_url": null,
+        "publisher": "Unitree Robotics",
+        "title": "Unitree G1 humanoid agent",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": "2024-05-13T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "a2a75384-80c2-5a3f-92f3-b1187a0ba911",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
+          "slug": "3d-lidar",
+          "entity_type": "TECHNOLOGY",
+          "name": "3D LiDAR",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

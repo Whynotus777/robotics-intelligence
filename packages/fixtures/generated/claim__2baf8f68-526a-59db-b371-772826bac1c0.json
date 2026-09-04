@@ -1,0 +1,110 @@
+{
+  "claim": {
+    "claim_id": "2baf8f68-526a-59db-b371-772826bac1c0",
+    "subject": {
+      "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+      "slug": "aerones",
+      "entity_type": "ORGANIZATION",
+      "name": "Aerones",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Aerones targets task Blade visual inspection",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+        "slug": "blade-visual-inspection",
+        "entity_type": "TASK",
+        "name": "Blade visual inspection",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "88dc8863-68f1-5436-8bf2-f8cee8eef4a4",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Inspection listed as a service.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4ce2c8fb-0e96-5b59-b23a-f75549b2151e",
+        "url": "https://aerones.com/",
+        "canonical_url": null,
+        "publisher": "Aerones",
+        "title": "Aerones robotic wind turbine maintenance",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "84a934f3-ab29-59d0-9fed-91175af3c8fd",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "7831a686-465b-5c38-9904-bf9354227e01",
+          "slug": "blade-cleaning",
+          "entity_type": "TASK",
+          "name": "Blade cleaning",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "053251ae-15ff-54d9-8b33-641af7e16f0a",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+          "slug": "lightning-protection-testing",
+          "entity_type": "TASK",
+          "name": "Lightning-protection testing",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "d46b472e-b561-55c1-9e0b-3ed71d879a54",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+          "slug": "blade-repair",
+          "entity_type": "TASK",
+          "name": "Blade repair",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

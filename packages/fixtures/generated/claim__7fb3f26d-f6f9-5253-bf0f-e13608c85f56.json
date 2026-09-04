@@ -1,0 +1,93 @@
+{
+  "claim": {
+    "claim_id": "7fb3f26d-f6f9-5253-bf0f-e13608c85f56",
+    "subject": {
+      "id": "c7a570a3-5b5e-57dd-9b63-116a208684e2",
+      "slug": "amr-pallet-jack-or-lift",
+      "entity_type": "APPROACH",
+      "name": "AMR pallet jack or lift",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "AMR pallet jack or lift example vendor Seegrid",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
+        "slug": "seegrid",
+        "entity_type": "ORGANIZATION",
+        "name": "Seegrid",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "42c7f276-4607-5893-8e57-4e2df206cabf",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site positions Seegrid as an autonomous pallet-handling AMR and lift-truck vendor.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e9c6e2eb-146b-5327-9040-45cee3467ef2",
+        "url": "https://seegrid.com/",
+        "canonical_url": null,
+        "publisher": "Seegrid",
+        "title": "Seegrid autonomous mobile robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "0c709ce1-e717-5ead-a33a-dafe12ec9674",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
+          "slug": "vecna",
+          "entity_type": "ORGANIZATION",
+          "name": "Vecna Robotics",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "d49e3f35-ac58-5d13-ad61-d883582c33c1",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+          "slug": "otto-motors",
+          "entity_type": "ORGANIZATION",
+          "name": "OTTO Motors",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

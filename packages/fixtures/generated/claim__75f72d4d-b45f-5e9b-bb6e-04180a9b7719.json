@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "75f72d4d-b45f-5e9b-bb6e-04180a9b7719",
+    "subject": {
+      "id": "337c1e71-855d-5403-a3fb-6c1979113161",
+      "slug": "aerial-manipulator",
+      "entity_type": "APPROACH",
+      "name": "Aerial manipulator",
+      "primary_embodiment": null
+    },
+    "predicate": "USES_EMBODIMENT",
+    "label": "uses embodiment",
+    "sentence": "Aerial manipulator uses embodiment DRONE",
+    "value": {
+      "kind": "enum",
+      "value": "DRONE"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c02212dc-b2e3-56a7-b7fa-5e16ef800e04",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "By definition the platform is a multirotor with a manipulator; there is no vendor page to cite.",
+        "advance_criteria": [
+          "Replace with a PRIMARY source once a vendor exists."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

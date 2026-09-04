@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "02ae4434-515a-503b-90c9-2a85fc6a7627",
+    "subject": {
+      "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+      "slug": "fox-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Fox Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Fox Robotics builds Fox Robotics FoxBot",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9c12a0ae-d1aa-5eed-ab85-416b54bece15",
+        "slug": "fox-robotics-foxbot",
+        "entity_type": "ROBOT",
+        "name": "Fox Robotics FoxBot",
+        "primary_embodiment": "AMR"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bd0af20b-4ca7-50bc-812f-f689c3696339",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site presents FoxBot.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8b8806bb-2c1f-508f-b5f6-9eed0efb07ed",
+        "url": "https://www.foxrobotics.com/",
+        "canonical_url": null,
+        "publisher": "Fox Robotics",
+        "title": "Fox Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,6 +1,6 @@
 # Ontology V0
 
-Source of truth for enums and predicates is code: `packages/domain/src/enums.ts` and `packages/domain/src/predicates.ts`. This page explains the model; it does not duplicate the registry.
+Source of truth for enums and predicates is code: `packages/domain/src/enums.ts` and `packages/domain/src/predicates.ts`. Each registry entry declares subject types, typed value kind, allowed object types, canonical numeric unit, cardinality, and stack-layer rule; unknown predicates are rejected at seed and API boundaries. This page is the human-readable registry guide.
 
 ## Primitive
 `entity + claim + relationship + evidence + time`. A relationship is a claim whose value is another entity. Entities carry a small typed core plus cached current-value columns derived from APPROVED claims (never written directly).
@@ -26,6 +26,9 @@ MARKET (sector) → MARKET (domain) → TASK. Tasks carry structured claims: HAS
 
 ## Sources and change events
 `sources` (identity fields in 0a; operational fields added in 0b). `change_events` (read model in 0a, seeded historically; sole writer becomes the approve/supersede path in 0b).
+
+## Predicate families
+Organization predicates are BUILDS, DEVELOPS, PROVIDES, TARGETS_MARKET, TARGETS_TASK, PARTNERS_WITH, ACQUIRED, PUBLISHES, HQ_AT, RND_AT, MANUFACTURES_AT, FUNDED, and FOUNDED_ON. Robot predicates include stack membership (USES_PRODUCT and USES_TECHNOLOGY), generation/family links, task/competition/model links, benchmark scores, and physical/commercial scalar claims. Deployments link robot, customer, operator, place and task. Market/task predicates model hierarchy, maturity, approaches, technologies, incumbents, customer types, blockers, adjacency and economics. Product/model predicates connect instances, makers, papers, benchmarks and datasets. The complete machine-readable registry is intentionally adjacent to validation code rather than copied into prose.
 
 ## Depth tier
 ANCHOR | STANDARD | DISCOVERY — backend metadata only, never shown.

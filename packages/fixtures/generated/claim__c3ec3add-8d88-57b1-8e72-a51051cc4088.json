@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "c3ec3add-8d88-57b1-8e72-a51051cc4088",
+    "subject": {
+      "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+      "slug": "truck-unloading",
+      "entity_type": "TASK",
+      "name": "Truck unloading",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Truck unloading maturity PILOT",
+    "value": {
+      "kind": "enum",
+      "value": "PILOT"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "64c794f4-f32a-5029-bc74-ee673953302e",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Robotic trailer unloading runs at early customer sites for both palletised (autonomous forklift) and floor-loaded (arm-based) freight, but it is not routine: trailer condition, lighting and load variability make every trailer an edge case. Vendors report throughput on good trailers, not on the fleet average.",
+        "advance_criteria": [
+          "Unattended operation across a customer's full inbound trailer mix",
+          "Throughput parity with a human crew on the fleet average",
+          "Repeat orders from more than one customer"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [
+          {
+            "claim_id": "9e553eb2-9c55-5dbb-b946-9232162b317c",
+            "sentence": "Fox Robotics targets task Truck unloading"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

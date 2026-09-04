@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "4af95989-50e8-5791-80d8-7a564aa84c48",
+    "subject": {
+      "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
+      "slug": "apptronik",
+      "entity_type": "ORGANIZATION",
+      "name": "Apptronik",
+      "primary_embodiment": null
+    },
+    "predicate": "PARTNERS_WITH",
+    "label": "partners with",
+    "sentence": "Apptronik partners with GXO Logistics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "3453edac-f23f-5fea-b881-16321ec6999a",
+        "slug": "gxo",
+        "entity_type": "ORGANIZATION",
+        "name": "GXO Logistics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1f1b8c1a-6caf-5dbd-9d1c-5dd4d6c29616",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Partnership announced June 2024.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f992e084-3d9c-5e26-9cc6-3b47da2999ce",
+        "url": "https://apptronik.com/news",
+        "canonical_url": null,
+        "publisher": "Apptronik",
+        "title": "Apptronik and GXO announce partnership",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-06-17T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "9c4edce0-555e-549b-bc52-0d8f6280d15f",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "ca88a44a-f6b4-537a-b678-5bccf9a70bc1",
+          "slug": "mercedes-benz",
+          "entity_type": "ORGANIZATION",
+          "name": "Mercedes-Benz",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

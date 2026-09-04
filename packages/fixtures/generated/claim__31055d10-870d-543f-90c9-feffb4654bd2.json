@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "31055d10-870d-543f-90c9-feffb4654bd2",
+    "subject": {
+      "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+      "slug": "skydio",
+      "entity_type": "ORGANIZATION",
+      "name": "Skydio",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Skydio targets market Utilities",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b68dee12-fd2b-52e9-8e63-85bcc3263b17",
+        "slug": "utilities",
+        "entity_type": "MARKET",
+        "name": "Utilities",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "51c134ee-b04b-59fd-8077-43354cbc11a9",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Utilities inspection is a named sector.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4729de2b-ec48-53b4-a78b-7b8704d2337c",
+        "url": "https://www.skydio.com/",
+        "canonical_url": null,
+        "publisher": "Skydio",
+        "title": "Skydio",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "e5bec0f7-5f95-5b7b-93d4-73de6d08791c",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "1fcc6eb5-3d99-52ea-9f79-d1d882b3957b",
+          "slug": "defense",
+          "entity_type": "MARKET",
+          "name": "Defense",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

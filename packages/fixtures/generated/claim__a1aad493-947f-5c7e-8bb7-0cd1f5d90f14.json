@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "a1aad493-947f-5c7e-8bb7-0cd1f5d90f14",
+    "subject": {
+      "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
+      "slug": "amazon-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Amazon Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Amazon Robotics targets market Warehouse & Logistics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "68407748-0447-505b-aa53-0d87ab606e33",
+        "slug": "warehouse-logistics",
+        "entity_type": "MARKET",
+        "name": "Warehouse & Logistics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "241780ab-6586-5717-b7c9-576123094fe1",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Fulfilment-centre robotics.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "028549e9-676b-598b-b287-aa5bed67b43f",
+        "url": "https://www.aboutamazon.com/news",
+        "canonical_url": null,
+        "publisher": "Amazon",
+        "title": "Amazon deploys its one millionth robot",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-07-01T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

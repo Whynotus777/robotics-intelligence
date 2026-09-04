@@ -1,0 +1,158 @@
+{
+  "entity": {
+    "id": "dec795f6-0b99-5f18-b60d-3aac56e8dbd9",
+    "slug": "seegrid-palion-lift",
+    "entity_type": "ROBOT",
+    "name": "Seegrid Palion Lift",
+    "short_description": "Autonomous lift truck for pallet movement and low-level rack placement.",
+    "primary_embodiment": "AMR",
+    "country_code": "US",
+    "aliases": [
+      "Palion Lift"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": "COMMERCIAL",
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "51d16daa-9c6f-5d69-8d11-2a7f06641ffd",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "AMR"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "820de2bd-f5ae-5753-a8d8-5b183a87608c",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "COMMERCIAL"
+          },
+          "stack_layer": null,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "1b52dee5-0e36-50fa-ac8a-20bb217ce29b",
+          "target": {
+            "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+            "slug": "pallet-movement",
+            "entity_type": "TASK",
+            "name": "Pallet movement",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "5b097df4-b6c4-502a-b24b-8f82b5cf1ddb",
+          "source": {
+            "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
+            "slug": "seegrid",
+            "entity_type": "ORGANIZATION",
+            "name": "Seegrid",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
+        "slug": "seegrid",
+        "entity_type": "ORGANIZATION",
+        "name": "Seegrid",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

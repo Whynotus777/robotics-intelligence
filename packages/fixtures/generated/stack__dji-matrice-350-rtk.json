@@ -1,0 +1,80 @@
+{
+  "robot": {
+    "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
+    "slug": "dji-matrice-350-rtk",
+    "entity_type": "ROBOT",
+    "name": "DJI Matrice 350 RTK",
+    "primary_embodiment": "DRONE"
+  },
+  "embodiment": "DRONE",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "Mission autonomy",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Route & mission planning",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Perception / detection",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "STATE_ESTIMATION",
+      "label": "State estimation / EKF",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Flight control",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Flight computer + companion compute",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "Cameras, GNSS, IMU, LiDAR/radar",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Motors, ESCs, propulsion",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "Payload / gimbal / manipulator",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "POWER",
+      "label": "Battery / hybrid",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Airframe",
+      "applies": true,
+      "items": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

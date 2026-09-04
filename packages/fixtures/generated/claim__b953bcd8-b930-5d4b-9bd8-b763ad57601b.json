@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "b953bcd8-b930-5d4b-9bd8-b763ad57601b",
+    "subject": {
+      "id": "c03bb1d8-ae3a-58f0-b5a1-5d5f4c91a924",
+      "slug": "deployment-digit-gxo",
+      "entity_type": "DEPLOYMENT",
+      "name": "Agility Digit at GXO",
+      "primary_embodiment": null
+    },
+    "predicate": "USES_ROBOT",
+    "label": "uses robot",
+    "sentence": "Agility Digit at GXO uses robot Agility Digit",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ba14d056-2a53-544b-b02c-713a99e06c56",
+        "slug": "agility-digit",
+        "entity_type": "ROBOT",
+        "name": "Agility Digit",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-06-27",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "83bbdd9f-93f4-5104-be80-60ffb80ce5fd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Digit deployed under the agreement.",
+      "published_at": "2024-06-27T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "6e6f65fe-47dc-56ef-8c54-b9a116b89fa0",
+        "url": "https://agilityrobotics.com/news",
+        "canonical_url": null,
+        "publisher": "Agility Robotics",
+        "title": "GXO and Agility Robotics sign multi-year RaaS agreement",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-06-27T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

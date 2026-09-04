@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "db408f0a-5ea2-5dcf-adc2-0d511366ad7d",
+    "subject": {
+      "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+      "slug": "boston-dynamics-spot",
+      "entity_type": "ROBOT",
+      "name": "Boston Dynamics Spot",
+      "primary_embodiment": "QUADRUPED"
+    },
+    "predicate": "HAS_MASS",
+    "label": "mass",
+    "sentence": "Boston Dynamics Spot mass ~32.7 kg",
+    "value": {
+      "kind": "number",
+      "number": 32.7,
+      "unit": "kg",
+      "is_approximate": true,
+      "min": null,
+      "max": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c0d89413-44be-53ca-8406-2b75ee50a896",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Spec table lists mass of about 32.7 kg.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "08748fb5-70c7-55d1-900b-e9aba8bb10ed",
+        "url": "https://bostondynamics.com/products/spot/",
+        "canonical_url": null,
+        "publisher": "Boston Dynamics",
+        "title": "Spot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

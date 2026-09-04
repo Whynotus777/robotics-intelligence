@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "02577a22-bfaa-5e90-9cba-1dbacbc16478",
+    "subject": {
+      "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+      "slug": "nvidia-jetson-orin-nx",
+      "entity_type": "COMPONENT_PRODUCT",
+      "name": "NVIDIA Jetson Orin NX",
+      "primary_embodiment": null
+    },
+    "predicate": "MADE_BY",
+    "label": "is made by",
+    "sentence": "NVIDIA Jetson Orin NX is made by NVIDIA",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+        "slug": "nvidia",
+        "entity_type": "ORGANIZATION",
+        "name": "NVIDIA",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b36a6705-9d85-52d3-875e-9b71955af3a9",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "NVIDIA's Jetson Orin product page lists the Orin NX module.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "c8e3c37b-4d4b-5c7f-a87c-93ea5ad2d306",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+        "canonical_url": null,
+        "publisher": "NVIDIA",
+        "title": "NVIDIA Jetson Orin",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

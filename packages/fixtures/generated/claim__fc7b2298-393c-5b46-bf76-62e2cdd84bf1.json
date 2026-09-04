@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "fc7b2298-393c-5b46-bf76-62e2cdd84bf1",
+    "subject": {
+      "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
+      "slug": "dji-matrice-350-rtk",
+      "entity_type": "ROBOT",
+      "name": "DJI Matrice 350 RTK",
+      "primary_embodiment": "DRONE"
+    },
+    "predicate": "COMPETES_WITH",
+    "label": "competes with",
+    "sentence": "DJI Matrice 350 RTK competes with Skydio X10",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d7947928-8b51-5563-ac9a-8910108075b3",
+        "slug": "skydio-x10",
+        "entity_type": "ROBOT",
+        "name": "Skydio X10",
+        "primary_embodiment": "DRONE"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5c152d88-9cf6-5bba-9cd8-f02bdb6c4100",
+      "class": "DERIVED",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Derived from shared embodiment (drone).",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": [
+    {
+      "claim_id": "cb5492bf-4196-5a67-ad7f-3985177c00c7",
+      "sentence": "DJI Matrice 350 RTK embodiment DRONE"
+    },
+    {
+      "claim_id": "eb3d5771-287c-58fb-a41d-59b64e01dd36",
+      "sentence": "Skydio X10 embodiment DRONE"
+    }
+  ]
+}

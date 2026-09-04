@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "7e6bfab3-4aa6-5e08-b68a-e9f683261294",
+    "subject": {
+      "id": "ca88a44a-f6b4-537a-b678-5bccf9a70bc1",
+      "slug": "mercedes-benz",
+      "entity_type": "ORGANIZATION",
+      "name": "Mercedes-Benz",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Mercedes-Benz is headquartered at Stuttgart",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "1ed177d6-ee08-5363-881c-2f871c046982",
+        "slug": "stuttgart",
+        "entity_type": "PLACE",
+        "name": "Stuttgart",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "26213bca-d426-5dcc-acdd-7423f5a81726",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "02d827d2-257a-5ae2-9358-1f3b4a5da65e",
+        "url": "https://group.mercedes-benz.com/",
+        "canonical_url": null,
+        "publisher": "Mercedes-Benz Group",
+        "title": "Mercedes-Benz Group",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

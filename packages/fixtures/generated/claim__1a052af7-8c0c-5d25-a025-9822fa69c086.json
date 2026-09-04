@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "1a052af7-8c0c-5d25-a025-9822fa69c086",
+    "subject": {
+      "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+      "slug": "boston-dynamics-spot",
+      "entity_type": "ROBOT",
+      "name": "Boston Dynamics Spot",
+      "primary_embodiment": "QUADRUPED"
+    },
+    "predicate": "HAS_RUNTIME",
+    "label": "runtime",
+    "sentence": "Boston Dynamics Spot runtime ~5,400 s",
+    "value": {
+      "kind": "number",
+      "number": 5400,
+      "unit": "s",
+      "is_approximate": true,
+      "min": null,
+      "max": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8538ab2b-8299-5aef-ab75-1b04e3231a7a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Spec table lists about 90 minutes of runtime.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "08748fb5-70c7-55d1-900b-e9aba8bb10ed",
+        "url": "https://bostondynamics.com/products/spot/",
+        "canonical_url": null,
+        "publisher": "Boston Dynamics",
+        "title": "Spot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "c8537fe7-ed41-5c51-af67-45590538afe2",
+    "subject": {
+      "id": "74914967-d3be-58ab-aacb-456441b741b1",
+      "slug": "symbotic",
+      "entity_type": "ORGANIZATION",
+      "name": "Symbotic",
+      "primary_embodiment": null
+    },
+    "predicate": "PARTNERS_WITH",
+    "label": "partners with",
+    "sentence": "Symbotic partners with Walmart",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7f880e99-4aa8-51d2-8bd9-c49d613ed706",
+        "slug": "walmart",
+        "entity_type": "ORGANIZATION",
+        "name": "Walmart",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "31f453c5-95d4-5f45-b9bb-7f1c28432412",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Annual report describes the Walmart regional distribution centre programme.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "fba953b5-9138-59ef-903d-60ccc6005693",
+        "url": "https://www.sec.gov/",
+        "canonical_url": null,
+        "publisher": "U.S. Securities and Exchange Commission",
+        "title": "Symbotic Inc. Form 10-K",
+        "source_kind": "FILING",
+        "published_at": "2024-11-25T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "c616d0a9-1df4-5e27-9a7f-b25450a7a133",
+    "subject": {
+      "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+      "slug": "asrs-pallet-handling",
+      "entity_type": "APPROACH",
+      "name": "AS/RS pallet handling",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "AS/RS pallet handling example vendor Symbotic",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "74914967-d3be-58ab-aacb-456441b741b1",
+        "slug": "symbotic",
+        "entity_type": "ORGANIZATION",
+        "name": "Symbotic",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0f44f3ee-f5b7-5c88-baba-9d755579db89",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Annual report describes an AI-enabled robotic warehouse automation system for case handling.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "fba953b5-9138-59ef-903d-60ccc6005693",
+        "url": "https://www.sec.gov/",
+        "canonical_url": null,
+        "publisher": "U.S. Securities and Exchange Commission",
+        "title": "Symbotic Inc. Form 10-K",
+        "source_kind": "FILING",
+        "published_at": "2024-11-25T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

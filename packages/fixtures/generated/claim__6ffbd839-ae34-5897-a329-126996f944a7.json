@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "6ffbd839-ae34-5897-a329-126996f944a7",
+    "subject": {
+      "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+      "slug": "tower-nacelle-inspection",
+      "entity_type": "TASK",
+      "name": "Tower and nacelle inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_INCUMBENT_PROCESS",
+    "label": "incumbent process",
+    "sentence": "Tower and nacelle inspection incumbent process Rope-access or platform inspection by technicians during scheduled maintenance.",
+    "value": {
+      "kind": "text",
+      "text": "Rope-access or platform inspection by technicians during scheduled maintenance."
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "11223fee-5d82-53fa-ac3e-52233c9a7a02",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Structural inspections were historically bundled into technician maintenance visits.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

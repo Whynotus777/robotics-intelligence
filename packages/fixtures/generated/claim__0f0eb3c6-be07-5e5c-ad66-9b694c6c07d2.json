@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "0f0eb3c6-be07-5e5c-ad66-9b694c6c07d2",
+    "subject": {
+      "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+      "slug": "figure-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Figure AI",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Figure AI builds Figure 03",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+        "slug": "figure-03",
+        "entity_type": "ROBOT",
+        "name": "Figure 03",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "90264eed-9819-53ba-a67b-b24e51e54c86",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Figure announced Figure 03 in October 2025.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f57ccab1-ef62-5fbd-a2bb-177d1fb78cde",
+        "url": "https://www.figure.ai/news",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Introducing Figure 03",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-10-09T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "2bc90193-e11b-51f6-ab9e-c5ec95540adf",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "077b0165-6d64-55b6-9e86-0df976c238a9",
+          "slug": "figure-02",
+          "entity_type": "ROBOT",
+          "name": "Figure 02",
+          "primary_embodiment": "HUMANOID"
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

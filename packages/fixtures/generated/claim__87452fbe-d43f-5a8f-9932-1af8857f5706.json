@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "87452fbe-d43f-5a8f-9932-1af8857f5706",
+    "subject": {
+      "id": "e7b662ae-fd0b-5b6d-b51e-066c372b460a",
+      "slug": "fanuc-crx-10ia",
+      "entity_type": "ROBOT",
+      "name": "FANUC CRX-10iA",
+      "primary_embodiment": "COBOT"
+    },
+    "predicate": "HAS_PAYLOAD",
+    "label": "payload",
+    "sentence": "FANUC CRX-10iA payload 10 kg",
+    "value": {
+      "kind": "number",
+      "number": 10,
+      "unit": "kg",
+      "is_approximate": false,
+      "min": null,
+      "max": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "266d4afb-24b2-527b-8c93-555f5403671f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "CRX-10iA listed with 10 kg payload.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "502b7a75-108f-5516-8ba4-faca8cdc3365",
+        "url": "https://www.fanucamerica.com/products/robots/series/crx-collaborative-robots",
+        "canonical_url": null,
+        "publisher": "FANUC America",
+        "title": "CRX collaborative robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

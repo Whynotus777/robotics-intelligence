@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "e0e79c54-e03a-5410-a928-6bf51eee2ef3",
+    "subject": {
+      "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+      "slug": "bladebug",
+      "entity_type": "ORGANIZATION",
+      "name": "BladeBUG",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "BladeBUG is headquartered at London",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "800f06e9-7b3b-5230-84ff-f530446b6b36",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "c351d318-3b63-5a1a-9815-1b66f51f0e90",
+        "url": "https://bladebug.co.uk/",
+        "canonical_url": null,
+        "publisher": "BladeBUG",
+        "title": "BladeBUG",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

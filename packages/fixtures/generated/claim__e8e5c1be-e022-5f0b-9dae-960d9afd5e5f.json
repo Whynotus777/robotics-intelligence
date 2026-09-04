@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "e8e5c1be-e022-5f0b-9dae-960d9afd5e5f",
+    "subject": {
+      "id": "7831a686-465b-5c38-9904-bf9354227e01",
+      "slug": "blade-cleaning",
+      "entity_type": "TASK",
+      "name": "Blade cleaning",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_APPROACH",
+    "label": "has approach",
+    "sentence": "Blade cleaning has approach Rope/cable-suspended robot",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+        "slug": "rope-cable-suspended-robot",
+        "entity_type": "APPROACH",
+        "name": "Rope/cable-suspended robot",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a39c3bcb-67bb-542a-9c8a-2b18a3656cde",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Suspended robots are the commercial approach for cleaning.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "1576b16e-4949-51f8-a827-dc9d49519966",
+    "subject": {
+      "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
+      "slug": "seegrid",
+      "entity_type": "ORGANIZATION",
+      "name": "Seegrid",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Seegrid targets task Pallet movement",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+        "slug": "pallet-movement",
+        "entity_type": "TASK",
+        "name": "Pallet movement",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0d217033-4d13-5fd6-a92f-b56830c16e49",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Autonomous pallet handling is the core product.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e9c6e2eb-146b-5327-9040-45cee3467ef2",
+        "url": "https://seegrid.com/",
+        "canonical_url": null,
+        "publisher": "Seegrid",
+        "title": "Seegrid autonomous mobile robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

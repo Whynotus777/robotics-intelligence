@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "51d16daa-9c6f-5d69-8d11-2a7f06641ffd",
+    "subject": {
+      "id": "dec795f6-0b99-5f18-b60d-3aac56e8dbd9",
+      "slug": "seegrid-palion-lift",
+      "entity_type": "ROBOT",
+      "name": "Seegrid Palion Lift",
+      "primary_embodiment": "AMR"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "Seegrid Palion Lift embodiment AMR",
+    "value": {
+      "kind": "enum",
+      "value": "AMR"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3963ed68-e36f-5022-b9c2-d3a07f89c9e0",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site presents Palion Lift as an autonomous mobile robot.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e9c6e2eb-146b-5327-9040-45cee3467ef2",
+        "url": "https://seegrid.com/",
+        "canonical_url": null,
+        "publisher": "Seegrid",
+        "title": "Seegrid autonomous mobile robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

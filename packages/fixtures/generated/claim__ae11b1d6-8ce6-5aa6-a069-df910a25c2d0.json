@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "ae11b1d6-8ce6-5aa6-a069-df910a25c2d0",
+    "subject": {
+      "id": "ba14d056-2a53-544b-b02c-713a99e06c56",
+      "slug": "agility-digit",
+      "entity_type": "ROBOT",
+      "name": "Agility Digit",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "Agility Digit commercial stage PILOT_DEPLOYMENTS",
+    "value": {
+      "kind": "enum",
+      "value": "PILOT_DEPLOYMENTS"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-06-27",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "21bd0fb3-058f-5f09-8478-b57b3a6cba6a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Multi-year RaaS agreement with GXO for Digit in a live facility.",
+      "published_at": "2024-06-27T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "6e6f65fe-47dc-56ef-8c54-b9a116b89fa0",
+        "url": "https://agilityrobotics.com/news",
+        "canonical_url": null,
+        "publisher": "Agility Robotics",
+        "title": "GXO and Agility Robotics sign multi-year RaaS agreement",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-06-27T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,161 @@
+{
+  "entity": {
+    "id": "da7def0e-8ffc-51fb-b562-a1eac84d32a7",
+    "slug": "deployment-apollo-mercedes",
+    "entity_type": "DEPLOYMENT",
+    "name": "Apollo pilot at Mercedes-Benz",
+    "short_description": "Apptronik Apollo humanoids piloted in Mercedes-Benz manufacturing for parts delivery and inspection tasks.",
+    "primary_embodiment": null,
+    "country_code": "DE",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "BEGAN",
+      "label": "began",
+      "claims": [
+        {
+          "claim_id": "d0060afb-dfca-50d1-881d-6fc0283b437c",
+          "predicate": "BEGAN",
+          "value": {
+            "kind": "date",
+            "date": "2024-03-15"
+          },
+          "stack_layer": null,
+          "valid_from": "2024-03-15",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "USES_ROBOT",
+      "label": "uses robot",
+      "items": [
+        {
+          "claim_id": "cef7a480-1961-5cbe-8364-5c1a399ef9b7",
+          "target": {
+            "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+            "slug": "apptronik-apollo",
+            "entity_type": "ROBOT",
+            "name": "Apptronik Apollo",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2024-03-15",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "DEPLOYED_BY",
+      "label": "is deployed by",
+      "items": [
+        {
+          "claim_id": "864cee6e-1bcb-5f94-9b2c-f4273092a348",
+          "target": {
+            "id": "ca88a44a-f6b4-537a-b678-5bccf9a70bc1",
+            "slug": "mercedes-benz",
+            "entity_type": "ORGANIZATION",
+            "name": "Mercedes-Benz",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-03-15",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "OPERATED_BY",
+      "label": "is operated by",
+      "items": [
+        {
+          "claim_id": "f0fa9387-158d-5336-bf84-b9756dc08a15",
+          "target": {
+            "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
+            "slug": "apptronik",
+            "entity_type": "ORGANIZATION",
+            "name": "Apptronik",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-03-15",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
+        "slug": "apptronik",
+        "entity_type": "ORGANIZATION",
+        "name": "Apptronik",
+        "primary_embodiment": null
+      },
+      {
+        "id": "ca88a44a-f6b4-537a-b678-5bccf9a70bc1",
+        "slug": "mercedes-benz",
+        "entity_type": "ORGANIZATION",
+        "name": "Mercedes-Benz",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 4,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

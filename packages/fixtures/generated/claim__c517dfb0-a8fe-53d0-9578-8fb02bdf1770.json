@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "c517dfb0-a8fe-53d0-9578-8fb02bdf1770",
+    "subject": {
+      "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+      "slug": "autonomous-forklift",
+      "entity_type": "APPROACH",
+      "name": "Autonomous forklift",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "Autonomous forklift example vendor Third Wave Automation",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+        "slug": "third-wave-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "Third Wave Automation",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1b05ab90-f724-5758-af7c-49265634c698",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site describes an autonomous forklift platform.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "de2286e5-e9b2-5c82-a0cc-4482b08a1892",
+        "url": "https://www.thirdwave.ai/",
+        "canonical_url": null,
+        "publisher": "Third Wave Automation",
+        "title": "Third Wave Automation",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "beeeff2e-d4e0-5b8d-9f4f-011d436df20e",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+          "slug": "fox-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Fox Robotics",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

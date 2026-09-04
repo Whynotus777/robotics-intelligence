@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "648fcc9c-bb7d-5cd0-a695-3942e4d12ad1",
+    "subject": {
+      "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+      "slug": "drone-based-blade-maintenance",
+      "entity_type": "APPROACH",
+      "name": "Drone-based",
+      "primary_embodiment": null
+    },
+    "predicate": "USES_EMBODIMENT",
+    "label": "uses embodiment",
+    "sentence": "Drone-based uses embodiment DRONE",
+    "value": {
+      "kind": "enum",
+      "value": "DRONE"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5a6317fe-6158-5740-a12e-a1d9dffd31d4",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "SkySpecs describes autonomous drone inspection of wind turbine blades.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "61dd170d-1752-555e-9683-dc5e0185a78d",
+        "url": "https://skyspecs.com/",
+        "canonical_url": null,
+        "publisher": "SkySpecs",
+        "title": "SkySpecs",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

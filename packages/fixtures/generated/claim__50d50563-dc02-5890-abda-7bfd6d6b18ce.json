@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "50d50563-dc02-5890-abda-7bfd6d6b18ce",
+    "subject": {
+      "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+      "slug": "pallet-movement",
+      "entity_type": "TASK",
+      "name": "Pallet movement",
+      "primary_embodiment": null
+    },
+    "predicate": "BELONGS_TO_MARKET",
+    "label": "belongs to",
+    "sentence": "Pallet movement belongs to Material movement",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+        "slug": "material-movement",
+        "entity_type": "MARKET",
+        "name": "Material movement",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b8c017ff-8061-5910-81ef-36c642843604",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Pallet movement is the highest-volume intralogistics flow inside a distribution centre and is bought by the DC operator.",
+        "advance_criteria": [
+          "Would only change with a taxonomy redesign."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

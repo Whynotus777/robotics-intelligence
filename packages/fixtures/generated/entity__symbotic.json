@@ -1,0 +1,230 @@
+{
+  "entity": {
+    "id": "74914967-d3be-58ab-aacb-456441b741b1",
+    "slug": "symbotic",
+    "entity_type": "ORGANIZATION",
+    "name": "Symbotic",
+    "short_description": "Wilmington, Massachusetts warehouse automation company, public (SYM); Walmart regional DC programme.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [
+      "Symbotic Inc."
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "602c256f-6111-5370-a03f-14c23535df16",
+          "target": {
+            "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+            "slug": "boston",
+            "entity_type": "PLACE",
+            "name": "Boston",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "47efd664-30ab-522d-9b1b-2ae1c05a8ff8",
+          "target": {
+            "id": "68407748-0447-505b-aa53-0d87ab606e33",
+            "slug": "warehouse-logistics",
+            "entity_type": "MARKET",
+            "name": "Warehouse & Logistics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "0fa9d70f-ec15-587b-983c-11f7aa9770f1",
+          "target": {
+            "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+            "slug": "automated-storage-and-retrieval",
+            "entity_type": "TASK",
+            "name": "Automated storage and retrieval",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "PARTNERS_WITH",
+      "label": "partners with",
+      "items": [
+        {
+          "claim_id": "c8537fe7-ed41-5c51-af67-45590538afe2",
+          "target": {
+            "id": "7f880e99-4aa8-51d2-8bd9-c49d613ed706",
+            "slug": "walmart",
+            "entity_type": "ORGANIZATION",
+            "name": "Walmart",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "c616d0a9-1df4-5e27-9a7f-b25450a7a133",
+          "source": {
+            "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+            "slug": "asrs-pallet-handling",
+            "entity_type": "APPROACH",
+            "name": "AS/RS pallet handling",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "OPERATED_BY",
+      "label": "is operated by",
+      "items": [
+        {
+          "claim_id": "8814d400-0ca1-5213-9882-677f74c9db4f",
+          "source": {
+            "id": "cf9f255c-b63f-5aea-b67e-307c2973f610",
+            "slug": "deployment-symbotic-walmart",
+            "entity_type": "DEPLOYMENT",
+            "name": "Symbotic systems at Walmart regional DCs",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-11-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+        "slug": "asrs-pallet-handling",
+        "entity_type": "APPROACH",
+        "name": "AS/RS pallet handling",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "7f880e99-4aa8-51d2-8bd9-c49d613ed706",
+        "slug": "walmart",
+        "entity_type": "ORGANIZATION",
+        "name": "Walmart",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "68407748-0447-505b-aa53-0d87ab606e33",
+        "slug": "warehouse-logistics",
+        "entity_type": "MARKET",
+        "name": "Warehouse & Logistics",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 4,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 6
+  },
+  "as_of": null
+}

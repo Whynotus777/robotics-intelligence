@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "759921e4-abbc-5eb8-b41c-25ef93cc5cb8",
+    "subject": {
+      "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
+      "slug": "boston-dynamics",
+      "entity_type": "ORGANIZATION",
+      "name": "Boston Dynamics",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Boston Dynamics builds Boston Dynamics Spot",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+        "slug": "boston-dynamics-spot",
+        "entity_type": "ROBOT",
+        "name": "Boston Dynamics Spot",
+        "primary_embodiment": "QUADRUPED"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0700a264-0add-5734-a59d-976801019d11",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company product page for Spot.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "08748fb5-70c7-55d1-900b-e9aba8bb10ed",
+        "url": "https://bostondynamics.com/products/spot/",
+        "canonical_url": null,
+        "publisher": "Boston Dynamics",
+        "title": "Spot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

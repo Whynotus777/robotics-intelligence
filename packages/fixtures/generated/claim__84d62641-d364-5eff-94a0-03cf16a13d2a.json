@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "84d62641-d364-5eff-94a0-03cf16a13d2a",
+    "subject": {
+      "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+      "slug": "lightning-protection-testing",
+      "entity_type": "TASK",
+      "name": "Lightning-protection testing",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Lightning-protection testing maturity EARLY_COMMERCIAL",
+    "value": {
+      "kind": "enum",
+      "value": "EARLY_COMMERCIAL"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3a729037-8b67-589a-a69f-9850509be115",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Aerones sells robotic LPS continuity testing commercially and it is a natural add-on for any suspended platform already on the blade. Volume is limited by how often owners test, which is annual at most, so it will follow cleaning rather than lead it.",
+        "advance_criteria": [
+          "LPS testing bundled into standard inspection campaigns",
+          "More than one vendor selling it",
+          "Certification bodies accepting robot-generated test records"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [
+          {
+            "claim_id": "053251ae-15ff-54d9-8b33-641af7e16f0a",
+            "sentence": "Aerones targets task Lightning-protection testing"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

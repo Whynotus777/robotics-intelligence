@@ -1,0 +1,195 @@
+{
+  "entity": {
+    "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
+    "slug": "seegrid",
+    "entity_type": "ORGANIZATION",
+    "name": "Seegrid",
+    "short_description": "Pittsburgh vendor of autonomous pallet-handling AMRs and lift trucks.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "aa434d66-6ff1-5256-90e1-e505f897c514",
+          "target": {
+            "id": "87216f35-32ce-54be-9ed9-86c480775092",
+            "slug": "pittsburgh",
+            "entity_type": "PLACE",
+            "name": "Pittsburgh",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "5b097df4-b6c4-502a-b24b-8f82b5cf1ddb",
+          "target": {
+            "id": "dec795f6-0b99-5f18-b60d-3aac56e8dbd9",
+            "slug": "seegrid-palion-lift",
+            "entity_type": "ROBOT",
+            "name": "Seegrid Palion Lift",
+            "primary_embodiment": "AMR"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "d87c2792-3a32-5b78-a981-7660ecf0bf2a",
+          "target": {
+            "id": "68407748-0447-505b-aa53-0d87ab606e33",
+            "slug": "warehouse-logistics",
+            "entity_type": "MARKET",
+            "name": "Warehouse & Logistics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "1576b16e-4949-51f8-a827-dc9d49519966",
+          "target": {
+            "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+            "slug": "pallet-movement",
+            "entity_type": "TASK",
+            "name": "Pallet movement",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "7fb3f26d-f6f9-5253-bf0f-e13608c85f56",
+          "source": {
+            "id": "c7a570a3-5b5e-57dd-9b63-116a208684e2",
+            "slug": "amr-pallet-jack-or-lift",
+            "entity_type": "APPROACH",
+            "name": "AMR pallet jack or lift",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "c7a570a3-5b5e-57dd-9b63-116a208684e2",
+        "slug": "amr-pallet-jack-or-lift",
+        "entity_type": "APPROACH",
+        "name": "AMR pallet jack or lift",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "68407748-0447-505b-aa53-0d87ab606e33",
+        "slug": "warehouse-logistics",
+        "entity_type": "MARKET",
+        "name": "Warehouse & Logistics",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "87216f35-32ce-54be-9ed9-86c480775092",
+        "slug": "pittsburgh",
+        "entity_type": "PLACE",
+        "name": "Pittsburgh",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 4,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 5
+  },
+  "as_of": null
+}

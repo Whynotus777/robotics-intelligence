@@ -1,0 +1,216 @@
+{
+  "entity": {
+    "id": "725c8452-4827-542d-b7fd-49846d70c637",
+    "slug": "universal-robots-ur20",
+    "entity_type": "ROBOT",
+    "name": "Universal Robots UR20",
+    "short_description": "20 kg payload collaborative arm with 1,750 mm reach; the largest member of the UR line at launch.",
+    "primary_embodiment": "COBOT",
+    "country_code": "DK",
+    "aliases": [
+      "UR20"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": "VOLUME_PRODUCTION",
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": 20,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "d398dda3-4d1e-52c9-b8de-49ef13c1ad89",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "COBOT"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_PAYLOAD",
+      "label": "payload",
+      "claims": [
+        {
+          "claim_id": "ec9a7a44-a3d5-5e60-b79c-4631828d2429",
+          "predicate": "HAS_PAYLOAD",
+          "value": {
+            "kind": "number",
+            "number": 20,
+            "unit": "kg",
+            "is_approximate": false,
+            "min": null,
+            "max": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_REACH",
+      "label": "reach",
+      "claims": [
+        {
+          "claim_id": "8a7e8a9e-d8af-5858-8cf8-e3ceee724d75",
+          "predicate": "HAS_REACH",
+          "value": {
+            "kind": "number",
+            "number": 1.75,
+            "unit": "m",
+            "is_approximate": false,
+            "min": null,
+            "max": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "90eda469-693d-593d-ab6a-0bb8e1dd048b",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "VOLUME_PRODUCTION"
+          },
+          "stack_layer": null,
+          "valid_from": "2023-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ANNOUNCED_ON",
+      "label": "was announced on",
+      "claims": [
+        {
+          "claim_id": "2a5324eb-c6b1-55d8-b2fa-0e06faba4c7e",
+          "predicate": "ANNOUNCED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2022-06-21"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "b0d95918-c5fa-5247-b797-c06a2a51c860",
+          "source": {
+            "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+            "slug": "universal-robots",
+            "entity_type": "ORGANIZATION",
+            "name": "Universal Robots",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+        "slug": "universal-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Universal Robots",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 5,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 5,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

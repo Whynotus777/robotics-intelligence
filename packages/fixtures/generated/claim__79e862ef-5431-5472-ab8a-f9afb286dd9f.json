@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "79e862ef-5431-5472-ab8a-f9afb286dd9f",
+    "subject": {
+      "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
+      "slug": "blade-crawler",
+      "entity_type": "APPROACH",
+      "name": "Blade crawler",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "Blade crawler example vendor BladeBUG",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+        "slug": "bladebug",
+        "entity_type": "ORGANIZATION",
+        "name": "BladeBUG",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f92cbb7d-0a01-5dad-92fc-7053d37abc71",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "BladeBUG is named as the crawler developer in the trial coverage.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e9b4045f-2660-586b-ab71-1da4ac8fb42d",
+        "url": "https://www.ore.catapult.org.uk/",
+        "canonical_url": null,
+        "publisher": "ORE Catapult",
+        "title": "BladeBUG offshore blade-walking trials",
+        "source_kind": "NEWS",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

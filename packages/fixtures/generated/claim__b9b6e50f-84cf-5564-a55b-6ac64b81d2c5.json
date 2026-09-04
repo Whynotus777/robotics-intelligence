@@ -1,0 +1,54 @@
+{
+  "claim": {
+    "claim_id": "b9b6e50f-84cf-5564-a55b-6ac64b81d2c5",
+    "subject": {
+      "id": "c7a570a3-5b5e-57dd-9b63-116a208684e2",
+      "slug": "amr-pallet-jack-or-lift",
+      "entity_type": "APPROACH",
+      "name": "AMR pallet jack or lift",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "AMR pallet jack or lift maturity SCALING",
+    "value": {
+      "kind": "enum",
+      "value": "SCALING"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5f00d597-8e37-59f0-bf03-27c7f884b73a",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Seegrid, Vecna and OTTO Motors sell autonomous pallet trucks into repeat multi-site deployments with 3PLs and manufacturers, and the category has a Rockwell-owned incumbent. It is scaling rather than mature because penetration is still a small fraction of pallet-truck hours and each site remains a project.",
+        "advance_criteria": [
+          "Autonomous units as a standard line item in 3PL fleet purchases",
+          "Order-to-first-shift under a month at brownfield sites",
+          "Mixed-vendor fleets orchestrated by a customer-owned system"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

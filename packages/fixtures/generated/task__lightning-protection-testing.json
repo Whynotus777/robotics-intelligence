@@ -1,0 +1,163 @@
+{
+  "task": {
+    "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+    "slug": "lightning-protection-testing",
+    "entity_type": "TASK",
+    "name": "Lightning-protection testing",
+    "primary_embodiment": null
+  },
+  "short_description": "Verifying continuity of the blade lightning protection system between receptors and the tower ground path.",
+  "market_path": [
+    {
+      "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+      "slug": "energy",
+      "entity_type": "MARKET",
+      "name": "Energy",
+      "primary_embodiment": null
+    },
+    {
+      "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+      "slug": "wind",
+      "entity_type": "MARKET",
+      "name": "Wind",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "EARLY_COMMERCIAL",
+    "claim_id": "84d62641-d364-5eff-94a0-03cf16a13d2a",
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "Aerones sells robotic LPS continuity testing commercially and it is a natural add-on for any suspended platform already on the blade. Volume is limited by how often owners test, which is annual at most, so it will follow cleaning rather than lead it.",
+      "advance_criteria": [
+        "LPS testing bundled into standard inspection campaigns",
+        "More than one vendor selling it",
+        "Certification bodies accepting robot-generated test records"
+      ],
+      "regress_criteria": [],
+      "evidence_considered": [
+        {
+          "claim_id": "053251ae-15ff-54d9-8b33-641af7e16f0a",
+          "sentence": "Aerones targets task Lightning-protection testing"
+        }
+      ],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "75da0e24-36df-5b94-b1a1-3791fc2ac6bb",
+      "text": "Technician continuity measurement from rope access or platform.",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The test itself is simple; the cost is entirely access.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "approaches": [
+    {
+      "approach": {
+        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+        "slug": "rope-cable-suspended-robot",
+        "entity_type": "APPROACH",
+        "name": "Rope/cable-suspended robot",
+        "primary_embodiment": null
+      },
+      "short_description": "A robot lowered from the nacelle on ropes or cables and positioned against the blade for cleaning, coating, testing and repair.",
+      "maturity": {
+        "value": "EARLY_COMMERCIAL",
+        "claim_id": "c1b02147-ed8f-5595-90fc-82c243725e1d",
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "MEDIUM",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Aerones and Rope Robotics sell suspended-robot cleaning, leading-edge protection and lightning-protection testing commercially to multiple owners; structural repair from the same platforms is still in pilot. Early commercial for the approach overall, with the caveat that repair specifically is a step behind.",
+          "advance_criteria": [
+            "Structural repair sold as a standard service, not a trial",
+            "Fleets operating in more than one continent per vendor",
+            "Multi-year service agreements that name robotic maintenance"
+          ],
+          "regress_criteria": [],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "OTHER_MOBILE"
+      ],
+      "example_vendors": [
+        {
+          "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+          "slug": "aerones",
+          "entity_type": "ORGANIZATION",
+          "name": "Aerones",
+          "primary_embodiment": null
+        },
+        {
+          "id": "81571cfa-9773-5740-a33f-0121af56676c",
+          "slug": "rope-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Rope Robotics",
+          "primary_embodiment": null
+        }
+      ]
+    }
+  ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+        "slug": "aerones",
+        "entity_type": "ORGANIZATION",
+        "name": "Aerones",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "4106d674-6986-552b-9d1c-78fb2bff725b",
+      "text": "Asset owners and operators",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Owners carry the insurance obligation to test.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "as_of": null
+}

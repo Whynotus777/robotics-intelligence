@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "5d3a339e-7953-58ba-8bc3-30db9163b6c9",
+    "subject": {
+      "id": "9c12a0ae-d1aa-5eed-ab85-416b54bece15",
+      "slug": "fox-robotics-foxbot",
+      "entity_type": "ROBOT",
+      "name": "Fox Robotics FoxBot",
+      "primary_embodiment": "AMR"
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Fox Robotics FoxBot targets task Truck unloading",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+        "slug": "truck-unloading",
+        "entity_type": "TASK",
+        "name": "Truck unloading",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c707bf18-4440-53b4-be45-10e67abd7c44",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Positioned for trailer unloading.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8b8806bb-2c1f-508f-b5f6-9eed0efb07ed",
+        "url": "https://www.foxrobotics.com/",
+        "canonical_url": null,
+        "publisher": "Fox Robotics",
+        "title": "Fox Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "615604ce-5657-5f20-81f9-fff009809d48",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+          "slug": "pallet-movement",
+          "entity_type": "TASK",
+          "name": "Pallet movement",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

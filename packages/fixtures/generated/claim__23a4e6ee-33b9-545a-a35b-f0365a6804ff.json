@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "23a4e6ee-33b9-545a-a35b-f0365a6804ff",
+    "subject": {
+      "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+      "slug": "kuka",
+      "entity_type": "ORGANIZATION",
+      "name": "KUKA",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "KUKA is headquartered at Augsburg",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "63ea4a0f-c5cc-5670-bc5d-b8ee14a41b77",
+        "slug": "augsburg",
+        "entity_type": "PLACE",
+        "name": "Augsburg",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "50e955cf-8b2a-5e91-9031-efe3e565d067",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "41e063c9-6750-52f1-abce-1876bbf48d6b",
+        "url": "https://www.kuka.com/",
+        "canonical_url": null,
+        "publisher": "KUKA",
+        "title": "KUKA",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

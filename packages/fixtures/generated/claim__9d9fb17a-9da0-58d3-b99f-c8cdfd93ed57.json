@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "9d9fb17a-9da0-58d3-b99f-c8cdfd93ed57",
+    "subject": {
+      "id": "108bca22-090c-5533-9916-b2e41907451f",
+      "slug": "deployment-locus-3pl-sites",
+      "entity_type": "DEPLOYMENT",
+      "name": "Locus fleets at 3PL sites",
+      "primary_embodiment": null
+    },
+    "predicate": "SERVES_TASK",
+    "label": "serves task",
+    "sentence": "Locus fleets at 3PL sites serves task Each-picking assistance",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+        "slug": "each-picking-assistance",
+        "entity_type": "TASK",
+        "name": "Each-picking assistance",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-11-18",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6e52b95f-2e38-5bd4-ae5d-cdf0460bdff4",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Four billion picks milestone announced across customer sites.",
+      "published_at": "2024-11-18T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f18a3a63-00a5-53f5-9c33-e4660a973d57",
+        "url": "https://locusrobotics.com/news",
+        "canonical_url": null,
+        "publisher": "Locus Robotics",
+        "title": "Locus Robotics surpasses four billion picks",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-11-18T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "950b22b1-3f85-511b-a518-3c93d495d1cd",
+    "subject": {
+      "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+      "slug": "otto-motors",
+      "entity_type": "ORGANIZATION",
+      "name": "OTTO Motors",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "OTTO Motors is headquartered at Kitchener",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "89cb7062-9c7b-5274-ac5e-75379f738a35",
+        "slug": "kitchener",
+        "entity_type": "PLACE",
+        "name": "Kitchener",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "06ffdf9d-b018-5f0f-bebf-00fa4c9ac649",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "3c3ac060-107e-536a-9e91-1ddda7edbcc4",
+        "url": "https://ottomotors.com/",
+        "canonical_url": null,
+        "publisher": "OTTO Motors by Rockwell Automation",
+        "title": "OTTO Motors",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

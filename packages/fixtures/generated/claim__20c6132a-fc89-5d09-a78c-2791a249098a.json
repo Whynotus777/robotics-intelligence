@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "20c6132a-fc89-5d09-a78c-2791a249098a",
+    "subject": {
+      "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+      "slug": "unitree-g1",
+      "entity_type": "ROBOT",
+      "name": "Unitree G1",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "Unitree G1 embodiment HUMANOID",
+    "value": {
+      "kind": "enum",
+      "value": "HUMANOID"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "21f87df8-f5ee-5572-a89c-b952a1b524f2",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Product page presents G1 as a humanoid agent.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "12757afb-2e99-5fb4-a2f7-316d704ce8c1",
+        "url": "https://www.unitree.com/g1",
+        "canonical_url": null,
+        "publisher": "Unitree Robotics",
+        "title": "Unitree G1 humanoid agent",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": "2024-05-13T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

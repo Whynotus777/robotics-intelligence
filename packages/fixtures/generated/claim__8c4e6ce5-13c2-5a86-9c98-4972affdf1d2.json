@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "8c4e6ce5-13c2-5a86-9c98-4972affdf1d2",
+    "subject": {
+      "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+      "slug": "third-wave-automation",
+      "entity_type": "ORGANIZATION",
+      "name": "Third Wave Automation",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Third Wave Automation targets task Pallet movement",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+        "slug": "pallet-movement",
+        "entity_type": "TASK",
+        "name": "Pallet movement",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "980f1ecc-dcfb-5f72-9231-d37cd004c74f",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Autonomous forklifts for pallet movement.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "de2286e5-e9b2-5c82-a0cc-4482b08a1892",
+        "url": "https://www.thirdwave.ai/",
+        "canonical_url": null,
+        "publisher": "Third Wave Automation",
+        "title": "Third Wave Automation",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,80 @@
+{
+  "entity": {
+    "id": "b68dee12-fd2b-52e9-8e63-85bcc3263b17",
+    "slug": "utilities",
+    "entity_type": "MARKET",
+    "name": "Utilities",
+    "short_description": "Power, water and telecom networks: substations, line inspection, pipe and tunnel work.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "31055d10-870d-543f-90c9-feffb4654bd2",
+          "source": {
+            "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+            "slug": "skydio",
+            "entity_type": "ORGANIZATION",
+            "name": "Skydio",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+        "slug": "skydio",
+        "entity_type": "ORGANIZATION",
+        "name": "Skydio",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

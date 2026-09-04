@@ -1,0 +1,174 @@
+{
+  "entity": {
+    "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
+    "slug": "blade-crawler",
+    "entity_type": "APPROACH",
+    "name": "Blade crawler",
+    "short_description": "A robot that adheres to and walks along the blade surface, carrying inspection or repair tooling directly to the defect.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "PILOT"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "b524ba71-a01d-52ca-af78-9ac870325b6b",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "PILOT"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_EMBODIMENT",
+      "label": "uses embodiment",
+      "claims": [
+        {
+          "claim_id": "852d1425-9b57-532b-8119-c1b5f6f25309",
+          "predicate": "USES_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "OTHER_MOBILE"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "79e862ef-5431-5472-ab8a-f9afb286dd9f",
+          "target": {
+            "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+            "slug": "bladebug",
+            "entity_type": "ORGANIZATION",
+            "name": "BladeBUG",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "68108d86-64a5-5e91-a703-49c6c3dd005f",
+          "source": {
+            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+            "slug": "blade-repair",
+            "entity_type": "TASK",
+            "name": "Blade repair",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "81045df3-8341-5a5e-a64a-97752988bfc5",
+          "source": {
+            "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+            "slug": "contact-ndt",
+            "entity_type": "TASK",
+            "name": "Contact NDT",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+        "slug": "bladebug",
+        "entity_type": "ORGANIZATION",
+        "name": "BladeBUG",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 2,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 1
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

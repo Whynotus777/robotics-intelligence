@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "602c256f-6111-5370-a03f-14c23535df16",
+    "subject": {
+      "id": "74914967-d3be-58ab-aacb-456441b741b1",
+      "slug": "symbotic",
+      "entity_type": "ORGANIZATION",
+      "name": "Symbotic",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Symbotic is headquartered at Boston",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "06b54eab-87f1-52c0-8b44-7e615c959235",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "fba953b5-9138-59ef-903d-60ccc6005693",
+        "url": "https://www.sec.gov/",
+        "canonical_url": null,
+        "publisher": "U.S. Securities and Exchange Commission",
+        "title": "Symbotic Inc. Form 10-K",
+        "source_kind": "FILING",
+        "published_at": "2024-11-25T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

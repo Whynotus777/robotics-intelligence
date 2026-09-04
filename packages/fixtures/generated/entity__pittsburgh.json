@@ -1,0 +1,86 @@
+{
+  "entity": {
+    "id": "87216f35-32ce-54be-9ed9-86c480775092",
+    "slug": "pittsburgh",
+    "entity_type": "PLACE",
+    "name": "Pittsburgh",
+    "short_description": "Carnegie Mellon spin-out ecosystem; autonomous pallet handling and mobile robots.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": "Pennsylvania",
+    "city": "Pittsburgh",
+    "lat": 40.44,
+    "lng": -79.99,
+    "cluster_label": "Pittsburgh"
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "aa434d66-6ff1-5256-90e1-e505f897c514",
+          "source": {
+            "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
+            "slug": "seegrid",
+            "entity_type": "ORGANIZATION",
+            "name": "Seegrid",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
+        "slug": "seegrid",
+        "entity_type": "ORGANIZATION",
+        "name": "Seegrid",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

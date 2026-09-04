@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "9e553eb2-9c55-5dbb-b946-9232162b317c",
+    "subject": {
+      "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+      "slug": "fox-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Fox Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Fox Robotics targets task Truck unloading",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+        "slug": "truck-unloading",
+        "entity_type": "TASK",
+        "name": "Truck unloading",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "642234d5-8f8f-53ea-b5ce-74c8423b2b17",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Trailer unloading is the lead application.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8b8806bb-2c1f-508f-b5f6-9eed0efb07ed",
+        "url": "https://www.foxrobotics.com/",
+        "canonical_url": null,
+        "publisher": "Fox Robotics",
+        "title": "Fox Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "fc5f2545-cd85-565b-8660-3dd838fa8640",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+          "slug": "pallet-movement",
+          "entity_type": "TASK",
+          "name": "Pallet movement",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

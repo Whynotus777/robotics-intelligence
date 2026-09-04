@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "d63314de-9f0f-564d-b564-f6ad77d403fe",
+    "subject": {
+      "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
+      "slug": "agility",
+      "entity_type": "ORGANIZATION",
+      "name": "Agility Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Agility Robotics builds Agility Digit",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ba14d056-2a53-544b-b02c-713a99e06c56",
+        "slug": "agility-digit",
+        "entity_type": "ROBOT",
+        "name": "Agility Digit",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9c24f1e0-953a-59b6-99c7-c333e3b2887a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company product page for Digit.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4a43e56a-60c3-52a9-b5f8-f550155bf4c7",
+        "url": "https://agilityrobotics.com/products/digit",
+        "canonical_url": null,
+        "publisher": "Agility Robotics",
+        "title": "Digit",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

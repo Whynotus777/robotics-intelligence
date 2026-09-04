@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "1879e91e-e048-51ce-8625-aec7f7c8d126",
+    "subject": {
+      "id": "098db5e0-7b78-56a1-8990-159131dbdb7c",
+      "slug": "bmw",
+      "entity_type": "ORGANIZATION",
+      "name": "BMW Group",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "BMW Group is headquartered at Munich",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
+        "entity_type": "PLACE",
+        "name": "Munich",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a12f79e6-f2c8-5433-9e34-97e77091337d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "fa26c40e-4a6a-554f-b133-dd29f44608e2",
+        "url": "https://www.bmwgroup.com/",
+        "canonical_url": null,
+        "publisher": "BMW Group",
+        "title": "BMW Group",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

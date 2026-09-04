@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "cd5cb6ee-3bf6-5392-b7e4-56fccae576e9",
+    "subject": {
+      "id": "51b72286-5ede-5876-9d5c-1d7036060163",
+      "slug": "deployment-figure-bmw-spartanburg",
+      "entity_type": "DEPLOYMENT",
+      "name": "Figure humanoids at BMW Spartanburg",
+      "primary_embodiment": null
+    },
+    "predicate": "USES_ROBOT",
+    "label": "uses robot",
+    "sentence": "Figure humanoids at BMW Spartanburg uses robot Figure 02",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "077b0165-6d64-55b6-9e86-0df976c238a9",
+        "slug": "figure-02",
+        "entity_type": "ROBOT",
+        "name": "Figure 02",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-08-06",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "005b02bb-bc0e-53b8-81a9-958d82a8f91b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Figure 02 shown operating at BMW Spartanburg.",
+      "published_at": "2024-08-06T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "88be2f2d-9606-511f-8ef0-839b15b04118",
+        "url": "https://www.figure.ai/news",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Figure 02 announcement",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-08-06T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

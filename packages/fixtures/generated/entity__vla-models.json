@@ -1,0 +1,91 @@
+{
+  "entity": {
+    "id": "bc3bbbc6-d8b1-5fdc-b75e-722ffc380762",
+    "slug": "vla-models",
+    "entity_type": "TECHNOLOGY",
+    "name": "VLA models",
+    "short_description": "Vision-language-action models: foundation models that map camera images and language instructions directly to robot actions, trained on large teleoperation datasets.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "Vision-language-action models",
+      "Robot foundation models"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "ce6d9777-5e03-5bae-a8d5-a9df282abffd",
+          "source": {
+            "id": "70bc43e3-1e7f-5d97-9852-8dbc09ee40ee",
+            "slug": "helix",
+            "entity_type": "MODEL",
+            "name": "Helix",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2025-02-20",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "915b3dc0-8438-5d47-b8f7-5372d421d71d",
+          "source": {
+            "id": "3efa143b-c4c7-5c49-bc42-af2abd624356",
+            "slug": "pi0",
+            "entity_type": "MODEL",
+            "name": "π0",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-10-31",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 2
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {},
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

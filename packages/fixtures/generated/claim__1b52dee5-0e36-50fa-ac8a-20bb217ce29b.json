@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "1b52dee5-0e36-50fa-ac8a-20bb217ce29b",
+    "subject": {
+      "id": "dec795f6-0b99-5f18-b60d-3aac56e8dbd9",
+      "slug": "seegrid-palion-lift",
+      "entity_type": "ROBOT",
+      "name": "Seegrid Palion Lift",
+      "primary_embodiment": "AMR"
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Seegrid Palion Lift targets task Pallet movement",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+        "slug": "pallet-movement",
+        "entity_type": "TASK",
+        "name": "Pallet movement",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9e2a566a-4b31-54ff-b9d7-23edb3a4ec9c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Positioned for autonomous pallet handling.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e9c6e2eb-146b-5327-9040-45cee3467ef2",
+        "url": "https://seegrid.com/",
+        "canonical_url": null,
+        "publisher": "Seegrid",
+        "title": "Seegrid autonomous mobile robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,191 @@
+{
+  "entity": {
+    "id": "ba14d056-2a53-544b-b02c-713a99e06c56",
+    "slug": "agility-digit",
+    "entity_type": "ROBOT",
+    "name": "Agility Digit",
+    "short_description": "Bipedal humanoid built for tote handling in logistics; the first humanoid under a commercial RaaS agreement.",
+    "primary_embodiment": "HUMANOID",
+    "country_code": "US",
+    "aliases": [
+      "Digit"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": "PILOT_DEPLOYMENTS",
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "95fe9872-dc24-59ba-aea0-0c403aaed3c5",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "ae11b1d6-8ce6-5aa6-a069-df910a25c2d0",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "PILOT_DEPLOYMENTS"
+          },
+          "stack_layer": null,
+          "valid_from": "2024-06-27",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "d5905a4c-86aa-5170-8b59-210434a78472",
+          "target": {
+            "id": "68407748-0447-505b-aa53-0d87ab606e33",
+            "slug": "warehouse-logistics",
+            "entity_type": "MARKET",
+            "name": "Warehouse & Logistics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "USES_ROBOT",
+      "label": "uses robot",
+      "items": [
+        {
+          "claim_id": "b953bcd8-b930-5d4b-9bd8-b763ad57601b",
+          "source": {
+            "id": "c03bb1d8-ae3a-58f0-b5a1-5d5f4c91a924",
+            "slug": "deployment-digit-gxo",
+            "entity_type": "DEPLOYMENT",
+            "name": "Agility Digit at GXO",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-06-27",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "d63314de-9f0f-564d-b564-f6ad77d403fe",
+          "source": {
+            "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
+            "slug": "agility",
+            "entity_type": "ORGANIZATION",
+            "name": "Agility Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
+        "slug": "agility",
+        "entity_type": "ORGANIZATION",
+        "name": "Agility Robotics",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "68407748-0447-505b-aa53-0d87ab606e33",
+        "slug": "warehouse-logistics",
+        "entity_type": "MARKET",
+        "name": "Warehouse & Logistics",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 1,
+    "related_count": 3
+  },
+  "as_of": null
+}

@@ -4,5 +4,6 @@
   "private": true,
   "type": "module",
   "main": "src/index.ts",
+  "dependencies": { "@ri/domain": "workspace:*", "zod": "^4.5.4" },
   "scripts": { "typecheck": "tsc --noEmit -p .", "test": "vitest run --passWithNoTests" }
 }

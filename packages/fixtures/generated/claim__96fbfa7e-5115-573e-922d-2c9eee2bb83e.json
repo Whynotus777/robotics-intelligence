@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "96fbfa7e-5115-573e-922d-2c9eee2bb83e",
+    "subject": {
+      "id": "9c12a0ae-d1aa-5eed-ab85-416b54bece15",
+      "slug": "fox-robotics-foxbot",
+      "entity_type": "ROBOT",
+      "name": "Fox Robotics FoxBot",
+      "primary_embodiment": "AMR"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "Fox Robotics FoxBot embodiment AMR",
+    "value": {
+      "kind": "enum",
+      "value": "AMR"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "be324e7e-fa0c-505f-86f1-c4021ea55fb7",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site presents FoxBot as an autonomous forklift.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8b8806bb-2c1f-508f-b5f6-9eed0efb07ed",
+        "url": "https://www.foxrobotics.com/",
+        "canonical_url": null,
+        "publisher": "Fox Robotics",
+        "title": "Fox Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

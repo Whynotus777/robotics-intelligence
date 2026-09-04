@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "c0f5c8a5-1913-5001-b2e9-f59a6abe4a2e",
+    "subject": {
+      "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+      "slug": "rope-cable-suspended-robot",
+      "entity_type": "APPROACH",
+      "name": "Rope/cable-suspended robot",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "Rope/cable-suspended robot example vendor Aerones",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+        "slug": "aerones",
+        "entity_type": "ORGANIZATION",
+        "name": "Aerones",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ba33cae0-c937-512b-8569-860299c1a94f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site lists cleaning, leading-edge protection, lightning-protection testing and inspection services.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4ce2c8fb-0e96-5b59-b23a-f75549b2151e",
+        "url": "https://aerones.com/",
+        "canonical_url": null,
+        "publisher": "Aerones",
+        "title": "Aerones robotic wind turbine maintenance",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "1b500e9c-1776-5206-829e-d1e951eec881",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "81571cfa-9773-5740-a33f-0121af56676c",
+          "slug": "rope-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Rope Robotics",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

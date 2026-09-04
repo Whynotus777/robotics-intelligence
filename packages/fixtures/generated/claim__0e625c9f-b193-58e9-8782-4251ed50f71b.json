@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "0e625c9f-b193-58e9-8782-4251ed50f71b",
+    "subject": {
+      "id": "d7947928-8b51-5563-ac9a-8910108075b3",
+      "slug": "skydio-x10",
+      "entity_type": "ROBOT",
+      "name": "Skydio X10",
+      "primary_embodiment": "DRONE"
+    },
+    "predicate": "HAS_ARCHITECTURE_NOTE",
+    "label": "architecture note",
+    "sentence": "Skydio X10 architecture note X10 runs Skydio's onboard autonomy stack for obstacle avoidance and autonomous data capture, so missions do not depend on a remote pilot's line of sight.",
+    "value": {
+      "kind": "text",
+      "text": "X10 runs Skydio's onboard autonomy stack for obstacle avoidance and autonomous data capture, so missions do not depend on a remote pilot's line of sight."
+    },
+    "stack_layer": "INTELLIGENCE",
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "45632c8b-911c-557c-8859-05f6afa41f99",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Product page describes onboard autonomy and obstacle avoidance.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "ad7db38e-1905-51d0-b521-015a678f25f7",
+        "url": "https://www.skydio.com/x10",
+        "canonical_url": null,
+        "publisher": "Skydio",
+        "title": "Skydio X10",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

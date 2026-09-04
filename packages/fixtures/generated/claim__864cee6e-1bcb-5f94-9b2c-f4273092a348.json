@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "864cee6e-1bcb-5f94-9b2c-f4273092a348",
+    "subject": {
+      "id": "da7def0e-8ffc-51fb-b562-a1eac84d32a7",
+      "slug": "deployment-apollo-mercedes",
+      "entity_type": "DEPLOYMENT",
+      "name": "Apollo pilot at Mercedes-Benz",
+      "primary_embodiment": null
+    },
+    "predicate": "DEPLOYED_BY",
+    "label": "is deployed by",
+    "sentence": "Apollo pilot at Mercedes-Benz is deployed by Mercedes-Benz",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ca88a44a-f6b4-537a-b678-5bccf9a70bc1",
+        "slug": "mercedes-benz",
+        "entity_type": "ORGANIZATION",
+        "name": "Mercedes-Benz",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-03-15",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ae154fb9-ee91-5787-85fe-f29432ca4d1a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Mercedes-Benz named as the pilot customer.",
+      "published_at": "2024-03-15T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8d00e432-7535-5a8f-b41c-c212ff64077b",
+        "url": "https://apptronik.com/news",
+        "canonical_url": null,
+        "publisher": "Apptronik",
+        "title": "Apptronik and Mercedes-Benz announce commercial agreement",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-03-15T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

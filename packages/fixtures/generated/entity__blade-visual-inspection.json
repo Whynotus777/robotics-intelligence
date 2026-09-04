@@ -1,0 +1,321 @@
+{
+  "entity": {
+    "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+    "slug": "blade-visual-inspection",
+    "entity_type": "TASK",
+    "name": "Blade visual inspection",
+    "short_description": "Photographic inspection of blade surfaces for erosion, cracks and lightning damage, usually by drone.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "MATURE"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "8ac9ee72-4d9e-56c7-8d8d-fe3b6172f0ab",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "MATURE"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_INCUMBENT_PROCESS",
+      "label": "incumbent process",
+      "claims": [
+        {
+          "claim_id": "97c70299-1a54-59dc-8830-0da263a60a72",
+          "predicate": "HAS_INCUMBENT_PROCESS",
+          "value": {
+            "kind": "text",
+            "text": "Ground-based telephoto photography or rope-access close visual inspection."
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
+      "claims": [
+        {
+          "claim_id": "eb7a39fc-181a-588e-9c3c-f84f7320a240",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Asset owners and operators"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "68e2cbf1-db8c-55be-84dd-36a8e1e58e3e",
+          "target": {
+            "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+            "slug": "wind",
+            "entity_type": "MARKET",
+            "name": "Wind",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "4b12109e-4bf4-51a4-8449-78ef47a3c356",
+          "target": {
+            "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+            "slug": "drone-based-blade-maintenance",
+            "entity_type": "APPROACH",
+            "name": "Drone-based",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "SERVES_TASK",
+      "label": "serves task",
+      "items": [
+        {
+          "claim_id": "5a58eb5a-82b0-5548-a9a5-244470f61cdd",
+          "source": {
+            "id": "2ad4ac39-383d-59c3-ad41-466f420c5ee1",
+            "slug": "deployment-skyspecs-wind-fleets",
+            "entity_type": "DEPLOYMENT",
+            "name": "SkySpecs inspections across utility-scale wind fleets",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "2baf8f68-526a-59db-b371-772826bac1c0",
+          "source": {
+            "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+            "slug": "aerones",
+            "entity_type": "ORGANIZATION",
+            "name": "Aerones",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "2e7b412b-dafb-5e84-8e49-56810b6b0e45",
+          "source": {
+            "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+            "slug": "bladebug",
+            "entity_type": "ORGANIZATION",
+            "name": "BladeBUG",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "5103dd29-96c0-5d79-ad45-1c8b51875caf",
+          "source": {
+            "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
+            "slug": "skyspecs",
+            "entity_type": "ORGANIZATION",
+            "name": "SkySpecs",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
+      "items": [
+        {
+          "claim_id": "26a673ab-061e-5c03-9ec1-c2e836df2362",
+          "source": {
+            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+            "slug": "blade-repair",
+            "entity_type": "TASK",
+            "name": "Blade repair",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+        "slug": "drone-based-blade-maintenance",
+        "entity_type": "APPROACH",
+        "name": "Drone-based",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+        "slug": "aerones",
+        "entity_type": "ORGANIZATION",
+        "name": "Aerones",
+        "primary_embodiment": null
+      },
+      {
+        "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+        "slug": "bladebug",
+        "entity_type": "ORGANIZATION",
+        "name": "BladeBUG",
+        "primary_embodiment": null
+      },
+      {
+        "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
+        "slug": "skyspecs",
+        "entity_type": "ORGANIZATION",
+        "name": "SkySpecs",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+        "slug": "wind",
+        "entity_type": "MARKET",
+        "name": "Wind",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 5
+      },
+      "claim_count": 5,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 7
+  },
+  "as_of": null
+}

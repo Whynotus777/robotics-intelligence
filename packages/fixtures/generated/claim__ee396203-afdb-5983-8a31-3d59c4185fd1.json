@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "ee396203-afdb-5983-8a31-3d59c4185fd1",
+    "subject": {
+      "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+      "slug": "figure-03",
+      "entity_type": "ROBOT",
+      "name": "Figure 03",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "SUCCEEDS",
+    "label": "succeeds",
+    "sentence": "Figure 03 succeeds Figure 02",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "077b0165-6d64-55b6-9e86-0df976c238a9",
+        "slug": "figure-02",
+        "entity_type": "ROBOT",
+        "name": "Figure 02",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2025-10-09",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9f2aae73-3d2a-5c12-910a-b215b489beb4",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Positioned as the successor to Figure 02.",
+      "published_at": "2025-10-09T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f57ccab1-ef62-5fbd-a2bb-177d1fb78cde",
+        "url": "https://www.figure.ai/news",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Introducing Figure 03",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-10-09T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

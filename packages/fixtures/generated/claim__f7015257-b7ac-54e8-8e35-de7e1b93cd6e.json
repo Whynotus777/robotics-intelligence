@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "f7015257-b7ac-54e8-8e35-de7e1b93cd6e",
+    "subject": {
+      "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+      "slug": "contact-ndt",
+      "entity_type": "TASK",
+      "name": "Contact NDT",
+      "primary_embodiment": null
+    },
+    "predicate": "BELONGS_TO_MARKET",
+    "label": "belongs to",
+    "sentence": "Contact NDT belongs to Wind",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+        "slug": "wind",
+        "entity_type": "MARKET",
+        "name": "Wind",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "15600c75-50f1-588b-a908-3fb8d638284f",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "A wind O&M task on installed assets.",
+        "advance_criteria": [
+          "Would only change with a taxonomy redesign."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

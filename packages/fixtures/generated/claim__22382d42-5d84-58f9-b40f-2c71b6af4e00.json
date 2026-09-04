@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "22382d42-5d84-58f9-b40f-2c71b6af4e00",
+    "subject": {
+      "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+      "slug": "each-picking-assistance",
+      "entity_type": "TASK",
+      "name": "Each-picking assistance",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Each-picking assistance maturity SCALING",
+    "value": {
+      "kind": "enum",
+      "value": "SCALING"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1d75fd52-69e8-5ab9-9bcb-da6591682db5",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Collaborative picking AMRs run at thousands of sites, Locus alone reports billions of picks, and the model is sold as RaaS with predictable unit economics. It stops short of mature because the human picker is still in the loop and the next step, autonomous each-picking, is a different task.",
+        "advance_criteria": [
+          "Default choice in new fulfilment-centre designs across regions",
+          "Multi-vendor price competition at commodity margins",
+          "Integration with autonomous picking arms in production sites"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [
+          {
+            "claim_id": "f3255b54-8fac-5c7d-813c-c0eed24d443b",
+            "sentence": "Locus Robotics targets task Each-picking assistance"
+          },
+          {
+            "claim_id": "9d9fb17a-9da0-58d3-b99f-c8cdfd93ed57",
+            "sentence": "Locus fleets at 3PL sites serves task Each-picking assistance"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "e5262db2-697b-5bc7-b40e-3cb97c4c5fb8",
+    "subject": {
+      "id": "79815395-59ce-5c93-aef0-8686647839c6",
+      "slug": "locus",
+      "entity_type": "ORGANIZATION",
+      "name": "Locus Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Locus Robotics is headquartered at Boston",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "133bb7dc-e191-5805-aa2a-f11177370bde",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "ea50ca3f-5695-5568-8e24-1fdf58b6eb53",
+        "url": "https://locusrobotics.com/",
+        "canonical_url": null,
+        "publisher": "Locus Robotics",
+        "title": "Locus Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

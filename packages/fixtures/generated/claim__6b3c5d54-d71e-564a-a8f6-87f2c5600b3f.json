@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "6b3c5d54-d71e-564a-a8f6-87f2c5600b3f",
+    "subject": {
+      "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+      "slug": "aerones",
+      "entity_type": "ORGANIZATION",
+      "name": "Aerones",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "Aerones targets market Energy",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+        "slug": "energy",
+        "entity_type": "MARKET",
+        "name": "Energy",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "957c6edd-4b17-55c5-aabd-584901f37ef8",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Wind turbine maintenance positioning.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4ce2c8fb-0e96-5b59-b23a-f75549b2151e",
+        "url": "https://aerones.com/",
+        "canonical_url": null,
+        "publisher": "Aerones",
+        "title": "Aerones robotic wind turbine maintenance",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

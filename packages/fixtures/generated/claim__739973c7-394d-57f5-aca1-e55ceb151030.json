@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "739973c7-394d-57f5-aca1-e55ceb151030",
+    "subject": {
+      "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+      "slug": "unitree-g1",
+      "entity_type": "ROBOT",
+      "name": "Unitree G1",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "USES_PRODUCT",
+    "label": "uses",
+    "sentence": "Unitree G1 uses NVIDIA Jetson Orin NX",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+        "slug": "nvidia-jetson-orin-nx",
+        "entity_type": "COMPONENT_PRODUCT",
+        "name": "NVIDIA Jetson Orin NX",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": "COMPUTE",
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ee82dd64-09cc-51b6-a01f-7b59b4ac5cfd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "EDU variants list an NVIDIA Jetson Orin NX as the onboard high-performance compute; the base configuration ships without it.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "12757afb-2e99-5fb4-a2f7-316d704ce8c1",
+        "url": "https://www.unitree.com/g1",
+        "canonical_url": null,
+        "publisher": "Unitree Robotics",
+        "title": "Unitree G1 humanoid agent",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": "2024-05-13T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

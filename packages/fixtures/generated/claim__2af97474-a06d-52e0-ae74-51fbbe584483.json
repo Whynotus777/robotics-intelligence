@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "2af97474-a06d-52e0-ae74-51fbbe584483",
+    "subject": {
+      "id": "7a815a44-1bd7-5a3c-b191-f9ce732e5ec1",
+      "slug": "nvidia-isaac-sim",
+      "entity_type": "SOFTWARE_PRODUCT",
+      "name": "NVIDIA Isaac Sim",
+      "primary_embodiment": null
+    },
+    "predicate": "MADE_BY",
+    "label": "is made by",
+    "sentence": "NVIDIA Isaac Sim is made by NVIDIA",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+        "slug": "nvidia",
+        "entity_type": "ORGANIZATION",
+        "name": "NVIDIA",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d46a31f3-5039-5f51-b84f-289326f9e03a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "NVIDIA developer page for Isaac Sim.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "773d0c65-bcde-5ea0-bff0-f99903e5a13f",
+        "url": "https://developer.nvidia.com/isaac/sim",
+        "canonical_url": null,
+        "publisher": "NVIDIA",
+        "title": "NVIDIA Isaac Sim",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

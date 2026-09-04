@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "013b292e-9c22-5ebf-a257-882f7ab8efd4",
+    "subject": {
+      "id": "51b72286-5ede-5876-9d5c-1d7036060163",
+      "slug": "deployment-figure-bmw-spartanburg",
+      "entity_type": "DEPLOYMENT",
+      "name": "Figure humanoids at BMW Spartanburg",
+      "primary_embodiment": null
+    },
+    "predicate": "OPERATED_BY",
+    "label": "is operated by",
+    "sentence": "Figure humanoids at BMW Spartanburg is operated by Figure AI",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+        "slug": "figure-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Figure AI",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-01-18",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "86da5710-5776-5c96-9d05-ed3c6fcbf4eb",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Figure named as the robot provider.",
+      "published_at": "2024-01-18T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "0364de20-5e49-59c4-b726-72fca74c413a",
+        "url": "https://www.press.bmwgroup.com/global",
+        "canonical_url": null,
+        "publisher": "BMW Group",
+        "title": "BMW Manufacturing and Figure agree on the use of humanoid robots",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-01-18T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

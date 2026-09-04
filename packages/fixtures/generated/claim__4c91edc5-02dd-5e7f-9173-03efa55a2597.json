@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "4c91edc5-02dd-5e7f-9173-03efa55a2597",
+    "subject": {
+      "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+      "slug": "apptronik-apollo",
+      "entity_type": "ROBOT",
+      "name": "Apptronik Apollo",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "COMPETES_WITH",
+    "label": "competes with",
+    "sentence": "Apptronik Apollo competes with Figure 03",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+        "slug": "figure-03",
+        "entity_type": "ROBOT",
+        "name": "Figure 03",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0f46a1b4-b93e-5897-bc67-4e13d7f6947f",
+      "class": "DERIVED",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Derived from shared embodiment (humanoid).",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": [
+    {
+      "claim_id": "682375ed-63fe-557f-a647-b64885e6853a",
+      "sentence": "Apptronik Apollo embodiment HUMANOID"
+    },
+    {
+      "claim_id": "c2ee733a-b52b-5b10-933d-f72dcce22f01",
+      "sentence": "Figure 03 embodiment HUMANOID"
+    }
+  ]
+}

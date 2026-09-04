@@ -1,0 +1,185 @@
+{
+  "market": {
+    "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+    "slug": "energy",
+    "entity_type": "MARKET",
+    "name": "Energy",
+    "primary_embodiment": null
+  },
+  "short_description": "Generation and transmission assets: wind, solar, oil and gas, nuclear. Inspection and maintenance at height and in hazardous areas.",
+  "path": [],
+  "children": [
+    {
+      "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+      "slug": "wind",
+      "entity_type": "MARKET",
+      "name": "Wind",
+      "primary_embodiment": null
+    }
+  ],
+  "board": [
+    {
+      "task": {
+        "id": "7831a686-465b-5c38-9904-bf9354227e01",
+        "slug": "blade-cleaning",
+        "entity_type": "TASK",
+        "name": "Blade cleaning",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+        "slug": "wind",
+        "entity_type": "MARKET",
+        "name": "Wind",
+        "primary_embodiment": null
+      },
+      "maturity": "EARLY_COMMERCIAL",
+      "maturity_claim_id": "a6e1b03a-dc28-5f9b-9015-eca73bb4621d",
+      "dominant_approach": {
+        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+        "slug": "rope-cable-suspended-robot",
+        "entity_type": "APPROACH",
+        "name": "Rope/cable-suspended robot",
+        "primary_embodiment": null
+      },
+      "vendor_count": 1,
+      "deployment_count": 0
+    },
+    {
+      "task": {
+        "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+        "slug": "blade-repair",
+        "entity_type": "TASK",
+        "name": "Blade repair",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+        "slug": "wind",
+        "entity_type": "MARKET",
+        "name": "Wind",
+        "primary_embodiment": null
+      },
+      "maturity": "PILOT",
+      "maturity_claim_id": "f5a755a7-986d-54cf-af8b-435cba6a6ac8",
+      "dominant_approach": {
+        "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+        "slug": "drone-based-blade-maintenance",
+        "entity_type": "APPROACH",
+        "name": "Drone-based",
+        "primary_embodiment": null
+      },
+      "vendor_count": 3,
+      "deployment_count": 0
+    },
+    {
+      "task": {
+        "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+        "slug": "blade-visual-inspection",
+        "entity_type": "TASK",
+        "name": "Blade visual inspection",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+        "slug": "wind",
+        "entity_type": "MARKET",
+        "name": "Wind",
+        "primary_embodiment": null
+      },
+      "maturity": "MATURE",
+      "maturity_claim_id": "8ac9ee72-4d9e-56c7-8d8d-fe3b6172f0ab",
+      "dominant_approach": {
+        "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+        "slug": "drone-based-blade-maintenance",
+        "entity_type": "APPROACH",
+        "name": "Drone-based",
+        "primary_embodiment": null
+      },
+      "vendor_count": 3,
+      "deployment_count": 1
+    },
+    {
+      "task": {
+        "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+        "slug": "contact-ndt",
+        "entity_type": "TASK",
+        "name": "Contact NDT",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+        "slug": "wind",
+        "entity_type": "MARKET",
+        "name": "Wind",
+        "primary_embodiment": null
+      },
+      "maturity": "PILOT",
+      "maturity_claim_id": "e01d1d89-f083-5dde-a73f-a19fc2e43061",
+      "dominant_approach": {
+        "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
+        "slug": "blade-crawler",
+        "entity_type": "APPROACH",
+        "name": "Blade crawler",
+        "primary_embodiment": null
+      },
+      "vendor_count": 0,
+      "deployment_count": 0
+    },
+    {
+      "task": {
+        "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+        "slug": "lightning-protection-testing",
+        "entity_type": "TASK",
+        "name": "Lightning-protection testing",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+        "slug": "wind",
+        "entity_type": "MARKET",
+        "name": "Wind",
+        "primary_embodiment": null
+      },
+      "maturity": "EARLY_COMMERCIAL",
+      "maturity_claim_id": "84d62641-d364-5eff-94a0-03cf16a13d2a",
+      "dominant_approach": {
+        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+        "slug": "rope-cable-suspended-robot",
+        "entity_type": "APPROACH",
+        "name": "Rope/cable-suspended robot",
+        "primary_embodiment": null
+      },
+      "vendor_count": 1,
+      "deployment_count": 0
+    },
+    {
+      "task": {
+        "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+        "slug": "tower-nacelle-inspection",
+        "entity_type": "TASK",
+        "name": "Tower and nacelle inspection",
+        "primary_embodiment": null
+      },
+      "domain": {
+        "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+        "slug": "wind",
+        "entity_type": "MARKET",
+        "name": "Wind",
+        "primary_embodiment": null
+      },
+      "maturity": "SCALING",
+      "maturity_claim_id": "32e534c9-db38-517c-8070-0834e4dad865",
+      "dominant_approach": {
+        "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+        "slug": "drone-based-blade-maintenance",
+        "entity_type": "APPROACH",
+        "name": "Drone-based",
+        "primary_embodiment": null
+      },
+      "vendor_count": 0,
+      "deployment_count": 0
+    }
+  ],
+  "as_of": null
+}

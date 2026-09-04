@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "1343da16-63c2-57f1-a047-048474997521",
+    "subject": {
+      "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
+      "slug": "dji-matrice-350-rtk",
+      "entity_type": "ROBOT",
+      "name": "DJI Matrice 350 RTK",
+      "primary_embodiment": "DRONE"
+    },
+    "predicate": "HAS_PAYLOAD",
+    "label": "payload",
+    "sentence": "DJI Matrice 350 RTK payload 2.7 kg",
+    "value": {
+      "kind": "number",
+      "number": 2.7,
+      "unit": "kg",
+      "is_approximate": false,
+      "min": null,
+      "max": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e62a2e1c-53cb-5fbd-9a20-bace3188faee",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Spec table lists 2.7 kg maximum payload.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "ad78206f-3ce5-5689-abcc-a544b7df7d69",
+        "url": "https://enterprise.dji.com/matrice-350-rtk",
+        "canonical_url": null,
+        "publisher": "DJI",
+        "title": "Matrice 350 RTK",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

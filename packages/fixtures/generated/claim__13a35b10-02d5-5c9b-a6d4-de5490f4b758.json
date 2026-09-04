@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "13a35b10-02d5-5c9b-a6d4-de5490f4b758",
+    "subject": {
+      "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+      "slug": "truck-unloading",
+      "entity_type": "TASK",
+      "name": "Truck unloading",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_APPROACH",
+    "label": "has approach",
+    "sentence": "Truck unloading has approach Autonomous forklift",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+        "slug": "autonomous-forklift",
+        "entity_type": "APPROACH",
+        "name": "Autonomous forklift",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "49343c85-3a44-5447-a704-9a164dfe553c",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Autonomous forklifts are the approach for palletised trailers.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

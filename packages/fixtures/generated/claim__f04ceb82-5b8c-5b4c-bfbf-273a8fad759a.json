@@ -1,0 +1,94 @@
+{
+  "claim": {
+    "claim_id": "f04ceb82-5b8c-5b4c-bfbf-273a8fad759a",
+    "subject": {
+      "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+      "slug": "pallet-movement",
+      "entity_type": "TASK",
+      "name": "Pallet movement",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_APPROACH",
+    "label": "has approach",
+    "sentence": "Pallet movement has approach AMR pallet jack or lift",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c7a570a3-5b5e-57dd-9b63-116a208684e2",
+        "slug": "amr-pallet-jack-or-lift",
+        "entity_type": "APPROACH",
+        "name": "AMR pallet jack or lift",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "fbce4213-7ab4-50a3-b457-4d1eb4e07d68",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Purpose-built AMR pallet trucks are the most widely deployed approach.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "7fa58e98-7b33-5cd3-a02f-1c52a87b559d",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+          "slug": "autonomous-forklift",
+          "entity_type": "APPROACH",
+          "name": "Autonomous forklift",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "bf517742-3c0e-5e7d-8146-804f944717d0",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+          "slug": "asrs-pallet-handling",
+          "entity_type": "APPROACH",
+          "name": "AS/RS pallet handling",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

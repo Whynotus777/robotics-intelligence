@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "820515c3-5d88-5a0f-9bda-023c1b85d036",
+    "subject": {
+      "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
+      "slug": "skyspecs",
+      "entity_type": "ORGANIZATION",
+      "name": "SkySpecs",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "SkySpecs targets market Energy",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+        "slug": "energy",
+        "entity_type": "MARKET",
+        "name": "Energy",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c16e5a92-fcf6-5993-aa14-c947c1249257",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Wind energy positioning.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "61dd170d-1752-555e-9683-dc5e0185a78d",
+        "url": "https://skyspecs.com/",
+        "canonical_url": null,
+        "publisher": "SkySpecs",
+        "title": "SkySpecs",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

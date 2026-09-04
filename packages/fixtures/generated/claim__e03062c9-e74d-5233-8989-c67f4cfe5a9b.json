@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "e03062c9-e74d-5233-8989-c67f4cfe5a9b",
+    "subject": {
+      "id": "7a815a44-1bd7-5a3c-b191-f9ce732e5ec1",
+      "slug": "nvidia-isaac-sim",
+      "entity_type": "SOFTWARE_PRODUCT",
+      "name": "NVIDIA Isaac Sim",
+      "primary_embodiment": null
+    },
+    "predicate": "IS_INSTANCE_OF",
+    "label": "is an instance of",
+    "sentence": "NVIDIA Isaac Sim is an instance of Robot simulation",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "df144e10-f6af-545b-89a8-6e11ef3bd795",
+        "slug": "robot-simulation",
+        "entity_type": "TECHNOLOGY",
+        "name": "Robot simulation",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b9795992-2f75-5349-b0b1-f98f11395e07",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Described as a robotics simulation platform.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "773d0c65-bcde-5ea0-bff0-f99903e5a13f",
+        "url": "https://developer.nvidia.com/isaac/sim",
+        "canonical_url": null,
+        "publisher": "NVIDIA",
+        "title": "NVIDIA Isaac Sim",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

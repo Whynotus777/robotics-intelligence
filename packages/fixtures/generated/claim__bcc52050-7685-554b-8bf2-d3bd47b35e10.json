@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "bcc52050-7685-554b-8bf2-d3bd47b35e10",
+    "subject": {
+      "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+      "slug": "autonomous-forklift",
+      "entity_type": "APPROACH",
+      "name": "Autonomous forklift",
+      "primary_embodiment": null
+    },
+    "predicate": "USES_EMBODIMENT",
+    "label": "uses embodiment",
+    "sentence": "Autonomous forklift uses embodiment AMR",
+    "value": {
+      "kind": "enum",
+      "value": "AMR"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "55bb13cc-569b-5aa7-9597-c873cc7979ed",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Fox Robotics describes autonomous forklifts for trailer unloading.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8b8806bb-2c1f-508f-b5f6-9eed0efb07ed",
+        "url": "https://www.foxrobotics.com/",
+        "canonical_url": null,
+        "publisher": "Fox Robotics",
+        "title": "Fox Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "eb7a39fc-181a-588e-9c3c-f84f7320a240",
+    "subject": {
+      "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+      "slug": "blade-visual-inspection",
+      "entity_type": "TASK",
+      "name": "Blade visual inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_CUSTOMER_TYPE",
+    "label": "customer type",
+    "sentence": "Blade visual inspection customer type Asset owners and operators",
+    "value": {
+      "kind": "text",
+      "text": "Asset owners and operators"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "13dea3dc-e9c4-5dd0-955a-e71fcee84fcb",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Owners buy fleet-wide inspection campaigns and the resulting defect analytics.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

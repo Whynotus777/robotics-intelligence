@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "9c61d028-a495-537d-ab29-c82f5877a706",
+    "subject": {
+      "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+      "slug": "boston-dynamics-spot",
+      "entity_type": "ROBOT",
+      "name": "Boston Dynamics Spot",
+      "primary_embodiment": "QUADRUPED"
+    },
+    "predicate": "USES_TECHNOLOGY",
+    "label": "uses",
+    "sentence": "Boston Dynamics Spot uses Depth cameras",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
+        "slug": "depth-cameras",
+        "entity_type": "TECHNOLOGY",
+        "name": "Depth cameras",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": "SENSORS",
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b0113f5d-3df1-50bf-8dd8-bdc5c4f1e0c5",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Spec table lists stereo depth cameras around the body.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "08748fb5-70c7-55d1-900b-e9aba8bb10ed",
+        "url": "https://bostondynamics.com/products/spot/",
+        "canonical_url": null,
+        "publisher": "Boston Dynamics",
+        "title": "Spot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

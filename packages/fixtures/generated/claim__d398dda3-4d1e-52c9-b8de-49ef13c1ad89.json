@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "d398dda3-4d1e-52c9-b8de-49ef13c1ad89",
+    "subject": {
+      "id": "725c8452-4827-542d-b7fd-49846d70c637",
+      "slug": "universal-robots-ur20",
+      "entity_type": "ROBOT",
+      "name": "Universal Robots UR20",
+      "primary_embodiment": "COBOT"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "Universal Robots UR20 embodiment COBOT",
+    "value": {
+      "kind": "enum",
+      "value": "COBOT"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d6cd8efb-4ab1-5b56-a003-ff15d8a59309",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Product page presents UR20 as a collaborative robot arm.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "d895196b-11fe-556a-92fb-3eb8cc7982fd",
+        "url": "https://www.universal-robots.com/products/ur20-robot/",
+        "canonical_url": null,
+        "publisher": "Universal Robots",
+        "title": "UR20 collaborative robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

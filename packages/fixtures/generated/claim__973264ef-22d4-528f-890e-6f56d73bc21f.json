@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "973264ef-22d4-528f-890e-6f56d73bc21f",
+    "subject": {
+      "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+      "slug": "tower-nacelle-inspection",
+      "entity_type": "TASK",
+      "name": "Tower and nacelle inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "BELONGS_TO_MARKET",
+    "label": "belongs to",
+    "sentence": "Tower and nacelle inspection belongs to Wind",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+        "slug": "wind",
+        "entity_type": "MARKET",
+        "name": "Wind",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ee44ebdd-7c60-52e9-bc8c-7e6fd33780d9",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "A wind O&M task on installed assets.",
+        "advance_criteria": [
+          "Would only change with a taxonomy redesign."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

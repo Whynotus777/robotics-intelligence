@@ -1,0 +1,225 @@
+{
+  "entity": {
+    "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+    "slug": "aerones",
+    "entity_type": "ORGANIZATION",
+    "name": "Aerones",
+    "short_description": "Riga-based robotic blade maintenance: cleaning, leading-edge protection, lightning-protection testing and inspection.",
+    "primary_embodiment": null,
+    "country_code": "LV",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "6b8479fe-8f60-59ef-a6a9-381d4ae62465",
+          "target": {
+            "id": "6553850c-ac3a-5321-baec-c47853b493a4",
+            "slug": "riga",
+            "entity_type": "PLACE",
+            "name": "Riga",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "6b3c5d54-d71e-564a-a8f6-87f2c5600b3f",
+          "target": {
+            "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+            "slug": "energy",
+            "entity_type": "MARKET",
+            "name": "Energy",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "84a934f3-ab29-59d0-9fed-91175af3c8fd",
+          "target": {
+            "id": "7831a686-465b-5c38-9904-bf9354227e01",
+            "slug": "blade-cleaning",
+            "entity_type": "TASK",
+            "name": "Blade cleaning",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "053251ae-15ff-54d9-8b33-641af7e16f0a",
+          "target": {
+            "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+            "slug": "lightning-protection-testing",
+            "entity_type": "TASK",
+            "name": "Lightning-protection testing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d46b472e-b561-55c1-9e0b-3ed71d879a54",
+          "target": {
+            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+            "slug": "blade-repair",
+            "entity_type": "TASK",
+            "name": "Blade repair",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "2baf8f68-526a-59db-b371-772826bac1c0",
+          "target": {
+            "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+            "slug": "blade-visual-inspection",
+            "entity_type": "TASK",
+            "name": "Blade visual inspection",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "c0f5c8a5-1913-5001-b2e9-f59a6abe4a2e",
+          "source": {
+            "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+            "slug": "rope-cable-suspended-robot",
+            "entity_type": "APPROACH",
+            "name": "Rope/cable-suspended robot",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+        "slug": "rope-cable-suspended-robot",
+        "entity_type": "APPROACH",
+        "name": "Rope/cable-suspended robot",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+        "slug": "energy",
+        "entity_type": "MARKET",
+        "name": "Energy",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "6553850c-ac3a-5321-baec-c47853b493a4",
+        "slug": "riga",
+        "entity_type": "PLACE",
+        "name": "Riga",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 6,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 6,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 7
+  },
+  "as_of": null
+}

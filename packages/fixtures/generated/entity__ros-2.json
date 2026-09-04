@@ -1,0 +1,141 @@
+{
+  "entity": {
+    "id": "30e61e00-e79f-5403-8fd8-e1a5c4c6e6ca",
+    "slug": "ros-2",
+    "entity_type": "SOFTWARE_PRODUCT",
+    "name": "ROS 2",
+    "short_description": "Open-source robot middleware and tooling; the default integration layer for research robots and many commercial AMRs.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "ROS2",
+      "Robot Operating System 2"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "MADE_BY",
+      "label": "is made by",
+      "items": [
+        {
+          "claim_id": "c943addf-b015-5e8c-91fb-c1f654b668b0",
+          "target": {
+            "id": "576daf4f-6804-5aa2-a992-4d99e23940f1",
+            "slug": "open-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Open Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "77c13832-a8aa-5308-9a94-6d22ea6694f1",
+          "target": {
+            "id": "7d8d3eeb-b991-563e-8570-e2950be5c769",
+            "slug": "robot-middleware",
+            "entity_type": "TECHNOLOGY",
+            "name": "Robot middleware",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "DEVELOPS",
+      "label": "develops",
+      "items": [
+        {
+          "claim_id": "700d541f-ccec-584c-a418-aa73f2d5a906",
+          "source": {
+            "id": "576daf4f-6804-5aa2-a992-4d99e23940f1",
+            "slug": "open-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Open Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "576daf4f-6804-5aa2-a992-4d99e23940f1",
+        "slug": "open-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Open Robotics",
+        "primary_embodiment": null
+      }
+    ],
+    "technologies": [
+      {
+        "id": "7d8d3eeb-b991-563e-8570-e2950be5c769",
+        "slug": "robot-middleware",
+        "entity_type": "TECHNOLOGY",
+        "name": "Robot middleware",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

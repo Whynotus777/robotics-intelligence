@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "10dd62d0-b8d1-52bf-bf75-ce087957af52",
+    "subject": {
+      "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+      "slug": "bladebug",
+      "entity_type": "ORGANIZATION",
+      "name": "BladeBUG",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "BladeBUG targets market Energy",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+        "slug": "energy",
+        "entity_type": "MARKET",
+        "name": "Energy",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ac103944-a298-51ae-9520-bab49c78b34b",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Offshore wind positioning.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "c351d318-3b63-5a1a-9815-1b66f51f0e90",
+        "url": "https://bladebug.co.uk/",
+        "canonical_url": null,
+        "publisher": "BladeBUG",
+        "title": "BladeBUG",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

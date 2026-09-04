@@ -1,0 +1,156 @@
+{
+  "entity": {
+    "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
+    "slug": "case-picking",
+    "entity_type": "TASK",
+    "name": "Case picking",
+    "short_description": "Building mixed-case pallets or moving full cases from storage to outbound, by arm or by automated system.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "EARLY_COMMERCIAL"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "58a6e753-029b-503a-9194-cf36aeb8f0c2",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "EARLY_COMMERCIAL"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_INCUMBENT_PROCESS",
+      "label": "incumbent process",
+      "claims": [
+        {
+          "claim_id": "e64b26a7-f7b1-52a1-a002-f39bc5a96d03",
+          "predicate": "HAS_INCUMBENT_PROCESS",
+          "value": {
+            "kind": "text",
+            "text": "Manual case picking with pallet jacks and voice-directed picking."
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
+      "claims": [
+        {
+          "claim_id": "d2582827-fde9-5502-b61b-f236cd211bb6",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Grocery and retail distributors"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "7dbe0fbc-9154-5651-bf4b-fcef4ad5289b",
+          "target": {
+            "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+            "slug": "material-movement",
+            "entity_type": "MARKET",
+            "name": "Material movement",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "markets": [
+      {
+        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+        "slug": "material-movement",
+        "entity_type": "MARKET",
+        "name": "Material movement",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 4
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

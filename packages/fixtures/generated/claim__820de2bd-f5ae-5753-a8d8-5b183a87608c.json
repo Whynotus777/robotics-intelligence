@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "820de2bd-f5ae-5753-a8d8-5b183a87608c",
+    "subject": {
+      "id": "dec795f6-0b99-5f18-b60d-3aac56e8dbd9",
+      "slug": "seegrid-palion-lift",
+      "entity_type": "ROBOT",
+      "name": "Seegrid Palion Lift",
+      "primary_embodiment": "AMR"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "Seegrid Palion Lift commercial stage COMMERCIAL",
+    "value": {
+      "kind": "enum",
+      "value": "COMMERCIAL"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2022-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2e505a89-8453-5553-afad-e213f62ebdb6",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Offered as a commercial product line.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e9c6e2eb-146b-5327-9040-45cee3467ef2",
+        "url": "https://seegrid.com/",
+        "canonical_url": null,
+        "publisher": "Seegrid",
+        "title": "Seegrid autonomous mobile robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

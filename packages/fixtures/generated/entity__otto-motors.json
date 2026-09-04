@@ -1,0 +1,174 @@
+{
+  "entity": {
+    "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+    "slug": "otto-motors",
+    "entity_type": "ORGANIZATION",
+    "name": "OTTO Motors",
+    "short_description": "Kitchener, Ontario industrial AMR vendor including pallet movers; acquired by Rockwell Automation.",
+    "primary_embodiment": null,
+    "country_code": "CA",
+    "aliases": [
+      "OTTO Motors by Rockwell Automation",
+      "Clearpath Robotics"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "950b22b1-3f85-511b-a518-3c93d495d1cd",
+          "target": {
+            "id": "89cb7062-9c7b-5274-ac5e-75379f738a35",
+            "slug": "kitchener",
+            "entity_type": "PLACE",
+            "name": "Kitchener",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "74efedbe-40a6-57e4-9d20-bd51fabcc0ed",
+          "target": {
+            "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+            "slug": "manufacturing",
+            "entity_type": "MARKET",
+            "name": "Manufacturing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "bead0c05-2b48-56b6-b9c5-d9858d668f27",
+          "target": {
+            "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+            "slug": "pallet-movement",
+            "entity_type": "TASK",
+            "name": "Pallet movement",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "d49e3f35-ac58-5d13-ad61-d883582c33c1",
+          "source": {
+            "id": "c7a570a3-5b5e-57dd-9b63-116a208684e2",
+            "slug": "amr-pallet-jack-or-lift",
+            "entity_type": "APPROACH",
+            "name": "AMR pallet jack or lift",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "c7a570a3-5b5e-57dd-9b63-116a208684e2",
+        "slug": "amr-pallet-jack-or-lift",
+        "entity_type": "APPROACH",
+        "name": "AMR pallet jack or lift",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+        "slug": "manufacturing",
+        "entity_type": "MARKET",
+        "name": "Manufacturing",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "89cb7062-9c7b-5274-ac5e-75379f738a35",
+        "slug": "kitchener",
+        "entity_type": "PLACE",
+        "name": "Kitchener",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 4
+  },
+  "as_of": null
+}

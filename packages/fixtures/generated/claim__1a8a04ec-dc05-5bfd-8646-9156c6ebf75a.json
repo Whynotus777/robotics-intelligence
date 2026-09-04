@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "1a8a04ec-dc05-5bfd-8646-9156c6ebf75a",
+    "subject": {
+      "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+      "slug": "tower-nacelle-inspection",
+      "entity_type": "TASK",
+      "name": "Tower and nacelle inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_APPROACH",
+    "label": "has approach",
+    "sentence": "Tower and nacelle inspection has approach Drone-based",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+        "slug": "drone-based-blade-maintenance",
+        "entity_type": "APPROACH",
+        "name": "Drone-based",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "81fd64c2-08f9-5c2f-b58b-d272700ae94d",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Drone inspection extends naturally from blades to the rest of the structure.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

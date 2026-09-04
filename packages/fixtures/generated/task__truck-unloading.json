@@ -1,0 +1,172 @@
+{
+  "task": {
+    "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+    "slug": "truck-unloading",
+    "entity_type": "TASK",
+    "name": "Truck unloading",
+    "primary_embodiment": null
+  },
+  "short_description": "Unloading pallets or floor-loaded cases from trailers at the receiving dock without a human operator.",
+  "market_path": [
+    {
+      "id": "68407748-0447-505b-aa53-0d87ab606e33",
+      "slug": "warehouse-logistics",
+      "entity_type": "MARKET",
+      "name": "Warehouse & Logistics",
+      "primary_embodiment": null
+    },
+    {
+      "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+      "slug": "material-movement",
+      "entity_type": "MARKET",
+      "name": "Material movement",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "PILOT",
+    "claim_id": "c3ec3add-8d88-57b1-8e72-a51051cc4088",
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "Robotic trailer unloading runs at early customer sites for both palletised (autonomous forklift) and floor-loaded (arm-based) freight, but it is not routine: trailer condition, lighting and load variability make every trailer an edge case. Vendors report throughput on good trailers, not on the fleet average.",
+      "advance_criteria": [
+        "Unattended operation across a customer's full inbound trailer mix",
+        "Throughput parity with a human crew on the fleet average",
+        "Repeat orders from more than one customer"
+      ],
+      "regress_criteria": [],
+      "evidence_considered": [
+        {
+          "claim_id": "9e553eb2-9c55-5dbb-b946-9232162b317c",
+          "sentence": "Fox Robotics targets task Truck unloading"
+        }
+      ],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "f818248a-375e-5ca4-9b6e-30bb3f47fd64",
+      "text": "Manual forklift drivers for palletised freight; manual crews for floor-loaded cases.",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Unloading is one of the hardest jobs to staff at a DC, which is the pull.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "approaches": [
+    {
+      "approach": {
+        "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+        "slug": "autonomous-forklift",
+        "entity_type": "APPROACH",
+        "name": "Autonomous forklift",
+        "primary_embodiment": null
+      },
+      "short_description": "Retrofit kits or purpose-built forklifts that drive, lift and enter trailers autonomously.",
+      "maturity": {
+        "value": "EARLY_COMMERCIAL",
+        "claim_id": "2e13a355-7765-5eb6-ba02-427a6d2d96a9",
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "MEDIUM",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Fox Robotics and Third Wave Automation sell autonomous forklifts into paying customer sites, with trailer work as the wedge, but customer counts are small and the trailer edge cases are still being worked through site by site. A step behind the pallet-jack approach on repeatability.",
+          "advance_criteria": [
+            "Repeat multi-site orders from the same customers",
+            "Unattended trailer unloading across the full inbound mix",
+            "A major forklift OEM shipping autonomy as a factory option"
+          ],
+          "regress_criteria": [],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "AMR"
+      ],
+      "example_vendors": [
+        {
+          "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+          "slug": "fox-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Fox Robotics",
+          "primary_embodiment": null
+        },
+        {
+          "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+          "slug": "third-wave-automation",
+          "entity_type": "ORGANIZATION",
+          "name": "Third Wave Automation",
+          "primary_embodiment": null
+        }
+      ]
+    }
+  ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+        "slug": "fox-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Fox Robotics",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "3ed1817b-50c2-5401-a2d4-9506182d0c63",
+      "text": "Third-party logistics providers (3PLs)",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "3PLs with high inbound volume are the pilot customers.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "adjacent_tasks": [
+    {
+      "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+      "slug": "pallet-movement",
+      "entity_type": "TASK",
+      "name": "Pallet movement",
+      "primary_embodiment": null
+    }
+  ],
+  "as_of": null
+}

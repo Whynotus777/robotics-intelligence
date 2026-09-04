@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "5239e23b-69a3-5cf5-82e8-a7237cb456e1",
+    "subject": {
+      "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
+      "slug": "unitree",
+      "entity_type": "ORGANIZATION",
+      "name": "Unitree Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Unitree Robotics builds Unitree G1",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+        "slug": "unitree-g1",
+        "entity_type": "ROBOT",
+        "name": "Unitree G1",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9fd83131-d05c-57c6-9e1f-1dbd7e8d74d2",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site lists G1 among its products.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "865cb64d-2f1d-5e24-98e2-14220140dbe8",
+        "url": "https://www.unitree.com/",
+        "canonical_url": null,
+        "publisher": "Unitree Robotics",
+        "title": "Unitree Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

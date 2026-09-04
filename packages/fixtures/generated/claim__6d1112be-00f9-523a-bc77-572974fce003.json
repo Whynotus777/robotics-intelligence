@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "6d1112be-00f9-523a-bc77-572974fce003",
+    "subject": {
+      "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+      "slug": "nvidia-jetson-orin-nx",
+      "entity_type": "COMPONENT_PRODUCT",
+      "name": "NVIDIA Jetson Orin NX",
+      "primary_embodiment": null
+    },
+    "predicate": "IS_INSTANCE_OF",
+    "label": "is an instance of",
+    "sentence": "NVIDIA Jetson Orin NX is an instance of Edge AI compute",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c87d3d33-96c5-5851-b406-0551571f6911",
+        "slug": "edge-ai-compute",
+        "entity_type": "TECHNOLOGY",
+        "name": "Edge AI compute",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8cc9d6a5-84ae-5582-a8e1-a5308f88d240",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Positioned as an embedded edge AI and robotics compute module.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "c8e3c37b-4d4b-5c7f-a87c-93ea5ad2d306",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+        "canonical_url": null,
+        "publisher": "NVIDIA",
+        "title": "NVIDIA Jetson Orin",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

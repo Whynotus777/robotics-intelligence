@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "34b81b6c-3729-5c95-81cd-a0678f7d155b",
+    "subject": {
+      "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+      "slug": "fanuc",
+      "entity_type": "ORGANIZATION",
+      "name": "FANUC",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "FANUC targets market Automotive",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
+        "slug": "automotive",
+        "entity_type": "MARKET",
+        "name": "Automotive",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d1bae06d-8d43-5e3a-9f36-4022a22fefb4",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Automotive is a named application sector.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "0e5c2bb5-d938-5d8b-b7f0-0384cb6b476e",
+        "url": "https://www.fanuc.co.jp/en/",
+        "canonical_url": null,
+        "publisher": "FANUC Corporation",
+        "title": "FANUC Corporation",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "b25b91ee-b497-59a9-986f-960da09aa867",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+          "slug": "manufacturing",
+          "entity_type": "MARKET",
+          "name": "Manufacturing",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

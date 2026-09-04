@@ -4,5 +4,7 @@
   "private": true,
   "type": "module",
   "main": "src/index.ts",
-  "scripts": { "typecheck": "tsc --noEmit -p .", "test": "vitest run --passWithNoTests" }
+  "dependencies": { "@ri/api": "workspace:*", "@ri/api-contracts": "workspace:*", "@ri/db": "workspace:*" },
+  "devDependencies": { "tsx": "^4.19.0" },
+  "scripts": { "generate": "tsx src/generate.ts", "typecheck": "tsc --noEmit -p .", "test": "vitest run --passWithNoTests" }
 }

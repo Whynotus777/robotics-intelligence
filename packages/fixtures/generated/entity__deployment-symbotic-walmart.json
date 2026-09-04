@@ -1,0 +1,161 @@
+{
+  "entity": {
+    "id": "cf9f255c-b63f-5aea-b67e-307c2973f610",
+    "slug": "deployment-symbotic-walmart",
+    "entity_type": "DEPLOYMENT",
+    "name": "Symbotic systems at Walmart regional DCs",
+    "short_description": "Symbotic case-handling automation rolled out across Walmart's regional distribution centres under a multi-year programme.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "BEGAN",
+      "label": "began",
+      "claims": [
+        {
+          "claim_id": "adcc0b28-b989-52cf-b014-f93d5a5d2ccb",
+          "predicate": "BEGAN",
+          "value": {
+            "kind": "date",
+            "date": "2022-01-01"
+          },
+          "stack_layer": null,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "DEPLOYED_BY",
+      "label": "is deployed by",
+      "items": [
+        {
+          "claim_id": "a474a915-03ab-596e-bf4d-ea86722a319b",
+          "target": {
+            "id": "7f880e99-4aa8-51d2-8bd9-c49d613ed706",
+            "slug": "walmart",
+            "entity_type": "ORGANIZATION",
+            "name": "Walmart",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-11-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "OPERATED_BY",
+      "label": "is operated by",
+      "items": [
+        {
+          "claim_id": "8814d400-0ca1-5213-9882-677f74c9db4f",
+          "target": {
+            "id": "74914967-d3be-58ab-aacb-456441b741b1",
+            "slug": "symbotic",
+            "entity_type": "ORGANIZATION",
+            "name": "Symbotic",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-11-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "SERVES_TASK",
+      "label": "serves task",
+      "items": [
+        {
+          "claim_id": "d59e0456-1ee5-5e5d-a718-c70094caddcf",
+          "target": {
+            "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+            "slug": "automated-storage-and-retrieval",
+            "entity_type": "TASK",
+            "name": "Automated storage and retrieval",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-11-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "74914967-d3be-58ab-aacb-456441b741b1",
+        "slug": "symbotic",
+        "entity_type": "ORGANIZATION",
+        "name": "Symbotic",
+        "primary_embodiment": null
+      },
+      {
+        "id": "7f880e99-4aa8-51d2-8bd9-c49d613ed706",
+        "slug": "walmart",
+        "entity_type": "ORGANIZATION",
+        "name": "Walmart",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 4,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "6b8479fe-8f60-59ef-a6a9-381d4ae62465",
+    "subject": {
+      "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+      "slug": "aerones",
+      "entity_type": "ORGANIZATION",
+      "name": "Aerones",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Aerones is headquartered at Riga",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "6553850c-ac3a-5321-baec-c47853b493a4",
+        "slug": "riga",
+        "entity_type": "PLACE",
+        "name": "Riga",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3e9f71d1-5610-5711-b2f2-04658afb8683",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4ce2c8fb-0e96-5b59-b23a-f75549b2151e",
+        "url": "https://aerones.com/",
+        "canonical_url": null,
+        "publisher": "Aerones",
+        "title": "Aerones robotic wind turbine maintenance",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

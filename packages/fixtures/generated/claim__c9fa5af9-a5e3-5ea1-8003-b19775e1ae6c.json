@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "c9fa5af9-a5e3-5ea1-8003-b19775e1ae6c",
+    "subject": {
+      "id": "d1ed4e89-b016-53b6-a370-d7bc4c52154c",
+      "slug": "deployment-spot-industrial-inspection",
+      "entity_type": "DEPLOYMENT",
+      "name": "Spot at industrial inspection sites",
+      "primary_embodiment": null
+    },
+    "predicate": "USES_ROBOT",
+    "label": "uses robot",
+    "sentence": "Spot at industrial inspection sites uses robot Boston Dynamics Spot",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+        "slug": "boston-dynamics-spot",
+        "entity_type": "ROBOT",
+        "name": "Boston Dynamics Spot",
+        "primary_embodiment": "QUADRUPED"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "703bed2e-6bf3-5793-9d8d-f52cf8f017da",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Trade press reports Spot in industrial inspection roles at multiple sites.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4905fb35-5dfb-53e5-9472-8bfe3218397f",
+        "url": "https://www.therobotreport.com/",
+        "canonical_url": null,
+        "publisher": "The Robot Report",
+        "title": "Trade-press coverage of Spot deployments for industrial inspection",
+        "source_kind": "NEWS",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "bce796ec-1fd1-530e-afc2-8f6faeeac1f7",
+    "subject": {
+      "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+      "slug": "boston-dynamics-spot",
+      "entity_type": "ROBOT",
+      "name": "Boston Dynamics Spot",
+      "primary_embodiment": "QUADRUPED"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "Boston Dynamics Spot commercial stage COMMERCIAL",
+    "value": {
+      "kind": "enum",
+      "value": "COMMERCIAL"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-06-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "56932dbb-e192-5f9e-be87-ecdbe185a407",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company states over 1,500 Spot units deployed.",
+      "published_at": "2024-06-11T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "556ec2c2-0986-52e5-b917-2c8ab2e86999",
+        "url": "https://bostondynamics.com/news/",
+        "canonical_url": null,
+        "publisher": "Boston Dynamics",
+        "title": "Boston Dynamics announces Spot fleet milestone and updates",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-06-11T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

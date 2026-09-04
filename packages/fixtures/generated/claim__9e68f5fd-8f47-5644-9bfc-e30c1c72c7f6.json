@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "9e68f5fd-8f47-5644-9bfc-e30c1c72c7f6",
+    "subject": {
+      "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+      "slug": "fanuc",
+      "entity_type": "ORGANIZATION",
+      "name": "FANUC",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "FANUC builds FANUC CRX-10iA",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "e7b662ae-fd0b-5b6d-b51e-066c372b460a",
+        "slug": "fanuc-crx-10ia",
+        "entity_type": "ROBOT",
+        "name": "FANUC CRX-10iA",
+        "primary_embodiment": "COBOT"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2e6bd457-8ee2-5107-9546-87e4f2170151",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "CRX series page lists the CRX-10iA.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "502b7a75-108f-5516-8ba4-faca8cdc3365",
+        "url": "https://www.fanucamerica.com/products/robots/series/crx-collaborative-robots",
+        "canonical_url": null,
+        "publisher": "FANUC America",
+        "title": "CRX collaborative robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

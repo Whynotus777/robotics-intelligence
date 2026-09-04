@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "bfaa8af0-f730-566e-ad76-44052c18d915",
+    "subject": {
+      "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+      "slug": "nvidia",
+      "entity_type": "ORGANIZATION",
+      "name": "NVIDIA",
+      "primary_embodiment": null
+    },
+    "predicate": "PROVIDES",
+    "label": "provides",
+    "sentence": "NVIDIA provides NVIDIA Jetson Thor",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "40524241-ae32-56e4-a625-84a0dc3ffb5d",
+        "slug": "nvidia-jetson-thor",
+        "entity_type": "COMPONENT_PRODUCT",
+        "name": "NVIDIA Jetson Thor",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b9940e72-2284-5588-a0f7-e223fa037fe3",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Jetson Thor product page.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "2fc1cea4-036f-5d75-8e86-49931d3f8fff",
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+        "canonical_url": null,
+        "publisher": "NVIDIA",
+        "title": "NVIDIA Jetson Thor",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": "2025-08-25T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "896f3f59-d49c-585c-b9ec-7e20b61c339d",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+          "slug": "nvidia-jetson-orin-nx",
+          "entity_type": "COMPONENT_PRODUCT",
+          "name": "NVIDIA Jetson Orin NX",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

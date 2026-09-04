@@ -1,0 +1,176 @@
+{
+  "task": {
+    "id": "7831a686-465b-5c38-9904-bf9354227e01",
+    "slug": "blade-cleaning",
+    "entity_type": "TASK",
+    "name": "Blade cleaning",
+    "primary_embodiment": null
+  },
+  "short_description": "Removing dirt, insects and ice residue from blade surfaces to restore aerodynamic performance, including leading-edge protection application.",
+  "market_path": [
+    {
+      "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+      "slug": "energy",
+      "entity_type": "MARKET",
+      "name": "Energy",
+      "primary_embodiment": null
+    },
+    {
+      "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+      "slug": "wind",
+      "entity_type": "MARKET",
+      "name": "Wind",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "EARLY_COMMERCIAL",
+    "claim_id": "a6e1b03a-dc28-5f9b-9015-eca73bb4621d",
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "Aerones and others operate cleaning and leading-edge protection commercially with suspended robots, and the work is paid, repeated and multi-customer. It is not scaling because it is still a specialist service sold campaign by campaign rather than a line item in standard O&M contracts.",
+      "advance_criteria": [
+        "Cleaning written into multi-year service agreements",
+        "Two or more vendors with fleets in more than one region",
+        "Published performance-recovery data accepted by owners"
+      ],
+      "regress_criteria": [],
+      "evidence_considered": [
+        {
+          "claim_id": "84a934f3-ab29-59d0-9fed-91175af3c8fd",
+          "sentence": "Aerones targets task Blade cleaning"
+        },
+        {
+          "claim_id": "c1b02147-ed8f-5595-90fc-82c243725e1d",
+          "sentence": "Rope/cable-suspended robot maturity EARLY_COMMERCIAL"
+        }
+      ],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "97817714-d9d1-5f14-b714-cad9edcfbee8",
+      "text": "Rope-access crews with pressure washers, or no cleaning at all.",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Many owners skip cleaning because the technician cost exceeds the recovered output.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "approaches": [
+    {
+      "approach": {
+        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+        "slug": "rope-cable-suspended-robot",
+        "entity_type": "APPROACH",
+        "name": "Rope/cable-suspended robot",
+        "primary_embodiment": null
+      },
+      "short_description": "A robot lowered from the nacelle on ropes or cables and positioned against the blade for cleaning, coating, testing and repair.",
+      "maturity": {
+        "value": "EARLY_COMMERCIAL",
+        "claim_id": "c1b02147-ed8f-5595-90fc-82c243725e1d",
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "MEDIUM",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Aerones and Rope Robotics sell suspended-robot cleaning, leading-edge protection and lightning-protection testing commercially to multiple owners; structural repair from the same platforms is still in pilot. Early commercial for the approach overall, with the caveat that repair specifically is a step behind.",
+          "advance_criteria": [
+            "Structural repair sold as a standard service, not a trial",
+            "Fleets operating in more than one continent per vendor",
+            "Multi-year service agreements that name robotic maintenance"
+          ],
+          "regress_criteria": [],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "OTHER_MOBILE"
+      ],
+      "example_vendors": [
+        {
+          "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+          "slug": "aerones",
+          "entity_type": "ORGANIZATION",
+          "name": "Aerones",
+          "primary_embodiment": null
+        },
+        {
+          "id": "81571cfa-9773-5740-a33f-0121af56676c",
+          "slug": "rope-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Rope Robotics",
+          "primary_embodiment": null
+        }
+      ]
+    }
+  ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+        "slug": "aerones",
+        "entity_type": "ORGANIZATION",
+        "name": "Aerones",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "ca32e2d8-edc1-5545-abad-f8ec20894530",
+      "text": "Asset owners and operators",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Owners capture the output gain and pay for cleaning.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "adjacent_tasks": [
+    {
+      "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+      "slug": "blade-repair",
+      "entity_type": "TASK",
+      "name": "Blade repair",
+      "primary_embodiment": null
+    }
+  ],
+  "as_of": null
+}

@@ -1,0 +1,209 @@
+{
+  "task": {
+    "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+    "slug": "blade-visual-inspection",
+    "entity_type": "TASK",
+    "name": "Blade visual inspection",
+    "primary_embodiment": null
+  },
+  "short_description": "Photographic inspection of blade surfaces for erosion, cracks and lightning damage, usually by drone.",
+  "market_path": [
+    {
+      "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+      "slug": "energy",
+      "entity_type": "MARKET",
+      "name": "Energy",
+      "primary_embodiment": null
+    },
+    {
+      "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+      "slug": "wind",
+      "entity_type": "MARKET",
+      "name": "Wind",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "MATURE",
+    "claim_id": "8ac9ee72-4d9e-56c7-8d8d-fe3b6172f0ab",
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "Drone-based blade inspection is standard practice across onshore and offshore fleets, sold as a routine service by multiple vendors with analytics attached. The incumbent (ground-based telephoto or rope access) is now the exception, which is the definition of a mature robotic task.",
+      "advance_criteria": [
+        "Already at the top of the scale; watch for commoditisation of the service price"
+      ],
+      "regress_criteria": [
+        "Regulatory restriction of BVLOS operations that raises the cost per turbine"
+      ],
+      "evidence_considered": [
+        {
+          "claim_id": "5103dd29-96c0-5d79-ad45-1c8b51875caf",
+          "sentence": "SkySpecs targets task Blade visual inspection"
+        },
+        {
+          "claim_id": "5a58eb5a-82b0-5548-a9a5-244470f61cdd",
+          "sentence": "SkySpecs inspections across utility-scale wind fleets serves task Blade visual inspection"
+        }
+      ],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "97c70299-1a54-59dc-8830-0da263a60a72",
+      "text": "Ground-based telephoto photography or rope-access close visual inspection.",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "These are the pre-drone methods and remain the fallback where drones cannot fly.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "approaches": [
+    {
+      "approach": {
+        "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+        "slug": "drone-based-blade-maintenance",
+        "entity_type": "APPROACH",
+        "name": "Drone-based",
+        "primary_embodiment": null
+      },
+      "short_description": "Multirotor drones flying close to blades for inspection; contact work from the same platform is early.",
+      "maturity": {
+        "value": "SCALING",
+        "claim_id": "595b4a6a-0756-50b6-87b9-9db56dc2a9e1",
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "HIGH",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "For inspection the drone approach is mature and fleet-wide; for contact work such as cleaning or coating it is early. Rated as scaling for the approach as a whole because the inspection business funds the contact experiments and the same vendors sell both.",
+          "advance_criteria": [
+            "Contact tasks (cleaning, coating) sold commercially from a drone platform",
+            "Autonomous, operator-free inspection flights as the default",
+            "BVLOS approvals for fleet campaigns in major markets"
+          ],
+          "regress_criteria": [],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "DRONE"
+      ],
+      "example_vendors": [
+        {
+          "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
+          "slug": "skyspecs",
+          "entity_type": "ORGANIZATION",
+          "name": "SkySpecs",
+          "primary_embodiment": null
+        }
+      ]
+    }
+  ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+        "slug": "aerones",
+        "entity_type": "ORGANIZATION",
+        "name": "Aerones",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    },
+    {
+      "organization": {
+        "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+        "slug": "bladebug",
+        "entity_type": "ORGANIZATION",
+        "name": "BladeBUG",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    },
+    {
+      "organization": {
+        "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
+        "slug": "skyspecs",
+        "entity_type": "ORGANIZATION",
+        "name": "SkySpecs",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    }
+  ],
+  "deployments": [
+    {
+      "deployment": {
+        "id": "2ad4ac39-383d-59c3-ad41-466f420c5ee1",
+        "slug": "deployment-skyspecs-wind-fleets",
+        "entity_type": "DEPLOYMENT",
+        "name": "SkySpecs inspections across utility-scale wind fleets",
+        "primary_embodiment": null
+      },
+      "customer": null,
+      "operators": [
+        {
+          "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
+          "slug": "skyspecs",
+          "entity_type": "ORGANIZATION",
+          "name": "SkySpecs",
+          "primary_embodiment": null
+        }
+      ],
+      "robots": [],
+      "places": [],
+      "began": null,
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      }
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "eb7a39fc-181a-588e-9c3c-f84f7320a240",
+      "text": "Asset owners and operators",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Owners buy fleet-wide inspection campaigns and the resulting defect analytics.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "as_of": null
+}

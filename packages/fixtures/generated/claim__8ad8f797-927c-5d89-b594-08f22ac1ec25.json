@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "8ad8f797-927c-5d89-b594-08f22ac1ec25",
+    "subject": {
+      "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+      "slug": "lightning-protection-testing",
+      "entity_type": "TASK",
+      "name": "Lightning-protection testing",
+      "primary_embodiment": null
+    },
+    "predicate": "BELONGS_TO_MARKET",
+    "label": "belongs to",
+    "sentence": "Lightning-protection testing belongs to Wind",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+        "slug": "wind",
+        "entity_type": "MARKET",
+        "name": "Wind",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2477495d-bcdc-5126-93ab-f321bb494291",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "A wind O&M task on installed assets.",
+        "advance_criteria": [
+          "Would only change with a taxonomy redesign."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

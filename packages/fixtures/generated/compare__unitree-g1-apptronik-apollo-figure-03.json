@@ -1,0 +1,427 @@
+{
+  "columns": [
+    {
+      "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+      "slug": "unitree-g1",
+      "entity_type": "ROBOT",
+      "name": "Unitree G1",
+      "primary_embodiment": "HUMANOID"
+    },
+    {
+      "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+      "slug": "apptronik-apollo",
+      "entity_type": "ROBOT",
+      "name": "Apptronik Apollo",
+      "primary_embodiment": "HUMANOID"
+    },
+    {
+      "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+      "slug": "figure-03",
+      "entity_type": "ROBOT",
+      "name": "Figure 03",
+      "primary_embodiment": "HUMANOID"
+    }
+  ],
+  "groups": [
+    {
+      "group": "IDENTITY",
+      "label": "IDENTITY",
+      "rows": [
+        {
+          "predicate": "HAS_EMBODIMENT",
+          "label": "embodiment",
+          "cells": [
+            {
+              "values": [
+                {
+                  "claim_id": "20c6132a-fc89-5d09-a78c-2791a249098a",
+                  "value": {
+                    "kind": "enum",
+                    "value": "HUMANOID"
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "claim_id": "682375ed-63fe-557f-a647-b64885e6853a",
+                  "value": {
+                    "kind": "enum",
+                    "value": "HUMANOID"
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "claim_id": "c2ee733a-b52b-5b10-933d-f72dcce22f01",
+                  "value": {
+                    "kind": "enum",
+                    "value": "HUMANOID"
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "predicate": "ANNOUNCED_ON",
+          "label": "was announced on",
+          "cells": [
+            {
+              "values": [
+                {
+                  "claim_id": "a35f4fdb-20a0-5c00-89e3-3b14bda3ba0d",
+                  "value": {
+                    "kind": "date",
+                    "date": "2024-05-13"
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "claim_id": "bb501113-c988-5b15-8f48-0f62df755d37",
+                  "value": {
+                    "kind": "date",
+                    "date": "2023-08-23"
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "claim_id": "579781a1-7b2e-5504-b9bb-5e36ea8dd90d",
+                  "value": {
+                    "kind": "date",
+                    "date": "2025-10-09"
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "predicate": "MEMBER_OF_FAMILY",
+          "label": "is a member of",
+          "cells": [
+            {
+              "values": [
+                {
+                  "claim_id": "52ccb11d-0bbc-501c-a8f3-253c0006ab71",
+                  "value": {
+                    "kind": "entity",
+                    "entity": {
+                      "id": "60807b6e-1149-5609-9766-d4f1d9322d61",
+                      "slug": "unitree-g1-series",
+                      "entity_type": "ROBOT_FAMILY",
+                      "name": "Unitree G1 series",
+                      "primary_embodiment": null
+                    },
+                    "measure": null
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            },
+            null,
+            {
+              "values": [
+                {
+                  "claim_id": "2fdf7d95-6dfe-50da-a459-737342ad9e0e",
+                  "value": {
+                    "kind": "entity",
+                    "entity": {
+                      "id": "c049ae4e-2f0f-54a0-8b83-b899ae3b05cb",
+                      "slug": "figure-humanoids",
+                      "entity_type": "ROBOT_FAMILY",
+                      "name": "Figure humanoids",
+                      "primary_embodiment": null
+                    },
+                    "measure": null
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "predicate": "COMPETES_WITH",
+          "label": "competes with",
+          "cells": [
+            {
+              "values": [
+                {
+                  "claim_id": "c36b0065-1db8-59ce-8a8f-1df732637a5f",
+                  "value": {
+                    "kind": "entity",
+                    "entity": {
+                      "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+                      "slug": "apptronik-apollo",
+                      "entity_type": "ROBOT",
+                      "name": "Apptronik Apollo",
+                      "primary_embodiment": "HUMANOID"
+                    },
+                    "measure": null
+                  },
+                  "evidence_summary": {
+                    "class": "DERIVED",
+                    "confidence": "MEDIUM",
+                    "source_count": 0
+                  }
+                },
+                {
+                  "claim_id": "68fdb84f-1e31-5689-8dc0-658a7ad1d1d7",
+                  "value": {
+                    "kind": "entity",
+                    "entity": {
+                      "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+                      "slug": "figure-03",
+                      "entity_type": "ROBOT",
+                      "name": "Figure 03",
+                      "primary_embodiment": "HUMANOID"
+                    },
+                    "measure": null
+                  },
+                  "evidence_summary": {
+                    "class": "DERIVED",
+                    "confidence": "MEDIUM",
+                    "source_count": 0
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "claim_id": "4c91edc5-02dd-5e7f-9173-03efa55a2597",
+                  "value": {
+                    "kind": "entity",
+                    "entity": {
+                      "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+                      "slug": "figure-03",
+                      "entity_type": "ROBOT",
+                      "name": "Figure 03",
+                      "primary_embodiment": "HUMANOID"
+                    },
+                    "measure": null
+                  },
+                  "evidence_summary": {
+                    "class": "DERIVED",
+                    "confidence": "MEDIUM",
+                    "source_count": 0
+                  }
+                }
+              ]
+            },
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "group": "PHYSICAL",
+      "label": "PHYSICAL",
+      "rows": [
+        {
+          "predicate": "HAS_HEIGHT",
+          "label": "height",
+          "cells": [
+            {
+              "values": [
+                {
+                  "claim_id": "a14fc145-e5d1-5854-b8b6-6f89c624da22",
+                  "value": {
+                    "kind": "number",
+                    "number": 1.32,
+                    "unit": "m",
+                    "is_approximate": true,
+                    "min": null,
+                    "max": null
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "claim_id": "2834de53-8a2f-5c94-b1ab-a85eeca26cc1",
+                  "value": {
+                    "kind": "number",
+                    "number": 1.73,
+                    "unit": "m",
+                    "is_approximate": true,
+                    "min": null,
+                    "max": null
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            },
+            null
+          ]
+        },
+        {
+          "predicate": "HAS_MASS",
+          "label": "mass",
+          "cells": [
+            {
+              "values": [
+                {
+                  "claim_id": "4d96a0d6-d933-5960-b69d-cf2d22c911d2",
+                  "value": {
+                    "kind": "number",
+                    "number": 35,
+                    "unit": "kg",
+                    "is_approximate": true,
+                    "min": null,
+                    "max": null
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "claim_id": "3f0ce22a-1e28-5214-ae9f-97cedf4e140e",
+                  "value": {
+                    "kind": "number",
+                    "number": 73,
+                    "unit": "kg",
+                    "is_approximate": true,
+                    "min": null,
+                    "max": null
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            },
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "group": "COMMERCIAL",
+      "label": "COMMERCIAL",
+      "rows": [
+        {
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "label": "commercial stage",
+          "cells": [
+            {
+              "values": [
+                {
+                  "claim_id": "72a57025-bc1f-5ebf-bf50-1ca4c2599594",
+                  "value": {
+                    "kind": "enum",
+                    "value": "COMMERCIAL"
+                  },
+                  "evidence_summary": {
+                    "class": "ANALYST",
+                    "confidence": "HIGH",
+                    "source_count": 0
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "claim_id": "b3143f08-5b52-5e8d-a144-838392af54eb",
+                  "value": {
+                    "kind": "enum",
+                    "value": "PILOT_DEPLOYMENTS"
+                  },
+                  "evidence_summary": {
+                    "class": "PRIMARY",
+                    "confidence": "HIGH",
+                    "source_count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "claim_id": "f063b6a6-e2fb-5fb4-b2d8-6f4faa97c02a",
+                  "value": {
+                    "kind": "enum",
+                    "value": "PILOT_DEPLOYMENTS"
+                  },
+                  "evidence_summary": {
+                    "class": "ANALYST",
+                    "confidence": "MEDIUM",
+                    "source_count": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "as_of": null
+}

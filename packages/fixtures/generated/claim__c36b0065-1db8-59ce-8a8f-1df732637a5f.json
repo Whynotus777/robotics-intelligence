@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "c36b0065-1db8-59ce-8a8f-1df732637a5f",
+    "subject": {
+      "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+      "slug": "unitree-g1",
+      "entity_type": "ROBOT",
+      "name": "Unitree G1",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "COMPETES_WITH",
+    "label": "competes with",
+    "sentence": "Unitree G1 competes with Apptronik Apollo",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+        "slug": "apptronik-apollo",
+        "entity_type": "ROBOT",
+        "name": "Apptronik Apollo",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ec68569e-2f84-5dc6-8af9-32b7d68a284a",
+      "class": "DERIVED",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Derived from shared embodiment (humanoid).",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "68fdb84f-1e31-5689-8dc0-658a7ad1d1d7",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+          "slug": "figure-03",
+          "entity_type": "ROBOT",
+          "name": "Figure 03",
+          "primary_embodiment": "HUMANOID"
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": [
+    {
+      "claim_id": "20c6132a-fc89-5d09-a78c-2791a249098a",
+      "sentence": "Unitree G1 embodiment HUMANOID"
+    },
+    {
+      "claim_id": "682375ed-63fe-557f-a647-b64885e6853a",
+      "sentence": "Apptronik Apollo embodiment HUMANOID"
+    }
+  ]
+}

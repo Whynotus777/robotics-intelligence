@@ -1,0 +1,188 @@
+{
+  "entity": {
+    "id": "79815395-59ce-5c93-aef0-8686647839c6",
+    "slug": "locus",
+    "entity_type": "ORGANIZATION",
+    "name": "Locus Robotics",
+    "short_description": "Wilmington, Massachusetts warehouse AMR vendor; four billion picks milestone.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [
+      "Locus"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "e5262db2-697b-5bc7-b40e-3cb97c4c5fb8",
+          "target": {
+            "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+            "slug": "boston",
+            "entity_type": "PLACE",
+            "name": "Boston",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "7fd347fd-2e6c-56cd-a21c-7dc128efb309",
+          "target": {
+            "id": "d0bdf70a-64a1-5faf-8210-b2d4df93141d",
+            "slug": "locus-origin",
+            "entity_type": "ROBOT",
+            "name": "Locus Origin",
+            "primary_embodiment": "AMR"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "9cce595a-4ed6-53c8-af06-60a989873af4",
+          "target": {
+            "id": "68407748-0447-505b-aa53-0d87ab606e33",
+            "slug": "warehouse-logistics",
+            "entity_type": "MARKET",
+            "name": "Warehouse & Logistics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "f3255b54-8fac-5c7d-813c-c0eed24d443b",
+          "target": {
+            "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+            "slug": "each-picking-assistance",
+            "entity_type": "TASK",
+            "name": "Each-picking assistance",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "OPERATED_BY",
+      "label": "is operated by",
+      "items": [
+        {
+          "claim_id": "84e864ef-be8b-5102-a2ee-294775f52341",
+          "source": {
+            "id": "108bca22-090c-5533-9916-b2e41907451f",
+            "slug": "deployment-locus-3pl-sites",
+            "entity_type": "DEPLOYMENT",
+            "name": "Locus fleets at 3PL sites",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "markets": [
+      {
+        "id": "68407748-0447-505b-aa53-0d87ab606e33",
+        "slug": "warehouse-logistics",
+        "entity_type": "MARKET",
+        "name": "Warehouse & Logistics",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 4,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 5
+  },
+  "as_of": null
+}

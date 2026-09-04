@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "8814d400-0ca1-5213-9882-677f74c9db4f",
+    "subject": {
+      "id": "cf9f255c-b63f-5aea-b67e-307c2973f610",
+      "slug": "deployment-symbotic-walmart",
+      "entity_type": "DEPLOYMENT",
+      "name": "Symbotic systems at Walmart regional DCs",
+      "primary_embodiment": null
+    },
+    "predicate": "OPERATED_BY",
+    "label": "is operated by",
+    "sentence": "Symbotic systems at Walmart regional DCs is operated by Symbotic",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "74914967-d3be-58ab-aacb-456441b741b1",
+        "slug": "symbotic",
+        "entity_type": "ORGANIZATION",
+        "name": "Symbotic",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-11-25",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d99235af-088e-5a1f-84bc-a7273242d760",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Symbotic installs and operates the systems.",
+      "published_at": "2024-11-25T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "fba953b5-9138-59ef-903d-60ccc6005693",
+        "url": "https://www.sec.gov/",
+        "canonical_url": null,
+        "publisher": "U.S. Securities and Exchange Commission",
+        "title": "Symbotic Inc. Form 10-K",
+        "source_kind": "FILING",
+        "published_at": "2024-11-25T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

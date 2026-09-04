@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "5503e604-73d2-5063-a5d3-07c75285d66c",
+    "subject": {
+      "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
+      "slug": "apptronik",
+      "entity_type": "ORGANIZATION",
+      "name": "Apptronik",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Apptronik is headquartered at Austin",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c9625e94-0914-541a-a773-0c673a77a1fd",
+        "slug": "austin",
+        "entity_type": "PLACE",
+        "name": "Austin",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5dc6b886-89df-5b93-a81f-d3a1e78640ae",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "53edd6ba-489a-5ab4-96d2-03c2935ebe0e",
+        "url": "https://apptronik.com/apollo",
+        "canonical_url": null,
+        "publisher": "Apptronik",
+        "title": "Apollo humanoid robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

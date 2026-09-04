@@ -1,0 +1,359 @@
+{
+  "entity": {
+    "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+    "slug": "apptronik-apollo",
+    "entity_type": "ROBOT",
+    "name": "Apptronik Apollo",
+    "short_description": "Full-size humanoid from Apptronik with a swappable battery, piloted with Mercedes-Benz and GXO.",
+    "primary_embodiment": "HUMANOID",
+    "country_code": "US",
+    "aliases": [
+      "Apollo"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": "PILOT_DEPLOYMENTS",
+    "height_m": 1.73,
+    "mass_kg": 73,
+    "payload_kg": 25,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "682375ed-63fe-557f-a647-b64885e6853a",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_HEIGHT",
+      "label": "height",
+      "claims": [
+        {
+          "claim_id": "2834de53-8a2f-5c94-b1ab-a85eeca26cc1",
+          "predicate": "HAS_HEIGHT",
+          "value": {
+            "kind": "number",
+            "number": 1.73,
+            "unit": "m",
+            "is_approximate": true,
+            "min": null,
+            "max": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_MASS",
+      "label": "mass",
+      "claims": [
+        {
+          "claim_id": "3f0ce22a-1e28-5214-ae9f-97cedf4e140e",
+          "predicate": "HAS_MASS",
+          "value": {
+            "kind": "number",
+            "number": 73,
+            "unit": "kg",
+            "is_approximate": true,
+            "min": null,
+            "max": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_PAYLOAD",
+      "label": "payload",
+      "claims": [
+        {
+          "claim_id": "5edea790-9803-5f6e-a2f6-0f1d0736d748",
+          "predicate": "HAS_PAYLOAD",
+          "value": {
+            "kind": "number",
+            "number": 25,
+            "unit": "kg",
+            "is_approximate": true,
+            "min": null,
+            "max": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_ARCHITECTURE_NOTE",
+      "label": "architecture note",
+      "claims": [
+        {
+          "claim_id": "49f2d567-c352-5eff-a82c-5f891649cd1a",
+          "predicate": "HAS_ARCHITECTURE_NOTE",
+          "value": {
+            "kind": "text",
+            "text": "Apollo uses a swappable battery pack so a robot can be kept on shift by exchanging packs rather than charging in place."
+          },
+          "stack_layer": "POWER",
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ANNOUNCED_ON",
+      "label": "was announced on",
+      "claims": [
+        {
+          "claim_id": "bb501113-c988-5b15-8f48-0f62df755d37",
+          "predicate": "ANNOUNCED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2023-08-23"
+          },
+          "stack_layer": null,
+          "valid_from": "2023-08-23",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "b3143f08-5b52-5e8d-a144-838392af54eb",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "PILOT_DEPLOYMENTS"
+          },
+          "stack_layer": null,
+          "valid_from": "2024-03-15",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "COMPETES_WITH",
+      "label": "competes with",
+      "items": [
+        {
+          "claim_id": "4c91edc5-02dd-5e7f-9173-03efa55a2597",
+          "target": {
+            "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+            "slug": "figure-03",
+            "entity_type": "ROBOT",
+            "name": "Figure 03",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "DERIVED",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "USES_ROBOT",
+      "label": "uses robot",
+      "items": [
+        {
+          "claim_id": "cef7a480-1961-5cbe-8364-5c1a399ef9b7",
+          "source": {
+            "id": "da7def0e-8ffc-51fb-b562-a1eac84d32a7",
+            "slug": "deployment-apollo-mercedes",
+            "entity_type": "DEPLOYMENT",
+            "name": "Apollo pilot at Mercedes-Benz",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-03-15",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "bf7dbd5a-5ce7-5197-9ea1-ca1df076fd42",
+          "source": {
+            "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
+            "slug": "apptronik",
+            "entity_type": "ORGANIZATION",
+            "name": "Apptronik",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "COMPETES_WITH",
+      "label": "competes with",
+      "items": [
+        {
+          "claim_id": "c36b0065-1db8-59ce-8a8f-1df732637a5f",
+          "source": {
+            "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+            "slug": "unitree-g1",
+            "entity_type": "ROBOT",
+            "name": "Unitree G1",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "DERIVED",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
+        "slug": "apptronik",
+        "entity_type": "ORGANIZATION",
+        "name": "Apptronik",
+        "primary_embodiment": null
+      }
+    ],
+    "peers": [
+      {
+        "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+        "slug": "figure-03",
+        "entity_type": "ROBOT",
+        "name": "Figure 03",
+        "primary_embodiment": "HUMANOID"
+      },
+      {
+        "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+        "slug": "unitree-g1",
+        "entity_type": "ROBOT",
+        "name": "Unitree G1",
+        "primary_embodiment": "HUMANOID"
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 7,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 1,
+        "ANALYST": 0
+      },
+      "claim_count": 8,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 1,
+    "deployment_count": 1,
+    "related_count": 4
+  },
+  "as_of": null
+}

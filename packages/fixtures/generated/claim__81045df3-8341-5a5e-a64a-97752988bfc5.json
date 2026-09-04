@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "81045df3-8341-5a5e-a64a-97752988bfc5",
+    "subject": {
+      "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+      "slug": "contact-ndt",
+      "entity_type": "TASK",
+      "name": "Contact NDT",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_APPROACH",
+    "label": "has approach",
+    "sentence": "Contact NDT has approach Blade crawler",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
+        "slug": "blade-crawler",
+        "entity_type": "APPROACH",
+        "name": "Blade crawler",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1e7f49bc-0952-57ce-9ddd-38858401995e",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Crawlers are the approach with the best contact geometry for probe coupling.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

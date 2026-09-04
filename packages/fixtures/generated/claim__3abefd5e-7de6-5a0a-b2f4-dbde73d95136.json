@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "3abefd5e-7de6-5a0a-b2f4-dbde73d95136",
+    "subject": {
+      "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+      "slug": "asrs-pallet-handling",
+      "entity_type": "APPROACH",
+      "name": "AS/RS pallet handling",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "AS/RS pallet handling maturity MATURE",
+    "value": {
+      "kind": "enum",
+      "value": "MATURE"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d217fce1-faaa-5656-8ef0-e640096e9695",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Fixed AS/RS is a decades-old category with standard integrators and financing; Symbotic-style systems extend it to case handling at grocery scale. There is no technology question left, only capital allocation.",
+        "advance_criteria": [
+          "Already mature"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

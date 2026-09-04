@@ -1,0 +1,54 @@
+{
+  "claim": {
+    "claim_id": "c1b02147-ed8f-5595-90fc-82c243725e1d",
+    "subject": {
+      "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+      "slug": "rope-cable-suspended-robot",
+      "entity_type": "APPROACH",
+      "name": "Rope/cable-suspended robot",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Rope/cable-suspended robot maturity EARLY_COMMERCIAL",
+    "value": {
+      "kind": "enum",
+      "value": "EARLY_COMMERCIAL"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "48bb36f2-b03a-56fe-aea1-134ed2145d47",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Aerones and Rope Robotics sell suspended-robot cleaning, leading-edge protection and lightning-protection testing commercially to multiple owners; structural repair from the same platforms is still in pilot. Early commercial for the approach overall, with the caveat that repair specifically is a step behind.",
+        "advance_criteria": [
+          "Structural repair sold as a standard service, not a trial",
+          "Fleets operating in more than one continent per vendor",
+          "Multi-year service agreements that name robotic maintenance"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

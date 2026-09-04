@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "104a5490-a54c-5896-a64e-1d669ca5301e",
+    "subject": {
+      "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+      "slug": "nvidia",
+      "entity_type": "ORGANIZATION",
+      "name": "NVIDIA",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "NVIDIA is headquartered at San Francisco Bay Area",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "66c96d44-9dcf-57a2-8db1-841c554ee555",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8ca9d91a-cfdd-5c42-9d60-256c1150ceda",
+        "url": "https://www.nvidia.com/",
+        "canonical_url": null,
+        "publisher": "NVIDIA",
+        "title": "NVIDIA",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

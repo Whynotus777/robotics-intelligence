@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "00e43eae-12cc-5557-bca8-3f92a547e05c",
+    "subject": {
+      "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+      "slug": "unitree-g1",
+      "entity_type": "ROBOT",
+      "name": "Unitree G1",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_DOF",
+    "label": "degrees of freedom",
+    "sentence": "Unitree G1 degrees of freedom 23 count",
+    "value": {
+      "kind": "number",
+      "number": 23,
+      "unit": "count",
+      "is_approximate": false,
+      "min": 23,
+      "max": 43
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-05-13",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a4f6ae7f-79dc-5044-80f3-858d257c3ff2",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "23 degrees of freedom on the base configuration; more with dexterous hands on EDU variants.",
+      "published_at": "2024-05-13T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "12757afb-2e99-5fb4-a2f7-316d704ce8c1",
+        "url": "https://www.unitree.com/g1",
+        "canonical_url": null,
+        "publisher": "Unitree Robotics",
+        "title": "Unitree G1 humanoid agent",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": "2024-05-13T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

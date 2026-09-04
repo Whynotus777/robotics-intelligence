@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "84e864ef-be8b-5102-a2ee-294775f52341",
+    "subject": {
+      "id": "108bca22-090c-5533-9916-b2e41907451f",
+      "slug": "deployment-locus-3pl-sites",
+      "entity_type": "DEPLOYMENT",
+      "name": "Locus fleets at 3PL sites",
+      "primary_embodiment": null
+    },
+    "predicate": "OPERATED_BY",
+    "label": "is operated by",
+    "sentence": "Locus fleets at 3PL sites is operated by Locus Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "79815395-59ce-5c93-aef0-8686647839c6",
+        "slug": "locus",
+        "entity_type": "ORGANIZATION",
+        "name": "Locus Robotics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ce7f166c-6551-5914-a2b5-7c67e11fa798",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Locus operates fleets as a service.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "ea50ca3f-5695-5568-8e24-1fdf58b6eb53",
+        "url": "https://locusrobotics.com/",
+        "canonical_url": null,
+        "publisher": "Locus Robotics",
+        "title": "Locus Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

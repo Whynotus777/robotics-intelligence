@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "7cbfa3a8-97f3-523c-914d-14a3863031d3",
+    "subject": {
+      "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
+      "slug": "dji-matrice-350-rtk",
+      "entity_type": "ROBOT",
+      "name": "DJI Matrice 350 RTK",
+      "primary_embodiment": "DRONE"
+    },
+    "predicate": "HAS_RUNTIME",
+    "label": "runtime",
+    "sentence": "DJI Matrice 350 RTK runtime ~3,300 s",
+    "value": {
+      "kind": "number",
+      "number": 3300,
+      "unit": "s",
+      "is_approximate": true,
+      "min": null,
+      "max": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "123ff6f4-884a-54bd-ade2-d86d89b526ee",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Spec table lists a maximum flight time of 55 minutes.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "ad78206f-3ce5-5689-abcc-a544b7df7d69",
+        "url": "https://enterprise.dji.com/matrice-350-rtk",
+        "canonical_url": null,
+        "publisher": "DJI",
+        "title": "Matrice 350 RTK",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "56db11fb-ace6-5856-aafd-393e751b05c3",
+    "subject": {
+      "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+      "slug": "boston-dynamics-spot",
+      "entity_type": "ROBOT",
+      "name": "Boston Dynamics Spot",
+      "primary_embodiment": "QUADRUPED"
+    },
+    "predicate": "HAS_PAYLOAD",
+    "label": "payload",
+    "sentence": "Boston Dynamics Spot payload 14 kg",
+    "value": {
+      "kind": "number",
+      "number": 14,
+      "unit": "kg",
+      "is_approximate": false,
+      "min": null,
+      "max": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "eb6338f8-0c1e-5c78-ad1c-ac020aa392fe",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Spec table lists 14 kg payload.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "08748fb5-70c7-55d1-900b-e9aba8bb10ed",
+        "url": "https://bostondynamics.com/products/spot/",
+        "canonical_url": null,
+        "publisher": "Boston Dynamics",
+        "title": "Spot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

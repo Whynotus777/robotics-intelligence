@@ -1,0 +1,54 @@
+{
+  "claim": {
+    "claim_id": "595b4a6a-0756-50b6-87b9-9db56dc2a9e1",
+    "subject": {
+      "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+      "slug": "drone-based-blade-maintenance",
+      "entity_type": "APPROACH",
+      "name": "Drone-based",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Drone-based maturity SCALING",
+    "value": {
+      "kind": "enum",
+      "value": "SCALING"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7f957f70-1039-54a6-905b-e60a3ed7bd61",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "For inspection the drone approach is mature and fleet-wide; for contact work such as cleaning or coating it is early. Rated as scaling for the approach as a whole because the inspection business funds the contact experiments and the same vendors sell both.",
+        "advance_criteria": [
+          "Contact tasks (cleaning, coating) sold commercially from a drone platform",
+          "Autonomous, operator-free inspection flights as the default",
+          "BVLOS approvals for fleet campaigns in major markets"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

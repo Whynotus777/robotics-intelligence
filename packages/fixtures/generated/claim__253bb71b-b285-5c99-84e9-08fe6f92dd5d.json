@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "253bb71b-b285-5c99-84e9-08fe6f92dd5d",
+    "subject": {
+      "id": "d0bdf70a-64a1-5faf-8210-b2d4df93141d",
+      "slug": "locus-origin",
+      "entity_type": "ROBOT",
+      "name": "Locus Origin",
+      "primary_embodiment": "AMR"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "Locus Origin commercial stage VOLUME_PRODUCTION",
+    "value": {
+      "kind": "enum",
+      "value": "VOLUME_PRODUCTION"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2022-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "aa990222-fa44-57f8-b224-bf098086d100",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Fleet-scale deployment implied by the four-billion-picks milestone.",
+      "published_at": "2024-11-18T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f18a3a63-00a5-53f5-9c33-e4660a973d57",
+        "url": "https://locusrobotics.com/news",
+        "canonical_url": null,
+        "publisher": "Locus Robotics",
+        "title": "Locus Robotics surpasses four billion picks",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-11-18T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

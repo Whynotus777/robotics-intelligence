@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "2c3ab65f-51ed-5a72-b4a6-ff606a2f805c",
+    "subject": {
+      "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+      "slug": "automated-storage-and-retrieval",
+      "entity_type": "TASK",
+      "name": "Automated storage and retrieval",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_APPROACH",
+    "label": "has approach",
+    "sentence": "Automated storage and retrieval has approach AS/RS pallet handling",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+        "slug": "asrs-pallet-handling",
+        "entity_type": "APPROACH",
+        "name": "AS/RS pallet handling",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "23e9260d-56e0-5432-8c16-bd097afb570a",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The fixed-automation approach is the task itself here.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

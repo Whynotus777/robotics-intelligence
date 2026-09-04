@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "7d64389e-913a-55a8-8812-653fa8f14441",
+    "subject": {
+      "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
+      "slug": "boston-dynamics",
+      "entity_type": "ORGANIZATION",
+      "name": "Boston Dynamics",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Boston Dynamics is headquartered at Boston",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f5953a6e-568b-5df4-abf2-2638a9f7eb24",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "75d3d14b-aac2-50eb-9c80-1009226ac791",
+        "url": "https://bostondynamics.com/",
+        "canonical_url": null,
+        "publisher": "Boston Dynamics",
+        "title": "Boston Dynamics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

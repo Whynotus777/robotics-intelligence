@@ -1,0 +1,238 @@
+{
+  "entity": {
+    "id": "077b0165-6d64-55b6-9e86-0df976c238a9",
+    "slug": "figure-02",
+    "entity_type": "ROBOT",
+    "name": "Figure 02",
+    "short_description": "Figure AI's second-generation humanoid, the model piloted at BMW Spartanburg in 2024.",
+    "primary_embodiment": "HUMANOID",
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": "PILOT_DEPLOYMENTS",
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "5b953a5d-6e7b-58e1-92bb-1e892588a1c6",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2024-08-06",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ANNOUNCED_ON",
+      "label": "was announced on",
+      "claims": [
+        {
+          "claim_id": "68bf2027-c758-5f21-b2c2-107a5814ee21",
+          "predicate": "ANNOUNCED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2024-08-06"
+          },
+          "stack_layer": null,
+          "valid_from": "2024-08-06",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "93f73509-f2c6-5ad2-a000-100a4dc0becf",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "PILOT_DEPLOYMENTS"
+          },
+          "stack_layer": null,
+          "valid_from": "2024-08-06",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "MEMBER_OF_FAMILY",
+      "label": "is a member of",
+      "items": [
+        {
+          "claim_id": "2becef20-70f9-5224-9d8c-6093188f44ca",
+          "target": {
+            "id": "c049ae4e-2f0f-54a0-8b83-b899ae3b05cb",
+            "slug": "figure-humanoids",
+            "entity_type": "ROBOT_FAMILY",
+            "name": "Figure humanoids",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "USES_ROBOT",
+      "label": "uses robot",
+      "items": [
+        {
+          "claim_id": "cd5cb6ee-3bf6-5392-b7e4-56fccae576e9",
+          "source": {
+            "id": "51b72286-5ede-5876-9d5c-1d7036060163",
+            "slug": "deployment-figure-bmw-spartanburg",
+            "entity_type": "DEPLOYMENT",
+            "name": "Figure humanoids at BMW Spartanburg",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-08-06",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "2bc90193-e11b-51f6-ab9e-c5ec95540adf",
+          "source": {
+            "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+            "slug": "figure-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Figure AI",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "SUCCEEDS",
+      "label": "succeeds",
+      "items": [
+        {
+          "claim_id": "ee396203-afdb-5983-8a31-3d59c4185fd1",
+          "source": {
+            "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+            "slug": "figure-03",
+            "entity_type": "ROBOT",
+            "name": "Figure 03",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2025-10-09",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "c049ae4e-2f0f-54a0-8b83-b899ae3b05cb",
+        "slug": "figure-humanoids",
+        "entity_type": "ROBOT_FAMILY",
+        "name": "Figure humanoids",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+        "slug": "figure-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Figure AI",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 4,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 1,
+    "related_count": 4
+  },
+  "as_of": null
+}

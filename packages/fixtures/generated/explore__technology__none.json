@@ -1,0 +1,61 @@
+{
+  "lens": "technology",
+  "measure": "none",
+  "regions": [
+    {
+      "id": "technology",
+      "label": "US",
+      "count": 2,
+      "districts": [
+        {
+          "id": "depth-cameras",
+          "label": "Depth cameras",
+          "count": 2,
+          "entities": [
+            {
+              "chip": {
+                "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+                "slug": "boston-dynamics-spot",
+                "entity_type": "ROBOT",
+                "name": "Boston Dynamics Spot",
+                "primary_embodiment": "QUADRUPED"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+                "slug": "unitree-g1",
+                "entity_type": "ROBOT",
+                "name": "Unitree G1",
+                "primary_embodiment": "HUMANOID"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        },
+        {
+          "id": "3d-lidar",
+          "label": "3D LiDAR",
+          "count": 1,
+          "entities": [
+            {
+              "chip": {
+                "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+                "slug": "unitree-g1",
+                "entity_type": "ROBOT",
+                "name": "Unitree G1",
+                "primary_embodiment": "HUMANOID"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "as_of": null
+}

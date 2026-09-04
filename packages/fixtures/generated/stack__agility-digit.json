@@ -1,0 +1,80 @@
+{
+  "robot": {
+    "id": "ba14d056-2a53-544b-b02c-713a99e06c56",
+    "slug": "agility-digit",
+    "entity_type": "ROBOT",
+    "name": "Agility Digit",
+    "primary_embodiment": "HUMANOID"
+  },
+  "embodiment": "HUMANOID",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "VLA / policy models",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Task planning",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Perception",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "STATE_ESTIMATION",
+      "label": "State estimation",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Whole-body control",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Compute",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "Cameras, depth, IMU, F/T",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Joint actuators",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "Hands / grippers",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "POWER",
+      "label": "Battery, BMS",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Frame, joints, legs",
+      "applies": true,
+      "items": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

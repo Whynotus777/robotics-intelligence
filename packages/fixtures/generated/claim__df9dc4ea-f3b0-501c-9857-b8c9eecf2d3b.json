@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "df9dc4ea-f3b0-501c-9857-b8c9eecf2d3b",
+    "subject": {
+      "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+      "slug": "figure-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Figure AI",
+      "primary_embodiment": null
+    },
+    "predicate": "PARTNERS_WITH",
+    "label": "partners with",
+    "sentence": "Figure AI partners with BMW Group",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "098db5e0-7b78-56a1-8990-159131dbdb7c",
+        "slug": "bmw",
+        "entity_type": "ORGANIZATION",
+        "name": "BMW Group",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "87d4c6c3-20d7-5716-9eb0-4dc079b34c89",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "BMW Manufacturing and Figure agreement on humanoid robots, January 2024.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "0364de20-5e49-59c4-b726-72fca74c413a",
+        "url": "https://www.press.bmwgroup.com/global",
+        "canonical_url": null,
+        "publisher": "BMW Group",
+        "title": "BMW Manufacturing and Figure agree on the use of humanoid robots",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-01-18T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

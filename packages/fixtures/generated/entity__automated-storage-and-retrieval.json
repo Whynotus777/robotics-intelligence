@@ -1,0 +1,273 @@
+{
+  "entity": {
+    "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+    "slug": "automated-storage-and-retrieval",
+    "entity_type": "TASK",
+    "name": "Automated storage and retrieval",
+    "short_description": "Fixed automated systems that store, retrieve and sequence pallets, cases or totes with no human inside the storage volume.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "AS/RS"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "MATURE"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "de3359b3-48ed-5964-8977-1328184dbcf9",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "MATURE"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_INCUMBENT_PROCESS",
+      "label": "incumbent process",
+      "claims": [
+        {
+          "claim_id": "7f1967b1-467d-553d-9a1c-282d2bdf8eaa",
+          "predicate": "HAS_INCUMBENT_PROCESS",
+          "value": {
+            "kind": "text",
+            "text": "Conventional racking served by manual forklifts and order pickers."
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
+      "claims": [
+        {
+          "claim_id": "3fa4b6d7-6845-5464-a1d1-7f40487f8f72",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Retailers"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "af233bf6-c0e7-555a-b914-07b14061d348",
+          "target": {
+            "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+            "slug": "material-movement",
+            "entity_type": "MARKET",
+            "name": "Material movement",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "2c3ab65f-51ed-5a72-b4a6-ff606a2f805c",
+          "target": {
+            "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+            "slug": "asrs-pallet-handling",
+            "entity_type": "APPROACH",
+            "name": "AS/RS pallet handling",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "SERVES_TASK",
+      "label": "serves task",
+      "items": [
+        {
+          "claim_id": "d59e0456-1ee5-5e5d-a718-c70094caddcf",
+          "source": {
+            "id": "cf9f255c-b63f-5aea-b67e-307c2973f610",
+            "slug": "deployment-symbotic-walmart",
+            "entity_type": "DEPLOYMENT",
+            "name": "Symbotic systems at Walmart regional DCs",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-11-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "0fa9d70f-ec15-587b-983c-11f7aa9770f1",
+          "source": {
+            "id": "74914967-d3be-58ab-aacb-456441b741b1",
+            "slug": "symbotic",
+            "entity_type": "ORGANIZATION",
+            "name": "Symbotic",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
+      "items": [
+        {
+          "claim_id": "ccde8e23-343c-5f16-ba8d-528d50663154",
+          "source": {
+            "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+            "slug": "pallet-movement",
+            "entity_type": "TASK",
+            "name": "Pallet movement",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+        "slug": "asrs-pallet-handling",
+        "entity_type": "APPROACH",
+        "name": "AS/RS pallet handling",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "74914967-d3be-58ab-aacb-456441b741b1",
+        "slug": "symbotic",
+        "entity_type": "ORGANIZATION",
+        "name": "Symbotic",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+        "slug": "material-movement",
+        "entity_type": "MARKET",
+        "name": "Material movement",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 5
+      },
+      "claim_count": 5,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 5
+  },
+  "as_of": null
+}

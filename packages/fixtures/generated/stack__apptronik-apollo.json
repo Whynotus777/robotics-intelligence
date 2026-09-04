@@ -1,0 +1,89 @@
+{
+  "robot": {
+    "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+    "slug": "apptronik-apollo",
+    "entity_type": "ROBOT",
+    "name": "Apptronik Apollo",
+    "primary_embodiment": "HUMANOID"
+  },
+  "embodiment": "HUMANOID",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "VLA / policy models",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Task planning",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Perception",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "STATE_ESTIMATION",
+      "label": "State estimation",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Whole-body control",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Compute",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "Cameras, depth, IMU, F/T",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Joint actuators",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "Hands / grippers",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "POWER",
+      "label": "Battery, BMS",
+      "applies": true,
+      "items": [],
+      "architecture_note": {
+        "claim_id": "49f2d567-c352-5eff-a82c-5f891649cd1a",
+        "text": "Apollo uses a swappable battery pack so a robot can be kept on shift by exchanging packs rather than charging in place.",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Frame, joints, legs",
+      "applies": true,
+      "items": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

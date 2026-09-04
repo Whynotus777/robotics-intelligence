@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "2775cd13-3c1f-52b9-a726-2f8919283ecb",
+    "subject": {
+      "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+      "slug": "third-wave-automation",
+      "entity_type": "ORGANIZATION",
+      "name": "Third Wave Automation",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Third Wave Automation is headquartered at San Francisco Bay Area",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "db624a36-c6e0-5d6b-a209-af4de29632f1",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "de2286e5-e9b2-5c82-a0cc-4482b08a1892",
+        "url": "https://www.thirdwave.ai/",
+        "canonical_url": null,
+        "publisher": "Third Wave Automation",
+        "title": "Third Wave Automation",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

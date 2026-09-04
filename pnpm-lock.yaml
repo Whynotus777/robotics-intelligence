@@ -24,6 +24,21 @@ importers:
         specifier: ^3.2.7
         version: 3.2.7(@types/node@22.20.1)(tsx@4.23.13)(yaml@2.9.0)
 
+  packages/api:
+    dependencies:
+      '@ri/api-contracts':
+        specifier: workspace:*
+        version: link:../api-contracts
+      '@ri/db':
+        specifier: workspace:*
+        version: link:../db
+      '@ri/domain':
+        specifier: workspace:*
+        version: link:../domain
+      drizzle-orm:
+        specifier: ^0.45.2
+        version: 0.45.2(@types/pg@8.23.1)(pg@8.23.0)
+
   packages/api-contracts:
     dependencies:
       '@ri/domain':
@@ -67,6 +82,26 @@ importers:
         specifier: ^4.5.4
         version: 4.5.4
 
+  packages/fixtures:
+    dependencies:
+      '@ri/api':
+        specifier: workspace:*
+        version: link:../api
+      '@ri/api-contracts':
+        specifier: workspace:*
+        version: link:../api-contracts
+      '@ri/db':
+        specifier: workspace:*
+        version: link:../db
+    devDependencies:
+      tsx:
+        specifier: ^4.19.0
+        version: 4.23.13
+
+  packages/ingestion: {}
+
+  packages/review: {}
+
   packages/seed:
     dependencies:
       '@ri/db':
@@ -88,6 +123,8 @@ importers:
       tsx:
         specifier: ^4.19.0
         version: 4.23.13
+
+  packages/viz: {}
 
 packages:
 

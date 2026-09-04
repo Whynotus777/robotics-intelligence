@@ -1,0 +1,139 @@
+{
+  "robot": {
+    "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+    "slug": "unitree-g1",
+    "entity_type": "ROBOT",
+    "name": "Unitree G1",
+    "primary_embodiment": "HUMANOID"
+  },
+  "embodiment": "HUMANOID",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "VLA / policy models",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Task planning",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Perception",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "STATE_ESTIMATION",
+      "label": "State estimation",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Whole-body control",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Compute",
+      "applies": true,
+      "items": [
+        {
+          "entity": {
+            "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+            "slug": "nvidia-jetson-orin-nx",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "NVIDIA Jetson Orin NX",
+            "primary_embodiment": null
+          },
+          "kind": "product",
+          "claim_id": "739973c7-394d-57f5-aca1-e55ceb151030",
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ],
+      "architecture_note": {
+        "claim_id": "9f297e11-1507-55fe-8090-ba112e2ee020",
+        "text": "The base G1 ships with a low-power onboard controller; EDU variants add a Jetson Orin NX for perception and policy workloads, which is why most published research on the platform uses the EDU configuration.",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "MEDIUM",
+          "source_count": 1
+        }
+      }
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "Cameras, depth, IMU, F/T",
+      "applies": true,
+      "items": [
+        {
+          "entity": {
+            "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
+            "slug": "depth-cameras",
+            "entity_type": "TECHNOLOGY",
+            "name": "Depth cameras",
+            "primary_embodiment": null
+          },
+          "kind": "technology",
+          "claim_id": "27a4248f-cbe7-5b7c-948a-18cecc45e368",
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "entity": {
+            "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
+            "slug": "3d-lidar",
+            "entity_type": "TECHNOLOGY",
+            "name": "3D LiDAR",
+            "primary_embodiment": null
+          },
+          "kind": "technology",
+          "claim_id": "a2a75384-80c2-5a3f-92f3-b1187a0ba911",
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Joint actuators",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "Hands / grippers",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "POWER",
+      "label": "Battery, BMS",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Frame, joints, legs",
+      "applies": true,
+      "items": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

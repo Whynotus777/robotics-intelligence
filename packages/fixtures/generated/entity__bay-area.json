@@ -1,0 +1,186 @@
+{
+  "entity": {
+    "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+    "slug": "bay-area",
+    "entity_type": "PLACE",
+    "name": "San Francisco Bay Area",
+    "short_description": "Corridor spanning San Francisco, the Peninsula and Silicon Valley; densest cluster of humanoid, drone, compute and foundation-model companies.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": "California",
+    "city": null,
+    "lat": 37.45,
+    "lng": -122.15,
+    "cluster_label": "Bay Area"
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "dc853f07-60ec-505d-87d9-9ec1257c444e",
+          "source": {
+            "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+            "slug": "figure-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Figure AI",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "104a5490-a54c-5896-a64e-1d669ca5301e",
+          "source": {
+            "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+            "slug": "nvidia",
+            "entity_type": "ORGANIZATION",
+            "name": "NVIDIA",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "fd85cf6e-2176-5645-8571-d87ea417572c",
+          "source": {
+            "id": "b81a66f4-ff3d-5c78-a247-7dea374bed6a",
+            "slug": "physical-intelligence",
+            "entity_type": "ORGANIZATION",
+            "name": "Physical Intelligence",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "3789e105-a1f2-5d31-becb-91c8dcf6bed6",
+          "source": {
+            "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+            "slug": "skydio",
+            "entity_type": "ORGANIZATION",
+            "name": "Skydio",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "2775cd13-3c1f-52b9-a726-2f8919283ecb",
+          "source": {
+            "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+            "slug": "third-wave-automation",
+            "entity_type": "ORGANIZATION",
+            "name": "Third Wave Automation",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+        "slug": "figure-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Figure AI",
+        "primary_embodiment": null
+      },
+      {
+        "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+        "slug": "nvidia",
+        "entity_type": "ORGANIZATION",
+        "name": "NVIDIA",
+        "primary_embodiment": null
+      },
+      {
+        "id": "b81a66f4-ff3d-5c78-a247-7dea374bed6a",
+        "slug": "physical-intelligence",
+        "entity_type": "ORGANIZATION",
+        "name": "Physical Intelligence",
+        "primary_embodiment": null
+      },
+      {
+        "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+        "slug": "skydio",
+        "entity_type": "ORGANIZATION",
+        "name": "Skydio",
+        "primary_embodiment": null
+      },
+      {
+        "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+        "slug": "third-wave-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "Third Wave Automation",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 5
+  },
+  "as_of": null
+}

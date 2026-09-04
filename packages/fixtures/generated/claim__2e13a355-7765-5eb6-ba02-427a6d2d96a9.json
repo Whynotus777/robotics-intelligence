@@ -1,0 +1,54 @@
+{
+  "claim": {
+    "claim_id": "2e13a355-7765-5eb6-ba02-427a6d2d96a9",
+    "subject": {
+      "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+      "slug": "autonomous-forklift",
+      "entity_type": "APPROACH",
+      "name": "Autonomous forklift",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Autonomous forklift maturity EARLY_COMMERCIAL",
+    "value": {
+      "kind": "enum",
+      "value": "EARLY_COMMERCIAL"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "80ad9cd8-5ee6-5156-9f0e-39acfd796e10",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Fox Robotics and Third Wave Automation sell autonomous forklifts into paying customer sites, with trailer work as the wedge, but customer counts are small and the trailer edge cases are still being worked through site by site. A step behind the pallet-jack approach on repeatability.",
+        "advance_criteria": [
+          "Repeat multi-site orders from the same customers",
+          "Unattended trailer unloading across the full inbound mix",
+          "A major forklift OEM shipping autonomy as a factory option"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

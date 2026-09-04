@@ -1,0 +1,54 @@
+{
+  "claim": {
+    "claim_id": "58a6e753-029b-503a-9194-cf36aeb8f0c2",
+    "subject": {
+      "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
+      "slug": "case-picking",
+      "entity_type": "TASK",
+      "name": "Case picking",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Case picking maturity EARLY_COMMERCIAL",
+    "value": {
+      "kind": "enum",
+      "value": "EARLY_COMMERCIAL"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "afa5e4a4-eea8-5e8e-bd08-d80257d7ee4b",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Robotic case picking and mixed-pallet building are sold commercially by fixed-automation vendors and a growing set of mobile-manipulation vendors, with paying customers in grocery and CPG. It is early commercial because deployments are still large capital projects with long lead times rather than repeatable installs.",
+        "advance_criteria": [
+          "Repeatable installs quoted in months, not years",
+          "Vendors with more than ten production sites each",
+          "Mobile manipulators handling the case mix without human exception handling"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

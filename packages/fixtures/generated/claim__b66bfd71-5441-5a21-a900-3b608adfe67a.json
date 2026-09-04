@@ -1,0 +1,77 @@
+{
+  "claim": {
+    "claim_id": "b66bfd71-5441-5a21-a900-3b608adfe67a",
+    "subject": {
+      "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+      "slug": "blade-repair",
+      "entity_type": "TASK",
+      "name": "Blade repair",
+      "primary_embodiment": null
+    },
+    "predicate": "ADJACENT_TO",
+    "label": "is adjacent to",
+    "sentence": "Blade repair is adjacent to Blade cleaning",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7831a686-465b-5c38-9904-bf9354227e01",
+        "slug": "blade-cleaning",
+        "entity_type": "TASK",
+        "name": "Blade cleaning",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "efab92a9-13f5-5cc5-ad74-300350f7d1e8",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Cleaning and leading-edge protection use the same suspended platforms and the same crews; cleaning is the commercial wedge for repair vendors.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "26a673ab-061e-5c03-9ec1-c2e836df2362",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+          "slug": "blade-visual-inspection",
+          "entity_type": "TASK",
+          "name": "Blade visual inspection",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

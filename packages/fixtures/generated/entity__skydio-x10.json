@@ -1,0 +1,235 @@
+{
+  "entity": {
+    "id": "d7947928-8b51-5563-ac9a-8910108075b3",
+    "slug": "skydio-x10",
+    "entity_type": "ROBOT",
+    "name": "Skydio X10",
+    "short_description": "Autonomous enterprise drone with onboard obstacle avoidance, multiple sensor payload options and NDAA-compliant positioning.",
+    "primary_embodiment": "DRONE",
+    "country_code": "US",
+    "aliases": [
+      "X10"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": "VOLUME_PRODUCTION",
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "eb3d5771-287c-58fb-a41d-59b64e01dd36",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "DRONE"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "1d8764e3-db22-5c81-81fa-52479f5380f5",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "VOLUME_PRODUCTION"
+          },
+          "stack_layer": null,
+          "valid_from": "2024-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ANNOUNCED_ON",
+      "label": "was announced on",
+      "claims": [
+        {
+          "claim_id": "4d5b5364-cd6a-5223-ae14-7e755982332d",
+          "predicate": "ANNOUNCED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2023-09-20"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_ARCHITECTURE_NOTE",
+      "label": "architecture note",
+      "claims": [
+        {
+          "claim_id": "0e625c9f-b193-58e9-8782-4251ed50f71b",
+          "predicate": "HAS_ARCHITECTURE_NOTE",
+          "value": {
+            "kind": "text",
+            "text": "X10 runs Skydio's onboard autonomy stack for obstacle avoidance and autonomous data capture, so missions do not depend on a remote pilot's line of sight."
+          },
+          "stack_layer": "INTELLIGENCE",
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "9b45df0a-a9a0-56e6-9cac-b090eaa741e3",
+          "predicate": "HAS_ARCHITECTURE_NOTE",
+          "value": {
+            "kind": "text",
+            "text": "Multiple sensor payload options (visual, thermal, zoom) are offered as swappable packages."
+          },
+          "stack_layer": "END_EFFECTOR_PAYLOAD",
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "17bad383-a721-5daf-9877-43adb920fbaa",
+          "source": {
+            "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+            "slug": "skydio",
+            "entity_type": "ORGANIZATION",
+            "name": "Skydio",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "COMPETES_WITH",
+      "label": "competes with",
+      "items": [
+        {
+          "claim_id": "fc7b2298-393c-5b46-bf76-62e2cdd84bf1",
+          "source": {
+            "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
+            "slug": "dji-matrice-350-rtk",
+            "entity_type": "ROBOT",
+            "name": "DJI Matrice 350 RTK",
+            "primary_embodiment": "DRONE"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "DERIVED",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+        "slug": "skydio",
+        "entity_type": "ORGANIZATION",
+        "name": "Skydio",
+        "primary_embodiment": null
+      }
+    ],
+    "peers": [
+      {
+        "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
+        "slug": "dji-matrice-350-rtk",
+        "entity_type": "ROBOT",
+        "name": "DJI Matrice 350 RTK",
+        "primary_embodiment": "DRONE"
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 5,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 5,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

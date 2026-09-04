@@ -1,0 +1,111 @@
+{
+  "claim": {
+    "claim_id": "68108d86-64a5-5e91-a703-49c6c3dd005f",
+    "subject": {
+      "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+      "slug": "blade-repair",
+      "entity_type": "TASK",
+      "name": "Blade repair",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_APPROACH",
+    "label": "has approach",
+    "sentence": "Blade repair has approach Blade crawler",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
+        "slug": "blade-crawler",
+        "entity_type": "APPROACH",
+        "name": "Blade crawler",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6cf689e3-e701-5738-92d9-91d7764c77a1",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Crawlers adhere to the blade surface and carry tooling directly to the defect; BladeBUG is the reference vendor.",
+        "advance_criteria": [
+          "Remove if crawler vendors exit repair."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "e9ff8e43-78c7-5b1a-b6ac-590dc5d2cfb0",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+          "slug": "drone-based-blade-maintenance",
+          "entity_type": "APPROACH",
+          "name": "Drone-based",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "468ae321-4cd0-529e-9b54-f37b9a9e6212",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+          "slug": "rope-cable-suspended-robot",
+          "entity_type": "APPROACH",
+          "name": "Rope/cable-suspended robot",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "aea376cf-5533-5f45-b6df-79a4288fe624",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "337c1e71-855d-5403-a3fb-6c1979113161",
+          "slug": "aerial-manipulator",
+          "entity_type": "APPROACH",
+          "name": "Aerial manipulator",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

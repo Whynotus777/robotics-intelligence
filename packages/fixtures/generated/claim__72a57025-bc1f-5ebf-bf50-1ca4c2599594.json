@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "72a57025-bc1f-5ebf-bf50-1ca4c2599594",
+    "subject": {
+      "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+      "slug": "unitree-g1",
+      "entity_type": "ROBOT",
+      "name": "Unitree G1",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "Unitree G1 commercial stage COMMERCIAL",
+    "value": {
+      "kind": "enum",
+      "value": "COMMERCIAL"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-05-13",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "dd8dabc3-95cd-5ccd-97dc-33b12af79283",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "G1 is sold broadly at a published price to research and developer customers, with units shipping in volume through resellers; that is commercial availability by any test. It is not volume production in the sense of an industrial product line because the buyer is still overwhelmingly research and the robot is not sold into a production task.",
+        "advance_criteria": [
+          "Repeat purchases by non-research customers for a production task",
+          "A published deployment programme with a commercial operator",
+          "Evidence of monthly output at industrial scale"
+        ],
+        "regress_criteria": [
+          "Withdrawal of the published price or a shift to quote-only sales"
+        ],
+        "evidence_considered": [
+          {
+            "claim_id": "3de36c4d-6e98-5d46-ba81-805fe0532a1d",
+            "sentence": "Unitree G1 list price 16,000 USD"
+          },
+          {
+            "claim_id": "a35f4fdb-20a0-5c00-89e3-3b14bda3ba0d",
+            "sentence": "Unitree G1 was announced on 2024-05-13"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

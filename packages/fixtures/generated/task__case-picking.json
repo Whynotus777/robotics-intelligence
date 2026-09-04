@@ -1,0 +1,93 @@
+{
+  "task": {
+    "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
+    "slug": "case-picking",
+    "entity_type": "TASK",
+    "name": "Case picking",
+    "primary_embodiment": null
+  },
+  "short_description": "Building mixed-case pallets or moving full cases from storage to outbound, by arm or by automated system.",
+  "market_path": [
+    {
+      "id": "68407748-0447-505b-aa53-0d87ab606e33",
+      "slug": "warehouse-logistics",
+      "entity_type": "MARKET",
+      "name": "Warehouse & Logistics",
+      "primary_embodiment": null
+    },
+    {
+      "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+      "slug": "material-movement",
+      "entity_type": "MARKET",
+      "name": "Material movement",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "EARLY_COMMERCIAL",
+    "claim_id": "58a6e753-029b-503a-9194-cf36aeb8f0c2",
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "Robotic case picking and mixed-pallet building are sold commercially by fixed-automation vendors and a growing set of mobile-manipulation vendors, with paying customers in grocery and CPG. It is early commercial because deployments are still large capital projects with long lead times rather than repeatable installs.",
+      "advance_criteria": [
+        "Repeatable installs quoted in months, not years",
+        "Vendors with more than ten production sites each",
+        "Mobile manipulators handling the case mix without human exception handling"
+      ],
+      "regress_criteria": [],
+      "evidence_considered": [],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "e64b26a7-f7b1-52a1-a002-f39bc5a96d03",
+      "text": "Manual case picking with pallet jacks and voice-directed picking.",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Case picking is heavy, injury-prone manual work, which drives demand.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "d2582827-fde9-5502-b61b-f236cd211bb6",
+      "text": "Grocery and retail distributors",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Grocery DCs have the highest case volumes and the earliest production systems.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "as_of": null
+}

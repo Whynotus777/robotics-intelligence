@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "0fa9d70f-ec15-587b-983c-11f7aa9770f1",
+    "subject": {
+      "id": "74914967-d3be-58ab-aacb-456441b741b1",
+      "slug": "symbotic",
+      "entity_type": "ORGANIZATION",
+      "name": "Symbotic",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Symbotic targets task Automated storage and retrieval",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+        "slug": "automated-storage-and-retrieval",
+        "entity_type": "TASK",
+        "name": "Automated storage and retrieval",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "72c3eaf6-3312-5b18-ab1b-d3d9716ede9d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Annual report describes case storage and retrieval.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "fba953b5-9138-59ef-903d-60ccc6005693",
+        "url": "https://www.sec.gov/",
+        "canonical_url": null,
+        "publisher": "U.S. Securities and Exchange Commission",
+        "title": "Symbotic Inc. Form 10-K",
+        "source_kind": "FILING",
+        "published_at": "2024-11-25T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

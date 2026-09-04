@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "14b6457a-f883-5a06-8f2c-0e2189114a2a",
+    "subject": {
+      "id": "51b72286-5ede-5876-9d5c-1d7036060163",
+      "slug": "deployment-figure-bmw-spartanburg",
+      "entity_type": "DEPLOYMENT",
+      "name": "Figure humanoids at BMW Spartanburg",
+      "primary_embodiment": null
+    },
+    "predicate": "OCCURS_AT",
+    "label": "occurs at",
+    "sentence": "Figure humanoids at BMW Spartanburg occurs at Spartanburg",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "a3e6bb2e-6cb0-57f6-a5de-328fcc0ec33a",
+        "slug": "spartanburg",
+        "entity_type": "PLACE",
+        "name": "Spartanburg",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-01-18",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "29e0d6d9-0a52-54a6-98c4-ffacc34ca8de",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Deployment at the Spartanburg plant.",
+      "published_at": "2024-01-18T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "0364de20-5e49-59c4-b726-72fca74c413a",
+        "url": "https://www.press.bmwgroup.com/global",
+        "canonical_url": null,
+        "publisher": "BMW Group",
+        "title": "BMW Manufacturing and Figure agree on the use of humanoid robots",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-01-18T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

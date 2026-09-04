@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "e64b26a7-f7b1-52a1-a002-f39bc5a96d03",
+    "subject": {
+      "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
+      "slug": "case-picking",
+      "entity_type": "TASK",
+      "name": "Case picking",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_INCUMBENT_PROCESS",
+    "label": "incumbent process",
+    "sentence": "Case picking incumbent process Manual case picking with pallet jacks and voice-directed picking.",
+    "value": {
+      "kind": "text",
+      "text": "Manual case picking with pallet jacks and voice-directed picking."
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0d91cd38-b2a3-578e-af2b-715a7cb0e5d8",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Case picking is heavy, injury-prone manual work, which drives demand.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "beeeff2e-d4e0-5b8d-9f4f-011d436df20e",
+    "subject": {
+      "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+      "slug": "autonomous-forklift",
+      "entity_type": "APPROACH",
+      "name": "Autonomous forklift",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_EXAMPLE_VENDOR",
+    "label": "example vendor",
+    "sentence": "Autonomous forklift example vendor Fox Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+        "slug": "fox-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Fox Robotics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ab3f0a58-1885-52ed-a6ea-4ce005aa4f66",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site positions Fox Robotics as an autonomous forklift vendor for trailer unloading.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8b8806bb-2c1f-508f-b5f6-9eed0efb07ed",
+        "url": "https://www.foxrobotics.com/",
+        "canonical_url": null,
+        "publisher": "Fox Robotics",
+        "title": "Fox Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "c517dfb0-a8fe-53d0-9578-8fb02bdf1770",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+          "slug": "third-wave-automation",
+          "entity_type": "ORGANIZATION",
+          "name": "Third Wave Automation",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

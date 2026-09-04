@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "a474a915-03ab-596e-bf4d-ea86722a319b",
+    "subject": {
+      "id": "cf9f255c-b63f-5aea-b67e-307c2973f610",
+      "slug": "deployment-symbotic-walmart",
+      "entity_type": "DEPLOYMENT",
+      "name": "Symbotic systems at Walmart regional DCs",
+      "primary_embodiment": null
+    },
+    "predicate": "DEPLOYED_BY",
+    "label": "is deployed by",
+    "sentence": "Symbotic systems at Walmart regional DCs is deployed by Walmart",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7f880e99-4aa8-51d2-8bd9-c49d613ed706",
+        "slug": "walmart",
+        "entity_type": "ORGANIZATION",
+        "name": "Walmart",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-11-25",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "83509f0d-3800-58bc-b6d6-64b7c3ba95cb",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Annual report describes the Walmart programme as the company's largest customer commitment.",
+      "published_at": "2024-11-25T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "fba953b5-9138-59ef-903d-60ccc6005693",
+        "url": "https://www.sec.gov/",
+        "canonical_url": null,
+        "publisher": "U.S. Securities and Exchange Commission",
+        "title": "Symbotic Inc. Form 10-K",
+        "source_kind": "FILING",
+        "published_at": "2024-11-25T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

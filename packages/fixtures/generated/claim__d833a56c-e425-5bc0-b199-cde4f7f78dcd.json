@@ -1,0 +1,83 @@
+{
+  "claim": {
+    "claim_id": "d833a56c-e425-5bc0-b199-cde4f7f78dcd",
+    "subject": {
+      "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+      "slug": "blade-repair",
+      "entity_type": "TASK",
+      "name": "Blade repair",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_TECHNICAL_REQUIREMENT",
+    "label": "technical requirement",
+    "sentence": "Blade repair technical requirement Blade-edge localization",
+    "value": {
+      "kind": "text",
+      "text": "Blade-edge localization"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "aa621a0f-65f9-5a96-8b3a-b8a6ba45425a",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The robot must find and track the leading edge to millimetre precision on a curved, uniformly coloured surface, in varying light.",
+        "advance_criteria": [
+          "Would be simplified by blade-embedded fiducials, which no OEM ships today."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "78f6b3a2-bae3-578b-8a50-b2a4cd50a0a3",
+      "value": {
+        "kind": "text",
+        "text": "Contact stability in wind"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "7214d204-9cd7-53a9-9a8c-579fc04538b3",
+      "value": {
+        "kind": "text",
+        "text": "Surface preparation and coating application"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "984b9599-7cf8-544a-bc0e-441f739df63f",
+      "value": {
+        "kind": "text",
+        "text": "Working at 80–120 m height"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

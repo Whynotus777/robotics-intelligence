@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "ca32e2d8-edc1-5545-abad-f8ec20894530",
+    "subject": {
+      "id": "7831a686-465b-5c38-9904-bf9354227e01",
+      "slug": "blade-cleaning",
+      "entity_type": "TASK",
+      "name": "Blade cleaning",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_CUSTOMER_TYPE",
+    "label": "customer type",
+    "sentence": "Blade cleaning customer type Asset owners and operators",
+    "value": {
+      "kind": "text",
+      "text": "Asset owners and operators"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "86889431-95db-5d88-98db-68947943aaa9",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Owners capture the output gain and pay for cleaning.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

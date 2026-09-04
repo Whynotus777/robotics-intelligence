@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "13822532-0716-54e1-828f-ed4eabb143a1",
+    "subject": {
+      "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
+      "slug": "skyspecs",
+      "entity_type": "ORGANIZATION",
+      "name": "SkySpecs",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "SkySpecs is headquartered at Ann Arbor",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c1b148a1-6437-5a58-b338-b407537a37e1",
+        "slug": "ann-arbor",
+        "entity_type": "PLACE",
+        "name": "Ann Arbor",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7ecb7ab3-207d-53c6-b97c-8287f2435c12",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "61dd170d-1752-555e-9683-dc5e0185a78d",
+        "url": "https://skyspecs.com/",
+        "canonical_url": null,
+        "publisher": "SkySpecs",
+        "title": "SkySpecs",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

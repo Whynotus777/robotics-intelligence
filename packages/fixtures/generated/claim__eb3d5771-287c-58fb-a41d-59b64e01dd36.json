@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "eb3d5771-287c-58fb-a41d-59b64e01dd36",
+    "subject": {
+      "id": "d7947928-8b51-5563-ac9a-8910108075b3",
+      "slug": "skydio-x10",
+      "entity_type": "ROBOT",
+      "name": "Skydio X10",
+      "primary_embodiment": "DRONE"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "Skydio X10 embodiment DRONE",
+    "value": {
+      "kind": "enum",
+      "value": "DRONE"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "902404d6-d85a-5538-83d3-07f6b0ee659b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Product page presents X10 as an autonomous drone.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "ad7db38e-1905-51d0-b521-015a678f25f7",
+        "url": "https://www.skydio.com/x10",
+        "canonical_url": null,
+        "publisher": "Skydio",
+        "title": "Skydio X10",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "f3e76aff-f7ae-539c-8728-90fbfef84a08",
+    "subject": {
+      "id": "81571cfa-9773-5740-a33f-0121af56676c",
+      "slug": "rope-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Rope Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Rope Robotics targets task Blade repair",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+        "slug": "blade-repair",
+        "entity_type": "TASK",
+        "name": "Blade repair",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ca5d6f41-913a-5136-ac06-e78b1a15a416",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Robotic blade repair positioning.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "7af0f6d1-8bf6-5ed3-b501-4963fd0eb445",
+        "url": "https://roperobotics.com/",
+        "canonical_url": null,
+        "publisher": "Rope Robotics",
+        "title": "Rope Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

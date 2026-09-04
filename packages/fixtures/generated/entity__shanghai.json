@@ -1,0 +1,86 @@
+{
+  "entity": {
+    "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+    "slug": "shanghai",
+    "entity_type": "PLACE",
+    "name": "Shanghai",
+    "short_description": null,
+    "primary_embodiment": null,
+    "country_code": "CN",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": "Shanghai",
+    "city": "Shanghai",
+    "lat": 31.23,
+    "lng": 121.47,
+    "cluster_label": "Shanghai"
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "MANUFACTURES_AT",
+      "label": "manufactures at",
+      "items": [
+        {
+          "claim_id": "7a8bd307-63cd-592a-872a-0311dfc90eb4",
+          "source": {
+            "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+            "slug": "abb-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "ABB Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+        "slug": "abb-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ABB Robotics",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

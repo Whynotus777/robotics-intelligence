@@ -1,0 +1,199 @@
+{
+  "entity": {
+    "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+    "slug": "autonomous-forklift",
+    "entity_type": "APPROACH",
+    "name": "Autonomous forklift",
+    "short_description": "Retrofit kits or purpose-built forklifts that drive, lift and enter trailers autonomously.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "EARLY_COMMERCIAL"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "2e13a355-7765-5eb6-ba02-427a6d2d96a9",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "EARLY_COMMERCIAL"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_EMBODIMENT",
+      "label": "uses embodiment",
+      "claims": [
+        {
+          "claim_id": "bcc52050-7685-554b-8bf2-d3bd47b35e10",
+          "predicate": "USES_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "AMR"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "beeeff2e-d4e0-5b8d-9f4f-011d436df20e",
+          "target": {
+            "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+            "slug": "fox-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Fox Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "c517dfb0-a8fe-53d0-9578-8fb02bdf1770",
+          "target": {
+            "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+            "slug": "third-wave-automation",
+            "entity_type": "ORGANIZATION",
+            "name": "Third Wave Automation",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "7fa58e98-7b33-5cd3-a02f-1c52a87b559d",
+          "source": {
+            "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+            "slug": "pallet-movement",
+            "entity_type": "TASK",
+            "name": "Pallet movement",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "13a35b10-02d5-5c9b-a6d4-de5490f4b758",
+          "source": {
+            "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+            "slug": "truck-unloading",
+            "entity_type": "TASK",
+            "name": "Truck unloading",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+        "slug": "fox-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Fox Robotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+        "slug": "third-wave-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "Third Wave Automation",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 1
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 4
+  },
+  "as_of": null
+}

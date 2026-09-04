@@ -1,0 +1,193 @@
+{
+  "task": {
+    "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+    "slug": "automated-storage-and-retrieval",
+    "entity_type": "TASK",
+    "name": "Automated storage and retrieval",
+    "primary_embodiment": null
+  },
+  "short_description": "Fixed automated systems that store, retrieve and sequence pallets, cases or totes with no human inside the storage volume.",
+  "market_path": [
+    {
+      "id": "68407748-0447-505b-aa53-0d87ab606e33",
+      "slug": "warehouse-logistics",
+      "entity_type": "MARKET",
+      "name": "Warehouse & Logistics",
+      "primary_embodiment": null
+    },
+    {
+      "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+      "slug": "material-movement",
+      "entity_type": "MARKET",
+      "name": "Material movement",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "MATURE",
+    "claim_id": "de3359b3-48ed-5964-8977-1328184dbcf9",
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "Fixed AS/RS has decades of installed base, established integrators and standard financing, and Symbotic-style case-handling systems are now scaling across grocery distribution under multi-year programmes. Nothing about the technology is in question; the buying decision is capital allocation.",
+      "advance_criteria": [
+        "Already mature; watch the shift from pallet AS/RS to case- and tote-level systems"
+      ],
+      "regress_criteria": [
+        "None plausible for the installed technology"
+      ],
+      "evidence_considered": [
+        {
+          "claim_id": "0fa9d70f-ec15-587b-983c-11f7aa9770f1",
+          "sentence": "Symbotic targets task Automated storage and retrieval"
+        },
+        {
+          "claim_id": "d59e0456-1ee5-5e5d-a718-c70094caddcf",
+          "sentence": "Symbotic systems at Walmart regional DCs serves task Automated storage and retrieval"
+        }
+      ],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "7f1967b1-467d-553d-9a1c-282d2bdf8eaa",
+      "text": "Conventional racking served by manual forklifts and order pickers.",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Racking plus forklifts remains the default for most sites by count.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "approaches": [
+    {
+      "approach": {
+        "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+        "slug": "asrs-pallet-handling",
+        "entity_type": "APPROACH",
+        "name": "AS/RS pallet handling",
+        "primary_embodiment": null
+      },
+      "short_description": "Fixed automated storage and retrieval systems that move pallets or cases within a structure instead of with vehicles.",
+      "maturity": {
+        "value": "MATURE",
+        "claim_id": "3abefd5e-7de6-5a0a-b2f4-dbde73d95136",
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "HIGH",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Fixed AS/RS is a decades-old category with standard integrators and financing; Symbotic-style systems extend it to case handling at grocery scale. There is no technology question left, only capital allocation.",
+          "advance_criteria": [
+            "Already mature"
+          ],
+          "regress_criteria": [],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "OTHER_MOBILE"
+      ],
+      "example_vendors": [
+        {
+          "id": "74914967-d3be-58ab-aacb-456441b741b1",
+          "slug": "symbotic",
+          "entity_type": "ORGANIZATION",
+          "name": "Symbotic",
+          "primary_embodiment": null
+        }
+      ]
+    }
+  ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "74914967-d3be-58ab-aacb-456441b741b1",
+        "slug": "symbotic",
+        "entity_type": "ORGANIZATION",
+        "name": "Symbotic",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    }
+  ],
+  "deployments": [
+    {
+      "deployment": {
+        "id": "cf9f255c-b63f-5aea-b67e-307c2973f610",
+        "slug": "deployment-symbotic-walmart",
+        "entity_type": "DEPLOYMENT",
+        "name": "Symbotic systems at Walmart regional DCs",
+        "primary_embodiment": null
+      },
+      "customer": {
+        "id": "7f880e99-4aa8-51d2-8bd9-c49d613ed706",
+        "slug": "walmart",
+        "entity_type": "ORGANIZATION",
+        "name": "Walmart",
+        "primary_embodiment": null
+      },
+      "operators": [
+        {
+          "id": "74914967-d3be-58ab-aacb-456441b741b1",
+          "slug": "symbotic",
+          "entity_type": "ORGANIZATION",
+          "name": "Symbotic",
+          "primary_embodiment": null
+        }
+      ],
+      "robots": [],
+      "places": [],
+      "began": "2022-01-01",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      }
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "3fa4b6d7-6845-5464-a1d1-7f40487f8f72",
+      "text": "Retailers",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Large retailers fund the biggest programmes.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "as_of": null
+}

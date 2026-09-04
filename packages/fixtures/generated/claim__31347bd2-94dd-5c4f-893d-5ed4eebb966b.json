@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "31347bd2-94dd-5c4f-893d-5ed4eebb966b",
+    "subject": {
+      "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
+      "slug": "harmonic-drive",
+      "entity_type": "ORGANIZATION",
+      "name": "Harmonic Drive",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Harmonic Drive is headquartered at Tokyo",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "342dc6ce-bbc2-5930-9463-9914f3f964e7",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "eb3af6a7-5886-540a-b528-49172e9f1d67",
+        "url": "https://www.harmonicdrive.net/",
+        "canonical_url": null,
+        "publisher": "Harmonic Drive",
+        "title": "Harmonic Drive strain wave gearing",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

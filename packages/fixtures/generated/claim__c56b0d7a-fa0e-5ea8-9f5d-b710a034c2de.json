@@ -1,0 +1,73 @@
+{
+  "claim": {
+    "claim_id": "c56b0d7a-fa0e-5ea8-9f5d-b710a034c2de",
+    "subject": {
+      "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+      "slug": "pallet-movement",
+      "entity_type": "TASK",
+      "name": "Pallet movement",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_CUSTOMER_TYPE",
+    "label": "customer type",
+    "sentence": "Pallet movement customer type Retailers",
+    "value": {
+      "kind": "text",
+      "text": "Retailers"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "85a35b84-5fc4-5d42-841b-b52c22cbe9cd",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Retail distribution centres are the largest pallet-flow sites.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "c6f4be9b-1aed-5fac-9663-96a4d92dd2fa",
+      "value": {
+        "kind": "text",
+        "text": "Third-party logistics providers (3PLs)"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "952231fe-f478-50df-9fbf-b9c73ba305cb",
+      "value": {
+        "kind": "text",
+        "text": "CPG manufacturers"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

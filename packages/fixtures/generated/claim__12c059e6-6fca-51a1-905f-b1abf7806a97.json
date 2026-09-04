@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "12c059e6-6fca-51a1-905f-b1abf7806a97",
+    "subject": {
+      "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+      "slug": "contact-ndt",
+      "entity_type": "TASK",
+      "name": "Contact NDT",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_CUSTOMER_TYPE",
+    "label": "customer type",
+    "sentence": "Contact NDT customer type Asset owners and operators",
+    "value": {
+      "kind": "text",
+      "text": "Asset owners and operators"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "36aa5775-e151-5ae8-9147-2c21d6f64e12",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Owners of ageing fleets are the demand source.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "7a6c223a-8ddf-5c5a-b3aa-51c762812a1a",
+    "subject": {
+      "id": "d41554ca-2df4-5f8b-be56-0be5ce3df101",
+      "slug": "qualcomm",
+      "entity_type": "ORGANIZATION",
+      "name": "Qualcomm",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Qualcomm is headquartered at San Diego",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+        "slug": "san-diego",
+        "entity_type": "PLACE",
+        "name": "San Diego",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ddded212-86f2-555e-9090-474c12fda0b4",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "2e016ba0-2599-5d94-af87-18d48f55fe61",
+        "url": "https://www.qualcomm.com/products/internet-of-things/robotics",
+        "canonical_url": null,
+        "publisher": "Qualcomm",
+        "title": "Qualcomm robotics platforms",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

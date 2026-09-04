@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "af2bf497-4272-5a40-9039-1f8b97d4c58c",
+    "subject": {
+      "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
+      "slug": "dji",
+      "entity_type": "ORGANIZATION",
+      "name": "DJI",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "DJI is headquartered at Shenzhen",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5c7ab526-edb0-5f36-b6d1-4fafbff75e35",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f6d5701d-2319-597c-9e82-3e1c9423d6f7",
+        "url": "https://www.dji.com/",
+        "canonical_url": null,
+        "publisher": "DJI",
+        "title": "DJI",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

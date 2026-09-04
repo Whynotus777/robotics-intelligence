@@ -1,0 +1,80 @@
+{
+  "robot": {
+    "id": "9c12a0ae-d1aa-5eed-ab85-416b54bece15",
+    "slug": "fox-robotics-foxbot",
+    "entity_type": "ROBOT",
+    "name": "Fox Robotics FoxBot",
+    "primary_embodiment": "AMR"
+  },
+  "embodiment": "AMR",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "Fleet orchestration",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Task & route planning",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Perception",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "STATE_ESTIMATION",
+      "label": "Localization & SLAM",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Motion control",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Compute",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "LiDAR, cameras, safety scanners",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Drive motors",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "Payload handling (lift, conveyor)",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "POWER",
+      "label": "Battery, charging",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Chassis",
+      "applies": true,
+      "items": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

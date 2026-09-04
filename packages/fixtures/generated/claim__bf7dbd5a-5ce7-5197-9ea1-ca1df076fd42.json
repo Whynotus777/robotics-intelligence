@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "bf7dbd5a-5ce7-5197-9ea1-ca1df076fd42",
+    "subject": {
+      "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
+      "slug": "apptronik",
+      "entity_type": "ORGANIZATION",
+      "name": "Apptronik",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Apptronik builds Apptronik Apollo",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+        "slug": "apptronik-apollo",
+        "entity_type": "ROBOT",
+        "name": "Apptronik Apollo",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d10f90ce-7f03-53a6-84e1-4e38e84bcc3a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company product page for Apollo.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "53edd6ba-489a-5ab4-96d2-03c2935ebe0e",
+        "url": "https://apptronik.com/apollo",
+        "canonical_url": null,
+        "publisher": "Apptronik",
+        "title": "Apollo humanoid robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

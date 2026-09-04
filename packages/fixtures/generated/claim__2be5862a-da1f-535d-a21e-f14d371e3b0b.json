@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "2be5862a-da1f-535d-a21e-f14d371e3b0b",
+    "subject": {
+      "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
+      "slug": "vecna",
+      "entity_type": "ORGANIZATION",
+      "name": "Vecna Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Vecna Robotics is headquartered at Boston",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6e408708-b351-5364-ae08-1a556cfb39e0",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "d5df5a02-64c6-5062-9bf3-cd96fb1dffca",
+        "url": "https://www.vecnarobotics.com/",
+        "canonical_url": null,
+        "publisher": "Vecna Robotics",
+        "title": "Vecna Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

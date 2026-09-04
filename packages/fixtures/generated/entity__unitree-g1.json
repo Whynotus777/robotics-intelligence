@@ -1,0 +1,503 @@
+{
+  "entity": {
+    "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+    "slug": "unitree-g1",
+    "entity_type": "ROBOT",
+    "name": "Unitree G1",
+    "short_description": "Compact humanoid sold broadly to research labs and developers; the price point that reset expectations for humanoid hardware in 2024.",
+    "primary_embodiment": "HUMANOID",
+    "country_code": "CN",
+    "aliases": [
+      "G1",
+      "Unitree G1 EDU"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": "COMMERCIAL",
+    "height_m": 1.32,
+    "mass_kg": 35,
+    "payload_kg": null,
+    "list_price_usd": 16000,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "20c6132a-fc89-5d09-a78c-2791a249098a",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_HEIGHT",
+      "label": "height",
+      "claims": [
+        {
+          "claim_id": "a14fc145-e5d1-5854-b8b6-6f89c624da22",
+          "predicate": "HAS_HEIGHT",
+          "value": {
+            "kind": "number",
+            "number": 1.32,
+            "unit": "m",
+            "is_approximate": true,
+            "min": null,
+            "max": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-05-13",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_MASS",
+      "label": "mass",
+      "claims": [
+        {
+          "claim_id": "4d96a0d6-d933-5960-b69d-cf2d22c911d2",
+          "predicate": "HAS_MASS",
+          "value": {
+            "kind": "number",
+            "number": 35,
+            "unit": "kg",
+            "is_approximate": true,
+            "min": null,
+            "max": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-05-13",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_DOF",
+      "label": "degrees of freedom",
+      "claims": [
+        {
+          "claim_id": "00e43eae-12cc-5557-bca8-3f92a547e05c",
+          "predicate": "HAS_DOF",
+          "value": {
+            "kind": "number",
+            "number": 23,
+            "unit": "count",
+            "is_approximate": false,
+            "min": 23,
+            "max": 43
+          },
+          "stack_layer": null,
+          "valid_from": "2024-05-13",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_RUNTIME",
+      "label": "runtime",
+      "claims": [
+        {
+          "claim_id": "2a7e3589-be2e-56f6-ac78-4aecbe59689c",
+          "predicate": "HAS_RUNTIME",
+          "value": {
+            "kind": "number",
+            "number": 7200,
+            "unit": "s",
+            "is_approximate": true,
+            "min": null,
+            "max": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-05-13",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_LIST_PRICE",
+      "label": "list price",
+      "claims": [
+        {
+          "claim_id": "3de36c4d-6e98-5d46-ba81-805fe0532a1d",
+          "predicate": "HAS_LIST_PRICE",
+          "value": {
+            "kind": "number",
+            "number": 16000,
+            "unit": "USD",
+            "is_approximate": false,
+            "min": null,
+            "max": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-05-13",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ANNOUNCED_ON",
+      "label": "was announced on",
+      "claims": [
+        {
+          "claim_id": "a35f4fdb-20a0-5c00-89e3-3b14bda3ba0d",
+          "predicate": "ANNOUNCED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2024-05-13"
+          },
+          "stack_layer": null,
+          "valid_from": "2024-05-13",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_COMMERCIAL_STAGE",
+      "label": "commercial stage",
+      "claims": [
+        {
+          "claim_id": "72a57025-bc1f-5ebf-bf50-1ca4c2599594",
+          "predicate": "HAS_COMMERCIAL_STAGE",
+          "value": {
+            "kind": "enum",
+            "value": "COMMERCIAL"
+          },
+          "stack_layer": null,
+          "valid_from": "2024-05-13",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_ARCHITECTURE_NOTE",
+      "label": "architecture note",
+      "claims": [
+        {
+          "claim_id": "9f297e11-1507-55fe-8090-ba112e2ee020",
+          "predicate": "HAS_ARCHITECTURE_NOTE",
+          "value": {
+            "kind": "text",
+            "text": "The base G1 ships with a low-power onboard controller; EDU variants add a Jetson Orin NX for perception and policy workloads, which is why most published research on the platform uses the EDU configuration."
+          },
+          "stack_layer": "COMPUTE",
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "USES_TECHNOLOGY",
+      "label": "uses",
+      "items": [
+        {
+          "claim_id": "27a4248f-cbe7-5b7c-948a-18cecc45e368",
+          "target": {
+            "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
+            "slug": "depth-cameras",
+            "entity_type": "TECHNOLOGY",
+            "name": "Depth cameras",
+            "primary_embodiment": null
+          },
+          "stack_layer": "SENSORS",
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "a2a75384-80c2-5a3f-92f3-b1187a0ba911",
+          "target": {
+            "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
+            "slug": "3d-lidar",
+            "entity_type": "TECHNOLOGY",
+            "name": "3D LiDAR",
+            "primary_embodiment": null
+          },
+          "stack_layer": "SENSORS",
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_PRODUCT",
+      "label": "uses",
+      "items": [
+        {
+          "claim_id": "739973c7-394d-57f5-aca1-e55ceb151030",
+          "target": {
+            "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+            "slug": "nvidia-jetson-orin-nx",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "NVIDIA Jetson Orin NX",
+            "primary_embodiment": null
+          },
+          "stack_layer": "COMPUTE",
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "MEMBER_OF_FAMILY",
+      "label": "is a member of",
+      "items": [
+        {
+          "claim_id": "52ccb11d-0bbc-501c-a8f3-253c0006ab71",
+          "target": {
+            "id": "60807b6e-1149-5609-9766-d4f1d9322d61",
+            "slug": "unitree-g1-series",
+            "entity_type": "ROBOT_FAMILY",
+            "name": "Unitree G1 series",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "COMPETES_WITH",
+      "label": "competes with",
+      "items": [
+        {
+          "claim_id": "c36b0065-1db8-59ce-8a8f-1df732637a5f",
+          "target": {
+            "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+            "slug": "apptronik-apollo",
+            "entity_type": "ROBOT",
+            "name": "Apptronik Apollo",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "DERIVED",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "68fdb84f-1e31-5689-8dc0-658a7ad1d1d7",
+          "target": {
+            "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+            "slug": "figure-03",
+            "entity_type": "ROBOT",
+            "name": "Figure 03",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "DERIVED",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "5239e23b-69a3-5cf5-82e8-a7237cb456e1",
+          "source": {
+            "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
+            "slug": "unitree",
+            "entity_type": "ORGANIZATION",
+            "name": "Unitree Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "60807b6e-1149-5609-9766-d4f1d9322d61",
+        "slug": "unitree-g1-series",
+        "entity_type": "ROBOT_FAMILY",
+        "name": "Unitree G1 series",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
+        "slug": "unitree",
+        "entity_type": "ORGANIZATION",
+        "name": "Unitree Robotics",
+        "primary_embodiment": null
+      }
+    ],
+    "technologies": [
+      {
+        "id": "f162d4d0-390f-5d46-be4f-884fac2d2aa0",
+        "slug": "3d-lidar",
+        "entity_type": "TECHNOLOGY",
+        "name": "3D LiDAR",
+        "primary_embodiment": null
+      },
+      {
+        "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
+        "slug": "depth-cameras",
+        "entity_type": "TECHNOLOGY",
+        "name": "Depth cameras",
+        "primary_embodiment": null
+      }
+    ],
+    "peers": [
+      {
+        "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+        "slug": "apptronik-apollo",
+        "entity_type": "ROBOT",
+        "name": "Apptronik Apollo",
+        "primary_embodiment": "HUMANOID"
+      },
+      {
+        "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+        "slug": "figure-03",
+        "entity_type": "ROBOT",
+        "name": "Figure 03",
+        "primary_embodiment": "HUMANOID"
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 12,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 2,
+        "ANALYST": 1
+      },
+      "claim_count": 15,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 7
+  },
+  "as_of": null
+}

@@ -1,0 +1,172 @@
+{
+  "entity": {
+    "id": "098db5e0-7b78-56a1-8990-159131dbdb7c",
+    "slug": "bmw",
+    "entity_type": "ORGANIZATION",
+    "name": "BMW Group",
+    "short_description": "Munich automotive OEM; Spartanburg plant hosts Figure's humanoid pilot.",
+    "primary_embodiment": null,
+    "country_code": "DE",
+    "aliases": [
+      "BMW",
+      "BMW Manufacturing"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "1879e91e-e048-51ce-8625-aec7f7c8d126",
+          "target": {
+            "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+            "slug": "munich",
+            "entity_type": "PLACE",
+            "name": "Munich",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "MANUFACTURES_AT",
+      "label": "manufactures at",
+      "items": [
+        {
+          "claim_id": "74113816-b3e4-5034-ba61-dafcf29822c1",
+          "target": {
+            "id": "a3e6bb2e-6cb0-57f6-a5de-328fcc0ec33a",
+            "slug": "spartanburg",
+            "entity_type": "PLACE",
+            "name": "Spartanburg",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "DEPLOYED_BY",
+      "label": "is deployed by",
+      "items": [
+        {
+          "claim_id": "152eb2e8-e25e-5b61-97f8-afa79a0e3a2f",
+          "source": {
+            "id": "51b72286-5ede-5876-9d5c-1d7036060163",
+            "slug": "deployment-figure-bmw-spartanburg",
+            "entity_type": "DEPLOYMENT",
+            "name": "Figure humanoids at BMW Spartanburg",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-01-18",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "PARTNERS_WITH",
+      "label": "partners with",
+      "items": [
+        {
+          "claim_id": "df9dc4ea-f3b0-501c-9857-b8c9eecf2d3b",
+          "source": {
+            "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+            "slug": "figure-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Figure AI",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+        "slug": "figure-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Figure AI",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
+        "entity_type": "PLACE",
+        "name": "Munich",
+        "primary_embodiment": null
+      },
+      {
+        "id": "a3e6bb2e-6cb0-57f6-a5de-328fcc0ec33a",
+        "slug": "spartanburg",
+        "entity_type": "PLACE",
+        "name": "Spartanburg",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 4
+  },
+  "as_of": null
+}

@@ -1,0 +1,72 @@
+{
+  "entity": {
+    "id": "7d8d3eeb-b991-563e-8570-e2950be5c769",
+    "slug": "robot-middleware",
+    "entity_type": "TECHNOLOGY",
+    "name": "Robot middleware",
+    "short_description": "Message-passing, tooling and device abstraction layers that connect drivers, perception and planning nodes.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "Robotics middleware"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "77c13832-a8aa-5308-9a94-6d22ea6694f1",
+          "source": {
+            "id": "30e61e00-e79f-5403-8fd8-e1a5c4c6e6ca",
+            "slug": "ros-2",
+            "entity_type": "SOFTWARE_PRODUCT",
+            "name": "ROS 2",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {},
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

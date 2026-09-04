@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "68fdb84f-1e31-5689-8dc0-658a7ad1d1d7",
+    "subject": {
+      "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+      "slug": "unitree-g1",
+      "entity_type": "ROBOT",
+      "name": "Unitree G1",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "COMPETES_WITH",
+    "label": "competes with",
+    "sentence": "Unitree G1 competes with Figure 03",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+        "slug": "figure-03",
+        "entity_type": "ROBOT",
+        "name": "Figure 03",
+        "primary_embodiment": "HUMANOID"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bd41eb13-e4ba-57d0-a9b3-4e695247db26",
+      "class": "DERIVED",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Derived from shared embodiment (humanoid).",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "c36b0065-1db8-59ce-8a8f-1df732637a5f",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+          "slug": "apptronik-apollo",
+          "entity_type": "ROBOT",
+          "name": "Apptronik Apollo",
+          "primary_embodiment": "HUMANOID"
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": [
+    {
+      "claim_id": "20c6132a-fc89-5d09-a78c-2791a249098a",
+      "sentence": "Unitree G1 embodiment HUMANOID"
+    },
+    {
+      "claim_id": "c2ee733a-b52b-5b10-933d-f72dcce22f01",
+      "sentence": "Figure 03 embodiment HUMANOID"
+    }
+  ]
+}

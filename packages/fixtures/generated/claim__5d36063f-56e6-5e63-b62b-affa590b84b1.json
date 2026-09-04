@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "5d36063f-56e6-5e63-b62b-affa590b84b1",
+    "subject": {
+      "id": "d0bdf70a-64a1-5faf-8210-b2d4df93141d",
+      "slug": "locus-origin",
+      "entity_type": "ROBOT",
+      "name": "Locus Origin",
+      "primary_embodiment": "AMR"
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Locus Origin targets task Each-picking assistance",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+        "slug": "each-picking-assistance",
+        "entity_type": "TASK",
+        "name": "Each-picking assistance",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c8079e7f-c3f8-5b26-9ef6-3a4b1a3482b0",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Positioned for collaborative each-picking.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "ea50ca3f-5695-5568-8e24-1fdf58b6eb53",
+        "url": "https://locusrobotics.com/",
+        "canonical_url": null,
+        "publisher": "Locus Robotics",
+        "title": "Locus Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

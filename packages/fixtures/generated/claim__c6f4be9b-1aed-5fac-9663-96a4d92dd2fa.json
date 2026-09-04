@@ -1,0 +1,73 @@
+{
+  "claim": {
+    "claim_id": "c6f4be9b-1aed-5fac-9663-96a4d92dd2fa",
+    "subject": {
+      "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+      "slug": "pallet-movement",
+      "entity_type": "TASK",
+      "name": "Pallet movement",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_CUSTOMER_TYPE",
+    "label": "customer type",
+    "sentence": "Pallet movement customer type Third-party logistics providers (3PLs)",
+    "value": {
+      "kind": "text",
+      "text": "Third-party logistics providers (3PLs)"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d7d4b3ff-860a-5b16-8597-60086101c695",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "3PLs run many similar sites and buy in fleets once one site proves out.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "c56b0d7a-fa0e-5ea8-9f5d-b710a034c2de",
+      "value": {
+        "kind": "text",
+        "text": "Retailers"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "952231fe-f478-50df-9fbf-b9c73ba305cb",
+      "value": {
+        "kind": "text",
+        "text": "CPG manufacturers"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,557 @@
+{
+  "task": {
+    "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+    "slug": "pallet-movement",
+    "entity_type": "TASK",
+    "name": "Pallet movement",
+    "primary_embodiment": null
+  },
+  "short_description": "Moving full pallets between dock, storage, staging and production areas without a human forklift operator.",
+  "market_path": [
+    {
+      "id": "68407748-0447-505b-aa53-0d87ab606e33",
+      "slug": "warehouse-logistics",
+      "entity_type": "MARKET",
+      "name": "Warehouse & Logistics",
+      "primary_embodiment": null
+    },
+    {
+      "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+      "slug": "material-movement",
+      "entity_type": "MARKET",
+      "name": "Material movement",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "SCALING",
+    "claim_id": "973e1236-a9d4-516e-be6d-257d4490ad69",
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "Autonomous pallet jacks and forklifts are in repeated paid deployments across 3PLs and manufacturers, sold by at least five vendors with multi-site customers and a Rockwell-owned incumbent. Brownfield variability, dock edge cases and safety certification still limit penetration to a small share of forklift hours, which is why this is scaling rather than mature.",
+      "advance_criteria": [
+        "Autonomous units exceeding a double-digit share of new pallet-truck purchases at large 3PLs",
+        "Standardised safety certification accepted across regions",
+        "Routine trailer loading and unloading without human intervention",
+        "Fleet-level WMS integration sold as a product, not a project"
+      ],
+      "regress_criteria": [
+        "Vendor consolidation that removes multi-vendor competition",
+        "A safety incident that triggers regulatory restriction"
+      ],
+      "evidence_considered": [
+        {
+          "claim_id": "1576b16e-4949-51f8-a827-dc9d49519966",
+          "sentence": "Seegrid targets task Pallet movement"
+        },
+        {
+          "claim_id": "853e4395-aaee-58e5-8c1e-21e3d6505416",
+          "sentence": "Vecna Robotics targets task Pallet movement"
+        },
+        {
+          "claim_id": "bead0c05-2b48-56b6-b9c5-d9858d668f27",
+          "sentence": "OTTO Motors targets task Pallet movement"
+        },
+        {
+          "claim_id": "fc5f2545-cd85-565b-8660-3dd838fa8640",
+          "sentence": "Fox Robotics targets task Pallet movement"
+        },
+        {
+          "claim_id": "8c4e6ce5-13c2-5a86-9c98-4972affdf1d2",
+          "sentence": "Third Wave Automation targets task Pallet movement"
+        },
+        {
+          "claim_id": "b9b6e50f-84cf-5564-a55b-6ac64b81d2c5",
+          "sentence": "AMR pallet jack or lift maturity SCALING"
+        },
+        {
+          "claim_id": "2e13a355-7765-5eb6-ba02-427a6d2d96a9",
+          "sentence": "Autonomous forklift maturity EARLY_COMMERCIAL"
+        }
+      ],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "d7089f50-9091-5cb2-b9de-7946ac3a76e2",
+      "text": "Manual forklift operators, typically on multiple shifts with high turnover.",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Forklift operation is one of the largest hourly labour categories in logistics and the labour-model change is the whole business case.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "approaches": [
+    {
+      "approach": {
+        "id": "c7a570a3-5b5e-57dd-9b63-116a208684e2",
+        "slug": "amr-pallet-jack-or-lift",
+        "entity_type": "APPROACH",
+        "name": "AMR pallet jack or lift",
+        "primary_embodiment": null
+      },
+      "short_description": "Purpose-built autonomous pallet trucks and lift trucks that move pallets at floor level or to low rack positions.",
+      "maturity": {
+        "value": "SCALING",
+        "claim_id": "b9b6e50f-84cf-5564-a55b-6ac64b81d2c5",
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "HIGH",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Seegrid, Vecna and OTTO Motors sell autonomous pallet trucks into repeat multi-site deployments with 3PLs and manufacturers, and the category has a Rockwell-owned incumbent. It is scaling rather than mature because penetration is still a small fraction of pallet-truck hours and each site remains a project.",
+          "advance_criteria": [
+            "Autonomous units as a standard line item in 3PL fleet purchases",
+            "Order-to-first-shift under a month at brownfield sites",
+            "Mixed-vendor fleets orchestrated by a customer-owned system"
+          ],
+          "regress_criteria": [],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "AMR"
+      ],
+      "example_vendors": [
+        {
+          "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+          "slug": "otto-motors",
+          "entity_type": "ORGANIZATION",
+          "name": "OTTO Motors",
+          "primary_embodiment": null
+        },
+        {
+          "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
+          "slug": "seegrid",
+          "entity_type": "ORGANIZATION",
+          "name": "Seegrid",
+          "primary_embodiment": null
+        },
+        {
+          "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
+          "slug": "vecna",
+          "entity_type": "ORGANIZATION",
+          "name": "Vecna Robotics",
+          "primary_embodiment": null
+        }
+      ]
+    },
+    {
+      "approach": {
+        "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+        "slug": "autonomous-forklift",
+        "entity_type": "APPROACH",
+        "name": "Autonomous forklift",
+        "primary_embodiment": null
+      },
+      "short_description": "Retrofit kits or purpose-built forklifts that drive, lift and enter trailers autonomously.",
+      "maturity": {
+        "value": "EARLY_COMMERCIAL",
+        "claim_id": "2e13a355-7765-5eb6-ba02-427a6d2d96a9",
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "MEDIUM",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Fox Robotics and Third Wave Automation sell autonomous forklifts into paying customer sites, with trailer work as the wedge, but customer counts are small and the trailer edge cases are still being worked through site by site. A step behind the pallet-jack approach on repeatability.",
+          "advance_criteria": [
+            "Repeat multi-site orders from the same customers",
+            "Unattended trailer unloading across the full inbound mix",
+            "A major forklift OEM shipping autonomy as a factory option"
+          ],
+          "regress_criteria": [],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "AMR"
+      ],
+      "example_vendors": [
+        {
+          "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+          "slug": "fox-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Fox Robotics",
+          "primary_embodiment": null
+        },
+        {
+          "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+          "slug": "third-wave-automation",
+          "entity_type": "ORGANIZATION",
+          "name": "Third Wave Automation",
+          "primary_embodiment": null
+        }
+      ]
+    },
+    {
+      "approach": {
+        "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+        "slug": "asrs-pallet-handling",
+        "entity_type": "APPROACH",
+        "name": "AS/RS pallet handling",
+        "primary_embodiment": null
+      },
+      "short_description": "Fixed automated storage and retrieval systems that move pallets or cases within a structure instead of with vehicles.",
+      "maturity": {
+        "value": "MATURE",
+        "claim_id": "3abefd5e-7de6-5a0a-b2f4-dbde73d95136",
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "HIGH",
+          "source_count": 0
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Fixed AS/RS is a decades-old category with standard integrators and financing; Symbotic-style systems extend it to case handling at grocery scale. There is no technology question left, only capital allocation.",
+          "advance_criteria": [
+            "Already mature"
+          ],
+          "regress_criteria": [],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      },
+      "embodiments": [
+        "OTHER_MOBILE"
+      ],
+      "example_vendors": [
+        {
+          "id": "74914967-d3be-58ab-aacb-456441b741b1",
+          "slug": "symbotic",
+          "entity_type": "ORGANIZATION",
+          "name": "Symbotic",
+          "primary_embodiment": null
+        }
+      ]
+    }
+  ],
+  "technical_requirements": [
+    {
+      "claim_id": "26855fe8-508d-55a5-a899-c76be2765b05",
+      "text": "Pallet detection and pocket localization",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Fork entry into damaged, wrapped or misaligned pallets is the highest-frequency failure mode; 3D perception of the pockets is the core capability.",
+        "advance_criteria": [
+          "Would be relaxed by standardised pallet quality, which no DC has."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "11893c44-a4b8-5557-8610-8602db073ec6",
+      "text": "Safety-rated navigation among people",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Pallet trucks share aisles with pedestrians and manual forklifts; certified safety fields and speed limits determine throughput.",
+        "advance_criteria": [
+          "Would be relaxed in fully segregated automated zones."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "269d5f36-e8d0-5bd3-8daf-394f48c642ae",
+      "text": "Dock and trailer edge cases",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Dock plates, trailer floors, lighting changes and tight clearances break navigation assumptions; this is where pilots stall.",
+        "advance_criteria": [
+          "Would be relaxed by automated dock equipment."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "9f5a7df7-c4d3-51c0-8083-b42b775c47b7",
+      "text": "Fleet orchestration with the WMS",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Missions originate in the WMS; without integration the robot is a remote-controlled truck.",
+        "advance_criteria": [
+          "Would be simplified by standard WMS robot interfaces such as VDA 5050 becoming universal."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+        "slug": "fox-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Fox Robotics",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    },
+    {
+      "organization": {
+        "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+        "slug": "otto-motors",
+        "entity_type": "ORGANIZATION",
+        "name": "OTTO Motors",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    },
+    {
+      "organization": {
+        "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
+        "slug": "seegrid",
+        "entity_type": "ORGANIZATION",
+        "name": "Seegrid",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    },
+    {
+      "organization": {
+        "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+        "slug": "third-wave-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "Third Wave Automation",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    },
+    {
+      "organization": {
+        "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
+        "slug": "vecna",
+        "entity_type": "ORGANIZATION",
+        "name": "Vecna Robotics",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "c6f4be9b-1aed-5fac-9663-96a4d92dd2fa",
+      "text": "Third-party logistics providers (3PLs)",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "3PLs run many similar sites and buy in fleets once one site proves out.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "c56b0d7a-fa0e-5ea8-9f5d-b710a034c2de",
+      "text": "Retailers",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Retail distribution centres are the largest pallet-flow sites.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "952231fe-f478-50df-9fbf-b9c73ba305cb",
+      "text": "CPG manufacturers",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Line-side to warehouse pallet flows in CPG plants are repetitive and 24/7.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "blockers": [
+    {
+      "claim_id": "ec90619c-e025-5c3a-9ba0-7922de121a5c",
+      "text": "Brownfield integration",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Most sites were laid out for human drivers; racking, aisle widths and floor quality vary, and every pilot becomes a site-engineering project. Vendors win when they can deploy without changing the building.",
+        "advance_criteria": [
+          "Deployments quoted from a site survey without custom engineering",
+          "Vendors publishing site-readiness criteria that customers can self-assess",
+          "Sub-month time from order to first autonomous shift"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "a8178fdd-5432-55d7-8d59-2ab3dd0813ae",
+      "text": "Safety certification",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Certification to regional standards for driverless industrial trucks is slow and site-specific, and it caps travel speed, which caps throughput. Customers with global footprints want one certificate, not one per region.",
+        "advance_criteria": [
+          "Harmonised standards accepted across the US and EU",
+          "Certified higher-speed operation in mixed traffic",
+          "Insurers treating certified fleets as standard risk"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "52a9ed7b-1762-5d52-a949-e008a82c54e7",
+      "text": "Workflow variability",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Pallet quality, stacking patterns and staging rules differ by shift and by customer, and the robot inherits every exception the humans quietly handled. The fix is process discipline, which the vendor cannot sell.",
+        "advance_criteria": [
+          "Exception rates published and trending below human error rates",
+          "Robots handling damaged or non-standard pallets without escalation"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    },
+    {
+      "claim_id": "092f34f2-1ef6-55cf-a5a4-ca9e1cbd1f62",
+      "text": "Labor-model change",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Removing operators changes shift structures, union agreements and supervisor roles. Sites that only reassign drivers to exception handling do not realise the savings that justified the purchase.",
+        "advance_criteria": [
+          "Customers reporting realised labour savings, not projected ones",
+          "Repeat purchases by the same customer across sites"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "adjacent_tasks": [
+    {
+      "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+      "slug": "automated-storage-and-retrieval",
+      "entity_type": "TASK",
+      "name": "Automated storage and retrieval",
+      "primary_embodiment": null
+    },
+    {
+      "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+      "slug": "truck-unloading",
+      "entity_type": "TASK",
+      "name": "Truck unloading",
+      "primary_embodiment": null
+    }
+  ],
+  "as_of": null
+}

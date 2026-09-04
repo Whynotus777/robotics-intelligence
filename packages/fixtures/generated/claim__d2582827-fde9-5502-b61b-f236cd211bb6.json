@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "d2582827-fde9-5502-b61b-f236cd211bb6",
+    "subject": {
+      "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
+      "slug": "case-picking",
+      "entity_type": "TASK",
+      "name": "Case picking",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_CUSTOMER_TYPE",
+    "label": "customer type",
+    "sentence": "Case picking customer type Grocery and retail distributors",
+    "value": {
+      "kind": "text",
+      "text": "Grocery and retail distributors"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "55bfd02c-3203-50b3-8a4d-4b99b93ad16c",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Grocery DCs have the highest case volumes and the earliest production systems.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

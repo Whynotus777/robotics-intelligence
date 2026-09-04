@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "e01d1d89-f083-5dde-a73f-a19fc2e43061",
+    "subject": {
+      "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+      "slug": "contact-ndt",
+      "entity_type": "TASK",
+      "name": "Contact NDT",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Contact NDT maturity PILOT",
+    "value": {
+      "kind": "enum",
+      "value": "PILOT"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bd3d25d3-fb00-5a4b-9027-df3e34ad02d2",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Crawler and suspended robots have carried ultrasonic probes in trials, but contact NDT on an installed blade needs consistent coupling on a curved surface at height, which no vendor sells routinely. It is a pilot task whose demand is real because subsurface defects are what visual inspection misses.",
+        "advance_criteria": [
+          "A vendor offering NDT as a priced service, not a trial",
+          "Repeatable coupling quality demonstrated across blade types",
+          "Owner acceptance of robotic NDT reports for repair decisions"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [
+          {
+            "claim_id": "b524ba71-a01d-52ca-af78-9ac870325b6b",
+            "sentence": "Blade crawler maturity PILOT"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,73 @@
+{
+  "claim": {
+    "claim_id": "4b4d6db0-2f1e-556c-9ebd-96103b419cad",
+    "subject": {
+      "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+      "slug": "blade-repair",
+      "entity_type": "TASK",
+      "name": "Blade repair",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_CUSTOMER_TYPE",
+    "label": "customer type",
+    "sentence": "Blade repair customer type Turbine OEMs (service contracts)",
+    "value": {
+      "kind": "text",
+      "text": "Turbine OEMs (service contracts)"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bd3347fc-6ea4-55ac-be69-bdb6f1e4633e",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "OEMs hold long-term service agreements on much of the installed base and control warranty acceptance of repair methods.",
+        "advance_criteria": [
+          "Would change if owners moved service in-house at scale."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "6c796635-0d19-5676-bb23-ae186e0ad0ba",
+      "value": {
+        "kind": "text",
+        "text": "Independent service providers"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "f5148d6a-ba38-5f0f-b9a3-1949c2a88b7e",
+      "value": {
+        "kind": "text",
+        "text": "Asset owners and operators"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

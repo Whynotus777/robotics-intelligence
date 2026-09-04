@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "9d56b895-ed8b-5ef0-a081-be274c61fdfd",
+    "subject": {
+      "id": "d41554ca-2df4-5f8b-be56-0be5ce3df101",
+      "slug": "qualcomm",
+      "entity_type": "ORGANIZATION",
+      "name": "Qualcomm",
+      "primary_embodiment": null
+    },
+    "predicate": "PROVIDES",
+    "label": "provides",
+    "sentence": "Qualcomm provides Qualcomm robotics platforms",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "68d1cdfd-c44e-59c9-9449-498325111690",
+        "slug": "qualcomm-robotics-platform",
+        "entity_type": "COMPONENT_PRODUCT",
+        "name": "Qualcomm robotics platforms",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2acb0e4d-764e-5ae5-9664-8b4bb908143e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Robotics platform page.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "2e016ba0-2599-5d94-af87-18d48f55fe61",
+        "url": "https://www.qualcomm.com/products/internet-of-things/robotics",
+        "canonical_url": null,
+        "publisher": "Qualcomm",
+        "title": "Qualcomm robotics platforms",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

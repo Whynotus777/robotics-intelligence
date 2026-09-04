@@ -1,0 +1,140 @@
+{
+  "entity": {
+    "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+    "slug": "kuka",
+    "entity_type": "ORGANIZATION",
+    "name": "KUKA",
+    "short_description": "Augsburg industrial arm OEM, Midea-owned.",
+    "primary_embodiment": null,
+    "country_code": "DE",
+    "aliases": [
+      "KUKA AG"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "23a4e6ee-33b9-545a-a35b-f0365a6804ff",
+          "target": {
+            "id": "63ea4a0f-c5cc-5670-bc5d-b8ee14a41b77",
+            "slug": "augsburg",
+            "entity_type": "PLACE",
+            "name": "Augsburg",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "16fb6ff5-0dfd-53d4-b99d-03991d19448c",
+          "target": {
+            "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+            "slug": "manufacturing",
+            "entity_type": "MARKET",
+            "name": "Manufacturing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "44d5a814-1d0d-51f1-b9dd-143abfcb8f4c",
+          "target": {
+            "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
+            "slug": "automotive",
+            "entity_type": "MARKET",
+            "name": "Automotive",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "markets": [
+      {
+        "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
+        "slug": "automotive",
+        "entity_type": "MARKET",
+        "name": "Automotive",
+        "primary_embodiment": null
+      },
+      {
+        "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+        "slug": "manufacturing",
+        "entity_type": "MARKET",
+        "name": "Manufacturing",
+        "primary_embodiment": null
+      }
+    ],
+    "places": [
+      {
+        "id": "63ea4a0f-c5cc-5670-bc5d-b8ee14a41b77",
+        "slug": "augsburg",
+        "entity_type": "PLACE",
+        "name": "Augsburg",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

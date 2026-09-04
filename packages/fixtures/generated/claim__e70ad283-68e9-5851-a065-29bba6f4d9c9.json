@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "e70ad283-68e9-5851-a065-29bba6f4d9c9",
+    "subject": {
+      "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+      "slug": "rope-cable-suspended-robot",
+      "entity_type": "APPROACH",
+      "name": "Rope/cable-suspended robot",
+      "primary_embodiment": null
+    },
+    "predicate": "USES_EMBODIMENT",
+    "label": "uses embodiment",
+    "sentence": "Rope/cable-suspended robot uses embodiment OTHER_MOBILE",
+    "value": {
+      "kind": "enum",
+      "value": "OTHER_MOBILE"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a941831c-3725-5a00-8b87-c07fa67ff55d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Aerones describes a robot suspended from the nacelle that performs blade maintenance.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4ce2c8fb-0e96-5b59-b23a-f75549b2151e",
+        "url": "https://aerones.com/",
+        "canonical_url": null,
+        "publisher": "Aerones",
+        "title": "Aerones robotic wind turbine maintenance",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

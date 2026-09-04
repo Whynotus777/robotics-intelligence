@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "62784a2a-cf80-559e-af1e-ef324fce7fc8",
+    "subject": {
+      "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
+      "slug": "amazon-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Amazon Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Amazon Robotics is headquartered at Boston",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ce703004-9731-5c43-895c-5a577bd848ca",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "028549e9-676b-598b-b287-aa5bed67b43f",
+        "url": "https://www.aboutamazon.com/news",
+        "canonical_url": null,
+        "publisher": "Amazon",
+        "title": "Amazon deploys its one millionth robot",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-07-01T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

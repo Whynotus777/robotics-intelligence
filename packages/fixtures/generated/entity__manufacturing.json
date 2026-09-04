@@ -1,0 +1,180 @@
+{
+  "entity": {
+    "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+    "slug": "manufacturing",
+    "entity_type": "MARKET",
+    "name": "Manufacturing",
+    "short_description": "Discrete and process manufacturing: assembly, machine tending, welding, painting, material handling on the factory floor.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "047ad94b-e227-51c0-a7cf-b25b2c424447",
+          "source": {
+            "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+            "slug": "abb-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "ABB Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "b25b91ee-b497-59a9-986f-960da09aa867",
+          "source": {
+            "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+            "slug": "fanuc",
+            "entity_type": "ORGANIZATION",
+            "name": "FANUC",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "16fb6ff5-0dfd-53d4-b99d-03991d19448c",
+          "source": {
+            "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+            "slug": "kuka",
+            "entity_type": "ORGANIZATION",
+            "name": "KUKA",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "74efedbe-40a6-57e4-9d20-bd51fabcc0ed",
+          "source": {
+            "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+            "slug": "otto-motors",
+            "entity_type": "ORGANIZATION",
+            "name": "OTTO Motors",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "e2fcf53f-4290-5c2c-85ba-3d495d09dff7",
+          "source": {
+            "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+            "slug": "universal-robots",
+            "entity_type": "ORGANIZATION",
+            "name": "Universal Robots",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+        "slug": "abb-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ABB Robotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+        "slug": "fanuc",
+        "entity_type": "ORGANIZATION",
+        "name": "FANUC",
+        "primary_embodiment": null
+      },
+      {
+        "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+        "slug": "kuka",
+        "entity_type": "ORGANIZATION",
+        "name": "KUKA",
+        "primary_embodiment": null
+      },
+      {
+        "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+        "slug": "otto-motors",
+        "entity_type": "ORGANIZATION",
+        "name": "OTTO Motors",
+        "primary_embodiment": null
+      },
+      {
+        "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+        "slug": "universal-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Universal Robots",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 5
+  },
+  "as_of": null
+}

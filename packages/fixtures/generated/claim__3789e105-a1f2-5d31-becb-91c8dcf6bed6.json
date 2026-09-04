@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "3789e105-a1f2-5d31-becb-91c8dcf6bed6",
+    "subject": {
+      "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+      "slug": "skydio",
+      "entity_type": "ORGANIZATION",
+      "name": "Skydio",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Skydio is headquartered at San Francisco Bay Area",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "14903f5e-96d1-5f94-b204-675a67d35d62",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4729de2b-ec48-53b4-a78b-7b8704d2337c",
+        "url": "https://www.skydio.com/",
+        "canonical_url": null,
+        "publisher": "Skydio",
+        "title": "Skydio",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

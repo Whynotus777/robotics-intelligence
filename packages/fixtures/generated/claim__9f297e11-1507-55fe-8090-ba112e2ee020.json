@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "9f297e11-1507-55fe-8090-ba112e2ee020",
+    "subject": {
+      "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
+      "slug": "unitree-g1",
+      "entity_type": "ROBOT",
+      "name": "Unitree G1",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_ARCHITECTURE_NOTE",
+    "label": "architecture note",
+    "sentence": "Unitree G1 architecture note The base G1 ships with a low-power onboard controller; EDU variants add a Jetson Orin NX for perception and policy workloads, which is why most published research on the platform uses the EDU configuration.",
+    "value": {
+      "kind": "text",
+      "text": "The base G1 ships with a low-power onboard controller; EDU variants add a Jetson Orin NX for perception and policy workloads, which is why most published research on the platform uses the EDU configuration."
+    },
+    "stack_layer": "COMPUTE",
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0412a054-6714-5427-98b8-ab56232ecf6c",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Compute options differ between the base and EDU configurations on the product page.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "12757afb-2e99-5fb4-a2f7-316d704ce8c1",
+        "url": "https://www.unitree.com/g1",
+        "canonical_url": null,
+        "publisher": "Unitree Robotics",
+        "title": "Unitree G1 humanoid agent",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": "2024-05-13T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

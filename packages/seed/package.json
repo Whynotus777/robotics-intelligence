@@ -4,5 +4,7 @@
   "private": true,
   "type": "module",
   "main": "src/index.ts",
-  "scripts": { "typecheck": "tsc --noEmit -p .", "test": "vitest run --passWithNoTests" }
+  "dependencies": { "@ri/db": "workspace:*", "@ri/domain": "workspace:*", "drizzle-orm": "^0.45.2", "yaml": "^2.6.0", "zod": "^4.5.4" },
+  "devDependencies": { "tsx": "^4.19.0" },
+  "scripts": { "seed": "tsx src/load.ts", "typecheck": "tsc --noEmit -p .", "test": "vitest run --passWithNoTests" }
 }

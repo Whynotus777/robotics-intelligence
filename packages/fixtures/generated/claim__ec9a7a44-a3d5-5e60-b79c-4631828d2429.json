@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "ec9a7a44-a3d5-5e60-b79c-4631828d2429",
+    "subject": {
+      "id": "725c8452-4827-542d-b7fd-49846d70c637",
+      "slug": "universal-robots-ur20",
+      "entity_type": "ROBOT",
+      "name": "Universal Robots UR20",
+      "primary_embodiment": "COBOT"
+    },
+    "predicate": "HAS_PAYLOAD",
+    "label": "payload",
+    "sentence": "Universal Robots UR20 payload 20 kg",
+    "value": {
+      "kind": "number",
+      "number": 20,
+      "unit": "kg",
+      "is_approximate": false,
+      "min": null,
+      "max": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "858e4a4f-1db9-5372-8d5e-8a8749eb0831",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Spec table lists 20 kg payload.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "d895196b-11fe-556a-92fb-3eb8cc7982fd",
+        "url": "https://www.universal-robots.com/products/ur20-robot/",
+        "canonical_url": null,
+        "publisher": "Universal Robots",
+        "title": "UR20 collaborative robot",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

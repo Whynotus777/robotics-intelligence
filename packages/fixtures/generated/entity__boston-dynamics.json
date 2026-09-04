@@ -1,0 +1,131 @@
+{
+  "entity": {
+    "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
+    "slug": "boston-dynamics",
+    "entity_type": "ORGANIZATION",
+    "name": "Boston Dynamics",
+    "short_description": "Waltham, Massachusetts legged-robot OEM, Hyundai-owned; Spot, Atlas and Stretch.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [
+      "BD"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "7d64389e-913a-55a8-8812-653fa8f14441",
+          "target": {
+            "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+            "slug": "boston",
+            "entity_type": "PLACE",
+            "name": "Boston",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "759921e4-abbc-5eb8-b41c-25ef93cc5cb8",
+          "target": {
+            "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+            "slug": "boston-dynamics-spot",
+            "entity_type": "ROBOT",
+            "name": "Boston Dynamics Spot",
+            "primary_embodiment": "QUADRUPED"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "OPERATED_BY",
+      "label": "is operated by",
+      "items": [
+        {
+          "claim_id": "c2c8351c-875a-55e9-afd2-8c656ce42a46",
+          "source": {
+            "id": "d1ed4e89-b016-53b6-a370-d7bc4c52154c",
+            "slug": "deployment-spot-industrial-inspection",
+            "entity_type": "DEPLOYMENT",
+            "name": "Spot at industrial inspection sites",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "places": [
+      {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

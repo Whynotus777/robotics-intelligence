@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "e4194ef6-8671-5cc2-b862-8bf68ad71558",
+    "subject": {
+      "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+      "slug": "fanuc",
+      "entity_type": "ORGANIZATION",
+      "name": "FANUC",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "FANUC is headquartered at Oshino",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "12c8f3b9-0532-577b-9120-95d36cecd863",
+        "slug": "oshino",
+        "entity_type": "PLACE",
+        "name": "Oshino",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6161ac9b-b784-59d8-aa98-72df55a0e79f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "0e5c2bb5-d938-5d8b-b7f0-0384cb6b476e",
+        "url": "https://www.fanuc.co.jp/en/",
+        "canonical_url": null,
+        "publisher": "FANUC Corporation",
+        "title": "FANUC Corporation",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

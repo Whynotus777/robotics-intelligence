@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "1d6a9256-28af-5d38-81d1-afae82046603",
+    "subject": {
+      "id": "40524241-ae32-56e4-a625-84a0dc3ffb5d",
+      "slug": "nvidia-jetson-thor",
+      "entity_type": "COMPONENT_PRODUCT",
+      "name": "NVIDIA Jetson Thor",
+      "primary_embodiment": null
+    },
+    "predicate": "COMPETES_WITH",
+    "label": "competes with",
+    "sentence": "NVIDIA Jetson Thor competes with Qualcomm robotics platforms",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "68d1cdfd-c44e-59c9-9449-498325111690",
+        "slug": "qualcomm-robotics-platform",
+        "entity_type": "COMPONENT_PRODUCT",
+        "name": "Qualcomm robotics platforms",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "34f66681-7f14-5af3-9a60-1c43fbb2ec9b",
+      "class": "DERIVED",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Derived from shared technology class (edge AI compute).",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": [
+    {
+      "claim_id": "f2a32488-ddd6-57f3-8be0-695c07a87027",
+      "sentence": "NVIDIA Jetson Thor is an instance of Edge AI compute"
+    },
+    {
+      "claim_id": "771989f6-3109-55aa-b1d3-4f44f5224d7e",
+      "sentence": "Qualcomm robotics platforms is an instance of Edge AI compute"
+    }
+  ]
+}

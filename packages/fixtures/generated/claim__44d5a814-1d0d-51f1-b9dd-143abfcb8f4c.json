@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "44d5a814-1d0d-51f1-b9dd-143abfcb8f4c",
+    "subject": {
+      "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+      "slug": "kuka",
+      "entity_type": "ORGANIZATION",
+      "name": "KUKA",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "KUKA targets market Automotive",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
+        "slug": "automotive",
+        "entity_type": "MARKET",
+        "name": "Automotive",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "af31581d-53c2-54d1-a368-088631e5d388",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Automotive is a named sector.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "41e063c9-6750-52f1-abce-1876bbf48d6b",
+        "url": "https://www.kuka.com/",
+        "canonical_url": null,
+        "publisher": "KUKA",
+        "title": "KUKA",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "16fb6ff5-0dfd-53d4-b99d-03991d19448c",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+          "slug": "manufacturing",
+          "entity_type": "MARKET",
+          "name": "Manufacturing",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

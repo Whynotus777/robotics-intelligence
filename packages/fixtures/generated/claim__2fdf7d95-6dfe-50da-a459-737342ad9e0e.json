@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "2fdf7d95-6dfe-50da-a459-737342ad9e0e",
+    "subject": {
+      "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+      "slug": "figure-03",
+      "entity_type": "ROBOT",
+      "name": "Figure 03",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "MEMBER_OF_FAMILY",
+    "label": "is a member of",
+    "sentence": "Figure 03 is a member of Figure humanoids",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c049ae4e-2f0f-54a0-8b83-b899ae3b05cb",
+        "slug": "figure-humanoids",
+        "entity_type": "ROBOT_FAMILY",
+        "name": "Figure humanoids",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2e3851d4-1346-5d1d-9c60-7bbb18977bb0",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site presents Figure 01, 02 and 03 as successive generations.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e1f9e906-89d4-56df-a5da-397f12e33f0a",
+        "url": "https://www.figure.ai/",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Figure AI",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

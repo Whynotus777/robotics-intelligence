@@ -1,0 +1,151 @@
+{
+  "task": {
+    "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+    "slug": "each-picking-assistance",
+    "entity_type": "TASK",
+    "name": "Each-picking assistance",
+    "primary_embodiment": null
+  },
+  "short_description": "Collaborative mobile robots that carry totes and guide human pickers through each-item order picking.",
+  "market_path": [
+    {
+      "id": "68407748-0447-505b-aa53-0d87ab606e33",
+      "slug": "warehouse-logistics",
+      "entity_type": "MARKET",
+      "name": "Warehouse & Logistics",
+      "primary_embodiment": null
+    },
+    {
+      "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+      "slug": "material-movement",
+      "entity_type": "MARKET",
+      "name": "Material movement",
+      "primary_embodiment": null
+    }
+  ],
+  "maturity": {
+    "value": "SCALING",
+    "claim_id": "22382d42-5d84-58f9-b40f-2c71b6af4e00",
+    "evidence_summary": {
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "source_count": 0
+    },
+    "assessment": {
+      "author": "editorial",
+      "rationale": "Collaborative picking AMRs run at thousands of sites, Locus alone reports billions of picks, and the model is sold as RaaS with predictable unit economics. It stops short of mature because the human picker is still in the loop and the next step, autonomous each-picking, is a different task.",
+      "advance_criteria": [
+        "Default choice in new fulfilment-centre designs across regions",
+        "Multi-vendor price competition at commodity margins",
+        "Integration with autonomous picking arms in production sites"
+      ],
+      "regress_criteria": [],
+      "evidence_considered": [
+        {
+          "claim_id": "f3255b54-8fac-5c7d-813c-c0eed24d443b",
+          "sentence": "Locus Robotics targets task Each-picking assistance"
+        },
+        {
+          "claim_id": "9d9fb17a-9da0-58d3-b99f-c8cdfd93ed57",
+          "sentence": "Locus fleets at 3PL sites serves task Each-picking assistance"
+        }
+      ],
+      "reviewed_at": "2026-09-01T00:00:00.000Z",
+      "notes": null
+    }
+  },
+  "incumbent_process": [
+    {
+      "claim_id": "53d72783-a295-5c0b-af87-e76002510825",
+      "text": "Pickers walking with carts and paper or RF pick lists.",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Walking time is the majority of a manual picker's shift, which is the productivity gap the robots close.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "vendors": [
+    {
+      "organization": {
+        "id": "79815395-59ce-5c93-aef0-8686647839c6",
+        "slug": "locus",
+        "entity_type": "ORGANIZATION",
+        "name": "Locus Robotics",
+        "primary_embodiment": null
+      },
+      "via": "TARGETS_TASK"
+    }
+  ],
+  "deployments": [
+    {
+      "deployment": {
+        "id": "108bca22-090c-5533-9916-b2e41907451f",
+        "slug": "deployment-locus-3pl-sites",
+        "entity_type": "DEPLOYMENT",
+        "name": "Locus fleets at 3PL sites",
+        "primary_embodiment": null
+      },
+      "customer": null,
+      "operators": [
+        {
+          "id": "79815395-59ce-5c93-aef0-8686647839c6",
+          "slug": "locus",
+          "entity_type": "ORGANIZATION",
+          "name": "Locus Robotics",
+          "primary_embodiment": null
+        }
+      ],
+      "robots": [
+        {
+          "id": "d0bdf70a-64a1-5faf-8210-b2d4df93141d",
+          "slug": "locus-origin",
+          "entity_type": "ROBOT",
+          "name": "Locus Origin",
+          "primary_embodiment": "AMR"
+        }
+      ],
+      "places": [],
+      "began": null,
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    }
+  ],
+  "customer_types": [
+    {
+      "claim_id": "10e05d56-f35b-55b5-afe2-e91ddd2853af",
+      "text": "Third-party logistics providers (3PLs)",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "HIGH",
+        "source_count": 0
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "3PLs buy for seasonal flexibility and roll out across sites.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "as_of": null
+}

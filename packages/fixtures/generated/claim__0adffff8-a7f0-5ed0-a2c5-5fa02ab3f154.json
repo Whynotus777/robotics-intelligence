@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "0adffff8-a7f0-5ed0-a2c5-5fa02ab3f154",
+    "subject": {
+      "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+      "slug": "figure-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Figure AI",
+      "primary_embodiment": null
+    },
+    "predicate": "DEVELOPS",
+    "label": "develops",
+    "sentence": "Figure AI develops Helix",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "70bc43e3-1e7f-5d97-9852-8dbc09ee40ee",
+        "slug": "helix",
+        "entity_type": "MODEL",
+        "name": "Helix",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "53910362-1700-57c5-8eef-0df997131e43",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Figure announced Helix in February 2025.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f4d9f016-4b1b-50c1-832d-d6571bfbc107",
+        "url": "https://www.figure.ai/news/helix",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Helix: a vision-language-action model for generalist humanoid control",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-02-20T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

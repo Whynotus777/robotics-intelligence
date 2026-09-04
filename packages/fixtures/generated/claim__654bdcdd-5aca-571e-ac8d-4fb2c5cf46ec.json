@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "654bdcdd-5aca-571e-ac8d-4fb2c5cf46ec",
+    "subject": {
+      "id": "70bc43e3-1e7f-5d97-9852-8dbc09ee40ee",
+      "slug": "helix",
+      "entity_type": "MODEL",
+      "name": "Helix",
+      "primary_embodiment": null
+    },
+    "predicate": "COMPETES_WITH",
+    "label": "competes with",
+    "sentence": "Helix competes with π0",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "3efa143b-c4c7-5c49-bc42-af2abd624356",
+        "slug": "pi0",
+        "entity_type": "MODEL",
+        "name": "π0",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3bc381a3-e050-5adc-adb8-164c200b0b45",
+      "class": "DERIVED",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Derived from shared technology class (VLA models).",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": [
+    {
+      "claim_id": "ce6d9777-5e03-5bae-a8d5-a9df282abffd",
+      "sentence": "Helix is an instance of VLA models"
+    },
+    {
+      "claim_id": "915b3dc0-8438-5d47-b8f7-5372d421d71d",
+      "sentence": "π0 is an instance of VLA models"
+    }
+  ]
+}

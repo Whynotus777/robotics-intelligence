@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "fc54ed84-1c9c-5e13-a0f7-26f1cc3ce2fb",
+    "subject": {
+      "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+      "slug": "abb-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "ABB Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "ABB Robotics is headquartered at Zurich",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5842b884-6c10-5410-8607-1bf59a8eca19",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "b6b5991c-9af7-56e3-bc07-b991777e11ba",
+        "url": "https://new.abb.com/products/robotics",
+        "canonical_url": null,
+        "publisher": "ABB",
+        "title": "ABB Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

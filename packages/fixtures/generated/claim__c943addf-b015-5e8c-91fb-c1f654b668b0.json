@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "c943addf-b015-5e8c-91fb-c1f654b668b0",
+    "subject": {
+      "id": "30e61e00-e79f-5403-8fd8-e1a5c4c6e6ca",
+      "slug": "ros-2",
+      "entity_type": "SOFTWARE_PRODUCT",
+      "name": "ROS 2",
+      "primary_embodiment": null
+    },
+    "predicate": "MADE_BY",
+    "label": "is made by",
+    "sentence": "ROS 2 is made by Open Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "576daf4f-6804-5aa2-a992-4d99e23940f1",
+        "slug": "open-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Open Robotics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "16b0633d-6d28-524d-8fce-2d367e1d5f9b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "ROS 2 documentation maintained by Open Robotics.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "54d59a01-e4ad-5cb9-a14e-e6a9d5a31f9e",
+        "url": "https://docs.ros.org/en/rolling/",
+        "canonical_url": null,
+        "publisher": "Open Robotics",
+        "title": "ROS 2 documentation",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

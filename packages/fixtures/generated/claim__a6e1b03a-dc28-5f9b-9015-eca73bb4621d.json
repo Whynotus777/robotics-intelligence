@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "a6e1b03a-dc28-5f9b-9015-eca73bb4621d",
+    "subject": {
+      "id": "7831a686-465b-5c38-9904-bf9354227e01",
+      "slug": "blade-cleaning",
+      "entity_type": "TASK",
+      "name": "Blade cleaning",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Blade cleaning maturity EARLY_COMMERCIAL",
+    "value": {
+      "kind": "enum",
+      "value": "EARLY_COMMERCIAL"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "cc9990a1-93a6-56dc-89a9-5627d16235c1",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Aerones and others operate cleaning and leading-edge protection commercially with suspended robots, and the work is paid, repeated and multi-customer. It is not scaling because it is still a specialist service sold campaign by campaign rather than a line item in standard O&M contracts.",
+        "advance_criteria": [
+          "Cleaning written into multi-year service agreements",
+          "Two or more vendors with fleets in more than one region",
+          "Published performance-recovery data accepted by owners"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [
+          {
+            "claim_id": "84a934f3-ab29-59d0-9fed-91175af3c8fd",
+            "sentence": "Aerones targets task Blade cleaning"
+          },
+          {
+            "claim_id": "c1b02147-ed8f-5595-90fc-82c243725e1d",
+            "sentence": "Rope/cable-suspended robot maturity EARLY_COMMERCIAL"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "10e05d56-f35b-55b5-afe2-e91ddd2853af",
+    "subject": {
+      "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+      "slug": "each-picking-assistance",
+      "entity_type": "TASK",
+      "name": "Each-picking assistance",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_CUSTOMER_TYPE",
+    "label": "customer type",
+    "sentence": "Each-picking assistance customer type Third-party logistics providers (3PLs)",
+    "value": {
+      "kind": "text",
+      "text": "Third-party logistics providers (3PLs)"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "788602ab-339c-5750-8530-50f9a7acb019",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "3PLs buy for seasonal flexibility and roll out across sites.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "74efedbe-40a6-57e4-9d20-bd51fabcc0ed",
+    "subject": {
+      "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+      "slug": "otto-motors",
+      "entity_type": "ORGANIZATION",
+      "name": "OTTO Motors",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_MARKET",
+    "label": "targets market",
+    "sentence": "OTTO Motors targets market Manufacturing",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
+        "slug": "manufacturing",
+        "entity_type": "MARKET",
+        "name": "Manufacturing",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5dc66ac3-78d1-5bf1-aa7e-2a72efaedddf",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Industrial AMRs for manufacturing.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "3c3ac060-107e-536a-9e91-1ddda7edbcc4",
+        "url": "https://ottomotors.com/",
+        "canonical_url": null,
+        "publisher": "OTTO Motors by Rockwell Automation",
+        "title": "OTTO Motors",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

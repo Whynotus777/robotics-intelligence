@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "579781a1-7b2e-5504-b9bb-5e36ea8dd90d",
+    "subject": {
+      "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+      "slug": "figure-03",
+      "entity_type": "ROBOT",
+      "name": "Figure 03",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "ANNOUNCED_ON",
+    "label": "was announced on",
+    "sentence": "Figure 03 was announced on 2025-10-09",
+    "value": {
+      "kind": "date",
+      "date": "2025-10-09"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2025-10-09",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e15f3f43-8457-5bd4-86fa-3fd001b3524e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Announcement published in October 2025.",
+      "published_at": "2025-10-09T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f57ccab1-ef62-5fbd-a2bb-177d1fb78cde",
+        "url": "https://www.figure.ai/news",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Introducing Figure 03",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-10-09T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,109 @@
+{
+  "entity": {
+    "id": "c87d3d33-96c5-5851-b406-0551571f6911",
+    "slug": "edge-ai-compute",
+    "entity_type": "TECHNOLOGY",
+    "name": "Edge AI compute",
+    "short_description": "System-on-module compute with GPU or NPU acceleration for running perception and policy models onboard the robot.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "Edge compute",
+      "Embedded AI compute"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "6d1112be-00f9-523a-bc77-572974fce003",
+          "source": {
+            "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
+            "slug": "nvidia-jetson-orin-nx",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "NVIDIA Jetson Orin NX",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "f2a32488-ddd6-57f3-8be0-695c07a87027",
+          "source": {
+            "id": "40524241-ae32-56e4-a625-84a0dc3ffb5d",
+            "slug": "nvidia-jetson-thor",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "NVIDIA Jetson Thor",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "771989f6-3109-55aa-b1d3-4f44f5224d7e",
+          "source": {
+            "id": "68d1cdfd-c44e-59c9-9449-498325111690",
+            "slug": "qualcomm-robotics-platform",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "Qualcomm robotics platforms",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {},
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

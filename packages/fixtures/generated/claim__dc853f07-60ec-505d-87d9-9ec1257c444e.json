@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "dc853f07-60ec-505d-87d9-9ec1257c444e",
+    "subject": {
+      "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+      "slug": "figure-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Figure AI",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Figure AI is headquartered at San Francisco Bay Area",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d946fceb-ff76-5276-ae24-91f8ebdaf7de",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e1f9e906-89d4-56df-a5da-397f12e33f0a",
+        "url": "https://www.figure.ai/",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Figure AI",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

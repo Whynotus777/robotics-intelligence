@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "32e534c9-db38-517c-8070-0834e4dad865",
+    "subject": {
+      "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+      "slug": "tower-nacelle-inspection",
+      "entity_type": "TASK",
+      "name": "Tower and nacelle inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Tower and nacelle inspection maturity SCALING",
+    "value": {
+      "kind": "enum",
+      "value": "SCALING"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ae07f4c4-7389-5513-b24c-e98b3e03781f",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "The same drone fleets that inspect blades increasingly cover towers and nacelles in the same visit, and offshore operators buy it to defer technician transfers. It is not yet universal practice because tower inspection is lower value per finding than blade inspection.",
+        "advance_criteria": [
+          "Tower and nacelle coverage bundled by default in fleet inspection contracts",
+          "Standardised defect taxonomies accepted by certification bodies",
+          "Routine offshore use without vessel support"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [
+          {
+            "claim_id": "8ac9ee72-4d9e-56c7-8d8d-fe3b6172f0ab",
+            "sentence": "Blade visual inspection maturity MATURE"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

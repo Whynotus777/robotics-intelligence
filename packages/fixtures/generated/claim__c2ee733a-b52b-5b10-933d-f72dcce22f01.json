@@ -1,0 +1,51 @@
+{
+  "claim": {
+    "claim_id": "c2ee733a-b52b-5b10-933d-f72dcce22f01",
+    "subject": {
+      "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+      "slug": "figure-03",
+      "entity_type": "ROBOT",
+      "name": "Figure 03",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "Figure 03 embodiment HUMANOID",
+    "value": {
+      "kind": "enum",
+      "value": "HUMANOID"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2025-10-09",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c3a77af4-9f48-55b3-979f-da2e04dd6415",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Announced as Figure's next humanoid.",
+      "published_at": "2025-10-09T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f57ccab1-ef62-5fbd-a2bb-177d1fb78cde",
+        "url": "https://www.figure.ai/news",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Introducing Figure 03",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-10-09T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

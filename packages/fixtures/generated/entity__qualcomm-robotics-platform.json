@@ -1,0 +1,174 @@
+{
+  "entity": {
+    "id": "68d1cdfd-c44e-59c9-9449-498325111690",
+    "slug": "qualcomm-robotics-platform",
+    "entity_type": "COMPONENT_PRODUCT",
+    "name": "Qualcomm robotics platforms",
+    "short_description": "Qualcomm's robotics compute platforms built on Snapdragon-class SoCs with integrated NPU, aimed at drones, AMRs and consumer robots.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [
+      "Qualcomm Robotics RB series",
+      "Qualcomm robotics compute"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "MADE_BY",
+      "label": "is made by",
+      "items": [
+        {
+          "claim_id": "822ed743-0c46-5541-9ddc-c5f82556ef02",
+          "target": {
+            "id": "d41554ca-2df4-5f8b-be56-0be5ce3df101",
+            "slug": "qualcomm",
+            "entity_type": "ORGANIZATION",
+            "name": "Qualcomm",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "771989f6-3109-55aa-b1d3-4f44f5224d7e",
+          "target": {
+            "id": "c87d3d33-96c5-5851-b406-0551571f6911",
+            "slug": "edge-ai-compute",
+            "entity_type": "TECHNOLOGY",
+            "name": "Edge AI compute",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "PROVIDES",
+      "label": "provides",
+      "items": [
+        {
+          "claim_id": "9d56b895-ed8b-5ef0-a081-be274c61fdfd",
+          "source": {
+            "id": "d41554ca-2df4-5f8b-be56-0be5ce3df101",
+            "slug": "qualcomm",
+            "entity_type": "ORGANIZATION",
+            "name": "Qualcomm",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "COMPETES_WITH",
+      "label": "competes with",
+      "items": [
+        {
+          "claim_id": "1d6a9256-28af-5d38-81d1-afae82046603",
+          "source": {
+            "id": "40524241-ae32-56e4-a625-84a0dc3ffb5d",
+            "slug": "nvidia-jetson-thor",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "NVIDIA Jetson Thor",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "DERIVED",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "d41554ca-2df4-5f8b-be56-0be5ce3df101",
+        "slug": "qualcomm",
+        "entity_type": "ORGANIZATION",
+        "name": "Qualcomm",
+        "primary_embodiment": null
+      }
+    ],
+    "technologies": [
+      {
+        "id": "c87d3d33-96c5-5851-b406-0551571f6911",
+        "slug": "edge-ai-compute",
+        "entity_type": "TECHNOLOGY",
+        "name": "Edge AI compute",
+        "primary_embodiment": null
+      }
+    ],
+    "peers": [
+      {
+        "id": "40524241-ae32-56e4-a625-84a0dc3ffb5d",
+        "slug": "nvidia-jetson-thor",
+        "entity_type": "COMPONENT_PRODUCT",
+        "name": "NVIDIA Jetson Thor",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 3
+  },
+  "as_of": null
+}

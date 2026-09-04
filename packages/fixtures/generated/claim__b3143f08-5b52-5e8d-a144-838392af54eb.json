@@ -1,0 +1,62 @@
+{
+  "claim": {
+    "claim_id": "b3143f08-5b52-5e8d-a144-838392af54eb",
+    "subject": {
+      "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+      "slug": "apptronik-apollo",
+      "entity_type": "ROBOT",
+      "name": "Apptronik Apollo",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "Apptronik Apollo commercial stage PILOT_DEPLOYMENTS",
+    "value": {
+      "kind": "enum",
+      "value": "PILOT_DEPLOYMENTS"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2024-03-15",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3829c63c-7712-5550-8d5f-6c495adeaf68",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Commercial agreement to pilot Apollo in Mercedes-Benz manufacturing.",
+      "published_at": "2024-03-15T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8d00e432-7535-5a8f-b41c-c212ff64077b",
+        "url": "https://apptronik.com/news",
+        "canonical_url": null,
+        "publisher": "Apptronik",
+        "title": "Apptronik and Mercedes-Benz announce commercial agreement",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-03-15T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "ed7a9b4e-0fcc-5acc-a635-c84bf5760e9f",
+      "value": {
+        "kind": "enum",
+        "value": "PROTOTYPE"
+      },
+      "status": "SUPERSEDED",
+      "valid_from": "2023-08-23",
+      "valid_to": "2024-03-15"
+    }
+  ],
+  "dependencies": []
+}

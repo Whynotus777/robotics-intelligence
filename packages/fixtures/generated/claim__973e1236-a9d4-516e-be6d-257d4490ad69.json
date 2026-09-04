@@ -1,0 +1,87 @@
+{
+  "claim": {
+    "claim_id": "973e1236-a9d4-516e-be6d-257d4490ad69",
+    "subject": {
+      "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+      "slug": "pallet-movement",
+      "entity_type": "TASK",
+      "name": "Pallet movement",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Pallet movement maturity SCALING",
+    "value": {
+      "kind": "enum",
+      "value": "SCALING"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ed1d35d5-3810-5753-a11e-d1b556d1ab5b",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Autonomous pallet jacks and forklifts are in repeated paid deployments across 3PLs and manufacturers, sold by at least five vendors with multi-site customers and a Rockwell-owned incumbent. Brownfield variability, dock edge cases and safety certification still limit penetration to a small share of forklift hours, which is why this is scaling rather than mature.",
+        "advance_criteria": [
+          "Autonomous units exceeding a double-digit share of new pallet-truck purchases at large 3PLs",
+          "Standardised safety certification accepted across regions",
+          "Routine trailer loading and unloading without human intervention",
+          "Fleet-level WMS integration sold as a product, not a project"
+        ],
+        "regress_criteria": [
+          "Vendor consolidation that removes multi-vendor competition",
+          "A safety incident that triggers regulatory restriction"
+        ],
+        "evidence_considered": [
+          {
+            "claim_id": "1576b16e-4949-51f8-a827-dc9d49519966",
+            "sentence": "Seegrid targets task Pallet movement"
+          },
+          {
+            "claim_id": "853e4395-aaee-58e5-8c1e-21e3d6505416",
+            "sentence": "Vecna Robotics targets task Pallet movement"
+          },
+          {
+            "claim_id": "bead0c05-2b48-56b6-b9c5-d9858d668f27",
+            "sentence": "OTTO Motors targets task Pallet movement"
+          },
+          {
+            "claim_id": "fc5f2545-cd85-565b-8660-3dd838fa8640",
+            "sentence": "Fox Robotics targets task Pallet movement"
+          },
+          {
+            "claim_id": "8c4e6ce5-13c2-5a86-9c98-4972affdf1d2",
+            "sentence": "Third Wave Automation targets task Pallet movement"
+          },
+          {
+            "claim_id": "b9b6e50f-84cf-5564-a55b-6ac64b81d2c5",
+            "sentence": "AMR pallet jack or lift maturity SCALING"
+          },
+          {
+            "claim_id": "2e13a355-7765-5eb6-ba02-427a6d2d96a9",
+            "sentence": "Autonomous forklift maturity EARLY_COMMERCIAL"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

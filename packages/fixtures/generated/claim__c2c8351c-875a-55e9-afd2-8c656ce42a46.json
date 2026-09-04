@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "c2c8351c-875a-55e9-afd2-8c656ce42a46",
+    "subject": {
+      "id": "d1ed4e89-b016-53b6-a370-d7bc4c52154c",
+      "slug": "deployment-spot-industrial-inspection",
+      "entity_type": "DEPLOYMENT",
+      "name": "Spot at industrial inspection sites",
+      "primary_embodiment": null
+    },
+    "predicate": "OPERATED_BY",
+    "label": "is operated by",
+    "sentence": "Spot at industrial inspection sites is operated by Boston Dynamics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
+        "slug": "boston-dynamics",
+        "entity_type": "ORGANIZATION",
+        "name": "Boston Dynamics",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3b5060d2-5d05-58fd-a487-247471d13c8b",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Boston Dynamics supplies the platform; site operators are not named.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4905fb35-5dfb-53e5-9472-8bfe3218397f",
+        "url": "https://www.therobotreport.com/",
+        "canonical_url": null,
+        "publisher": "The Robot Report",
+        "title": "Trade-press coverage of Spot deployments for industrial inspection",
+        "source_kind": "NEWS",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

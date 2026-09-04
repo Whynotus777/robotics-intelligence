@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "bead0c05-2b48-56b6-b9c5-d9858d668f27",
+    "subject": {
+      "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+      "slug": "otto-motors",
+      "entity_type": "ORGANIZATION",
+      "name": "OTTO Motors",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "OTTO Motors targets task Pallet movement",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+        "slug": "pallet-movement",
+        "entity_type": "TASK",
+        "name": "Pallet movement",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "45a5e938-241d-5821-ae6f-5447fec54bf9",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Pallet-moving AMRs listed.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "3c3ac060-107e-536a-9e91-1ddda7edbcc4",
+        "url": "https://ottomotors.com/",
+        "canonical_url": null,
+        "publisher": "OTTO Motors by Rockwell Automation",
+        "title": "OTTO Motors",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

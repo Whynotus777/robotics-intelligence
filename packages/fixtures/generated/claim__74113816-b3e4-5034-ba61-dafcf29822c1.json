@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "74113816-b3e4-5034-ba61-dafcf29822c1",
+    "subject": {
+      "id": "098db5e0-7b78-56a1-8990-159131dbdb7c",
+      "slug": "bmw",
+      "entity_type": "ORGANIZATION",
+      "name": "BMW Group",
+      "primary_embodiment": null
+    },
+    "predicate": "MANUFACTURES_AT",
+    "label": "manufactures at",
+    "sentence": "BMW Group manufactures at Spartanburg",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "a3e6bb2e-6cb0-57f6-a5de-328fcc0ec33a",
+        "slug": "spartanburg",
+        "entity_type": "PLACE",
+        "name": "Spartanburg",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "98f3bfdd-4c82-5e79-8856-05c4d905034d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Spartanburg is BMW Group's largest plant.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "fa26c40e-4a6a-554f-b133-dd29f44608e2",
+        "url": "https://www.bmwgroup.com/",
+        "canonical_url": null,
+        "publisher": "BMW Group",
+        "title": "BMW Group",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

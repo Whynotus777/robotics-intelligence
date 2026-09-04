@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "5103dd29-96c0-5d79-ad45-1c8b51875caf",
+    "subject": {
+      "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
+      "slug": "skyspecs",
+      "entity_type": "ORGANIZATION",
+      "name": "SkySpecs",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "SkySpecs targets task Blade visual inspection",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+        "slug": "blade-visual-inspection",
+        "entity_type": "TASK",
+        "name": "Blade visual inspection",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4686e240-7148-537a-a842-75c31b10db27",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Autonomous drone blade inspection is the core service.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "61dd170d-1752-555e-9683-dc5e0185a78d",
+        "url": "https://skyspecs.com/",
+        "canonical_url": null,
+        "publisher": "SkySpecs",
+        "title": "SkySpecs",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

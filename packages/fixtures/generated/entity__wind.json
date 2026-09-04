@@ -1,0 +1,198 @@
+{
+  "entity": {
+    "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+    "slug": "wind",
+    "entity_type": "MARKET",
+    "name": "Wind",
+    "short_description": "Onshore and offshore wind turbine operations and maintenance. Blades, towers and nacelles at 80–120 m height make access the dominant cost, which is why robotics enters here first.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "Wind energy",
+      "Wind O&M"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "CHILD_OF",
+      "label": "is a domain of",
+      "items": [
+        {
+          "claim_id": "cc677c04-fb34-5d1a-b784-790cd247805d",
+          "target": {
+            "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+            "slug": "energy",
+            "entity_type": "MARKET",
+            "name": "Energy",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "7ef039f3-cda1-5fa1-8516-debd0e115eb2",
+          "source": {
+            "id": "7831a686-465b-5c38-9904-bf9354227e01",
+            "slug": "blade-cleaning",
+            "entity_type": "TASK",
+            "name": "Blade cleaning",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "08ba3064-1662-51f2-8cd2-8ea13ae57e13",
+          "source": {
+            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+            "slug": "blade-repair",
+            "entity_type": "TASK",
+            "name": "Blade repair",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "68e2cbf1-db8c-55be-84dd-36a8e1e58e3e",
+          "source": {
+            "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+            "slug": "blade-visual-inspection",
+            "entity_type": "TASK",
+            "name": "Blade visual inspection",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "f7015257-b7ac-54e8-8e35-de7e1b93cd6e",
+          "source": {
+            "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+            "slug": "contact-ndt",
+            "entity_type": "TASK",
+            "name": "Contact NDT",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "8ad8f797-927c-5d89-b594-08f22ac1ec25",
+          "source": {
+            "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+            "slug": "lightning-protection-testing",
+            "entity_type": "TASK",
+            "name": "Lightning-protection testing",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "973264ef-22d4-528f-890e-6f56d73bc21f",
+          "source": {
+            "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+            "slug": "tower-nacelle-inspection",
+            "entity_type": "TASK",
+            "name": "Tower and nacelle inspection",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "markets": [
+      {
+        "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
+        "slug": "energy",
+        "entity_type": "MARKET",
+        "name": "Energy",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 1
+      },
+      "claim_count": 1,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 7
+  },
+  "as_of": null
+}

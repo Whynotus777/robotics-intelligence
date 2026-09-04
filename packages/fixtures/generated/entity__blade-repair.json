@@ -1,0 +1,581 @@
+{
+  "entity": {
+    "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+    "slug": "blade-repair",
+    "entity_type": "TASK",
+    "name": "Blade repair",
+    "short_description": "Repairing leading-edge erosion, coating damage and structural defects on installed wind turbine blades.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "Leading-edge repair",
+      "Blade maintenance"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "PILOT"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "f5a755a7-986d-54cf-af8b-435cba6a6ac8",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "PILOT"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_INCUMBENT_PROCESS",
+      "label": "incumbent process",
+      "claims": [
+        {
+          "claim_id": "d1562398-1cd2-579f-b0fe-cf70227ba730",
+          "predicate": "HAS_INCUMBENT_PROCESS",
+          "value": {
+            "kind": "text",
+            "text": "Rope-access technicians or suspended platforms, with turbine downtime for every intervention and weather-limited working windows."
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_TECHNICAL_REQUIREMENT",
+      "label": "technical requirement",
+      "claims": [
+        {
+          "claim_id": "78f6b3a2-bae3-578b-8a50-b2a4cd50a0a3",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Contact stability in wind"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "7214d204-9cd7-53a9-9a8c-579fc04538b3",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Surface preparation and coating application"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "d833a56c-e425-5bc0-b199-cde4f7f78dcd",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Blade-edge localization"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "984b9599-7cf8-544a-bc0e-441f739df63f",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Working at 80–120 m height"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
+      "claims": [
+        {
+          "claim_id": "4b4d6db0-2f1e-556c-9ebd-96103b419cad",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Turbine OEMs (service contracts)"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "6c796635-0d19-5676-bb23-ae186e0ad0ba",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Independent service providers"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "f5148d6a-ba38-5f0f-b9a3-1949c2a88b7e",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Asset owners and operators"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_ADOPTION_BLOCKER",
+      "label": "adoption blocker",
+      "claims": [
+        {
+          "claim_id": "719a4dca-d11d-5c4c-acc0-d1f0c4763ddc",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Warranty acceptance of robot-applied repairs by turbine OEMs"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "75e18ae0-91b4-563a-8048-5a38a016ce5c",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Weather windows and mobilisation cost still dominate campaign economics"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "08ba3064-1662-51f2-8cd2-8ea13ae57e13",
+          "target": {
+            "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+            "slug": "wind",
+            "entity_type": "MARKET",
+            "name": "Wind",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "e9ff8e43-78c7-5b1a-b6ac-590dc5d2cfb0",
+          "target": {
+            "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+            "slug": "drone-based-blade-maintenance",
+            "entity_type": "APPROACH",
+            "name": "Drone-based",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "68108d86-64a5-5e91-a703-49c6c3dd005f",
+          "target": {
+            "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
+            "slug": "blade-crawler",
+            "entity_type": "APPROACH",
+            "name": "Blade crawler",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "468ae321-4cd0-529e-9b54-f37b9a9e6212",
+          "target": {
+            "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+            "slug": "rope-cable-suspended-robot",
+            "entity_type": "APPROACH",
+            "name": "Rope/cable-suspended robot",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "aea376cf-5533-5f45-b6df-79a4288fe624",
+          "target": {
+            "id": "337c1e71-855d-5403-a3fb-6c1979113161",
+            "slug": "aerial-manipulator",
+            "entity_type": "APPROACH",
+            "name": "Aerial manipulator",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
+      "items": [
+        {
+          "claim_id": "b66bfd71-5441-5a21-a900-3b608adfe67a",
+          "target": {
+            "id": "7831a686-465b-5c38-9904-bf9354227e01",
+            "slug": "blade-cleaning",
+            "entity_type": "TASK",
+            "name": "Blade cleaning",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "26a673ab-061e-5c03-9ec1-c2e836df2362",
+          "target": {
+            "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+            "slug": "blade-visual-inspection",
+            "entity_type": "TASK",
+            "name": "Blade visual inspection",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "d46b472e-b561-55c1-9e0b-3ed71d879a54",
+          "source": {
+            "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+            "slug": "aerones",
+            "entity_type": "ORGANIZATION",
+            "name": "Aerones",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "7416accd-c788-5f1c-83d0-c41c4270a33e",
+          "source": {
+            "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+            "slug": "bladebug",
+            "entity_type": "ORGANIZATION",
+            "name": "BladeBUG",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "f3e76aff-f7ae-539c-8728-90fbfef84a08",
+          "source": {
+            "id": "81571cfa-9773-5740-a33f-0121af56676c",
+            "slug": "rope-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Rope Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
+      "items": [
+        {
+          "claim_id": "49df6f48-ce71-5350-be8f-bdf2a2e71501",
+          "source": {
+            "id": "7831a686-465b-5c38-9904-bf9354227e01",
+            "slug": "blade-cleaning",
+            "entity_type": "TASK",
+            "name": "Blade cleaning",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "337c1e71-855d-5403-a3fb-6c1979113161",
+        "slug": "aerial-manipulator",
+        "entity_type": "APPROACH",
+        "name": "Aerial manipulator",
+        "primary_embodiment": null
+      },
+      {
+        "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
+        "slug": "blade-crawler",
+        "entity_type": "APPROACH",
+        "name": "Blade crawler",
+        "primary_embodiment": null
+      },
+      {
+        "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+        "slug": "drone-based-blade-maintenance",
+        "entity_type": "APPROACH",
+        "name": "Drone-based",
+        "primary_embodiment": null
+      },
+      {
+        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+        "slug": "rope-cable-suspended-robot",
+        "entity_type": "APPROACH",
+        "name": "Rope/cable-suspended robot",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+        "slug": "aerones",
+        "entity_type": "ORGANIZATION",
+        "name": "Aerones",
+        "primary_embodiment": null
+      },
+      {
+        "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+        "slug": "bladebug",
+        "entity_type": "ORGANIZATION",
+        "name": "BladeBUG",
+        "primary_embodiment": null
+      },
+      {
+        "id": "81571cfa-9773-5740-a33f-0121af56676c",
+        "slug": "rope-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Rope Robotics",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+        "slug": "wind",
+        "entity_type": "MARKET",
+        "name": "Wind",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 18
+      },
+      "claim_count": 18,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 1,
+    "deployment_count": 0,
+    "related_count": 10
+  },
+  "as_of": null
+}

@@ -1,0 +1,680 @@
+{
+  "entity": {
+    "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+    "slug": "pallet-movement",
+    "entity_type": "TASK",
+    "name": "Pallet movement",
+    "short_description": "Moving full pallets between dock, storage, staging and production areas without a human forklift operator.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [
+      "Autonomous pallet handling",
+      "Pallet transport"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "SCALING"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "973e1236-a9d4-516e-be6d-257d4490ad69",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "SCALING"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_INCUMBENT_PROCESS",
+      "label": "incumbent process",
+      "claims": [
+        {
+          "claim_id": "d7089f50-9091-5cb2-b9de-7946ac3a76e2",
+          "predicate": "HAS_INCUMBENT_PROCESS",
+          "value": {
+            "kind": "text",
+            "text": "Manual forklift operators, typically on multiple shifts with high turnover."
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_TECHNICAL_REQUIREMENT",
+      "label": "technical requirement",
+      "claims": [
+        {
+          "claim_id": "26855fe8-508d-55a5-a899-c76be2765b05",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Pallet detection and pocket localization"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "11893c44-a4b8-5557-8610-8602db073ec6",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Safety-rated navigation among people"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "269d5f36-e8d0-5bd3-8daf-394f48c642ae",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Dock and trailer edge cases"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "9f5a7df7-c4d3-51c0-8083-b42b775c47b7",
+          "predicate": "HAS_TECHNICAL_REQUIREMENT",
+          "value": {
+            "kind": "text",
+            "text": "Fleet orchestration with the WMS"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_CUSTOMER_TYPE",
+      "label": "customer type",
+      "claims": [
+        {
+          "claim_id": "c6f4be9b-1aed-5fac-9663-96a4d92dd2fa",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Third-party logistics providers (3PLs)"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "c56b0d7a-fa0e-5ea8-9f5d-b710a034c2de",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "Retailers"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "952231fe-f478-50df-9fbf-b9c73ba305cb",
+          "predicate": "HAS_CUSTOMER_TYPE",
+          "value": {
+            "kind": "text",
+            "text": "CPG manufacturers"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_ADOPTION_BLOCKER",
+      "label": "adoption blocker",
+      "claims": [
+        {
+          "claim_id": "ec90619c-e025-5c3a-9ba0-7922de121a5c",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Brownfield integration"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "a8178fdd-5432-55d7-8d59-2ab3dd0813ae",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Safety certification"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "52a9ed7b-1762-5d52-a949-e008a82c54e7",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Workflow variability"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "092f34f2-1ef6-55cf-a5a4-ca9e1cbd1f62",
+          "predicate": "HAS_ADOPTION_BLOCKER",
+          "value": {
+            "kind": "text",
+            "text": "Labor-model change"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "BELONGS_TO_MARKET",
+      "label": "belongs to",
+      "items": [
+        {
+          "claim_id": "50d50563-dc02-5890-abda-7bfd6d6b18ce",
+          "target": {
+            "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+            "slug": "material-movement",
+            "entity_type": "MARKET",
+            "name": "Material movement",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "f04ceb82-5b8c-5b4c-bfbf-273a8fad759a",
+          "target": {
+            "id": "c7a570a3-5b5e-57dd-9b63-116a208684e2",
+            "slug": "amr-pallet-jack-or-lift",
+            "entity_type": "APPROACH",
+            "name": "AMR pallet jack or lift",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "7fa58e98-7b33-5cd3-a02f-1c52a87b559d",
+          "target": {
+            "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+            "slug": "autonomous-forklift",
+            "entity_type": "APPROACH",
+            "name": "Autonomous forklift",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "bf517742-3c0e-5e7d-8146-804f944717d0",
+          "target": {
+            "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+            "slug": "asrs-pallet-handling",
+            "entity_type": "APPROACH",
+            "name": "AS/RS pallet handling",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
+      "items": [
+        {
+          "claim_id": "bed7581a-9230-5dd7-ade9-9213020d148d",
+          "target": {
+            "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+            "slug": "truck-unloading",
+            "entity_type": "TASK",
+            "name": "Truck unloading",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "ccde8e23-343c-5f16-ba8d-528d50663154",
+          "target": {
+            "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+            "slug": "automated-storage-and-retrieval",
+            "entity_type": "TASK",
+            "name": "Automated storage and retrieval",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_TASK",
+      "label": "targets task",
+      "items": [
+        {
+          "claim_id": "fc5f2545-cd85-565b-8660-3dd838fa8640",
+          "source": {
+            "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+            "slug": "fox-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Fox Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "bead0c05-2b48-56b6-b9c5-d9858d668f27",
+          "source": {
+            "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+            "slug": "otto-motors",
+            "entity_type": "ORGANIZATION",
+            "name": "OTTO Motors",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "1576b16e-4949-51f8-a827-dc9d49519966",
+          "source": {
+            "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
+            "slug": "seegrid",
+            "entity_type": "ORGANIZATION",
+            "name": "Seegrid",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "8c4e6ce5-13c2-5a86-9c98-4972affdf1d2",
+          "source": {
+            "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+            "slug": "third-wave-automation",
+            "entity_type": "ORGANIZATION",
+            "name": "Third Wave Automation",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "853e4395-aaee-58e5-8c1e-21e3d6505416",
+          "source": {
+            "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
+            "slug": "vecna",
+            "entity_type": "ORGANIZATION",
+            "name": "Vecna Robotics",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "615604ce-5657-5f20-81f9-fff009809d48",
+          "source": {
+            "id": "9c12a0ae-d1aa-5eed-ab85-416b54bece15",
+            "slug": "fox-robotics-foxbot",
+            "entity_type": "ROBOT",
+            "name": "Fox Robotics FoxBot",
+            "primary_embodiment": "AMR"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "1b52dee5-0e36-50fa-ac8a-20bb217ce29b",
+          "source": {
+            "id": "dec795f6-0b99-5f18-b60d-3aac56e8dbd9",
+            "slug": "seegrid-palion-lift",
+            "entity_type": "ROBOT",
+            "name": "Seegrid Palion Lift",
+            "primary_embodiment": "AMR"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "ADJACENT_TO",
+      "label": "is adjacent to",
+      "items": [
+        {
+          "claim_id": "c7a420c4-9233-56c5-8537-398e480cbc37",
+          "source": {
+            "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+            "slug": "truck-unloading",
+            "entity_type": "TASK",
+            "name": "Truck unloading",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "categories": [
+      {
+        "id": "c7a570a3-5b5e-57dd-9b63-116a208684e2",
+        "slug": "amr-pallet-jack-or-lift",
+        "entity_type": "APPROACH",
+        "name": "AMR pallet jack or lift",
+        "primary_embodiment": null
+      },
+      {
+        "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+        "slug": "asrs-pallet-handling",
+        "entity_type": "APPROACH",
+        "name": "AS/RS pallet handling",
+        "primary_embodiment": null
+      },
+      {
+        "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+        "slug": "autonomous-forklift",
+        "entity_type": "APPROACH",
+        "name": "Autonomous forklift",
+        "primary_embodiment": null
+      }
+    ],
+    "company": [
+      {
+        "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
+        "slug": "fox-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Fox Robotics",
+        "primary_embodiment": null
+      },
+      {
+        "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+        "slug": "otto-motors",
+        "entity_type": "ORGANIZATION",
+        "name": "OTTO Motors",
+        "primary_embodiment": null
+      },
+      {
+        "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
+        "slug": "seegrid",
+        "entity_type": "ORGANIZATION",
+        "name": "Seegrid",
+        "primary_embodiment": null
+      },
+      {
+        "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+        "slug": "third-wave-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "Third Wave Automation",
+        "primary_embodiment": null
+      },
+      {
+        "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
+        "slug": "vecna",
+        "entity_type": "ORGANIZATION",
+        "name": "Vecna Robotics",
+        "primary_embodiment": null
+      }
+    ],
+    "markets": [
+      {
+        "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+        "slug": "material-movement",
+        "entity_type": "MARKET",
+        "name": "Material movement",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 19
+      },
+      "claim_count": 19,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 13
+  },
+  "as_of": null
+}

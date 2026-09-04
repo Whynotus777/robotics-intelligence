@@ -1,0 +1,291 @@
+{
+  "lens": "market",
+  "measure": "none",
+  "regions": [
+    {
+      "id": "warehouse-logistics",
+      "label": "warehouse-logistics",
+      "count": 5,
+      "districts": [
+        {
+          "id": "warehouse-logistics",
+          "label": "Warehouse & Logistics",
+          "count": 5,
+          "entities": [
+            {
+              "chip": {
+                "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+                "slug": "automated-storage-and-retrieval",
+                "entity_type": "TASK",
+                "name": "Automated storage and retrieval",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": false
+            },
+            {
+              "chip": {
+                "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
+                "slug": "case-picking",
+                "entity_type": "TASK",
+                "name": "Case picking",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": false
+            },
+            {
+              "chip": {
+                "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+                "slug": "each-picking-assistance",
+                "entity_type": "TASK",
+                "name": "Each-picking assistance",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": false
+            },
+            {
+              "chip": {
+                "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+                "slug": "pallet-movement",
+                "entity_type": "TASK",
+                "name": "Pallet movement",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": false
+            },
+            {
+              "chip": {
+                "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+                "slug": "truck-unloading",
+                "entity_type": "TASK",
+                "name": "Truck unloading",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": false
+            }
+          ]
+        },
+        {
+          "id": "material-movement",
+          "label": "Material movement",
+          "count": 5,
+          "entities": [
+            {
+              "chip": {
+                "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+                "slug": "automated-storage-and-retrieval",
+                "entity_type": "TASK",
+                "name": "Automated storage and retrieval",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
+                "slug": "case-picking",
+                "entity_type": "TASK",
+                "name": "Case picking",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+                "slug": "each-picking-assistance",
+                "entity_type": "TASK",
+                "name": "Each-picking assistance",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+                "slug": "pallet-movement",
+                "entity_type": "TASK",
+                "name": "Pallet movement",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+                "slug": "truck-unloading",
+                "entity_type": "TASK",
+                "name": "Truck unloading",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "label": "energy",
+      "count": 6,
+      "districts": [
+        {
+          "id": "energy",
+          "label": "Energy",
+          "count": 6,
+          "entities": [
+            {
+              "chip": {
+                "id": "7831a686-465b-5c38-9904-bf9354227e01",
+                "slug": "blade-cleaning",
+                "entity_type": "TASK",
+                "name": "Blade cleaning",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": false
+            },
+            {
+              "chip": {
+                "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+                "slug": "blade-repair",
+                "entity_type": "TASK",
+                "name": "Blade repair",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": false
+            },
+            {
+              "chip": {
+                "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+                "slug": "blade-visual-inspection",
+                "entity_type": "TASK",
+                "name": "Blade visual inspection",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": false
+            },
+            {
+              "chip": {
+                "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+                "slug": "contact-ndt",
+                "entity_type": "TASK",
+                "name": "Contact NDT",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": false
+            },
+            {
+              "chip": {
+                "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+                "slug": "lightning-protection-testing",
+                "entity_type": "TASK",
+                "name": "Lightning-protection testing",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": false
+            },
+            {
+              "chip": {
+                "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+                "slug": "tower-nacelle-inspection",
+                "entity_type": "TASK",
+                "name": "Tower and nacelle inspection",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": false
+            }
+          ]
+        },
+        {
+          "id": "wind",
+          "label": "Wind",
+          "count": 6,
+          "entities": [
+            {
+              "chip": {
+                "id": "7831a686-465b-5c38-9904-bf9354227e01",
+                "slug": "blade-cleaning",
+                "entity_type": "TASK",
+                "name": "Blade cleaning",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+                "slug": "blade-repair",
+                "entity_type": "TASK",
+                "name": "Blade repair",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+                "slug": "blade-visual-inspection",
+                "entity_type": "TASK",
+                "name": "Blade visual inspection",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+                "slug": "contact-ndt",
+                "entity_type": "TASK",
+                "name": "Contact NDT",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+                "slug": "lightning-protection-testing",
+                "entity_type": "TASK",
+                "name": "Lightning-protection testing",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+                "slug": "tower-nacelle-inspection",
+                "entity_type": "TASK",
+                "name": "Tower and nacelle inspection",
+                "primary_embodiment": null
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "as_of": null
+}

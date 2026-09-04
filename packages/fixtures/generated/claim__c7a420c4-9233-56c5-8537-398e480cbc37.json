@@ -1,0 +1,59 @@
+{
+  "claim": {
+    "claim_id": "c7a420c4-9233-56c5-8537-398e480cbc37",
+    "subject": {
+      "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+      "slug": "truck-unloading",
+      "entity_type": "TASK",
+      "name": "Truck unloading",
+      "primary_embodiment": null
+    },
+    "predicate": "ADJACENT_TO",
+    "label": "is adjacent to",
+    "sentence": "Truck unloading is adjacent to Pallet movement",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+        "slug": "pallet-movement",
+        "entity_type": "TASK",
+        "name": "Pallet movement",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "19ebc169-ed9d-5907-8c7c-f186f52e5ff1",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Downstream step of the same flow.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

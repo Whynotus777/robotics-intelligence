@@ -1,0 +1,104 @@
+{
+  "entity": {
+    "id": "7f880e99-4aa8-51d2-8bd9-c49d613ed706",
+    "slug": "walmart",
+    "entity_type": "ORGANIZATION",
+    "name": "Walmart",
+    "short_description": "Retailer; Symbotic regional distribution centre automation programme.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "DEPLOYED_BY",
+      "label": "is deployed by",
+      "items": [
+        {
+          "claim_id": "a474a915-03ab-596e-bf4d-ea86722a319b",
+          "source": {
+            "id": "cf9f255c-b63f-5aea-b67e-307c2973f610",
+            "slug": "deployment-symbotic-walmart",
+            "entity_type": "DEPLOYMENT",
+            "name": "Symbotic systems at Walmart regional DCs",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2024-11-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "PARTNERS_WITH",
+      "label": "partners with",
+      "items": [
+        {
+          "claim_id": "c8537fe7-ed41-5c51-af67-45590538afe2",
+          "source": {
+            "id": "74914967-d3be-58ab-aacb-456441b741b1",
+            "slug": "symbotic",
+            "entity_type": "ORGANIZATION",
+            "name": "Symbotic",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "74914967-d3be-58ab-aacb-456441b741b1",
+        "slug": "symbotic",
+        "entity_type": "ORGANIZATION",
+        "name": "Symbotic",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

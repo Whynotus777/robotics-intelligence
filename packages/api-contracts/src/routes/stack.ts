@@ -9,7 +9,7 @@ export const StackQuery = AsOfQuery;
 
 export const StackItem = z.object({
   entity: EntityChip,
-  kind: z.enum(["product", "technology", "model"]),
+  kind: z.enum(["product", "technology"]),
   claim_id: z.uuid(),
   evidence_summary: EvidenceSummary,
 });

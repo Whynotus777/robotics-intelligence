@@ -1,0 +1,105 @@
+{
+  "entity": {
+    "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
+    "slug": "automotive",
+    "entity_type": "MARKET",
+    "name": "Automotive",
+    "short_description": "Vehicle assembly plants and tier suppliers; the historical anchor customer for industrial arms and the first host of humanoid pilots.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "TARGETS_MARKET",
+      "label": "targets market",
+      "items": [
+        {
+          "claim_id": "34b81b6c-3729-5c95-81cd-a0678f7d155b",
+          "source": {
+            "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+            "slug": "fanuc",
+            "entity_type": "ORGANIZATION",
+            "name": "FANUC",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "44d5a814-1d0d-51f1-b9dd-143abfcb8f4c",
+          "source": {
+            "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+            "slug": "kuka",
+            "entity_type": "ORGANIZATION",
+            "name": "KUKA",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+        "slug": "fanuc",
+        "entity_type": "ORGANIZATION",
+        "name": "FANUC",
+        "primary_embodiment": null
+      },
+      {
+        "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+        "slug": "kuka",
+        "entity_type": "ORGANIZATION",
+        "name": "KUKA",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

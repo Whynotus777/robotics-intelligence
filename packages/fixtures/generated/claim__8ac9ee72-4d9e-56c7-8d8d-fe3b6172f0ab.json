@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "8ac9ee72-4d9e-56c7-8d8d-fe3b6172f0ab",
+    "subject": {
+      "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+      "slug": "blade-visual-inspection",
+      "entity_type": "TASK",
+      "name": "Blade visual inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Blade visual inspection maturity MATURE",
+    "value": {
+      "kind": "enum",
+      "value": "MATURE"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b62549a9-005d-5ec1-884d-2208c304699b",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Drone-based blade inspection is standard practice across onshore and offshore fleets, sold as a routine service by multiple vendors with analytics attached. The incumbent (ground-based telephoto or rope access) is now the exception, which is the definition of a mature robotic task.",
+        "advance_criteria": [
+          "Already at the top of the scale; watch for commoditisation of the service price"
+        ],
+        "regress_criteria": [
+          "Regulatory restriction of BVLOS operations that raises the cost per turbine"
+        ],
+        "evidence_considered": [
+          {
+            "claim_id": "5103dd29-96c0-5d79-ad45-1c8b51875caf",
+            "sentence": "SkySpecs targets task Blade visual inspection"
+          },
+          {
+            "claim_id": "5a58eb5a-82b0-5548-a9a5-244470f61cdd",
+            "sentence": "SkySpecs inspections across utility-scale wind fleets serves task Blade visual inspection"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

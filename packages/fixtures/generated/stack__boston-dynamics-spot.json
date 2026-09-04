@@ -1,0 +1,97 @@
+{
+  "robot": {
+    "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+    "slug": "boston-dynamics-spot",
+    "entity_type": "ROBOT",
+    "name": "Boston Dynamics Spot",
+    "primary_embodiment": "QUADRUPED"
+  },
+  "embodiment": "QUADRUPED",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "Mission autonomy",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Task & route planning",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Perception",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "STATE_ESTIMATION",
+      "label": "State estimation",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Locomotion control",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Compute",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "Cameras, depth, IMU",
+      "applies": true,
+      "items": [
+        {
+          "entity": {
+            "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
+            "slug": "depth-cameras",
+            "entity_type": "TECHNOLOGY",
+            "name": "Depth cameras",
+            "primary_embodiment": null
+          },
+          "kind": "technology",
+          "claim_id": "9c61d028-a495-537d-ab29-c82f5877a706",
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Leg actuators",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "Payloads / arm",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "POWER",
+      "label": "Battery, BMS",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Frame, legs",
+      "applies": true,
+      "items": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

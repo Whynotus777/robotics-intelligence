@@ -1,0 +1,98 @@
+{
+  "robot": {
+    "id": "d7947928-8b51-5563-ac9a-8910108075b3",
+    "slug": "skydio-x10",
+    "entity_type": "ROBOT",
+    "name": "Skydio X10",
+    "primary_embodiment": "DRONE"
+  },
+  "embodiment": "DRONE",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "Mission autonomy",
+      "applies": true,
+      "items": [],
+      "architecture_note": {
+        "claim_id": "0e625c9f-b193-58e9-8782-4251ed50f71b",
+        "text": "X10 runs Skydio's onboard autonomy stack for obstacle avoidance and autonomous data capture, so missions do not depend on a remote pilot's line of sight.",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Route & mission planning",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Perception / detection",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "STATE_ESTIMATION",
+      "label": "State estimation / EKF",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Flight control",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Flight computer + companion compute",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "Cameras, GNSS, IMU, LiDAR/radar",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Motors, ESCs, propulsion",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "Payload / gimbal / manipulator",
+      "applies": true,
+      "items": [],
+      "architecture_note": {
+        "claim_id": "9b45df0a-a9a0-56e6-9cac-b090eaa741e3",
+        "text": "Multiple sensor payload options (visual, thermal, zoom) are offered as swappable packages.",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    },
+    {
+      "canonical": "POWER",
+      "label": "Battery / hybrid",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Airframe",
+      "applies": true,
+      "items": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

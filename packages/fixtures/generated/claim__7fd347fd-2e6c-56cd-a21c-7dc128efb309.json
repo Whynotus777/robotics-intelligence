@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "7fd347fd-2e6c-56cd-a21c-7dc128efb309",
+    "subject": {
+      "id": "79815395-59ce-5c93-aef0-8686647839c6",
+      "slug": "locus",
+      "entity_type": "ORGANIZATION",
+      "name": "Locus Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "Locus Robotics builds Locus Origin",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d0bdf70a-64a1-5faf-8210-b2d4df93141d",
+        "slug": "locus-origin",
+        "entity_type": "ROBOT",
+        "name": "Locus Origin",
+        "primary_embodiment": "AMR"
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8099286c-c7a2-5f72-8d94-566d0ff938ff",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site lists Origin.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "ea50ca3f-5695-5568-8e24-1fdf58b6eb53",
+        "url": "https://locusrobotics.com/",
+        "canonical_url": null,
+        "publisher": "Locus Robotics",
+        "title": "Locus Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

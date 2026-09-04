@@ -1,0 +1,69 @@
+{
+  "claim": {
+    "claim_id": "ed7a9b4e-0fcc-5acc-a635-c84bf5760e9f",
+    "subject": {
+      "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
+      "slug": "apptronik-apollo",
+      "entity_type": "ROBOT",
+      "name": "Apptronik Apollo",
+      "primary_embodiment": "HUMANOID"
+    },
+    "predicate": "HAS_COMMERCIAL_STAGE",
+    "label": "commercial stage",
+    "sentence": "Apptronik Apollo commercial stage PROTOTYPE",
+    "value": {
+      "kind": "enum",
+      "value": "PROTOTYPE"
+    },
+    "stack_layer": null,
+    "status": "SUPERSEDED",
+    "valid_from": "2023-08-23",
+    "valid_to": "2024-03-15",
+    "observed_at": "2023-08-23T00:00:00.000Z",
+    "last_verified_at": "2023-08-23T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "70f5e821-9f7f-5552-8177-0e0415c090b9",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2023-08-23T00:00:00.000Z",
+      "observed_at": "2023-08-23T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "At unveiling Apollo was a prototype shown in controlled demonstrations with no announced customer. This assessment was closed when the Mercedes-Benz pilot was announced.",
+        "advance_criteria": [
+          "A named pilot customer",
+          "Units operating outside Apptronik's own facility"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [
+          {
+            "claim_id": "bb501113-c988-5b15-8f48-0f62df755d37",
+            "sentence": "Apptronik Apollo was announced on 2023-08-23"
+          }
+        ],
+        "reviewed_at": "2023-08-23T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "b3143f08-5b52-5e8d-a144-838392af54eb",
+      "value": {
+        "kind": "enum",
+        "value": "PILOT_DEPLOYMENTS"
+      },
+      "status": "APPROVED",
+      "valid_from": "2024-03-15",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

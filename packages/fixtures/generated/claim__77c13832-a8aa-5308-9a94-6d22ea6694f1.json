@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "77c13832-a8aa-5308-9a94-6d22ea6694f1",
+    "subject": {
+      "id": "30e61e00-e79f-5403-8fd8-e1a5c4c6e6ca",
+      "slug": "ros-2",
+      "entity_type": "SOFTWARE_PRODUCT",
+      "name": "ROS 2",
+      "primary_embodiment": null
+    },
+    "predicate": "IS_INSTANCE_OF",
+    "label": "is an instance of",
+    "sentence": "ROS 2 is an instance of Robot middleware",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7d8d3eeb-b991-563e-8570-e2950be5c769",
+        "slug": "robot-middleware",
+        "entity_type": "TECHNOLOGY",
+        "name": "Robot middleware",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "86182958-3b45-55fc-9b13-5500acd81fe7",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Described as a set of software libraries and tools for building robot applications.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "54d59a01-e4ad-5cb9-a14e-e6a9d5a31f9e",
+        "url": "https://docs.ros.org/en/rolling/",
+        "canonical_url": null,
+        "publisher": "Open Robotics",
+        "title": "ROS 2 documentation",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

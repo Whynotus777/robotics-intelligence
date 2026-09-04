@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "97c70299-1a54-59dc-8830-0da263a60a72",
+    "subject": {
+      "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+      "slug": "blade-visual-inspection",
+      "entity_type": "TASK",
+      "name": "Blade visual inspection",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_INCUMBENT_PROCESS",
+    "label": "incumbent process",
+    "sentence": "Blade visual inspection incumbent process Ground-based telephoto photography or rope-access close visual inspection.",
+    "value": {
+      "kind": "text",
+      "text": "Ground-based telephoto photography or rope-access close visual inspection."
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "97d3c192-0234-5773-a6cf-f4556957c0a6",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "These are the pre-drone methods and remain the fallback where drones cannot fly.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,130 @@
+{
+  "entity": {
+    "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
+    "slug": "dji",
+    "entity_type": "ORGANIZATION",
+    "name": "DJI",
+    "short_description": "Shenzhen drone OEM; Matrice enterprise line.",
+    "primary_embodiment": null,
+    "country_code": "CN",
+    "aliases": [
+      "DJI Technology"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "af2bf497-4272-5a40-9039-1f8b97d4c58c",
+          "target": {
+            "id": "5386047b-9431-5521-8e28-d5f238524771",
+            "slug": "shenzhen",
+            "entity_type": "PLACE",
+            "name": "Shenzhen",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "a1883a3d-5bbc-584c-b6cf-8435cb65b273",
+          "target": {
+            "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
+            "slug": "dji-matrice-350-rtk",
+            "entity_type": "ROBOT",
+            "name": "DJI Matrice 350 RTK",
+            "primary_embodiment": "DRONE"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "MANUFACTURES_AT",
+      "label": "manufactures at",
+      "items": [
+        {
+          "claim_id": "2457f1fe-ef81-51be-9a98-4393a92c2ee7",
+          "target": {
+            "id": "5386047b-9431-5521-8e28-d5f238524771",
+            "slug": "shenzhen",
+            "entity_type": "PLACE",
+            "name": "Shenzhen",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "places": [
+      {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

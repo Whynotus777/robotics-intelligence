@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "7416accd-c788-5f1c-83d0-c41c4270a33e",
+    "subject": {
+      "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+      "slug": "bladebug",
+      "entity_type": "ORGANIZATION",
+      "name": "BladeBUG",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "BladeBUG targets task Blade repair",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+        "slug": "blade-repair",
+        "entity_type": "TASK",
+        "name": "Blade repair",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5ba0f4c4-38a2-5340-81f7-941ba75de95f",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Trial coverage describes inspection and repair capability.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e9b4045f-2660-586b-ab71-1da4ac8fb42d",
+        "url": "https://www.ore.catapult.org.uk/",
+        "canonical_url": null,
+        "publisher": "ORE Catapult",
+        "title": "BladeBUG offshore blade-walking trials",
+        "source_kind": "NEWS",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "2e7b412b-dafb-5e84-8e49-56810b6b0e45",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+          "slug": "blade-visual-inspection",
+          "entity_type": "TASK",
+          "name": "Blade visual inspection",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

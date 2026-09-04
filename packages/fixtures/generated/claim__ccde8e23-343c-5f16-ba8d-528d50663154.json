@@ -1,0 +1,77 @@
+{
+  "claim": {
+    "claim_id": "ccde8e23-343c-5f16-ba8d-528d50663154",
+    "subject": {
+      "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+      "slug": "pallet-movement",
+      "entity_type": "TASK",
+      "name": "Pallet movement",
+      "primary_embodiment": null
+    },
+    "predicate": "ADJACENT_TO",
+    "label": "is adjacent to",
+    "sentence": "Pallet movement is adjacent to Automated storage and retrieval",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
+        "slug": "automated-storage-and-retrieval",
+        "entity_type": "TASK",
+        "name": "Automated storage and retrieval",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a81fe622-6ef1-537a-9dd9-28d851c69763",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "AS/RS replaces pallet movement inside storage; the two compete for the same capital budget.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "bed7581a-9230-5dd7-ade9-9213020d148d",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+          "slug": "truck-unloading",
+          "entity_type": "TASK",
+          "name": "Truck unloading",
+          "primary_embodiment": null
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

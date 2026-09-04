@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "d4a63105-14e5-58ea-bd78-5e2e2b67b581",
+    "subject": {
+      "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
+      "slug": "unitree",
+      "entity_type": "ORGANIZATION",
+      "name": "Unitree Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Unitree Robotics is headquartered at Hangzhou",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c5da4207-66e6-58af-b465-9432764e2a62",
+        "slug": "hangzhou",
+        "entity_type": "PLACE",
+        "name": "Hangzhou",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "241ced65-26cc-5038-ab89-2672c4244f86",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Company site gives the headquarters location.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "865cb64d-2f1d-5e24-98e2-14220140dbe8",
+        "url": "https://www.unitree.com/",
+        "canonical_url": null,
+        "publisher": "Unitree Robotics",
+        "title": "Unitree Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

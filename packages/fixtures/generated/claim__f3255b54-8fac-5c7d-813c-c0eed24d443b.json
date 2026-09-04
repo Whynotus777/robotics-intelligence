@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "f3255b54-8fac-5c7d-813c-c0eed24d443b",
+    "subject": {
+      "id": "79815395-59ce-5c93-aef0-8686647839c6",
+      "slug": "locus",
+      "entity_type": "ORGANIZATION",
+      "name": "Locus Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Locus Robotics targets task Each-picking assistance",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+        "slug": "each-picking-assistance",
+        "entity_type": "TASK",
+        "name": "Each-picking assistance",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "358a4f70-283a-53e9-b54f-72c0ca0bea92",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Collaborative picking is the core product.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "ea50ca3f-5695-5568-8e24-1fdf58b6eb53",
+        "url": "https://locusrobotics.com/",
+        "canonical_url": null,
+        "publisher": "Locus Robotics",
+        "title": "Locus Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

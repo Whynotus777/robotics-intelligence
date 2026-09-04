@@ -1,0 +1,54 @@
+{
+  "claim": {
+    "claim_id": "b524ba71-a01d-52ca-af78-9ac870325b6b",
+    "subject": {
+      "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
+      "slug": "blade-crawler",
+      "entity_type": "APPROACH",
+      "name": "Blade crawler",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Blade crawler maturity PILOT",
+    "value": {
+      "kind": "enum",
+      "value": "PILOT"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4a35d88a-14f8-55c2-bdb9-6af697f1e85a",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "BladeBUG-type crawlers have completed offshore trials and demonstrated inspection and light repair on live turbines, but there is no repeated paid deployment programme and deployment to the blade still needs a crew at the nacelle. The approach has the best contact geometry and the worst logistics.",
+        "advance_criteria": [
+          "Paid campaigns across multiple wind farms in a season",
+          "Deployment without rope-access crew involvement",
+          "Repair quality accepted by an OEM or ISP under contract"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

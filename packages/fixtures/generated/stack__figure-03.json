@@ -1,0 +1,89 @@
+{
+  "robot": {
+    "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+    "slug": "figure-03",
+    "entity_type": "ROBOT",
+    "name": "Figure 03",
+    "primary_embodiment": "HUMANOID"
+  },
+  "embodiment": "HUMANOID",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "VLA / policy models",
+      "applies": true,
+      "items": [],
+      "architecture_note": {
+        "claim_id": "1e350357-373e-53c4-af48-812c8cc5df01",
+        "text": "Figure 03 is presented as hardware designed around Helix, Figure's vision-language-action model, with the sensor suite and hands specified for that policy rather than for teleoperation.",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "MEDIUM",
+          "source_count": 1
+        }
+      }
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Task planning",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Perception",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "STATE_ESTIMATION",
+      "label": "State estimation",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Whole-body control",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Compute",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "Cameras, depth, IMU, F/T",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Joint actuators",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "Hands / grippers",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "POWER",
+      "label": "Battery, BMS",
+      "applies": true,
+      "items": []
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Frame, joints, legs",
+      "applies": true,
+      "items": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

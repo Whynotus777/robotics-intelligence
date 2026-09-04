@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "853e4395-aaee-58e5-8c1e-21e3d6505416",
+    "subject": {
+      "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
+      "slug": "vecna",
+      "entity_type": "ORGANIZATION",
+      "name": "Vecna Robotics",
+      "primary_embodiment": null
+    },
+    "predicate": "TARGETS_TASK",
+    "label": "targets task",
+    "sentence": "Vecna Robotics targets task Pallet movement",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+        "slug": "pallet-movement",
+        "entity_type": "TASK",
+        "name": "Pallet movement",
+        "primary_embodiment": null
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "83179090-3212-5bf9-a787-48f3795b6b3d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Autonomous pallet jacks and forklifts.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "d5df5a02-64c6-5062-9bf3-cd96fb1dffca",
+        "url": "https://www.vecnarobotics.com/",
+        "canonical_url": null,
+        "publisher": "Vecna Robotics",
+        "title": "Vecna Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

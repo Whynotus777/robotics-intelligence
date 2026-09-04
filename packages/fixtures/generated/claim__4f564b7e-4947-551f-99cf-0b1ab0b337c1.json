@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "4f564b7e-4947-551f-99cf-0b1ab0b337c1",
+    "subject": {
+      "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
+      "slug": "asrs-pallet-handling",
+      "entity_type": "APPROACH",
+      "name": "AS/RS pallet handling",
+      "primary_embodiment": null
+    },
+    "predicate": "USES_EMBODIMENT",
+    "label": "uses embodiment",
+    "sentence": "AS/RS pallet handling uses embodiment OTHER_MOBILE",
+    "value": {
+      "kind": "enum",
+      "value": "OTHER_MOBILE"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "786ed92f-dbf9-515d-ae81-feeb9628950d",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "AS/RS systems combine fixed structure with autonomous case-handling vehicles; classified as other mobile because the mobile element is not a free-roaming AMR.",
+        "advance_criteria": [
+          "Would change if the taxonomy added a fixed-automation embodiment."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,83 @@
+{
+  "claim": {
+    "claim_id": "269d5f36-e8d0-5bd3-8daf-394f48c642ae",
+    "subject": {
+      "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+      "slug": "pallet-movement",
+      "entity_type": "TASK",
+      "name": "Pallet movement",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_TECHNICAL_REQUIREMENT",
+    "label": "technical requirement",
+    "sentence": "Pallet movement technical requirement Dock and trailer edge cases",
+    "value": {
+      "kind": "text",
+      "text": "Dock and trailer edge cases"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "920e65ad-341b-5bbc-a287-ba5d29f7a00d",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Dock plates, trailer floors, lighting changes and tight clearances break navigation assumptions; this is where pilots stall.",
+        "advance_criteria": [
+          "Would be relaxed by automated dock equipment."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "26855fe8-508d-55a5-a899-c76be2765b05",
+      "value": {
+        "kind": "text",
+        "text": "Pallet detection and pocket localization"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "11893c44-a4b8-5557-8610-8602db073ec6",
+      "value": {
+        "kind": "text",
+        "text": "Safety-rated navigation among people"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "9f5a7df7-c4d3-51c0-8083-b42b775c47b7",
+      "value": {
+        "kind": "text",
+        "text": "Fleet orchestration with the WMS"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

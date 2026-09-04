@@ -1,0 +1,192 @@
+{
+  "entity": {
+    "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+    "slug": "drone-based-blade-maintenance",
+    "entity_type": "APPROACH",
+    "name": "Drone-based",
+    "short_description": "Multirotor drones flying close to blades for inspection; contact work from the same platform is early.",
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-04T17:13:54.103Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": "SCALING"
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_MATURITY",
+      "label": "maturity",
+      "claims": [
+        {
+          "claim_id": "595b4a6a-0756-50b6-87b9-9db56dc2a9e1",
+          "predicate": "HAS_MATURITY",
+          "value": {
+            "kind": "enum",
+            "value": "SCALING"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "USES_EMBODIMENT",
+      "label": "uses embodiment",
+      "claims": [
+        {
+          "claim_id": "648fcc9c-bb7d-5cd0-a695-3942e4d12ad1",
+          "predicate": "USES_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "DRONE"
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HAS_EXAMPLE_VENDOR",
+      "label": "example vendor",
+      "items": [
+        {
+          "claim_id": "5f35077a-3c37-501d-afad-362eaa143fba",
+          "target": {
+            "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
+            "slug": "skyspecs",
+            "entity_type": "ORGANIZATION",
+            "name": "SkySpecs",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "HAS_APPROACH",
+      "label": "has approach",
+      "items": [
+        {
+          "claim_id": "e9ff8e43-78c7-5b1a-b6ac-590dc5d2cfb0",
+          "source": {
+            "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+            "slug": "blade-repair",
+            "entity_type": "TASK",
+            "name": "Blade repair",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "4b12109e-4bf4-51a4-8449-78ef47a3c356",
+          "source": {
+            "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
+            "slug": "blade-visual-inspection",
+            "entity_type": "TASK",
+            "name": "Blade visual inspection",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        },
+        {
+          "claim_id": "1a8a04ec-dc05-5bfd-8646-9156c6ebf75a",
+          "source": {
+            "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+            "slug": "tower-nacelle-inspection",
+            "entity_type": "TASK",
+            "name": "Tower and nacelle inspection",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "HIGH",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
+        "slug": "skyspecs",
+        "entity_type": "ORGANIZATION",
+        "name": "SkySpecs",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 1
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 4
+  },
+  "as_of": null
+}

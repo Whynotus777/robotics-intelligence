@@ -1,0 +1,79 @@
+{
+  "claim": {
+    "claim_id": "f5a755a7-986d-54cf-af8b-435cba6a6ac8",
+    "subject": {
+      "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+      "slug": "blade-repair",
+      "entity_type": "TASK",
+      "name": "Blade repair",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_MATURITY",
+    "label": "maturity",
+    "sentence": "Blade repair maturity PILOT",
+    "value": {
+      "kind": "enum",
+      "value": "PILOT"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ba63737c-0372-5a7a-a39a-7df4a826876b",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Robotic systems have demonstrated field repair and coating workflows, and Aerones and Rope Robotics sell leading-edge protection commercially, but deployments remain limited and most structural repair still depends on human rope-access teams. Paid work is concentrated in a few vendors and a few asset owners, which is the signature of a pilot market, not an early-commercial one.",
+        "advance_criteria": [
+          "Repeated paid deployments across seasons, not one-off campaigns",
+          "Multiple asset owners, not one pilot partner",
+          "Demonstrated repair quality accepted by OEM warranty terms",
+          "Reduced on-site human intervention per blade"
+        ],
+        "regress_criteria": [
+          "A leading vendor exits or pivots to inspection only",
+          "Warranty rejection of robot-applied repairs"
+        ],
+        "evidence_considered": [
+          {
+            "claim_id": "d46b472e-b561-55c1-9e0b-3ed71d879a54",
+            "sentence": "Aerones targets task Blade repair"
+          },
+          {
+            "claim_id": "f3e76aff-f7ae-539c-8728-90fbfef84a08",
+            "sentence": "Rope Robotics targets task Blade repair"
+          },
+          {
+            "claim_id": "7416accd-c788-5f1c-83d0-c41c4270a33e",
+            "sentence": "BladeBUG targets task Blade repair"
+          },
+          {
+            "claim_id": "c1b02147-ed8f-5595-90fc-82c243725e1d",
+            "sentence": "Rope/cable-suspended robot maturity EARLY_COMMERCIAL"
+          },
+          {
+            "claim_id": "b524ba71-a01d-52ca-af78-9ac870325b6b",
+            "sentence": "Blade crawler maturity PILOT"
+          }
+        ],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

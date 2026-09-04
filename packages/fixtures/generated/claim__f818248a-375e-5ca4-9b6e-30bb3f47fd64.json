@@ -1,0 +1,52 @@
+{
+  "claim": {
+    "claim_id": "f818248a-375e-5ca4-9b6e-30bb3f47fd64",
+    "subject": {
+      "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+      "slug": "truck-unloading",
+      "entity_type": "TASK",
+      "name": "Truck unloading",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_INCUMBENT_PROCESS",
+    "label": "incumbent process",
+    "sentence": "Truck unloading incumbent process Manual forklift drivers for palletised freight; manual crews for floor-loaded cases.",
+    "value": {
+      "kind": "text",
+      "text": "Manual forklift drivers for palletised freight; manual crews for floor-loaded cases."
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b2c2075e-115f-5821-b584-f08d09dd54da",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Unloading is one of the hardest jobs to staff at a DC, which is the pull.",
+        "advance_criteria": [
+          "Stable."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

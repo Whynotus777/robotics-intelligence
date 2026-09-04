@@ -1,0 +1,85 @@
+{
+  "claim": {
+    "claim_id": "ec90619c-e025-5c3a-9ba0-7922de121a5c",
+    "subject": {
+      "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+      "slug": "pallet-movement",
+      "entity_type": "TASK",
+      "name": "Pallet movement",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_ADOPTION_BLOCKER",
+    "label": "adoption blocker",
+    "sentence": "Pallet movement adoption blocker Brownfield integration",
+    "value": {
+      "kind": "text",
+      "text": "Brownfield integration"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7342616f-b2aa-5751-89bc-4d2abc0188db",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Most sites were laid out for human drivers; racking, aisle widths and floor quality vary, and every pilot becomes a site-engineering project. Vendors win when they can deploy without changing the building.",
+        "advance_criteria": [
+          "Deployments quoted from a site survey without custom engineering",
+          "Vendors publishing site-readiness criteria that customers can self-assess",
+          "Sub-month time from order to first autonomous shift"
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "a8178fdd-5432-55d7-8d59-2ab3dd0813ae",
+      "value": {
+        "kind": "text",
+        "text": "Safety certification"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "52a9ed7b-1762-5d52-a949-e008a82c54e7",
+      "value": {
+        "kind": "text",
+        "text": "Workflow variability"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "092f34f2-1ef6-55cf-a5a4-ca9e1cbd1f62",
+      "value": {
+        "kind": "text",
+        "text": "Labor-model change"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

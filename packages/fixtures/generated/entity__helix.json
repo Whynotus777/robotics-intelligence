@@ -1,0 +1,223 @@
+{
+  "entity": {
+    "id": "70bc43e3-1e7f-5d97-9852-8dbc09ee40ee",
+    "slug": "helix",
+    "entity_type": "MODEL",
+    "name": "Helix",
+    "short_description": "Figure AI's vision-language-action model for whole-upper-body humanoid control, announced February 2025.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [
+      "Figure Helix"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "ANNOUNCED_ON",
+      "label": "was announced on",
+      "claims": [
+        {
+          "claim_id": "a9aaa39e-c349-5204-b8d9-71b987962297",
+          "predicate": "ANNOUNCED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2025-02-20"
+          },
+          "stack_layer": null,
+          "valid_from": "2025-02-20",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "MADE_BY",
+      "label": "is made by",
+      "items": [
+        {
+          "claim_id": "45cc1c19-ef46-5e3e-915e-b1c2055f53e9",
+          "target": {
+            "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+            "slug": "figure-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Figure AI",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2025-02-20",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "IS_INSTANCE_OF",
+      "label": "is an instance of",
+      "items": [
+        {
+          "claim_id": "ce6d9777-5e03-5bae-a8d5-a9df282abffd",
+          "target": {
+            "id": "bc3bbbc6-d8b1-5fdc-b75e-722ffc380762",
+            "slug": "vla-models",
+            "entity_type": "TECHNOLOGY",
+            "name": "VLA models",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2025-02-20",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "COMPETES_WITH",
+      "label": "competes with",
+      "items": [
+        {
+          "claim_id": "654bdcdd-5aca-571e-ac8d-4fb2c5cf46ec",
+          "target": {
+            "id": "3efa143b-c4c7-5c49-bc42-af2abd624356",
+            "slug": "pi0",
+            "entity_type": "MODEL",
+            "name": "π0",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "DERIVED",
+            "confidence": "MEDIUM",
+            "source_count": 0
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "DEVELOPS",
+      "label": "develops",
+      "items": [
+        {
+          "claim_id": "0adffff8-a7f0-5ed0-a2c5-5fa02ab3f154",
+          "source": {
+            "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+            "slug": "figure-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Figure AI",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "CONTROLLED_BY",
+      "label": "is controlled by",
+      "items": [
+        {
+          "claim_id": "60b83880-09af-5e15-9244-b0fb3614b53c",
+          "source": {
+            "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
+            "slug": "figure-03",
+            "entity_type": "ROBOT",
+            "name": "Figure 03",
+            "primary_embodiment": "HUMANOID"
+          },
+          "stack_layer": null,
+          "valid_from": "2025-10-09",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+        "slug": "figure-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Figure AI",
+        "primary_embodiment": null
+      }
+    ],
+    "technologies": [
+      {
+        "id": "bc3bbbc6-d8b1-5fdc-b75e-722ffc380762",
+        "slug": "vla-models",
+        "entity_type": "TECHNOLOGY",
+        "name": "VLA models",
+        "primary_embodiment": null
+      }
+    ],
+    "peers": [
+      {
+        "id": "3efa143b-c4c7-5c49-bc42-af2abd624356",
+        "slug": "pi0",
+        "entity_type": "MODEL",
+        "name": "π0",
+        "primary_embodiment": null
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 1,
+        "ANALYST": 0
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 1,
+    "deployment_count": 0,
+    "related_count": 4
+  },
+  "as_of": null
+}

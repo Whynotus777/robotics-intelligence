@@ -1,0 +1,98 @@
+{
+  "entity": {
+    "id": "576daf4f-6804-5aa2-a992-4d99e23940f1",
+    "slug": "open-robotics",
+    "entity_type": "ORGANIZATION",
+    "name": "Open Robotics",
+    "short_description": "Steward of the ROS 2 open-source middleware.",
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [
+      "Open Source Robotics Foundation",
+      "OSRF"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "DEVELOPS",
+      "label": "develops",
+      "items": [
+        {
+          "claim_id": "700d541f-ccec-584c-a418-aa73f2d5a906",
+          "target": {
+            "id": "30e61e00-e79f-5403-8fd8-e1a5c4c6e6ca",
+            "slug": "ros-2",
+            "entity_type": "SOFTWARE_PRODUCT",
+            "name": "ROS 2",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "MADE_BY",
+      "label": "is made by",
+      "items": [
+        {
+          "claim_id": "c943addf-b015-5e8c-91fb-c1f654b668b0",
+          "source": {
+            "id": "30e61e00-e79f-5403-8fd8-e1a5c4c6e6ca",
+            "slug": "ros-2",
+            "entity_type": "SOFTWARE_PRODUCT",
+            "name": "ROS 2",
+            "primary_embodiment": null
+          },
+          "stack_layer": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {},
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 1,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 1,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

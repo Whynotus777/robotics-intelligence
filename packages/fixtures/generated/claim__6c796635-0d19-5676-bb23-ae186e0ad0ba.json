@@ -1,0 +1,73 @@
+{
+  "claim": {
+    "claim_id": "6c796635-0d19-5676-bb23-ae186e0ad0ba",
+    "subject": {
+      "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+      "slug": "blade-repair",
+      "entity_type": "TASK",
+      "name": "Blade repair",
+      "primary_embodiment": null
+    },
+    "predicate": "HAS_CUSTOMER_TYPE",
+    "label": "customer type",
+    "sentence": "Blade repair customer type Independent service providers",
+    "value": {
+      "kind": "text",
+      "text": "Independent service providers"
+    },
+    "stack_layer": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a5835544-ca9c-5dc6-98bc-bee9f6d9eb3f",
+      "class": "ANALYST",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": null,
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": null,
+      "assessment": {
+        "author": "editorial",
+        "rationale": "ISPs compete on cost per blade and are the most likely early adopters of robots that cut crew size.",
+        "advance_criteria": [
+          "Would change if ISP consolidation removed the cost-competition dynamic."
+        ],
+        "regress_criteria": [],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "4b4d6db0-2f1e-556c-9ebd-96103b419cad",
+      "value": {
+        "kind": "text",
+        "text": "Turbine OEMs (service contracts)"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "f5148d6a-ba38-5f0f-b9a3-1949c2a88b7e",
+      "value": {
+        "kind": "text",
+        "text": "Asset owners and operators"
+      },
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}
