@@ -8,6 +8,7 @@
     "seed": "pnpm --filter @ri/seed run seed",
     "fixtures": "pnpm --filter @ri/fixtures generate",
     "queries": "pnpm --filter @ri/api queries",
+    "dev:api": "pnpm --filter @ri/api dev:api",
     "ingest:fetch": "pnpm --filter @ri/ingestion run fetch",
     "check": "pnpm -r typecheck && vitest run"
   },

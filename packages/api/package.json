@@ -4,6 +4,19 @@
   "private": true,
   "type": "module",
   "main": "src/index.ts",
-  "dependencies": { "@ri/api-contracts": "workspace:*", "@ri/db": "workspace:*", "@ri/domain": "workspace:*", "drizzle-orm": "^0.45.2" },
-  "scripts": { "queries": "tsx src/example-queries.ts", "typecheck": "tsc --noEmit -p .", "test": "vitest run --passWithNoTests" }
+  "dependencies": {
+    "@hono/node-server": "^2.1.1",
+    "@ri/api-contracts": "workspace:*",
+    "@ri/db": "workspace:*",
+    "@ri/domain": "workspace:*",
+    "drizzle-orm": "^0.45.2",
+    "hono": "^4.13.5",
+    "zod": "^4.5.4"
+  },
+  "scripts": {
+    "dev:api": "tsx watch src/http/server.ts",
+    "queries": "tsx src/example-queries.ts",
+    "typecheck": "tsc --noEmit -p .",
+    "test": "vitest run --passWithNoTests"
+  }
 }

@@ -8769,7 +8769,7 @@
         "Figure 3"
       ],
       "created_at": "2026-09-01T00:00:00.000Z",
-      "updated_at": "2026-09-04T17:53:31.352Z"
+      "updated_at": "2026-09-04T17:59:04.585Z"
     },
     "cached": {
       "commercial_stage": "PILOT_DEPLOYMENTS",
@@ -22122,6 +22122,60 @@
     "board": [
       {
         "task": {
+          "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+          "slug": "lightning-protection-testing",
+          "entity_type": "TASK",
+          "name": "Lightning-protection testing",
+          "primary_embodiment": null
+        },
+        "domain": {
+          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+          "slug": "wind",
+          "entity_type": "MARKET",
+          "name": "Wind",
+          "primary_embodiment": null
+        },
+        "maturity": "EARLY_COMMERCIAL",
+        "maturity_claim_id": "84d62641-d364-5eff-94a0-03cf16a13d2a",
+        "dominant_approach": {
+          "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+          "slug": "rope-cable-suspended-robot",
+          "entity_type": "APPROACH",
+          "name": "Rope/cable-suspended robot",
+          "primary_embodiment": null
+        },
+        "vendor_count": 1,
+        "deployment_count": 0
+      },
+      {
+        "task": {
+          "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+          "slug": "tower-nacelle-inspection",
+          "entity_type": "TASK",
+          "name": "Tower and nacelle inspection",
+          "primary_embodiment": null
+        },
+        "domain": {
+          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+          "slug": "wind",
+          "entity_type": "MARKET",
+          "name": "Wind",
+          "primary_embodiment": null
+        },
+        "maturity": "SCALING",
+        "maturity_claim_id": "32e534c9-db38-517c-8070-0834e4dad865",
+        "dominant_approach": {
+          "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+          "slug": "drone-based-blade-maintenance",
+          "entity_type": "APPROACH",
+          "name": "Drone-based",
+          "primary_embodiment": null
+        },
+        "vendor_count": 0,
+        "deployment_count": 0
+      },
+      {
+        "task": {
           "id": "7831a686-465b-5c38-9904-bf9354227e01",
           "slug": "blade-cleaning",
           "entity_type": "TASK",
@@ -22223,60 +22277,6 @@
           "slug": "blade-crawler",
           "entity_type": "APPROACH",
           "name": "Blade crawler",
-          "primary_embodiment": null
-        },
-        "vendor_count": 0,
-        "deployment_count": 0
-      },
-      {
-        "task": {
-          "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
-          "slug": "lightning-protection-testing",
-          "entity_type": "TASK",
-          "name": "Lightning-protection testing",
-          "primary_embodiment": null
-        },
-        "domain": {
-          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
-          "slug": "wind",
-          "entity_type": "MARKET",
-          "name": "Wind",
-          "primary_embodiment": null
-        },
-        "maturity": "EARLY_COMMERCIAL",
-        "maturity_claim_id": "84d62641-d364-5eff-94a0-03cf16a13d2a",
-        "dominant_approach": {
-          "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
-          "slug": "rope-cable-suspended-robot",
-          "entity_type": "APPROACH",
-          "name": "Rope/cable-suspended robot",
-          "primary_embodiment": null
-        },
-        "vendor_count": 1,
-        "deployment_count": 0
-      },
-      {
-        "task": {
-          "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
-          "slug": "tower-nacelle-inspection",
-          "entity_type": "TASK",
-          "name": "Tower and nacelle inspection",
-          "primary_embodiment": null
-        },
-        "domain": {
-          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
-          "slug": "wind",
-          "entity_type": "MARKET",
-          "name": "Wind",
-          "primary_embodiment": null
-        },
-        "maturity": "SCALING",
-        "maturity_claim_id": "32e534c9-db38-517c-8070-0834e4dad865",
-        "dominant_approach": {
-          "id": "d22eebac-6216-5a64-937b-ebce946181ff",
-          "slug": "drone-based-blade-maintenance",
-          "entity_type": "APPROACH",
-          "name": "Drone-based",
           "primary_embodiment": null
         },
         "vendor_count": 0,
@@ -22901,33 +22901,6 @@
     "board": [
       {
         "task": {
-          "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
-          "slug": "truck-unloading",
-          "entity_type": "TASK",
-          "name": "Truck unloading",
-          "primary_embodiment": null
-        },
-        "domain": {
-          "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
-          "slug": "material-movement",
-          "entity_type": "MARKET",
-          "name": "Material movement",
-          "primary_embodiment": null
-        },
-        "maturity": "PILOT",
-        "maturity_claim_id": "c3ec3add-8d88-57b1-8e72-a51051cc4088",
-        "dominant_approach": {
-          "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
-          "slug": "autonomous-forklift",
-          "entity_type": "APPROACH",
-          "name": "Autonomous forklift",
-          "primary_embodiment": null
-        },
-        "vendor_count": 1,
-        "deployment_count": 0
-      },
-      {
-        "task": {
           "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
           "slug": "automated-storage-and-retrieval",
           "entity_type": "TASK",
@@ -22952,27 +22925,6 @@
         },
         "vendor_count": 1,
         "deployment_count": 1
-      },
-      {
-        "task": {
-          "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
-          "slug": "case-picking",
-          "entity_type": "TASK",
-          "name": "Case picking",
-          "primary_embodiment": null
-        },
-        "domain": {
-          "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
-          "slug": "material-movement",
-          "entity_type": "MARKET",
-          "name": "Material movement",
-          "primary_embodiment": null
-        },
-        "maturity": "EARLY_COMMERCIAL",
-        "maturity_claim_id": "58a6e753-029b-503a-9194-cf36aeb8f0c2",
-        "dominant_approach": null,
-        "vendor_count": 0,
-        "deployment_count": 0
       },
       {
         "task": {
@@ -23020,6 +22972,54 @@
           "primary_embodiment": null
         },
         "vendor_count": 5,
+        "deployment_count": 0
+      },
+      {
+        "task": {
+          "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
+          "slug": "case-picking",
+          "entity_type": "TASK",
+          "name": "Case picking",
+          "primary_embodiment": null
+        },
+        "domain": {
+          "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+          "slug": "material-movement",
+          "entity_type": "MARKET",
+          "name": "Material movement",
+          "primary_embodiment": null
+        },
+        "maturity": "EARLY_COMMERCIAL",
+        "maturity_claim_id": "58a6e753-029b-503a-9194-cf36aeb8f0c2",
+        "dominant_approach": null,
+        "vendor_count": 0,
+        "deployment_count": 0
+      },
+      {
+        "task": {
+          "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+          "slug": "truck-unloading",
+          "entity_type": "TASK",
+          "name": "Truck unloading",
+          "primary_embodiment": null
+        },
+        "domain": {
+          "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+          "slug": "material-movement",
+          "entity_type": "MARKET",
+          "name": "Material movement",
+          "primary_embodiment": null
+        },
+        "maturity": "PILOT",
+        "maturity_claim_id": "c3ec3add-8d88-57b1-8e72-a51051cc4088",
+        "dominant_approach": {
+          "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+          "slug": "autonomous-forklift",
+          "entity_type": "APPROACH",
+          "name": "Autonomous forklift",
+          "primary_embodiment": null
+        },
+        "vendor_count": 1,
         "deployment_count": 0
       }
     ],
@@ -24339,33 +24339,6 @@
     "board": [
       {
         "task": {
-          "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
-          "slug": "truck-unloading",
-          "entity_type": "TASK",
-          "name": "Truck unloading",
-          "primary_embodiment": null
-        },
-        "domain": {
-          "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
-          "slug": "material-movement",
-          "entity_type": "MARKET",
-          "name": "Material movement",
-          "primary_embodiment": null
-        },
-        "maturity": "PILOT",
-        "maturity_claim_id": "c3ec3add-8d88-57b1-8e72-a51051cc4088",
-        "dominant_approach": {
-          "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
-          "slug": "autonomous-forklift",
-          "entity_type": "APPROACH",
-          "name": "Autonomous forklift",
-          "primary_embodiment": null
-        },
-        "vendor_count": 1,
-        "deployment_count": 0
-      },
-      {
-        "task": {
           "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
           "slug": "automated-storage-and-retrieval",
           "entity_type": "TASK",
@@ -24390,27 +24363,6 @@
         },
         "vendor_count": 1,
         "deployment_count": 1
-      },
-      {
-        "task": {
-          "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
-          "slug": "case-picking",
-          "entity_type": "TASK",
-          "name": "Case picking",
-          "primary_embodiment": null
-        },
-        "domain": {
-          "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
-          "slug": "material-movement",
-          "entity_type": "MARKET",
-          "name": "Material movement",
-          "primary_embodiment": null
-        },
-        "maturity": "EARLY_COMMERCIAL",
-        "maturity_claim_id": "58a6e753-029b-503a-9194-cf36aeb8f0c2",
-        "dominant_approach": null,
-        "vendor_count": 0,
-        "deployment_count": 0
       },
       {
         "task": {
@@ -24459,6 +24411,54 @@
         },
         "vendor_count": 5,
         "deployment_count": 0
+      },
+      {
+        "task": {
+          "id": "b886f15b-1f3e-5f99-abd1-2fd9a67284e2",
+          "slug": "case-picking",
+          "entity_type": "TASK",
+          "name": "Case picking",
+          "primary_embodiment": null
+        },
+        "domain": {
+          "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+          "slug": "material-movement",
+          "entity_type": "MARKET",
+          "name": "Material movement",
+          "primary_embodiment": null
+        },
+        "maturity": "EARLY_COMMERCIAL",
+        "maturity_claim_id": "58a6e753-029b-503a-9194-cf36aeb8f0c2",
+        "dominant_approach": null,
+        "vendor_count": 0,
+        "deployment_count": 0
+      },
+      {
+        "task": {
+          "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+          "slug": "truck-unloading",
+          "entity_type": "TASK",
+          "name": "Truck unloading",
+          "primary_embodiment": null
+        },
+        "domain": {
+          "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
+          "slug": "material-movement",
+          "entity_type": "MARKET",
+          "name": "Material movement",
+          "primary_embodiment": null
+        },
+        "maturity": "PILOT",
+        "maturity_claim_id": "c3ec3add-8d88-57b1-8e72-a51051cc4088",
+        "dominant_approach": {
+          "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
+          "slug": "autonomous-forklift",
+          "entity_type": "APPROACH",
+          "name": "Autonomous forklift",
+          "primary_embodiment": null
+        },
+        "vendor_count": 1,
+        "deployment_count": 0
       }
     ],
     "as_of": null
@@ -24483,6 +24483,60 @@
     ],
     "children": [],
     "board": [
+      {
+        "task": {
+          "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
+          "slug": "lightning-protection-testing",
+          "entity_type": "TASK",
+          "name": "Lightning-protection testing",
+          "primary_embodiment": null
+        },
+        "domain": {
+          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+          "slug": "wind",
+          "entity_type": "MARKET",
+          "name": "Wind",
+          "primary_embodiment": null
+        },
+        "maturity": "EARLY_COMMERCIAL",
+        "maturity_claim_id": "84d62641-d364-5eff-94a0-03cf16a13d2a",
+        "dominant_approach": {
+          "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
+          "slug": "rope-cable-suspended-robot",
+          "entity_type": "APPROACH",
+          "name": "Rope/cable-suspended robot",
+          "primary_embodiment": null
+        },
+        "vendor_count": 1,
+        "deployment_count": 0
+      },
+      {
+        "task": {
+          "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+          "slug": "tower-nacelle-inspection",
+          "entity_type": "TASK",
+          "name": "Tower and nacelle inspection",
+          "primary_embodiment": null
+        },
+        "domain": {
+          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
+          "slug": "wind",
+          "entity_type": "MARKET",
+          "name": "Wind",
+          "primary_embodiment": null
+        },
+        "maturity": "SCALING",
+        "maturity_claim_id": "32e534c9-db38-517c-8070-0834e4dad865",
+        "dominant_approach": {
+          "id": "d22eebac-6216-5a64-937b-ebce946181ff",
+          "slug": "drone-based-blade-maintenance",
+          "entity_type": "APPROACH",
+          "name": "Drone-based",
+          "primary_embodiment": null
+        },
+        "vendor_count": 0,
+        "deployment_count": 0
+      },
       {
         "task": {
           "id": "7831a686-465b-5c38-9904-bf9354227e01",
@@ -24586,60 +24640,6 @@
           "slug": "blade-crawler",
           "entity_type": "APPROACH",
           "name": "Blade crawler",
-          "primary_embodiment": null
-        },
-        "vendor_count": 0,
-        "deployment_count": 0
-      },
-      {
-        "task": {
-          "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
-          "slug": "lightning-protection-testing",
-          "entity_type": "TASK",
-          "name": "Lightning-protection testing",
-          "primary_embodiment": null
-        },
-        "domain": {
-          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
-          "slug": "wind",
-          "entity_type": "MARKET",
-          "name": "Wind",
-          "primary_embodiment": null
-        },
-        "maturity": "EARLY_COMMERCIAL",
-        "maturity_claim_id": "84d62641-d364-5eff-94a0-03cf16a13d2a",
-        "dominant_approach": {
-          "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
-          "slug": "rope-cable-suspended-robot",
-          "entity_type": "APPROACH",
-          "name": "Rope/cable-suspended robot",
-          "primary_embodiment": null
-        },
-        "vendor_count": 1,
-        "deployment_count": 0
-      },
-      {
-        "task": {
-          "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
-          "slug": "tower-nacelle-inspection",
-          "entity_type": "TASK",
-          "name": "Tower and nacelle inspection",
-          "primary_embodiment": null
-        },
-        "domain": {
-          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
-          "slug": "wind",
-          "entity_type": "MARKET",
-          "name": "Wind",
-          "primary_embodiment": null
-        },
-        "maturity": "SCALING",
-        "maturity_claim_id": "32e534c9-db38-517c-8070-0834e4dad865",
-        "dominant_approach": {
-          "id": "d22eebac-6216-5a64-937b-ebce946181ff",
-          "slug": "drone-based-blade-maintenance",
-          "entity_type": "APPROACH",
-          "name": "Drone-based",
           "primary_embodiment": null
         },
         "vendor_count": 0,
@@ -25054,103 +25054,6 @@
         ]
       },
       {
-        "id": "QUADRUPED",
-        "label": "US",
-        "count": 1,
-        "districts": [
-          {
-            "id": "QUADRUPED",
-            "label": "QUADRUPED",
-            "count": 1,
-            "entities": [
-              {
-                "chip": {
-                  "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
-                  "slug": "boston-dynamics-spot",
-                  "entity_type": "ROBOT",
-                  "name": "Boston Dynamics Spot",
-                  "primary_embodiment": "QUADRUPED"
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "DRONE",
-        "label": "CN",
-        "count": 2,
-        "districts": [
-          {
-            "id": "DRONE",
-            "label": "DRONE",
-            "count": 2,
-            "entities": [
-              {
-                "chip": {
-                  "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
-                  "slug": "dji-matrice-350-rtk",
-                  "entity_type": "ROBOT",
-                  "name": "DJI Matrice 350 RTK",
-                  "primary_embodiment": "DRONE"
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "d7947928-8b51-5563-ac9a-8910108075b3",
-                  "slug": "skydio-x10",
-                  "entity_type": "ROBOT",
-                  "name": "Skydio X10",
-                  "primary_embodiment": "DRONE"
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "COBOT",
-        "label": "JP",
-        "count": 2,
-        "districts": [
-          {
-            "id": "COBOT",
-            "label": "COBOT",
-            "count": 2,
-            "entities": [
-              {
-                "chip": {
-                  "id": "e7b662ae-fd0b-5b6d-b51e-066c372b460a",
-                  "slug": "fanuc-crx-10ia",
-                  "entity_type": "ROBOT",
-                  "name": "FANUC CRX-10iA",
-                  "primary_embodiment": "COBOT"
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "725c8452-4827-542d-b7fd-49846d70c637",
-                  "slug": "universal-robots-ur20",
-                  "entity_type": "ROBOT",
-                  "name": "Universal Robots UR20",
-                  "primary_embodiment": "COBOT"
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "AMR",
         "label": "US",
         "count": 3,
@@ -25189,6 +25092,103 @@
                   "entity_type": "ROBOT",
                   "name": "Seegrid Palion Lift",
                   "primary_embodiment": "AMR"
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DRONE",
+        "label": "US",
+        "count": 2,
+        "districts": [
+          {
+            "id": "DRONE",
+            "label": "DRONE",
+            "count": 2,
+            "entities": [
+              {
+                "chip": {
+                  "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
+                  "slug": "dji-matrice-350-rtk",
+                  "entity_type": "ROBOT",
+                  "name": "DJI Matrice 350 RTK",
+                  "primary_embodiment": "DRONE"
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "d7947928-8b51-5563-ac9a-8910108075b3",
+                  "slug": "skydio-x10",
+                  "entity_type": "ROBOT",
+                  "name": "Skydio X10",
+                  "primary_embodiment": "DRONE"
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "COBOT",
+        "label": "DK",
+        "count": 2,
+        "districts": [
+          {
+            "id": "COBOT",
+            "label": "COBOT",
+            "count": 2,
+            "entities": [
+              {
+                "chip": {
+                  "id": "e7b662ae-fd0b-5b6d-b51e-066c372b460a",
+                  "slug": "fanuc-crx-10ia",
+                  "entity_type": "ROBOT",
+                  "name": "FANUC CRX-10iA",
+                  "primary_embodiment": "COBOT"
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "725c8452-4827-542d-b7fd-49846d70c637",
+                  "slug": "universal-robots-ur20",
+                  "entity_type": "ROBOT",
+                  "name": "Universal Robots UR20",
+                  "primary_embodiment": "COBOT"
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "QUADRUPED",
+        "label": "US",
+        "count": 1,
+        "districts": [
+          {
+            "id": "QUADRUPED",
+            "label": "QUADRUPED",
+            "count": 1,
+            "entities": [
+              {
+                "chip": {
+                  "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+                  "slug": "boston-dynamics-spot",
+                  "entity_type": "ROBOT",
+                  "name": "Boston Dynamics Spot",
+                  "primary_embodiment": "QUADRUPED"
                 },
                 "measure_value": null,
                 "is_primary_membership": true
@@ -25497,7 +25497,7 @@
     "regions": [
       {
         "id": "technology",
-        "label": "US",
+        "label": "CN",
         "count": 2,
         "districts": [
           {
@@ -26259,183 +26259,6 @@
         ]
       },
       {
-        "id": "JP",
-        "label": "JP",
-        "count": 5,
-        "districts": [
-          {
-            "id": "JP",
-            "label": "JP",
-            "count": 5,
-            "entities": [
-              {
-                "chip": {
-                  "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
-                  "slug": "fanuc",
-                  "entity_type": "ORGANIZATION",
-                  "name": "FANUC",
-                  "primary_embodiment": null
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "e7b662ae-fd0b-5b6d-b51e-066c372b460a",
-                  "slug": "fanuc-crx-10ia",
-                  "entity_type": "ROBOT",
-                  "name": "FANUC CRX-10iA",
-                  "primary_embodiment": "COBOT"
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
-                  "slug": "harmonic-drive",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Harmonic Drive",
-                  "primary_embodiment": null
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "12c8f3b9-0532-577b-9120-95d36cecd863",
-                  "slug": "oshino",
-                  "entity_type": "PLACE",
-                  "name": "Oshino",
-                  "primary_embodiment": null
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-                  "slug": "tokyo",
-                  "entity_type": "PLACE",
-                  "name": "Tokyo",
-                  "primary_embodiment": null
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "CH",
-        "label": "CH",
-        "count": 2,
-        "districts": [
-          {
-            "id": "CH",
-            "label": "CH",
-            "count": 2,
-            "entities": [
-              {
-                "chip": {
-                  "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
-                  "slug": "abb-robotics",
-                  "entity_type": "ORGANIZATION",
-                  "name": "ABB Robotics",
-                  "primary_embodiment": null
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
-                  "slug": "zurich",
-                  "entity_type": "PLACE",
-                  "name": "Zurich",
-                  "primary_embodiment": null
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "LV",
-        "label": "LV",
-        "count": 2,
-        "districts": [
-          {
-            "id": "LV",
-            "label": "LV",
-            "count": 2,
-            "entities": [
-              {
-                "chip": {
-                  "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
-                  "slug": "aerones",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Aerones",
-                  "primary_embodiment": null
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "6553850c-ac3a-5321-baec-c47853b493a4",
-                  "slug": "riga",
-                  "entity_type": "PLACE",
-                  "name": "Riga",
-                  "primary_embodiment": null
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "GB",
-        "label": "GB",
-        "count": 2,
-        "districts": [
-          {
-            "id": "GB",
-            "label": "GB",
-            "count": 2,
-            "entities": [
-              {
-                "chip": {
-                  "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
-                  "slug": "bladebug",
-                  "entity_type": "ORGANIZATION",
-                  "name": "BladeBUG",
-                  "primary_embodiment": null
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
-                  "slug": "london",
-                  "entity_type": "PLACE",
-                  "name": "London",
-                  "primary_embodiment": null
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "DE",
         "label": "DE",
         "count": 7,
@@ -26527,21 +26350,21 @@
         ]
       },
       {
-        "id": "CA",
-        "label": "CA",
+        "id": "GB",
+        "label": "GB",
         "count": 2,
         "districts": [
           {
-            "id": "CA",
-            "label": "CA",
+            "id": "GB",
+            "label": "GB",
             "count": 2,
             "entities": [
               {
                 "chip": {
-                  "id": "89cb7062-9c7b-5274-ac5e-75379f738a35",
-                  "slug": "kitchener",
-                  "entity_type": "PLACE",
-                  "name": "Kitchener",
+                  "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+                  "slug": "bladebug",
+                  "entity_type": "ORGANIZATION",
+                  "name": "BladeBUG",
                   "primary_embodiment": null
                 },
                 "measure_value": null,
@@ -26549,10 +26372,79 @@
               },
               {
                 "chip": {
-                  "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
-                  "slug": "otto-motors",
+                  "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+                  "slug": "london",
+                  "entity_type": "PLACE",
+                  "name": "London",
+                  "primary_embodiment": null
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "JP",
+        "label": "JP",
+        "count": 5,
+        "districts": [
+          {
+            "id": "JP",
+            "label": "JP",
+            "count": 5,
+            "entities": [
+              {
+                "chip": {
+                  "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+                  "slug": "fanuc",
                   "entity_type": "ORGANIZATION",
-                  "name": "OTTO Motors",
+                  "name": "FANUC",
+                  "primary_embodiment": null
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "e7b662ae-fd0b-5b6d-b51e-066c372b460a",
+                  "slug": "fanuc-crx-10ia",
+                  "entity_type": "ROBOT",
+                  "name": "FANUC CRX-10iA",
+                  "primary_embodiment": "COBOT"
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
+                  "slug": "harmonic-drive",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Harmonic Drive",
+                  "primary_embodiment": null
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "12c8f3b9-0532-577b-9120-95d36cecd863",
+                  "slug": "oshino",
+                  "entity_type": "PLACE",
+                  "name": "Oshino",
+                  "primary_embodiment": null
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+                  "slug": "tokyo",
+                  "entity_type": "PLACE",
+                  "name": "Tokyo",
                   "primary_embodiment": null
                 },
                 "measure_value": null,
@@ -26619,30 +26511,23 @@
             ]
           }
         ]
-      }
-    ],
-    "as_of": null
-  },
-  "explore/maturity/none": {
-    "lens": "maturity",
-    "measure": "none",
-    "regions": [
+      },
       {
-        "id": "PILOT",
-        "label": "PILOT",
-        "count": 3,
+        "id": "LV",
+        "label": "LV",
+        "count": 2,
         "districts": [
           {
-            "id": "PILOT",
-            "label": "PILOT",
-            "count": 3,
+            "id": "LV",
+            "label": "LV",
+            "count": 2,
             "entities": [
               {
                 "chip": {
-                  "id": "91529bd1-9364-58d8-b7c3-a67025832322",
-                  "slug": "blade-repair",
-                  "entity_type": "TASK",
-                  "name": "Blade repair",
+                  "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+                  "slug": "aerones",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Aerones",
                   "primary_embodiment": null
                 },
                 "measure_value": null,
@@ -26650,21 +26535,10 @@
               },
               {
                 "chip": {
-                  "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
-                  "slug": "contact-ndt",
-                  "entity_type": "TASK",
-                  "name": "Contact NDT",
-                  "primary_embodiment": null
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
-                  "slug": "truck-unloading",
-                  "entity_type": "TASK",
-                  "name": "Truck unloading",
+                  "id": "6553850c-ac3a-5321-baec-c47853b493a4",
+                  "slug": "riga",
+                  "entity_type": "PLACE",
+                  "name": "Riga",
                   "primary_embodiment": null
                 },
                 "measure_value": null,
@@ -26674,6 +26548,85 @@
           }
         ]
       },
+      {
+        "id": "CH",
+        "label": "CH",
+        "count": 2,
+        "districts": [
+          {
+            "id": "CH",
+            "label": "CH",
+            "count": 2,
+            "entities": [
+              {
+                "chip": {
+                  "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+                  "slug": "abb-robotics",
+                  "entity_type": "ORGANIZATION",
+                  "name": "ABB Robotics",
+                  "primary_embodiment": null
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+                  "slug": "zurich",
+                  "entity_type": "PLACE",
+                  "name": "Zurich",
+                  "primary_embodiment": null
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CA",
+        "label": "CA",
+        "count": 2,
+        "districts": [
+          {
+            "id": "CA",
+            "label": "CA",
+            "count": 2,
+            "entities": [
+              {
+                "chip": {
+                  "id": "89cb7062-9c7b-5274-ac5e-75379f738a35",
+                  "slug": "kitchener",
+                  "entity_type": "PLACE",
+                  "name": "Kitchener",
+                  "primary_embodiment": null
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+                  "slug": "otto-motors",
+                  "entity_type": "ORGANIZATION",
+                  "name": "OTTO Motors",
+                  "primary_embodiment": null
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "as_of": null
+  },
+  "explore/maturity/none": {
+    "lens": "maturity",
+    "measure": "none",
+    "regions": [
       {
         "id": "MATURE",
         "label": "MATURE",
@@ -26701,6 +26654,53 @@
                   "slug": "blade-visual-inspection",
                   "entity_type": "TASK",
                   "name": "Blade visual inspection",
+                  "primary_embodiment": null
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "SCALING",
+        "label": "SCALING",
+        "count": 3,
+        "districts": [
+          {
+            "id": "SCALING",
+            "label": "SCALING",
+            "count": 3,
+            "entities": [
+              {
+                "chip": {
+                  "id": "049a4db5-938c-5625-b226-2831e05e34e1",
+                  "slug": "each-picking-assistance",
+                  "entity_type": "TASK",
+                  "name": "Each-picking assistance",
+                  "primary_embodiment": null
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
+                  "slug": "pallet-movement",
+                  "entity_type": "TASK",
+                  "name": "Pallet movement",
+                  "primary_embodiment": null
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
+                  "slug": "tower-nacelle-inspection",
+                  "entity_type": "TASK",
+                  "name": "Tower and nacelle inspection",
                   "primary_embodiment": null
                 },
                 "measure_value": null,
@@ -26758,21 +26758,21 @@
         ]
       },
       {
-        "id": "SCALING",
-        "label": "SCALING",
+        "id": "PILOT",
+        "label": "PILOT",
         "count": 3,
         "districts": [
           {
-            "id": "SCALING",
-            "label": "SCALING",
+            "id": "PILOT",
+            "label": "PILOT",
             "count": 3,
             "entities": [
               {
                 "chip": {
-                  "id": "049a4db5-938c-5625-b226-2831e05e34e1",
-                  "slug": "each-picking-assistance",
+                  "id": "91529bd1-9364-58d8-b7c3-a67025832322",
+                  "slug": "blade-repair",
                   "entity_type": "TASK",
-                  "name": "Each-picking assistance",
+                  "name": "Blade repair",
                   "primary_embodiment": null
                 },
                 "measure_value": null,
@@ -26780,10 +26780,10 @@
               },
               {
                 "chip": {
-                  "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
-                  "slug": "pallet-movement",
+                  "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
+                  "slug": "contact-ndt",
                   "entity_type": "TASK",
-                  "name": "Pallet movement",
+                  "name": "Contact NDT",
                   "primary_embodiment": null
                 },
                 "measure_value": null,
@@ -26791,10 +26791,10 @@
               },
               {
                 "chip": {
-                  "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
-                  "slug": "tower-nacelle-inspection",
+                  "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
+                  "slug": "truck-unloading",
                   "entity_type": "TASK",
-                  "name": "Tower and nacelle inspection",
+                  "name": "Truck unloading",
                   "primary_embodiment": null
                 },
                 "measure_value": null,

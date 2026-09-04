@@ -72,103 +72,6 @@
       ]
     },
     {
-      "id": "QUADRUPED",
-      "label": "US",
-      "count": 1,
-      "districts": [
-        {
-          "id": "QUADRUPED",
-          "label": "QUADRUPED",
-          "count": 1,
-          "entities": [
-            {
-              "chip": {
-                "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
-                "slug": "boston-dynamics-spot",
-                "entity_type": "ROBOT",
-                "name": "Boston Dynamics Spot",
-                "primary_embodiment": "QUADRUPED"
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "DRONE",
-      "label": "CN",
-      "count": 2,
-      "districts": [
-        {
-          "id": "DRONE",
-          "label": "DRONE",
-          "count": 2,
-          "entities": [
-            {
-              "chip": {
-                "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
-                "slug": "dji-matrice-350-rtk",
-                "entity_type": "ROBOT",
-                "name": "DJI Matrice 350 RTK",
-                "primary_embodiment": "DRONE"
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "d7947928-8b51-5563-ac9a-8910108075b3",
-                "slug": "skydio-x10",
-                "entity_type": "ROBOT",
-                "name": "Skydio X10",
-                "primary_embodiment": "DRONE"
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "COBOT",
-      "label": "JP",
-      "count": 2,
-      "districts": [
-        {
-          "id": "COBOT",
-          "label": "COBOT",
-          "count": 2,
-          "entities": [
-            {
-              "chip": {
-                "id": "e7b662ae-fd0b-5b6d-b51e-066c372b460a",
-                "slug": "fanuc-crx-10ia",
-                "entity_type": "ROBOT",
-                "name": "FANUC CRX-10iA",
-                "primary_embodiment": "COBOT"
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "725c8452-4827-542d-b7fd-49846d70c637",
-                "slug": "universal-robots-ur20",
-                "entity_type": "ROBOT",
-                "name": "Universal Robots UR20",
-                "primary_embodiment": "COBOT"
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "AMR",
       "label": "US",
       "count": 3,
@@ -207,6 +110,103 @@
                 "entity_type": "ROBOT",
                 "name": "Seegrid Palion Lift",
                 "primary_embodiment": "AMR"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DRONE",
+      "label": "US",
+      "count": 2,
+      "districts": [
+        {
+          "id": "DRONE",
+          "label": "DRONE",
+          "count": 2,
+          "entities": [
+            {
+              "chip": {
+                "id": "58daf037-7e17-5e8a-9df8-f731ea9f3f5b",
+                "slug": "dji-matrice-350-rtk",
+                "entity_type": "ROBOT",
+                "name": "DJI Matrice 350 RTK",
+                "primary_embodiment": "DRONE"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "d7947928-8b51-5563-ac9a-8910108075b3",
+                "slug": "skydio-x10",
+                "entity_type": "ROBOT",
+                "name": "Skydio X10",
+                "primary_embodiment": "DRONE"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "COBOT",
+      "label": "DK",
+      "count": 2,
+      "districts": [
+        {
+          "id": "COBOT",
+          "label": "COBOT",
+          "count": 2,
+          "entities": [
+            {
+              "chip": {
+                "id": "e7b662ae-fd0b-5b6d-b51e-066c372b460a",
+                "slug": "fanuc-crx-10ia",
+                "entity_type": "ROBOT",
+                "name": "FANUC CRX-10iA",
+                "primary_embodiment": "COBOT"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "725c8452-4827-542d-b7fd-49846d70c637",
+                "slug": "universal-robots-ur20",
+                "entity_type": "ROBOT",
+                "name": "Universal Robots UR20",
+                "primary_embodiment": "COBOT"
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QUADRUPED",
+      "label": "US",
+      "count": 1,
+      "districts": [
+        {
+          "id": "QUADRUPED",
+          "label": "QUADRUPED",
+          "count": 1,
+          "entities": [
+            {
+              "chip": {
+                "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
+                "slug": "boston-dynamics-spot",
+                "entity_type": "ROBOT",
+                "name": "Boston Dynamics Spot",
+                "primary_embodiment": "QUADRUPED"
               },
               "measure_value": null,
               "is_primary_membership": true
