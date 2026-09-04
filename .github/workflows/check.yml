@@ -19,6 +19,8 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: pnpm }
       - run: pnpm install --frozen-lockfile
-      - run: pnpm db:migrate && pnpm seed && pnpm fixtures && pnpm check
+      # The web build reads generated fixtures, not the database, so it runs
+      # before the database steps and its result is never masked by them.
       - run: pnpm --filter web build
+      - run: pnpm db:migrate && pnpm seed && pnpm fixtures && pnpm check
       - run: git diff --exit-code -- packages/fixtures/generated || (echo "fixtures drifted; run pnpm fixtures" && exit 1)
