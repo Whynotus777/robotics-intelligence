@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+/*
+ * Tokens from docs/design/phase1-canvas.html (design system sheet).
+ * Dark theme only in V1: the ground is near-black, one accent for interactive
+ * state, amber reserved for analyst judgment, and embodiment is the single
+ * categorical hue.
+ */
+@theme {
+  --color-ground: #0b0c0f;
+  --color-panel: #13151a;
+  --color-panel-deep: #0e0f13;
+  --color-rail: #0e0f12;
+  --color-raised: #191c22;
+  --color-line: #232730;
+  --color-line-soft: #1e222b;
+  --color-line-strong: #2a2f3a;
+  --color-ink: #e6e8ec;
+  --color-ink-2: #c9ced8;
+  --color-ink-3: #9aa1ad;
+  --color-ink-4: #646b78;
+  --color-ink-5: #3a3f4a;
+  --color-accent: #62a7ff;
+  --color-analyst: #d9a441;
+  --color-analyst-dim: #3a3222;
+  --color-conflict: #d06a6a;
+
+  --color-humanoid: #9d8fd6;
+  --color-industrial-arm: #d19a66;
+  --color-cobot: #d19a66;
+  --color-amr: #6cb28a;
+  --color-drone: #6aa6d6;
+  --color-quadruped: #d07a7a;
+  --color-autonomous-vehicle: #7f8fd6;
+  --color-software-ai: #c98ad0;
+  --color-component: #c2b26a;
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+
+  --radius-chip: 4px;
+  --radius-panel: 6px;
+
+  --text-display: 36px;
+  --text-display--line-height: 1.05;
+  --text-display--letter-spacing: -0.02em;
+  --text-title: 24px;
+  --text-title--line-height: 1.1;
+  --text-title--letter-spacing: -0.02em;
+  --text-section: 15px;
+  --text-section--line-height: 1.3;
+  --text-prose: 13px;
+  --text-prose--line-height: 1.65;
+  --text-eyebrow: 10px;
+  --text-eyebrow--line-height: 1;
+  --text-eyebrow--letter-spacing: 0.08em;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-ground);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  /* Nothing may overflow at 390px. */
+  overflow-x: hidden;
+}
+
+/* The numeric style: compact, tabular, monospaced. */
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Section eyebrow — the question the section answers. */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-ink-4);
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-accent) 35%, transparent);
+}
+
+:focus-visible {
+  outline: 1px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--color-line-strong);
+  border-radius: 5px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
