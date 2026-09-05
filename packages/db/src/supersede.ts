@@ -5,7 +5,7 @@ import { claims } from "./schema/claims.js";
 import { entities } from "./schema/entities.js";
 import { changeEvents } from "./schema/change-events.js";
 import { recomputeCachedColumns } from "./recompute.js";
-import { eventSummary, eventTypeForClaim } from "./events.js";
+import { eventSummary, eventTypeForClaim, type ClaimFacts } from "./events.js";
 
 /**
  * Closes an existing APPROVED claim and opens a replacement. The old row is preserved
@@ -32,10 +32,29 @@ export async function supersedeClaim(
       .returning({ id: claims.id });
     const [subject] = await tx.select().from(entities).where(eq(entities.id, old.subjectEntityId));
     if (!subject) throw new Error(`subject ${old.subjectEntityId} not found`);
+    const facts = async (row: {
+      predicate: string; valueText: string | null; valueNumber: number | null; unit: string | null;
+      isApproximate: boolean; valueEnum: string | null; valueDate: string | null; objectEntityId: string | null;
+    }): Promise<ClaimFacts> => ({
+      predicate: row.predicate, valueText: row.valueText, valueNumber: row.valueNumber, unit: row.unit,
+      isApproximate: row.isApproximate, valueEnum: row.valueEnum, valueDate: row.valueDate,
+      objectName: row.objectEntityId
+        ? (await tx.select({ name: entities.name }).from(entities).where(eq(entities.id, row.objectEntityId)))[0]?.name ?? null
+        : null,
+    });
     await tx.insert(changeEvents).values({
       id: randomUUID(), eventType: eventTypeForClaim(old.predicate, subject.entityType), entityId: subject.id,
       beforeClaimId: oldClaimId, afterClaimId: inserted!.id, observedAt: replacement.observedAt,
-      summary: eventSummary(old.predicate, subject.name),
+      summary: eventSummary({
+        subject,
+        after: await facts({
+          predicate: replacement.predicate, valueText: replacement.valueText ?? null,
+          valueNumber: replacement.valueNumber ?? null, unit: replacement.unit ?? null,
+          isApproximate: replacement.isApproximate ?? false, valueEnum: replacement.valueEnum ?? null,
+          valueDate: replacement.valueDate ?? null, objectEntityId: replacement.objectEntityId ?? null,
+        }),
+        before: await facts(old),
+      }),
     });
     return { oldClaimId, newClaimId: inserted!.id };
   });

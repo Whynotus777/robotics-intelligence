@@ -1,4 +1,4 @@
-import type { CanonicalLayer, CommercialStage, Embodiment, Maturity, StackLayer } from "./enums.js";
+import type { CanonicalLayer, CommercialStage, DeploymentKind, Embodiment, EnumName, Maturity, StackLayer } from "./enums.js";
 
 /**
  * Display labels for the enums that reach a screen. Enum identifiers are storage,
@@ -44,6 +44,20 @@ export const COMMERCIAL_STAGE_LABEL: Record<CommercialStage, string> = {
   PILOT_DEPLOYMENTS: "Pilot deployments",
   COMMERCIAL: "Commercial",
   VOLUME_PRODUCTION: "Volume production",
+};
+
+export const DEPLOYMENT_KIND_LABEL: Record<DeploymentKind, string> = {
+  FIELD_TRIAL: "Field trial",
+  PILOT: "Pilot",
+  COMMERCIAL: "Commercial",
+};
+
+/** Every enum a claim may hold, keyed by the registry's `enum_name`. */
+export const ENUM_LABELS: Record<EnumName, Record<string, string>> = {
+  Maturity: MATURITY_LABEL,
+  CommercialStage: COMMERCIAL_STAGE_LABEL,
+  Embodiment: EMBODIMENT_LABEL,
+  DeploymentKind: DEPLOYMENT_KIND_LABEL,
 };
 
 export const STACK_LAYER_LABEL: Record<StackLayer, string> = {

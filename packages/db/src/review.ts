@@ -10,7 +10,7 @@ import { assessments } from "./schema/evidence.js";
 import { claimDependencies } from "./schema/claims.js";
 import { reviewActions } from "./schema/review-actions.js";
 import { recomputeCachedColumns } from "./recompute.js";
-import { eventSummary, eventTypeForClaim } from "./events.js";
+import { eventSummary, eventTypeForClaim, type ClaimFacts } from "./events.js";
 
 type ClaimInsert = typeof claims.$inferInsert;
 type ClaimPatch = Partial<Omit<ClaimInsert, "id" | "subjectEntityId" | "status" | "origin" | "createdAt" | "updatedAt">>;
@@ -61,6 +61,7 @@ export async function approveClaim(db: Db, decision: ReviewDecision): Promise<{ 
   }
   const def = PREDICATES[candidate.predicate as keyof typeof PREDICATES]!;
   let supersededClaimId: string | null = null;
+  let priorRow: typeof candidate | null = null;
   const eventId = decision.eventId ?? randomUUID();
   await db.transaction(async (tx) => {
     if (def.cardinality === "ONE") {
@@ -72,12 +73,22 @@ export async function approveClaim(db: Db, decision: ReviewDecision): Promise<{ 
       const prior = open[0];
       if (prior) {
         supersededClaimId = prior.id;
+        priorRow = prior;
         await tx.update(claims).set({ status: "SUPERSEDED", validTo: candidate.validFrom, updatedAt: actedAt }).where(eq(claims.id, prior.id));
       }
     }
     await tx.update(claims).set({ status: "APPROVED", updatedAt: actedAt }).where(eq(claims.id, candidate.id));
     await tx.insert(reviewActions).values({ id: decision.reviewActionId ?? randomUUID(), claimId: candidate.id, reviewer: decision.reviewer, action: "APPROVE", actedAt, resultingClaimId: candidate.id, reason: decision.reason ?? null });
-    await tx.insert(changeEvents).values({ id: eventId, eventType: eventTypeForClaim(candidate.predicate, subject.entityType), entityId: subject.id, beforeClaimId: supersededClaimId, afterClaimId: candidate.id, observedAt: actedAt, summary: eventSummary(candidate.predicate, subject.name) });
+    const facts = async (row: typeof candidate): Promise<ClaimFacts> => ({
+      predicate: row.predicate, valueText: row.valueText, valueNumber: row.valueNumber, unit: row.unit,
+      isApproximate: row.isApproximate, valueEnum: row.valueEnum, valueDate: row.valueDate,
+      objectName: row.objectEntityId
+        ? (await tx.select({ name: entities.name }).from(entities).where(eq(entities.id, row.objectEntityId)))[0]?.name ?? null
+        : null,
+    });
+    const after = await facts(candidate);
+    const before = priorRow ? await facts(priorRow) : null;
+    await tx.insert(changeEvents).values({ id: eventId, eventType: eventTypeForClaim(candidate.predicate, subject.entityType), entityId: subject.id, beforeClaimId: supersededClaimId, afterClaimId: candidate.id, observedAt: actedAt, summary: eventSummary({ subject, after, before }) });
   });
   if (!decision.skipRecompute) await recomputeCachedColumns(db);
   return { claimId: candidate.id, supersededClaimId, eventId };
