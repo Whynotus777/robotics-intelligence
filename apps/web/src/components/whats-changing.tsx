@@ -2,7 +2,7 @@ import Link from "next/link";
 import { EntityChipLink } from "@/components/entity-chip";
 import { EvidenceChip } from "@/components/evidence/evidence-chip";
 import { data, orNotFound } from "@/lib/data";
-import { CHANGE_EVENT_LABEL, formatDate, formatValue } from "@/lib/vocabulary";
+import { eventTypeLabel, formatDate, formatValue, showsTransition } from "@/lib/vocabulary";
 
 /**
  * The "What's changing" strip. When no change events are recorded the strip is
@@ -26,7 +26,9 @@ export async function WhatsChanging({ limit = 5 }: { limit?: number }) {
         </Link>
       </div>
       <div className="flex flex-col divide-y divide-line-soft">
-        {events.map((event) => (
+        {events.map((event) => {
+          const type = eventTypeLabel(event.event_type);
+          return (
           <div
             key={event.id}
             className="flex flex-col gap-1.5 py-2.5 text-[12px] sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-3 sm:gap-y-1.5 sm:py-2"
@@ -37,13 +39,14 @@ export async function WhatsChanging({ limit = 5 }: { limit?: number }) {
                 <EntityChipLink chip={event.entity} />
               </span>
             </div>
-            <span className="num shrink-0 text-[10px] tracking-[0.06em] text-ink-4">
-              {CHANGE_EVENT_LABEL[event.event_type] ?? event.event_type}
-            </span>
+            {type ? (
+              <span className="num shrink-0 text-[10px] tracking-[0.06em] text-ink-4">{type}</span>
+            ) : null}
             <span className="min-w-0 flex-1 break-words text-ink-2">{event.summary}</span>
-            {event.before && event.after ? (
+            {showsTransition(event) ? (
               <span className="num min-w-0 break-words text-[11px] text-ink-3">
-                {formatValue(event.before)} → <span className="text-ink">{formatValue(event.after)}</span>
+                {event.before ? formatValue(event.before) : null} →{" "}
+                <span className="text-ink">{event.after ? formatValue(event.after) : "removed"}</span>
               </span>
             ) : null}
             {event.evidence_summary ? (
@@ -52,7 +55,8 @@ export async function WhatsChanging({ limit = 5 }: { limit?: number }) {
               </span>
             ) : null}
           </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );

@@ -1,6 +1,6 @@
 import { and, eq, isNull } from "drizzle-orm";
 import { randomUUID } from "node:crypto";
-import { PREDICATES, validateClaimShape } from "@ri/domain";
+import { PREDICATES, validateClaimShape, type ChangeEventOrigin } from "@ri/domain";
 import type { Db } from "./client.js";
 import { changeEvents } from "./schema/change-events.js";
 import { claims } from "./schema/claims.js";
@@ -23,6 +23,8 @@ export interface ReviewDecision {
   eventId?: string;
   reviewActionId?: string;
   skipRecompute?: boolean;
+  /** SEED only for the initial data load; everything else is a review decision. */
+  origin?: ChangeEventOrigin;
 }
 
 async function validateCandidate(db: Db, candidate: typeof claims.$inferSelect) {
@@ -88,7 +90,7 @@ export async function approveClaim(db: Db, decision: ReviewDecision): Promise<{ 
     });
     const after = await facts(candidate);
     const before = priorRow ? await facts(priorRow) : null;
-    await tx.insert(changeEvents).values({ id: eventId, eventType: eventTypeForClaim(candidate.predicate, subject.entityType), entityId: subject.id, beforeClaimId: supersededClaimId, afterClaimId: candidate.id, observedAt: actedAt, summary: eventSummary({ subject, after, before }) });
+    await tx.insert(changeEvents).values({ id: eventId, eventType: eventTypeForClaim(candidate.predicate, subject.entityType), entityId: subject.id, beforeClaimId: supersededClaimId, afterClaimId: candidate.id, observedAt: actedAt, summary: eventSummary({ subject, after, before }), origin: decision.origin ?? "REVIEW" });
   });
   if (!decision.skipRecompute) await recomputeCachedColumns(db);
   return { claimId: candidate.id, supersededClaimId, eventId };

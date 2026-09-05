@@ -12,7 +12,7 @@ const fixtures = JSON.parse(readFileSync(join(dir, "index.json"), "utf8")) as Re
 describe("generated fixtures", () => {
   it("parses every checked-in response through its route contract", () => {
     for (const [key, fixture] of Object.entries(fixtures)) {
-      const schema = key.startsWith("entity/") ? EntityResponse : key.startsWith("search/") ? SearchResponse : key.startsWith("explore/") ? ExploreResponse : key.startsWith("stack-matrix/") ? StackMatrixResponse : key.startsWith("stack/") ? StackResponse : key.startsWith("task/") ? TaskResponse : key.startsWith("market/") ? MarketResponse : key.startsWith("compare/") ? CompareResponse : key.startsWith("atlas/") ? AtlasResponse : key === "updates" ? UpdatesResponse : key.startsWith("claim/") ? ClaimEvidenceResponse : null;
+      const schema = key.startsWith("entity/") ? EntityResponse : key.startsWith("search/") ? SearchResponse : key.startsWith("explore/") ? ExploreResponse : key.startsWith("stack-matrix/") ? StackMatrixResponse : key.startsWith("stack/") ? StackResponse : key.startsWith("task/") ? TaskResponse : key.startsWith("market/") ? MarketResponse : key.startsWith("compare/") ? CompareResponse : key.startsWith("atlas/") ? AtlasResponse : key === "updates" || key.startsWith("updates/") ? UpdatesResponse : key.startsWith("claim/") ? ClaimEvidenceResponse : null;
       expect(schema, `unknown fixture key ${key}`).not.toBeNull();
       expect(() => schema!.parse(fixture), key).not.toThrow();
     }

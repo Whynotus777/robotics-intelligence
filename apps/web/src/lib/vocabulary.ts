@@ -273,3 +273,25 @@ const RELATIONSHIP_SECTION: Record<string, ProfileSection> = {
 export function sectionFor(predicate: string): ProfileSection {
   return RELATIONSHIP_SECTION[predicate] ?? "related";
 }
+
+/**
+ * Change types the summary does not already say. "Claim changed" adds nothing next
+ * to "Embodiment set to Quadruped"; "Deployment added" or "Funding event" name a
+ * kind of event the sentence alone would not.
+ */
+const REDUNDANT_EVENT_TYPES = new Set(["CLAIM_CHANGED", "COMMERCIAL_STAGE_CHANGED", "MATURITY_CHANGED"]);
+
+export function eventTypeLabel(eventType: string): string | null {
+  if (REDUNDANT_EVENT_TYPES.has(eventType)) return null;
+  return CHANGE_EVENT_LABEL[eventType] ?? eventType;
+}
+
+/**
+ * The arrow is worth drawing only when there is a real transition to show. A first
+ * value is already stated in full by the summary, so an arrow from nothing is noise.
+ */
+export function showsTransition(event: { before: ClaimValue | null; after: ClaimValue | null }): boolean {
+  if (!event.before) return false;
+  if (!event.after) return true;
+  return formatValue(event.before) !== formatValue(event.after);
+}

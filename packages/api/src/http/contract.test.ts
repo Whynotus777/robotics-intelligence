@@ -24,7 +24,7 @@ function requestFor(key: string, fixture: unknown): Request {
       body: JSON.stringify({ slugs: value.columns?.map(({ slug }) => slug) ?? [] }),
     });
     case "atlas": return new Request(`http://test/atlas?layer=${parts[1]}`);
-    case "updates": return new Request("http://test/updates");
+    case "updates": return new Request(parts[1] === "all" ? "http://test/updates?include_seed=1" : "http://test/updates");
     case "claim": return new Request(`http://test/claims/${encodeURIComponent(parts[1]!)}/evidence`);
     default: throw new Error(`unmapped fixture request: ${key}`);
   }

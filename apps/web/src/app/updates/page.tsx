@@ -5,7 +5,15 @@ import { EvidenceChip } from "@/components/evidence/evidence-chip";
 import { FilterGroup } from "@/components/filter-bar";
 import { PathBar } from "@/components/path-bar";
 import { data, orNotFound } from "@/lib/data";
-import { CHANGE_EVENT_LABEL, EMBODIMENT_LABEL, formatDate, formatValue } from "@/lib/vocabulary";
+import Link from "next/link";
+import {
+  CHANGE_EVENT_LABEL,
+  EMBODIMENT_LABEL,
+  eventTypeLabel,
+  formatDate,
+  formatValue,
+  showsTransition,
+} from "@/lib/vocabulary";
 
 export const metadata = { title: "Updates" };
 
@@ -26,12 +34,14 @@ export default async function UpdatesPage({ searchParams }: Search) {
   const type = one(params.type);
   const embodiment = one(params.embodiment);
   const market = one(params.market);
+  const includeSeed = one(params.seed) === "1";
 
   const provider = await data();
   const query: Record<string, string> = { limit: "200" };
   if (type) query.type = type;
   if (embodiment) query.embodiment = embodiment;
   if (market) query.market = market;
+  if (includeSeed) query.include_seed = "1";
 
   const payload = await orNotFound(provider.updates(query));
   const all = payload?.events ?? [];
@@ -54,7 +64,18 @@ export default async function UpdatesPage({ searchParams }: Search) {
       (!inMarket || inMarket.has(event.entity.id)),
   );
 
-  const filters = { type: type ?? undefined, embodiment: embodiment ?? undefined, market: market ?? undefined };
+  const filters = {
+    type: type ?? undefined,
+    embodiment: embodiment ?? undefined,
+    market: market ?? undefined,
+    seed: includeSeed ? "1" : undefined,
+  };
+  const toggleHref = (() => {
+    const next = new URLSearchParams();
+    for (const [key, value] of Object.entries({ ...filters, seed: undefined })) if (value) next.set(key, value);
+    if (!includeSeed) next.set("seed", "1");
+    return `/updates${next.size ? `?${next}` : ""}`;
+  })();
   const types = CHANGE_EVENT_TYPES.filter((value) => all.some((event) => event.event_type === value));
   const embodiments = EMBODIMENTS.filter((value) => all.some((event) => event.entity.primary_embodiment === value));
   const markets = explore?.regions ?? [];
@@ -83,8 +104,29 @@ export default async function UpdatesPage({ searchParams }: Search) {
         with what it changed from, what it changed to, and the evidence behind it.
       </p>
 
+      <div className="flex flex-col gap-2.5 border-y border-line-soft py-3.5">
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="eyebrow mr-1">Initial data load</span>
+          <Link
+            href={toggleHref}
+            className={`rounded-full border px-2.5 py-1 text-[11px] transition-colors ${
+              includeSeed
+                ? "border-line-strong bg-raised text-ink"
+                : "border-line text-ink-3 hover:border-line-strong hover:text-ink"
+            }`}
+          >
+            {includeSeed ? "Hide initial data load" : "Show initial data load"}
+          </Link>
+          <span className="text-[11px] text-ink-4">
+            {includeSeed
+              ? "Showing the values the record started with, alongside anything that changed since."
+              : "The values the record started with are hidden; only changes since the load are shown."}
+          </span>
+        </div>
+      </div>
+
       {all.length > 0 ? (
-        <div className="flex flex-col gap-2.5 border-y border-line-soft py-3.5">
+        <div className="flex flex-col gap-2.5 border-b border-line-soft pb-3.5">
           {types.length > 1 ? (
             <FilterGroup
               name="Type"
@@ -135,33 +177,73 @@ export default async function UpdatesPage({ searchParams }: Search) {
               </div>
               <div className="flex flex-col divide-y divide-line-soft">
                 {day.events.map((event) => (
-                  <div key={event.id} className="flex flex-wrap items-center gap-x-3 gap-y-1.5 py-2.5 text-[12px]">
-                    <EntityChipLink chip={event.entity} />
-                    <span className="num text-[10px] tracking-[0.06em] text-ink-4">
-                      {CHANGE_EVENT_LABEL[event.event_type] ?? event.event_type}
-                    </span>
-                    <span className="min-w-0 flex-1 text-ink-2">{event.summary}</span>
-                    {event.before || event.after ? (
-                      <span className="num flex items-center gap-1.5 text-[11px]">
-                        {event.before ? <span className="text-ink-4 line-through">{formatValue(event.before)}</span> : null}
-                        <span className="text-ink-5">→</span>
-                        <span className="text-ink">{event.after ? formatValue(event.after) : "removed"}</span>
-                      </span>
-                    ) : null}
-                    {event.evidence_summary ? <EvidenceChip summary={event.evidence_summary} /> : null}
-                  </div>
+                  <EventRow key={event.id} event={event} />
                 ))}
               </div>
             </section>
           ))}
         </div>
       ) : (
-        <p className="max-w-[560px] text-[13px]/[1.6] text-ink-3">
-          {all.length === 0
-            ? "No change events are recorded yet. The feed stays empty rather than inventing a first entry."
-            : "No change matches these filters. Widen one of them — the record is thinner than the question."}
-        </p>
+        <EmptyFeed all={all.length} includeSeed={includeSeed} toggleHref={toggleHref} />
       )}
+    </div>
+  );
+}
+
+function EventRow({ event }: { event: UpdatesResponse["events"][number] }) {
+  const type = eventTypeLabel(event.event_type);
+  return (
+    <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 py-2.5 text-[12px]">
+      <EntityChipLink chip={event.entity} />
+      {type ? <span className="num text-[10px] tracking-[0.06em] text-ink-4">{type}</span> : null}
+      <span className="min-w-0 flex-1 text-ink-2">{event.summary}</span>
+      {/* The summary already carries a first value; an arrow needs a real transition. */}
+      {showsTransition(event) ? (
+        <span className="num flex items-center gap-1.5 text-[11px]">
+          {event.before ? <span className="text-ink-4 line-through">{formatValue(event.before)}</span> : null}
+          <span className="text-ink-5">→</span>
+          <span className="text-ink">{event.after ? formatValue(event.after) : "removed"}</span>
+        </span>
+      ) : null}
+      {event.origin === "SEED" ? (
+        <span className="num shrink-0 rounded-[3px] border border-line px-1.5 py-[3px] text-[10px] text-ink-4">
+          initial load
+        </span>
+      ) : null}
+      {event.evidence_summary ? <EvidenceChip summary={event.evidence_summary} /> : null}
+    </div>
+  );
+}
+
+/** An empty feed is a real state with a real cause; it says which one. */
+function EmptyFeed({ all, includeSeed, toggleHref }: { all: number; includeSeed: boolean; toggleHref: string }) {
+  if (all > 0) {
+    return (
+      <p className="max-w-[560px] text-[13px]/[1.6] text-ink-3">
+        No change matches these filters. Widen one of them — the record is thinner than the question.
+      </p>
+    );
+  }
+  if (includeSeed) {
+    return (
+      <p className="max-w-[560px] text-[13px]/[1.6] text-ink-3">
+        No change events are recorded at all, not even the initial load.
+      </p>
+    );
+  }
+  return (
+    <div className="flex max-w-[600px] flex-col gap-3">
+      <p className="text-[13px]/[1.6] text-ink-3">
+        Nothing has changed yet. Every claim in the record arrived with the initial data load, and a value that has
+        only ever had one reading is not news — so the feed is empty rather than restating the whole database as
+        though it just happened.
+      </p>
+      <p className="text-[13px]/[1.6] text-ink-3">
+        This is the honest state until ingestion runs and starts producing second readings.
+      </p>
+      <Link href={toggleHref} className="w-fit text-[12px] text-accent hover:underline">
+        Show the initial data load anyway →
+      </Link>
     </div>
   );
 }

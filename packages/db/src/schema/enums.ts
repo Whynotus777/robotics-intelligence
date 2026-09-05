@@ -1,5 +1,6 @@
 import { pgEnum } from "drizzle-orm/pg-core";
 import {
+  CHANGE_EVENT_ORIGINS,
   CHANGE_EVENT_TYPES,
   CLAIM_STATUSES,
   CLAIM_ORIGINS,
@@ -37,3 +38,4 @@ export const extractionStatusEnum = pgEnum("extraction_status", EXTRACTION_STATU
 export const refreshCadenceEnum = pgEnum("refresh_cadence", REFRESH_CADENCES);
 export const reviewActionEnum = pgEnum("review_action", REVIEW_ACTIONS);
 export const changeEventTypeEnum = pgEnum("change_event_type", CHANGE_EVENT_TYPES);
+export const changeEventOriginEnum = pgEnum("change_event_origin", CHANGE_EVENT_ORIGINS);

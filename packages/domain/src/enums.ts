@@ -134,6 +134,14 @@ export const SOURCE_KINDS = [
 export const SourceKind = z.enum(SOURCE_KINDS);
 export type SourceKind = z.infer<typeof SourceKind>;
 
+/**
+ * Where a change event came from. SEED marks the initial data load: those rows are
+ * the record's starting state, not news, so the feed excludes them by default.
+ */
+export const CHANGE_EVENT_ORIGINS = ["SEED", "REVIEW"] as const;
+export const ChangeEventOrigin = z.enum(CHANGE_EVENT_ORIGINS);
+export type ChangeEventOrigin = z.infer<typeof ChangeEventOrigin>;
+
 export const CHANGE_EVENT_TYPES = [
   "ENTITY_CREATED",
   "PRODUCT_LAUNCHED",

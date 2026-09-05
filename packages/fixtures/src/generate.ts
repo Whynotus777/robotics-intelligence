@@ -26,7 +26,11 @@ try {
   for (const lens of ["embodiment", "market", "technology", "geography", "maturity"] as const) put(`stack-matrix/${lens}`, await stackMatrixHandler(ctx, { lens }));
   put("compare/unitree-g1-apptronik-apollo-figure-03", await compareHandler(ctx, { slugs: ["unitree-g1", "apptronik-apollo", "figure-03"] }));
   for (const layer of ["hq", "rnd", "manufacturing", "deployments", "research"] as const) put(`atlas/${layer}`, await atlasHandler(ctx, { layer }));
+  // Two payloads: the feed as it is read by default, and the same feed with the
+  // seeded initial load included, which is what the "Show initial data load"
+  // toggle asks for.
   put("updates", await updatesHandler(ctx, {}));
+  put("updates/all", await updatesHandler(ctx, { include_seed: true }));
   const currentClaims = (await db.select({ id: claims.id }).from(claims)).sort((a,b)=>a.id.localeCompare(b.id));
   for (const c of currentClaims) put(`claim/${c.id}`, await claimEvidenceHandler(ctx, { params: { id: c.id } }));
   writeFileSync(join(dir, "index.json"), `${JSON.stringify(output, null, 2)}\n`);

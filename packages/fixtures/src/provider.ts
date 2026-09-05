@@ -63,7 +63,10 @@ export class FixtureProvider implements DataProvider {
   market(slug: string) { return this.get<MarketResponse>(`market/${slug}`); }
   compare(slugs: string[]) { return this.get<CompareResponse>(`compare/${slugs.join("-")}`); }
   atlas(layer = "hq") { return this.get<AtlasResponse>(`atlas/${layer}`); }
-  updates() { return this.get<UpdatesResponse>("updates"); }
+  updates(query: Record<string, string> = {}) {
+    const all = query.include_seed === "1" || query.include_seed === "true";
+    return this.get<UpdatesResponse>(all ? "updates/all" : "updates");
+  }
   claimEvidence(id: string) { return this.get<ClaimEvidenceResponse>(`claim/${id}`); }
 }
 

@@ -43,7 +43,7 @@ export async function insertRows(db: Db, rows: SeedRows): Promise<void> {
   });
   for (const claim of approved) {
     const actedAt = `${claim.validFrom}T00:00:00.000Z`;
-    await approveClaim(db, { claimId: claim.id, reviewer: "seed", reason: "approved seed claim", actedAt, eventId: changeEventId(claim.id), reviewActionId: deterministicId("review-action", claim.id), skipRecompute: true });
+    await approveClaim(db, { claimId: claim.id, reviewer: "seed", reason: "approved seed claim", actedAt, eventId: changeEventId(claim.id), reviewActionId: deterministicId("review-action", claim.id), skipRecompute: true, origin: "SEED" });
   }
   await recomputeCachedColumns(db, `${SEED_OBSERVED_AT}T00:00:00.000Z`);
 }
