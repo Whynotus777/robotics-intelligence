@@ -6,7 +6,8 @@
       "slug": "deployment-symbotic-walmart",
       "entity_type": "DEPLOYMENT",
       "name": "Symbotic systems at Walmart regional DCs",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     "predicate": "DEPLOYED_BY",
     "label": "is deployed by",
@@ -18,7 +19,10 @@
         "slug": "walmart",
         "entity_type": "ORGANIZATION",
         "name": "Walmart",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       },
       "measure": null
     },

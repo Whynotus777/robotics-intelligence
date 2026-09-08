@@ -6,7 +6,12 @@
       "slug": "figure-ai",
       "entity_type": "ORGANIZATION",
       "name": "Figure AI",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM",
+        "OPERATOR"
+      ]
     },
     "predicate": "BUILDS",
     "label": "builds",
@@ -18,7 +23,8 @@
         "slug": "figure-02",
         "entity_type": "ROBOT",
         "name": "Figure 02",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       },
       "measure": null
     },
@@ -64,7 +70,8 @@
           "slug": "figure-03",
           "entity_type": "ROBOT",
           "name": "Figure 03",
-          "primary_embodiment": "HUMANOID"
+          "primary_embodiment": "HUMANOID",
+          "roles": []
         },
         "measure": null
       },

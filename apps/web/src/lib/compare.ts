@@ -161,5 +161,6 @@ function chip(entity: EntityResponse): EntityChip {
     entity_type: entity.entity.entity_type,
     name: entity.entity.name,
     primary_embodiment: entity.entity.primary_embodiment,
+    roles: entity.roles.map((role) => role.role),
   };
 }

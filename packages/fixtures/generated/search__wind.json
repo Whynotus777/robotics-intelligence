@@ -7,7 +7,8 @@
         "slug": "deployment-skyspecs-wind-fleets",
         "entity_type": "DEPLOYMENT",
         "name": "SkySpecs inspections across utility-scale wind fleets",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "DEPLOYMENT",
       "match_field": "name",
@@ -19,7 +20,8 @@
         "slug": "wind",
         "entity_type": "MARKET",
         "name": "Wind",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "MARKET",
       "match_field": "name",
@@ -31,7 +33,8 @@
         "slug": "blade-repair",
         "entity_type": "TASK",
         "name": "Blade repair",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "TASK",
       "match_field": "description",
@@ -43,7 +46,8 @@
         "slug": "energy",
         "entity_type": "MARKET",
         "name": "Energy",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "MARKET",
       "match_field": "description",
@@ -55,7 +59,10 @@
         "slug": "skyspecs",
         "entity_type": "ORGANIZATION",
         "name": "SkySpecs",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       },
       "entity_type": "ORGANIZATION",
       "match_field": "description",

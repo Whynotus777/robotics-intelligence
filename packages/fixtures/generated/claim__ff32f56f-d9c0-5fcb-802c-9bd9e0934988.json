@@ -6,7 +6,10 @@
       "slug": "waymo",
       "entity_type": "ORGANIZATION",
       "name": "Waymo",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
     },
     "predicate": "BUILDS",
     "label": "builds",
@@ -18,7 +21,8 @@
         "slug": "waymo-i-pace-robotaxi",
         "entity_type": "ROBOT",
         "name": "Waymo Jaguar I-Pace robotaxi",
-        "primary_embodiment": "AUTONOMOUS_VEHICLE"
+        "primary_embodiment": "AUTONOMOUS_VEHICLE",
+        "roles": []
       },
       "measure": null
     },

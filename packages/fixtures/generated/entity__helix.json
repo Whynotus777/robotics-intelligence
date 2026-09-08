@@ -15,6 +15,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -64,7 +67,12 @@
             "slug": "figure-ai",
             "entity_type": "ORGANIZATION",
             "name": "Figure AI",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -89,7 +97,8 @@
             "slug": "pi0",
             "entity_type": "MODEL",
             "name": "π0",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -114,7 +123,8 @@
             "slug": "vla-models",
             "entity_type": "TECHNOLOGY",
             "name": "VLA models",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -141,7 +151,12 @@
             "slug": "figure-ai",
             "entity_type": "ORGANIZATION",
             "name": "Figure AI",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -166,7 +181,8 @@
             "slug": "figure-03",
             "entity_type": "ROBOT",
             "name": "Figure 03",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -188,7 +204,12 @@
         "slug": "figure-ai",
         "entity_type": "ORGANIZATION",
         "name": "Figure AI",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM",
+          "OPERATOR"
+        ]
       }
     ],
     "technologies": [
@@ -197,7 +218,8 @@
         "slug": "vla-models",
         "entity_type": "TECHNOLOGY",
         "name": "VLA models",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "peers": [
@@ -206,7 +228,8 @@
         "slug": "pi0",
         "entity_type": "MODEL",
         "name": "π0",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

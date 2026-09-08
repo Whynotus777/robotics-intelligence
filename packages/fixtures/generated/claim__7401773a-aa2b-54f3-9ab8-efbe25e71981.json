@@ -6,7 +6,8 @@
       "slug": "deployment-digit-gxo",
       "entity_type": "DEPLOYMENT",
       "name": "Agility Digit at GXO",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     "predicate": "DEPLOYED_BY",
     "label": "is deployed by",
@@ -18,7 +19,10 @@
         "slug": "gxo",
         "entity_type": "ORGANIZATION",
         "name": "GXO Logistics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       },
       "measure": null
     },

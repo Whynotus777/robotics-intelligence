@@ -6,7 +6,11 @@
       "slug": "nvidia",
       "entity_type": "ORGANIZATION",
       "name": "NVIDIA",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "MODEL_DEVELOPER"
+      ]
     },
     "predicate": "DEVELOPS",
     "label": "develops",
@@ -18,7 +22,8 @@
         "slug": "nvidia-isaac-gr00t-n1",
         "entity_type": "MODEL",
         "name": "NVIDIA Isaac GR00T N1",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "measure": null
     },
@@ -64,7 +69,8 @@
           "slug": "nvidia-isaac-sim",
           "entity_type": "SOFTWARE_PRODUCT",
           "name": "NVIDIA Isaac Sim",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },

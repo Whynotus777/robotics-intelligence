@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": "COMMERCIAL",
     "height_m": null,
@@ -88,7 +91,8 @@
             "slug": "warehouse-logistics",
             "entity_type": "MARKET",
             "name": "Warehouse & Logistics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -115,7 +119,10 @@
             "slug": "gatik",
             "entity_type": "ORGANIZATION",
             "name": "Gatik",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -137,7 +144,10 @@
         "slug": "gatik",
         "entity_type": "ORGANIZATION",
         "name": "Gatik",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ],
     "markets": [
@@ -146,7 +156,8 @@
         "slug": "warehouse-logistics",
         "entity_type": "MARKET",
         "name": "Warehouse & Logistics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

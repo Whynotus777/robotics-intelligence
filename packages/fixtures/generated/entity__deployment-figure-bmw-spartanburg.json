@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -88,7 +91,12 @@
             "slug": "figure-ai",
             "entity_type": "ORGANIZATION",
             "name": "Figure AI",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -113,7 +121,8 @@
             "slug": "spartanburg",
             "entity_type": "PLACE",
             "name": "Spartanburg",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -138,7 +147,11 @@
             "slug": "bmw",
             "entity_type": "ORGANIZATION",
             "name": "BMW Group",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "CONTRACT_MANUFACTURER",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -163,7 +176,8 @@
             "slug": "figure-02",
             "entity_type": "ROBOT",
             "name": "Figure 02",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -186,14 +200,23 @@
         "slug": "bmw",
         "entity_type": "ORGANIZATION",
         "name": "BMW Group",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OPERATOR"
+        ]
       },
       {
         "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
         "slug": "figure-ai",
         "entity_type": "ORGANIZATION",
         "name": "Figure AI",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM",
+          "OPERATOR"
+        ]
       }
     ],
     "places": [
@@ -202,7 +225,8 @@
         "slug": "spartanburg",
         "entity_type": "PLACE",
         "name": "Spartanburg",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

@@ -1,0 +1,105 @@
+{
+  "layer": "DEPLOYED",
+  "layers": [
+    {
+      "id": "BUILT",
+      "label": "Built",
+      "count": 37
+    },
+    {
+      "id": "SUPPLIED",
+      "label": "Supplied",
+      "count": 7
+    },
+    {
+      "id": "MANUFACTURED",
+      "label": "Manufactured",
+      "count": 5
+    },
+    {
+      "id": "DEPLOYED",
+      "label": "Deployed",
+      "count": 1
+    },
+    {
+      "id": "TRAINED",
+      "label": "Trained",
+      "count": 4
+    },
+    {
+      "id": "FUNDED",
+      "label": "Funded",
+      "count": 0
+    },
+    {
+      "id": "PLATFORMS",
+      "label": "Platforms",
+      "count": 0
+    }
+  ],
+  "marks": [
+    {
+      "place": {
+        "id": "a3e6bb2e-6cb0-57f6-a5de-328fcc0ec33a",
+        "slug": "spartanburg",
+        "entity_type": "PLACE",
+        "name": "Spartanburg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 34.95,
+      "lng": -81.93,
+      "country_code": "US",
+      "cluster_label": "Spartanburg",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "51b72286-5ede-5876-9d5c-1d7036060163",
+          "slug": "deployment-figure-bmw-spartanburg",
+          "entity_type": "DEPLOYMENT",
+          "name": "Figure humanoids at BMW Spartanburg",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      ],
+      "embodiment_mix": {}
+    }
+  ],
+  "countries": [
+    {
+      "id": "US",
+      "label": "US",
+      "weight": 1,
+      "places": 1
+    }
+  ],
+  "corridors": [
+    {
+      "id": "Spartanburg",
+      "label": "Spartanburg",
+      "weight": 1,
+      "places": 1
+    }
+  ],
+  "list": [
+    {
+      "entity": {
+        "id": "51b72286-5ede-5876-9d5c-1d7036060163",
+        "slug": "deployment-figure-bmw-spartanburg",
+        "entity_type": "DEPLOYMENT",
+        "name": "Figure humanoids at BMW Spartanburg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "place": {
+        "id": "a3e6bb2e-6cb0-57f6-a5de-328fcc0ec33a",
+        "slug": "spartanburg",
+        "entity_type": "PLACE",
+        "name": "Spartanburg",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    }
+  ],
+  "as_of": null
+}

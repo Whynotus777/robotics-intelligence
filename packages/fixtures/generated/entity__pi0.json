@@ -17,6 +17,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -66,7 +69,8 @@
             "slug": "pi0-paper",
             "entity_type": "PAPER",
             "name": "π0: A Vision-Language-Action Flow Model for General Robot Control",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -91,7 +95,11 @@
             "slug": "physical-intelligence",
             "entity_type": "ORGANIZATION",
             "name": "Physical Intelligence",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "RESEARCH_LAB"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -116,7 +124,8 @@
             "slug": "vla-models",
             "entity_type": "TECHNOLOGY",
             "name": "VLA models",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -143,7 +152,11 @@
             "slug": "physical-intelligence",
             "entity_type": "ORGANIZATION",
             "name": "Physical Intelligence",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "RESEARCH_LAB"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -168,7 +181,8 @@
             "slug": "helix",
             "entity_type": "MODEL",
             "name": "Helix",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -190,7 +204,11 @@
         "slug": "physical-intelligence",
         "entity_type": "ORGANIZATION",
         "name": "Physical Intelligence",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
       }
     ],
     "technologies": [
@@ -199,7 +217,8 @@
         "slug": "vla-models",
         "entity_type": "TECHNOLOGY",
         "name": "VLA models",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "peers": [
@@ -208,7 +227,8 @@
         "slug": "helix",
         "entity_type": "MODEL",
         "name": "Helix",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

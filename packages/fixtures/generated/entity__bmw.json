@@ -16,6 +16,30 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "CONTRACT_MANUFACTURER",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    },
+    {
+      "role": "OPERATOR",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -38,7 +62,8 @@
             "slug": "munich",
             "entity_type": "PLACE",
             "name": "Munich",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -63,7 +88,8 @@
             "slug": "spartanburg",
             "entity_type": "PLACE",
             "name": "Spartanburg",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -90,7 +116,8 @@
             "slug": "deployment-figure-bmw-spartanburg",
             "entity_type": "DEPLOYMENT",
             "name": "Figure humanoids at BMW Spartanburg",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -115,7 +142,12 @@
             "slug": "figure-ai",
             "entity_type": "ORGANIZATION",
             "name": "Figure AI",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -137,7 +169,12 @@
         "slug": "figure-ai",
         "entity_type": "ORGANIZATION",
         "name": "Figure AI",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM",
+          "OPERATOR"
+        ]
       }
     ],
     "places": [
@@ -146,14 +183,16 @@
         "slug": "munich",
         "entity_type": "PLACE",
         "name": "Munich",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "a3e6bb2e-6cb0-57f6-a5de-328fcc0ec33a",
         "slug": "spartanburg",
         "entity_type": "PLACE",
         "name": "Spartanburg",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

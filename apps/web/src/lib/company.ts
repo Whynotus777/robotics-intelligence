@@ -62,6 +62,8 @@ const SITE_PREDICATES: { predicate: string; label: string }[] = [
 
 const CONSUMED = new Set<string>([
   "HQ_AT",
+  "PART_OF",
+  "HAS_ROLE",
   "RND_AT",
   "MANUFACTURES_AT",
   "PARTNERS_WITH",

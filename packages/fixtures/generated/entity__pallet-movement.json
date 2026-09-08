@@ -16,6 +16,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -329,7 +332,8 @@
             "slug": "material-movement",
             "entity_type": "MARKET",
             "name": "Warehouse",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -354,7 +358,8 @@
             "slug": "autonomous-forklift",
             "entity_type": "APPROACH",
             "name": "Autonomous forklift",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -373,7 +378,8 @@
             "slug": "asrs-pallet-handling",
             "entity_type": "APPROACH",
             "name": "AS/RS pallet handling",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -392,7 +398,8 @@
             "slug": "amr-pallet-jack-or-lift",
             "entity_type": "APPROACH",
             "name": "AMR pallet jack or lift",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -417,7 +424,8 @@
             "slug": "truck-unloading",
             "entity_type": "TASK",
             "name": "Truck unloading",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -436,7 +444,8 @@
             "slug": "automated-storage-and-retrieval",
             "entity_type": "TASK",
             "name": "Automated storage and retrieval",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -463,7 +472,10 @@
             "slug": "seegrid",
             "entity_type": "ORGANIZATION",
             "name": "Seegrid",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -482,7 +494,8 @@
             "slug": "seegrid-palion-lift",
             "entity_type": "ROBOT",
             "name": "Seegrid Palion Lift",
-            "primary_embodiment": "AMR"
+            "primary_embodiment": "AMR",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -501,7 +514,8 @@
             "slug": "fox-robotics-foxbot",
             "entity_type": "ROBOT",
             "name": "Fox Robotics FoxBot",
-            "primary_embodiment": "AMR"
+            "primary_embodiment": "AMR",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -520,7 +534,8 @@
             "slug": "vecna",
             "entity_type": "ORGANIZATION",
             "name": "Vecna Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -539,7 +554,8 @@
             "slug": "third-wave-automation",
             "entity_type": "ORGANIZATION",
             "name": "Third Wave Automation",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -558,7 +574,8 @@
             "slug": "otto-motors",
             "entity_type": "ORGANIZATION",
             "name": "OTTO Motors",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -577,7 +594,10 @@
             "slug": "fox-robotics",
             "entity_type": "ORGANIZATION",
             "name": "Fox Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -602,7 +622,8 @@
             "slug": "palletizing",
             "entity_type": "TASK",
             "name": "Palletizing",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -621,7 +642,8 @@
             "slug": "truck-unloading",
             "entity_type": "TASK",
             "name": "Truck unloading",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -643,21 +665,24 @@
         "slug": "amr-pallet-jack-or-lift",
         "entity_type": "APPROACH",
         "name": "AMR pallet jack or lift",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "c222ae29-190c-50b6-bf86-c9c8f12f56e8",
         "slug": "asrs-pallet-handling",
         "entity_type": "APPROACH",
         "name": "AS/RS pallet handling",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
         "slug": "autonomous-forklift",
         "entity_type": "APPROACH",
         "name": "Autonomous forklift",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "company": [
@@ -666,35 +691,44 @@
         "slug": "fox-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Fox Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
         "slug": "otto-motors",
         "entity_type": "ORGANIZATION",
         "name": "OTTO Motors",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
         "slug": "seegrid",
         "entity_type": "ORGANIZATION",
         "name": "Seegrid",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
         "slug": "third-wave-automation",
         "entity_type": "ORGANIZATION",
         "name": "Third Wave Automation",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
         "slug": "vecna",
         "entity_type": "ORGANIZATION",
         "name": "Vecna Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "markets": [
@@ -703,7 +737,8 @@
         "slug": "material-movement",
         "entity_type": "MARKET",
         "name": "Warehouse",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

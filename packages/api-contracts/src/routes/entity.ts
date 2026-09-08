@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { CommercialStage, Embodiment, EntityType, EvidenceClass, Maturity, StackLayer } from "@ri/domain";
-import { AsOfQuery, ClaimView, EntityChip, EvidenceSummary, IsoDate } from "../common.js";
+import { AsOfQuery, ClaimView, EntityChip, EvidenceSummary, IsoDate, RoleView } from "../common.js";
 
 // GET /entities/:slug
 
@@ -64,6 +64,14 @@ export const EntityResponse = z.object({
     created_at: z.iso.datetime(),
     updated_at: z.iso.datetime(),
   }),
+  /** Organization roles with their evidence. Empty for every other entity type. */
+  roles: z.array(RoleView),
+  /** Standing ownership: the parent this organization is part of, and since when. */
+  part_of: z
+    .object({ parent: EntityChip, since: IsoDate, claim_id: z.uuid(), evidence_summary: EvidenceSummary })
+    .nullable(),
+  /** Subsidiaries that name this organization as their parent. */
+  subsidiaries: z.array(z.object({ organization: EntityChip, since: IsoDate, claim_id: z.uuid() })),
   cached: z.object({
     commercial_stage: CommercialStage.nullable(),
     height_m: z.number().nullable(),

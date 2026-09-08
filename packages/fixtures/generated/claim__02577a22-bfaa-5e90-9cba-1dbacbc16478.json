@@ -6,7 +6,8 @@
       "slug": "nvidia-jetson-orin-nx",
       "entity_type": "COMPONENT_PRODUCT",
       "name": "NVIDIA Jetson Orin NX",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     "predicate": "MADE_BY",
     "label": "is made by",
@@ -18,7 +19,11 @@
         "slug": "nvidia",
         "entity_type": "ORGANIZATION",
         "name": "NVIDIA",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "MODEL_DEVELOPER"
+        ]
       },
       "measure": null
     },

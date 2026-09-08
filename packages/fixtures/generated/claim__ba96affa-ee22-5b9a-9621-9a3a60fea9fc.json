@@ -6,7 +6,10 @@
       "slug": "tesla",
       "entity_type": "ORGANIZATION",
       "name": "Tesla",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
     },
     "predicate": "BUILDS",
     "label": "builds",
@@ -18,7 +21,8 @@
         "slug": "tesla-optimus",
         "entity_type": "ROBOT",
         "name": "Tesla Optimus",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       },
       "measure": null
     },

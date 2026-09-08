@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -88,7 +91,10 @@
             "slug": "fox-robotics",
             "entity_type": "ORGANIZATION",
             "name": "Fox Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -107,7 +113,8 @@
             "slug": "third-wave-automation",
             "entity_type": "ORGANIZATION",
             "name": "Third Wave Automation",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -134,7 +141,8 @@
             "slug": "truck-unloading",
             "entity_type": "TASK",
             "name": "Truck unloading",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -153,7 +161,8 @@
             "slug": "pallet-movement",
             "entity_type": "TASK",
             "name": "Pallet movement",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -175,14 +184,18 @@
         "slug": "fox-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Fox Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
         "slug": "third-wave-automation",
         "entity_type": "ORGANIZATION",
         "name": "Third Wave Automation",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

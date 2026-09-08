@@ -13,6 +13,20 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "OPERATOR",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -36,7 +50,8 @@
             "slug": "deployment-symbotic-walmart",
             "entity_type": "DEPLOYMENT",
             "name": "Symbotic systems at Walmart regional DCs",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -61,7 +76,10 @@
             "slug": "symbotic",
             "entity_type": "ORGANIZATION",
             "name": "Symbotic",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -83,7 +101,10 @@
         "slug": "symbotic",
         "entity_type": "ORGANIZATION",
         "name": "Symbotic",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       }
     ]
   },

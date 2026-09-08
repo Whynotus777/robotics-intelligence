@@ -6,7 +6,8 @@
       "slug": "deployment-figure-bmw-spartanburg",
       "entity_type": "DEPLOYMENT",
       "name": "Figure humanoids at BMW Spartanburg",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     "predicate": "DEPLOYED_BY",
     "label": "is deployed by",
@@ -18,7 +19,11 @@
         "slug": "bmw",
         "entity_type": "ORGANIZATION",
         "name": "BMW Group",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OPERATOR"
+        ]
       },
       "measure": null
     },

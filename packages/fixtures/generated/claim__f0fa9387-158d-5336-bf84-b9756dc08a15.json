@@ -6,7 +6,8 @@
       "slug": "deployment-apollo-mercedes",
       "entity_type": "DEPLOYMENT",
       "name": "Apollo pilot at Mercedes-Benz",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     "predicate": "OPERATED_BY",
     "label": "is operated by",
@@ -18,7 +19,11 @@
         "slug": "apptronik",
         "entity_type": "ORGANIZATION",
         "name": "Apptronik",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       },
       "measure": null
     },

@@ -16,6 +16,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": "COMMERCIAL",
     "height_m": null,
@@ -91,7 +94,8 @@
             "slug": "boston-dynamics-spot",
             "entity_type": "ROBOT",
             "name": "Boston Dynamics Spot",
-            "primary_embodiment": "QUADRUPED"
+            "primary_embodiment": "QUADRUPED",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -118,7 +122,10 @@
             "slug": "anybotics",
             "entity_type": "ORGANIZATION",
             "name": "ANYbotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -140,7 +147,10 @@
         "slug": "anybotics",
         "entity_type": "ORGANIZATION",
         "name": "ANYbotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ],
     "peers": [
@@ -149,7 +159,8 @@
         "slug": "boston-dynamics-spot",
         "entity_type": "ROBOT",
         "name": "Boston Dynamics Spot",
-        "primary_embodiment": "QUADRUPED"
+        "primary_embodiment": "QUADRUPED",
+        "roles": []
       }
     ]
   },

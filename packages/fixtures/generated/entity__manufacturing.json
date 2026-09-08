@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -36,7 +39,11 @@
             "slug": "abb-robotics",
             "entity_type": "ORGANIZATION",
             "name": "ABB Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "CONTRACT_MANUFACTURER",
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -55,7 +62,10 @@
             "slug": "kuka",
             "entity_type": "ORGANIZATION",
             "name": "KUKA",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -74,7 +84,10 @@
             "slug": "yaskawa",
             "entity_type": "ORGANIZATION",
             "name": "Yaskawa Electric",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -93,7 +106,8 @@
             "slug": "otto-motors",
             "entity_type": "ORGANIZATION",
             "name": "OTTO Motors",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -112,7 +126,10 @@
             "slug": "sanctuary-ai",
             "entity_type": "ORGANIZATION",
             "name": "Sanctuary AI",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -131,7 +148,10 @@
             "slug": "techman-robot",
             "entity_type": "ORGANIZATION",
             "name": "Techman Robot",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -150,7 +170,10 @@
             "slug": "fanuc",
             "entity_type": "ORGANIZATION",
             "name": "FANUC",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -169,7 +192,10 @@
             "slug": "universal-robots",
             "entity_type": "ORGANIZATION",
             "name": "Universal Robots",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -188,7 +214,10 @@
             "slug": "doosan-robotics",
             "entity_type": "ORGANIZATION",
             "name": "Doosan Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -207,7 +236,8 @@
             "slug": "abb-irb-6700",
             "entity_type": "ROBOT",
             "name": "ABB IRB 6700",
-            "primary_embodiment": "INDUSTRIAL_ARM"
+            "primary_embodiment": "INDUSTRIAL_ARM",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -232,7 +262,8 @@
             "slug": "machine-tending",
             "entity_type": "MARKET",
             "name": "Machine tending",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -254,63 +285,89 @@
         "slug": "abb-robotics",
         "entity_type": "ORGANIZATION",
         "name": "ABB Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
       },
       {
         "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
         "slug": "doosan-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Doosan Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
         "slug": "fanuc",
         "entity_type": "ORGANIZATION",
         "name": "FANUC",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
         "slug": "kuka",
         "entity_type": "ORGANIZATION",
         "name": "KUKA",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
         "slug": "otto-motors",
         "entity_type": "ORGANIZATION",
         "name": "OTTO Motors",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "6a3ad67c-5549-528b-a5ed-0391f2c0f8a3",
         "slug": "sanctuary-ai",
         "entity_type": "ORGANIZATION",
         "name": "Sanctuary AI",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
         "slug": "techman-robot",
         "entity_type": "ORGANIZATION",
         "name": "Techman Robot",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
         "slug": "universal-robots",
         "entity_type": "ORGANIZATION",
         "name": "Universal Robots",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "771449f4-1624-5bcf-a888-40b087e1230c",
         "slug": "yaskawa",
         "entity_type": "ORGANIZATION",
         "name": "Yaskawa Electric",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ],
     "markets": [
@@ -319,7 +376,8 @@
         "slug": "machine-tending",
         "entity_type": "MARKET",
         "name": "Machine tending",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

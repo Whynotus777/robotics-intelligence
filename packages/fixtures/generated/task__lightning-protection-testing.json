@@ -4,7 +4,8 @@
     "slug": "lightning-protection-testing",
     "entity_type": "TASK",
     "name": "Lightning-protection testing",
-    "primary_embodiment": null
+    "primary_embodiment": null,
+    "roles": []
   },
   "short_description": "Verifying continuity of the blade lightning protection system between receptors and the tower ground path.",
   "market_path": [
@@ -13,14 +14,16 @@
       "slug": "energy",
       "entity_type": "MARKET",
       "name": "Energy",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     {
       "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
       "slug": "wind",
       "entity_type": "MARKET",
       "name": "Wind",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "maturity": {
@@ -81,7 +84,8 @@
         "slug": "rope-cable-suspended-robot",
         "entity_type": "APPROACH",
         "name": "Rope/cable-suspended robot",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "A robot lowered from the nacelle on ropes or cables and positioned against the blade for cleaning, coating, testing and repair.",
       "maturity": {
@@ -116,14 +120,16 @@
           "slug": "aerones",
           "entity_type": "ORGANIZATION",
           "name": "Aerones",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         {
           "id": "81571cfa-9773-5740-a33f-0121af56676c",
           "slug": "rope-robotics",
           "entity_type": "ORGANIZATION",
           "name": "Rope Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         }
       ]
     }
@@ -135,7 +141,8 @@
         "slug": "aerones",
         "entity_type": "ORGANIZATION",
         "name": "Aerones",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Riga"

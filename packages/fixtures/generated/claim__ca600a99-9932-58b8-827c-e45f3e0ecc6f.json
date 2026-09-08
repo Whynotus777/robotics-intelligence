@@ -6,7 +6,8 @@
       "slug": "caged-arm-tending-cell",
       "entity_type": "APPROACH",
       "name": "Caged arm tending cell",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     "predicate": "HAS_EXAMPLE_VENDOR",
     "label": "example vendor",
@@ -18,7 +19,10 @@
         "slug": "fanuc",
         "entity_type": "ORGANIZATION",
         "name": "FANUC",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "measure": null
     },
@@ -64,7 +68,10 @@
           "slug": "yaskawa",
           "entity_type": "ORGANIZATION",
           "name": "Yaskawa Electric",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         },
         "measure": null
       },
@@ -82,7 +89,11 @@
           "slug": "abb-robotics",
           "entity_type": "ORGANIZATION",
           "name": "ABB Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER",
+            "OEM"
+          ]
         },
         "measure": null
       },

@@ -4,7 +4,8 @@
     "slug": "blade-visual-inspection",
     "entity_type": "TASK",
     "name": "Blade visual inspection",
-    "primary_embodiment": null
+    "primary_embodiment": null,
+    "roles": []
   },
   "short_description": "Photographic inspection of blade surfaces for erosion, cracks and lightning damage, usually by drone.",
   "market_path": [
@@ -13,14 +14,16 @@
       "slug": "energy",
       "entity_type": "MARKET",
       "name": "Energy",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     {
       "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
       "slug": "wind",
       "entity_type": "MARKET",
       "name": "Wind",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "maturity": {
@@ -85,7 +88,8 @@
         "slug": "drone-based-blade-maintenance",
         "entity_type": "APPROACH",
         "name": "Drone-based",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "Multirotor drones flying close to blades for inspection; contact work from the same platform is early.",
       "maturity": {
@@ -120,7 +124,10 @@
           "slug": "skyspecs",
           "entity_type": "ORGANIZATION",
           "name": "SkySpecs",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OPERATOR"
+          ]
         }
       ]
     }
@@ -132,7 +139,8 @@
         "slug": "aerones",
         "entity_type": "ORGANIZATION",
         "name": "Aerones",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Riga"
@@ -143,7 +151,8 @@
         "slug": "bladebug",
         "entity_type": "ORGANIZATION",
         "name": "BladeBUG",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "London"
@@ -154,7 +163,10 @@
         "slug": "skyspecs",
         "entity_type": "ORGANIZATION",
         "name": "SkySpecs",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Ann Arbor"
@@ -167,7 +179,8 @@
         "slug": "deployment-skyspecs-wind-fleets",
         "entity_type": "DEPLOYMENT",
         "name": "SkySpecs inspections across utility-scale wind fleets",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "customer": null,
       "operators": [
@@ -176,7 +189,10 @@
           "slug": "skyspecs",
           "entity_type": "ORGANIZATION",
           "name": "SkySpecs",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OPERATOR"
+          ]
         }
       ],
       "robots": [],

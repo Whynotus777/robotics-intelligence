@@ -13,6 +13,20 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -35,7 +49,8 @@
             "slug": "automated-storage-and-retrieval",
             "entity_type": "TASK",
             "name": "Automated storage and retrieval",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -60,7 +75,8 @@
             "slug": "autostore-r5",
             "entity_type": "ROBOT",
             "name": "AutoStore R5",
-            "primary_embodiment": "OTHER_MOBILE"
+            "primary_embodiment": "OTHER_MOBILE",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -85,7 +101,8 @@
             "slug": "nedre-vats",
             "entity_type": "PLACE",
             "name": "Nedre Vats",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -110,7 +127,8 @@
             "slug": "warehouse-logistics",
             "entity_type": "MARKET",
             "name": "Warehouse & Logistics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -133,7 +151,8 @@
         "slug": "warehouse-logistics",
         "entity_type": "MARKET",
         "name": "Warehouse & Logistics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "places": [
@@ -142,7 +161,8 @@
         "slug": "nedre-vats",
         "entity_type": "PLACE",
         "name": "Nedre Vats",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

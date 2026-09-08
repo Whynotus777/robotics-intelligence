@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -88,7 +91,8 @@
             "slug": "depth-cameras",
             "entity_type": "TECHNOLOGY",
             "name": "Depth cameras",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -113,7 +117,10 @@
             "slug": "techman-robot",
             "entity_type": "ORGANIZATION",
             "name": "Techman Robot",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -140,7 +147,8 @@
             "slug": "in-process-inspection",
             "entity_type": "TASK",
             "name": "In-process inspection",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -162,7 +170,10 @@
         "slug": "techman-robot",
         "entity_type": "ORGANIZATION",
         "name": "Techman Robot",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ],
     "technologies": [
@@ -171,7 +182,8 @@
         "slug": "depth-cameras",
         "entity_type": "TECHNOLOGY",
         "name": "Depth cameras",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

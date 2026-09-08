@@ -1,12 +1,13 @@
 import { eq, inArray } from "drizzle-orm";
 import { entities } from "@ri/db";
 import type { EntityChip } from "@ri/api-contracts";
+import type { OrganizationRole } from "@ri/domain";
 import type { ApiContext } from "../context.js";
 
 export type EntityRow = typeof entities.$inferSelect;
 
-export function toChip(e: EntityRow): EntityChip {
-  return { id: e.id, slug: e.slug, entity_type: e.entityType, name: e.name, primary_embodiment: e.primaryEmbodiment };
+export function toChip(e: EntityRow, roles: OrganizationRole[] = []): EntityChip {
+  return { id: e.id, slug: e.slug, entity_type: e.entityType, name: e.name, primary_embodiment: e.primaryEmbodiment, roles };
 }
 
 export async function entityBySlug(ctx: ApiContext, slug: string): Promise<EntityRow | null> {

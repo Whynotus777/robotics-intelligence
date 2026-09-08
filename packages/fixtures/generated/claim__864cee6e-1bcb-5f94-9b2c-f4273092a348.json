@@ -6,7 +6,8 @@
       "slug": "deployment-apollo-mercedes",
       "entity_type": "DEPLOYMENT",
       "name": "Apollo pilot at Mercedes-Benz",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     "predicate": "DEPLOYED_BY",
     "label": "is deployed by",
@@ -18,7 +19,10 @@
         "slug": "mercedes-benz",
         "entity_type": "ORGANIZATION",
         "name": "Mercedes-Benz",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       },
       "measure": null
     },

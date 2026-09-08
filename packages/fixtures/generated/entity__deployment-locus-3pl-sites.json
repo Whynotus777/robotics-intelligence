@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -35,7 +38,11 @@
             "slug": "locus",
             "entity_type": "ORGANIZATION",
             "name": "Locus Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -60,7 +67,8 @@
             "slug": "each-picking-assistance",
             "entity_type": "TASK",
             "name": "Each-picking assistance",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -85,7 +93,8 @@
             "slug": "locus-origin",
             "entity_type": "ROBOT",
             "name": "Locus Origin",
-            "primary_embodiment": "AMR"
+            "primary_embodiment": "AMR",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -108,7 +117,11 @@
         "slug": "locus",
         "entity_type": "ORGANIZATION",
         "name": "Locus Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       }
     ]
   },

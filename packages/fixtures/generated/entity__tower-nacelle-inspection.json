@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -114,7 +117,8 @@
             "slug": "drone-based-blade-maintenance",
             "entity_type": "APPROACH",
             "name": "Drone-based",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -139,7 +143,8 @@
             "slug": "wind",
             "entity_type": "MARKET",
             "name": "Wind",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -166,7 +171,10 @@
             "slug": "anybotics",
             "entity_type": "ORGANIZATION",
             "name": "ANYbotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -185,7 +193,10 @@
             "slug": "percepto",
             "entity_type": "ORGANIZATION",
             "name": "Percepto",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -207,7 +218,8 @@
         "slug": "drone-based-blade-maintenance",
         "entity_type": "APPROACH",
         "name": "Drone-based",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "company": [
@@ -216,14 +228,20 @@
         "slug": "anybotics",
         "entity_type": "ORGANIZATION",
         "name": "ANYbotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "d31f2d2e-9dce-5f5d-9ac6-062cd182b353",
         "slug": "percepto",
         "entity_type": "ORGANIZATION",
         "name": "Percepto",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ],
     "markets": [
@@ -232,7 +250,8 @@
         "slug": "wind",
         "entity_type": "MARKET",
         "name": "Wind",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

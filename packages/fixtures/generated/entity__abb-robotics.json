@@ -15,6 +15,30 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "CONTRACT_MANUFACTURER",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    },
+    {
+      "role": "OEM",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -37,7 +61,8 @@
             "slug": "manufacturing",
             "entity_type": "MARKET",
             "name": "Manufacturing",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -62,7 +87,8 @@
             "slug": "cnc-machine-tending",
             "entity_type": "TASK",
             "name": "CNC machine tending",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -81,7 +107,8 @@
             "slug": "industrial-welding",
             "entity_type": "TASK",
             "name": "Industrial welding",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -106,7 +133,8 @@
             "slug": "shanghai",
             "entity_type": "PLACE",
             "name": "Shanghai",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -131,7 +159,8 @@
             "slug": "abb-irb-6700",
             "entity_type": "ROBOT",
             "name": "ABB IRB 6700",
-            "primary_embodiment": "INDUSTRIAL_ARM"
+            "primary_embodiment": "INDUSTRIAL_ARM",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -156,7 +185,8 @@
             "slug": "zurich",
             "entity_type": "PLACE",
             "name": "Zurich",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -183,7 +213,8 @@
             "slug": "robotic-arc-welding-cell",
             "entity_type": "APPROACH",
             "name": "Robotic arc welding cell",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -202,7 +233,8 @@
             "slug": "caged-arm-tending-cell",
             "entity_type": "APPROACH",
             "name": "Caged arm tending cell",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -224,14 +256,16 @@
         "slug": "caged-arm-tending-cell",
         "entity_type": "APPROACH",
         "name": "Caged arm tending cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
         "slug": "robotic-arc-welding-cell",
         "entity_type": "APPROACH",
         "name": "Robotic arc welding cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "markets": [
@@ -240,7 +274,8 @@
         "slug": "manufacturing",
         "entity_type": "MARKET",
         "name": "Manufacturing",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "places": [
@@ -249,14 +284,16 @@
         "slug": "shanghai",
         "entity_type": "PLACE",
         "name": "Shanghai",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
         "slug": "zurich",
         "entity_type": "PLACE",
         "name": "Zurich",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

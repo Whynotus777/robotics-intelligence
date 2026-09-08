@@ -6,7 +6,11 @@
       "slug": "agility",
       "entity_type": "ORGANIZATION",
       "name": "Agility Robotics",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
     },
     "predicate": "BUILDS",
     "label": "builds",
@@ -18,7 +22,8 @@
         "slug": "agility-digit",
         "entity_type": "ROBOT",
         "name": "Agility Digit",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       },
       "measure": null
     },

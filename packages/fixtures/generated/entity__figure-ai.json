@@ -15,6 +15,40 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "MODEL_DEVELOPER",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    },
+    {
+      "role": "OEM",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    },
+    {
+      "role": "OPERATOR",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -37,7 +71,8 @@
             "slug": "helix",
             "entity_type": "MODEL",
             "name": "Helix",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -62,7 +97,8 @@
             "slug": "figure-03",
             "entity_type": "ROBOT",
             "name": "Figure 03",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -81,7 +117,8 @@
             "slug": "figure-02",
             "entity_type": "ROBOT",
             "name": "Figure 02",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -106,7 +143,8 @@
             "slug": "bay-area",
             "entity_type": "PLACE",
             "name": "San Francisco Bay Area",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -131,7 +169,11 @@
             "slug": "bmw",
             "entity_type": "ORGANIZATION",
             "name": "BMW Group",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "CONTRACT_MANUFACTURER",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -158,7 +200,8 @@
             "slug": "deployment-figure-bmw-spartanburg",
             "entity_type": "DEPLOYMENT",
             "name": "Figure humanoids at BMW Spartanburg",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -183,7 +226,8 @@
             "slug": "helix",
             "entity_type": "MODEL",
             "name": "Helix",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -205,7 +249,11 @@
         "slug": "bmw",
         "entity_type": "ORGANIZATION",
         "name": "BMW Group",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OPERATOR"
+        ]
       }
     ],
     "places": [
@@ -214,7 +262,8 @@
         "slug": "bay-area",
         "entity_type": "PLACE",
         "name": "San Francisco Bay Area",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

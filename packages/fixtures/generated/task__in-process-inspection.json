@@ -4,7 +4,8 @@
     "slug": "in-process-inspection",
     "entity_type": "TASK",
     "name": "In-process inspection",
-    "primary_embodiment": null
+    "primary_embodiment": null,
+    "roles": []
   },
   "short_description": "Checking parts for dimensional and cosmetic defects on the line, rather than pulling samples to a quality lab afterwards.",
   "market_path": [
@@ -13,14 +14,16 @@
       "slug": "manufacturing",
       "entity_type": "MARKET",
       "name": "Manufacturing",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     {
       "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
       "slug": "machine-tending",
       "entity_type": "MARKET",
       "name": "Machine tending",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "maturity": {
@@ -87,7 +90,8 @@
         "slug": "robot-mounted-vision-inspection",
         "entity_type": "APPROACH",
         "name": "Robot-mounted vision inspection",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "A camera on an arm walking a part through inspection poses, replacing a fixed multi-camera station with one moving eye.",
       "maturity": {
@@ -124,7 +128,10 @@
           "slug": "techman-robot",
           "entity_type": "ORGANIZATION",
           "name": "Techman Robot",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         }
       ]
     },
@@ -134,7 +141,8 @@
         "slug": "fixed-machine-vision-station",
         "entity_type": "APPROACH",
         "name": "Fixed machine vision station",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "Cameras and lights bolted around a conveyor, inspecting every part in the same pose at line rate.",
       "maturity": {
@@ -236,7 +244,10 @@
         "slug": "techman-robot",
         "entity_type": "ORGANIZATION",
         "name": "Techman Robot",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Taoyuan"
@@ -380,7 +391,8 @@
       "slug": "cnc-machine-tending",
       "entity_type": "TASK",
       "name": "CNC machine tending",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "intelligence_rail": {

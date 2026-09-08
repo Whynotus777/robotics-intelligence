@@ -16,6 +16,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -289,7 +292,8 @@
             "slug": "cobot-tending-cell",
             "entity_type": "APPROACH",
             "name": "Cobot tending cell",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -308,7 +312,8 @@
             "slug": "mobile-manipulator-tending",
             "entity_type": "APPROACH",
             "name": "Mobile manipulator tending",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -327,7 +332,8 @@
             "slug": "caged-arm-tending-cell",
             "entity_type": "APPROACH",
             "name": "Caged arm tending cell",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -352,7 +358,8 @@
             "slug": "machine-tending",
             "entity_type": "MARKET",
             "name": "Machine tending",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -377,7 +384,8 @@
             "slug": "assembly",
             "entity_type": "TASK",
             "name": "Assembly",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -396,7 +404,8 @@
             "slug": "in-process-inspection",
             "entity_type": "TASK",
             "name": "In-process inspection",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -423,7 +432,10 @@
             "slug": "fanuc",
             "entity_type": "ORGANIZATION",
             "name": "FANUC",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -442,7 +454,8 @@
             "slug": "doosan-m1013",
             "entity_type": "ROBOT",
             "name": "Doosan M1013",
-            "primary_embodiment": "COBOT"
+            "primary_embodiment": "COBOT",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -461,7 +474,11 @@
             "slug": "abb-robotics",
             "entity_type": "ORGANIZATION",
             "name": "ABB Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "CONTRACT_MANUFACTURER",
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -480,7 +497,10 @@
             "slug": "techman-robot",
             "entity_type": "ORGANIZATION",
             "name": "Techman Robot",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -499,7 +519,8 @@
             "slug": "yaskawa-motoman-gp12",
             "entity_type": "ROBOT",
             "name": "Yaskawa MOTOMAN GP12",
-            "primary_embodiment": "INDUSTRIAL_ARM"
+            "primary_embodiment": "INDUSTRIAL_ARM",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -518,7 +539,10 @@
             "slug": "doosan-robotics",
             "entity_type": "ORGANIZATION",
             "name": "Doosan Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -537,7 +561,10 @@
             "slug": "universal-robots",
             "entity_type": "ORGANIZATION",
             "name": "Universal Robots",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -556,7 +583,10 @@
             "slug": "yaskawa",
             "entity_type": "ORGANIZATION",
             "name": "Yaskawa Electric",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -581,7 +611,8 @@
             "slug": "in-process-inspection",
             "entity_type": "TASK",
             "name": "In-process inspection",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -603,21 +634,24 @@
         "slug": "caged-arm-tending-cell",
         "entity_type": "APPROACH",
         "name": "Caged arm tending cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
         "slug": "cobot-tending-cell",
         "entity_type": "APPROACH",
         "name": "Cobot tending cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "d6c78acc-fb7b-568f-b1af-28f50449cb17",
         "slug": "mobile-manipulator-tending",
         "entity_type": "APPROACH",
         "name": "Mobile manipulator tending",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "company": [
@@ -626,42 +660,61 @@
         "slug": "abb-robotics",
         "entity_type": "ORGANIZATION",
         "name": "ABB Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
       },
       {
         "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
         "slug": "doosan-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Doosan Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
         "slug": "fanuc",
         "entity_type": "ORGANIZATION",
         "name": "FANUC",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
         "slug": "techman-robot",
         "entity_type": "ORGANIZATION",
         "name": "Techman Robot",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
         "slug": "universal-robots",
         "entity_type": "ORGANIZATION",
         "name": "Universal Robots",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "771449f4-1624-5bcf-a888-40b087e1230c",
         "slug": "yaskawa",
         "entity_type": "ORGANIZATION",
         "name": "Yaskawa Electric",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ],
     "markets": [
@@ -670,7 +723,8 @@
         "slug": "machine-tending",
         "entity_type": "MARKET",
         "name": "Machine tending",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

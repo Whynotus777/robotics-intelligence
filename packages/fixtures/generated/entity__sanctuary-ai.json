@@ -15,6 +15,20 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -37,7 +51,8 @@
             "slug": "vancouver",
             "entity_type": "PLACE",
             "name": "Vancouver",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -62,7 +77,8 @@
             "slug": "manufacturing",
             "entity_type": "MARKET",
             "name": "Manufacturing",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -87,7 +103,8 @@
             "slug": "sanctuary-phoenix",
             "entity_type": "ROBOT",
             "name": "Sanctuary Phoenix",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -110,7 +127,8 @@
         "slug": "manufacturing",
         "entity_type": "MARKET",
         "name": "Manufacturing",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "places": [
@@ -119,7 +137,8 @@
         "slug": "vancouver",
         "entity_type": "PLACE",
         "name": "Vancouver",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

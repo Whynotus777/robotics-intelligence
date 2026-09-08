@@ -6,7 +6,8 @@
       "slug": "deployment-skyspecs-wind-fleets",
       "entity_type": "DEPLOYMENT",
       "name": "SkySpecs inspections across utility-scale wind fleets",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     "predicate": "OPERATED_BY",
     "label": "is operated by",
@@ -18,7 +19,10 @@
         "slug": "skyspecs",
         "entity_type": "ORGANIZATION",
         "name": "SkySpecs",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       },
       "measure": null
     },

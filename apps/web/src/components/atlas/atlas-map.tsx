@@ -14,7 +14,9 @@ export type AtlasMarkView = {
   y: number;
   countryCode: string | null;
   clusterLabel: string | null;
-  /** Which of the active layers put this place on the map, with its entities. */
+  /** Distinct entities on this mark — what the mark is sized by. */
+  weight: number;
+  /** Which layer put this place on the map, with its entities. */
   layers: { layer: string; label: string; entities: EntityChip[] }[];
   entities: EntityChip[];
   embodimentMix: Partial<Record<Embodiment, number>>;
@@ -168,7 +170,7 @@ export function AtlasMap({
             />
             {marks.map((mark) => {
               const colour = dominantColour(mark.embodimentMix);
-              const radius = (3 + Math.sqrt(mark.entities.length) * 1.6) * scale;
+              const radius = (3 + Math.sqrt(mark.weight) * 1.6) * scale;
               const chosen = mark.place.id === selected;
               return (
                 <g key={mark.place.id} onClick={() => !moved.current && setSelected(mark.place.id)}>

@@ -6,7 +6,11 @@
       "slug": "dji",
       "entity_type": "ORGANIZATION",
       "name": "DJI",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER",
+        "OEM"
+      ]
     },
     "predicate": "BUILDS",
     "label": "builds",
@@ -18,7 +22,8 @@
         "slug": "dji-matrice-350-rtk",
         "entity_type": "ROBOT",
         "name": "DJI Matrice 350 RTK",
-        "primary_embodiment": "DRONE"
+        "primary_embodiment": "DRONE",
+        "roles": []
       },
       "measure": null
     },

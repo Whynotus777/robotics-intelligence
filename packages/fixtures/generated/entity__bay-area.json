@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -42,7 +45,10 @@
             "slug": "gatik",
             "entity_type": "ORGANIZATION",
             "name": "Gatik",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -61,7 +67,11 @@
             "slug": "nvidia",
             "entity_type": "ORGANIZATION",
             "name": "NVIDIA",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER",
+              "MODEL_DEVELOPER"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -80,7 +90,10 @@
             "slug": "waymo",
             "entity_type": "ORGANIZATION",
             "name": "Waymo",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -99,7 +112,10 @@
             "slug": "zipline",
             "entity_type": "ORGANIZATION",
             "name": "Zipline",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -118,7 +134,8 @@
             "slug": "third-wave-automation",
             "entity_type": "ORGANIZATION",
             "name": "Third Wave Automation",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -137,7 +154,10 @@
             "slug": "ouster",
             "entity_type": "ORGANIZATION",
             "name": "Ouster",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -156,7 +176,10 @@
             "slug": "intel",
             "entity_type": "ORGANIZATION",
             "name": "Intel",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -175,7 +198,10 @@
             "slug": "skydio",
             "entity_type": "ORGANIZATION",
             "name": "Skydio",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -194,7 +220,10 @@
             "slug": "nuro",
             "entity_type": "ORGANIZATION",
             "name": "Nuro",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -213,7 +242,12 @@
             "slug": "figure-ai",
             "entity_type": "ORGANIZATION",
             "name": "Figure AI",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -232,7 +266,11 @@
             "slug": "physical-intelligence",
             "entity_type": "ORGANIZATION",
             "name": "Physical Intelligence",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "RESEARCH_LAB"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -254,77 +292,112 @@
         "slug": "figure-ai",
         "entity_type": "ORGANIZATION",
         "name": "Figure AI",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM",
+          "OPERATOR"
+        ]
       },
       {
         "id": "c9b84a3a-f7dd-578a-a6c9-6c0a2b061b1b",
         "slug": "gatik",
         "entity_type": "ORGANIZATION",
         "name": "Gatik",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
         "slug": "intel",
         "entity_type": "ORGANIZATION",
         "name": "Intel",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
       },
       {
         "id": "af96607d-e4ee-5ac6-b7de-b4f9d7990783",
         "slug": "nuro",
         "entity_type": "ORGANIZATION",
         "name": "Nuro",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
         "slug": "nvidia",
         "entity_type": "ORGANIZATION",
         "name": "NVIDIA",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "MODEL_DEVELOPER"
+        ]
       },
       {
         "id": "280d3938-3677-5286-bf7f-9c85402c4d90",
         "slug": "ouster",
         "entity_type": "ORGANIZATION",
         "name": "Ouster",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
       },
       {
         "id": "b81a66f4-ff3d-5c78-a247-7dea374bed6a",
         "slug": "physical-intelligence",
         "entity_type": "ORGANIZATION",
         "name": "Physical Intelligence",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
       },
       {
         "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
         "slug": "skydio",
         "entity_type": "ORGANIZATION",
         "name": "Skydio",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
         "slug": "third-wave-automation",
         "entity_type": "ORGANIZATION",
         "name": "Third Wave Automation",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
         "slug": "waymo",
         "entity_type": "ORGANIZATION",
         "name": "Waymo",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "371b8e82-3403-50d4-be34-8d2ce0408277",
         "slug": "zipline",
         "entity_type": "ORGANIZATION",
         "name": "Zipline",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ]
   },

@@ -15,6 +15,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": "VOLUME_PRODUCTION",
     "height_m": null,
@@ -120,7 +123,8 @@
             "slug": "cnc-machine-tending",
             "entity_type": "TASK",
             "name": "CNC machine tending",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -147,7 +151,10 @@
             "slug": "doosan-robotics",
             "entity_type": "ORGANIZATION",
             "name": "Doosan Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -169,7 +176,10 @@
         "slug": "doosan-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Doosan Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ]
   },

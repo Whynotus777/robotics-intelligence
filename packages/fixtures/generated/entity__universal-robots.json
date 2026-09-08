@@ -16,6 +16,20 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -38,7 +52,8 @@
             "slug": "palletizing",
             "entity_type": "TASK",
             "name": "Palletizing",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -57,7 +72,8 @@
             "slug": "industrial-welding",
             "entity_type": "TASK",
             "name": "Industrial welding",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -76,7 +92,8 @@
             "slug": "cnc-machine-tending",
             "entity_type": "TASK",
             "name": "CNC machine tending",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -101,7 +118,8 @@
             "slug": "odense",
             "entity_type": "PLACE",
             "name": "Odense",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -126,7 +144,8 @@
             "slug": "universal-robots-ur20",
             "entity_type": "ROBOT",
             "name": "Universal Robots UR20",
-            "primary_embodiment": "COBOT"
+            "primary_embodiment": "COBOT",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -151,7 +170,8 @@
             "slug": "manufacturing",
             "entity_type": "MARKET",
             "name": "Manufacturing",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -178,7 +198,8 @@
             "slug": "cobot-tending-cell",
             "entity_type": "APPROACH",
             "name": "Cobot tending cell",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -197,7 +218,8 @@
             "slug": "cobot-palletizer",
             "entity_type": "APPROACH",
             "name": "Cobot palletizer",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -216,7 +238,8 @@
             "slug": "cobot-welding",
             "entity_type": "APPROACH",
             "name": "Cobot welding",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -238,21 +261,24 @@
         "slug": "cobot-palletizer",
         "entity_type": "APPROACH",
         "name": "Cobot palletizer",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
         "slug": "cobot-tending-cell",
         "entity_type": "APPROACH",
         "name": "Cobot tending cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "05ee564d-1a73-5207-a2d6-212eadbedb06",
         "slug": "cobot-welding",
         "entity_type": "APPROACH",
         "name": "Cobot welding",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "markets": [
@@ -261,7 +287,8 @@
         "slug": "manufacturing",
         "entity_type": "MARKET",
         "name": "Manufacturing",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "places": [
@@ -270,7 +297,8 @@
         "slug": "odense",
         "entity_type": "PLACE",
         "name": "Odense",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

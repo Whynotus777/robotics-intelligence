@@ -4,7 +4,8 @@
     "slug": "pallet-movement",
     "entity_type": "TASK",
     "name": "Pallet movement",
-    "primary_embodiment": null
+    "primary_embodiment": null,
+    "roles": []
   },
   "short_description": "Moving full pallets between dock, storage, staging and production areas without a human forklift operator.",
   "market_path": [
@@ -13,14 +14,16 @@
       "slug": "warehouse-logistics",
       "entity_type": "MARKET",
       "name": "Warehouse & Logistics",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     {
       "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
       "slug": "material-movement",
       "entity_type": "MARKET",
       "name": "Warehouse",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "maturity": {
@@ -109,7 +112,8 @@
         "slug": "autonomous-forklift",
         "entity_type": "APPROACH",
         "name": "Autonomous forklift",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "Retrofit kits or purpose-built forklifts that drive, lift and enter trailers autonomously.",
       "maturity": {
@@ -144,14 +148,18 @@
           "slug": "fox-robotics",
           "entity_type": "ORGANIZATION",
           "name": "Fox Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         },
         {
           "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
           "slug": "third-wave-automation",
           "entity_type": "ORGANIZATION",
           "name": "Third Wave Automation",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         }
       ]
     },
@@ -161,7 +169,8 @@
         "slug": "asrs-pallet-handling",
         "entity_type": "APPROACH",
         "name": "AS/RS pallet handling",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "Fixed automated storage and retrieval systems that move pallets or cases within a structure instead of with vehicles.",
       "maturity": {
@@ -194,7 +203,10 @@
           "slug": "symbotic",
           "entity_type": "ORGANIZATION",
           "name": "Symbotic",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OPERATOR"
+          ]
         }
       ]
     },
@@ -204,7 +216,8 @@
         "slug": "amr-pallet-jack-or-lift",
         "entity_type": "APPROACH",
         "name": "AMR pallet jack or lift",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "Purpose-built autonomous pallet trucks and lift trucks that move pallets at floor level or to low rack positions.",
       "maturity": {
@@ -239,21 +252,26 @@
           "slug": "otto-motors",
           "entity_type": "ORGANIZATION",
           "name": "OTTO Motors",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         {
           "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
           "slug": "seegrid",
           "entity_type": "ORGANIZATION",
           "name": "Seegrid",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         },
         {
           "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
           "slug": "vecna",
           "entity_type": "ORGANIZATION",
           "name": "Vecna Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         }
       ]
     }
@@ -351,7 +369,10 @@
         "slug": "fox-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Fox Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Austin"
@@ -362,7 +383,8 @@
         "slug": "otto-motors",
         "entity_type": "ORGANIZATION",
         "name": "OTTO Motors",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Kitchener"
@@ -373,7 +395,10 @@
         "slug": "seegrid",
         "entity_type": "ORGANIZATION",
         "name": "Seegrid",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Pittsburgh"
@@ -384,7 +409,8 @@
         "slug": "third-wave-automation",
         "entity_type": "ORGANIZATION",
         "name": "Third Wave Automation",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "San Francisco Bay Area"
@@ -395,7 +421,8 @@
         "slug": "vecna",
         "entity_type": "ORGANIZATION",
         "name": "Vecna Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Boston"
@@ -564,14 +591,16 @@
       "slug": "automated-storage-and-retrieval",
       "entity_type": "TASK",
       "name": "Automated storage and retrieval",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     {
       "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
       "slug": "truck-unloading",
       "entity_type": "TASK",
       "name": "Truck unloading",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "intelligence_rail": {

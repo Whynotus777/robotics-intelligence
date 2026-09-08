@@ -6,7 +6,10 @@
       "slug": "autostore",
       "entity_type": "ORGANIZATION",
       "name": "AutoStore",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
     },
     "predicate": "BUILDS",
     "label": "builds",
@@ -18,7 +21,8 @@
         "slug": "autostore-r5",
         "entity_type": "ROBOT",
         "name": "AutoStore R5",
-        "primary_embodiment": "OTHER_MOBILE"
+        "primary_embodiment": "OTHER_MOBILE",
+        "roles": []
       },
       "measure": null
     },

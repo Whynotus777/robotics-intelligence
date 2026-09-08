@@ -4,7 +4,8 @@
     "slug": "each-picking-assistance",
     "entity_type": "TASK",
     "name": "Each-picking assistance",
-    "primary_embodiment": null
+    "primary_embodiment": null,
+    "roles": []
   },
   "short_description": "Collaborative mobile robots that carry totes and guide human pickers through each-item order picking.",
   "market_path": [
@@ -13,14 +14,16 @@
       "slug": "warehouse-logistics",
       "entity_type": "MARKET",
       "name": "Warehouse & Logistics",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     {
       "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
       "slug": "material-movement",
       "entity_type": "MARKET",
       "name": "Warehouse",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "maturity": {
@@ -85,7 +88,10 @@
         "slug": "six-river-systems",
         "entity_type": "ORGANIZATION",
         "name": "6 River Systems",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Waltham"
@@ -96,7 +102,10 @@
         "slug": "geek-plus",
         "entity_type": "ORGANIZATION",
         "name": "Geek+",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Beijing"
@@ -107,7 +116,11 @@
         "slug": "locus",
         "entity_type": "ORGANIZATION",
         "name": "Locus Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Boston"
@@ -120,7 +133,8 @@
         "slug": "deployment-locus-3pl-sites",
         "entity_type": "DEPLOYMENT",
         "name": "Locus fleets at 3PL sites",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "customer": null,
       "operators": [
@@ -129,7 +143,11 @@
           "slug": "locus",
           "entity_type": "ORGANIZATION",
           "name": "Locus Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "OPERATOR"
+          ]
         }
       ],
       "robots": [
@@ -138,7 +156,8 @@
           "slug": "locus-origin",
           "entity_type": "ROBOT",
           "name": "Locus Origin",
-          "primary_embodiment": "AMR"
+          "primary_embodiment": "AMR",
+          "roles": []
         }
       ],
       "places": [],

@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -114,7 +117,8 @@
             "slug": "drone-based-blade-maintenance",
             "entity_type": "APPROACH",
             "name": "Drone-based",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -139,7 +143,8 @@
             "slug": "wind",
             "entity_type": "MARKET",
             "name": "Wind",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -166,7 +171,8 @@
             "slug": "blade-repair",
             "entity_type": "TASK",
             "name": "Blade repair",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -191,7 +197,8 @@
             "slug": "aerones",
             "entity_type": "ORGANIZATION",
             "name": "Aerones",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -210,7 +217,8 @@
             "slug": "bladebug",
             "entity_type": "ORGANIZATION",
             "name": "BladeBUG",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -229,7 +237,10 @@
             "slug": "skyspecs",
             "entity_type": "ORGANIZATION",
             "name": "SkySpecs",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -254,7 +265,8 @@
             "slug": "deployment-skyspecs-wind-fleets",
             "entity_type": "DEPLOYMENT",
             "name": "SkySpecs inspections across utility-scale wind fleets",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -276,7 +288,8 @@
         "slug": "drone-based-blade-maintenance",
         "entity_type": "APPROACH",
         "name": "Drone-based",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "company": [
@@ -285,21 +298,26 @@
         "slug": "aerones",
         "entity_type": "ORGANIZATION",
         "name": "Aerones",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
         "slug": "bladebug",
         "entity_type": "ORGANIZATION",
         "name": "BladeBUG",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
         "slug": "skyspecs",
         "entity_type": "ORGANIZATION",
         "name": "SkySpecs",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       }
     ],
     "markets": [
@@ -308,7 +326,8 @@
         "slug": "wind",
         "entity_type": "MARKET",
         "name": "Wind",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

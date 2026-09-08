@@ -15,6 +15,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": "PILOT_DEPLOYMENTS",
     "height_m": null,
@@ -90,7 +93,8 @@
             "slug": "warehouse-logistics",
             "entity_type": "MARKET",
             "name": "Warehouse & Logistics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -117,7 +121,8 @@
             "slug": "deployment-digit-gxo",
             "entity_type": "DEPLOYMENT",
             "name": "Agility Digit at GXO",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -142,7 +147,11 @@
             "slug": "agility",
             "entity_type": "ORGANIZATION",
             "name": "Agility Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -164,7 +173,11 @@
         "slug": "agility",
         "entity_type": "ORGANIZATION",
         "name": "Agility Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       }
     ],
     "markets": [
@@ -173,7 +186,8 @@
         "slug": "warehouse-logistics",
         "entity_type": "MARKET",
         "name": "Warehouse & Logistics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

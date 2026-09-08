@@ -4,6 +4,7 @@ import {
   Confidence,
   Embodiment,
   EntityType,
+  OrganizationRole,
   EvidenceClass,
   EvidenceClassOrNotAvailable,
   EvidenceStance,
@@ -20,6 +21,8 @@ export const EntityChip = z.object({
   entity_type: EntityType,
   name: z.string(),
   primary_embodiment: Embodiment.nullable(),
+  /** What an organization does in robotics; empty for every other entity type. */
+  roles: z.array(OrganizationRole),
 });
 export type EntityChip = z.infer<typeof EntityChip>;
 
@@ -132,3 +135,16 @@ export const AsOfQuery = z.object({ as_of: IsoDate.optional() });
 export type AsOfQuery = z.infer<typeof AsOfQuery>;
 
 export { ClaimStatus, IsoDate };
+
+/**
+ * A role with the evidence behind it. `declared` is a HAS_ROLE claim someone stood
+ * behind; otherwise the role was inferred from the company's relationships and says
+ * so, because an inference is a weaker statement than a claim.
+ */
+export const RoleView = z.object({
+  role: OrganizationRole,
+  declared: z.boolean(),
+  claim_id: z.uuid().nullable(),
+  evidence_summary: EvidenceSummary,
+});
+export type RoleView = z.infer<typeof RoleView>;

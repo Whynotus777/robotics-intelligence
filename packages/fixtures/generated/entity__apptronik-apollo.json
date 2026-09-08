@@ -15,6 +15,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": "PILOT_DEPLOYMENTS",
     "height_m": 1.73,
@@ -232,7 +235,8 @@
             "slug": "figure-03",
             "entity_type": "ROBOT",
             "name": "Figure 03",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -259,7 +263,11 @@
             "slug": "apptronik",
             "entity_type": "ORGANIZATION",
             "name": "Apptronik",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -284,7 +292,8 @@
             "slug": "unitree-g1",
             "entity_type": "ROBOT",
             "name": "Unitree G1",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -309,7 +318,8 @@
             "slug": "deployment-apollo-mercedes",
             "entity_type": "DEPLOYMENT",
             "name": "Apollo pilot at Mercedes-Benz",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -331,7 +341,11 @@
         "slug": "apptronik",
         "entity_type": "ORGANIZATION",
         "name": "Apptronik",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       }
     ],
     "peers": [
@@ -340,14 +354,16 @@
         "slug": "figure-03",
         "entity_type": "ROBOT",
         "name": "Figure 03",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       },
       {
         "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
         "slug": "unitree-g1",
         "entity_type": "ROBOT",
         "name": "Unitree G1",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       }
     ]
   },

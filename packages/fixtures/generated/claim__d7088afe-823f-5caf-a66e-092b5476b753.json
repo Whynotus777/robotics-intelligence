@@ -6,7 +6,8 @@
       "slug": "skild-brain",
       "entity_type": "MODEL",
       "name": "Skild Brain",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     "predicate": "MADE_BY",
     "label": "is made by",
@@ -18,7 +19,10 @@
         "slug": "skild-ai",
         "entity_type": "ORGANIZATION",
         "name": "Skild AI",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
       },
       "measure": null
     },

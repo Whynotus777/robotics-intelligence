@@ -16,6 +16,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -38,7 +41,8 @@
             "slug": "edge-ai-compute",
             "entity_type": "TECHNOLOGY",
             "name": "Edge AI compute",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -63,7 +67,10 @@
             "slug": "qualcomm",
             "entity_type": "ORGANIZATION",
             "name": "Qualcomm",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -90,7 +97,8 @@
             "slug": "nvidia-jetson-thor",
             "entity_type": "COMPONENT_PRODUCT",
             "name": "NVIDIA Jetson Thor",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -115,7 +123,10 @@
             "slug": "qualcomm",
             "entity_type": "ORGANIZATION",
             "name": "Qualcomm",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -137,7 +148,10 @@
         "slug": "qualcomm",
         "entity_type": "ORGANIZATION",
         "name": "Qualcomm",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
       }
     ],
     "technologies": [
@@ -146,7 +160,8 @@
         "slug": "edge-ai-compute",
         "entity_type": "TECHNOLOGY",
         "name": "Edge AI compute",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "peers": [
@@ -155,7 +170,8 @@
         "slug": "nvidia-jetson-thor",
         "entity_type": "COMPONENT_PRODUCT",
         "name": "NVIDIA Jetson Thor",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

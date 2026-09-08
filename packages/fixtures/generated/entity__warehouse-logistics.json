@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -36,7 +39,10 @@
             "slug": "exotec",
             "entity_type": "ORGANIZATION",
             "name": "Exotec",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -55,7 +61,8 @@
             "slug": "vecna",
             "entity_type": "ORGANIZATION",
             "name": "Vecna Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -74,7 +81,10 @@
             "slug": "symbotic",
             "entity_type": "ORGANIZATION",
             "name": "Symbotic",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -93,7 +103,10 @@
             "slug": "fox-robotics",
             "entity_type": "ORGANIZATION",
             "name": "Fox Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -112,7 +125,8 @@
             "slug": "gatik-autonomous-box-truck",
             "entity_type": "ROBOT",
             "name": "Gatik autonomous box truck",
-            "primary_embodiment": "AUTONOMOUS_VEHICLE"
+            "primary_embodiment": "AUTONOMOUS_VEHICLE",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -131,7 +145,10 @@
             "slug": "gatik",
             "entity_type": "ORGANIZATION",
             "name": "Gatik",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -150,7 +167,8 @@
             "slug": "third-wave-automation",
             "entity_type": "ORGANIZATION",
             "name": "Third Wave Automation",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -169,7 +187,11 @@
             "slug": "agility",
             "entity_type": "ORGANIZATION",
             "name": "Agility Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -188,7 +210,11 @@
             "slug": "locus",
             "entity_type": "ORGANIZATION",
             "name": "Locus Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -207,7 +233,8 @@
             "slug": "amazon-robotics",
             "entity_type": "ORGANIZATION",
             "name": "Amazon Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -226,7 +253,10 @@
             "slug": "six-river-systems",
             "entity_type": "ORGANIZATION",
             "name": "6 River Systems",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -245,7 +275,10 @@
             "slug": "autostore",
             "entity_type": "ORGANIZATION",
             "name": "AutoStore",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -264,7 +297,10 @@
             "slug": "geek-plus",
             "entity_type": "ORGANIZATION",
             "name": "Geek+",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -283,7 +319,8 @@
             "slug": "agility-digit",
             "entity_type": "ROBOT",
             "name": "Agility Digit",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -302,7 +339,10 @@
             "slug": "seegrid",
             "entity_type": "ORGANIZATION",
             "name": "Seegrid",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -321,7 +361,10 @@
             "slug": "zebra-technologies",
             "entity_type": "ORGANIZATION",
             "name": "Zebra Technologies",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -346,7 +389,8 @@
             "slug": "yard-and-dock",
             "entity_type": "MARKET",
             "name": "Yard & dock",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -365,7 +409,8 @@
             "slug": "material-movement",
             "entity_type": "MARKET",
             "name": "Warehouse",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -387,98 +432,136 @@
         "slug": "six-river-systems",
         "entity_type": "ORGANIZATION",
         "name": "6 River Systems",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
         "slug": "agility",
         "entity_type": "ORGANIZATION",
         "name": "Agility Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       },
       {
         "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
         "slug": "amazon-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Amazon Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "32f4fe35-c685-537a-8ef0-68cd02e5ccc9",
         "slug": "autostore",
         "entity_type": "ORGANIZATION",
         "name": "AutoStore",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "b0f83f46-ab25-5f87-aed0-18c1598a442b",
         "slug": "exotec",
         "entity_type": "ORGANIZATION",
         "name": "Exotec",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
         "slug": "fox-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Fox Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "c9b84a3a-f7dd-578a-a6c9-6c0a2b061b1b",
         "slug": "gatik",
         "entity_type": "ORGANIZATION",
         "name": "Gatik",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "2af4b707-5460-5da6-b7ad-3addf359a049",
         "slug": "geek-plus",
         "entity_type": "ORGANIZATION",
         "name": "Geek+",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "79815395-59ce-5c93-aef0-8686647839c6",
         "slug": "locus",
         "entity_type": "ORGANIZATION",
         "name": "Locus Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       },
       {
         "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
         "slug": "seegrid",
         "entity_type": "ORGANIZATION",
         "name": "Seegrid",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "74914967-d3be-58ab-aacb-456441b741b1",
         "slug": "symbotic",
         "entity_type": "ORGANIZATION",
         "name": "Symbotic",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       },
       {
         "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
         "slug": "third-wave-automation",
         "entity_type": "ORGANIZATION",
         "name": "Third Wave Automation",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
         "slug": "vecna",
         "entity_type": "ORGANIZATION",
         "name": "Vecna Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "3cb0b126-ccfc-5bfb-be9a-95938e0d69f8",
         "slug": "zebra-technologies",
         "entity_type": "ORGANIZATION",
         "name": "Zebra Technologies",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ],
     "markets": [
@@ -487,14 +570,16 @@
         "slug": "material-movement",
         "entity_type": "MARKET",
         "name": "Warehouse",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "501d5b0b-94fb-5678-821c-49709246b039",
         "slug": "yard-and-dock",
         "entity_type": "MARKET",
         "name": "Yard & dock",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

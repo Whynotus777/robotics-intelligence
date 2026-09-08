@@ -6,7 +6,11 @@
       "slug": "boston-dynamics",
       "entity_type": "ORGANIZATION",
       "name": "Boston Dynamics",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
     },
     "predicate": "BUILDS",
     "label": "builds",
@@ -18,7 +22,8 @@
         "slug": "boston-dynamics-spot",
         "entity_type": "ROBOT",
         "name": "Boston Dynamics Spot",
-        "primary_embodiment": "QUADRUPED"
+        "primary_embodiment": "QUADRUPED",
+        "roles": []
       },
       "measure": null
     },
@@ -64,7 +69,8 @@
           "slug": "boston-dynamics-atlas",
           "entity_type": "ROBOT",
           "name": "Boston Dynamics Atlas",
-          "primary_embodiment": "HUMANOID"
+          "primary_embodiment": "HUMANOID",
+          "roles": []
         },
         "measure": null
       },

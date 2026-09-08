@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -42,7 +45,11 @@
             "slug": "abb-robotics",
             "entity_type": "ORGANIZATION",
             "name": "ABB Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "CONTRACT_MANUFACTURER",
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -67,7 +74,10 @@
             "slug": "fourier-intelligence",
             "entity_type": "ORGANIZATION",
             "name": "Fourier Intelligence",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -86,7 +96,10 @@
             "slug": "hesai",
             "entity_type": "ORGANIZATION",
             "name": "Hesai Technology",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -108,21 +121,31 @@
         "slug": "abb-robotics",
         "entity_type": "ORGANIZATION",
         "name": "ABB Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
       },
       {
         "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
         "slug": "fourier-intelligence",
         "entity_type": "ORGANIZATION",
         "name": "Fourier Intelligence",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "634f0531-a0d7-5d56-b836-691d66886e2a",
         "slug": "hesai",
         "entity_type": "ORGANIZATION",
         "name": "Hesai Technology",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
       }
     ]
   },

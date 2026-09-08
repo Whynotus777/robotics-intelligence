@@ -4,7 +4,8 @@
     "slug": "automated-storage-and-retrieval",
     "entity_type": "TASK",
     "name": "Automated storage and retrieval",
-    "primary_embodiment": null
+    "primary_embodiment": null,
+    "roles": []
   },
   "short_description": "Fixed automated systems that store, retrieve and sequence pallets, cases or totes with no human inside the storage volume.",
   "market_path": [
@@ -13,14 +14,16 @@
       "slug": "warehouse-logistics",
       "entity_type": "MARKET",
       "name": "Warehouse & Logistics",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     {
       "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
       "slug": "material-movement",
       "entity_type": "MARKET",
       "name": "Warehouse",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "maturity": {
@@ -85,7 +88,8 @@
         "slug": "asrs-pallet-handling",
         "entity_type": "APPROACH",
         "name": "AS/RS pallet handling",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "Fixed automated storage and retrieval systems that move pallets or cases within a structure instead of with vehicles.",
       "maturity": {
@@ -118,7 +122,10 @@
           "slug": "symbotic",
           "entity_type": "ORGANIZATION",
           "name": "Symbotic",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OPERATOR"
+          ]
         }
       ]
     }
@@ -130,7 +137,10 @@
         "slug": "autostore",
         "entity_type": "ORGANIZATION",
         "name": "AutoStore",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Nedre Vats"
@@ -141,7 +151,10 @@
         "slug": "exotec",
         "entity_type": "ORGANIZATION",
         "name": "Exotec",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Croix"
@@ -152,7 +165,10 @@
         "slug": "symbotic",
         "entity_type": "ORGANIZATION",
         "name": "Symbotic",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Boston"
@@ -165,14 +181,18 @@
         "slug": "deployment-symbotic-walmart",
         "entity_type": "DEPLOYMENT",
         "name": "Symbotic systems at Walmart regional DCs",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "customer": {
         "id": "7f880e99-4aa8-51d2-8bd9-c49d613ed706",
         "slug": "walmart",
         "entity_type": "ORGANIZATION",
         "name": "Walmart",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       },
       "operators": [
         {
@@ -180,7 +200,10 @@
           "slug": "symbotic",
           "entity_type": "ORGANIZATION",
           "name": "Symbotic",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OPERATOR"
+          ]
         }
       ],
       "robots": [],

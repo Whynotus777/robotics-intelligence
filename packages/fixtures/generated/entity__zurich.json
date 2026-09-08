@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -42,7 +45,10 @@
             "slug": "anybotics",
             "entity_type": "ORGANIZATION",
             "name": "ANYbotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -61,7 +67,11 @@
             "slug": "abb-robotics",
             "entity_type": "ORGANIZATION",
             "name": "ABB Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "CONTRACT_MANUFACTURER",
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -83,14 +93,21 @@
         "slug": "abb-robotics",
         "entity_type": "ORGANIZATION",
         "name": "ABB Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
       },
       {
         "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
         "slug": "anybotics",
         "entity_type": "ORGANIZATION",
         "name": "ANYbotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ]
   },

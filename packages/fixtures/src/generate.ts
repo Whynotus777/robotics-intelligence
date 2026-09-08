@@ -1,6 +1,7 @@
 import { mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { createDb, claims } from "@ri/db";
+import { ATLAS_LAYERS } from "@ri/api-contracts";
 import {
   atlasHandler, claimEvidenceHandler, compareHandler, context, entityHandler, exploreHandler, marketHandler, searchHandler, stackHandler,
   stackMatrixHandler, taskHandler, updatesHandler,
@@ -25,7 +26,7 @@ try {
   for (const lens of ["embodiment", "market", "technology", "geography", "maturity"] as const) put(`explore/${lens}/none`, await exploreHandler(ctx, { lens, measure: "none" }));
   for (const lens of ["embodiment", "market", "technology", "geography", "maturity"] as const) put(`stack-matrix/${lens}`, await stackMatrixHandler(ctx, { lens }));
   put("compare/unitree-g1-apptronik-apollo-figure-03", await compareHandler(ctx, { slugs: ["unitree-g1", "apptronik-apollo", "figure-03"] }));
-  for (const layer of ["hq", "rnd", "manufacturing", "deployments", "research"] as const) put(`atlas/${layer}`, await atlasHandler(ctx, { layer }));
+  for (const layer of ATLAS_LAYERS) put(`atlas/${layer}`, await atlasHandler(ctx, { layer }));
   // Two payloads: the feed as it is read by default, and the same feed with the
   // seeded initial load included, which is what the "Show initial data load"
   // toggle asks for.

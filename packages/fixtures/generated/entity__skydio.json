@@ -13,6 +13,20 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -35,7 +49,8 @@
             "slug": "skydio-x10",
             "entity_type": "ROBOT",
             "name": "Skydio X10",
-            "primary_embodiment": "DRONE"
+            "primary_embodiment": "DRONE",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -60,7 +75,8 @@
             "slug": "utilities",
             "entity_type": "MARKET",
             "name": "Utilities",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -79,7 +95,8 @@
             "slug": "defense",
             "entity_type": "MARKET",
             "name": "Defense",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -104,7 +121,8 @@
             "slug": "bay-area",
             "entity_type": "PLACE",
             "name": "San Francisco Bay Area",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -127,14 +145,16 @@
         "slug": "defense",
         "entity_type": "MARKET",
         "name": "Defense",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "b68dee12-fd2b-52e9-8e63-85bcc3263b17",
         "slug": "utilities",
         "entity_type": "MARKET",
         "name": "Utilities",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "places": [
@@ -143,7 +163,8 @@
         "slug": "bay-area",
         "entity_type": "PLACE",
         "name": "San Francisco Bay Area",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

@@ -15,6 +15,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": "VOLUME_PRODUCTION",
     "height_m": null,
@@ -90,7 +93,8 @@
             "slug": "automated-storage-and-retrieval",
             "entity_type": "TASK",
             "name": "Automated storage and retrieval",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -117,7 +121,10 @@
             "slug": "autostore",
             "entity_type": "ORGANIZATION",
             "name": "AutoStore",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -139,7 +146,10 @@
         "slug": "autostore",
         "entity_type": "ORGANIZATION",
         "name": "AutoStore",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ]
   },

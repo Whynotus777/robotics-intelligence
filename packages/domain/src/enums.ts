@@ -56,6 +56,38 @@ export const COMMERCIAL_STAGES = [
 export const CommercialStage = z.enum(COMMERCIAL_STAGES);
 export type CommercialStage = z.infer<typeof CommercialStage>;
 
+/**
+ * What a company does in robotics. Declared with HAS_ROLE; a company holds several.
+ * PLATFORM is a declared judgment, not a job: robotics involvement across three or
+ * more roles, or through subsidiaries.
+ */
+export const ORGANIZATION_ROLES = [
+  "OEM",
+  "COMPONENT_SUPPLIER",
+  "CHIPMAKER",
+  "CONTRACT_MANUFACTURER",
+  "INTEGRATOR",
+  "MODEL_DEVELOPER",
+  "PLATFORM",
+  "INVESTOR",
+  "RESEARCH_LAB",
+  "OPERATOR",
+] as const;
+export const OrganizationRole = z.enum(ORGANIZATION_ROLES);
+export type OrganizationRole = z.infer<typeof OrganizationRole>;
+
+/** Where a robot's or a model's training data comes from. */
+export const DATA_COLLECTION_METHODS = [
+  "TELEOPERATION",
+  "REAL_DEPLOYMENT",
+  "SIMULATION",
+  "INTERNET_VIDEO",
+  "HUMAN_VIDEO",
+  "SYNTHETIC",
+] as const;
+export const DataCollectionMethod = z.enum(DATA_COLLECTION_METHODS);
+export type DataCollectionMethod = z.infer<typeof DataCollectionMethod>;
+
 export const DEPLOYMENT_KINDS = ["FIELD_TRIAL", "PILOT", "COMMERCIAL"] as const;
 export const DeploymentKind = z.enum(DEPLOYMENT_KINDS);
 export type DeploymentKind = z.infer<typeof DeploymentKind>;
@@ -171,7 +203,7 @@ export const Cardinality = z.enum(CARDINALITIES);
 export type Cardinality = z.infer<typeof Cardinality>;
 
 // Names of enums a value_enum claim may draw from.
-export const ENUM_NAMES = ["Maturity", "CommercialStage", "Embodiment", "DeploymentKind"] as const;
+export const ENUM_NAMES = ["Maturity", "CommercialStage", "Embodiment", "DeploymentKind", "OrganizationRole", "DataCollectionMethod"] as const;
 export const EnumName = z.enum(ENUM_NAMES);
 export type EnumName = z.infer<typeof EnumName>;
 
@@ -180,4 +212,6 @@ export const ENUM_VALUES: Record<EnumName, readonly string[]> = {
   CommercialStage: COMMERCIAL_STAGES,
   Embodiment: EMBODIMENTS,
   DeploymentKind: DEPLOYMENT_KINDS,
+  OrganizationRole: ORGANIZATION_ROLES,
+  DataCollectionMethod: DATA_COLLECTION_METHODS,
 };

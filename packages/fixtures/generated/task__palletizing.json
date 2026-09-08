@@ -4,7 +4,8 @@
     "slug": "palletizing",
     "entity_type": "TASK",
     "name": "Palletizing",
-    "primary_embodiment": null
+    "primary_embodiment": null,
+    "roles": []
   },
   "short_description": "Stacking cases, bags or trays onto a pallet at the end of a production line, to a pattern and at line rate.",
   "market_path": [
@@ -13,14 +14,16 @@
       "slug": "manufacturing",
       "entity_type": "MARKET",
       "name": "Manufacturing",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     {
       "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
       "slug": "machine-tending",
       "entity_type": "MARKET",
       "name": "Machine tending",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "maturity": {
@@ -85,7 +88,8 @@
         "slug": "cobot-palletizer",
         "entity_type": "APPROACH",
         "name": "Cobot palletizer",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "A collaborative arm on a wheeled base or lift column, moved between lines and set up by an operator rather than an integrator.",
       "maturity": {
@@ -122,14 +126,20 @@
           "slug": "doosan-robotics",
           "entity_type": "ORGANIZATION",
           "name": "Doosan Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         },
         {
           "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
           "slug": "universal-robots",
           "entity_type": "ORGANIZATION",
           "name": "Universal Robots",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         }
       ]
     },
@@ -139,7 +149,8 @@
         "slug": "robotic-palletizing-cell",
         "entity_type": "APPROACH",
         "name": "Robotic palletizing cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "A dedicated arm at the end of a line stacking cases or bags to a pattern, usually with a vacuum or clamp tool.",
       "maturity": {
@@ -174,14 +185,20 @@
           "slug": "fanuc",
           "entity_type": "ORGANIZATION",
           "name": "FANUC",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         },
         {
           "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
           "slug": "kuka",
           "entity_type": "ORGANIZATION",
           "name": "KUKA",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         }
       ]
     }
@@ -237,7 +254,10 @@
         "slug": "doosan-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Doosan Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Suwon"
@@ -248,7 +268,10 @@
         "slug": "fanuc",
         "entity_type": "ORGANIZATION",
         "name": "FANUC",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Oshino"
@@ -259,7 +282,10 @@
         "slug": "kuka",
         "entity_type": "ORGANIZATION",
         "name": "KUKA",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Augsburg"
@@ -270,7 +296,10 @@
         "slug": "universal-robots",
         "entity_type": "ORGANIZATION",
         "name": "Universal Robots",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Odense"
@@ -372,7 +401,8 @@
       "slug": "pallet-movement",
       "entity_type": "TASK",
       "name": "Pallet movement",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "economics_notes": [

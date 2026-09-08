@@ -15,6 +15,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": "COMMERCIAL",
     "height_m": null,
@@ -180,7 +183,8 @@
             "slug": "depth-cameras",
             "entity_type": "TECHNOLOGY",
             "name": "Depth cameras",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": "SENSORS",
           "qualifier": null,
@@ -207,7 +211,8 @@
             "slug": "anybotics-anymal-d",
             "entity_type": "ROBOT",
             "name": "ANYbotics ANYmal D",
-            "primary_embodiment": "QUADRUPED"
+            "primary_embodiment": "QUADRUPED",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -232,7 +237,11 @@
             "slug": "boston-dynamics",
             "entity_type": "ORGANIZATION",
             "name": "Boston Dynamics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -257,7 +266,8 @@
             "slug": "deployment-spot-industrial-inspection",
             "entity_type": "DEPLOYMENT",
             "name": "Spot at industrial inspection sites",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -279,7 +289,11 @@
         "slug": "boston-dynamics",
         "entity_type": "ORGANIZATION",
         "name": "Boston Dynamics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       }
     ],
     "technologies": [
@@ -288,7 +302,8 @@
         "slug": "depth-cameras",
         "entity_type": "TECHNOLOGY",
         "name": "Depth cameras",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "peers": [
@@ -297,7 +312,8 @@
         "slug": "anybotics-anymal-d",
         "entity_type": "ROBOT",
         "name": "ANYbotics ANYmal D",
-        "primary_embodiment": "QUADRUPED"
+        "primary_embodiment": "QUADRUPED",
+        "roles": []
       }
     ]
   },

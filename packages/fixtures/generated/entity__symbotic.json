@@ -15,6 +15,20 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "OPERATOR",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -37,7 +51,8 @@
             "slug": "automated-storage-and-retrieval",
             "entity_type": "TASK",
             "name": "Automated storage and retrieval",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -62,7 +77,8 @@
             "slug": "warehouse-logistics",
             "entity_type": "MARKET",
             "name": "Warehouse & Logistics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -87,7 +103,8 @@
             "slug": "boston",
             "entity_type": "PLACE",
             "name": "Boston",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -112,7 +129,10 @@
             "slug": "walmart",
             "entity_type": "ORGANIZATION",
             "name": "Walmart",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -139,7 +159,8 @@
             "slug": "deployment-symbotic-walmart",
             "entity_type": "DEPLOYMENT",
             "name": "Symbotic systems at Walmart regional DCs",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -164,7 +185,8 @@
             "slug": "asrs-pallet-handling",
             "entity_type": "APPROACH",
             "name": "AS/RS pallet handling",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -186,7 +208,8 @@
         "slug": "asrs-pallet-handling",
         "entity_type": "APPROACH",
         "name": "AS/RS pallet handling",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "company": [
@@ -195,7 +218,10 @@
         "slug": "walmart",
         "entity_type": "ORGANIZATION",
         "name": "Walmart",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       }
     ],
     "markets": [
@@ -204,7 +230,8 @@
         "slug": "warehouse-logistics",
         "entity_type": "MARKET",
         "name": "Warehouse & Logistics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "places": [
@@ -213,7 +240,8 @@
         "slug": "boston",
         "entity_type": "PLACE",
         "name": "Boston",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -42,7 +45,8 @@
             "slug": "vecna",
             "entity_type": "ORGANIZATION",
             "name": "Vecna Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -61,7 +65,10 @@
             "slug": "symbotic",
             "entity_type": "ORGANIZATION",
             "name": "Symbotic",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -80,7 +87,8 @@
             "slug": "amazon-robotics",
             "entity_type": "ORGANIZATION",
             "name": "Amazon Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -99,7 +107,11 @@
             "slug": "boston-dynamics",
             "entity_type": "ORGANIZATION",
             "name": "Boston Dynamics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -118,7 +130,11 @@
             "slug": "locus",
             "entity_type": "ORGANIZATION",
             "name": "Locus Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -140,35 +156,48 @@
         "slug": "amazon-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Amazon Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
         "slug": "boston-dynamics",
         "entity_type": "ORGANIZATION",
         "name": "Boston Dynamics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       },
       {
         "id": "79815395-59ce-5c93-aef0-8686647839c6",
         "slug": "locus",
         "entity_type": "ORGANIZATION",
         "name": "Locus Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       },
       {
         "id": "74914967-d3be-58ab-aacb-456441b741b1",
         "slug": "symbotic",
         "entity_type": "ORGANIZATION",
         "name": "Symbotic",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       },
       {
         "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
         "slug": "vecna",
         "entity_type": "ORGANIZATION",
         "name": "Vecna Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

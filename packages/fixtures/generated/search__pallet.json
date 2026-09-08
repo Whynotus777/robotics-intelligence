@@ -7,7 +7,8 @@
         "slug": "amr-pallet-jack-or-lift",
         "entity_type": "APPROACH",
         "name": "AMR pallet jack or lift",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "APPROACH",
       "match_field": "name",
@@ -19,7 +20,8 @@
         "slug": "asrs-pallet-handling",
         "entity_type": "APPROACH",
         "name": "AS/RS pallet handling",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "APPROACH",
       "match_field": "name",
@@ -31,7 +33,8 @@
         "slug": "cobot-palletizer",
         "entity_type": "APPROACH",
         "name": "Cobot palletizer",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "APPROACH",
       "match_field": "name",
@@ -43,7 +46,8 @@
         "slug": "pallet-movement",
         "entity_type": "TASK",
         "name": "Pallet movement",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "TASK",
       "match_field": "name",
@@ -55,7 +59,8 @@
         "slug": "palletizing",
         "entity_type": "TASK",
         "name": "Palletizing",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "TASK",
       "match_field": "name",
@@ -67,7 +72,8 @@
         "slug": "robotic-palletizing-cell",
         "entity_type": "APPROACH",
         "name": "Robotic palletizing cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "APPROACH",
       "match_field": "name",
@@ -79,7 +85,8 @@
         "slug": "automated-storage-and-retrieval",
         "entity_type": "TASK",
         "name": "Automated storage and retrieval",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "TASK",
       "match_field": "description",
@@ -91,7 +98,8 @@
         "slug": "case-picking",
         "entity_type": "TASK",
         "name": "Case picking",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "TASK",
       "match_field": "description",
@@ -103,7 +111,8 @@
         "slug": "fetch-freight1500",
         "entity_type": "ROBOT",
         "name": "Fetch Freight1500",
-        "primary_embodiment": "AMR"
+        "primary_embodiment": "AMR",
+        "roles": []
       },
       "entity_type": "ROBOT",
       "match_field": "description",
@@ -115,7 +124,8 @@
         "slug": "fox-robotics-foxbot",
         "entity_type": "ROBOT",
         "name": "Fox Robotics FoxBot",
-        "primary_embodiment": "AMR"
+        "primary_embodiment": "AMR",
+        "roles": []
       },
       "entity_type": "ROBOT",
       "match_field": "description",
@@ -127,7 +137,8 @@
         "slug": "otto-motors",
         "entity_type": "ORGANIZATION",
         "name": "OTTO Motors",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "ORGANIZATION",
       "match_field": "description",
@@ -139,7 +150,8 @@
         "slug": "pittsburgh",
         "entity_type": "PLACE",
         "name": "Pittsburgh",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "PLACE",
       "match_field": "description",
@@ -151,7 +163,10 @@
         "slug": "seegrid",
         "entity_type": "ORGANIZATION",
         "name": "Seegrid",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "entity_type": "ORGANIZATION",
       "match_field": "description",
@@ -163,7 +178,8 @@
         "slug": "seegrid-palion-lift",
         "entity_type": "ROBOT",
         "name": "Seegrid Palion Lift",
-        "primary_embodiment": "AMR"
+        "primary_embodiment": "AMR",
+        "roles": []
       },
       "entity_type": "ROBOT",
       "match_field": "description",
@@ -175,7 +191,8 @@
         "slug": "truck-unloading",
         "entity_type": "TASK",
         "name": "Truck unloading",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "TASK",
       "match_field": "description",
@@ -187,7 +204,8 @@
         "slug": "vecna",
         "entity_type": "ORGANIZATION",
         "name": "Vecna Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "ORGANIZATION",
       "match_field": "description",
@@ -199,7 +217,8 @@
         "slug": "material-movement",
         "entity_type": "MARKET",
         "name": "Warehouse",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "entity_type": "MARKET",
       "match_field": "description",

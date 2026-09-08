@@ -16,6 +16,20 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -38,7 +52,8 @@
             "slug": "each-picking-assistance",
             "entity_type": "TASK",
             "name": "Each-picking assistance",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -63,7 +78,8 @@
             "slug": "beijing",
             "entity_type": "PLACE",
             "name": "Beijing",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -88,7 +104,8 @@
             "slug": "warehouse-logistics",
             "entity_type": "MARKET",
             "name": "Warehouse & Logistics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -113,7 +130,8 @@
             "slug": "geek-plus-p800",
             "entity_type": "ROBOT",
             "name": "Geek+ P800",
-            "primary_embodiment": "AMR"
+            "primary_embodiment": "AMR",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -136,7 +154,8 @@
         "slug": "warehouse-logistics",
         "entity_type": "MARKET",
         "name": "Warehouse & Logistics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "places": [
@@ -145,7 +164,8 @@
         "slug": "beijing",
         "entity_type": "PLACE",
         "name": "Beijing",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

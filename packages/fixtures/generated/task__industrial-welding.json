@@ -4,7 +4,8 @@
     "slug": "industrial-welding",
     "entity_type": "TASK",
     "name": "Industrial welding",
-    "primary_embodiment": null
+    "primary_embodiment": null,
+    "roles": []
   },
   "short_description": "Joining metal parts by arc or spot welding to a specified procedure, repeatably and to a standard someone will inspect.",
   "market_path": [
@@ -13,14 +14,16 @@
       "slug": "manufacturing",
       "entity_type": "MARKET",
       "name": "Manufacturing",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     {
       "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
       "slug": "machine-tending",
       "entity_type": "MARKET",
       "name": "Machine tending",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "maturity": {
@@ -85,7 +88,8 @@
         "slug": "cobot-welding",
         "entity_type": "APPROACH",
         "name": "Cobot welding",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "A collaborative arm with a torch, taught by hand-guiding, aimed at the job shop that welds fifty of something rather than fifty thousand.",
       "maturity": {
@@ -122,14 +126,20 @@
           "slug": "doosan-robotics",
           "entity_type": "ORGANIZATION",
           "name": "Doosan Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         },
         {
           "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
           "slug": "universal-robots",
           "entity_type": "ORGANIZATION",
           "name": "Universal Robots",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         }
       ]
     },
@@ -139,7 +149,8 @@
         "slug": "robotic-arc-welding-cell",
         "entity_type": "APPROACH",
         "name": "Robotic arc welding cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "A fenced arm with a welding torch and positioner, programmed offline for a fixed part family.",
       "maturity": {
@@ -174,14 +185,21 @@
           "slug": "abb-robotics",
           "entity_type": "ORGANIZATION",
           "name": "ABB Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER",
+            "OEM"
+          ]
         },
         {
           "id": "771449f4-1624-5bcf-a888-40b087e1230c",
           "slug": "yaskawa",
           "entity_type": "ORGANIZATION",
           "name": "Yaskawa Electric",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         }
       ]
     }
@@ -258,7 +276,11 @@
         "slug": "abb-robotics",
         "entity_type": "ORGANIZATION",
         "name": "ABB Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Zurich"
@@ -269,7 +291,10 @@
         "slug": "kuka",
         "entity_type": "ORGANIZATION",
         "name": "KUKA",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Augsburg"
@@ -280,7 +305,10 @@
         "slug": "universal-robots",
         "entity_type": "ORGANIZATION",
         "name": "Universal Robots",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Odense"
@@ -291,7 +319,10 @@
         "slug": "yaskawa",
         "entity_type": "ORGANIZATION",
         "name": "Yaskawa Electric",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Kitakyushu"
@@ -436,7 +467,8 @@
       "slug": "assembly",
       "entity_type": "TASK",
       "name": "Assembly",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "intelligence_rail": {

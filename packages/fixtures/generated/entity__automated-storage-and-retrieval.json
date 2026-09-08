@@ -15,6 +15,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -116,7 +119,8 @@
             "slug": "asrs-pallet-handling",
             "entity_type": "APPROACH",
             "name": "AS/RS pallet handling",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -141,7 +145,8 @@
             "slug": "material-movement",
             "entity_type": "MARKET",
             "name": "Warehouse",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -168,7 +173,10 @@
             "slug": "symbotic",
             "entity_type": "ORGANIZATION",
             "name": "Symbotic",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -187,7 +195,10 @@
             "slug": "autostore",
             "entity_type": "ORGANIZATION",
             "name": "AutoStore",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -206,7 +217,8 @@
             "slug": "exotec-skypod",
             "entity_type": "ROBOT",
             "name": "Exotec Skypod",
-            "primary_embodiment": "AMR"
+            "primary_embodiment": "AMR",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -225,7 +237,10 @@
             "slug": "exotec",
             "entity_type": "ORGANIZATION",
             "name": "Exotec",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -244,7 +259,8 @@
             "slug": "autostore-r5",
             "entity_type": "ROBOT",
             "name": "AutoStore R5",
-            "primary_embodiment": "OTHER_MOBILE"
+            "primary_embodiment": "OTHER_MOBILE",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -269,7 +285,8 @@
             "slug": "pallet-movement",
             "entity_type": "TASK",
             "name": "Pallet movement",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -294,7 +311,8 @@
             "slug": "deployment-symbotic-walmart",
             "entity_type": "DEPLOYMENT",
             "name": "Symbotic systems at Walmart regional DCs",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -316,7 +334,8 @@
         "slug": "asrs-pallet-handling",
         "entity_type": "APPROACH",
         "name": "AS/RS pallet handling",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "company": [
@@ -325,21 +344,30 @@
         "slug": "autostore",
         "entity_type": "ORGANIZATION",
         "name": "AutoStore",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "b0f83f46-ab25-5f87-aed0-18c1598a442b",
         "slug": "exotec",
         "entity_type": "ORGANIZATION",
         "name": "Exotec",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "74914967-d3be-58ab-aacb-456441b741b1",
         "slug": "symbotic",
         "entity_type": "ORGANIZATION",
         "name": "Symbotic",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       }
     ],
     "markets": [
@@ -348,7 +376,8 @@
         "slug": "material-movement",
         "entity_type": "MARKET",
         "name": "Warehouse",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

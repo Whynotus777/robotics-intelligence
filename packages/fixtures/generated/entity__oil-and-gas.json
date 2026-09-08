@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -35,7 +38,8 @@
             "slug": "energy",
             "entity_type": "MARKET",
             "name": "Energy",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -62,7 +66,10 @@
             "slug": "anybotics",
             "entity_type": "ORGANIZATION",
             "name": "ANYbotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -81,7 +88,10 @@
             "slug": "flyability",
             "entity_type": "ORGANIZATION",
             "name": "Flyability",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -103,14 +113,20 @@
         "slug": "anybotics",
         "entity_type": "ORGANIZATION",
         "name": "ANYbotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "8f3dd14f-c1f5-53e2-899e-b433935b79be",
         "slug": "flyability",
         "entity_type": "ORGANIZATION",
         "name": "Flyability",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ],
     "markets": [
@@ -119,7 +135,8 @@
         "slug": "energy",
         "entity_type": "MARKET",
         "name": "Energy",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

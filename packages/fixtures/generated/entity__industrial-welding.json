@@ -16,6 +16,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -289,7 +292,8 @@
             "slug": "cobot-welding",
             "entity_type": "APPROACH",
             "name": "Cobot welding",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -308,7 +312,8 @@
             "slug": "robotic-arc-welding-cell",
             "entity_type": "APPROACH",
             "name": "Robotic arc welding cell",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -333,7 +338,8 @@
             "slug": "machine-tending",
             "entity_type": "MARKET",
             "name": "Machine tending",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -358,7 +364,8 @@
             "slug": "assembly",
             "entity_type": "TASK",
             "name": "Assembly",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -385,7 +392,10 @@
             "slug": "kuka",
             "entity_type": "ORGANIZATION",
             "name": "KUKA",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -404,7 +414,10 @@
             "slug": "universal-robots",
             "entity_type": "ORGANIZATION",
             "name": "Universal Robots",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -423,7 +436,11 @@
             "slug": "abb-robotics",
             "entity_type": "ORGANIZATION",
             "name": "ABB Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "CONTRACT_MANUFACTURER",
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -442,7 +459,10 @@
             "slug": "yaskawa",
             "entity_type": "ORGANIZATION",
             "name": "Yaskawa Electric",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -467,7 +487,8 @@
             "slug": "assembly",
             "entity_type": "TASK",
             "name": "Assembly",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -489,14 +510,16 @@
         "slug": "cobot-welding",
         "entity_type": "APPROACH",
         "name": "Cobot welding",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "d2bc5a70-d5e9-5c73-9906-d5d60431fff4",
         "slug": "robotic-arc-welding-cell",
         "entity_type": "APPROACH",
         "name": "Robotic arc welding cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "company": [
@@ -505,28 +528,41 @@
         "slug": "abb-robotics",
         "entity_type": "ORGANIZATION",
         "name": "ABB Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
       },
       {
         "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
         "slug": "kuka",
         "entity_type": "ORGANIZATION",
         "name": "KUKA",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
         "slug": "universal-robots",
         "entity_type": "ORGANIZATION",
         "name": "Universal Robots",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       {
         "id": "771449f4-1624-5bcf-a888-40b087e1230c",
         "slug": "yaskawa",
         "entity_type": "ORGANIZATION",
         "name": "Yaskawa Electric",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ],
     "markets": [
@@ -535,7 +571,8 @@
         "slug": "machine-tending",
         "entity_type": "MARKET",
         "name": "Machine tending",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

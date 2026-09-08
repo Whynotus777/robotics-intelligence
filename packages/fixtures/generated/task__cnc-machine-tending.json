@@ -4,7 +4,8 @@
     "slug": "cnc-machine-tending",
     "entity_type": "TASK",
     "name": "CNC machine tending",
-    "primary_embodiment": null
+    "primary_embodiment": null,
+    "roles": []
   },
   "short_description": "Loading blanks into a machine tool and unloading finished parts, shift after shift, so the spindle keeps cutting.",
   "market_path": [
@@ -13,14 +14,16 @@
       "slug": "manufacturing",
       "entity_type": "MARKET",
       "name": "Manufacturing",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     {
       "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
       "slug": "machine-tending",
       "entity_type": "MARKET",
       "name": "Machine tending",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "maturity": {
@@ -94,7 +97,8 @@
         "slug": "cobot-tending-cell",
         "entity_type": "APPROACH",
         "name": "Cobot tending cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "A collaborative arm parked at a machine door, loading and unloading blanks and finished parts without a fence.",
       "maturity": {
@@ -129,21 +133,30 @@
           "slug": "doosan-robotics",
           "entity_type": "ORGANIZATION",
           "name": "Doosan Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         },
         {
           "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
           "slug": "techman-robot",
           "entity_type": "ORGANIZATION",
           "name": "Techman Robot",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         },
         {
           "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
           "slug": "universal-robots",
           "entity_type": "ORGANIZATION",
           "name": "Universal Robots",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         }
       ]
     },
@@ -153,7 +166,8 @@
         "slug": "mobile-manipulator-tending",
         "entity_type": "APPROACH",
         "name": "Mobile manipulator tending",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "An arm on an autonomous base that drives between machines, so one robot covers a cell rather than a door.",
       "maturity": {
@@ -192,7 +206,8 @@
         "slug": "caged-arm-tending-cell",
         "entity_type": "APPROACH",
         "name": "Caged arm tending cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "A fenced industrial arm serving one or more machines at full speed, with a guarded gate for operator access.",
       "maturity": {
@@ -227,21 +242,31 @@
           "slug": "abb-robotics",
           "entity_type": "ORGANIZATION",
           "name": "ABB Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER",
+            "OEM"
+          ]
         },
         {
           "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
           "slug": "fanuc",
           "entity_type": "ORGANIZATION",
           "name": "FANUC",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         },
         {
           "id": "771449f4-1624-5bcf-a888-40b087e1230c",
           "slug": "yaskawa",
           "entity_type": "ORGANIZATION",
           "name": "Yaskawa Electric",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         }
       ]
     }
@@ -318,7 +343,11 @@
         "slug": "abb-robotics",
         "entity_type": "ORGANIZATION",
         "name": "ABB Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Zurich"
@@ -329,7 +358,10 @@
         "slug": "doosan-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Doosan Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Suwon"
@@ -340,7 +372,10 @@
         "slug": "fanuc",
         "entity_type": "ORGANIZATION",
         "name": "FANUC",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Oshino"
@@ -351,7 +386,10 @@
         "slug": "techman-robot",
         "entity_type": "ORGANIZATION",
         "name": "Techman Robot",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Taoyuan"
@@ -362,7 +400,10 @@
         "slug": "universal-robots",
         "entity_type": "ORGANIZATION",
         "name": "Universal Robots",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Odense"
@@ -373,7 +414,10 @@
         "slug": "yaskawa",
         "entity_type": "ORGANIZATION",
         "name": "Yaskawa Electric",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Kitakyushu"
@@ -518,14 +562,16 @@
       "slug": "assembly",
       "entity_type": "TASK",
       "name": "Assembly",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     {
       "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
       "slug": "in-process-inspection",
       "entity_type": "TASK",
       "name": "In-process inspection",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "intelligence_rail": {

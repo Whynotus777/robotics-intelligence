@@ -16,6 +16,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": "COMMERCIAL",
     "height_m": 1.32,
@@ -293,7 +296,8 @@
             "slug": "depth-cameras",
             "entity_type": "TECHNOLOGY",
             "name": "Depth cameras",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": "SENSORS",
           "qualifier": null,
@@ -312,7 +316,8 @@
             "slug": "3d-lidar",
             "entity_type": "TECHNOLOGY",
             "name": "3D LiDAR",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": "SENSORS",
           "qualifier": null,
@@ -337,7 +342,8 @@
             "slug": "unitree-g1-series",
             "entity_type": "ROBOT_FAMILY",
             "name": "Unitree G1 series",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -362,7 +368,8 @@
             "slug": "figure-03",
             "entity_type": "ROBOT",
             "name": "Figure 03",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -381,7 +388,8 @@
             "slug": "apptronik-apollo",
             "entity_type": "ROBOT",
             "name": "Apptronik Apollo",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -406,7 +414,8 @@
             "slug": "nvidia-jetson-orin-nx",
             "entity_type": "COMPONENT_PRODUCT",
             "name": "NVIDIA Jetson Orin NX",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": "COMPUTE",
           "qualifier": null,
@@ -433,7 +442,10 @@
             "slug": "unitree",
             "entity_type": "ORGANIZATION",
             "name": "Unitree Robotics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -455,7 +467,8 @@
         "slug": "unitree-g1-series",
         "entity_type": "ROBOT_FAMILY",
         "name": "Unitree G1 series",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "company": [
@@ -464,7 +477,10 @@
         "slug": "unitree",
         "entity_type": "ORGANIZATION",
         "name": "Unitree Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ],
     "technologies": [
@@ -473,14 +489,16 @@
         "slug": "3d-lidar",
         "entity_type": "TECHNOLOGY",
         "name": "3D LiDAR",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       {
         "id": "f229db7f-0ae6-5902-89e4-aa943448ebb2",
         "slug": "depth-cameras",
         "entity_type": "TECHNOLOGY",
         "name": "Depth cameras",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "peers": [
@@ -489,14 +507,16 @@
         "slug": "apptronik-apollo",
         "entity_type": "ROBOT",
         "name": "Apptronik Apollo",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       },
       {
         "id": "62bfcefe-79fd-5498-a7a8-2e62fd5011c0",
         "slug": "figure-03",
         "entity_type": "ROBOT",
         "name": "Figure 03",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       }
     ]
   },

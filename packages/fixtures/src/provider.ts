@@ -62,7 +62,7 @@ export class FixtureProvider implements DataProvider {
   task(slug: string) { return this.get<TaskResponse>(`task/${slug}`); }
   market(slug: string) { return this.get<MarketResponse>(`market/${slug}`); }
   compare(slugs: string[]) { return this.get<CompareResponse>(`compare/${slugs.join("-")}`); }
-  atlas(layer = "hq") { return this.get<AtlasResponse>(`atlas/${layer}`); }
+  atlas(layer = "BUILT") { return this.get<AtlasResponse>(`atlas/${layer}`); }
   updates(query: Record<string, string> = {}) {
     const all = query.include_seed === "1" || query.include_seed === "true";
     return this.get<UpdatesResponse>(all ? "updates/all" : "updates");
@@ -83,7 +83,7 @@ export class HttpProvider implements DataProvider {
   task(slug: string, asOf?: string) { return this.send<TaskResponse>(this.query(`/tasks/${encodeURIComponent(slug)}`, { as_of: asOf })); }
   market(slug: string, asOf?: string) { return this.send<MarketResponse>(this.query(`/markets/${encodeURIComponent(slug)}`, { as_of: asOf })); }
   compare(slugs: string[], asOf?: string) { return this.send<CompareResponse>("/compare", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ slugs, as_of: asOf }) }); }
-  atlas(layer = "hq", bbox?: string, asOf?: string) { return this.send<AtlasResponse>(this.query("/atlas", { layer, bbox, as_of: asOf })); }
+  atlas(layer = "BUILT", bbox?: string, asOf?: string) { return this.send<AtlasResponse>(this.query("/atlas", { layer, bbox, as_of: asOf })); }
   updates(query: Record<string, string> = {}) { return this.send<UpdatesResponse>(this.query("/updates", query)); }
   claimEvidence(id: string) { return this.send<ClaimEvidenceResponse>(`/claims/${encodeURIComponent(id)}/evidence`); }
 }

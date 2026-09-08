@@ -13,6 +13,20 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -35,7 +49,8 @@
             "slug": "retail-service",
             "entity_type": "MARKET",
             "name": "Retail & Service",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -60,7 +75,8 @@
             "slug": "beijing",
             "entity_type": "PLACE",
             "name": "Beijing",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -85,7 +101,8 @@
             "slug": "galbot-g1",
             "entity_type": "ROBOT",
             "name": "Galbot G1",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -108,7 +125,8 @@
         "slug": "retail-service",
         "entity_type": "MARKET",
         "name": "Retail & Service",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "places": [
@@ -117,7 +135,8 @@
         "slug": "beijing",
         "entity_type": "PLACE",
         "name": "Beijing",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

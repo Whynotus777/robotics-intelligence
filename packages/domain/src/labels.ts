@@ -1,4 +1,14 @@
-import type { CanonicalLayer, CommercialStage, DeploymentKind, Embodiment, EnumName, Maturity, StackLayer } from "./enums.js";
+import type {
+  CanonicalLayer,
+  CommercialStage,
+  DataCollectionMethod,
+  DeploymentKind,
+  Embodiment,
+  EnumName,
+  Maturity,
+  OrganizationRole,
+  StackLayer,
+} from "./enums.js";
 
 /**
  * Display labels for the enums that reach a screen. Enum identifiers are storage,
@@ -52,12 +62,36 @@ export const DEPLOYMENT_KIND_LABEL: Record<DeploymentKind, string> = {
   COMMERCIAL: "Commercial",
 };
 
+export const ORGANIZATION_ROLE_LABEL: Record<OrganizationRole, string> = {
+  OEM: "OEM",
+  COMPONENT_SUPPLIER: "Component supplier",
+  CHIPMAKER: "Chipmaker",
+  CONTRACT_MANUFACTURER: "Contract manufacturer",
+  INTEGRATOR: "Integrator",
+  MODEL_DEVELOPER: "Model developer",
+  PLATFORM: "Platform",
+  INVESTOR: "Investor",
+  RESEARCH_LAB: "Research lab",
+  OPERATOR: "Operator",
+};
+
+export const DATA_COLLECTION_METHOD_LABEL: Record<DataCollectionMethod, string> = {
+  TELEOPERATION: "Teleoperation",
+  REAL_DEPLOYMENT: "Real deployment",
+  SIMULATION: "Simulation",
+  INTERNET_VIDEO: "Internet video",
+  HUMAN_VIDEO: "Human video",
+  SYNTHETIC: "Synthetic",
+};
+
 /** Every enum a claim may hold, keyed by the registry's `enum_name`. */
 export const ENUM_LABELS: Record<EnumName, Record<string, string>> = {
   Maturity: MATURITY_LABEL,
   CommercialStage: COMMERCIAL_STAGE_LABEL,
   Embodiment: EMBODIMENT_LABEL,
   DeploymentKind: DEPLOYMENT_KIND_LABEL,
+  OrganizationRole: ORGANIZATION_ROLE_LABEL,
+  DataCollectionMethod: DATA_COLLECTION_METHOD_LABEL,
 };
 
 export const STACK_LAYER_LABEL: Record<StackLayer, string> = {

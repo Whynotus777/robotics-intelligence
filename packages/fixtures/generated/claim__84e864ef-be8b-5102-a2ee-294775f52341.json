@@ -6,7 +6,8 @@
       "slug": "deployment-locus-3pl-sites",
       "entity_type": "DEPLOYMENT",
       "name": "Locus fleets at 3PL sites",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     "predicate": "OPERATED_BY",
     "label": "is operated by",
@@ -18,7 +19,11 @@
         "slug": "locus",
         "entity_type": "ORGANIZATION",
         "name": "Locus Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       },
       "measure": null
     },

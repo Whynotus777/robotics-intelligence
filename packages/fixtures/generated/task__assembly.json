@@ -4,7 +4,8 @@
     "slug": "assembly",
     "entity_type": "TASK",
     "name": "Assembly",
-    "primary_embodiment": null
+    "primary_embodiment": null,
+    "roles": []
   },
   "short_description": "Putting parts together — insertions, fastening, connectors, clips — where the robot has to feel what it is doing rather than repeat a position.",
   "market_path": [
@@ -13,14 +14,16 @@
       "slug": "manufacturing",
       "entity_type": "MARKET",
       "name": "Manufacturing",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     {
       "id": "9be37404-1ae6-5221-aca9-4ab22b2d4d23",
       "slug": "machine-tending",
       "entity_type": "MARKET",
       "name": "Machine tending",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "maturity": {
@@ -83,7 +86,8 @@
         "slug": "force-controlled-assembly",
         "entity_type": "APPROACH",
         "name": "Force-controlled robotic assembly",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "An arm with force-torque sensing feeling its way through insertions and fastening, instead of relying on position alone.",
       "maturity": {
@@ -120,14 +124,20 @@
           "slug": "doosan-robotics",
           "entity_type": "ORGANIZATION",
           "name": "Doosan Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         },
         {
           "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
           "slug": "fanuc",
           "entity_type": "ORGANIZATION",
           "name": "FANUC",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         }
       ]
     },
@@ -137,7 +147,8 @@
         "slug": "caged-arm-tending-cell",
         "entity_type": "APPROACH",
         "name": "Caged arm tending cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "short_description": "A fenced industrial arm serving one or more machines at full speed, with a guarded gate for operator access.",
       "maturity": {
@@ -172,21 +183,31 @@
           "slug": "abb-robotics",
           "entity_type": "ORGANIZATION",
           "name": "ABB Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER",
+            "OEM"
+          ]
         },
         {
           "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
           "slug": "fanuc",
           "entity_type": "ORGANIZATION",
           "name": "FANUC",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         },
         {
           "id": "771449f4-1624-5bcf-a888-40b087e1230c",
           "slug": "yaskawa",
           "entity_type": "ORGANIZATION",
           "name": "Yaskawa Electric",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         }
       ]
     }
@@ -263,7 +284,10 @@
         "slug": "fanuc",
         "entity_type": "ORGANIZATION",
         "name": "FANUC",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "via": "TARGETS_TASK",
       "hq_place_label": "Oshino"
@@ -407,7 +431,8 @@
       "slug": "industrial-welding",
       "entity_type": "TASK",
       "name": "Industrial welding",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     }
   ],
   "economics_notes": [

@@ -15,6 +15,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": "PILOT_DEPLOYMENTS",
     "height_m": null,
@@ -142,7 +145,8 @@
             "slug": "figure-humanoids",
             "entity_type": "ROBOT_FAMILY",
             "name": "Figure humanoids",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -167,7 +171,8 @@
             "slug": "helix",
             "entity_type": "MODEL",
             "name": "Helix",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -192,7 +197,8 @@
             "slug": "figure-02",
             "entity_type": "ROBOT",
             "name": "Figure 02",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -219,7 +225,12 @@
             "slug": "figure-ai",
             "entity_type": "ORGANIZATION",
             "name": "Figure AI",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "OEM",
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -244,7 +255,8 @@
             "slug": "apptronik-apollo",
             "entity_type": "ROBOT",
             "name": "Apptronik Apollo",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -263,7 +275,8 @@
             "slug": "unitree-g1",
             "entity_type": "ROBOT",
             "name": "Unitree G1",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -285,7 +298,8 @@
         "slug": "figure-humanoids",
         "entity_type": "ROBOT_FAMILY",
         "name": "Figure humanoids",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "company": [
@@ -294,7 +308,12 @@
         "slug": "figure-ai",
         "entity_type": "ORGANIZATION",
         "name": "Figure AI",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM",
+          "OPERATOR"
+        ]
       }
     ],
     "peers": [
@@ -303,14 +322,16 @@
         "slug": "apptronik-apollo",
         "entity_type": "ROBOT",
         "name": "Apptronik Apollo",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       },
       {
         "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
         "slug": "unitree-g1",
         "entity_type": "ROBOT",
         "name": "Unitree G1",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       }
     ]
   },

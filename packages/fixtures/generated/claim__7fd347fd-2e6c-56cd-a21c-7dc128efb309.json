@@ -6,7 +6,11 @@
       "slug": "locus",
       "entity_type": "ORGANIZATION",
       "name": "Locus Robotics",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
     },
     "predicate": "BUILDS",
     "label": "builds",
@@ -18,7 +22,8 @@
         "slug": "locus-origin",
         "entity_type": "ROBOT",
         "name": "Locus Origin",
-        "primary_embodiment": "AMR"
+        "primary_embodiment": "AMR",
+        "roles": []
       },
       "measure": null
     },

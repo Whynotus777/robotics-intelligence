@@ -8,7 +8,8 @@
         "slug": "deep-robotics-x30",
         "entity_type": "ROBOT",
         "name": "Deep Robotics X30",
-        "primary_embodiment": "QUADRUPED"
+        "primary_embodiment": "QUADRUPED",
+        "roles": []
       },
       "before": null,
       "after": {
@@ -32,7 +33,8 @@
         "slug": "bladebug",
         "entity_type": "ORGANIZATION",
         "name": "BladeBUG",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -42,7 +44,8 @@
           "slug": "energy",
           "entity_type": "MARKET",
           "name": "Energy",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -63,7 +66,8 @@
         "slug": "in-process-inspection",
         "entity_type": "TASK",
         "name": "In-process inspection",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -87,7 +91,8 @@
         "slug": "apptronik-apollo",
         "entity_type": "ROBOT",
         "name": "Apptronik Apollo",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       },
       "before": null,
       "after": {
@@ -111,7 +116,10 @@
         "slug": "fourier-intelligence",
         "entity_type": "ORGANIZATION",
         "name": "Fourier Intelligence",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "before": null,
       "after": {
@@ -121,7 +129,8 @@
           "slug": "shanghai",
           "entity_type": "PLACE",
           "name": "Shanghai",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -142,7 +151,10 @@
         "slug": "techman-robot",
         "entity_type": "ORGANIZATION",
         "name": "Techman Robot",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "before": null,
       "after": {
@@ -152,7 +164,8 @@
           "slug": "cnc-machine-tending",
           "entity_type": "TASK",
           "name": "CNC machine tending",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -173,7 +186,8 @@
         "slug": "rope-cable-suspended-robot",
         "entity_type": "APPROACH",
         "name": "Rope/cable-suspended robot",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -197,7 +211,8 @@
         "slug": "cobot-tending-cell",
         "entity_type": "APPROACH",
         "name": "Cobot tending cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -221,7 +236,10 @@
         "slug": "anybotics",
         "entity_type": "ORGANIZATION",
         "name": "ANYbotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "before": null,
       "after": {
@@ -231,7 +249,8 @@
           "slug": "tower-nacelle-inspection",
           "entity_type": "TASK",
           "name": "Tower and nacelle inspection",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -252,7 +271,11 @@
         "slug": "agility",
         "entity_type": "ORGANIZATION",
         "name": "Agility Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       },
       "before": null,
       "after": {
@@ -262,7 +285,8 @@
           "slug": "warehouse-logistics",
           "entity_type": "MARKET",
           "name": "Warehouse & Logistics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -283,7 +307,8 @@
         "slug": "contact-ndt",
         "entity_type": "TASK",
         "name": "Contact NDT",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -293,7 +318,8 @@
           "slug": "wind",
           "entity_type": "MARKET",
           "name": "Wind",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -314,7 +340,8 @@
         "slug": "palletizing",
         "entity_type": "TASK",
         "name": "Palletizing",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -338,7 +365,8 @@
         "slug": "tower-nacelle-inspection",
         "entity_type": "TASK",
         "name": "Tower and nacelle inspection",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -362,7 +390,8 @@
         "slug": "autonomous-forklift",
         "entity_type": "APPROACH",
         "name": "Autonomous forklift",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -372,7 +401,8 @@
           "slug": "third-wave-automation",
           "entity_type": "ORGANIZATION",
           "name": "Third Wave Automation",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -393,7 +423,10 @@
         "slug": "sanctuary-ai",
         "entity_type": "ORGANIZATION",
         "name": "Sanctuary AI",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "before": null,
       "after": {
@@ -403,7 +436,8 @@
           "slug": "manufacturing",
           "entity_type": "MARKET",
           "name": "Manufacturing",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -424,7 +458,11 @@
         "slug": "locus",
         "entity_type": "ORGANIZATION",
         "name": "Locus Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       },
       "before": null,
       "after": {
@@ -434,7 +472,8 @@
           "slug": "locus-origin",
           "entity_type": "ROBOT",
           "name": "Locus Origin",
-          "primary_embodiment": "AMR"
+          "primary_embodiment": "AMR",
+          "roles": []
         },
         "measure": null
       },
@@ -455,7 +494,8 @@
         "slug": "fox-robotics-foxbot",
         "entity_type": "ROBOT",
         "name": "Fox Robotics FoxBot",
-        "primary_embodiment": "AMR"
+        "primary_embodiment": "AMR",
+        "roles": []
       },
       "before": null,
       "after": {
@@ -479,7 +519,10 @@
         "slug": "fox-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Fox Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "before": null,
       "after": {
@@ -489,7 +532,8 @@
           "slug": "truck-unloading",
           "entity_type": "TASK",
           "name": "Truck unloading",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -510,7 +554,8 @@
         "slug": "blade-visual-inspection",
         "entity_type": "TASK",
         "name": "Blade visual inspection",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -534,7 +579,12 @@
         "slug": "figure-ai",
         "entity_type": "ORGANIZATION",
         "name": "Figure AI",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM",
+          "OPERATOR"
+        ]
       },
       "before": null,
       "after": {
@@ -544,7 +594,8 @@
           "slug": "bay-area",
           "entity_type": "PLACE",
           "name": "San Francisco Bay Area",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -565,7 +616,8 @@
         "slug": "sanctuary-phoenix",
         "entity_type": "ROBOT",
         "name": "Sanctuary Phoenix",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       },
       "before": null,
       "after": {
@@ -589,7 +641,10 @@
         "slug": "skydio",
         "entity_type": "ORGANIZATION",
         "name": "Skydio",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "before": null,
       "after": {
@@ -599,7 +654,8 @@
           "slug": "defense",
           "entity_type": "MARKET",
           "name": "Defense",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -620,7 +676,8 @@
         "slug": "in-process-inspection",
         "entity_type": "TASK",
         "name": "In-process inspection",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -644,7 +701,8 @@
         "slug": "blade-crawler",
         "entity_type": "APPROACH",
         "name": "Blade crawler",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -654,7 +712,8 @@
           "slug": "bladebug",
           "entity_type": "ORGANIZATION",
           "name": "BladeBUG",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -675,7 +734,10 @@
         "slug": "fox-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Fox Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "before": null,
       "after": {
@@ -685,7 +747,8 @@
           "slug": "pallet-movement",
           "entity_type": "TASK",
           "name": "Pallet movement",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -706,7 +769,10 @@
         "slug": "ubtech",
         "entity_type": "ORGANIZATION",
         "name": "UBTech Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "before": null,
       "after": {
@@ -716,7 +782,8 @@
           "slug": "shenzhen",
           "entity_type": "PLACE",
           "name": "Shenzhen",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -737,7 +804,10 @@
         "slug": "nabtesco",
         "entity_type": "ORGANIZATION",
         "name": "Nabtesco",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
       },
       "before": null,
       "after": {
@@ -747,7 +817,8 @@
           "slug": "nabtesco-rv-series",
           "entity_type": "COMPONENT_PRODUCT",
           "name": "Nabtesco RV series",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -768,7 +839,8 @@
         "slug": "galbot-g1",
         "entity_type": "ROBOT",
         "name": "Galbot G1",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       },
       "before": null,
       "after": {
@@ -792,7 +864,8 @@
         "slug": "blade-crawler",
         "entity_type": "APPROACH",
         "name": "Blade crawler",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -816,7 +889,8 @@
         "slug": "unitree-g1",
         "entity_type": "ROBOT",
         "name": "Unitree G1",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       },
       "before": null,
       "after": {
@@ -826,7 +900,8 @@
           "slug": "nvidia-jetson-orin-nx",
           "entity_type": "COMPONENT_PRODUCT",
           "name": "NVIDIA Jetson Orin NX",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -847,7 +922,8 @@
         "slug": "assembly",
         "entity_type": "TASK",
         "name": "Assembly",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -871,7 +947,8 @@
         "slug": "industrial-welding",
         "entity_type": "TASK",
         "name": "Industrial welding",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -895,7 +972,11 @@
         "slug": "abb-robotics",
         "entity_type": "ORGANIZATION",
         "name": "ABB Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
       },
       "before": null,
       "after": {
@@ -905,7 +986,8 @@
           "slug": "cnc-machine-tending",
           "entity_type": "TASK",
           "name": "CNC machine tending",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -926,7 +1008,8 @@
         "slug": "universal-robots-ur20",
         "entity_type": "ROBOT",
         "name": "Universal Robots UR20",
-        "primary_embodiment": "COBOT"
+        "primary_embodiment": "COBOT",
+        "roles": []
       },
       "before": null,
       "after": {
@@ -954,7 +1037,8 @@
         "slug": "rope-cable-suspended-robot",
         "entity_type": "APPROACH",
         "name": "Rope/cable-suspended robot",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -964,7 +1048,8 @@
           "slug": "rope-robotics",
           "entity_type": "ORGANIZATION",
           "name": "Rope Robotics",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -985,7 +1070,8 @@
         "slug": "exotec-skypod",
         "entity_type": "ROBOT",
         "name": "Exotec Skypod",
-        "primary_embodiment": "AMR"
+        "primary_embodiment": "AMR",
+        "roles": []
       },
       "before": null,
       "after": {
@@ -995,7 +1081,8 @@
           "slug": "automated-storage-and-retrieval",
           "entity_type": "TASK",
           "name": "Automated storage and retrieval",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -1016,7 +1103,8 @@
         "slug": "aerones",
         "entity_type": "ORGANIZATION",
         "name": "Aerones",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -1026,7 +1114,8 @@
           "slug": "lightning-protection-testing",
           "entity_type": "TASK",
           "name": "Lightning-protection testing",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -1047,7 +1136,8 @@
         "slug": "figure-02",
         "entity_type": "ROBOT",
         "name": "Figure 02",
-        "primary_embodiment": "HUMANOID"
+        "primary_embodiment": "HUMANOID",
+        "roles": []
       },
       "before": null,
       "after": {
@@ -1057,7 +1147,8 @@
           "slug": "figure-humanoids",
           "entity_type": "ROBOT_FAMILY",
           "name": "Figure humanoids",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -1078,7 +1169,11 @@
         "slug": "abb-robotics",
         "entity_type": "ORGANIZATION",
         "name": "ABB Robotics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
       },
       "before": null,
       "after": {
@@ -1088,7 +1183,8 @@
           "slug": "abb-irb-6700",
           "entity_type": "ROBOT",
           "name": "ABB IRB 6700",
-          "primary_embodiment": "INDUSTRIAL_ARM"
+          "primary_embodiment": "INDUSTRIAL_ARM",
+          "roles": []
         },
         "measure": null
       },
@@ -1109,7 +1205,8 @@
         "slug": "anybotics-anymal-d",
         "entity_type": "ROBOT",
         "name": "ANYbotics ANYmal D",
-        "primary_embodiment": "QUADRUPED"
+        "primary_embodiment": "QUADRUPED",
+        "roles": []
       },
       "before": null,
       "after": {
@@ -1119,7 +1216,8 @@
           "slug": "boston-dynamics-spot",
           "entity_type": "ROBOT",
           "name": "Boston Dynamics Spot",
-          "primary_embodiment": "QUADRUPED"
+          "primary_embodiment": "QUADRUPED",
+          "roles": []
         },
         "measure": null
       },
@@ -1140,7 +1238,8 @@
         "slug": "skild-brain",
         "entity_type": "MODEL",
         "name": "Skild Brain",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -1150,7 +1249,8 @@
           "slug": "vla-models",
           "entity_type": "TECHNOLOGY",
           "name": "VLA models",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -1171,7 +1271,8 @@
         "slug": "oil-and-gas",
         "entity_type": "MARKET",
         "name": "Oil & gas",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -1181,7 +1282,8 @@
           "slug": "energy",
           "entity_type": "MARKET",
           "name": "Energy",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -1202,7 +1304,8 @@
         "slug": "blade-repair",
         "entity_type": "TASK",
         "name": "Blade repair",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -1212,7 +1315,8 @@
           "slug": "blade-cleaning",
           "entity_type": "TASK",
           "name": "Blade cleaning",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -1233,7 +1337,10 @@
         "slug": "percepto",
         "entity_type": "ORGANIZATION",
         "name": "Percepto",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       },
       "before": null,
       "after": {
@@ -1243,7 +1350,8 @@
           "slug": "tower-nacelle-inspection",
           "entity_type": "TASK",
           "name": "Tower and nacelle inspection",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -1264,7 +1372,8 @@
         "slug": "tower-nacelle-inspection",
         "entity_type": "TASK",
         "name": "Tower and nacelle inspection",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -1288,7 +1397,8 @@
         "slug": "cnc-machine-tending",
         "entity_type": "TASK",
         "name": "CNC machine tending",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -1298,7 +1408,8 @@
           "slug": "mobile-manipulator-tending",
           "entity_type": "APPROACH",
           "name": "Mobile manipulator tending",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },
@@ -1319,7 +1430,8 @@
         "slug": "automated-storage-and-retrieval",
         "entity_type": "TASK",
         "name": "Automated storage and retrieval",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -1343,7 +1455,8 @@
         "slug": "truck-unloading",
         "entity_type": "TASK",
         "name": "Truck unloading",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -1367,7 +1480,8 @@
         "slug": "robotic-palletizing-cell",
         "entity_type": "APPROACH",
         "name": "Robotic palletizing cell",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {
@@ -1391,7 +1505,8 @@
         "slug": "industrial-welding",
         "entity_type": "TASK",
         "name": "Industrial welding",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "before": null,
       "after": {

@@ -13,6 +13,30 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    },
+    {
+      "role": "OPERATOR",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -35,7 +59,10 @@
             "slug": "gxo",
             "entity_type": "ORGANIZATION",
             "name": "GXO Logistics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -54,7 +81,10 @@
             "slug": "mercedes-benz",
             "entity_type": "ORGANIZATION",
             "name": "Mercedes-Benz",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -79,7 +109,8 @@
             "slug": "austin",
             "entity_type": "PLACE",
             "name": "Austin",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -104,7 +135,8 @@
             "slug": "apptronik-apollo",
             "entity_type": "ROBOT",
             "name": "Apptronik Apollo",
-            "primary_embodiment": "HUMANOID"
+            "primary_embodiment": "HUMANOID",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -131,7 +163,8 @@
             "slug": "deployment-apollo-mercedes",
             "entity_type": "DEPLOYMENT",
             "name": "Apollo pilot at Mercedes-Benz",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -153,14 +186,20 @@
         "slug": "gxo",
         "entity_type": "ORGANIZATION",
         "name": "GXO Logistics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       },
       {
         "id": "ca88a44a-f6b4-537a-b678-5bccf9a70bc1",
         "slug": "mercedes-benz",
         "entity_type": "ORGANIZATION",
         "name": "Mercedes-Benz",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       }
     ],
     "places": [
@@ -169,7 +208,8 @@
         "slug": "austin",
         "entity_type": "PLACE",
         "name": "Austin",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

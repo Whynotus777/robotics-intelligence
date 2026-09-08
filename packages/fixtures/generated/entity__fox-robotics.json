@@ -13,6 +13,20 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": false,
+      "claim_id": null,
+      "evidence_summary": {
+        "class": "NOT_AVAILABLE",
+        "confidence": null,
+        "source_count": 0
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -35,7 +49,8 @@
             "slug": "fox-robotics-foxbot",
             "entity_type": "ROBOT",
             "name": "Fox Robotics FoxBot",
-            "primary_embodiment": "AMR"
+            "primary_embodiment": "AMR",
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -60,7 +75,8 @@
             "slug": "warehouse-logistics",
             "entity_type": "MARKET",
             "name": "Warehouse & Logistics",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -85,7 +101,8 @@
             "slug": "truck-unloading",
             "entity_type": "TASK",
             "name": "Truck unloading",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -104,7 +121,8 @@
             "slug": "pallet-movement",
             "entity_type": "TASK",
             "name": "Pallet movement",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -129,7 +147,8 @@
             "slug": "austin",
             "entity_type": "PLACE",
             "name": "Austin",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -156,7 +175,8 @@
             "slug": "autonomous-forklift",
             "entity_type": "APPROACH",
             "name": "Autonomous forklift",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -178,7 +198,8 @@
         "slug": "autonomous-forklift",
         "entity_type": "APPROACH",
         "name": "Autonomous forklift",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "markets": [
@@ -187,7 +208,8 @@
         "slug": "warehouse-logistics",
         "entity_type": "MARKET",
         "name": "Warehouse & Logistics",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ],
     "places": [
@@ -196,7 +218,8 @@
         "slug": "austin",
         "entity_type": "PLACE",
         "name": "Austin",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       }
     ]
   },

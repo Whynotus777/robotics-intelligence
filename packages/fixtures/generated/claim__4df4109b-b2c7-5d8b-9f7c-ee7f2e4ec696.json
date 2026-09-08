@@ -6,7 +6,8 @@
       "slug": "maxon-ec-flat",
       "entity_type": "COMPONENT_PRODUCT",
       "name": "maxon EC flat",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": []
     },
     "predicate": "MADE_BY",
     "label": "is made by",
@@ -18,7 +19,10 @@
         "slug": "maxon",
         "entity_type": "ORGANIZATION",
         "name": "maxon group",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
       },
       "measure": null
     },

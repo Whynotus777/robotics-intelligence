@@ -6,7 +6,11 @@
       "slug": "abb-robotics",
       "entity_type": "ORGANIZATION",
       "name": "ABB Robotics",
-      "primary_embodiment": null
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER",
+        "OEM"
+      ]
     },
     "predicate": "TARGETS_TASK",
     "label": "targets task",
@@ -18,7 +22,8 @@
         "slug": "cnc-machine-tending",
         "entity_type": "TASK",
         "name": "CNC machine tending",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": []
       },
       "measure": null
     },
@@ -64,7 +69,8 @@
           "slug": "industrial-welding",
           "entity_type": "TASK",
           "name": "Industrial welding",
-          "primary_embodiment": null
+          "primary_embodiment": null,
+          "roles": []
         },
         "measure": null
       },

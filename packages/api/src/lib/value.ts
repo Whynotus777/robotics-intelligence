@@ -1,19 +1,19 @@
 import type { ClaimValue } from "@ri/api-contracts";
-import { PREDICATES } from "@ri/domain";
+import { PREDICATES, type OrganizationRole } from "@ri/domain";
 import type { claims, entities } from "@ri/db";
 
 export type ClaimRow = typeof claims.$inferSelect;
 export type EntityRow = typeof entities.$inferSelect;
 
 /** Converts storage's typed columns into the one public claim-value union. */
-export function rowValue(row: ClaimRow, object?: EntityRow | null): ClaimValue {
+export function rowValue(row: ClaimRow, object?: EntityRow | null, roles?: OrganizationRole[]): ClaimValue {
   if (row.valueText !== null) return { kind: "text", text: row.valueText };
   if (row.valueEnum !== null) return { kind: "enum", value: row.valueEnum };
   if (row.valueDate !== null) return { kind: "date", date: row.valueDate };
   if (row.objectEntityId !== null && object) {
     return {
       kind: "entity",
-      entity: { id: object.id, slug: object.slug, entity_type: object.entityType, name: object.name, primary_embodiment: object.primaryEmbodiment },
+      entity: { id: object.id, slug: object.slug, entity_type: object.entityType, name: object.name, primary_embodiment: object.primaryEmbodiment, roles: roles ?? [] },
       measure: row.valueNumber === null || row.unit === null ? null : { number: row.valueNumber, unit: row.unit as never },
     };
   }

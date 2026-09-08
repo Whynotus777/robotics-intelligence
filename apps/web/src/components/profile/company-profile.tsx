@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { EntityChip, EntityResponse } from "@ri/api-contracts";
-import type { CommercialStage } from "@ri/domain";
+import { ORGANIZATION_ROLE_LABEL, type CommercialStage } from "@ri/domain";
 import { CommercialStageBadge } from "@/components/commercial-stage";
 import { EntityChipLink, PillLink } from "@/components/entity-chip";
 import { SourceGlyph } from "@/components/evidence/evidence-chip";
@@ -68,7 +68,7 @@ export function CompanyProfile({ entity, view }: { entity: EntityResponse; view:
             <p className="max-w-[620px] text-[14px]/[1.6] text-ink-2">{identity.short_description}</p>
           ) : null}
 
-          <IdentityFacts view={view} />
+          <IdentityFacts entity={entity} view={view} />
 
           {prose.length > 0 ? (
             <div className="flex max-w-[640px] flex-col gap-3 pt-1">
@@ -95,6 +95,8 @@ export function CompanyProfile({ entity, view }: { entity: EntityResponse; view:
         <IntelligenceRail entity={entity} />
 
         <div className="flex flex-col gap-9 lg:col-start-1 lg:row-start-2">
+          {entity.subsidiaries.length > 0 ? <RoboticsFootprint entity={entity} /> : null}
+
           {orderedProducts.length > 0 ? (
             <Section question="What does it make" title="Products">
               <div className="flex flex-col gap-5">
@@ -213,8 +215,22 @@ export function CompanyProfile({ entity, view }: { entity: EntityResponse; view:
 }
 
 /** HQ, founded, ownership and sites — each line omitted when the fact is absent. */
-function IdentityFacts({ view }: { view: CompanyView }) {
+function IdentityFacts({ entity, view }: { entity: EntityResponse; view: CompanyView }) {
   const lines: { label: string; body: React.ReactNode }[] = [];
+
+  // Roles say what the company does in robotics. The footprint section repeats
+  // them with their evidence for a parent, so this line steps aside there.
+  if (entity.roles.length > 0 && entity.subsidiaries.length === 0)
+    lines.push({
+      label: "Role",
+      body: (
+        <span className="flex flex-wrap items-center gap-1.5">
+          {entity.roles.map((role) => (
+            <RoleTag key={role.role} role={role} />
+          ))}
+        </span>
+      ),
+    });
 
   if (view.hq.length > 0)
     lines.push({
@@ -244,7 +260,20 @@ function IdentityFacts({ view }: { view: CompanyView }) {
       ),
     });
 
-  if (view.owners.length > 0)
+  // PART_OF is the standing fact; the ACQUIRED event only stands in for it.
+  if (entity.part_of)
+    lines.push({
+      label: "Ownership",
+      body: (
+        <span className="flex flex-wrap items-center gap-1.5 text-ink-3">
+          Part of
+          <EntityChipLink chip={entity.part_of.parent} />
+          since <span className="num text-ink">{new Date(entity.part_of.since).getUTCFullYear()}</span>
+          <SourceGlyph summary={entity.part_of.evidence_summary} claimId={entity.part_of.claim_id} />
+        </span>
+      ),
+    });
+  else if (view.owners.length > 0)
     lines.push({
       label: "Ownership",
       body: (
@@ -319,6 +348,56 @@ function IdentityFacts({ view }: { view: CompanyView }) {
         </div>
       ))}
     </dl>
+  );
+}
+
+/**
+ * A platform's robotics footprint: the subsidiaries that carry the work and the
+ * roles the parent itself plays, each with the evidence that put it there. An
+ * inferred role carries no source glyph, because there is no claim behind it.
+ */
+function RoboticsFootprint({ entity }: { entity: EntityResponse }) {
+  return (
+    <Section question="How deep does it go" title="Robotics footprint">
+      <div className="flex flex-col gap-4">
+        {entity.roles.length > 0 ? (
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="w-[80px] shrink-0 text-[12px] text-ink-4">Roles</span>
+            {entity.roles.map((role) => (
+              <RoleTag key={role.role} role={role} />
+            ))}
+          </div>
+        ) : null}
+        <div className="flex flex-col divide-y divide-line-soft border-t border-line-soft">
+          {entity.subsidiaries.map((row) => (
+            <div key={row.claim_id} className="flex flex-wrap items-center gap-x-3 gap-y-1.5 py-2.5 text-[12px]">
+              <EntityChipLink chip={row.organization} />
+              {row.organization.roles.length > 0 ? (
+                <span className="text-ink-4">
+                  {row.organization.roles.map((role) => ORGANIZATION_ROLE_LABEL[role]).join(" · ")}
+                </span>
+              ) : null}
+              <span className="num ml-auto text-[11px] text-ink-4">since {new Date(row.since).getUTCFullYear()}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Section>
+  );
+}
+
+/** One role. Declared roles carry their source; inferred ones say they are inferred. */
+function RoleTag({ role }: { role: EntityResponse["roles"][number] }) {
+  return (
+    <span
+      className={`inline-flex items-center gap-1 rounded-chip border px-2 py-[3px] text-[11px] leading-none ${
+        role.declared ? "border-line-strong text-ink-2" : "border-line border-dashed text-ink-4"
+      }`}
+      title={role.declared ? undefined : "Inferred from what this company does; not declared"}
+    >
+      {ORGANIZATION_ROLE_LABEL[role.role]}
+      {role.declared ? <SourceGlyph summary={role.evidence_summary} claimId={role.claim_id ?? undefined} /> : null}
+    </span>
   );
 }
 

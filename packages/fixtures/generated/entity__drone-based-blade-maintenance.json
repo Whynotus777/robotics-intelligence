@@ -13,6 +13,9 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -88,7 +91,10 @@
             "slug": "skyspecs",
             "entity_type": "ORGANIZATION",
             "name": "SkySpecs",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": [
+              "OPERATOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -115,7 +121,8 @@
             "slug": "tower-nacelle-inspection",
             "entity_type": "TASK",
             "name": "Tower and nacelle inspection",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -134,7 +141,8 @@
             "slug": "blade-visual-inspection",
             "entity_type": "TASK",
             "name": "Blade visual inspection",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -153,7 +161,8 @@
             "slug": "blade-repair",
             "entity_type": "TASK",
             "name": "Blade repair",
-            "primary_embodiment": null
+            "primary_embodiment": null,
+            "roles": []
           },
           "stack_layer": null,
           "qualifier": null,
@@ -175,7 +184,10 @@
         "slug": "skyspecs",
         "entity_type": "ORGANIZATION",
         "name": "SkySpecs",
-        "primary_embodiment": null
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
       }
     ]
   },
