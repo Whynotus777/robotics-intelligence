@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "6ade1adf-9275-50d1-8bf3-eb6b755c1211",
+    "subject": {
+      "id": "dbc36fdb-c288-54fe-ad21-b0d2d0085d27",
+      "slug": "tesla",
+      "entity_type": "ORGANIZATION",
+      "name": "Tesla",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Tesla role MODEL_DEVELOPER",
+    "value": {
+      "kind": "enum",
+      "value": "MODEL_DEVELOPER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a16c41bb-b592-5187-ba91-b57653a177d6",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Optimus runs Tesla's own policies rather than a bought-in stack.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "976435df-8a66-5362-aa99-e7cbae199392",
+        "url": "https://www.tesla.com/AI",
+        "canonical_url": null,
+        "publisher": "Tesla",
+        "title": "Tesla AI and Optimus",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "c54a0a03-00ff-54cb-bbb1-373a52d95fc9",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

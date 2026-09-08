@@ -1,0 +1,32 @@
+slug: hyundai
+entity_type: ORGANIZATION
+name: Hyundai Motor Company
+short_description: Seoul automaker; bought control of Boston Dynamics in 2021 and now carries legged robotics as a group business rather than a plant tool.
+country_code: KR
+depth_tier: STANDARD
+aliases:
+- Hyundai
+- Hyundai Motor Group
+claims:
+- predicate: HQ_AT
+  object: seoul
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: hyundai-site
+    excerpt: Hyundai's site gives Seoul as the headquarters.
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: hyundai-site
+    excerpt: Hyundai's robotics reach is through a subsidiary it controls rather than a product of
+      its own, which is the second branch of the declared PLATFORM bar.
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  evidence:
+  - class: THIRD_PARTY
+    confidence: MEDIUM
+    source: bd-site
+    excerpt: Hyundai took a controlling stake in Boston Dynamics rather than building the capability.

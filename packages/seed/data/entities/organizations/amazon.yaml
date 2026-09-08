@@ -1,0 +1,55 @@
+slug: amazon
+entity_type: ORGANIZATION
+name: Amazon
+short_description: Seattle; the largest operator of mobile robots in the world through Amazon Robotics, and an investor in the humanoid companies it may one day buy from.
+country_code: US
+depth_tier: STANDARD
+aliases:
+- Amazon.com
+claims:
+- predicate: HQ_AT
+  object: seattle
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: amazon-site
+    excerpt: Amazon's corporate site gives Seattle as the headquarters.
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: amazon-site
+    excerpt: Amazon builds robots through a subsidiary, runs them at fulfilment scale itself, funds
+      other robot makers and publishes the research — four roles, past the declared PLATFORM bar.
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: amazon-robotics-news
+    excerpt: Amazon reports operating a fleet of over a million robots in its own buildings.
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: figure-series-b
+    excerpt: The Amazon Industrial Innovation Fund is named among the investors in Figure AI's Series B.
+- predicate: HAS_ROLE
+  enum: RESEARCH_LAB
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: amazon-science-site
+    excerpt: Amazon Science publishes the robotics and manipulation work behind the fleet.
+- predicate: INVESTED_IN
+  object: figure-ai
+  valid_from: 2024-02-29
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: figure-series-b
+    published_at: 2024-02-29
+    excerpt: Figure names the Amazon Industrial Innovation Fund among its Series B investors. The
+      amount attributable to any one investor was not disclosed.

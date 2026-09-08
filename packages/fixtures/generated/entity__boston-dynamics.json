@@ -18,26 +18,35 @@
   "roles": [
     {
       "role": "OEM",
-      "declared": false,
-      "claim_id": null,
+      "declared": true,
+      "claim_id": "751b73a1-3031-58e6-897d-7e00bfc3b4ba",
       "evidence_summary": {
-        "class": "NOT_AVAILABLE",
-        "confidence": null,
-        "source_count": 0
-      }
-    },
-    {
-      "role": "OPERATOR",
-      "declared": false,
-      "claim_id": null,
-      "evidence_summary": {
-        "class": "NOT_AVAILABLE",
-        "confidence": null,
-        "source_count": 0
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+      "slug": "hyundai",
+      "entity_type": "ORGANIZATION",
+      "name": "Hyundai Motor Company",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "since": "2021-06-21",
+    "claim_id": "303e4c43-0c4b-59c9-88a1-4929eb75e31a",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -48,8 +57,64 @@
     "maturity": null
   },
   "place": null,
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "751b73a1-3031-58e6-897d-7e00bfc3b4ba",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OEM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "303e4c43-0c4b-59c9-88a1-4929eb75e31a",
+          "target": {
+            "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+            "slug": "hyundai",
+            "entity_type": "ORGANIZATION",
+            "name": "Hyundai Motor Company",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2021-06-21",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
     {
       "predicate": "BUILDS",
       "label": "builds",
@@ -152,6 +217,19 @@
     }
   ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+        "slug": "hyundai",
+        "entity_type": "ORGANIZATION",
+        "name": "Hyundai Motor Company",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
@@ -166,19 +244,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 3,
+        "PRIMARY": 5,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 5,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 4
+    "related_count": 5
   },
   "as_of": null
 }

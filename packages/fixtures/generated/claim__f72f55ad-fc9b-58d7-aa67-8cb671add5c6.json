@@ -1,0 +1,92 @@
+{
+  "claim": {
+    "claim_id": "f72f55ad-fc9b-58d7-aa67-8cb671add5c6",
+    "subject": {
+      "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+      "slug": "samsung",
+      "entity_type": "ORGANIZATION",
+      "name": "Samsung Electronics",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER",
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Samsung Electronics role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "65bf08c9-16e0-5db6-a8e0-23a106f1fcea",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Samsung takes stakes in robot makers rather than building the machines itself.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "d0771080-29e0-5df1-b3af-c8d51e1c695e",
+        "url": "https://www.samsung.com/",
+        "canonical_url": null,
+        "publisher": "Samsung Electronics",
+        "title": "Samsung Electronics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "01540003-4626-5f81-8867-c63a15fb6658",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "6435c62c-69a4-5158-ac62-7316d310d59b",
+      "value": {
+        "kind": "enum",
+        "value": "PLATFORM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "77cadc27-3c06-5cd6-b462-77ce46c4b762",
+      "value": {
+        "kind": "enum",
+        "value": "CHIPMAKER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,80 @@
+{
+  "claim": {
+    "claim_id": "7278fc44-d786-5562-a728-541f39ca75b1",
+    "subject": {
+      "id": "7015787f-4e5d-58a6-ae0c-112ce87d4c60",
+      "slug": "microsoft",
+      "entity_type": "ORGANIZATION",
+      "name": "Microsoft",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Microsoft role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "35f48ef8-41e3-5d2c-9869-1f53b3709729",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Microsoft is named among the investors in Figure AI's Series B.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "36892120-b163-565a-9a36-e694043ca4b9",
+        "url": "https://www.figure.ai/news",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Figure Series B",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-02-29T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "4d4cb7d9-3d7d-5818-bc44-876934ee847d",
+      "value": {
+        "kind": "enum",
+        "value": "PLATFORM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "a42374ea-c16d-5201-a200-0ae99f479496",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

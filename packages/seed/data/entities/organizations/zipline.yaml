@@ -26,3 +26,17 @@ claims:
     confidence: MEDIUM
     source: zipline-site
     excerpt: The P2 Zip delivery aircraft is presented on the company site.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: zipline-site
+    excerpt: Zipline designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: zipline-site
+    excerpt: Zipline runs robots in its own operations.

@@ -5,12 +5,12 @@
     {
       "id": "US",
       "label": "US",
-      "count": 76,
+      "count": 83,
       "districts": [
         {
           "id": "US",
           "label": "US",
-          "count": 76,
+          "count": 83,
           "entities": [
             {
               "chip": {
@@ -70,8 +70,40 @@
                 "name": "Agility Robotics",
                 "primary_embodiment": null,
                 "roles": [
-                  "OEM",
-                  "OPERATOR"
+                  "OEM"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+                "slug": "alphabet",
+                "entity_type": "ORGANIZATION",
+                "name": "Alphabet",
+                "primary_embodiment": null,
+                "roles": [
+                  "INVESTOR",
+                  "PLATFORM",
+                  "RESEARCH_LAB"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+                "slug": "amazon",
+                "entity_type": "ORGANIZATION",
+                "name": "Amazon",
+                "primary_embodiment": null,
+                "roles": [
+                  "INVESTOR",
+                  "OPERATOR",
+                  "PLATFORM",
+                  "RESEARCH_LAB"
                 ]
               },
               "measure_value": null,
@@ -84,7 +116,10 @@
                 "entity_type": "ORGANIZATION",
                 "name": "Amazon Robotics",
                 "primary_embodiment": null,
-                "roles": []
+                "roles": [
+                  "OEM",
+                  "OPERATOR"
+                ]
               },
               "measure_value": null,
               "is_primary_membership": true
@@ -109,8 +144,7 @@
                 "name": "Apptronik",
                 "primary_embodiment": null,
                 "roles": [
-                  "OEM",
-                  "OPERATOR"
+                  "OEM"
                 ]
               },
               "measure_value": null,
@@ -160,8 +194,7 @@
                 "name": "Boston Dynamics",
                 "primary_embodiment": null,
                 "roles": [
-                  "OEM",
-                  "OPERATOR"
+                  "OEM"
                 ]
               },
               "measure_value": null,
@@ -236,8 +269,7 @@
                 "primary_embodiment": null,
                 "roles": [
                   "MODEL_DEVELOPER",
-                  "OEM",
-                  "OPERATOR"
+                  "OEM"
                 ]
               },
               "measure_value": null,
@@ -301,7 +333,8 @@
                 "name": "Gatik",
                 "primary_embodiment": null,
                 "roles": [
-                  "OEM"
+                  "OEM",
+                  "OPERATOR"
                 ]
               },
               "measure_value": null,
@@ -379,7 +412,9 @@
                 "name": "Intel",
                 "primary_embodiment": null,
                 "roles": [
-                  "COMPONENT_SUPPLIER"
+                  "CHIPMAKER",
+                  "COMPONENT_SUPPLIER",
+                  "INVESTOR"
                 ]
               },
               "measure_value": null,
@@ -441,8 +476,39 @@
                 "name": "Locus Robotics",
                 "primary_embodiment": null,
                 "roles": [
-                  "OEM",
-                  "OPERATOR"
+                  "OEM"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "0a292c52-7b7a-5c88-993b-9974b3839a21",
+                "slug": "meta",
+                "entity_type": "ORGANIZATION",
+                "name": "Meta",
+                "primary_embodiment": null,
+                "roles": [
+                  "MODEL_DEVELOPER",
+                  "PLATFORM",
+                  "RESEARCH_LAB"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "7015787f-4e5d-58a6-ae0c-112ce87d4c60",
+                "slug": "microsoft",
+                "entity_type": "ORGANIZATION",
+                "name": "Microsoft",
+                "primary_embodiment": null,
+                "roles": [
+                  "INVESTOR",
+                  "PLATFORM",
+                  "RESEARCH_LAB"
                 ]
               },
               "measure_value": null,
@@ -468,6 +534,7 @@
                 "name": "Nuro",
                 "primary_embodiment": null,
                 "roles": [
+                  "MODEL_DEVELOPER",
                   "OEM"
                 ]
               },
@@ -494,8 +561,10 @@
                 "name": "NVIDIA",
                 "primary_embodiment": null,
                 "roles": [
-                  "COMPONENT_SUPPLIER",
-                  "MODEL_DEVELOPER"
+                  "CHIPMAKER",
+                  "INVESTOR",
+                  "MODEL_DEVELOPER",
+                  "PLATFORM"
                 ]
               },
               "measure_value": null,
@@ -557,7 +626,7 @@
                 "name": "Open Robotics",
                 "primary_embodiment": null,
                 "roles": [
-                  "MODEL_DEVELOPER"
+                  "RESEARCH_LAB"
                 ]
               },
               "measure_value": null,
@@ -636,6 +705,7 @@
                 "name": "Qualcomm",
                 "primary_embodiment": null,
                 "roles": [
+                  "CHIPMAKER",
                   "COMPONENT_SUPPLIER"
                 ]
               },
@@ -648,6 +718,18 @@
                 "slug": "qualcomm-robotics-platform",
                 "entity_type": "COMPONENT_PRODUCT",
                 "name": "Qualcomm robotics platforms",
+                "primary_embodiment": null,
+                "roles": []
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "2588e14b-b3ca-531f-9426-d37179a708a6",
+                "slug": "redmond",
+                "entity_type": "PLACE",
+                "name": "Redmond",
                 "primary_embodiment": null,
                 "roles": []
               },
@@ -684,6 +766,18 @@
                 "slug": "bay-area",
                 "entity_type": "PLACE",
                 "name": "San Francisco Bay Area",
+                "primary_embodiment": null,
+                "roles": []
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+                "slug": "seattle",
+                "entity_type": "PLACE",
+                "name": "Seattle",
                 "primary_embodiment": null,
                 "roles": []
               },
@@ -814,7 +908,8 @@
                 "name": "Symbotic",
                 "primary_embodiment": null,
                 "roles": [
-                  "OPERATOR"
+                  "INTEGRATOR",
+                  "OEM"
                 ]
               },
               "measure_value": null,
@@ -840,6 +935,7 @@
                 "name": "Tesla",
                 "primary_embodiment": null,
                 "roles": [
+                  "MODEL_DEVELOPER",
                   "OEM"
                 ]
               },
@@ -865,7 +961,24 @@
                 "entity_type": "ORGANIZATION",
                 "name": "Third Wave Automation",
                 "primary_embodiment": null,
-                "roles": []
+                "roles": [
+                  "OEM"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "debbc27a-81bd-5cdd-bbc5-79fcce1c582e",
+                "slug": "toyota-research-institute",
+                "entity_type": "ORGANIZATION",
+                "name": "Toyota Research Institute",
+                "primary_embodiment": null,
+                "roles": [
+                  "MODEL_DEVELOPER",
+                  "RESEARCH_LAB"
+                ]
               },
               "measure_value": null,
               "is_primary_membership": true
@@ -877,7 +990,9 @@
                 "entity_type": "ORGANIZATION",
                 "name": "Vecna Robotics",
                 "primary_embodiment": null,
-                "roles": []
+                "roles": [
+                  "OEM"
+                ]
               },
               "measure_value": null,
               "is_primary_membership": true
@@ -916,7 +1031,9 @@
                 "name": "Waymo",
                 "primary_embodiment": null,
                 "roles": [
-                  "OEM"
+                  "MODEL_DEVELOPER",
+                  "OEM",
+                  "OPERATOR"
                 ]
               },
               "measure_value": null,
@@ -956,7 +1073,8 @@
                 "name": "Zipline",
                 "primary_embodiment": null,
                 "roles": [
-                  "OEM"
+                  "OEM",
+                  "OPERATOR"
                 ]
               },
               "measure_value": null,
@@ -1046,7 +1164,6 @@
                 "name": "DJI",
                 "primary_embodiment": null,
                 "roles": [
-                  "CONTRACT_MANUFACTURER",
                   "OEM"
                 ]
               },
@@ -1099,7 +1216,8 @@
                 "name": "Galbot",
                 "primary_embodiment": null,
                 "roles": [
-                  "OEM"
+                  "OEM",
+                  "OPERATOR"
                 ]
               },
               "measure_value": null,
@@ -1275,8 +1393,179 @@
                 "name": "Unitree Robotics",
                 "primary_embodiment": null,
                 "roles": [
+                  "COMPONENT_SUPPLIER",
                   "OEM"
                 ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "JP",
+      "label": "JP",
+      "count": 12,
+      "districts": [
+        {
+          "id": "JP",
+          "label": "JP",
+          "count": 12,
+          "entities": [
+            {
+              "chip": {
+                "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+                "slug": "fanuc",
+                "entity_type": "ORGANIZATION",
+                "name": "FANUC",
+                "primary_embodiment": null,
+                "roles": [
+                  "OEM"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "e7b662ae-fd0b-5b6d-b51e-066c372b460a",
+                "slug": "fanuc-crx-10ia",
+                "entity_type": "ROBOT",
+                "name": "FANUC CRX-10iA",
+                "primary_embodiment": "COBOT",
+                "roles": []
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
+                "slug": "harmonic-drive",
+                "entity_type": "ORGANIZATION",
+                "name": "Harmonic Drive",
+                "primary_embodiment": null,
+                "roles": [
+                  "COMPONENT_SUPPLIER"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "dbd7b2d3-26c1-5c57-a3c5-e803ea6e3e32",
+                "slug": "kitakyushu",
+                "entity_type": "PLACE",
+                "name": "Kitakyushu",
+                "primary_embodiment": null,
+                "roles": []
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
+                "slug": "nabtesco",
+                "entity_type": "ORGANIZATION",
+                "name": "Nabtesco",
+                "primary_embodiment": null,
+                "roles": [
+                  "COMPONENT_SUPPLIER"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "e1b756a7-b704-58be-bdc6-603f60b30924",
+                "slug": "nabtesco-rv-series",
+                "entity_type": "COMPONENT_PRODUCT",
+                "name": "Nabtesco RV series",
+                "primary_embodiment": null,
+                "roles": []
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "12c8f3b9-0532-577b-9120-95d36cecd863",
+                "slug": "oshino",
+                "entity_type": "PLACE",
+                "name": "Oshino",
+                "primary_embodiment": null,
+                "roles": []
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+                "slug": "tokyo",
+                "entity_type": "PLACE",
+                "name": "Tokyo",
+                "primary_embodiment": null,
+                "roles": []
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "fe8488ed-8f7c-51e0-94fe-dfa30e931949",
+                "slug": "toyota-city",
+                "entity_type": "PLACE",
+                "name": "Toyota City",
+                "primary_embodiment": null,
+                "roles": []
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "08abf8ef-13f8-595d-87fc-d2aeb7ff1467",
+                "slug": "toyota",
+                "entity_type": "ORGANIZATION",
+                "name": "Toyota Motor Corporation",
+                "primary_embodiment": null,
+                "roles": [
+                  "INVESTOR",
+                  "PLATFORM"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+                "slug": "yaskawa",
+                "entity_type": "ORGANIZATION",
+                "name": "Yaskawa Electric",
+                "primary_embodiment": null,
+                "roles": [
+                  "COMPONENT_SUPPLIER",
+                  "OEM"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "12d4f360-9403-523f-a0bb-252978213506",
+                "slug": "yaskawa-motoman-gp12",
+                "entity_type": "ROBOT",
+                "name": "Yaskawa MOTOMAN GP12",
+                "primary_embodiment": "INDUSTRIAL_ARM",
+                "roles": []
               },
               "measure_value": null,
               "is_primary_membership": true
@@ -1315,7 +1604,6 @@
                 "name": "ABB Robotics",
                 "primary_embodiment": null,
                 "roles": [
-                  "CONTRACT_MANUFACTURER",
                   "OEM"
                 ]
               },
@@ -1482,7 +1770,6 @@
                 "name": "BMW Group",
                 "primary_embodiment": null,
                 "roles": [
-                  "CONTRACT_MANUFACTURER",
                   "OPERATOR"
                 ]
               },
@@ -1573,7 +1860,8 @@
                 "name": "Wingcopter",
                 "primary_embodiment": null,
                 "roles": [
-                  "OEM"
+                  "OEM",
+                  "OPERATOR"
                 ]
               },
               "measure_value": null,
@@ -1596,35 +1884,21 @@
       ]
     },
     {
-      "id": "JP",
-      "label": "JP",
-      "count": 10,
+      "id": "KR",
+      "label": "KR",
+      "count": 7,
       "districts": [
         {
-          "id": "JP",
-          "label": "JP",
-          "count": 10,
+          "id": "KR",
+          "label": "KR",
+          "count": 7,
           "entities": [
             {
               "chip": {
-                "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
-                "slug": "fanuc",
-                "entity_type": "ORGANIZATION",
-                "name": "FANUC",
-                "primary_embodiment": null,
-                "roles": [
-                  "OEM"
-                ]
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "e7b662ae-fd0b-5b6d-b51e-066c372b460a",
-                "slug": "fanuc-crx-10ia",
+                "id": "fea14c4f-a335-569e-8de3-bc4b6a94b6ea",
+                "slug": "doosan-m1013",
                 "entity_type": "ROBOT",
-                "name": "FANUC CRX-10iA",
+                "name": "Doosan M1013",
                 "primary_embodiment": "COBOT",
                 "roles": []
               },
@@ -1633,84 +1907,10 @@
             },
             {
               "chip": {
-                "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
-                "slug": "harmonic-drive",
+                "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+                "slug": "doosan-robotics",
                 "entity_type": "ORGANIZATION",
-                "name": "Harmonic Drive",
-                "primary_embodiment": null,
-                "roles": []
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "dbd7b2d3-26c1-5c57-a3c5-e803ea6e3e32",
-                "slug": "kitakyushu",
-                "entity_type": "PLACE",
-                "name": "Kitakyushu",
-                "primary_embodiment": null,
-                "roles": []
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
-                "slug": "nabtesco",
-                "entity_type": "ORGANIZATION",
-                "name": "Nabtesco",
-                "primary_embodiment": null,
-                "roles": [
-                  "COMPONENT_SUPPLIER"
-                ]
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "e1b756a7-b704-58be-bdc6-603f60b30924",
-                "slug": "nabtesco-rv-series",
-                "entity_type": "COMPONENT_PRODUCT",
-                "name": "Nabtesco RV series",
-                "primary_embodiment": null,
-                "roles": []
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "12c8f3b9-0532-577b-9120-95d36cecd863",
-                "slug": "oshino",
-                "entity_type": "PLACE",
-                "name": "Oshino",
-                "primary_embodiment": null,
-                "roles": []
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-                "slug": "tokyo",
-                "entity_type": "PLACE",
-                "name": "Tokyo",
-                "primary_embodiment": null,
-                "roles": []
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "771449f4-1624-5bcf-a888-40b087e1230c",
-                "slug": "yaskawa",
-                "entity_type": "ORGANIZATION",
-                "name": "Yaskawa Electric",
+                "name": "Doosan Robotics",
                 "primary_embodiment": null,
                 "roles": [
                   "OEM"
@@ -1721,11 +1921,69 @@
             },
             {
               "chip": {
-                "id": "12d4f360-9403-523f-a0bb-252978213506",
-                "slug": "yaskawa-motoman-gp12",
-                "entity_type": "ROBOT",
-                "name": "Yaskawa MOTOMAN GP12",
-                "primary_embodiment": "INDUSTRIAL_ARM",
+                "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+                "slug": "hyundai",
+                "entity_type": "ORGANIZATION",
+                "name": "Hyundai Motor Company",
+                "primary_embodiment": null,
+                "roles": [
+                  "INVESTOR",
+                  "PLATFORM"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "50a1681f-e78c-52cd-9388-0d59b8696a7b",
+                "slug": "lig-nex1",
+                "entity_type": "ORGANIZATION",
+                "name": "LIG Nex1",
+                "primary_embodiment": null,
+                "roles": [
+                  "INVESTOR"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+                "slug": "samsung",
+                "entity_type": "ORGANIZATION",
+                "name": "Samsung Electronics",
+                "primary_embodiment": null,
+                "roles": [
+                  "CHIPMAKER",
+                  "COMPONENT_SUPPLIER",
+                  "INVESTOR",
+                  "PLATFORM"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+                "slug": "seoul",
+                "entity_type": "PLACE",
+                "name": "Seoul",
+                "primary_embodiment": null,
+                "roles": []
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "f89a18fb-337d-5e25-91da-66048da131d4",
+                "slug": "suwon",
+                "entity_type": "PLACE",
+                "name": "Suwon",
+                "primary_embodiment": null,
                 "roles": []
               },
               "measure_value": null,
@@ -1779,6 +2037,7 @@
                 "name": "AutoStore",
                 "primary_embodiment": null,
                 "roles": [
+                  "INTEGRATOR",
                   "OEM"
                 ]
               },
@@ -1854,7 +2113,9 @@
                 "entity_type": "ORGANIZATION",
                 "name": "OTTO Motors",
                 "primary_embodiment": null,
-                "roles": []
+                "roles": [
+                  "OEM"
+                ]
               },
               "measure_value": null,
               "is_primary_membership": true
@@ -1867,6 +2128,7 @@
                 "name": "Sanctuary AI",
                 "primary_embodiment": null,
                 "roles": [
+                  "MODEL_DEVELOPER",
                   "OEM"
                 ]
               },
@@ -1891,82 +2153,6 @@
                 "slug": "vancouver",
                 "entity_type": "PLACE",
                 "name": "Vancouver",
-                "primary_embodiment": null,
-                "roles": []
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "KR",
-      "label": "KR",
-      "count": 5,
-      "districts": [
-        {
-          "id": "KR",
-          "label": "KR",
-          "count": 5,
-          "entities": [
-            {
-              "chip": {
-                "id": "fea14c4f-a335-569e-8de3-bc4b6a94b6ea",
-                "slug": "doosan-m1013",
-                "entity_type": "ROBOT",
-                "name": "Doosan M1013",
-                "primary_embodiment": "COBOT",
-                "roles": []
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
-                "slug": "doosan-robotics",
-                "entity_type": "ORGANIZATION",
-                "name": "Doosan Robotics",
-                "primary_embodiment": null,
-                "roles": [
-                  "OEM"
-                ]
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "50a1681f-e78c-52cd-9388-0d59b8696a7b",
-                "slug": "lig-nex1",
-                "entity_type": "ORGANIZATION",
-                "name": "LIG Nex1",
-                "primary_embodiment": null,
-                "roles": []
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
-                "slug": "seoul",
-                "entity_type": "PLACE",
-                "name": "Seoul",
-                "primary_embodiment": null,
-                "roles": []
-              },
-              "measure_value": null,
-              "is_primary_membership": true
-            },
-            {
-              "chip": {
-                "id": "f89a18fb-337d-5e25-91da-66048da131d4",
-                "slug": "suwon",
-                "entity_type": "PLACE",
-                "name": "Suwon",
                 "primary_embodiment": null,
                 "roles": []
               },
@@ -2006,7 +2192,10 @@
                 "entity_type": "ORGANIZATION",
                 "name": "Rope Robotics",
                 "primary_embodiment": null,
-                "roles": []
+                "roles": [
+                  "OEM",
+                  "OPERATOR"
+                ]
               },
               "measure_value": null,
               "is_primary_membership": true
@@ -2071,6 +2260,7 @@
                 "name": "Exotec",
                 "primary_embodiment": null,
                 "roles": [
+                  "INTEGRATOR",
                   "OEM"
                 ]
               },
@@ -2123,7 +2313,8 @@
                 "name": "Percepto",
                 "primary_embodiment": null,
                 "roles": [
-                  "OEM"
+                  "OEM",
+                  "OPERATOR"
                 ]
               },
               "measure_value": null,
@@ -2214,7 +2405,9 @@
                 "entity_type": "ORGANIZATION",
                 "name": "BladeBUG",
                 "primary_embodiment": null,
-                "roles": []
+                "roles": [
+                  "OEM"
+                ]
               },
               "measure_value": null,
               "is_primary_membership": true
@@ -2252,7 +2445,10 @@
                 "entity_type": "ORGANIZATION",
                 "name": "Aerones",
                 "primary_embodiment": null,
-                "roles": []
+                "roles": [
+                  "OEM",
+                  "OPERATOR"
+                ]
               },
               "measure_value": null,
               "is_primary_membership": true

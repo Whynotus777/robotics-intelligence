@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "e6780286-79d4-5411-875c-0268eee9df49",
+    "subject": {
+      "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+      "slug": "hyundai",
+      "entity_type": "ORGANIZATION",
+      "name": "Hyundai Motor Company",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Hyundai Motor Company is headquartered at Seoul",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "38ffd00b-58ab-54be-b564-73e7efdc49f1",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Hyundai's site gives Seoul as the headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "549e1631-185d-5a38-96ca-2ed5e1ea34ec",
+        "url": "https://www.hyundai.com/worldwide/en",
+        "canonical_url": null,
+        "publisher": "Hyundai Motor Company",
+        "title": "Hyundai Motor worldwide",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

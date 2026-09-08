@@ -1,0 +1,69 @@
+{
+  "claim": {
+    "claim_id": "4a00eb97-4574-5e11-90e0-5994acf4985c",
+    "subject": {
+      "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
+      "slug": "waymo",
+      "entity_type": "ORGANIZATION",
+      "name": "Waymo",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Waymo is part of Alphabet",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+        "slug": "alphabet",
+        "entity_type": "ORGANIZATION",
+        "name": "Alphabet",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2016-12-13",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a220953e-468d-5cd7-8346-d41b038bf44e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Waymo describes itself as an Alphabet company; it was spun out of the Google self-driving project as a separate subsidiary in December 2016.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "a77f746f-ddd1-5702-887e-af5bdb7b7525",
+        "url": "https://waymo.com/",
+        "canonical_url": null,
+        "publisher": "Waymo",
+        "title": "Waymo",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

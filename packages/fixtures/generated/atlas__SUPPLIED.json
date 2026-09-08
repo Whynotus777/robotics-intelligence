@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 37
+      "count": 44
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 7
+      "count": 11
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 5
+      "count": 0
     },
     {
       "id": "DEPLOYED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 4
+      "count": 12
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 0
+      "count": 8
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 0
+      "count": 8
     }
   ],
   "marks": [
@@ -60,7 +60,9 @@
           "name": "Intel",
           "primary_embodiment": null,
           "roles": [
-            "COMPONENT_SUPPLIER"
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER",
+            "INVESTOR"
           ]
         },
         {
@@ -70,8 +72,10 @@
           "name": "NVIDIA",
           "primary_embodiment": null,
           "roles": [
-            "COMPONENT_SUPPLIER",
-            "MODEL_DEVELOPER"
+            "CHIPMAKER",
+            "INVESTOR",
+            "MODEL_DEVELOPER",
+            "PLATFORM"
           ]
         },
         {
@@ -82,6 +86,102 @@
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.68,
+      "lng": 139.69,
+      "country_code": "JP",
+      "cluster_label": "Tokyo",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
+          "slug": "harmonic-drive",
+          "entity_type": "ORGANIZATION",
+          "name": "Harmonic Drive",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
+          "slug": "nabtesco",
+          "entity_type": "ORGANIZATION",
+          "name": "Nabtesco",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c5da4207-66e6-58af-b465-9432764e2a62",
+        "slug": "hangzhou",
+        "entity_type": "PLACE",
+        "name": "Hangzhou",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 30.27,
+      "lng": 120.15,
+      "country_code": "CN",
+      "cluster_label": "Hangzhou",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
+          "slug": "unitree",
+          "entity_type": "ORGANIZATION",
+          "name": "Unitree Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "dbd7b2d3-26c1-5c57-a3c5-e803ea6e3e32",
+        "slug": "kitakyushu",
+        "entity_type": "PLACE",
+        "name": "Kitakyushu",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 33.88,
+      "lng": 130.88,
+      "country_code": "JP",
+      "cluster_label": "Kitakyushu",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+          "slug": "yaskawa",
+          "entity_type": "ORGANIZATION",
+          "name": "Yaskawa Electric",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "OEM"
           ]
         }
       ],
@@ -137,6 +237,7 @@
           "name": "Qualcomm",
           "primary_embodiment": null,
           "roles": [
+            "CHIPMAKER",
             "COMPONENT_SUPPLIER"
           ]
         }
@@ -173,27 +274,30 @@
     },
     {
       "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
+        "id": "f89a18fb-337d-5e25-91da-66048da131d4",
+        "slug": "suwon",
         "entity_type": "PLACE",
-        "name": "Tokyo",
+        "name": "Suwon",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 35.68,
-      "lng": 139.69,
-      "country_code": "JP",
-      "cluster_label": "Tokyo",
+      "lat": 37.26,
+      "lng": 127.03,
+      "country_code": "KR",
+      "cluster_label": "Seoul capital area",
       "weight": 1,
       "entities": [
         {
-          "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
-          "slug": "nabtesco",
+          "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+          "slug": "samsung",
           "entity_type": "ORGANIZATION",
-          "name": "Nabtesco",
+          "name": "Samsung Electronics",
           "primary_embodiment": null,
           "roles": [
-            "COMPONENT_SUPPLIER"
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER",
+            "INVESTOR",
+            "PLATFORM"
           ]
         }
       ],
@@ -208,20 +312,26 @@
       "places": 2
     },
     {
+      "id": "JP",
+      "label": "JP",
+      "weight": 3,
+      "places": 2
+    },
+    {
+      "id": "CN",
+      "label": "CN",
+      "weight": 2,
+      "places": 2
+    },
+    {
       "id": "CH",
       "label": "CH",
       "weight": 1,
       "places": 1
     },
     {
-      "id": "CN",
-      "label": "CN",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "JP",
-      "label": "JP",
+      "id": "KR",
+      "label": "KR",
       "weight": 1,
       "places": 1
     }
@@ -234,8 +344,26 @@
       "places": 1
     },
     {
+      "id": "Tokyo",
+      "label": "Tokyo",
+      "weight": 2,
+      "places": 1
+    },
+    {
       "id": "Central Switzerland",
       "label": "Central Switzerland",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Hangzhou",
+      "label": "Hangzhou",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Kitakyushu",
+      "label": "Kitakyushu",
       "weight": 1,
       "places": 1
     },
@@ -246,14 +374,14 @@
       "places": 1
     },
     {
-      "id": "Shanghai",
-      "label": "Shanghai",
+      "id": "Seoul capital area",
+      "label": "Seoul capital area",
       "weight": 1,
       "places": 1
     },
     {
-      "id": "Tokyo",
-      "label": "Tokyo",
+      "id": "Shanghai",
+      "label": "Shanghai",
       "weight": 1,
       "places": 1
     }
@@ -267,7 +395,9 @@
         "name": "Intel",
         "primary_embodiment": null,
         "roles": [
-          "COMPONENT_SUPPLIER"
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER",
+          "INVESTOR"
         ]
       },
       "place": {
@@ -287,8 +417,10 @@
         "name": "NVIDIA",
         "primary_embodiment": null,
         "roles": [
-          "COMPONENT_SUPPLIER",
-          "MODEL_DEVELOPER"
+          "CHIPMAKER",
+          "INVESTOR",
+          "MODEL_DEVELOPER",
+          "PLATFORM"
         ]
       },
       "place": {
@@ -322,6 +454,88 @@
     },
     {
       "entity": {
+        "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
+        "slug": "harmonic-drive",
+        "entity_type": "ORGANIZATION",
+        "name": "Harmonic Drive",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
+        "slug": "nabtesco",
+        "entity_type": "ORGANIZATION",
+        "name": "Nabtesco",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
+        "slug": "unitree",
+        "entity_type": "ORGANIZATION",
+        "name": "Unitree Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c5da4207-66e6-58af-b465-9432764e2a62",
+        "slug": "hangzhou",
+        "entity_type": "PLACE",
+        "name": "Hangzhou",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+        "slug": "yaskawa",
+        "entity_type": "ORGANIZATION",
+        "name": "Yaskawa Electric",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "dbd7b2d3-26c1-5c57-a3c5-e803ea6e3e32",
+        "slug": "kitakyushu",
+        "entity_type": "PLACE",
+        "name": "Kitakyushu",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "e05f8ee9-729b-5420-8374-2825cab9dcb6",
         "slug": "maxon",
         "entity_type": "ORGANIZATION",
@@ -348,6 +562,7 @@
         "name": "Qualcomm",
         "primary_embodiment": null,
         "roles": [
+          "CHIPMAKER",
           "COMPONENT_SUPPLIER"
         ]
       },
@@ -382,20 +597,23 @@
     },
     {
       "entity": {
-        "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
-        "slug": "nabtesco",
+        "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+        "slug": "samsung",
         "entity_type": "ORGANIZATION",
-        "name": "Nabtesco",
+        "name": "Samsung Electronics",
         "primary_embodiment": null,
         "roles": [
-          "COMPONENT_SUPPLIER"
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER",
+          "INVESTOR",
+          "PLATFORM"
         ]
       },
       "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
+        "id": "f89a18fb-337d-5e25-91da-66048da131d4",
+        "slug": "suwon",
         "entity_type": "PLACE",
-        "name": "Tokyo",
+        "name": "Suwon",
         "primary_embodiment": null,
         "roles": []
       }

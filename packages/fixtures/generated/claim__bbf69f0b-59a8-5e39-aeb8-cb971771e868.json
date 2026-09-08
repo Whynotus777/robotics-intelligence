@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "bbf69f0b-59a8-5e39-aeb8-cb971771e868",
+    "subject": {
+      "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+      "slug": "hyundai",
+      "entity_type": "ORGANIZATION",
+      "name": "Hyundai Motor Company",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Hyundai Motor Company role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b5feb0a2-aeaf-5215-94c7-2fc806eab9fa",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Hyundai's robotics reach is through a subsidiary it controls rather than a product of its own, which is the second branch of the declared PLATFORM bar.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "549e1631-185d-5a38-96ca-2ed5e1ea34ec",
+        "url": "https://www.hyundai.com/worldwide/en",
+        "canonical_url": null,
+        "publisher": "Hyundai Motor Company",
+        "title": "Hyundai Motor worldwide",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "a93e36f1-94c8-545f-97dc-62c4ecbef363",
+      "value": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

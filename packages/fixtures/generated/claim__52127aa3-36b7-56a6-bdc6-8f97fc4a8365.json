@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "52127aa3-36b7-56a6-bdc6-8f97fc4a8365",
+    "subject": {
+      "id": "32f4fe35-c685-537a-8ef0-68cd02e5ccc9",
+      "slug": "autostore",
+      "entity_type": "ORGANIZATION",
+      "name": "AutoStore",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "AutoStore role INTEGRATOR",
+    "value": {
+      "kind": "enum",
+      "value": "INTEGRATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bfeb2ede-3f4f-565c-a3ae-4a4697451c49",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "AutoStore sells an installed system rather than a single machine.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e8bdbd90-039a-5e80-8a46-ecd5fbb5be8a",
+        "url": "https://www.autostoresystem.com/",
+        "canonical_url": null,
+        "publisher": "AutoStore",
+        "title": "AutoStore",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "53eea48e-af81-5635-a922-0fa5b10fa5dc",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

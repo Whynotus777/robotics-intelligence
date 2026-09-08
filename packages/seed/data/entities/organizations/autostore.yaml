@@ -33,3 +33,17 @@ claims:
     confidence: MEDIUM
     source: autostore-robots-page
     excerpt: Grid robots are listed on the system pages.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: autostore-site
+    excerpt: AutoStore designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: INTEGRATOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: autostore-site
+    excerpt: AutoStore sells an installed system rather than a single machine.

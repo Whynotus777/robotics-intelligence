@@ -1,0 +1,87 @@
+{
+  "claim": {
+    "claim_id": "e5280e37-3d58-5503-97f1-3e3070030b1f",
+    "subject": {
+      "id": "416d598d-01ab-563f-ba08-b6c58a9c6320",
+      "slug": "nvidia-isaac-gr00t-n1",
+      "entity_type": "MODEL",
+      "name": "NVIDIA Isaac GR00T N1",
+      "primary_embodiment": null,
+      "roles": []
+    },
+    "predicate": "HAS_DATA_COLLECTION_METHOD",
+    "label": "data collection method",
+    "sentence": "NVIDIA Isaac GR00T N1 data collection method SIMULATION",
+    "value": {
+      "kind": "enum",
+      "value": "SIMULATION"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "65f98a52-1800-5d46-993d-10baa0813e2a",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Simulated trajectories from Isaac Sim make up the largest share of the mixture.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "89d29371-af16-52fd-b599-7f89b63a311a",
+        "url": "https://developer.nvidia.com/isaac/gr00t",
+        "canonical_url": null,
+        "publisher": "NVIDIA",
+        "title": "NVIDIA Isaac GR00T foundation models",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "8553cbbd-8865-54ed-9e57-10b85867fc90",
+      "value": {
+        "kind": "enum",
+        "value": "TELEOPERATION"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "887b3278-38f9-5edf-a036-88f6e018a16e",
+      "value": {
+        "kind": "enum",
+        "value": "SYNTHETIC"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "a27d5aa7-f22c-5d57-8777-a18e1c762f02",
+      "value": {
+        "kind": "enum",
+        "value": "HUMAN_VIDEO"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "f26a7857-cccc-52c2-9f3f-ed74fd8f6a0c",
+    "subject": {
+      "id": "08abf8ef-13f8-595d-87fc-d2aeb7ff1467",
+      "slug": "toyota",
+      "entity_type": "ORGANIZATION",
+      "name": "Toyota Motor Corporation",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Toyota Motor Corporation is headquartered at Toyota City",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "fe8488ed-8f7c-51e0-94fe-dfa30e931949",
+        "slug": "toyota-city",
+        "entity_type": "PLACE",
+        "name": "Toyota City",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8b73d5b8-821c-55ba-900c-5d5b80b85e85",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Toyota's global site gives Toyota City, Aichi as the headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "45b5baf9-51dc-53c4-99cc-a57c193452f6",
+        "url": "https://global.toyota/en/",
+        "canonical_url": null,
+        "publisher": "Toyota Motor Corporation",
+        "title": "Toyota global",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

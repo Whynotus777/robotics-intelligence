@@ -30,6 +30,52 @@
   "place": null,
   "claims": [
     {
+      "predicate": "HAS_DATA_COLLECTION_METHOD",
+      "label": "data collection method",
+      "claims": [
+        {
+          "claim_id": "10bbf710-108c-5212-914e-13e5d4e3a185",
+          "predicate": "HAS_DATA_COLLECTION_METHOD",
+          "value": {
+            "kind": "enum",
+            "value": "TELEOPERATION"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d806452d-2754-5fed-9163-fa8ad55bd391",
+          "predicate": "HAS_DATA_COLLECTION_METHOD",
+          "value": {
+            "kind": "enum",
+            "value": "HUMAN_VIDEO"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HAS_EMBODIMENT",
       "label": "embodiment",
       "claims": [
@@ -97,6 +143,7 @@
             "name": "Tesla",
             "primary_embodiment": null,
             "roles": [
+              "MODEL_DEVELOPER",
               "OEM"
             ]
           },
@@ -122,6 +169,7 @@
         "name": "Tesla",
         "primary_embodiment": null,
         "roles": [
+          "MODEL_DEVELOPER",
           "OEM"
         ]
       }
@@ -130,17 +178,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 4,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 1
   },

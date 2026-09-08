@@ -11,3 +11,17 @@ claims:
       - class: PRIMARY
         confidence: HIGH
         source: tesla-optimus
+  - predicate: HAS_ROLE
+    enum: OEM
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: tesla-optimus
+        excerpt: Tesla designs and sells robots under its own name.
+  - predicate: HAS_ROLE
+    enum: MODEL_DEVELOPER
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: tesla-optimus
+        excerpt: Optimus runs Tesla's own policies rather than a bought-in stack.

@@ -1,0 +1,69 @@
+{
+  "claim": {
+    "claim_id": "76f0890f-b3ad-5aeb-8abd-634cd3e500ab",
+    "subject": {
+      "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
+      "slug": "amazon-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Amazon Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Amazon Robotics is part of Amazon",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+        "slug": "amazon",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OPERATOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2012-03-19",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ea44e75b-77ff-5b84-8f16-8f8f46d05122",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Amazon Robotics is Amazon's own robotics arm, from the Kiva Systems acquisition announced in March 2012 and renamed in 2015.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "028549e9-676b-598b-b287-aa5bed67b43f",
+        "url": "https://www.aboutamazon.com/news",
+        "canonical_url": null,
+        "publisher": "Amazon",
+        "title": "Amazon deploys its one millionth robot",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-07-01T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

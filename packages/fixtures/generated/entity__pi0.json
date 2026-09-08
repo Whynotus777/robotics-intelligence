@@ -31,6 +31,52 @@
   "place": null,
   "claims": [
     {
+      "predicate": "HAS_DATA_COLLECTION_METHOD",
+      "label": "data collection method",
+      "claims": [
+        {
+          "claim_id": "2e26afa8-279e-5b91-a0dc-45ea9ce7ff49",
+          "predicate": "HAS_DATA_COLLECTION_METHOD",
+          "value": {
+            "kind": "enum",
+            "value": "TELEOPERATION"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-10-31",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d49498b8-2bcf-5c98-b886-3c962673ea26",
+          "predicate": "HAS_DATA_COLLECTION_METHOD",
+          "value": {
+            "kind": "enum",
+            "value": "REAL_DEPLOYMENT"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ACADEMIC",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "ANNOUNCED_ON",
       "label": "was announced on",
       "claims": [
@@ -235,17 +281,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 3,
+        "PRIMARY": 4,
         "THIRD_PARTY": 0,
-        "ACADEMIC": 2,
+        "ACADEMIC": 3,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 4,
+      "claim_count": 6,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 4,
+    "recent_change_count": 6,
     "deployment_count": 0,
     "related_count": 4
   },

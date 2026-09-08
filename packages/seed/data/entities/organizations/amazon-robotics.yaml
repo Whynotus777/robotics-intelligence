@@ -19,3 +19,26 @@ claims:
     confidence: HIGH
     source: amazon-robotics-news
     excerpt: Fulfilment-centre robotics.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: amazon-robotics-news
+    excerpt: Amazon Robotics designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: amazon-robotics-news
+    excerpt: Amazon Robotics runs robots in its own operations.
+- predicate: PART_OF
+  object: amazon
+  valid_from: 2012-03-19
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: amazon-robotics-news
+    excerpt: Amazon Robotics is Amazon's own robotics arm, from the Kiva Systems acquisition announced
+      in March 2012 and renamed in 2015.

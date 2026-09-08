@@ -26,3 +26,17 @@ claims:
     confidence: MEDIUM
     source: galbot-site
     excerpt: G1 is presented as the company's robot platform.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: galbot-site
+    excerpt: Galbot designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: galbot-site
+    excerpt: Galbot runs robots in its own operations.

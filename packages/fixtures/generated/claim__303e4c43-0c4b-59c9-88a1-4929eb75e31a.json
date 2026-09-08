@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "303e4c43-0c4b-59c9-88a1-4929eb75e31a",
+    "subject": {
+      "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
+      "slug": "boston-dynamics",
+      "entity_type": "ORGANIZATION",
+      "name": "Boston Dynamics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Boston Dynamics is part of Hyundai Motor Company",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+        "slug": "hyundai",
+        "entity_type": "ORGANIZATION",
+        "name": "Hyundai Motor Company",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2021-06-21",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7a9b5fbc-2472-573e-a168-21001c5bd3aa",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Boston Dynamics presents itself as a Hyundai Motor Group company; the controlling stake closed in June 2021. The ACQUIRED event is the day it happened, this is that it is still true.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "75d3d14b-aac2-50eb-9c80-1009226ac791",
+        "url": "https://bostondynamics.com/",
+        "canonical_url": null,
+        "publisher": "Boston Dynamics",
+        "title": "Boston Dynamics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

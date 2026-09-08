@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "36057abf-b908-5c35-9915-d0fde542572d",
+    "subject": {
+      "id": "0a292c52-7b7a-5c88-993b-9974b3839a21",
+      "slug": "meta",
+      "entity_type": "ORGANIZATION",
+      "name": "Meta",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "PLATFORM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Meta is headquartered at San Francisco Bay Area",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c7a5f263-86d3-5861-a2ed-1cf17785631b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Meta gives Menlo Park, California as the headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "a8eb13f2-7752-5213-b215-46793dce40b6",
+        "url": "https://about.meta.com/",
+        "canonical_url": null,
+        "publisher": "Meta",
+        "title": "About Meta",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

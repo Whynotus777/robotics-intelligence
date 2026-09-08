@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "a93e36f1-94c8-545f-97dc-62c4ecbef363",
+    "subject": {
+      "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+      "slug": "hyundai",
+      "entity_type": "ORGANIZATION",
+      "name": "Hyundai Motor Company",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Hyundai Motor Company role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9fa67f0d-764d-538f-8b0c-ed7ab59bebcc",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Hyundai took a controlling stake in Boston Dynamics rather than building the capability.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "75d3d14b-aac2-50eb-9c80-1009226ac791",
+        "url": "https://bostondynamics.com/",
+        "canonical_url": null,
+        "publisher": "Boston Dynamics",
+        "title": "Boston Dynamics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "bbf69f0b-59a8-5e39-aeb8-cb971771e868",
+      "value": {
+        "kind": "enum",
+        "value": "PLATFORM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

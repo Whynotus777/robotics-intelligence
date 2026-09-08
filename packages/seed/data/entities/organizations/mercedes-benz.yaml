@@ -14,3 +14,10 @@ claims:
     confidence: HIGH
     source: mercedes-site
     excerpt: Company site gives the headquarters location.
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: apptronik-mercedes-announcement
+    excerpt: Mercedes-Benz runs robots in its own operations.

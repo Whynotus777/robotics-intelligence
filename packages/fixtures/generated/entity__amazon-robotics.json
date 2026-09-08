@@ -13,8 +13,50 @@
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
-  "roles": [],
-  "part_of": null,
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": true,
+      "claim_id": "bed22aa1-fc65-55a9-8880-4c5a8be9bc5f",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      }
+    },
+    {
+      "role": "OPERATOR",
+      "declared": true,
+      "claim_id": "f6e138c9-500c-51e3-ab8f-469f36edfcd2",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": {
+    "parent": {
+      "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+      "slug": "amazon",
+      "entity_type": "ORGANIZATION",
+      "name": "Amazon",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "OPERATOR",
+        "PLATFORM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "since": "2012-03-19",
+    "claim_id": "76f0890f-b3ad-5aeb-8abd-634cd3e500ab",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -25,7 +67,54 @@
     "maturity": null
   },
   "place": null,
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "bed22aa1-fc65-55a9-8880-4c5a8be9bc5f",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OEM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "f6e138c9-500c-51e3-ab8f-469f36edfcd2",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OPERATOR"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "predicate": "HQ_AT",
@@ -44,6 +133,37 @@
           "stack_layer": null,
           "qualifier": null,
           "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "76f0890f-b3ad-5aeb-8abd-634cd3e500ab",
+          "target": {
+            "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+            "slug": "amazon",
+            "entity_type": "ORGANIZATION",
+            "name": "Amazon",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "OPERATOR",
+              "PLATFORM",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2012-03-19",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
@@ -82,6 +202,21 @@
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+        "slug": "amazon",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OPERATOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      }
+    ],
     "markets": [
       {
         "id": "68407748-0447-505b-aa53-0d87ab606e33",
@@ -106,19 +241,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 5,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 5,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

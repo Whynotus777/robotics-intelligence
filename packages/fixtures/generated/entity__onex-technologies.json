@@ -19,12 +19,12 @@
   "roles": [
     {
       "role": "OEM",
-      "declared": false,
-      "claim_id": null,
+      "declared": true,
+      "claim_id": "dff12311-7fc5-59a5-84ae-e42380fffba3",
       "evidence_summary": {
-        "class": "NOT_AVAILABLE",
-        "confidence": null,
-        "source_count": 0
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
       }
     }
   ],
@@ -39,7 +39,34 @@
     "maturity": null
   },
   "place": null,
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "dff12311-7fc5-59a5-84ae-e42380fffba3",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OEM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "predicate": "HQ_AT",
@@ -146,17 +173,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 3,
+        "PRIMARY": 4,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 3
   },

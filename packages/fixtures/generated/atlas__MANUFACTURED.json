@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 37
+      "count": 44
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 7
+      "count": 11
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 5
+      "count": 0
     },
     {
       "id": "DEPLOYED",
@@ -24,330 +24,22 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 4
+      "count": 12
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 0
+      "count": 8
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 0
+      "count": 8
     }
   ],
-  "marks": [
-    {
-      "place": {
-        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
-        "slug": "munich",
-        "entity_type": "PLACE",
-        "name": "Munich",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 48.14,
-      "lng": 11.58,
-      "country_code": "DE",
-      "cluster_label": "Munich",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "098db5e0-7b78-56a1-8990-159131dbdb7c",
-          "slug": "bmw",
-          "entity_type": "ORGANIZATION",
-          "name": "BMW Group",
-          "primary_embodiment": null,
-          "roles": [
-            "CONTRACT_MANUFACTURER",
-            "OPERATOR"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
-        "entity_type": "PLACE",
-        "name": "Shanghai",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 31.23,
-      "lng": 121.47,
-      "country_code": "CN",
-      "cluster_label": "Shanghai",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
-          "slug": "abb-robotics",
-          "entity_type": "ORGANIZATION",
-          "name": "ABB Robotics",
-          "primary_embodiment": null,
-          "roles": [
-            "CONTRACT_MANUFACTURER",
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
-        "entity_type": "PLACE",
-        "name": "Shenzhen",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 22.54,
-      "lng": 114.06,
-      "country_code": "CN",
-      "cluster_label": "Shenzhen",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
-          "slug": "dji",
-          "entity_type": "ORGANIZATION",
-          "name": "DJI",
-          "primary_embodiment": null,
-          "roles": [
-            "CONTRACT_MANUFACTURER",
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "a3e6bb2e-6cb0-57f6-a5de-328fcc0ec33a",
-        "slug": "spartanburg",
-        "entity_type": "PLACE",
-        "name": "Spartanburg",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 34.95,
-      "lng": -81.93,
-      "country_code": "US",
-      "cluster_label": "Spartanburg",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "098db5e0-7b78-56a1-8990-159131dbdb7c",
-          "slug": "bmw",
-          "entity_type": "ORGANIZATION",
-          "name": "BMW Group",
-          "primary_embodiment": null,
-          "roles": [
-            "CONTRACT_MANUFACTURER",
-            "OPERATOR"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
-        "slug": "zurich",
-        "entity_type": "PLACE",
-        "name": "Zurich",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 47.38,
-      "lng": 8.54,
-      "country_code": "CH",
-      "cluster_label": "Zurich",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
-          "slug": "abb-robotics",
-          "entity_type": "ORGANIZATION",
-          "name": "ABB Robotics",
-          "primary_embodiment": null,
-          "roles": [
-            "CONTRACT_MANUFACTURER",
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    }
-  ],
-  "countries": [
-    {
-      "id": "CN",
-      "label": "CN",
-      "weight": 2,
-      "places": 2
-    },
-    {
-      "id": "CH",
-      "label": "CH",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "DE",
-      "label": "DE",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "US",
-      "label": "US",
-      "weight": 1,
-      "places": 1
-    }
-  ],
-  "corridors": [
-    {
-      "id": "Munich",
-      "label": "Munich",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "Shanghai",
-      "label": "Shanghai",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "Shenzhen",
-      "label": "Shenzhen",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "Spartanburg",
-      "label": "Spartanburg",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "Zurich",
-      "label": "Zurich",
-      "weight": 1,
-      "places": 1
-    }
-  ],
-  "list": [
-    {
-      "entity": {
-        "id": "098db5e0-7b78-56a1-8990-159131dbdb7c",
-        "slug": "bmw",
-        "entity_type": "ORGANIZATION",
-        "name": "BMW Group",
-        "primary_embodiment": null,
-        "roles": [
-          "CONTRACT_MANUFACTURER",
-          "OPERATOR"
-        ]
-      },
-      "place": {
-        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
-        "slug": "munich",
-        "entity_type": "PLACE",
-        "name": "Munich",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
-        "slug": "abb-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "ABB Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "CONTRACT_MANUFACTURER",
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
-        "entity_type": "PLACE",
-        "name": "Shanghai",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
-        "slug": "dji",
-        "entity_type": "ORGANIZATION",
-        "name": "DJI",
-        "primary_embodiment": null,
-        "roles": [
-          "CONTRACT_MANUFACTURER",
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
-        "entity_type": "PLACE",
-        "name": "Shenzhen",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "098db5e0-7b78-56a1-8990-159131dbdb7c",
-        "slug": "bmw",
-        "entity_type": "ORGANIZATION",
-        "name": "BMW Group",
-        "primary_embodiment": null,
-        "roles": [
-          "CONTRACT_MANUFACTURER",
-          "OPERATOR"
-        ]
-      },
-      "place": {
-        "id": "a3e6bb2e-6cb0-57f6-a5de-328fcc0ec33a",
-        "slug": "spartanburg",
-        "entity_type": "PLACE",
-        "name": "Spartanburg",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
-        "slug": "abb-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "ABB Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "CONTRACT_MANUFACTURER",
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
-        "slug": "zurich",
-        "entity_type": "PLACE",
-        "name": "Zurich",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    }
-  ],
+  "marks": [],
+  "countries": [],
+  "corridors": [],
+  "list": [],
   "as_of": null
 }

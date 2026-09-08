@@ -1,0 +1,80 @@
+{
+  "claim": {
+    "claim_id": "ecb08f91-8ce6-50d7-93de-131defb48f10",
+    "subject": {
+      "id": "0a292c52-7b7a-5c88-993b-9974b3839a21",
+      "slug": "meta",
+      "entity_type": "ORGANIZATION",
+      "name": "Meta",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "PLATFORM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Meta role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1e1e43e6-1c02-5865-b74f-6049273305f1",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Meta's robotics is research, open models and the hardware work under them rather than a product, which puts it past the declared PLATFORM bar on roles rather than subsidiaries.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "a8eb13f2-7752-5213-b215-46793dce40b6",
+        "url": "https://about.meta.com/",
+        "canonical_url": null,
+        "publisher": "Meta",
+        "title": "About Meta",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "4c8bb96c-62bf-5032-bc5c-9eca2b2a6712",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "b8eb5da1-eb6e-5551-970c-fc2e9596c4ee",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

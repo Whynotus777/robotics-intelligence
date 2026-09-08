@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "e5b8a7af-9986-5e64-8cc6-f33243e7996f",
+    "subject": {
+      "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
+      "slug": "unitree",
+      "entity_type": "ORGANIZATION",
+      "name": "Unitree Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Unitree Robotics role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0c6c2fbe-ba17-550d-9be8-0550e83472c9",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Unitree Robotics sells robot components to other builders.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "865cb64d-2f1d-5e24-98e2-14220140dbe8",
+        "url": "https://www.unitree.com/",
+        "canonical_url": null,
+        "publisher": "Unitree Robotics",
+        "title": "Unitree Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "25ca64ed-2a0d-58b0-99bf-3eadade64958",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

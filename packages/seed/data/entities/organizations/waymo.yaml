@@ -27,3 +27,33 @@ claims:
     confidence: MEDIUM
     source: waymo-driver-page
     excerpt: The Waymo Driver is described as integrated into the company's ride-hailing fleet vehicles.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: waymo-site
+    excerpt: Waymo designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: waymo-site
+    excerpt: Waymo trains the models that drive robots.
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: waymo-site
+    excerpt: Waymo runs robots in its own operations.
+- predicate: PART_OF
+  object: alphabet
+  valid_from: 2016-12-13
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: waymo-site
+    excerpt: Waymo describes itself as an Alphabet company; it was spun out of the Google self-driving
+      project as a separate subsidiary in December 2016.

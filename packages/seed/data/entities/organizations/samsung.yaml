@@ -1,0 +1,45 @@
+slug: samsung
+entity_type: ORGANIZATION
+name: Samsung Electronics
+short_description: Suwon; supplies the memory and image sensors robots are built from, and has been buying its way into robot makers rather than starting one.
+country_code: KR
+depth_tier: STANDARD
+aliases:
+- Samsung
+claims:
+- predicate: HQ_AT
+  object: suwon
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: samsung-site
+    excerpt: Samsung Electronics gives Suwon as the headquarters.
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: samsung-site
+    excerpt: Samsung is in robotics as a chipmaker, a component supplier and an investor at once —
+      three roles, which is the declared PLATFORM bar.
+- predicate: HAS_ROLE
+  enum: CHIPMAKER
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: samsung-semiconductor-site
+    excerpt: Samsung Semiconductor sells the processors and memory that edge robots run on.
+- predicate: HAS_ROLE
+  enum: COMPONENT_SUPPLIER
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: samsung-semiconductor-site
+    excerpt: Samsung sells image sensors and memory into robot builds rather than robots.
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: samsung-site
+    excerpt: Samsung takes stakes in robot makers rather than building the machines itself.

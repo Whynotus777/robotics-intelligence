@@ -1,0 +1,80 @@
+{
+  "claim": {
+    "claim_id": "278226b0-4129-5ed8-828f-4ad570723d7b",
+    "subject": {
+      "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
+      "slug": "intel",
+      "entity_type": "ORGANIZATION",
+      "name": "Intel",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER",
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Intel role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ed6f57fa-6edf-5980-b84e-068c06726b06",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Intel sells robot components to other builders.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "fee58ca7-a14d-5030-8550-d6cc43fe6de8",
+        "url": "https://www.intel.com/",
+        "canonical_url": null,
+        "publisher": "Intel",
+        "title": "Intel Corporation",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "66b22606-8c28-50bd-9c00-ac489c533edf",
+      "value": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "71b25d63-f3e7-501e-affc-b9911bd2bedf",
+      "value": {
+        "kind": "enum",
+        "value": "CHIPMAKER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

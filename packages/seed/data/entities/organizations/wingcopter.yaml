@@ -26,3 +26,17 @@ claims:
     confidence: HIGH
     source: wingcopter-198-page
     excerpt: Wingcopter 198 product page.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: wingcopter-site
+    excerpt: Wingcopter designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: wingcopter-site
+    excerpt: Wingcopter runs robots in its own operations.

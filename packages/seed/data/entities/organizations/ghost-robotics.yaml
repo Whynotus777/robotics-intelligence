@@ -11,3 +11,19 @@ claims:
       - class: PRIMARY
         confidence: HIGH
         source: ghost-vision60
+  - predicate: HAS_ROLE
+    enum: OEM
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: ghost-vision60
+        excerpt: Ghost Robotics designs and sells robots under its own name.
+  - predicate: PART_OF
+    object: lig-nex1
+    valid_from: 2023-12-08
+    evidence:
+      - class: THIRD_PARTY
+        confidence: MEDIUM
+        source: lig-ghost-acquisition
+        published_at: 2023-12-08
+        excerpt: LIG Nex1 took a controlling stake in Ghost Robotics. The ACQUIRED event dates the deal; this says the ownership still stands.

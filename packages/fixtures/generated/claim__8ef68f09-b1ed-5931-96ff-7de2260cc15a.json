@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "8ef68f09-b1ed-5931-96ff-7de2260cc15a",
+    "subject": {
+      "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+      "slug": "universal-robots",
+      "entity_type": "ORGANIZATION",
+      "name": "Universal Robots",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Universal Robots role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3d77b3c6-0d14-5e7e-afef-d5d9313f909f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Universal Robots designs and sells robots under its own name.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "01df52f5-a475-5904-b615-77d31452be55",
+        "url": "https://www.universal-robots.com/",
+        "canonical_url": null,
+        "publisher": "Universal Robots",
+        "title": "Universal Robots",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

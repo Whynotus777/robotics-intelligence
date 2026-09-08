@@ -36,3 +36,17 @@ claims:
     confidence: HIGH
     source: pi-pi05-blog
     excerpt: Company blog introduces the pi-0.5 model.
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: pi-pi0-blog
+    excerpt: Physical Intelligence trains the models that drive robots.
+- predicate: HAS_ROLE
+  enum: RESEARCH_LAB
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: pi-pi0-blog
+    excerpt: Physical Intelligence does and publishes robotics research.

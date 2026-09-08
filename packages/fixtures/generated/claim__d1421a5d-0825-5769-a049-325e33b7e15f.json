@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "d1421a5d-0825-5769-a049-325e33b7e15f",
+    "subject": {
+      "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+      "slug": "samsung",
+      "entity_type": "ORGANIZATION",
+      "name": "Samsung Electronics",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER",
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Samsung Electronics is headquartered at Suwon",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f89a18fb-337d-5e25-91da-66048da131d4",
+        "slug": "suwon",
+        "entity_type": "PLACE",
+        "name": "Suwon",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "66ff7588-920b-50b9-b058-3cde5537f51e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Samsung Electronics gives Suwon as the headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "d0771080-29e0-5df1-b3af-c8d51e1c695e",
+        "url": "https://www.samsung.com/",
+        "canonical_url": null,
+        "publisher": "Samsung Electronics",
+        "title": "Samsung Electronics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

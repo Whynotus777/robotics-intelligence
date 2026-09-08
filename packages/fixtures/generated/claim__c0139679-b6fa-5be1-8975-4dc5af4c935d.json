@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "c0139679-b6fa-5be1-8975-4dc5af4c935d",
+    "subject": {
+      "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+      "slug": "amazon",
+      "entity_type": "ORGANIZATION",
+      "name": "Amazon",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "OPERATOR",
+        "PLATFORM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Amazon is headquartered at Seattle",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4260608e-dcbe-56bd-8a2b-121b8c66d993",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Amazon's corporate site gives Seattle as the headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "58d8f9a5-d1c8-524f-970c-f7e3cea9d3d2",
+        "url": "https://www.aboutamazon.com/",
+        "canonical_url": null,
+        "publisher": "Amazon",
+        "title": "About Amazon",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

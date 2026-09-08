@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "9599cd2a-b61e-575d-972b-ca91fbd58482",
+    "subject": {
+      "id": "c9b84a3a-f7dd-578a-a6c9-6c0a2b061b1b",
+      "slug": "gatik",
+      "entity_type": "ORGANIZATION",
+      "name": "Gatik",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Gatik role OPERATOR",
+    "value": {
+      "kind": "enum",
+      "value": "OPERATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "99f08c5b-7d3b-5b37-9ba1-47a3ad0ea4f8",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Gatik runs robots in its own operations.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8da5deb8-198d-5b93-b7b2-222179cff1ea",
+        "url": "https://www.gatik.ai/",
+        "canonical_url": null,
+        "publisher": "Gatik",
+        "title": "Gatik autonomous middle-mile logistics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "b1df8d75-d9d9-50e0-94ac-77434fe09709",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

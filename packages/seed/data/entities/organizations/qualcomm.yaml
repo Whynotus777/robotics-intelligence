@@ -19,3 +19,17 @@ claims:
     confidence: HIGH
     source: qualcomm-robotics-page
     excerpt: Robotics platform page.
+- predicate: HAS_ROLE
+  enum: CHIPMAKER
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: qualcomm-robotics-page
+    excerpt: Qualcomm designs the compute silicon robots run on.
+- predicate: HAS_ROLE
+  enum: COMPONENT_SUPPLIER
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: qualcomm-robotics-page
+    excerpt: Qualcomm sells robot components to other builders.

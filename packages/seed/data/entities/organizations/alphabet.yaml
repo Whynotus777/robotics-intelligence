@@ -1,0 +1,39 @@
+slug: alphabet
+entity_type: ORGANIZATION
+name: Alphabet
+short_description: Mountain View holding company; robotics reaches the world through Waymo, and the research and the capital through Google DeepMind and GV.
+country_code: US
+depth_tier: STANDARD
+aliases:
+- Alphabet Inc.
+- Google
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: alphabet-site
+    excerpt: Alphabet's own site gives Mountain View as the headquarters.
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: alphabet-site
+    excerpt: Alphabet holds its robotics through subsidiaries rather than building any itself, which
+      is the second branch of the declared PLATFORM bar.
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: gv-site
+    excerpt: GV is Alphabet's venture arm and invests in robotics companies.
+- predicate: HAS_ROLE
+  enum: RESEARCH_LAB
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: deepmind-site
+    excerpt: Google DeepMind publishes robotics research and robot foundation models.

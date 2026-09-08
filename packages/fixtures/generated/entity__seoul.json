@@ -33,8 +33,52 @@
   },
   "claims": [],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "e6780286-79d4-5411-875c-0268eee9df49",
+          "source": {
+            "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+            "slug": "hyundai",
+            "entity_type": "ORGANIZATION",
+            "name": "Hyundai Motor Company",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+        "slug": "hyundai",
+        "entity_type": "ORGANIZATION",
+        "name": "Hyundai Motor Company",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -50,7 +94,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

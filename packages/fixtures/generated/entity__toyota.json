@@ -1,0 +1,217 @@
+{
+  "entity": {
+    "id": "08abf8ef-13f8-595d-87fc-d2aeb7ff1467",
+    "slug": "toyota",
+    "entity_type": "ORGANIZATION",
+    "name": "Toyota Motor Corporation",
+    "short_description": "Toyota City automaker; its robotics is a research institute in California rather than a product line in Japan.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "JP",
+    "aliases": [
+      "Toyota"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "INVESTOR",
+      "declared": true,
+      "claim_id": "4ce3c696-2082-5324-a7fa-ba64f02629ad",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      }
+    },
+    {
+      "role": "PLATFORM",
+      "declared": true,
+      "claim_id": "7e2a6804-4598-5365-ba3a-acff5f440091",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "debbc27a-81bd-5cdd-bbc5-79fcce1c582e",
+        "slug": "toyota-research-institute",
+        "entity_type": "ORGANIZATION",
+        "name": "Toyota Research Institute",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2016-01-01",
+      "claim_id": "46179473-3137-5eca-8f9d-0a774bf184ac"
+    }
+  ],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "4ce3c696-2082-5324-a7fa-ba64f02629ad",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "INVESTOR"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "7e2a6804-4598-5365-ba3a-acff5f440091",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "PLATFORM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "f26a7857-cccc-52c2-9f3f-ed74fd8f6a0c",
+          "target": {
+            "id": "fe8488ed-8f7c-51e0-94fe-dfa30e931949",
+            "slug": "toyota-city",
+            "entity_type": "PLACE",
+            "name": "Toyota City",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "46179473-3137-5eca-8f9d-0a774bf184ac",
+          "source": {
+            "id": "debbc27a-81bd-5cdd-bbc5-79fcce1c582e",
+            "slug": "toyota-research-institute",
+            "entity_type": "ORGANIZATION",
+            "name": "Toyota Research Institute",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2016-01-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "debbc27a-81bd-5cdd-bbc5-79fcce1c582e",
+        "slug": "toyota-research-institute",
+        "entity_type": "ORGANIZATION",
+        "name": "Toyota Research Institute",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "fe8488ed-8f7c-51e0-94fe-dfa30e931949",
+        "slug": "toyota-city",
+        "entity_type": "PLACE",
+        "name": "Toyota City",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 3,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

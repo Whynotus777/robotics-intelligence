@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "4ce3c696-2082-5324-a7fa-ba64f02629ad",
+    "subject": {
+      "id": "08abf8ef-13f8-595d-87fc-d2aeb7ff1467",
+      "slug": "toyota",
+      "entity_type": "ORGANIZATION",
+      "name": "Toyota Motor Corporation",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Toyota Motor Corporation role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "41ea309a-acea-5a43-9432-06aba12027b5",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Toyota funds robotics through its venture arms rather than only through the institute.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "45b5baf9-51dc-53c4-99cc-a57c193452f6",
+        "url": "https://global.toyota/en/",
+        "canonical_url": null,
+        "publisher": "Toyota Motor Corporation",
+        "title": "Toyota global",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "7e2a6804-4598-5365-ba3a-acff5f440091",
+      "value": {
+        "kind": "enum",
+        "value": "PLATFORM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

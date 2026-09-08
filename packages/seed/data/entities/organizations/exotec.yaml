@@ -33,3 +33,17 @@ claims:
     confidence: HIGH
     source: exotec-skypod-page
     excerpt: Skypod system product page.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: exotec-site
+    excerpt: Exotec designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: INTEGRATOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: exotec-site
+    excerpt: Exotec sells an installed system rather than a single machine.

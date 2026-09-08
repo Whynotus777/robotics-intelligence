@@ -20,3 +20,34 @@ claims:
     confidence: HIGH
     source: intel-realsense-d435i-page
     excerpt: RealSense D435i product page.
+- predicate: HAS_ROLE
+  enum: CHIPMAKER
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: intel-site
+    excerpt: Intel designs the compute silicon robots run on.
+- predicate: HAS_ROLE
+  enum: COMPONENT_SUPPLIER
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: intel-site
+    excerpt: Intel sells robot components to other builders.
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: figure-series-b
+    excerpt: Intel puts capital into robotics companies.
+- predicate: INVESTED_IN
+  object: figure-ai
+  valid_from: 2024-02-29
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: figure-series-b
+    published_at: 2024-02-29
+    excerpt: Figure names Intel Capital among its Series B investors. The amount attributable to any
+      one investor was not disclosed.

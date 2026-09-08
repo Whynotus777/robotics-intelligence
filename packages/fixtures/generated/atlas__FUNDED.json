@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 37
+      "count": 44
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 7
+      "count": 11
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 5
+      "count": 0
     },
     {
       "id": "DEPLOYED",
@@ -24,22 +24,456 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 4
+      "count": 12
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 0
+      "count": 8
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 0
+      "count": 8
     }
   ],
-  "marks": [],
-  "countries": [],
-  "corridors": [],
-  "list": [],
+  "marks": [
+    {
+      "place": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.45,
+      "lng": -122.15,
+      "country_code": "US",
+      "cluster_label": "Bay Area",
+      "weight": 3,
+      "entities": [
+        {
+          "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+          "slug": "alphabet",
+          "entity_type": "ORGANIZATION",
+          "name": "Alphabet",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM",
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
+          "slug": "intel",
+          "entity_type": "ORGANIZATION",
+          "name": "Intel",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER",
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+          "slug": "nvidia",
+          "entity_type": "ORGANIZATION",
+          "name": "NVIDIA",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "INVESTOR",
+            "MODEL_DEVELOPER",
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "2588e14b-b3ca-531f-9426-d37179a708a6",
+        "slug": "redmond",
+        "entity_type": "PLACE",
+        "name": "Redmond",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 47.674,
+      "lng": -122.1215,
+      "country_code": "US",
+      "cluster_label": "Seattle",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "7015787f-4e5d-58a6-ae0c-112ce87d4c60",
+          "slug": "microsoft",
+          "entity_type": "ORGANIZATION",
+          "name": "Microsoft",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM",
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "country_code": "US",
+      "cluster_label": "Seattle",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+          "slug": "amazon",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "OPERATOR",
+            "PLATFORM",
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.57,
+      "lng": 126.98,
+      "country_code": "KR",
+      "cluster_label": "Seoul",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+          "slug": "hyundai",
+          "entity_type": "ORGANIZATION",
+          "name": "Hyundai Motor Company",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "f89a18fb-337d-5e25-91da-66048da131d4",
+        "slug": "suwon",
+        "entity_type": "PLACE",
+        "name": "Suwon",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.26,
+      "lng": 127.03,
+      "country_code": "KR",
+      "cluster_label": "Seoul capital area",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+          "slug": "samsung",
+          "entity_type": "ORGANIZATION",
+          "name": "Samsung Electronics",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER",
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "fe8488ed-8f7c-51e0-94fe-dfa30e931949",
+        "slug": "toyota-city",
+        "entity_type": "PLACE",
+        "name": "Toyota City",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.0828,
+      "lng": 137.1561,
+      "country_code": "JP",
+      "cluster_label": "Nagoya",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "08abf8ef-13f8-595d-87fc-d2aeb7ff1467",
+          "slug": "toyota",
+          "entity_type": "ORGANIZATION",
+          "name": "Toyota Motor Corporation",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    }
+  ],
+  "countries": [
+    {
+      "id": "US",
+      "label": "US",
+      "weight": 5,
+      "places": 3
+    },
+    {
+      "id": "KR",
+      "label": "KR",
+      "weight": 2,
+      "places": 2
+    },
+    {
+      "id": "JP",
+      "label": "JP",
+      "weight": 1,
+      "places": 1
+    }
+  ],
+  "corridors": [
+    {
+      "id": "Bay Area",
+      "label": "Bay Area",
+      "weight": 3,
+      "places": 1
+    },
+    {
+      "id": "Seattle",
+      "label": "Seattle",
+      "weight": 2,
+      "places": 2
+    },
+    {
+      "id": "Nagoya",
+      "label": "Nagoya",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Seoul",
+      "label": "Seoul",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Seoul capital area",
+      "label": "Seoul capital area",
+      "weight": 1,
+      "places": 1
+    }
+  ],
+  "list": [
+    {
+      "entity": {
+        "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+        "slug": "alphabet",
+        "entity_type": "ORGANIZATION",
+        "name": "Alphabet",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
+        "slug": "intel",
+        "entity_type": "ORGANIZATION",
+        "name": "Intel",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER",
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+        "slug": "nvidia",
+        "entity_type": "ORGANIZATION",
+        "name": "NVIDIA",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "INVESTOR",
+          "MODEL_DEVELOPER",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "7015787f-4e5d-58a6-ae0c-112ce87d4c60",
+        "slug": "microsoft",
+        "entity_type": "ORGANIZATION",
+        "name": "Microsoft",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "2588e14b-b3ca-531f-9426-d37179a708a6",
+        "slug": "redmond",
+        "entity_type": "PLACE",
+        "name": "Redmond",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+        "slug": "amazon",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OPERATOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+        "slug": "hyundai",
+        "entity_type": "ORGANIZATION",
+        "name": "Hyundai Motor Company",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+        "slug": "samsung",
+        "entity_type": "ORGANIZATION",
+        "name": "Samsung Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER",
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "f89a18fb-337d-5e25-91da-66048da131d4",
+        "slug": "suwon",
+        "entity_type": "PLACE",
+        "name": "Suwon",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "08abf8ef-13f8-595d-87fc-d2aeb7ff1467",
+        "slug": "toyota",
+        "entity_type": "ORGANIZATION",
+        "name": "Toyota Motor Corporation",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "fe8488ed-8f7c-51e0-94fe-dfa30e931949",
+        "slug": "toyota-city",
+        "entity_type": "PLACE",
+        "name": "Toyota City",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    }
+  ],
   "as_of": null
 }

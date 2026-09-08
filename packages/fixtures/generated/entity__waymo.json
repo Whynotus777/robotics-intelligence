@@ -18,17 +18,57 @@
   },
   "roles": [
     {
-      "role": "OEM",
-      "declared": false,
-      "claim_id": null,
+      "role": "MODEL_DEVELOPER",
+      "declared": true,
+      "claim_id": "77b56d4b-25da-54d6-9c16-79f1edcef475",
       "evidence_summary": {
-        "class": "NOT_AVAILABLE",
-        "confidence": null,
-        "source_count": 0
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      }
+    },
+    {
+      "role": "OEM",
+      "declared": true,
+      "claim_id": "ba3e1070-0b11-5ec1-b364-d59e64bb92c7",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    },
+    {
+      "role": "OPERATOR",
+      "declared": true,
+      "claim_id": "aa9be480-0be9-57b0-8926-ec7577aa606f",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+      "slug": "alphabet",
+      "entity_type": "ORGANIZATION",
+      "name": "Alphabet",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "since": "2016-12-13",
+    "claim_id": "4a00eb97-4574-5e11-90e0-5994acf4985c",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -39,7 +79,74 @@
     "maturity": null
   },
   "place": null,
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "77b56d4b-25da-54d6-9c16-79f1edcef475",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "MODEL_DEVELOPER"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "aa9be480-0be9-57b0-8926-ec7577aa606f",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OPERATOR"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "ba3e1070-0b11-5ec1-b364-d59e64bb92c7",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OEM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "predicate": "HQ_AT",
@@ -58,6 +165,36 @@
           "stack_layer": null,
           "qualifier": null,
           "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "4a00eb97-4574-5e11-90e0-5994acf4985c",
+          "target": {
+            "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+            "slug": "alphabet",
+            "entity_type": "ORGANIZATION",
+            "name": "Alphabet",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "PLATFORM",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2016-12-13",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
@@ -122,6 +259,20 @@
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+        "slug": "alphabet",
+        "entity_type": "ORGANIZATION",
+        "name": "Alphabet",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      }
+    ],
     "markets": [
       {
         "id": "518b8634-6ab5-554f-82cf-fef52de456cc",
@@ -146,19 +297,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 3,
+        "PRIMARY": 7,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 7,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 7,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 4
   },
   "as_of": null
 }

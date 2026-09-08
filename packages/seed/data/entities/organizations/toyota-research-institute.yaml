@@ -1,0 +1,39 @@
+slug: toyota-research-institute
+entity_type: ORGANIZATION
+name: Toyota Research Institute
+short_description: Los Altos research subsidiary of Toyota; large behavior models for manipulation, and the partner behind Boston Dynamics' learned Atlas work.
+country_code: US
+depth_tier: STANDARD
+aliases:
+- TRI
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: tri-site
+    excerpt: TRI's site gives Los Altos, California as the headquarters.
+- predicate: PART_OF
+  object: toyota
+  valid_from: 2016-01-01
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: tri-site
+    excerpt: TRI describes itself as a subsidiary of Toyota, established in 2015 and operating from
+      the start of 2016.
+- predicate: HAS_ROLE
+  enum: RESEARCH_LAB
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: tri-site
+    excerpt: TRI is a research institute and publishes its robotics work.
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: tri-site
+    excerpt: TRI trains large behavior models for robot manipulation.

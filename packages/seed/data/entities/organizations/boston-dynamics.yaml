@@ -28,3 +28,19 @@ claims:
     confidence: HIGH
     source: bd-atlas
     excerpt: Boston Dynamics presents Atlas as its humanoid robot.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: bd-site
+    excerpt: Boston Dynamics designs and sells robots under its own name.
+- predicate: PART_OF
+  object: hyundai
+  valid_from: 2021-06-21
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: bd-site
+    excerpt: Boston Dynamics presents itself as a Hyundai Motor Group company; the controlling stake
+      closed in June 2021. The ACQUIRED event is the day it happened, this is that it is still true.

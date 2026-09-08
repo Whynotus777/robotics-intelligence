@@ -40,3 +40,42 @@ claims:
     confidence: MEDIUM
     source: nvidia-isaac-groot-page
     excerpt: Isaac GR00T is presented as NVIDIA's humanoid foundation-model family.
+- predicate: HAS_ROLE
+  enum: CHIPMAKER
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: nvidia-jetson-thor-page
+    excerpt: Jetson Thor is sold as the compute module for humanoids and physical AI.
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: nvidia-isaac-groot-page
+    excerpt: Isaac GR00T N1 is NVIDIA's own humanoid foundation model, not a partner's.
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: figure-series-b
+    excerpt: NVIDIA is named among the investors in Figure AI's Series B.
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: nvidia-robotics-page
+    excerpt: NVIDIA is in robotics under four roles at once — the compute, the simulator, the
+      foundation models and the cheque book — which is the declared bar for PLATFORM.
+- predicate: INVESTED_IN
+  object: figure-ai
+  valid_from: 2024-02-29
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: figure-series-b
+    published_at: 2024-02-29
+    excerpt: Figure names NVIDIA among its Series B investors. The amount attributable to any one
+      investor was not disclosed.

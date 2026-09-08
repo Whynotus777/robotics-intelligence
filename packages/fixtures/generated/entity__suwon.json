@@ -59,6 +59,31 @@
             "confidence": "MEDIUM",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "d1421a5d-0825-5769-a049-325e33b7e15f",
+          "source": {
+            "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+            "slug": "samsung",
+            "entity_type": "ORGANIZATION",
+            "name": "Samsung Electronics",
+            "primary_embodiment": null,
+            "roles": [
+              "CHIPMAKER",
+              "COMPONENT_SUPPLIER",
+              "INVESTOR",
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -73,6 +98,19 @@
         "primary_embodiment": null,
         "roles": [
           "OEM"
+        ]
+      },
+      {
+        "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+        "slug": "samsung",
+        "entity_type": "ORGANIZATION",
+        "name": "Samsung Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER",
+          "INVESTOR",
+          "PLATFORM"
         ]
       }
     ]
@@ -92,7 +130,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

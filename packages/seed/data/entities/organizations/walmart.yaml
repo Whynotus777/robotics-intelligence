@@ -4,3 +4,11 @@ name: Walmart
 short_description: Retailer; Symbotic regional distribution centre automation programme.
 country_code: US
 depth_tier: STANDARD
+claims:
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: walmart-site
+    excerpt: Walmart runs robots in its own operations.

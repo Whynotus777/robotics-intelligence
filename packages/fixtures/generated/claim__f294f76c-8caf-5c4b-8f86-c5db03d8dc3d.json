@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "f294f76c-8caf-5c4b-8f86-c5db03d8dc3d",
+    "subject": {
+      "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+      "slug": "skild-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Skild AI",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Skild AI role MODEL_DEVELOPER",
+    "value": {
+      "kind": "enum",
+      "value": "MODEL_DEVELOPER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a3fc410e-362e-5185-874e-bc23f36585e7",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Skild AI trains the models that drive robots.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "abffa19f-191f-5d39-87fe-6bef5992a4d8",
+        "url": "https://www.skild.ai/",
+        "canonical_url": null,
+        "publisher": "Skild AI",
+        "title": "Skild AI",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

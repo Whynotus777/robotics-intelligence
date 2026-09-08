@@ -1,0 +1,80 @@
+{
+  "claim": {
+    "claim_id": "7c7c3fe1-f13d-533c-9456-bb425330cedf",
+    "subject": {
+      "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+      "slug": "alphabet",
+      "entity_type": "ORGANIZATION",
+      "name": "Alphabet",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Alphabet role RESEARCH_LAB",
+    "value": {
+      "kind": "enum",
+      "value": "RESEARCH_LAB"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "962683fb-9e2c-5ff9-88e7-e6544a6ad972",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Google DeepMind publishes robotics research and robot foundation models.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "7267914c-07d9-5e07-86e7-7531895730fa",
+        "url": "https://deepmind.google/",
+        "canonical_url": null,
+        "publisher": "Google DeepMind",
+        "title": "Google DeepMind",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "248b5d35-76c2-5fa5-a7fa-50ba9c562d8e",
+      "value": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    },
+    {
+      "claim_id": "992d51d9-c02b-5322-9c97-921fdc1b12ac",
+      "value": {
+        "kind": "enum",
+        "value": "PLATFORM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

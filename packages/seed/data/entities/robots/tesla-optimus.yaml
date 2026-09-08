@@ -19,3 +19,17 @@ claims:
       - class: PRIMARY
         confidence: MEDIUM
         source: tesla-optimus
+  - predicate: HAS_DATA_COLLECTION_METHOD
+    enum: HUMAN_VIDEO
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: tesla-optimus
+        excerpt: Tesla presents Optimus as learning tasks from video of people doing them.
+  - predicate: HAS_DATA_COLLECTION_METHOD
+    enum: TELEOPERATION
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: tesla-optimus
+        excerpt: Tesla has shown teleoperated data collection as the other half of the pipeline.

@@ -27,3 +27,17 @@ claims:
     confidence: HIGH
     source: sanctuary-site
     excerpt: Phoenix is the company's named humanoid platform.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: sanctuary-site
+    excerpt: Sanctuary AI designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: sanctuary-site
+    excerpt: Sanctuary AI trains the models that drive robots.

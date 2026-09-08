@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "dff12311-7fc5-59a5-84ae-e42380fffba3",
+    "subject": {
+      "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
+      "slug": "onex-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "1X Technologies",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "1X Technologies role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "aca370fb-670d-5a30-99d9-47d774081d51",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "1X Technologies designs and sells robots under its own name.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "abe5d07f-d87c-57f6-8e74-561dc170b45b",
+        "url": "https://www.1x.tech/",
+        "canonical_url": null,
+        "publisher": "1X Technologies",
+        "title": "1X Technologies",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -21,3 +21,17 @@ claims:
     confidence: HIGH
     source: unitree-site
     excerpt: Company site lists G1 among its products.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: unitree-site
+    excerpt: Unitree Robotics designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: COMPONENT_SUPPLIER
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: unitree-site
+    excerpt: Unitree Robotics sells robot components to other builders.

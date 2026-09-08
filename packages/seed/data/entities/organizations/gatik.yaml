@@ -26,3 +26,17 @@ claims:
     confidence: MEDIUM
     source: gatik-site
     excerpt: Autonomous box trucks are the company's described fleet.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: gatik-site
+    excerpt: Gatik designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: gatik-site
+    excerpt: Gatik runs robots in its own operations.

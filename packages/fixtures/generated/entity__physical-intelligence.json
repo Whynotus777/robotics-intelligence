@@ -19,22 +19,22 @@
   "roles": [
     {
       "role": "MODEL_DEVELOPER",
-      "declared": false,
-      "claim_id": null,
+      "declared": true,
+      "claim_id": "8922dc65-3436-543b-b80c-abcaa36211f5",
       "evidence_summary": {
-        "class": "NOT_AVAILABLE",
-        "confidence": null,
-        "source_count": 0
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
       }
     },
     {
       "role": "RESEARCH_LAB",
-      "declared": false,
-      "claim_id": null,
+      "declared": true,
+      "claim_id": "419e7ebf-78ad-5676-9600-c13510b9679f",
       "evidence_summary": {
-        "class": "NOT_AVAILABLE",
-        "confidence": null,
-        "source_count": 0
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
       }
     }
   ],
@@ -49,7 +49,54 @@
     "maturity": null
   },
   "place": null,
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "419e7ebf-78ad-5676-9600-c13510b9679f",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "RESEARCH_LAB"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "8922dc65-3436-543b-b80c-abcaa36211f5",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "MODEL_DEVELOPER"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "predicate": "DEVELOPS",
@@ -213,17 +260,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 3,
+        "PRIMARY": 5,
         "THIRD_PARTY": 0,
         "ACADEMIC": 1,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 4,
+      "claim_count": 6,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 4,
+    "recent_change_count": 6,
     "deployment_count": 0,
     "related_count": 4
   },

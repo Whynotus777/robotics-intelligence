@@ -47,3 +47,17 @@ claims:
     confidence: HIGH
     source: aerones-site
     excerpt: Inspection listed as a service.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: aerones-site
+    excerpt: Aerones designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: aerones-site
+    excerpt: Aerones runs robots in its own operations.

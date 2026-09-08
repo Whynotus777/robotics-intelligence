@@ -18,32 +18,22 @@
   "roles": [
     {
       "role": "MODEL_DEVELOPER",
-      "declared": false,
-      "claim_id": null,
+      "declared": true,
+      "claim_id": "4420e818-6de5-5059-9b20-933811c4b400",
       "evidence_summary": {
-        "class": "NOT_AVAILABLE",
-        "confidence": null,
-        "source_count": 0
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
       }
     },
     {
       "role": "OEM",
-      "declared": false,
-      "claim_id": null,
+      "declared": true,
+      "claim_id": "9498a36c-5694-58d6-b020-08568dfc6e33",
       "evidence_summary": {
-        "class": "NOT_AVAILABLE",
-        "confidence": null,
-        "source_count": 0
-      }
-    },
-    {
-      "role": "OPERATOR",
-      "declared": false,
-      "claim_id": null,
-      "evidence_summary": {
-        "class": "NOT_AVAILABLE",
-        "confidence": null,
-        "source_count": 0
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
       }
     }
   ],
@@ -58,7 +48,54 @@
     "maturity": null
   },
   "place": null,
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "4420e818-6de5-5059-9b20-933811c4b400",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "MODEL_DEVELOPER"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "9498a36c-5694-58d6-b020-08568dfc6e33",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OEM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "predicate": "DEVELOPS",
@@ -171,7 +208,6 @@
             "name": "BMW Group",
             "primary_embodiment": null,
             "roles": [
-              "CONTRACT_MANUFACTURER",
               "OPERATOR"
             ]
           },
@@ -216,6 +252,110 @@
       ]
     },
     {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "1ea869d2-0d3b-562b-a0fd-936fb9ac18d1",
+          "source": {
+            "id": "7015787f-4e5d-58a6-ae0c-112ce87d4c60",
+            "slug": "microsoft",
+            "entity_type": "ORGANIZATION",
+            "name": "Microsoft",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "PLATFORM",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-02-29",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "3cb4202d-0cf7-533f-952d-5f71dfa9d560",
+          "source": {
+            "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+            "slug": "nvidia",
+            "entity_type": "ORGANIZATION",
+            "name": "NVIDIA",
+            "primary_embodiment": null,
+            "roles": [
+              "CHIPMAKER",
+              "INVESTOR",
+              "MODEL_DEVELOPER",
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-02-29",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "63791bad-aed3-5580-8c55-eee30f206697",
+          "source": {
+            "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+            "slug": "amazon",
+            "entity_type": "ORGANIZATION",
+            "name": "Amazon",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "OPERATOR",
+              "PLATFORM",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-02-29",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d5e5fe09-4de0-5986-b65a-09b12664b703",
+          "source": {
+            "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
+            "slug": "intel",
+            "entity_type": "ORGANIZATION",
+            "name": "Intel",
+            "primary_embodiment": null,
+            "roles": [
+              "CHIPMAKER",
+              "COMPONENT_SUPPLIER",
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2024-02-29",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "MADE_BY",
       "label": "is made by",
       "items": [
@@ -245,14 +385,63 @@
   "lateral_links": {
     "company": [
       {
+        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+        "slug": "amazon",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OPERATOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      {
         "id": "098db5e0-7b78-56a1-8990-159131dbdb7c",
         "slug": "bmw",
         "entity_type": "ORGANIZATION",
         "name": "BMW Group",
         "primary_embodiment": null,
         "roles": [
-          "CONTRACT_MANUFACTURER",
           "OPERATOR"
+        ]
+      },
+      {
+        "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
+        "slug": "intel",
+        "entity_type": "ORGANIZATION",
+        "name": "Intel",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER",
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "7015787f-4e5d-58a6-ae0c-112ce87d4c60",
+        "slug": "microsoft",
+        "entity_type": "ORGANIZATION",
+        "name": "Microsoft",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      {
+        "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+        "slug": "nvidia",
+        "entity_type": "ORGANIZATION",
+        "name": "NVIDIA",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "INVESTOR",
+          "MODEL_DEVELOPER",
+          "PLATFORM"
         ]
       }
     ],
@@ -270,19 +459,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 5,
+        "PRIMARY": 7,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 5,
+      "claim_count": 7,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 5,
+    "recent_change_count": 7,
     "deployment_count": 0,
-    "related_count": 6
+    "related_count": 10
   },
   "as_of": null
 }

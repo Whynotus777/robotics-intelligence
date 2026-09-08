@@ -33,3 +33,17 @@ claims:
     confidence: MEDIUM
     source: percepto-site
     excerpt: The Air Mobile drone-in-a-box is listed in the product range.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: percepto-site
+    excerpt: Percepto designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: percepto-site
+    excerpt: Percepto runs robots in its own operations.

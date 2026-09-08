@@ -29,6 +29,32 @@
   "place": null,
   "claims": [
     {
+      "predicate": "HAS_DATA_COLLECTION_METHOD",
+      "label": "data collection method",
+      "claims": [
+        {
+          "claim_id": "1d2aea12-e739-57bd-bfd0-b8737f8ea18f",
+          "predicate": "HAS_DATA_COLLECTION_METHOD",
+          "value": {
+            "kind": "enum",
+            "value": "TELEOPERATION"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "ANNOUNCED_ON",
       "label": "was announced on",
       "claims": [
@@ -70,8 +96,7 @@
             "primary_embodiment": null,
             "roles": [
               "MODEL_DEVELOPER",
-              "OEM",
-              "OPERATOR"
+              "OEM"
             ]
           },
           "stack_layer": null,
@@ -154,8 +179,7 @@
             "primary_embodiment": null,
             "roles": [
               "MODEL_DEVELOPER",
-              "OEM",
-              "OPERATOR"
+              "OEM"
             ]
           },
           "stack_layer": null,
@@ -207,8 +231,7 @@
         "primary_embodiment": null,
         "roles": [
           "MODEL_DEVELOPER",
-          "OEM",
-          "OPERATOR"
+          "OEM"
         ]
       }
     ],
@@ -236,17 +259,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 3,
+        "PRIMARY": 4,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 1,
         "ANALYST": 0
       },
-      "claim_count": 4,
+      "claim_count": 5,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 4,
+    "recent_change_count": 5,
     "deployment_count": 0,
     "related_count": 4
   },

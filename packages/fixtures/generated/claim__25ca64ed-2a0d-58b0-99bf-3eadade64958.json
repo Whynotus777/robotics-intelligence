@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "25ca64ed-2a0d-58b0-99bf-3eadade64958",
+    "subject": {
+      "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
+      "slug": "unitree",
+      "entity_type": "ORGANIZATION",
+      "name": "Unitree Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Unitree Robotics role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d86ff17d-bffe-5eeb-ad53-f4e069d77d86",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Unitree Robotics designs and sells robots under its own name.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "865cb64d-2f1d-5e24-98e2-14220140dbe8",
+        "url": "https://www.unitree.com/",
+        "canonical_url": null,
+        "publisher": "Unitree Robotics",
+        "title": "Unitree Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "e5b8a7af-9986-5e64-8cc6-f33243e7996f",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

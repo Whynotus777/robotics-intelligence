@@ -41,3 +41,17 @@ claims:
     confidence: MEDIUM
     source: yaskawa-gp12-page
     excerpt: The GP series is positioned for handling and machine tending.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: yaskawa-site
+    excerpt: Yaskawa Electric designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: COMPONENT_SUPPLIER
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: yaskawa-site
+    excerpt: Yaskawa Electric sells robot components to other builders.

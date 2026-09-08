@@ -28,7 +28,94 @@
     "maturity": null
   },
   "place": null,
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_DATA_COLLECTION_METHOD",
+      "label": "data collection method",
+      "claims": [
+        {
+          "claim_id": "8553cbbd-8865-54ed-9e57-10b85867fc90",
+          "predicate": "HAS_DATA_COLLECTION_METHOD",
+          "value": {
+            "kind": "enum",
+            "value": "TELEOPERATION"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "887b3278-38f9-5edf-a036-88f6e018a16e",
+          "predicate": "HAS_DATA_COLLECTION_METHOD",
+          "value": {
+            "kind": "enum",
+            "value": "SYNTHETIC"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "a27d5aa7-f22c-5d57-8777-a18e1c762f02",
+          "predicate": "HAS_DATA_COLLECTION_METHOD",
+          "value": {
+            "kind": "enum",
+            "value": "HUMAN_VIDEO"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "e5280e37-3d58-5503-97f1-3e3070030b1f",
+          "predicate": "HAS_DATA_COLLECTION_METHOD",
+          "value": {
+            "kind": "enum",
+            "value": "SIMULATION"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "predicate": "MADE_BY",
@@ -43,8 +130,10 @@
             "name": "NVIDIA",
             "primary_embodiment": null,
             "roles": [
-              "COMPONENT_SUPPLIER",
-              "MODEL_DEVELOPER"
+              "CHIPMAKER",
+              "INVESTOR",
+              "MODEL_DEVELOPER",
+              "PLATFORM"
             ]
           },
           "stack_layer": null,
@@ -100,8 +189,10 @@
             "name": "NVIDIA",
             "primary_embodiment": null,
             "roles": [
-              "COMPONENT_SUPPLIER",
-              "MODEL_DEVELOPER"
+              "CHIPMAKER",
+              "INVESTOR",
+              "MODEL_DEVELOPER",
+              "PLATFORM"
             ]
           },
           "stack_layer": null,
@@ -126,8 +217,10 @@
         "name": "NVIDIA",
         "primary_embodiment": null,
         "roles": [
-          "COMPONENT_SUPPLIER",
-          "MODEL_DEVELOPER"
+          "CHIPMAKER",
+          "INVESTOR",
+          "MODEL_DEVELOPER",
+          "PLATFORM"
         ]
       }
     ],
@@ -145,17 +238,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 6,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 6,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 6,
     "deployment_count": 0,
     "related_count": 2
   },

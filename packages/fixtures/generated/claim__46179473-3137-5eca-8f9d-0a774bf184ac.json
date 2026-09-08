@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "46179473-3137-5eca-8f9d-0a774bf184ac",
+    "subject": {
+      "id": "debbc27a-81bd-5cdd-bbc5-79fcce1c582e",
+      "slug": "toyota-research-institute",
+      "entity_type": "ORGANIZATION",
+      "name": "Toyota Research Institute",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Toyota Research Institute is part of Toyota Motor Corporation",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "08abf8ef-13f8-595d-87fc-d2aeb7ff1467",
+        "slug": "toyota",
+        "entity_type": "ORGANIZATION",
+        "name": "Toyota Motor Corporation",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2016-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1cddbc95-3e37-579b-a246-4caf589ab7dd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "TRI describes itself as a subsidiary of Toyota, established in 2015 and operating from the start of 2016.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "29ef331f-ab4f-53f4-94a8-9581461e0428",
+        "url": "https://www.tri.global/",
+        "canonical_url": null,
+        "publisher": "Toyota Research Institute",
+        "title": "Toyota Research Institute",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

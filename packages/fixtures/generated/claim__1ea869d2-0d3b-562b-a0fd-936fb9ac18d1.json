@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "1ea869d2-0d3b-562b-a0fd-936fb9ac18d1",
+    "subject": {
+      "id": "7015787f-4e5d-58a6-ae0c-112ce87d4c60",
+      "slug": "microsoft",
+      "entity_type": "ORGANIZATION",
+      "name": "Microsoft",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Microsoft invested in Figure AI",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+        "slug": "figure-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Figure AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2024-02-29",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ef281caa-998c-54ba-9d55-0955bc618978",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Figure names Microsoft among its Series B investors. The amount attributable to any one investor was not disclosed.",
+      "published_at": "2024-02-29T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "36892120-b163-565a-9a36-e694043ca4b9",
+        "url": "https://www.figure.ai/news",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Figure Series B",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2024-02-29T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

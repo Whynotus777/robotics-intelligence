@@ -1,0 +1,31 @@
+slug: toyota
+entity_type: ORGANIZATION
+name: Toyota Motor Corporation
+short_description: Toyota City automaker; its robotics is a research institute in California rather than a product line in Japan.
+country_code: JP
+depth_tier: STANDARD
+aliases:
+- Toyota
+claims:
+- predicate: HQ_AT
+  object: toyota-city
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: toyota-site
+    excerpt: Toyota's global site gives Toyota City, Aichi as the headquarters.
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: toyota-site
+    excerpt: Toyota's robotics work sits in a wholly owned subsidiary, which is the second branch of
+      the declared PLATFORM bar.
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: toyota-site
+    excerpt: Toyota funds robotics through its venture arms rather than only through the institute.

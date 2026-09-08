@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "e9b3b36f-f07c-5798-a6e2-b179188cbdd1",
+    "subject": {
+      "id": "2b6c10f5-2b2d-57f9-bca9-b5826f71f58f",
+      "slug": "wingcopter",
+      "entity_type": "ORGANIZATION",
+      "name": "Wingcopter",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Wingcopter role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "caca621d-48bb-552c-8f97-1735353a8707",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Wingcopter designs and sells robots under its own name.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "4fa83c89-950d-55c1-8a12-6a22037d0bcb",
+        "url": "https://wingcopter.com/",
+        "canonical_url": null,
+        "publisher": "Wingcopter",
+        "title": "Wingcopter",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "34485b0f-57dc-5ff4-9fd1-1449119b3ac5",
+      "value": {
+        "kind": "enum",
+        "value": "OPERATOR"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -73,3 +73,10 @@ claims:
         source: figure-03-announcement
         published_at: 2025-10-09
         excerpt: Positioned as the successor to Figure 02.
+  - predicate: HAS_DATA_COLLECTION_METHOD
+    enum: TELEOPERATION
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-helix-announcement
+        excerpt: Figure 03 runs Helix, whose training data Figure states is teleoperated.

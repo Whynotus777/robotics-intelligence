@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "767e976b-1892-58ff-aa38-c6d939c7dbb6",
+    "subject": {
+      "id": "81571cfa-9773-5740-a33f-0121af56676c",
+      "slug": "rope-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Rope Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Rope Robotics role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "32863606-eadf-5866-b629-53b03756d45e",
+      "class": "PRIMARY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Rope Robotics designs and sells robots under its own name.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "7af0f6d1-8bf6-5ed3-b501-4963fd0eb445",
+        "url": "https://roperobotics.com/",
+        "canonical_url": null,
+        "publisher": "Rope Robotics",
+        "title": "Rope Robotics",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "ebe6991b-39ad-5695-b438-f87eff2bdb4f",
+      "value": {
+        "kind": "enum",
+        "value": "OPERATOR"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

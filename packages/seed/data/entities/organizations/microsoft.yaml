@@ -1,0 +1,46 @@
+slug: microsoft
+entity_type: ORGANIZATION
+name: Microsoft
+short_description: Redmond; no robot of its own, but research, cloud and a cheque in several of the humanoid rounds.
+country_code: US
+depth_tier: STANDARD
+claims:
+- predicate: HQ_AT
+  object: redmond
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: microsoft-site
+    excerpt: Microsoft gives Redmond, Washington as the headquarters.
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: microsoft-site
+    excerpt: Microsoft is in robotics as an investor, a research lab and the cloud under other
+      people's fleets — three roles, which is the declared PLATFORM bar.
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: figure-series-b
+    excerpt: Microsoft is named among the investors in Figure AI's Series B.
+- predicate: HAS_ROLE
+  enum: RESEARCH_LAB
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: microsoft-research-site
+    excerpt: Microsoft Research publishes robotics and embodied-AI work.
+- predicate: INVESTED_IN
+  object: figure-ai
+  valid_from: 2024-02-29
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: figure-series-b
+    published_at: 2024-02-29
+    excerpt: Figure names Microsoft among its Series B investors. The amount attributable to any one
+      investor was not disclosed.

@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 37
+      "count": 44
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 7
+      "count": 11
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 5
+      "count": 0
     },
     {
       "id": "DEPLOYED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 4
+      "count": 12
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 0
+      "count": 8
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 0
+      "count": 8
     }
   ],
   "marks": [
@@ -51,7 +51,7 @@
       "lng": -122.15,
       "country_code": "US",
       "cluster_label": "Bay Area",
-      "weight": 6,
+      "weight": 7,
       "entities": [
         {
           "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
@@ -61,8 +61,7 @@
           "primary_embodiment": null,
           "roles": [
             "MODEL_DEVELOPER",
-            "OEM",
-            "OPERATOR"
+            "OEM"
           ]
         },
         {
@@ -72,7 +71,8 @@
           "name": "Gatik",
           "primary_embodiment": null,
           "roles": [
-            "OEM"
+            "OEM",
+            "OPERATOR"
           ]
         },
         {
@@ -82,6 +82,7 @@
           "name": "Nuro",
           "primary_embodiment": null,
           "roles": [
+            "MODEL_DEVELOPER",
             "OEM"
           ]
         },
@@ -96,13 +97,25 @@
           ]
         },
         {
+          "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+          "slug": "third-wave-automation",
+          "entity_type": "ORGANIZATION",
+          "name": "Third Wave Automation",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
           "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
           "slug": "waymo",
           "entity_type": "ORGANIZATION",
           "name": "Waymo",
           "primary_embodiment": null,
           "roles": [
-            "OEM"
+            "MODEL_DEVELOPER",
+            "OEM",
+            "OPERATOR"
           ]
         },
         {
@@ -110,6 +123,77 @@
           "slug": "zipline",
           "entity_type": "ORGANIZATION",
           "name": "Zipline",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "OPERATOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.36,
+      "lng": -71.06,
+      "country_code": "US",
+      "cluster_label": "Boston",
+      "weight": 5,
+      "entities": [
+        {
+          "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
+          "slug": "amazon-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "OPERATOR"
+          ]
+        },
+        {
+          "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
+          "slug": "boston-dynamics",
+          "entity_type": "ORGANIZATION",
+          "name": "Boston Dynamics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "79815395-59ce-5c93-aef0-8686647839c6",
+          "slug": "locus",
+          "entity_type": "ORGANIZATION",
+          "name": "Locus Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "74914967-d3be-58ab-aacb-456441b741b1",
+          "slug": "symbotic",
+          "entity_type": "ORGANIZATION",
+          "name": "Symbotic",
+          "primary_embodiment": null,
+          "roles": [
+            "INTEGRATOR",
+            "OEM"
+          ]
+        },
+        {
+          "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
+          "slug": "vecna",
+          "entity_type": "ORGANIZATION",
+          "name": "Vecna Robotics",
           "primary_embodiment": null,
           "roles": [
             "OEM"
@@ -140,8 +224,7 @@
           "name": "Apptronik",
           "primary_embodiment": null,
           "roles": [
-            "OEM",
-            "OPERATOR"
+            "OEM"
           ]
         },
         {
@@ -179,7 +262,8 @@
           "name": "Galbot",
           "primary_embodiment": null,
           "roles": [
-            "OEM"
+            "OEM",
+            "OPERATOR"
           ]
         },
         {
@@ -190,46 +274,6 @@
           "primary_embodiment": null,
           "roles": [
             "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
-        "slug": "boston",
-        "entity_type": "PLACE",
-        "name": "Boston",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 42.36,
-      "lng": -71.06,
-      "country_code": "US",
-      "cluster_label": "Boston",
-      "weight": 2,
-      "entities": [
-        {
-          "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
-          "slug": "boston-dynamics",
-          "entity_type": "ORGANIZATION",
-          "name": "Boston Dynamics",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM",
-            "OPERATOR"
-          ]
-        },
-        {
-          "id": "79815395-59ce-5c93-aef0-8686647839c6",
-          "slug": "locus",
-          "entity_type": "ORGANIZATION",
-          "name": "Locus Robotics",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM",
-            "OPERATOR"
           ]
         }
       ],
@@ -267,6 +311,7 @@
           "name": "Unitree Robotics",
           "primary_embodiment": null,
           "roles": [
+            "COMPONENT_SUPPLIER",
             "OEM"
           ]
         }
@@ -295,7 +340,6 @@
           "name": "ABB Robotics",
           "primary_embodiment": null,
           "roles": [
-            "CONTRACT_MANUFACTURER",
             "OEM"
           ]
         },
@@ -334,7 +378,6 @@
           "name": "DJI",
           "primary_embodiment": null,
           "roles": [
-            "CONTRACT_MANUFACTURER",
             "OEM"
           ]
         },
@@ -373,7 +416,6 @@
           "name": "ABB Robotics",
           "primary_embodiment": null,
           "roles": [
-            "CONTRACT_MANUFACTURER",
             "OEM"
           ]
         },
@@ -440,6 +482,7 @@
           "name": "Exotec",
           "primary_embodiment": null,
           "roles": [
+            "INTEGRATOR",
             "OEM"
           ]
         }
@@ -468,7 +511,8 @@
           "name": "Wingcopter",
           "primary_embodiment": null,
           "roles": [
-            "OEM"
+            "OEM",
+            "OPERATOR"
           ]
         }
       ],
@@ -494,6 +538,35 @@
           "slug": "yaskawa",
           "entity_type": "ORGANIZATION",
           "name": "Yaskawa Electric",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "89cb7062-9c7b-5274-ac5e-75379f738a35",
+        "slug": "kitchener",
+        "entity_type": "PLACE",
+        "name": "Kitchener",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 43.45,
+      "lng": -80.49,
+      "country_code": "CA",
+      "cluster_label": "Waterloo",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+          "slug": "otto-motors",
+          "entity_type": "ORGANIZATION",
+          "name": "OTTO Motors",
           "primary_embodiment": null,
           "roles": [
             "OEM"
@@ -560,6 +633,34 @@
     },
     {
       "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 51.51,
+      "lng": -0.13,
+      "country_code": "GB",
+      "cluster_label": "London",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+          "slug": "bladebug",
+          "entity_type": "ORGANIZATION",
+          "name": "BladeBUG",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "991a92fa-4aca-5c91-8e9e-96209011e5da",
         "slug": "modiin",
         "entity_type": "PLACE",
@@ -580,7 +681,8 @@
           "name": "Percepto",
           "primary_embodiment": null,
           "roles": [
-            "OEM"
+            "OEM",
+            "OPERATOR"
           ]
         }
       ],
@@ -636,6 +738,7 @@
           "name": "AutoStore",
           "primary_embodiment": null,
           "roles": [
+            "INTEGRATOR",
             "OEM"
           ]
         }
@@ -728,6 +831,35 @@
     },
     {
       "place": {
+        "id": "6553850c-ac3a-5321-baec-c47853b493a4",
+        "slug": "riga",
+        "entity_type": "PLACE",
+        "name": "Riga",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 56.95,
+      "lng": 24.11,
+      "country_code": "LV",
+      "cluster_label": "Riga",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+          "slug": "aerones",
+          "entity_type": "ORGANIZATION",
+          "name": "Aerones",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "OPERATOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "e8ea8a9d-806c-534f-9703-2401f0b4036f",
         "slug": "salem-or",
         "entity_type": "PLACE",
@@ -748,8 +880,7 @@
           "name": "Agility Robotics",
           "primary_embodiment": null,
           "roles": [
-            "OEM",
-            "OPERATOR"
+            "OEM"
           ]
         }
       ],
@@ -833,6 +964,7 @@
           "name": "Sanctuary AI",
           "primary_embodiment": null,
           "roles": [
+            "MODEL_DEVELOPER",
             "OEM"
           ]
         }
@@ -872,7 +1004,7 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 14,
+      "weight": 18,
       "places": 7
     },
     {
@@ -885,6 +1017,12 @@
       "id": "CH",
       "label": "CH",
       "weight": 3,
+      "places": 2
+    },
+    {
+      "id": "CA",
+      "label": "CA",
+      "weight": 2,
       "places": 2
     },
     {
@@ -906,12 +1044,6 @@
       "places": 2
     },
     {
-      "id": "CA",
-      "label": "CA",
-      "weight": 1,
-      "places": 1
-    },
-    {
       "id": "DK",
       "label": "DK",
       "weight": 1,
@@ -920,6 +1052,12 @@
     {
       "id": "FR",
       "label": "FR",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "GB",
+      "label": "GB",
       "weight": 1,
       "places": 1
     },
@@ -936,6 +1074,12 @@
       "places": 1
     },
     {
+      "id": "LV",
+      "label": "LV",
+      "weight": 1,
+      "places": 1
+    },
+    {
       "id": "TW",
       "label": "TW",
       "weight": 1,
@@ -946,13 +1090,13 @@
     {
       "id": "Bay Area",
       "label": "Bay Area",
-      "weight": 6,
+      "weight": 7,
       "places": 1
     },
     {
       "id": "Boston",
       "label": "Boston",
-      "weight": 3,
+      "weight": 6,
       "places": 2
     },
     {
@@ -1022,6 +1166,12 @@
       "places": 1
     },
     {
+      "id": "London",
+      "label": "London",
+      "weight": 1,
+      "places": 1
+    },
+    {
       "id": "Munich",
       "label": "Munich",
       "weight": 1,
@@ -1058,6 +1208,12 @@
       "places": 1
     },
     {
+      "id": "Riga",
+      "label": "Riga",
+      "weight": 1,
+      "places": 1
+    },
+    {
       "id": "Seoul capital area",
       "label": "Seoul capital area",
       "weight": 1,
@@ -1072,6 +1228,12 @@
     {
       "id": "Vancouver",
       "label": "Vancouver",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Waterloo",
+      "label": "Waterloo",
       "weight": 1,
       "places": 1
     },
@@ -1098,8 +1260,7 @@
         "primary_embodiment": null,
         "roles": [
           "MODEL_DEVELOPER",
-          "OEM",
-          "OPERATOR"
+          "OEM"
         ]
       },
       "place": {
@@ -1119,7 +1280,8 @@
         "name": "Gatik",
         "primary_embodiment": null,
         "roles": [
-          "OEM"
+          "OEM",
+          "OPERATOR"
         ]
       },
       "place": {
@@ -1139,6 +1301,7 @@
         "name": "Nuro",
         "primary_embodiment": null,
         "roles": [
+          "MODEL_DEVELOPER",
           "OEM"
         ]
       },
@@ -1173,13 +1336,35 @@
     },
     {
       "entity": {
+        "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
+        "slug": "third-wave-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "Third Wave Automation",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
         "slug": "waymo",
         "entity_type": "ORGANIZATION",
         "name": "Waymo",
         "primary_embodiment": null,
         "roles": [
-          "OEM"
+          "MODEL_DEVELOPER",
+          "OEM",
+          "OPERATOR"
         ]
       },
       "place": {
@@ -1199,7 +1384,8 @@
         "name": "Zipline",
         "primary_embodiment": null,
         "roles": [
-          "OEM"
+          "OEM",
+          "OPERATOR"
         ]
       },
       "place": {
@@ -1213,14 +1399,115 @@
     },
     {
       "entity": {
+        "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
+        "slug": "amazon-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
+      },
+      "place": {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
+        "slug": "boston-dynamics",
+        "entity_type": "ORGANIZATION",
+        "name": "Boston Dynamics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "79815395-59ce-5c93-aef0-8686647839c6",
+        "slug": "locus",
+        "entity_type": "ORGANIZATION",
+        "name": "Locus Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "74914967-d3be-58ab-aacb-456441b741b1",
+        "slug": "symbotic",
+        "entity_type": "ORGANIZATION",
+        "name": "Symbotic",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
+        "slug": "vecna",
+        "entity_type": "ORGANIZATION",
+        "name": "Vecna Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
+        "slug": "boston",
+        "entity_type": "PLACE",
+        "name": "Boston",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
         "slug": "apptronik",
         "entity_type": "ORGANIZATION",
         "name": "Apptronik",
         "primary_embodiment": null,
         "roles": [
-          "OEM",
-          "OPERATOR"
+          "OEM"
         ]
       },
       "place": {
@@ -1260,7 +1547,8 @@
         "name": "Galbot",
         "primary_embodiment": null,
         "roles": [
-          "OEM"
+          "OEM",
+          "OPERATOR"
         ]
       },
       "place": {
@@ -1294,48 +1582,6 @@
     },
     {
       "entity": {
-        "id": "ca81c88b-a5c7-5620-858e-beff3b2a28d6",
-        "slug": "boston-dynamics",
-        "entity_type": "ORGANIZATION",
-        "name": "Boston Dynamics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM",
-          "OPERATOR"
-        ]
-      },
-      "place": {
-        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
-        "slug": "boston",
-        "entity_type": "PLACE",
-        "name": "Boston",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "79815395-59ce-5c93-aef0-8686647839c6",
-        "slug": "locus",
-        "entity_type": "ORGANIZATION",
-        "name": "Locus Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM",
-          "OPERATOR"
-        ]
-      },
-      "place": {
-        "id": "7db0c5dd-c9e2-50c9-9fd9-590d04793664",
-        "slug": "boston",
-        "entity_type": "PLACE",
-        "name": "Boston",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
         "id": "eb46b6af-ce87-5ea9-adb0-183491fa85f7",
         "slug": "deep-robotics",
         "entity_type": "ORGANIZATION",
@@ -1362,6 +1608,7 @@
         "name": "Unitree Robotics",
         "primary_embodiment": null,
         "roles": [
+          "COMPONENT_SUPPLIER",
           "OEM"
         ]
       },
@@ -1382,7 +1629,6 @@
         "name": "ABB Robotics",
         "primary_embodiment": null,
         "roles": [
-          "CONTRACT_MANUFACTURER",
           "OEM"
         ]
       },
@@ -1423,7 +1669,6 @@
         "name": "DJI",
         "primary_embodiment": null,
         "roles": [
-          "CONTRACT_MANUFACTURER",
           "OEM"
         ]
       },
@@ -1464,7 +1709,6 @@
         "name": "ABB Robotics",
         "primary_embodiment": null,
         "roles": [
-          "CONTRACT_MANUFACTURER",
           "OEM"
         ]
       },
@@ -1525,6 +1769,7 @@
         "name": "Exotec",
         "primary_embodiment": null,
         "roles": [
+          "INTEGRATOR",
           "OEM"
         ]
       },
@@ -1545,7 +1790,8 @@
         "name": "Wingcopter",
         "primary_embodiment": null,
         "roles": [
-          "OEM"
+          "OEM",
+          "OPERATOR"
         ]
       },
       "place": {
@@ -1565,6 +1811,7 @@
         "name": "Yaskawa Electric",
         "primary_embodiment": null,
         "roles": [
+          "COMPONENT_SUPPLIER",
           "OEM"
         ]
       },
@@ -1573,6 +1820,26 @@
         "slug": "kitakyushu",
         "entity_type": "PLACE",
         "name": "Kitakyushu",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+        "slug": "otto-motors",
+        "entity_type": "ORGANIZATION",
+        "name": "OTTO Motors",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "89cb7062-9c7b-5274-ac5e-75379f738a35",
+        "slug": "kitchener",
+        "entity_type": "PLACE",
+        "name": "Kitchener",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1619,13 +1886,34 @@
     },
     {
       "entity": {
+        "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
+        "slug": "bladebug",
+        "entity_type": "ORGANIZATION",
+        "name": "BladeBUG",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "d31f2d2e-9dce-5f5d-9ac6-062cd182b353",
         "slug": "percepto",
         "entity_type": "ORGANIZATION",
         "name": "Percepto",
         "primary_embodiment": null,
         "roles": [
-          "OEM"
+          "OEM",
+          "OPERATOR"
         ]
       },
       "place": {
@@ -1665,6 +1953,7 @@
         "name": "AutoStore",
         "primary_embodiment": null,
         "roles": [
+          "INTEGRATOR",
           "OEM"
         ]
       },
@@ -1739,14 +2028,34 @@
     },
     {
       "entity": {
+        "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
+        "slug": "aerones",
+        "entity_type": "ORGANIZATION",
+        "name": "Aerones",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
+      },
+      "place": {
+        "id": "6553850c-ac3a-5321-baec-c47853b493a4",
+        "slug": "riga",
+        "entity_type": "PLACE",
+        "name": "Riga",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
         "slug": "agility",
         "entity_type": "ORGANIZATION",
         "name": "Agility Robotics",
         "primary_embodiment": null,
         "roles": [
-          "OEM",
-          "OPERATOR"
+          "OEM"
         ]
       },
       "place": {
@@ -1806,6 +2115,7 @@
         "name": "Sanctuary AI",
         "primary_embodiment": null,
         "roles": [
+          "MODEL_DEVELOPER",
           "OEM"
         ]
       },

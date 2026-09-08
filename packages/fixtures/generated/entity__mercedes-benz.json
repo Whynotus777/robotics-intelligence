@@ -18,12 +18,12 @@
   "roles": [
     {
       "role": "OPERATOR",
-      "declared": false,
-      "claim_id": null,
+      "declared": true,
+      "claim_id": "6ac33f73-af72-5411-96da-da93417c34f5",
       "evidence_summary": {
-        "class": "NOT_AVAILABLE",
-        "confidence": null,
-        "source_count": 0
+        "class": "PRIMARY",
+        "confidence": "MEDIUM",
+        "source_count": 1
       }
     }
   ],
@@ -38,7 +38,34 @@
     "maturity": null
   },
   "place": null,
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "6ac33f73-af72-5411-96da-da93417c34f5",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OPERATOR"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "predicate": "HQ_AT",
@@ -107,8 +134,7 @@
             "name": "Apptronik",
             "primary_embodiment": null,
             "roles": [
-              "OEM",
-              "OPERATOR"
+              "OEM"
             ]
           },
           "stack_layer": null,
@@ -133,8 +159,7 @@
         "name": "Apptronik",
         "primary_embodiment": null,
         "roles": [
-          "OEM",
-          "OPERATOR"
+          "OEM"
         ]
       }
     ],
@@ -152,17 +177,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 1,
+      "claim_count": 2,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 1,
+    "recent_change_count": 2,
     "deployment_count": 0,
     "related_count": 3
   },

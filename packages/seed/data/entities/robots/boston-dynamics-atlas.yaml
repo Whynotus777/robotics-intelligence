@@ -19,3 +19,10 @@ claims:
       - class: PRIMARY
         confidence: MEDIUM
         source: bd-atlas
+  - predicate: HAS_DATA_COLLECTION_METHOD
+    enum: TELEOPERATION
+    evidence:
+      - class: PRIMARY
+        confidence: MEDIUM
+        source: bd-atlas
+        excerpt: Boston Dynamics presents the electric Atlas manipulation work as learned from teleoperated demonstrations with Toyota Research Institute.

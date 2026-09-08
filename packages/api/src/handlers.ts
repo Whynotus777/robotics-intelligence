@@ -25,9 +25,11 @@ type Snapshot = Awaited<ReturnType<typeof load>>;
  * described by that declaration, and only a company that has not is read off its
  * relationships.
  */
+// Owning a factory does not make a company a contract manufacturer, so MANUFACTURES_AT
+// infers nothing: CONTRACT_MANUFACTURER has to be declared.
 const INFERRED_ROLE: Record<string, OrganizationRole> = {
   BUILDS: "OEM", PROVIDES: "COMPONENT_SUPPLIER", DEVELOPS: "MODEL_DEVELOPER",
-  MANUFACTURES_AT: "CONTRACT_MANUFACTURER", INVESTED_IN: "INVESTOR", PUBLISHES: "RESEARCH_LAB",
+  INVESTED_IN: "INVESTOR", PUBLISHES: "RESEARCH_LAB",
 };
 const INFERRED_ROLE_INBOUND: Record<string, OrganizationRole> = { OPERATED_BY: "OPERATOR", DEPLOYED_BY: "OPERATOR" };
 

@@ -16,16 +16,34 @@
   "roles": [
     {
       "role": "OEM",
-      "declared": false,
-      "claim_id": null,
+      "declared": true,
+      "claim_id": "94b72bce-4520-55cd-99f8-5c4635f41634",
       "evidence_summary": {
-        "class": "NOT_AVAILABLE",
-        "confidence": null,
-        "source_count": 0
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "50a1681f-e78c-52cd-9388-0d59b8696a7b",
+      "slug": "lig-nex1",
+      "entity_type": "ORGANIZATION",
+      "name": "LIG Nex1",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "since": "2023-12-08",
+    "claim_id": "b2eba525-cc54-58fd-ad4f-c550ef94ffac",
+    "evidence_summary": {
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -36,7 +54,34 @@
     "maturity": null
   },
   "place": null,
-  "claims": [],
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "94b72bce-4520-55cd-99f8-5c4635f41634",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OEM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "predicate": "BUILDS",
@@ -63,6 +108,34 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "b2eba525-cc54-58fd-ad4f-c550ef94ffac",
+          "target": {
+            "id": "50a1681f-e78c-52cd-9388-0d59b8696a7b",
+            "slug": "lig-nex1",
+            "entity_type": "ORGANIZATION",
+            "name": "LIG Nex1",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2023-12-08",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [
@@ -78,7 +151,9 @@
             "entity_type": "ORGANIZATION",
             "name": "LIG Nex1",
             "primary_embodiment": null,
-            "roles": []
+            "roles": [
+              "INVESTOR"
+            ]
           },
           "stack_layer": null,
           "qualifier": null,
@@ -101,24 +176,26 @@
         "entity_type": "ORGANIZATION",
         "name": "LIG Nex1",
         "primary_embodiment": null,
-        "roles": []
+        "roles": [
+          "INVESTOR"
+        ]
       }
     ]
   },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
-        "THIRD_PARTY": 0,
+        "PRIMARY": 2,
+        "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 1,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 1,
+    "recent_change_count": 3,
     "deployment_count": 0,
     "related_count": 2
   },

@@ -1,0 +1,39 @@
+slug: meta
+entity_type: ORGANIZATION
+name: Meta
+short_description: Menlo Park; robotics enters through the research lab — touch sensing, manipulation datasets and open models other people put on robots.
+country_code: US
+depth_tier: STANDARD
+aliases:
+- Meta Platforms
+- Facebook
+claims:
+- predicate: HQ_AT
+  object: bay-area
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: meta-site
+    excerpt: Meta gives Menlo Park, California as the headquarters.
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: meta-site
+    excerpt: Meta's robotics is research, open models and the hardware work under them rather than a
+      product, which puts it past the declared PLATFORM bar on roles rather than subsidiaries.
+- predicate: HAS_ROLE
+  enum: RESEARCH_LAB
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: meta-ai-site
+    excerpt: Meta AI publishes robotics research, including touch sensing and manipulation.
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: meta-ai-site
+    excerpt: Meta releases the open models other people put on robots.

@@ -42,3 +42,17 @@ claims:
     confidence: HIGH
     source: bmw-figure-press
     excerpt: BMW Manufacturing and Figure agreement on humanoid robots, January 2024.
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: figure-site
+    excerpt: Figure AI designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: figure-site
+    excerpt: Figure AI trains the models that drive robots.

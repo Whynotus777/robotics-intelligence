@@ -37,3 +37,10 @@ claims:
       - class: DERIVED
         confidence: MEDIUM
         excerpt: Derived from shared technology class (VLA models).
+  - predicate: HAS_DATA_COLLECTION_METHOD
+    enum: TELEOPERATION
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: figure-helix-announcement
+        excerpt: Figure states Helix was trained on roughly five hundred hours of teleoperated humanoid data.

@@ -1,0 +1,53 @@
+{
+  "claim": {
+    "claim_id": "1d2aea12-e739-57bd-bfd0-b8737f8ea18f",
+    "subject": {
+      "id": "70bc43e3-1e7f-5d97-9852-8dbc09ee40ee",
+      "slug": "helix",
+      "entity_type": "MODEL",
+      "name": "Helix",
+      "primary_embodiment": null,
+      "roles": []
+    },
+    "predicate": "HAS_DATA_COLLECTION_METHOD",
+    "label": "data collection method",
+    "sentence": "Helix data collection method TELEOPERATION",
+    "value": {
+      "kind": "enum",
+      "value": "TELEOPERATION"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a0bc5e6e-c45a-582e-9a16-50c181514343",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Figure states Helix was trained on roughly five hundred hours of teleoperated humanoid data.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "f4d9f016-4b1b-50c1-832d-d6571bfbc107",
+        "url": "https://www.figure.ai/news/helix",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Helix: a vision-language-action model for generalist humanoid control",
+        "source_kind": "PRESS_RELEASE",
+        "published_at": "2025-02-20T00:00:00.000Z",
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

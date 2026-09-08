@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "0bb769d5-96f4-52e6-bb47-686d83fa9b16",
+    "subject": {
+      "id": "e05f8ee9-729b-5420-8374-2825cab9dcb6",
+      "slug": "maxon",
+      "entity_type": "ORGANIZATION",
+      "name": "maxon group",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "maxon group role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "78df7fa4-d3bd-5f55-a334-d55e359b6124",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "maxon group sells robot components to other builders.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "0e4b20d6-fc66-5071-8482-2cb8873f8afb",
+        "url": "https://www.maxongroup.com/",
+        "canonical_url": null,
+        "publisher": "maxon group",
+        "title": "maxon group",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

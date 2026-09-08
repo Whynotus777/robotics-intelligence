@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "acf8ff7f-3ec7-580f-ad9f-95d6dddb984a",
+    "subject": {
+      "id": "d31f2d2e-9dce-5f5d-9ac6-062cd182b353",
+      "slug": "percepto",
+      "entity_type": "ORGANIZATION",
+      "name": "Percepto",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Percepto role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9d50b779-ea90-5ed4-be27-a80e8dbd4d66",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Percepto designs and sells robots under its own name.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "21c90c30-2b6b-546f-9f78-8c6cd3581cd3",
+        "url": "https://percepto.co/",
+        "canonical_url": null,
+        "publisher": "Percepto",
+        "title": "Percepto autonomous inspection",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "1e791fb2-3a49-5ce4-95c9-742c072a3c68",
+      "value": {
+        "kind": "enum",
+        "value": "OPERATOR"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

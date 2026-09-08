@@ -55,6 +55,32 @@
       ]
     },
     {
+      "predicate": "HAS_DATA_COLLECTION_METHOD",
+      "label": "data collection method",
+      "claims": [
+        {
+          "claim_id": "344ccc52-bdec-51e1-80c1-1ad53531c58d",
+          "predicate": "HAS_DATA_COLLECTION_METHOD",
+          "value": {
+            "kind": "enum",
+            "value": "TELEOPERATION"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HAS_EMBODIMENT",
       "label": "embodiment",
       "claims": [
@@ -96,8 +122,7 @@
             "name": "Boston Dynamics",
             "primary_embodiment": null,
             "roles": [
-              "OEM",
-              "OPERATOR"
+              "OEM"
             ]
           },
           "stack_layer": null,
@@ -122,8 +147,7 @@
         "name": "Boston Dynamics",
         "primary_embodiment": null,
         "roles": [
-          "OEM",
-          "OPERATOR"
+          "OEM"
         ]
       }
     ]
@@ -131,17 +155,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 3,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
     "related_count": 1
   },

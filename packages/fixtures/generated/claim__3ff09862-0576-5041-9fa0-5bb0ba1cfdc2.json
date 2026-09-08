@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "3ff09862-0576-5041-9fa0-5bb0ba1cfdc2",
+    "subject": {
+      "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+      "slug": "alphabet",
+      "entity_type": "ORGANIZATION",
+      "name": "Alphabet",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Alphabet is headquartered at San Francisco Bay Area",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
+        "slug": "bay-area",
+        "entity_type": "PLACE",
+        "name": "San Francisco Bay Area",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "61855777-b3ac-52a3-8f0d-aad3a8d2347e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Alphabet's own site gives Mountain View as the headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "9cd85d29-722a-557c-afa6-0060b08ed33a",
+        "url": "https://abc.xyz/",
+        "canonical_url": null,
+        "publisher": "Alphabet",
+        "title": "Alphabet",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

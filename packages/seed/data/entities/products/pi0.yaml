@@ -42,3 +42,18 @@ claims:
         source: pi-pi0-blog
         published_at: 2024-10-31
         excerpt: Blog post dated 31 October 2024.
+  - predicate: HAS_DATA_COLLECTION_METHOD
+    enum: TELEOPERATION
+    evidence:
+      - class: PRIMARY
+        confidence: HIGH
+        source: pi-pi0-blog
+        published_at: 2024-10-31
+        excerpt: Trained on demonstrations teleoperated across Physical Intelligence's own robot fleet.
+  - predicate: HAS_DATA_COLLECTION_METHOD
+    enum: REAL_DEPLOYMENT
+    evidence:
+      - class: ACADEMIC
+        confidence: MEDIUM
+        source: pi0-paper
+        excerpt: The paper describes cross-embodiment data gathered from robots doing the tasks, not only from a lab rig.

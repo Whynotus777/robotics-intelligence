@@ -20,3 +20,31 @@ claims:
     confidence: MEDIUM
     source: nvidia-isaac-groot-page
     excerpt: Described as a foundation model mapping perception and instructions to robot actions.
+- predicate: HAS_DATA_COLLECTION_METHOD
+  enum: TELEOPERATION
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: nvidia-isaac-groot-page
+    excerpt: NVIDIA describes GR00T N1's training mixture as beginning with real teleoperated robot trajectories.
+- predicate: HAS_DATA_COLLECTION_METHOD
+  enum: HUMAN_VIDEO
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: nvidia-isaac-groot-page
+    excerpt: The same mixture includes human video, which is the point of the heterogeneous data pyramid.
+- predicate: HAS_DATA_COLLECTION_METHOD
+  enum: SIMULATION
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: nvidia-isaac-groot-page
+    excerpt: Simulated trajectories from Isaac Sim make up the largest share of the mixture.
+- predicate: HAS_DATA_COLLECTION_METHOD
+  enum: SYNTHETIC
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: nvidia-isaac-groot-page
+    excerpt: NVIDIA generates additional synthetic trajectories on top of what is captured or simulated.

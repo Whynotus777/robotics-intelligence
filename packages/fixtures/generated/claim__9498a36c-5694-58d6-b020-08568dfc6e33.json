@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "9498a36c-5694-58d6-b020-08568dfc6e33",
+    "subject": {
+      "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+      "slug": "figure-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Figure AI",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Figure AI role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "740ad6dc-8bd7-5e24-8e50-883a448f9278",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Figure AI designs and sells robots under its own name.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e1f9e906-89d4-56df-a5da-397f12e33f0a",
+        "url": "https://www.figure.ai/",
+        "canonical_url": null,
+        "publisher": "Figure AI",
+        "title": "Figure AI",
+        "source_kind": "PRODUCT_PAGE",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "4420e818-6de5-5059-9b20-933811c4b400",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}
