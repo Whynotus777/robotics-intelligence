@@ -4,10 +4,16 @@ import Link from "next/link";
 import { PathBar } from "@/components/path-bar";
 import { RobotMRIView } from "@/components/robot-mri-view";
 import type { StackResponse } from "@ri/api-contracts";
+import { slugsUnder } from "@/lib/catalog";
 import { data, orNotFound } from "@/lib/data";
 import { EMBODIMENT_LABEL, formatDate } from "@/lib/vocabulary";
 
 type Params = { params: Promise<{ slug: string }> };
+
+/** One MRI per robot profile, prerendered from the same closed set. */
+export async function generateStaticParams() {
+  return slugsUnder("/r");
+}
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;

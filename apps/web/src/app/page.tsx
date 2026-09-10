@@ -213,6 +213,7 @@ function RobotCard({ entity }: { entity: EntityResponse }) {
   return (
     <Link
       href={hrefFor(entity.entity)}
+      prefetch={false}
       className="flex flex-col gap-2 rounded-panel border border-line-soft bg-panel-deep p-3 transition-colors hover:border-line-strong"
     >
       <div className="flex items-center gap-2">
@@ -249,6 +250,7 @@ function EntryTile({
   return (
     <Link
       href={href}
+      prefetch={false}
       className="flex flex-col gap-1.5 rounded-panel border border-line-soft bg-panel-deep p-4 transition-colors hover:border-line-strong"
     >
       <span className="eyebrow">{eyebrow}</span>

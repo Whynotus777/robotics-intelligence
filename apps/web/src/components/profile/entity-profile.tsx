@@ -9,6 +9,7 @@ import { Section } from "@/components/section";
 import { IntelligenceRail } from "@/components/profile/intelligence-rail";
 import { SpecGrid, collectSpecs } from "@/components/profile/spec-grid";
 import { StackThumbnail } from "@/components/profile/stack-thumbnail";
+import { compareHref } from "@/lib/compare";
 import {
   EMBODIMENT_LABEL,
   IDENTITY_PREDICATES,
@@ -206,7 +207,9 @@ export function EntityProfile({ entity, stack }: { entity: EntityResponse; stack
               action={
                 peers.length > 0 ? (
                   <Link
-                    href={`/compare?slugs=${[identity.slug, ...peers.slice(0, 3).map((peer) => peer.slug)].join(",")}`}
+                    href={compareHref([identity.slug, ...peers.slice(0, 3).map((peer) => peer.slug)])}
+                    rel="nofollow"
+                    prefetch={false}
                     className="text-[12px] text-accent hover:underline"
                   >
                     Compare with {peers.slice(0, 3).map((peer) => peer.name).join(" · ")} →

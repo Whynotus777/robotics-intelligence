@@ -8,6 +8,7 @@ import { TypeGlyph } from "@/components/glyph";
 import { PathBar } from "@/components/path-bar";
 import { Section } from "@/components/section";
 import { IntelligenceRail } from "@/components/profile/intelligence-rail";
+import { compareHref } from "@/lib/compare";
 import type { CompanyView, DeploymentRow, Sourced } from "@/lib/company";
 import {
   EMBODIMENT_LABEL,
@@ -176,7 +177,9 @@ export function CompanyProfile({ entity, view }: { entity: EntityResponse; view:
               title="Comparisons"
               action={
                 <Link
-                  href={`/compare?slugs=${[identity.slug, ...peers.slice(0, 3).map((peer) => peer.slug)].join(",")}`}
+                  href={compareHref([identity.slug, ...peers.slice(0, 3).map((peer) => peer.slug)])}
+                  rel="nofollow"
+                  prefetch={false}
                   className="text-[12px] text-accent hover:underline"
                 >
                   Compare with {peers.slice(0, 3).map((peer) => peer.name).join(" · ")} →
@@ -239,7 +242,7 @@ function IdentityFacts({ entity, view }: { entity: EntityResponse; view: Company
         <span className="flex flex-wrap items-center gap-1.5">
           {view.hq.map((row) => (
             <span key={row.claimId} className="inline-flex items-center gap-1">
-              <Link href={`/e/${row.value.slug}`} className="text-ink hover:text-accent">
+              <Link href={`/e/${row.value.slug}`} prefetch={false} className="text-ink hover:text-accent">
                 {row.value.name}
               </Link>
               <SourceGlyph summary={row.summary} claimId={row.claimId} />
@@ -327,7 +330,7 @@ function IdentityFacts({ entity, view }: { entity: EntityResponse; view: Company
         <span className="flex flex-wrap items-center gap-1.5">
           {site.places.map((row) => (
             <span key={row.claimId} className="inline-flex items-center gap-1">
-              <Link href={`/e/${row.value.slug}`} className="text-ink hover:text-accent">
+              <Link href={`/e/${row.value.slug}`} prefetch={false} className="text-ink hover:text-accent">
                 {row.value.name}
               </Link>
               <SourceGlyph summary={row.summary} claimId={row.claimId} />

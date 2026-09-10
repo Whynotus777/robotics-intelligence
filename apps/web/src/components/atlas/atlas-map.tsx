@@ -238,7 +238,7 @@ export function AtlasMap({
                     key={`${mark.place.id}-${entity.id}`}
                     className="flex items-center gap-2 py-1.5 text-[12px]"
                   >
-                    <Link href={hrefFor(entity)} className="flex min-w-0 items-center gap-1.5 hover:text-accent">
+                    <Link href={hrefFor(entity)} prefetch={false} className="flex min-w-0 items-center gap-1.5 hover:text-accent">
                       <TypeGlyph chip={entity} />
                       <span className="truncate">{entity.name}</span>
                     </Link>
@@ -272,7 +272,7 @@ function PlacePanel({ mark, onClose }: { mark: AtlasMarkView; onClose: () => voi
       <div className="flex items-start justify-between gap-2">
         <div className="flex flex-col gap-1">
           <span className="eyebrow">Place</span>
-          <Link href={hrefFor(mark.place)} className="text-[15px]/[1.3] font-semibold hover:text-accent">
+          <Link href={hrefFor(mark.place)} prefetch={false} className="text-[15px]/[1.3] font-semibold hover:text-accent">
             {mark.place.name}
           </Link>
           <span className="num text-[11px] text-ink-4">

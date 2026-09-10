@@ -109,6 +109,7 @@ export default async function UpdatesPage({ searchParams }: Search) {
           <span className="eyebrow mr-1">Initial data load</span>
           <Link
             href={toggleHref}
+            prefetch={false}
             className={`rounded-full border px-2.5 py-1 text-[11px] transition-colors ${
               includeSeed
                 ? "border-line-strong bg-raised text-ink"
@@ -241,7 +242,7 @@ function EmptyFeed({ all, includeSeed, toggleHref }: { all: number; includeSeed:
       <p className="text-[13px]/[1.6] text-ink-3">
         This is the honest state until ingestion runs and starts producing second readings.
       </p>
-      <Link href={toggleHref} className="w-fit text-[12px] text-accent hover:underline">
+      <Link href={toggleHref} prefetch={false} className="w-fit text-[12px] text-accent hover:underline">
         Show the initial data load anyway →
       </Link>
     </div>

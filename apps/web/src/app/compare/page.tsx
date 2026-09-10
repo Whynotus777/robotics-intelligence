@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import type { EntityType } from "@ri/domain";
 import { CompareTable } from "@/components/compare/compare-table";
 import { EntityChipLink } from "@/components/entity-chip";
 import { TypeGlyph } from "@/components/glyph";
 import { PathBar } from "@/components/path-bar";
-import { MAX_COLUMNS, MIN_COLUMNS, compareView, groupLabel, groupRank } from "@/lib/compare";
+import { MAX_COLUMNS, MIN_COLUMNS, compareHref, compareSlugs, compareView, groupLabel, groupRank } from "@/lib/compare";
 import { data } from "@/lib/data";
 import { formatDate } from "@/lib/vocabulary";
 
@@ -17,9 +18,7 @@ function readSlugs(value: string | string[] | undefined): string[] {
   return raw.flatMap((entry) => entry.split(",")).map((slug) => slug.trim()).filter(Boolean);
 }
 
-function href(slugs: string[]): string {
-  return slugs.length > 0 ? `/compare?slugs=${slugs.join(",")}` : "/compare";
-}
+const href = compareHref;
 
 /**
  * Compare: two to four entities of the same type, side by side. The usual door
@@ -27,7 +26,12 @@ function href(slugs: string[]): string {
  */
 export default async function ComparePage({ searchParams }: Search) {
   const params = await searchParams;
-  const slugs = readSlugs(params.slugs).slice(0, MAX_COLUMNS);
+  const requested = readSlugs(params.slugs);
+  const slugs = compareSlugs(requested);
+  // A selection has one address. Anything else — a different order, a repeat, a
+  // fifth column — is the same page, so it moves there rather than duplicating it.
+  if (requested.join(",") !== slugs.join(",")) redirect(href(slugs));
+
   const view = await compareView(slugs);
   const columns = view?.response.columns ?? [];
   const selected = columns.map((column) => column.slug);
@@ -69,6 +73,7 @@ export default async function ComparePage({ searchParams }: Search) {
                 <EntityChipLink chip={column} />
                 <Link
                   href={href(selected.filter((slug) => slug !== column.slug))}
+                  prefetch={false}
                   aria-label={`Remove ${column.name}`}
                   className="text-[12px] text-ink-5 hover:text-conflict"
                 >
@@ -86,6 +91,7 @@ export default async function ComparePage({ searchParams }: Search) {
               <Link
                 key={hit.chip.id}
                 href={href([...selected, hit.chip.slug])}
+                prefetch={false}
                 className="inline-flex items-center gap-1.5 rounded-full border border-line px-2.5 py-1 text-[11px] text-ink-3 transition-colors hover:border-line-strong hover:text-ink"
               >
                 <TypeGlyph chip={hit.chip} size={7} />

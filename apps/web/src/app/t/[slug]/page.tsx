@@ -4,10 +4,20 @@ import { PathBar } from "@/components/path-bar";
 import { SectorRail } from "@/components/market/sector-rail";
 import { MaturityBoard } from "@/components/market/maturity-board";
 import { TaskPanel } from "@/components/market/task-panel";
+import { slugsUnder } from "@/lib/catalog";
 import { data, orNotFound } from "@/lib/data";
 import { formatDate } from "@/lib/vocabulary";
 
 type Params = { params: Promise<{ slug: string }> };
+
+/**
+ * Tasks are a closed set at build time, so every task page is prerendered.
+ * dynamicParams stays on: a slug that appears after the build still renders on
+ * demand rather than 404ing.
+ */
+export async function generateStaticParams() {
+  return slugsUnder("/t");
+}
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;

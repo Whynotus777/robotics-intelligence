@@ -67,7 +67,7 @@ export function IntelligenceRail({ entity }: { entity: EntityResponse }) {
               <dt>{fact.label}</dt>
               <dd className="num text-ink">
                 {fact.href ? (
-                  <Link href={fact.href} className="text-accent hover:underline">
+                  <Link href={fact.href} prefetch={false} className="text-accent hover:underline">
                     {fact.value}
                   </Link>
                 ) : (

@@ -3,10 +3,22 @@ import type { Metadata } from "next";
 import { CompanyProfile } from "@/components/profile/company-profile";
 import { EntityProfile } from "@/components/profile/entity-profile";
 import { companyView } from "@/lib/company";
+import { slugsUnder } from "@/lib/catalog";
 import { data, orNotFound } from "@/lib/data";
 import { hrefFor } from "@/lib/vocabulary";
 
 type Params = { params: Promise<{ slug: string }> };
+
+/**
+ * Every entity whose canonical home is /e — companies, technologies, products,
+ * places, deployments. Typed entities are prerendered under their own route and
+ * only ever reach /e through the redirect above, so they are not listed twice.
+ * dynamicParams stays on: a slug that appears after the build still renders on
+ * demand rather than 404ing.
+ */
+export async function generateStaticParams() {
+  return slugsUnder("/e");
+}
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;

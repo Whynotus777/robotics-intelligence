@@ -41,6 +41,7 @@ export function CompareTable({
             <Link
               key={column.id}
               href={hrefFor(column)}
+              prefetch={false}
               className="flex min-w-0 items-center gap-1.5 px-2.5 pb-1 text-[13px] font-semibold hover:text-accent"
             >
               <TypeGlyph chip={column} />

@@ -33,6 +33,7 @@ export async function Directory({
           <Link
             key={hit.chip.id}
             href={hrefFor(hit.chip)}
+            prefetch={false}
             className="flex items-center gap-2 rounded-panel border border-line-soft bg-panel-deep px-3 py-2.5 transition-colors hover:border-line-strong"
           >
             <TypeGlyph chip={hit.chip} />

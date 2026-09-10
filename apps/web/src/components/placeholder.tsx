@@ -30,6 +30,7 @@ export function Placeholder({
           <Link
             key={door.href}
             href={door.href}
+            prefetch={false}
             className="rounded-full border border-line px-2.5 py-1 text-[11px] text-ink-3 transition-colors hover:border-line-strong hover:text-ink"
           >
             {door.label}

@@ -4,9 +4,19 @@ import { PathBar } from "@/components/path-bar";
 import { SectorRail } from "@/components/market/sector-rail";
 import { MaturityBoard } from "@/components/market/maturity-board";
 import { EntityChipLink } from "@/components/entity-chip";
+import { slugsUnder } from "@/lib/catalog";
 import { data, orNotFound } from "@/lib/data";
 
 type Params = { params: Promise<{ slug: string }> };
+
+/**
+ * Markets are a closed set at build time, so every market page is prerendered.
+ * dynamicParams stays on: a slug that appears after the build still renders on
+ * demand rather than 404ing.
+ */
+export async function generateStaticParams() {
+  return slugsUnder("/m");
+}
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;

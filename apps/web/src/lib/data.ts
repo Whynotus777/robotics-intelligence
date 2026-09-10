@@ -29,3 +29,19 @@ export async function orNotFound<T>(promise: Promise<T>): Promise<T | null> {
     return null;
   }
 }
+
+/**
+ * The fixture-backed routes serve a snapshot that is baked into the build, so a
+ * day at the edge with stale-while-revalidate costs nothing and saves the
+ * function invocation entirely: a new deploy is a new cache key. In
+ * DATA_PROVIDER=http mode the answer can change under a running build, so it
+ * gets a minute instead of a day.
+ */
+export function cacheHeaders(): Record<string, string> {
+  const fixture = (process.env.DATA_PROVIDER ?? "fixture") === "fixture";
+  return {
+    "cache-control": fixture
+      ? "public, s-maxage=86400, stale-while-revalidate"
+      : "public, s-maxage=60, stale-while-revalidate",
+  };
+}

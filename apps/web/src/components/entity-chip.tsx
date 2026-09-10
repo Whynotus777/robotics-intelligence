@@ -19,6 +19,7 @@ export function EntityChipLink({
   return (
     <Link
       href={hrefFor(chip)}
+      prefetch={false}
       className={`inline-flex max-w-full items-center gap-1.5 rounded-chip border border-line bg-raised px-2 py-[5px] text-[12px] leading-none font-medium text-ink transition-colors hover:border-line-strong hover:bg-[#1f232b] ${className}`}
     >
       <TypeGlyph chip={chip} />
@@ -33,6 +34,7 @@ export function PillLink({ chip }: { chip: Chip }) {
   return (
     <Link
       href={hrefFor(chip)}
+      prefetch={false}
       className="inline-flex max-w-full items-center gap-1.5 rounded-full border border-line px-2.5 py-1 text-[11px] text-ink-3 transition-colors hover:border-line-strong hover:text-ink"
     >
       <TypeGlyph chip={chip} size={7} />

@@ -133,7 +133,7 @@ function DrawerMissing() {
 function Subject({ payload }: { payload: ClaimEvidenceResponse }) {
   const { subject } = payload.claim;
   return (
-    <Link href={hrefFor(subject)} className="flex items-center gap-2 text-[13px] font-semibold hover:text-accent">
+    <Link href={hrefFor(subject)} prefetch={false} className="flex items-center gap-2 text-[13px] font-semibold hover:text-accent">
       <TypeGlyph chip={subject} />
       {subject.name}
       <span className="num text-[10px] font-normal text-ink-4">{subject.entity_type}</span>

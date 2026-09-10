@@ -32,6 +32,7 @@ export function FilterGroup({
           <Link
             key={option.label}
             href={`${basePath}${next.size ? `?${next}` : ""}`}
+            prefetch={false}
             className={`rounded-full border px-2.5 py-1 text-[11px] transition-colors ${
               active
                 ? "border-line-strong bg-raised text-ink"

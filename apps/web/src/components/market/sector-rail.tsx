@@ -28,6 +28,7 @@ export async function SectorRail({ activeSlugs }: { activeSlugs: string[] }) {
             <div key={sector.market.id} className="flex shrink-0 flex-col lg:shrink">
               <Link
                 href={`/m/${sector.market.slug}`}
+                prefetch={false}
                 className={`truncate rounded-[4px] px-2.5 py-1.5 text-[12px] transition-colors ${
                   active ? "text-ink lg:border-l-2 lg:border-accent lg:pl-2" : "text-ink-3 hover:text-ink"
                 }`}
@@ -40,6 +41,7 @@ export async function SectorRail({ activeSlugs }: { activeSlugs: string[] }) {
                     <Link
                       key={child.id}
                       href={`/m/${child.slug}`}
+                      prefetch={false}
                       className={`truncate rounded-[4px] py-1 pr-2.5 pl-[22px] text-[12px] transition-colors ${
                         activeSlugs.includes(child.slug) ? "text-ink" : "text-ink-4 hover:text-ink-2"
                       }`}

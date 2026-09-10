@@ -77,6 +77,7 @@ export default async function AtlasPage({ searchParams }: Search) {
             <Link
               key={layer.id}
               href={`/atlas?layer=${layer.id}`}
+              prefetch={false}
               aria-current={on ? "true" : undefined}
               className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11px] transition-colors ${
                 on
@@ -103,7 +104,7 @@ export default async function AtlasPage({ searchParams }: Search) {
         <p className="max-w-[560px] text-[13px]/[1.6] text-ink-3">
           Nothing is placed on {label} yet. Sites are recorded claim by claim, so an empty layer is a gap in the record,
           not an empty world — try{" "}
-          <Link href="/atlas?layer=BUILT" className="text-accent hover:underline">
+          <Link href="/atlas?layer=BUILT" prefetch={false} className="text-accent hover:underline">
             Built
           </Link>
           .

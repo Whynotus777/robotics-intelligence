@@ -15,6 +15,22 @@ import { STACK_LAYER_LABEL, sentenceCase } from "@/lib/vocabulary";
 export const MIN_COLUMNS = 2;
 export const MAX_COLUMNS = 4;
 
+/**
+ * One selection, one URL. Comparing A with B is the same page as comparing B
+ * with A, and repeating a slug is the same page again — so the slug list is
+ * deduplicated and sorted before it becomes a link, and the page redirects
+ * anything else onto this form. Without that, every ordering of the same four
+ * robots is a separate URL with identical content.
+ */
+export function compareSlugs(raw: string[]): string[] {
+  return [...new Set(raw.map((slug) => slug.trim()).filter(Boolean))].sort().slice(0, MAX_COLUMNS);
+}
+
+export function compareHref(raw: string[]): string {
+  const slugs = compareSlugs(raw);
+  return slugs.length > 0 ? `/compare?slugs=${slugs.join(",")}` : "/compare";
+}
+
 const ATTRIBUTE_GROUPS: Record<string, string> = {
   HAS_HEIGHT: "PHYSICAL",
   HAS_MASS: "PHYSICAL",

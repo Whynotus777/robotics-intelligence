@@ -49,6 +49,7 @@ export function MaturityBoard({
                 <td className="px-3.5 py-2.5">
                   <Link
                     href={`/t/${row.task.slug}`}
+                    prefetch={false}
                     className={`hover:text-accent ${active ? "font-semibold text-ink" : "text-ink-2"}`}
                   >
                     {row.task.name}
@@ -70,6 +71,7 @@ export function MaturityBoard({
                   {row.dominant_approach ? (
                     <Link
                       href={`/e/${row.dominant_approach.slug}`}
+                      prefetch={false}
                       className="inline-block rounded-[3px] border border-line bg-raised px-[7px] py-[3px] text-[11px] text-ink-2 hover:border-line-strong hover:text-ink"
                     >
                       {row.dominant_approach.name}
