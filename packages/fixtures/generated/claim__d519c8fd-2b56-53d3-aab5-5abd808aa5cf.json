@@ -1,0 +1,75 @@
+{
+  "claim": {
+    "claim_id": "d519c8fd-2b56-53d3-aab5-5abd808aa5cf",
+    "subject": {
+      "id": "2a8c10d4-129b-51e2-95fa-d4319032a3c0",
+      "slug": "foretellix",
+      "entity_type": "ORGANIZATION",
+      "name": "Foretellix",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Foretellix is headquartered at Modi'in",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "6336ca24-b343-5b67-b7ee-86fc62e9ee5f",
+        "slug": "modi-in-il",
+        "entity_type": "PLACE",
+        "name": "Modi'in",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4d97aad6-a0f1-510e-9909-11e8a3ee16f5",
+      "class": "ANALYST",
+      "confidence": "LOW",
+      "stance": "SUPPORTS",
+      "excerpt": "The supplied roster lists Modi'in, IL as the headquarters city; this location has not been independently confirmed.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "00fe7bc5-07a1-5a3a-962e-623fc31aa3af",
+        "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/infrastructure-data-sim-ops.csv",
+        "canonical_url": null,
+        "publisher": "Robotics Intelligence candidate roster",
+        "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+        "advance_criteria": [
+          "A primary company profile or filing confirms this headquarters city."
+        ],
+        "regress_criteria": [
+          "Primary evidence identifies a different headquarters or contradicts the roster location."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

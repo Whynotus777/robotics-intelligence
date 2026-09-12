@@ -151,6 +151,28 @@
           }
         },
         {
+          "claim_id": "c8549cc3-f0a2-5941-badb-5ef1015da87a",
+          "source": {
+            "id": "648a3020-8438-5b48-9a31-134f4671793d",
+            "slug": "abaka-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Abaka AI",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "d1e185b7-9738-5182-872c-2115347d1bdb",
           "source": {
             "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
@@ -177,6 +199,16 @@
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "648a3020-8438-5b48-9a31-134f4671793d",
+        "slug": "abaka-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Abaka AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
       {
         "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
         "slug": "eclipse-ventures",
@@ -256,7 +288,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 6
+    "related_count": 7
   },
   "as_of": null
 }

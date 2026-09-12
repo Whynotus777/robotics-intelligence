@@ -90,9 +90,47 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "b335a210-a988-55c6-8f3f-8e5cd6d45533",
+          "target": {
+            "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+            "slug": "san-francisco-us",
+            "entity_type": "PLACE",
+            "name": "San Francisco",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "places": [
+      {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -100,15 +138,15 @@
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
-        "ANALYST": 0
+        "ANALYST": 1
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

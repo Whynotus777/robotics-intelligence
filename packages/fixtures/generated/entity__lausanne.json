@@ -83,6 +83,28 @@
           }
         },
         {
+          "claim_id": "864723cd-bffa-5359-a618-8b331acac70f",
+          "source": {
+            "id": "58961440-005b-5523-9ed1-e062cc6239d8",
+            "slug": "cyberbotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Cyberbotics",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "8cb8612c-b5c9-5f30-adb4-2e01d7806fb4",
           "source": {
             "id": "2aeaff69-c55d-541d-938c-236937988386",
@@ -131,6 +153,16 @@
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "58961440-005b-5523-9ed1-e062cc6239d8",
+        "slug": "cyberbotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Cyberbotics",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
       {
         "id": "2aeaff69-c55d-541d-938c-236937988386",
         "slug": "distalmotion",
@@ -188,7 +220,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 4
+    "related_count": 5
   },
   "as_of": null
 }

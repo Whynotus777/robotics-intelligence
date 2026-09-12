@@ -62,6 +62,28 @@
           }
         },
         {
+          "claim_id": "6a9d83d7-58b0-5cfc-a41d-609d9e700b38",
+          "source": {
+            "id": "a2a01f05-5e72-5d6d-b0e5-c7a52c06d9e5",
+            "slug": "auterion",
+            "entity_type": "ORGANIZATION",
+            "name": "Auterion",
+            "primary_embodiment": null,
+            "roles": [
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "884f2d73-1bc1-5a2f-9285-b8e27ec68dd0",
           "source": {
             "id": "b74944fa-1e7a-567e-a8b5-a67c94eaf4bb",
@@ -192,6 +214,28 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "fce71a34-c763-514f-a5c8-ab1818858196",
+          "source": {
+            "id": "ad96b44d-2010-5584-9efd-e277d77a5aa5",
+            "slug": "coppelia-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Coppelia Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -219,6 +263,16 @@
         ]
       },
       {
+        "id": "a2a01f05-5e72-5d6d-b0e5-c7a52c06d9e5",
+        "slug": "auterion",
+        "entity_type": "ORGANIZATION",
+        "name": "Auterion",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      {
         "id": "b74944fa-1e7a-567e-a8b5-a67c94eaf4bb",
         "slug": "bota-systems",
         "entity_type": "ORGANIZATION",
@@ -226,6 +280,16 @@
         "primary_embodiment": null,
         "roles": [
           "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
+        "id": "ad96b44d-2010-5584-9efd-e277d77a5aa5",
+        "slug": "coppelia-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Coppelia Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
         ]
       },
       {
@@ -286,7 +350,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 7
+    "related_count": 9
   },
   "as_of": null
 }

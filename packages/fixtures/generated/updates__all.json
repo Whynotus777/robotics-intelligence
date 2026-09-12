@@ -28,6 +28,41 @@
       "origin": "SEED"
     },
     {
+      "id": "0075fbb3-afeb-5e87-b507-d44bfecd74a1",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "9fe5ee1e-7ff8-52c2-a4f8-ae06c0f70c1c",
+        "slug": "artiminds-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ArtiMinds Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "5c6bb35f-3b1e-5387-add2-72d119e217de",
+          "slug": "karlsruhe-de",
+          "entity_type": "PLACE",
+          "name": "Karlsruhe",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Karlsruhe",
+      "origin": "SEED"
+    },
+    {
       "id": "0084b03d-c48d-569b-bb97-879a4bf768f3",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -205,6 +240,41 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Tooling and operations provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "0451272d-aed2-53af-8aa2-e1f6e5872cff",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "7552bab9-2d66-5af2-b58d-9947e4e612dd",
+        "slug": "ansys",
+        "entity_type": "ORGANIZATION",
+        "name": "Ansys",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "05ee6975-2bed-57c5-b795-32e9eb0c92d7",
+          "slug": "canonsburg-us",
+          "entity_type": "PLACE",
+          "name": "Canonsburg",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Canonsburg",
       "origin": "SEED"
     },
     {
@@ -436,6 +506,42 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Data and simulation provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "0654c53a-7bed-5435-bbe9-42b3197bb7bf",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+        "slug": "hugging-face",
+        "entity_type": "ORGANIZATION",
+        "name": "Hugging Face",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
+          "slug": "new-york-us",
+          "entity_type": "PLACE",
+          "name": "New York",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at New York",
       "origin": "SEED"
     },
     {
@@ -988,6 +1094,42 @@
       "origin": "SEED"
     },
     {
+      "id": "0d573ae4-08f1-59ec-8927-bfe38ed95028",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "499a8795-6f6a-59dc-974e-4722fa7d5fe5",
+        "slug": "roboto-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Roboto AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+          "slug": "seattle",
+          "entity_type": "PLACE",
+          "name": "Seattle",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Seattle",
+      "origin": "SEED"
+    },
+    {
       "id": "0d57f666-08f1-59c8-b2f0-690223980dc3",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1455,131 +1597,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Headquartered at Bedford",
-      "origin": "SEED"
-    },
-    {
-      "id": "0fe7a70f-330c-5ff3-8b76-4dff7ddcf1b0",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "62db8a22-e468-572f-9089-fb55527c5001",
-        "slug": "zhaowei-machinery-electronics",
-        "entity_type": "ORGANIZATION",
-        "name": "Zhaowei Machinery & Electronics",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "COMPONENT_SUPPLIER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Component supplier",
-      "origin": "SEED"
-    },
-    {
-      "id": "0fea18c9-3956-5011-af4d-0739c8869115",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "b2019a1f-8ed0-51fd-9f1f-889ae8ff6290",
-        "slug": "cyngn",
-        "entity_type": "ORGANIZATION",
-        "name": "Cyngn",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM",
-          "TOOLING_OPS_PROVIDER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "TOOLING_OPS_PROVIDER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Tooling and operations provider",
-      "origin": "SEED"
-    },
-    {
-      "id": "105f0792-cb28-5f4e-87d2-4cb3d4a777f0",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "59f79b40-3b9c-5e77-8360-ac5fe81a4dad",
-        "slug": "aurora-innovation",
-        "entity_type": "ORGANIZATION",
-        "name": "Aurora Innovation",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "87216f35-32ce-54be-9ed9-86c480775092",
-          "slug": "pittsburgh",
-          "entity_type": "PLACE",
-          "name": "Pittsburgh",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "LOW",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Pittsburgh",
-      "origin": "SEED"
-    },
-    {
-      "id": "11435bd0-7306-50cc-b961-5eee8c79634a",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
-        "slug": "mitsubishi-electric-research-laboratories-merl",
-        "entity_type": "ORGANIZATION",
-        "name": "Mitsubishi Electric Research Laboratories (MERL)",
-        "primary_embodiment": null,
-        "roles": [
-          "RESEARCH_LAB"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
-          "slug": "cambridge-us",
-          "entity_type": "PLACE",
-          "name": "Cambridge",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "LOW",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Cambridge",
       "origin": "SEED"
     }
   ]

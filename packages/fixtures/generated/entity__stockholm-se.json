@@ -39,6 +39,29 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "964f0ffb-70c3-5aeb-ab72-f76c0cd14d73",
+          "source": {
+            "id": "73427a24-227d-5bca-ba25-e50a3b4bd997",
+            "slug": "rerun",
+            "entity_type": "ORGANIZATION",
+            "name": "Rerun",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "aeacd350-53df-5ebf-a18f-821f9942d6a6",
           "source": {
             "id": "0f0678f4-c5c3-5709-abe5-630cd85dbb65",
@@ -74,6 +97,17 @@
         "roles": [
           "INVESTOR"
         ]
+      },
+      {
+        "id": "73427a24-227d-5bca-ba25-e50a3b4bd997",
+        "slug": "rerun",
+        "entity_type": "ORGANIZATION",
+        "name": "Rerun",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
       }
     ]
   },
@@ -92,7 +126,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

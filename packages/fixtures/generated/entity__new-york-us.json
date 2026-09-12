@@ -39,6 +39,29 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "31a13570-4a26-53e6-9e71-43a85ec12837",
+          "source": {
+            "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+            "slug": "runway",
+            "entity_type": "ORGANIZATION",
+            "name": "Runway",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER",
+              "MODEL_DEVELOPER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "5fe732f0-d9e1-5043-9c8e-e08c6785a552",
           "source": {
             "id": "36062562-2d11-531a-849e-95516baf1f96",
@@ -83,6 +106,29 @@
           }
         },
         {
+          "claim_id": "c35ba0ec-5283-5327-9a51-da84e4d22f72",
+          "source": {
+            "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+            "slug": "hugging-face",
+            "entity_type": "ORGANIZATION",
+            "name": "Hugging Face",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "d27d7d73-f192-5b27-ae94-f5817aa0ff06",
           "source": {
             "id": "386f26e9-9c99-5b1c-abab-1bf0bcd95fc0",
@@ -110,6 +156,17 @@
   "lateral_links": {
     "company": [
       {
+        "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+        "slug": "hugging-face",
+        "entity_type": "ORGANIZATION",
+        "name": "Hugging Face",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      {
         "id": "129a99cc-50ce-5be6-80e8-9d355416dcaa",
         "slug": "lux-capital",
         "entity_type": "ORGANIZATION",
@@ -127,6 +184,17 @@
         "primary_embodiment": null,
         "roles": [
           "INVESTOR"
+        ]
+      },
+      {
+        "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+        "slug": "runway",
+        "entity_type": "ORGANIZATION",
+        "name": "Runway",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
         ]
       },
       {
@@ -156,7 +224,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 5
   },
   "as_of": null
 }

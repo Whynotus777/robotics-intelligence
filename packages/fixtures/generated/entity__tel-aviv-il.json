@@ -39,6 +39,29 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "09101dfe-1d1d-51da-ae8a-64a501c069ad",
+          "source": {
+            "id": "b31ff391-d00f-534e-8b1a-1e70b144f91b",
+            "slug": "decart",
+            "entity_type": "ORGANIZATION",
+            "name": "Decart",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER",
+              "MODEL_DEVELOPER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "36494d7c-fd4f-5d7e-85ae-f1c5516caf0e",
           "source": {
             "id": "e9832a75-158a-508b-970f-0536d4d3bce0",
@@ -90,6 +113,17 @@
   "lateral_links": {
     "company": [
       {
+        "id": "b31ff391-d00f-534e-8b1a-1e70b144f91b",
+        "slug": "decart",
+        "entity_type": "ORGANIZATION",
+        "name": "Decart",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      {
         "id": "e9832a75-158a-508b-970f-0536d4d3bce0",
         "slug": "flytrex",
         "entity_type": "ORGANIZATION",
@@ -128,7 +162,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

@@ -59,6 +59,28 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "9739ac23-2719-59d2-a447-a62a5a913c1d",
+          "source": {
+            "id": "92961fb2-0132-5db0-9506-d355d0a5c81c",
+            "slug": "naise",
+            "entity_type": "ORGANIZATION",
+            "name": "NAiSE",
+            "primary_embodiment": null,
+            "roles": [
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -73,6 +95,16 @@
         "primary_embodiment": null,
         "roles": [
           "OPERATOR"
+        ]
+      },
+      {
+        "id": "92961fb2-0132-5db0-9506-d355d0a5c81c",
+        "slug": "naise",
+        "entity_type": "ORGANIZATION",
+        "name": "NAiSE",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
         ]
       }
     ]
@@ -92,7 +124,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

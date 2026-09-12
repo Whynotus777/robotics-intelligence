@@ -4,7 +4,7 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 168
+      "count": 169
     },
     {
       "id": "SUPPLIED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 64
+      "count": 67
     },
     {
       "id": "FUNDED",
@@ -964,6 +964,35 @@
     },
     {
       "place": {
+        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
+        "slug": "new-york-us",
+        "entity_type": "PLACE",
+        "name": "New York",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 40.71427,
+      "lng": -74.00597,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+          "slug": "runway",
+          "entity_type": "ORGANIZATION",
+          "name": "Runway",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "829a07f5-8224-5e6e-b24c-0f0abae9ee15",
         "slug": "oxford-gb",
         "entity_type": "PLACE",
@@ -1137,6 +1166,35 @@
     },
     {
       "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.77493,
+      "lng": -122.41942,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
+          "slug": "odyssey",
+          "entity_type": "ORGANIZATION",
+          "name": "Odyssey",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "a04379bf-bfe9-5c45-a07a-9eb4118fe484",
         "slug": "san-mateo-us",
         "entity_type": "PLACE",
@@ -1284,6 +1342,35 @@
     },
     {
       "place": {
+        "id": "f5c0fffc-8777-5f3b-a809-9384e721f794",
+        "slug": "tel-aviv-il",
+        "entity_type": "PLACE",
+        "name": "Tel Aviv",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 32.08088,
+      "lng": 34.78057,
+      "country_code": "IL",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "b31ff391-d00f-534e-8b1a-1e70b144f91b",
+          "slug": "decart",
+          "entity_type": "ORGANIZATION",
+          "name": "Decart",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
         "slug": "toronto-ca",
         "entity_type": "PLACE",
@@ -1372,8 +1459,8 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 31,
-      "places": 19
+      "weight": 33,
+      "places": 21
     },
     {
       "id": "CN",
@@ -1416,6 +1503,12 @@
       "label": "KR",
       "weight": 2,
       "places": 2
+    },
+    {
+      "id": "IL",
+      "label": "IL",
+      "weight": 1,
+      "places": 1
     },
     {
       "id": "NL",
@@ -2553,6 +2646,27 @@
     },
     {
       "entity": {
+        "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+        "slug": "runway",
+        "entity_type": "ORGANIZATION",
+        "name": "Runway",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
+        "slug": "new-york-us",
+        "entity_type": "PLACE",
+        "name": "New York",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "7c78a35e-a74f-54fb-be8d-aef549fa72e5",
         "slug": "oxford-robotics-institute",
         "entity_type": "ORGANIZATION",
@@ -2678,6 +2792,27 @@
     },
     {
       "entity": {
+        "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
+        "slug": "odyssey",
+        "entity_type": "ORGANIZATION",
+        "name": "Odyssey",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "a19bf5f6-db27-5318-ae20-28be53104b40",
         "slug": "dyna-robotics",
         "entity_type": "ORGANIZATION",
@@ -2779,6 +2914,27 @@
         "slug": "sunnyvale-us",
         "entity_type": "PLACE",
         "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b31ff391-d00f-534e-8b1a-1e70b144f91b",
+        "slug": "decart",
+        "entity_type": "ORGANIZATION",
+        "name": "Decart",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "f5c0fffc-8777-5f3b-a809-9384e721f794",
+        "slug": "tel-aviv-il",
+        "entity_type": "PLACE",
+        "name": "Tel Aviv",
         "primary_embodiment": null,
         "roles": []
       }

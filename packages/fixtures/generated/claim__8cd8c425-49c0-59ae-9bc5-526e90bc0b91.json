@@ -1,0 +1,75 @@
+{
+  "claim": {
+    "claim_id": "8cd8c425-49c0-59ae-9bc5-526e90bc0b91",
+    "subject": {
+      "id": "9ac64544-54aa-5bbb-8ec8-47e634cfda71",
+      "slug": "latent-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Latent AI",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Latent AI is headquartered at Princeton",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ce8cea00-04bd-55a3-9bbf-8937d1104171",
+        "slug": "princeton-us",
+        "entity_type": "PLACE",
+        "name": "Princeton",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2cfecdb0-9b99-5b92-8286-d7af16d339f4",
+      "class": "ANALYST",
+      "confidence": "LOW",
+      "stance": "SUPPORTS",
+      "excerpt": "The supplied roster lists Princeton, US as the headquarters city; this location has not been independently confirmed.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "00fe7bc5-07a1-5a3a-962e-623fc31aa3af",
+        "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/infrastructure-data-sim-ops.csv",
+        "canonical_url": null,
+        "publisher": "Robotics Intelligence candidate roster",
+        "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+        "advance_criteria": [
+          "A primary company profile or filing confirms this headquarters city."
+        ],
+        "regress_criteria": [
+          "Primary evidence identifies a different headquarters or contradicts the roster location."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

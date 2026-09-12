@@ -1,0 +1,75 @@
+{
+  "claim": {
+    "claim_id": "6a9d83d7-58b0-5cfc-a41d-609d9e700b38",
+    "subject": {
+      "id": "a2a01f05-5e72-5d6d-b0e5-c7a52c06d9e5",
+      "slug": "auterion",
+      "entity_type": "ORGANIZATION",
+      "name": "Auterion",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Auterion is headquartered at Zurich",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "26a385be-23cd-550a-bab7-f74f98811c6c",
+      "class": "ANALYST",
+      "confidence": "LOW",
+      "stance": "SUPPORTS",
+      "excerpt": "The supplied roster lists Zurich, CH as the headquarters city; this location has not been independently confirmed.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "00fe7bc5-07a1-5a3a-962e-623fc31aa3af",
+        "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/infrastructure-data-sim-ops.csv",
+        "canonical_url": null,
+        "publisher": "Robotics Intelligence candidate roster",
+        "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+        "advance_criteria": [
+          "A primary company profile or filing confirms this headquarters city."
+        ],
+        "regress_criteria": [
+          "Primary evidence identifies a different headquarters or contradicts the roster location."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

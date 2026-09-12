@@ -138,6 +138,32 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "ae853510-864c-5c3d-9c54-fa209b5462dd",
+          "target": {
+            "id": "e35b5fd8-076c-5c2d-9118-c6c527641fe3",
+            "slug": "san-jose-us",
+            "entity_type": "PLACE",
+            "name": "San Jose",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
@@ -154,6 +180,16 @@
           "COMPONENT_SUPPLIER"
         ]
       }
+    ],
+    "places": [
+      {
+        "id": "e35b5fd8-076c-5c2d-9118-c6c527641fe3",
+        "slug": "san-jose-us",
+        "entity_type": "PLACE",
+        "name": "San Jose",
+        "primary_embodiment": null,
+        "roles": []
+      }
     ]
   },
   "intelligence": {
@@ -163,15 +199,15 @@
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
-        "ANALYST": 0
+        "ANALYST": 1
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

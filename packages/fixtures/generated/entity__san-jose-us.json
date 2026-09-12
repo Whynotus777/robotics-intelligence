@@ -61,6 +61,28 @@
           }
         },
         {
+          "claim_id": "ae853510-864c-5c3d-9c54-fa209b5462dd",
+          "source": {
+            "id": "451f0621-d063-5f2a-ad4a-7517f561b85c",
+            "slug": "edge-impulse",
+            "entity_type": "ORGANIZATION",
+            "name": "Edge Impulse",
+            "primary_embodiment": null,
+            "roles": [
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "c9094e73-6738-5aaa-8cbb-ef650c0dd64c",
           "source": {
             "id": "434e9967-aa12-5d65-8f3c-a24c23eaa3dd",
@@ -88,6 +110,16 @@
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "451f0621-d063-5f2a-ad4a-7517f561b85c",
+        "slug": "edge-impulse",
+        "entity_type": "ORGANIZATION",
+        "name": "Edge Impulse",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
       {
         "id": "e3bd184e-8337-5bbb-b6c1-d663f838982b",
         "slug": "imerit",
@@ -126,7 +158,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

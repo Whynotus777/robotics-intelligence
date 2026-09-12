@@ -4,7 +4,7 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 168
+      "count": 169
     },
     {
       "id": "SUPPLIED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 64
+      "count": 67
     },
     {
       "id": "FUNDED",
@@ -1094,6 +1094,45 @@
           "roles": [
             "OEM",
             "OPERATOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
+        "entity_type": "PLACE",
+        "name": "Munich",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.14,
+      "lng": 11.58,
+      "country_code": "DE",
+      "cluster_label": "Munich",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "c9e9aebb-ae69-53e2-be08-17dc8d7e1606",
+          "slug": "agile-robots",
+          "entity_type": "ORGANIZATION",
+          "name": "Agile Robots",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "f1bee41d-05e6-5a14-8023-256327db92e7",
+          "slug": "idealworks",
+          "entity_type": "ORGANIZATION",
+          "name": "idealworks",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "TOOLING_OPS_PROVIDER"
           ]
         }
       ],
@@ -2578,34 +2617,6 @@
     },
     {
       "place": {
-        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
-        "slug": "munich",
-        "entity_type": "PLACE",
-        "name": "Munich",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 48.14,
-      "lng": 11.58,
-      "country_code": "DE",
-      "cluster_label": "Munich",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "c9e9aebb-ae69-53e2-be08-17dc8d7e1606",
-          "slug": "agile-robots",
-          "entity_type": "ORGANIZATION",
-          "name": "Agile Robots",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "83e4330e-450b-5bde-bb20-10efeb1b3f3d",
         "slug": "nashua-us",
         "entity_type": "PLACE",
@@ -3759,16 +3770,16 @@
       "places": 9
     },
     {
+      "id": "DE",
+      "label": "DE",
+      "weight": 7,
+      "places": 6
+    },
+    {
       "id": "CH",
       "label": "CH",
       "weight": 6,
       "places": 3
-    },
-    {
-      "id": "DE",
-      "label": "DE",
-      "weight": 6,
-      "places": 6
     },
     {
       "id": "KR",
@@ -3899,6 +3910,12 @@
       "places": 1
     },
     {
+      "id": "Munich",
+      "label": "Munich",
+      "weight": 3,
+      "places": 2
+    },
+    {
       "id": "Pittsburgh",
       "label": "Pittsburgh",
       "weight": 3,
@@ -3939,12 +3956,6 @@
       "label": "London",
       "weight": 2,
       "places": 1
-    },
-    {
-      "id": "Munich",
-      "label": "Munich",
-      "weight": 2,
-      "places": 2
     },
     {
       "id": "Odense",
@@ -5505,6 +5516,47 @@
     },
     {
       "entity": {
+        "id": "c9e9aebb-ae69-53e2-be08-17dc8d7e1606",
+        "slug": "agile-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Agile Robots",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
+        "entity_type": "PLACE",
+        "name": "Munich",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "f1bee41d-05e6-5a14-8023-256327db92e7",
+        "slug": "idealworks",
+        "entity_type": "ORGANIZATION",
+        "name": "idealworks",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
+        "entity_type": "PLACE",
+        "name": "Munich",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "3fe18fa8-4489-5278-9975-304759ee444e",
         "slug": "cartken",
         "entity_type": "ORGANIZATION",
@@ -6636,26 +6688,6 @@
         "slug": "moss",
         "entity_type": "PLACE",
         "name": "Moss",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "c9e9aebb-ae69-53e2-be08-17dc8d7e1606",
-        "slug": "agile-robots",
-        "entity_type": "ORGANIZATION",
-        "name": "Agile Robots",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
-        "slug": "munich",
-        "entity_type": "PLACE",
-        "name": "Munich",
         "primary_embodiment": null,
         "roles": []
       }
