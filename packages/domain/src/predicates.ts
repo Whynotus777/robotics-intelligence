@@ -203,6 +203,15 @@ export const PREDICATES = {
     label: "raised",
     description: "Funding event. valid_from is the announcement date; value is USD raised.",
   },
+  HAS_TICKER: {
+    subject_types: ORG,
+    value_kind: "TEXT",
+    cardinality: "MANY",
+    is_stack_membership: false,
+    stack_layer: "FORBIDDEN",
+    label: "stock ticker",
+    description: "Exchange-qualified public listing symbol, e.g. NASDAQ:NVDA; omit for private organizations.",
+  },
   FOUNDED_ON: {
     subject_types: ORG,
     value_kind: "DATE",

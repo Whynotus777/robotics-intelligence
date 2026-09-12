@@ -34,3 +34,7 @@ Organization predicates are BUILDS, DEVELOPS, PROVIDES, TARGETS_MARKET, TARGETS_
 
 ## Depth tier
 ANCHOR | STANDARD | DISCOVERY — backend metadata only, never shown.
+
+## Organization enrichment
+
+`HAS_ROLE` also supports `DATA_SIMULATION_PROVIDER` (robot training data and simulation) and `TOOLING_OPS_PROVIDER` (robot development, observability and fleet operations software). EMS organizations use `CONTRACT_MANUFACTURER`. Product categories are not roles. `HAS_TICKER` stores an exchange-qualified listing symbol; private organizations omit it. `FOUNDED_ON` allows year precision using January 1 with an explicit year-precision qualifier. `PART_OF` requires evidence and the effective ownership date, not the research date.

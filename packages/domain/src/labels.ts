@@ -67,6 +67,8 @@ export const ORGANIZATION_ROLE_LABEL: Record<OrganizationRole, string> = {
   COMPONENT_SUPPLIER: "Component supplier",
   CHIPMAKER: "Chipmaker",
   CONTRACT_MANUFACTURER: "Contract manufacturer",
+  DATA_SIMULATION_PROVIDER: "Data and simulation provider",
+  TOOLING_OPS_PROVIDER: "Tooling and operations provider",
   INTEGRATOR: "Integrator",
   MODEL_DEVELOPER: "Model developer",
   PLATFORM: "Platform",
