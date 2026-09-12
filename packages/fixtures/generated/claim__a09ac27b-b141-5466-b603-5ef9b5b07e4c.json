@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "a09ac27b-b141-5466-b603-5ef9b5b07e4c",
+    "subject": {
+      "id": "d6839662-0702-5721-9fed-ba626ee100d4",
+      "slug": "objectways",
+      "entity_type": "ORGANIZATION",
+      "name": "Objectways",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Objectways role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d82221cc-9c2c-5d7b-b273-b1ebc4c7ed1a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Collects and annotates robot demonstrations and egocentric data for physical AI.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a3c976f7-ad1a-551d-a531-baaf2482e394",
+        "url": "https://objectways.com/",
+        "canonical_url": null,
+        "publisher": "Objectways",
+        "title": "Objectways — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

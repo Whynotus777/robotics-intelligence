@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "befe2601-e2f6-54d3-a9cc-ae02e5410b8b",
+    "subject": {
+      "id": "bab07ba6-92c5-5a93-950a-008aadca27a5",
+      "slug": "segments-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Segments.ai",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Segments.ai role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "76b534fa-9e2e-5e4f-8fc2-1718328564ba",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides multi-sensor data labeling software for robotics and autonomous vehicles.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ed7f6774-b129-58c2-83eb-cbb2cfc70fb6",
+        "url": "https://segments.ai/",
+        "canonical_url": null,
+        "publisher": "Segments.ai",
+        "title": "Segments.ai — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

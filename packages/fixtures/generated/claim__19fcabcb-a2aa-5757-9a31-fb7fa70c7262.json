@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "19fcabcb-a2aa-5757-9a31-fb7fa70c7262",
+    "subject": {
+      "id": "29453e8f-9a98-529f-8d0f-5b6da545ccc5",
+      "slug": "siemens-digital-industries-software",
+      "entity_type": "ORGANIZATION",
+      "name": "Siemens Digital Industries Software",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Siemens Digital Industries Software role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "33de1bfe-9fcb-59a5-9045-5908b1c2c6a5",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides robotic workcell simulation and offline robot programming software.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "eb66227f-28d9-55b7-ae6c-7b04a79651b8",
+        "url": "https://www.siemens.com/en-us/products/tecnomatix/offerings/robotics-programming-simulation/",
+        "canonical_url": null,
+        "publisher": "Siemens Digital Industries Software",
+        "title": "Siemens Digital Industries Software — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

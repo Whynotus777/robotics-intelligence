@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "776a1b58-d18f-552e-a0be-10c2cbddc909",
+    "subject": {
+      "id": "e3bd184e-8337-5bbb-b6c1-d663f838982b",
+      "slug": "imerit",
+      "entity_type": "ORGANIZATION",
+      "name": "iMerit",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "iMerit role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "fbb2baeb-eee1-5635-b8fe-f91cb2562496",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides data annotation services for robotic perception and navigation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "45ca6c3e-a31b-59ee-8339-506beb86d4e6",
+        "url": "https://imerit.net/robotics/",
+        "canonical_url": null,
+        "publisher": "iMerit",
+        "title": "iMerit — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

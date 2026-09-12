@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "e24859e4-e949-5344-a602-172470b52497",
+    "subject": {
+      "id": "9ba7039f-6158-5a08-ac87-a5e24c4025f1",
+      "slug": "mathworks",
+      "entity_type": "ORGANIZATION",
+      "name": "MathWorks",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "MathWorks role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "56b5b4d6-c375-51d4-8cfe-eb314c2f7d0b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops MATLAB and Simulink tools for robotics design, simulation and verification.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3f31450b-9847-5801-bd25-624b0df5979e",
+        "url": "https://www.mathworks.com/solutions/robotics.html",
+        "canonical_url": null,
+        "publisher": "MathWorks",
+        "title": "MathWorks — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

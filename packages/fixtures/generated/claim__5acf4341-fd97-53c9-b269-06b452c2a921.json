@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "5acf4341-fd97-53c9-b269-06b452c2a921",
+    "subject": {
+      "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+      "slug": "runway",
+      "entity_type": "ORGANIZATION",
+      "name": "Runway",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER",
+        "MODEL_DEVELOPER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Runway role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "31f27e05-bc65-5289-8225-52242f6bcc87",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops world models and simulation tools for robot policy evaluation and training.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3b775c2f-fe3f-5e92-b06a-cb9bdda8fe9d",
+        "url": "https://runwayml.com/",
+        "canonical_url": null,
+        "publisher": "Runway",
+        "title": "Runway — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "0700288f-6457-543e-beb4-35f1bfd9848e",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

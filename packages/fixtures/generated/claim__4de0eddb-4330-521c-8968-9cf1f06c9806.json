@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "4de0eddb-4330-521c-8968-9cf1f06c9806",
+    "subject": {
+      "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
+      "slug": "odyssey",
+      "entity_type": "ORGANIZATION",
+      "name": "Odyssey",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER",
+        "MODEL_DEVELOPER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Odyssey role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "68f82044-c9e3-52be-89b3-2e9796ae9ed6",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops interactive world models for simulation and embodied intelligence.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "f5af55ab-1157-5f26-8a08-d3525ea759de",
+        "url": "https://odyssey.ml/",
+        "canonical_url": null,
+        "publisher": "Odyssey",
+        "title": "Odyssey — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "9a8b9607-89b0-59e3-adcd-f22f3416aade",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "0dc071c1-74d5-571f-9d01-c26ab45508af",
+    "subject": {
+      "id": "090bcbf7-a37a-5846-9890-4fc859cbe92f",
+      "slug": "appen",
+      "entity_type": "ORGANIZATION",
+      "name": "Appen",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Appen role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ab6f4c0b-4b0e-534e-a198-cbe316a60c22",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides sensor annotation and robot demonstration data for embodied AI.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d8d57e3c-82f6-5e22-adb5-0ea79cc50602",
+        "url": "https://www.appen.com/",
+        "canonical_url": null,
+        "publisher": "Appen",
+        "title": "Appen — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

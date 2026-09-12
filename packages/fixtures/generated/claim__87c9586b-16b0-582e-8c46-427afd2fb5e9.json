@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "87c9586b-16b0-582e-8c46-427afd2fb5e9",
+    "subject": {
+      "id": "22d95e26-98ce-52ce-a11e-4107dae02a97",
+      "slug": "cognata",
+      "entity_type": "ORGANIZATION",
+      "name": "Cognata",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Cognata role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "24a598f2-34d5-5f6e-a1d2-226b6c87f83e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops simulation and autonomy software for autonomous vehicles and drones.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "e15f4f01-377f-5365-9724-258b116e14cd",
+        "url": "https://www.cognata.com/",
+        "canonical_url": null,
+        "publisher": "Cognata",
+        "title": "Cognata — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

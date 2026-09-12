@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "29385ddc-2056-5cb0-ab73-89b7ee078429",
+    "subject": {
+      "id": "c2248cdd-f938-5099-bc18-da0fd179290f",
+      "slug": "deepen-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Deepen AI",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Deepen AI role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ec37e846-53cf-5442-a7b0-788726f069d5",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides calibration, annotation and validation infrastructure for robotics data.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1ed2aa6c-c315-54e2-9b7d-0be8a2e4e360",
+        "url": "https://www.deepen.ai/",
+        "canonical_url": null,
+        "publisher": "Deepen AI",
+        "title": "Deepen AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

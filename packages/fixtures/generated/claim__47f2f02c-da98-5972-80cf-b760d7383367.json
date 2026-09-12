@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "47f2f02c-da98-5972-80cf-b760d7383367",
+    "subject": {
+      "id": "58961440-005b-5523-9ed1-e062cc6239d8",
+      "slug": "cyberbotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Cyberbotics",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Cyberbotics role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0e7a633b-4881-567e-a9be-31a97289afe6",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops Webots robot simulation software and simulation services.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "0062ea34-5319-5b08-98d5-c98f58309d6e",
+        "url": "https://cyberbotics.com/",
+        "canonical_url": null,
+        "publisher": "Cyberbotics",
+        "title": "Cyberbotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

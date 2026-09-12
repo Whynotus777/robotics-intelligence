@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "397e751c-a6c6-5d97-9400-111c77c70f3a",
+    "subject": {
+      "id": "48f1ee63-b3bd-5c19-b620-6a081562e3ed",
+      "slug": "scale-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Scale AI",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Scale AI role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "12693dbc-f451-56a9-be7b-61c90b32228e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides real-world data collection and annotation for robotics and embodied AI.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "638c9358-cf33-515e-a8e0-5378b9bf1f44",
+        "url": "https://scale.com/robotics",
+        "canonical_url": null,
+        "publisher": "Scale AI",
+        "title": "Scale AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

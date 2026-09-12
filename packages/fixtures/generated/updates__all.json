@@ -173,6 +173,33 @@
       "origin": "SEED"
     },
     {
+      "id": "0650cd81-f295-50ba-a165-7aa5b6f6a89b",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "58961440-005b-5523-9ed1-e062cc6239d8",
+        "slug": "cyberbotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Cyberbotics",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Data and simulation provider",
+      "origin": "SEED"
+    },
+    {
       "id": "0679d686-e3e3-5768-8e1e-7a4bf96b9eef",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -341,6 +368,33 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Chipmaker",
+      "origin": "SEED"
+    },
+    {
+      "id": "0b47388c-580a-5d35-9650-7f3951c39bae",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "090bcbf7-a37a-5846-9890-4fc859cbe92f",
+        "slug": "appen",
+        "entity_type": "ORGANIZATION",
+        "name": "Appen",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Data and simulation provider",
       "origin": "SEED"
     },
     {
@@ -819,6 +873,34 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Integrator",
+      "origin": "SEED"
+    },
+    {
+      "id": "171fcde7-e377-5104-b7f2-c61cabe56ed2",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
+        "slug": "odyssey",
+        "entity_type": "ORGANIZATION",
+        "name": "Odyssey",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Model developer",
       "origin": "SEED"
     },
     {
@@ -1317,98 +1399,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "22d88748-b28e-5956-b3e5-c1cf0197218b",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
-        "slug": "applied-intuition",
-        "entity_type": "ORGANIZATION",
-        "name": "Applied Intuition",
-        "primary_embodiment": null,
-        "roles": [
-          "DATA_SIMULATION_PROVIDER",
-          "MODEL_DEVELOPER",
-          "TOOLING_OPS_PROVIDER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
-          "slug": "sunnyvale-us",
-          "entity_type": "PLACE",
-          "name": "Sunnyvale",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Sunnyvale",
-      "origin": "SEED"
-    },
-    {
-      "id": "23308ccb-2973-5d68-894a-7a8e56df0e10",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "dbd646ab-2676-5647-ae48-6511c3043dad",
-        "slug": "neuracore",
-        "entity_type": "ORGANIZATION",
-        "name": "Neuracore",
-        "primary_embodiment": null,
-        "roles": [
-          "DATA_SIMULATION_PROVIDER",
-          "TOOLING_OPS_PROVIDER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "TOOLING_OPS_PROVIDER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Tooling and operations provider",
-      "origin": "SEED"
-    },
-    {
-      "id": "23fb785f-cc73-5cba-8583-92656f0280ec",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "9c2562c2-a331-54e9-883b-c7db3ec763a0",
-        "slug": "heidenhain",
-        "entity_type": "ORGANIZATION",
-        "name": "Heidenhain",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "COMPONENT_SUPPLIER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Component supplier",
       "origin": "SEED"
     }
   ]

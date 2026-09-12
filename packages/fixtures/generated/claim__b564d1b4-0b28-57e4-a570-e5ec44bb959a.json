@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "b564d1b4-0b28-57e4-a570-e5ec44bb959a",
+    "subject": {
+      "id": "59cb91d7-b584-515d-98a1-467b793b90fc",
+      "slug": "sky-engine-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "SKY ENGINE AI",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "SKY ENGINE AI role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6e2aebf1-d54a-5f3f-8cba-2831f84be623",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Generates synthetic training data for robotics and computer vision.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "57c202d5-ee9e-5118-b8e7-966174632e5f",
+        "url": "https://www.skyengine.ai/",
+        "canonical_url": null,
+        "publisher": "SKY ENGINE AI",
+        "title": "SKY ENGINE AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

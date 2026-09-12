@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "5091a594-0b26-582f-b6ed-e9df5ff9ba10",
+    "subject": {
+      "id": "59d7fd37-3f06-5d21-b486-573c4a19ed68",
+      "slug": "parallel-domain",
+      "entity_type": "ORGANIZATION",
+      "name": "Parallel Domain",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Parallel Domain role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9a739550-a58b-52b5-bea0-3ed388ef4378",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops sensor simulation and digital reconstruction for autonomous systems.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5f7d613e-42d3-5452-bb08-a17adbe832b3",
+        "url": "https://paralleldomain.com/",
+        "canonical_url": null,
+        "publisher": "Parallel Domain",
+        "title": "Parallel Domain — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

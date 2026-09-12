@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "d48c471a-ffb7-5420-9e66-d9b730b5c884",
+    "subject": {
+      "id": "0787b769-c375-561f-b479-cafbb706c095",
+      "slug": "dassault-systemes",
+      "entity_type": "ORGANIZATION",
+      "name": "Dassault Systemes",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Dassault Systemes role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1cb32079-1b4a-572e-acd8-44da6237ef91",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides robotic simulation and programming software through DELMIA.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "e354b201-dd72-560c-80fc-724d900534c1",
+        "url": "https://www.3ds.com/products/delmia/industrial-engineering/robotics",
+        "canonical_url": null,
+        "publisher": "Dassault Systemes",
+        "title": "Dassault Systemes — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -124,6 +124,94 @@
     },
     "as_of": null
   },
+  "entity/abaka-ai": {
+    "entity": {
+      "id": "648a3020-8438-5b48-9a31-134f4671793d",
+      "slug": "abaka-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Abaka AI",
+      "short_description": "Provides datasets for embodied robotics and machine learning.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "f5bc4620-aa33-564d-9a7e-59d31654770b",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "f5bc4620-aa33-564d-9a7e-59d31654770b",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/abb-irb-6700": {
     "entity": {
       "id": "0f04ed2f-3cb7-5835-926a-1fbf13fa03ad",
@@ -4089,6 +4177,94 @@
     },
     "as_of": null
   },
+  "entity/ansys": {
+    "entity": {
+      "id": "7552bab9-2d66-5af2-b58d-9947e4e612dd",
+      "slug": "ansys",
+      "entity_type": "ORGANIZATION",
+      "name": "Ansys",
+      "short_description": "Develops simulation software for autonomous system design and validation.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "60dc1428-7ea1-5001-901b-f7f82fa63c77",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "60dc1428-7ea1-5001-901b-f7f82fa63c77",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/anybotics": {
     "entity": {
       "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
@@ -4537,6 +4713,94 @@
             "value": {
               "kind": "enum",
               "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/appen": {
+    "entity": {
+      "id": "090bcbf7-a37a-5846-9890-4fc859cbe92f",
+      "slug": "appen",
+      "entity_type": "ORGANIZATION",
+      "name": "Appen",
+      "short_description": "Provides sensor annotation and robot demonstration data for embodied AI.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "AU",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "0dc071c1-74d5-571f-9d01-c26ab45508af",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "0dc071c1-74d5-571f-9d01-c26ab45508af",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -9842,12 +10106,23 @@
       "primary_embodiment": null,
       "country_code": "CN",
       "aliases": [
+        "Beijing Innovation Center of Human Robotics",
         "X-Humanoid"
       ],
       "created_at": "2026-09-01T00:00:00.000Z",
       "updated_at": "2026-09-01T00:00:00.000Z"
     },
     "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "753d3da4-f1e7-5e5d-b6ce-d0b1c52e79b4",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
       {
         "role": "MODEL_DEVELOPER",
         "declared": true,
@@ -9916,6 +10191,26 @@
             }
           },
           {
+            "claim_id": "753d3da4-f1e7-5e5d-b6ce-d0b1c52e79b4",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
             "claim_id": "a2b40c93-4c48-55ba-abac-cffda3ddbb8b",
             "predicate": "HAS_ROLE",
             "value": {
@@ -9964,17 +10259,17 @@
     "intelligence": {
       "evidence_summary": {
         "by_class": {
-          "PRIMARY": 3,
+          "PRIMARY": 4,
           "THIRD_PARTY": 0,
           "ACADEMIC": 0,
           "DERIVED": 0,
           "ANALYST": 0
         },
-        "claim_count": 3,
+        "claim_count": 4,
         "claims_without_evidence": 0
       },
       "last_verified_at": "2026-09-01T00:00:00.000Z",
-      "recent_change_count": 3,
+      "recent_change_count": 4,
       "deployment_count": 0,
       "related_count": 0
     },
@@ -10475,6 +10770,94 @@
         "claims": [
           {
             "claim_id": "178eda69-4558-5b1a-95bf-455434320635",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/bitrobot-network": {
+    "entity": {
+      "id": "f3f641d9-8c1e-573e-8430-db952b3df8db",
+      "slug": "bitrobot-network",
+      "entity_type": "ORGANIZATION",
+      "name": "BitRobot Network",
+      "short_description": "Coordinates distributed robot data collection and open robotics research.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "SG",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "1ffd125b-5ddc-581c-bb47-727fb80bc687",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "1ffd125b-5ddc-581c-bb47-727fb80bc687",
             "predicate": "HAS_ROLE",
             "value": {
               "kind": "enum",
@@ -17271,6 +17654,94 @@
     },
     "as_of": null
   },
+  "entity/cognata": {
+    "entity": {
+      "id": "22d95e26-98ce-52ce-a11e-4107dae02a97",
+      "slug": "cognata",
+      "entity_type": "ORGANIZATION",
+      "name": "Cognata",
+      "short_description": "Develops simulation and autonomy software for autonomous vehicles and drones.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "IL",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "87c9586b-16b0-582e-8c46-427afd2fb5e9",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "87c9586b-16b0-582e-8c46-427afd2fb5e9",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/comau": {
     "entity": {
       "id": "6cebf86e-4e8b-506e-ad35-d1d09169dd77",
@@ -18481,6 +18952,94 @@
     },
     "as_of": null
   },
+  "entity/cyberbotics": {
+    "entity": {
+      "id": "58961440-005b-5523-9ed1-e062cc6239d8",
+      "slug": "cyberbotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Cyberbotics",
+      "short_description": "Develops Webots robot simulation software and simulation services.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "CH",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "47f2f02c-da98-5972-80cf-b760d7383367",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "47f2f02c-da98-5972-80cf-b760d7383367",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/cycloidal-drives": {
     "entity": {
       "id": "81127784-74b7-520d-bcee-c95a0cc17bf6",
@@ -18896,6 +19455,94 @@
     },
     "as_of": null
   },
+  "entity/dassault-systemes": {
+    "entity": {
+      "id": "0787b769-c375-561f-b479-cafbb706c095",
+      "slug": "dassault-systemes",
+      "entity_type": "ORGANIZATION",
+      "name": "Dassault Systemes",
+      "short_description": "Provides robotic simulation and programming software through DELMIA.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "FR",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "d48c471a-ffb7-5420-9e66-d9b730b5c884",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "d48c471a-ffb7-5420-9e66-d9b730b5c884",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/dcvc": {
     "entity": {
       "id": "c003c24d-04e1-5841-903d-4887f13f4bc5",
@@ -18979,6 +19626,124 @@
       },
       "last_verified_at": "2026-09-01T00:00:00.000Z",
       "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/decart": {
+    "entity": {
+      "id": "b31ff391-d00f-534e-8b1a-1e70b144f91b",
+      "slug": "decart",
+      "entity_type": "ORGANIZATION",
+      "name": "Decart",
+      "short_description": "Develops interactive world models and simulation for robotics training.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "IL",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "de2f6868-d904-5de1-98bc-0b99df4b1f09",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
+      {
+        "role": "MODEL_DEVELOPER",
+        "declared": true,
+        "claim_id": "956f1214-8efd-5388-be84-3ba8fcaf109f",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "956f1214-8efd-5388-be84-3ba8fcaf109f",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "MODEL_DEVELOPER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "de2f6868-d904-5de1-98bc-0b99df4b1f09",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 2,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 2,
       "deployment_count": 0,
       "related_count": 0
     },
@@ -19318,6 +20083,94 @@
       "recent_change_count": 2,
       "deployment_count": 0,
       "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/deepen-ai": {
+    "entity": {
+      "id": "c2248cdd-f938-5099-bc18-da0fd179290f",
+      "slug": "deepen-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Deepen AI",
+      "short_description": "Provides calibration, annotation and validation infrastructure for robotics data.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "29385ddc-2056-5cb0-ab73-89b7ee078429",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "29385ddc-2056-5cb0-ab73-89b7ee078429",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -36921,6 +37774,94 @@
     },
     "as_of": null
   },
+  "entity/imerit": {
+    "entity": {
+      "id": "e3bd184e-8337-5bbb-b6c1-d663f838982b",
+      "slug": "imerit",
+      "entity_type": "ORGANIZATION",
+      "name": "iMerit",
+      "short_description": "Provides data annotation services for robotic perception and navigation.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "776a1b58-d18f-552e-a0be-10c2cbddc909",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "776a1b58-d18f-552e-a0be-10c2cbddc909",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/in-process-inspection": {
     "entity": {
       "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
@@ -39455,6 +40396,94 @@
       "recent_change_count": 4,
       "deployment_count": 0,
       "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/ipg-automotive": {
+    "entity": {
+      "id": "7e3d11b0-851c-5936-ad57-e4aa994362be",
+      "slug": "ipg-automotive",
+      "entity_type": "ORGANIZATION",
+      "name": "IPG Automotive",
+      "short_description": "Develops vehicle simulation and validation software for autonomous driving.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "DE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "569159cc-23e4-5caf-9afe-64eda3d0f3ef",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "569159cc-23e4-5caf-9afe-64eda3d0f3ef",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -45020,6 +46049,94 @@
     },
     "as_of": null
   },
+  "entity/mathworks": {
+    "entity": {
+      "id": "9ba7039f-6158-5a08-ac87-a5e24c4025f1",
+      "slug": "mathworks",
+      "entity_type": "ORGANIZATION",
+      "name": "MathWorks",
+      "short_description": "Develops MATLAB and Simulink tools for robotics design, simulation and verification.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "e24859e4-e949-5344-a602-172470b52497",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "e24859e4-e949-5344-a602-172470b52497",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/matternet": {
     "entity": {
       "id": "2cc0fa76-a273-5def-b0d5-1cb45ec26f73",
@@ -46250,6 +47367,94 @@
       "recent_change_count": 4,
       "deployment_count": 0,
       "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/micro1": {
+    "entity": {
+      "id": "eea5328e-f52f-5e8c-ad18-07781bc11e7c",
+      "slug": "micro1",
+      "entity_type": "ORGANIZATION",
+      "name": "Micro1",
+      "short_description": "Provides expert-demonstrated real-world data for robotics training.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "32442b6f-3448-505b-bd44-2b1363efbe54",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "32442b6f-3448-505b-bd44-2b1363efbe54",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -52323,6 +53528,94 @@
     },
     "as_of": null
   },
+  "entity/objectways": {
+    "entity": {
+      "id": "d6839662-0702-5721-9fed-ba626ee100d4",
+      "slug": "objectways",
+      "entity_type": "ORGANIZATION",
+      "name": "Objectways",
+      "short_description": "Collects and annotates robot demonstrations and egocentric data for physical AI.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "a09ac27b-b141-5466-b603-5ef9b5b07e4c",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "a09ac27b-b141-5466-b603-5ef9b5b07e4c",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/ocado": {
     "entity": {
       "id": "f8945d58-a1e3-525f-913b-aee6b56b78a5",
@@ -52660,6 +53953,124 @@
       "recent_change_count": 0,
       "deployment_count": 0,
       "related_count": 2
+    },
+    "as_of": null
+  },
+  "entity/odyssey": {
+    "entity": {
+      "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
+      "slug": "odyssey",
+      "entity_type": "ORGANIZATION",
+      "name": "Odyssey",
+      "short_description": "Develops interactive world models for simulation and embodied intelligence.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "4de0eddb-4330-521c-8968-9cf1f06c9806",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
+      {
+        "role": "MODEL_DEVELOPER",
+        "declared": true,
+        "claim_id": "9a8b9607-89b0-59e3-adcd-f22f3416aade",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "4de0eddb-4330-521c-8968-9cf1f06c9806",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "9a8b9607-89b0-59e3-adcd-f22f3416aade",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "MODEL_DEVELOPER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 2,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 2,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -56248,6 +57659,94 @@
       "recent_change_count": 13,
       "deployment_count": 0,
       "related_count": 8
+    },
+    "as_of": null
+  },
+  "entity/parallel-domain": {
+    "entity": {
+      "id": "59d7fd37-3f06-5d21-b486-573c4a19ed68",
+      "slug": "parallel-domain",
+      "entity_type": "ORGANIZATION",
+      "name": "Parallel Domain",
+      "short_description": "Develops sensor simulation and digital reconstruction for autonomous systems.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "5091a594-0b26-582f-b6ed-e9df5ff9ba10",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "5091a594-0b26-582f-b6ed-e9df5ff9ba10",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -63257,6 +64756,124 @@
     },
     "as_of": null
   },
+  "entity/runway": {
+    "entity": {
+      "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+      "slug": "runway",
+      "entity_type": "ORGANIZATION",
+      "name": "Runway",
+      "short_description": "Develops world models and simulation tools for robot policy evaluation and training.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "5acf4341-fd97-53c9-b269-06b452c2a921",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
+      {
+        "role": "MODEL_DEVELOPER",
+        "declared": true,
+        "claim_id": "0700288f-6457-543e-beb4-35f1bfd9848e",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "0700288f-6457-543e-beb4-35f1bfd9848e",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "MODEL_DEVELOPER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "5acf4341-fd97-53c9-b269-06b452c2a921",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 2,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 2,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/saab-seaeye": {
     "entity": {
       "id": "851da841-46b0-5213-a7dc-c3d9f880ed79",
@@ -63746,6 +65363,94 @@
             "value": {
               "kind": "enum",
               "value": "INVESTOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/sama": {
+    "entity": {
+      "id": "54bbe5f6-ee11-53c9-ba6b-2b5bb30ff799",
+      "slug": "sama",
+      "entity_type": "ORGANIZATION",
+      "name": "Sama",
+      "short_description": "Provides data annotation services for autonomous systems and robotics.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "ed40f70e-e755-54a4-873e-a931f0c502ef",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "ed40f70e-e755-54a4-873e-a931f0c502ef",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -64720,6 +66425,94 @@
     },
     "as_of": null
   },
+  "entity/scale-ai": {
+    "entity": {
+      "id": "48f1ee63-b3bd-5c19-b620-6a081562e3ed",
+      "slug": "scale-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Scale AI",
+      "short_description": "Provides real-world data collection and annotation for robotics and embodied AI.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "397e751c-a6c6-5d97-9400-111c77c70f3a",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "397e751c-a6c6-5d97-9400-111c77c70f3a",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/schunk": {
     "entity": {
       "id": "46a32137-d482-526a-9acd-498b27b72a93",
@@ -65457,6 +67250,94 @@
     },
     "as_of": null
   },
+  "entity/segments-ai": {
+    "entity": {
+      "id": "bab07ba6-92c5-5a93-950a-008aadca27a5",
+      "slug": "segments-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Segments.ai",
+      "short_description": "Provides multi-sensor data labeling software for robotics and autonomous vehicles.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "BE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "befe2601-e2f6-54d3-a9cc-ae02e5410b8b",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "befe2601-e2f6-54d3-a9cc-ae02e5410b8b",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/seoul": {
     "entity": {
       "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
@@ -65812,6 +67693,94 @@
             "value": {
               "kind": "enum",
               "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/shaip": {
+    "entity": {
+      "id": "42b47c38-52b4-51a9-9298-754c93db9160",
+      "slug": "shaip",
+      "entity_type": "ORGANIZATION",
+      "name": "Shaip",
+      "short_description": "Collects and annotates multimodal data for robotic manipulation and autonomy.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "8fe23ec5-1c17-55d5-969a-a58e8835b87a",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "8fe23ec5-1c17-55d5-969a-a58e8835b87a",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -66993,6 +68962,94 @@
     },
     "as_of": null
   },
+  "entity/siemens-digital-industries-software": {
+    "entity": {
+      "id": "29453e8f-9a98-529f-8d0f-5b6da545ccc5",
+      "slug": "siemens-digital-industries-software",
+      "entity_type": "ORGANIZATION",
+      "name": "Siemens Digital Industries Software",
+      "short_description": "Provides robotic workcell simulation and offline robot programming software.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "19fcabcb-a2aa-5757-9a31-fb7fa70c7262",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "19fcabcb-a2aa-5757-9a31-fb7fa70c7262",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/sift": {
     "entity": {
       "id": "55ed9ea1-f298-553d-9d28-ecc7daabc444",
@@ -67806,6 +69863,94 @@
       "recent_change_count": 2,
       "deployment_count": 0,
       "related_count": 2
+    },
+    "as_of": null
+  },
+  "entity/sky-engine-ai": {
+    "entity": {
+      "id": "59cb91d7-b584-515d-98a1-467b793b90fc",
+      "slug": "sky-engine-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "SKY ENGINE AI",
+      "short_description": "Generates synthetic training data for robotics and computer vision.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "GB",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "b564d1b4-0b28-57e4-a570-e5ec44bb959a",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "b564d1b4-0b28-57e4-a570-e5ec44bb959a",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -96425,12 +98570,12 @@
       {
         "id": "US",
         "label": "US",
-        "count": 233,
+        "count": 247,
         "districts": [
           {
             "id": "US",
             "label": "US",
-            "count": 233,
+            "count": 247,
             "entities": [
               {
                 "chip": {
@@ -96453,6 +98598,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "648a3020-8438-5b48-9a31-134f4671793d",
+                  "slug": "abaka-ai",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Abaka AI",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -96665,6 +98824,20 @@
                   "name": "Ann Arbor",
                   "primary_embodiment": null,
                   "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "7552bab9-2d66-5af2-b58d-9947e4e612dd",
+                  "slug": "ansys",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Ansys",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
                 },
                 "measure_value": null,
                 "is_primary_membership": true
@@ -97132,6 +99305,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "INVESTOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "c2248cdd-f938-5099-bc18-da0fd179290f",
+                  "slug": "deepen-ai",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Deepen AI",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -97742,6 +99929,20 @@
               },
               {
                 "chip": {
+                  "id": "e3bd184e-8337-5bbb-b6c1-d663f838982b",
+                  "slug": "imerit",
+                  "entity_type": "ORGANIZATION",
+                  "name": "iMerit",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "4fbde8cc-101a-5cf0-9265-53a4f28ece89",
                   "slug": "inorbit",
                   "entity_type": "ORGANIZATION",
@@ -98044,6 +100245,20 @@
               },
               {
                 "chip": {
+                  "id": "9ba7039f-6158-5a08-ac87-a5e24c4025f1",
+                  "slug": "mathworks",
+                  "entity_type": "ORGANIZATION",
+                  "name": "MathWorks",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "2cc0fa76-a273-5def-b0d5-1cb45ec26f73",
                   "slug": "matternet",
                   "entity_type": "ORGANIZATION",
@@ -98082,6 +100297,20 @@
                     "MODEL_DEVELOPER",
                     "PLATFORM",
                     "RESEARCH_LAB"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "eea5328e-f52f-5e8c-ad18-07781bc11e7c",
+                  "slug": "micro1",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Micro1",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -98358,6 +100587,35 @@
               },
               {
                 "chip": {
+                  "id": "d6839662-0702-5721-9fed-ba626ee100d4",
+                  "slug": "objectways",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Objectways",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
+                  "slug": "odyssey",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Odyssey",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER",
+                    "MODEL_DEVELOPER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "51cb9897-86dc-568f-ae31-308e6d798a69",
                   "slug": "ondas-holdings",
                   "entity_type": "ORGANIZATION",
@@ -98434,6 +100692,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "59d7fd37-3f06-5d21-b486-573c4a19ed68",
+                  "slug": "parallel-domain",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Parallel Domain",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -98727,6 +100999,21 @@
               },
               {
                 "chip": {
+                  "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+                  "slug": "runway",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Runway",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER",
+                    "MODEL_DEVELOPER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "38dfa30f-e5ae-5a39-a3d4-7c7bcefc891e",
                   "slug": "saildrone",
                   "entity_type": "ORGANIZATION",
@@ -98761,6 +101048,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "INVESTOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "54bbe5f6-ee11-53c9-ba6b-2b5bb30ff799",
+                  "slug": "sama",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Sama",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -98811,6 +101112,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "48f1ee63-b3bd-5c19-b620-6a081562e3ed",
+                  "slug": "scale-ai",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Scale AI",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -98899,6 +101214,20 @@
               },
               {
                 "chip": {
+                  "id": "42b47c38-52b4-51a9-9298-754c93db9160",
+                  "slug": "shaip",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Shaip",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "517baf4b-df10-5fad-a844-0e3029433d74",
                   "slug": "sharkninja",
                   "entity_type": "ORGANIZATION",
@@ -98921,6 +101250,20 @@
                   "roles": [
                     "MODEL_DEVELOPER",
                     "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "29453e8f-9a98-529f-8d0f-5b6da545ccc5",
+                  "slug": "siemens-digital-industries-software",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Siemens Digital Industries Software",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -99713,6 +102056,7 @@
                   "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
                   "primary_embodiment": null,
                   "roles": [
+                    "DATA_SIMULATION_PROVIDER",
                     "MODEL_DEVELOPER",
                     "OEM",
                     "RESEARCH_LAB"
@@ -100540,12 +102884,12 @@
       {
         "id": "DE",
         "label": "DE",
-        "count": 35,
+        "count": 36,
         "districts": [
           {
             "id": "DE",
             "label": "DE",
-            "count": 35,
+            "count": 36,
             "entities": [
               {
                 "chip": {
@@ -100746,6 +103090,20 @@
                   "roles": [
                     "CHIPMAKER",
                     "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "7e3d11b0-851c-5936-ad57-e4aa994362be",
+                  "slug": "ipg-automotive",
+                  "entity_type": "ORGANIZATION",
+                  "name": "IPG Automotive",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -101514,12 +103872,12 @@
       {
         "id": "CH",
         "label": "CH",
-        "count": 25,
+        "count": 26,
         "districts": [
           {
             "id": "CH",
             "label": "CH",
-            "count": 25,
+            "count": 26,
             "entities": [
               {
                 "chip": {
@@ -101607,6 +103965,20 @@
                   "slug": "coppelia-robotics",
                   "entity_type": "ORGANIZATION",
                   "name": "Coppelia Robotics",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "58961440-005b-5523-9ed1-e062cc6239d8",
+                  "slug": "cyberbotics",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Cyberbotics",
                   "primary_embodiment": null,
                   "roles": [
                     "DATA_SIMULATION_PROVIDER"
@@ -101866,12 +104238,12 @@
       {
         "id": "GB",
         "label": "GB",
-        "count": 15,
+        "count": 16,
         "districts": [
           {
             "id": "GB",
             "label": "GB",
-            "count": 15,
+            "count": 16,
             "entities": [
               {
                 "chip": {
@@ -102063,6 +104435,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "59cb91d7-b584-515d-98a1-467b793b90fc",
+                  "slug": "sky-engine-ai",
+                  "entity_type": "ORGANIZATION",
+                  "name": "SKY ENGINE AI",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -102677,138 +105063,44 @@
         ]
       },
       {
-        "id": "FR",
-        "label": "FR",
-        "count": 8,
-        "districts": [
-          {
-            "id": "FR",
-            "label": "FR",
-            "count": 8,
-            "entities": [
-              {
-                "chip": {
-                  "id": "cadcfc14-a9ca-5b29-b6de-ca70abc1fe70",
-                  "slug": "balyo",
-                  "entity_type": "ORGANIZATION",
-                  "name": "BALYO",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "61a6ed94-36e4-5a73-bc2f-39eaf8ae4231",
-                  "slug": "bpifrance",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Bpifrance",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "INVESTOR"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "38257774-3190-5a7f-8299-a46e418e00e6",
-                  "slug": "croix",
-                  "entity_type": "PLACE",
-                  "name": "Croix",
-                  "primary_embodiment": null,
-                  "roles": []
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "b0f83f46-ab25-5f87-aed0-18c1598a442b",
-                  "slug": "exotec",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Exotec",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "INTEGRATOR",
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "f7f3cd48-fc9b-5272-9b11-8b67a56bafae",
-                  "slug": "exotec-skypod",
-                  "entity_type": "ROBOT",
-                  "name": "Exotec Skypod",
-                  "primary_embodiment": "AMR",
-                  "roles": []
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "c27c543d-78ef-5fc6-a90c-67f33a6fb1d5",
-                  "slug": "geodis",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Geodis",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OPERATOR"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "8333afbf-9121-5c79-9e43-95d51c2a02ce",
-                  "slug": "moon-surgical",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Moon Surgical",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "3a5eb8a4-d134-5f94-afd9-7d6ade2bd40c",
-                  "slug": "naio-technologies",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Naio Technologies",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "IL",
         "label": "IL",
-        "count": 8,
+        "count": 10,
         "districts": [
           {
             "id": "IL",
             "label": "IL",
-            "count": 8,
+            "count": 10,
             "entities": [
+              {
+                "chip": {
+                  "id": "22d95e26-98ce-52ce-a11e-4107dae02a97",
+                  "slug": "cognata",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Cognata",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "b31ff391-d00f-534e-8b1a-1e70b144f91b",
+                  "slug": "decart",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Decart",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER",
+                    "MODEL_DEVELOPER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
               {
                 "chip": {
                   "id": "33283b10-3527-5a24-8035-68d3c1011020",
@@ -102916,6 +105208,143 @@
                   "roles": [
                     "OEM",
                     "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FR",
+        "label": "FR",
+        "count": 9,
+        "districts": [
+          {
+            "id": "FR",
+            "label": "FR",
+            "count": 9,
+            "entities": [
+              {
+                "chip": {
+                  "id": "cadcfc14-a9ca-5b29-b6de-ca70abc1fe70",
+                  "slug": "balyo",
+                  "entity_type": "ORGANIZATION",
+                  "name": "BALYO",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "61a6ed94-36e4-5a73-bc2f-39eaf8ae4231",
+                  "slug": "bpifrance",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Bpifrance",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INVESTOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "38257774-3190-5a7f-8299-a46e418e00e6",
+                  "slug": "croix",
+                  "entity_type": "PLACE",
+                  "name": "Croix",
+                  "primary_embodiment": null,
+                  "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "0787b769-c375-561f-b479-cafbb706c095",
+                  "slug": "dassault-systemes",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Dassault Systemes",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "b0f83f46-ab25-5f87-aed0-18c1598a442b",
+                  "slug": "exotec",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Exotec",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INTEGRATOR",
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "f7f3cd48-fc9b-5272-9b11-8b67a56bafae",
+                  "slug": "exotec-skypod",
+                  "entity_type": "ROBOT",
+                  "name": "Exotec Skypod",
+                  "primary_embodiment": "AMR",
+                  "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "c27c543d-78ef-5fc6-a90c-67f33a6fb1d5",
+                  "slug": "geodis",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Geodis",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OPERATOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "8333afbf-9121-5c79-9e43-95d51c2a02ce",
+                  "slug": "moon-surgical",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Moon Surgical",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "3a5eb8a4-d134-5f94-afd9-7d6ade2bd40c",
+                  "slug": "naio-technologies",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Naio Technologies",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
                   ]
                 },
                 "measure_value": null,
@@ -103400,13 +105829,27 @@
       {
         "id": "AU",
         "label": "AU",
-        "count": 3,
+        "count": 4,
         "districts": [
           {
             "id": "AU",
             "label": "AU",
-            "count": 3,
+            "count": 4,
             "entities": [
+              {
+                "chip": {
+                  "id": "090bcbf7-a37a-5846-9890-4fc859cbe92f",
+                  "slug": "appen",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Appen",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
               {
                 "chip": {
                   "id": "d93d8084-751f-5d9c-9d2f-6f68ceb5441c",
@@ -103444,6 +105887,105 @@
                   "primary_embodiment": null,
                   "roles": [
                     "INVESTOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "SG",
+        "label": "SG",
+        "count": 3,
+        "districts": [
+          {
+            "id": "SG",
+            "label": "SG",
+            "count": 3,
+            "entities": [
+              {
+                "chip": {
+                  "id": "5bb0c87e-afb3-5301-9e47-d4a5e26f62a9",
+                  "slug": "bifrost",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Bifrost",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "f3f641d9-8c1e-573e-8430-db952b3df8db",
+                  "slug": "bitrobot-network",
+                  "entity_type": "ORGANIZATION",
+                  "name": "BitRobot Network",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "0ff72ba5-ea56-51cc-812e-921843e96058",
+                  "slug": "temasek",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Temasek",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INVESTOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "BE",
+        "label": "BE",
+        "count": 2,
+        "districts": [
+          {
+            "id": "BE",
+            "label": "BE",
+            "count": 2,
+            "entities": [
+              {
+                "chip": {
+                  "id": "cecd1c0f-35b4-5777-bfb6-9c46023e0127",
+                  "slug": "intermodalics",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Intermodalics",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INTEGRATOR",
+                    "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "bab07ba6-92c5-5a93-950a-008aadca27a5",
+                  "slug": "segments-ai",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Segments.ai",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -103570,77 +106112,6 @@
                   "name": "Riga",
                   "primary_embodiment": null,
                   "roles": []
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "SG",
-        "label": "SG",
-        "count": 2,
-        "districts": [
-          {
-            "id": "SG",
-            "label": "SG",
-            "count": 2,
-            "entities": [
-              {
-                "chip": {
-                  "id": "5bb0c87e-afb3-5301-9e47-d4a5e26f62a9",
-                  "slug": "bifrost",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Bifrost",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "DATA_SIMULATION_PROVIDER"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "0ff72ba5-ea56-51cc-812e-921843e96058",
-                  "slug": "temasek",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Temasek",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "INVESTOR"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "BE",
-        "label": "BE",
-        "count": 1,
-        "districts": [
-          {
-            "id": "BE",
-            "label": "BE",
-            "count": 1,
-            "entities": [
-              {
-                "chip": {
-                  "id": "cecd1c0f-35b4-5777-bfb6-9c46023e0127",
-                  "slug": "intermodalics",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Intermodalics",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "INTEGRATOR",
-                    "TOOLING_OPS_PROVIDER"
-                  ]
                 },
                 "measure_value": null,
                 "is_primary_membership": true
@@ -111254,6 +113725,33 @@
         "origin": "SEED"
       },
       {
+        "id": "0650cd81-f295-50ba-a165-7aa5b6f6a89b",
+        "event_type": "CLAIM_CHANGED",
+        "entity": {
+          "id": "58961440-005b-5523-9ed1-e062cc6239d8",
+          "slug": "cyberbotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Cyberbotics",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        "before": null,
+        "after": {
+          "kind": "enum",
+          "value": "DATA_SIMULATION_PROVIDER"
+        },
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        },
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "summary": "Role set to Data and simulation provider",
+        "origin": "SEED"
+      },
+      {
         "id": "0679d686-e3e3-5768-8e1e-7a4bf96b9eef",
         "event_type": "CLAIM_CHANGED",
         "entity": {
@@ -111422,6 +113920,33 @@
         },
         "observed_at": "2026-09-11T00:00:00.000Z",
         "summary": "Role set to Chipmaker",
+        "origin": "SEED"
+      },
+      {
+        "id": "0b47388c-580a-5d35-9650-7f3951c39bae",
+        "event_type": "CLAIM_CHANGED",
+        "entity": {
+          "id": "090bcbf7-a37a-5846-9890-4fc859cbe92f",
+          "slug": "appen",
+          "entity_type": "ORGANIZATION",
+          "name": "Appen",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        "before": null,
+        "after": {
+          "kind": "enum",
+          "value": "DATA_SIMULATION_PROVIDER"
+        },
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        },
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "summary": "Role set to Data and simulation provider",
         "origin": "SEED"
       },
       {
@@ -111900,6 +114425,34 @@
         },
         "observed_at": "2026-09-11T00:00:00.000Z",
         "summary": "Role set to Integrator",
+        "origin": "SEED"
+      },
+      {
+        "id": "171fcde7-e377-5104-b7f2-c61cabe56ed2",
+        "event_type": "CLAIM_CHANGED",
+        "entity": {
+          "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
+          "slug": "odyssey",
+          "entity_type": "ORGANIZATION",
+          "name": "Odyssey",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "MODEL_DEVELOPER"
+          ]
+        },
+        "before": null,
+        "after": {
+          "kind": "enum",
+          "value": "MODEL_DEVELOPER"
+        },
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        },
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "summary": "Role set to Model developer",
         "origin": "SEED"
       },
       {
@@ -112398,98 +114951,6 @@
         },
         "observed_at": "2026-09-11T00:00:00.000Z",
         "summary": "Role set to OEM",
-        "origin": "SEED"
-      },
-      {
-        "id": "22d88748-b28e-5956-b3e5-c1cf0197218b",
-        "event_type": "CLAIM_CHANGED",
-        "entity": {
-          "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
-          "slug": "applied-intuition",
-          "entity_type": "ORGANIZATION",
-          "name": "Applied Intuition",
-          "primary_embodiment": null,
-          "roles": [
-            "DATA_SIMULATION_PROVIDER",
-            "MODEL_DEVELOPER",
-            "TOOLING_OPS_PROVIDER"
-          ]
-        },
-        "before": null,
-        "after": {
-          "kind": "entity",
-          "entity": {
-            "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
-            "slug": "sunnyvale-us",
-            "entity_type": "PLACE",
-            "name": "Sunnyvale",
-            "primary_embodiment": null,
-            "roles": []
-          },
-          "measure": null
-        },
-        "evidence_summary": {
-          "class": "PRIMARY",
-          "confidence": "HIGH",
-          "source_count": 1
-        },
-        "observed_at": "2026-09-11T00:00:00.000Z",
-        "summary": "Headquartered at Sunnyvale",
-        "origin": "SEED"
-      },
-      {
-        "id": "23308ccb-2973-5d68-894a-7a8e56df0e10",
-        "event_type": "CLAIM_CHANGED",
-        "entity": {
-          "id": "dbd646ab-2676-5647-ae48-6511c3043dad",
-          "slug": "neuracore",
-          "entity_type": "ORGANIZATION",
-          "name": "Neuracore",
-          "primary_embodiment": null,
-          "roles": [
-            "DATA_SIMULATION_PROVIDER",
-            "TOOLING_OPS_PROVIDER"
-          ]
-        },
-        "before": null,
-        "after": {
-          "kind": "enum",
-          "value": "TOOLING_OPS_PROVIDER"
-        },
-        "evidence_summary": {
-          "class": "PRIMARY",
-          "confidence": "HIGH",
-          "source_count": 1
-        },
-        "observed_at": "2026-09-11T00:00:00.000Z",
-        "summary": "Role set to Tooling and operations provider",
-        "origin": "SEED"
-      },
-      {
-        "id": "23fb785f-cc73-5cba-8583-92656f0280ec",
-        "event_type": "CLAIM_CHANGED",
-        "entity": {
-          "id": "9c2562c2-a331-54e9-883b-c7db3ec763a0",
-          "slug": "heidenhain",
-          "entity_type": "ORGANIZATION",
-          "name": "Heidenhain",
-          "primary_embodiment": null,
-          "roles": [
-            "COMPONENT_SUPPLIER"
-          ]
-        },
-        "before": null,
-        "after": {
-          "kind": "enum",
-          "value": "COMPONENT_SUPPLIER"
-        },
-        "evidence_summary": {
-          "class": "PRIMARY",
-          "confidence": "HIGH",
-          "source_count": 1
-        },
-        "observed_at": "2026-09-11T00:00:00.000Z",
-        "summary": "Role set to Component supplier",
         "origin": "SEED"
       }
     ]
@@ -114571,6 +117032,74 @@
     "history": [],
     "dependencies": []
   },
+  "claim/0700288f-6457-543e-beb4-35f1bfd9848e": {
+    "claim": {
+      "claim_id": "0700288f-6457-543e-beb4-35f1bfd9848e",
+      "subject": {
+        "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+        "slug": "runway",
+        "entity_type": "ORGANIZATION",
+        "name": "Runway",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Runway role MODEL_DEVELOPER",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "2f3284bb-81c0-5718-9a2a-b39f51033651",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops world models and simulation tools for robot policy evaluation and training.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "3b775c2f-fe3f-5e92-b06a-cb9bdda8fe9d",
+          "url": "https://runwayml.com/",
+          "canonical_url": null,
+          "publisher": "Runway",
+          "title": "Runway — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "5acf4341-fd97-53c9-b269-06b452c2a921",
+        "value": {
+          "kind": "enum",
+          "value": "DATA_SIMULATION_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/0712fa14-f99f-5d71-8351-87a502144dbb": {
     "claim": {
       "claim_id": "0712fa14-f99f-5d71-8351-87a502144dbb",
@@ -115321,6 +117850,7 @@
         "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
         "primary_embodiment": null,
         "roles": [
+          "DATA_SIMULATION_PROVIDER",
           "MODEL_DEVELOPER",
           "OEM",
           "RESEARCH_LAB"
@@ -115366,6 +117896,17 @@
       }
     ],
     "history": [
+      {
+        "claim_id": "753d3da4-f1e7-5e5d-b6ce-d0b1c52e79b4",
+        "value": {
+          "kind": "enum",
+          "value": "DATA_SIMULATION_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      },
       {
         "claim_id": "a2b40c93-4c48-55ba-abac-cffda3ddbb8b",
         "value": {
@@ -116252,6 +118793,61 @@
           "reviewed_at": "2026-09-01T00:00:00.000Z",
           "notes": null
         }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/0dc071c1-74d5-571f-9d01-c26ab45508af": {
+    "claim": {
+      "claim_id": "0dc071c1-74d5-571f-9d01-c26ab45508af",
+      "subject": {
+        "id": "090bcbf7-a37a-5846-9890-4fc859cbe92f",
+        "slug": "appen",
+        "entity_type": "ORGANIZATION",
+        "name": "Appen",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Appen role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "ab6f4c0b-4b0e-534e-a198-cbe316a60c22",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides sensor annotation and robot demonstration data for embodied AI.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d8d57e3c-82f6-5e22-adb5-0ea79cc50602",
+          "url": "https://www.appen.com/",
+          "canonical_url": null,
+          "publisher": "Appen",
+          "title": "Appen — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
       }
     ],
     "history": [],
@@ -119765,6 +122361,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/19fcabcb-a2aa-5757-9a31-fb7fa70c7262": {
+    "claim": {
+      "claim_id": "19fcabcb-a2aa-5757-9a31-fb7fa70c7262",
+      "subject": {
+        "id": "29453e8f-9a98-529f-8d0f-5b6da545ccc5",
+        "slug": "siemens-digital-industries-software",
+        "entity_type": "ORGANIZATION",
+        "name": "Siemens Digital Industries Software",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Siemens Digital Industries Software role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "33de1bfe-9fcb-59a5-9045-5908b1c2c6a5",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides robotic workcell simulation and offline robot programming software.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "eb66227f-28d9-55b7-ae6c-7b04a79651b8",
+          "url": "https://www.siemens.com/en-us/products/tecnomatix/offerings/robotics-programming-simulation/",
+          "canonical_url": null,
+          "publisher": "Siemens Digital Industries Software",
+          "title": "Siemens Digital Industries Software — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/1a052af7-8c0c-5d25-a025-9822fa69c086": {
     "claim": {
       "claim_id": "1a052af7-8c0c-5d25-a025-9822fa69c086",
@@ -121292,6 +123943,61 @@
           "canonical_url": null,
           "publisher": "Mecka",
           "title": "Mecka — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/1ffd125b-5ddc-581c-bb47-727fb80bc687": {
+    "claim": {
+      "claim_id": "1ffd125b-5ddc-581c-bb47-727fb80bc687",
+      "subject": {
+        "id": "f3f641d9-8c1e-573e-8430-db952b3df8db",
+        "slug": "bitrobot-network",
+        "entity_type": "ORGANIZATION",
+        "name": "BitRobot Network",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "BitRobot Network role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "916b2fc8-210c-5fdb-b1bb-8f9fc47a9ff9",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Coordinates distributed robot data collection and open robotics research.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "4974ef78-5af9-5d35-8122-3c164081e838",
+          "url": "https://bitrobot.ai/",
+          "canonical_url": null,
+          "publisher": "BitRobot Network",
+          "title": "BitRobot Network — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -124236,6 +126942,61 @@
           "canonical_url": null,
           "publisher": "Viam",
           "title": "Viam — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/29385ddc-2056-5cb0-ab73-89b7ee078429": {
+    "claim": {
+      "claim_id": "29385ddc-2056-5cb0-ab73-89b7ee078429",
+      "subject": {
+        "id": "c2248cdd-f938-5099-bc18-da0fd179290f",
+        "slug": "deepen-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Deepen AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Deepen AI role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "ec37e846-53cf-5442-a7b0-788726f069d5",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides calibration, annotation and validation infrastructure for robotics data.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "1ed2aa6c-c315-54e2-9b7d-0be8a2e4e360",
+          "url": "https://www.deepen.ai/",
+          "canonical_url": null,
+          "publisher": "Deepen AI",
+          "title": "Deepen AI — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -127382,6 +130143,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/32442b6f-3448-505b-bd44-2b1363efbe54": {
+    "claim": {
+      "claim_id": "32442b6f-3448-505b-bd44-2b1363efbe54",
+      "subject": {
+        "id": "eea5328e-f52f-5e8c-ad18-07781bc11e7c",
+        "slug": "micro1",
+        "entity_type": "ORGANIZATION",
+        "name": "Micro1",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Micro1 role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "3227f88d-9c43-5dc1-b340-05cdb36ea9b9",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides expert-demonstrated real-world data for robotics training.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "0dbbd034-ce7e-587e-94ba-82c42518e355",
+          "url": "https://www.micro1.ai/",
+          "canonical_url": null,
+          "publisher": "Micro1",
+          "title": "Micro1 — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/325aa725-29b3-5408-a582-ad93b6a049c4": {
     "claim": {
       "claim_id": "325aa725-29b3-5408-a582-ad93b6a049c4",
@@ -129663,6 +132479,61 @@
           "publisher": "AutoStore",
           "title": "AutoStore grid robots",
           "source_kind": "PRODUCT_PAGE",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/397e751c-a6c6-5d97-9400-111c77c70f3a": {
+    "claim": {
+      "claim_id": "397e751c-a6c6-5d97-9400-111c77c70f3a",
+      "subject": {
+        "id": "48f1ee63-b3bd-5c19-b620-6a081562e3ed",
+        "slug": "scale-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Scale AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Scale AI role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "12693dbc-f451-56a9-be7b-61c90b32228e",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides real-world data collection and annotation for robotics and embodied AI.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "638c9358-cf33-515e-a8e0-5378b9bf1f44",
+          "url": "https://scale.com/robotics",
+          "canonical_url": null,
+          "publisher": "Scale AI",
+          "title": "Scale AI — robotics enrichment reference",
+          "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
         },
@@ -133943,6 +136814,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/47f2f02c-da98-5972-80cf-b760d7383367": {
+    "claim": {
+      "claim_id": "47f2f02c-da98-5972-80cf-b760d7383367",
+      "subject": {
+        "id": "58961440-005b-5523-9ed1-e062cc6239d8",
+        "slug": "cyberbotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Cyberbotics",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Cyberbotics role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "0e7a633b-4881-567e-a9be-31a97289afe6",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops Webots robot simulation software and simulation services.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "0062ea34-5319-5b08-98d5-c98f58309d6e",
+          "url": "https://cyberbotics.com/",
+          "canonical_url": null,
+          "publisher": "Cyberbotics",
+          "title": "Cyberbotics — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/484b4800-b25e-5201-988d-e84a4d31ba13": {
     "claim": {
       "claim_id": "484b4800-b25e-5201-988d-e84a4d31ba13",
@@ -135917,6 +138843,74 @@
     "history": [],
     "dependencies": []
   },
+  "claim/4de0eddb-4330-521c-8968-9cf1f06c9806": {
+    "claim": {
+      "claim_id": "4de0eddb-4330-521c-8968-9cf1f06c9806",
+      "subject": {
+        "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
+        "slug": "odyssey",
+        "entity_type": "ORGANIZATION",
+        "name": "Odyssey",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Odyssey role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "68f82044-c9e3-52be-89b3-2e9796ae9ed6",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops interactive world models for simulation and embodied intelligence.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "f5af55ab-1157-5f26-8a08-d3525ea759de",
+          "url": "https://odyssey.ml/",
+          "canonical_url": null,
+          "publisher": "Odyssey",
+          "title": "Odyssey — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "9a8b9607-89b0-59e3-adcd-f22f3416aade",
+        "value": {
+          "kind": "enum",
+          "value": "MODEL_DEVELOPER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/4df4109b-b2c7-5d8b-9f7c-ee7f2e4ec696": {
     "claim": {
       "claim_id": "4df4109b-b2c7-5d8b-9f7c-ee7f2e4ec696",
@@ -136147,6 +139141,61 @@
           "canonical_url": null,
           "publisher": "RoboDK",
           "title": "RoboDK — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/5091a594-0b26-582f-b6ed-e9df5ff9ba10": {
+    "claim": {
+      "claim_id": "5091a594-0b26-582f-b6ed-e9df5ff9ba10",
+      "subject": {
+        "id": "59d7fd37-3f06-5d21-b486-573c4a19ed68",
+        "slug": "parallel-domain",
+        "entity_type": "ORGANIZATION",
+        "name": "Parallel Domain",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Parallel Domain role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "9a739550-a58b-52b5-bea0-3ed388ef4378",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops sensor simulation and digital reconstruction for autonomous systems.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "5f7d613e-42d3-5452-bb08-a17adbe832b3",
+          "url": "https://paralleldomain.com/",
+          "canonical_url": null,
+          "publisher": "Parallel Domain",
+          "title": "Parallel Domain — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -137791,6 +140840,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/569159cc-23e4-5caf-9afe-64eda3d0f3ef": {
+    "claim": {
+      "claim_id": "569159cc-23e4-5caf-9afe-64eda3d0f3ef",
+      "subject": {
+        "id": "7e3d11b0-851c-5936-ad57-e4aa994362be",
+        "slug": "ipg-automotive",
+        "entity_type": "ORGANIZATION",
+        "name": "IPG Automotive",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "IPG Automotive role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "f2062a6a-478a-56b3-9fcf-1ef3bd9a4148",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops vehicle simulation and validation software for autonomous driving.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "8dbd6181-22b2-5818-92e8-65c9ca6a8037",
+          "url": "https://www.ipg-automotive.com/",
+          "canonical_url": null,
+          "publisher": "IPG Automotive",
+          "title": "IPG Automotive — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/56aa9873-c411-581a-ac5e-03f97b2210b0": {
     "claim": {
       "claim_id": "56aa9873-c411-581a-ac5e-03f97b2210b0",
@@ -139004,6 +142108,74 @@
       }
     ],
     "history": [],
+    "dependencies": []
+  },
+  "claim/5acf4341-fd97-53c9-b269-06b452c2a921": {
+    "claim": {
+      "claim_id": "5acf4341-fd97-53c9-b269-06b452c2a921",
+      "subject": {
+        "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+        "slug": "runway",
+        "entity_type": "ORGANIZATION",
+        "name": "Runway",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Runway role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "31f27e05-bc65-5289-8225-52242f6bcc87",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops world models and simulation tools for robot policy evaluation and training.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "3b775c2f-fe3f-5e92-b06a-cb9bdda8fe9d",
+          "url": "https://runwayml.com/",
+          "canonical_url": null,
+          "publisher": "Runway",
+          "title": "Runway — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "0700288f-6457-543e-beb4-35f1bfd9848e",
+        "value": {
+          "kind": "enum",
+          "value": "MODEL_DEVELOPER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
     "dependencies": []
   },
   "claim/5ad7532f-82e3-5593-af62-34e9f68aaf45": {
@@ -140803,6 +143975,61 @@
           "title": "Introducing Figure 03",
           "source_kind": "PRESS_RELEASE",
           "published_at": "2025-10-09T00:00:00.000Z",
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/60dc1428-7ea1-5001-901b-f7f82fa63c77": {
+    "claim": {
+      "claim_id": "60dc1428-7ea1-5001-901b-f7f82fa63c77",
+      "subject": {
+        "id": "7552bab9-2d66-5af2-b58d-9947e4e612dd",
+        "slug": "ansys",
+        "entity_type": "ORGANIZATION",
+        "name": "Ansys",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Ansys role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "0fc13996-c6dc-561a-8f38-f360410ec5bc",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops simulation software for autonomous system design and validation.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "8ab4a029-3937-5e47-84b4-75056da12844",
+          "url": "https://www.ansys.com/solutions/solutions-by-industry/robotics",
+          "canonical_url": null,
+          "publisher": "Ansys",
+          "title": "Ansys — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
           "language": "en"
         },
         "assessment": null
@@ -147550,6 +150777,98 @@
     "history": [],
     "dependencies": []
   },
+  "claim/753d3da4-f1e7-5e5d-b6ce-d0b1c52e79b4": {
+    "claim": {
+      "claim_id": "753d3da4-f1e7-5e5d-b6ce-d0b1c52e79b4",
+      "subject": {
+        "id": "a2ed497b-0137-5511-8311-819a10e08a63",
+        "slug": "beijing-humanoid-robot-innovation-center-x-humanoid",
+        "entity_type": "ORGANIZATION",
+        "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER",
+          "OEM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Beijing Humanoid Robot Innovation Center (X-Humanoid) role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "0933331f-2082-5cbc-a51c-eaa572ff91da",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops humanoid robots and embodied intelligence datasets.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "a759850e-96e7-5d96-96a0-75cc5422715f",
+          "url": "https://www.x-humanoid.com/",
+          "canonical_url": null,
+          "publisher": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
+          "title": "Beijing Humanoid Robot Innovation Center (X-Humanoid) — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "09a9af1c-e668-5ea4-8965-ae4124998b4a",
+        "value": {
+          "kind": "enum",
+          "value": "RESEARCH_LAB"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      },
+      {
+        "claim_id": "a2b40c93-4c48-55ba-abac-cffda3ddbb8b",
+        "value": {
+          "kind": "enum",
+          "value": "OEM"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      },
+      {
+        "claim_id": "a544ac63-391d-5e2b-b513-991b07eb5680",
+        "value": {
+          "kind": "enum",
+          "value": "MODEL_DEVELOPER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/759921e4-abbc-5eb8-b41c-25ef93cc5cb8": {
     "claim": {
       "claim_id": "759921e4-abbc-5eb8-b41c-25ef93cc5cb8",
@@ -148212,6 +151531,61 @@
           "canonical_url": null,
           "publisher": "Spinea",
           "title": "Spinea — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/776a1b58-d18f-552e-a0be-10c2cbddc909": {
+    "claim": {
+      "claim_id": "776a1b58-d18f-552e-a0be-10c2cbddc909",
+      "subject": {
+        "id": "e3bd184e-8337-5bbb-b6c1-d663f838982b",
+        "slug": "imerit",
+        "entity_type": "ORGANIZATION",
+        "name": "iMerit",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "iMerit role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "fbb2baeb-eee1-5635-b8fe-f91cb2562496",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides data annotation services for robotic perception and navigation.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "45ca6c3e-a31b-59ee-8339-506beb86d4e6",
+          "url": "https://imerit.net/robotics/",
+          "canonical_url": null,
+          "publisher": "iMerit",
+          "title": "iMerit — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -153951,6 +157325,61 @@
     ],
     "dependencies": []
   },
+  "claim/87c9586b-16b0-582e-8c46-427afd2fb5e9": {
+    "claim": {
+      "claim_id": "87c9586b-16b0-582e-8c46-427afd2fb5e9",
+      "subject": {
+        "id": "22d95e26-98ce-52ce-a11e-4107dae02a97",
+        "slug": "cognata",
+        "entity_type": "ORGANIZATION",
+        "name": "Cognata",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Cognata role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "24a598f2-34d5-5f6e-a1d2-226b6c87f83e",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops simulation and autonomy software for autonomous vehicles and drones.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "e15f4f01-377f-5365-9724-258b116e14cd",
+          "url": "https://www.cognata.com/",
+          "canonical_url": null,
+          "publisher": "Cognata",
+          "title": "Cognata — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/8814d400-0ca1-5213-9882-677f74c9db4f": {
     "claim": {
       "claim_id": "8814d400-0ca1-5213-9882-677f74c9db4f",
@@ -156494,6 +159923,61 @@
     ],
     "dependencies": []
   },
+  "claim/8fe23ec5-1c17-55d5-969a-a58e8835b87a": {
+    "claim": {
+      "claim_id": "8fe23ec5-1c17-55d5-969a-a58e8835b87a",
+      "subject": {
+        "id": "42b47c38-52b4-51a9-9298-754c93db9160",
+        "slug": "shaip",
+        "entity_type": "ORGANIZATION",
+        "name": "Shaip",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Shaip role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "27711992-799f-5ca9-a007-d318b88500b8",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Collects and annotates multimodal data for robotic manipulation and autonomy.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "52b7270c-cb90-5e21-a6cb-d98ebd8998a4",
+          "url": "https://www.shaip.com/",
+          "canonical_url": null,
+          "publisher": "Shaip",
+          "title": "Shaip — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/9036b13a-f64a-58e3-afdf-cac22e0fa00b": {
     "claim": {
       "claim_id": "9036b13a-f64a-58e3-afdf-cac22e0fa00b",
@@ -157982,6 +161466,74 @@
       }
     ],
     "history": [],
+    "dependencies": []
+  },
+  "claim/956f1214-8efd-5388-be84-3ba8fcaf109f": {
+    "claim": {
+      "claim_id": "956f1214-8efd-5388-be84-3ba8fcaf109f",
+      "subject": {
+        "id": "b31ff391-d00f-534e-8b1a-1e70b144f91b",
+        "slug": "decart",
+        "entity_type": "ORGANIZATION",
+        "name": "Decart",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Decart role MODEL_DEVELOPER",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "ad5b6dd1-f1d2-5609-abc5-44e655994281",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops interactive world models and simulation for robotics training.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "0b4bb0e0-0e23-5b68-9781-344ac4da7d4d",
+          "url": "https://www.decart.ai/",
+          "canonical_url": null,
+          "publisher": "Decart",
+          "title": "Decart — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "de2f6868-d904-5de1-98bc-0b99df4b1f09",
+        "value": {
+          "kind": "enum",
+          "value": "DATA_SIMULATION_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
     "dependencies": []
   },
   "claim/9599cd2a-b61e-575d-972b-ca91fbd58482": {
@@ -159493,6 +163045,74 @@
       }
     ],
     "history": [],
+    "dependencies": []
+  },
+  "claim/9a8b9607-89b0-59e3-adcd-f22f3416aade": {
+    "claim": {
+      "claim_id": "9a8b9607-89b0-59e3-adcd-f22f3416aade",
+      "subject": {
+        "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
+        "slug": "odyssey",
+        "entity_type": "ORGANIZATION",
+        "name": "Odyssey",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Odyssey role MODEL_DEVELOPER",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "c6e87aa7-ec9d-50b0-acb6-e72b33463eea",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops interactive world models for simulation and embodied intelligence.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "f5af55ab-1157-5f26-8a08-d3525ea759de",
+          "url": "https://odyssey.ml/",
+          "canonical_url": null,
+          "publisher": "Odyssey",
+          "title": "Odyssey — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "4de0eddb-4330-521c-8968-9cf1f06c9806",
+        "value": {
+          "kind": "enum",
+          "value": "DATA_SIMULATION_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
     "dependencies": []
   },
   "claim/9b45df0a-a9a0-56e6-9cac-b090eaa741e3": {
@@ -161517,6 +165137,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/a09ac27b-b141-5466-b603-5ef9b5b07e4c": {
+    "claim": {
+      "claim_id": "a09ac27b-b141-5466-b603-5ef9b5b07e4c",
+      "subject": {
+        "id": "d6839662-0702-5721-9fed-ba626ee100d4",
+        "slug": "objectways",
+        "entity_type": "ORGANIZATION",
+        "name": "Objectways",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Objectways role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "d82221cc-9c2c-5d7b-b273-b1ebc4c7ed1a",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Collects and annotates robot demonstrations and egocentric data for physical AI.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "a3c976f7-ad1a-551d-a531-baaf2482e394",
+          "url": "https://objectways.com/",
+          "canonical_url": null,
+          "publisher": "Objectways",
+          "title": "Objectways — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/a0c171ca-d041-5e81-b514-3bec6d1f3deb": {
     "claim": {
       "claim_id": "a0c171ca-d041-5e81-b514-3bec6d1f3deb",
@@ -162422,6 +166097,7 @@
         "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
         "primary_embodiment": null,
         "roles": [
+          "DATA_SIMULATION_PROVIDER",
           "MODEL_DEVELOPER",
           "OEM",
           "RESEARCH_LAB"
@@ -162472,6 +166148,17 @@
         "value": {
           "kind": "enum",
           "value": "RESEARCH_LAB"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      },
+      {
+        "claim_id": "753d3da4-f1e7-5e5d-b6ce-d0b1c52e79b4",
+        "value": {
+          "kind": "enum",
+          "value": "DATA_SIMULATION_PROVIDER"
         },
         "status": "APPROVED",
         "qualifier": null,
@@ -163278,6 +166965,7 @@
         "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
         "primary_embodiment": null,
         "roles": [
+          "DATA_SIMULATION_PROVIDER",
           "MODEL_DEVELOPER",
           "OEM",
           "RESEARCH_LAB"
@@ -163328,6 +167016,17 @@
         "value": {
           "kind": "enum",
           "value": "RESEARCH_LAB"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      },
+      {
+        "claim_id": "753d3da4-f1e7-5e5d-b6ce-d0b1c52e79b4",
+        "value": {
+          "kind": "enum",
+          "value": "DATA_SIMULATION_PROVIDER"
         },
         "status": "APPROVED",
         "qualifier": null,
@@ -168427,6 +172126,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/b564d1b4-0b28-57e4-a570-e5ec44bb959a": {
+    "claim": {
+      "claim_id": "b564d1b4-0b28-57e4-a570-e5ec44bb959a",
+      "subject": {
+        "id": "59cb91d7-b584-515d-98a1-467b793b90fc",
+        "slug": "sky-engine-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "SKY ENGINE AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "SKY ENGINE AI role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "6e2aebf1-d54a-5f3f-8cba-2831f84be623",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Generates synthetic training data for robotics and computer vision.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "57c202d5-ee9e-5118-b8e7-966174632e5f",
+          "url": "https://www.skyengine.ai/",
+          "canonical_url": null,
+          "publisher": "SKY ENGINE AI",
+          "title": "SKY ENGINE AI — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/b579eb4e-73c6-59dc-b4e2-19d7a0e56fd2": {
     "claim": {
       "claim_id": "b579eb4e-73c6-59dc-b4e2-19d7a0e56fd2",
@@ -172014,6 +175768,61 @@
           "canonical_url": null,
           "publisher": "Banner Engineering",
           "title": "Banner Engineering — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/befe2601-e2f6-54d3-a9cc-ae02e5410b8b": {
+    "claim": {
+      "claim_id": "befe2601-e2f6-54d3-a9cc-ae02e5410b8b",
+      "subject": {
+        "id": "bab07ba6-92c5-5a93-950a-008aadca27a5",
+        "slug": "segments-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Segments.ai",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Segments.ai role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "76b534fa-9e2e-5e4f-8fc2-1718328564ba",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides multi-sensor data labeling software for robotics and autonomous vehicles.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "ed7f6774-b129-58c2-83eb-cbb2cfc70fb6",
+          "url": "https://segments.ai/",
+          "canonical_url": null,
+          "publisher": "Segments.ai",
+          "title": "Segments.ai — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -179056,6 +182865,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/d48c471a-ffb7-5420-9e66-d9b730b5c884": {
+    "claim": {
+      "claim_id": "d48c471a-ffb7-5420-9e66-d9b730b5c884",
+      "subject": {
+        "id": "0787b769-c375-561f-b479-cafbb706c095",
+        "slug": "dassault-systemes",
+        "entity_type": "ORGANIZATION",
+        "name": "Dassault Systemes",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Dassault Systemes role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "1cb32079-1b4a-572e-acd8-44da6237ef91",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides robotic simulation and programming software through DELMIA.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "e354b201-dd72-560c-80fc-724d900534c1",
+          "url": "https://www.3ds.com/products/delmia/industrial-engineering/robotics",
+          "canonical_url": null,
+          "publisher": "Dassault Systemes",
+          "title": "Dassault Systemes — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/d49498b8-2bcf-5c98-b886-3c962673ea26": {
     "claim": {
       "claim_id": "d49498b8-2bcf-5c98-b886-3c962673ea26",
@@ -182497,6 +186361,74 @@
     "history": [],
     "dependencies": []
   },
+  "claim/de2f6868-d904-5de1-98bc-0b99df4b1f09": {
+    "claim": {
+      "claim_id": "de2f6868-d904-5de1-98bc-0b99df4b1f09",
+      "subject": {
+        "id": "b31ff391-d00f-534e-8b1a-1e70b144f91b",
+        "slug": "decart",
+        "entity_type": "ORGANIZATION",
+        "name": "Decart",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Decart role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "7a4d545f-d3b5-53e2-b989-c012008c20e2",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops interactive world models and simulation for robotics training.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "0b4bb0e0-0e23-5b68-9781-344ac4da7d4d",
+          "url": "https://www.decart.ai/",
+          "canonical_url": null,
+          "publisher": "Decart",
+          "title": "Decart — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "956f1214-8efd-5388-be84-3ba8fcaf109f",
+        "value": {
+          "kind": "enum",
+          "value": "MODEL_DEVELOPER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/de3359b3-48ed-5964-8977-1328184dbcf9": {
     "claim": {
       "claim_id": "de3359b3-48ed-5964-8977-1328184dbcf9",
@@ -183945,6 +187877,61 @@
           "canonical_url": null,
           "publisher": "Sift",
           "title": "Sift — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/e24859e4-e949-5344-a602-172470b52497": {
+    "claim": {
+      "claim_id": "e24859e4-e949-5344-a602-172470b52497",
+      "subject": {
+        "id": "9ba7039f-6158-5a08-ac87-a5e24c4025f1",
+        "slug": "mathworks",
+        "entity_type": "ORGANIZATION",
+        "name": "MathWorks",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "MathWorks role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "56b5b4d6-c375-51d4-8cfe-eb314c2f7d0b",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops MATLAB and Simulink tools for robotics design, simulation and verification.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "3f31450b-9847-5801-bd25-624b0df5979e",
+          "url": "https://www.mathworks.com/solutions/robotics.html",
+          "canonical_url": null,
+          "publisher": "MathWorks",
+          "title": "MathWorks — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -187413,6 +191400,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/ed40f70e-e755-54a4-873e-a931f0c502ef": {
+    "claim": {
+      "claim_id": "ed40f70e-e755-54a4-873e-a931f0c502ef",
+      "subject": {
+        "id": "54bbe5f6-ee11-53c9-ba6b-2b5bb30ff799",
+        "slug": "sama",
+        "entity_type": "ORGANIZATION",
+        "name": "Sama",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Sama role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "07b25b13-bc73-5509-bb8c-e0a51b3741eb",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides data annotation services for autonomous systems and robotics.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "66d97084-d9c2-52eb-9f5f-625130b3c00a",
+          "url": "https://www.sama.com/",
+          "canonical_url": null,
+          "publisher": "Sama",
+          "title": "Sama — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/ed7a9b4e-0fcc-5acc-a635-c84bf5760e9f": {
     "claim": {
       "claim_id": "ed7a9b4e-0fcc-5acc-a635-c84bf5760e9f",
@@ -189989,6 +194031,61 @@
           "reviewed_at": "2026-09-01T00:00:00.000Z",
           "notes": null
         }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/f5bc4620-aa33-564d-9a7e-59d31654770b": {
+    "claim": {
+      "claim_id": "f5bc4620-aa33-564d-9a7e-59d31654770b",
+      "subject": {
+        "id": "648a3020-8438-5b48-9a31-134f4671793d",
+        "slug": "abaka-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Abaka AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Abaka AI role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "877a60e7-be64-5c75-853a-f6436b952653",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides datasets for embodied robotics and machine learning.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "3e10758d-a607-5f0a-9b0d-7df7e9e6f819",
+          "url": "https://www.abaka.ai/",
+          "canonical_url": null,
+          "publisher": "Abaka AI",
+          "title": "Abaka AI — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
       }
     ],
     "history": [],
