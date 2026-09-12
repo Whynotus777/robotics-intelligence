@@ -200,6 +200,33 @@
       "origin": "SEED"
     },
     {
+      "id": "069b4f3d-3567-55a0-9aaa-d827b0448a9e",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "14f64657-e634-589e-afdb-f9d0d0b9cd22",
+        "slug": "institute-of-robotics-and-intelligent-systems-iris",
+        "entity_type": "ORGANIZATION",
+        "name": "Institute of Robotics and Intelligent Systems (IRIS)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Research lab",
+      "origin": "SEED"
+    },
+    {
       "id": "0744d87d-e202-5584-a031-4b4f7350eff4",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -713,6 +740,33 @@
       "origin": "SEED"
     },
     {
+      "id": "18f49665-94ce-56fc-a474-b5292d7e358d",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "4907c863-cebf-5b5f-8ac5-eb783c293082",
+        "slug": "tether",
+        "entity_type": "ORGANIZATION",
+        "name": "Tether",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Investor",
+      "origin": "SEED"
+    },
+    {
       "id": "19b88d2f-650b-5a3a-a83b-c44873d78ae1",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1203,6 +1257,35 @@
       "origin": "SEED"
     },
     {
+      "id": "285a1ebb-ab7d-5f2d-b9da-477b7ae40bf2",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "a2ed497b-0137-5511-8311-819a10e08a63",
+        "slug": "beijing-humanoid-robot-innovation-center-x-humanoid",
+        "entity_type": "ORGANIZATION",
+        "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Research lab",
+      "origin": "SEED"
+    },
+    {
       "id": "28b53181-bee0-5a6c-b7ad-94686a83bbda",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1266,6 +1349,33 @@
       "origin": "SEED"
     },
     {
+      "id": "294a0c79-f9fc-5c9b-90b4-e16f222e58e6",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "7623869d-1276-52c3-b0e7-823e9932db3e",
+        "slug": "stanford-robotics-center",
+        "entity_type": "ORGANIZATION",
+        "name": "Stanford Robotics Center",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Research lab",
+      "origin": "SEED"
+    },
+    {
       "id": "2a6dba03-7d01-5460-962b-ecc7771cd9d2",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1318,115 +1428,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Integrator",
-      "origin": "SEED"
-    },
-    {
-      "id": "2b82878f-25fa-5d91-b1b7-8468edc1552f",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
-        "slug": "mitsubishi-electric-research-laboratories-merl",
-        "entity_type": "ORGANIZATION",
-        "name": "Mitsubishi Electric Research Laboratories (MERL)",
-        "primary_embodiment": null,
-        "roles": [
-          "RESEARCH_LAB"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "RESEARCH_LAB"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Research lab",
-      "origin": "SEED"
-    },
-    {
-      "id": "2bc019b7-e877-514d-9431-f06724f40e8e",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "26ec9503-090a-5dae-9fa1-6b80dc4fc2b3",
-        "slug": "micropsi-industries",
-        "entity_type": "ORGANIZATION",
-        "name": "Micropsi Industries",
-        "primary_embodiment": null,
-        "roles": [
-          "TOOLING_OPS_PROVIDER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "TOOLING_OPS_PROVIDER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Tooling and operations provider",
-      "origin": "SEED"
-    },
-    {
-      "id": "2c8456b4-efd8-533a-a854-21bd98370090",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "54b16f76-266d-5792-a4fc-dc8b840adcf6",
-        "slug": "serve-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "Serve Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM",
-          "OPERATOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "2f5aa6a3-5b8f-55df-94fa-5c4bdf9984a8",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "2e216e39-ecb9-591b-87d5-e4425e62c4af",
-        "slug": "picknik-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "PickNik Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "TOOLING_OPS_PROVIDER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "TOOLING_OPS_PROVIDER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Tooling and operations provider",
       "origin": "SEED"
     }
   ]

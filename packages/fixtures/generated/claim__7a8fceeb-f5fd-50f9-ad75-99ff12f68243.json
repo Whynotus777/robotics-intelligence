@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "7a8fceeb-f5fd-50f9-ad75-99ff12f68243",
+    "subject": {
+      "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
+      "slug": "ontario-teachers-pension-plan",
+      "entity_type": "ORGANIZATION",
+      "name": "Ontario Teachers' Pension Plan",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Ontario Teachers' Pension Plan role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "75164565-5584-5d2e-95f1-8a932af3d2fd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Invests in robotics companies including Wayve.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "6c36122a-9f60-5d17-8bef-2cf018865434",
+        "url": "https://www.otpp.com/en-ca/about-us/news-and-insights/2026/wayve-secures-funding-to-deploy-global-autonomy-platform/",
+        "canonical_url": null,
+        "publisher": "Ontario Teachers' Pension Plan",
+        "title": "Ontario Teachers' Pension Plan — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

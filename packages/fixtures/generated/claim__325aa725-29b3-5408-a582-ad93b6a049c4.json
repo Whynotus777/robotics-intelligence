@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "325aa725-29b3-5408-a582-ad93b6a049c4",
+    "subject": {
+      "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
+      "slug": "balderton-capital",
+      "entity_type": "ORGANIZATION",
+      "name": "Balderton Capital",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Balderton Capital role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "eabbb2b8-8aad-5cd7-b6fe-9aa5a5479873",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Invests in robotics companies including Wayve.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d5e3b294-7b5d-5c9c-a50b-aa93258de53a",
+        "url": "https://www.balderton.com/news/wayve-raises-over-1-billion-to-develop-embodied-ai-products-for-automated-driving/",
+        "canonical_url": null,
+        "publisher": "Balderton Capital",
+        "title": "Balderton Capital — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

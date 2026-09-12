@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "5720a0c0-02e7-5c26-8c8e-f767dc4cecc3",
+    "subject": {
+      "id": "adbc0f95-691a-5e06-aa4a-43b499df9f12",
+      "slug": "sequoia-capital",
+      "entity_type": "ORGANIZATION",
+      "name": "Sequoia Capital",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Sequoia Capital role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7d8189fc-7dbf-5f65-9fdc-a685e85da9aa",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Invests in robotics companies including Physical Intelligence.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8ab80d53-1688-5433-b491-3bc2aa310175",
+        "url": "https://www.sequoiacap.com/companies/physical-intelligence/",
+        "canonical_url": null,
+        "publisher": "Sequoia Capital",
+        "title": "Sequoia Capital — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "8d5650ac-98de-5071-bbf2-254369a1443c",
+    "subject": {
+      "id": "3cf799cd-ef80-5485-bef6-1659559a102f",
+      "slug": "hv-capital",
+      "entity_type": "ORGANIZATION",
+      "name": "HV Capital",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "HV Capital role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9bddabb1-0f6a-56f3-813d-68654f1f8d75",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Invests in robotics companies including NEURA Robotics.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "70d72ff9-8d78-5fa2-9c25-23677f6630ca",
+        "url": "https://neura-robotics.com/neura-robotics-secures-euro-120-million-series-b/",
+        "canonical_url": null,
+        "publisher": "Lingotto Investment Management",
+        "title": "Lingotto Investment Management — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

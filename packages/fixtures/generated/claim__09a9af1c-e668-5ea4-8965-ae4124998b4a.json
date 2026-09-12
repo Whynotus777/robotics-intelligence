@@ -1,0 +1,80 @@
+{
+  "claim": {
+    "claim_id": "09a9af1c-e668-5ea4-8965-ae4124998b4a",
+    "subject": {
+      "id": "a2ed497b-0137-5511-8311-819a10e08a63",
+      "slug": "beijing-humanoid-robot-innovation-center-x-humanoid",
+      "entity_type": "ORGANIZATION",
+      "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Beijing Humanoid Robot Innovation Center (X-Humanoid) role RESEARCH_LAB",
+    "value": {
+      "kind": "enum",
+      "value": "RESEARCH_LAB"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8a6b88a5-cd13-54ca-9240-6f838fa04237",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops humanoid robots and embodied intelligence models and platforms.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a759850e-96e7-5d96-96a0-75cc5422715f",
+        "url": "https://www.x-humanoid.com/",
+        "canonical_url": null,
+        "publisher": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
+        "title": "Beijing Humanoid Robot Innovation Center (X-Humanoid) — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "a2b40c93-4c48-55ba-abac-cffda3ddbb8b",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    },
+    {
+      "claim_id": "a544ac63-391d-5e2b-b513-991b07eb5680",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}
