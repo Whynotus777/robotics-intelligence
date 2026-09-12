@@ -118,6 +118,41 @@
       "origin": "SEED"
     },
     {
+      "id": "02e970e1-2260-51f1-9c57-6a7f812f5731",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "ca99388d-b855-5b66-80bf-93063c77c9b0",
+        "slug": "medtronic",
+        "entity_type": "ORGANIZATION",
+        "name": "Medtronic",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "1acdc33e-ce43-5e8b-992a-ac74deb821db",
+          "slug": "dublin-ie",
+          "entity_type": "PLACE",
+          "name": "Dublin",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Dublin",
+      "origin": "SEED"
+    },
+    {
       "id": "03a83265-4b25-5b3d-97be-d1c555c9f5cf",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -205,6 +240,41 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Headquartered at Levallois-Perret",
+      "origin": "SEED"
+    },
+    {
+      "id": "04932d1c-61cf-5a5b-8868-9f0245b356dd",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "b08462e9-bff0-5079-952f-88afbacb9257",
+        "slug": "kinco-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "Kinco Automation",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "5386047b-9431-5521-8e28-d5f238524771",
+          "slug": "shenzhen",
+          "entity_type": "PLACE",
+          "name": "Shenzhen",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Shenzhen",
       "origin": "SEED"
     },
     {
@@ -685,6 +755,41 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Part of Institute of Robotics and Intelligent Systems (IRIS)",
+      "origin": "SEED"
+    },
+    {
+      "id": "0993bc3e-ef10-5b3a-adfd-c307dfd63232",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "851da841-46b0-5213-a7dc-c3d9f880ed79",
+        "slug": "saab-seaeye",
+        "entity_type": "ORGANIZATION",
+        "name": "Saab Seaeye",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "1b5e0c12-88b4-59f5-a715-b7c4acd69d65",
+          "slug": "fareham-gb",
+          "entity_type": "PLACE",
+          "name": "Fareham",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Fareham",
       "origin": "SEED"
     },
     {
@@ -1198,6 +1303,41 @@
       "origin": "SEED"
     },
     {
+      "id": "105f0792-cb28-5f4e-87d2-4cb3d4a777f0",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "59f79b40-3b9c-5e77-8360-ac5fe81a4dad",
+        "slug": "aurora-innovation",
+        "entity_type": "ORGANIZATION",
+        "name": "Aurora Innovation",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "87216f35-32ce-54be-9ed9-86c480775092",
+          "slug": "pittsburgh",
+          "entity_type": "PLACE",
+          "name": "Pittsburgh",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Pittsburgh",
+      "origin": "SEED"
+    },
+    {
       "id": "11435bd0-7306-50cc-b961-5eee8c79634a",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1409,141 +1549,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Headquartered at Costa Mesa",
-      "origin": "SEED"
-    },
-    {
-      "id": "13fc9c08-3844-567b-82d4-0f6284ecc812",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "36ba3dc3-39b5-5cb8-b667-edd290545d11",
-        "slug": "kawasaki-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "Kawasaki Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
-          "slug": "kawasaki-heavy-industries",
-          "entity_type": "ORGANIZATION",
-          "name": "Kawasaki Heavy Industries",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Part of Kawasaki Heavy Industries",
-      "origin": "SEED"
-    },
-    {
-      "id": "1533e24b-4dcf-5bee-a6db-d45e93d46c45",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "5779b38d-09d7-554c-ae5c-f09ad34862c1",
-        "slug": "dusty-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "Dusty Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "157b0bf8-d4c2-5abd-a492-5b7e32df2a73",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
-        "slug": "softbank-group",
-        "entity_type": "ORGANIZATION",
-        "name": "SoftBank Group",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR",
-          "PLATFORM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-          "slug": "tokyo",
-          "entity_type": "PLACE",
-          "name": "Tokyo",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "LOW",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Tokyo",
-      "origin": "SEED"
-    },
-    {
-      "id": "15a28090-fcee-5803-9394-91dbc83c653c",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "ebe5ee76-32df-52b0-b003-94b8fdb3ef66",
-        "slug": "faro-technologies",
-        "entity_type": "ORGANIZATION",
-        "name": "FARO Technologies",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "edcb1cce-b03d-53af-8f37-0f4a47f75803",
-          "slug": "lake-mary-us",
-          "entity_type": "PLACE",
-          "name": "Lake Mary",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "THIRD_PARTY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Lake Mary",
       "origin": "SEED"
     }
   ]

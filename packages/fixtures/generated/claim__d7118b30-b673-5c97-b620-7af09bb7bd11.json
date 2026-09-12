@@ -1,0 +1,75 @@
+{
+  "claim": {
+    "claim_id": "d7118b30-b673-5c97-b620-7af09bb7bd11",
+    "subject": {
+      "id": "b8eb0504-6b42-553c-a5b8-be0f7a462db6",
+      "slug": "leader-harmonious-drive-systems-leaderdrive",
+      "entity_type": "ORGANIZATION",
+      "name": "Leader Harmonious Drive Systems (Leaderdrive)",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Leader Harmonious Drive Systems (Leaderdrive) is headquartered at Suzhou",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "982bbaab-5edb-568f-9470-609e831a3aca",
+        "slug": "suzhou",
+        "entity_type": "PLACE",
+        "name": "Suzhou",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e383a519-cd2b-5776-81f9-a93bce2ad279",
+      "class": "ANALYST",
+      "confidence": "LOW",
+      "stance": "SUPPORTS",
+      "excerpt": "The supplied roster lists Suzhou, CN as the headquarters city; this location has not been independently confirmed.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "2e234505-c986-5c8e-98b6-d3206914b27a",
+        "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/suppliers-chips-manufacturing.csv",
+        "canonical_url": null,
+        "publisher": "Robotics Intelligence candidate roster",
+        "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+        "advance_criteria": [
+          "A primary company profile or filing confirms this headquarters city."
+        ],
+        "regress_criteria": [
+          "Primary evidence identifies a different headquarters or contradicts the roster location."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

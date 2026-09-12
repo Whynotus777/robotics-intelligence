@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "f10a6d7f-3ed0-5238-812d-b8fdc257f22d",
+    "subject": {
+      "id": "d0e0ee17-b4ac-5c8a-b382-1af9516d2e9f",
+      "slug": "roboteam",
+      "entity_type": "ORGANIZATION",
+      "name": "Roboteam",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Roboteam is headquartered at Petah Tikva",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f04a79a5-c933-52aa-bcf5-4a9e79ed2cec",
+        "slug": "petah-tikva-il",
+        "entity_type": "PLACE",
+        "name": "Petah Tikva",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e0a131be-b2ce-5a17-b6f9-e8cc57efdebc",
+      "class": "ANALYST",
+      "confidence": "LOW",
+      "stance": "SUPPORTS",
+      "excerpt": "The supplied roster lists Petah Tikva, IL as the headquarters city; this location has not been independently confirmed.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "9b3c90d1-c4b4-5266-b355-39968a96ad5c",
+        "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/oems-integrators-operators.csv",
+        "canonical_url": null,
+        "publisher": "Robotics Intelligence candidate roster",
+        "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+        "advance_criteria": [
+          "A primary company profile or filing confirms this headquarters city."
+        ],
+        "regress_criteria": [
+          "Primary evidence identifies a different headquarters or contradicts the roster location."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

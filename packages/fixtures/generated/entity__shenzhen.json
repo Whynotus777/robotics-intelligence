@@ -175,6 +175,28 @@
           }
         },
         {
+          "claim_id": "743de76e-6fd9-5200-a8d9-441c0652bce3",
+          "source": {
+            "id": "a56afeaa-668e-5594-89f7-d910785d855e",
+            "slug": "narwal",
+            "entity_type": "ORGANIZATION",
+            "name": "Narwal",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "9265373c-1b41-579e-a2b5-e3f4b495e653",
           "source": {
             "id": "9bb4d4cf-d27a-5183-91f4-eb34797dc4b8",
@@ -395,6 +417,28 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "ed872c07-589e-55c7-932b-f298e6243641",
+          "source": {
+            "id": "b08462e9-bff0-5079-952f-88afbacb9257",
+            "slug": "kinco-automation",
+            "entity_type": "ORGANIZATION",
+            "name": "Kinco Automation",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     },
@@ -471,6 +515,16 @@
         ]
       },
       {
+        "id": "b08462e9-bff0-5079-952f-88afbacb9257",
+        "slug": "kinco-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "Kinco Automation",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
         "id": "95a54839-94ba-5a13-b8b6-068db4841677",
         "slug": "leadshine-technology",
         "entity_type": "ORGANIZATION",
@@ -485,6 +539,16 @@
         "slug": "limx-dynamics",
         "entity_type": "ORGANIZATION",
         "name": "LimX Dynamics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      {
+        "id": "a56afeaa-668e-5594-89f7-d910785d855e",
+        "slug": "narwal",
+        "entity_type": "ORGANIZATION",
+        "name": "Narwal",
         "primary_embodiment": null,
         "roles": [
           "OEM"
@@ -612,7 +676,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 16
+    "related_count": 18
   },
   "as_of": null
 }

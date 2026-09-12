@@ -90,6 +90,32 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "d75a46a2-5ea1-5a09-b5e1-58b216318f39",
+          "target": {
+            "id": "9af0d5d1-d612-51fe-be1c-ec1a1a6971c9",
+            "slug": "radford-us",
+            "entity_type": "PLACE",
+            "name": "Radford",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [
@@ -120,7 +146,18 @@
       ]
     }
   ],
-  "lateral_links": {},
+  "lateral_links": {
+    "places": [
+      {
+        "id": "9af0d5d1-d612-51fe-be1c-ec1a1a6971c9",
+        "slug": "radford-us",
+        "entity_type": "PLACE",
+        "name": "Radford",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -128,15 +165,15 @@
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
-        "ANALYST": 0
+        "ANALYST": 1
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

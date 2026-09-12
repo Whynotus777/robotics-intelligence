@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "3bff69ed-f2d3-5181-aad4-9e599bbc0a54",
+          "source": {
+            "id": "6d2acc87-aa2d-5831-a6ab-1b611b18955d",
+            "slug": "pony-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Pony.ai",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "b5cc3fd9-fc1c-51c7-8c69-c512d7d1fb7e",
           "source": {
             "id": "2e11a936-9415-5681-81e1-1b3f7b5e959f",
@@ -67,6 +89,16 @@
   "lateral_links": {
     "company": [
       {
+        "id": "6d2acc87-aa2d-5831-a6ab-1b611b18955d",
+        "slug": "pony-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Pony.ai",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      {
         "id": "2e11a936-9415-5681-81e1-1b3f7b5e959f",
         "slug": "weride",
         "entity_type": "ORGANIZATION",
@@ -94,7 +126,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

@@ -4,12 +4,12 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 135
+      "count": 168
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 40
+      "count": 52
     },
     {
       "id": "MANUFACTURED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 59
+      "count": 63
     },
     {
       "id": "FUNDED",
@@ -51,8 +51,18 @@
       "lng": 114.06,
       "country_code": "CN",
       "cluster_label": "Shenzhen",
-      "weight": 5,
+      "weight": 6,
       "entities": [
+        {
+          "id": "b08462e9-bff0-5079-952f-88afbacb9257",
+          "slug": "kinco-automation",
+          "entity_type": "ORGANIZATION",
+          "name": "Kinco Automation",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
         {
           "id": "95a54839-94ba-5a13-b8b6-068db4841677",
           "slug": "leadshine-technology",
@@ -121,7 +131,7 @@
       "lng": 139.69,
       "country_code": "JP",
       "cluster_label": "Tokyo",
-      "weight": 4,
+      "weight": 5,
       "entities": [
         {
           "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
@@ -151,6 +161,16 @@
           "primary_embodiment": null,
           "roles": [
             "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "bae9e9fe-0902-59d5-bbc1-a98bc234970d",
+          "slug": "sumitomo-drive-technologies",
+          "entity_type": "ORGANIZATION",
+          "name": "Sumitomo Drive Technologies",
+          "primary_embodiment": null,
+          "roles": [
             "COMPONENT_SUPPLIER"
           ]
         },
@@ -215,6 +235,45 @@
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
+        "slug": "kyoto-jp",
+        "entity_type": "PLACE",
+        "name": "Kyoto",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.02107,
+      "lng": 135.75385,
+      "country_code": "JP",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "fef5a2ec-6dbe-5e9c-8459-8fd14f248774",
+          "slug": "nidec",
+          "entity_type": "ORGANIZATION",
+          "name": "Nidec",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
+          "slug": "omron",
+          "entity_type": "ORGANIZATION",
+          "name": "Omron",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "OEM"
           ]
         }
       ],
@@ -311,6 +370,35 @@
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 39.9,
+      "lng": 116.4,
+      "country_code": "CN",
+      "cluster_label": "Beijing",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "aa2ab01e-8da3-5366-b186-9cfb0563b3c5",
+          "slug": "realman-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Realman Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "OEM"
           ]
         }
       ],
@@ -576,35 +664,6 @@
     },
     {
       "place": {
-        "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
-        "slug": "kyoto-jp",
-        "entity_type": "PLACE",
-        "name": "Kyoto",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 35.02107,
-      "lng": 135.75385,
-      "country_code": "JP",
-      "cluster_label": null,
-      "weight": 1,
-      "entities": [
-        {
-          "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
-          "slug": "omron",
-          "entity_type": "ORGANIZATION",
-          "name": "Omron",
-          "primary_embodiment": null,
-          "roles": [
-            "COMPONENT_SUPPLIER",
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "edcb1cce-b03d-53af-8f37-0f4a47f75803",
         "slug": "lake-mary-us",
         "entity_type": "PLACE",
@@ -689,6 +748,62 @@
     },
     {
       "place": {
+        "id": "0128311c-455b-5cc5-ba38-88a0843e3a51",
+        "slug": "mount-prospect-us",
+        "entity_type": "PLACE",
+        "name": "Mount Prospect",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.06642,
+      "lng": -87.93729,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "a4107d6f-ee01-534f-9a02-4b2760f54ec4",
+          "slug": "gam-enterprises",
+          "entity_type": "ORGANIZATION",
+          "name": "GAM Enterprises",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "0142bfbc-0b56-5476-acec-f11cfd94d4ce",
+        "slug": "nanchang-cn",
+        "entity_type": "PLACE",
+        "name": "Nanchang",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 28.68396,
+      "lng": 115.85306,
+      "country_code": "CN",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "8e0f3289-5439-56c2-a553-f99e5fe53c2f",
+          "slug": "cubemars",
+          "entity_type": "ORGANIZATION",
+          "name": "CubeMars",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "8d1bf8dd-0d56-5553-8299-b0150a1279b7",
         "slug": "neubiberg-de",
         "entity_type": "PLACE",
@@ -718,6 +833,34 @@
     },
     {
       "place": {
+        "id": "99c0f93c-725d-5865-92af-305a1338b9a4",
+        "slug": "pforzheim-de",
+        "entity_type": "PLACE",
+        "name": "Pforzheim",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.88436,
+      "lng": 8.69892,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "ab09234e-b3d8-51de-b4a0-06b051ac3a6d",
+          "slug": "stober",
+          "entity_type": "ORGANIZATION",
+          "name": "STOBER",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "662eec02-fb9b-5433-bc3b-81cb880c63cb",
         "slug": "presov-sk",
         "entity_type": "PLACE",
@@ -736,6 +879,34 @@
           "slug": "spinea",
           "entity_type": "ORGANIZATION",
           "name": "Spinea",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "9af0d5d1-d612-51fe-be1c-ec1a1a6971c9",
+        "slug": "radford-us",
+        "entity_type": "PLACE",
+        "name": "Radford",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.13179,
+      "lng": -80.57645,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "e86f3cac-3313-56ce-a062-28c71633fcde",
+          "slug": "kollmorgen",
+          "entity_type": "ORGANIZATION",
+          "name": "Kollmorgen",
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
@@ -803,6 +974,34 @@
     },
     {
       "place": {
+        "id": "e659ecac-c511-5eb9-b587-f26f4c24b45e",
+        "slug": "schonaich-de",
+        "entity_type": "PLACE",
+        "name": "Schonaich",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.65871,
+      "lng": 9.06012,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "d4f49109-9afe-5248-940e-4506bc09ec88",
+          "slug": "synapticon",
+          "entity_type": "ORGANIZATION",
+          "name": "Synapticon",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "80dbec07-b166-5d2a-b5d1-4ba3fa6a1bf5",
         "slug": "scottsdale-us",
         "entity_type": "PLACE",
@@ -825,6 +1024,35 @@
           "roles": [
             "CHIPMAKER",
             "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.57,
+      "lng": 126.98,
+      "country_code": "KR",
+      "cluster_label": "Seoul",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "5ab75844-f671-58bd-bd84-107cadf1cd6e",
+          "slug": "robotis",
+          "entity_type": "ORGANIZATION",
+          "name": "ROBOTIS",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "OEM"
           ]
         }
       ],
@@ -891,6 +1119,34 @@
     },
     {
       "place": {
+        "id": "982bbaab-5edb-568f-9470-609e831a3aca",
+        "slug": "suzhou",
+        "entity_type": "PLACE",
+        "name": "Suzhou",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 31.3,
+      "lng": 120.58,
+      "country_code": "CN",
+      "cluster_label": "Suzhou",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "b8eb0504-6b42-553c-a5b8-be0f7a462db6",
+          "slug": "leader-harmonious-drive-systems-leaderdrive",
+          "entity_type": "ORGANIZATION",
+          "name": "Leader Harmonious Drive Systems (Leaderdrive)",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "7a764593-674e-587e-9afa-ef2ef8f137fd",
         "slug": "taichung-tw",
         "entity_type": "PLACE",
@@ -913,6 +1169,34 @@
           "roles": [
             "COMPONENT_SUPPLIER",
             "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "cccb251f-bd11-53e7-b399-a6e626636967",
+        "slug": "taizhou-cn",
+        "entity_type": "PLACE",
+        "name": "Taizhou",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 32.49069,
+      "lng": 119.90812,
+      "country_code": "CN",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "dc4c0525-8ef0-56d7-90db-08092c978020",
+          "slug": "zhejiang-shuanghuan-driveline",
+          "entity_type": "ORGANIZATION",
+          "name": "Zhejiang Shuanghuan Driveline",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
           ]
         }
       ],
@@ -1008,26 +1292,32 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 14,
-      "places": 11
+      "weight": 16,
+      "places": 13
     },
     {
       "id": "CN",
       "label": "CN",
-      "weight": 7,
-      "places": 3
+      "weight": 12,
+      "places": 7
     },
     {
       "id": "JP",
       "label": "JP",
-      "weight": 6,
+      "weight": 8,
       "places": 3
     },
     {
       "id": "DE",
       "label": "DE",
-      "weight": 5,
-      "places": 5
+      "weight": 7,
+      "places": 7
+    },
+    {
+      "id": "KR",
+      "label": "KR",
+      "weight": 2,
+      "places": 2
     },
     {
       "id": "NL",
@@ -1054,12 +1344,6 @@
       "places": 1
     },
     {
-      "id": "KR",
-      "label": "KR",
-      "weight": 1,
-      "places": 1
-    },
-    {
       "id": "SK",
       "label": "SK",
       "weight": 1,
@@ -1076,19 +1360,25 @@
     {
       "id": "Shenzhen",
       "label": "Shenzhen",
-      "weight": 5,
+      "weight": 6,
       "places": 1
     },
     {
       "id": "Tokyo",
       "label": "Tokyo",
-      "weight": 4,
+      "weight": 5,
       "places": 1
     },
     {
       "id": "Bay Area",
       "label": "Bay Area",
       "weight": 3,
+      "places": 1
+    },
+    {
+      "id": "Beijing",
+      "label": "Beijing",
+      "weight": 1,
       "places": 1
     },
     {
@@ -1116,6 +1406,12 @@
       "places": 1
     },
     {
+      "id": "Seoul",
+      "label": "Seoul",
+      "weight": 1,
+      "places": 1
+    },
+    {
       "id": "Seoul capital area",
       "label": "Seoul capital area",
       "weight": 1,
@@ -1126,9 +1422,35 @@
       "label": "Shanghai",
       "weight": 1,
       "places": 1
+    },
+    {
+      "id": "Suzhou",
+      "label": "Suzhou",
+      "weight": 1,
+      "places": 1
     }
   ],
   "list": [
+    {
+      "entity": {
+        "id": "b08462e9-bff0-5079-952f-88afbacb9257",
+        "slug": "kinco-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "Kinco Automation",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
     {
       "entity": {
         "id": "95a54839-94ba-5a13-b8b6-068db4841677",
@@ -1294,6 +1616,26 @@
     },
     {
       "entity": {
+        "id": "bae9e9fe-0902-59d5-bbc1-a98bc234970d",
+        "slug": "sumitomo-drive-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "Sumitomo Drive Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "1697924f-740e-5079-99ae-4174e704d155",
         "slug": "sumitomo-heavy-industries",
         "entity_type": "ORGANIZATION",
@@ -1379,6 +1721,47 @@
     },
     {
       "entity": {
+        "id": "fef5a2ec-6dbe-5e9c-8459-8fd14f248774",
+        "slug": "nidec",
+        "entity_type": "ORGANIZATION",
+        "name": "Nidec",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
+        "slug": "kyoto-jp",
+        "entity_type": "PLACE",
+        "name": "Kyoto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
+        "slug": "omron",
+        "entity_type": "ORGANIZATION",
+        "name": "Omron",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
+        "slug": "kyoto-jp",
+        "entity_type": "PLACE",
+        "name": "Kyoto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "88d24707-5d8c-5b63-9203-85c816dd2667",
         "slug": "ambarella",
         "entity_type": "ORGANIZATION",
@@ -1455,6 +1838,27 @@
         "slug": "apex-us",
         "entity_type": "PLACE",
         "name": "Apex",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "aa2ab01e-8da3-5366-b186-9cfb0563b3c5",
+        "slug": "realman-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Realman Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1647,27 +2051,6 @@
     },
     {
       "entity": {
-        "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
-        "slug": "omron",
-        "entity_type": "ORGANIZATION",
-        "name": "Omron",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER",
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
-        "slug": "kyoto-jp",
-        "entity_type": "PLACE",
-        "name": "Kyoto",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
         "id": "ebe5ee76-32df-52b0-b003-94b8fdb3ef66",
         "slug": "faro-technologies",
         "entity_type": "ORGANIZATION",
@@ -1728,6 +2111,46 @@
     },
     {
       "entity": {
+        "id": "a4107d6f-ee01-534f-9a02-4b2760f54ec4",
+        "slug": "gam-enterprises",
+        "entity_type": "ORGANIZATION",
+        "name": "GAM Enterprises",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "0128311c-455b-5cc5-ba38-88a0843e3a51",
+        "slug": "mount-prospect-us",
+        "entity_type": "PLACE",
+        "name": "Mount Prospect",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "8e0f3289-5439-56c2-a553-f99e5fe53c2f",
+        "slug": "cubemars",
+        "entity_type": "ORGANIZATION",
+        "name": "CubeMars",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "0142bfbc-0b56-5476-acec-f11cfd94d4ce",
+        "slug": "nanchang-cn",
+        "entity_type": "PLACE",
+        "name": "Nanchang",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "922ff18f-2b5a-52f7-a043-353871daf12e",
         "slug": "infineon-technologies",
         "entity_type": "ORGANIZATION",
@@ -1749,6 +2172,26 @@
     },
     {
       "entity": {
+        "id": "ab09234e-b3d8-51de-b4a0-06b051ac3a6d",
+        "slug": "stober",
+        "entity_type": "ORGANIZATION",
+        "name": "STOBER",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "99c0f93c-725d-5865-92af-305a1338b9a4",
+        "slug": "pforzheim-de",
+        "entity_type": "PLACE",
+        "name": "Pforzheim",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "1b15c81b-c10b-52aa-8ae2-75c1d9da3083",
         "slug": "spinea",
         "entity_type": "ORGANIZATION",
@@ -1763,6 +2206,26 @@
         "slug": "presov-sk",
         "entity_type": "PLACE",
         "name": "Presov",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e86f3cac-3313-56ce-a062-28c71633fcde",
+        "slug": "kollmorgen",
+        "entity_type": "ORGANIZATION",
+        "name": "Kollmorgen",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "9af0d5d1-d612-51fe-be1c-ec1a1a6971c9",
+        "slug": "radford-us",
+        "entity_type": "PLACE",
+        "name": "Radford",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1810,6 +2273,26 @@
     },
     {
       "entity": {
+        "id": "d4f49109-9afe-5248-940e-4506bc09ec88",
+        "slug": "synapticon",
+        "entity_type": "ORGANIZATION",
+        "name": "Synapticon",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "e659ecac-c511-5eb9-b587-f26f4c24b45e",
+        "slug": "schonaich-de",
+        "entity_type": "PLACE",
+        "name": "Schonaich",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "b0decc51-896e-5260-b673-b52e4664341c",
         "slug": "onsemi",
         "entity_type": "ORGANIZATION",
@@ -1825,6 +2308,27 @@
         "slug": "scottsdale-us",
         "entity_type": "PLACE",
         "name": "Scottsdale",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "5ab75844-f671-58bd-bd84-107cadf1cd6e",
+        "slug": "robotis",
+        "entity_type": "ORGANIZATION",
+        "name": "ROBOTIS",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1874,6 +2378,26 @@
     },
     {
       "entity": {
+        "id": "b8eb0504-6b42-553c-a5b8-be0f7a462db6",
+        "slug": "leader-harmonious-drive-systems-leaderdrive",
+        "entity_type": "ORGANIZATION",
+        "name": "Leader Harmonious Drive Systems (Leaderdrive)",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "982bbaab-5edb-568f-9470-609e831a3aca",
+        "slug": "suzhou",
+        "entity_type": "PLACE",
+        "name": "Suzhou",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "326f3ed5-74c7-547b-bd9e-c90c8f6c504d",
         "slug": "hiwin",
         "entity_type": "ORGANIZATION",
@@ -1889,6 +2413,26 @@
         "slug": "taichung-tw",
         "entity_type": "PLACE",
         "name": "Taichung",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "dc4c0525-8ef0-56d7-90db-08092c978020",
+        "slug": "zhejiang-shuanghuan-driveline",
+        "entity_type": "ORGANIZATION",
+        "name": "Zhejiang Shuanghuan Driveline",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "cccb251f-bd11-53e7-b399-a6e626636967",
+        "slug": "taizhou-cn",
+        "entity_type": "PLACE",
+        "name": "Taizhou",
         "primary_embodiment": null,
         "roles": []
       }

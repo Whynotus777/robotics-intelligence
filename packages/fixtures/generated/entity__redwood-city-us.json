@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "1c194a25-2324-5f78-ae4b-28c4aae5a21d",
+          "source": {
+            "id": "f2ccd141-2607-5dbc-b3ab-c2dfda6252cb",
+            "slug": "bear-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Bear Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "1d587d75-1524-5a63-8d3d-a033aea7f087",
           "source": {
             "id": "cd3a41d8-d213-51a8-8219-22f6556e876d",
@@ -59,12 +81,45 @@
             "confidence": "LOW",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "76447493-e850-52e6-b829-5bb544810279",
+          "source": {
+            "id": "54b16f76-266d-5792-a4fc-dc8b840adcf6",
+            "slug": "serve-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Serve Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "f2ccd141-2607-5dbc-b3ab-c2dfda6252cb",
+        "slug": "bear-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Bear Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
       {
         "id": "cd3a41d8-d213-51a8-8219-22f6556e876d",
         "slug": "dexterity",
@@ -73,6 +128,17 @@
         "primary_embodiment": null,
         "roles": [
           "OEM"
+        ]
+      },
+      {
+        "id": "54b16f76-266d-5792-a4fc-dc8b840adcf6",
+        "slug": "serve-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Serve Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
         ]
       }
     ]
@@ -92,7 +158,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 3
   },
   "as_of": null
 }

@@ -149,6 +149,28 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "c3121ef8-c56a-584e-b8eb-ea0950c6fec6",
+          "source": {
+            "id": "6458e6b9-a773-513a-8121-5d2eb680443a",
+            "slug": "kodiak-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Kodiak Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -184,6 +206,16 @@
         "roles": [
           "INTEGRATOR",
           "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      {
+        "id": "6458e6b9-a773-513a-8121-5d2eb680443a",
+        "slug": "kodiak-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Kodiak Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
         ]
       },
       {
@@ -224,7 +256,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 5
+    "related_count": 6
   },
   "as_of": null
 }

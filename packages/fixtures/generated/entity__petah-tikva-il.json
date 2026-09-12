@@ -1,0 +1,100 @@
+{
+  "entity": {
+    "id": "f04a79a5-c933-52aa-bcf5-4a9e79ed2cec",
+    "slug": "petah-tikva-il",
+    "entity_type": "PLACE",
+    "name": "Petah Tikva",
+    "short_description": null,
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "IL",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": null,
+    "city": "Petah Tikva",
+    "lat": 32.08707,
+    "lng": 34.88747,
+    "cluster_label": null
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "f10a6d7f-3ed0-5238-812d-b8fdc257f22d",
+          "source": {
+            "id": "d0e0ee17-b4ac-5c8a-b382-1af9516d2e9f",
+            "slug": "roboteam",
+            "entity_type": "ORGANIZATION",
+            "name": "Roboteam",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "d0e0ee17-b4ac-5c8a-b382-1af9516d2e9f",
+        "slug": "roboteam",
+        "entity_type": "ORGANIZATION",
+        "name": "Roboteam",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

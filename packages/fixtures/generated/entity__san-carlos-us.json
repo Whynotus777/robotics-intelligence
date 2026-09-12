@@ -59,12 +59,44 @@
             "confidence": "LOW",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "a97948e0-5528-5481-bb9a-a6a5e042f5ec",
+          "source": {
+            "id": "459c24fa-9db2-5cac-b2a2-8193d1ca708d",
+            "slug": "noah-medical",
+            "entity_type": "ORGANIZATION",
+            "name": "Noah Medical",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "459c24fa-9db2-5cac-b2a2-8193d1ca708d",
+        "slug": "noah-medical",
+        "entity_type": "ORGANIZATION",
+        "name": "Noah Medical",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
       {
         "id": "2de8d5bb-ccda-5b7d-9356-ae286c62de32",
         "slug": "robust-ai",
@@ -92,7 +124,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

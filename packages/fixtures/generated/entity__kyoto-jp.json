@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "7b63de39-2cf6-55c0-886c-52f5c4387ef0",
+          "source": {
+            "id": "fef5a2ec-6dbe-5e9c-8459-8fd14f248774",
+            "slug": "nidec",
+            "entity_type": "ORGANIZATION",
+            "name": "Nidec",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "7d618b9f-ca51-505c-ba45-c293edf9ff95",
           "source": {
             "id": "db60f85f-9f38-557f-bb22-2a346e929d38",
@@ -121,6 +143,16 @@
         ]
       },
       {
+        "id": "fef5a2ec-6dbe-5e9c-8459-8fd14f248774",
+        "slug": "nidec",
+        "entity_type": "ORGANIZATION",
+        "name": "Nidec",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
         "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
         "slug": "omron",
         "entity_type": "ORGANIZATION",
@@ -158,7 +190,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 4
   },
   "as_of": null
 }

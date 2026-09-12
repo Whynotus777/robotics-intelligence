@@ -110,6 +110,32 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "2eed4d50-3c26-5f7e-b9c8-0026e5ac8a0c",
+          "target": {
+            "id": "ec36981b-b343-5b5d-bc51-1ddb20b9ad70",
+            "slug": "blacksburg-us",
+            "entity_type": "PLACE",
+            "name": "Blacksburg",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
@@ -125,6 +151,16 @@
           "PLATFORM"
         ]
       }
+    ],
+    "places": [
+      {
+        "id": "ec36981b-b343-5b5d-bc51-1ddb20b9ad70",
+        "slug": "blacksburg-us",
+        "entity_type": "PLACE",
+        "name": "Blacksburg",
+        "primary_embodiment": null,
+        "roles": []
+      }
     ]
   },
   "intelligence": {
@@ -134,15 +170,15 @@
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
-        "ANALYST": 0
+        "ANALYST": 1
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

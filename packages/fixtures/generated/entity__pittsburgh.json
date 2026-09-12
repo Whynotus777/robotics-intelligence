@@ -39,6 +39,72 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "23c1eae4-a157-55f9-9c37-8310c3741714",
+          "source": {
+            "id": "59f79b40-3b9c-5e77-8360-ac5fe81a4dad",
+            "slug": "aurora-innovation",
+            "entity_type": "ORGANIZATION",
+            "name": "Aurora Innovation",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "5bf9d6c0-792c-5952-b9f0-d0417a2823ea",
+          "source": {
+            "id": "23cde64f-41d4-50bd-8fbc-1457defe3fe6",
+            "slug": "aethon",
+            "entity_type": "ORGANIZATION",
+            "name": "Aethon",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "5c0f7820-f7ee-5718-b04b-1fc3e32c9d4d",
+          "source": {
+            "id": "a6e7f70d-5523-5664-93d4-54043b509963",
+            "slug": "gecko-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Gecko Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "a70d14e5-2d01-5cd9-9ed9-ad50f0f43d8a",
           "source": {
             "id": "698f0f64-1451-5021-9a17-4af7183cd4aa",
@@ -110,6 +176,26 @@
   "lateral_links": {
     "company": [
       {
+        "id": "23cde64f-41d4-50bd-8fbc-1457defe3fe6",
+        "slug": "aethon",
+        "entity_type": "ORGANIZATION",
+        "name": "Aethon",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      {
+        "id": "59f79b40-3b9c-5e77-8360-ac5fe81a4dad",
+        "slug": "aurora-innovation",
+        "entity_type": "ORGANIZATION",
+        "name": "Aurora Innovation",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      {
         "id": "698f0f64-1451-5021-9a17-4af7183cd4aa",
         "slug": "carnegie-mellon-robotics-institute",
         "entity_type": "ORGANIZATION",
@@ -117,6 +203,16 @@
         "primary_embodiment": null,
         "roles": [
           "RESEARCH_LAB"
+        ]
+      },
+      {
+        "id": "a6e7f70d-5523-5664-93d4-54043b509963",
+        "slug": "gecko-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Gecko Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
         ]
       },
       {
@@ -156,7 +252,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 6
   },
   "as_of": null
 }

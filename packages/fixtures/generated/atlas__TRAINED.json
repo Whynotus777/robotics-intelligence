@@ -4,12 +4,12 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 135
+      "count": 168
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 40
+      "count": 52
     },
     {
       "id": "MANUFACTURED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 59
+      "count": 63
     },
     {
       "id": "FUNDED",
@@ -395,6 +395,54 @@
     },
     {
       "place": {
+        "id": "87216f35-32ce-54be-9ed9-86c480775092",
+        "slug": "pittsburgh",
+        "entity_type": "PLACE",
+        "name": "Pittsburgh",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 40.44,
+      "lng": -79.99,
+      "country_code": "US",
+      "cluster_label": "Pittsburgh",
+      "weight": 3,
+      "entities": [
+        {
+          "id": "59f79b40-3b9c-5e77-8360-ac5fe81a4dad",
+          "slug": "aurora-innovation",
+          "entity_type": "ORGANIZATION",
+          "name": "Aurora Innovation",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        },
+        {
+          "id": "698f0f64-1451-5021-9a17-4af7183cd4aa",
+          "slug": "carnegie-mellon-robotics-institute",
+          "entity_type": "ORGANIZATION",
+          "name": "Carnegie Mellon Robotics Institute",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+          "slug": "skild-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Skild AI",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
         "slug": "tokyo",
         "entity_type": "PLACE",
@@ -559,37 +607,37 @@
     },
     {
       "place": {
-        "id": "87216f35-32ce-54be-9ed9-86c480775092",
-        "slug": "pittsburgh",
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
         "entity_type": "PLACE",
-        "name": "Pittsburgh",
+        "name": "Mountain View",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 40.44,
-      "lng": -79.99,
+      "lat": 37.38605,
+      "lng": -122.08385,
       "country_code": "US",
-      "cluster_label": "Pittsburgh",
+      "cluster_label": null,
       "weight": 2,
       "entities": [
         {
-          "id": "698f0f64-1451-5021-9a17-4af7183cd4aa",
-          "slug": "carnegie-mellon-robotics-institute",
+          "id": "6458e6b9-a773-513a-8121-5d2eb680443a",
+          "slug": "kodiak-robotics",
           "entity_type": "ORGANIZATION",
-          "name": "Carnegie Mellon Robotics Institute",
-          "primary_embodiment": null,
-          "roles": [
-            "RESEARCH_LAB"
-          ]
-        },
-        {
-          "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
-          "slug": "skild-ai",
-          "entity_type": "ORGANIZATION",
-          "name": "Skild AI",
+          "name": "Kodiak Robotics",
           "primary_embodiment": null,
           "roles": [
             "MODEL_DEVELOPER"
+          ]
+        },
+        {
+          "id": "f1b57180-afad-56a7-8ea1-de998c10362b",
+          "slug": "x-development-alphabet-x",
+          "entity_type": "ORGANIZATION",
+          "name": "X Development (Alphabet X)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
           ]
         }
       ],
@@ -656,6 +704,34 @@
           "primary_embodiment": null,
           "roles": [
             "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "ec36981b-b343-5b5d-bc51-1ddb20b9ad70",
+        "slug": "blacksburg-us",
+        "entity_type": "PLACE",
+        "name": "Blacksburg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.22957,
+      "lng": -80.41394,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "07270345-45f8-5ce0-be12-64fa92e3b5bb",
+          "slug": "torc-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Torc Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
           ]
         }
       ],
@@ -775,6 +851,34 @@
     },
     {
       "place": {
+        "id": "0426073c-0ee2-52b4-b47c-46bf6eb49c73",
+        "slug": "guangzhou-cn",
+        "entity_type": "PLACE",
+        "name": "Guangzhou",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 23.11667,
+      "lng": 113.25,
+      "country_code": "CN",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "6d2acc87-aa2d-5831-a6ab-1b611b18955d",
+          "slug": "pony-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Pony.ai",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "b96cb701-db1f-5155-9957-25580923965c",
         "slug": "irvine-us",
         "entity_type": "PLACE",
@@ -825,34 +929,6 @@
           "roles": [
             "MODEL_DEVELOPER",
             "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
-        "slug": "mountain-view-us",
-        "entity_type": "PLACE",
-        "name": "Mountain View",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 37.38605,
-      "lng": -122.08385,
-      "country_code": "US",
-      "cluster_label": null,
-      "weight": 1,
-      "entities": [
-        {
-          "id": "f1b57180-afad-56a7-8ea1-de998c10362b",
-          "slug": "x-development-alphabet-x",
-          "entity_type": "ORGANIZATION",
-          "name": "X Development (Alphabet X)",
-          "primary_embodiment": null,
-          "roles": [
-            "RESEARCH_LAB"
           ]
         }
       ],
@@ -1267,14 +1343,14 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 27,
-      "places": 17
+      "weight": 30,
+      "places": 18
     },
     {
       "id": "CN",
       "label": "CN",
-      "weight": 12,
-      "places": 3
+      "weight": 13,
+      "places": 4
     },
     {
       "id": "CH",
@@ -1357,6 +1433,12 @@
       "places": 1
     },
     {
+      "id": "Pittsburgh",
+      "label": "Pittsburgh",
+      "weight": 3,
+      "places": 1
+    },
+    {
       "id": "Tokyo",
       "label": "Tokyo",
       "weight": 3,
@@ -1371,12 +1453,6 @@
     {
       "id": "London",
       "label": "London",
-      "weight": 2,
-      "places": 1
-    },
-    {
-      "id": "Pittsburgh",
-      "label": "Pittsburgh",
       "weight": 2,
       "places": 1
     },
@@ -1925,6 +2001,66 @@
     },
     {
       "entity": {
+        "id": "59f79b40-3b9c-5e77-8360-ac5fe81a4dad",
+        "slug": "aurora-innovation",
+        "entity_type": "ORGANIZATION",
+        "name": "Aurora Innovation",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "87216f35-32ce-54be-9ed9-86c480775092",
+        "slug": "pittsburgh",
+        "entity_type": "PLACE",
+        "name": "Pittsburgh",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "698f0f64-1451-5021-9a17-4af7183cd4aa",
+        "slug": "carnegie-mellon-robotics-institute",
+        "entity_type": "ORGANIZATION",
+        "name": "Carnegie Mellon Robotics Institute",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "87216f35-32ce-54be-9ed9-86c480775092",
+        "slug": "pittsburgh",
+        "entity_type": "PLACE",
+        "name": "Pittsburgh",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+        "slug": "skild-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Skild AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "87216f35-32ce-54be-9ed9-86c480775092",
+        "slug": "pittsburgh",
+        "entity_type": "PLACE",
+        "name": "Pittsburgh",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
         "slug": "honda-motor",
         "entity_type": "ORGANIZATION",
@@ -2107,40 +2243,40 @@
     },
     {
       "entity": {
-        "id": "698f0f64-1451-5021-9a17-4af7183cd4aa",
-        "slug": "carnegie-mellon-robotics-institute",
+        "id": "6458e6b9-a773-513a-8121-5d2eb680443a",
+        "slug": "kodiak-robotics",
         "entity_type": "ORGANIZATION",
-        "name": "Carnegie Mellon Robotics Institute",
-        "primary_embodiment": null,
-        "roles": [
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "87216f35-32ce-54be-9ed9-86c480775092",
-        "slug": "pittsburgh",
-        "entity_type": "PLACE",
-        "name": "Pittsburgh",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
-        "slug": "skild-ai",
-        "entity_type": "ORGANIZATION",
-        "name": "Skild AI",
+        "name": "Kodiak Robotics",
         "primary_embodiment": null,
         "roles": [
           "MODEL_DEVELOPER"
         ]
       },
       "place": {
-        "id": "87216f35-32ce-54be-9ed9-86c480775092",
-        "slug": "pittsburgh",
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
         "entity_type": "PLACE",
-        "name": "Pittsburgh",
+        "name": "Mountain View",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "f1b57180-afad-56a7-8ea1-de998c10362b",
+        "slug": "x-development-alphabet-x",
+        "entity_type": "ORGANIZATION",
+        "name": "X Development (Alphabet X)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
+        "entity_type": "PLACE",
+        "name": "Mountain View",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2201,6 +2337,26 @@
         "slug": "atlanta-us",
         "entity_type": "PLACE",
         "name": "Atlanta",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "07270345-45f8-5ce0-be12-64fa92e3b5bb",
+        "slug": "torc-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Torc Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "ec36981b-b343-5b5d-bc51-1ddb20b9ad70",
+        "slug": "blacksburg-us",
+        "entity_type": "PLACE",
+        "name": "Blacksburg",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2287,6 +2443,26 @@
     },
     {
       "entity": {
+        "id": "6d2acc87-aa2d-5831-a6ab-1b611b18955d",
+        "slug": "pony-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Pony.ai",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "0426073c-0ee2-52b4-b47c-46bf6eb49c73",
+        "slug": "guangzhou-cn",
+        "entity_type": "PLACE",
+        "name": "Guangzhou",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "2bd3ab4d-c00b-56f8-a1aa-5c4b5546b007",
         "slug": "fieldai",
         "entity_type": "ORGANIZATION",
@@ -2322,26 +2498,6 @@
         "slug": "metzingen-de",
         "entity_type": "PLACE",
         "name": "Metzingen",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "f1b57180-afad-56a7-8ea1-de998c10362b",
-        "slug": "x-development-alphabet-x",
-        "entity_type": "ORGANIZATION",
-        "name": "X Development (Alphabet X)",
-        "primary_embodiment": null,
-        "roles": [
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
-        "slug": "mountain-view-us",
-        "entity_type": "PLACE",
-        "name": "Mountain View",
         "primary_embodiment": null,
         "roles": []
       }
