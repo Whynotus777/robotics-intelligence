@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "aa5cbc6b-10f4-5b96-b922-7d331cb446e4",
+    "subject": {
+      "id": "517baf4b-df10-5fad-a844-0e3029433d74",
+      "slug": "sharkninja",
+      "entity_type": "ORGANIZATION",
+      "name": "SharkNinja",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "SharkNinja role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2db6131f-ba3c-50e4-985e-49732ad75339",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds Shark household robot vacuum cleaners.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "4735be94-88ba-58bb-8ce4-e56c2c608ff3",
+        "url": "https://www.sharkninja.com/",
+        "canonical_url": null,
+        "publisher": "SharkNinja",
+        "title": "SharkNinja — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

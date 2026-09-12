@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "540b17af-30c6-5572-b330-51d87bfebf28",
+    "subject": {
+      "id": "30c33b1a-f72d-52cf-a8f4-7497bb3e5809",
+      "slug": "starship-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "Starship Technologies",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Starship Technologies role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0d7ceda4-d211-55d0-a5cb-4e00666af848",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds and operates autonomous sidewalk delivery robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "cb9a41bf-99a5-5b6c-9b15-c55c951a0cfd",
+        "url": "https://www.starship.xyz/",
+        "canonical_url": null,
+        "publisher": "Starship Technologies",
+        "title": "Starship Technologies — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "21eb4688-576e-5991-babd-45e31d31f83a",
+      "value": {
+        "kind": "enum",
+        "value": "OPERATOR"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

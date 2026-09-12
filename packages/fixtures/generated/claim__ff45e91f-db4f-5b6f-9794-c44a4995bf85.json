@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "ff45e91f-db4f-5b6f-9794-c44a4995bf85",
+    "subject": {
+      "id": "54b16f76-266d-5792-a4fc-dc8b840adcf6",
+      "slug": "serve-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Serve Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Serve Robotics role OPERATOR",
+    "value": {
+      "kind": "enum",
+      "value": "OPERATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d59837c3-3606-5fe6-80b1-df09de60b732",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds and operates sidewalk delivery robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "e8b553fe-3433-598b-98ea-870fa7a604f1",
+        "url": "https://www.serverobotics.com/",
+        "canonical_url": null,
+        "publisher": "Serve Robotics",
+        "title": "Serve Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "bf3953a2-d833-5518-9a0e-6adaea9fbdb3",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

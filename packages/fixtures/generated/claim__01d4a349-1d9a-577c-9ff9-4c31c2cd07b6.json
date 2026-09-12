@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "01d4a349-1d9a-577c-9ff9-4c31c2cd07b6",
+    "subject": {
+      "id": "d5d4d783-6e75-5945-821e-5c367ab52893",
+      "slug": "kiwibot",
+      "entity_type": "ORGANIZATION",
+      "name": "Kiwibot",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Kiwibot role OPERATOR",
+    "value": {
+      "kind": "enum",
+      "value": "OPERATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "64b69a5f-2bbb-5b8e-a342-2ca38d4cc01c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds and operates robots for delivery, logistics and advertising.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "30799167-4cc1-5367-b5a9-6224be2cf2f9",
+        "url": "https://www.kiwibot.com/",
+        "canonical_url": null,
+        "publisher": "Kiwibot",
+        "title": "Kiwibot — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "ab7fd1f5-ffbe-5071-b267-26e620d01a2e",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

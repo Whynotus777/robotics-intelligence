@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "5d9e1121-f539-5033-a409-af0e9aa51ce0",
+    "subject": {
+      "id": "1f9935c7-723e-5ca0-b4c1-41c6efa5b876",
+      "slug": "bedrock-ocean",
+      "entity_type": "ORGANIZATION",
+      "name": "Bedrock Ocean",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Bedrock Ocean role OPERATOR",
+    "value": {
+      "kind": "enum",
+      "value": "OPERATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f7ff3a07-f8af-5610-b818-b27f972142ed",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds and operates autonomous underwater vehicles for seabed mapping.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "9868c742-abeb-5d88-ba12-2b8c0e89e930",
+        "url": "https://www.bedrockocean.com/",
+        "canonical_url": null,
+        "publisher": "Bedrock Ocean",
+        "title": "Bedrock Ocean — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "bb91af0c-2af3-58ba-94be-8a1a821718fa",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

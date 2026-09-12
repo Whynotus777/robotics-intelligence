@@ -1,0 +1,25 @@
+slug: weride
+entity_type: ORGANIZATION
+name: WeRide
+short_description: Develops autonomous driving systems and operates robotaxi services.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-1efb61234a1a61cc
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops autonomous driving systems and operates robotaxi services.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-1efb61234a1a61cc
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops autonomous driving systems and operates robotaxi services.
+    observed_at: '2026-09-11'
+country_code: CN

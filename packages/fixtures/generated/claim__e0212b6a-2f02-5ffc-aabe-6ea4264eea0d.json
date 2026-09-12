@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "e0212b6a-2f02-5ffc-aabe-6ea4264eea0d",
+    "subject": {
+      "id": "54973dcc-f0a8-5acb-83a4-b03a2f8056ab",
+      "slug": "waabi",
+      "entity_type": "ORGANIZATION",
+      "name": "Waabi",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Waabi role MODEL_DEVELOPER",
+    "value": {
+      "kind": "enum",
+      "value": "MODEL_DEVELOPER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0c5ae447-731a-5a35-8592-302143cd443b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops learned autonomous driving systems for trucks and passenger vehicles.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "4689f75a-2238-5554-85e7-991019f7143d",
+        "url": "https://waabi.ai/",
+        "canonical_url": null,
+        "publisher": "Waabi",
+        "title": "Waabi — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "32a70476-0979-5505-9369-ce3996c3629c",
+    "subject": {
+      "id": "a56afeaa-668e-5594-89f7-d910785d855e",
+      "slug": "narwal",
+      "entity_type": "ORGANIZATION",
+      "name": "Narwal",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Narwal role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "75ca54f7-e463-509f-b859-b80cb1845acd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds self-cleaning robotic vacuum and mop systems.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ef9db505-46db-55c7-8b6c-c138933ab99a",
+        "url": "https://www.narwal.com/",
+        "canonical_url": null,
+        "publisher": "Narwal",
+        "title": "Narwal — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

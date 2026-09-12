@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "8f2f3e27-912d-5592-8ea4-9f8b6643fd9f",
+    "subject": {
+      "id": "f2ccd141-2607-5dbc-b3ab-c2dfda6252cb",
+      "slug": "bear-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Bear Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Bear Robotics role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7d538260-79ff-5e9c-95c9-17b36d7aea16",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds service robots for restaurants and commercial facilities.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "36e0bd53-05f8-5d10-ae42-6fdbdfc3b55d",
+        "url": "https://www.bearrobotics.ai/",
+        "canonical_url": null,
+        "publisher": "Bear Robotics",
+        "title": "Bear Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

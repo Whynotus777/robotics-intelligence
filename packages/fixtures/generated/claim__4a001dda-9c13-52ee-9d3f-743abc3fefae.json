@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "4a001dda-9c13-52ee-9d3f-743abc3fefae",
+    "subject": {
+      "id": "d2936e4c-dd1c-5eff-975e-bad37785cfcf",
+      "slug": "ekso-bionics",
+      "entity_type": "ORGANIZATION",
+      "name": "Ekso Bionics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Ekso Bionics role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ac5d31b7-7c54-5828-b8d4-3fdf2007d6a2",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds wearable robotic exoskeletons for rehabilitation and personal mobility.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "2b4e6c6c-921d-54d1-a32e-12a8915ad39a",
+        "url": "https://eksobionics.com/",
+        "canonical_url": null,
+        "publisher": "Ekso Bionics",
+        "title": "Ekso Bionics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

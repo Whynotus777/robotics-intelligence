@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "8edb9bb8-78d2-5928-b3b6-9ace2e117c8e",
+    "subject": {
+      "id": "851da841-46b0-5213-a7dc-c3d9f880ed79",
+      "slug": "saab-seaeye",
+      "entity_type": "ORGANIZATION",
+      "name": "Saab Seaeye",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Saab Seaeye role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "74191c5d-099e-599d-a78f-a881ad51fd48",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds electric underwater robotic systems.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3ea1c76b-2ee0-5711-9e65-5bcb7be4f464",
+        "url": "https://www.saabseaeye.com/",
+        "canonical_url": null,
+        "publisher": "Saab Seaeye",
+        "title": "Saab Seaeye — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

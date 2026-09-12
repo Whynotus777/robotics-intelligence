@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3d5f3e74-82fe-561f-9faa-4c219fff0212",
+    "subject": {
+      "id": "d955e8fd-c7ca-515d-ac65-54424f843f8f",
+      "slug": "dhl-supply-chain",
+      "entity_type": "ORGANIZATION",
+      "name": "DHL Supply Chain",
+      "primary_embodiment": null,
+      "roles": [
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "DHL Supply Chain role OPERATOR",
+    "value": {
+      "kind": "enum",
+      "value": "OPERATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9e46820d-1152-5809-aae9-cb5bc45895ad",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Operates warehouse logistics services using robotic automation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3ba12690-fde6-578f-8050-f2b230fabe86",
+        "url": "https://group.dhl.com/en/media-relations/press-releases/2026/dhl-supply-chain-accelerates-automation-deployments-with-stv-robotics-softbot-platform.html",
+        "canonical_url": null,
+        "publisher": "SVT Robotics",
+        "title": "SVT Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

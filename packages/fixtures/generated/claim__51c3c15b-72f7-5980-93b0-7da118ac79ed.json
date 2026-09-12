@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "51c3c15b-72f7-5980-93b0-7da118ac79ed",
+    "subject": {
+      "id": "71d897d0-4c79-5632-9553-b8e6029bbde3",
+      "slug": "roborock",
+      "entity_type": "ORGANIZATION",
+      "name": "Roborock",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Roborock role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "cbd583e6-8658-552b-9430-88ff200a7459",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds robotic vacuum and floor-cleaning systems.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "9df652b9-5e6d-5121-bc95-4947336c8170",
+        "url": "https://global.roborock.com/",
+        "canonical_url": null,
+        "publisher": "Roborock",
+        "title": "Roborock — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

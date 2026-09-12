@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "1f23f997-4d66-56ff-96d9-5b8b39bb228b",
+    "subject": {
+      "id": "8f8d645d-4ac0-50e6-b880-4df0b5229e47",
+      "slug": "irobot",
+      "entity_type": "ORGANIZATION",
+      "name": "iRobot",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "iRobot role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1264172d-cdaf-573d-b9fb-b4509f74bd0d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds household cleaning robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "63c2510d-e0e9-5c87-a2d3-9638aafd569b",
+        "url": "https://www.irobot.com/",
+        "canonical_url": null,
+        "publisher": "iRobot",
+        "title": "iRobot — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

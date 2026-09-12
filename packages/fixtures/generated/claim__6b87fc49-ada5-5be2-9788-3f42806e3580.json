@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "6b87fc49-ada5-5be2-9788-3f42806e3580",
+    "subject": {
+      "id": "b4c8d070-a234-5efe-bbb5-cd45f66692ef",
+      "slug": "blue-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Blue Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Blue Robotics role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4452021b-1ace-507f-9b59-7a52cd8d9490",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds underwater robots and supplies marine propulsion and sensing components.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "c446b788-4fc0-5f83-a04c-6983c2d45024",
+        "url": "https://bluerobotics.com/",
+        "canonical_url": null,
+        "publisher": "Blue Robotics",
+        "title": "Blue Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "d26c0de9-f27d-5c6e-b7ff-352c2d98f67d",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

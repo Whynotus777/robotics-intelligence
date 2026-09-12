@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "72b7251e-aee6-5992-b1bf-edbde75c4b92",
+    "subject": {
+      "id": "f71a4038-da7c-5fa7-93fc-d76c372def22",
+      "slug": "may-mobility",
+      "entity_type": "ORGANIZATION",
+      "name": "May Mobility",
+      "primary_embodiment": null,
+      "roles": [
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "May Mobility role OPERATOR",
+    "value": {
+      "kind": "enum",
+      "value": "OPERATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1e964470-ee2e-54e2-b942-865f238c8e60",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Operates autonomous passenger transportation services.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "c69adb0f-6a65-5d7b-9fb1-9211f5e6066b",
+        "url": "https://maymobility.com/",
+        "canonical_url": null,
+        "publisher": "May Mobility",
+        "title": "May Mobility — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

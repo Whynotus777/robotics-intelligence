@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3ef5357d-debc-501a-9407-6ae6cce5e10f",
+    "subject": {
+      "id": "8e8c2e6b-0edf-52e6-a99a-20d0065dbb25",
+      "slug": "ecovacs-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Ecovacs Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Ecovacs Robotics role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e4b57484-d181-5afa-9a59-8a62db80b19f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds robot vacuums, window cleaners and robotic lawn mowers.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "261f2dab-da26-555d-ab65-b24d60082c24",
+        "url": "https://www.ecovacs.com/",
+        "canonical_url": null,
+        "publisher": "Ecovacs Robotics",
+        "title": "Ecovacs Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

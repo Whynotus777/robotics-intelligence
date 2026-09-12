@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "524e1d34-e5d5-538b-8841-83115e2a8b28",
+    "subject": {
+      "id": "6d2acc87-aa2d-5831-a6ab-1b611b18955d",
+      "slug": "pony-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Pony.ai",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Pony.ai role MODEL_DEVELOPER",
+    "value": {
+      "kind": "enum",
+      "value": "MODEL_DEVELOPER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "054e393c-ff6e-554b-935e-0e5ce3711144",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops autonomous driving systems for robotaxis and commercial vehicles.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "03995e2e-32e7-58d4-b34e-06af650df95c",
+        "url": "https://pony.ai/",
+        "canonical_url": null,
+        "publisher": "Pony.ai",
+        "title": "Pony.ai — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}
