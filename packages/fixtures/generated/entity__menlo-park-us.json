@@ -83,6 +83,29 @@
           }
         },
         {
+          "claim_id": "7c84dedc-4da5-50a7-aaa4-b4b3fe2a8a67",
+          "source": {
+            "id": "b2019a1f-8ed0-51fd-9f1f-889ae8ff6290",
+            "slug": "cyngn",
+            "entity_type": "ORGANIZATION",
+            "name": "Cyngn",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "93d96e55-0c68-5a1d-91d8-d0fa8d6e5a70",
           "source": {
             "id": "d15ae925-8092-5907-8703-87a3b98eb9f8",
@@ -109,6 +132,17 @@
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "b2019a1f-8ed0-51fd-9f1f-889ae8ff6290",
+        "slug": "cyngn",
+        "entity_type": "ORGANIZATION",
+        "name": "Cyngn",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
       {
         "id": "22d976e0-3c83-50e0-8102-bd2c1881a83c",
         "slug": "khosla-ventures",
@@ -156,7 +190,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 4
   },
   "as_of": null
 }

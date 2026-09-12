@@ -125,6 +125,32 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "f3b90962-db28-5a6d-8d36-4d1b979a6f0d",
+          "target": {
+            "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+            "slug": "zurich",
+            "entity_type": "PLACE",
+            "name": "Zurich",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [
@@ -179,6 +205,16 @@
           "RESEARCH_LAB"
         ]
       }
+    ],
+    "places": [
+      {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      }
     ]
   },
   "intelligence": {
@@ -188,15 +224,15 @@
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
-        "ANALYST": 0
+        "ANALYST": 1
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

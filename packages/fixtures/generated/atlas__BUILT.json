@@ -4,7 +4,7 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 102
+      "count": 135
     },
     {
       "id": "SUPPLIED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 47
+      "count": 59
     },
     {
       "id": "FUNDED",
@@ -38,6 +38,127 @@
     }
   ],
   "marks": [
+    {
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 22.54,
+      "lng": 114.06,
+      "country_code": "CN",
+      "cluster_label": "Shenzhen",
+      "weight": 10,
+      "entities": [
+        {
+          "id": "794f4f80-f85e-5519-a62a-111900984b04",
+          "slug": "astribot",
+          "entity_type": "ORGANIZATION",
+          "name": "Astribot",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        },
+        {
+          "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
+          "slug": "dji",
+          "entity_type": "ORGANIZATION",
+          "name": "DJI",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "a1cb2e01-3aab-5fa2-925d-4f4458bf0bf4",
+          "slug": "engineai",
+          "entity_type": "ORGANIZATION",
+          "name": "EngineAI",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "b0007af9-3984-5819-97f2-8069aab47be5",
+          "slug": "hai-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "HAI Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "593e0170-e678-51f0-8d2f-14e0b1d5e7e2",
+          "slug": "limx-dynamics",
+          "entity_type": "ORGANIZATION",
+          "name": "LimX Dynamics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "5b1f1358-9f7b-56b2-ab93-e6f3e896dacb",
+          "slug": "pudu-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Pudu Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "738faacd-b6ff-50f9-8ee9-e116282284dc",
+          "slug": "shenzhen-inovance-technology",
+          "entity_type": "ORGANIZATION",
+          "name": "Shenzhen Inovance Technology",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "OEM"
+          ]
+        },
+        {
+          "id": "8833ee81-8bf2-5498-87e0-b4749c8f2bcd",
+          "slug": "syrius-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Syrius Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
+          "slug": "ubtech",
+          "entity_type": "ORGANIZATION",
+          "name": "UBTech Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "a235ccba-64cc-5c80-ab3e-40a7c7792bc8",
+          "slug": "x-square-robot",
+          "entity_type": "ORGANIZATION",
+          "name": "X Square Robot",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
     {
       "place": {
         "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
@@ -134,89 +255,70 @@
     },
     {
       "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
         "entity_type": "PLACE",
-        "name": "Shenzhen",
+        "name": "Beijing",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 22.54,
-      "lng": 114.06,
+      "lat": 39.9,
+      "lng": 116.4,
       "country_code": "CN",
-      "cluster_label": "Shenzhen",
-      "weight": 7,
+      "cluster_label": "Beijing",
+      "weight": 5,
       "entities": [
         {
-          "id": "794f4f80-f85e-5519-a62a-111900984b04",
-          "slug": "astribot",
+          "id": "a2ed497b-0137-5511-8311-819a10e08a63",
+          "slug": "beijing-humanoid-robot-innovation-center-x-humanoid",
           "entity_type": "ORGANIZATION",
-          "name": "Astribot",
+          "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
           "primary_embodiment": null,
           "roles": [
+            "DATA_SIMULATION_PROVIDER",
             "MODEL_DEVELOPER",
-            "OEM"
+            "OEM",
+            "RESEARCH_LAB"
           ]
         },
         {
-          "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
-          "slug": "dji",
+          "id": "ce79d317-38c7-5731-a800-14bf4e0adf0a",
+          "slug": "booster-robotics",
           "entity_type": "ORGANIZATION",
-          "name": "DJI",
+          "name": "Booster Robotics",
           "primary_embodiment": null,
           "roles": [
             "OEM"
           ]
         },
         {
-          "id": "593e0170-e678-51f0-8d2f-14e0b1d5e7e2",
-          "slug": "limx-dynamics",
+          "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
+          "slug": "galbot",
           "entity_type": "ORGANIZATION",
-          "name": "LimX Dynamics",
+          "name": "Galbot",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "OPERATOR"
+          ]
+        },
+        {
+          "id": "2af4b707-5460-5da6-b7ad-3addf359a049",
+          "slug": "geek-plus",
+          "entity_type": "ORGANIZATION",
+          "name": "Geek+",
           "primary_embodiment": null,
           "roles": [
             "OEM"
           ]
         },
         {
-          "id": "5b1f1358-9f7b-56b2-ab93-e6f3e896dacb",
-          "slug": "pudu-robotics",
+          "id": "71d897d0-4c79-5632-9553-b8e6029bbde3",
+          "slug": "roborock",
           "entity_type": "ORGANIZATION",
-          "name": "Pudu Robotics",
+          "name": "Roborock",
           "primary_embodiment": null,
           "roles": [
-            "OEM"
-          ]
-        },
-        {
-          "id": "738faacd-b6ff-50f9-8ee9-e116282284dc",
-          "slug": "shenzhen-inovance-technology",
-          "entity_type": "ORGANIZATION",
-          "name": "Shenzhen Inovance Technology",
-          "primary_embodiment": null,
-          "roles": [
-            "COMPONENT_SUPPLIER",
-            "OEM"
-          ]
-        },
-        {
-          "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
-          "slug": "ubtech",
-          "entity_type": "ORGANIZATION",
-          "name": "UBTech Robotics",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        },
-        {
-          "id": "a235ccba-64cc-5c80-ab3e-40a7c7792bc8",
-          "slug": "x-square-robot",
-          "entity_type": "ORGANIZATION",
-          "name": "X Square Robot",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER",
             "OEM"
           ]
         }
@@ -306,7 +408,7 @@
       "lng": 121.47,
       "country_code": "CN",
       "cluster_label": "Shanghai",
-      "weight": 4,
+      "weight": 5,
       "entities": [
         {
           "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
@@ -348,6 +450,16 @@
           "roles": [
             "OEM"
           ]
+        },
+        {
+          "id": "59221dd7-908d-5fb0-81b0-2a782c10cf78",
+          "slug": "quicktron",
+          "entity_type": "ORGANIZATION",
+          "name": "Quicktron",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         }
       ],
       "embodiment_mix": {}
@@ -365,7 +477,7 @@
       "lng": -97.74,
       "country_code": "US",
       "cluster_label": "Austin",
-      "weight": 3,
+      "weight": 4,
       "entities": [
         {
           "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
@@ -396,30 +508,101 @@
           "roles": [
             "OEM"
           ]
+        },
+        {
+          "id": "58b33197-ea85-582a-b1dc-b1d3ff207e35",
+          "slug": "saronic-technologies",
+          "entity_type": "ORGANIZATION",
+          "name": "Saronic Technologies",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
         }
       ],
       "embodiment_mix": {}
     },
     {
       "place": {
-        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
-        "slug": "beijing",
+        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+        "slug": "san-diego",
         "entity_type": "PLACE",
-        "name": "Beijing",
+        "name": "San Diego",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 39.9,
-      "lng": 116.4,
-      "country_code": "CN",
-      "cluster_label": "Beijing",
+      "lat": 32.72,
+      "lng": -117.16,
+      "country_code": "US",
+      "cluster_label": "San Diego",
       "weight": 3,
       "entities": [
         {
-          "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
-          "slug": "galbot",
+          "id": "2546b2b2-db58-5803-a3f8-fbd802ddee49",
+          "slug": "havocai",
           "entity_type": "ORGANIZATION",
-          "name": "Galbot",
+          "name": "HavocAI",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "050586f3-ac44-5ca2-8bda-f9e9387abbd8",
+          "slug": "seasats",
+          "entity_type": "ORGANIZATION",
+          "name": "Seasats",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "67529b36-5a36-5d97-8986-8a6e478af3cf",
+          "slug": "shield-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Shield AI",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.77493,
+      "lng": -122.41942,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 3,
+      "entities": [
+        {
+          "id": "b6a79648-53aa-52c4-b749-dc9e63a0fd9e",
+          "slug": "built-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Built Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "30c33b1a-f72d-52cf-a8f4-7497bb3e5809",
+          "slug": "starship-technologies",
+          "entity_type": "ORGANIZATION",
+          "name": "Starship Technologies",
           "primary_embodiment": null,
           "roles": [
             "OEM",
@@ -427,20 +610,58 @@
           ]
         },
         {
-          "id": "2af4b707-5460-5da6-b7ad-3addf359a049",
-          "slug": "geek-plus",
+          "id": "1aa2c2aa-6350-57f8-9cc4-e92400e8af04",
+          "slug": "weave-robotics",
           "entity_type": "ORGANIZATION",
-          "name": "Geek+",
+          "name": "Weave Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.68,
+      "lng": 139.69,
+      "country_code": "JP",
+      "cluster_label": "Tokyo",
+      "weight": 3,
+      "entities": [
+        {
+          "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
+          "slug": "kawasaki-heavy-industries",
+          "entity_type": "ORGANIZATION",
+          "name": "Kawasaki Heavy Industries",
           "primary_embodiment": null,
           "roles": [
             "OEM"
           ]
         },
         {
-          "id": "71d897d0-4c79-5632-9553-b8e6029bbde3",
-          "slug": "roborock",
+          "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
+          "slug": "mitsubishi-electric",
           "entity_type": "ORGANIZATION",
-          "name": "Roborock",
+          "name": "Mitsubishi Electric",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "e86104c7-cb0c-5c70-bb8a-22142fb35367",
+          "slug": "mitsubishi-electric-factory-automation",
+          "entity_type": "ORGANIZATION",
+          "name": "Mitsubishi Electric Factory Automation",
           "primary_embodiment": null,
           "roles": [
             "OEM"
@@ -569,6 +790,45 @@
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
+        "slug": "kyoto-jp",
+        "entity_type": "PLACE",
+        "name": "Kyoto",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.02107,
+      "lng": 135.75385,
+      "country_code": "JP",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
+          "slug": "omron",
+          "entity_type": "ORGANIZATION",
+          "name": "Omron",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "OEM"
+          ]
+        },
+        {
+          "id": "741f1002-cc4c-5800-83b9-23a2acedbdd3",
+          "slug": "omron-robotics-and-safety-technologies",
+          "entity_type": "ORGANIZATION",
+          "name": "OMRON Robotics and Safety Technologies",
+          "primary_embodiment": null,
+          "roles": [
             "OEM"
           ]
         }
@@ -730,84 +990,6 @@
     },
     {
       "place": {
-        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
-        "slug": "san-francisco-us",
-        "entity_type": "PLACE",
-        "name": "San Francisco",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 37.77493,
-      "lng": -122.41942,
-      "country_code": "US",
-      "cluster_label": null,
-      "weight": 2,
-      "entities": [
-        {
-          "id": "b6a79648-53aa-52c4-b749-dc9e63a0fd9e",
-          "slug": "built-robotics",
-          "entity_type": "ORGANIZATION",
-          "name": "Built Robotics",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM",
-            "TOOLING_OPS_PROVIDER"
-          ]
-        },
-        {
-          "id": "30c33b1a-f72d-52cf-a8f4-7497bb3e5809",
-          "slug": "starship-technologies",
-          "entity_type": "ORGANIZATION",
-          "name": "Starship Technologies",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM",
-            "OPERATOR"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 35.68,
-      "lng": 139.69,
-      "country_code": "JP",
-      "cluster_label": "Tokyo",
-      "weight": 2,
-      "entities": [
-        {
-          "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
-          "slug": "kawasaki-heavy-industries",
-          "entity_type": "ORGANIZATION",
-          "name": "Kawasaki Heavy Industries",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        },
-        {
-          "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
-          "slug": "mitsubishi-electric",
-          "entity_type": "ORGANIZATION",
-          "name": "Mitsubishi Electric",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "2efc1287-5e70-56dc-b8fc-87360ab6aaee",
         "slug": "aichi-jp",
         "entity_type": "PLACE",
@@ -826,6 +1008,34 @@
           "slug": "denso-wave",
           "entity_type": "ORGANIZATION",
           "name": "Denso Wave",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "eb3580be-f5c3-55bd-922b-0fbddbafd86d",
+        "slug": "akashi-jp",
+        "entity_type": "PLACE",
+        "name": "Akashi",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 34.65524,
+      "lng": 135.00687,
+      "country_code": "JP",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "36ba3dc3-39b5-5cb8-b667-edd290545d11",
+          "slug": "kawasaki-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Kawasaki Robotics",
           "primary_embodiment": null,
           "roles": [
             "OEM"
@@ -978,6 +1188,34 @@
     },
     {
       "place": {
+        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+        "slug": "cambridge-us",
+        "entity_type": "PLACE",
+        "name": "Cambridge",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.3751,
+      "lng": -71.10561,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "8be2103a-36ed-5146-948d-e5e889f75fcd",
+          "slug": "pickle-robot",
+          "entity_type": "ORGANIZATION",
+          "name": "Pickle Robot",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "89c3fb6d-39f8-56e2-8b98-72892938cf4e",
         "slug": "costa-mesa-us",
         "entity_type": "PLACE",
@@ -1120,6 +1358,34 @@
     },
     {
       "place": {
+        "id": "e5ac6fbb-d40f-5bea-baa0-ccd1fc7ec902",
+        "slug": "el-segundo-us",
+        "entity_type": "PLACE",
+        "name": "El Segundo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 33.91918,
+      "lng": -118.41647,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "67e17fde-a794-528f-ad6d-083177395d97",
+          "slug": "neros-technologies",
+          "entity_type": "ORGANIZATION",
+          "name": "Neros Technologies",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "487fa7f6-186a-511b-bb65-34206d589762",
         "slug": "foster-city-us",
         "entity_type": "PLACE",
@@ -1142,6 +1408,34 @@
           "roles": [
             "OEM",
             "OPERATOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "f220a2d5-4bb6-5fe5-9471-93f3ebc10ed8",
+        "slug": "fremont-us",
+        "entity_type": "PLACE",
+        "name": "Fremont",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.54827,
+      "lng": -121.98857,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "9979d195-abb9-55ef-a27f-a37fbaccbdad",
+          "slug": "anyware-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Anyware Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
           ]
         }
       ],
@@ -1293,6 +1587,34 @@
     },
     {
       "place": {
+        "id": "c5deecb8-ebcb-5d44-8195-57caf582e04a",
+        "slug": "houston-us",
+        "entity_type": "PLACE",
+        "name": "Houston",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 29.76328,
+      "lng": -95.36327,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "3c390220-cd8f-517d-8033-23b95f2ab8c2",
+          "slug": "persona-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Persona AI",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "5bcb67c0-400f-5bdf-a548-f07f8e03f271",
         "slug": "kingsburg-us",
         "entity_type": "PLACE",
@@ -1406,35 +1728,6 @@
     },
     {
       "place": {
-        "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
-        "slug": "kyoto-jp",
-        "entity_type": "PLACE",
-        "name": "Kyoto",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 35.02107,
-      "lng": 135.75385,
-      "country_code": "JP",
-      "cluster_label": null,
-      "weight": 1,
-      "entities": [
-        {
-          "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
-          "slug": "omron",
-          "entity_type": "ORGANIZATION",
-          "name": "Omron",
-          "primary_embodiment": null,
-          "roles": [
-            "COMPONENT_SUPPLIER",
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "40a54cc9-d4be-5ca4-a7a5-fc819c45a979",
         "slug": "las-vegas-us",
         "entity_type": "PLACE",
@@ -1484,6 +1777,63 @@
           "primary_embodiment": null,
           "roles": [
             "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "e13400f5-c868-5e08-bdcc-598eec98898c",
+        "slug": "martinez-us",
+        "entity_type": "PLACE",
+        "name": "Martinez",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 38.01937,
+      "lng": -122.13413,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "6b17293f-2bce-55a1-bfd3-716bff03b97c",
+          "slug": "hello-robot",
+          "entity_type": "ORGANIZATION",
+          "name": "Hello Robot",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+        "slug": "menlo-park-us",
+        "entity_type": "PLACE",
+        "name": "Menlo Park",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 40.51872,
+      "lng": -74.4121,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "b2019a1f-8ed0-51fd-9f1f-889ae8ff6290",
+          "slug": "cyngn",
+          "entity_type": "ORGANIZATION",
+          "name": "Cyngn",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "TOOLING_OPS_PROVIDER"
           ]
         }
       ],
@@ -1542,6 +1892,34 @@
           "roles": [
             "OEM",
             "OPERATOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "f13451e5-59c6-5cc4-9f6f-af5d58596aed",
+        "slug": "moissy-cramayel-fr",
+        "entity_type": "PLACE",
+        "name": "Moissy-Cramayel",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.62605,
+      "lng": 2.60125,
+      "country_code": "FR",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "cadcfc14-a9ca-5b29-b6de-ca70abc1fe70",
+          "slug": "balyo",
+          "entity_type": "ORGANIZATION",
+          "name": "BALYO",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
           ]
         }
       ],
@@ -1634,6 +2012,34 @@
     },
     {
       "place": {
+        "id": "83e4330e-450b-5bde-bb20-10efeb1b3f3d",
+        "slug": "nashua-us",
+        "entity_type": "PLACE",
+        "name": "Nashua",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.76537,
+      "lng": -71.46757,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "51cb9897-86dc-568f-ae31-308e6d798a69",
+          "slug": "ondas-holdings",
+          "entity_type": "ORGANIZATION",
+          "name": "Ondas Holdings",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "8d7f2920-6b42-5180-a460-2908206e392f",
         "slug": "nedre-vats",
         "entity_type": "PLACE",
@@ -1683,6 +2089,63 @@
           "name": "SharkNinja",
           "primary_embodiment": null,
           "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "9bf3ce7d-d789-5007-b9fa-0dc92635b59a",
+        "slug": "neukirchen-an-der-vockla-at",
+        "entity_type": "PLACE",
+        "name": "Neukirchen an der Vockla",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.04053,
+      "lng": 13.5376,
+      "country_code": "AT",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "8ce846e6-4168-5353-9f34-02db1d388530",
+          "slug": "agilox",
+          "entity_type": "ORGANIZATION",
+          "name": "AGILOX",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "2df6cbec-96e1-5011-8fde-ee035d3a4100",
+        "slug": "neunkirchen-de",
+        "entity_type": "PLACE",
+        "name": "Neunkirchen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 49.34449,
+      "lng": 7.18045,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "698e5de5-1374-5cd4-bfe9-ed825b2069a6",
+          "slug": "ssi-schaefer",
+          "entity_type": "ORGANIZATION",
+          "name": "SSI Schaefer",
+          "primary_embodiment": null,
+          "roles": [
+            "INTEGRATOR",
             "OEM"
           ]
         }
@@ -1834,6 +2297,34 @@
     },
     {
       "place": {
+        "id": "64c572da-6e62-53c6-a163-7b492021c41b",
+        "slug": "redwood-city-us",
+        "entity_type": "PLACE",
+        "name": "Redwood City",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.48522,
+      "lng": -122.23635,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "cd3a41d8-d213-51a8-8219-22f6556e876d",
+          "slug": "dexterity",
+          "entity_type": "ORGANIZATION",
+          "name": "Dexterity",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "6553850c-ac3a-5321-baec-c47853b493a4",
         "slug": "riga",
         "entity_type": "PLACE",
@@ -1920,27 +2411,82 @@
     },
     {
       "place": {
-        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
-        "slug": "san-diego",
+        "id": "1b0dd3c7-4331-5972-9dfe-a2ae65767342",
+        "slug": "san-antonio-us",
         "entity_type": "PLACE",
-        "name": "San Diego",
+        "name": "San Antonio",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 32.72,
-      "lng": -117.16,
+      "lat": 29.42412,
+      "lng": -98.49363,
       "country_code": "US",
-      "cluster_label": "San Diego",
+      "cluster_label": null,
       "weight": 1,
       "entities": [
         {
-          "id": "67529b36-5a36-5d97-8986-8a6e478af3cf",
-          "slug": "shield-ai",
+          "id": "3b6de032-bad4-5515-b22b-a31cc374bbbb",
+          "slug": "plus-one-robotics",
           "entity_type": "ORGANIZATION",
-          "name": "Shield AI",
+          "name": "Plus One Robotics",
           "primary_embodiment": null,
           "roles": [
-            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "ee36c552-7ee7-5fe5-992b-310ca9213731",
+        "slug": "san-carlos-us",
+        "entity_type": "PLACE",
+        "name": "San Carlos",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.50716,
+      "lng": -122.26052,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "2de8d5bb-ccda-5b7d-9356-ae286c62de32",
+          "slug": "robust-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Robust AI",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "a1aebde3-23c1-5ed4-b2f7-b94810876442",
+        "slug": "san-juan-pr",
+        "entity_type": "PLACE",
+        "name": "San Juan",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 18.46633,
+      "lng": -66.10572,
+      "country_code": "PR",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "0984054f-ddb7-5435-a2b0-3378d10477bb",
+          "slug": "red-cat-holdings",
+          "entity_type": "ORGANIZATION",
+          "name": "Red Cat Holdings",
+          "primary_embodiment": null,
+          "roles": [
             "OEM"
           ]
         }
@@ -1970,6 +2516,34 @@
           "primary_embodiment": null,
           "roles": [
             "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "63ccbe6b-72ba-51c9-b8c6-bb521fc06f00",
+        "slug": "saskatoon-ca",
+        "entity_type": "PLACE",
+        "name": "Saskatoon",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 52.13238,
+      "lng": -106.66892,
+      "country_code": "CA",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "a0dbfc00-b38d-5264-a68b-6496fc640f93",
+          "slug": "draganfly",
+          "entity_type": "ORGANIZATION",
+          "name": "Draganfly",
+          "primary_embodiment": null,
+          "roles": [
             "OEM"
           ]
         }
@@ -2034,6 +2608,34 @@
     },
     {
       "place": {
+        "id": "c899c430-7581-50bb-b29d-8b07a44152f9",
+        "slug": "somerville-us",
+        "entity_type": "PLACE",
+        "name": "Somerville",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.3876,
+      "lng": -71.0995,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "62513e40-2762-5045-9557-457c07eedcfa",
+          "slug": "righthand-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "RightHand Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
         "slug": "sunnyvale-us",
         "entity_type": "PLACE",
@@ -2052,6 +2654,34 @@
           "slug": "intuitive-surgical",
           "entity_type": "ORGANIZATION",
           "name": "Intuitive Surgical",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "f3f2a6ee-260f-57b7-8b9b-222a981ff1ce",
+        "slug": "suwa-jp",
+        "entity_type": "PLACE",
+        "name": "Suwa",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 36.03799,
+      "lng": 138.11308,
+      "country_code": "JP",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "fa05bb8b-8288-53b6-9088-f3117e4d4788",
+          "slug": "epson-robots",
+          "entity_type": "ORGANIZATION",
+          "name": "Epson Robots",
           "primary_embodiment": null,
           "roles": [
             "OEM"
@@ -2232,6 +2862,35 @@
     },
     {
       "place": {
+        "id": "f5c0fffc-8777-5f3b-a809-9384e721f794",
+        "slug": "tel-aviv-il",
+        "entity_type": "PLACE",
+        "name": "Tel Aviv",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 32.08088,
+      "lng": 34.78057,
+      "country_code": "IL",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "e9832a75-158a-508b-970f-0536d4d3bce0",
+          "slug": "flytrex",
+          "entity_type": "ORGANIZATION",
+          "name": "Flytrex",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "OPERATOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "212688c4-8a28-5955-9cc4-ad6541c91681",
         "slug": "torrance-us",
         "entity_type": "PLACE",
@@ -2261,6 +2920,34 @@
     },
     {
       "place": {
+        "id": "d90910bc-ff2f-513c-98fd-affc6788bdcd",
+        "slug": "toyama-jp",
+        "entity_type": "PLACE",
+        "name": "Toyama",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 36.7,
+      "lng": 137.21667,
+      "country_code": "JP",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "904c5a73-f7da-5389-af14-f05030791980",
+          "slug": "nachi-fujikoshi",
+          "entity_type": "ORGANIZATION",
+          "name": "Nachi-Fujikoshi",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "5580bc90-425d-51a4-aa81-3a5ae62a5717",
         "slug": "trondheim-no",
         "entity_type": "PLACE",
@@ -2279,6 +2966,34 @@
           "slug": "eelume",
           "entity_type": "ORGANIZATION",
           "name": "Eelume",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "4ee909aa-8315-5557-9b48-bc8596dbd43c",
+        "slug": "turin-it",
+        "entity_type": "PLACE",
+        "name": "Turin",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 45.07049,
+      "lng": 7.68682,
+      "country_code": "IT",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "6cebf86e-4e8b-506e-ad35-d1d09169dd77",
+          "slug": "comau",
+          "entity_type": "ORGANIZATION",
+          "name": "Comau",
           "primary_embodiment": null,
           "roles": [
             "OEM"
@@ -2349,19 +3064,25 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 41,
-      "places": 26
+      "weight": 56,
+      "places": 37
     },
     {
       "id": "CN",
       "label": "CN",
-      "weight": 18,
+      "weight": 24,
       "places": 6
     },
     {
       "id": "JP",
       "label": "JP",
-      "weight": 7,
+      "weight": 12,
+      "places": 9
+    },
+    {
+      "id": "DE",
+      "label": "DE",
+      "weight": 6,
       "places": 6
     },
     {
@@ -2369,12 +3090,6 @@
       "label": "CH",
       "weight": 5,
       "places": 2
-    },
-    {
-      "id": "DE",
-      "label": "DE",
-      "weight": 5,
-      "places": 5
     },
     {
       "id": "KR",
@@ -2395,14 +3110,26 @@
       "places": 4
     },
     {
+      "id": "CA",
+      "label": "CA",
+      "weight": 3,
+      "places": 3
+    },
+    {
       "id": "GB",
       "label": "GB",
       "weight": 3,
       "places": 2
     },
     {
-      "id": "CA",
-      "label": "CA",
+      "id": "IL",
+      "label": "IL",
+      "weight": 3,
+      "places": 3
+    },
+    {
+      "id": "AT",
+      "label": "AT",
       "weight": 2,
       "places": 2
     },
@@ -2413,16 +3140,10 @@
       "places": 1
     },
     {
-      "id": "IL",
-      "label": "IL",
+      "id": "FR",
+      "label": "FR",
       "weight": 2,
       "places": 2
-    },
-    {
-      "id": "AT",
-      "label": "AT",
-      "weight": 1,
-      "places": 1
     },
     {
       "id": "EE",
@@ -2431,8 +3152,8 @@
       "places": 1
     },
     {
-      "id": "FR",
-      "label": "FR",
+      "id": "IT",
+      "label": "IT",
       "weight": 1,
       "places": 1
     },
@@ -2447,18 +3168,24 @@
       "label": "NL",
       "weight": 1,
       "places": 1
+    },
+    {
+      "id": "PR",
+      "label": "PR",
+      "weight": 1,
+      "places": 1
     }
   ],
   "corridors": [
     {
-      "id": "Bay Area",
-      "label": "Bay Area",
-      "weight": 7,
+      "id": "Shenzhen",
+      "label": "Shenzhen",
+      "weight": 10,
       "places": 1
     },
     {
-      "id": "Shenzhen",
-      "label": "Shenzhen",
+      "id": "Bay Area",
+      "label": "Bay Area",
       "weight": 7,
       "places": 1
     },
@@ -2469,20 +3196,32 @@
       "places": 2
     },
     {
+      "id": "Beijing",
+      "label": "Beijing",
+      "weight": 5,
+      "places": 1
+    },
+    {
       "id": "Shanghai",
       "label": "Shanghai",
-      "weight": 4,
+      "weight": 5,
       "places": 1
     },
     {
       "id": "Austin",
       "label": "Austin",
+      "weight": 4,
+      "places": 1
+    },
+    {
+      "id": "San Diego",
+      "label": "San Diego",
       "weight": 3,
       "places": 1
     },
     {
-      "id": "Beijing",
-      "label": "Beijing",
+      "id": "Tokyo",
+      "label": "Tokyo",
       "weight": 3,
       "places": 1
     },
@@ -2519,12 +3258,6 @@
     {
       "id": "Odense",
       "label": "Odense",
-      "weight": 2,
-      "places": 1
-    },
-    {
-      "id": "Tokyo",
-      "label": "Tokyo",
       "weight": 2,
       "places": 1
     },
@@ -2579,12 +3312,6 @@
     {
       "id": "Riga",
       "label": "Riga",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "San Diego",
-      "label": "San Diego",
       "weight": 1,
       "places": 1
     },
@@ -2644,6 +3371,209 @@
     }
   ],
   "list": [
+    {
+      "entity": {
+        "id": "794f4f80-f85e-5519-a62a-111900984b04",
+        "slug": "astribot",
+        "entity_type": "ORGANIZATION",
+        "name": "Astribot",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
+        "slug": "dji",
+        "entity_type": "ORGANIZATION",
+        "name": "DJI",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "a1cb2e01-3aab-5fa2-925d-4f4458bf0bf4",
+        "slug": "engineai",
+        "entity_type": "ORGANIZATION",
+        "name": "EngineAI",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b0007af9-3984-5819-97f2-8069aab47be5",
+        "slug": "hai-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "HAI Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "593e0170-e678-51f0-8d2f-14e0b1d5e7e2",
+        "slug": "limx-dynamics",
+        "entity_type": "ORGANIZATION",
+        "name": "LimX Dynamics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "5b1f1358-9f7b-56b2-ab93-e6f3e896dacb",
+        "slug": "pudu-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Pudu Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "738faacd-b6ff-50f9-8ee9-e116282284dc",
+        "slug": "shenzhen-inovance-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Shenzhen Inovance Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "8833ee81-8bf2-5498-87e0-b4749c8f2bcd",
+        "slug": "syrius-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Syrius Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
+        "slug": "ubtech",
+        "entity_type": "ORGANIZATION",
+        "name": "UBTech Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "a235ccba-64cc-5c80-ab3e-40a7c7792bc8",
+        "slug": "x-square-robot",
+        "entity_type": "ORGANIZATION",
+        "name": "X Square Robot",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
     {
       "entity": {
         "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
@@ -2792,143 +3722,104 @@
     },
     {
       "entity": {
-        "id": "794f4f80-f85e-5519-a62a-111900984b04",
-        "slug": "astribot",
+        "id": "a2ed497b-0137-5511-8311-819a10e08a63",
+        "slug": "beijing-humanoid-robot-innovation-center-x-humanoid",
         "entity_type": "ORGANIZATION",
-        "name": "Astribot",
+        "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
         "primary_embodiment": null,
         "roles": [
+          "DATA_SIMULATION_PROVIDER",
           "MODEL_DEVELOPER",
-          "OEM"
+          "OEM",
+          "RESEARCH_LAB"
         ]
       },
       "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
         "entity_type": "PLACE",
-        "name": "Shenzhen",
+        "name": "Beijing",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
-        "slug": "dji",
+        "id": "ce79d317-38c7-5731-a800-14bf4e0adf0a",
+        "slug": "booster-robotics",
         "entity_type": "ORGANIZATION",
-        "name": "DJI",
+        "name": "Booster Robotics",
         "primary_embodiment": null,
         "roles": [
           "OEM"
         ]
       },
       "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
         "entity_type": "PLACE",
-        "name": "Shenzhen",
+        "name": "Beijing",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "593e0170-e678-51f0-8d2f-14e0b1d5e7e2",
-        "slug": "limx-dynamics",
+        "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
+        "slug": "galbot",
         "entity_type": "ORGANIZATION",
-        "name": "LimX Dynamics",
+        "name": "Galbot",
         "primary_embodiment": null,
         "roles": [
-          "OEM"
+          "OEM",
+          "OPERATOR"
         ]
       },
       "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
         "entity_type": "PLACE",
-        "name": "Shenzhen",
+        "name": "Beijing",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "5b1f1358-9f7b-56b2-ab93-e6f3e896dacb",
-        "slug": "pudu-robotics",
+        "id": "2af4b707-5460-5da6-b7ad-3addf359a049",
+        "slug": "geek-plus",
         "entity_type": "ORGANIZATION",
-        "name": "Pudu Robotics",
+        "name": "Geek+",
         "primary_embodiment": null,
         "roles": [
           "OEM"
         ]
       },
       "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
         "entity_type": "PLACE",
-        "name": "Shenzhen",
+        "name": "Beijing",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "738faacd-b6ff-50f9-8ee9-e116282284dc",
-        "slug": "shenzhen-inovance-technology",
+        "id": "71d897d0-4c79-5632-9553-b8e6029bbde3",
+        "slug": "roborock",
         "entity_type": "ORGANIZATION",
-        "name": "Shenzhen Inovance Technology",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER",
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
-        "entity_type": "PLACE",
-        "name": "Shenzhen",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
-        "slug": "ubtech",
-        "entity_type": "ORGANIZATION",
-        "name": "UBTech Robotics",
+        "name": "Roborock",
         "primary_embodiment": null,
         "roles": [
           "OEM"
         ]
       },
       "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
         "entity_type": "PLACE",
-        "name": "Shenzhen",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "a235ccba-64cc-5c80-ab3e-40a7c7792bc8",
-        "slug": "x-square-robot",
-        "entity_type": "ORGANIZATION",
-        "name": "X Square Robot",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
-        "entity_type": "PLACE",
-        "name": "Shenzhen",
+        "name": "Beijing",
         "primary_embodiment": null,
         "roles": []
       }
@@ -3118,6 +4009,26 @@
     },
     {
       "entity": {
+        "id": "59221dd7-908d-5fb0-81b0-2a782c10cf78",
+        "slug": "quicktron",
+        "entity_type": "ORGANIZATION",
+        "name": "Quicktron",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
         "slug": "apptronik",
         "entity_type": "ORGANIZATION",
@@ -3178,10 +4089,113 @@
     },
     {
       "entity": {
-        "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
-        "slug": "galbot",
+        "id": "58b33197-ea85-582a-b1dc-b1d3ff207e35",
+        "slug": "saronic-technologies",
         "entity_type": "ORGANIZATION",
-        "name": "Galbot",
+        "name": "Saronic Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c9625e94-0914-541a-a773-0c673a77a1fd",
+        "slug": "austin",
+        "entity_type": "PLACE",
+        "name": "Austin",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "2546b2b2-db58-5803-a3f8-fbd802ddee49",
+        "slug": "havocai",
+        "entity_type": "ORGANIZATION",
+        "name": "HavocAI",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+        "slug": "san-diego",
+        "entity_type": "PLACE",
+        "name": "San Diego",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "050586f3-ac44-5ca2-8bda-f9e9387abbd8",
+        "slug": "seasats",
+        "entity_type": "ORGANIZATION",
+        "name": "Seasats",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+        "slug": "san-diego",
+        "entity_type": "PLACE",
+        "name": "San Diego",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "67529b36-5a36-5d97-8986-8a6e478af3cf",
+        "slug": "shield-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Shield AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+        "slug": "san-diego",
+        "entity_type": "PLACE",
+        "name": "San Diego",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b6a79648-53aa-52c4-b749-dc9e63a0fd9e",
+        "slug": "built-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Built Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "30c33b1a-f72d-52cf-a8f4-7497bb3e5809",
+        "slug": "starship-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "Starship Technologies",
         "primary_embodiment": null,
         "roles": [
           "OEM",
@@ -3189,50 +4203,90 @@
         ]
       },
       "place": {
-        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
-        "slug": "beijing",
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
         "entity_type": "PLACE",
-        "name": "Beijing",
+        "name": "San Francisco",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "2af4b707-5460-5da6-b7ad-3addf359a049",
-        "slug": "geek-plus",
+        "id": "1aa2c2aa-6350-57f8-9cc4-e92400e8af04",
+        "slug": "weave-robotics",
         "entity_type": "ORGANIZATION",
-        "name": "Geek+",
+        "name": "Weave Robotics",
         "primary_embodiment": null,
         "roles": [
           "OEM"
         ]
       },
       "place": {
-        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
-        "slug": "beijing",
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
         "entity_type": "PLACE",
-        "name": "Beijing",
+        "name": "San Francisco",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "71d897d0-4c79-5632-9553-b8e6029bbde3",
-        "slug": "roborock",
+        "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
+        "slug": "kawasaki-heavy-industries",
         "entity_type": "ORGANIZATION",
-        "name": "Roborock",
+        "name": "Kawasaki Heavy Industries",
         "primary_embodiment": null,
         "roles": [
           "OEM"
         ]
       },
       "place": {
-        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
-        "slug": "beijing",
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
         "entity_type": "PLACE",
-        "name": "Beijing",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
+        "slug": "mitsubishi-electric",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e86104c7-cb0c-5c70-bb8a-22142fb35367",
+        "slug": "mitsubishi-electric-factory-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric Factory Automation",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
         "primary_embodiment": null,
         "roles": []
       }
@@ -3375,6 +4429,47 @@
         "slug": "hangzhou",
         "entity_type": "PLACE",
         "name": "Hangzhou",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
+        "slug": "omron",
+        "entity_type": "ORGANIZATION",
+        "name": "Omron",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
+        "slug": "kyoto-jp",
+        "entity_type": "PLACE",
+        "name": "Kyoto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "741f1002-cc4c-5800-83b9-23a2acedbdd3",
+        "slug": "omron-robotics-and-safety-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "OMRON Robotics and Safety Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
+        "slug": "kyoto-jp",
+        "entity_type": "PLACE",
+        "name": "Kyoto",
         "primary_embodiment": null,
         "roles": []
       }
@@ -3542,88 +4637,6 @@
     },
     {
       "entity": {
-        "id": "b6a79648-53aa-52c4-b749-dc9e63a0fd9e",
-        "slug": "built-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "Built Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM",
-          "TOOLING_OPS_PROVIDER"
-        ]
-      },
-      "place": {
-        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
-        "slug": "san-francisco-us",
-        "entity_type": "PLACE",
-        "name": "San Francisco",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "30c33b1a-f72d-52cf-a8f4-7497bb3e5809",
-        "slug": "starship-technologies",
-        "entity_type": "ORGANIZATION",
-        "name": "Starship Technologies",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM",
-          "OPERATOR"
-        ]
-      },
-      "place": {
-        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
-        "slug": "san-francisco-us",
-        "entity_type": "PLACE",
-        "name": "San Francisco",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
-        "slug": "kawasaki-heavy-industries",
-        "entity_type": "ORGANIZATION",
-        "name": "Kawasaki Heavy Industries",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
-        "slug": "mitsubishi-electric",
-        "entity_type": "ORGANIZATION",
-        "name": "Mitsubishi Electric",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
         "id": "0fd9e03c-f1bf-5be4-bb84-9347514c0106",
         "slug": "denso-wave",
         "entity_type": "ORGANIZATION",
@@ -3638,6 +4651,26 @@
         "slug": "aichi-jp",
         "entity_type": "PLACE",
         "name": "Aichi",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "36ba3dc3-39b5-5cb8-b667-edd290545d11",
+        "slug": "kawasaki-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Kawasaki Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "eb3580be-f5c3-55bd-922b-0fbddbafd86d",
+        "slug": "akashi-jp",
+        "entity_type": "PLACE",
+        "name": "Akashi",
         "primary_embodiment": null,
         "roles": []
       }
@@ -3746,6 +4779,26 @@
     },
     {
       "entity": {
+        "id": "8be2103a-36ed-5146-948d-e5e889f75fcd",
+        "slug": "pickle-robot",
+        "entity_type": "ORGANIZATION",
+        "name": "Pickle Robot",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+        "slug": "cambridge-us",
+        "entity_type": "PLACE",
+        "name": "Cambridge",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "f594c0d3-52d7-58f5-add7-37de9d62dcde",
         "slug": "anduril",
         "entity_type": "ORGANIZATION",
@@ -3848,6 +4901,26 @@
     },
     {
       "entity": {
+        "id": "67e17fde-a794-528f-ad6d-083177395d97",
+        "slug": "neros-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "Neros Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "e5ac6fbb-d40f-5bea-baa0-ccd1fc7ec902",
+        "slug": "el-segundo-us",
+        "entity_type": "PLACE",
+        "name": "El Segundo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "e1a62352-441d-5638-9cb2-5e9a3a282bfd",
         "slug": "zoox",
         "entity_type": "ORGANIZATION",
@@ -3863,6 +4936,26 @@
         "slug": "foster-city-us",
         "entity_type": "PLACE",
         "name": "Foster City",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9979d195-abb9-55ef-a27f-a37fbaccbdad",
+        "slug": "anyware-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Anyware Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "f220a2d5-4bb6-5fe5-9471-93f3ebc10ed8",
+        "slug": "fremont-us",
+        "entity_type": "PLACE",
+        "name": "Fremont",
         "primary_embodiment": null,
         "roles": []
       }
@@ -3973,6 +5066,26 @@
     },
     {
       "entity": {
+        "id": "3c390220-cd8f-517d-8033-23b95f2ab8c2",
+        "slug": "persona-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Persona AI",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c5deecb8-ebcb-5d44-8195-57caf582e04a",
+        "slug": "houston-us",
+        "entity_type": "PLACE",
+        "name": "Houston",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "cb250a1e-35f9-5f37-bf80-1f5dae1ef3e1",
         "slug": "guss-automation",
         "entity_type": "ORGANIZATION",
@@ -4054,27 +5167,6 @@
     },
     {
       "entity": {
-        "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
-        "slug": "omron",
-        "entity_type": "ORGANIZATION",
-        "name": "Omron",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER",
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
-        "slug": "kyoto-jp",
-        "entity_type": "PLACE",
-        "name": "Kyoto",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
         "id": "b34506e9-5b1a-556a-9d7b-3f56038e1822",
         "slug": "richtech-robotics",
         "entity_type": "ORGANIZATION",
@@ -4109,6 +5201,47 @@
         "slug": "lincolnshire",
         "entity_type": "PLACE",
         "name": "Lincolnshire",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "6b17293f-2bce-55a1-bfd3-716bff03b97c",
+        "slug": "hello-robot",
+        "entity_type": "ORGANIZATION",
+        "name": "Hello Robot",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "e13400f5-c868-5e08-bdcc-598eec98898c",
+        "slug": "martinez-us",
+        "entity_type": "PLACE",
+        "name": "Martinez",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b2019a1f-8ed0-51fd-9f1f-889ae8ff6290",
+        "slug": "cyngn",
+        "entity_type": "ORGANIZATION",
+        "name": "Cyngn",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+        "slug": "menlo-park-us",
+        "entity_type": "PLACE",
+        "name": "Menlo Park",
         "primary_embodiment": null,
         "roles": []
       }
@@ -4151,6 +5284,26 @@
         "slug": "modiin",
         "entity_type": "PLACE",
         "name": "Modiin",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "cadcfc14-a9ca-5b29-b6de-ca70abc1fe70",
+        "slug": "balyo",
+        "entity_type": "ORGANIZATION",
+        "name": "BALYO",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "f13451e5-59c6-5cc4-9f6f-af5d58596aed",
+        "slug": "moissy-cramayel-fr",
+        "entity_type": "PLACE",
+        "name": "Moissy-Cramayel",
         "primary_embodiment": null,
         "roles": []
       }
@@ -4218,6 +5371,26 @@
     },
     {
       "entity": {
+        "id": "51cb9897-86dc-568f-ae31-308e6d798a69",
+        "slug": "ondas-holdings",
+        "entity_type": "ORGANIZATION",
+        "name": "Ondas Holdings",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "83e4330e-450b-5bde-bb20-10efeb1b3f3d",
+        "slug": "nashua-us",
+        "entity_type": "PLACE",
+        "name": "Nashua",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "32f4fe35-c685-537a-8ef0-68cd02e5ccc9",
         "slug": "autostore",
         "entity_type": "ORGANIZATION",
@@ -4253,6 +5426,47 @@
         "slug": "needham-us",
         "entity_type": "PLACE",
         "name": "Needham",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "8ce846e6-4168-5353-9f34-02db1d388530",
+        "slug": "agilox",
+        "entity_type": "ORGANIZATION",
+        "name": "AGILOX",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "9bf3ce7d-d789-5007-b9fa-0dc92635b59a",
+        "slug": "neukirchen-an-der-vockla-at",
+        "entity_type": "PLACE",
+        "name": "Neukirchen an der Vockla",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "698e5de5-1374-5cd4-bfe9-ed825b2069a6",
+        "slug": "ssi-schaefer",
+        "entity_type": "ORGANIZATION",
+        "name": "SSI Schaefer",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "2df6cbec-96e1-5011-8fde-ee035d3a4100",
+        "slug": "neunkirchen-de",
+        "entity_type": "PLACE",
+        "name": "Neunkirchen",
         "primary_embodiment": null,
         "roles": []
       }
@@ -4362,6 +5576,26 @@
     },
     {
       "entity": {
+        "id": "cd3a41d8-d213-51a8-8219-22f6556e876d",
+        "slug": "dexterity",
+        "entity_type": "ORGANIZATION",
+        "name": "Dexterity",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "64c572da-6e62-53c6-a163-7b492021c41b",
+        "slug": "redwood-city-us",
+        "entity_type": "PLACE",
+        "name": "Redwood City",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
         "slug": "aerones",
         "entity_type": "ORGANIZATION",
@@ -4424,21 +5658,60 @@
     },
     {
       "entity": {
-        "id": "67529b36-5a36-5d97-8986-8a6e478af3cf",
-        "slug": "shield-ai",
+        "id": "3b6de032-bad4-5515-b22b-a31cc374bbbb",
+        "slug": "plus-one-robotics",
         "entity_type": "ORGANIZATION",
-        "name": "Shield AI",
+        "name": "Plus One Robotics",
         "primary_embodiment": null,
         "roles": [
-          "MODEL_DEVELOPER",
           "OEM"
         ]
       },
       "place": {
-        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
-        "slug": "san-diego",
+        "id": "1b0dd3c7-4331-5972-9dfe-a2ae65767342",
+        "slug": "san-antonio-us",
         "entity_type": "PLACE",
-        "name": "San Diego",
+        "name": "San Antonio",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "2de8d5bb-ccda-5b7d-9356-ae286c62de32",
+        "slug": "robust-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Robust AI",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "ee36c552-7ee7-5fe5-992b-310ca9213731",
+        "slug": "san-carlos-us",
+        "entity_type": "PLACE",
+        "name": "San Carlos",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "0984054f-ddb7-5435-a2b0-3378d10477bb",
+        "slug": "red-cat-holdings",
+        "entity_type": "ORGANIZATION",
+        "name": "Red Cat Holdings",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "a1aebde3-23c1-5ed4-b2f7-b94810876442",
+        "slug": "san-juan-pr",
+        "entity_type": "PLACE",
+        "name": "San Juan",
         "primary_embodiment": null,
         "roles": []
       }
@@ -4460,6 +5733,26 @@
         "slug": "san-mateo-us",
         "entity_type": "PLACE",
         "name": "San Mateo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "a0dbfc00-b38d-5264-a68b-6496fc640f93",
+        "slug": "draganfly",
+        "entity_type": "ORGANIZATION",
+        "name": "Draganfly",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "63ccbe6b-72ba-51c9-b8c6-bb521fc06f00",
+        "slug": "saskatoon-ca",
+        "entity_type": "PLACE",
+        "name": "Saskatoon",
         "primary_embodiment": null,
         "roles": []
       }
@@ -4506,6 +5799,26 @@
     },
     {
       "entity": {
+        "id": "62513e40-2762-5045-9557-457c07eedcfa",
+        "slug": "righthand-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "RightHand Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c899c430-7581-50bb-b29d-8b07a44152f9",
+        "slug": "somerville-us",
+        "entity_type": "PLACE",
+        "name": "Somerville",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "9c989a06-5dc7-5b95-b411-b37bf58169dc",
         "slug": "intuitive-surgical",
         "entity_type": "ORGANIZATION",
@@ -4520,6 +5833,26 @@
         "slug": "sunnyvale-us",
         "entity_type": "PLACE",
         "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "fa05bb8b-8288-53b6-9088-f3117e4d4788",
+        "slug": "epson-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Epson Robots",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "f3f2a6ee-260f-57b7-8b9b-222a981ff1ce",
+        "slug": "suwa-jp",
+        "entity_type": "PLACE",
+        "name": "Suwa",
         "primary_embodiment": null,
         "roles": []
       }
@@ -4648,6 +5981,27 @@
     },
     {
       "entity": {
+        "id": "e9832a75-158a-508b-970f-0536d4d3bce0",
+        "slug": "flytrex",
+        "entity_type": "ORGANIZATION",
+        "name": "Flytrex",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
+      },
+      "place": {
+        "id": "f5c0fffc-8777-5f3b-a809-9384e721f794",
+        "slug": "tel-aviv-il",
+        "entity_type": "PLACE",
+        "name": "Tel Aviv",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "b4c8d070-a234-5efe-bbb5-cd45f66692ef",
         "slug": "blue-robotics",
         "entity_type": "ORGANIZATION",
@@ -4669,6 +6023,26 @@
     },
     {
       "entity": {
+        "id": "904c5a73-f7da-5389-af14-f05030791980",
+        "slug": "nachi-fujikoshi",
+        "entity_type": "ORGANIZATION",
+        "name": "Nachi-Fujikoshi",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "d90910bc-ff2f-513c-98fd-affc6788bdcd",
+        "slug": "toyama-jp",
+        "entity_type": "PLACE",
+        "name": "Toyama",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "495978d6-89e0-520a-8ece-e3e7a2e264fb",
         "slug": "eelume",
         "entity_type": "ORGANIZATION",
@@ -4683,6 +6057,26 @@
         "slug": "trondheim-no",
         "entity_type": "PLACE",
         "name": "Trondheim",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "6cebf86e-4e8b-506e-ad35-d1d09169dd77",
+        "slug": "comau",
+        "entity_type": "ORGANIZATION",
+        "name": "Comau",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "4ee909aa-8315-5557-9b48-bc8596dbd43c",
+        "slug": "turin-it",
+        "entity_type": "PLACE",
+        "name": "Turin",
         "primary_embodiment": null,
         "roles": []
       }

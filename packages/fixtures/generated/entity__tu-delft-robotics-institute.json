@@ -84,6 +84,32 @@
   ],
   "relationships": [
     {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "abd3c593-ce36-5d0d-a3ed-b2e7adeeb793",
+          "target": {
+            "id": "3054f784-90fe-53a8-9563-3cbb39db0565",
+            "slug": "delft-nl",
+            "entity_type": "PLACE",
+            "name": "Delft",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "PART_OF",
       "label": "is part of",
       "items": [
@@ -125,6 +151,16 @@
           "RESEARCH_LAB"
         ]
       }
+    ],
+    "places": [
+      {
+        "id": "3054f784-90fe-53a8-9563-3cbb39db0565",
+        "slug": "delft-nl",
+        "entity_type": "PLACE",
+        "name": "Delft",
+        "primary_embodiment": null,
+        "roles": []
+      }
     ]
   },
   "intelligence": {
@@ -134,15 +170,15 @@
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
-        "ANALYST": 0
+        "ANALYST": 1
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

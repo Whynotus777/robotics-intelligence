@@ -106,6 +106,28 @@
           }
         },
         {
+          "claim_id": "b82df482-43a7-5de6-9cb8-97ecd2f99947",
+          "source": {
+            "id": "59221dd7-908d-5fb0-81b0-2a782c10cf78",
+            "slug": "quicktron",
+            "entity_type": "ORGANIZATION",
+            "name": "Quicktron",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "c1246d87-59fb-56c9-9559-3656f32472ba",
           "source": {
             "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
@@ -146,6 +168,29 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "e457c91b-6f51-5c9b-aa4f-e4db05f0fd8e",
+          "source": {
+            "id": "c2835dc8-4a39-5504-8a05-f166ce244f44",
+            "slug": "shanghai-ai-laboratory",
+            "entity_type": "ORGANIZATION",
+            "name": "Shanghai AI Laboratory",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
             "source_count": 1
           }
         },
@@ -256,6 +301,27 @@
         ]
       },
       {
+        "id": "59221dd7-908d-5fb0-81b0-2a782c10cf78",
+        "slug": "quicktron",
+        "entity_type": "ORGANIZATION",
+        "name": "Quicktron",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      {
+        "id": "c2835dc8-4a39-5504-8a05-f166ce244f44",
+        "slug": "shanghai-ai-laboratory",
+        "entity_type": "ORGANIZATION",
+        "name": "Shanghai AI Laboratory",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      {
         "id": "41685113-7b6f-5b2f-8d29-8e959a9a5a4c",
         "slug": "shanghai-ant-lingbo-technology-robbyant",
         "entity_type": "ORGANIZATION",
@@ -292,7 +358,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 7
+    "related_count": 9
   },
   "as_of": null
 }

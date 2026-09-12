@@ -84,6 +84,31 @@
           }
         },
         {
+          "claim_id": "6883497f-9366-54c9-92c3-f30e0110e437",
+          "source": {
+            "id": "a2ed497b-0137-5511-8311-819a10e08a63",
+            "slug": "beijing-humanoid-robot-innovation-center-x-humanoid",
+            "entity_type": "ORGANIZATION",
+            "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER",
+              "MODEL_DEVELOPER",
+              "OEM",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "8199a8f1-5711-5363-9813-fe4f7015d873",
           "source": {
             "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
@@ -103,6 +128,28 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "912b5fce-a98a-5bd4-8b40-d615c65a18cc",
+          "source": {
+            "id": "ce79d317-38c7-5731-a800-14bf4e0adf0a",
+            "slug": "booster-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Booster Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
             "source_count": 1
           }
         },
@@ -150,6 +197,28 @@
             "confidence": "MEDIUM",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "fedbec80-6b03-5032-aec2-2f491448d9f3",
+          "source": {
+            "id": "bc0be7e8-7ed3-5d44-b413-73c156032fee",
+            "slug": "beijing-institute-for-general-artificial-intelligence-bigai",
+            "entity_type": "ORGANIZATION",
+            "name": "Beijing Institute for General Artificial Intelligence (BIGAI)",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -165,6 +234,39 @@
         "roles": [
           "MODEL_DEVELOPER",
           "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      {
+        "id": "a2ed497b-0137-5511-8311-819a10e08a63",
+        "slug": "beijing-humanoid-robot-innovation-center-x-humanoid",
+        "entity_type": "ORGANIZATION",
+        "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER",
+          "OEM",
+          "RESEARCH_LAB"
+        ]
+      },
+      {
+        "id": "bc0be7e8-7ed3-5d44-b413-73c156032fee",
+        "slug": "beijing-institute-for-general-artificial-intelligence-bigai",
+        "entity_type": "ORGANIZATION",
+        "name": "Beijing Institute for General Artificial Intelligence (BIGAI)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      {
+        "id": "ce79d317-38c7-5731-a800-14bf4e0adf0a",
+        "slug": "booster-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Booster Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
         ]
       },
       {
@@ -226,7 +328,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 5
+    "related_count": 8
   },
   "as_of": null
 }

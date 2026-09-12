@@ -1,0 +1,100 @@
+{
+  "entity": {
+    "id": "e9a7e77b-b3d7-52b4-a06d-fb9f8bd9167d",
+    "slug": "norfolk-us",
+    "entity_type": "PLACE",
+    "name": "Norfolk",
+    "short_description": null,
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": null,
+    "city": "Norfolk",
+    "lat": 36.84681,
+    "lng": -76.28522,
+    "cluster_label": null
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "38a3f1f0-7568-5347-a447-903e310c77ee",
+          "source": {
+            "id": "0ac717b4-2dd4-5ca3-a5e5-8e84f4374067",
+            "slug": "svt-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "SVT Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "INTEGRATOR",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "0ac717b4-2dd4-5ca3-a5e5-8e84f4374067",
+        "slug": "svt-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "SVT Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

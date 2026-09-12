@@ -1,0 +1,98 @@
+{
+  "entity": {
+    "id": "eb3580be-f5c3-55bd-922b-0fbddbafd86d",
+    "slug": "akashi-jp",
+    "entity_type": "PLACE",
+    "name": "Akashi",
+    "short_description": null,
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "JP",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": null,
+    "city": "Akashi",
+    "lat": 34.65524,
+    "lng": 135.00687,
+    "cluster_label": null
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "4401e127-9eef-521b-a25e-f15fa795025b",
+          "source": {
+            "id": "36ba3dc3-39b5-5cb8-b667-edd290545d11",
+            "slug": "kawasaki-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Kawasaki Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "36ba3dc3-39b5-5cb8-b667-edd290545d11",
+        "slug": "kawasaki-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Kawasaki Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

@@ -1,0 +1,98 @@
+{
+  "entity": {
+    "id": "e13400f5-c868-5e08-bdcc-598eec98898c",
+    "slug": "martinez-us",
+    "entity_type": "PLACE",
+    "name": "Martinez",
+    "short_description": null,
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": null,
+    "city": "Martinez",
+    "lat": 38.01937,
+    "lng": -122.13413,
+    "cluster_label": null
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "d56a0cca-c661-597a-81cf-2f609f4728c9",
+          "source": {
+            "id": "6b17293f-2bce-55a1-bfd3-716bff03b97c",
+            "slug": "hello-robot",
+            "entity_type": "ORGANIZATION",
+            "name": "Hello Robot",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "6b17293f-2bce-55a1-bfd3-716bff03b97c",
+        "slug": "hello-robot",
+        "entity_type": "ORGANIZATION",
+        "name": "Hello Robot",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

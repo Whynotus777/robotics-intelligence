@@ -867,6 +867,41 @@
       "origin": "SEED"
     },
     {
+      "id": "0d8194d7-7ee8-5efd-a9ab-e93e6e7e1d6c",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "904c5a73-f7da-5389-af14-f05030791980",
+        "slug": "nachi-fujikoshi",
+        "entity_type": "ORGANIZATION",
+        "name": "Nachi-Fujikoshi",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "d90910bc-ff2f-513c-98fd-affc6788bdcd",
+          "slug": "toyama-jp",
+          "entity_type": "PLACE",
+          "name": "Toyama",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Toyama",
+      "origin": "SEED"
+    },
+    {
       "id": "0db7cd28-35bb-56e2-9a2a-2e70b7cfb9c1",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -894,6 +929,41 @@
       "origin": "SEED"
     },
     {
+      "id": "0e1ae2ee-9d7a-5479-aea6-76b2ae544ec5",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "3c390220-cd8f-517d-8033-23b95f2ab8c2",
+        "slug": "persona-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Persona AI",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "c5deecb8-ebcb-5d44-8195-57caf582e04a",
+          "slug": "houston-us",
+          "entity_type": "PLACE",
+          "name": "Houston",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Houston",
+      "origin": "SEED"
+    },
+    {
       "id": "0ea3af47-a0ac-5c4f-b552-2123db4e7a6a",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -918,6 +988,41 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Component supplier",
+      "origin": "SEED"
+    },
+    {
+      "id": "0f0052d9-b569-5492-8933-5cc7e940fcf1",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "4a899d0c-1967-59af-82f0-ca190022426e",
+        "slug": "epfl-biorobotics-laboratory",
+        "entity_type": "ORGANIZATION",
+        "name": "EPFL Biorobotics Laboratory",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "f08b1d51-2580-5ef2-aa30-3edf44112a8f",
+          "slug": "lausanne",
+          "entity_type": "PLACE",
+          "name": "Lausanne",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Lausanne",
       "origin": "SEED"
     },
     {
@@ -1439,88 +1544,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Headquartered at Lake Mary",
-      "origin": "SEED"
-    },
-    {
-      "id": "15c2c125-5037-5f79-95e7-68299dcc5477",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "cb250a1e-35f9-5f37-bf80-1f5dae1ef3e1",
-        "slug": "guss-automation",
-        "entity_type": "ORGANIZATION",
-        "name": "GUSS Automation",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "1635be91-afff-5eba-8bda-13c842acc2c5",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "abc8e142-ca16-50e2-ace3-f3ce803a04cd",
-        "slug": "nxp-semiconductors",
-        "entity_type": "ORGANIZATION",
-        "name": "NXP Semiconductors",
-        "primary_embodiment": null,
-        "roles": [
-          "CHIPMAKER",
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "CHIPMAKER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Chipmaker",
-      "origin": "SEED"
-    },
-    {
-      "id": "1650c271-eca7-52b4-a374-02f69df97df1",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "db60f85f-9f38-557f-bb22-2a346e929d38",
-        "slug": "murata-machinery-muratec",
-        "entity_type": "ORGANIZATION",
-        "name": "Murata Machinery (Muratec)",
-        "primary_embodiment": null,
-        "roles": [
-          "INTEGRATOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "INTEGRATOR"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Integrator",
       "origin": "SEED"
     }
   ]

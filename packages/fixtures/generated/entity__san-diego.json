@@ -105,12 +105,68 @@
             "confidence": "MEDIUM",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "c2a50466-e8ba-57cb-aedc-abe25c0b3112",
+          "source": {
+            "id": "2546b2b2-db58-5803-a3f8-fbd802ddee49",
+            "slug": "havocai",
+            "entity_type": "ORGANIZATION",
+            "name": "HavocAI",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "fc5a826b-10d4-5676-96a9-480b52ab2335",
+          "source": {
+            "id": "050586f3-ac44-5ca2-8bda-f9e9387abbd8",
+            "slug": "seasats",
+            "entity_type": "ORGANIZATION",
+            "name": "Seasats",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "2546b2b2-db58-5803-a3f8-fbd802ddee49",
+        "slug": "havocai",
+        "entity_type": "ORGANIZATION",
+        "name": "HavocAI",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
       {
         "id": "d41554ca-2df4-5f8b-be56-0be5ce3df101",
         "slug": "qualcomm",
@@ -130,6 +186,16 @@
         "primary_embodiment": null,
         "roles": [
           "INVESTOR"
+        ]
+      },
+      {
+        "id": "050586f3-ac44-5ca2-8bda-f9e9387abbd8",
+        "slug": "seasats",
+        "entity_type": "ORGANIZATION",
+        "name": "Seasats",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
         ]
       },
       {
@@ -160,7 +226,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 5
   },
   "as_of": null
 }

@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "38a3f1f0-7568-5347-a447-903e310c77ee",
+    "subject": {
+      "id": "0ac717b4-2dd4-5ca3-a5e5-8e84f4374067",
+      "slug": "svt-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "SVT Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "SVT Robotics is headquartered at Norfolk",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "e9a7e77b-b3d7-52b4-a06d-fb9f8bd9167d",
+        "slug": "norfolk-us",
+        "entity_type": "PLACE",
+        "name": "Norfolk",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "695bae9a-e096-5e1d-beee-ea8baf04dd2d",
+      "class": "ANALYST",
+      "confidence": "LOW",
+      "stance": "SUPPORTS",
+      "excerpt": "The supplied roster lists Norfolk, US as the headquarters city; this location has not been independently confirmed.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "9b3c90d1-c4b4-5266-b355-39968a96ad5c",
+        "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/oems-integrators-operators.csv",
+        "canonical_url": null,
+        "publisher": "Robotics Intelligence candidate roster",
+        "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+        "advance_criteria": [
+          "A primary company profile or filing confirms this headquarters city."
+        ],
+        "regress_criteria": [
+          "Primary evidence identifies a different headquarters or contradicts the roster location."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

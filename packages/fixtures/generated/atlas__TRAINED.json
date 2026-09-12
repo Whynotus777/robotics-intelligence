@@ -4,7 +4,7 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 102
+      "count": 135
     },
     {
       "id": "SUPPLIED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 47
+      "count": 59
     },
     {
       "id": "FUNDED",
@@ -151,6 +151,129 @@
     },
     {
       "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 39.9,
+      "lng": 116.4,
+      "country_code": "CN",
+      "cluster_label": "Beijing",
+      "weight": 4,
+      "entities": [
+        {
+          "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
+          "slug": "baidu",
+          "entity_type": "ORGANIZATION",
+          "name": "Baidu",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "a2ed497b-0137-5511-8311-819a10e08a63",
+          "slug": "beijing-humanoid-robot-innovation-center-x-humanoid",
+          "entity_type": "ORGANIZATION",
+          "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "MODEL_DEVELOPER",
+            "OEM",
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "bc0be7e8-7ed3-5d44-b413-73c156032fee",
+          "slug": "beijing-institute-for-general-artificial-intelligence-bigai",
+          "entity_type": "ORGANIZATION",
+          "name": "Beijing Institute for General Artificial Intelligence (BIGAI)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "dafdc220-f204-5ad5-9e31-674bc0a986b1",
+          "slug": "bytedance",
+          "entity_type": "ORGANIZATION",
+          "name": "ByteDance",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 31.23,
+      "lng": 121.47,
+      "country_code": "CN",
+      "cluster_label": "Shanghai",
+      "weight": 4,
+      "entities": [
+        {
+          "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
+          "slug": "agibot",
+          "entity_type": "ORGANIZATION",
+          "name": "AgiBot",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        },
+        {
+          "id": "c2835dc8-4a39-5504-8a05-f166ce244f44",
+          "slug": "shanghai-ai-laboratory",
+          "entity_type": "ORGANIZATION",
+          "name": "Shanghai AI Laboratory",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "41685113-7b6f-5b2f-8d29-8e959a9a5a4c",
+          "slug": "shanghai-ant-lingbo-technology-robbyant",
+          "entity_type": "ORGANIZATION",
+          "name": "Shanghai Ant Lingbo Technology (Robbyant)",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        },
+        {
+          "id": "668a1a95-9c07-59f3-80aa-fa7955730514",
+          "slug": "shanghai-jiao-tong-university",
+          "entity_type": "ORGANIZATION",
+          "name": "Shanghai Jiao Tong University",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "5386047b-9431-5521-8e28-d5f238524771",
         "slug": "shenzhen",
         "entity_type": "PLACE",
@@ -213,48 +336,58 @@
     },
     {
       "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
         "entity_type": "PLACE",
-        "name": "Shanghai",
+        "name": "Zurich",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 31.23,
-      "lng": 121.47,
-      "country_code": "CN",
-      "cluster_label": "Shanghai",
-      "weight": 3,
+      "lat": 47.38,
+      "lng": 8.54,
+      "country_code": "CH",
+      "cluster_label": "Zurich",
+      "weight": 4,
       "entities": [
         {
-          "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
-          "slug": "agibot",
+          "id": "3e60dbd4-e8f7-5665-ba1c-0bd8b8e1b76a",
+          "slug": "eth-zurich-autonomous-systems-lab",
           "entity_type": "ORGANIZATION",
-          "name": "AgiBot",
+          "name": "ETH Zurich Autonomous Systems Lab",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "7414d2aa-fd38-51c6-8361-ecda027e47f5",
+          "slug": "eth-zurich-robotic-systems-lab",
+          "entity_type": "ORGANIZATION",
+          "name": "ETH Zurich Robotic Systems Lab",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "14f64657-e634-589e-afdb-f9d0d0b9cd22",
+          "slug": "institute-of-robotics-and-intelligent-systems-iris",
+          "entity_type": "ORGANIZATION",
+          "name": "Institute of Robotics and Intelligent Systems (IRIS)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "698b16a9-4ca1-5f12-9b07-f0b5d0e0c6f6",
+          "slug": "mimic-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "mimic robotics",
           "primary_embodiment": null,
           "roles": [
             "MODEL_DEVELOPER",
             "OEM"
-          ]
-        },
-        {
-          "id": "41685113-7b6f-5b2f-8d29-8e959a9a5a4c",
-          "slug": "shanghai-ant-lingbo-technology-robbyant",
-          "entity_type": "ORGANIZATION",
-          "name": "Shanghai Ant Lingbo Technology (Robbyant)",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER"
-          ]
-        },
-        {
-          "id": "668a1a95-9c07-59f3-80aa-fa7955730514",
-          "slug": "shanghai-jiao-tong-university",
-          "entity_type": "ORGANIZATION",
-          "name": "Shanghai Jiao Tong University",
-          "primary_embodiment": null,
-          "roles": [
-            "RESEARCH_LAB"
           ]
         }
       ],
@@ -311,46 +444,6 @@
     },
     {
       "place": {
-        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
-        "slug": "beijing",
-        "entity_type": "PLACE",
-        "name": "Beijing",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 39.9,
-      "lng": 116.4,
-      "country_code": "CN",
-      "cluster_label": "Beijing",
-      "weight": 2,
-      "entities": [
-        {
-          "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
-          "slug": "baidu",
-          "entity_type": "ORGANIZATION",
-          "name": "Baidu",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER",
-            "TOOLING_OPS_PROVIDER"
-          ]
-        },
-        {
-          "id": "dafdc220-f204-5ad5-9e31-674bc0a986b1",
-          "slug": "bytedance",
-          "entity_type": "ORGANIZATION",
-          "name": "ByteDance",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER",
-            "RESEARCH_LAB"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
         "slug": "cambridge-us",
         "entity_type": "PLACE",
@@ -379,6 +472,44 @@
           "slug": "robotics-and-ai-institute-rai-institute",
           "entity_type": "ORGANIZATION",
           "name": "Robotics and AI Institute (RAI Institute)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "f08b1d51-2580-5ef2-aa30-3edf44112a8f",
+        "slug": "lausanne",
+        "entity_type": "PLACE",
+        "name": "Lausanne",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 46.52,
+      "lng": 6.63,
+      "country_code": "CH",
+      "cluster_label": "Lake Geneva",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "4a899d0c-1967-59af-82f0-ca190022426e",
+          "slug": "epfl-biorobotics-laboratory",
+          "entity_type": "ORGANIZATION",
+          "name": "EPFL Biorobotics Laboratory",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "15a2409d-da28-5dea-88e2-be8899c5350a",
+          "slug": "epfl-laboratory-of-intelligent-systems",
+          "entity_type": "ORGANIZATION",
+          "name": "EPFL Laboratory of Intelligent Systems",
           "primary_embodiment": null,
           "roles": [
             "RESEARCH_LAB"
@@ -588,6 +719,34 @@
     },
     {
       "place": {
+        "id": "3054f784-90fe-53a8-9563-3cbb39db0565",
+        "slug": "delft-nl",
+        "entity_type": "PLACE",
+        "name": "Delft",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 52.00667,
+      "lng": 4.35556,
+      "country_code": "NL",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "e17775d3-d66a-5e5a-bb47-48a613937011",
+          "slug": "tu-delft-robotics-institute",
+          "entity_type": "ORGANIZATION",
+          "name": "TU Delft Robotics Institute",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "f3e7cdc5-5820-58e6-bbcc-b48f059f53bc",
         "slug": "emeryville-us",
         "entity_type": "PLACE",
@@ -691,6 +850,62 @@
           "slug": "x-development-alphabet-x",
           "entity_type": "ORGANIZATION",
           "name": "X Development (Alphabet X)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
+        "entity_type": "PLACE",
+        "name": "Munich",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.14,
+      "lng": 11.58,
+      "country_code": "DE",
+      "cluster_label": "Munich",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "ea1feab7-a0d9-50a9-8392-2b382d207e83",
+          "slug": "munich-institute-of-robotics-and-machine-intelligence-mirmi",
+          "entity_type": "ORGANIZATION",
+          "name": "Munich Institute of Robotics and Machine Intelligence (MIRMI)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "829a07f5-8224-5e6e-b24c-0f0abae9ee15",
+        "slug": "oxford-gb",
+        "entity_type": "PLACE",
+        "name": "Oxford",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 51.75222,
+      "lng": -1.25596,
+      "country_code": "GB",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "7c78a35e-a74f-54fb-be8d-aef549fa72e5",
+          "slug": "oxford-robotics-institute",
+          "entity_type": "ORGANIZATION",
+          "name": "Oxford Robotics Institute",
           "primary_embodiment": null,
           "roles": [
             "RESEARCH_LAB"
@@ -992,6 +1207,34 @@
     },
     {
       "place": {
+        "id": "5580bc90-425d-51a4-aa81-3a5ae62a5717",
+        "slug": "trondheim-no",
+        "entity_type": "PLACE",
+        "name": "Trondheim",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 63.43049,
+      "lng": 10.39506,
+      "country_code": "NO",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "aab2446d-54e1-586c-8fd4-578e158e1eb7",
+          "slug": "ntnu-autonomous-robots-lab",
+          "entity_type": "ORGANIZATION",
+          "name": "NTNU Autonomous Robots Lab",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "56bcc0f1-a3b4-5563-8db8-5fe89e256929",
         "slug": "vancouver",
         "entity_type": "PLACE",
@@ -1018,35 +1261,6 @@
         }
       ],
       "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
-        "slug": "zurich",
-        "entity_type": "PLACE",
-        "name": "Zurich",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 47.38,
-      "lng": 8.54,
-      "country_code": "CH",
-      "cluster_label": "Zurich",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "698b16a9-4ca1-5f12-9b07-f0b5d0e0c6f6",
-          "slug": "mimic-robotics",
-          "entity_type": "ORGANIZATION",
-          "name": "mimic robotics",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER",
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
     }
   ],
   "countries": [
@@ -1059,8 +1273,20 @@
     {
       "id": "CN",
       "label": "CN",
-      "weight": 9,
+      "weight": 12,
       "places": 3
+    },
+    {
+      "id": "CH",
+      "label": "CH",
+      "weight": 6,
+      "places": 2
+    },
+    {
+      "id": "GB",
+      "label": "GB",
+      "weight": 3,
+      "places": 2
     },
     {
       "id": "JP",
@@ -1075,10 +1301,10 @@
       "places": 2
     },
     {
-      "id": "GB",
-      "label": "GB",
+      "id": "DE",
+      "label": "DE",
       "weight": 2,
-      "places": 1
+      "places": 2
     },
     {
       "id": "KR",
@@ -1087,14 +1313,14 @@
       "places": 2
     },
     {
-      "id": "CH",
-      "label": "CH",
+      "id": "NL",
+      "label": "NL",
       "weight": 1,
       "places": 1
     },
     {
-      "id": "DE",
-      "label": "DE",
+      "id": "NO",
+      "label": "NO",
       "weight": 1,
       "places": 1
     }
@@ -1107,15 +1333,27 @@
       "places": 1
     },
     {
-      "id": "Shenzhen",
-      "label": "Shenzhen",
+      "id": "Beijing",
+      "label": "Beijing",
       "weight": 4,
       "places": 1
     },
     {
       "id": "Shanghai",
       "label": "Shanghai",
-      "weight": 3,
+      "weight": 4,
+      "places": 1
+    },
+    {
+      "id": "Shenzhen",
+      "label": "Shenzhen",
+      "weight": 4,
+      "places": 1
+    },
+    {
+      "id": "Zurich",
+      "label": "Zurich",
+      "weight": 4,
       "places": 1
     },
     {
@@ -1125,8 +1363,8 @@
       "places": 1
     },
     {
-      "id": "Beijing",
-      "label": "Beijing",
+      "id": "Lake Geneva",
+      "label": "Lake Geneva",
       "weight": 2,
       "places": 1
     },
@@ -1155,6 +1393,12 @@
       "places": 1
     },
     {
+      "id": "Munich",
+      "label": "Munich",
+      "weight": 1,
+      "places": 1
+    },
+    {
       "id": "San Diego",
       "label": "San Diego",
       "weight": 1,
@@ -1169,12 +1413,6 @@
     {
       "id": "Vancouver",
       "label": "Vancouver",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "Zurich",
-      "label": "Zurich",
       "weight": 1,
       "places": 1
     }
@@ -1355,6 +1593,173 @@
     },
     {
       "entity": {
+        "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
+        "slug": "baidu",
+        "entity_type": "ORGANIZATION",
+        "name": "Baidu",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "a2ed497b-0137-5511-8311-819a10e08a63",
+        "slug": "beijing-humanoid-robot-innovation-center-x-humanoid",
+        "entity_type": "ORGANIZATION",
+        "name": "Beijing Humanoid Robot Innovation Center (X-Humanoid)",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER",
+          "OEM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "bc0be7e8-7ed3-5d44-b413-73c156032fee",
+        "slug": "beijing-institute-for-general-artificial-intelligence-bigai",
+        "entity_type": "ORGANIZATION",
+        "name": "Beijing Institute for General Artificial Intelligence (BIGAI)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "dafdc220-f204-5ad5-9e31-674bc0a986b1",
+        "slug": "bytedance",
+        "entity_type": "ORGANIZATION",
+        "name": "ByteDance",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
+        "slug": "agibot",
+        "entity_type": "ORGANIZATION",
+        "name": "AgiBot",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "c2835dc8-4a39-5504-8a05-f166ce244f44",
+        "slug": "shanghai-ai-laboratory",
+        "entity_type": "ORGANIZATION",
+        "name": "Shanghai AI Laboratory",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "41685113-7b6f-5b2f-8d29-8e959a9a5a4c",
+        "slug": "shanghai-ant-lingbo-technology-robbyant",
+        "entity_type": "ORGANIZATION",
+        "name": "Shanghai Ant Lingbo Technology (Robbyant)",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "668a1a95-9c07-59f3-80aa-fa7955730514",
+        "slug": "shanghai-jiao-tong-university",
+        "entity_type": "ORGANIZATION",
+        "name": "Shanghai Jiao Tong University",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "794f4f80-f85e-5519-a62a-111900984b04",
         "slug": "astribot",
         "entity_type": "ORGANIZATION",
@@ -1439,10 +1844,70 @@
     },
     {
       "entity": {
-        "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
-        "slug": "agibot",
+        "id": "3e60dbd4-e8f7-5665-ba1c-0bd8b8e1b76a",
+        "slug": "eth-zurich-autonomous-systems-lab",
         "entity_type": "ORGANIZATION",
-        "name": "AgiBot",
+        "name": "ETH Zurich Autonomous Systems Lab",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "7414d2aa-fd38-51c6-8361-ecda027e47f5",
+        "slug": "eth-zurich-robotic-systems-lab",
+        "entity_type": "ORGANIZATION",
+        "name": "ETH Zurich Robotic Systems Lab",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "14f64657-e634-589e-afdb-f9d0d0b9cd22",
+        "slug": "institute-of-robotics-and-intelligent-systems-iris",
+        "entity_type": "ORGANIZATION",
+        "name": "Institute of Robotics and Intelligent Systems (IRIS)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "698b16a9-4ca1-5f12-9b07-f0b5d0e0c6f6",
+        "slug": "mimic-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "mimic robotics",
         "primary_embodiment": null,
         "roles": [
           "MODEL_DEVELOPER",
@@ -1450,50 +1915,10 @@
         ]
       },
       "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
         "entity_type": "PLACE",
-        "name": "Shanghai",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "41685113-7b6f-5b2f-8d29-8e959a9a5a4c",
-        "slug": "shanghai-ant-lingbo-technology-robbyant",
-        "entity_type": "ORGANIZATION",
-        "name": "Shanghai Ant Lingbo Technology (Robbyant)",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER"
-        ]
-      },
-      "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
-        "entity_type": "PLACE",
-        "name": "Shanghai",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "668a1a95-9c07-59f3-80aa-fa7955730514",
-        "slug": "shanghai-jiao-tong-university",
-        "entity_type": "ORGANIZATION",
-        "name": "Shanghai Jiao Tong University",
-        "primary_embodiment": null,
-        "roles": [
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
-        "entity_type": "PLACE",
-        "name": "Shanghai",
+        "name": "Zurich",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1561,48 +1986,6 @@
     },
     {
       "entity": {
-        "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
-        "slug": "baidu",
-        "entity_type": "ORGANIZATION",
-        "name": "Baidu",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "TOOLING_OPS_PROVIDER"
-        ]
-      },
-      "place": {
-        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
-        "slug": "beijing",
-        "entity_type": "PLACE",
-        "name": "Beijing",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "dafdc220-f204-5ad5-9e31-674bc0a986b1",
-        "slug": "bytedance",
-        "entity_type": "ORGANIZATION",
-        "name": "ByteDance",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
-        "slug": "beijing",
-        "entity_type": "PLACE",
-        "name": "Beijing",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
         "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
         "slug": "mitsubishi-electric-research-laboratories-merl",
         "entity_type": "ORGANIZATION",
@@ -1637,6 +2020,46 @@
         "slug": "cambridge-us",
         "entity_type": "PLACE",
         "name": "Cambridge",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "4a899d0c-1967-59af-82f0-ca190022426e",
+        "slug": "epfl-biorobotics-laboratory",
+        "entity_type": "ORGANIZATION",
+        "name": "EPFL Biorobotics Laboratory",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "f08b1d51-2580-5ef2-aa30-3edf44112a8f",
+        "slug": "lausanne",
+        "entity_type": "PLACE",
+        "name": "Lausanne",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "15a2409d-da28-5dea-88e2-be8899c5350a",
+        "slug": "epfl-laboratory-of-intelligent-systems",
+        "entity_type": "ORGANIZATION",
+        "name": "EPFL Laboratory of Intelligent Systems",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "f08b1d51-2580-5ef2-aa30-3edf44112a8f",
+        "slug": "lausanne",
+        "entity_type": "PLACE",
+        "name": "Lausanne",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1824,6 +2247,26 @@
     },
     {
       "entity": {
+        "id": "e17775d3-d66a-5e5a-bb47-48a613937011",
+        "slug": "tu-delft-robotics-institute",
+        "entity_type": "ORGANIZATION",
+        "name": "TU Delft Robotics Institute",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "3054f784-90fe-53a8-9563-3cbb39db0565",
+        "slug": "delft-nl",
+        "entity_type": "PLACE",
+        "name": "Delft",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "da113ad5-6261-573d-b5b3-d3b22c3e1c61",
         "slug": "covariant",
         "entity_type": "ORGANIZATION",
@@ -1899,6 +2342,46 @@
         "slug": "mountain-view-us",
         "entity_type": "PLACE",
         "name": "Mountain View",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "ea1feab7-a0d9-50a9-8392-2b382d207e83",
+        "slug": "munich-institute-of-robotics-and-machine-intelligence-mirmi",
+        "entity_type": "ORGANIZATION",
+        "name": "Munich Institute of Robotics and Machine Intelligence (MIRMI)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
+        "entity_type": "PLACE",
+        "name": "Munich",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "7c78a35e-a74f-54fb-be8d-aef549fa72e5",
+        "slug": "oxford-robotics-institute",
+        "entity_type": "ORGANIZATION",
+        "name": "Oxford Robotics Institute",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "829a07f5-8224-5e6e-b24c-0f0abae9ee15",
+        "slug": "oxford-gb",
+        "entity_type": "PLACE",
+        "name": "Oxford",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2116,6 +2599,26 @@
     },
     {
       "entity": {
+        "id": "aab2446d-54e1-586c-8fd4-578e158e1eb7",
+        "slug": "ntnu-autonomous-robots-lab",
+        "entity_type": "ORGANIZATION",
+        "name": "NTNU Autonomous Robots Lab",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "5580bc90-425d-51a4-aa81-3a5ae62a5717",
+        "slug": "trondheim-no",
+        "entity_type": "PLACE",
+        "name": "Trondheim",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "6a3ad67c-5549-528b-a5ed-0391f2c0f8a3",
         "slug": "sanctuary-ai",
         "entity_type": "ORGANIZATION",
@@ -2131,27 +2634,6 @@
         "slug": "vancouver",
         "entity_type": "PLACE",
         "name": "Vancouver",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "698b16a9-4ca1-5f12-9b07-f0b5d0e0c6f6",
-        "slug": "mimic-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "mimic robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
-        "slug": "zurich",
-        "entity_type": "PLACE",
-        "name": "Zurich",
         "primary_embodiment": null,
         "roles": []
       }
