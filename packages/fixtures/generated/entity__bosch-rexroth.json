@@ -1,0 +1,152 @@
+{
+  "entity": {
+    "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+    "slug": "bosch-rexroth",
+    "entity_type": "ORGANIZATION",
+    "name": "Bosch Rexroth",
+    "short_description": "Supplies servo drives, motors and motion-control software for industrial robotics.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "DE",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "COMPONENT_SUPPLIER",
+      "declared": true,
+      "claim_id": "14371587-901f-5cfb-b75c-f5229f84d057",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "14371587-901f-5cfb-b75c-f5229f84d057",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "COMPONENT_SUPPLIER"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "claims": [
+        {
+          "claim_id": "67dc94e7-4887-5f68-b2e3-f5c7353deb40",
+          "predicate": "FOUNDED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2001-01-01"
+          },
+          "stack_layer": null,
+          "qualifier": "Year precision",
+          "valid_from": "2001-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "1685aafc-5e01-5bf8-8574-9482c03171aa",
+          "target": {
+            "id": "b33368f3-5bc9-581d-b758-573b535d293f",
+            "slug": "lohr-am-main-de",
+            "entity_type": "PLACE",
+            "name": "Lohr am Main",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "places": [
+      {
+        "id": "b33368f3-5bc9-581d-b758-573b535d293f",
+        "slug": "lohr-am-main-de",
+        "entity_type": "PLACE",
+        "name": "Lohr am Main",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 1
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 3,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

@@ -1,0 +1,56 @@
+slug: mit-csail
+entity_type: ORGANIZATION
+name: MIT CSAIL
+short_description: MIT computer science laboratory researching robot learning, autonomous navigation and aerial
+  robotics.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: RESEARCH_LAB
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-ca05ea43bccd266b
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: MIT computer science laboratory researching robot learning, autonomous navigation and aerial robotics.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2003-01-01'
+  valid_from: '2003-01-01'
+  evidence:
+  - source: enrich-3fac75dda2fad091
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: MIT CSAIL was established in 2003 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision; merged CSAIL laboratory, whose predecessors date to 1959 and 1963
+  approximate: true
+- predicate: HQ_AT
+  object: cambridge-us
+  valid_from: '2026-09-11'
+  qualifier: Provisional roster location; city precision; independent HQ verification pending
+  evidence:
+  - source: enrich-f53361677796d8de
+    class: ANALYST
+    confidence: LOW
+    observed_at: '2026-09-11'
+    excerpt: The supplied roster lists Cambridge, US as the headquarters city; this location has not been independently
+      confirmed.
+    assessment:
+      rationale: Provisional city-level location transcribed from the supplied research roster to support discovery.
+        It is not a verified headquarters address.
+      advance_criteria:
+      - A primary company profile or filing confirms this headquarters city.
+      regress_criteria:
+      - Primary evidence identifies a different headquarters or contradicts the roster location.
+- predicate: PART_OF
+  object: massachusetts-institute-of-technology
+  valid_from: '2026-09-11'
+  qualifier: University laboratory affiliation verified on this date; original affiliation date not asserted
+  evidence:
+  - source: enrich-3fac75dda2fad091
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: The laboratory identifies its university affiliation with Massachusetts Institute of Technology.
+    observed_at: '2026-09-11'
+country_code: US

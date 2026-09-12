@@ -9,7 +9,7 @@
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 88
+      "count": 89
     },
     {
       "id": "MANUFACTURED",
@@ -24,12 +24,12 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 105
+      "count": 110
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 51
+      "count": 53
     },
     {
       "id": "PLATFORMS",
@@ -452,6 +452,64 @@
     },
     {
       "place": {
+        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+        "slug": "cambridge-us",
+        "entity_type": "PLACE",
+        "name": "Cambridge",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.3751,
+      "lng": -71.10561,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 4,
+      "entities": [
+        {
+          "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+          "slug": "massachusetts-institute-of-technology",
+          "entity_type": "ORGANIZATION",
+          "name": "Massachusetts Institute of Technology",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+          "slug": "mit-csail",
+          "entity_type": "ORGANIZATION",
+          "name": "MIT CSAIL",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+          "slug": "mitsubishi-electric-research-laboratories-merl",
+          "entity_type": "ORGANIZATION",
+          "name": "Mitsubishi Electric Research Laboratories (MERL)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
+          "slug": "robotics-and-ai-institute-rai-institute",
+          "entity_type": "ORGANIZATION",
+          "name": "Robotics and AI Institute (RAI Institute)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
         "slug": "shanghai",
         "entity_type": "PLACE",
@@ -719,34 +777,34 @@
     },
     {
       "place": {
-        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
-        "slug": "cambridge-us",
+        "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+        "slug": "berkeley-us",
         "entity_type": "PLACE",
-        "name": "Cambridge",
+        "name": "Berkeley",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 42.3751,
-      "lng": -71.10561,
+      "lat": 37.87159,
+      "lng": -122.27275,
       "country_code": "US",
       "cluster_label": null,
       "weight": 2,
       "entities": [
         {
-          "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
-          "slug": "mitsubishi-electric-research-laboratories-merl",
+          "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+          "slug": "berkeley-artificial-intelligence-research-bair",
           "entity_type": "ORGANIZATION",
-          "name": "Mitsubishi Electric Research Laboratories (MERL)",
+          "name": "Berkeley Artificial Intelligence Research (BAIR)",
           "primary_embodiment": null,
           "roles": [
             "RESEARCH_LAB"
           ]
         },
         {
-          "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
-          "slug": "robotics-and-ai-institute-rai-institute",
+          "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+          "slug": "university-of-california-berkeley",
           "entity_type": "ORGANIZATION",
-          "name": "Robotics and AI Institute (RAI Institute)",
+          "name": "University of California Berkeley",
           "primary_embodiment": null,
           "roles": [
             "RESEARCH_LAB"
@@ -1411,6 +1469,34 @@
           "primary_embodiment": null,
           "roles": [
             "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "97c3cf09-877b-544b-ac7b-971891fa28e2",
+        "slug": "genoa-it",
+        "entity_type": "PLACE",
+        "name": "Genoa",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 44.40478,
+      "lng": 8.94439,
+      "country_code": "IT",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+          "slug": "istituto-italiano-di-tecnologia-iit",
+          "entity_type": "ORGANIZATION",
+          "name": "Istituto Italiano di Tecnologia (IIT)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
           ]
         }
       ],
@@ -2186,8 +2272,8 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 51,
-      "places": 28
+      "weight": 55,
+      "places": 29
     },
     {
       "id": "CN",
@@ -2276,6 +2362,12 @@
     {
       "id": "FR",
       "label": "FR",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "IT",
+      "label": "IT",
       "weight": 1,
       "places": 1
     },
@@ -3015,6 +3107,86 @@
     },
     {
       "entity": {
+        "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+        "slug": "massachusetts-institute-of-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Massachusetts Institute of Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+        "slug": "cambridge-us",
+        "entity_type": "PLACE",
+        "name": "Cambridge",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+        "slug": "mit-csail",
+        "entity_type": "ORGANIZATION",
+        "name": "MIT CSAIL",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+        "slug": "cambridge-us",
+        "entity_type": "PLACE",
+        "name": "Cambridge",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+        "slug": "mitsubishi-electric-research-laboratories-merl",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric Research Laboratories (MERL)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+        "slug": "cambridge-us",
+        "entity_type": "PLACE",
+        "name": "Cambridge",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
+        "slug": "robotics-and-ai-institute-rai-institute",
+        "entity_type": "ORGANIZATION",
+        "name": "Robotics and AI Institute (RAI Institute)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+        "slug": "cambridge-us",
+        "entity_type": "PLACE",
+        "name": "Cambridge",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
         "slug": "agibot",
         "entity_type": "ORGANIZATION",
@@ -3362,40 +3534,40 @@
     },
     {
       "entity": {
-        "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
-        "slug": "mitsubishi-electric-research-laboratories-merl",
+        "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+        "slug": "berkeley-artificial-intelligence-research-bair",
         "entity_type": "ORGANIZATION",
-        "name": "Mitsubishi Electric Research Laboratories (MERL)",
+        "name": "Berkeley Artificial Intelligence Research (BAIR)",
         "primary_embodiment": null,
         "roles": [
           "RESEARCH_LAB"
         ]
       },
       "place": {
-        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
-        "slug": "cambridge-us",
+        "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+        "slug": "berkeley-us",
         "entity_type": "PLACE",
-        "name": "Cambridge",
+        "name": "Berkeley",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
-        "slug": "robotics-and-ai-institute-rai-institute",
+        "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+        "slug": "university-of-california-berkeley",
         "entity_type": "ORGANIZATION",
-        "name": "Robotics and AI Institute (RAI Institute)",
+        "name": "University of California Berkeley",
         "primary_embodiment": null,
         "roles": [
           "RESEARCH_LAB"
         ]
       },
       "place": {
-        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
-        "slug": "cambridge-us",
+        "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+        "slug": "berkeley-us",
         "entity_type": "PLACE",
-        "name": "Cambridge",
+        "name": "Berkeley",
         "primary_embodiment": null,
         "roles": []
       }
@@ -3987,6 +4159,26 @@
         "slug": "geldrop-nl",
         "entity_type": "PLACE",
         "name": "Geldrop",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+        "slug": "istituto-italiano-di-tecnologia-iit",
+        "entity_type": "ORGANIZATION",
+        "name": "Istituto Italiano di Tecnologia (IIT)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "97c3cf09-877b-544b-ac7b-971891fa28e2",
+        "slug": "genoa-it",
+        "entity_type": "PLACE",
+        "name": "Genoa",
         "primary_embodiment": null,
         "roles": []
       }

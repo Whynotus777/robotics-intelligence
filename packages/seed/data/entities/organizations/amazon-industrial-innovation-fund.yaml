@@ -1,0 +1,65 @@
+slug: amazon-industrial-innovation-fund
+entity_type: ORGANIZATION
+name: Amazon Industrial Innovation Fund
+short_description: Amazon investment program backing robotics and industrial automation companies, including Skild
+  AI.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-ed519ba10f27d471
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Amazon investment program backing robotics and industrial automation companies, including Skild AI.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2022-01-01'
+  valid_from: '2022-01-01'
+  evidence:
+  - source: enrich-b2cefcb2b7251017
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Amazon Industrial Innovation Fund was established in 2022 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true
+- predicate: HQ_AT
+  object: seattle
+  valid_from: '2026-09-11'
+  qualifier: Provisional roster location; city precision; independent HQ verification pending
+  evidence:
+  - source: enrich-f53361677796d8de
+    class: ANALYST
+    confidence: LOW
+    observed_at: '2026-09-11'
+    excerpt: The supplied roster lists Seattle, US as the headquarters city; this location has not been independently
+      confirmed.
+    assessment:
+      rationale: Provisional city-level location transcribed from the supplied research roster to support discovery.
+        It is not a verified headquarters address.
+      advance_criteria:
+      - A primary company profile or filing confirms this headquarters city.
+      regress_criteria:
+      - Primary evidence identifies a different headquarters or contradicts the roster location.
+- predicate: INVESTED_IN
+  object: skild-ai
+  qualifier: Disclosed participation; individual investment date, amount and current ownership not asserted
+  evidence:
+  - source: enrich-ed519ba10f27d471
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Skild AI identifies Amazon Industrial Innovation Fund as an investor.
+    observed_at: '2026-09-11'
+- predicate: PART_OF
+  object: amazon
+  valid_from: '2026-09-11'
+  qualifier: Amazon corporate venture program; affiliation confirmed on this date
+  evidence:
+  - source: enrich-b2cefcb2b7251017
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Amazon describes its Industrial Innovation Fund as a corporate venture program.
+    observed_at: '2026-09-11'
+country_code: US

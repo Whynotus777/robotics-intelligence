@@ -4092,6 +4092,20 @@
     "subsidiaries": [
       {
         "organization": {
+          "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+          "slug": "amazon-industrial-innovation-fund",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon Industrial Innovation Fund",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        "since": "2026-09-11",
+        "claim_id": "df8eeadf-fd0b-5a18-98c8-714dbc2a2201"
+      },
+      {
+        "organization": {
           "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
           "slug": "amazon-robotics",
           "entity_type": "ORGANIZATION",
@@ -4348,12 +4362,44 @@
               "confidence": "HIGH",
               "source_count": 1
             }
+          },
+          {
+            "claim_id": "df8eeadf-fd0b-5a18-98c8-714dbc2a2201",
+            "source": {
+              "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+              "slug": "amazon-industrial-innovation-fund",
+              "entity_type": "ORGANIZATION",
+              "name": "Amazon Industrial Innovation Fund",
+              "primary_embodiment": null,
+              "roles": [
+                "INVESTOR"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "Amazon corporate venture program; affiliation confirmed on this date",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
           }
         ]
       }
     ],
     "lateral_links": {
       "company": [
+        {
+          "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+          "slug": "amazon-industrial-innovation-fund",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon Industrial Innovation Fund",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
         {
           "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
           "slug": "amazon-robotics",
@@ -4425,7 +4471,264 @@
       "last_verified_at": "2026-09-01T00:00:00.000Z",
       "recent_change_count": 7,
       "deployment_count": 0,
-      "related_count": 5
+      "related_count": 6
+    },
+    "as_of": null
+  },
+  "entity/amazon-industrial-innovation-fund": {
+    "entity": {
+      "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+      "slug": "amazon-industrial-innovation-fund",
+      "entity_type": "ORGANIZATION",
+      "name": "Amazon Industrial Innovation Fund",
+      "short_description": "Amazon investment program backing robotics and industrial automation companies, including Skild AI.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "INVESTOR",
+        "declared": true,
+        "claim_id": "177e8de6-7e5d-53b1-81d1-d55c854ba9c1",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": {
+      "parent": {
+        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+        "slug": "amazon",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OPERATOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "df8eeadf-fd0b-5a18-98c8-714dbc2a2201",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    },
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "177e8de6-7e5d-53b1-81d1-d55c854ba9c1",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "INVESTOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "FOUNDED_ON",
+        "label": "was founded on",
+        "claims": [
+          {
+            "claim_id": "25323252-4093-5832-8248-9f7e0e464883",
+            "predicate": "FOUNDED_ON",
+            "value": {
+              "kind": "date",
+              "date": "2022-01-01"
+            },
+            "stack_layer": null,
+            "qualifier": "Year precision",
+            "valid_from": "2022-01-01",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "predicate": "INVESTED_IN",
+        "label": "invested in",
+        "items": [
+          {
+            "claim_id": "6b82f16d-698d-5f61-ac5d-598fccc9e707",
+            "target": {
+              "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+              "slug": "skild-ai",
+              "entity_type": "ORGANIZATION",
+              "name": "Skild AI",
+              "primary_embodiment": null,
+              "roles": [
+                "MODEL_DEVELOPER"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "Disclosed participation; individual investment date, amount and current ownership not asserted",
+            "valid_from": "2026-09-01",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "PART_OF",
+        "label": "is part of",
+        "items": [
+          {
+            "claim_id": "df8eeadf-fd0b-5a18-98c8-714dbc2a2201",
+            "target": {
+              "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+              "slug": "amazon",
+              "entity_type": "ORGANIZATION",
+              "name": "Amazon",
+              "primary_embodiment": null,
+              "roles": [
+                "INVESTOR",
+                "OPERATOR",
+                "PLATFORM",
+                "RESEARCH_LAB"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "Amazon corporate venture program; affiliation confirmed on this date",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "HQ_AT",
+        "label": "is headquartered at",
+        "items": [
+          {
+            "claim_id": "ff62fb99-5abf-54ac-b34a-2062d9237ace",
+            "target": {
+              "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+              "slug": "seattle",
+              "entity_type": "PLACE",
+              "name": "Seattle",
+              "primary_embodiment": null,
+              "roles": []
+            },
+            "stack_layer": null,
+            "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "ANALYST",
+              "confidence": "LOW",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "inbound_relationships": [],
+    "lateral_links": {
+      "company": [
+        {
+          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+          "slug": "amazon",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "OPERATOR",
+            "PLATFORM",
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+          "slug": "skild-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Skild AI",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+          "slug": "seattle",
+          "entity_type": "PLACE",
+          "name": "Seattle",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      ]
+    },
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 4,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 1
+        },
+        "claim_count": 5,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 5,
+      "deployment_count": 0,
+      "related_count": 3
     },
     "as_of": null
   },
@@ -5760,6 +6063,200 @@
       "recent_change_count": 1,
       "deployment_count": 0,
       "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/andreessen-horowitz": {
+    "entity": {
+      "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+      "slug": "andreessen-horowitz",
+      "entity_type": "ORGANIZATION",
+      "name": "Andreessen Horowitz",
+      "short_description": "Venture capital firm investing in robotics companies, including autonomous-drone developer Skydio.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [
+        "a16z"
+      ],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "INVESTOR",
+        "declared": true,
+        "claim_id": "e5790b5e-76ec-557d-ae67-3d2d6b951213",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "FOUNDED_ON",
+        "label": "was founded on",
+        "claims": [
+          {
+            "claim_id": "15a7814e-ba1b-5b9e-b0b2-e8c443460db2",
+            "predicate": "FOUNDED_ON",
+            "value": {
+              "kind": "date",
+              "date": "2009-01-01"
+            },
+            "stack_layer": null,
+            "qualifier": "Year precision",
+            "valid_from": "2009-01-01",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "e5790b5e-76ec-557d-ae67-3d2d6b951213",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "INVESTOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "predicate": "INVESTED_IN",
+        "label": "invested in",
+        "items": [
+          {
+            "claim_id": "8660269a-337f-5fc9-a437-6630f18006bb",
+            "target": {
+              "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+              "slug": "skydio",
+              "entity_type": "ORGANIZATION",
+              "name": "Skydio",
+              "primary_embodiment": null,
+              "roles": [
+                "OEM"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "Disclosed participation; individual investment date, amount and current ownership not asserted",
+            "valid_from": "2026-09-01",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "HQ_AT",
+        "label": "is headquartered at",
+        "items": [
+          {
+            "claim_id": "ad83d297-643c-574e-98a8-34d2365a39de",
+            "target": {
+              "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+              "slug": "menlo-park-us",
+              "entity_type": "PLACE",
+              "name": "Menlo Park",
+              "primary_embodiment": null,
+              "roles": []
+            },
+            "stack_layer": null,
+            "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "ANALYST",
+              "confidence": "LOW",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "inbound_relationships": [],
+    "lateral_links": {
+      "company": [
+        {
+          "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+          "slug": "skydio",
+          "entity_type": "ORGANIZATION",
+          "name": "Skydio",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+          "slug": "menlo-park-us",
+          "entity_type": "PLACE",
+          "name": "Menlo Park",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      ]
+    },
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 3,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 1
+        },
+        "claim_count": 4,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 4,
+      "deployment_count": 0,
+      "related_count": 2
     },
     "as_of": null
   },
@@ -14881,6 +15378,190 @@
     },
     "as_of": null
   },
+  "entity/berkeley-artificial-intelligence-research-bair": {
+    "entity": {
+      "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+      "slug": "berkeley-artificial-intelligence-research-bair",
+      "entity_type": "ORGANIZATION",
+      "name": "Berkeley Artificial Intelligence Research (BAIR)",
+      "short_description": "University of California Berkeley laboratory researching artificial intelligence, robot learning and adaptive control.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "RESEARCH_LAB",
+        "declared": true,
+        "claim_id": "69623fe8-f6d4-5901-b2c9-ed1c69a5f246",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": {
+      "parent": {
+        "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+        "slug": "university-of-california-berkeley",
+        "entity_type": "ORGANIZATION",
+        "name": "University of California Berkeley",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "fdca951a-8493-5c9f-a14f-256782d50227",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    },
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "69623fe8-f6d4-5901-b2c9-ed1c69a5f246",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "RESEARCH_LAB"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "predicate": "HQ_AT",
+        "label": "is headquartered at",
+        "items": [
+          {
+            "claim_id": "1fe14a2c-90f7-5567-8cfd-856c41a7d4c1",
+            "target": {
+              "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+              "slug": "berkeley-us",
+              "entity_type": "PLACE",
+              "name": "Berkeley",
+              "primary_embodiment": null,
+              "roles": []
+            },
+            "stack_layer": null,
+            "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "ANALYST",
+              "confidence": "LOW",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "PART_OF",
+        "label": "is part of",
+        "items": [
+          {
+            "claim_id": "fdca951a-8493-5c9f-a14f-256782d50227",
+            "target": {
+              "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+              "slug": "university-of-california-berkeley",
+              "entity_type": "ORGANIZATION",
+              "name": "University of California Berkeley",
+              "primary_embodiment": null,
+              "roles": [
+                "RESEARCH_LAB"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "University laboratory affiliation verified on this date; original affiliation date not asserted",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "inbound_relationships": [],
+    "lateral_links": {
+      "company": [
+        {
+          "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+          "slug": "university-of-california-berkeley",
+          "entity_type": "ORGANIZATION",
+          "name": "University of California Berkeley",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+          "slug": "berkeley-us",
+          "entity_type": "PLACE",
+          "name": "Berkeley",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      ]
+    },
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 1
+        },
+        "claim_count": 3,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 3,
+      "deployment_count": 0,
+      "related_count": 2
+    },
+    "as_of": null
+  },
   "entity/berkeley-us": {
     "entity": {
       "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
@@ -14922,6 +15603,28 @@
         "label": "is headquartered at",
         "items": [
           {
+            "claim_id": "1fe14a2c-90f7-5567-8cfd-856c41a7d4c1",
+            "source": {
+              "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+              "slug": "berkeley-artificial-intelligence-research-bair",
+              "entity_type": "ORGANIZATION",
+              "name": "Berkeley Artificial Intelligence Research (BAIR)",
+              "primary_embodiment": null,
+              "roles": [
+                "RESEARCH_LAB"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "ANALYST",
+              "confidence": "LOW",
+              "source_count": 1
+            }
+          },
+          {
             "claim_id": "2106a0c0-cce3-584f-abad-820a01573a5e",
             "source": {
               "id": "2a4815f5-ec84-58f0-90b8-12f0d1220b4e",
@@ -14931,6 +15634,28 @@
               "primary_embodiment": null,
               "roles": [
                 "OEM"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "bfb7c9d6-a622-5ae7-81d1-ba33650c024f",
+            "source": {
+              "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+              "slug": "university-of-california-berkeley",
+              "entity_type": "ORGANIZATION",
+              "name": "University of California Berkeley",
+              "primary_embodiment": null,
+              "roles": [
+                "RESEARCH_LAB"
               ]
             },
             "stack_layer": null,
@@ -14957,6 +15682,26 @@
           "roles": [
             "OEM"
           ]
+        },
+        {
+          "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+          "slug": "berkeley-artificial-intelligence-research-bair",
+          "entity_type": "ORGANIZATION",
+          "name": "Berkeley Artificial Intelligence Research (BAIR)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+          "slug": "university-of-california-berkeley",
+          "entity_type": "ORGANIZATION",
+          "name": "University of California Berkeley",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
         }
       ]
     },
@@ -14975,7 +15720,7 @@
       "last_verified_at": null,
       "recent_change_count": 0,
       "deployment_count": 0,
-      "related_count": 1
+      "related_count": 3
     },
     "as_of": null
   },
@@ -18681,6 +19426,158 @@
     },
     "as_of": null
   },
+  "entity/bosch-rexroth": {
+    "entity": {
+      "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+      "slug": "bosch-rexroth",
+      "entity_type": "ORGANIZATION",
+      "name": "Bosch Rexroth",
+      "short_description": "Supplies servo drives, motors and motion-control software for industrial robotics.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "DE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "14371587-901f-5cfb-b75c-f5229f84d057",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "14371587-901f-5cfb-b75c-f5229f84d057",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "FOUNDED_ON",
+        "label": "was founded on",
+        "claims": [
+          {
+            "claim_id": "67dc94e7-4887-5f68-b2e3-f5c7353deb40",
+            "predicate": "FOUNDED_ON",
+            "value": {
+              "kind": "date",
+              "date": "2001-01-01"
+            },
+            "stack_layer": null,
+            "qualifier": "Year precision",
+            "valid_from": "2001-01-01",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "predicate": "HQ_AT",
+        "label": "is headquartered at",
+        "items": [
+          {
+            "claim_id": "1685aafc-5e01-5bf8-8574-9482c03171aa",
+            "target": {
+              "id": "b33368f3-5bc9-581d-b758-573b535d293f",
+              "slug": "lohr-am-main-de",
+              "entity_type": "PLACE",
+              "name": "Lohr am Main",
+              "primary_embodiment": null,
+              "roles": []
+            },
+            "stack_layer": null,
+            "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "ANALYST",
+              "confidence": "LOW",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "inbound_relationships": [],
+    "lateral_links": {
+      "places": [
+        {
+          "id": "b33368f3-5bc9-581d-b758-573b535d293f",
+          "slug": "lohr-am-main-de",
+          "entity_type": "PLACE",
+          "name": "Lohr am Main",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      ]
+    },
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 1
+        },
+        "claim_count": 3,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 3,
+      "deployment_count": 0,
+      "related_count": 1
+    },
+    "as_of": null
+  },
   "entity/bosch-sensortec": {
     "entity": {
       "id": "8a639460-21f1-5982-8414-8cc9f0624383",
@@ -21899,6 +22796,50 @@
         "label": "is headquartered at",
         "items": [
           {
+            "claim_id": "2318bafa-c523-5583-b2ab-f9ea03ccef5a",
+            "source": {
+              "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+              "slug": "massachusetts-institute-of-technology",
+              "entity_type": "ORGANIZATION",
+              "name": "Massachusetts Institute of Technology",
+              "primary_embodiment": null,
+              "roles": [
+                "RESEARCH_LAB"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "2dff6a6b-a02f-5d04-8ac8-a5bcd425de2f",
+            "source": {
+              "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+              "slug": "mit-csail",
+              "entity_type": "ORGANIZATION",
+              "name": "MIT CSAIL",
+              "primary_embodiment": null,
+              "roles": [
+                "RESEARCH_LAB"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "ANALYST",
+              "confidence": "LOW",
+              "source_count": 1
+            }
+          },
+          {
             "claim_id": "3e8f1f54-796e-5953-bd91-5018d138fec6",
             "source": {
               "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
@@ -21970,6 +22911,26 @@
     "lateral_links": {
       "company": [
         {
+          "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+          "slug": "massachusetts-institute-of-technology",
+          "entity_type": "ORGANIZATION",
+          "name": "Massachusetts Institute of Technology",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+          "slug": "mit-csail",
+          "entity_type": "ORGANIZATION",
+          "name": "MIT CSAIL",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
           "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
           "slug": "mitsubishi-electric-research-laboratories-merl",
           "entity_type": "ORGANIZATION",
@@ -22016,7 +22977,7 @@
       "last_verified_at": null,
       "recent_change_count": 0,
       "deployment_count": 0,
-      "related_count": 3
+      "related_count": 5
     },
     "as_of": null
   },
@@ -50710,6 +51671,104 @@
     },
     "as_of": null
   },
+  "entity/genoa-it": {
+    "entity": {
+      "id": "97c3cf09-877b-544b-ac7b-971891fa28e2",
+      "slug": "genoa-it",
+      "entity_type": "PLACE",
+      "name": "Genoa",
+      "short_description": null,
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "IT",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": {
+      "admin_region": null,
+      "city": "Genoa",
+      "lat": 44.40478,
+      "lng": 8.94439,
+      "cluster_label": null
+    },
+    "claims": [],
+    "relationships": [],
+    "inbound_relationships": [
+      {
+        "predicate": "HQ_AT",
+        "label": "is headquartered at",
+        "items": [
+          {
+            "claim_id": "030d2ead-2a48-5370-a9a9-c45693ff879f",
+            "source": {
+              "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+              "slug": "istituto-italiano-di-tecnologia-iit",
+              "entity_type": "ORGANIZATION",
+              "name": "Istituto Italiano di Tecnologia (IIT)",
+              "primary_embodiment": null,
+              "roles": [
+                "RESEARCH_LAB"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "lateral_links": {
+      "company": [
+        {
+          "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+          "slug": "istituto-italiano-di-tecnologia-iit",
+          "entity_type": "ORGANIZATION",
+          "name": "Istituto Italiano di Tecnologia (IIT)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ]
+    },
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 0,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 0,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": null,
+      "recent_change_count": 0,
+      "deployment_count": 0,
+      "related_count": 1
+    },
+    "as_of": null
+  },
   "entity/geodis": {
     "entity": {
       "id": "c27c543d-78ef-5fc6-a90c-67f33a6fb1d5",
@@ -62959,6 +64018,158 @@
     },
     "as_of": null
   },
+  "entity/istituto-italiano-di-tecnologia-iit": {
+    "entity": {
+      "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+      "slug": "istituto-italiano-di-tecnologia-iit",
+      "entity_type": "ORGANIZATION",
+      "name": "Istituto Italiano di Tecnologia (IIT)",
+      "short_description": "Italian research institute developing robots for healthcare, industry, agriculture, disaster recovery and space.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "IT",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "RESEARCH_LAB",
+        "declared": true,
+        "claim_id": "c7921deb-83fd-5ead-87df-4f7789d45fff",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "FOUNDED_ON",
+        "label": "was founded on",
+        "claims": [
+          {
+            "claim_id": "838a5c9a-6346-5d91-aa33-d6b4bd69d546",
+            "predicate": "FOUNDED_ON",
+            "value": {
+              "kind": "date",
+              "date": "2003-01-01"
+            },
+            "stack_layer": null,
+            "qualifier": "Year precision",
+            "valid_from": "2003-01-01",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "c7921deb-83fd-5ead-87df-4f7789d45fff",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "RESEARCH_LAB"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "predicate": "HQ_AT",
+        "label": "is headquartered at",
+        "items": [
+          {
+            "claim_id": "030d2ead-2a48-5370-a9a9-c45693ff879f",
+            "target": {
+              "id": "97c3cf09-877b-544b-ac7b-971891fa28e2",
+              "slug": "genoa-it",
+              "entity_type": "PLACE",
+              "name": "Genoa",
+              "primary_embodiment": null,
+              "roles": []
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "inbound_relationships": [],
+    "lateral_links": {
+      "places": [
+        {
+          "id": "97c3cf09-877b-544b-ac7b-971891fa28e2",
+          "slug": "genoa-it",
+          "entity_type": "PLACE",
+          "name": "Genoa",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      ]
+    },
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 3,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 3,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 3,
+      "deployment_count": 0,
+      "related_count": 1
+    },
+    "as_of": null
+  },
   "entity/j-schmalz": {
     "entity": {
       "id": "313ab662-5d43-58ad-8ee8-c8400764ab43",
@@ -70825,6 +72036,104 @@
     },
     "as_of": null
   },
+  "entity/lohr-am-main-de": {
+    "entity": {
+      "id": "b33368f3-5bc9-581d-b758-573b535d293f",
+      "slug": "lohr-am-main-de",
+      "entity_type": "PLACE",
+      "name": "Lohr am Main",
+      "short_description": null,
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "DE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": {
+      "admin_region": null,
+      "city": "Lohr am Main",
+      "lat": 49.98922,
+      "lng": 9.57223,
+      "cluster_label": null
+    },
+    "claims": [],
+    "relationships": [],
+    "inbound_relationships": [
+      {
+        "predicate": "HQ_AT",
+        "label": "is headquartered at",
+        "items": [
+          {
+            "claim_id": "1685aafc-5e01-5bf8-8574-9482c03171aa",
+            "source": {
+              "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+              "slug": "bosch-rexroth",
+              "entity_type": "ORGANIZATION",
+              "name": "Bosch Rexroth",
+              "primary_embodiment": null,
+              "roles": [
+                "COMPONENT_SUPPLIER"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "ANALYST",
+              "confidence": "LOW",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "lateral_links": {
+      "company": [
+        {
+          "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+          "slug": "bosch-rexroth",
+          "entity_type": "ORGANIZATION",
+          "name": "Bosch Rexroth",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ]
+    },
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 0,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 0,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": null,
+      "recent_change_count": 0,
+      "deployment_count": 0,
+      "related_count": 1
+    },
+    "as_of": null
+  },
   "entity/london": {
     "entity": {
       "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
@@ -73266,6 +74575,216 @@
     },
     "as_of": null
   },
+  "entity/massachusetts-institute-of-technology": {
+    "entity": {
+      "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+      "slug": "massachusetts-institute-of-technology",
+      "entity_type": "ORGANIZATION",
+      "name": "Massachusetts Institute of Technology",
+      "short_description": "Research university with robotics and artificial intelligence laboratories.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [
+        "MIT"
+      ],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "RESEARCH_LAB",
+        "declared": true,
+        "claim_id": "a65f52a0-2fbf-5071-90af-48de7d464e89",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [
+      {
+        "organization": {
+          "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+          "slug": "mit-csail",
+          "entity_type": "ORGANIZATION",
+          "name": "MIT CSAIL",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "since": "2026-09-11",
+        "claim_id": "6336b953-a764-5b44-b73e-0ab38ffb2bee"
+      }
+    ],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "a65f52a0-2fbf-5071-90af-48de7d464e89",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "RESEARCH_LAB"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "FOUNDED_ON",
+        "label": "was founded on",
+        "claims": [
+          {
+            "claim_id": "e53a4d5d-ef53-502d-ab4b-b159ba6318d6",
+            "predicate": "FOUNDED_ON",
+            "value": {
+              "kind": "date",
+              "date": "1861-01-01"
+            },
+            "stack_layer": null,
+            "qualifier": "Year precision",
+            "valid_from": "1861-01-01",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "predicate": "HQ_AT",
+        "label": "is headquartered at",
+        "items": [
+          {
+            "claim_id": "2318bafa-c523-5583-b2ab-f9ea03ccef5a",
+            "target": {
+              "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+              "slug": "cambridge-us",
+              "entity_type": "PLACE",
+              "name": "Cambridge",
+              "primary_embodiment": null,
+              "roles": []
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "inbound_relationships": [
+      {
+        "predicate": "PART_OF",
+        "label": "is part of",
+        "items": [
+          {
+            "claim_id": "6336b953-a764-5b44-b73e-0ab38ffb2bee",
+            "source": {
+              "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+              "slug": "mit-csail",
+              "entity_type": "ORGANIZATION",
+              "name": "MIT CSAIL",
+              "primary_embodiment": null,
+              "roles": [
+                "RESEARCH_LAB"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "University laboratory affiliation verified on this date; original affiliation date not asserted",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "lateral_links": {
+      "company": [
+        {
+          "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+          "slug": "mit-csail",
+          "entity_type": "ORGANIZATION",
+          "name": "MIT CSAIL",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+          "slug": "cambridge-us",
+          "entity_type": "PLACE",
+          "name": "Cambridge",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      ]
+    },
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 3,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 3,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 3,
+      "deployment_count": 0,
+      "related_count": 2
+    },
+    "as_of": null
+  },
   "entity/material-movement": {
     "entity": {
       "id": "fcc9343f-31c5-5376-9960-92e77b642be6",
@@ -74921,12 +76440,44 @@
               "confidence": "LOW",
               "source_count": 1
             }
+          },
+          {
+            "claim_id": "ad83d297-643c-574e-98a8-34d2365a39de",
+            "source": {
+              "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+              "slug": "andreessen-horowitz",
+              "entity_type": "ORGANIZATION",
+              "name": "Andreessen Horowitz",
+              "primary_embodiment": null,
+              "roles": [
+                "INVESTOR"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "ANALYST",
+              "confidence": "LOW",
+              "source_count": 1
+            }
           }
         ]
       }
     ],
     "lateral_links": {
       "company": [
+        {
+          "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+          "slug": "andreessen-horowitz",
+          "entity_type": "ORGANIZATION",
+          "name": "Andreessen Horowitz",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
         {
           "id": "b2019a1f-8ed0-51fd-9f1f-889ae8ff6290",
           "slug": "cyngn",
@@ -74985,7 +76536,7 @@
       "last_verified_at": null,
       "recent_change_count": 0,
       "deployment_count": 0,
-      "related_count": 4
+      "related_count": 5
     },
     "as_of": null
   },
@@ -76722,6 +78273,216 @@
       "recent_change_count": 0,
       "deployment_count": 0,
       "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/mit-csail": {
+    "entity": {
+      "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+      "slug": "mit-csail",
+      "entity_type": "ORGANIZATION",
+      "name": "MIT CSAIL",
+      "short_description": "MIT computer science laboratory researching robot learning, autonomous navigation and aerial robotics.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "RESEARCH_LAB",
+        "declared": true,
+        "claim_id": "82e37cc1-1e85-5259-9705-7b0239d95de7",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": {
+      "parent": {
+        "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+        "slug": "massachusetts-institute-of-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Massachusetts Institute of Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "6336b953-a764-5b44-b73e-0ab38ffb2bee",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    },
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "82e37cc1-1e85-5259-9705-7b0239d95de7",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "RESEARCH_LAB"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "FOUNDED_ON",
+        "label": "was founded on",
+        "claims": [
+          {
+            "claim_id": "b587c34e-b81a-5184-a4c3-ffe4bf48ed3e",
+            "predicate": "FOUNDED_ON",
+            "value": {
+              "kind": "date",
+              "date": "2003-01-01"
+            },
+            "stack_layer": null,
+            "qualifier": "Year precision; merged CSAIL laboratory, whose predecessors date to 1959 and 1963",
+            "valid_from": "2003-01-01",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "predicate": "HQ_AT",
+        "label": "is headquartered at",
+        "items": [
+          {
+            "claim_id": "2dff6a6b-a02f-5d04-8ac8-a5bcd425de2f",
+            "target": {
+              "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+              "slug": "cambridge-us",
+              "entity_type": "PLACE",
+              "name": "Cambridge",
+              "primary_embodiment": null,
+              "roles": []
+            },
+            "stack_layer": null,
+            "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "ANALYST",
+              "confidence": "LOW",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "PART_OF",
+        "label": "is part of",
+        "items": [
+          {
+            "claim_id": "6336b953-a764-5b44-b73e-0ab38ffb2bee",
+            "target": {
+              "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+              "slug": "massachusetts-institute-of-technology",
+              "entity_type": "ORGANIZATION",
+              "name": "Massachusetts Institute of Technology",
+              "primary_embodiment": null,
+              "roles": [
+                "RESEARCH_LAB"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "University laboratory affiliation verified on this date; original affiliation date not asserted",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "inbound_relationships": [],
+    "lateral_links": {
+      "company": [
+        {
+          "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+          "slug": "massachusetts-institute-of-technology",
+          "entity_type": "ORGANIZATION",
+          "name": "Massachusetts Institute of Technology",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+          "slug": "cambridge-us",
+          "entity_type": "PLACE",
+          "name": "Cambridge",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      ]
+    },
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 3,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 1
+        },
+        "claim_count": 4,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 4,
+      "deployment_count": 0,
+      "related_count": 2
     },
     "as_of": null
   },
@@ -102045,7 +103806,10 @@
       "image_credit": null,
       "primary_embodiment": null,
       "country_code": "CN",
-      "aliases": [],
+      "aliases": [
+        "RoboSense (Suteng Innovation)",
+        "Suteng Innovation"
+      ],
       "created_at": "2026-09-01T00:00:00.000Z",
       "updated_at": "2026-09-01T00:00:00.000Z"
     },
@@ -110211,6 +111975,28 @@
               "confidence": "HIGH",
               "source_count": 1
             }
+          },
+          {
+            "claim_id": "ff62fb99-5abf-54ac-b34a-2062d9237ace",
+            "source": {
+              "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+              "slug": "amazon-industrial-innovation-fund",
+              "entity_type": "ORGANIZATION",
+              "name": "Amazon Industrial Innovation Fund",
+              "primary_embodiment": null,
+              "roles": [
+                "INVESTOR"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "ANALYST",
+              "confidence": "LOW",
+              "source_count": 1
+            }
           }
         ]
       }
@@ -110228,6 +112014,16 @@
             "OPERATOR",
             "PLATFORM",
             "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+          "slug": "amazon-industrial-innovation-fund",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon Industrial Innovation Fund",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
           ]
         },
         {
@@ -110278,7 +112074,7 @@
       "last_verified_at": null,
       "recent_change_count": 0,
       "deployment_count": 0,
-      "related_count": 4
+      "related_count": 5
     },
     "as_of": null
   },
@@ -115449,6 +117245,34 @@
     ],
     "inbound_relationships": [
       {
+        "predicate": "INVESTED_IN",
+        "label": "invested in",
+        "items": [
+          {
+            "claim_id": "6b82f16d-698d-5f61-ac5d-598fccc9e707",
+            "source": {
+              "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+              "slug": "amazon-industrial-innovation-fund",
+              "entity_type": "ORGANIZATION",
+              "name": "Amazon Industrial Innovation Fund",
+              "primary_embodiment": null,
+              "roles": [
+                "INVESTOR"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "Disclosed participation; individual investment date, amount and current ownership not asserted",
+            "valid_from": "2026-09-01",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
         "predicate": "MADE_BY",
         "label": "is made by",
         "items": [
@@ -115476,6 +117300,18 @@
       }
     ],
     "lateral_links": {
+      "company": [
+        {
+          "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+          "slug": "amazon-industrial-innovation-fund",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon Industrial Innovation Fund",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
       "places": [
         {
           "id": "87216f35-32ce-54be-9ed9-86c480775092",
@@ -115502,7 +117338,7 @@
       "last_verified_at": "2026-09-01T00:00:00.000Z",
       "recent_change_count": 4,
       "deployment_count": 0,
-      "related_count": 2
+      "related_count": 3
     },
     "as_of": null
   },
@@ -115981,8 +117817,49 @@
         ]
       }
     ],
-    "inbound_relationships": [],
+    "inbound_relationships": [
+      {
+        "predicate": "INVESTED_IN",
+        "label": "invested in",
+        "items": [
+          {
+            "claim_id": "8660269a-337f-5fc9-a437-6630f18006bb",
+            "source": {
+              "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+              "slug": "andreessen-horowitz",
+              "entity_type": "ORGANIZATION",
+              "name": "Andreessen Horowitz",
+              "primary_embodiment": null,
+              "roles": [
+                "INVESTOR"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "Disclosed participation; individual investment date, amount and current ownership not asserted",
+            "valid_from": "2026-09-01",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
     "lateral_links": {
+      "company": [
+        {
+          "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+          "slug": "andreessen-horowitz",
+          "entity_type": "ORGANIZATION",
+          "name": "Andreessen Horowitz",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
       "markets": [
         {
           "id": "1fcc6eb5-3d99-52ea-9f79-d1d882b3957b",
@@ -116027,7 +117904,7 @@
       "last_verified_at": "2026-09-01T00:00:00.000Z",
       "recent_change_count": 6,
       "deployment_count": 0,
-      "related_count": 4
+      "related_count": 5
     },
     "as_of": null
   },
@@ -134609,6 +136486,216 @@
       "recent_change_count": 5,
       "deployment_count": 0,
       "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/university-of-california-berkeley": {
+    "entity": {
+      "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+      "slug": "university-of-california-berkeley",
+      "entity_type": "ORGANIZATION",
+      "name": "University of California Berkeley",
+      "short_description": "Research university with robotics and artificial intelligence laboratories.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [
+        "UC Berkeley"
+      ],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "RESEARCH_LAB",
+        "declared": true,
+        "claim_id": "1001a49b-ae79-5bbd-af0e-830ca7e19f22",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [
+      {
+        "organization": {
+          "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+          "slug": "berkeley-artificial-intelligence-research-bair",
+          "entity_type": "ORGANIZATION",
+          "name": "Berkeley Artificial Intelligence Research (BAIR)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "since": "2026-09-11",
+        "claim_id": "fdca951a-8493-5c9f-a14f-256782d50227"
+      }
+    ],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "1001a49b-ae79-5bbd-af0e-830ca7e19f22",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "RESEARCH_LAB"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "FOUNDED_ON",
+        "label": "was founded on",
+        "claims": [
+          {
+            "claim_id": "333abf85-c115-5d6f-aa14-f403580a7569",
+            "predicate": "FOUNDED_ON",
+            "value": {
+              "kind": "date",
+              "date": "1868-01-01"
+            },
+            "stack_layer": null,
+            "qualifier": "Year precision",
+            "valid_from": "1868-01-01",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "predicate": "HQ_AT",
+        "label": "is headquartered at",
+        "items": [
+          {
+            "claim_id": "bfb7c9d6-a622-5ae7-81d1-ba33650c024f",
+            "target": {
+              "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+              "slug": "berkeley-us",
+              "entity_type": "PLACE",
+              "name": "Berkeley",
+              "primary_embodiment": null,
+              "roles": []
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "inbound_relationships": [
+      {
+        "predicate": "PART_OF",
+        "label": "is part of",
+        "items": [
+          {
+            "claim_id": "fdca951a-8493-5c9f-a14f-256782d50227",
+            "source": {
+              "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+              "slug": "berkeley-artificial-intelligence-research-bair",
+              "entity_type": "ORGANIZATION",
+              "name": "Berkeley Artificial Intelligence Research (BAIR)",
+              "primary_embodiment": null,
+              "roles": [
+                "RESEARCH_LAB"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": "University laboratory affiliation verified on this date; original affiliation date not asserted",
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "lateral_links": {
+      "company": [
+        {
+          "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+          "slug": "berkeley-artificial-intelligence-research-bair",
+          "entity_type": "ORGANIZATION",
+          "name": "Berkeley Artificial Intelligence Research (BAIR)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "places": [
+        {
+          "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+          "slug": "berkeley-us",
+          "entity_type": "PLACE",
+          "name": "Berkeley",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      ]
+    },
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 3,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 3,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 3,
+      "deployment_count": 0,
+      "related_count": 2
     },
     "as_of": null
   },
@@ -157326,12 +159413,12 @@
       {
         "id": "US",
         "label": "US",
-        "count": 331,
+        "count": 337,
         "districts": [
           {
             "id": "US",
             "label": "US",
-            "count": 331,
+            "count": 337,
             "entities": [
               {
                 "chip": {
@@ -157529,6 +159616,20 @@
               },
               {
                 "chip": {
+                  "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+                  "slug": "amazon-industrial-innovation-fund",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Amazon Industrial Innovation Fund",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INVESTOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
                   "slug": "amazon-robotics",
                   "entity_type": "ORGANIZATION",
@@ -157581,6 +159682,20 @@
                   "roles": [
                     "CHIPMAKER",
                     "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+                  "slug": "andreessen-horowitz",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Andreessen Horowitz",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INVESTOR"
                   ]
                 },
                 "measure_value": null,
@@ -157863,6 +159978,20 @@
                   "name": "Berkeley",
                   "primary_embodiment": null,
                   "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+                  "slug": "berkeley-artificial-intelligence-research-bair",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Berkeley Artificial Intelligence Research (BAIR)",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "RESEARCH_LAB"
+                  ]
                 },
                 "measure_value": null,
                 "is_primary_membership": true
@@ -159546,6 +161675,20 @@
               },
               {
                 "chip": {
+                  "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+                  "slug": "massachusetts-institute-of-technology",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Massachusetts Institute of Technology",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "RESEARCH_LAB"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "9ba7039f-6158-5a08-ac87-a5e24c4025f1",
                   "slug": "mathworks",
                   "entity_type": "ORGANIZATION",
@@ -159680,6 +161823,20 @@
                   "name": "Minneapolis",
                   "primary_embodiment": null,
                   "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+                  "slug": "mit-csail",
+                  "entity_type": "ORGANIZATION",
+                  "name": "MIT CSAIL",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "RESEARCH_LAB"
+                  ]
                 },
                 "measure_value": null,
                 "is_primary_membership": true
@@ -161466,6 +163623,20 @@
               },
               {
                 "chip": {
+                  "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+                  "slug": "university-of-california-berkeley",
+                  "entity_type": "ORGANIZATION",
+                  "name": "University of California Berkeley",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "RESEARCH_LAB"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "8e3457ca-5131-5190-a3df-6c7b583eaced",
                   "slug": "vecna",
                   "entity_type": "ORGANIZATION",
@@ -162773,12 +164944,12 @@
       {
         "id": "DE",
         "label": "DE",
-        "count": 65,
+        "count": 67,
         "districts": [
           {
             "id": "DE",
             "label": "DE",
-            "count": 65,
+            "count": 67,
             "entities": [
               {
                 "chip": {
@@ -162892,6 +165063,20 @@
                   "name": "Bonn",
                   "primary_embodiment": null,
                   "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+                  "slug": "bosch-rexroth",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Bosch Rexroth",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
                 },
                 "measure_value": null,
                 "is_primary_membership": true
@@ -163231,6 +165416,18 @@
                   "slug": "lauffen-am-neckar-de",
                   "entity_type": "PLACE",
                   "name": "Lauffen am Neckar",
+                  "primary_embodiment": null,
+                  "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "b33368f3-5bc9-581d-b758-573b535d293f",
+                  "slug": "lohr-am-main-de",
+                  "entity_type": "PLACE",
+                  "name": "Lohr am Main",
                   "primary_embodiment": null,
                   "roles": []
                 },
@@ -167015,6 +169212,72 @@
         ]
       },
       {
+        "id": "IT",
+        "label": "IT",
+        "count": 4,
+        "districts": [
+          {
+            "id": "IT",
+            "label": "IT",
+            "count": 4,
+            "entities": [
+              {
+                "chip": {
+                  "id": "6cebf86e-4e8b-506e-ad35-d1d09169dd77",
+                  "slug": "comau",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Comau",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "97c3cf09-877b-544b-ac7b-971891fa28e2",
+                  "slug": "genoa-it",
+                  "entity_type": "PLACE",
+                  "name": "Genoa",
+                  "primary_embodiment": null,
+                  "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+                  "slug": "istituto-italiano-di-tecnologia-iit",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Istituto Italiano di Tecnologia (IIT)",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "RESEARCH_LAB"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "4ee909aa-8315-5557-9b48-bc8596dbd43c",
+                  "slug": "turin-it",
+                  "entity_type": "PLACE",
+                  "name": "Turin",
+                  "primary_embodiment": null,
+                  "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "SG",
         "label": "SG",
         "count": 4,
@@ -167303,46 +169566,6 @@
                   "roles": [
                     "INVESTOR"
                   ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "IT",
-        "label": "IT",
-        "count": 2,
-        "districts": [
-          {
-            "id": "IT",
-            "label": "IT",
-            "count": 2,
-            "entities": [
-              {
-                "chip": {
-                  "id": "6cebf86e-4e8b-506e-ad35-d1d09169dd77",
-                  "slug": "comau",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Comau",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "4ee909aa-8315-5557-9b48-bc8596dbd43c",
-                  "slug": "turin-it",
-                  "entity_type": "PLACE",
-                  "name": "Turin",
-                  "primary_embodiment": null,
-                  "roles": []
                 },
                 "measure_value": null,
                 "is_primary_membership": true
@@ -168834,7 +171057,7 @@
       {
         "id": "SUPPLIED",
         "label": "Supplied",
-        "count": 88
+        "count": 89
       },
       {
         "id": "MANUFACTURED",
@@ -168849,12 +171072,12 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 105
+        "count": 110
       },
       {
         "id": "FUNDED",
         "label": "Funded",
-        "count": 51
+        "count": 53
       },
       {
         "id": "PLATFORMS",
@@ -176355,7 +178578,7 @@
       {
         "id": "SUPPLIED",
         "label": "Supplied",
-        "count": 88
+        "count": 89
       },
       {
         "id": "MANUFACTURED",
@@ -176370,12 +178593,12 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 105
+        "count": 110
       },
       {
         "id": "FUNDED",
         "label": "Funded",
-        "count": 51
+        "count": 53
       },
       {
         "id": "PLATFORMS",
@@ -177465,6 +179688,34 @@
       },
       {
         "place": {
+          "id": "b33368f3-5bc9-581d-b758-573b535d293f",
+          "slug": "lohr-am-main-de",
+          "entity_type": "PLACE",
+          "name": "Lohr am Main",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "lat": 49.98922,
+        "lng": 9.57223,
+        "country_code": "DE",
+        "cluster_label": null,
+        "weight": 1,
+        "entities": [
+          {
+            "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+            "slug": "bosch-rexroth",
+            "entity_type": "ORGANIZATION",
+            "name": "Bosch Rexroth",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          }
+        ],
+        "embodiment_mix": {}
+      },
+      {
+        "place": {
           "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
           "slug": "london",
           "entity_type": "PLACE",
@@ -178502,8 +180753,8 @@
       {
         "id": "DE",
         "label": "DE",
-        "weight": 11,
-        "places": 11
+        "weight": 12,
+        "places": 12
       },
       {
         "id": "JP",
@@ -179756,6 +182007,26 @@
       },
       {
         "entity": {
+          "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+          "slug": "bosch-rexroth",
+          "entity_type": "ORGANIZATION",
+          "name": "Bosch Rexroth",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        "place": {
+          "id": "b33368f3-5bc9-581d-b758-573b535d293f",
+          "slug": "lohr-am-main-de",
+          "entity_type": "PLACE",
+          "name": "Lohr am Main",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      },
+      {
+        "entity": {
           "id": "5b23498d-4b1d-5f2b-9a62-f0db37a614e9",
           "slug": "shadow-robot-company",
           "entity_type": "ORGANIZATION",
@@ -180502,7 +182773,7 @@
       {
         "id": "SUPPLIED",
         "label": "Supplied",
-        "count": 88
+        "count": 89
       },
       {
         "id": "MANUFACTURED",
@@ -180517,12 +182788,12 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 105
+        "count": 110
       },
       {
         "id": "FUNDED",
         "label": "Funded",
-        "count": 51
+        "count": 53
       },
       {
         "id": "PLATFORMS",
@@ -180891,7 +183162,7 @@
       {
         "id": "SUPPLIED",
         "label": "Supplied",
-        "count": 88
+        "count": 89
       },
       {
         "id": "MANUFACTURED",
@@ -180906,12 +183177,12 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 105
+        "count": 110
       },
       {
         "id": "FUNDED",
         "label": "Funded",
-        "count": 51
+        "count": 53
       },
       {
         "id": "PLATFORMS",
@@ -180996,7 +183267,7 @@
       {
         "id": "SUPPLIED",
         "label": "Supplied",
-        "count": 88
+        "count": 89
       },
       {
         "id": "MANUFACTURED",
@@ -181011,12 +183282,12 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 105
+        "count": 110
       },
       {
         "id": "FUNDED",
         "label": "Funded",
-        "count": 51
+        "count": 53
       },
       {
         "id": "PLATFORMS",
@@ -181439,6 +183710,64 @@
       },
       {
         "place": {
+          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+          "slug": "cambridge-us",
+          "entity_type": "PLACE",
+          "name": "Cambridge",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "lat": 42.3751,
+        "lng": -71.10561,
+        "country_code": "US",
+        "cluster_label": null,
+        "weight": 4,
+        "entities": [
+          {
+            "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+            "slug": "massachusetts-institute-of-technology",
+            "entity_type": "ORGANIZATION",
+            "name": "Massachusetts Institute of Technology",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          {
+            "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+            "slug": "mit-csail",
+            "entity_type": "ORGANIZATION",
+            "name": "MIT CSAIL",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          {
+            "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+            "slug": "mitsubishi-electric-research-laboratories-merl",
+            "entity_type": "ORGANIZATION",
+            "name": "Mitsubishi Electric Research Laboratories (MERL)",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          {
+            "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
+            "slug": "robotics-and-ai-institute-rai-institute",
+            "entity_type": "ORGANIZATION",
+            "name": "Robotics and AI Institute (RAI Institute)",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          }
+        ],
+        "embodiment_mix": {}
+      },
+      {
+        "place": {
           "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
           "slug": "shanghai",
           "entity_type": "PLACE",
@@ -181706,34 +184035,34 @@
       },
       {
         "place": {
-          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
-          "slug": "cambridge-us",
+          "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+          "slug": "berkeley-us",
           "entity_type": "PLACE",
-          "name": "Cambridge",
+          "name": "Berkeley",
           "primary_embodiment": null,
           "roles": []
         },
-        "lat": 42.3751,
-        "lng": -71.10561,
+        "lat": 37.87159,
+        "lng": -122.27275,
         "country_code": "US",
         "cluster_label": null,
         "weight": 2,
         "entities": [
           {
-            "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
-            "slug": "mitsubishi-electric-research-laboratories-merl",
+            "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+            "slug": "berkeley-artificial-intelligence-research-bair",
             "entity_type": "ORGANIZATION",
-            "name": "Mitsubishi Electric Research Laboratories (MERL)",
+            "name": "Berkeley Artificial Intelligence Research (BAIR)",
             "primary_embodiment": null,
             "roles": [
               "RESEARCH_LAB"
             ]
           },
           {
-            "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
-            "slug": "robotics-and-ai-institute-rai-institute",
+            "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+            "slug": "university-of-california-berkeley",
             "entity_type": "ORGANIZATION",
-            "name": "Robotics and AI Institute (RAI Institute)",
+            "name": "University of California Berkeley",
             "primary_embodiment": null,
             "roles": [
               "RESEARCH_LAB"
@@ -182398,6 +184727,34 @@
             "primary_embodiment": null,
             "roles": [
               "DATA_SIMULATION_PROVIDER"
+            ]
+          }
+        ],
+        "embodiment_mix": {}
+      },
+      {
+        "place": {
+          "id": "97c3cf09-877b-544b-ac7b-971891fa28e2",
+          "slug": "genoa-it",
+          "entity_type": "PLACE",
+          "name": "Genoa",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "lat": 44.40478,
+        "lng": 8.94439,
+        "country_code": "IT",
+        "cluster_label": null,
+        "weight": 1,
+        "entities": [
+          {
+            "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+            "slug": "istituto-italiano-di-tecnologia-iit",
+            "entity_type": "ORGANIZATION",
+            "name": "Istituto Italiano di Tecnologia (IIT)",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
             ]
           }
         ],
@@ -183173,8 +185530,8 @@
       {
         "id": "US",
         "label": "US",
-        "weight": 51,
-        "places": 28
+        "weight": 55,
+        "places": 29
       },
       {
         "id": "CN",
@@ -183263,6 +185620,12 @@
       {
         "id": "FR",
         "label": "FR",
+        "weight": 1,
+        "places": 1
+      },
+      {
+        "id": "IT",
+        "label": "IT",
         "weight": 1,
         "places": 1
       },
@@ -184002,6 +186365,86 @@
       },
       {
         "entity": {
+          "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+          "slug": "massachusetts-institute-of-technology",
+          "entity_type": "ORGANIZATION",
+          "name": "Massachusetts Institute of Technology",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "place": {
+          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+          "slug": "cambridge-us",
+          "entity_type": "PLACE",
+          "name": "Cambridge",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      },
+      {
+        "entity": {
+          "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+          "slug": "mit-csail",
+          "entity_type": "ORGANIZATION",
+          "name": "MIT CSAIL",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "place": {
+          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+          "slug": "cambridge-us",
+          "entity_type": "PLACE",
+          "name": "Cambridge",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      },
+      {
+        "entity": {
+          "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+          "slug": "mitsubishi-electric-research-laboratories-merl",
+          "entity_type": "ORGANIZATION",
+          "name": "Mitsubishi Electric Research Laboratories (MERL)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "place": {
+          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+          "slug": "cambridge-us",
+          "entity_type": "PLACE",
+          "name": "Cambridge",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      },
+      {
+        "entity": {
+          "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
+          "slug": "robotics-and-ai-institute-rai-institute",
+          "entity_type": "ORGANIZATION",
+          "name": "Robotics and AI Institute (RAI Institute)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "place": {
+          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+          "slug": "cambridge-us",
+          "entity_type": "PLACE",
+          "name": "Cambridge",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      },
+      {
+        "entity": {
           "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
           "slug": "agibot",
           "entity_type": "ORGANIZATION",
@@ -184349,40 +186792,40 @@
       },
       {
         "entity": {
-          "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
-          "slug": "mitsubishi-electric-research-laboratories-merl",
+          "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+          "slug": "berkeley-artificial-intelligence-research-bair",
           "entity_type": "ORGANIZATION",
-          "name": "Mitsubishi Electric Research Laboratories (MERL)",
+          "name": "Berkeley Artificial Intelligence Research (BAIR)",
           "primary_embodiment": null,
           "roles": [
             "RESEARCH_LAB"
           ]
         },
         "place": {
-          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
-          "slug": "cambridge-us",
+          "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+          "slug": "berkeley-us",
           "entity_type": "PLACE",
-          "name": "Cambridge",
+          "name": "Berkeley",
           "primary_embodiment": null,
           "roles": []
         }
       },
       {
         "entity": {
-          "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
-          "slug": "robotics-and-ai-institute-rai-institute",
+          "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+          "slug": "university-of-california-berkeley",
           "entity_type": "ORGANIZATION",
-          "name": "Robotics and AI Institute (RAI Institute)",
+          "name": "University of California Berkeley",
           "primary_embodiment": null,
           "roles": [
             "RESEARCH_LAB"
           ]
         },
         "place": {
-          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
-          "slug": "cambridge-us",
+          "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+          "slug": "berkeley-us",
           "entity_type": "PLACE",
-          "name": "Cambridge",
+          "name": "Berkeley",
           "primary_embodiment": null,
           "roles": []
         }
@@ -184980,6 +187423,26 @@
       },
       {
         "entity": {
+          "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+          "slug": "istituto-italiano-di-tecnologia-iit",
+          "entity_type": "ORGANIZATION",
+          "name": "Istituto Italiano di Tecnologia (IIT)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "place": {
+          "id": "97c3cf09-877b-544b-ac7b-971891fa28e2",
+          "slug": "genoa-it",
+          "entity_type": "PLACE",
+          "name": "Genoa",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      },
+      {
+        "entity": {
           "id": "b992dfb4-b945-5a51-9ccf-368c6da804a1",
           "slug": "kognic",
           "entity_type": "ORGANIZATION",
@@ -185541,7 +188004,7 @@
       {
         "id": "SUPPLIED",
         "label": "Supplied",
-        "count": 88
+        "count": 89
       },
       {
         "id": "MANUFACTURED",
@@ -185556,12 +188019,12 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 105
+        "count": 110
       },
       {
         "id": "FUNDED",
         "label": "Funded",
-        "count": 51
+        "count": 53
       },
       {
         "id": "PLATFORMS",
@@ -185661,8 +188124,18 @@
         "lng": -74.4121,
         "country_code": "US",
         "cluster_label": null,
-        "weight": 3,
+        "weight": 4,
         "entities": [
+          {
+            "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+            "slug": "andreessen-horowitz",
+            "entity_type": "ORGANIZATION",
+            "name": "Andreessen Horowitz",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
           {
             "id": "22d976e0-3c83-50e0-8102-bd2c1881a83c",
             "slug": "khosla-ventures",
@@ -185794,6 +188267,57 @@
               "INVESTOR",
               "MODEL_DEVELOPER",
               "PLATFORM"
+            ]
+          }
+        ],
+        "embodiment_mix": {}
+      },
+      {
+        "place": {
+          "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+          "slug": "seattle",
+          "entity_type": "PLACE",
+          "name": "Seattle",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "lat": 47.6062,
+        "lng": -122.3321,
+        "country_code": "US",
+        "cluster_label": "Seattle",
+        "weight": 3,
+        "entities": [
+          {
+            "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+            "slug": "amazon",
+            "entity_type": "ORGANIZATION",
+            "name": "Amazon",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "OPERATOR",
+              "PLATFORM",
+              "RESEARCH_LAB"
+            ]
+          },
+          {
+            "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+            "slug": "amazon-industrial-innovation-fund",
+            "entity_type": "ORGANIZATION",
+            "name": "Amazon Industrial Innovation Fund",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          {
+            "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
+            "slug": "bezos-expeditions",
+            "entity_type": "ORGANIZATION",
+            "name": "Bezos Expeditions",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
             ]
           }
         ],
@@ -185943,47 +188467,6 @@
             "slug": "nventures",
             "entity_type": "ORGANIZATION",
             "name": "NVentures",
-            "primary_embodiment": null,
-            "roles": [
-              "INVESTOR"
-            ]
-          }
-        ],
-        "embodiment_mix": {}
-      },
-      {
-        "place": {
-          "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
-          "slug": "seattle",
-          "entity_type": "PLACE",
-          "name": "Seattle",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "lat": 47.6062,
-        "lng": -122.3321,
-        "country_code": "US",
-        "cluster_label": "Seattle",
-        "weight": 2,
-        "entities": [
-          {
-            "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
-            "slug": "amazon",
-            "entity_type": "ORGANIZATION",
-            "name": "Amazon",
-            "primary_embodiment": null,
-            "roles": [
-              "INVESTOR",
-              "OPERATOR",
-              "PLATFORM",
-              "RESEARCH_LAB"
-            ]
-          },
-          {
-            "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
-            "slug": "bezos-expeditions",
-            "entity_type": "ORGANIZATION",
-            "name": "Bezos Expeditions",
             "primary_embodiment": null,
             "roles": [
               "INVESTOR"
@@ -186684,7 +189167,7 @@
       {
         "id": "US",
         "label": "US",
-        "weight": 28,
+        "weight": 30,
         "places": 14
       },
       {
@@ -186768,16 +189251,16 @@
     ],
     "corridors": [
       {
+        "id": "Seattle",
+        "label": "Seattle",
+        "weight": 4,
+        "places": 2
+      },
+      {
         "id": "Bay Area",
         "label": "Bay Area",
         "weight": 3,
         "places": 1
-      },
-      {
-        "id": "Seattle",
-        "label": "Seattle",
-        "weight": 3,
-        "places": 2
       },
       {
         "id": "London",
@@ -186945,6 +189428,26 @@
           "slug": "san-francisco-us",
           "entity_type": "PLACE",
           "name": "San Francisco",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      },
+      {
+        "entity": {
+          "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+          "slug": "andreessen-horowitz",
+          "entity_type": "ORGANIZATION",
+          "name": "Andreessen Horowitz",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        "place": {
+          "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+          "slug": "menlo-park-us",
+          "entity_type": "PLACE",
+          "name": "Menlo Park",
           "primary_embodiment": null,
           "roles": []
         }
@@ -187138,6 +189641,69 @@
       },
       {
         "entity": {
+          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+          "slug": "amazon",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "OPERATOR",
+            "PLATFORM",
+            "RESEARCH_LAB"
+          ]
+        },
+        "place": {
+          "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+          "slug": "seattle",
+          "entity_type": "PLACE",
+          "name": "Seattle",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      },
+      {
+        "entity": {
+          "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+          "slug": "amazon-industrial-innovation-fund",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon Industrial Innovation Fund",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        "place": {
+          "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+          "slug": "seattle",
+          "entity_type": "PLACE",
+          "name": "Seattle",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      },
+      {
+        "entity": {
+          "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
+          "slug": "bezos-expeditions",
+          "entity_type": "ORGANIZATION",
+          "name": "Bezos Expeditions",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        "place": {
+          "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+          "slug": "seattle",
+          "entity_type": "PLACE",
+          "name": "Seattle",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      },
+      {
+        "entity": {
           "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
           "slug": "balderton-capital",
           "entity_type": "ORGANIZATION",
@@ -187292,49 +189858,6 @@
           "slug": "santa-clara-us",
           "entity_type": "PLACE",
           "name": "Santa Clara",
-          "primary_embodiment": null,
-          "roles": []
-        }
-      },
-      {
-        "entity": {
-          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
-          "slug": "amazon",
-          "entity_type": "ORGANIZATION",
-          "name": "Amazon",
-          "primary_embodiment": null,
-          "roles": [
-            "INVESTOR",
-            "OPERATOR",
-            "PLATFORM",
-            "RESEARCH_LAB"
-          ]
-        },
-        "place": {
-          "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
-          "slug": "seattle",
-          "entity_type": "PLACE",
-          "name": "Seattle",
-          "primary_embodiment": null,
-          "roles": []
-        }
-      },
-      {
-        "entity": {
-          "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
-          "slug": "bezos-expeditions",
-          "entity_type": "ORGANIZATION",
-          "name": "Bezos Expeditions",
-          "primary_embodiment": null,
-          "roles": [
-            "INVESTOR"
-          ]
-        },
-        "place": {
-          "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
-          "slug": "seattle",
-          "entity_type": "PLACE",
-          "name": "Seattle",
           "primary_embodiment": null,
           "roles": []
         }
@@ -187886,7 +190409,7 @@
       {
         "id": "SUPPLIED",
         "label": "Supplied",
-        "count": 88
+        "count": 89
       },
       {
         "id": "MANUFACTURED",
@@ -187901,12 +190424,12 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 105
+        "count": 110
       },
       {
         "id": "FUNDED",
         "label": "Funded",
-        "count": 51
+        "count": 53
       },
       {
         "id": "PLATFORMS",
@@ -192292,6 +194815,41 @@
         "origin": "SEED"
       },
       {
+        "id": "0e265e02-b740-5c40-954e-036a06c8bcf2",
+        "event_type": "CLAIM_CHANGED",
+        "entity": {
+          "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+          "slug": "istituto-italiano-di-tecnologia-iit",
+          "entity_type": "ORGANIZATION",
+          "name": "Istituto Italiano di Tecnologia (IIT)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "before": null,
+        "after": {
+          "kind": "entity",
+          "entity": {
+            "id": "97c3cf09-877b-544b-ac7b-971891fa28e2",
+            "slug": "genoa-it",
+            "entity_type": "PLACE",
+            "name": "Genoa",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "measure": null
+        },
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        },
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "summary": "Headquartered at Genoa",
+        "origin": "SEED"
+      },
+      {
         "id": "0ea3af47-a0ac-5c4f-b552-2123db4e7a6a",
         "event_type": "CLAIM_CHANGED",
         "entity": {
@@ -192481,41 +195039,6 @@
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
-          ]
-        },
-        "before": null,
-        "after": {
-          "kind": "entity",
-          "entity": {
-            "id": "d0b089f9-33ec-5afd-9f0b-2d371b114841",
-            "slug": "bedford-us",
-            "entity_type": "PLACE",
-            "name": "Bedford",
-            "primary_embodiment": null,
-            "roles": []
-          },
-          "measure": null
-        },
-        "evidence_summary": {
-          "class": "ANALYST",
-          "confidence": "LOW",
-          "source_count": 1
-        },
-        "observed_at": "2026-09-11T00:00:00.000Z",
-        "summary": "Headquartered at Bedford",
-        "origin": "SEED"
-      },
-      {
-        "id": "0fe5d287-1ec1-5999-8129-772bca6f6a70",
-        "event_type": "CLAIM_CHANGED",
-        "entity": {
-          "id": "3e6da89d-8b91-5b73-9d57-99fbc9aa8ec2",
-          "slug": "oxipital-ai",
-          "entity_type": "ORGANIZATION",
-          "name": "Oxipital AI",
-          "primary_embodiment": null,
-          "roles": [
-            "TOOLING_OPS_PROVIDER"
           ]
         },
         "before": null,
@@ -194137,6 +196660,69 @@
           "reviewed_at": "2026-09-01T00:00:00.000Z",
           "notes": null
         }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/030d2ead-2a48-5370-a9a9-c45693ff879f": {
+    "claim": {
+      "claim_id": "030d2ead-2a48-5370-a9a9-c45693ff879f",
+      "subject": {
+        "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+        "slug": "istituto-italiano-di-tecnologia-iit",
+        "entity_type": "ORGANIZATION",
+        "name": "Istituto Italiano di Tecnologia (IIT)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "sentence": "Istituto Italiano di Tecnologia (IIT) is headquartered at Genoa",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "97c3cf09-877b-544b-ac7b-971891fa28e2",
+          "slug": "genoa-it",
+          "entity_type": "PLACE",
+          "name": "Genoa",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "2188c2c3-a0f0-5ccf-90e6-17c0e905e913",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Istituto Italiano di Tecnologia (IIT) is headquartered in Genoa.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "30f6ab5a-982c-54b5-b129-15ed3105284e",
+          "url": "https://www.iit.it/it-IT/call-for-iit-scientific-director",
+          "canonical_url": null,
+          "publisher": "Istituto Italiano di Tecnologia (IIT)",
+          "title": "Istituto Italiano di Tecnologia (IIT) — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
       }
     ],
     "history": [],
@@ -200078,6 +202664,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/1001a49b-ae79-5bbd-af0e-830ca7e19f22": {
+    "claim": {
+      "claim_id": "1001a49b-ae79-5bbd-af0e-830ca7e19f22",
+      "subject": {
+        "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+        "slug": "university-of-california-berkeley",
+        "entity_type": "ORGANIZATION",
+        "name": "University of California Berkeley",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "University of California Berkeley role RESEARCH_LAB",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "75c81932-02f5-5136-b9a5-cbcaa80f2342",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Research university with robotics and artificial intelligence laboratories.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "91bed30c-055a-5133-9adf-6cd232cdc528",
+          "url": "https://www.berkeley.edu/about/",
+          "canonical_url": null,
+          "publisher": "University of California Berkeley",
+          "title": "University of California Berkeley — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/10339217-13af-5c9b-8679-7c48f2676286": {
     "claim": {
       "claim_id": "10339217-13af-5c9b-8679-7c48f2676286",
@@ -202364,6 +205005,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/14371587-901f-5cfb-b75c-f5229f84d057": {
+    "claim": {
+      "claim_id": "14371587-901f-5cfb-b75c-f5229f84d057",
+      "subject": {
+        "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+        "slug": "bosch-rexroth",
+        "entity_type": "ORGANIZATION",
+        "name": "Bosch Rexroth",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Bosch Rexroth role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "be827d1f-02d3-57d1-b779-78fb9680e4e4",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Supplies servo drives, motors and motion-control software for industrial robotics.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "5109df5a-e57b-5635-abad-5d27655aede9",
+          "url": "https://www.boschrexroth.com/en/gr/products/industrial-solutions/electric-drives-and-controls/ctrlx-automation/drives-motion/",
+          "canonical_url": null,
+          "publisher": "Bosch Rexroth",
+          "title": "Bosch Rexroth — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/1457a059-e9d2-5b82-a556-c16833b08e6d": {
     "claim": {
       "claim_id": "1457a059-e9d2-5b82-a556-c16833b08e6d",
@@ -203073,6 +205769,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/15a7814e-ba1b-5b9e-b0b2-e8c443460db2": {
+    "claim": {
+      "claim_id": "15a7814e-ba1b-5b9e-b0b2-e8c443460db2",
+      "subject": {
+        "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+        "slug": "andreessen-horowitz",
+        "entity_type": "ORGANIZATION",
+        "name": "Andreessen Horowitz",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "sentence": "Andreessen Horowitz was founded on 2009-01-01",
+      "value": {
+        "kind": "date",
+        "date": "2009-01-01"
+      },
+      "stack_layer": null,
+      "qualifier": "Year precision",
+      "status": "APPROVED",
+      "valid_from": "2009-01-01",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "7b079fa7-c5ea-5244-9353-b5db697618c1",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Andreessen Horowitz was established in 2009 (year precision).",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "53b966ad-f65b-54e5-b131-48d9532626fd",
+          "url": "https://a16z.com/what-is-new-media-in-2026/",
+          "canonical_url": null,
+          "publisher": "Andreessen Horowitz",
+          "title": "Andreessen Horowitz — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/1621864e-36c0-5d71-92e2-c55a9cecb05a": {
     "claim": {
       "claim_id": "1621864e-36c0-5d71-92e2-c55a9cecb05a",
@@ -203184,6 +205935,81 @@
           "language": "en"
         },
         "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/1685aafc-5e01-5bf8-8574-9482c03171aa": {
+    "claim": {
+      "claim_id": "1685aafc-5e01-5bf8-8574-9482c03171aa",
+      "subject": {
+        "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+        "slug": "bosch-rexroth",
+        "entity_type": "ORGANIZATION",
+        "name": "Bosch Rexroth",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "sentence": "Bosch Rexroth is headquartered at Lohr am Main",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "b33368f3-5bc9-581d-b758-573b535d293f",
+          "slug": "lohr-am-main-de",
+          "entity_type": "PLACE",
+          "name": "Lohr am Main",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "47cb66bc-9b32-534b-844b-a1fafb5b6482",
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "stance": "SUPPORTS",
+        "excerpt": "The supplied roster lists Lohr am Main, DE as the headquarters city; this location has not been independently confirmed.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d243cf63-e2ad-5203-876f-501f98675af3",
+          "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/platforms-investors-labs.csv",
+          "canonical_url": null,
+          "publisher": "Robotics Intelligence candidate roster",
+          "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+          "advance_criteria": [
+            "A primary company profile or filing confirms this headquarters city."
+          ],
+          "regress_criteria": [
+            "Primary evidence identifies a different headquarters or contradicts the roster location."
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
       }
     ],
     "history": [],
@@ -203882,6 +206708,61 @@
           "publisher": "Waymo",
           "title": "Waymo",
           "source_kind": "PRODUCT_PAGE",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/177e8de6-7e5d-53b1-81d1-d55c854ba9c1": {
+    "claim": {
+      "claim_id": "177e8de6-7e5d-53b1-81d1-d55c854ba9c1",
+      "subject": {
+        "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+        "slug": "amazon-industrial-innovation-fund",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon Industrial Innovation Fund",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Amazon Industrial Innovation Fund role INVESTOR",
+      "value": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "2090cae6-2485-5a90-bf21-1fb87e59a319",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Amazon investment program backing robotics and industrial automation companies, including Skild AI.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "5dc2b067-0164-5ae3-babc-e38d50eee4ef",
+          "url": "https://www.skild.ai/blogs/announcing-our-300m-series-a",
+          "canonical_url": null,
+          "publisher": "Skild AI",
+          "title": "Skild AI — robotics enrichment reference",
+          "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
         },
@@ -207753,6 +210634,81 @@
     "history": [],
     "dependencies": []
   },
+  "claim/1fe14a2c-90f7-5567-8cfd-856c41a7d4c1": {
+    "claim": {
+      "claim_id": "1fe14a2c-90f7-5567-8cfd-856c41a7d4c1",
+      "subject": {
+        "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+        "slug": "berkeley-artificial-intelligence-research-bair",
+        "entity_type": "ORGANIZATION",
+        "name": "Berkeley Artificial Intelligence Research (BAIR)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "sentence": "Berkeley Artificial Intelligence Research (BAIR) is headquartered at Berkeley",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+          "slug": "berkeley-us",
+          "entity_type": "PLACE",
+          "name": "Berkeley",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "124e3028-e19c-51c7-bc60-e7a6851321eb",
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "stance": "SUPPORTS",
+        "excerpt": "The supplied roster lists Berkeley, US as the headquarters city; this location has not been independently confirmed.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d243cf63-e2ad-5203-876f-501f98675af3",
+          "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/platforms-investors-labs.csv",
+          "canonical_url": null,
+          "publisher": "Robotics Intelligence candidate roster",
+          "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+          "advance_criteria": [
+            "A primary company profile or filing confirms this headquarters city."
+          ],
+          "regress_criteria": [
+            "Primary evidence identifies a different headquarters or contradicts the roster location."
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/1fe6149e-933a-5e1a-b046-eb149cfb2590": {
     "claim": {
       "claim_id": "1fe6149e-933a-5e1a-b046-eb149cfb2590",
@@ -209238,6 +212194,69 @@
     "history": [],
     "dependencies": []
   },
+  "claim/2318bafa-c523-5583-b2ab-f9ea03ccef5a": {
+    "claim": {
+      "claim_id": "2318bafa-c523-5583-b2ab-f9ea03ccef5a",
+      "subject": {
+        "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+        "slug": "massachusetts-institute-of-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Massachusetts Institute of Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "sentence": "Massachusetts Institute of Technology is headquartered at Cambridge",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+          "slug": "cambridge-us",
+          "entity_type": "PLACE",
+          "name": "Cambridge",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "222b3a16-40e9-5ed8-a4c6-7f8a5d9d3ae9",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Massachusetts Institute of Technology is headquartered in Cambridge.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d0f65cb7-810d-529d-bf6b-8446197460ec",
+          "url": "https://www.mit.edu/about/",
+          "canonical_url": null,
+          "publisher": "Massachusetts Institute of Technology",
+          "title": "Massachusetts Institute of Technology — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/231b786e-a8eb-53db-95d6-145249f13050": {
     "claim": {
       "claim_id": "231b786e-a8eb-53db-95d6-145249f13050",
@@ -210526,6 +213545,61 @@
           "reviewed_at": "2026-09-01T00:00:00.000Z",
           "notes": null
         }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/25323252-4093-5832-8248-9f7e0e464883": {
+    "claim": {
+      "claim_id": "25323252-4093-5832-8248-9f7e0e464883",
+      "subject": {
+        "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+        "slug": "amazon-industrial-innovation-fund",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon Industrial Innovation Fund",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "sentence": "Amazon Industrial Innovation Fund was founded on 2022-01-01",
+      "value": {
+        "kind": "date",
+        "date": "2022-01-01"
+      },
+      "stack_layer": null,
+      "qualifier": "Year precision",
+      "status": "APPROVED",
+      "valid_from": "2022-01-01",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "edc44763-a909-5071-8c23-569013841a38",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Amazon Industrial Innovation Fund was established in 2022 (year precision).",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "acac98f4-8331-5e39-b4ae-d11dbd663a2a",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/artificial-intelligence-news-amazon-shopping-fc",
+          "canonical_url": null,
+          "publisher": "Amazon Industrial Innovation Fund",
+          "title": "Amazon Industrial Innovation Fund — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
       }
     ],
     "history": [],
@@ -214411,6 +217485,81 @@
     "history": [],
     "dependencies": []
   },
+  "claim/2dff6a6b-a02f-5d04-8ac8-a5bcd425de2f": {
+    "claim": {
+      "claim_id": "2dff6a6b-a02f-5d04-8ac8-a5bcd425de2f",
+      "subject": {
+        "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+        "slug": "mit-csail",
+        "entity_type": "ORGANIZATION",
+        "name": "MIT CSAIL",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "sentence": "MIT CSAIL is headquartered at Cambridge",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+          "slug": "cambridge-us",
+          "entity_type": "PLACE",
+          "name": "Cambridge",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "0f52e1d0-776d-5d0d-a3de-c83144c9e5fd",
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "stance": "SUPPORTS",
+        "excerpt": "The supplied roster lists Cambridge, US as the headquarters city; this location has not been independently confirmed.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d243cf63-e2ad-5203-876f-501f98675af3",
+          "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/platforms-investors-labs.csv",
+          "canonical_url": null,
+          "publisher": "Robotics Intelligence candidate roster",
+          "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+          "advance_criteria": [
+            "A primary company profile or filing confirms this headquarters city."
+          ],
+          "regress_criteria": [
+            "Primary evidence identifies a different headquarters or contradicts the roster location."
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/2e13a355-7765-5eb6-ba02-427a6d2d96a9": {
     "claim": {
       "claim_id": "2e13a355-7765-5eb6-ba02-427a6d2d96a9",
@@ -217392,6 +220541,61 @@
           "reviewed_at": "2026-09-01T00:00:00.000Z",
           "notes": null
         }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/333abf85-c115-5d6f-aa14-f403580a7569": {
+    "claim": {
+      "claim_id": "333abf85-c115-5d6f-aa14-f403580a7569",
+      "subject": {
+        "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+        "slug": "university-of-california-berkeley",
+        "entity_type": "ORGANIZATION",
+        "name": "University of California Berkeley",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "sentence": "University of California Berkeley was founded on 1868-01-01",
+      "value": {
+        "kind": "date",
+        "date": "1868-01-01"
+      },
+      "stack_layer": null,
+      "qualifier": "Year precision",
+      "status": "APPROVED",
+      "valid_from": "1868-01-01",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "73126ae1-903a-5a19-8623-24b54a7b3008",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "University of California Berkeley was established in 1868 (year precision).",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "91bed30c-055a-5133-9adf-6cd232cdc528",
+          "url": "https://www.berkeley.edu/about/",
+          "canonical_url": null,
+          "publisher": "University of California Berkeley",
+          "title": "University of California Berkeley — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
       }
     ],
     "history": [],
@@ -241985,6 +245189,71 @@
     ],
     "dependencies": []
   },
+  "claim/6336b953-a764-5b44-b73e-0ab38ffb2bee": {
+    "claim": {
+      "claim_id": "6336b953-a764-5b44-b73e-0ab38ffb2bee",
+      "subject": {
+        "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+        "slug": "mit-csail",
+        "entity_type": "ORGANIZATION",
+        "name": "MIT CSAIL",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "sentence": "MIT CSAIL is part of Massachusetts Institute of Technology",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+          "slug": "massachusetts-institute-of-technology",
+          "entity_type": "ORGANIZATION",
+          "name": "Massachusetts Institute of Technology",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": "University laboratory affiliation verified on this date; original affiliation date not asserted",
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "d6d0c783-190d-5bd8-85b4-e1e78d0f7573",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "The laboratory identifies its university affiliation with Massachusetts Institute of Technology.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d63ea40b-dae8-5da8-b1e4-76a959dd9156",
+          "url": "https://www.csail.mit.edu/about/mission-history",
+          "canonical_url": null,
+          "publisher": "MIT CSAIL",
+          "title": "MIT CSAIL — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/63730e51-c6be-573f-8ee3-e46c13d53849": {
     "claim": {
       "claim_id": "63730e51-c6be-573f-8ee3-e46c13d53849",
@@ -244918,6 +248187,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/67dc94e7-4887-5f68-b2e3-f5c7353deb40": {
+    "claim": {
+      "claim_id": "67dc94e7-4887-5f68-b2e3-f5c7353deb40",
+      "subject": {
+        "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+        "slug": "bosch-rexroth",
+        "entity_type": "ORGANIZATION",
+        "name": "Bosch Rexroth",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "sentence": "Bosch Rexroth was founded on 2001-01-01",
+      "value": {
+        "kind": "date",
+        "date": "2001-01-01"
+      },
+      "stack_layer": null,
+      "qualifier": "Year precision",
+      "status": "APPROVED",
+      "valid_from": "2001-01-01",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "1aca9879-cb31-55aa-aeaf-74e2d596242e",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Bosch Rexroth was established in 2001 (year precision).",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "9aea1e7a-03d1-5bfd-9272-92714a83eaf9",
+          "url": "https://www.boschrexroth.com/en/pl/jubileusz/",
+          "canonical_url": null,
+          "publisher": "Bosch Rexroth",
+          "title": "Bosch Rexroth — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/68108d86-64a5-5e91-a703-49c6c3dd005f": {
     "claim": {
       "claim_id": "68108d86-64a5-5e91-a703-49c6c3dd005f",
@@ -245821,6 +249145,61 @@
           "reviewed_at": "2026-09-01T00:00:00.000Z",
           "notes": null
         }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/69623fe8-f6d4-5901-b2c9-ed1c69a5f246": {
+    "claim": {
+      "claim_id": "69623fe8-f6d4-5901-b2c9-ed1c69a5f246",
+      "subject": {
+        "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+        "slug": "berkeley-artificial-intelligence-research-bair",
+        "entity_type": "ORGANIZATION",
+        "name": "Berkeley Artificial Intelligence Research (BAIR)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Berkeley Artificial Intelligence Research (BAIR) role RESEARCH_LAB",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "2ec3e70d-16f8-5496-8a1c-d153e5c1ea02",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "University of California Berkeley laboratory researching artificial intelligence, robot learning and adaptive control.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "66bd7175-2768-528e-9eea-0af722f3c432",
+          "url": "https://bair.berkeley.edu/blog/2019/05/06/robot-adapt/",
+          "canonical_url": null,
+          "publisher": "Berkeley Artificial Intelligence Research (BAIR)",
+          "title": "Berkeley Artificial Intelligence Research (BAIR) — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
       }
     ],
     "history": [],
@@ -246754,6 +250133,71 @@
           "publisher": "Aerones",
           "title": "Aerones robotic wind turbine maintenance",
           "source_kind": "PRODUCT_PAGE",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/6b82f16d-698d-5f61-ac5d-598fccc9e707": {
+    "claim": {
+      "claim_id": "6b82f16d-698d-5f61-ac5d-598fccc9e707",
+      "subject": {
+        "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+        "slug": "amazon-industrial-innovation-fund",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon Industrial Innovation Fund",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "sentence": "Amazon Industrial Innovation Fund invested in Skild AI",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+          "slug": "skild-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Skild AI",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": "Disclosed participation; individual investment date, amount and current ownership not asserted",
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "044507ee-7b0e-5ebb-8a41-f5d23b70b0fd",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Skild AI identifies Amazon Industrial Innovation Fund as an investor.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "5dc2b067-0164-5ae3-babc-e38d50eee4ef",
+          "url": "https://www.skild.ai/blogs/announcing-our-300m-series-a",
+          "canonical_url": null,
+          "publisher": "Skild AI",
+          "title": "Skild AI — robotics enrichment reference",
+          "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
         },
@@ -258912,6 +262356,116 @@
     "history": [],
     "dependencies": []
   },
+  "claim/82e37cc1-1e85-5259-9705-7b0239d95de7": {
+    "claim": {
+      "claim_id": "82e37cc1-1e85-5259-9705-7b0239d95de7",
+      "subject": {
+        "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+        "slug": "mit-csail",
+        "entity_type": "ORGANIZATION",
+        "name": "MIT CSAIL",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "MIT CSAIL role RESEARCH_LAB",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "54311941-f681-5b7b-b042-07e5eacdf32e",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "MIT computer science laboratory researching robot learning, autonomous navigation and aerial robotics.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "b8000ba2-09b1-57a8-8b29-ba1c0fefeaf4",
+          "url": "https://www.csail.mit.edu/research/robust-robotics-group",
+          "canonical_url": null,
+          "publisher": "MIT CSAIL",
+          "title": "MIT CSAIL — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/838a5c9a-6346-5d91-aa33-d6b4bd69d546": {
+    "claim": {
+      "claim_id": "838a5c9a-6346-5d91-aa33-d6b4bd69d546",
+      "subject": {
+        "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+        "slug": "istituto-italiano-di-tecnologia-iit",
+        "entity_type": "ORGANIZATION",
+        "name": "Istituto Italiano di Tecnologia (IIT)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "sentence": "Istituto Italiano di Tecnologia (IIT) was founded on 2003-01-01",
+      "value": {
+        "kind": "date",
+        "date": "2003-01-01"
+      },
+      "stack_layer": null,
+      "qualifier": "Year precision",
+      "status": "APPROVED",
+      "valid_from": "2003-01-01",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "a50b0550-9095-5581-905e-e9ff8a53c513",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Istituto Italiano di Tecnologia (IIT) was established in 2003 (year precision).",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "30f6ab5a-982c-54b5-b129-15ed3105284e",
+          "url": "https://www.iit.it/it-IT/call-for-iit-scientific-director",
+          "canonical_url": null,
+          "publisher": "Istituto Italiano di Tecnologia (IIT)",
+          "title": "Istituto Italiano di Tecnologia (IIT) — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/83a1f972-2d1d-5591-a868-4dce0104bc5b": {
     "claim": {
       "claim_id": "83a1f972-2d1d-5591-a868-4dce0104bc5b",
@@ -260822,6 +264376,71 @@
           "canonical_url": null,
           "publisher": "KINEXON",
           "title": "KINEXON — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/8660269a-337f-5fc9-a437-6630f18006bb": {
+    "claim": {
+      "claim_id": "8660269a-337f-5fc9-a437-6630f18006bb",
+      "subject": {
+        "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+        "slug": "andreessen-horowitz",
+        "entity_type": "ORGANIZATION",
+        "name": "Andreessen Horowitz",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "sentence": "Andreessen Horowitz invested in Skydio",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+          "slug": "skydio",
+          "entity_type": "ORGANIZATION",
+          "name": "Skydio",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": "Disclosed participation; individual investment date, amount and current ownership not asserted",
+      "status": "APPROVED",
+      "valid_from": "2026-09-01",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "a780b637-5f5b-5436-bebb-4012389d99c0",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Skydio identifies Andreessen Horowitz as an investor.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "bfc3c594-789d-52c2-9ddd-8078ad81af73",
+          "url": "https://www.skydio.com/blog/skydio-raises-100-million",
+          "canonical_url": null,
+          "publisher": "Skydio",
+          "title": "Skydio — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -278467,6 +282086,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/a65f52a0-2fbf-5071-90af-48de7d464e89": {
+    "claim": {
+      "claim_id": "a65f52a0-2fbf-5071-90af-48de7d464e89",
+      "subject": {
+        "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+        "slug": "massachusetts-institute-of-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Massachusetts Institute of Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Massachusetts Institute of Technology role RESEARCH_LAB",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "ba44ba04-1322-5fd6-a992-78481acd137c",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Research university with robotics and artificial intelligence laboratories.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d0f65cb7-810d-529d-bf6b-8446197460ec",
+          "url": "https://www.mit.edu/about/",
+          "canonical_url": null,
+          "publisher": "Massachusetts Institute of Technology",
+          "title": "Massachusetts Institute of Technology — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/a6e1b03a-dc28-5f9b-9015-eca73bb4621d": {
     "claim": {
       "claim_id": "a6e1b03a-dc28-5f9b-9015-eca73bb4621d",
@@ -281834,6 +285508,81 @@
           "language": "en"
         },
         "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/ad83d297-643c-574e-98a8-34d2365a39de": {
+    "claim": {
+      "claim_id": "ad83d297-643c-574e-98a8-34d2365a39de",
+      "subject": {
+        "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+        "slug": "andreessen-horowitz",
+        "entity_type": "ORGANIZATION",
+        "name": "Andreessen Horowitz",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "sentence": "Andreessen Horowitz is headquartered at Menlo Park",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+          "slug": "menlo-park-us",
+          "entity_type": "PLACE",
+          "name": "Menlo Park",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "43dd419d-3e3d-53b5-a246-a4e17cbc1d22",
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "stance": "SUPPORTS",
+        "excerpt": "The supplied roster lists Menlo Park, US as the headquarters city; this location has not been independently confirmed.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d243cf63-e2ad-5203-876f-501f98675af3",
+          "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/platforms-investors-labs.csv",
+          "canonical_url": null,
+          "publisher": "Robotics Intelligence candidate roster",
+          "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+          "advance_criteria": [
+            "A primary company profile or filing confirms this headquarters city."
+          ],
+          "regress_criteria": [
+            "Primary evidence identifies a different headquarters or contradicts the roster location."
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
       }
     ],
     "history": [],
@@ -285997,6 +289746,61 @@
           "canonical_url": null,
           "publisher": "Dexterity",
           "title": "Dexterity — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/b587c34e-b81a-5184-a4c3-ffe4bf48ed3e": {
+    "claim": {
+      "claim_id": "b587c34e-b81a-5184-a4c3-ffe4bf48ed3e",
+      "subject": {
+        "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+        "slug": "mit-csail",
+        "entity_type": "ORGANIZATION",
+        "name": "MIT CSAIL",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "sentence": "MIT CSAIL was founded on 2003-01-01",
+      "value": {
+        "kind": "date",
+        "date": "2003-01-01"
+      },
+      "stack_layer": null,
+      "qualifier": "Year precision; merged CSAIL laboratory, whose predecessors date to 1959 and 1963",
+      "status": "APPROVED",
+      "valid_from": "2003-01-01",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "8ed5b6df-59f5-5823-8e55-7f006ad97168",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "MIT CSAIL was established in 2003 (year precision).",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d63ea40b-dae8-5da8-b1e4-76a959dd9156",
+          "url": "https://www.csail.mit.edu/about/mission-history",
+          "canonical_url": null,
+          "publisher": "MIT CSAIL",
+          "title": "MIT CSAIL — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -291907,6 +295711,69 @@
     ],
     "dependencies": []
   },
+  "claim/bfb7c9d6-a622-5ae7-81d1-ba33650c024f": {
+    "claim": {
+      "claim_id": "bfb7c9d6-a622-5ae7-81d1-ba33650c024f",
+      "subject": {
+        "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+        "slug": "university-of-california-berkeley",
+        "entity_type": "ORGANIZATION",
+        "name": "University of California Berkeley",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "sentence": "University of California Berkeley is headquartered at Berkeley",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+          "slug": "berkeley-us",
+          "entity_type": "PLACE",
+          "name": "Berkeley",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "6ba62595-3380-5e7f-a5c1-d82ca40a3cad",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "University of California Berkeley is headquartered in Berkeley.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "91bed30c-055a-5133-9adf-6cd232cdc528",
+          "url": "https://www.berkeley.edu/about/",
+          "canonical_url": null,
+          "publisher": "University of California Berkeley",
+          "title": "University of California Berkeley — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/c0139679-b6fa-5be1-8975-4dc5af4c935d": {
     "claim": {
       "claim_id": "c0139679-b6fa-5be1-8975-4dc5af4c935d",
@@ -295680,6 +299547,61 @@
           "reviewed_at": "2026-09-01T00:00:00.000Z",
           "notes": null
         }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/c7921deb-83fd-5ead-87df-4f7789d45fff": {
+    "claim": {
+      "claim_id": "c7921deb-83fd-5ead-87df-4f7789d45fff",
+      "subject": {
+        "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+        "slug": "istituto-italiano-di-tecnologia-iit",
+        "entity_type": "ORGANIZATION",
+        "name": "Istituto Italiano di Tecnologia (IIT)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Istituto Italiano di Tecnologia (IIT) role RESEARCH_LAB",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "86448567-164c-5fab-992d-4433439c58dd",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Italian research institute developing robots for healthcare, industry, agriculture, disaster recovery and space.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "07cf5edb-cb1c-5a71-966f-6851bedd8eab",
+          "url": "https://www.iit.it/robotics",
+          "canonical_url": null,
+          "publisher": "Istituto Italiano di Tecnologia (IIT)",
+          "title": "Istituto Italiano di Tecnologia (IIT) — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
       }
     ],
     "history": [],
@@ -308217,6 +312139,74 @@
     ],
     "dependencies": []
   },
+  "claim/df8eeadf-fd0b-5a18-98c8-714dbc2a2201": {
+    "claim": {
+      "claim_id": "df8eeadf-fd0b-5a18-98c8-714dbc2a2201",
+      "subject": {
+        "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+        "slug": "amazon-industrial-innovation-fund",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon Industrial Innovation Fund",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "sentence": "Amazon Industrial Innovation Fund is part of Amazon",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+          "slug": "amazon",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "OPERATOR",
+            "PLATFORM",
+            "RESEARCH_LAB"
+          ]
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": "Amazon corporate venture program; affiliation confirmed on this date",
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "f378ded5-ad4d-5c95-bf79-f7bbc6a707fb",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Amazon describes its Industrial Innovation Fund as a corporate venture program.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "acac98f4-8331-5e39-b4ae-d11dbd663a2a",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/artificial-intelligence-news-amazon-shopping-fc",
+          "canonical_url": null,
+          "publisher": "Amazon Industrial Innovation Fund",
+          "title": "Amazon Industrial Innovation Fund — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/df9dc4ea-f3b0-501c-9857-b8c9eecf2d3b": {
     "claim": {
       "claim_id": "df9dc4ea-f3b0-501c-9857-b8c9eecf2d3b",
@@ -311147,6 +315137,61 @@
     ],
     "dependencies": []
   },
+  "claim/e53a4d5d-ef53-502d-ab4b-b159ba6318d6": {
+    "claim": {
+      "claim_id": "e53a4d5d-ef53-502d-ab4b-b159ba6318d6",
+      "subject": {
+        "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+        "slug": "massachusetts-institute-of-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Massachusetts Institute of Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "sentence": "Massachusetts Institute of Technology was founded on 1861-01-01",
+      "value": {
+        "kind": "date",
+        "date": "1861-01-01"
+      },
+      "stack_layer": null,
+      "qualifier": "Year precision",
+      "status": "APPROVED",
+      "valid_from": "1861-01-01",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "fcabab01-5094-57e7-a1aa-b4830052d8a3",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Massachusetts Institute of Technology was established in 1861 (year precision).",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d0f65cb7-810d-529d-bf6b-8446197460ec",
+          "url": "https://www.mit.edu/about/",
+          "canonical_url": null,
+          "publisher": "Massachusetts Institute of Technology",
+          "title": "Massachusetts Institute of Technology — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/e55f944f-7f69-511b-bbd0-68af2e3999eb": {
     "claim": {
       "claim_id": "e55f944f-7f69-511b-bbd0-68af2e3999eb",
@@ -311201,6 +315246,61 @@
           "publisher": "Ouster",
           "title": "OS1 mid-range digital lidar sensor",
           "source_kind": "PRODUCT_PAGE",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/e5790b5e-76ec-557d-ae67-3d2d6b951213": {
+    "claim": {
+      "claim_id": "e5790b5e-76ec-557d-ae67-3d2d6b951213",
+      "subject": {
+        "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+        "slug": "andreessen-horowitz",
+        "entity_type": "ORGANIZATION",
+        "name": "Andreessen Horowitz",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Andreessen Horowitz role INVESTOR",
+      "value": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "6c86d4f7-acef-5739-94e3-eff199993ceb",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Venture capital firm investing in robotics companies, including autonomous-drone developer Skydio.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "bfc3c594-789d-52c2-9ddd-8078ad81af73",
+          "url": "https://www.skydio.com/blog/skydio-raises-100-million",
+          "canonical_url": null,
+          "publisher": "Skydio",
+          "title": "Skydio — robotics enrichment reference",
+          "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
         },
@@ -323309,6 +327409,71 @@
     ],
     "dependencies": []
   },
+  "claim/fdca951a-8493-5c9f-a14f-256782d50227": {
+    "claim": {
+      "claim_id": "fdca951a-8493-5c9f-a14f-256782d50227",
+      "subject": {
+        "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+        "slug": "berkeley-artificial-intelligence-research-bair",
+        "entity_type": "ORGANIZATION",
+        "name": "Berkeley Artificial Intelligence Research (BAIR)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "sentence": "Berkeley Artificial Intelligence Research (BAIR) is part of University of California Berkeley",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+          "slug": "university-of-california-berkeley",
+          "entity_type": "ORGANIZATION",
+          "name": "University of California Berkeley",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": "University laboratory affiliation verified on this date; original affiliation date not asserted",
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "f8a36dd9-7642-569a-b2b3-261d4d595ba2",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "The laboratory identifies its university affiliation with University of California Berkeley.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "42d96e61-13bd-5504-8244-9529bf6c341e",
+          "url": "https://bair.berkeley.edu/",
+          "canonical_url": null,
+          "publisher": "Berkeley Artificial Intelligence Research (BAIR)",
+          "title": "Berkeley Artificial Intelligence Research (BAIR) — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/fdcac00c-ea03-51f5-869c-cb0eb6f722ee": {
     "claim": {
       "claim_id": "fdcac00c-ea03-51f5-869c-cb0eb6f722ee",
@@ -324143,6 +328308,81 @@
         "valid_to": null
       }
     ],
+    "dependencies": []
+  },
+  "claim/ff62fb99-5abf-54ac-b34a-2062d9237ace": {
+    "claim": {
+      "claim_id": "ff62fb99-5abf-54ac-b34a-2062d9237ace",
+      "subject": {
+        "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+        "slug": "amazon-industrial-innovation-fund",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon Industrial Innovation Fund",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "sentence": "Amazon Industrial Innovation Fund is headquartered at Seattle",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+          "slug": "seattle",
+          "entity_type": "PLACE",
+          "name": "Seattle",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "3e0c3bfc-a17c-5859-b7c4-bea1c4812f60",
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "stance": "SUPPORTS",
+        "excerpt": "The supplied roster lists Seattle, US as the headquarters city; this location has not been independently confirmed.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d243cf63-e2ad-5203-876f-501f98675af3",
+          "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/platforms-investors-labs.csv",
+          "canonical_url": null,
+          "publisher": "Robotics Intelligence candidate roster",
+          "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+          "advance_criteria": [
+            "A primary company profile or filing confirms this headquarters city."
+          ],
+          "regress_criteria": [
+            "Primary evidence identifies a different headquarters or contradicts the roster location."
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      }
+    ],
+    "history": [],
     "dependencies": []
   },
   "claim/ff90a222-0640-5699-87f7-97638a99f89b": {

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "82e37cc1-1e85-5259-9705-7b0239d95de7",
+    "subject": {
+      "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+      "slug": "mit-csail",
+      "entity_type": "ORGANIZATION",
+      "name": "MIT CSAIL",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "MIT CSAIL role RESEARCH_LAB",
+    "value": {
+      "kind": "enum",
+      "value": "RESEARCH_LAB"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "54311941-f681-5b7b-b042-07e5eacdf32e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "MIT computer science laboratory researching robot learning, autonomous navigation and aerial robotics.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "b8000ba2-09b1-57a8-8b29-ba1c0fefeaf4",
+        "url": "https://www.csail.mit.edu/research/robust-robotics-group",
+        "canonical_url": null,
+        "publisher": "MIT CSAIL",
+        "title": "MIT CSAIL — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -9,7 +9,7 @@
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 88
+      "count": 89
     },
     {
       "id": "MANUFACTURED",
@@ -24,12 +24,12 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 105
+      "count": 110
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 51
+      "count": 53
     },
     {
       "id": "PLATFORMS",
@@ -1119,6 +1119,34 @@
     },
     {
       "place": {
+        "id": "b33368f3-5bc9-581d-b758-573b535d293f",
+        "slug": "lohr-am-main-de",
+        "entity_type": "PLACE",
+        "name": "Lohr am Main",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 49.98922,
+      "lng": 9.57223,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+          "slug": "bosch-rexroth",
+          "entity_type": "ORGANIZATION",
+          "name": "Bosch Rexroth",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
         "slug": "london",
         "entity_type": "PLACE",
@@ -2156,8 +2184,8 @@
     {
       "id": "DE",
       "label": "DE",
-      "weight": 11,
-      "places": 11
+      "weight": 12,
+      "places": 12
     },
     {
       "id": "JP",
@@ -3404,6 +3432,26 @@
         "slug": "levis-ca",
         "entity_type": "PLACE",
         "name": "Levis",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+        "slug": "bosch-rexroth",
+        "entity_type": "ORGANIZATION",
+        "name": "Bosch Rexroth",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "b33368f3-5bc9-581d-b758-573b535d293f",
+        "slug": "lohr-am-main-de",
+        "entity_type": "PLACE",
+        "name": "Lohr am Main",
         "primary_embodiment": null,
         "roles": []
       }

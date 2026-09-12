@@ -148,6 +148,34 @@
   ],
   "inbound_relationships": [
     {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "6b82f16d-698d-5f61-ac5d-598fccc9e707",
+          "source": {
+            "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+            "slug": "amazon-industrial-innovation-fund",
+            "entity_type": "ORGANIZATION",
+            "name": "Amazon Industrial Innovation Fund",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Disclosed participation; individual investment date, amount and current ownership not asserted",
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "MADE_BY",
       "label": "is made by",
       "items": [
@@ -175,6 +203,18 @@
     }
   ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+        "slug": "amazon-industrial-innovation-fund",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon Industrial Innovation Fund",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "87216f35-32ce-54be-9ed9-86c480775092",
@@ -201,7 +241,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "1fe14a2c-90f7-5567-8cfd-856c41a7d4c1",
+          "source": {
+            "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+            "slug": "berkeley-artificial-intelligence-research-bair",
+            "entity_type": "ORGANIZATION",
+            "name": "Berkeley Artificial Intelligence Research (BAIR)",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "2106a0c0-cce3-584f-abad-820a01573a5e",
           "source": {
             "id": "2a4815f5-ec84-58f0-90b8-12f0d1220b4e",
@@ -48,6 +70,28 @@
             "primary_embodiment": null,
             "roles": [
               "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "bfb7c9d6-a622-5ae7-81d1-ba33650c024f",
+          "source": {
+            "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+            "slug": "university-of-california-berkeley",
+            "entity_type": "ORGANIZATION",
+            "name": "University of California Berkeley",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
             ]
           },
           "stack_layer": null,
@@ -74,6 +118,26 @@
         "roles": [
           "OEM"
         ]
+      },
+      {
+        "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+        "slug": "berkeley-artificial-intelligence-research-bair",
+        "entity_type": "ORGANIZATION",
+        "name": "Berkeley Artificial Intelligence Research (BAIR)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      {
+        "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+        "slug": "university-of-california-berkeley",
+        "entity_type": "ORGANIZATION",
+        "name": "University of California Berkeley",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
       }
     ]
   },
@@ -92,7 +156,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 3
   },
   "as_of": null
 }

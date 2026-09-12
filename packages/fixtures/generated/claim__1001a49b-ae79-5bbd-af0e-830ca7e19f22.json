@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "1001a49b-ae79-5bbd-af0e-830ca7e19f22",
+    "subject": {
+      "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+      "slug": "university-of-california-berkeley",
+      "entity_type": "ORGANIZATION",
+      "name": "University of California Berkeley",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "University of California Berkeley role RESEARCH_LAB",
+    "value": {
+      "kind": "enum",
+      "value": "RESEARCH_LAB"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "75c81932-02f5-5136-b9a5-cbcaa80f2342",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Research university with robotics and artificial intelligence laboratories.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "91bed30c-055a-5133-9adf-6cd232cdc528",
+        "url": "https://www.berkeley.edu/about/",
+        "canonical_url": null,
+        "publisher": "University of California Berkeley",
+        "title": "University of California Berkeley — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -61,6 +61,20 @@
   "subsidiaries": [
     {
       "organization": {
+        "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+        "slug": "amazon-industrial-innovation-fund",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon Industrial Innovation Fund",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "df8eeadf-fd0b-5a18-98c8-714dbc2a2201"
+    },
+    {
+      "organization": {
         "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
         "slug": "amazon-robotics",
         "entity_type": "ORGANIZATION",
@@ -317,12 +331,44 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "df8eeadf-fd0b-5a18-98c8-714dbc2a2201",
+          "source": {
+            "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+            "slug": "amazon-industrial-innovation-fund",
+            "entity_type": "ORGANIZATION",
+            "name": "Amazon Industrial Innovation Fund",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Amazon corporate venture program; affiliation confirmed on this date",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+        "slug": "amazon-industrial-innovation-fund",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon Industrial Innovation Fund",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
       {
         "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
         "slug": "amazon-robotics",
@@ -394,7 +440,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 7,
     "deployment_count": 0,
-    "related_count": 5
+    "related_count": 6
   },
   "as_of": null
 }

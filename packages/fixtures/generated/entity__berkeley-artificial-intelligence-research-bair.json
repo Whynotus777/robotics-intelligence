@@ -1,0 +1,184 @@
+{
+  "entity": {
+    "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+    "slug": "berkeley-artificial-intelligence-research-bair",
+    "entity_type": "ORGANIZATION",
+    "name": "Berkeley Artificial Intelligence Research (BAIR)",
+    "short_description": "University of California Berkeley laboratory researching artificial intelligence, robot learning and adaptive control.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "RESEARCH_LAB",
+      "declared": true,
+      "claim_id": "69623fe8-f6d4-5901-b2c9-ed1c69a5f246",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": {
+    "parent": {
+      "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+      "slug": "university-of-california-berkeley",
+      "entity_type": "ORGANIZATION",
+      "name": "University of California Berkeley",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "fdca951a-8493-5c9f-a14f-256782d50227",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "69623fe8-f6d4-5901-b2c9-ed1c69a5f246",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "RESEARCH_LAB"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "1fe14a2c-90f7-5567-8cfd-856c41a7d4c1",
+          "target": {
+            "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+            "slug": "berkeley-us",
+            "entity_type": "PLACE",
+            "name": "Berkeley",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "fdca951a-8493-5c9f-a14f-256782d50227",
+          "target": {
+            "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+            "slug": "university-of-california-berkeley",
+            "entity_type": "ORGANIZATION",
+            "name": "University of California Berkeley",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "University laboratory affiliation verified on this date; original affiliation date not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+        "slug": "university-of-california-berkeley",
+        "entity_type": "ORGANIZATION",
+        "name": "University of California Berkeley",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+        "slug": "berkeley-us",
+        "entity_type": "PLACE",
+        "name": "Berkeley",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 1
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 3,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

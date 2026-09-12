@@ -190,8 +190,49 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "8660269a-337f-5fc9-a437-6630f18006bb",
+          "source": {
+            "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+            "slug": "andreessen-horowitz",
+            "entity_type": "ORGANIZATION",
+            "name": "Andreessen Horowitz",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Disclosed participation; individual investment date, amount and current ownership not asserted",
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+        "slug": "andreessen-horowitz",
+        "entity_type": "ORGANIZATION",
+        "name": "Andreessen Horowitz",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      }
+    ],
     "markets": [
       {
         "id": "1fcc6eb5-3d99-52ea-9f79-d1d882b3957b",
@@ -236,7 +277,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 6,
     "deployment_count": 0,
-    "related_count": 4
+    "related_count": 5
   },
   "as_of": null
 }

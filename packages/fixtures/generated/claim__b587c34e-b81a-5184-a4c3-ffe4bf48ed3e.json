@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "b587c34e-b81a-5184-a4c3-ffe4bf48ed3e",
+    "subject": {
+      "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+      "slug": "mit-csail",
+      "entity_type": "ORGANIZATION",
+      "name": "MIT CSAIL",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "MIT CSAIL was founded on 2003-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2003-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision; merged CSAIL laboratory, whose predecessors date to 1959 and 1963",
+    "status": "APPROVED",
+    "valid_from": "2003-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8ed5b6df-59f5-5823-8e55-7f006ad97168",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "MIT CSAIL was established in 2003 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d63ea40b-dae8-5da8-b1e4-76a959dd9156",
+        "url": "https://www.csail.mit.edu/about/mission-history",
+        "canonical_url": null,
+        "publisher": "MIT CSAIL",
+        "title": "MIT CSAIL — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

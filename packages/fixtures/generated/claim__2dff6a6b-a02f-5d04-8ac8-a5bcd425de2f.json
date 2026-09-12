@@ -1,0 +1,75 @@
+{
+  "claim": {
+    "claim_id": "2dff6a6b-a02f-5d04-8ac8-a5bcd425de2f",
+    "subject": {
+      "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+      "slug": "mit-csail",
+      "entity_type": "ORGANIZATION",
+      "name": "MIT CSAIL",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "MIT CSAIL is headquartered at Cambridge",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+        "slug": "cambridge-us",
+        "entity_type": "PLACE",
+        "name": "Cambridge",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0f52e1d0-776d-5d0d-a3de-c83144c9e5fd",
+      "class": "ANALYST",
+      "confidence": "LOW",
+      "stance": "SUPPORTS",
+      "excerpt": "The supplied roster lists Cambridge, US as the headquarters city; this location has not been independently confirmed.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d243cf63-e2ad-5203-876f-501f98675af3",
+        "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/platforms-investors-labs.csv",
+        "canonical_url": null,
+        "publisher": "Robotics Intelligence candidate roster",
+        "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+        "advance_criteria": [
+          "A primary company profile or filing confirms this headquarters city."
+        ],
+        "regress_criteria": [
+          "Primary evidence identifies a different headquarters or contradicts the roster location."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "e5790b5e-76ec-557d-ae67-3d2d6b951213",
+    "subject": {
+      "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+      "slug": "andreessen-horowitz",
+      "entity_type": "ORGANIZATION",
+      "name": "Andreessen Horowitz",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Andreessen Horowitz role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6c86d4f7-acef-5739-94e3-eff199993ceb",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Venture capital firm investing in robotics companies, including autonomous-drone developer Skydio.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bfc3c594-789d-52c2-9ddd-8078ad81af73",
+        "url": "https://www.skydio.com/blog/skydio-raises-100-million",
+        "canonical_url": null,
+        "publisher": "Skydio",
+        "title": "Skydio — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

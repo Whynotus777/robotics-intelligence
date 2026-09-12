@@ -1,0 +1,38 @@
+slug: istituto-italiano-di-tecnologia-iit
+entity_type: ORGANIZATION
+name: Istituto Italiano di Tecnologia (IIT)
+short_description: Italian research institute developing robots for healthcare, industry, agriculture, disaster
+  recovery and space.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: RESEARCH_LAB
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-5547974a31e723d7
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Italian research institute developing robots for healthcare, industry, agriculture, disaster recovery
+      and space.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: genoa-it
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-01c2537ed68ea7a8
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Istituto Italiano di Tecnologia (IIT) is headquartered in Genoa.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2003-01-01'
+  valid_from: '2003-01-01'
+  evidence:
+  - source: enrich-01c2537ed68ea7a8
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Istituto Italiano di Tecnologia (IIT) was established in 2003 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true
+country_code: IT

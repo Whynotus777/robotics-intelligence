@@ -1,0 +1,75 @@
+{
+  "claim": {
+    "claim_id": "ff62fb99-5abf-54ac-b34a-2062d9237ace",
+    "subject": {
+      "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+      "slug": "amazon-industrial-innovation-fund",
+      "entity_type": "ORGANIZATION",
+      "name": "Amazon Industrial Innovation Fund",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Amazon Industrial Innovation Fund is headquartered at Seattle",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3e0c3bfc-a17c-5859-b7c4-bea1c4812f60",
+      "class": "ANALYST",
+      "confidence": "LOW",
+      "stance": "SUPPORTS",
+      "excerpt": "The supplied roster lists Seattle, US as the headquarters city; this location has not been independently confirmed.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d243cf63-e2ad-5203-876f-501f98675af3",
+        "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/platforms-investors-labs.csv",
+        "canonical_url": null,
+        "publisher": "Robotics Intelligence candidate roster",
+        "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+        "advance_criteria": [
+          "A primary company profile or filing confirms this headquarters city."
+        ],
+        "regress_criteria": [
+          "Primary evidence identifies a different headquarters or contradicts the roster location."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

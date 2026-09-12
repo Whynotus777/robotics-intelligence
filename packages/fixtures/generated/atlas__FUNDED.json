@@ -9,7 +9,7 @@
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 88
+      "count": 89
     },
     {
       "id": "MANUFACTURED",
@@ -24,12 +24,12 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 105
+      "count": 110
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 51
+      "count": 53
     },
     {
       "id": "PLATFORMS",
@@ -129,8 +129,18 @@
       "lng": -74.4121,
       "country_code": "US",
       "cluster_label": null,
-      "weight": 3,
+      "weight": 4,
       "entities": [
+        {
+          "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+          "slug": "andreessen-horowitz",
+          "entity_type": "ORGANIZATION",
+          "name": "Andreessen Horowitz",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
         {
           "id": "22d976e0-3c83-50e0-8102-bd2c1881a83c",
           "slug": "khosla-ventures",
@@ -262,6 +272,57 @@
             "INVESTOR",
             "MODEL_DEVELOPER",
             "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "country_code": "US",
+      "cluster_label": "Seattle",
+      "weight": 3,
+      "entities": [
+        {
+          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+          "slug": "amazon",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "OPERATOR",
+            "PLATFORM",
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+          "slug": "amazon-industrial-innovation-fund",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon Industrial Innovation Fund",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
+          "slug": "bezos-expeditions",
+          "entity_type": "ORGANIZATION",
+          "name": "Bezos Expeditions",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
           ]
         }
       ],
@@ -411,47 +472,6 @@
           "slug": "nventures",
           "entity_type": "ORGANIZATION",
           "name": "NVentures",
-          "primary_embodiment": null,
-          "roles": [
-            "INVESTOR"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
-        "slug": "seattle",
-        "entity_type": "PLACE",
-        "name": "Seattle",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 47.6062,
-      "lng": -122.3321,
-      "country_code": "US",
-      "cluster_label": "Seattle",
-      "weight": 2,
-      "entities": [
-        {
-          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
-          "slug": "amazon",
-          "entity_type": "ORGANIZATION",
-          "name": "Amazon",
-          "primary_embodiment": null,
-          "roles": [
-            "INVESTOR",
-            "OPERATOR",
-            "PLATFORM",
-            "RESEARCH_LAB"
-          ]
-        },
-        {
-          "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
-          "slug": "bezos-expeditions",
-          "entity_type": "ORGANIZATION",
-          "name": "Bezos Expeditions",
           "primary_embodiment": null,
           "roles": [
             "INVESTOR"
@@ -1152,7 +1172,7 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 28,
+      "weight": 30,
       "places": 14
     },
     {
@@ -1236,16 +1256,16 @@
   ],
   "corridors": [
     {
+      "id": "Seattle",
+      "label": "Seattle",
+      "weight": 4,
+      "places": 2
+    },
+    {
       "id": "Bay Area",
       "label": "Bay Area",
       "weight": 3,
       "places": 1
-    },
-    {
-      "id": "Seattle",
-      "label": "Seattle",
-      "weight": 3,
-      "places": 2
     },
     {
       "id": "London",
@@ -1413,6 +1433,26 @@
         "slug": "san-francisco-us",
         "entity_type": "PLACE",
         "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+        "slug": "andreessen-horowitz",
+        "entity_type": "ORGANIZATION",
+        "name": "Andreessen Horowitz",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+        "slug": "menlo-park-us",
+        "entity_type": "PLACE",
+        "name": "Menlo Park",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1606,6 +1646,69 @@
     },
     {
       "entity": {
+        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+        "slug": "amazon",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OPERATOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+        "slug": "amazon-industrial-innovation-fund",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon Industrial Innovation Fund",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
+        "slug": "bezos-expeditions",
+        "entity_type": "ORGANIZATION",
+        "name": "Bezos Expeditions",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
         "slug": "balderton-capital",
         "entity_type": "ORGANIZATION",
@@ -1760,49 +1863,6 @@
         "slug": "santa-clara-us",
         "entity_type": "PLACE",
         "name": "Santa Clara",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
-        "slug": "amazon",
-        "entity_type": "ORGANIZATION",
-        "name": "Amazon",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR",
-          "OPERATOR",
-          "PLATFORM",
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
-        "slug": "seattle",
-        "entity_type": "PLACE",
-        "name": "Seattle",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
-        "slug": "bezos-expeditions",
-        "entity_type": "ORGANIZATION",
-        "name": "Bezos Expeditions",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR"
-        ]
-      },
-      "place": {
-        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
-        "slug": "seattle",
-        "entity_type": "PLACE",
-        "name": "Seattle",
         "primary_embodiment": null,
         "roles": []
       }

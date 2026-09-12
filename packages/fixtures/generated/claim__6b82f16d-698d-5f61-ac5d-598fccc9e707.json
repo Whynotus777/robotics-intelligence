@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "6b82f16d-698d-5f61-ac5d-598fccc9e707",
+    "subject": {
+      "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+      "slug": "amazon-industrial-innovation-fund",
+      "entity_type": "ORGANIZATION",
+      "name": "Amazon Industrial Innovation Fund",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Amazon Industrial Innovation Fund invested in Skild AI",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+        "slug": "skild-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Skild AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Disclosed participation; individual investment date, amount and current ownership not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "044507ee-7b0e-5ebb-8a41-f5d23b70b0fd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Skild AI identifies Amazon Industrial Innovation Fund as an investor.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5dc2b067-0164-5ae3-babc-e38d50eee4ef",
+        "url": "https://www.skild.ai/blogs/announcing-our-300m-series-a",
+        "canonical_url": null,
+        "publisher": "Skild AI",
+        "title": "Skild AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

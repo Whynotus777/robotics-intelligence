@@ -1351,6 +1351,41 @@
       "origin": "SEED"
     },
     {
+      "id": "0e265e02-b740-5c40-954e-036a06c8bcf2",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+        "slug": "istituto-italiano-di-tecnologia-iit",
+        "entity_type": "ORGANIZATION",
+        "name": "Istituto Italiano di Tecnologia (IIT)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "97c3cf09-877b-544b-ac7b-971891fa28e2",
+          "slug": "genoa-it",
+          "entity_type": "PLACE",
+          "name": "Genoa",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Genoa",
+      "origin": "SEED"
+    },
+    {
       "id": "0ea3af47-a0ac-5c4f-b552-2123db4e7a6a",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1540,41 +1575,6 @@
         "primary_embodiment": null,
         "roles": [
           "COMPONENT_SUPPLIER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "d0b089f9-33ec-5afd-9f0b-2d371b114841",
-          "slug": "bedford-us",
-          "entity_type": "PLACE",
-          "name": "Bedford",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "LOW",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Bedford",
-      "origin": "SEED"
-    },
-    {
-      "id": "0fe5d287-1ec1-5999-8129-772bca6f6a70",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "3e6da89d-8b91-5b73-9d57-99fbc9aa8ec2",
-        "slug": "oxipital-ai",
-        "entity_type": "ORGANIZATION",
-        "name": "Oxipital AI",
-        "primary_embodiment": null,
-        "roles": [
-          "TOOLING_OPS_PROVIDER"
         ]
       },
       "before": null,

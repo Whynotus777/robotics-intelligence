@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "6336b953-a764-5b44-b73e-0ab38ffb2bee",
+    "subject": {
+      "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+      "slug": "mit-csail",
+      "entity_type": "ORGANIZATION",
+      "name": "MIT CSAIL",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "MIT CSAIL is part of Massachusetts Institute of Technology",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+        "slug": "massachusetts-institute-of-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Massachusetts Institute of Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "University laboratory affiliation verified on this date; original affiliation date not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d6d0c783-190d-5bd8-85b4-e1e78d0f7573",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "The laboratory identifies its university affiliation with Massachusetts Institute of Technology.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d63ea40b-dae8-5da8-b1e4-76a959dd9156",
+        "url": "https://www.csail.mit.edu/about/mission-history",
+        "canonical_url": null,
+        "publisher": "MIT CSAIL",
+        "title": "MIT CSAIL — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "df8eeadf-fd0b-5a18-98c8-714dbc2a2201",
+    "subject": {
+      "id": "825446a2-7cd7-5f43-ad9d-9d237c1d2ee0",
+      "slug": "amazon-industrial-innovation-fund",
+      "entity_type": "ORGANIZATION",
+      "name": "Amazon Industrial Innovation Fund",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Amazon Industrial Innovation Fund is part of Amazon",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+        "slug": "amazon",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OPERATOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Amazon corporate venture program; affiliation confirmed on this date",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f378ded5-ad4d-5c95-bf79-f7bbc6a707fb",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Amazon describes its Industrial Innovation Fund as a corporate venture program.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "acac98f4-8331-5e39-b4ae-d11dbd663a2a",
+        "url": "https://www.aboutamazon.com/news/innovation-at-amazon/artificial-intelligence-news-amazon-shopping-fc",
+        "canonical_url": null,
+        "publisher": "Amazon Industrial Innovation Fund",
+        "title": "Amazon Industrial Innovation Fund — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

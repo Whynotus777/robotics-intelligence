@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "fdca951a-8493-5c9f-a14f-256782d50227",
+    "subject": {
+      "id": "220d0c14-b40b-5971-be4c-7e58862621e3",
+      "slug": "berkeley-artificial-intelligence-research-bair",
+      "entity_type": "ORGANIZATION",
+      "name": "Berkeley Artificial Intelligence Research (BAIR)",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Berkeley Artificial Intelligence Research (BAIR) is part of University of California Berkeley",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b8db119e-f834-57cc-bec9-22ee75ad7ce9",
+        "slug": "university-of-california-berkeley",
+        "entity_type": "ORGANIZATION",
+        "name": "University of California Berkeley",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "University laboratory affiliation verified on this date; original affiliation date not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f8a36dd9-7642-569a-b2b3-261d4d595ba2",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "The laboratory identifies its university affiliation with University of California Berkeley.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "42d96e61-13bd-5504-8244-9529bf6c341e",
+        "url": "https://bair.berkeley.edu/",
+        "canonical_url": null,
+        "publisher": "Berkeley Artificial Intelligence Research (BAIR)",
+        "title": "Berkeley Artificial Intelligence Research (BAIR) — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

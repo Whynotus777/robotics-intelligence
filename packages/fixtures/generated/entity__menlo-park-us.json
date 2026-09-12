@@ -126,12 +126,44 @@
             "confidence": "LOW",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "ad83d297-643c-574e-98a8-34d2365a39de",
+          "source": {
+            "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+            "slug": "andreessen-horowitz",
+            "entity_type": "ORGANIZATION",
+            "name": "Andreessen Horowitz",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+        "slug": "andreessen-horowitz",
+        "entity_type": "ORGANIZATION",
+        "name": "Andreessen Horowitz",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
       {
         "id": "b2019a1f-8ed0-51fd-9f1f-889ae8ff6290",
         "slug": "cyngn",
@@ -190,7 +222,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 4
+    "related_count": 5
   },
   "as_of": null
 }

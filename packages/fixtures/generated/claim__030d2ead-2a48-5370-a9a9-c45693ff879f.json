@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "030d2ead-2a48-5370-a9a9-c45693ff879f",
+    "subject": {
+      "id": "4a639fd0-f84b-5afe-94ac-916cee586cb5",
+      "slug": "istituto-italiano-di-tecnologia-iit",
+      "entity_type": "ORGANIZATION",
+      "name": "Istituto Italiano di Tecnologia (IIT)",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Istituto Italiano di Tecnologia (IIT) is headquartered at Genoa",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "97c3cf09-877b-544b-ac7b-971891fa28e2",
+        "slug": "genoa-it",
+        "entity_type": "PLACE",
+        "name": "Genoa",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2188c2c3-a0f0-5ccf-90e6-17c0e905e913",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Istituto Italiano di Tecnologia (IIT) is headquartered in Genoa.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "30f6ab5a-982c-54b5-b129-15ed3105284e",
+        "url": "https://www.iit.it/it-IT/call-for-iit-scientific-director",
+        "canonical_url": null,
+        "publisher": "Istituto Italiano di Tecnologia (IIT)",
+        "title": "Istituto Italiano di Tecnologia (IIT) — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

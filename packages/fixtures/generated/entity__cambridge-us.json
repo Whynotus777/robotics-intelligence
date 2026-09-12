@@ -39,6 +39,50 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "2318bafa-c523-5583-b2ab-f9ea03ccef5a",
+          "source": {
+            "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+            "slug": "massachusetts-institute-of-technology",
+            "entity_type": "ORGANIZATION",
+            "name": "Massachusetts Institute of Technology",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "2dff6a6b-a02f-5d04-8ac8-a5bcd425de2f",
+          "source": {
+            "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+            "slug": "mit-csail",
+            "entity_type": "ORGANIZATION",
+            "name": "MIT CSAIL",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "3e8f1f54-796e-5953-bd91-5018d138fec6",
           "source": {
             "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
@@ -110,6 +154,26 @@
   "lateral_links": {
     "company": [
       {
+        "id": "4aa92577-e950-517f-b5a1-ac9a304e0500",
+        "slug": "massachusetts-institute-of-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Massachusetts Institute of Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      {
+        "id": "55bea239-668d-5304-a4b5-9645b64d9787",
+        "slug": "mit-csail",
+        "entity_type": "ORGANIZATION",
+        "name": "MIT CSAIL",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      {
         "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
         "slug": "mitsubishi-electric-research-laboratories-merl",
         "entity_type": "ORGANIZATION",
@@ -156,7 +220,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 5
   },
   "as_of": null
 }

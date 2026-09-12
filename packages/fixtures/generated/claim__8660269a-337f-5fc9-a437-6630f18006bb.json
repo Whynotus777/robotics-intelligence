@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "8660269a-337f-5fc9-a437-6630f18006bb",
+    "subject": {
+      "id": "d1c9fcfc-7a37-5537-92c7-709257ad39ba",
+      "slug": "andreessen-horowitz",
+      "entity_type": "ORGANIZATION",
+      "name": "Andreessen Horowitz",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Andreessen Horowitz invested in Skydio",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
+        "slug": "skydio",
+        "entity_type": "ORGANIZATION",
+        "name": "Skydio",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Disclosed participation; individual investment date, amount and current ownership not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a780b637-5f5b-5436-bebb-4012389d99c0",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Skydio identifies Andreessen Horowitz as an investor.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bfc3c594-789d-52c2-9ddd-8078ad81af73",
+        "url": "https://www.skydio.com/blog/skydio-raises-100-million",
+        "canonical_url": null,
+        "publisher": "Skydio",
+        "title": "Skydio — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

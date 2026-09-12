@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "67dc94e7-4887-5f68-b2e3-f5c7353deb40",
+    "subject": {
+      "id": "be7463bb-8947-565f-94a5-2723ca2ac270",
+      "slug": "bosch-rexroth",
+      "entity_type": "ORGANIZATION",
+      "name": "Bosch Rexroth",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Bosch Rexroth was founded on 2001-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2001-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2001-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1aca9879-cb31-55aa-aeaf-74e2d596242e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Bosch Rexroth was established in 2001 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "9aea1e7a-03d1-5bfd-9272-92714a83eaf9",
+        "url": "https://www.boschrexroth.com/en/pl/jubileusz/",
+        "canonical_url": null,
+        "publisher": "Bosch Rexroth",
+        "title": "Bosch Rexroth — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

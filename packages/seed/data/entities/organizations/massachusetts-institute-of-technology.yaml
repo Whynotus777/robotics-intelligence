@@ -1,0 +1,38 @@
+slug: massachusetts-institute-of-technology
+entity_type: ORGANIZATION
+name: Massachusetts Institute of Technology
+short_description: Research university with robotics and artificial intelligence laboratories.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: RESEARCH_LAB
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-b36855a2fd67a679
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Research university with robotics and artificial intelligence laboratories.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: cambridge-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-b36855a2fd67a679
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Massachusetts Institute of Technology is headquartered in Cambridge.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1861-01-01'
+  valid_from: '1861-01-01'
+  evidence:
+  - source: enrich-b36855a2fd67a679
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Massachusetts Institute of Technology was established in 1861 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true
+country_code: US
+aliases:
+- MIT
