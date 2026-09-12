@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "0392f642-8ce7-50e4-98f7-e89fd4793d26",
+          "source": {
+            "id": "7011e5b3-984a-5b0d-978f-22fb13c72595",
+            "slug": "nsk",
+            "entity_type": "ORGANIZATION",
+            "name": "NSK",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "2854ab77-a12b-553b-96f7-f75d4b303656",
           "source": {
             "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
@@ -125,6 +147,50 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "4572067b-467e-57d2-ac33-97cfffeda4e4",
+          "source": {
+            "id": "3d723639-13ab-5e08-86d1-2ceab53b00ad",
+            "slug": "xela-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "XELA Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "4cf0c8d2-f7d2-5d8a-9c44-ab514be6c0df",
+          "source": {
+            "id": "7b670695-87ca-5512-b3bd-48a50c16567f",
+            "slug": "iko-nippon-thompson",
+            "entity_type": "ORGANIZATION",
+            "name": "IKO (Nippon Thompson)",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
             "source_count": 1
           }
         },
@@ -376,6 +442,16 @@
         ]
       },
       {
+        "id": "7b670695-87ca-5512-b3bd-48a50c16567f",
+        "slug": "iko-nippon-thompson",
+        "entity_type": "ORGANIZATION",
+        "name": "IKO (Nippon Thompson)",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
         "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
         "slug": "kawasaki-heavy-industries",
         "entity_type": "ORGANIZATION",
@@ -410,6 +486,16 @@
         "slug": "nabtesco",
         "entity_type": "ORGANIZATION",
         "name": "Nabtesco",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
+        "id": "7011e5b3-984a-5b0d-978f-22fb13c72595",
+        "slug": "nsk",
+        "entity_type": "ORGANIZATION",
+        "name": "NSK",
         "primary_embodiment": null,
         "roles": [
           "COMPONENT_SUPPLIER"
@@ -498,6 +584,16 @@
           "RESEARCH_LAB",
           "TOOLING_OPS_PROVIDER"
         ]
+      },
+      {
+        "id": "3d723639-13ab-5e08-86d1-2ceab53b00ad",
+        "slug": "xela-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "XELA Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
       }
     ]
   },
@@ -516,7 +612,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 14
+    "related_count": 17
   },
   "as_of": null
 }

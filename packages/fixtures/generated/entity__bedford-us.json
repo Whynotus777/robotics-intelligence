@@ -39,6 +39,50 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "08e45317-2004-50f3-8228-47a7b04c8556",
+          "source": {
+            "id": "3e6da89d-8b91-5b73-9d57-99fbc9aa8ec2",
+            "slug": "oxipital-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Oxipital AI",
+            "primary_embodiment": null,
+            "roles": [
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "5e48c355-fe01-5440-a50b-437b69b7518a",
+          "source": {
+            "id": "9d12978d-43e0-54b0-9092-bc968d879149",
+            "slug": "novanta",
+            "entity_type": "ORGANIZATION",
+            "name": "Novanta",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "9d92efa2-ef55-5ecb-be0b-a562f9d97ce8",
           "source": {
             "id": "8f8d645d-4ac0-50e6-b880-4df0b5229e47",
@@ -106,6 +150,26 @@
         "roles": [
           "OEM"
         ]
+      },
+      {
+        "id": "9d12978d-43e0-54b0-9092-bc968d879149",
+        "slug": "novanta",
+        "entity_type": "ORGANIZATION",
+        "name": "Novanta",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
+        "id": "3e6da89d-8b91-5b73-9d57-99fbc9aa8ec2",
+        "slug": "oxipital-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Oxipital AI",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
       }
     ]
   },
@@ -124,7 +188,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 4
   },
   "as_of": null
 }

@@ -22,6 +22,24 @@ claims:
     confidence: HIGH
     excerpt: Conducts applied industrial robotics research and supports ROS-based automation.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: san-antonio-us
+  valid_from: '2026-09-11'
+  qualifier: Provisional roster location; city precision; independent HQ verification pending
+  evidence:
+  - source: enrich-45d5edd91665f10c
+    class: ANALYST
+    confidence: LOW
+    observed_at: '2026-09-11'
+    excerpt: The supplied roster lists San Antonio, US as the headquarters city; this location has not been independently
+      confirmed.
+    assessment:
+      rationale: Provisional city-level location transcribed from the supplied research roster to support discovery.
+        It is not a verified headquarters address.
+      advance_criteria:
+      - A primary company profile or filing confirms this headquarters city.
+      regress_criteria:
+      - Primary evidence identifies a different headquarters or contradicts the roster location.
 country_code: US
 aliases:
 - SwRI

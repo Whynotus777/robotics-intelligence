@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "117fd89e-8217-5fce-a4ee-7f52f7243536",
+          "source": {
+            "id": "6a1108ec-e12f-50e7-8011-79761898069e",
+            "slug": "leopard-imaging",
+            "entity_type": "ORGANIZATION",
+            "name": "Leopard Imaging",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "261eb33b-c85e-559f-85fe-9599bb470dae",
           "source": {
             "id": "9979d195-abb9-55ef-a27f-a37fbaccbdad",
@@ -74,6 +96,16 @@
         "roles": [
           "OEM"
         ]
+      },
+      {
+        "id": "6a1108ec-e12f-50e7-8011-79761898069e",
+        "slug": "leopard-imaging",
+        "entity_type": "ORGANIZATION",
+        "name": "Leopard Imaging",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
       }
     ]
   },
@@ -92,7 +124,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

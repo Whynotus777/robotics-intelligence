@@ -1,0 +1,132 @@
+{
+  "entity": {
+    "id": "99166e11-f08b-571f-a02e-c1b3ff05a95f",
+    "slug": "leuven-be",
+    "entity_type": "PLACE",
+    "name": "Leuven",
+    "short_description": null,
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "BE",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": null,
+    "city": "Leuven",
+    "lat": 50.87959,
+    "lng": 4.70093,
+    "cluster_label": null
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "6aa57388-bbb5-5820-bf1c-e9bb0e897855",
+          "source": {
+            "id": "bab07ba6-92c5-5a93-950a-008aadca27a5",
+            "slug": "segments-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Segments.ai",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "e242add3-c49b-5a48-919e-21b288e7caa3",
+          "source": {
+            "id": "cecd1c0f-35b4-5777-bfb6-9c46023e0127",
+            "slug": "intermodalics",
+            "entity_type": "ORGANIZATION",
+            "name": "Intermodalics",
+            "primary_embodiment": null,
+            "roles": [
+              "INTEGRATOR",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "cecd1c0f-35b4-5777-bfb6-9c46023e0127",
+        "slug": "intermodalics",
+        "entity_type": "ORGANIZATION",
+        "name": "Intermodalics",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      {
+        "id": "bab07ba6-92c5-5a93-950a-008aadca27a5",
+        "slug": "segments-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Segments.ai",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

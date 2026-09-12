@@ -59,12 +59,76 @@
             "confidence": "LOW",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "711d27e0-e1ef-53bd-ba77-c983f52ee5a4",
+          "source": {
+            "id": "090bcbf7-a37a-5846-9890-4fc859cbe92f",
+            "slug": "appen",
+            "entity_type": "ORGANIZATION",
+            "name": "Appen",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "bafa39fa-8e24-53ab-8873-07820278a66d",
+          "source": {
+            "id": "db286626-b1a0-56dc-8760-6edcb6204bad",
+            "slug": "contactile",
+            "entity_type": "ORGANIZATION",
+            "name": "Contactile",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "090bcbf7-a37a-5846-9890-4fc859cbe92f",
+        "slug": "appen",
+        "entity_type": "ORGANIZATION",
+        "name": "Appen",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      {
+        "id": "db286626-b1a0-56dc-8760-6edcb6204bad",
+        "slug": "contactile",
+        "entity_type": "ORGANIZATION",
+        "name": "Contactile",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
       {
         "id": "a886dda0-03d6-53dc-9a67-91b4030e9d86",
         "slug": "macquarie-capital",
@@ -92,7 +156,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 3
   },
   "as_of": null
 }

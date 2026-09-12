@@ -9,12 +9,12 @@
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 52
+      "count": 88
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 6
+      "count": 7
     },
     {
       "id": "DEPLOYED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 63
+      "count": 64
     },
     {
       "id": "FUNDED",
@@ -40,6 +40,105 @@
   "marks": [
     {
       "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.68,
+      "lng": 139.69,
+      "country_code": "JP",
+      "cluster_label": "Tokyo",
+      "weight": 8,
+      "entities": [
+        {
+          "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
+          "slug": "harmonic-drive",
+          "entity_type": "ORGANIZATION",
+          "name": "Harmonic Drive",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "7b670695-87ca-5512-b3bd-48a50c16567f",
+          "slug": "iko-nippon-thompson",
+          "entity_type": "ORGANIZATION",
+          "name": "IKO (Nippon Thompson)",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
+          "slug": "nabtesco",
+          "entity_type": "ORGANIZATION",
+          "name": "Nabtesco",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "7011e5b3-984a-5b0d-978f-22fb13c72595",
+          "slug": "nsk",
+          "entity_type": "ORGANIZATION",
+          "name": "NSK",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
+          "slug": "renesas-electronics",
+          "entity_type": "ORGANIZATION",
+          "name": "Renesas Electronics",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "bae9e9fe-0902-59d5-bbc1-a98bc234970d",
+          "slug": "sumitomo-drive-technologies",
+          "entity_type": "ORGANIZATION",
+          "name": "Sumitomo Drive Technologies",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "1697924f-740e-5079-99ae-4174e704d155",
+          "slug": "sumitomo-heavy-industries",
+          "entity_type": "ORGANIZATION",
+          "name": "Sumitomo Heavy Industries",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "3d723639-13ab-5e08-86d1-2ceab53b00ad",
+          "slug": "xela-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "XELA Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "5386047b-9431-5521-8e28-d5f238524771",
         "slug": "shenzhen",
         "entity_type": "PLACE",
@@ -51,7 +150,7 @@
       "lng": 114.06,
       "country_code": "CN",
       "cluster_label": "Shenzhen",
-      "weight": 6,
+      "weight": 7,
       "entities": [
         {
           "id": "b08462e9-bff0-5079-952f-88afbacb9257",
@@ -68,6 +167,16 @@
           "slug": "leadshine-technology",
           "entity_type": "ORGANIZATION",
           "name": "Leadshine Technology",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "3ccf8a41-ef3e-5946-9b64-1a1451904c6c",
+          "slug": "livox",
+          "entity_type": "ORGANIZATION",
+          "name": "Livox",
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
@@ -120,68 +229,48 @@
     },
     {
       "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
         "entity_type": "PLACE",
-        "name": "Tokyo",
+        "name": "Beijing",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 35.68,
-      "lng": 139.69,
-      "country_code": "JP",
-      "cluster_label": "Tokyo",
-      "weight": 5,
+      "lat": 39.9,
+      "lng": 116.4,
+      "country_code": "CN",
+      "cluster_label": "Beijing",
+      "weight": 3,
       "entities": [
         {
-          "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
-          "slug": "harmonic-drive",
+          "id": "1496c3b7-eace-5cc2-9972-b92b8524ca55",
+          "slug": "inspire-robots",
           "entity_type": "ORGANIZATION",
-          "name": "Harmonic Drive",
+          "name": "Inspire Robots",
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
           ]
         },
         {
-          "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
-          "slug": "nabtesco",
+          "id": "3c340b04-f732-519c-a2fa-6ed6d4e4afd0",
+          "slug": "mech-mind-robotics",
           "entity_type": "ORGANIZATION",
-          "name": "Nabtesco",
+          "name": "Mech-Mind Robotics",
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
           ]
         },
         {
-          "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
-          "slug": "renesas-electronics",
+          "id": "aa2ab01e-8da3-5366-b186-9cfb0563b3c5",
+          "slug": "realman-robotics",
           "entity_type": "ORGANIZATION",
-          "name": "Renesas Electronics",
+          "name": "Realman Robotics",
           "primary_embodiment": null,
           "roles": [
-            "CHIPMAKER",
-            "COMPONENT_SUPPLIER"
-          ]
-        },
-        {
-          "id": "bae9e9fe-0902-59d5-bbc1-a98bc234970d",
-          "slug": "sumitomo-drive-technologies",
-          "entity_type": "ORGANIZATION",
-          "name": "Sumitomo Drive Technologies",
-          "primary_embodiment": null,
-          "roles": [
-            "COMPONENT_SUPPLIER"
-          ]
-        },
-        {
-          "id": "1697924f-740e-5079-99ae-4174e704d155",
-          "slug": "sumitomo-heavy-industries",
-          "entity_type": "ORGANIZATION",
-          "name": "Sumitomo Heavy Industries",
-          "primary_embodiment": null,
-          "roles": [
-            "COMPONENT_SUPPLIER"
+            "COMPONENT_SUPPLIER",
+            "OEM"
           ]
         }
       ],
@@ -234,6 +323,84 @@
           "name": "Ouster",
           "primary_embodiment": null,
           "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "6ec568c7-4fcc-5c90-906f-6f210bee396a",
+        "slug": "dallas-us",
+        "entity_type": "PLACE",
+        "name": "Dallas",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 32.78306,
+      "lng": -96.80667,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "9c5dab7d-8aec-5778-973f-5b6c309f86cf",
+          "slug": "texas-instruments",
+          "entity_type": "ORGANIZATION",
+          "name": "Texas Instruments",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "6a0ff10b-2419-5169-bb16-f0aea2d7b16c",
+          "slug": "vectornav-technologies",
+          "entity_type": "ORGANIZATION",
+          "name": "VectorNav Technologies",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "63a6ea32-ad2c-5703-b651-74ce3a92d9b1",
+        "slug": "geneva-ch",
+        "entity_type": "PLACE",
+        "name": "Geneva",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 46.20222,
+      "lng": 6.14569,
+      "country_code": "CH",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "acafef89-6575-5f52-aa7f-49b97bc285d0",
+          "slug": "rollvis",
+          "entity_type": "ORGANIZATION",
+          "name": "Rollvis",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "5960ddf6-3e78-589e-845c-009b10f153f3",
+          "slug": "stmicroelectronics",
+          "entity_type": "ORGANIZATION",
+          "name": "STMicroelectronics",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
             "COMPONENT_SUPPLIER"
           ]
         }
@@ -321,6 +488,72 @@
     },
     {
       "place": {
+        "id": "661bea57-b3e7-5cad-85b3-58e2cb627ed6",
+        "slug": "seongnam-kr",
+        "entity_type": "PLACE",
+        "name": "Seongnam",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.43861,
+      "lng": 127.13778,
+      "country_code": "KR",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "10c304e1-55b1-51c0-a37b-d0b3dde4e5d1",
+          "slug": "tesollo",
+          "entity_type": "ORGANIZATION",
+          "name": "Tesollo",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "c1963140-0366-52b9-b1fe-3c003b6832d6",
+          "slug": "wonik-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Wonik Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "60204e04-638a-524b-8653-c25b958dda74",
+        "slug": "ahrensburg-de",
+        "entity_type": "PLACE",
+        "name": "Ahrensburg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 53.67661,
+      "lng": 10.23705,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "769adb7d-eec3-58cf-8f6d-2448fb3ed6e5",
+          "slug": "basler",
+          "entity_type": "ORGANIZATION",
+          "name": "Basler",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "3869bb1d-b6a7-5cf8-a2df-10d83086b011",
         "slug": "almelo-nl",
         "entity_type": "PLACE",
@@ -377,28 +610,55 @@
     },
     {
       "place": {
-        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
-        "slug": "beijing",
+        "id": "d0b089f9-33ec-5afd-9f0b-2d371b114841",
+        "slug": "bedford-us",
         "entity_type": "PLACE",
-        "name": "Beijing",
+        "name": "Bedford",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 39.9,
-      "lng": 116.4,
-      "country_code": "CN",
-      "cluster_label": "Beijing",
+      "lat": 42.49065,
+      "lng": -71.27617,
+      "country_code": "US",
+      "cluster_label": null,
       "weight": 1,
       "entities": [
         {
-          "id": "aa2ab01e-8da3-5366-b186-9cfb0563b3c5",
-          "slug": "realman-robotics",
+          "id": "9d12978d-43e0-54b0-9092-bc968d879149",
+          "slug": "novanta",
           "entity_type": "ORGANIZATION",
-          "name": "Realman Robotics",
+          "name": "Novanta",
           "primary_embodiment": null,
           "roles": [
-            "COMPONENT_SUPPLIER",
-            "OEM"
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "eb176832-74c8-5c39-b14c-97633e78afd1",
+        "slug": "canton-us",
+        "entity_type": "PLACE",
+        "name": "Canton",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.15843,
+      "lng": -71.14477,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "02826241-cc30-5cbb-b012-2c416654677e",
+          "slug": "copley-controls",
+          "entity_type": "ORGANIZATION",
+          "name": "Copley Controls",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
           ]
         }
       ],
@@ -464,27 +724,26 @@
     },
     {
       "place": {
-        "id": "6ec568c7-4fcc-5c90-906f-6f210bee396a",
-        "slug": "dallas-us",
+        "id": "c0274b4f-bee3-586c-93f9-0ec81ad38033",
+        "slug": "chennai-in",
         "entity_type": "PLACE",
-        "name": "Dallas",
+        "name": "Chennai",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 32.78306,
-      "lng": -96.80667,
-      "country_code": "US",
+      "lat": 13.08784,
+      "lng": 80.27847,
+      "country_code": "IN",
       "cluster_label": null,
       "weight": 1,
       "entities": [
         {
-          "id": "9c5dab7d-8aec-5778-973f-5b6c309f86cf",
-          "slug": "texas-instruments",
+          "id": "a94f6ca0-54d1-50b2-9c1f-58b055cfefe2",
+          "slug": "e-con-systems",
           "entity_type": "ORGANIZATION",
-          "name": "Texas Instruments",
+          "name": "e-con Systems",
           "primary_embodiment": null,
           "roles": [
-            "CHIPMAKER",
             "COMPONENT_SUPPLIER"
           ]
         }
@@ -522,6 +781,34 @@
     },
     {
       "place": {
+        "id": "f220a2d5-4bb6-5fe5-9471-93f3ebc10ed8",
+        "slug": "fremont-us",
+        "entity_type": "PLACE",
+        "name": "Fremont",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.54827,
+      "lng": -121.98857,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "6a1108ec-e12f-50e7-8011-79761898069e",
+          "slug": "leopard-imaging",
+          "entity_type": "ORGANIZATION",
+          "name": "Leopard Imaging",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "2318b60e-5190-56fe-9080-ac91f1247ce2",
         "slug": "glatten-de",
         "entity_type": "PLACE",
@@ -540,6 +827,62 @@
           "slug": "j-schmalz",
           "entity_type": "ORGANIZATION",
           "name": "J. Schmalz",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "decb0703-a742-5607-9412-1abfc6077802",
+        "slug": "gothenburg-se",
+        "entity_type": "PLACE",
+        "name": "Gothenburg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 57.70716,
+      "lng": 11.96679,
+      "country_code": "SE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "f76025c3-b9b1-599a-8a9b-78b707bc8d8a",
+          "slug": "ewellix",
+          "entity_type": "ORGANIZATION",
+          "name": "Ewellix",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "eac2fabc-6b85-56d9-a2e2-911a93b4c449",
+        "slug": "guelph-ca",
+        "entity_type": "PLACE",
+        "name": "Guelph",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 43.54594,
+      "lng": -80.25599,
+      "country_code": "CA",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "3fd4ca97-f5eb-52fe-91c1-97c6cc509490",
+          "slug": "connect-tech",
+          "entity_type": "ORGANIZATION",
+          "name": "Connect Tech",
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
@@ -597,6 +940,34 @@
           "slug": "riegl-laser-measurement-systems",
           "entity_type": "ORGANIZATION",
           "name": "RIEGL Laser Measurement Systems",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "b96cb701-db1f-5155-9957-25580923965c",
+        "slug": "irvine-us",
+        "entity_type": "PLACE",
+        "name": "Irvine",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 33.66946,
+      "lng": -117.82311,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "118068a6-3448-5cdf-a136-92bda9ad11ea",
+          "slug": "futek-advanced-sensor-technology",
+          "entity_type": "ORGANIZATION",
+          "name": "FUTEK Advanced Sensor Technology",
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
@@ -748,6 +1119,91 @@
     },
     {
       "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 51.51,
+      "lng": -0.13,
+      "country_code": "GB",
+      "cluster_label": "London",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "5b23498d-4b1d-5f2b-9a62-f0db37a614e9",
+          "slug": "shadow-robot-company",
+          "entity_type": "ORGANIZATION",
+          "name": "Shadow Robot Company",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "bfc71eb9-8872-5738-9f8f-92d400d47f0e",
+        "slug": "manchester-us",
+        "entity_type": "PLACE",
+        "name": "Manchester",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.55376,
+      "lng": -77.46026,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "8250ee9f-9b0a-57cf-8058-35486ab14581",
+          "slug": "allegro-microsystems",
+          "entity_type": "ORGANIZATION",
+          "name": "Allegro MicroSystems",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "b255245d-774a-5c88-971e-28ca7c165b34",
+        "slug": "minneapolis-us",
+        "entity_type": "PLACE",
+        "name": "Minneapolis",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 44.97997,
+      "lng": -93.26384,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "dfd0d541-9164-5134-93fd-50210e46f1e7",
+          "slug": "banner-engineering",
+          "entity_type": "ORGANIZATION",
+          "name": "Banner Engineering",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "0128311c-455b-5cc5-ba38-88a0843e3a51",
         "slug": "mount-prospect-us",
         "entity_type": "PLACE",
@@ -825,6 +1281,62 @@
           "primary_embodiment": null,
           "roles": [
             "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "fc5f8943-817d-5aef-ba62-a8f05810eb74",
+        "slug": "odense",
+        "entity_type": "PLACE",
+        "name": "Odense",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 55.4,
+      "lng": 10.39,
+      "country_code": "DK",
+      "cluster_label": "Odense",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "3466017a-85d6-5123-a86b-907e8173fd08",
+          "slug": "onrobot",
+          "entity_type": "ORGANIZATION",
+          "name": "OnRobot",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c6850bf0-6976-5608-9b93-e70bcfa81433",
+        "slug": "oslo-no",
+        "entity_type": "PLACE",
+        "name": "Oslo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 59.91273,
+      "lng": 10.74609,
+      "country_code": "NO",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "adf3d3bd-8f8a-5add-98be-0a35c3dab898",
+          "slug": "zivid",
+          "entity_type": "ORGANIZATION",
+          "name": "Zivid",
+          "primary_embodiment": null,
+          "roles": [
             "COMPONENT_SUPPLIER"
           ]
         }
@@ -917,6 +1429,63 @@
     },
     {
       "place": {
+        "id": "0f0fea48-e95e-5207-9943-f949b90055e5",
+        "slug": "reutlingen-de",
+        "entity_type": "PLACE",
+        "name": "Reutlingen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.49144,
+      "lng": 9.20427,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "8a639460-21f1-5982-8414-8cc9f0624383",
+          "slug": "bosch-sensortec",
+          "entity_type": "ORGANIZATION",
+          "name": "Bosch Sensortec",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "cc45726a-d69d-5780-9e4d-ed6ba523f276",
+        "slug": "rheinau-de",
+        "entity_type": "PLACE",
+        "name": "Rheinau",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.66602,
+      "lng": 7.93659,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "d668d97c-73d4-5d0f-a6aa-ac32f58aa3fa",
+          "slug": "zimmer-group",
+          "entity_type": "ORGANIZATION",
+          "name": "Zimmer Group",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "e039d245-0255-5543-bcdb-b0abfd8f9c1c",
         "slug": "sachseln",
         "entity_type": "PLACE",
@@ -963,6 +1532,35 @@
           "slug": "qualcomm",
           "entity_type": "ORGANIZATION",
           "name": "Qualcomm",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "e35b5fd8-076c-5c2d-9118-c6c527641fe3",
+        "slug": "san-jose-us",
+        "entity_type": "PLACE",
+        "name": "San Jose",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.33939,
+      "lng": -121.89496,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "434e9967-aa12-5d65-8f3c-a24c23eaa3dd",
+          "slug": "tdk-invensense",
+          "entity_type": "ORGANIZATION",
+          "name": "TDK InvenSense",
           "primary_embodiment": null,
           "roles": [
             "CHIPMAKER",
@@ -1147,6 +1745,62 @@
     },
     {
       "place": {
+        "id": "46debb86-6c28-51d0-8715-127ace7b455c",
+        "slug": "sydney-au",
+        "entity_type": "PLACE",
+        "name": "Sydney",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": -33.86785,
+      "lng": 151.20732,
+      "country_code": "AU",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "db286626-b1a0-56dc-8760-6edcb6204bad",
+          "slug": "contactile",
+          "entity_type": "ORGANIZATION",
+          "name": "Contactile",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "cd508e56-f920-5a6e-a73a-c04aa6975a3b",
+        "slug": "taby-se",
+        "entity_type": "PLACE",
+        "name": "Taby",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 59.4439,
+      "lng": 18.06872,
+      "country_code": "SE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "b0e2a53c-b937-5b6a-b455-35219559172d",
+          "slug": "piab",
+          "entity_type": "ORGANIZATION",
+          "name": "Piab",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "7a764593-674e-587e-9afa-ef2ef8f137fd",
         "slug": "taichung-tw",
         "entity_type": "PLACE",
@@ -1194,6 +1848,91 @@
           "slug": "zhejiang-shuanghuan-driveline",
           "entity_type": "ORGANIZATION",
           "name": "Zhejiang Shuanghuan Driveline",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "3972bf98-171c-5edd-8d35-0a3a58445882",
+        "slug": "taufkirchen-de",
+        "entity_type": "PLACE",
+        "name": "Taufkirchen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.0486,
+      "lng": 11.61701,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "1dd024e2-c5ed-54ad-b3a8-8b7317e5638b",
+          "slug": "framos",
+          "entity_type": "ORGANIZATION",
+          "name": "FRAMOS",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "f5c0fffc-8777-5f3b-a809-9384e721f794",
+        "slug": "tel-aviv-il",
+        "entity_type": "PLACE",
+        "name": "Tel Aviv",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 32.08088,
+      "lng": 34.78057,
+      "country_code": "IL",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "0564633b-ae09-5f66-ac3f-bcb0fe0e32e9",
+          "slug": "hailo",
+          "entity_type": "ORGANIZATION",
+          "name": "Hailo",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
+        "slug": "toronto-ca",
+        "entity_type": "PLACE",
+        "name": "Toronto",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 43.70643,
+      "lng": -79.39864,
+      "country_code": "CA",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "a3cb9939-1bda-507b-aa53-d27669ffa135",
+          "slug": "teledyne-optech",
+          "entity_type": "ORGANIZATION",
+          "name": "Teledyne Optech",
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
@@ -1261,6 +2000,34 @@
     },
     {
       "place": {
+        "id": "27ae8900-bb14-5014-8849-b3f3e94d3c82",
+        "slug": "waltham",
+        "entity_type": "PLACE",
+        "name": "Waltham",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.38,
+      "lng": -71.24,
+      "country_code": "US",
+      "cluster_label": "Boston",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "f9d59e60-d283-5eb7-bd03-769796dfec5a",
+          "slug": "gelsight",
+          "entity_type": "ORGANIZATION",
+          "name": "GelSight",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "8e2683f9-6416-5084-b9e3-004043ea0091",
         "slug": "westminster-us",
         "entity_type": "PLACE",
@@ -1286,36 +2053,139 @@
         }
       ],
       "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "72e4cee7-6a2b-5b2c-b35d-546db79e0c93",
+        "slug": "wotton-under-edge-gb",
+        "entity_type": "PLACE",
+        "name": "Wotton-under-Edge",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 51.63242,
+      "lng": -2.34512,
+      "country_code": "GB",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "20c927ab-bde5-5968-9b25-f9993eff45ce",
+          "slug": "renishaw",
+          "entity_type": "ORGANIZATION",
+          "name": "Renishaw",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "62f88a4a-b84c-5e2a-8ba0-39a533f77f99",
+        "slug": "wuhan-cn",
+        "entity_type": "PLACE",
+        "name": "Wuhan",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 30.58333,
+      "lng": 114.26667,
+      "country_code": "CN",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "51b15cc2-9635-51c5-84ea-5a878973a828",
+          "slug": "black-sesame-technologies",
+          "entity_type": "ORGANIZATION",
+          "name": "Black Sesame Technologies",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 47.38,
+      "lng": 8.54,
+      "country_code": "CH",
+      "cluster_label": "Zurich",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "b74944fa-1e7a-567e-a8b5-a67c94eaf4bb",
+          "slug": "bota-systems",
+          "entity_type": "ORGANIZATION",
+          "name": "Bota Systems",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
     }
   ],
   "countries": [
     {
       "id": "US",
       "label": "US",
-      "weight": 16,
-      "places": 13
+      "weight": 25,
+      "places": 21
     },
     {
       "id": "CN",
       "label": "CN",
-      "weight": 12,
-      "places": 7
-    },
-    {
-      "id": "JP",
-      "label": "JP",
-      "weight": 8,
-      "places": 3
+      "weight": 16,
+      "places": 8
     },
     {
       "id": "DE",
       "label": "DE",
-      "weight": 7,
-      "places": 7
+      "weight": 11,
+      "places": 11
+    },
+    {
+      "id": "JP",
+      "label": "JP",
+      "weight": 11,
+      "places": 3
+    },
+    {
+      "id": "CH",
+      "label": "CH",
+      "weight": 4,
+      "places": 3
     },
     {
       "id": "KR",
       "label": "KR",
+      "weight": 4,
+      "places": 3
+    },
+    {
+      "id": "CA",
+      "label": "CA",
+      "weight": 3,
+      "places": 3
+    },
+    {
+      "id": "GB",
+      "label": "GB",
       "weight": 2,
       "places": 2
     },
@@ -1326,20 +2196,44 @@
       "places": 2
     },
     {
+      "id": "SE",
+      "label": "SE",
+      "weight": 2,
+      "places": 2
+    },
+    {
       "id": "AT",
       "label": "AT",
       "weight": 1,
       "places": 1
     },
     {
-      "id": "CA",
-      "label": "CA",
+      "id": "AU",
+      "label": "AU",
       "weight": 1,
       "places": 1
     },
     {
-      "id": "CH",
-      "label": "CH",
+      "id": "DK",
+      "label": "DK",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "IL",
+      "label": "IL",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "IN",
+      "label": "IN",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "NO",
+      "label": "NO",
       "weight": 1,
       "places": 1
     },
@@ -1358,15 +2252,15 @@
   ],
   "corridors": [
     {
-      "id": "Shenzhen",
-      "label": "Shenzhen",
-      "weight": 6,
+      "id": "Tokyo",
+      "label": "Tokyo",
+      "weight": 8,
       "places": 1
     },
     {
-      "id": "Tokyo",
-      "label": "Tokyo",
-      "weight": 5,
+      "id": "Shenzhen",
+      "label": "Shenzhen",
+      "weight": 7,
       "places": 1
     },
     {
@@ -1378,6 +2272,12 @@
     {
       "id": "Beijing",
       "label": "Beijing",
+      "weight": 3,
+      "places": 1
+    },
+    {
+      "id": "Boston",
+      "label": "Boston",
       "weight": 1,
       "places": 1
     },
@@ -1396,6 +2296,18 @@
     {
       "id": "Kitakyushu",
       "label": "Kitakyushu",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "London",
+      "label": "London",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Odense",
+      "label": "Odense",
       "weight": 1,
       "places": 1
     },
@@ -1428,9 +2340,176 @@
       "label": "Suzhou",
       "weight": 1,
       "places": 1
+    },
+    {
+      "id": "Zurich",
+      "label": "Zurich",
+      "weight": 1,
+      "places": 1
     }
   ],
   "list": [
+    {
+      "entity": {
+        "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
+        "slug": "harmonic-drive",
+        "entity_type": "ORGANIZATION",
+        "name": "Harmonic Drive",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "7b670695-87ca-5512-b3bd-48a50c16567f",
+        "slug": "iko-nippon-thompson",
+        "entity_type": "ORGANIZATION",
+        "name": "IKO (Nippon Thompson)",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
+        "slug": "nabtesco",
+        "entity_type": "ORGANIZATION",
+        "name": "Nabtesco",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "7011e5b3-984a-5b0d-978f-22fb13c72595",
+        "slug": "nsk",
+        "entity_type": "ORGANIZATION",
+        "name": "NSK",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
+        "slug": "renesas-electronics",
+        "entity_type": "ORGANIZATION",
+        "name": "Renesas Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "bae9e9fe-0902-59d5-bbc1-a98bc234970d",
+        "slug": "sumitomo-drive-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "Sumitomo Drive Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "1697924f-740e-5079-99ae-4174e704d155",
+        "slug": "sumitomo-heavy-industries",
+        "entity_type": "ORGANIZATION",
+        "name": "Sumitomo Heavy Industries",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3d723639-13ab-5e08-86d1-2ceab53b00ad",
+        "slug": "xela-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "XELA Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
     {
       "entity": {
         "id": "b08462e9-bff0-5079-952f-88afbacb9257",
@@ -1457,6 +2536,26 @@
         "slug": "leadshine-technology",
         "entity_type": "ORGANIZATION",
         "name": "Leadshine Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3ccf8a41-ef3e-5946-9b64-1a1451904c6c",
+        "slug": "livox",
+        "entity_type": "ORGANIZATION",
+        "name": "Livox",
         "primary_embodiment": null,
         "roles": [
           "COMPONENT_SUPPLIER"
@@ -1555,101 +2654,61 @@
     },
     {
       "entity": {
-        "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
-        "slug": "harmonic-drive",
+        "id": "1496c3b7-eace-5cc2-9972-b92b8524ca55",
+        "slug": "inspire-robots",
         "entity_type": "ORGANIZATION",
-        "name": "Harmonic Drive",
+        "name": "Inspire Robots",
         "primary_embodiment": null,
         "roles": [
           "COMPONENT_SUPPLIER"
         ]
       },
       "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
         "entity_type": "PLACE",
-        "name": "Tokyo",
+        "name": "Beijing",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
-        "slug": "nabtesco",
+        "id": "3c340b04-f732-519c-a2fa-6ed6d4e4afd0",
+        "slug": "mech-mind-robotics",
         "entity_type": "ORGANIZATION",
-        "name": "Nabtesco",
+        "name": "Mech-Mind Robotics",
         "primary_embodiment": null,
         "roles": [
           "COMPONENT_SUPPLIER"
         ]
       },
       "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
         "entity_type": "PLACE",
-        "name": "Tokyo",
+        "name": "Beijing",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
-        "slug": "renesas-electronics",
+        "id": "aa2ab01e-8da3-5366-b186-9cfb0563b3c5",
+        "slug": "realman-robotics",
         "entity_type": "ORGANIZATION",
-        "name": "Renesas Electronics",
+        "name": "Realman Robotics",
         "primary_embodiment": null,
         "roles": [
-          "CHIPMAKER",
-          "COMPONENT_SUPPLIER"
+          "COMPONENT_SUPPLIER",
+          "OEM"
         ]
       },
       "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
         "entity_type": "PLACE",
-        "name": "Tokyo",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "bae9e9fe-0902-59d5-bbc1-a98bc234970d",
-        "slug": "sumitomo-drive-technologies",
-        "entity_type": "ORGANIZATION",
-        "name": "Sumitomo Drive Technologies",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "1697924f-740e-5079-99ae-4174e704d155",
-        "slug": "sumitomo-heavy-industries",
-        "entity_type": "ORGANIZATION",
-        "name": "Sumitomo Heavy Industries",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
+        "name": "Beijing",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1715,6 +2774,88 @@
         "slug": "bay-area",
         "entity_type": "PLACE",
         "name": "San Francisco Bay Area",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9c5dab7d-8aec-5778-973f-5b6c309f86cf",
+        "slug": "texas-instruments",
+        "entity_type": "ORGANIZATION",
+        "name": "Texas Instruments",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "6ec568c7-4fcc-5c90-906f-6f210bee396a",
+        "slug": "dallas-us",
+        "entity_type": "PLACE",
+        "name": "Dallas",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "6a0ff10b-2419-5169-bb16-f0aea2d7b16c",
+        "slug": "vectornav-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "VectorNav Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "6ec568c7-4fcc-5c90-906f-6f210bee396a",
+        "slug": "dallas-us",
+        "entity_type": "PLACE",
+        "name": "Dallas",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "acafef89-6575-5f52-aa7f-49b97bc285d0",
+        "slug": "rollvis",
+        "entity_type": "ORGANIZATION",
+        "name": "Rollvis",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "63a6ea32-ad2c-5703-b651-74ce3a92d9b1",
+        "slug": "geneva-ch",
+        "entity_type": "PLACE",
+        "name": "Geneva",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "5960ddf6-3e78-589e-845c-009b10f153f3",
+        "slug": "stmicroelectronics",
+        "entity_type": "ORGANIZATION",
+        "name": "STMicroelectronics",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "63a6ea32-ad2c-5703-b651-74ce3a92d9b1",
+        "slug": "geneva-ch",
+        "entity_type": "PLACE",
+        "name": "Geneva",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1804,6 +2945,66 @@
     },
     {
       "entity": {
+        "id": "10c304e1-55b1-51c0-a37b-d0b3dde4e5d1",
+        "slug": "tesollo",
+        "entity_type": "ORGANIZATION",
+        "name": "Tesollo",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "661bea57-b3e7-5cad-85b3-58e2cb627ed6",
+        "slug": "seongnam-kr",
+        "entity_type": "PLACE",
+        "name": "Seongnam",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "c1963140-0366-52b9-b1fe-3c003b6832d6",
+        "slug": "wonik-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Wonik Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "661bea57-b3e7-5cad-85b3-58e2cb627ed6",
+        "slug": "seongnam-kr",
+        "entity_type": "PLACE",
+        "name": "Seongnam",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "769adb7d-eec3-58cf-8f6d-2448fb3ed6e5",
+        "slug": "basler",
+        "entity_type": "ORGANIZATION",
+        "name": "Basler",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "60204e04-638a-524b-8653-c25b958dda74",
+        "slug": "ahrensburg-de",
+        "entity_type": "PLACE",
+        "name": "Ahrensburg",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "656b2e7b-afdc-5adf-b754-602ed71f4679",
         "slug": "tecnotion",
         "entity_type": "ORGANIZATION",
@@ -1844,21 +3045,40 @@
     },
     {
       "entity": {
-        "id": "aa2ab01e-8da3-5366-b186-9cfb0563b3c5",
-        "slug": "realman-robotics",
+        "id": "9d12978d-43e0-54b0-9092-bc968d879149",
+        "slug": "novanta",
         "entity_type": "ORGANIZATION",
-        "name": "Realman Robotics",
+        "name": "Novanta",
         "primary_embodiment": null,
         "roles": [
-          "COMPONENT_SUPPLIER",
-          "OEM"
+          "COMPONENT_SUPPLIER"
         ]
       },
       "place": {
-        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
-        "slug": "beijing",
+        "id": "d0b089f9-33ec-5afd-9f0b-2d371b114841",
+        "slug": "bedford-us",
         "entity_type": "PLACE",
-        "name": "Beijing",
+        "name": "Bedford",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "02826241-cc30-5cbb-b012-2c416654677e",
+        "slug": "copley-controls",
+        "entity_type": "ORGANIZATION",
+        "name": "Copley Controls",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "eb176832-74c8-5c39-b14c-97633e78afd1",
+        "slug": "canton-us",
+        "entity_type": "PLACE",
+        "name": "Canton",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1907,21 +3127,20 @@
     },
     {
       "entity": {
-        "id": "9c5dab7d-8aec-5778-973f-5b6c309f86cf",
-        "slug": "texas-instruments",
+        "id": "a94f6ca0-54d1-50b2-9c1f-58b055cfefe2",
+        "slug": "e-con-systems",
         "entity_type": "ORGANIZATION",
-        "name": "Texas Instruments",
+        "name": "e-con Systems",
         "primary_embodiment": null,
         "roles": [
-          "CHIPMAKER",
           "COMPONENT_SUPPLIER"
         ]
       },
       "place": {
-        "id": "6ec568c7-4fcc-5c90-906f-6f210bee396a",
-        "slug": "dallas-us",
+        "id": "c0274b4f-bee3-586c-93f9-0ec81ad38033",
+        "slug": "chennai-in",
         "entity_type": "PLACE",
-        "name": "Dallas",
+        "name": "Chennai",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1949,6 +3168,26 @@
     },
     {
       "entity": {
+        "id": "6a1108ec-e12f-50e7-8011-79761898069e",
+        "slug": "leopard-imaging",
+        "entity_type": "ORGANIZATION",
+        "name": "Leopard Imaging",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "f220a2d5-4bb6-5fe5-9471-93f3ebc10ed8",
+        "slug": "fremont-us",
+        "entity_type": "PLACE",
+        "name": "Fremont",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "313ab662-5d43-58ad-8ee8-c8400764ab43",
         "slug": "j-schmalz",
         "entity_type": "ORGANIZATION",
@@ -1963,6 +3202,46 @@
         "slug": "glatten-de",
         "entity_type": "PLACE",
         "name": "Glatten",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "f76025c3-b9b1-599a-8a9b-78b707bc8d8a",
+        "slug": "ewellix",
+        "entity_type": "ORGANIZATION",
+        "name": "Ewellix",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "decb0703-a742-5607-9412-1abfc6077802",
+        "slug": "gothenburg-se",
+        "entity_type": "PLACE",
+        "name": "Gothenburg",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3fd4ca97-f5eb-52fe-91c1-97c6cc509490",
+        "slug": "connect-tech",
+        "entity_type": "ORGANIZATION",
+        "name": "Connect Tech",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "eac2fabc-6b85-56d9-a2e2-911a93b4c449",
+        "slug": "guelph-ca",
+        "entity_type": "PLACE",
+        "name": "Guelph",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2004,6 +3283,26 @@
         "slug": "horn-at",
         "entity_type": "PLACE",
         "name": "Horn",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "118068a6-3448-5cdf-a136-92bda9ad11ea",
+        "slug": "futek-advanced-sensor-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "FUTEK Advanced Sensor Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "b96cb701-db1f-5155-9957-25580923965c",
+        "slug": "irvine-us",
+        "entity_type": "PLACE",
+        "name": "Irvine",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2111,6 +3410,67 @@
     },
     {
       "entity": {
+        "id": "5b23498d-4b1d-5f2b-9a62-f0db37a614e9",
+        "slug": "shadow-robot-company",
+        "entity_type": "ORGANIZATION",
+        "name": "Shadow Robot Company",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "8250ee9f-9b0a-57cf-8058-35486ab14581",
+        "slug": "allegro-microsystems",
+        "entity_type": "ORGANIZATION",
+        "name": "Allegro MicroSystems",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "bfc71eb9-8872-5738-9f8f-92d400d47f0e",
+        "slug": "manchester-us",
+        "entity_type": "PLACE",
+        "name": "Manchester",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "dfd0d541-9164-5134-93fd-50210e46f1e7",
+        "slug": "banner-engineering",
+        "entity_type": "ORGANIZATION",
+        "name": "Banner Engineering",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "b255245d-774a-5c88-971e-28ca7c165b34",
+        "slug": "minneapolis-us",
+        "entity_type": "PLACE",
+        "name": "Minneapolis",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "a4107d6f-ee01-534f-9a02-4b2760f54ec4",
         "slug": "gam-enterprises",
         "entity_type": "ORGANIZATION",
@@ -2166,6 +3526,46 @@
         "slug": "neubiberg-de",
         "entity_type": "PLACE",
         "name": "Neubiberg",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3466017a-85d6-5123-a86b-907e8173fd08",
+        "slug": "onrobot",
+        "entity_type": "ORGANIZATION",
+        "name": "OnRobot",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "fc5f8943-817d-5aef-ba62-a8f05810eb74",
+        "slug": "odense",
+        "entity_type": "PLACE",
+        "name": "Odense",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "adf3d3bd-8f8a-5add-98be-0a35c3dab898",
+        "slug": "zivid",
+        "entity_type": "ORGANIZATION",
+        "name": "Zivid",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c6850bf0-6976-5608-9b93-e70bcfa81433",
+        "slug": "oslo-no",
+        "entity_type": "PLACE",
+        "name": "Oslo",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2232,6 +3632,47 @@
     },
     {
       "entity": {
+        "id": "8a639460-21f1-5982-8414-8cc9f0624383",
+        "slug": "bosch-sensortec",
+        "entity_type": "ORGANIZATION",
+        "name": "Bosch Sensortec",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "0f0fea48-e95e-5207-9943-f949b90055e5",
+        "slug": "reutlingen-de",
+        "entity_type": "PLACE",
+        "name": "Reutlingen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "d668d97c-73d4-5d0f-a6aa-ac32f58aa3fa",
+        "slug": "zimmer-group",
+        "entity_type": "ORGANIZATION",
+        "name": "Zimmer Group",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "cc45726a-d69d-5780-9e4d-ed6ba523f276",
+        "slug": "rheinau-de",
+        "entity_type": "PLACE",
+        "name": "Rheinau",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "e05f8ee9-729b-5420-8374-2825cab9dcb6",
         "slug": "maxon",
         "entity_type": "ORGANIZATION",
@@ -2267,6 +3708,27 @@
         "slug": "san-diego",
         "entity_type": "PLACE",
         "name": "San Diego",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "434e9967-aa12-5d65-8f3c-a24c23eaa3dd",
+        "slug": "tdk-invensense",
+        "entity_type": "ORGANIZATION",
+        "name": "TDK InvenSense",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "e35b5fd8-076c-5c2d-9118-c6c527641fe3",
+        "slug": "san-jose-us",
+        "entity_type": "PLACE",
+        "name": "San Jose",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2398,6 +3860,46 @@
     },
     {
       "entity": {
+        "id": "db286626-b1a0-56dc-8760-6edcb6204bad",
+        "slug": "contactile",
+        "entity_type": "ORGANIZATION",
+        "name": "Contactile",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "46debb86-6c28-51d0-8715-127ace7b455c",
+        "slug": "sydney-au",
+        "entity_type": "PLACE",
+        "name": "Sydney",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b0e2a53c-b937-5b6a-b455-35219559172d",
+        "slug": "piab",
+        "entity_type": "ORGANIZATION",
+        "name": "Piab",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "cd508e56-f920-5a6e-a73a-c04aa6975a3b",
+        "slug": "taby-se",
+        "entity_type": "PLACE",
+        "name": "Taby",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "326f3ed5-74c7-547b-bd9e-c90c8f6c504d",
         "slug": "hiwin",
         "entity_type": "ORGANIZATION",
@@ -2433,6 +3935,67 @@
         "slug": "taizhou-cn",
         "entity_type": "PLACE",
         "name": "Taizhou",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "1dd024e2-c5ed-54ad-b3a8-8b7317e5638b",
+        "slug": "framos",
+        "entity_type": "ORGANIZATION",
+        "name": "FRAMOS",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "3972bf98-171c-5edd-8d35-0a3a58445882",
+        "slug": "taufkirchen-de",
+        "entity_type": "PLACE",
+        "name": "Taufkirchen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "0564633b-ae09-5f66-ac3f-bcb0fe0e32e9",
+        "slug": "hailo",
+        "entity_type": "ORGANIZATION",
+        "name": "Hailo",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "f5c0fffc-8777-5f3b-a809-9384e721f794",
+        "slug": "tel-aviv-il",
+        "entity_type": "PLACE",
+        "name": "Tel Aviv",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "a3cb9939-1bda-507b-aa53-d27669ffa135",
+        "slug": "teledyne-optech",
+        "entity_type": "ORGANIZATION",
+        "name": "Teledyne Optech",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
+        "slug": "toronto-ca",
+        "entity_type": "PLACE",
+        "name": "Toronto",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2480,6 +4043,26 @@
     },
     {
       "entity": {
+        "id": "f9d59e60-d283-5eb7-bd03-769796dfec5a",
+        "slug": "gelsight",
+        "entity_type": "ORGANIZATION",
+        "name": "GelSight",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "27ae8900-bb14-5014-8849-b3f3e94d3c82",
+        "slug": "waltham",
+        "entity_type": "PLACE",
+        "name": "Waltham",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "77660ef8-6e1a-5dab-8ae7-62729288d803",
         "slug": "trimble",
         "entity_type": "ORGANIZATION",
@@ -2494,6 +4077,67 @@
         "slug": "westminster-us",
         "entity_type": "PLACE",
         "name": "Westminster",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "20c927ab-bde5-5968-9b25-f9993eff45ce",
+        "slug": "renishaw",
+        "entity_type": "ORGANIZATION",
+        "name": "Renishaw",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "72e4cee7-6a2b-5b2c-b35d-546db79e0c93",
+        "slug": "wotton-under-edge-gb",
+        "entity_type": "PLACE",
+        "name": "Wotton-under-Edge",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "51b15cc2-9635-51c5-84ea-5a878973a828",
+        "slug": "black-sesame-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "Black Sesame Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "62f88a4a-b84c-5e2a-8ba0-39a533f77f99",
+        "slug": "wuhan-cn",
+        "entity_type": "PLACE",
+        "name": "Wuhan",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b74944fa-1e7a-567e-a8b5-a67c94eaf4bb",
+        "slug": "bota-systems",
+        "entity_type": "ORGANIZATION",
+        "name": "Bota Systems",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
         "primary_embodiment": null,
         "roles": []
       }

@@ -1,0 +1,100 @@
+{
+  "entity": {
+    "id": "62f88a4a-b84c-5e2a-8ba0-39a533f77f99",
+    "slug": "wuhan-cn",
+    "entity_type": "PLACE",
+    "name": "Wuhan",
+    "short_description": null,
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "CN",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": null,
+    "city": "Wuhan",
+    "lat": 30.58333,
+    "lng": 114.26667,
+    "cluster_label": null
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "6098ec92-cea1-5012-a31f-540b0b4d4c77",
+          "source": {
+            "id": "51b15cc2-9635-51c5-84ea-5a878973a828",
+            "slug": "black-sesame-technologies",
+            "entity_type": "ORGANIZATION",
+            "name": "Black Sesame Technologies",
+            "primary_embodiment": null,
+            "roles": [
+              "CHIPMAKER",
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "51b15cc2-9635-51c5-84ea-5a878973a828",
+        "slug": "black-sesame-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "Black Sesame Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

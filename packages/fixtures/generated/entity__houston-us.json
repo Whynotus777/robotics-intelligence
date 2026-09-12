@@ -39,6 +39,29 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "30bdf571-8fbc-522e-9831-50e0afb98c17",
+          "source": {
+            "id": "28754281-94bf-56ab-af66-f5b4c2f6e673",
+            "slug": "traclabs",
+            "entity_type": "ORGANIZATION",
+            "name": "TRACLabs",
+            "primary_embodiment": null,
+            "roles": [
+              "INTEGRATOR",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "895ef33d-8f5d-5df2-9763-4f5b2421f2a2",
           "source": {
             "id": "3c390220-cd8f-517d-8033-23b95f2ab8c2",
@@ -74,6 +97,17 @@
         "roles": [
           "OEM"
         ]
+      },
+      {
+        "id": "28754281-94bf-56ab-af66-f5b4c2f6e673",
+        "slug": "traclabs",
+        "entity_type": "ORGANIZATION",
+        "name": "TRACLabs",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "TOOLING_OPS_PROVIDER"
+        ]
       }
     ]
   },
@@ -92,7 +126,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

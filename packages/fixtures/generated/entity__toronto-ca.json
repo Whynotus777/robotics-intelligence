@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "06288db0-6e57-58ac-94a3-859886c14be3",
+          "source": {
+            "id": "a3cb9939-1bda-507b-aa53-d27669ffa135",
+            "slug": "teledyne-optech",
+            "entity_type": "ORGANIZATION",
+            "name": "Teledyne Optech",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "0bd745d4-0b1e-5d1c-8c21-42cd101aa19f",
           "source": {
             "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
@@ -130,6 +152,16 @@
         ]
       },
       {
+        "id": "a3cb9939-1bda-507b-aa53-d27669ffa135",
+        "slug": "teledyne-optech",
+        "entity_type": "ORGANIZATION",
+        "name": "Teledyne Optech",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
         "id": "54973dcc-f0a8-5acb-83a4-b03a2f8056ab",
         "slug": "waabi",
         "entity_type": "ORGANIZATION",
@@ -156,7 +188,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 4
   },
   "as_of": null
 }

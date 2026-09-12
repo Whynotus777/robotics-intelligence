@@ -9,12 +9,12 @@
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 52
+      "count": 88
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 6
+      "count": 7
     },
     {
       "id": "DEPLOYED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 63
+      "count": 64
     },
     {
       "id": "FUNDED",
@@ -1079,6 +1079,35 @@
     },
     {
       "place": {
+        "id": "1b0dd3c7-4331-5972-9dfe-a2ae65767342",
+        "slug": "san-antonio-us",
+        "entity_type": "PLACE",
+        "name": "San Antonio",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 29.42412,
+      "lng": -98.49363,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "04e07ffc-e236-55b1-b6cd-b4158ac3f80b",
+          "slug": "southwest-research-institute-swri",
+          "entity_type": "ORGANIZATION",
+          "name": "Southwest Research Institute (SwRI)",
+          "primary_embodiment": null,
+          "roles": [
+            "INTEGRATOR",
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
         "slug": "san-diego",
         "entity_type": "PLACE",
@@ -1343,8 +1372,8 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 30,
-      "places": 18
+      "weight": 31,
+      "places": 19
     },
     {
       "id": "CN",
@@ -2601,6 +2630,27 @@
         "slug": "redmond",
         "entity_type": "PLACE",
         "name": "Redmond",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "04e07ffc-e236-55b1-b6cd-b4158ac3f80b",
+        "slug": "southwest-research-institute-swri",
+        "entity_type": "ORGANIZATION",
+        "name": "Southwest Research Institute (SwRI)",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "1b0dd3c7-4331-5972-9dfe-a2ae65767342",
+        "slug": "san-antonio-us",
+        "entity_type": "PLACE",
+        "name": "San Antonio",
         "primary_embodiment": null,
         "roles": []
       }

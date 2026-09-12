@@ -39,6 +39,50 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "5d33e5ee-e6ae-5ed1-b1b0-3a5d3262ab66",
+          "source": {
+            "id": "f76025c3-b9b1-599a-8a9b-78b707bc8d8a",
+            "slug": "ewellix",
+            "entity_type": "ORGANIZATION",
+            "name": "Ewellix",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "65117e80-5803-5ffc-82e4-7cc15020afde",
+          "source": {
+            "id": "b992dfb4-b945-5a51-9ccf-368c6da804a1",
+            "slug": "kognic",
+            "entity_type": "ORGANIZATION",
+            "name": "Kognic",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "fd31b1ab-c4a1-59b4-95d2-0c15dbd93d65",
           "source": {
             "id": "3bc458c8-b62e-55de-bf93-a6b6d76ad046",
@@ -66,6 +110,26 @@
   "lateral_links": {
     "company": [
       {
+        "id": "f76025c3-b9b1-599a-8a9b-78b707bc8d8a",
+        "slug": "ewellix",
+        "entity_type": "ORGANIZATION",
+        "name": "Ewellix",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
+        "id": "b992dfb4-b945-5a51-9ccf-368c6da804a1",
+        "slug": "kognic",
+        "entity_type": "ORGANIZATION",
+        "name": "Kognic",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      {
         "id": "3bc458c8-b62e-55de-bf93-a6b6d76ad046",
         "slug": "volvo-cars-tech-fund",
         "entity_type": "ORGANIZATION",
@@ -92,7 +156,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 3
   },
   "as_of": null
 }

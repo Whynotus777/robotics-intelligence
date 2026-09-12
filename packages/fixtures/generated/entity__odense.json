@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "30c3f6ed-3fec-5fa7-8508-31a3f85cfdb0",
+          "source": {
+            "id": "3466017a-85d6-5123-a86b-907e8173fd08",
+            "slug": "onrobot",
+            "entity_type": "ORGANIZATION",
+            "name": "OnRobot",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "79f676e9-4d27-53b2-b26a-8a76e84d7e92",
           "source": {
             "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
@@ -98,6 +120,16 @@
         ]
       },
       {
+        "id": "3466017a-85d6-5123-a86b-907e8173fd08",
+        "slug": "onrobot",
+        "entity_type": "ORGANIZATION",
+        "name": "OnRobot",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
         "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
         "slug": "universal-robots",
         "entity_type": "ORGANIZATION",
@@ -124,7 +156,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

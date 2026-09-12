@@ -60,6 +60,29 @@
             "confidence": "LOW",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "4463719c-5733-57e1-9102-b11bce7b23c7",
+          "source": {
+            "id": "0564633b-ae09-5f66-ac3f-bcb0fe0e32e9",
+            "slug": "hailo",
+            "entity_type": "ORGANIZATION",
+            "name": "Hailo",
+            "primary_embodiment": null,
+            "roles": [
+              "CHIPMAKER",
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -75,6 +98,17 @@
         "roles": [
           "OEM",
           "OPERATOR"
+        ]
+      },
+      {
+        "id": "0564633b-ae09-5f66-ac3f-bcb0fe0e32e9",
+        "slug": "hailo",
+        "entity_type": "ORGANIZATION",
+        "name": "Hailo",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
         ]
       }
     ]
@@ -94,7 +128,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

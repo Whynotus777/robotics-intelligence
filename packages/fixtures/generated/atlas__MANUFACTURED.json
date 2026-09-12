@@ -9,12 +9,12 @@
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 52
+      "count": 88
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 6
+      "count": 7
     },
     {
       "id": "DEPLOYED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 63
+      "count": 64
     },
     {
       "id": "FUNDED",
@@ -149,6 +149,34 @@
     },
     {
       "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 22.54,
+      "lng": 114.06,
+      "country_code": "CN",
+      "cluster_label": "Shenzhen",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "17b77ab9-f2f1-545a-b3b6-337de58c658e",
+          "slug": "byd-electronics",
+          "entity_type": "ORGANIZATION",
+          "name": "BYD Electronics",
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "dbea8ee3-4379-5e56-9e95-9e7555602d95",
         "slug": "st-petersburg-us",
         "entity_type": "PLACE",
@@ -188,12 +216,24 @@
       "label": "US",
       "weight": 2,
       "places": 2
+    },
+    {
+      "id": "CN",
+      "label": "CN",
+      "weight": 1,
+      "places": 1
     }
   ],
   "corridors": [
     {
       "id": "Austin",
       "label": "Austin",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Shenzhen",
+      "label": "Shenzhen",
       "weight": 1,
       "places": 1
     }
@@ -300,6 +340,26 @@
         "slug": "austin",
         "entity_type": "PLACE",
         "name": "Austin",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "17b77ab9-f2f1-545a-b3b6-337de58c658e",
+        "slug": "byd-electronics",
+        "entity_type": "ORGANIZATION",
+        "name": "BYD Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
         "primary_embodiment": null,
         "roles": []
       }

@@ -129,6 +129,28 @@
           }
         },
         {
+          "claim_id": "83ade20d-d330-5f89-81e9-a7f0b6359ba9",
+          "source": {
+            "id": "5b23498d-4b1d-5f2b-9a62-f0db37a614e9",
+            "slug": "shadow-robot-company",
+            "entity_type": "ORGANIZATION",
+            "name": "Shadow Robot Company",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "b7ba4b2d-ab83-5003-bf8f-37389c71eb05",
           "source": {
             "id": "76120db1-8f9d-580d-af75-379391876eca",
@@ -195,6 +217,28 @@
           }
         },
         {
+          "claim_id": "ed2b06d2-bc1a-5bf3-97d7-3e770c226ea5",
+          "source": {
+            "id": "384a78ae-0550-5ad9-9e9c-503f1d1c6af2",
+            "slug": "encord",
+            "entity_type": "ORGANIZATION",
+            "name": "Encord",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "fdcac00c-ea03-51f5-869c-cb0eb6f722ee",
           "source": {
             "id": "d3072c19-dd4c-5474-9c7a-0705fd860b8f",
@@ -252,6 +296,16 @@
         ]
       },
       {
+        "id": "384a78ae-0550-5ad9-9e9c-503f1d1c6af2",
+        "slug": "encord",
+        "entity_type": "ORGANIZATION",
+        "name": "Encord",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      {
         "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
         "slug": "google-deepmind",
         "entity_type": "ORGANIZATION",
@@ -294,6 +348,16 @@
         ]
       },
       {
+        "id": "5b23498d-4b1d-5f2b-9a62-f0db37a614e9",
+        "slug": "shadow-robot-company",
+        "entity_type": "ORGANIZATION",
+        "name": "Shadow Robot Company",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
         "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
         "slug": "wayve",
         "entity_type": "ORGANIZATION",
@@ -320,7 +384,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 8
+    "related_count": 10
   },
   "as_of": null
 }
