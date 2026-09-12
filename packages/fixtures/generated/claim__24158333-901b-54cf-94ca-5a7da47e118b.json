@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "24158333-901b-54cf-94ca-5a7da47e118b",
+    "subject": {
+      "id": "f76025c3-b9b1-599a-8a9b-78b707bc8d8a",
+      "slug": "ewellix",
+      "entity_type": "ORGANIZATION",
+      "name": "Ewellix",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Ewellix is part of Schaeffler",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9e64fd03-d82d-5ace-8ae3-e7174f30d6e7",
+        "slug": "schaeffler",
+        "entity_type": "ORGANIZATION",
+        "name": "Schaeffler",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Effective transaction date",
+    "status": "APPROVED",
+    "valid_from": "2023-01-03",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0c588681-acb1-55cd-a255-c776f5191e94",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Ewellix is part of Schaeffler.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "73b2482e-0767-580f-9853-bc216b5cdede",
+        "url": "https://www.mynewsdesk.com/ewellix/news/schaeffler-has-completed-the-acquisition-of-ewellix-459839",
+        "canonical_url": null,
+        "publisher": "Schaeffler",
+        "title": "Schaeffler — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -28,7 +28,22 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "ab0fd4f5-73cc-54b6-b885-a5a709673cf6",
+        "slug": "swisslog",
+        "entity_type": "ORGANIZATION",
+        "name": "Swisslog",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "d5e2bd88-cf69-5145-94ae-2c00b56ed0de"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -238,6 +253,34 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "d5e2bd88-cf69-5145-94ae-2c00b56ed0de",
+          "source": {
+            "id": "ab0fd4f5-73cc-54b6-b885-a5a709673cf6",
+            "slug": "swisslog",
+            "entity_type": "ORGANIZATION",
+            "name": "Swisslog",
+            "primary_embodiment": null,
+            "roles": [
+              "INTEGRATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "lateral_links": {
@@ -249,6 +292,18 @@
         "name": "Robotic palletizing cell",
         "primary_embodiment": null,
         "roles": []
+      }
+    ],
+    "company": [
+      {
+        "id": "ab0fd4f5-73cc-54b6-b885-a5a709673cf6",
+        "slug": "swisslog",
+        "entity_type": "ORGANIZATION",
+        "name": "Swisslog",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR"
+        ]
       }
     ],
     "markets": [
@@ -295,7 +350,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 7,
     "deployment_count": 0,
-    "related_count": 7
+    "related_count": 8
   },
   "as_of": null
 }

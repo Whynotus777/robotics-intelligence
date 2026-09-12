@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "3a3973e3-32cd-5071-90b8-d39d13ea08db",
+    "subject": {
+      "id": "7414d2aa-fd38-51c6-8361-ecda027e47f5",
+      "slug": "eth-zurich-robotic-systems-lab",
+      "entity_type": "ORGANIZATION",
+      "name": "ETH Zurich Robotic Systems Lab",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "ETH Zurich Robotic Systems Lab is part of ETH Zurich",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "11ea8011-8436-55a2-8b37-e019c3284fbb",
+        "slug": "eth-zurich",
+        "entity_type": "ORGANIZATION",
+        "name": "ETH Zurich",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "66a31146-0f33-5b03-bb4a-b6573be47d9f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "ETH Zurich Robotic Systems Lab is part of ETH Zurich.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ea38ba7c-b8f4-589f-b93f-1683640e4a2e",
+        "url": "https://rsl.ethz.ch/the-lab.html",
+        "canonical_url": null,
+        "publisher": "ETH Zurich Robotic Systems Lab",
+        "title": "ETH Zurich Robotic Systems Lab — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -36,7 +36,23 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "427af318-31b9-5b16-86ea-d97fb6b45826",
+        "slug": "tencent-robotics-x",
+        "entity_type": "ORGANIZATION",
+        "name": "Tencent Robotics X",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "18e0b37e-a0c2-5379-b66c-3be4be3faccb"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -174,8 +190,51 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "18e0b37e-a0c2-5379-b66c-3be4be3faccb",
+          "source": {
+            "id": "427af318-31b9-5b16-86ea-d97fb6b45826",
+            "slug": "tencent-robotics-x",
+            "entity_type": "ORGANIZATION",
+            "name": "Tencent Robotics X",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "427af318-31b9-5b16-86ea-d97fb6b45826",
+        "slug": "tencent-robotics-x",
+        "entity_type": "ORGANIZATION",
+        "name": "Tencent Robotics X",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "5386047b-9431-5521-8e28-d5f238524771",
@@ -202,7 +261,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

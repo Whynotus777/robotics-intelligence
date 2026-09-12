@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "aa89b683-1e97-5361-a94b-6c28039a31f9",
+    "subject": {
+      "id": "e819d254-2780-5de4-84d0-545f676e957b",
+      "slug": "ant-group",
+      "entity_type": "ORGANIZATION",
+      "name": "Ant Group",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Ant Group role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3cf09595-660f-5cc8-aeb1-41218e79f904",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Ant Group is the parent organization of Shanghai Ant Lingbo Technology (Robbyant).",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "efc570e4-8a73-55ec-9cf2-3bd5e904a8b3",
+        "url": "https://www.robbyant.com/",
+        "canonical_url": null,
+        "publisher": "Shanghai Ant Lingbo Technology (Robbyant)",
+        "title": "Shanghai Ant Lingbo Technology (Robbyant) — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Ant Group is the parent organization of Shanghai Ant Lingbo Technology (Robbyant). The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

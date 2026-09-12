@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "ad4543b5-7f3e-5b8d-8300-f4365ab7055f",
+      "slug": "carnegie-mellon-university",
+      "entity_type": "ORGANIZATION",
+      "name": "Carnegie Mellon University",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "e030b8de-e9b4-5052-a9b4-a26565376bb6",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -90,25 +108,67 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "e030b8de-e9b4-5052-a9b4-a26565376bb6",
+          "target": {
+            "id": "ad4543b5-7f3e-5b8d-8300-f4365ab7055f",
+            "slug": "carnegie-mellon-university",
+            "entity_type": "ORGANIZATION",
+            "name": "Carnegie Mellon University",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "company": [
+      {
+        "id": "ad4543b5-7f3e-5b8d-8300-f4365ab7055f",
+        "slug": "carnegie-mellon-university",
+        "entity_type": "ORGANIZATION",
+        "name": "Carnegie Mellon University",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 3,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

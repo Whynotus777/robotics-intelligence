@@ -22,4 +22,24 @@ claims:
     confidence: HIGH
     excerpt: Develops software to make industrial robot applications easier to build and deploy.
     observed_at: '2026-09-11'
+- predicate: PART_OF
+  object: alphabet
+  valid_from: '2026-09-11'
+  qualifier: Group affiliation; observed 2026-09-11, not a claim about the direct legal parent
+  evidence:
+  - source: enrich-ccf0f8c1fce0e9bb
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Intrinsic belongs to the Alphabet group.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2021-01-01'
+  valid_from: '2021-01-01'
+  evidence:
+  - source: enrich-ccf0f8c1fce0e9bb
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Intrinsic was established in 2021 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: US

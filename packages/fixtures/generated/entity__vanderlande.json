@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "6b49b476-5be0-57fc-8999-edbccde4b49b",
+      "slug": "toyota-industries",
+      "entity_type": "ORGANIZATION",
+      "name": "Toyota Industries",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "f04dc6bf-5bfc-5801-9b5c-373b172eff7a",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -116,10 +134,50 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "f04dc6bf-5bfc-5801-9b5c-373b172eff7a",
+          "target": {
+            "id": "6b49b476-5be0-57fc-8999-edbccde4b49b",
+            "slug": "toyota-industries",
+            "entity_type": "ORGANIZATION",
+            "name": "Toyota Industries",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "6b49b476-5be0-57fc-8999-edbccde4b49b",
+        "slug": "toyota-industries",
+        "entity_type": "ORGANIZATION",
+        "name": "Toyota Industries",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "4d98aae5-4456-5f2f-8050-66d75c9fe99f",
@@ -134,19 +192,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 3,
         "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

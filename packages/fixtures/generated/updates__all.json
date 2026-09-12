@@ -395,6 +395,46 @@
       "origin": "SEED"
     },
     {
+      "id": "078a9bb2-1499-56ab-a9f1-1e45d4035129",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "933b544e-fc35-52b1-a73d-4b9db190d8b8",
+        "slug": "nventures",
+        "entity_type": "ORGANIZATION",
+        "name": "NVentures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+          "slug": "nvidia",
+          "entity_type": "ORGANIZATION",
+          "name": "NVIDIA",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "INVESTOR",
+            "MODEL_DEVELOPER",
+            "PLATFORM"
+          ]
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Part of NVIDIA",
+      "origin": "SEED"
+    },
+    {
       "id": "078cae17-daa1-5559-8635-f321114601df",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -509,6 +549,43 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Chipmaker",
+      "origin": "SEED"
+    },
+    {
+      "id": "097381c3-8cfa-5586-b7b4-f26e81fb62bb",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "3e60dbd4-e8f7-5665-ba1c-0bd8b8e1b76a",
+        "slug": "eth-zurich-autonomous-systems-lab",
+        "entity_type": "ORGANIZATION",
+        "name": "ETH Zurich Autonomous Systems Lab",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "14f64657-e634-589e-afdb-f9d0d0b9cd22",
+          "slug": "institute-of-robotics-and-intelligent-systems-iris",
+          "entity_type": "ORGANIZATION",
+          "name": "Institute of Robotics and Intelligent Systems (IRIS)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Part of Institute of Robotics and Intelligent Systems (IRIS)",
       "origin": "SEED"
     },
     {
@@ -715,6 +792,33 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Headquartered at San Francisco",
+      "origin": "SEED"
+    },
+    {
+      "id": "0f166382-d237-5cd9-809b-78b75566a9c4",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "e819d254-2780-5de4-84d0-545f676e957b",
+        "slug": "ant-group",
+        "entity_type": "ORGANIZATION",
+        "name": "Ant Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "PLATFORM"
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Platform",
       "origin": "SEED"
     },
     {
@@ -979,6 +1083,43 @@
       "origin": "SEED"
     },
     {
+      "id": "13fc9c08-3844-567b-82d4-0f6284ecc812",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "36ba3dc3-39b5-5cb8-b667-edd290545d11",
+        "slug": "kawasaki-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Kawasaki Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
+          "slug": "kawasaki-heavy-industries",
+          "entity_type": "ORGANIZATION",
+          "name": "Kawasaki Heavy Industries",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Part of Kawasaki Heavy Industries",
+      "origin": "SEED"
+    },
+    {
       "id": "1533e24b-4dcf-5bee-a6db-d45e93d46c45",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1151,6 +1292,42 @@
       "origin": "SEED"
     },
     {
+      "id": "17e71e67-e90d-5092-8df1-ff9c7e4acd38",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+        "slug": "softbank-robotics-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Robotics Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+          "slug": "tokyo",
+          "entity_type": "PLACE",
+          "name": "Tokyo",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Tokyo",
+      "origin": "SEED"
+    },
+    {
       "id": "181908a0-ae9f-59a8-a6de-e8f639531f2f",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1318,143 +1495,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Headquartered at Odense",
-      "origin": "SEED"
-    },
-    {
-      "id": "1a28aa21-661a-555e-b215-99bdbe4553fa",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "3020631a-29c5-53d3-b5c6-72ad95a1ec79",
-        "slug": "naver-labs",
-        "entity_type": "ORGANIZATION",
-        "name": "Naver Labs",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "RESEARCH_LAB"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "RESEARCH_LAB"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Research lab",
-      "origin": "SEED"
-    },
-    {
-      "id": "1a756db9-2989-5629-aef6-ac44bb1f078f",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "67892fe3-9853-522f-8b6d-e47d61c35c9c",
-        "slug": "ulc-technologies",
-        "entity_type": "ORGANIZATION",
-        "name": "ULC Technologies",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM",
-          "OPERATOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "1aa896b7-32d2-5063-b2e3-dc4cddd2cac2",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "741f1002-cc4c-5800-83b9-23a2acedbdd3",
-        "slug": "omron-robotics-and-safety-technologies",
-        "entity_type": "ORGANIZATION",
-        "name": "OMRON Robotics and Safety Technologies",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "1b8bac6c-07e2-57ab-9cfc-88f3058d072a",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "3b6de032-bad4-5515-b22b-a31cc374bbbb",
-        "slug": "plus-one-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "Plus One Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "1bacea3f-5d83-591f-a700-8da96c62e45a",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "593e0170-e678-51f0-8d2f-14e0b1d5e7e2",
-        "slug": "limx-dynamics",
-        "entity_type": "ORGANIZATION",
-        "name": "LimX Dynamics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
       "origin": "SEED"
     }
   ]

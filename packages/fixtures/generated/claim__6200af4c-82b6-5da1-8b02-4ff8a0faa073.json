@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "6200af4c-82b6-5da1-8b02-4ff8a0faa073",
+    "subject": {
+      "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+      "slug": "universal-robots",
+      "entity_type": "ORGANIZATION",
+      "name": "Universal Robots",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Universal Robots is part of Teradyne",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
+        "slug": "teradyne",
+        "entity_type": "ORGANIZATION",
+        "name": "Teradyne",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "95ae0921-0b7b-527c-8ebb-e88f7d035a1e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Universal Robots is part of Teradyne.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ed2cab80-ddd9-50a2-98e1-79f08302c221",
+        "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-and-mobile-industrial-robots-to-debut-new-and-ai-powered-automation-solutions-across-integrated-industry-workflows-at-automate-2025/",
+        "canonical_url": null,
+        "publisher": "Teradyne",
+        "title": "Teradyne — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

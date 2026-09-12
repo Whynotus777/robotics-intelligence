@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "1711f9d7-3eb5-571c-b640-12e44c7bc90d",
+    "subject": {
+      "id": "07270345-45f8-5ce0-be12-64fa92e3b5bb",
+      "slug": "torc-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Torc Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Torc Robotics is part of Daimler Truck",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "71978e80-1550-5f8b-9777-8c6e0b3f7163",
+        "slug": "daimler-truck",
+        "entity_type": "ORGANIZATION",
+        "name": "Daimler Truck",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0e87ecfc-bcb1-5797-af80-c6796a3c1724",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Torc Robotics is part of Daimler Truck.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "07d24602-058d-5593-98b3-25b6e2105ff0",
+        "url": "https://torc.ai/",
+        "canonical_url": null,
+        "publisher": "Torc Robotics",
+        "title": "Torc Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

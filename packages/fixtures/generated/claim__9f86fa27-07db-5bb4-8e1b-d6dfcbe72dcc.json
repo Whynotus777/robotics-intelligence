@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "9f86fa27-07db-5bb4-8e1b-d6dfcbe72dcc",
+    "subject": {
+      "id": "83dd2c2f-5b2f-58ec-a863-1a81488d3564",
+      "slug": "gates-frontier",
+      "entity_type": "ORGANIZATION",
+      "name": "Gates Frontier",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Gates Frontier role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5819c293-7f8e-5aef-a5dc-89d34a48c6c1",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Invests in robotics companies including FieldAI.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "88280926-60e7-56d1-95d2-52efe3c95671",
+        "url": "https://www.fieldai.com/news/fieldai-announces-over-400m-in-funds-raised-to-advance-embodied-ai-at-scale",
+        "canonical_url": null,
+        "publisher": "FieldAI",
+        "title": "FieldAI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

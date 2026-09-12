@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "edf4373e-4901-56bb-b1a0-9128fffdfd1a",
+    "subject": {
+      "id": "c27c543d-78ef-5fc6-a90c-67f33a6fb1d5",
+      "slug": "geodis",
+      "entity_type": "ORGANIZATION",
+      "name": "Geodis",
+      "primary_embodiment": null,
+      "roles": [
+        "OPERATOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Geodis is part of SNCF",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f663abb8-2652-5a87-9d69-786262bd7bf7",
+        "slug": "sncf",
+        "entity_type": "ORGANIZATION",
+        "name": "SNCF",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "87541009-ae88-5589-a3c3-80dac666a984",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Geodis is part of SNCF.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "2cc100c9-06d0-5019-af10-27a1bc39b038",
+        "url": "https://geodis.com/us-en/history",
+        "canonical_url": null,
+        "publisher": "SNCF",
+        "title": "SNCF — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -28,7 +28,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
+      "slug": "teradyne",
+      "entity_type": "ORGANIZATION",
+      "name": "Teradyne",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "since": "2018-04-25",
+    "claim_id": "6046f211-9b40-5695-8577-30e23d7dd771",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -95,6 +113,34 @@
   ],
   "relationships": [
     {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "6046f211-9b40-5695-8577-30e23d7dd771",
+          "target": {
+            "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
+            "slug": "teradyne",
+            "entity_type": "ORGANIZATION",
+            "name": "Teradyne",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Effective transaction date",
+          "valid_from": "2018-04-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HQ_AT",
       "label": "is headquartered at",
       "items": [
@@ -123,6 +169,18 @@
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
+        "slug": "teradyne",
+        "entity_type": "ORGANIZATION",
+        "name": "Teradyne",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "fc5f8943-817d-5aef-ba62-a8f05810eb74",
@@ -137,19 +195,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 3,
+        "PRIMARY": 4,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

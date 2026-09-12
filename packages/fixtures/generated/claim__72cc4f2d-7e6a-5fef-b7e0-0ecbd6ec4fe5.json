@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "72cc4f2d-7e6a-5fef-b7e0-0ecbd6ec4fe5",
+    "subject": {
+      "id": "f663abb8-2652-5a87-9d69-786262bd7bf7",
+      "slug": "sncf",
+      "entity_type": "ORGANIZATION",
+      "name": "SNCF",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "SNCF role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c51f79c6-d3c5-59f4-9607-169da4dbec87",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "SNCF is the parent organization of Geodis.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "2cc100c9-06d0-5019-af10-27a1bc39b038",
+        "url": "https://geodis.com/us-en/history",
+        "canonical_url": null,
+        "publisher": "SNCF",
+        "title": "SNCF — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "SNCF is the parent organization of Geodis. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,191 @@
+{
+  "entity": {
+    "id": "11ea8011-8436-55a2-8b37-e019c3284fbb",
+    "slug": "eth-zurich",
+    "entity_type": "ORGANIZATION",
+    "name": "ETH Zurich",
+    "short_description": "ETH Zurich is the parent organization of ETH Zurich Robotic Systems Lab.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "RESEARCH_LAB",
+      "declared": true,
+      "claim_id": "9863ab1f-ca56-58c4-84c8-577720196161",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "7414d2aa-fd38-51c6-8361-ecda027e47f5",
+        "slug": "eth-zurich-robotic-systems-lab",
+        "entity_type": "ORGANIZATION",
+        "name": "ETH Zurich Robotic Systems Lab",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "3a3973e3-32cd-5071-90b8-d39d13ea08db"
+    },
+    {
+      "organization": {
+        "id": "14f64657-e634-589e-afdb-f9d0d0b9cd22",
+        "slug": "institute-of-robotics-and-intelligent-systems-iris",
+        "entity_type": "ORGANIZATION",
+        "name": "Institute of Robotics and Intelligent Systems (IRIS)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "d22aff77-d514-506b-b5ee-b4ed5454326b"
+    }
+  ],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "9863ab1f-ca56-58c4-84c8-577720196161",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "RESEARCH_LAB"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "3a3973e3-32cd-5071-90b8-d39d13ea08db",
+          "source": {
+            "id": "7414d2aa-fd38-51c6-8361-ecda027e47f5",
+            "slug": "eth-zurich-robotic-systems-lab",
+            "entity_type": "ORGANIZATION",
+            "name": "ETH Zurich Robotic Systems Lab",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d22aff77-d514-506b-b5ee-b4ed5454326b",
+          "source": {
+            "id": "14f64657-e634-589e-afdb-f9d0d0b9cd22",
+            "slug": "institute-of-robotics-and-intelligent-systems-iris",
+            "entity_type": "ORGANIZATION",
+            "name": "Institute of Robotics and Intelligent Systems (IRIS)",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "7414d2aa-fd38-51c6-8361-ecda027e47f5",
+        "slug": "eth-zurich-robotic-systems-lab",
+        "entity_type": "ORGANIZATION",
+        "name": "ETH Zurich Robotic Systems Lab",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      {
+        "id": "14f64657-e634-589e-afdb-f9d0d0b9cd22",
+        "slug": "institute-of-robotics-and-intelligent-systems-iris",
+        "entity_type": "ORGANIZATION",
+        "name": "Institute of Robotics and Intelligent Systems (IRIS)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 1,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 1,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 1,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

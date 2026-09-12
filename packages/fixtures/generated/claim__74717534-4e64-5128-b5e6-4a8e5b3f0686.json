@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "74717534-4e64-5128-b5e6-4a8e5b3f0686",
+    "subject": {
+      "id": "336a6bcc-8caa-5232-aa46-beba262eae72",
+      "slug": "toyota-automated-logistics",
+      "entity_type": "ORGANIZATION",
+      "name": "Toyota Automated Logistics",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Toyota Automated Logistics is part of Toyota Industries",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "6b49b476-5be0-57fc-8999-edbccde4b49b",
+        "slug": "toyota-industries",
+        "entity_type": "ORGANIZATION",
+        "name": "Toyota Industries",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c4091522-1a22-5ec4-a2aa-e9d00e639e11",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Toyota Automated Logistics is part of Toyota Industries.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "222bf08a-c9e1-54b6-8910-a518b4ddeb0a",
+        "url": "https://www.bastiansolutions.com/",
+        "canonical_url": null,
+        "publisher": "Toyota Automated Logistics",
+        "title": "Toyota Automated Logistics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

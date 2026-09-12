@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "d5e2bd88-cf69-5145-94ae-2c00b56ed0de",
+    "subject": {
+      "id": "ab0fd4f5-73cc-54b6-b885-a5a709673cf6",
+      "slug": "swisslog",
+      "entity_type": "ORGANIZATION",
+      "name": "Swisslog",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Swisslog is part of KUKA",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+        "slug": "kuka",
+        "entity_type": "ORGANIZATION",
+        "name": "KUKA",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "25837372-3b63-507d-ad90-4495c4cb0f86",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Swisslog is part of KUKA.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8788b1d2-6fb2-5ecd-ba7b-9586ddce5357",
+        "url": "https://www.swisslog.com/en-us/about-swisslog/facts-and-figures",
+        "canonical_url": null,
+        "publisher": "Swisslog",
+        "title": "Swisslog — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

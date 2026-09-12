@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "db06229b-a460-5cea-a8bc-91e704953354",
+    "subject": {
+      "id": "02826241-cc30-5cbb-b012-2c416654677e",
+      "slug": "copley-controls",
+      "entity_type": "ORGANIZATION",
+      "name": "Copley Controls",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Copley Controls is part of Analogic",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "07925b4e-2c43-5d5e-a140-7e0407886222",
+        "slug": "analogic",
+        "entity_type": "ORGANIZATION",
+        "name": "Analogic",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6ecd8b6a-e744-58ec-b844-b06fc9448ddf",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Copley Controls is part of Analogic.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "04925998-9a0b-52dd-8573-9e397e33143a",
+        "url": "https://copleycontrols.com/about-us",
+        "canonical_url": null,
+        "publisher": "Analogic",
+        "title": "Analogic — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "72b35936-0d27-593e-87dc-eed7bd2a05d3",
+    "subject": {
+      "id": "ec4fbb1a-4bc7-549e-aa59-3a8d96920152",
+      "slug": "ati-industrial-automation",
+      "entity_type": "ORGANIZATION",
+      "name": "ATI Industrial Automation",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "ATI Industrial Automation is headquartered at Apex",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ddc416d5-e1f4-540c-bc7a-7c6f840ed730",
+        "slug": "apex-us",
+        "entity_type": "PLACE",
+        "name": "Apex",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3e1e5d42-e24d-5f40-8ef8-a039d2cc15ad",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "ATI Industrial Automation is headquartered in Apex.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "157a3883-e8f7-5002-be45-c1e0298974b5",
+        "url": "https://www.ati-ia.com/Company/NewsArticle2.aspx?id=1424430123",
+        "canonical_url": null,
+        "publisher": "Novanta",
+        "title": "Novanta — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

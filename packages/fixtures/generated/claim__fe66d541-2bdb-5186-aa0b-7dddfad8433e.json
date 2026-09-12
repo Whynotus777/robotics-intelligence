@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "fe66d541-2bdb-5186-aa0b-7dddfad8433e",
+    "subject": {
+      "id": "e17775d3-d66a-5e5a-bb47-48a613937011",
+      "slug": "tu-delft-robotics-institute",
+      "entity_type": "ORGANIZATION",
+      "name": "TU Delft Robotics Institute",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "TU Delft Robotics Institute is part of Delft University of Technology",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "a54761df-d5d6-5d9a-98e9-9d419f0e5393",
+        "slug": "delft-university-of-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Delft University of Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6458552f-d01d-5433-b60e-455d4b10e498",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "TU Delft Robotics Institute is part of Delft University of Technology.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "11008cde-ecb5-5e36-8501-8d0bc94abe85",
+        "url": "https://www.tudelft.nl/en/robotics-institute",
+        "canonical_url": null,
+        "publisher": "TU Delft Robotics Institute",
+        "title": "TU Delft Robotics Institute — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "2ddb2662-fbd2-5541-835c-458ce2feeb7d",
+    "subject": {
+      "id": "3e60dbd4-e8f7-5665-ba1c-0bd8b8e1b76a",
+      "slug": "eth-zurich-autonomous-systems-lab",
+      "entity_type": "ORGANIZATION",
+      "name": "ETH Zurich Autonomous Systems Lab",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "ETH Zurich Autonomous Systems Lab is part of Institute of Robotics and Intelligent Systems (IRIS)",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "14f64657-e634-589e-afdb-f9d0d0b9cd22",
+        "slug": "institute-of-robotics-and-intelligent-systems-iris",
+        "entity_type": "ORGANIZATION",
+        "name": "Institute of Robotics and Intelligent Systems (IRIS)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4bf383d9-c704-58eb-ba87-b0d879c42b67",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "ETH Zurich Autonomous Systems Lab is part of Institute of Robotics and Intelligent Systems (IRIS).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a88490cd-628c-5e4d-96c0-5253398d50c7",
+        "url": "https://www.iris.ethz.ch/the-institute.html",
+        "canonical_url": null,
+        "publisher": "ETH Zurich Autonomous Systems Lab",
+        "title": "ETH Zurich Autonomous Systems Lab — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

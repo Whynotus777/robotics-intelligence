@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "4e621a3e-0884-5ae0-9309-b8539a56e7f7",
+    "subject": {
+      "id": "1e7c1ef0-56e4-5fd8-97d2-cef733773a61",
+      "slug": "milrem-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Milrem Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Milrem Robotics is part of EDGE Group",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "2c014d5a-b3ec-5ecb-9971-a6a6fbe30678",
+        "slug": "edge-group",
+        "entity_type": "ORGANIZATION",
+        "name": "EDGE Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Effective transaction date",
+    "status": "APPROVED",
+    "valid_from": "2023-02-15",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6c9f32d8-534f-5d40-9a09-12941107f873",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Milrem Robotics is part of EDGE Group.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "137f78d4-a340-595e-a0de-09c4f3318834",
+        "url": "https://edgegroup.ae/news/edge-acquires-majority-stake-milrem-robotics-europes-leading-developer-robotics-and-autonomous",
+        "canonical_url": null,
+        "publisher": "EDGE Group",
+        "title": "EDGE Group — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

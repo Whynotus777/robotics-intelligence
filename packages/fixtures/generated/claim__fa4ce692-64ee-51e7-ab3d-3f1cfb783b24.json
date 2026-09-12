@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "fa4ce692-64ee-51e7-ab3d-3f1cfb783b24",
+    "subject": {
+      "id": "0fd9e03c-f1bf-5be4-bb84-9347514c0106",
+      "slug": "denso-wave",
+      "entity_type": "ORGANIZATION",
+      "name": "Denso Wave",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Denso Wave is part of Denso",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "e2dc3d1a-62cf-51f2-929c-212312152e45",
+        "slug": "denso",
+        "entity_type": "ORGANIZATION",
+        "name": "Denso",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d484d17c-63f4-57b5-bb5a-b472df152b79",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Denso Wave is part of Denso.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "55093832-f6c0-503e-a156-2c22fca58648",
+        "url": "https://www.denso-wave.com/en/about/csr/management/index.html",
+        "canonical_url": null,
+        "publisher": "Denso",
+        "title": "Denso — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

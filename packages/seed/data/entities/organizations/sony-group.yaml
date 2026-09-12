@@ -1,0 +1,21 @@
+slug: sony-group
+entity_type: ORGANIZATION
+name: Sony Group
+short_description: Sony Group is the parent organization of Sony AI.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-ef2e8f312096777a
+    excerpt: Sony Group is the parent organization of Sony AI.
+    assessment:
+      rationale: Sony Group is the parent organization of Sony AI. The platform role describes involvement across
+        robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.

@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "2bc7a0b1-e674-57f8-a982-47a3b6f1d52d",
+    "subject": {
+      "id": "02713306-1ec3-54f7-a0f8-a6618ddcaed0",
+      "slug": "dematic",
+      "entity_type": "ORGANIZATION",
+      "name": "Dematic",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Dematic is part of KION Group",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "979bdd41-064b-55bc-8ce6-eeb4b316ee7a",
+        "slug": "kion-group",
+        "entity_type": "ORGANIZATION",
+        "name": "KION Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c104ba63-96f0-5468-8eb0-fb3a22c7de4e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Dematic is part of KION Group.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "97a3d6ab-f7fb-5090-a642-3733dda8b15b",
+        "url": "https://www.dematic.com/en-us/about/",
+        "canonical_url": null,
+        "publisher": "Dematic",
+        "title": "Dematic — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

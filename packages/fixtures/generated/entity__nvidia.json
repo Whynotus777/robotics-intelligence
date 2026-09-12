@@ -56,7 +56,22 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "933b544e-fc35-52b1-a73d-4b9db190d8b8",
+        "slug": "nventures",
+        "entity_type": "ORGANIZATION",
+        "name": "NVentures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "1e52e380-41cf-5960-af53-3a1891786d12"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -415,6 +430,34 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "1e52e380-41cf-5960-af53-3a1891786d12",
+          "source": {
+            "id": "933b544e-fc35-52b1-a73d-4b9db190d8b8",
+            "slug": "nventures",
+            "entity_type": "ORGANIZATION",
+            "name": "NVentures",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "lateral_links": {
@@ -428,6 +471,16 @@
         "roles": [
           "MODEL_DEVELOPER",
           "OEM"
+        ]
+      },
+      {
+        "id": "933b544e-fc35-52b1-a73d-4b9db190d8b8",
+        "slug": "nventures",
+        "entity_type": "ORGANIZATION",
+        "name": "NVentures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
         ]
       }
     ],
@@ -457,7 +510,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 11,
     "deployment_count": 0,
-    "related_count": 6
+    "related_count": 7
   },
   "as_of": null
 }

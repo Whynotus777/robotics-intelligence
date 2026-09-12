@@ -26,7 +26,36 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "e86104c7-cb0c-5c70-bb8a-22142fb35367",
+        "slug": "mitsubishi-electric-factory-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric Factory Automation",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "3ad42247-e28d-5a76-9123-9dc959f780cc"
+    },
+    {
+      "organization": {
+        "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+        "slug": "mitsubishi-electric-research-laboratories-merl",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric Research Laboratories (MERL)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "e28d08a1-5a08-5593-a8d8-3e5de0e22e48"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -144,8 +173,81 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "3ad42247-e28d-5a76-9123-9dc959f780cc",
+          "source": {
+            "id": "e86104c7-cb0c-5c70-bb8a-22142fb35367",
+            "slug": "mitsubishi-electric-factory-automation",
+            "entity_type": "ORGANIZATION",
+            "name": "Mitsubishi Electric Factory Automation",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "e28d08a1-5a08-5593-a8d8-3e5de0e22e48",
+          "source": {
+            "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+            "slug": "mitsubishi-electric-research-laboratories-merl",
+            "entity_type": "ORGANIZATION",
+            "name": "Mitsubishi Electric Research Laboratories (MERL)",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Group affiliation; observed 2026-09-11, not a claim about the direct legal parent",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "e86104c7-cb0c-5c70-bb8a-22142fb35367",
+        "slug": "mitsubishi-electric-factory-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric Factory Automation",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      {
+        "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+        "slug": "mitsubishi-electric-research-laboratories-merl",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric Research Laboratories (MERL)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
@@ -172,7 +274,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 3
   },
   "as_of": null
 }

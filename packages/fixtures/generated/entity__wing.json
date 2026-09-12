@@ -35,7 +35,27 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+      "slug": "alphabet",
+      "entity_type": "ORGANIZATION",
+      "name": "Alphabet",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "a5e3dea7-d8bc-5027-aae6-e981b1a96ab1",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -94,25 +114,71 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "a5e3dea7-d8bc-5027-aae6-e981b1a96ab1",
+          "target": {
+            "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+            "slug": "alphabet",
+            "entity_type": "ORGANIZATION",
+            "name": "Alphabet",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "PLATFORM",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "company": [
+      {
+        "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+        "slug": "alphabet",
+        "entity_type": "ORGANIZATION",
+        "name": "Alphabet",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 3,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

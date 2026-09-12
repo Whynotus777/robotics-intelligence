@@ -26,7 +26,22 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "ec4fbb1a-4bc7-549e-aa59-3a8d96920152",
+        "slug": "ati-industrial-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "ATI Industrial Automation",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "since": "2021-08-31",
+      "claim_id": "e280b430-5919-595c-b88d-25dd187512b2"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -65,8 +80,50 @@
     }
   ],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "e280b430-5919-595c-b88d-25dd187512b2",
+          "source": {
+            "id": "ec4fbb1a-4bc7-549e-aa59-3a8d96920152",
+            "slug": "ati-industrial-automation",
+            "entity_type": "ORGANIZATION",
+            "name": "ATI Industrial Automation",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Effective transaction date",
+          "valid_from": "2021-08-31",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "ec4fbb1a-4bc7-549e-aa59-3a8d96920152",
+        "slug": "ati-industrial-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "ATI Industrial Automation",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -82,7 +139,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 1,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

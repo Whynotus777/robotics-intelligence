@@ -9,7 +9,7 @@
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 37
+      "count": 38
     },
     {
       "id": "MANUFACTURED",
@@ -29,12 +29,12 @@
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 18
+      "count": 19
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 9
+      "count": 10
     }
   ],
   "marks": [
@@ -244,6 +244,35 @@
     },
     {
       "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.68,
+      "lng": 139.69,
+      "country_code": "JP",
+      "cluster_label": "Tokyo",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+          "slug": "softbank-robotics-group",
+          "entity_type": "ORGANIZATION",
+          "name": "SoftBank Robotics Group",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "fe8488ed-8f7c-51e0-94fe-dfa30e931949",
         "slug": "toyota-city",
         "entity_type": "PLACE",
@@ -280,16 +309,16 @@
       "places": 4
     },
     {
-      "id": "KR",
-      "label": "KR",
+      "id": "JP",
+      "label": "JP",
       "weight": 2,
       "places": 2
     },
     {
-      "id": "JP",
-      "label": "JP",
-      "weight": 1,
-      "places": 1
+      "id": "KR",
+      "label": "KR",
+      "weight": 2,
+      "places": 2
     }
   ],
   "corridors": [
@@ -320,6 +349,12 @@
     {
       "id": "Seoul capital area",
       "label": "Seoul capital area",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Tokyo",
+      "label": "Tokyo",
       "weight": 1,
       "places": 1
     }
@@ -497,6 +532,27 @@
         "slug": "suwon",
         "entity_type": "PLACE",
         "name": "Suwon",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+        "slug": "softbank-robotics-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Robotics Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
         "primary_embodiment": null,
         "roles": []
       }

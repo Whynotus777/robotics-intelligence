@@ -73,6 +73,21 @@
       },
       "since": "2012-03-19",
       "claim_id": "76f0890f-b3ad-5aeb-8abd-634cd3e500ab"
+    },
+    {
+      "organization": {
+        "id": "e1a62352-441d-5638-9cb2-5e9a3a282bfd",
+        "slug": "zoox",
+        "entity_type": "ORGANIZATION",
+        "name": "Zoox",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "4ddadc4a-84ad-50c8-9b33-19869e8b8233"
     }
   ],
   "cached": {
@@ -235,6 +250,29 @@
       "label": "is part of",
       "items": [
         {
+          "claim_id": "4ddadc4a-84ad-50c8-9b33-19869e8b8233",
+          "source": {
+            "id": "e1a62352-441d-5638-9cb2-5e9a3a282bfd",
+            "slug": "zoox",
+            "entity_type": "ORGANIZATION",
+            "name": "Zoox",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "76f0890f-b3ad-5aeb-8abd-634cd3e500ab",
           "source": {
             "id": "c70b0d8a-7857-58e8-be61-559479c26ca2",
@@ -283,6 +321,17 @@
           "MODEL_DEVELOPER",
           "OEM"
         ]
+      },
+      {
+        "id": "e1a62352-441d-5638-9cb2-5e9a3a282bfd",
+        "slug": "zoox",
+        "entity_type": "ORGANIZATION",
+        "name": "Zoox",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       }
     ],
     "places": [
@@ -311,7 +360,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 6,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 4
   },
   "as_of": null
 }

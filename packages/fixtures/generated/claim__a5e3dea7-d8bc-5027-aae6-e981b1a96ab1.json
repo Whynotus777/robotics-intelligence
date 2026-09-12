@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "a5e3dea7-d8bc-5027-aae6-e981b1a96ab1",
+    "subject": {
+      "id": "fd3fa421-aff0-5f6b-bbbf-c0e511d7ac52",
+      "slug": "wing",
+      "entity_type": "ORGANIZATION",
+      "name": "Wing",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Wing is part of Alphabet",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+        "slug": "alphabet",
+        "entity_type": "ORGANIZATION",
+        "name": "Alphabet",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "937d1aed-9acf-59e2-bc31-38903c7f5787",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Wing is part of Alphabet.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "c2f87543-c88f-5513-a0f4-d288f80e8558",
+        "url": "https://wing.com/about",
+        "canonical_url": null,
+        "publisher": "Alphabet",
+        "title": "Alphabet — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

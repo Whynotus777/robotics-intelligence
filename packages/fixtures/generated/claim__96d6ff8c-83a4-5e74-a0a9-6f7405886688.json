@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "96d6ff8c-83a4-5e74-a0a9-6f7405886688",
+    "subject": {
+      "id": "36ba3dc3-39b5-5cb8-b667-edd290545d11",
+      "slug": "kawasaki-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Kawasaki Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Kawasaki Robotics is part of Kawasaki Heavy Industries",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
+        "slug": "kawasaki-heavy-industries",
+        "entity_type": "ORGANIZATION",
+        "name": "Kawasaki Heavy Industries",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "10e2c8a0-e507-590f-834a-fe5bcc264767",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Kawasaki Robotics is part of Kawasaki Heavy Industries.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "9d5c98eb-8bba-55a7-ab7b-b382f7a45a5a",
+        "url": "https://kawasakirobotics.com/company/",
+        "canonical_url": null,
+        "publisher": "Kawasaki Heavy Industries",
+        "title": "Kawasaki Heavy Industries — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

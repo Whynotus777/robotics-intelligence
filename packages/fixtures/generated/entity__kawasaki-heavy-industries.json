@@ -26,7 +26,22 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "36ba3dc3-39b5-5cb8-b667-edd290545d11",
+        "slug": "kawasaki-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Kawasaki Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "96d6ff8c-83a4-5e74-a0a9-6f7405886688"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -144,8 +159,49 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "96d6ff8c-83a4-5e74-a0a9-6f7405886688",
+          "source": {
+            "id": "36ba3dc3-39b5-5cb8-b667-edd290545d11",
+            "slug": "kawasaki-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Kawasaki Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "36ba3dc3-39b5-5cb8-b667-edd290545d11",
+        "slug": "kawasaki-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Kawasaki Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
@@ -172,7 +228,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

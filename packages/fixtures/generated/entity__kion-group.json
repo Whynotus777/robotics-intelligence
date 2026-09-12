@@ -26,7 +26,22 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "02713306-1ec3-54f7-a0f8-a6618ddcaed0",
+        "slug": "dematic",
+        "entity_type": "ORGANIZATION",
+        "name": "Dematic",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "2bc7a0b1-e674-57f8-a982-47a3b6f1d52d"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -91,8 +106,50 @@
     }
   ],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "2bc7a0b1-e674-57f8-a982-47a3b6f1d52d",
+          "source": {
+            "id": "02713306-1ec3-54f7-a0f8-a6618ddcaed0",
+            "slug": "dematic",
+            "entity_type": "ORGANIZATION",
+            "name": "Dematic",
+            "primary_embodiment": null,
+            "roles": [
+              "INTEGRATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "02713306-1ec3-54f7-a0f8-a6618ddcaed0",
+        "slug": "dematic",
+        "entity_type": "ORGANIZATION",
+        "name": "Dematic",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -108,7 +165,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 2,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "e28d08a1-5a08-5593-a8d8-3e5de0e22e48",
+    "subject": {
+      "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+      "slug": "mitsubishi-electric-research-laboratories-merl",
+      "entity_type": "ORGANIZATION",
+      "name": "Mitsubishi Electric Research Laboratories (MERL)",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Mitsubishi Electric Research Laboratories (MERL) is part of Mitsubishi Electric",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
+        "slug": "mitsubishi-electric",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Group affiliation; observed 2026-09-11, not a claim about the direct legal parent",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3d04b32e-d462-56b1-a357-a586555e937b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Mitsubishi Electric Research Laboratories (MERL) belongs to the Mitsubishi Electric group.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bab7a25c-840d-5ea6-8096-9e38cc9bd8d1",
+        "url": "https://www.merl.com/company/",
+        "canonical_url": null,
+        "publisher": "Mitsubishi Electric",
+        "title": "Mitsubishi Electric — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

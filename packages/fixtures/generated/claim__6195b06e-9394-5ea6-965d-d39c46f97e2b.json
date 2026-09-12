@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "6195b06e-9394-5ea6-965d-d39c46f97e2b",
+    "subject": {
+      "id": "434e9967-aa12-5d65-8f3c-a24c23eaa3dd",
+      "slug": "tdk-invensense",
+      "entity_type": "ORGANIZATION",
+      "name": "TDK InvenSense",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "TDK InvenSense is part of TDK",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "09d6b726-79de-5fc9-88da-512868c0ea18",
+        "slug": "tdk",
+        "entity_type": "ORGANIZATION",
+        "name": "TDK",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "71a5bad1-97d4-5108-a073-86fe95be6103",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "TDK InvenSense is part of TDK.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "309158e6-9f34-5eac-9c81-646a00da1066",
+        "url": "https://invensense.tdk.com/",
+        "canonical_url": null,
+        "publisher": "TDK InvenSense",
+        "title": "TDK InvenSense — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

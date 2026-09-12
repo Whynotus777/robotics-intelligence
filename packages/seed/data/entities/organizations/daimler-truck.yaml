@@ -1,0 +1,21 @@
+slug: daimler-truck
+entity_type: ORGANIZATION
+name: Daimler Truck
+short_description: Daimler Truck is the parent organization of Torc Robotics.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-546b563b080a48e7
+    excerpt: Daimler Truck is the parent organization of Torc Robotics.
+    assessment:
+      rationale: Daimler Truck is the parent organization of Torc Robotics. The platform role describes involvement
+        across robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.

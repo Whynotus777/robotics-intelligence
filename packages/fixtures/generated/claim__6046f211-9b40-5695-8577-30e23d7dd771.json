@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "6046f211-9b40-5695-8577-30e23d7dd771",
+    "subject": {
+      "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
+      "slug": "mobile-industrial-robots",
+      "entity_type": "ORGANIZATION",
+      "name": "Mobile Industrial Robots",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Mobile Industrial Robots is part of Teradyne",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
+        "slug": "teradyne",
+        "entity_type": "ORGANIZATION",
+        "name": "Teradyne",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Effective transaction date",
+    "status": "APPROVED",
+    "valid_from": "2018-04-25",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a6a1d5fb-55a3-5ba2-a639-bc06c02446f7",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Mobile Industrial Robots is part of Teradyne.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ce9655b1-9b81-5929-8728-58aedf7b0cb4",
+        "url": "https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-19-217772/d746270d10q.htm",
+        "canonical_url": null,
+        "publisher": "Teradyne",
+        "title": "Teradyne — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

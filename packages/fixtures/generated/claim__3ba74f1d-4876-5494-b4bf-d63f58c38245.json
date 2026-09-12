@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3ba74f1d-4876-5494-b4bf-d63f58c38245",
+    "subject": {
+      "id": "ab9d25af-6b44-59e1-a5f9-a6900c4f965d",
+      "slug": "georgia-institute-of-technology",
+      "entity_type": "ORGANIZATION",
+      "name": "Georgia Institute of Technology",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Georgia Institute of Technology role RESEARCH_LAB",
+    "value": {
+      "kind": "enum",
+      "value": "RESEARCH_LAB"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c6128421-010d-5935-bbfd-51e1c28729b9",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Georgia Institute of Technology is the parent organization of Institute for Robotics and Intelligent Machines (IRIM).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "0a59a23f-af96-5e26-a13f-73a358633a9a",
+        "url": "https://robotics.gatech.edu/contact-us",
+        "canonical_url": null,
+        "publisher": "Georgia Institute of Technology",
+        "title": "Georgia Institute of Technology — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

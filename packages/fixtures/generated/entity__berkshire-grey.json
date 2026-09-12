@@ -25,7 +25,26 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+      "slug": "softbank-group",
+      "entity_type": "ORGANIZATION",
+      "name": "SoftBank Group",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "since": "2023-07-20",
+    "claim_id": "ccc3d2cd-2536-5129-976a-a09b23db1231",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -64,25 +83,69 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "ccc3d2cd-2536-5129-976a-a09b23db1231",
+          "target": {
+            "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+            "slug": "softbank-group",
+            "entity_type": "ORGANIZATION",
+            "name": "SoftBank Group",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Effective transaction date",
+          "valid_from": "2023-07-20",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "company": [
+      {
+        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+        "slug": "softbank-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 1,
+      "claim_count": 2,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 1,
+    "recent_change_count": 2,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

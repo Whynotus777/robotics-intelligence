@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "5492c49c-c956-5f8b-bcdd-5dad6ab05d73",
+    "subject": {
+      "id": "e2dc3d1a-62cf-51f2-929c-212312152e45",
+      "slug": "denso",
+      "entity_type": "ORGANIZATION",
+      "name": "Denso",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Denso role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ba7f12a4-5192-5c81-b716-6fdf6eb4f6df",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Denso is the parent organization of Denso Wave.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "55093832-f6c0-503e-a156-2c22fca58648",
+        "url": "https://www.denso-wave.com/en/about/csr/management/index.html",
+        "canonical_url": null,
+        "publisher": "Denso",
+        "title": "Denso — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Denso is the parent organization of Denso Wave. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

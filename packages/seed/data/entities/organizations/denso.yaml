@@ -1,0 +1,21 @@
+slug: denso
+entity_type: ORGANIZATION
+name: Denso
+short_description: Denso is the parent organization of Denso Wave.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-8f0330b046a29bb3
+    excerpt: Denso is the parent organization of Denso Wave.
+    assessment:
+      rationale: Denso is the parent organization of Denso Wave. The platform role describes involvement across
+        robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.

@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "c274a3d4-bff8-54e5-a4be-728fe3dfce8d",
+    "subject": {
+      "id": "6cebf86e-4e8b-506e-ad35-d1d09169dd77",
+      "slug": "comau",
+      "entity_type": "ORGANIZATION",
+      "name": "Comau",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Comau is part of One Equity Partners",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d9c15b89-236a-523b-a97b-ee3235dc9c19",
+        "slug": "one-equity-partners",
+        "entity_type": "ORGANIZATION",
+        "name": "One Equity Partners",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Effective transaction date",
+    "status": "APPROVED",
+    "valid_from": "2024-12-30",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b02d0d3a-9244-5587-888b-3fc97fbda569",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Comau is part of One Equity Partners.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "77f30336-7090-57dc-9d82-5a18c544af0c",
+        "url": "https://www.comau.com/pt-br/2024/12/30/one-equity-partners-conclui-investimento-na-comau/",
+        "canonical_url": null,
+        "publisher": "One Equity Partners",
+        "title": "One Equity Partners — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

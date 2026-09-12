@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "16e82d16-b7ef-5254-a459-8f9061e3adb4",
+    "subject": {
+      "id": "4e38d628-7b7a-57fd-82bc-63f5fdd4f59a",
+      "slug": "sony-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Sony AI",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Sony AI is part of Sony Group",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "fe7b240e-f21e-5290-ba23-199f6ea0bddd",
+        "slug": "sony-group",
+        "entity_type": "ORGANIZATION",
+        "name": "Sony Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Group affiliation; observed 2026-09-11, not a claim about the direct legal parent",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "97894b72-6d18-51a2-a3cb-50188710f54c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Sony AI belongs to the Sony Group group.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "eef48973-3fdb-5a8f-8b09-d42a0527a575",
+        "url": "https://www.sony.com/en/SonyInfo/technology/stories/entries/Sony_AI/",
+        "canonical_url": null,
+        "publisher": "Sony Group",
+        "title": "Sony Group — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

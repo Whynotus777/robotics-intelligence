@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "49d8627c-0e26-579c-9421-6cb1c6d580db",
+    "subject": {
+      "id": "07b01ca5-0941-50ba-8944-1fb12edef35b",
+      "slug": "institute-for-robotics-and-intelligent-machines-irim",
+      "entity_type": "ORGANIZATION",
+      "name": "Institute for Robotics and Intelligent Machines (IRIM)",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Institute for Robotics and Intelligent Machines (IRIM) is part of Georgia Institute of Technology",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ab9d25af-6b44-59e1-a5f9-a6900c4f965d",
+        "slug": "georgia-institute-of-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Georgia Institute of Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ed0befa2-ceca-5753-87b3-15b784c5a275",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Institute for Robotics and Intelligent Machines (IRIM) is part of Georgia Institute of Technology.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "0a59a23f-af96-5e26-a13f-73a358633a9a",
+        "url": "https://robotics.gatech.edu/contact-us",
+        "canonical_url": null,
+        "publisher": "Georgia Institute of Technology",
+        "title": "Georgia Institute of Technology — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,21 @@
+slug: ant-group
+entity_type: ORGANIZATION
+name: Ant Group
+short_description: Ant Group is the parent organization of Shanghai Ant Lingbo Technology (Robbyant).
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-7c0397d2f1a95bae
+    excerpt: Ant Group is the parent organization of Shanghai Ant Lingbo Technology (Robbyant).
+    assessment:
+      rationale: Ant Group is the parent organization of Shanghai Ant Lingbo Technology (Robbyant). The platform
+        role describes involvement across robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.

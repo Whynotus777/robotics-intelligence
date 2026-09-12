@@ -35,7 +35,26 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "08abf8ef-13f8-595d-87fc-d2aeb7ff1467",
+      "slug": "toyota",
+      "entity_type": "ORGANIZATION",
+      "name": "Toyota Motor Corporation",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "2f2f62c9-a70b-597e-944f-dd0b2a79c781",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -120,10 +139,52 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "2f2f62c9-a70b-597e-944f-dd0b2a79c781",
+          "target": {
+            "id": "08abf8ef-13f8-595d-87fc-d2aeb7ff1467",
+            "slug": "toyota",
+            "entity_type": "ORGANIZATION",
+            "name": "Toyota Motor Corporation",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "08abf8ef-13f8-595d-87fc-d2aeb7ff1467",
+        "slug": "toyota",
+        "entity_type": "ORGANIZATION",
+        "name": "Toyota Motor Corporation",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
@@ -138,19 +199,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 3,
+        "PRIMARY": 4,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

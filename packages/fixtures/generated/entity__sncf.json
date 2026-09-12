@@ -1,0 +1,145 @@
+{
+  "entity": {
+    "id": "f663abb8-2652-5a87-9d69-786262bd7bf7",
+    "slug": "sncf",
+    "entity_type": "ORGANIZATION",
+    "name": "SNCF",
+    "short_description": "SNCF is the parent organization of Geodis.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "PLATFORM",
+      "declared": true,
+      "claim_id": "72cc4f2d-7e6a-5fef-b7e0-0ecbd6ec4fe5",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "c27c543d-78ef-5fc6-a90c-67f33a6fb1d5",
+        "slug": "geodis",
+        "entity_type": "ORGANIZATION",
+        "name": "Geodis",
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "edf4373e-4901-56bb-b1a0-9128fffdfd1a"
+    }
+  ],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "72cc4f2d-7e6a-5fef-b7e0-0ecbd6ec4fe5",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "PLATFORM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "edf4373e-4901-56bb-b1a0-9128fffdfd1a",
+          "source": {
+            "id": "c27c543d-78ef-5fc6-a90c-67f33a6fb1d5",
+            "slug": "geodis",
+            "entity_type": "ORGANIZATION",
+            "name": "Geodis",
+            "primary_embodiment": null,
+            "roles": [
+              "OPERATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "c27c543d-78ef-5fc6-a90c-67f33a6fb1d5",
+        "slug": "geodis",
+        "entity_type": "ORGANIZATION",
+        "name": "Geodis",
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 1
+      },
+      "claim_count": 1,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 1,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

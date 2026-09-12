@@ -8,15 +8,16 @@
       "name": "SoftBank Robotics Group",
       "primary_embodiment": null,
       "roles": [
-        "OEM"
+        "INVESTOR",
+        "PLATFORM"
       ]
     },
     "predicate": "HAS_ROLE",
     "label": "role",
-    "sentence": "SoftBank Robotics Group role OEM",
+    "sentence": "SoftBank Robotics Group role PLATFORM",
     "value": {
       "kind": "enum",
-      "value": "OEM"
+      "value": "PLATFORM"
     },
     "stack_layer": null,
     "qualifier": null,
@@ -31,15 +32,15 @@
   "evidence": [
     {
       "id": "5797a620-def2-5b32-bdd5-703f607e3111",
-      "class": "PRIMARY",
-      "confidence": "HIGH",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
       "stance": "SUPPORTS",
-      "excerpt": "Develops and commercializes service robots within SoftBank's robotics businesses.",
+      "excerpt": "Holding company overseeing SoftBank robotics businesses and investment in robotics subsidiaries.",
       "published_at": null,
-      "observed_at": "2026-09-11T00:00:00.000Z",
+      "observed_at": "2026-09-01T00:00:00.000Z",
       "source": {
-        "id": "327192a2-09f5-517d-bd9d-dcd464719de5",
-        "url": "https://group.softbank/en/news/press/20251008",
+        "id": "486eb626-fa34-5842-9dbc-64e51cb1dba8",
+        "url": "https://www.softbankrobotics.com/profile/",
         "canonical_url": null,
         "publisher": "SoftBank Group",
         "title": "SoftBank Group — robotics enrichment reference",
@@ -47,9 +48,33 @@
         "published_at": null,
         "language": "en"
       },
-      "assessment": null
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Holding company overseeing SoftBank robotics businesses and investment in robotics subsidiaries. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "claim_id": "b148f943-a9e1-537a-925d-32233d2abd94",
+      "value": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
   "dependencies": []
 }

@@ -53,6 +53,21 @@
       },
       "since": "2016-01-01",
       "claim_id": "46179473-3137-5eca-8f9d-0a774bf184ac"
+    },
+    {
+      "organization": {
+        "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+        "slug": "woven-by-toyota",
+        "entity_type": "ORGANIZATION",
+        "name": "Woven by Toyota",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "2f2f62c9-a70b-597e-944f-dd0b2a79c781"
     }
   ],
   "cached": {
@@ -146,6 +161,29 @@
       "label": "is part of",
       "items": [
         {
+          "claim_id": "2f2f62c9-a70b-597e-944f-dd0b2a79c781",
+          "source": {
+            "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+            "slug": "woven-by-toyota",
+            "entity_type": "ORGANIZATION",
+            "name": "Woven by Toyota",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "46179473-3137-5eca-8f9d-0a774bf184ac",
           "source": {
             "id": "debbc27a-81bd-5cdd-bbc5-79fcce1c582e",
@@ -183,6 +221,17 @@
           "MODEL_DEVELOPER",
           "RESEARCH_LAB"
         ]
+      },
+      {
+        "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+        "slug": "woven-by-toyota",
+        "entity_type": "ORGANIZATION",
+        "name": "Woven by Toyota",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB",
+          "TOOLING_OPS_PROVIDER"
+        ]
       }
     ],
     "places": [
@@ -211,7 +260,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "ab6c43d0-0e78-5b10-9040-e119f997ef4c",
+    "subject": {
+      "id": "15a2409d-da28-5dea-88e2-be8899c5350a",
+      "slug": "epfl-laboratory-of-intelligent-systems",
+      "entity_type": "ORGANIZATION",
+      "name": "EPFL Laboratory of Intelligent Systems",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "EPFL Laboratory of Intelligent Systems is part of EPFL",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "e33b6bc8-2a60-5b77-87fd-c150ddeaefd8",
+        "slug": "epfl",
+        "entity_type": "ORGANIZATION",
+        "name": "EPFL",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bbe3c42c-aaff-532b-b569-22e8c3b29163",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "EPFL Laboratory of Intelligent Systems is part of EPFL.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "0664edeb-2b16-58e4-be71-170fbabd6f71",
+        "url": "https://www.epfl.ch/labs/lis/",
+        "canonical_url": null,
+        "publisher": "EPFL Laboratory of Intelligent Systems",
+        "title": "EPFL Laboratory of Intelligent Systems — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "6aef82dd-eb3f-57ab-a018-7ba4289bc702",
+    "subject": {
+      "id": "3020631a-29c5-53d3-b5c6-72ad95a1ec79",
+      "slug": "naver-labs",
+      "entity_type": "ORGANIZATION",
+      "name": "Naver Labs",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Naver Labs is part of Naver",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9eb45452-168c-5db6-96f4-28cf65323864",
+        "slug": "naver",
+        "entity_type": "ORGANIZATION",
+        "name": "Naver",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e29f8368-0e50-55e4-aaee-4a43cb94ef61",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Naver Labs is part of Naver.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "abec517a-b82c-5c03-bbae-796ed10879e2",
+        "url": "https://www.naverlabs.com/en/",
+        "canonical_url": null,
+        "publisher": "Naver Labs",
+        "title": "Naver Labs — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

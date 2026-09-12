@@ -26,7 +26,36 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
+        "slug": "mobile-industrial-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Mobile Industrial Robots",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "since": "2018-04-25",
+      "claim_id": "6046f211-9b40-5695-8577-30e23d7dd771"
+    },
+    {
+      "organization": {
+        "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+        "slug": "universal-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Universal Robots",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "6200af4c-82b6-5da1-8b02-4ff8a0faa073"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -144,8 +173,81 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "6046f211-9b40-5695-8577-30e23d7dd771",
+          "source": {
+            "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
+            "slug": "mobile-industrial-robots",
+            "entity_type": "ORGANIZATION",
+            "name": "Mobile Industrial Robots",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Effective transaction date",
+          "valid_from": "2018-04-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "6200af4c-82b6-5da1-8b02-4ff8a0faa073",
+          "source": {
+            "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+            "slug": "universal-robots",
+            "entity_type": "ORGANIZATION",
+            "name": "Universal Robots",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
+        "slug": "mobile-industrial-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Mobile Industrial Robots",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      {
+        "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+        "slug": "universal-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Universal Robots",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "d93cbf53-89b0-5b3b-9df9-7f3d199ea1ea",
@@ -172,7 +274,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 3
   },
   "as_of": null
 }

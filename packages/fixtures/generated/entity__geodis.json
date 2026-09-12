@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "f663abb8-2652-5a87-9d69-786262bd7bf7",
+      "slug": "sncf",
+      "entity_type": "ORGANIZATION",
+      "name": "SNCF",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "edf4373e-4901-56bb-b1a0-9128fffdfd1a",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -90,10 +108,50 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "edf4373e-4901-56bb-b1a0-9128fffdfd1a",
+          "target": {
+            "id": "f663abb8-2652-5a87-9d69-786262bd7bf7",
+            "slug": "sncf",
+            "entity_type": "ORGANIZATION",
+            "name": "SNCF",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "f663abb8-2652-5a87-9d69-786262bd7bf7",
+        "slug": "sncf",
+        "entity_type": "ORGANIZATION",
+        "name": "SNCF",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "bbd32947-aeab-5e3f-af5c-70ee551f805b",
@@ -108,19 +166,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

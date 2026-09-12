@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "2f2f62c9-a70b-597e-944f-dd0b2a79c781",
+    "subject": {
+      "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+      "slug": "woven-by-toyota",
+      "entity_type": "ORGANIZATION",
+      "name": "Woven by Toyota",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Woven by Toyota is part of Toyota Motor Corporation",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "08abf8ef-13f8-595d-87fc-d2aeb7ff1467",
+        "slug": "toyota",
+        "entity_type": "ORGANIZATION",
+        "name": "Toyota Motor Corporation",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "864d506e-8d94-590b-895e-b8fb3fb5f987",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Woven by Toyota is part of Toyota Motor Corporation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8e02f63f-2788-521a-94b1-130d2a5a7018",
+        "url": "https://woven.toyota/en/company/profile/",
+        "canonical_url": null,
+        "publisher": "Toyota Motor Corporation",
+        "title": "Toyota Motor Corporation — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

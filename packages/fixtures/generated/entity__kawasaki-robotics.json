@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
+      "slug": "kawasaki-heavy-industries",
+      "entity_type": "ORGANIZATION",
+      "name": "Kawasaki Heavy Industries",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "96d6ff8c-83a4-5e74-a0a9-6f7405886688",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -64,25 +82,67 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "96d6ff8c-83a4-5e74-a0a9-6f7405886688",
+          "target": {
+            "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
+            "slug": "kawasaki-heavy-industries",
+            "entity_type": "ORGANIZATION",
+            "name": "Kawasaki Heavy Industries",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "company": [
+      {
+        "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
+        "slug": "kawasaki-heavy-industries",
+        "entity_type": "ORGANIZATION",
+        "name": "Kawasaki Heavy Industries",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 1,
+      "claim_count": 2,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 1,
+    "recent_change_count": 2,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

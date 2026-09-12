@@ -1,0 +1,145 @@
+{
+  "entity": {
+    "id": "fe7b240e-f21e-5290-ba23-199f6ea0bddd",
+    "slug": "sony-group",
+    "entity_type": "ORGANIZATION",
+    "name": "Sony Group",
+    "short_description": "Sony Group is the parent organization of Sony AI.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "PLATFORM",
+      "declared": true,
+      "claim_id": "9b32e839-acd7-5cf0-8941-c7fce482ce5b",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "4e38d628-7b7a-57fd-82bc-63f5fdd4f59a",
+        "slug": "sony-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Sony AI",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "16e82d16-b7ef-5254-a459-8f9061e3adb4"
+    }
+  ],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "9b32e839-acd7-5cf0-8941-c7fce482ce5b",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "PLATFORM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "16e82d16-b7ef-5254-a459-8f9061e3adb4",
+          "source": {
+            "id": "4e38d628-7b7a-57fd-82bc-63f5fdd4f59a",
+            "slug": "sony-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Sony AI",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Group affiliation; observed 2026-09-11, not a claim about the direct legal parent",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "4e38d628-7b7a-57fd-82bc-63f5fdd4f59a",
+        "slug": "sony-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Sony AI",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 1
+      },
+      "claim_count": 1,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 1,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "3ad42247-e28d-5a76-9123-9dc959f780cc",
+    "subject": {
+      "id": "e86104c7-cb0c-5c70-bb8a-22142fb35367",
+      "slug": "mitsubishi-electric-factory-automation",
+      "entity_type": "ORGANIZATION",
+      "name": "Mitsubishi Electric Factory Automation",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Mitsubishi Electric Factory Automation is part of Mitsubishi Electric",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
+        "slug": "mitsubishi-electric",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ece43bca-06f0-5c41-b31e-b8e4fca8a542",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Mitsubishi Electric Factory Automation is part of Mitsubishi Electric.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bdb51e0a-fd79-5267-87da-c72f956a9975",
+        "url": "https://www.mitsubishielectric.com/fa/products/rbt/robot/",
+        "canonical_url": null,
+        "publisher": "Mitsubishi Electric",
+        "title": "Mitsubishi Electric — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

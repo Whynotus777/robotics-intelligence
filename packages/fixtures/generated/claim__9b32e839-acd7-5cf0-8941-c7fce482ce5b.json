@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "9b32e839-acd7-5cf0-8941-c7fce482ce5b",
+    "subject": {
+      "id": "fe7b240e-f21e-5290-ba23-199f6ea0bddd",
+      "slug": "sony-group",
+      "entity_type": "ORGANIZATION",
+      "name": "Sony Group",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Sony Group role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1c7f2477-e33f-5edb-8c8d-9e5781053c71",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Sony Group is the parent organization of Sony AI.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "eef48973-3fdb-5a8f-8b09-d42a0527a575",
+        "url": "https://www.sony.com/en/SonyInfo/technology/stories/entries/Sony_AI/",
+        "canonical_url": null,
+        "publisher": "Sony Group",
+        "title": "Sony Group — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Sony Group is the parent organization of Sony AI. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -36,7 +36,37 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "01336b7b-0919-57e1-9ec6-946ab8f34a7b",
+        "slug": "berkshire-grey",
+        "entity_type": "ORGANIZATION",
+        "name": "Berkshire Grey",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "since": "2023-07-20",
+      "claim_id": "ccc3d2cd-2536-5129-976a-a09b23db1231"
+    },
+    {
+      "organization": {
+        "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+        "slug": "softbank-robotics-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Robotics Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "d76c4e53-61f6-539d-8836-d101c832014d"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -147,8 +177,84 @@
     }
   ],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "ccc3d2cd-2536-5129-976a-a09b23db1231",
+          "source": {
+            "id": "01336b7b-0919-57e1-9ec6-946ab8f34a7b",
+            "slug": "berkshire-grey",
+            "entity_type": "ORGANIZATION",
+            "name": "Berkshire Grey",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Effective transaction date",
+          "valid_from": "2023-07-20",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d76c4e53-61f6-539d-8836-d101c832014d",
+          "source": {
+            "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+            "slug": "softbank-robotics-group",
+            "entity_type": "ORGANIZATION",
+            "name": "SoftBank Robotics Group",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "01336b7b-0919-57e1-9ec6-946ab8f34a7b",
+        "slug": "berkshire-grey",
+        "entity_type": "ORGANIZATION",
+        "name": "Berkshire Grey",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      {
+        "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+        "slug": "softbank-robotics-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Robotics Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -164,7 +270,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 2
   },
   "as_of": null
 }

@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "649994d9-ef67-5467-b6b1-8dc75e989e0e",
+    "subject": {
+      "id": "6b49b476-5be0-57fc-8999-edbccde4b49b",
+      "slug": "toyota-industries",
+      "entity_type": "ORGANIZATION",
+      "name": "Toyota Industries",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Toyota Industries role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5fbfe7a8-91e3-57a5-911d-ff6ee9851161",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Toyota Industries is the parent organization of Vanderlande.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "e0b864d2-707a-5e73-8c39-3b965c929993",
+        "url": "https://www.vanderlande.com/about-vanderlande/company-profile/",
+        "canonical_url": null,
+        "publisher": "Vanderlande",
+        "title": "Vanderlande — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Toyota Industries is the parent organization of Vanderlande. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

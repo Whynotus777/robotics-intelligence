@@ -35,7 +35,28 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+      "slug": "amazon",
+      "entity_type": "ORGANIZATION",
+      "name": "Amazon",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "OPERATOR",
+        "PLATFORM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "4ddadc4a-84ad-50c8-9b33-19869e8b8233",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -122,6 +143,37 @@
   ],
   "relationships": [
     {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "4ddadc4a-84ad-50c8-9b33-19869e8b8233",
+          "target": {
+            "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+            "slug": "amazon",
+            "entity_type": "ORGANIZATION",
+            "name": "Amazon",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "OPERATOR",
+              "PLATFORM",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HQ_AT",
       "label": "is headquartered at",
       "items": [
@@ -150,6 +202,21 @@
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+        "slug": "amazon",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OPERATOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "487fa7f6-186a-511b-bb65-34206d589762",
@@ -164,19 +231,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 4,
+        "PRIMARY": 5,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 4,
+      "claim_count": 5,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 4,
+    "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

@@ -1,0 +1,145 @@
+{
+  "entity": {
+    "id": "2c014d5a-b3ec-5ecb-9971-a6a6fbe30678",
+    "slug": "edge-group",
+    "entity_type": "ORGANIZATION",
+    "name": "EDGE Group",
+    "short_description": "EDGE Group is the parent organization of Milrem Robotics.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "PLATFORM",
+      "declared": true,
+      "claim_id": "b7ca8146-6e2c-5375-88ba-869e1bdc9ed8",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "1e7c1ef0-56e4-5fd8-97d2-cef733773a61",
+        "slug": "milrem-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Milrem Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "since": "2023-02-15",
+      "claim_id": "4e621a3e-0884-5ae0-9309-b8539a56e7f7"
+    }
+  ],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "b7ca8146-6e2c-5375-88ba-869e1bdc9ed8",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "PLATFORM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "4e621a3e-0884-5ae0-9309-b8539a56e7f7",
+          "source": {
+            "id": "1e7c1ef0-56e4-5fd8-97d2-cef733773a61",
+            "slug": "milrem-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Milrem Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Effective transaction date",
+          "valid_from": "2023-02-15",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "1e7c1ef0-56e4-5fd8-97d2-cef733773a61",
+        "slug": "milrem-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Milrem Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 1
+      },
+      "claim_count": 1,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 1,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

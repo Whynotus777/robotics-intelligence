@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "18e0b37e-a0c2-5379-b66c-3be4be3faccb",
+    "subject": {
+      "id": "427af318-31b9-5b16-86ea-d97fb6b45826",
+      "slug": "tencent-robotics-x",
+      "entity_type": "ORGANIZATION",
+      "name": "Tencent Robotics X",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Tencent Robotics X is part of Tencent",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "554db289-7174-5ac8-8697-2b498ab0dd9b",
+        "slug": "tencent",
+        "entity_type": "ORGANIZATION",
+        "name": "Tencent",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "10c20a5e-f7b8-5cbe-bfaa-9aa0b7c9a673",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Tencent Robotics X is part of Tencent.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a51ed37c-1b26-54ef-affa-4b351983a086",
+        "url": "https://www.tencent.com/tencent-unveils-full-stack-embodied-intelligence-solution-at-waic-2026/",
+        "canonical_url": null,
+        "publisher": "Tencent",
+        "title": "Tencent — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

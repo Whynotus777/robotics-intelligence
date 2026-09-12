@@ -5,12 +5,12 @@
     {
       "id": "US",
       "label": "US",
-      "count": 278,
+      "count": 281,
       "districts": [
         {
           "id": "US",
           "label": "US",
-          "count": 278,
+          "count": 281,
           "entities": [
             {
               "chip": {
@@ -301,6 +301,18 @@
                 "roles": [
                   "OEM"
                 ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "ddc416d5-e1f4-540c-bc7a-7c6f840ed730",
+                "slug": "apex-us",
+                "entity_type": "PLACE",
+                "name": "Apex",
+                "primary_embodiment": null,
+                "roles": []
               },
               "measure_value": null,
               "is_primary_membership": true
@@ -1248,6 +1260,20 @@
                 "primary_embodiment": null,
                 "roles": [
                   "COMPONENT_SUPPLIER"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "83dd2c2f-5b2f-58ec-a863-1a81488d3564",
+                "slug": "gates-frontier",
+                "entity_type": "ORGANIZATION",
+                "name": "Gates Frontier",
+                "primary_embodiment": null,
+                "roles": [
+                  "INVESTOR"
                 ]
               },
               "measure_value": null,
@@ -2312,6 +2338,20 @@
                 "primary_embodiment": null,
                 "roles": [
                   "RESEARCH_LAB"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "c906ef27-da2f-5c6e-8413-0e16d30f66d4",
+                "slug": "openai",
+                "entity_type": "ORGANIZATION",
+                "name": "OpenAI",
+                "primary_embodiment": null,
+                "roles": [
+                  "INVESTOR"
                 ]
               },
               "measure_value": null,
@@ -3812,12 +3852,12 @@
     {
       "id": "CN",
       "label": "CN",
-      "count": 65,
+      "count": 66,
       "districts": [
         {
           "id": "CN",
           "label": "CN",
-          "count": 65,
+          "count": 66,
           "entities": [
             {
               "chip": {
@@ -4716,6 +4756,20 @@
               },
               "measure_value": null,
               "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "dc4c0525-8ef0-56d7-90db-08092c978020",
+                "slug": "zhejiang-shuanghuan-driveline",
+                "entity_type": "ORGANIZATION",
+                "name": "Zhejiang Shuanghuan Driveline",
+                "primary_embodiment": null,
+                "roles": [
+                  "COMPONENT_SUPPLIER"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
             }
           ]
         }
@@ -5360,12 +5414,12 @@
     {
       "id": "JP",
       "label": "JP",
-      "count": 35,
+      "count": 36,
       "districts": [
         {
           "id": "JP",
           "label": "JP",
-          "count": 35,
+          "count": 36,
           "entities": [
             {
               "chip": {
@@ -5600,6 +5654,20 @@
             },
             {
               "chip": {
+                "id": "904c5a73-f7da-5389-af14-f05030791980",
+                "slug": "nachi-fujikoshi",
+                "entity_type": "ORGANIZATION",
+                "name": "Nachi-Fujikoshi",
+                "primary_embodiment": null,
+                "roles": [
+                  "OEM"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
                 "id": "fef5a2ec-6dbe-5e9c-8459-8fd14f248774",
                 "slug": "nidec",
                 "entity_type": "ORGANIZATION",
@@ -5717,7 +5785,8 @@
                 "name": "SoftBank Robotics Group",
                 "primary_embodiment": null,
                 "roles": [
-                  "OEM"
+                  "INVESTOR",
+                  "PLATFORM"
                 ]
               },
               "measure_value": null,
@@ -8497,6 +8566,34 @@
                 "primary_embodiment": null,
                 "roles": [
                   "COMPONENT_SUPPLIER"
+                ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HK",
+      "label": "HK",
+      "count": 1,
+      "districts": [
+        {
+          "id": "HK",
+          "label": "HK",
+          "count": 1,
+          "entities": [
+            {
+              "chip": {
+                "id": "381e7bc7-58fb-508a-b5c2-1af6da18e86f",
+                "slug": "hongshan-hsg",
+                "entity_type": "ORGANIZATION",
+                "name": "HongShan (HSG)",
+                "primary_embodiment": null,
+                "roles": [
+                  "INVESTOR"
                 ]
               },
               "measure_value": null,

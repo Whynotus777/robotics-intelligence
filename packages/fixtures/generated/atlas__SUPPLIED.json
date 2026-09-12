@@ -9,7 +9,7 @@
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 37
+      "count": 38
     },
     {
       "id": "MANUFACTURED",
@@ -29,12 +29,12 @@
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 18
+      "count": 19
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 9
+      "count": 10
     }
   ],
   "marks": [
@@ -270,6 +270,34 @@
           "slug": "tecnotion",
           "entity_type": "ORGANIZATION",
           "name": "Tecnotion",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "ddc416d5-e1f4-540c-bc7a-7c6f840ed730",
+        "slug": "apex-us",
+        "entity_type": "PLACE",
+        "name": "Apex",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 33.11921,
+      "lng": -117.08642,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "ec4fbb1a-4bc7-549e-aa59-3a8d96920152",
+          "slug": "ati-industrial-automation",
+          "entity_type": "ORGANIZATION",
+          "name": "ATI Industrial Automation",
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
@@ -941,8 +969,8 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 12,
-      "places": 9
+      "weight": 13,
+      "places": 10
     },
     {
       "id": "CN",
@@ -1348,6 +1376,26 @@
         "slug": "almelo-nl",
         "entity_type": "PLACE",
         "name": "Almelo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "ec4fbb1a-4bc7-549e-aa59-3a8d96920152",
+        "slug": "ati-industrial-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "ATI Industrial Automation",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "ddc416d5-e1f4-540c-bc7a-7c6f840ed730",
+        "slug": "apex-us",
+        "entity_type": "PLACE",
+        "name": "Apex",
         "primary_embodiment": null,
         "roles": []
       }

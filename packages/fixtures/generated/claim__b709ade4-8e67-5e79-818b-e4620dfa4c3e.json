@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "b709ade4-8e67-5e79-818b-e4620dfa4c3e",
+    "subject": {
+      "id": "55a2ff99-2eba-557f-aaa0-b6f9b45cd490",
+      "slug": "technical-university-of-munich",
+      "entity_type": "ORGANIZATION",
+      "name": "Technical University of Munich",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Technical University of Munich role RESEARCH_LAB",
+    "value": {
+      "kind": "enum",
+      "value": "RESEARCH_LAB"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1ba8dc03-492d-5151-aff3-f6627eadb81a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Technical University of Munich is the parent organization of Munich Institute of Robotics and Machine Intelligence (MIRMI).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "367fa668-3fc6-5d7c-be9b-3f9d2eaf178b",
+        "url": "https://www.mirmi.tum.de/en/mirmi/about-us/",
+        "canonical_url": null,
+        "publisher": "Technical University of Munich",
+        "title": "Technical University of Munich — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

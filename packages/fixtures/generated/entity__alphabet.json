@@ -52,6 +52,35 @@
   "subsidiaries": [
     {
       "organization": {
+        "id": "8bfe1d52-c20f-51c7-a7c8-d3d3a9bb73e7",
+        "slug": "capitalg",
+        "entity_type": "ORGANIZATION",
+        "name": "CapitalG",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "77115f1d-a44e-5215-909b-d0639f59a077"
+    },
+    {
+      "organization": {
+        "id": "cd542423-3dd5-591c-8636-b0684f26f1eb",
+        "slug": "intrinsic",
+        "entity_type": "ORGANIZATION",
+        "name": "Intrinsic",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "23c7088c-9567-51cd-ab00-a678672e608e"
+    },
+    {
+      "organization": {
         "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
         "slug": "waymo",
         "entity_type": "ORGANIZATION",
@@ -65,6 +94,21 @@
       },
       "since": "2016-12-13",
       "claim_id": "4a00eb97-4574-5e11-90e0-5994acf4985c"
+    },
+    {
+      "organization": {
+        "id": "fd3fa421-aff0-5f6b-bbbf-c0e511d7ac52",
+        "slug": "wing",
+        "entity_type": "ORGANIZATION",
+        "name": "Wing",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "a5e3dea7-d8bc-5027-aae6-e981b1a96ab1"
     }
   ],
   "cached": {
@@ -178,6 +222,29 @@
       "label": "is part of",
       "items": [
         {
+          "claim_id": "23c7088c-9567-51cd-ab00-a678672e608e",
+          "source": {
+            "id": "cd542423-3dd5-591c-8636-b0684f26f1eb",
+            "slug": "intrinsic",
+            "entity_type": "ORGANIZATION",
+            "name": "Intrinsic",
+            "primary_embodiment": null,
+            "roles": [
+              "INTEGRATOR",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Group affiliation; observed 2026-09-11, not a claim about the direct legal parent",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "4a00eb97-4574-5e11-90e0-5994acf4985c",
           "source": {
             "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
@@ -200,12 +267,78 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "77115f1d-a44e-5215-909b-d0639f59a077",
+          "source": {
+            "id": "8bfe1d52-c20f-51c7-a7c8-d3d3a9bb73e7",
+            "slug": "capitalg",
+            "entity_type": "ORGANIZATION",
+            "name": "CapitalG",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "a5e3dea7-d8bc-5027-aae6-e981b1a96ab1",
+          "source": {
+            "id": "fd3fa421-aff0-5f6b-bbbf-c0e511d7ac52",
+            "slug": "wing",
+            "entity_type": "ORGANIZATION",
+            "name": "Wing",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "8bfe1d52-c20f-51c7-a7c8-d3d3a9bb73e7",
+        "slug": "capitalg",
+        "entity_type": "ORGANIZATION",
+        "name": "CapitalG",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "cd542423-3dd5-591c-8636-b0684f26f1eb",
+        "slug": "intrinsic",
+        "entity_type": "ORGANIZATION",
+        "name": "Intrinsic",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
       {
         "id": "e9f9ddb3-8498-5406-a185-6ef06e9008e3",
         "slug": "waymo",
@@ -214,6 +347,17 @@
         "primary_embodiment": null,
         "roles": [
           "MODEL_DEVELOPER",
+          "OEM",
+          "OPERATOR"
+        ]
+      },
+      {
+        "id": "fd3fa421-aff0-5f6b-bbbf-c0e511d7ac52",
+        "slug": "wing",
+        "entity_type": "ORGANIZATION",
+        "name": "Wing",
+        "primary_embodiment": null,
+        "roles": [
           "OEM",
           "OPERATOR"
         ]
@@ -245,7 +389,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 5
   },
   "as_of": null
 }

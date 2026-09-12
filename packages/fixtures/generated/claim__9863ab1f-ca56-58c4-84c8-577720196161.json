@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "9863ab1f-ca56-58c4-84c8-577720196161",
+    "subject": {
+      "id": "11ea8011-8436-55a2-8b37-e019c3284fbb",
+      "slug": "eth-zurich",
+      "entity_type": "ORGANIZATION",
+      "name": "ETH Zurich",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "ETH Zurich role RESEARCH_LAB",
+    "value": {
+      "kind": "enum",
+      "value": "RESEARCH_LAB"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "17be4bb5-0184-5a97-8bbb-127a39a0ea96",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "ETH Zurich is the parent organization of ETH Zurich Robotic Systems Lab.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ea38ba7c-b8f4-589f-b93f-1683640e4a2e",
+        "url": "https://rsl.ethz.ch/the-lab.html",
+        "canonical_url": null,
+        "publisher": "ETH Zurich Robotic Systems Lab",
+        "title": "ETH Zurich Robotic Systems Lab — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

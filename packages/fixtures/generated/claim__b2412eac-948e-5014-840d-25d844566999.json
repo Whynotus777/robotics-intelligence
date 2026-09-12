@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "b2412eac-948e-5014-840d-25d844566999",
+    "subject": {
+      "id": "9e64fd03-d82d-5ace-8ae3-e7174f30d6e7",
+      "slug": "schaeffler",
+      "entity_type": "ORGANIZATION",
+      "name": "Schaeffler",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Schaeffler role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "231e4792-9321-544f-913f-4551ab152460",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Schaeffler is the parent organization of Ewellix.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "73b2482e-0767-580f-9853-bc216b5cdede",
+        "url": "https://www.mynewsdesk.com/ewellix/news/schaeffler-has-completed-the-acquisition-of-ewellix-459839",
+        "canonical_url": null,
+        "publisher": "Schaeffler",
+        "title": "Schaeffler — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Schaeffler is the parent organization of Ewellix. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

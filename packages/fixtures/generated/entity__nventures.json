@@ -25,7 +25,28 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+      "slug": "nvidia",
+      "entity_type": "ORGANIZATION",
+      "name": "NVIDIA",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "INVESTOR",
+        "MODEL_DEVELOPER",
+        "PLATFORM"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "1e52e380-41cf-5960-af53-3a1891786d12",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -64,25 +85,73 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "1e52e380-41cf-5960-af53-3a1891786d12",
+          "target": {
+            "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+            "slug": "nvidia",
+            "entity_type": "ORGANIZATION",
+            "name": "NVIDIA",
+            "primary_embodiment": null,
+            "roles": [
+              "CHIPMAKER",
+              "INVESTOR",
+              "MODEL_DEVELOPER",
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "company": [
+      {
+        "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+        "slug": "nvidia",
+        "entity_type": "ORGANIZATION",
+        "name": "NVIDIA",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "INVESTOR",
+          "MODEL_DEVELOPER",
+          "PLATFORM"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 1,
+      "claim_count": 2,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 1,
+    "recent_change_count": 2,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

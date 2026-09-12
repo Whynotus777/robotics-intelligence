@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "e030b8de-e9b4-5052-a9b4-a26565376bb6",
+    "subject": {
+      "id": "698f0f64-1451-5021-9a17-4af7183cd4aa",
+      "slug": "carnegie-mellon-robotics-institute",
+      "entity_type": "ORGANIZATION",
+      "name": "Carnegie Mellon Robotics Institute",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Carnegie Mellon Robotics Institute is part of Carnegie Mellon University",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ad4543b5-7f3e-5b8d-8300-f4365ab7055f",
+        "slug": "carnegie-mellon-university",
+        "entity_type": "ORGANIZATION",
+        "name": "Carnegie Mellon University",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5bec1043-fe7a-53c7-aaa8-22122eb36290",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Carnegie Mellon Robotics Institute is part of Carnegie Mellon University.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "7790fe7b-16cc-5be8-9bbf-5c70ded7402c",
+        "url": "https://www.ri.cmu.edu/about/",
+        "canonical_url": null,
+        "publisher": "Carnegie Mellon Robotics Institute",
+        "title": "Carnegie Mellon Robotics Institute — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

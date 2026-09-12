@@ -25,8 +25,41 @@
       }
     }
   ],
-  "part_of": null,
-  "subsidiaries": [],
+  "part_of": {
+    "parent": {
+      "id": "11ea8011-8436-55a2-8b37-e019c3284fbb",
+      "slug": "eth-zurich",
+      "entity_type": "ORGANIZATION",
+      "name": "ETH Zurich",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "d22aff77-d514-506b-b5ee-b4ed5454326b",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "3e60dbd4-e8f7-5665-ba1c-0bd8b8e1b76a",
+        "slug": "eth-zurich-autonomous-systems-lab",
+        "entity_type": "ORGANIZATION",
+        "name": "ETH Zurich Autonomous Systems Lab",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "2ddb2662-fbd2-5541-835c-458ce2feeb7d"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -64,25 +97,106 @@
       ]
     }
   ],
-  "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "d22aff77-d514-506b-b5ee-b4ed5454326b",
+          "target": {
+            "id": "11ea8011-8436-55a2-8b37-e019c3284fbb",
+            "slug": "eth-zurich",
+            "entity_type": "ORGANIZATION",
+            "name": "ETH Zurich",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "2ddb2662-fbd2-5541-835c-458ce2feeb7d",
+          "source": {
+            "id": "3e60dbd4-e8f7-5665-ba1c-0bd8b8e1b76a",
+            "slug": "eth-zurich-autonomous-systems-lab",
+            "entity_type": "ORGANIZATION",
+            "name": "ETH Zurich Autonomous Systems Lab",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "11ea8011-8436-55a2-8b37-e019c3284fbb",
+        "slug": "eth-zurich",
+        "entity_type": "ORGANIZATION",
+        "name": "ETH Zurich",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      {
+        "id": "3e60dbd4-e8f7-5665-ba1c-0bd8b8e1b76a",
+        "slug": "eth-zurich-autonomous-systems-lab",
+        "entity_type": "ORGANIZATION",
+        "name": "ETH Zurich Autonomous Systems Lab",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 1,
+      "claim_count": 2,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 1,
+    "recent_change_count": 2,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 2
   },
   "as_of": null
 }

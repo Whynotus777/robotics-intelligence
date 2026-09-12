@@ -1,0 +1,69 @@
+{
+  "claim": {
+    "claim_id": "4ddadc4a-84ad-50c8-9b33-19869e8b8233",
+    "subject": {
+      "id": "e1a62352-441d-5638-9cb2-5e9a3a282bfd",
+      "slug": "zoox",
+      "entity_type": "ORGANIZATION",
+      "name": "Zoox",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Zoox is part of Amazon",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+        "slug": "amazon",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OPERATOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b3ad7c58-1587-5cf1-9066-fad38e022c69",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Zoox is part of Amazon.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "b7296afd-78e0-5b91-963e-9b326e882192",
+        "url": "https://zoox.com/careers/",
+        "canonical_url": null,
+        "publisher": "Amazon",
+        "title": "Amazon — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

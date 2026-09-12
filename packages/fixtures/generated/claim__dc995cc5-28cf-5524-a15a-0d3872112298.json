@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "dc995cc5-28cf-5524-a15a-0d3872112298",
+    "subject": {
+      "id": "e33b6bc8-2a60-5b77-87fd-c150ddeaefd8",
+      "slug": "epfl",
+      "entity_type": "ORGANIZATION",
+      "name": "EPFL",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "EPFL role RESEARCH_LAB",
+    "value": {
+      "kind": "enum",
+      "value": "RESEARCH_LAB"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8944eaea-7047-56f1-a23c-9a940a5f7d4d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "EPFL is the parent organization of EPFL Biorobotics Laboratory.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "134f1889-b4bd-58a6-8a35-4f17b77155c4",
+        "url": "https://www.epfl.ch/labs/biorob/",
+        "canonical_url": null,
+        "publisher": "EPFL Biorobotics Laboratory",
+        "title": "EPFL Biorobotics Laboratory — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

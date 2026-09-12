@@ -1,16 +1,60 @@
 slug: softbank-robotics-group
 entity_type: ORGANIZATION
 name: SoftBank Robotics Group
-short_description: Develops and commercializes service robots within SoftBank's robotics businesses.
+short_description: Holding company overseeing SoftBank robotics businesses and investment in robotics subsidiaries.
 depth_tier: DISCOVERY
 claims:
-- predicate: HAS_ROLE
-  enum: OEM
+- predicate: PART_OF
+  object: softbank-group
   valid_from: '2026-09-11'
+  qualifier: Current affiliation observed on 2026-09-11; original start date not established
   evidence:
-  - source: enrich-ca002ce4cbe76f1b
+  - source: enrich-1c142e872c83feb1
     class: PRIMARY
     confidence: HIGH
-    excerpt: Develops and commercializes service robots within SoftBank's robotics businesses.
+    excerpt: SoftBank Robotics Group is part of SoftBank Group.
     observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-1c142e872c83feb1
+    excerpt: Holding company overseeing SoftBank robotics businesses and investment in robotics subsidiaries.
+    assessment:
+      rationale: Holding company overseeing SoftBank robotics businesses and investment in robotics subsidiaries.
+        The platform role describes involvement across robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-1c142e872c83feb1
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Holding company overseeing SoftBank robotics businesses and investment in robotics subsidiaries.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: tokyo
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-1c142e872c83feb1
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: SoftBank Robotics Group is headquartered in Tokyo.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2012-01-01'
+  valid_from: '2012-01-01'
+  evidence:
+  - source: enrich-1c142e872c83feb1
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: SoftBank Robotics Group was established in 2012 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: JP

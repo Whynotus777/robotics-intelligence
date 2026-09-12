@@ -36,7 +36,22 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "451f0621-d063-5f2a-ad4a-7517f561b85c",
+        "slug": "edge-impulse",
+        "entity_type": "ORGANIZATION",
+        "name": "Edge Impulse",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "since": "2026-01-05",
+      "claim_id": "1fe6149e-933a-5e1a-b046-eb149cfb2590"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -176,6 +191,34 @@
   ],
   "inbound_relationships": [
     {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "1fe6149e-933a-5e1a-b046-eb149cfb2590",
+          "source": {
+            "id": "451f0621-d063-5f2a-ad4a-7517f561b85c",
+            "slug": "edge-impulse",
+            "entity_type": "ORGANIZATION",
+            "name": "Edge Impulse",
+            "primary_embodiment": null,
+            "roles": [
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Acquisition completed by the disclosure date; Qualcomm group affiliation",
+          "valid_from": "2026-01-05",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "MADE_BY",
       "label": "is made by",
       "items": [
@@ -203,6 +246,18 @@
     }
   ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "451f0621-d063-5f2a-ad4a-7517f561b85c",
+        "slug": "edge-impulse",
+        "entity_type": "ORGANIZATION",
+        "name": "Edge Impulse",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
@@ -229,7 +284,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

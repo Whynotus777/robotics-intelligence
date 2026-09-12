@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "f04dc6bf-5bfc-5801-9b5c-373b172eff7a",
+    "subject": {
+      "id": "786d50dd-7afa-5ca5-b720-09b31c1f38a8",
+      "slug": "vanderlande",
+      "entity_type": "ORGANIZATION",
+      "name": "Vanderlande",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Vanderlande is part of Toyota Industries",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "6b49b476-5be0-57fc-8999-edbccde4b49b",
+        "slug": "toyota-industries",
+        "entity_type": "ORGANIZATION",
+        "name": "Toyota Industries",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d1c34c3a-97b7-5511-9399-731735a0ab02",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Vanderlande is part of Toyota Industries.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "e0b864d2-707a-5e73-8c39-3b965c929993",
+        "url": "https://www.vanderlande.com/about-vanderlande/company-profile/",
+        "canonical_url": null,
+        "publisher": "Vanderlande",
+        "title": "Vanderlande — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

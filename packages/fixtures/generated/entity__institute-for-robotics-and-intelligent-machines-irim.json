@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "ab9d25af-6b44-59e1-a5f9-a6900c4f965d",
+      "slug": "georgia-institute-of-technology",
+      "entity_type": "ORGANIZATION",
+      "name": "Georgia Institute of Technology",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "49d8627c-0e26-579c-9421-6cb1c6d580db",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -64,25 +82,67 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "49d8627c-0e26-579c-9421-6cb1c6d580db",
+          "target": {
+            "id": "ab9d25af-6b44-59e1-a5f9-a6900c4f965d",
+            "slug": "georgia-institute-of-technology",
+            "entity_type": "ORGANIZATION",
+            "name": "Georgia Institute of Technology",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "company": [
+      {
+        "id": "ab9d25af-6b44-59e1-a5f9-a6900c4f965d",
+        "slug": "georgia-institute-of-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Georgia Institute of Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 1,
+      "claim_count": 2,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 1,
+    "recent_change_count": 2,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

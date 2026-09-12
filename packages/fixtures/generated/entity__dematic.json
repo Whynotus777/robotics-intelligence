@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "979bdd41-064b-55bc-8ce6-eeb4b316ee7a",
+      "slug": "kion-group",
+      "entity_type": "ORGANIZATION",
+      "name": "KION Group",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "2bc7a0b1-e674-57f8-a982-47a3b6f1d52d",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -90,10 +108,50 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "2bc7a0b1-e674-57f8-a982-47a3b6f1d52d",
+          "target": {
+            "id": "979bdd41-064b-55bc-8ce6-eeb4b316ee7a",
+            "slug": "kion-group",
+            "entity_type": "ORGANIZATION",
+            "name": "KION Group",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "979bdd41-064b-55bc-8ce6-eeb4b316ee7a",
+        "slug": "kion-group",
+        "entity_type": "ORGANIZATION",
+        "name": "KION Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "ec534916-2d00-56ee-aeb4-ad073bc4980f",
@@ -108,19 +166,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 3,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

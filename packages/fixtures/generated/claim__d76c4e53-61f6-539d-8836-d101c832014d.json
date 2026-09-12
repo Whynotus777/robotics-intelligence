@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "d76c4e53-61f6-539d-8836-d101c832014d",
+    "subject": {
+      "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+      "slug": "softbank-robotics-group",
+      "entity_type": "ORGANIZATION",
+      "name": "SoftBank Robotics Group",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "SoftBank Robotics Group is part of SoftBank Group",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+        "slug": "softbank-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current affiliation observed on 2026-09-11; original start date not established",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ee5e73b0-daa8-5ce8-a66e-e856f3fb18fd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "SoftBank Robotics Group is part of SoftBank Group.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "486eb626-fa34-5842-9dbc-64e51cb1dba8",
+        "url": "https://www.softbankrobotics.com/profile/",
+        "canonical_url": null,
+        "publisher": "SoftBank Group",
+        "title": "SoftBank Group — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

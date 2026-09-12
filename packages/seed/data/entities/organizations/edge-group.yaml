@@ -1,0 +1,21 @@
+slug: edge-group
+entity_type: ORGANIZATION
+name: EDGE Group
+short_description: EDGE Group is the parent organization of Milrem Robotics.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-ce166cae84b9ceb1
+    excerpt: EDGE Group is the parent organization of Milrem Robotics.
+    assessment:
+      rationale: EDGE Group is the parent organization of Milrem Robotics. The platform role describes involvement
+        across robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.

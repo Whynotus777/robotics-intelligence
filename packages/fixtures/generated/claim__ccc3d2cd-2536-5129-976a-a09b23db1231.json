@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "ccc3d2cd-2536-5129-976a-a09b23db1231",
+    "subject": {
+      "id": "01336b7b-0919-57e1-9ec6-946ab8f34a7b",
+      "slug": "berkshire-grey",
+      "entity_type": "ORGANIZATION",
+      "name": "Berkshire Grey",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Berkshire Grey is part of SoftBank Group",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+        "slug": "softbank-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Effective transaction date",
+    "status": "APPROVED",
+    "valid_from": "2023-07-20",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "79500acc-1c20-55d4-a073-725bd126c808",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Berkshire Grey is part of SoftBank Group.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "7586259f-1211-576e-a9a9-6f3fee2a031e",
+        "url": "https://www.sec.gov/Archives/edgar/data/1824734/000114036123035336/brhc20056012_8k.htm",
+        "canonical_url": null,
+        "publisher": "SoftBank Group",
+        "title": "SoftBank Group — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}
