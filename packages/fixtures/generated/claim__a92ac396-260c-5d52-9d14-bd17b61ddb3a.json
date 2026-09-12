@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "a92ac396-260c-5d52-9d14-bd17b61ddb3a",
+    "subject": {
+      "id": "cadcfc14-a9ca-5b29-b6de-ca70abc1fe70",
+      "slug": "balyo",
+      "entity_type": "ORGANIZATION",
+      "name": "BALYO",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "BALYO role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3baf0595-5bde-5e7f-a8e0-66257db63bd5",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds autonomous forklift systems on industrial truck platforms.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a5ee5b8a-3161-5697-8786-1a664a0d8b3a",
+        "url": "https://www.balyo.com/",
+        "canonical_url": null,
+        "publisher": "BALYO",
+        "title": "BALYO — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

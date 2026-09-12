@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "9c25438f-c464-5a95-886e-e3caa045c6f9",
+    "subject": {
+      "id": "bd88f7a9-c3ea-5a84-a682-942ec2643d25",
+      "slug": "cellumation",
+      "entity_type": "ORGANIZATION",
+      "name": "cellumation",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "cellumation is headquartered at Bremen",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "90ae3d29-d4f5-54c6-a5c4-d07c465f9630",
+        "slug": "bremen-de",
+        "entity_type": "PLACE",
+        "name": "Bremen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "cc2ae885-ff26-596c-bf73-cb9ae6982895",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "cellumation is headquartered in Bremen.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "71cb5d61-3649-5e20-83a4-0b040e135550",
+        "url": "https://cellumation.com/newsroom-en/press-release/cellumation-wins-robotics-innovation-award-in-boston/",
+        "canonical_url": null,
+        "publisher": "cellumation",
+        "title": "cellumation — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "c650f80a-dd9e-593d-b436-7e3390f78892",
+    "subject": {
+      "id": "d4ac61fc-fb87-50e4-a61b-5481c38e60e2",
+      "slug": "elite-robots",
+      "entity_type": "ORGANIZATION",
+      "name": "Elite Robots",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Elite Robots role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2804d289-1ce6-5bb0-98ba-d2db718a9903",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Manufactures collaborative robot arms for industrial automation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "19df7db5-2c4b-5216-bd28-2b27a1c77d10",
+        "url": "https://www.eliterobots.com/",
+        "canonical_url": null,
+        "publisher": "Elite Robots",
+        "title": "Elite Robots — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

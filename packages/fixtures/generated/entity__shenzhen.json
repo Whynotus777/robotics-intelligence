@@ -67,6 +67,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "49e171ef-4a3c-595a-a5e0-bfd3ff2e0921",
+          "source": {
+            "id": "593e0170-e678-51f0-8d2f-14e0b1d5e7e2",
+            "slug": "limx-dynamics",
+            "entity_type": "ORGANIZATION",
+            "name": "LimX Dynamics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "acd9be18-956e-5e84-b8f0-db2d788cf254",
           "source": {
             "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
@@ -149,6 +171,16 @@
         ]
       },
       {
+        "id": "593e0170-e678-51f0-8d2f-14e0b1d5e7e2",
+        "slug": "limx-dynamics",
+        "entity_type": "ORGANIZATION",
+        "name": "LimX Dynamics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      {
         "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
         "slug": "robosense",
         "entity_type": "ORGANIZATION",
@@ -186,7 +218,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 4
   },
   "as_of": null
 }

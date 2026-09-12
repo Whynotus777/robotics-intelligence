@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "c7a183e1-3086-59ea-bbda-938c3eab424d",
+    "subject": {
+      "id": "8be2103a-36ed-5146-948d-e5e889f75fcd",
+      "slug": "pickle-robot",
+      "entity_type": "ORGANIZATION",
+      "name": "Pickle Robot",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Pickle Robot role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4b3d2bd0-d4d8-5c74-9b2b-6f98dd2e6e8c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds truck-unloading robots and autonomous manipulation software.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1d6bca6f-f484-5ba9-8950-4fd90e93aae3",
+        "url": "https://www.picklerobot.com/",
+        "canonical_url": null,
+        "publisher": "Pickle Robot",
+        "title": "Pickle Robot — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

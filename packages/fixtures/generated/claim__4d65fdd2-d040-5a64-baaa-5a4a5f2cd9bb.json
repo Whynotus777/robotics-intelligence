@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "4d65fdd2-d040-5a64-baaa-5a4a5f2cd9bb",
+    "subject": {
+      "id": "786d50dd-7afa-5ca5-b720-09b31c1f38a8",
+      "slug": "vanderlande",
+      "entity_type": "ORGANIZATION",
+      "name": "Vanderlande",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Vanderlande role INTEGRATOR",
+    "value": {
+      "kind": "enum",
+      "value": "INTEGRATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9ef57655-74c1-51f8-86c8-661df4b3f484",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Integrates automated systems for baggage, parcels and warehouse handling.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "fa2aa9d0-5f0a-5a05-9149-1c6391711cc7",
+        "url": "https://www.vanderlande.com/",
+        "canonical_url": null,
+        "publisher": "Vanderlande",
+        "title": "Vanderlande — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "b36df7bc-4c3e-50b9-b543-176e98de23a8",
+    "subject": {
+      "id": "22485ced-e327-5b0d-9405-a814489ac743",
+      "slug": "knapp",
+      "entity_type": "ORGANIZATION",
+      "name": "KNAPP",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "KNAPP role INTEGRATOR",
+    "value": {
+      "kind": "enum",
+      "value": "INTEGRATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "cbafbad7-94c4-54d4-9267-6cee43cb70fc",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops integrated logistics automation, robotics and control software.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "70ba17c7-93f0-530c-a8b9-983963b92c79",
+        "url": "https://www.knapp.com/en/",
+        "canonical_url": null,
+        "publisher": "KNAPP",
+        "title": "KNAPP — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "76f8e627-46df-503f-8d30-e4d87d314d61",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

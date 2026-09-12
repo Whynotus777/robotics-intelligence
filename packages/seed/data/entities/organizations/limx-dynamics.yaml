@@ -1,0 +1,25 @@
+slug: limx-dynamics
+entity_type: ORGANIZATION
+name: LimX Dynamics
+short_description: Builds humanoid and bipedal robot platforms and locomotion software.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-50acef84df41079c
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds humanoid and bipedal robot platforms and locomotion software.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: shenzhen
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-50acef84df41079c
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: LimX Dynamics is headquartered in Shenzhen.
+    observed_at: '2026-09-11'
+country_code: CN

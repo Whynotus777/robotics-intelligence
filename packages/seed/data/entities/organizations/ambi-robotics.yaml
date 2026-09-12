@@ -1,0 +1,35 @@
+slug: ambi-robotics
+entity_type: ORGANIZATION
+name: Ambi Robotics
+short_description: Builds AI-guided robotic sorting and stacking systems for logistics.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-8c5f0303e18df867
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds AI-guided robotic sorting and stacking systems for logistics.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: berkeley-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-8c5f0303e18df867
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Ambi Robotics is headquartered in Berkeley.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2018-01-01'
+  valid_from: '2018-01-01'
+  evidence:
+  - source: enrich-8c5f0303e18df867
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Ambi Robotics was established in 2018 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: US

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "b45e8da4-96d8-5b2a-b559-60260894a84d",
+    "subject": {
+      "id": "a1cb2e01-3aab-5fa2-925d-4f4458bf0bf4",
+      "slug": "engineai",
+      "entity_type": "ORGANIZATION",
+      "name": "EngineAI",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "EngineAI role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "301424c6-3a7b-5d2e-9b88-eedde7344b1f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds humanoid and quadruped robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8188db31-7d95-5a98-9bc3-bb305765f4ae",
+        "url": "https://www.engineai.com.cn/",
+        "canonical_url": null,
+        "publisher": "EngineAI",
+        "title": "EngineAI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -4,7 +4,7 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 60
+      "count": 63
     },
     {
       "id": "SUPPLIED",
@@ -253,6 +253,54 @@
     },
     {
       "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 22.54,
+      "lng": 114.06,
+      "country_code": "CN",
+      "cluster_label": "Shenzhen",
+      "weight": 3,
+      "entities": [
+        {
+          "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
+          "slug": "dji",
+          "entity_type": "ORGANIZATION",
+          "name": "DJI",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "593e0170-e678-51f0-8d2f-14e0b1d5e7e2",
+          "slug": "limx-dynamics",
+          "entity_type": "ORGANIZATION",
+          "name": "LimX Dynamics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
+          "slug": "ubtech",
+          "entity_type": "ORGANIZATION",
+          "name": "UBTech Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c9625e94-0914-541a-a773-0c673a77a1fd",
         "slug": "austin",
         "entity_type": "PLACE",
@@ -407,44 +455,6 @@
     },
     {
       "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
-        "entity_type": "PLACE",
-        "name": "Shenzhen",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 22.54,
-      "lng": 114.06,
-      "country_code": "CN",
-      "cluster_label": "Shenzhen",
-      "weight": 2,
-      "entities": [
-        {
-          "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
-          "slug": "dji",
-          "entity_type": "ORGANIZATION",
-          "name": "DJI",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        },
-        {
-          "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
-          "slug": "ubtech",
-          "entity_type": "ORGANIZATION",
-          "name": "UBTech Robotics",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
         "slug": "tokyo",
         "entity_type": "PLACE",
@@ -568,6 +578,62 @@
           "slug": "kuka",
           "entity_type": "ORGANIZATION",
           "name": "KUKA",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+        "slug": "berkeley-us",
+        "entity_type": "PLACE",
+        "name": "Berkeley",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.87159,
+      "lng": -122.27275,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "2a4815f5-ec84-58f0-90b8-12f0d1220b4e",
+          "slug": "ambi-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Ambi Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "90ae3d29-d4f5-54c6-a5c4-d07c465f9630",
+        "slug": "bremen-de",
+        "entity_type": "PLACE",
+        "name": "Bremen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 53.07582,
+      "lng": 8.80717,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "bd88f7a9-c3ea-5a84-a682-942ec2643d25",
+          "slug": "cellumation",
+          "entity_type": "ORGANIZATION",
+          "name": "cellumation",
           "primary_embodiment": null,
           "roles": [
             "OEM"
@@ -1406,13 +1472,13 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 28,
-      "places": 17
+      "weight": 29,
+      "places": 18
     },
     {
       "id": "CN",
       "label": "CN",
-      "weight": 9,
+      "weight": 10,
       "places": 4
     },
     {
@@ -1428,14 +1494,14 @@
       "places": 2
     },
     {
-      "id": "CA",
-      "label": "CA",
-      "weight": 2,
-      "places": 2
-    },
-    {
       "id": "DE",
       "label": "DE",
+      "weight": 3,
+      "places": 3
+    },
+    {
+      "id": "CA",
+      "label": "CA",
       "weight": 2,
       "places": 2
     },
@@ -1508,6 +1574,12 @@
       "places": 1
     },
     {
+      "id": "Shenzhen",
+      "label": "Shenzhen",
+      "weight": 3,
+      "places": 1
+    },
+    {
       "id": "Austin",
       "label": "Austin",
       "weight": 2,
@@ -1528,12 +1600,6 @@
     {
       "id": "Odense",
       "label": "Odense",
-      "weight": 2,
-      "places": 1
-    },
-    {
-      "id": "Shenzhen",
-      "label": "Shenzhen",
       "weight": 2,
       "places": 1
     },
@@ -1982,6 +2048,66 @@
     },
     {
       "entity": {
+        "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
+        "slug": "dji",
+        "entity_type": "ORGANIZATION",
+        "name": "DJI",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "593e0170-e678-51f0-8d2f-14e0b1d5e7e2",
+        "slug": "limx-dynamics",
+        "entity_type": "ORGANIZATION",
+        "name": "LimX Dynamics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
+        "slug": "ubtech",
+        "entity_type": "ORGANIZATION",
+        "name": "UBTech Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
         "slug": "apptronik",
         "entity_type": "ORGANIZATION",
@@ -2144,46 +2270,6 @@
     },
     {
       "entity": {
-        "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
-        "slug": "dji",
-        "entity_type": "ORGANIZATION",
-        "name": "DJI",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
-        "entity_type": "PLACE",
-        "name": "Shenzhen",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
-        "slug": "ubtech",
-        "entity_type": "ORGANIZATION",
-        "name": "UBTech Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
-        "entity_type": "PLACE",
-        "name": "Shenzhen",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
         "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
         "slug": "kawasaki-heavy-industries",
         "entity_type": "ORGANIZATION",
@@ -2299,6 +2385,46 @@
         "slug": "augsburg",
         "entity_type": "PLACE",
         "name": "Augsburg",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "2a4815f5-ec84-58f0-90b8-12f0d1220b4e",
+        "slug": "ambi-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Ambi Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+        "slug": "berkeley-us",
+        "entity_type": "PLACE",
+        "name": "Berkeley",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "bd88f7a9-c3ea-5a84-a682-942ec2643d25",
+        "slug": "cellumation",
+        "entity_type": "ORGANIZATION",
+        "name": "cellumation",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "90ae3d29-d4f5-54c6-a5c4-d07c465f9630",
+        "slug": "bremen-de",
+        "entity_type": "PLACE",
+        "name": "Bremen",
         "primary_embodiment": null,
         "roles": []
       }

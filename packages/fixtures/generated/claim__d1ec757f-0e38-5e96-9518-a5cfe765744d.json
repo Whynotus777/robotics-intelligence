@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "d1ec757f-0e38-5e96-9518-a5cfe765744d",
+    "subject": {
+      "id": "0ac717b4-2dd4-5ca3-a5e5-8e84f4374067",
+      "slug": "svt-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "SVT Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "SVT Robotics role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b596fd9d-a677-572f-b32a-0ee45e768b4b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides SOFTBOT software to integrate robots with warehouse workflows.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3ba12690-fde6-578f-8050-f2b230fabe86",
+        "url": "https://group.dhl.com/en/media-relations/press-releases/2026/dhl-supply-chain-accelerates-automation-deployments-with-stv-robotics-softbot-platform.html",
+        "canonical_url": null,
+        "publisher": "SVT Robotics",
+        "title": "SVT Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "1f1a1cf6-6071-50b1-90f7-5f47c23f19a1",
+      "value": {
+        "kind": "enum",
+        "value": "INTEGRATOR"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

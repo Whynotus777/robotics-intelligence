@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "e2c358cc-a27c-5bfc-94ae-11433879ea95",
+    "subject": {
+      "id": "dd23c052-5b08-5fc3-8727-53290033126b",
+      "slug": "honeywell-intelligrated",
+      "entity_type": "ORGANIZATION",
+      "name": "Honeywell Intelligrated",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Honeywell Intelligrated role INTEGRATOR",
+    "value": {
+      "kind": "enum",
+      "value": "INTEGRATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "25356949-1c28-5981-ad52-54a5f9eefceb",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Integrates warehouse automation, robotics and execution software.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "796654e8-afa1-55db-b496-fa9ab81c6f7b",
+        "url": "https://automation.honeywell.com/us/en/products/warehouse-automation",
+        "canonical_url": null,
+        "publisher": "Honeywell Intelligrated",
+        "title": "Honeywell Intelligrated — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "bc0b408b-358f-594e-81bf-10657ecf5305",
+    "subject": {
+      "id": "6b17293f-2bce-55a1-bfd3-716bff03b97c",
+      "slug": "hello-robot",
+      "entity_type": "ORGANIZATION",
+      "name": "Hello Robot",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Hello Robot role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "eadd9a34-441b-5f03-89ad-eb7db78d3089",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds Stretch mobile manipulators for assistive applications and research.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "4ce82153-1f6a-5fe1-b99d-01d6cc02774a",
+        "url": "https://hello-robot.com/",
+        "canonical_url": null,
+        "publisher": "Hello Robot",
+        "title": "Hello Robot — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

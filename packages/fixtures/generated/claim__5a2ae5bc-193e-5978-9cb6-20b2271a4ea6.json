@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "5a2ae5bc-193e-5978-9cb6-20b2271a4ea6",
+    "subject": {
+      "id": "fd3fa421-aff0-5f6b-bbbf-c0e511d7ac52",
+      "slug": "wing",
+      "entity_type": "ORGANIZATION",
+      "name": "Wing",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Wing role OPERATOR",
+    "value": {
+      "kind": "enum",
+      "value": "OPERATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7640ee68-a9e6-5fd0-98d6-0ebf881ddc38",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds and operates delivery drones.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ff03149b-4a1f-530b-ab8b-a90152db70cf",
+        "url": "https://wing.com/news/flytrex-wing-strategic-flight-coordination",
+        "canonical_url": null,
+        "publisher": "Wing",
+        "title": "Wing — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "7a0380db-5e75-5b8a-812e-fc2945a89622",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

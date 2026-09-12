@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "df2d1202-3d04-5e29-88b0-ccdb6cf63b8d",
+    "subject": {
+      "id": "02713306-1ec3-54f7-a0f8-a6618ddcaed0",
+      "slug": "dematic",
+      "entity_type": "ORGANIZATION",
+      "name": "Dematic",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Dematic role INTEGRATOR",
+    "value": {
+      "kind": "enum",
+      "value": "INTEGRATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4687e8f1-cae8-5f84-96ba-660e3d4078fa",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Integrates robotic warehouse and distribution-center automation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "fc705b5d-05f0-5279-b8ba-b42a6eb0d846",
+        "url": "https://www.dematic.com/",
+        "canonical_url": null,
+        "publisher": "Dematic",
+        "title": "Dematic — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

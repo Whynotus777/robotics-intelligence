@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "b934b547-7db3-5cfc-a32e-9ab0e505b394",
+    "subject": {
+      "id": "3c390220-cd8f-517d-8033-23b95f2ab8c2",
+      "slug": "persona-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Persona AI",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Persona AI role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8212f7e9-ff8e-5fc9-87c8-2a227eb794a0",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops industrial humanoid robots for skilled work in shipyards and construction.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "e6e1176e-84af-536d-88bc-dad6e26a9240",
+        "url": "https://persona.ai/",
+        "canonical_url": null,
+        "publisher": "Persona AI",
+        "title": "Persona AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

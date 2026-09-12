@@ -1,0 +1,35 @@
+slug: cellumation
+entity_type: ORGANIZATION
+name: cellumation
+short_description: Builds modular robotic conveyor systems for intralogistics.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-aa6e54c7b41799a4
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds modular robotic conveyor systems for intralogistics.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: bremen-de
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-aa6e54c7b41799a4
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: cellumation is headquartered in Bremen.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2017-01-01'
+  valid_from: '2017-01-01'
+  evidence:
+  - source: enrich-aa6e54c7b41799a4
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: cellumation was established in 2017 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: DE

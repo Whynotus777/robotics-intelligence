@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "e70c8955-370c-5c4e-8d89-c5e98a4645d1",
+    "subject": {
+      "id": "b2019a1f-8ed0-51fd-9f1f-889ae8ff6290",
+      "slug": "cyngn",
+      "entity_type": "ORGANIZATION",
+      "name": "Cyngn",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Cyngn role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0bb0f672-31ff-57f1-8377-78d8a6a18d8e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops autonomous industrial vehicle systems and retrofit software.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "70fe6ca8-4189-5dd6-9a84-081faf0dba00",
+        "url": "https://www.cyngn.com/about",
+        "canonical_url": null,
+        "publisher": "Cyngn",
+        "title": "Cyngn — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "c2bb0a50-e656-54bf-bb90-f17fcbb7f1cb",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

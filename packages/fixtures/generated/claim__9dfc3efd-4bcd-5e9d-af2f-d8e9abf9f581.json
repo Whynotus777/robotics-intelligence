@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "9dfc3efd-4bcd-5e9d-af2f-d8e9abf9f581",
+    "subject": {
+      "id": "ab0fd4f5-73cc-54b6-b885-a5a709673cf6",
+      "slug": "swisslog",
+      "entity_type": "ORGANIZATION",
+      "name": "Swisslog",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Swisslog role INTEGRATOR",
+    "value": {
+      "kind": "enum",
+      "value": "INTEGRATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a8130587-29e5-5ca7-b46b-a8cda98e1caa",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Integrates robotic storage and picking systems for warehouses.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "875937c5-839d-53dc-9d1e-6283a32af88a",
+        "url": "https://www.swisslog.com/",
+        "canonical_url": null,
+        "publisher": "Swisslog",
+        "title": "Swisslog — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "2106a0c0-cce3-584f-abad-820a01573a5e",
+    "subject": {
+      "id": "2a4815f5-ec84-58f0-90b8-12f0d1220b4e",
+      "slug": "ambi-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Ambi Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Ambi Robotics is headquartered at Berkeley",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
+        "slug": "berkeley-us",
+        "entity_type": "PLACE",
+        "name": "Berkeley",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0756b996-d790-5a09-a881-278a2deb1709",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Ambi Robotics is headquartered in Berkeley.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "71a50f3f-6e43-5bf3-806f-d516c92af6fe",
+        "url": "https://www.ambirobotics.com/media/ambistack-rbr50-innovation-award-2026",
+        "canonical_url": null,
+        "publisher": "Ambi Robotics",
+        "title": "Ambi Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

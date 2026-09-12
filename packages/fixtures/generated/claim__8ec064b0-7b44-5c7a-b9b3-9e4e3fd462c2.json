@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "8ec064b0-7b44-5c7a-b9b3-9e4e3fd462c2",
+    "subject": {
+      "id": "fa05bb8b-8288-53b6-9088-f3117e4d4788",
+      "slug": "epson-robots",
+      "entity_type": "ORGANIZATION",
+      "name": "Epson Robots",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Epson Robots role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "21142a17-e8db-5f02-b21b-400b14fe8ea9",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Manufactures SCARA and six-axis robots for precision assembly.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "89ade34a-f701-5dae-92a6-5410cd54dd8b",
+        "url": "https://epson.com/For-Work/Robots/c/w8",
+        "canonical_url": null,
+        "publisher": "Epson Robots",
+        "title": "Epson Robots — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}
