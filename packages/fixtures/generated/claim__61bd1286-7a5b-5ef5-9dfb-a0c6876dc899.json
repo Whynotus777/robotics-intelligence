@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "61bd1286-7a5b-5ef5-9dfb-a0c6876dc899",
+    "subject": {
+      "id": "04e07ffc-e236-55b1-b6cd-b4158ac3f80b",
+      "slug": "southwest-research-institute-swri",
+      "entity_type": "ORGANIZATION",
+      "name": "Southwest Research Institute (SwRI)",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Southwest Research Institute (SwRI) role INTEGRATOR",
+    "value": {
+      "kind": "enum",
+      "value": "INTEGRATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3515535b-30d9-53a6-b388-e3d893fb5745",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Conducts applied industrial robotics research and supports ROS-based automation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "646b7f07-7d83-508d-8dff-3a243845c2ce",
+        "url": "https://www.swri.org/markets/manufacturing-construction/manufacturing-technologies/industrial-robotics-automation/ros-industrial-consortium",
+        "canonical_url": null,
+        "publisher": "Southwest Research Institute (SwRI)",
+        "title": "Southwest Research Institute (SwRI) — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "f17d04de-51d3-5f83-a2be-35ed4cc256f4",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

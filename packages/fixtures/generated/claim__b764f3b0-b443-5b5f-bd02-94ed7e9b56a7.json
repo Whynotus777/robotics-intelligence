@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "b764f3b0-b443-5b5f-bd02-94ed7e9b56a7",
+    "subject": {
+      "id": "3e6da89d-8b91-5b73-9d57-99fbc9aa8ec2",
+      "slug": "oxipital-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Oxipital AI",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Oxipital AI role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c900d335-14a8-54ab-b52b-8d476437d62d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops AI-based visual inspection and automation software; formerly Soft Robotics.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5c8575cb-cc33-5ba8-b45f-f8a71d8f9082",
+        "url": "https://www.softroboticsinc.com/",
+        "canonical_url": null,
+        "publisher": "Oxipital AI",
+        "title": "Oxipital AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "3cf2d2c8-cead-500f-990d-0ca1c1e4ad45",
+    "subject": {
+      "id": "abc8e142-ca16-50e2-ace3-f3ce803a04cd",
+      "slug": "nxp-semiconductors",
+      "entity_type": "ORGANIZATION",
+      "name": "NXP Semiconductors",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "NXP Semiconductors role CHIPMAKER",
+    "value": {
+      "kind": "enum",
+      "value": "CHIPMAKER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ab541504-2aad-52f0-aa6a-be3c0883ee6c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops processors, connectivity and control chips for autonomous robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "b1a30ae0-c3f5-5dab-a299-f387414f5627",
+        "url": "https://www.nxp.com/applications/industrial/robotics:ROBOTICS",
+        "canonical_url": null,
+        "publisher": "NXP Semiconductors",
+        "title": "NXP Semiconductors — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "de0ce4d5-ce90-5dbf-9c0c-d2c89b01adb6",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

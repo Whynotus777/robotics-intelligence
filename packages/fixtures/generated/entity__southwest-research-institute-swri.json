@@ -1,0 +1,120 @@
+{
+  "entity": {
+    "id": "04e07ffc-e236-55b1-b6cd-b4158ac3f80b",
+    "slug": "southwest-research-institute-swri",
+    "entity_type": "ORGANIZATION",
+    "name": "Southwest Research Institute (SwRI)",
+    "short_description": "Conducts applied industrial robotics research and supports ROS-based automation.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [
+      "SwRI"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "INTEGRATOR",
+      "declared": true,
+      "claim_id": "61bd1286-7a5b-5ef5-9dfb-a0c6876dc899",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    },
+    {
+      "role": "RESEARCH_LAB",
+      "declared": true,
+      "claim_id": "f17d04de-51d3-5f83-a2be-35ed4cc256f4",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "61bd1286-7a5b-5ef5-9dfb-a0c6876dc899",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "INTEGRATOR"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "f17d04de-51d3-5f83-a2be-35ed4cc256f4",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "RESEARCH_LAB"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [],
+  "lateral_links": {},
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 0
+  },
+  "as_of": null
+}

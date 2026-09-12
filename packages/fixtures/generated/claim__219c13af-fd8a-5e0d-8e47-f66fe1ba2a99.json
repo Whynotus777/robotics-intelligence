@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "219c13af-fd8a-5e0d-8e47-f66fe1ba2a99",
+    "subject": {
+      "id": "5b23498d-4b1d-5f2b-9a62-f0db37a614e9",
+      "slug": "shadow-robot-company",
+      "entity_type": "ORGANIZATION",
+      "name": "Shadow Robot Company",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Shadow Robot Company role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ebc9102d-01ea-52ba-9cca-23077512d11e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops dexterous robotic hands and teleoperation systems.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5439f4f6-4b24-56f3-b15d-3ae536e230ed",
+        "url": "https://shadowrobot.com/",
+        "canonical_url": null,
+        "publisher": "Shadow Robot Company",
+        "title": "Shadow Robot Company — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

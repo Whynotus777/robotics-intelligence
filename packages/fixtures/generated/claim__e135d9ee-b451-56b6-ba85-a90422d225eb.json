@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "e135d9ee-b451-56b6-ba85-a90422d225eb",
+    "subject": {
+      "id": "e157429e-5734-51bd-83fa-d943a780e06c",
+      "slug": "jabil",
+      "entity_type": "ORGANIZATION",
+      "name": "Jabil",
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Jabil role CONTRACT_MANUFACTURER",
+    "value": {
+      "kind": "enum",
+      "value": "CONTRACT_MANUFACTURER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e821d414-f955-551b-9300-d1bd8d3c6e74",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides electronics engineering and contract manufacturing services including robotics.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "b770a092-6084-50a6-ad08-5601823f6a0f",
+        "url": "https://www.jabil.com/",
+        "canonical_url": null,
+        "publisher": "Jabil",
+        "title": "Jabil — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

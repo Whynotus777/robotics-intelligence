@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "c3f8fb43-295f-5b73-acd4-340ba9f2b60f",
+    "subject": {
+      "id": "10c304e1-55b1-51c0-a37b-d0b3dde4e5d1",
+      "slug": "tesollo",
+      "entity_type": "ORGANIZATION",
+      "name": "Tesollo",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Tesollo was founded on 2019-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2019-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2019-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e366e624-8eaf-5700-a5c1-c73ada13900c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Tesollo was established in 2019 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a6ae93f2-753b-55a0-b70a-941c28a68df8",
+        "url": "https://tesollo.com/",
+        "canonical_url": null,
+        "publisher": "Tesollo",
+        "title": "Tesollo — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

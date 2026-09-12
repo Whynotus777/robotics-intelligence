@@ -452,6 +452,33 @@
       "origin": "SEED"
     },
     {
+      "id": "0f92a907-0362-5fd2-81e4-213e9bc3f57d",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "17b77ab9-f2f1-545a-b3b6-337de58c658e",
+        "slug": "byd-electronics",
+        "entity_type": "ORGANIZATION",
+        "name": "BYD Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "CONTRACT_MANUFACTURER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Contract manufacturer",
+      "origin": "SEED"
+    },
+    {
       "id": "0f9ae476-6f1e-52f3-ae8a-7754f28bd649",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -737,6 +764,34 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to OEM",
+      "origin": "SEED"
+    },
+    {
+      "id": "1635be91-afff-5eba-8bda-13c842acc2c5",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "abc8e142-ca16-50e2-ace3-f3ce803a04cd",
+        "slug": "nxp-semiconductors",
+        "entity_type": "ORGANIZATION",
+        "name": "NXP Semiconductors",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "CHIPMAKER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Chipmaker",
       "origin": "SEED"
     },
     {
@@ -1354,60 +1409,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Component supplier",
-      "origin": "SEED"
-    },
-    {
-      "id": "24873c1b-4b5b-5765-b4b5-2a2b52f57a43",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "769adb7d-eec3-58cf-8f6d-2448fb3ed6e5",
-        "slug": "basler",
-        "entity_type": "ORGANIZATION",
-        "name": "Basler",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "COMPONENT_SUPPLIER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Component supplier",
-      "origin": "SEED"
-    },
-    {
-      "id": "24cce476-4ef1-5c73-a796-3295d2b31521",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
-        "slug": "eclipse-ventures",
-        "entity_type": "ORGANIZATION",
-        "name": "Eclipse Ventures",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "INVESTOR"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Investor",
       "origin": "SEED"
     }
   ]
