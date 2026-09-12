@@ -31,4 +31,14 @@ claims:
       - A primary company profile or filing confirms this headquarters city.
       regress_criteria:
       - Primary evidence identifies a different headquarters or contradicts the roster location.
+- predicate: PART_OF
+  object: ubiquity-global-services
+  valid_from: '2026-02-28'
+  qualifier: Affiliation effective by end of disclosed acquisition month; day of closing unknown
+  evidence:
+  - source: enrich-feb8c0c207320b6a
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Shaip states it joined Ubiquity Global Services in February 2026 and continues operating within it.
+    observed_at: '2026-09-11'
 country_code: US

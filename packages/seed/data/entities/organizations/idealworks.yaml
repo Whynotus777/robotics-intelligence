@@ -50,4 +50,15 @@ claims:
       - A primary company profile or filing confirms this headquarters city.
       regress_criteria:
       - Primary evidence identifies a different headquarters or contradicts the roster location.
+- predicate: PART_OF
+  object: agile-robots
+  valid_from: '2026-01-30'
+  qualifier: Subsidiary confirmed by dated product publication; exact closing date not asserted
+  evidence:
+  - source: enrich-861d674d9d09eade
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Agile Robots lists idealworks among its subsidiaries; the earlier October 2023 announcement was subject
+      to approval.
+    observed_at: '2026-09-11'
 country_code: DE

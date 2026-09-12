@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "eced7ad8-675e-5285-aa6d-abb9df150394",
+    "subject": {
+      "id": "17b77ab9-f2f1-545a-b3b6-337de58c658e",
+      "slug": "byd-electronics",
+      "entity_type": "ORGANIZATION",
+      "name": "BYD Electronics",
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "BYD Electronics is part of BYD",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "87875f6a-45f9-5af2-af6a-5debd59001fc",
+        "slug": "byd",
+        "entity_type": "ORGANIZATION",
+        "name": "BYD",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Control documented by dated shareholder circular; original control date not asserted",
+    "status": "APPROVED",
+    "valid_from": "2024-02-25",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e244286a-b2ec-57f1-9609-52c62e716343",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "The company identifies BYD as its indirect controlling shareholder with approximately 65.76 percent of issued shares.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bca2989b-b7d0-5fc1-94a1-5189a0e3c9be",
+        "url": "https://www.byd-electronics.com/material/electronics-official/investor-relations/notice/notice/en/240225.pdf",
+        "canonical_url": null,
+        "publisher": "BYD",
+        "title": "BYD — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

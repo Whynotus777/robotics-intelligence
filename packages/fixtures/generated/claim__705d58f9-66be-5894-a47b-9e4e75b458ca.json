@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "705d58f9-66be-5894-a47b-9e4e75b458ca",
+    "subject": {
+      "id": "01838eab-6fe5-529a-8a6c-9c367c431ace",
+      "slug": "rainbow-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Rainbow Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Rainbow Robotics is part of Samsung Electronics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+        "slug": "samsung",
+        "entity_type": "ORGANIZATION",
+        "name": "Samsung Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER",
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Acquisition completion; control through board appointment rights",
+    "status": "APPROVED",
+    "valid_from": "2025-03-12",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9d42b9f5-58b6-5213-9560-ef7223ee73e0",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Note 29 states completion on March 12, 2025 and consolidation through control of board appointments.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d9f90264-58b5-5f33-ac18-74e363336b3b",
+        "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_con_quarter02_all.pdf",
+        "canonical_url": null,
+        "publisher": "Samsung Electronics",
+        "title": "Samsung Electronics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

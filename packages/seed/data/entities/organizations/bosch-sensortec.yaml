@@ -40,4 +40,24 @@ claims:
       - A primary company profile or filing confirms this headquarters city.
       regress_criteria:
       - Primary evidence identifies a different headquarters or contradicts the roster location.
+- predicate: FOUNDED_ON
+  date: '2005-01-01'
+  valid_from: '2005-01-01'
+  evidence:
+  - source: enrich-a2ce602076ba69cd
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Bosch Sensortec was established in 2005 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: PART_OF
+  object: robert-bosch
+  valid_from: '2026-09-11'
+  qualifier: Current group affiliation verified on this date; original acquisition date not asserted
+  evidence:
+  - source: enrich-a2ce602076ba69cd
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Bosch Sensortec describes itself as a wholly owned Bosch subsidiary, founded in 2005.
+    observed_at: '2026-09-11'
 country_code: DE

@@ -1,0 +1,21 @@
+slug: seiko-epson
+entity_type: ORGANIZATION
+name: Seiko Epson
+short_description: Seiko Epson is the parent organization of Epson Robots.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-512b71333dc8bfff
+    excerpt: Seiko Epson is the parent organization of Epson Robots.
+    assessment:
+      rationale: Seiko Epson is the parent organization of Epson Robots. The platform role describes involvement
+        across robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.

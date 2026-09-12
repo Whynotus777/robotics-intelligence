@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "ddd91e9e-9314-5be9-a67f-fd3b3b1b5bf2",
+    "subject": {
+      "id": "320d3e3b-57ff-5fea-a8ca-49a0b346ef5a",
+      "slug": "hd-hyundai",
+      "entity_type": "ORGANIZATION",
+      "name": "HD Hyundai",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "HD Hyundai role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e3d1d7e5-5d8d-5e26-8724-e9ca1778929b",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "HD Hyundai is the parent organization of HD Hyundai Robotics.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "3134c14f-7b18-5532-8690-72004ef57715",
+        "url": "https://esg.hd.com/en/news/949",
+        "canonical_url": null,
+        "publisher": "HD Hyundai",
+        "title": "HD Hyundai — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "HD Hyundai is the parent organization of HD Hyundai Robotics. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -27,7 +27,7 @@
       "measure": null
     },
     "stack_layer": null,
-    "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+    "qualifier": null,
     "status": "APPROVED",
     "valid_from": "2026-09-11",
     "valid_to": null,
@@ -39,35 +39,23 @@
   "evidence": [
     {
       "id": "1affb863-d5c5-5a31-89bb-7c99f7d0d663",
-      "class": "ANALYST",
-      "confidence": "LOW",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
       "stance": "SUPPORTS",
-      "excerpt": "The supplied roster lists Stanford, US as the headquarters city; this location has not been independently confirmed.",
+      "excerpt": "Stanford Robotics Center is headquartered in Stanford.",
       "published_at": null,
       "observed_at": "2026-09-11T00:00:00.000Z",
       "source": {
-        "id": "d243cf63-e2ad-5203-876f-501f98675af3",
-        "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/platforms-investors-labs.csv",
+        "id": "f28b5e51-b08d-51a7-a77d-18971e5db2e4",
+        "url": "https://news.stanford.edu/stories/2024/11/new-center-unites-stanfords-robotics-expertise-under-one-roof",
         "canonical_url": null,
-        "publisher": "Robotics Intelligence candidate roster",
-        "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+        "publisher": "Stanford Robotics Center",
+        "title": "Stanford Robotics Center — robotics enrichment reference",
         "source_kind": "OTHER",
         "published_at": null,
         "language": "en"
       },
-      "assessment": {
-        "author": "editorial",
-        "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
-        "advance_criteria": [
-          "A primary company profile or filing confirms this headquarters city."
-        ],
-        "regress_criteria": [
-          "Primary evidence identifies a different headquarters or contradicts the roster location."
-        ],
-        "evidence_considered": [],
-        "reviewed_at": "2026-09-01T00:00:00.000Z",
-        "notes": null
-      }
+      "assessment": null
     }
   ],
   "history": [],

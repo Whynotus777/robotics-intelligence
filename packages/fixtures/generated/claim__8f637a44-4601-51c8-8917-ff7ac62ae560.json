@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "8f637a44-4601-51c8-8917-ff7ac62ae560",
+    "subject": {
+      "id": "741f1002-cc4c-5800-83b9-23a2acedbdd3",
+      "slug": "omron-robotics-and-safety-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "OMRON Robotics and Safety Technologies",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "OMRON Robotics and Safety Technologies is part of Omron",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
+        "slug": "omron",
+        "entity_type": "ORGANIZATION",
+        "name": "Omron",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current group affiliation verified on this date; original acquisition date not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1f4c44c9-ba96-54b3-ba67-a8de1df18bba",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Omron describes its robotics business as part of the Industrial Automation Business.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "4bc2e548-fc60-5f0a-8225-192b351dc895",
+        "url": "https://robotics.omron.com/news/omron-comau-partnership/",
+        "canonical_url": null,
+        "publisher": "OMRON",
+        "title": "OMRON — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

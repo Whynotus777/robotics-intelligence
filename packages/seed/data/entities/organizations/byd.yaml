@@ -1,0 +1,21 @@
+slug: byd
+entity_type: ORGANIZATION
+name: BYD
+short_description: BYD is the parent organization of BYD Electronics.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-17ddbfe8aed105be
+    excerpt: BYD is the parent organization of BYD Electronics.
+    assessment:
+      rationale: BYD is the parent organization of BYD Electronics. The platform role describes involvement across
+        robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.

@@ -31,4 +31,14 @@ claims:
       - A primary company profile or filing confirms this headquarters city.
       regress_criteria:
       - Primary evidence identifies a different headquarters or contradicts the roster location.
+- predicate: PART_OF
+  object: omron
+  valid_from: '2026-09-11'
+  qualifier: Current group affiliation verified on this date; original acquisition date not asserted
+  evidence:
+  - source: enrich-60c45443617b1ee1
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Omron describes its robotics business as part of the Industrial Automation Business.
+    observed_at: '2026-09-11'
 country_code: JP

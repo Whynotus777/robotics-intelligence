@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "e35c5454-6cd8-5304-be84-8bae4439b425",
+    "subject": {
+      "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+      "slug": "ubiquity-global-services",
+      "entity_type": "ORGANIZATION",
+      "name": "Ubiquity Global Services",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Ubiquity Global Services role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "16befce4-5235-560c-b0d1-711501c53ace",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Business services group whose Shaip subsidiary supplies physical AI and robotics training data.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "9a7018db-5015-5b4d-97b2-0bf0c5ce65a2",
+        "url": "https://www.shaip.com/about/",
+        "canonical_url": null,
+        "publisher": "Ubiquity Global Services",
+        "title": "Ubiquity Global Services — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Business services group whose Shaip subsidiary supplies physical AI and robotics training data. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

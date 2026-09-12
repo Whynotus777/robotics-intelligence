@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "ee3611a3-c6d7-51a9-bcb5-8ca2fa2b2b76",
+    "subject": {
+      "id": "7c3f1312-e098-5632-9136-812a1bf6987b",
+      "slug": "hd-hyundai-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "HD Hyundai Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "HD Hyundai Robotics is part of HD Hyundai",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "320d3e3b-57ff-5fea-a8ca-49a0b346ef5a",
+        "slug": "hd-hyundai",
+        "entity_type": "ORGANIZATION",
+        "name": "HD Hyundai",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Subsidiary confirmed by this publication date; original control date not asserted",
+    "status": "APPROVED",
+    "valid_from": "2025-07-02",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "80fcd27a-cc34-5e28-8a0b-c0f299396c1f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "HD Hyundai identifies HD Hyundai Robotics as its robotics subsidiary.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3134c14f-7b18-5532-8690-72004ef57715",
+        "url": "https://esg.hd.com/en/news/949",
+        "canonical_url": null,
+        "publisher": "HD Hyundai",
+        "title": "HD Hyundai — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

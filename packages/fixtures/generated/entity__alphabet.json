@@ -66,6 +66,21 @@
     },
     {
       "organization": {
+        "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
+        "slug": "google-deepmind",
+        "entity_type": "ORGANIZATION",
+        "name": "Google DeepMind",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2023-04-20",
+      "claim_id": "ca726e1b-b30f-5aa8-be3e-c00b21f770a1"
+    },
+    {
+      "organization": {
         "id": "cd542423-3dd5-591c-8636-b0684f26f1eb",
         "slug": "intrinsic",
         "entity_type": "ORGANIZATION",
@@ -348,6 +363,29 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "ca726e1b-b30f-5aa8-be3e-c00b21f770a1",
+          "source": {
+            "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
+            "slug": "google-deepmind",
+            "entity_type": "ORGANIZATION",
+            "name": "Google DeepMind",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Group affiliation through Google; formation of combined Google DeepMind unit",
+          "valid_from": "2023-04-20",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -362,6 +400,17 @@
         "primary_embodiment": null,
         "roles": [
           "INVESTOR"
+        ]
+      },
+      {
+        "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
+        "slug": "google-deepmind",
+        "entity_type": "ORGANIZATION",
+        "name": "Google DeepMind",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
         ]
       },
       {
@@ -435,7 +484,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 6
+    "related_count": 7
   },
   "as_of": null
 }

@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "bbb3a541-ad34-56df-9f42-ded5cee5c3ab",
+    "subject": {
+      "id": "f2ccd141-2607-5dbc-b3ab-c2dfda6252cb",
+      "slug": "bear-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Bear Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Bear Robotics is part of LG Electronics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "1c3a5b94-7476-5678-a0e7-c183150649c9",
+        "slug": "lg-electronics",
+        "entity_type": "ORGANIZATION",
+        "name": "LG Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OEM",
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Control confirmed by this announcement date; exact legal closing date not asserted",
+    "status": "APPROVED",
+    "valid_from": "2025-01-28",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "78a2b806-f598-5765-a0fd-84734d7c1cd9",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "LG states it has acquired a 51 percent controlling stake and Bear is now its subsidiary.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3dcff59c-a1df-5908-9354-b6315de39665",
+        "url": "https://www.lg.com/es/acerca-de-lg/comunicados-de-prensa/lg-adquiere-una-participacion-mayoritaria-de-bear-robotics-para-/",
+        "canonical_url": null,
+        "publisher": "LG Electronics",
+        "title": "LG Electronics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

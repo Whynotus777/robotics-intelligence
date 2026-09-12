@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "dbfb4796-12b4-5174-b587-0f6f51243026",
+    "subject": {
+      "id": "87875f6a-45f9-5af2-af6a-5debd59001fc",
+      "slug": "byd",
+      "entity_type": "ORGANIZATION",
+      "name": "BYD",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "BYD role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4b13b1ed-71b0-5900-aa50-38f222ba4a2f",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "BYD is the parent organization of BYD Electronics.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "bca2989b-b7d0-5fc1-94a1-5189a0e3c9be",
+        "url": "https://www.byd-electronics.com/material/electronics-official/investor-relations/notice/notice/en/240225.pdf",
+        "canonical_url": null,
+        "publisher": "BYD",
+        "title": "BYD — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "BYD is the parent organization of BYD Electronics. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

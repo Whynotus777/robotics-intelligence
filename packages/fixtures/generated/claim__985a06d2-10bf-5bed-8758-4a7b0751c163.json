@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "985a06d2-10bf-5bed-8758-4a7b0751c163",
+    "subject": {
+      "id": "7552bab9-2d66-5af2-b58d-9947e4e612dd",
+      "slug": "ansys",
+      "entity_type": "ORGANIZATION",
+      "name": "Ansys",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Ansys is part of Synopsys",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "581c7cc9-8475-5b34-adee-1a60403e1db7",
+        "slug": "synopsys",
+        "entity_type": "ORGANIZATION",
+        "name": "Synopsys",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Acquisition completed",
+    "status": "APPROVED",
+    "valid_from": "2025-07-17",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f06cf244-9e19-5561-9ebf-4bc36f2d92d6",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Synopsys announces the completed acquisition of Ansys.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "232d5eb4-c019-5c0c-903c-72ab2a182ea3",
+        "url": "https://investor.synopsys.com/news/news-details/2025/Synopsys-Completes-Acquisition-of-Ansys/default.aspx",
+        "canonical_url": null,
+        "publisher": "Synopsys",
+        "title": "Synopsys — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

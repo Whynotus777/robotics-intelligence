@@ -1,0 +1,80 @@
+{
+  "claim": {
+    "claim_id": "1733c214-3e75-5ef4-9b0b-ec95de0110b2",
+    "subject": {
+      "id": "1c3a5b94-7476-5678-a0e7-c183150649c9",
+      "slug": "lg-electronics",
+      "entity_type": "ORGANIZATION",
+      "name": "LG Electronics",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "OEM",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "LG Electronics role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "cdd5ec48-7503-5305-8f33-424360323a44",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops LG CLOi service robots and holds a controlling investment in Bear Robotics.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3dcff59c-a1df-5908-9354-b6315de39665",
+        "url": "https://www.lg.com/es/acerca-de-lg/comunicados-de-prensa/lg-adquiere-una-participacion-mayoritaria-de-bear-robotics-para-/",
+        "canonical_url": null,
+        "publisher": "LG Electronics",
+        "title": "LG Electronics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "22a994a7-e8c1-5009-abac-1576c575f7da",
+      "value": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    },
+    {
+      "claim_id": "d804e06b-417d-5a53-a362-fd1ff83be641",
+      "value": {
+        "kind": "enum",
+        "value": "PLATFORM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -41,4 +41,14 @@ claims:
       - A primary company profile or filing confirms this headquarters city.
       regress_criteria:
       - Primary evidence identifies a different headquarters or contradicts the roster location.
+- predicate: PART_OF
+  object: lg-electronics
+  valid_from: '2025-01-28'
+  qualifier: Control confirmed by this announcement date; exact legal closing date not asserted
+  evidence:
+  - source: enrich-d2e414d1327f1295
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: LG states it has acquired a 51 percent controlling stake and Bear is now its subsidiary.
+    observed_at: '2026-09-11'
 country_code: US

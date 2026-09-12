@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "fdc0182f-a965-5bb1-90dc-0fd4716520a5",
+    "subject": {
+      "id": "f1bee41d-05e6-5a14-8023-256327db92e7",
+      "slug": "idealworks",
+      "entity_type": "ORGANIZATION",
+      "name": "idealworks",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "idealworks is part of Agile Robots",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c9e9aebb-ae69-53e2-be08-17dc8d7e1606",
+        "slug": "agile-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Agile Robots",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Subsidiary confirmed by dated product publication; exact closing date not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-01-30",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "01be5914-f90f-5992-bb1d-f6fef2953112",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Agile Robots lists idealworks among its subsidiaries; the earlier October 2023 announcement was subject to approval.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "120df547-c951-5e2b-824a-b7e693f565c1",
+        "url": "https://www.agile-robots.com/media/files/New_website/Solutions/Thor_series/AR-ThorSeries-Productflyer-SCREEN-en-20260130.pdf",
+        "canonical_url": null,
+        "publisher": "Agile Robots",
+        "title": "Agile Robots — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

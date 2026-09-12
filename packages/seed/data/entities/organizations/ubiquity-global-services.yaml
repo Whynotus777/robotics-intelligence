@@ -1,0 +1,31 @@
+slug: ubiquity-global-services
+entity_type: ORGANIZATION
+name: Ubiquity Global Services
+short_description: Business services group whose Shaip subsidiary supplies physical AI and robotics training data.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-feb8c0c207320b6a
+    excerpt: Business services group whose Shaip subsidiary supplies physical AI and robotics training data.
+    assessment:
+      rationale: Business services group whose Shaip subsidiary supplies physical AI and robotics training data.
+        The platform role describes involvement across robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.
+- predicate: HQ_AT
+  object: new-york-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-feb8c0c207320b6a
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Ubiquity Global Services is headquartered in New York.
+    observed_at: '2026-09-11'
+country_code: US

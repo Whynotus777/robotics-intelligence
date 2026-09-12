@@ -34,7 +34,7 @@
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 17
+      "count": 18
     }
   ],
   "marks": [
@@ -258,6 +258,34 @@
     },
     {
       "place": {
+        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
+        "slug": "new-york-us",
+        "entity_type": "PLACE",
+        "name": "New York",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 40.71427,
+      "lng": -74.00597,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+          "slug": "ubiquity-global-services",
+          "entity_type": "ORGANIZATION",
+          "name": "Ubiquity Global Services",
+          "primary_embodiment": null,
+          "roles": [
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "d93cbf53-89b0-5b3b-9df9-7f3d199ea1ea",
         "slug": "north-reading-us",
         "entity_type": "PLACE",
@@ -467,8 +495,8 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 6,
-      "places": 4
+      "weight": 7,
+      "places": 5
     },
     {
       "id": "JP",
@@ -746,6 +774,26 @@
         "slug": "kariya-jp",
         "entity_type": "PLACE",
         "name": "Kariya",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+        "slug": "ubiquity-global-services",
+        "entity_type": "ORGANIZATION",
+        "name": "Ubiquity Global Services",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
+        "slug": "new-york-us",
+        "entity_type": "PLACE",
+        "name": "New York",
         "primary_embodiment": null,
         "roles": []
       }

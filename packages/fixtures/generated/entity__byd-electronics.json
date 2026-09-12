@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "87875f6a-45f9-5af2-af6a-5debd59001fc",
+      "slug": "byd",
+      "entity_type": "ORGANIZATION",
+      "name": "BYD",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "since": "2024-02-25",
+    "claim_id": "eced7ad8-675e-5285-aa6d-abb9df150394",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -90,10 +108,50 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "eced7ad8-675e-5285-aa6d-abb9df150394",
+          "target": {
+            "id": "87875f6a-45f9-5af2-af6a-5debd59001fc",
+            "slug": "byd",
+            "entity_type": "ORGANIZATION",
+            "name": "BYD",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Control documented by dated shareholder circular; original control date not asserted",
+          "valid_from": "2024-02-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "87875f6a-45f9-5af2-af6a-5debd59001fc",
+        "slug": "byd",
+        "entity_type": "ORGANIZATION",
+        "name": "BYD",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "5386047b-9431-5521-8e28-d5f238524771",
@@ -108,19 +166,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 1
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

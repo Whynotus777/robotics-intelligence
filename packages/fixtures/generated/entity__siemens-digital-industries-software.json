@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "badc40a8-7ede-5039-98ba-f22e4cbe2f3f",
+      "slug": "siemens",
+      "entity_type": "ORGANIZATION",
+      "name": "Siemens",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "54ed6bcb-8bac-5bcf-8480-faea115f5007",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -66,6 +84,34 @@
   ],
   "relationships": [
     {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "54ed6bcb-8bac-5bcf-8480-faea115f5007",
+          "target": {
+            "id": "badc40a8-7ede-5039-98ba-f22e4cbe2f3f",
+            "slug": "siemens",
+            "entity_type": "ORGANIZATION",
+            "name": "Siemens",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current group affiliation verified on this date; original acquisition date not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HQ_AT",
       "label": "is headquartered at",
       "items": [
@@ -94,6 +140,18 @@
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "badc40a8-7ede-5039-98ba-f22e4cbe2f3f",
+        "slug": "siemens",
+        "entity_type": "ORGANIZATION",
+        "name": "Siemens",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "09285d23-853c-5c2d-8801-3eed428f9826",
@@ -108,19 +166,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

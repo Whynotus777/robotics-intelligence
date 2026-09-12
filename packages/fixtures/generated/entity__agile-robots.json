@@ -26,7 +26,23 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "f1bee41d-05e6-5a14-8023-256327db92e7",
+        "slug": "idealworks",
+        "entity_type": "ORGANIZATION",
+        "name": "idealworks",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "since": "2026-01-30",
+      "claim_id": "fdc0182f-a965-5bb1-90dc-0fd4716520a5"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -147,10 +163,50 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "fdc0182f-a965-5bb1-90dc-0fd4716520a5",
+          "source": {
+            "id": "f1bee41d-05e6-5a14-8023-256327db92e7",
+            "slug": "idealworks",
+            "entity_type": "ORGANIZATION",
+            "name": "idealworks",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Subsidiary confirmed by dated product publication; exact closing date not asserted",
+          "valid_from": "2026-01-30",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "f1bee41d-05e6-5a14-8023-256327db92e7",
+        "slug": "idealworks",
+        "entity_type": "ORGANIZATION",
+        "name": "idealworks",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
       {
         "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
         "slug": "softbank-group",
@@ -189,7 +245,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

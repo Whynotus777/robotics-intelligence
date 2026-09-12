@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "0e4ca736-3081-5a7f-9fa2-9606b57f4f92",
+    "subject": {
+      "id": "a04a2558-99fa-5429-b5ce-72ad642b93b6",
+      "slug": "seiko-epson",
+      "entity_type": "ORGANIZATION",
+      "name": "Seiko Epson",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Seiko Epson role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0d139c45-3af6-55d0-9e52-07f606f9aa6e",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Seiko Epson is the parent organization of Epson Robots.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "5f113ab4-9faa-5c2b-8d68-b5c2de2003d2",
+        "url": "https://news.epson.com/news/scara-6-axis-robots-automate-2026",
+        "canonical_url": null,
+        "publisher": "Seiko Epson",
+        "title": "Seiko Epson — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Seiko Epson is the parent organization of Epson Robots. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "780743b5-5bab-55fb-833c-4224ff64ed7b",
+    "subject": {
+      "id": "42b47c38-52b4-51a9-9298-754c93db9160",
+      "slug": "shaip",
+      "entity_type": "ORGANIZATION",
+      "name": "Shaip",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Shaip is part of Ubiquity Global Services",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+        "slug": "ubiquity-global-services",
+        "entity_type": "ORGANIZATION",
+        "name": "Ubiquity Global Services",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Affiliation effective by end of disclosed acquisition month; day of closing unknown",
+    "status": "APPROVED",
+    "valid_from": "2026-02-28",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2fa70a5d-4108-5de6-9fd9-9d721a87919f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Shaip states it joined Ubiquity Global Services in February 2026 and continues operating within it.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "9a7018db-5015-5b4d-97b2-0bf0c5ce65a2",
+        "url": "https://www.shaip.com/about/",
+        "canonical_url": null,
+        "publisher": "Ubiquity Global Services",
+        "title": "Ubiquity Global Services — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

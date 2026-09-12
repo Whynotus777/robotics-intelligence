@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "dc2d02b2-71c4-596e-86c2-72ee9e00ccc7",
+      "slug": "teledyne-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "Teledyne Technologies",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "since": "2015-04-29",
+    "claim_id": "1c35b261-ff94-57ce-985b-674555e8e7bd",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -116,10 +134,50 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "1c35b261-ff94-57ce-985b-674555e8e7bd",
+          "target": {
+            "id": "dc2d02b2-71c4-596e-86c2-72ee9e00ccc7",
+            "slug": "teledyne-technologies",
+            "entity_type": "ORGANIZATION",
+            "name": "Teledyne Technologies",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Wholly owned group affiliation through Teledyne DALSA",
+          "valid_from": "2015-04-29",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "dc2d02b2-71c4-596e-86c2-72ee9e00ccc7",
+        "slug": "teledyne-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "Teledyne Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
@@ -134,19 +192,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 1
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

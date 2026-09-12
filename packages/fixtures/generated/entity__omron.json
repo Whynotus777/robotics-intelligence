@@ -36,7 +36,22 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "741f1002-cc4c-5800-83b9-23a2acedbdd3",
+        "slug": "omron-robotics-and-safety-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "OMRON Robotics and Safety Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "8f637a44-4601-51c8-8917-ff7ac62ae560"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -174,8 +189,49 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "8f637a44-4601-51c8-8917-ff7ac62ae560",
+          "source": {
+            "id": "741f1002-cc4c-5800-83b9-23a2acedbdd3",
+            "slug": "omron-robotics-and-safety-technologies",
+            "entity_type": "ORGANIZATION",
+            "name": "OMRON Robotics and Safety Technologies",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current group affiliation verified on this date; original acquisition date not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "741f1002-cc4c-5800-83b9-23a2acedbdd3",
+        "slug": "omron-robotics-and-safety-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "OMRON Robotics and Safety Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
@@ -202,7 +258,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

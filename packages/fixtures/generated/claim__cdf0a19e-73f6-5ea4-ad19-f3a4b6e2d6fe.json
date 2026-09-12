@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "cdf0a19e-73f6-5ea4-ad19-f3a4b6e2d6fe",
+    "subject": {
+      "id": "8a639460-21f1-5982-8414-8cc9f0624383",
+      "slug": "bosch-sensortec",
+      "entity_type": "ORGANIZATION",
+      "name": "Bosch Sensortec",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Bosch Sensortec is part of Robert Bosch",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "e50c61e3-e19c-566e-b6f0-85bfe37ef167",
+        "slug": "robert-bosch",
+        "entity_type": "ORGANIZATION",
+        "name": "Robert Bosch",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current group affiliation verified on this date; original acquisition date not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "91826bc2-777f-5c94-a459-7c911b3ebecf",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Bosch Sensortec describes itself as a wholly owned Bosch subsidiary, founded in 2005.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d4c4d49d-3744-5709-aca6-99605dffb6a3",
+        "url": "https://www.bosch-sensortec.com/en/careers",
+        "canonical_url": null,
+        "publisher": "Bosch Sensortec",
+        "title": "Bosch Sensortec — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

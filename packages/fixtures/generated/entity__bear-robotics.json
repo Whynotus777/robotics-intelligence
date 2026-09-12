@@ -25,7 +25,27 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "1c3a5b94-7476-5678-a0e7-c183150649c9",
+      "slug": "lg-electronics",
+      "entity_type": "ORGANIZATION",
+      "name": "LG Electronics",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "OEM",
+        "PLATFORM"
+      ]
+    },
+    "since": "2025-01-28",
+    "claim_id": "bbb3a541-ad34-56df-9f42-ded5cee5c3ab",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -116,10 +136,54 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "bbb3a541-ad34-56df-9f42-ded5cee5c3ab",
+          "target": {
+            "id": "1c3a5b94-7476-5678-a0e7-c183150649c9",
+            "slug": "lg-electronics",
+            "entity_type": "ORGANIZATION",
+            "name": "LG Electronics",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "OEM",
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Control confirmed by this announcement date; exact legal closing date not asserted",
+          "valid_from": "2025-01-28",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "1c3a5b94-7476-5678-a0e7-c183150649c9",
+        "slug": "lg-electronics",
+        "entity_type": "ORGANIZATION",
+        "name": "LG Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OEM",
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "64c572da-6e62-53c6-a163-7b492021c41b",
@@ -134,19 +198,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 3,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 1
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

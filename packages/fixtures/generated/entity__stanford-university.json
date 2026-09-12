@@ -29,6 +29,20 @@
   "subsidiaries": [
     {
       "organization": {
+        "id": "7623869d-1276-52c3-b0e7-823e9932db3e",
+        "slug": "stanford-robotics-center",
+        "entity_type": "ORGANIZATION",
+        "name": "Stanford Robotics Center",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2024-11-01",
+      "claim_id": "62241029-870f-597b-bbac-3fbce5808ddb"
+    },
+    {
+      "organization": {
         "id": "6a4a243a-3953-5199-921a-eb92623c1007",
         "slug": "stanford-vision-and-learning-lab-svl",
         "entity_type": "ORGANIZATION",
@@ -106,12 +120,44 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "62241029-870f-597b-bbac-3fbce5808ddb",
+          "source": {
+            "id": "7623869d-1276-52c3-b0e7-823e9932db3e",
+            "slug": "stanford-robotics-center",
+            "entity_type": "ORGANIZATION",
+            "name": "Stanford Robotics Center",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "University center opened",
+          "valid_from": "2024-11-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "7623869d-1276-52c3-b0e7-823e9932db3e",
+        "slug": "stanford-robotics-center",
+        "entity_type": "ORGANIZATION",
+        "name": "Stanford Robotics Center",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
       {
         "id": "6a4a243a-3953-5199-921a-eb92623c1007",
         "slug": "stanford-vision-and-learning-lab-svl",
@@ -139,7 +185,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 1,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

@@ -1,0 +1,182 @@
+{
+  "entity": {
+    "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+    "slug": "ubiquity-global-services",
+    "entity_type": "ORGANIZATION",
+    "name": "Ubiquity Global Services",
+    "short_description": "Business services group whose Shaip subsidiary supplies physical AI and robotics training data.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "PLATFORM",
+      "declared": true,
+      "claim_id": "e35c5454-6cd8-5304-be84-8bae4439b425",
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "42b47c38-52b4-51a9-9298-754c93db9160",
+        "slug": "shaip",
+        "entity_type": "ORGANIZATION",
+        "name": "Shaip",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "since": "2026-02-28",
+      "claim_id": "780743b5-5bab-55fb-833c-4224ff64ed7b"
+    }
+  ],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "e35c5454-6cd8-5304-be84-8bae4439b425",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "PLATFORM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "71a9c57e-1f96-590e-8ce7-728226e70328",
+          "target": {
+            "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
+            "slug": "new-york-us",
+            "entity_type": "PLACE",
+            "name": "New York",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "780743b5-5bab-55fb-833c-4224ff64ed7b",
+          "source": {
+            "id": "42b47c38-52b4-51a9-9298-754c93db9160",
+            "slug": "shaip",
+            "entity_type": "ORGANIZATION",
+            "name": "Shaip",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Affiliation effective by end of disclosed acquisition month; day of closing unknown",
+          "valid_from": "2026-02-28",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "42b47c38-52b4-51a9-9298-754c93db9160",
+        "slug": "shaip",
+        "entity_type": "ORGANIZATION",
+        "name": "Shaip",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
+        "slug": "new-york-us",
+        "entity_type": "PLACE",
+        "name": "New York",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 1,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 1
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

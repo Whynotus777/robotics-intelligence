@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "56c92074-eb7f-5526-a6b9-d722ec754f1f",
+    "subject": {
+      "id": "fa05bb8b-8288-53b6-9088-f3117e4d4788",
+      "slug": "epson-robots",
+      "entity_type": "ORGANIZATION",
+      "name": "Epson Robots",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Epson Robots is part of Seiko Epson",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "a04a2558-99fa-5429-b5ce-72ad642b93b6",
+        "slug": "seiko-epson",
+        "entity_type": "ORGANIZATION",
+        "name": "Seiko Epson",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current group affiliation verified on this date; original acquisition date not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "aaf51579-8ac7-5910-a05b-a7d79b301235",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Epson describes its robot business and identifies Seiko Epson as the leader of the Epson group.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5f113ab4-9faa-5c2b-8d68-b5c2de2003d2",
+        "url": "https://news.epson.com/news/scara-6-axis-robots-automate-2026",
+        "canonical_url": null,
+        "publisher": "Seiko Epson",
+        "title": "Seiko Epson — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

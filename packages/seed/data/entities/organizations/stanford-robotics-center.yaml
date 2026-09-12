@@ -16,19 +16,30 @@ claims:
 - predicate: HQ_AT
   object: stanford-us
   valid_from: '2026-09-11'
-  qualifier: Provisional roster location; city precision; independent HQ verification pending
   evidence:
-  - source: enrich-f53361677796d8de
-    class: ANALYST
-    confidence: LOW
+  - source: enrich-f73f550fc792fc8e
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Stanford Robotics Center is headquartered in Stanford.
     observed_at: '2026-09-11'
-    excerpt: The supplied roster lists Stanford, US as the headquarters city; this location has not been independently
-      confirmed.
-    assessment:
-      rationale: Provisional city-level location transcribed from the supplied research roster to support discovery.
-        It is not a verified headquarters address.
-      advance_criteria:
-      - A primary company profile or filing confirms this headquarters city.
-      regress_criteria:
-      - Primary evidence identifies a different headquarters or contradicts the roster location.
+- predicate: FOUNDED_ON
+  date: '2024-01-01'
+  valid_from: '2024-01-01'
+  evidence:
+  - source: enrich-f73f550fc792fc8e
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Stanford Robotics Center was established in 2024 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: PART_OF
+  object: stanford-university
+  valid_from: '2024-11-01'
+  qualifier: University center opened
+  evidence:
+  - source: enrich-f73f550fc792fc8e
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Stanford describes its robotics center and its opening on November 1, 2024.
+    observed_at: '2026-09-11'
 country_code: US

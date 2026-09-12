@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "6c6072c8-d488-5d7a-8dcd-ed2b56b7bf70",
+    "subject": {
+      "id": "353fa539-b3bf-5020-8e0b-ee1fae099dcf",
+      "slug": "motional",
+      "entity_type": "ORGANIZATION",
+      "name": "Motional",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Motional is part of Hyundai Motor Group",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "50c7973f-adb4-552f-a632-ce818abfc659",
+        "slug": "hyundai-motor-group",
+        "entity_type": "ORGANIZATION",
+        "name": "Hyundai Motor Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current group affiliation verified on this date; original acquisition date not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7cc8ad87-e783-5038-b7f8-00ce0cc72abd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Motional identifies Hyundai Motor Group as its majority owner.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3af7590b-791d-5914-a7a0-69133ca8f604",
+        "url": "https://motional.com/who-we-are",
+        "canonical_url": null,
+        "publisher": "Motional",
+        "title": "Motional — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

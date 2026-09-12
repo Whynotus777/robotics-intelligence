@@ -31,4 +31,15 @@ claims:
       - A primary company profile or filing confirms this headquarters city.
       regress_criteria:
       - Primary evidence identifies a different headquarters or contradicts the roster location.
+- predicate: PART_OF
+  object: byd
+  valid_from: '2024-02-25'
+  qualifier: Control documented by dated shareholder circular; original control date not asserted
+  evidence:
+  - source: enrich-17ddbfe8aed105be
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: The company identifies BYD as its indirect controlling shareholder with approximately 65.76 percent
+      of issued shares.
+    observed_at: '2026-09-11'
 country_code: CN

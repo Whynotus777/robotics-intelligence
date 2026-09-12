@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "71a9c57e-1f96-590e-8ce7-728226e70328",
+    "subject": {
+      "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+      "slug": "ubiquity-global-services",
+      "entity_type": "ORGANIZATION",
+      "name": "Ubiquity Global Services",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Ubiquity Global Services is headquartered at New York",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
+        "slug": "new-york-us",
+        "entity_type": "PLACE",
+        "name": "New York",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d2333136-002d-5a22-9e3b-b25fec0823ec",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Ubiquity Global Services is headquartered in New York.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "9a7018db-5015-5b4d-97b2-0bf0c5ce65a2",
+        "url": "https://www.shaip.com/about/",
+        "canonical_url": null,
+        "publisher": "Ubiquity Global Services",
+        "title": "Ubiquity Global Services — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

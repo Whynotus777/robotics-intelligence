@@ -25,7 +25,28 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+      "slug": "samsung",
+      "entity_type": "ORGANIZATION",
+      "name": "Samsung Electronics",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER",
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "since": "2025-03-12",
+    "claim_id": "705d58f9-66be-5894-a47b-9e4e75b458ca",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -90,10 +111,56 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "705d58f9-66be-5894-a47b-9e4e75b458ca",
+          "target": {
+            "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+            "slug": "samsung",
+            "entity_type": "ORGANIZATION",
+            "name": "Samsung Electronics",
+            "primary_embodiment": null,
+            "roles": [
+              "CHIPMAKER",
+              "COMPONENT_SUPPLIER",
+              "INVESTOR",
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Acquisition completion; control through board appointment rights",
+          "valid_from": "2025-03-12",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+        "slug": "samsung",
+        "entity_type": "ORGANIZATION",
+        "name": "Samsung Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER",
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "e4fec3b6-88a1-5616-b5f5-e8bdea864fd6",
@@ -108,19 +175,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 1
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

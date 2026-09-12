@@ -58,7 +58,22 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "01838eab-6fe5-529a-8a6c-9c367c431ace",
+        "slug": "rainbow-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Rainbow Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "since": "2025-03-12",
+      "claim_id": "705d58f9-66be-5894-a47b-9e4e75b458ca"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -184,8 +199,49 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "705d58f9-66be-5894-a47b-9e4e75b458ca",
+          "source": {
+            "id": "01838eab-6fe5-529a-8a6c-9c367c431ace",
+            "slug": "rainbow-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Rainbow Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Acquisition completion; control through board appointment rights",
+          "valid_from": "2025-03-12",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "01838eab-6fe5-529a-8a6c-9c367c431ace",
+        "slug": "rainbow-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Rainbow Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "f89a18fb-337d-5e25-91da-66048da131d4",
@@ -212,7 +268,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

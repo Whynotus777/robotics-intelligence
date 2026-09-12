@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "62241029-870f-597b-bbac-3fbce5808ddb",
+    "subject": {
+      "id": "7623869d-1276-52c3-b0e7-823e9932db3e",
+      "slug": "stanford-robotics-center",
+      "entity_type": "ORGANIZATION",
+      "name": "Stanford Robotics Center",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Stanford Robotics Center is part of Stanford University",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "fae91c3d-b2d5-5b35-9828-e02a37e4784c",
+        "slug": "stanford-university",
+        "entity_type": "ORGANIZATION",
+        "name": "Stanford University",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "University center opened",
+    "status": "APPROVED",
+    "valid_from": "2024-11-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4a594ba1-04cd-5fbf-8cc4-494c6ab8e75a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Stanford describes its robotics center and its opening on November 1, 2024.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "f28b5e51-b08d-51a7-a77d-18971e5db2e4",
+        "url": "https://news.stanford.edu/stories/2024/11/new-center-unites-stanfords-robotics-expertise-under-one-roof",
+        "canonical_url": null,
+        "publisher": "Stanford Robotics Center",
+        "title": "Stanford Robotics Center — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

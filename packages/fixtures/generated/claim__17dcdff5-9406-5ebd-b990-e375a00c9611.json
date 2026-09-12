@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "17dcdff5-9406-5ebd-b990-e375a00c9611",
+    "subject": {
+      "id": "50c7973f-adb4-552f-a632-ce818abfc659",
+      "slug": "hyundai-motor-group",
+      "entity_type": "ORGANIZATION",
+      "name": "Hyundai Motor Group",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Hyundai Motor Group role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6144dc4c-0f7c-532a-bf2d-ad4dce9ba108",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Automotive group with a controlling robotics and autonomous-driving investment in Motional.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "3af7590b-791d-5914-a7a0-69133ca8f604",
+        "url": "https://motional.com/who-we-are",
+        "canonical_url": null,
+        "publisher": "Motional",
+        "title": "Motional — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Automotive group with a controlling robotics and autonomous-driving investment in Motional. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

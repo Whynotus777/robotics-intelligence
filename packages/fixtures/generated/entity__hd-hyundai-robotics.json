@@ -27,7 +27,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "320d3e3b-57ff-5fea-a8ca-49a0b346ef5a",
+      "slug": "hd-hyundai",
+      "entity_type": "ORGANIZATION",
+      "name": "HD Hyundai",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "since": "2025-07-02",
+    "claim_id": "ee3611a3-c6d7-51a9-bcb5-8ca2fa2b2b76",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -92,10 +110,50 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "ee3611a3-c6d7-51a9-bcb5-8ca2fa2b2b76",
+          "target": {
+            "id": "320d3e3b-57ff-5fea-a8ca-49a0b346ef5a",
+            "slug": "hd-hyundai",
+            "entity_type": "ORGANIZATION",
+            "name": "HD Hyundai",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Subsidiary confirmed by this publication date; original control date not asserted",
+          "valid_from": "2025-07-02",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "320d3e3b-57ff-5fea-a8ca-49a0b346ef5a",
+        "slug": "hd-hyundai",
+        "entity_type": "ORGANIZATION",
+        "name": "HD Hyundai",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "5334ea44-6f87-5c32-9058-e71eafa36d73",
@@ -110,19 +168,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

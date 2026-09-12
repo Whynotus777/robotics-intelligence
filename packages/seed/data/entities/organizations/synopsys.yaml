@@ -1,0 +1,25 @@
+slug: synopsys
+entity_type: ORGANIZATION
+name: Synopsys
+short_description: Provides engineering simulation and electronic design tools, including Ansys robotics simulation.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: DATA_SIMULATION_PROVIDER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d449b72360fe8ec0
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Provides engineering simulation and electronic design tools, including Ansys robotics simulation.
+    observed_at: '2026-09-11'
+- predicate: HAS_TICKER
+  text: NASDAQ:SNPS
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d449b72360fe8ec0
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Synopsys is listed as NASDAQ:SNPS.
+    observed_at: '2026-09-11'
+country_code: US

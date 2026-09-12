@@ -31,4 +31,14 @@ claims:
       - A primary company profile or filing confirms this headquarters city.
       regress_criteria:
       - Primary evidence identifies a different headquarters or contradicts the roster location.
+- predicate: PART_OF
+  object: synopsys
+  valid_from: '2025-07-17'
+  qualifier: Acquisition completed
+  evidence:
+  - source: enrich-d449b72360fe8ec0
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Synopsys announces the completed acquisition of Ansys.
+    observed_at: '2026-09-11'
 country_code: US

@@ -1,0 +1,40 @@
+slug: lg-electronics
+entity_type: ORGANIZATION
+name: LG Electronics
+short_description: Develops LG CLOi service robots and holds a controlling investment in Bear Robotics.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d2e414d1327f1295
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops LG CLOi service robots and holds a controlling investment in Bear Robotics.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-d2e414d1327f1295
+    excerpt: Develops LG CLOi service robots and holds a controlling investment in Bear Robotics.
+    assessment:
+      rationale: Develops LG CLOi service robots and holds a controlling investment in Bear Robotics. The platform
+        role describes involvement across robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d2e414d1327f1295
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops LG CLOi service robots and holds a controlling investment in Bear Robotics.
+    observed_at: '2026-09-11'
+country_code: KR

@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "54ed6bcb-8bac-5bcf-8480-faea115f5007",
+    "subject": {
+      "id": "29453e8f-9a98-529f-8d0f-5b6da545ccc5",
+      "slug": "siemens-digital-industries-software",
+      "entity_type": "ORGANIZATION",
+      "name": "Siemens Digital Industries Software",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Siemens Digital Industries Software is part of Siemens",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "badc40a8-7ede-5039-98ba-f22e4cbe2f3f",
+        "slug": "siemens",
+        "entity_type": "ORGANIZATION",
+        "name": "Siemens",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current group affiliation verified on this date; original acquisition date not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "fc59b889-bd1c-5332-886b-f238391bba44",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Siemens identifies its software division as part of Siemens Digital Industries and Siemens AG.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "51d7fb99-f2fc-57c9-aa86-ef73e83ac4f8",
+        "url": "https://jobs.sw.siemens.com/about-us/",
+        "canonical_url": null,
+        "publisher": "Siemens",
+        "title": "Siemens — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

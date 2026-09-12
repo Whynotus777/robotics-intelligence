@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+      "slug": "ubiquity-global-services",
+      "entity_type": "ORGANIZATION",
+      "name": "Ubiquity Global Services",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "since": "2026-02-28",
+    "claim_id": "780743b5-5bab-55fb-833c-4224ff64ed7b",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -66,6 +84,34 @@
   ],
   "relationships": [
     {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "780743b5-5bab-55fb-833c-4224ff64ed7b",
+          "target": {
+            "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+            "slug": "ubiquity-global-services",
+            "entity_type": "ORGANIZATION",
+            "name": "Ubiquity Global Services",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Affiliation effective by end of disclosed acquisition month; day of closing unknown",
+          "valid_from": "2026-02-28",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HQ_AT",
       "label": "is headquartered at",
       "items": [
@@ -94,6 +140,18 @@
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+        "slug": "ubiquity-global-services",
+        "entity_type": "ORGANIZATION",
+        "name": "Ubiquity Global Services",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "b8916638-00c6-570c-bd85-201cf792661d",
@@ -108,19 +166,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 1
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

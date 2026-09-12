@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "dd1312eb-db1a-5192-b043-42c9f83a17e4",
+    "subject": {
+      "id": "dc2d02b2-71c4-596e-86c2-72ee9e00ccc7",
+      "slug": "teledyne-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "Teledyne Technologies",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Teledyne Technologies role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "482ed5cd-02c1-5135-a725-6f35a2313975",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Teledyne Technologies is the parent organization of Teledyne Optech.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "44ff3e5b-a774-5ac1-af67-948e082395af",
+        "url": "https://www.teledyne.com/en-us/investors/Documents/TDY_AR2016.pdf",
+        "canonical_url": null,
+        "publisher": "Teledyne Technologies",
+        "title": "Teledyne Technologies — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Teledyne Technologies is the parent organization of Teledyne Optech. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

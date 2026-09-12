@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "1c35b261-ff94-57ce-985b-674555e8e7bd",
+    "subject": {
+      "id": "a3cb9939-1bda-507b-aa53-d27669ffa135",
+      "slug": "teledyne-optech",
+      "entity_type": "ORGANIZATION",
+      "name": "Teledyne Optech",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Teledyne Optech is part of Teledyne Technologies",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "dc2d02b2-71c4-596e-86c2-72ee9e00ccc7",
+        "slug": "teledyne-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "Teledyne Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Wholly owned group affiliation through Teledyne DALSA",
+    "status": "APPROVED",
+    "valid_from": "2015-04-29",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ad5c0f7c-026e-5a85-8275-8bdd16d0fb1f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "The annual report states Teledyne DALSA acquired the remaining Optech parent interest on April 29, 2015.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "44ff3e5b-a774-5ac1-af67-948e082395af",
+        "url": "https://www.teledyne.com/en-us/investors/Documents/TDY_AR2016.pdf",
+        "canonical_url": null,
+        "publisher": "Teledyne Technologies",
+        "title": "Teledyne Technologies — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

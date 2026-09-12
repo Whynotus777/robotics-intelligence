@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "581c7cc9-8475-5b34-adee-1a60403e1db7",
+      "slug": "synopsys",
+      "entity_type": "ORGANIZATION",
+      "name": "Synopsys",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "since": "2025-07-17",
+    "claim_id": "985a06d2-10bf-5bed-8758-4a7b0751c163",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -90,10 +108,50 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "985a06d2-10bf-5bed-8758-4a7b0751c163",
+          "target": {
+            "id": "581c7cc9-8475-5b34-adee-1a60403e1db7",
+            "slug": "synopsys",
+            "entity_type": "ORGANIZATION",
+            "name": "Synopsys",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Acquisition completed",
+          "valid_from": "2025-07-17",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "581c7cc9-8475-5b34-adee-1a60403e1db7",
+        "slug": "synopsys",
+        "entity_type": "ORGANIZATION",
+        "name": "Synopsys",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "05ee6975-2bed-57c5-b795-32e9eb0c92d7",
@@ -108,19 +166,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 1
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }
