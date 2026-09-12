@@ -3,7 +3,7 @@
     "id": "d0b089f9-33ec-5afd-9f0b-2d371b114841",
     "slug": "bedford-us",
     "entity_type": "PLACE",
-    "name": "Bedford, Massachusetts",
+    "name": "Bedford",
     "short_description": null,
     "image_url": null,
     "image_credit": null,
@@ -59,12 +59,44 @@
             "confidence": "MEDIUM",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "add5fea5-a837-5206-9120-30397cd929ac",
+          "source": {
+            "id": "01336b7b-0919-57e1-9ec6-946ab8f34a7b",
+            "slug": "berkshire-grey",
+            "entity_type": "ORGANIZATION",
+            "name": "Berkshire Grey",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "01336b7b-0919-57e1-9ec6-946ab8f34a7b",
+        "slug": "berkshire-grey",
+        "entity_type": "ORGANIZATION",
+        "name": "Berkshire Grey",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
       {
         "id": "8f8d645d-4ac0-50e6-b880-4df0b5229e47",
         "slug": "irobot",
@@ -92,7 +124,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

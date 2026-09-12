@@ -4,12 +4,12 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 96
+      "count": 102
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 39
+      "count": 40
     },
     {
       "id": "MANUFACTURED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 33
+      "count": 47
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 23
+      "count": 50
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 13
+      "count": 17
     }
   ],
   "marks": [
@@ -106,8 +106,19 @@
       "lng": 139.69,
       "country_code": "JP",
       "cluster_label": "Tokyo",
-      "weight": 2,
+      "weight": 3,
       "entities": [
+        {
+          "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+          "slug": "softbank-group",
+          "entity_type": "ORGANIZATION",
+          "name": "SoftBank Group",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        },
         {
           "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
           "slug": "softbank-robotics-group",
@@ -124,6 +135,62 @@
           "slug": "sony-group",
           "entity_type": "ORGANIZATION",
           "name": "Sony Group",
+          "primary_embodiment": null,
+          "roles": [
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "7ee78dcd-919d-58f9-a15d-c3dc1de69259",
+        "slug": "frankfurt-de",
+        "entity_type": "PLACE",
+        "name": "Frankfurt",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 50.11552,
+      "lng": 8.68417,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "979bdd41-064b-55bc-8ce6-eeb4b316ee7a",
+          "slug": "kion-group",
+          "entity_type": "ORGANIZATION",
+          "name": "KION Group",
+          "primary_embodiment": null,
+          "roles": [
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c5da4207-66e6-58af-b465-9432764e2a62",
+        "slug": "hangzhou",
+        "entity_type": "PLACE",
+        "name": "Hangzhou",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 30.27,
+      "lng": 120.15,
+      "country_code": "CN",
+      "cluster_label": "Hangzhou",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "e819d254-2780-5de4-84d0-545f676e957b",
+          "slug": "ant-group",
+          "entity_type": "ORGANIZATION",
+          "name": "Ant Group",
           "primary_embodiment": null,
           "roles": [
             "PLATFORM"
@@ -280,6 +347,34 @@
     },
     {
       "place": {
+        "id": "661bea57-b3e7-5cad-85b3-58e2cb627ed6",
+        "slug": "seongnam-kr",
+        "entity_type": "PLACE",
+        "name": "Seongnam",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.43861,
+      "lng": 127.13778,
+      "country_code": "KR",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "9eb45452-168c-5db6-96f4-28cf65323864",
+          "slug": "naver",
+          "entity_type": "ORGANIZATION",
+          "name": "Naver",
+          "primary_embodiment": null,
+          "roles": [
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
         "slug": "seoul",
         "entity_type": "PLACE",
@@ -378,18 +473,24 @@
     {
       "id": "JP",
       "label": "JP",
-      "weight": 4,
+      "weight": 5,
       "places": 3
     },
     {
       "id": "KR",
       "label": "KR",
-      "weight": 2,
-      "places": 2
+      "weight": 3,
+      "places": 3
     },
     {
       "id": "DE",
       "label": "DE",
+      "weight": 2,
+      "places": 2
+    },
+    {
+      "id": "CN",
+      "label": "CN",
       "weight": 1,
       "places": 1
     }
@@ -402,15 +503,21 @@
       "places": 1
     },
     {
+      "id": "Tokyo",
+      "label": "Tokyo",
+      "weight": 3,
+      "places": 1
+    },
+    {
       "id": "Seattle",
       "label": "Seattle",
       "weight": 2,
       "places": 2
     },
     {
-      "id": "Tokyo",
-      "label": "Tokyo",
-      "weight": 2,
+      "id": "Hangzhou",
+      "label": "Hangzhou",
+      "weight": 1,
       "places": 1
     },
     {
@@ -502,6 +609,27 @@
     },
     {
       "entity": {
+        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+        "slug": "softbank-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
         "slug": "softbank-robotics-group",
         "entity_type": "ORGANIZATION",
@@ -537,6 +665,46 @@
         "slug": "tokyo",
         "entity_type": "PLACE",
         "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "979bdd41-064b-55bc-8ce6-eeb4b316ee7a",
+        "slug": "kion-group",
+        "entity_type": "ORGANIZATION",
+        "name": "KION Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "7ee78dcd-919d-58f9-a15d-c3dc1de69259",
+        "slug": "frankfurt-de",
+        "entity_type": "PLACE",
+        "name": "Frankfurt",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e819d254-2780-5de4-84d0-545f676e957b",
+        "slug": "ant-group",
+        "entity_type": "ORGANIZATION",
+        "name": "Ant Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "c5da4207-66e6-58af-b465-9432764e2a62",
+        "slug": "hangzhou",
+        "entity_type": "PLACE",
+        "name": "Hangzhou",
         "primary_embodiment": null,
         "roles": []
       }
@@ -643,6 +811,26 @@
         "slug": "seattle",
         "entity_type": "PLACE",
         "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9eb45452-168c-5db6-96f4-28cf65323864",
+        "slug": "naver",
+        "entity_type": "ORGANIZATION",
+        "name": "Naver",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "661bea57-b3e7-5cad-85b3-58e2cb627ed6",
+        "slug": "seongnam-kr",
+        "entity_type": "PLACE",
+        "name": "Seongnam",
         "primary_embodiment": null,
         "roles": []
       }

@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "22ffc973-8a63-55aa-96fa-860962cb1345",
+          "source": {
+            "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
+            "slug": "bezos-expeditions",
+            "entity_type": "ORGANIZATION",
+            "name": "Bezos Expeditions",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "9bcfbd17-872a-59dc-979c-bf085101003b",
           "source": {
             "id": "f4eb9eb3-0f94-5921-9567-cea7792759f4",
@@ -104,6 +126,16 @@
         ]
       },
       {
+        "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
+        "slug": "bezos-expeditions",
+        "entity_type": "ORGANIZATION",
+        "name": "Bezos Expeditions",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
         "id": "f4eb9eb3-0f94-5921-9567-cea7792759f4",
         "slug": "carbon-robotics",
         "entity_type": "ORGANIZATION",
@@ -130,7 +162,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

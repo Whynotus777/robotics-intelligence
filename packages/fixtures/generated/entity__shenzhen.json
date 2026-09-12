@@ -85,6 +85,29 @@
           }
         },
         {
+          "claim_id": "3bf321ab-28d7-5ade-ba23-012ef34ca86a",
+          "source": {
+            "id": "427af318-31b9-5b16-86ea-d97fb6b45826",
+            "slug": "tencent-robotics-x",
+            "entity_type": "ORGANIZATION",
+            "name": "Tencent Robotics X",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "49e171ef-4a3c-595a-a5e0-bfd3ff2e0921",
           "source": {
             "id": "593e0170-e678-51f0-8d2f-14e0b1d5e7e2",
@@ -103,6 +126,29 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "6117c480-4279-5653-be25-5210808ec7b8",
+          "source": {
+            "id": "a235ccba-64cc-5c80-ab3e-40a7c7792bc8",
+            "slug": "x-square-robot",
+            "entity_type": "ORGANIZATION",
+            "name": "X Square Robot",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
             "source_count": 1
           }
         },
@@ -412,12 +458,34 @@
         ]
       },
       {
+        "id": "427af318-31b9-5b16-86ea-d97fb6b45826",
+        "slug": "tencent-robotics-x",
+        "entity_type": "ORGANIZATION",
+        "name": "Tencent Robotics X",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      {
         "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
         "slug": "ubtech",
         "entity_type": "ORGANIZATION",
         "name": "UBTech Robotics",
         "primary_embodiment": null,
         "roles": [
+          "OEM"
+        ]
+      },
+      {
+        "id": "a235ccba-64cc-5c80-ab3e-40a7c7792bc8",
+        "slug": "x-square-robot",
+        "entity_type": "ORGANIZATION",
+        "name": "X Square Robot",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
           "OEM"
         ]
       },
@@ -448,7 +516,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 11
+    "related_count": 13
   },
   "as_of": null
 }

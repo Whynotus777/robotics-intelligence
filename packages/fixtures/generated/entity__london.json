@@ -62,6 +62,29 @@
           }
         },
         {
+          "claim_id": "31963db4-ca9f-5b1b-9316-67353b486466",
+          "source": {
+            "id": "dbd646ab-2676-5647-ae48-6511c3043dad",
+            "slug": "neuracore",
+            "entity_type": "ORGANIZATION",
+            "name": "Neuracore",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "39c09a8c-3416-5d36-a649-0d4e74ec1926",
           "source": {
             "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
@@ -80,6 +103,50 @@
           "evidence_summary": {
             "class": "THIRD_PARTY",
             "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "798f505a-cff0-5261-8847-e6b331f71c67",
+          "source": {
+            "id": "53ef9bdf-0323-51aa-814c-0c77fac939f3",
+            "slug": "lingotto-investment-management",
+            "entity_type": "ORGANIZATION",
+            "name": "Lingotto Investment Management",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "b7ba4b2d-ab83-5003-bf8f-37389c71eb05",
+          "source": {
+            "id": "76120db1-8f9d-580d-af75-379391876eca",
+            "slug": "humanoid",
+            "entity_type": "ORGANIZATION",
+            "name": "Humanoid",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
             "source_count": 1
           }
         },
@@ -196,6 +263,37 @@
         ]
       },
       {
+        "id": "76120db1-8f9d-580d-af75-379391876eca",
+        "slug": "humanoid",
+        "entity_type": "ORGANIZATION",
+        "name": "Humanoid",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      {
+        "id": "53ef9bdf-0323-51aa-814c-0c77fac939f3",
+        "slug": "lingotto-investment-management",
+        "entity_type": "ORGANIZATION",
+        "name": "Lingotto Investment Management",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "dbd646ab-2676-5647-ae48-6511c3043dad",
+        "slug": "neuracore",
+        "entity_type": "ORGANIZATION",
+        "name": "Neuracore",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      {
         "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
         "slug": "wayve",
         "entity_type": "ORGANIZATION",
@@ -222,7 +320,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 5
+    "related_count": 8
   },
   "as_of": null
 }

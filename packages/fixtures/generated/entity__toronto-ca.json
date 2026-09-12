@@ -59,12 +59,66 @@
             "confidence": "MEDIUM",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "76c0b0aa-5500-51b9-a5a6-577ce70a9669",
+          "source": {
+            "id": "54973dcc-f0a8-5acb-83a4-b03a2f8056ab",
+            "slug": "waabi",
+            "entity_type": "ORGANIZATION",
+            "name": "Waabi",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "e59413e6-3ea9-56c4-baf4-7ad06f38aac5",
+          "source": {
+            "id": "102a373b-d234-5888-a527-c2d4729551be",
+            "slug": "brookfield-asset-management",
+            "entity_type": "ORGANIZATION",
+            "name": "Brookfield Asset Management",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "102a373b-d234-5888-a527-c2d4729551be",
+        "slug": "brookfield-asset-management",
+        "entity_type": "ORGANIZATION",
+        "name": "Brookfield Asset Management",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
       {
         "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
         "slug": "ontario-teachers-pension-plan",
@@ -73,6 +127,16 @@
         "primary_embodiment": null,
         "roles": [
           "INVESTOR"
+        ]
+      },
+      {
+        "id": "54973dcc-f0a8-5acb-83a4-b03a2f8056ab",
+        "slug": "waabi",
+        "entity_type": "ORGANIZATION",
+        "name": "Waabi",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
         ]
       }
     ]
@@ -92,7 +156,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 3
   },
   "as_of": null
 }

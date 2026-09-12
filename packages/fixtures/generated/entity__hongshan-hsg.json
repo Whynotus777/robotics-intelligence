@@ -93,6 +93,32 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "e453aa1a-d5ea-5da3-b245-e5fedf1735e1",
+          "target": {
+            "id": "cca2b727-cd54-599d-9a71-2f79c4789f44",
+            "slug": "hong-kong-hk",
+            "entity_type": "PLACE",
+            "name": "Hong Kong",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
@@ -109,6 +135,16 @@
           "RESEARCH_LAB"
         ]
       }
+    ],
+    "places": [
+      {
+        "id": "cca2b727-cd54-599d-9a71-2f79c4789f44",
+        "slug": "hong-kong-hk",
+        "entity_type": "PLACE",
+        "name": "Hong Kong",
+        "primary_embodiment": null,
+        "roles": []
+      }
     ]
   },
   "intelligence": {
@@ -118,15 +154,15 @@
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
-        "ANALYST": 0
+        "ANALYST": 1
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

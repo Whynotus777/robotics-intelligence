@@ -61,6 +61,28 @@
           }
         },
         {
+          "claim_id": "9bd3cda8-0023-5250-877e-d539959051c2",
+          "source": {
+            "id": "e819d254-2780-5de4-84d0-545f676e957b",
+            "slug": "ant-group",
+            "entity_type": "ORGANIZATION",
+            "name": "Ant Group",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "d4a63105-14e5-58ea-bd78-5e2e2b67b581",
           "source": {
             "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
@@ -88,6 +110,16 @@
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "e819d254-2780-5de4-84d0-545f676e957b",
+        "slug": "ant-group",
+        "entity_type": "ORGANIZATION",
+        "name": "Ant Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
       {
         "id": "eb46b6af-ce87-5ea9-adb0-183491fa85f7",
         "slug": "deep-robotics",
@@ -126,7 +158,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

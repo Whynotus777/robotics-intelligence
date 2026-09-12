@@ -59,12 +59,44 @@
             "confidence": "LOW",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "6fdff402-2d95-5e52-b3cd-169ae21e0ef2",
+          "source": {
+            "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+            "slug": "mitsubishi-electric-research-laboratories-merl",
+            "entity_type": "ORGANIZATION",
+            "name": "Mitsubishi Electric Research Laboratories (MERL)",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+        "slug": "mitsubishi-electric-research-laboratories-merl",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric Research Laboratories (MERL)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
       {
         "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
         "slug": "robotics-and-ai-institute-rai-institute",
@@ -92,7 +124,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "a5d33cd7-c956-5bff-9d2b-9ae3e2da3773",
+          "source": {
+            "id": "44ef271a-079f-5a4e-ae40-97adccd61fe2",
+            "slug": "rlwrld",
+            "entity_type": "ORGANIZATION",
+            "name": "RLWRLD",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "e6780286-79d4-5411-875c-0268eee9df49",
           "source": {
             "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
@@ -60,12 +82,44 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "ef108801-3738-55e5-95f1-c91bf3bac78e",
+          "source": {
+            "id": "a9ae4d42-4802-5844-a57a-1c0ae8e257fd",
+            "slug": "hanwha-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Hanwha Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "a9ae4d42-4802-5844-a57a-1c0ae8e257fd",
+        "slug": "hanwha-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Hanwha Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
       {
         "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
         "slug": "hyundai",
@@ -75,6 +129,16 @@
         "roles": [
           "INVESTOR",
           "PLATFORM"
+        ]
+      },
+      {
+        "id": "44ef271a-079f-5a4e-ae40-97adccd61fe2",
+        "slug": "rlwrld",
+        "entity_type": "ORGANIZATION",
+        "name": "RLWRLD",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
         ]
       }
     ]
@@ -94,7 +158,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 3
   },
   "as_of": null
 }

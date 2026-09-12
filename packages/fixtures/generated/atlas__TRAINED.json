@@ -4,12 +4,12 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 96
+      "count": 102
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 39
+      "count": 40
     },
     {
       "id": "MANUFACTURED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 33
+      "count": 47
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 23
+      "count": 50
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 13
+      "count": 17
     }
   ],
   "marks": [
@@ -151,6 +151,117 @@
     },
     {
       "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 22.54,
+      "lng": 114.06,
+      "country_code": "CN",
+      "cluster_label": "Shenzhen",
+      "weight": 4,
+      "entities": [
+        {
+          "id": "794f4f80-f85e-5519-a62a-111900984b04",
+          "slug": "astribot",
+          "entity_type": "ORGANIZATION",
+          "name": "Astribot",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        },
+        {
+          "id": "554db289-7174-5ac8-8697-2b498ab0dd9b",
+          "slug": "tencent",
+          "entity_type": "ORGANIZATION",
+          "name": "Tencent",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "427af318-31b9-5b16-86ea-d97fb6b45826",
+          "slug": "tencent-robotics-x",
+          "entity_type": "ORGANIZATION",
+          "name": "Tencent Robotics X",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "a235ccba-64cc-5c80-ab3e-40a7c7792bc8",
+          "slug": "x-square-robot",
+          "entity_type": "ORGANIZATION",
+          "name": "X Square Robot",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 31.23,
+      "lng": 121.47,
+      "country_code": "CN",
+      "cluster_label": "Shanghai",
+      "weight": 3,
+      "entities": [
+        {
+          "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
+          "slug": "agibot",
+          "entity_type": "ORGANIZATION",
+          "name": "AgiBot",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        },
+        {
+          "id": "41685113-7b6f-5b2f-8d29-8e959a9a5a4c",
+          "slug": "shanghai-ant-lingbo-technology-robbyant",
+          "entity_type": "ORGANIZATION",
+          "name": "Shanghai Ant Lingbo Technology (Robbyant)",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        },
+        {
+          "id": "668a1a95-9c07-59f3-80aa-fa7955730514",
+          "slug": "shanghai-jiao-tong-university",
+          "entity_type": "ORGANIZATION",
+          "name": "Shanghai Jiao Tong University",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
         "slug": "tokyo",
         "entity_type": "PLACE",
@@ -240,6 +351,44 @@
     },
     {
       "place": {
+        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+        "slug": "cambridge-us",
+        "entity_type": "PLACE",
+        "name": "Cambridge",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.3751,
+      "lng": -71.10561,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+          "slug": "mitsubishi-electric-research-laboratories-merl",
+          "entity_type": "ORGANIZATION",
+          "name": "Mitsubishi Electric Research Laboratories (MERL)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
+          "slug": "robotics-and-ai-institute-rai-institute",
+          "entity_type": "ORGANIZATION",
+          "name": "Robotics and AI Institute (RAI Institute)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
         "slug": "london",
         "entity_type": "PLACE",
@@ -279,35 +428,72 @@
     },
     {
       "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
+        "id": "87216f35-32ce-54be-9ed9-86c480775092",
+        "slug": "pittsburgh",
         "entity_type": "PLACE",
-        "name": "Shanghai",
+        "name": "Pittsburgh",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 31.23,
-      "lng": 121.47,
-      "country_code": "CN",
-      "cluster_label": "Shanghai",
+      "lat": 40.44,
+      "lng": -79.99,
+      "country_code": "US",
+      "cluster_label": "Pittsburgh",
       "weight": 2,
       "entities": [
         {
-          "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
-          "slug": "agibot",
+          "id": "698f0f64-1451-5021-9a17-4af7183cd4aa",
+          "slug": "carnegie-mellon-robotics-institute",
           "entity_type": "ORGANIZATION",
-          "name": "AgiBot",
+          "name": "Carnegie Mellon Robotics Institute",
           "primary_embodiment": null,
           "roles": [
-            "MODEL_DEVELOPER",
-            "OEM"
+            "RESEARCH_LAB"
           ]
         },
         {
-          "id": "668a1a95-9c07-59f3-80aa-fa7955730514",
-          "slug": "shanghai-jiao-tong-university",
+          "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+          "slug": "skild-ai",
           "entity_type": "ORGANIZATION",
-          "name": "Shanghai Jiao Tong University",
+          "name": "Skild AI",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "379584fb-3bd3-54ee-8afc-91a3605bee16",
+        "slug": "stanford-us",
+        "entity_type": "PLACE",
+        "name": "Stanford",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.42411,
+      "lng": -122.16608,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "7623869d-1276-52c3-b0e7-823e9932db3e",
+          "slug": "stanford-robotics-center",
+          "entity_type": "ORGANIZATION",
+          "name": "Stanford Robotics Center",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "6a4a243a-3953-5199-921a-eb92623c1007",
+          "slug": "stanford-vision-and-learning-lab-svl",
+          "entity_type": "ORGANIZATION",
+          "name": "Stanford Vision and Learning Lab (SVL)",
           "primary_embodiment": null,
           "roles": [
             "RESEARCH_LAB"
@@ -318,39 +504,27 @@
     },
     {
       "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
+        "id": "ec534916-2d00-56ee-aeb4-ad073bc4980f",
+        "slug": "atlanta-us",
         "entity_type": "PLACE",
-        "name": "Shenzhen",
+        "name": "Atlanta",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 22.54,
-      "lng": 114.06,
-      "country_code": "CN",
-      "cluster_label": "Shenzhen",
-      "weight": 2,
+      "lat": 33.749,
+      "lng": -84.38798,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
       "entities": [
         {
-          "id": "794f4f80-f85e-5519-a62a-111900984b04",
-          "slug": "astribot",
+          "id": "07b01ca5-0941-50ba-8944-1fb12edef35b",
+          "slug": "institute-for-robotics-and-intelligent-machines-irim",
           "entity_type": "ORGANIZATION",
-          "name": "Astribot",
+          "name": "Institute for Robotics and Intelligent Machines (IRIM)",
           "primary_embodiment": null,
           "roles": [
-            "MODEL_DEVELOPER",
-            "OEM"
-          ]
-        },
-        {
-          "id": "554db289-7174-5ac8-8697-2b498ab0dd9b",
-          "slug": "tencent",
-          "entity_type": "ORGANIZATION",
-          "name": "Tencent",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER",
-            "TOOLING_OPS_PROVIDER"
+            "RESEARCH_LAB"
           ]
         }
       ],
@@ -379,34 +553,6 @@
           "primary_embodiment": null,
           "roles": [
             "MODEL_DEVELOPER"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
-        "slug": "cambridge-us",
-        "entity_type": "PLACE",
-        "name": "Cambridge",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 42.3751,
-      "lng": -71.10561,
-      "country_code": "US",
-      "cluster_label": null,
-      "weight": 1,
-      "entities": [
-        {
-          "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
-          "slug": "robotics-and-ai-institute-rai-institute",
-          "entity_type": "ORGANIZATION",
-          "name": "Robotics and AI Institute (RAI Institute)",
-          "primary_embodiment": null,
-          "roles": [
-            "RESEARCH_LAB"
           ]
         }
       ],
@@ -555,27 +701,56 @@
     },
     {
       "place": {
-        "id": "87216f35-32ce-54be-9ed9-86c480775092",
-        "slug": "pittsburgh",
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
         "entity_type": "PLACE",
-        "name": "Pittsburgh",
+        "name": "Palo Alto",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 40.44,
-      "lng": -79.99,
+      "lat": 37.44188,
+      "lng": -122.14302,
       "country_code": "US",
-      "cluster_label": "Pittsburgh",
+      "cluster_label": null,
       "weight": 1,
       "entities": [
         {
-          "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
-          "slug": "skild-ai",
+          "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+          "slug": "genesis-ai",
           "entity_type": "ORGANIZATION",
-          "name": "Skild AI",
+          "name": "Genesis AI",
           "primary_embodiment": null,
           "roles": [
-            "MODEL_DEVELOPER"
+            "MODEL_DEVELOPER",
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c5972a7f-3176-5f00-a6bd-0e91afedf86f",
+        "slug": "philadelphia-us",
+        "entity_type": "PLACE",
+        "name": "Philadelphia",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 39.95238,
+      "lng": -75.16362,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "80c7de02-80c2-5bdc-9350-68376392e875",
+          "slug": "grasp-laboratory",
+          "entity_type": "ORGANIZATION",
+          "name": "GRASP Laboratory",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
           ]
         }
       ],
@@ -642,6 +817,35 @@
     },
     {
       "place": {
+        "id": "a04379bf-bfe9-5c45-a07a-9eb4118fe484",
+        "slug": "san-mateo-us",
+        "entity_type": "PLACE",
+        "name": "San Mateo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.56299,
+      "lng": -122.32553,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "a19bf5f6-db27-5318-ae20-28be53104b40",
+          "slug": "dyna-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Dyna Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
         "slug": "seattle",
         "entity_type": "PLACE",
@@ -673,6 +877,63 @@
     },
     {
       "place": {
+        "id": "661bea57-b3e7-5cad-85b3-58e2cb627ed6",
+        "slug": "seongnam-kr",
+        "entity_type": "PLACE",
+        "name": "Seongnam",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.43861,
+      "lng": 127.13778,
+      "country_code": "KR",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "3020631a-29c5-53d3-b5c6-72ad95a1ec79",
+          "slug": "naver-labs",
+          "entity_type": "ORGANIZATION",
+          "name": "Naver Labs",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.57,
+      "lng": 126.98,
+      "country_code": "KR",
+      "cluster_label": "Seoul",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "44ef271a-079f-5a4e-ae40-97adccd61fe2",
+          "slug": "rlwrld",
+          "entity_type": "ORGANIZATION",
+          "name": "RLWRLD",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
         "slug": "sunnyvale-us",
         "entity_type": "PLACE",
@@ -696,6 +957,34 @@
             "DATA_SIMULATION_PROVIDER",
             "MODEL_DEVELOPER",
             "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
+        "slug": "toronto-ca",
+        "entity_type": "PLACE",
+        "name": "Toronto",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 43.70643,
+      "lng": -79.39864,
+      "country_code": "CA",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "54973dcc-f0a8-5acb-83a4-b03a2f8056ab",
+          "slug": "waabi",
+          "entity_type": "ORGANIZATION",
+          "name": "Waabi",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
           ]
         }
       ],
@@ -764,13 +1053,13 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 19,
-      "places": 12
+      "weight": 27,
+      "places": 17
     },
     {
       "id": "CN",
       "label": "CN",
-      "weight": 6,
+      "weight": 9,
       "places": 3
     },
     {
@@ -780,16 +1069,22 @@
       "places": 1
     },
     {
+      "id": "CA",
+      "label": "CA",
+      "weight": 2,
+      "places": 2
+    },
+    {
       "id": "GB",
       "label": "GB",
       "weight": 2,
       "places": 1
     },
     {
-      "id": "CA",
-      "label": "CA",
-      "weight": 1,
-      "places": 1
+      "id": "KR",
+      "label": "KR",
+      "weight": 2,
+      "places": 2
     },
     {
       "id": "CH",
@@ -812,6 +1107,18 @@
       "places": 1
     },
     {
+      "id": "Shenzhen",
+      "label": "Shenzhen",
+      "weight": 4,
+      "places": 1
+    },
+    {
+      "id": "Shanghai",
+      "label": "Shanghai",
+      "weight": 3,
+      "places": 1
+    },
+    {
       "id": "Tokyo",
       "label": "Tokyo",
       "weight": 3,
@@ -830,22 +1137,16 @@
       "places": 1
     },
     {
+      "id": "Pittsburgh",
+      "label": "Pittsburgh",
+      "weight": 2,
+      "places": 1
+    },
+    {
       "id": "Seattle",
       "label": "Seattle",
       "weight": 2,
       "places": 2
-    },
-    {
-      "id": "Shanghai",
-      "label": "Shanghai",
-      "weight": 2,
-      "places": 1
-    },
-    {
-      "id": "Shenzhen",
-      "label": "Shenzhen",
-      "weight": 2,
-      "places": 1
     },
     {
       "id": "Boston",
@@ -854,14 +1155,14 @@
       "places": 1
     },
     {
-      "id": "Pittsburgh",
-      "label": "Pittsburgh",
+      "id": "San Diego",
+      "label": "San Diego",
       "weight": 1,
       "places": 1
     },
     {
-      "id": "San Diego",
-      "label": "San Diego",
+      "id": "Seoul",
+      "label": "Seoul",
       "weight": 1,
       "places": 1
     },
@@ -1054,6 +1355,151 @@
     },
     {
       "entity": {
+        "id": "794f4f80-f85e-5519-a62a-111900984b04",
+        "slug": "astribot",
+        "entity_type": "ORGANIZATION",
+        "name": "Astribot",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "554db289-7174-5ac8-8697-2b498ab0dd9b",
+        "slug": "tencent",
+        "entity_type": "ORGANIZATION",
+        "name": "Tencent",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "427af318-31b9-5b16-86ea-d97fb6b45826",
+        "slug": "tencent-robotics-x",
+        "entity_type": "ORGANIZATION",
+        "name": "Tencent Robotics X",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "a235ccba-64cc-5c80-ab3e-40a7c7792bc8",
+        "slug": "x-square-robot",
+        "entity_type": "ORGANIZATION",
+        "name": "X Square Robot",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
+        "slug": "agibot",
+        "entity_type": "ORGANIZATION",
+        "name": "AgiBot",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "41685113-7b6f-5b2f-8d29-8e959a9a5a4c",
+        "slug": "shanghai-ant-lingbo-technology-robbyant",
+        "entity_type": "ORGANIZATION",
+        "name": "Shanghai Ant Lingbo Technology (Robbyant)",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "668a1a95-9c07-59f3-80aa-fa7955730514",
+        "slug": "shanghai-jiao-tong-university",
+        "entity_type": "ORGANIZATION",
+        "name": "Shanghai Jiao Tong University",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
         "slug": "honda-motor",
         "entity_type": "ORGANIZATION",
@@ -1157,6 +1603,46 @@
     },
     {
       "entity": {
+        "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+        "slug": "mitsubishi-electric-research-laboratories-merl",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric Research Laboratories (MERL)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+        "slug": "cambridge-us",
+        "entity_type": "PLACE",
+        "name": "Cambridge",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
+        "slug": "robotics-and-ai-institute-rai-institute",
+        "entity_type": "ORGANIZATION",
+        "name": "Robotics and AI Institute (RAI Institute)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+        "slug": "cambridge-us",
+        "entity_type": "PLACE",
+        "name": "Cambridge",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
         "slug": "google-deepmind",
         "entity_type": "ORGANIZATION",
@@ -1198,83 +1684,100 @@
     },
     {
       "entity": {
-        "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
-        "slug": "agibot",
+        "id": "698f0f64-1451-5021-9a17-4af7183cd4aa",
+        "slug": "carnegie-mellon-robotics-institute",
         "entity_type": "ORGANIZATION",
-        "name": "AgiBot",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
-        "entity_type": "PLACE",
-        "name": "Shanghai",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "668a1a95-9c07-59f3-80aa-fa7955730514",
-        "slug": "shanghai-jiao-tong-university",
-        "entity_type": "ORGANIZATION",
-        "name": "Shanghai Jiao Tong University",
+        "name": "Carnegie Mellon Robotics Institute",
         "primary_embodiment": null,
         "roles": [
           "RESEARCH_LAB"
         ]
       },
       "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
+        "id": "87216f35-32ce-54be-9ed9-86c480775092",
+        "slug": "pittsburgh",
         "entity_type": "PLACE",
-        "name": "Shanghai",
+        "name": "Pittsburgh",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "794f4f80-f85e-5519-a62a-111900984b04",
-        "slug": "astribot",
+        "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+        "slug": "skild-ai",
         "entity_type": "ORGANIZATION",
-        "name": "Astribot",
+        "name": "Skild AI",
         "primary_embodiment": null,
         "roles": [
-          "MODEL_DEVELOPER",
-          "OEM"
+          "MODEL_DEVELOPER"
         ]
       },
       "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
+        "id": "87216f35-32ce-54be-9ed9-86c480775092",
+        "slug": "pittsburgh",
         "entity_type": "PLACE",
-        "name": "Shenzhen",
+        "name": "Pittsburgh",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "554db289-7174-5ac8-8697-2b498ab0dd9b",
-        "slug": "tencent",
+        "id": "7623869d-1276-52c3-b0e7-823e9932db3e",
+        "slug": "stanford-robotics-center",
         "entity_type": "ORGANIZATION",
-        "name": "Tencent",
+        "name": "Stanford Robotics Center",
         "primary_embodiment": null,
         "roles": [
-          "MODEL_DEVELOPER",
-          "TOOLING_OPS_PROVIDER"
+          "RESEARCH_LAB"
         ]
       },
       "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
+        "id": "379584fb-3bd3-54ee-8afc-91a3605bee16",
+        "slug": "stanford-us",
         "entity_type": "PLACE",
-        "name": "Shenzhen",
+        "name": "Stanford",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "6a4a243a-3953-5199-921a-eb92623c1007",
+        "slug": "stanford-vision-and-learning-lab-svl",
+        "entity_type": "ORGANIZATION",
+        "name": "Stanford Vision and Learning Lab (SVL)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "379584fb-3bd3-54ee-8afc-91a3605bee16",
+        "slug": "stanford-us",
+        "entity_type": "PLACE",
+        "name": "Stanford",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "07b01ca5-0941-50ba-8944-1fb12edef35b",
+        "slug": "institute-for-robotics-and-intelligent-machines-irim",
+        "entity_type": "ORGANIZATION",
+        "name": "Institute for Robotics and Intelligent Machines (IRIM)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "ec534916-2d00-56ee-aeb4-ad073bc4980f",
+        "slug": "atlanta-us",
+        "entity_type": "PLACE",
+        "name": "Atlanta",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1295,26 +1798,6 @@
         "slug": "boston",
         "entity_type": "PLACE",
         "name": "Boston",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
-        "slug": "robotics-and-ai-institute-rai-institute",
-        "entity_type": "ORGANIZATION",
-        "name": "Robotics and AI Institute (RAI Institute)",
-        "primary_embodiment": null,
-        "roles": [
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
-        "slug": "cambridge-us",
-        "entity_type": "PLACE",
-        "name": "Cambridge",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1422,20 +1905,41 @@
     },
     {
       "entity": {
-        "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
-        "slug": "skild-ai",
+        "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+        "slug": "genesis-ai",
         "entity_type": "ORGANIZATION",
-        "name": "Skild AI",
+        "name": "Genesis AI",
         "primary_embodiment": null,
         "roles": [
-          "MODEL_DEVELOPER"
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
         ]
       },
       "place": {
-        "id": "87216f35-32ce-54be-9ed9-86c480775092",
-        "slug": "pittsburgh",
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
         "entity_type": "PLACE",
-        "name": "Pittsburgh",
+        "name": "Palo Alto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "80c7de02-80c2-5bdc-9350-68376392e875",
+        "slug": "grasp-laboratory",
+        "entity_type": "ORGANIZATION",
+        "name": "GRASP Laboratory",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "c5972a7f-3176-5f00-a6bd-0e91afedf86f",
+        "slug": "philadelphia-us",
+        "entity_type": "PLACE",
+        "name": "Philadelphia",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1485,6 +1989,27 @@
     },
     {
       "entity": {
+        "id": "a19bf5f6-db27-5318-ae20-28be53104b40",
+        "slug": "dyna-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Dyna Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "a04379bf-bfe9-5c45-a07a-9eb4118fe484",
+        "slug": "san-mateo-us",
+        "entity_type": "PLACE",
+        "name": "San Mateo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
         "slug": "amazon",
         "entity_type": "ORGANIZATION",
@@ -1508,6 +2033,47 @@
     },
     {
       "entity": {
+        "id": "3020631a-29c5-53d3-b5c6-72ad95a1ec79",
+        "slug": "naver-labs",
+        "entity_type": "ORGANIZATION",
+        "name": "Naver Labs",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "661bea57-b3e7-5cad-85b3-58e2cb627ed6",
+        "slug": "seongnam-kr",
+        "entity_type": "PLACE",
+        "name": "Seongnam",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "44ef271a-079f-5a4e-ae40-97adccd61fe2",
+        "slug": "rlwrld",
+        "entity_type": "ORGANIZATION",
+        "name": "RLWRLD",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
         "slug": "applied-intuition",
         "entity_type": "ORGANIZATION",
@@ -1524,6 +2090,26 @@
         "slug": "sunnyvale-us",
         "entity_type": "PLACE",
         "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "54973dcc-f0a8-5acb-83a4-b03a2f8056ab",
+        "slug": "waabi",
+        "entity_type": "ORGANIZATION",
+        "name": "Waabi",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
+        "slug": "toronto-ca",
+        "entity_type": "PLACE",
+        "name": "Toronto",
         "primary_embodiment": null,
         "roles": []
       }

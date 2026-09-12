@@ -104,12 +104,67 @@
             "confidence": "MEDIUM",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "9f01ab8d-e887-5ca8-ad97-252e891ccb2a",
+          "source": {
+            "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+            "slug": "genesis-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Genesis AI",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d1e185b7-9738-5182-872c-2115347d1bdb",
+          "source": {
+            "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
+            "slug": "eclipse-ventures",
+            "entity_type": "ORGANIZATION",
+            "name": "Eclipse Ventures",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
+        "slug": "eclipse-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "Eclipse Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
       {
         "id": "b58bf4bb-31da-5fda-adbe-f03db092e511",
         "slug": "emerson-collective",
@@ -118,6 +173,17 @@
         "primary_embodiment": null,
         "roles": [
           "INVESTOR"
+        ]
+      },
+      {
+        "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+        "slug": "genesis-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Genesis AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
         ]
       },
       {
@@ -158,7 +224,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 5
   },
   "as_of": null
 }

@@ -4,12 +4,12 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 96
+      "count": 102
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 39
+      "count": 40
     },
     {
       "id": "MANUFACTURED",
@@ -24,20 +24,194 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 33
+      "count": 47
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 23
+      "count": 50
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 13
+      "count": 17
     }
   ],
   "marks": [
+    {
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.77493,
+      "lng": -122.41942,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 6,
+      "entities": [
+        {
+          "id": "12008d1e-48c1-56d7-9243-85f423de2922",
+          "slug": "canaan-partners",
+          "entity_type": "ORGANIZATION",
+          "name": "Canaan Partners",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "c03ad96b-dbb5-5f23-ab04-d20df5d217a6",
+          "slug": "crv",
+          "entity_type": "ORGANIZATION",
+          "name": "CRV",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "c003c24d-04e1-5841-903d-4887f13f4bc5",
+          "slug": "dcvc",
+          "entity_type": "ORGANIZATION",
+          "name": "DCVC",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "bc83a4a7-887b-5432-99cc-d76044cda823",
+          "slug": "first-round-capital",
+          "entity_type": "ORGANIZATION",
+          "name": "First Round Capital",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "c906ef27-da2f-5c6e-8413-0e16d30f66d4",
+          "slug": "openai",
+          "entity_type": "ORGANIZATION",
+          "name": "OpenAI",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "3d348273-7e19-55a7-b897-e59e7d9f0656",
+          "slug": "salesforce-ventures",
+          "entity_type": "ORGANIZATION",
+          "name": "Salesforce Ventures",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+        "slug": "menlo-park-us",
+        "entity_type": "PLACE",
+        "name": "Menlo Park",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 40.51872,
+      "lng": -74.4121,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 3,
+      "entities": [
+        {
+          "id": "22d976e0-3c83-50e0-8102-bd2c1881a83c",
+          "slug": "khosla-ventures",
+          "entity_type": "ORGANIZATION",
+          "name": "Khosla Ventures",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "d15ae925-8092-5907-8703-87a3b98eb9f8",
+          "slug": "lg-technology-ventures",
+          "entity_type": "ORGANIZATION",
+          "name": "LG Technology Ventures",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "adbc0f95-691a-5e06-aa4a-43b499df9f12",
+          "slug": "sequoia-capital",
+          "entity_type": "ORGANIZATION",
+          "name": "Sequoia Capital",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
+        "entity_type": "PLACE",
+        "name": "Palo Alto",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.44188,
+      "lng": -122.14302,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 3,
+      "entities": [
+        {
+          "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
+          "slug": "eclipse-ventures",
+          "entity_type": "ORGANIZATION",
+          "name": "Eclipse Ventures",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "b58bf4bb-31da-5fda-adbe-f03db092e511",
+          "slug": "emerson-collective",
+          "entity_type": "ORGANIZATION",
+          "name": "Emerson Collective",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "20e6b355-f8b7-55bb-b192-6d02eb96c575",
+          "slug": "playground-global",
+          "entity_type": "ORGANIZATION",
+          "name": "Playground Global",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
     {
       "place": {
         "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
@@ -95,34 +269,34 @@
     },
     {
       "place": {
-        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
-        "slug": "menlo-park-us",
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
         "entity_type": "PLACE",
-        "name": "Menlo Park",
+        "name": "London",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 40.51872,
-      "lng": -74.4121,
-      "country_code": "US",
-      "cluster_label": null,
+      "lat": 51.51,
+      "lng": -0.13,
+      "country_code": "GB",
+      "cluster_label": "London",
       "weight": 2,
       "entities": [
         {
-          "id": "22d976e0-3c83-50e0-8102-bd2c1881a83c",
-          "slug": "khosla-ventures",
+          "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
+          "slug": "balderton-capital",
           "entity_type": "ORGANIZATION",
-          "name": "Khosla Ventures",
+          "name": "Balderton Capital",
           "primary_embodiment": null,
           "roles": [
             "INVESTOR"
           ]
         },
         {
-          "id": "adbc0f95-691a-5e06-aa4a-43b499df9f12",
-          "slug": "sequoia-capital",
+          "id": "53ef9bdf-0323-51aa-814c-0c77fac939f3",
+          "slug": "lingotto-investment-management",
           "entity_type": "ORGANIZATION",
-          "name": "Sequoia Capital",
+          "name": "Lingotto Investment Management",
           "primary_embodiment": null,
           "roles": [
             "INVESTOR"
@@ -133,34 +307,229 @@
     },
     {
       "place": {
-        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
-        "slug": "palo-alto-us",
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
         "entity_type": "PLACE",
-        "name": "Palo Alto",
+        "name": "Munich",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 37.44188,
-      "lng": -122.14302,
-      "country_code": "US",
-      "cluster_label": null,
+      "lat": 48.14,
+      "lng": 11.58,
+      "country_code": "DE",
+      "cluster_label": "Munich",
       "weight": 2,
       "entities": [
         {
-          "id": "b58bf4bb-31da-5fda-adbe-f03db092e511",
-          "slug": "emerson-collective",
+          "id": "3cf799cd-ef80-5485-bef6-1659559a102f",
+          "slug": "hv-capital",
           "entity_type": "ORGANIZATION",
-          "name": "Emerson Collective",
+          "name": "HV Capital",
           "primary_embodiment": null,
           "roles": [
             "INVESTOR"
           ]
         },
         {
-          "id": "20e6b355-f8b7-55bb-b192-6d02eb96c575",
-          "slug": "playground-global",
+          "id": "7689a104-4b1d-55d6-8e0c-ac3d89407637",
+          "slug": "vsquared-ventures",
           "entity_type": "ORGANIZATION",
-          "name": "Playground Global",
+          "name": "Vsquared Ventures",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
+        "slug": "new-york-us",
+        "entity_type": "PLACE",
+        "name": "New York",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 40.71427,
+      "lng": -74.00597,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "129a99cc-50ce-5be6-80e8-9d355416dcaa",
+          "slug": "lux-capital",
+          "entity_type": "ORGANIZATION",
+          "name": "Lux Capital",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "36062562-2d11-531a-849e-95516baf1f96",
+          "slug": "parkway-venture-capital",
+          "entity_type": "ORGANIZATION",
+          "name": "Parkway Venture Capital",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "84146879-d20b-58d2-80f9-1d4b15681830",
+        "slug": "santa-clara-us",
+        "entity_type": "PLACE",
+        "name": "Santa Clara",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.35411,
+      "lng": -121.95524,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "18a29658-1e49-52e6-af45-981999addb34",
+          "slug": "intel-capital",
+          "entity_type": "ORGANIZATION",
+          "name": "Intel Capital",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "933b544e-fc35-52b1-a73d-4b9db190d8b8",
+          "slug": "nventures",
+          "entity_type": "ORGANIZATION",
+          "name": "NVentures",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "country_code": "US",
+      "cluster_label": "Seattle",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+          "slug": "amazon",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "OPERATOR",
+            "PLATFORM",
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
+          "slug": "bezos-expeditions",
+          "entity_type": "ORGANIZATION",
+          "name": "Bezos Expeditions",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.68,
+      "lng": 139.69,
+      "country_code": "JP",
+      "cluster_label": "Tokyo",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+          "slug": "softbank-group",
+          "entity_type": "ORGANIZATION",
+          "name": "SoftBank Group",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        },
+        {
+          "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+          "slug": "softbank-robotics-group",
+          "entity_type": "ORGANIZATION",
+          "name": "SoftBank Robotics Group",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
+        "slug": "toronto-ca",
+        "entity_type": "PLACE",
+        "name": "Toronto",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 43.70643,
+      "lng": -79.39864,
+      "country_code": "CA",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "102a373b-d234-5888-a527-c2d4729551be",
+          "slug": "brookfield-asset-management",
+          "entity_type": "ORGANIZATION",
+          "name": "Brookfield Asset Management",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        },
+        {
+          "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
+          "slug": "ontario-teachers-pension-plan",
+          "entity_type": "ORGANIZATION",
+          "name": "Ontario Teachers' Pension Plan",
           "primary_embodiment": null,
           "roles": [
             "INVESTOR"
@@ -189,6 +558,34 @@
           "slug": "peak6",
           "entity_type": "ORGANIZATION",
           "name": "Peak6",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "decb0703-a742-5607-9412-1abfc6077802",
+        "slug": "gothenburg-se",
+        "entity_type": "PLACE",
+        "name": "Gothenburg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 57.70716,
+      "lng": 11.96679,
+      "country_code": "SE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "3bc458c8-b62e-55de-bf93-a6b6d76ad046",
+          "slug": "volvo-cars-tech-fund",
+          "entity_type": "ORGANIZATION",
+          "name": "Volvo Cars Tech Fund",
           "primary_embodiment": null,
           "roles": [
             "INVESTOR"
@@ -228,24 +625,80 @@
     },
     {
       "place": {
-        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
-        "slug": "london",
+        "id": "cca2b727-cd54-599d-9a71-2f79c4789f44",
+        "slug": "hong-kong-hk",
         "entity_type": "PLACE",
-        "name": "London",
+        "name": "Hong Kong",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 51.51,
-      "lng": -0.13,
-      "country_code": "GB",
-      "cluster_label": "London",
+      "lat": 22.27832,
+      "lng": 114.17469,
+      "country_code": "HK",
+      "cluster_label": null,
       "weight": 1,
       "entities": [
         {
-          "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
-          "slug": "balderton-capital",
+          "id": "381e7bc7-58fb-508a-b5c2-1af6da18e86f",
+          "slug": "hongshan-hsg",
           "entity_type": "ORGANIZATION",
-          "name": "Balderton Capital",
+          "name": "HongShan (HSG)",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "e11d2a28-3b50-5437-94c2-a9351c394601",
+        "slug": "kirkland-us",
+        "entity_type": "PLACE",
+        "name": "Kirkland",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 47.68149,
+      "lng": -122.20874,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "83dd2c2f-5b2f-58ec-a863-1a81488d3564",
+          "slug": "gates-frontier",
+          "entity_type": "ORGANIZATION",
+          "name": "Gates Frontier",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "db8f32a2-f422-565b-9e94-b07210f76414",
+        "slug": "los-angeles-us",
+        "entity_type": "PLACE",
+        "name": "Los Angeles",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 34.05223,
+      "lng": -118.24368,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "56e57cb9-bdb1-532e-93b0-531fe88aa6f5",
+          "slug": "b-capital",
+          "entity_type": "ORGANIZATION",
+          "name": "B Capital",
           "primary_embodiment": null,
           "roles": [
             "INVESTOR"
@@ -274,6 +727,34 @@
           "slug": "european-investment-bank",
           "entity_type": "ORGANIZATION",
           "name": "European Investment Bank",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "1bda5b7d-361b-5444-bc60-67db82d6363d",
+        "slug": "melbourne-au",
+        "entity_type": "PLACE",
+        "name": "Melbourne",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": -37.814,
+      "lng": 144.96332,
+      "country_code": "AU",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "d93d8084-751f-5d9c-9d2f-6f68ceb5441c",
+          "slug": "bhp-ventures",
+          "entity_type": "ORGANIZATION",
+          "name": "BHP Ventures",
           "primary_embodiment": null,
           "roles": [
             "INVESTOR"
@@ -341,6 +822,34 @@
     },
     {
       "place": {
+        "id": "8d35a47b-dbec-5d66-816e-e9933a296564",
+        "slug": "paris-fr",
+        "entity_type": "PLACE",
+        "name": "Paris",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.85341,
+      "lng": 2.3488,
+      "country_code": "FR",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "61a6ed94-36e4-5a73-bc2f-39eaf8ae4231",
+          "slug": "bpifrance",
+          "entity_type": "ORGANIZATION",
+          "name": "Bpifrance",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "2588e14b-b3ca-531f-9426-d37179a708a6",
         "slug": "redmond",
         "entity_type": "PLACE",
@@ -371,24 +880,24 @@
     },
     {
       "place": {
-        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
-        "slug": "san-francisco-us",
+        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+        "slug": "san-diego",
         "entity_type": "PLACE",
-        "name": "San Francisco",
+        "name": "San Diego",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 37.77493,
-      "lng": -122.41942,
+      "lat": 32.72,
+      "lng": -117.16,
       "country_code": "US",
-      "cluster_label": null,
+      "cluster_label": "San Diego",
       "weight": 1,
       "entities": [
         {
-          "id": "c906ef27-da2f-5c6e-8413-0e16d30f66d4",
-          "slug": "openai",
+          "id": "72f51d3a-e543-55db-97e9-73e9980cdf4d",
+          "slug": "qualcomm-ventures",
           "entity_type": "ORGANIZATION",
-          "name": "OpenAI",
+          "name": "Qualcomm Ventures",
           "primary_embodiment": null,
           "roles": [
             "INVESTOR"
@@ -399,30 +908,27 @@
     },
     {
       "place": {
-        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
-        "slug": "seattle",
+        "id": "f10171eb-0441-54ab-8c66-003773658eaa",
+        "slug": "san-salvador-sv",
         "entity_type": "PLACE",
-        "name": "Seattle",
+        "name": "San Salvador",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 47.6062,
-      "lng": -122.3321,
-      "country_code": "US",
-      "cluster_label": "Seattle",
+      "lat": 13.68935,
+      "lng": -89.18718,
+      "country_code": "SV",
+      "cluster_label": null,
       "weight": 1,
       "entities": [
         {
-          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
-          "slug": "amazon",
+          "id": "4907c863-cebf-5b5f-8ac5-eb783c293082",
+          "slug": "tether",
           "entity_type": "ORGANIZATION",
-          "name": "Amazon",
+          "name": "Tether",
           "primary_embodiment": null,
           "roles": [
-            "INVESTOR",
-            "OPERATOR",
-            "PLATFORM",
-            "RESEARCH_LAB"
+            "INVESTOR"
           ]
         }
       ],
@@ -452,6 +958,34 @@
           "roles": [
             "INVESTOR",
             "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "43948dd8-d19b-5ebd-a5fd-95532837fd9f",
+        "slug": "singapore-sg",
+        "entity_type": "PLACE",
+        "name": "Singapore",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 1.28967,
+      "lng": 103.85007,
+      "country_code": "SG",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "0ff72ba5-ea56-51cc-812e-921843e96058",
+          "slug": "temasek",
+          "entity_type": "ORGANIZATION",
+          "name": "Temasek",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
           ]
         }
       ],
@@ -518,6 +1052,34 @@
     },
     {
       "place": {
+        "id": "46debb86-6c28-51d0-8715-127ace7b455c",
+        "slug": "sydney-au",
+        "entity_type": "PLACE",
+        "name": "Sydney",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": -33.86785,
+      "lng": 151.20732,
+      "country_code": "AU",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "a886dda0-03d6-53dc-9a67-91b4030e9d86",
+          "slug": "macquarie-capital",
+          "entity_type": "ORGANIZATION",
+          "name": "Macquarie Capital",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "f8998de8-0c4f-559d-bec7-aca3c9ea2c1e",
         "slug": "taipei-tw",
         "entity_type": "PLACE",
@@ -536,63 +1098,6 @@
           "slug": "delta-electronics",
           "entity_type": "ORGANIZATION",
           "name": "Delta Electronics",
-          "primary_embodiment": null,
-          "roles": [
-            "INVESTOR"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 35.68,
-      "lng": 139.69,
-      "country_code": "JP",
-      "cluster_label": "Tokyo",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
-          "slug": "softbank-robotics-group",
-          "entity_type": "ORGANIZATION",
-          "name": "SoftBank Robotics Group",
-          "primary_embodiment": null,
-          "roles": [
-            "INVESTOR",
-            "PLATFORM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
-        "slug": "toronto-ca",
-        "entity_type": "PLACE",
-        "name": "Toronto",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 43.70643,
-      "lng": -79.39864,
-      "country_code": "CA",
-      "cluster_label": null,
-      "weight": 1,
-      "entities": [
-        {
-          "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
-          "slug": "ontario-teachers-pension-plan",
-          "entity_type": "ORGANIZATION",
-          "name": "Ontario Teachers' Pension Plan",
           "primary_embodiment": null,
           "roles": [
             "INVESTOR"
@@ -635,14 +1140,38 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 13,
-      "places": 9
+      "weight": 28,
+      "places": 14
+    },
+    {
+      "id": "DE",
+      "label": "DE",
+      "weight": 3,
+      "places": 2
     },
     {
       "id": "JP",
       "label": "JP",
+      "weight": 3,
+      "places": 2
+    },
+    {
+      "id": "AU",
+      "label": "AU",
       "weight": 2,
       "places": 2
+    },
+    {
+      "id": "CA",
+      "label": "CA",
+      "weight": 2,
+      "places": 1
+    },
+    {
+      "id": "GB",
+      "label": "GB",
+      "weight": 2,
+      "places": 1
     },
     {
       "id": "KR",
@@ -651,20 +1180,20 @@
       "places": 2
     },
     {
-      "id": "CA",
-      "label": "CA",
+      "id": "SE",
+      "label": "SE",
+      "weight": 2,
+      "places": 2
+    },
+    {
+      "id": "FR",
+      "label": "FR",
       "weight": 1,
       "places": 1
     },
     {
-      "id": "DE",
-      "label": "DE",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "GB",
-      "label": "GB",
+      "id": "HK",
+      "label": "HK",
       "weight": 1,
       "places": 1
     },
@@ -675,8 +1204,14 @@
       "places": 1
     },
     {
-      "id": "SE",
-      "label": "SE",
+      "id": "SG",
+      "label": "SG",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "SV",
+      "label": "SV",
       "weight": 1,
       "places": 1
     },
@@ -697,18 +1232,36 @@
     {
       "id": "Seattle",
       "label": "Seattle",
-      "weight": 2,
+      "weight": 3,
       "places": 2
     },
     {
       "id": "London",
       "label": "London",
-      "weight": 1,
+      "weight": 2,
+      "places": 1
+    },
+    {
+      "id": "Munich",
+      "label": "Munich",
+      "weight": 2,
+      "places": 1
+    },
+    {
+      "id": "Tokyo",
+      "label": "Tokyo",
+      "weight": 2,
       "places": 1
     },
     {
       "id": "Nagoya",
       "label": "Nagoya",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "San Diego",
+      "label": "San Diego",
       "weight": 1,
       "places": 1
     },
@@ -723,15 +1276,249 @@
       "label": "Seoul capital area",
       "weight": 1,
       "places": 1
-    },
-    {
-      "id": "Tokyo",
-      "label": "Tokyo",
-      "weight": 1,
-      "places": 1
     }
   ],
   "list": [
+    {
+      "entity": {
+        "id": "12008d1e-48c1-56d7-9243-85f423de2922",
+        "slug": "canaan-partners",
+        "entity_type": "ORGANIZATION",
+        "name": "Canaan Partners",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "c03ad96b-dbb5-5f23-ab04-d20df5d217a6",
+        "slug": "crv",
+        "entity_type": "ORGANIZATION",
+        "name": "CRV",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "c003c24d-04e1-5841-903d-4887f13f4bc5",
+        "slug": "dcvc",
+        "entity_type": "ORGANIZATION",
+        "name": "DCVC",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "bc83a4a7-887b-5432-99cc-d76044cda823",
+        "slug": "first-round-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "First Round Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "c906ef27-da2f-5c6e-8413-0e16d30f66d4",
+        "slug": "openai",
+        "entity_type": "ORGANIZATION",
+        "name": "OpenAI",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3d348273-7e19-55a7-b897-e59e7d9f0656",
+        "slug": "salesforce-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "Salesforce Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "22d976e0-3c83-50e0-8102-bd2c1881a83c",
+        "slug": "khosla-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "Khosla Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+        "slug": "menlo-park-us",
+        "entity_type": "PLACE",
+        "name": "Menlo Park",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "d15ae925-8092-5907-8703-87a3b98eb9f8",
+        "slug": "lg-technology-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "LG Technology Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+        "slug": "menlo-park-us",
+        "entity_type": "PLACE",
+        "name": "Menlo Park",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "adbc0f95-691a-5e06-aa4a-43b499df9f12",
+        "slug": "sequoia-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "Sequoia Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+        "slug": "menlo-park-us",
+        "entity_type": "PLACE",
+        "name": "Menlo Park",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
+        "slug": "eclipse-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "Eclipse Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
+        "entity_type": "PLACE",
+        "name": "Palo Alto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b58bf4bb-31da-5fda-adbe-f03db092e511",
+        "slug": "emerson-collective",
+        "entity_type": "ORGANIZATION",
+        "name": "Emerson Collective",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
+        "entity_type": "PLACE",
+        "name": "Palo Alto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "20e6b355-f8b7-55bb-b192-6d02eb96c575",
+        "slug": "playground-global",
+        "entity_type": "ORGANIZATION",
+        "name": "Playground Global",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
+        "entity_type": "PLACE",
+        "name": "Palo Alto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
     {
       "entity": {
         "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
@@ -801,80 +1588,285 @@
     },
     {
       "entity": {
-        "id": "22d976e0-3c83-50e0-8102-bd2c1881a83c",
-        "slug": "khosla-ventures",
+        "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
+        "slug": "balderton-capital",
         "entity_type": "ORGANIZATION",
-        "name": "Khosla Ventures",
+        "name": "Balderton Capital",
         "primary_embodiment": null,
         "roles": [
           "INVESTOR"
         ]
       },
       "place": {
-        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
-        "slug": "menlo-park-us",
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
         "entity_type": "PLACE",
-        "name": "Menlo Park",
+        "name": "London",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "adbc0f95-691a-5e06-aa4a-43b499df9f12",
-        "slug": "sequoia-capital",
+        "id": "53ef9bdf-0323-51aa-814c-0c77fac939f3",
+        "slug": "lingotto-investment-management",
         "entity_type": "ORGANIZATION",
-        "name": "Sequoia Capital",
+        "name": "Lingotto Investment Management",
         "primary_embodiment": null,
         "roles": [
           "INVESTOR"
         ]
       },
       "place": {
-        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
-        "slug": "menlo-park-us",
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
         "entity_type": "PLACE",
-        "name": "Menlo Park",
+        "name": "London",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "b58bf4bb-31da-5fda-adbe-f03db092e511",
-        "slug": "emerson-collective",
+        "id": "3cf799cd-ef80-5485-bef6-1659559a102f",
+        "slug": "hv-capital",
         "entity_type": "ORGANIZATION",
-        "name": "Emerson Collective",
+        "name": "HV Capital",
         "primary_embodiment": null,
         "roles": [
           "INVESTOR"
         ]
       },
       "place": {
-        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
-        "slug": "palo-alto-us",
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
         "entity_type": "PLACE",
-        "name": "Palo Alto",
+        "name": "Munich",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "20e6b355-f8b7-55bb-b192-6d02eb96c575",
-        "slug": "playground-global",
+        "id": "7689a104-4b1d-55d6-8e0c-ac3d89407637",
+        "slug": "vsquared-ventures",
         "entity_type": "ORGANIZATION",
-        "name": "Playground Global",
+        "name": "Vsquared Ventures",
         "primary_embodiment": null,
         "roles": [
           "INVESTOR"
         ]
       },
       "place": {
-        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
-        "slug": "palo-alto-us",
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
         "entity_type": "PLACE",
-        "name": "Palo Alto",
+        "name": "Munich",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "129a99cc-50ce-5be6-80e8-9d355416dcaa",
+        "slug": "lux-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "Lux Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
+        "slug": "new-york-us",
+        "entity_type": "PLACE",
+        "name": "New York",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "36062562-2d11-531a-849e-95516baf1f96",
+        "slug": "parkway-venture-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "Parkway Venture Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
+        "slug": "new-york-us",
+        "entity_type": "PLACE",
+        "name": "New York",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "18a29658-1e49-52e6-af45-981999addb34",
+        "slug": "intel-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "Intel Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "84146879-d20b-58d2-80f9-1d4b15681830",
+        "slug": "santa-clara-us",
+        "entity_type": "PLACE",
+        "name": "Santa Clara",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "933b544e-fc35-52b1-a73d-4b9db190d8b8",
+        "slug": "nventures",
+        "entity_type": "ORGANIZATION",
+        "name": "NVentures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "84146879-d20b-58d2-80f9-1d4b15681830",
+        "slug": "santa-clara-us",
+        "entity_type": "PLACE",
+        "name": "Santa Clara",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+        "slug": "amazon",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OPERATOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
+        "slug": "bezos-expeditions",
+        "entity_type": "ORGANIZATION",
+        "name": "Bezos Expeditions",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+        "slug": "softbank-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+        "slug": "softbank-robotics-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Robotics Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "102a373b-d234-5888-a527-c2d4729551be",
+        "slug": "brookfield-asset-management",
+        "entity_type": "ORGANIZATION",
+        "name": "Brookfield Asset Management",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
+        "slug": "toronto-ca",
+        "entity_type": "PLACE",
+        "name": "Toronto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
+        "slug": "ontario-teachers-pension-plan",
+        "entity_type": "ORGANIZATION",
+        "name": "Ontario Teachers' Pension Plan",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
+        "slug": "toronto-ca",
+        "entity_type": "PLACE",
+        "name": "Toronto",
         "primary_embodiment": null,
         "roles": []
       }
@@ -895,6 +1887,26 @@
         "slug": "chicago-us",
         "entity_type": "PLACE",
         "name": "Chicago",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3bc458c8-b62e-55de-bf93-a6b6d76ad046",
+        "slug": "volvo-cars-tech-fund",
+        "entity_type": "ORGANIZATION",
+        "name": "Volvo Cars Tech Fund",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "decb0703-a742-5607-9412-1abfc6077802",
+        "slug": "gothenburg-se",
+        "entity_type": "PLACE",
+        "name": "Gothenburg",
         "primary_embodiment": null,
         "roles": []
       }
@@ -922,20 +1934,60 @@
     },
     {
       "entity": {
-        "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
-        "slug": "balderton-capital",
+        "id": "381e7bc7-58fb-508a-b5c2-1af6da18e86f",
+        "slug": "hongshan-hsg",
         "entity_type": "ORGANIZATION",
-        "name": "Balderton Capital",
+        "name": "HongShan (HSG)",
         "primary_embodiment": null,
         "roles": [
           "INVESTOR"
         ]
       },
       "place": {
-        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
-        "slug": "london",
+        "id": "cca2b727-cd54-599d-9a71-2f79c4789f44",
+        "slug": "hong-kong-hk",
         "entity_type": "PLACE",
-        "name": "London",
+        "name": "Hong Kong",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "83dd2c2f-5b2f-58ec-a863-1a81488d3564",
+        "slug": "gates-frontier",
+        "entity_type": "ORGANIZATION",
+        "name": "Gates Frontier",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "e11d2a28-3b50-5437-94c2-a9351c394601",
+        "slug": "kirkland-us",
+        "entity_type": "PLACE",
+        "name": "Kirkland",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "56e57cb9-bdb1-532e-93b0-531fe88aa6f5",
+        "slug": "b-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "B Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "db8f32a2-f422-565b-9e94-b07210f76414",
+        "slug": "los-angeles-us",
+        "entity_type": "PLACE",
+        "name": "Los Angeles",
         "primary_embodiment": null,
         "roles": []
       }
@@ -956,6 +2008,26 @@
         "slug": "luxembourg-lu",
         "entity_type": "PLACE",
         "name": "Luxembourg",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "d93d8084-751f-5d9c-9d2f-6f68ceb5441c",
+        "slug": "bhp-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "BHP Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "1bda5b7d-361b-5444-bc60-67db82d6363d",
+        "slug": "melbourne-au",
+        "entity_type": "PLACE",
+        "name": "Melbourne",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1003,6 +2075,26 @@
     },
     {
       "entity": {
+        "id": "61a6ed94-36e4-5a73-bc2f-39eaf8ae4231",
+        "slug": "bpifrance",
+        "entity_type": "ORGANIZATION",
+        "name": "Bpifrance",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "8d35a47b-dbec-5d66-816e-e9933a296564",
+        "slug": "paris-fr",
+        "entity_type": "PLACE",
+        "name": "Paris",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "7015787f-4e5d-58a6-ae0c-112ce87d4c60",
         "slug": "microsoft",
         "entity_type": "ORGANIZATION",
@@ -1025,43 +2117,40 @@
     },
     {
       "entity": {
-        "id": "c906ef27-da2f-5c6e-8413-0e16d30f66d4",
-        "slug": "openai",
+        "id": "72f51d3a-e543-55db-97e9-73e9980cdf4d",
+        "slug": "qualcomm-ventures",
         "entity_type": "ORGANIZATION",
-        "name": "OpenAI",
+        "name": "Qualcomm Ventures",
         "primary_embodiment": null,
         "roles": [
           "INVESTOR"
         ]
       },
       "place": {
-        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
-        "slug": "san-francisco-us",
+        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+        "slug": "san-diego",
         "entity_type": "PLACE",
-        "name": "San Francisco",
+        "name": "San Diego",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
-        "slug": "amazon",
+        "id": "4907c863-cebf-5b5f-8ac5-eb783c293082",
+        "slug": "tether",
         "entity_type": "ORGANIZATION",
-        "name": "Amazon",
+        "name": "Tether",
         "primary_embodiment": null,
         "roles": [
-          "INVESTOR",
-          "OPERATOR",
-          "PLATFORM",
-          "RESEARCH_LAB"
+          "INVESTOR"
         ]
       },
       "place": {
-        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
-        "slug": "seattle",
+        "id": "f10171eb-0441-54ab-8c66-003773658eaa",
+        "slug": "san-salvador-sv",
         "entity_type": "PLACE",
-        "name": "Seattle",
+        "name": "San Salvador",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1083,6 +2172,26 @@
         "slug": "seoul",
         "entity_type": "PLACE",
         "name": "Seoul",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "0ff72ba5-ea56-51cc-812e-921843e96058",
+        "slug": "temasek",
+        "entity_type": "ORGANIZATION",
+        "name": "Temasek",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "43948dd8-d19b-5ebd-a5fd-95532837fd9f",
+        "slug": "singapore-sg",
+        "entity_type": "PLACE",
+        "name": "Singapore",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1132,6 +2241,26 @@
     },
     {
       "entity": {
+        "id": "a886dda0-03d6-53dc-9a67-91b4030e9d86",
+        "slug": "macquarie-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "Macquarie Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "46debb86-6c28-51d0-8715-127ace7b455c",
+        "slug": "sydney-au",
+        "entity_type": "PLACE",
+        "name": "Sydney",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "cb0783b9-f236-5ced-be66-2c0e79851011",
         "slug": "delta-electronics",
         "entity_type": "ORGANIZATION",
@@ -1146,47 +2275,6 @@
         "slug": "taipei-tw",
         "entity_type": "PLACE",
         "name": "Taipei",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
-        "slug": "softbank-robotics-group",
-        "entity_type": "ORGANIZATION",
-        "name": "SoftBank Robotics Group",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR",
-          "PLATFORM"
-        ]
-      },
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
-        "slug": "ontario-teachers-pension-plan",
-        "entity_type": "ORGANIZATION",
-        "name": "Ontario Teachers' Pension Plan",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR"
-        ]
-      },
-      "place": {
-        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
-        "slug": "toronto-ca",
-        "entity_type": "PLACE",
-        "name": "Toronto",
         "primary_embodiment": null,
         "roles": []
       }

@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "a70d14e5-2d01-5cd9-9ed9-ad50f0f43d8a",
+          "source": {
+            "id": "698f0f64-1451-5021-9a17-4af7183cd4aa",
+            "slug": "carnegie-mellon-robotics-institute",
+            "entity_type": "ORGANIZATION",
+            "name": "Carnegie Mellon Robotics Institute",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "aa434d66-6ff1-5256-90e1-e505f897c514",
           "source": {
             "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
@@ -88,6 +110,16 @@
   "lateral_links": {
     "company": [
       {
+        "id": "698f0f64-1451-5021-9a17-4af7183cd4aa",
+        "slug": "carnegie-mellon-robotics-institute",
+        "entity_type": "ORGANIZATION",
+        "name": "Carnegie Mellon Robotics Institute",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      {
         "id": "eef75a0b-80af-5d7a-b958-96c8a8c42927",
         "slug": "seegrid",
         "entity_type": "ORGANIZATION",
@@ -124,7 +156,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

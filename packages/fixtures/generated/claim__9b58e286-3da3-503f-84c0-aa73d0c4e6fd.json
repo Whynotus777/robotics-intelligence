@@ -1,0 +1,76 @@
+{
+  "claim": {
+    "claim_id": "9b58e286-3da3-503f-84c0-aa73d0c4e6fd",
+    "subject": {
+      "id": "c3749791-e72b-5876-9e0d-9a8b6ae4da4e",
+      "slug": "honeywell",
+      "entity_type": "ORGANIZATION",
+      "name": "Honeywell",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Honeywell is headquartered at Charlotte",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "af735767-934e-5dcd-b41a-51d91c5fc0ac",
+        "slug": "charlotte-us",
+        "entity_type": "PLACE",
+        "name": "Charlotte",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d5aaa4ea-9a97-5a79-a9ca-f013b661ef22",
+      "class": "ANALYST",
+      "confidence": "LOW",
+      "stance": "SUPPORTS",
+      "excerpt": "The supplied roster lists Charlotte, US as the headquarters city; this location has not been independently confirmed.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d243cf63-e2ad-5203-876f-501f98675af3",
+        "url": "https://github.com/Whynotus777/robotics-intelligence/blob/6e47be144ea8dd983ec489137df1fc49ae11a7ca/research/roster/platforms-investors-labs.csv",
+        "canonical_url": null,
+        "publisher": "Robotics Intelligence candidate roster",
+        "title": "Robotics Intelligence candidate roster — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Provisional city-level location transcribed from the supplied research roster to support discovery. It is not a verified headquarters address.",
+        "advance_criteria": [
+          "A primary company profile or filing confirms this headquarters city."
+        ],
+        "regress_criteria": [
+          "Primary evidence identifies a different headquarters or contradicts the roster location."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

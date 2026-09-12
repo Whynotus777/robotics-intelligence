@@ -4,12 +4,12 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 96
+      "count": 102
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 39
+      "count": 40
     },
     {
       "id": "MANUFACTURED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 33
+      "count": 47
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 23
+      "count": 50
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 13
+      "count": 17
     }
   ],
   "marks": [
@@ -340,6 +340,35 @@
           "roles": [
             "CHIPMAKER",
             "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "af735767-934e-5dcd-b41a-51d91c5fc0ac",
+        "slug": "charlotte-us",
+        "entity_type": "PLACE",
+        "name": "Charlotte",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.22709,
+      "lng": -80.84313,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "c3749791-e72b-5876-9e0d-9a8b6ae4da4e",
+          "slug": "honeywell",
+          "entity_type": "ORGANIZATION",
+          "name": "Honeywell",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "INTEGRATOR"
           ]
         }
       ],
@@ -979,8 +1008,8 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 13,
-      "places": 10
+      "weight": 14,
+      "places": 11
     },
     {
       "id": "CN",
@@ -1447,6 +1476,27 @@
         "slug": "chandler-us",
         "entity_type": "PLACE",
         "name": "Chandler",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "c3749791-e72b-5876-9e0d-9a8b6ae4da4e",
+        "slug": "honeywell",
+        "entity_type": "ORGANIZATION",
+        "name": "Honeywell",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "INTEGRATOR"
+        ]
+      },
+      "place": {
+        "id": "af735767-934e-5dcd-b41a-51d91c5fc0ac",
+        "slug": "charlotte-us",
+        "entity_type": "PLACE",
+        "name": "Charlotte",
         "primary_embodiment": null,
         "roles": []
       }

@@ -110,6 +110,32 @@
   ],
   "relationships": [
     {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "a70d14e5-2d01-5cd9-9ed9-ad50f0f43d8a",
+          "target": {
+            "id": "87216f35-32ce-54be-9ed9-86c480775092",
+            "slug": "pittsburgh",
+            "entity_type": "PLACE",
+            "name": "Pittsburgh",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "PART_OF",
       "label": "is part of",
       "items": [
@@ -151,6 +177,16 @@
           "RESEARCH_LAB"
         ]
       }
+    ],
+    "places": [
+      {
+        "id": "87216f35-32ce-54be-9ed9-86c480775092",
+        "slug": "pittsburgh",
+        "entity_type": "PLACE",
+        "name": "Pittsburgh",
+        "primary_embodiment": null,
+        "roles": []
+      }
     ]
   },
   "intelligence": {
@@ -160,15 +196,15 @@
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
-        "ANALYST": 0
+        "ANALYST": 1
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

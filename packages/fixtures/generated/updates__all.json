@@ -307,6 +307,41 @@
       "origin": "SEED"
     },
     {
+      "id": "05c67c6d-b48b-5874-8d05-c73cf84d30e2",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "18a29658-1e49-52e6-af45-981999addb34",
+        "slug": "intel-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "Intel Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "84146879-d20b-58d2-80f9-1d4b15681830",
+          "slug": "santa-clara-us",
+          "entity_type": "PLACE",
+          "name": "Santa Clara",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Santa Clara",
+      "origin": "SEED"
+    },
+    {
       "id": "0650cd81-f295-50ba-a165-7aa5b6f6a89b",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -688,6 +723,41 @@
       "origin": "SEED"
     },
     {
+      "id": "0b30d8d9-c069-54b6-a9c9-8ba9a49e9010",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "3cf799cd-ef80-5485-bef6-1659559a102f",
+        "slug": "hv-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "HV Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+          "slug": "munich",
+          "entity_type": "PLACE",
+          "name": "Munich",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Munich",
+      "origin": "SEED"
+    },
+    {
       "id": "0b47388c-580a-5d35-9650-7f3951c39bae",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1023,6 +1093,41 @@
       "origin": "SEED"
     },
     {
+      "id": "11435bd0-7306-50cc-b961-5eee8c79634a",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+        "slug": "mitsubishi-electric-research-laboratories-merl",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric Research Laboratories (MERL)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "193279b4-9f05-5719-ab97-6efb59d10ed9",
+          "slug": "cambridge-us",
+          "entity_type": "PLACE",
+          "name": "Cambridge",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Cambridge",
+      "origin": "SEED"
+    },
+    {
       "id": "122ad002-66e7-5358-9fab-5a5c4d68a2db",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1266,6 +1371,42 @@
       "origin": "SEED"
     },
     {
+      "id": "157b0bf8-d4c2-5abd-a492-5b7e32df2a73",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+        "slug": "softbank-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+          "slug": "tokyo",
+          "entity_type": "PLACE",
+          "name": "Tokyo",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "LOW",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Tokyo",
+      "origin": "SEED"
+    },
+    {
       "id": "15a28090-fcee-5803-9394-91dbc83c653c",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1380,125 +1521,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Integrator",
-      "origin": "SEED"
-    },
-    {
-      "id": "16901d60-7ef6-5dd8-aef3-0b8bb555f0f8",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "95c149ad-c683-58ef-bd03-674f4d38b758",
-        "slug": "flex",
-        "entity_type": "ORGANIZATION",
-        "name": "Flex",
-        "primary_embodiment": null,
-        "roles": [
-          "CONTRACT_MANUFACTURER",
-          "OPERATOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "CONTRACT_MANUFACTURER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Contract manufacturer",
-      "origin": "SEED"
-    },
-    {
-      "id": "171fcde7-e377-5104-b7f2-c61cabe56ed2",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
-        "slug": "odyssey",
-        "entity_type": "ORGANIZATION",
-        "name": "Odyssey",
-        "primary_embodiment": null,
-        "roles": [
-          "DATA_SIMULATION_PROVIDER",
-          "MODEL_DEVELOPER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "MODEL_DEVELOPER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Model developer",
-      "origin": "SEED"
-    },
-    {
-      "id": "17e71e67-e90d-5092-8df1-ff9c7e4acd38",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
-        "slug": "softbank-robotics-group",
-        "entity_type": "ORGANIZATION",
-        "name": "SoftBank Robotics Group",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR",
-          "PLATFORM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-          "slug": "tokyo",
-          "entity_type": "PLACE",
-          "name": "Tokyo",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Tokyo",
-      "origin": "SEED"
-    },
-    {
-      "id": "181908a0-ae9f-59a8-a6de-e8f639531f2f",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "ab09234e-b3d8-51de-b4a0-06b051ac3a6d",
-        "slug": "stober",
-        "entity_type": "ORGANIZATION",
-        "name": "STOBER",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "COMPONENT_SUPPLIER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Component supplier",
       "origin": "SEED"
     }
   ]
