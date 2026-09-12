@@ -22,4 +22,23 @@ claims:
     confidence: HIGH
     excerpt: Builds and operates autonomous sidewalk delivery robots.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: san-francisco-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-07c18c9bf9255cd7
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Starship Technologies is headquartered in San Francisco.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2014-01-01'
+  valid_from: '2014-01-01'
+  evidence:
+  - source: enrich-07c18c9bf9255cd7
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Starship Technologies was established in 2014 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: US

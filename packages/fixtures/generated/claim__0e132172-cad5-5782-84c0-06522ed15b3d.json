@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "0e132172-cad5-5782-84c0-06522ed15b3d",
+    "subject": {
+      "id": "30732daf-8b5f-56bf-885c-a40749a12219",
+      "slug": "neura-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Neura Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Neura Robotics is headquartered at Metzingen",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "e1f47bba-c4c0-597f-90af-d43cf4dc5629",
+        "slug": "metzingen-de",
+        "entity_type": "PLACE",
+        "name": "Metzingen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3b41f4d0-3a04-5dc4-a78d-6627d991b163",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "NEURA Robotics is headquartered in Metzingen.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "53a4de71-f05f-535d-b792-d071ad66415b",
+        "url": "https://neura-robotics.com/about-us/",
+        "canonical_url": null,
+        "publisher": "NEURA Robotics",
+        "title": "NEURA Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

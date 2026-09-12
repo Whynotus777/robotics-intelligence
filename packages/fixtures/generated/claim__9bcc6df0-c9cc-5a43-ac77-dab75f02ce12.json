@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "9bcc6df0-c9cc-5a43-ac77-dab75f02ce12",
+    "subject": {
+      "id": "214cd9d3-eb43-5950-8bf6-33f4e5c3ca64",
+      "slug": "neugart",
+      "entity_type": "ORGANIZATION",
+      "name": "Neugart",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Neugart is headquartered at Kippenheim",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "09f9ed75-7fa3-5f34-bfb4-2d64e0b01cb7",
+        "slug": "kippenheim-de",
+        "entity_type": "PLACE",
+        "name": "Kippenheim",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "07c34cb2-59dc-5913-beb7-c781548e484a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Neugart is headquartered in Kippenheim.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "38007626-9b19-50ec-9be4-23dcd34e229f",
+        "url": "https://www.neugart.com/en-us/company/about-us",
+        "canonical_url": null,
+        "publisher": "Neugart",
+        "title": "Neugart — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "cebe9dd6-cd5a-5684-bc76-79cfaf76cccd",
+    "subject": {
+      "id": "62db8a22-e468-572f-9089-fb55527c5001",
+      "slug": "zhaowei-machinery-electronics",
+      "entity_type": "ORGANIZATION",
+      "name": "Zhaowei Machinery & Electronics",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Zhaowei Machinery & Electronics is headquartered at Shenzhen",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "22b1135b-0d79-5ea3-aa73-930f7812815f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Zhaowei Machinery & Electronics is headquartered in Shenzhen.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "6ed1fc24-5112-5f23-a0a3-1b2b118d843c",
+        "url": "https://www.zwgearbox.com/company",
+        "canonical_url": null,
+        "publisher": "Zhaowei Machinery & Electronics",
+        "title": "Zhaowei Machinery & Electronics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "18a3199b-c78f-5804-8e9b-bf61aa446b58",
+    "subject": {
+      "id": "698b16a9-4ca1-5f12-9b07-f0b5d0e0c6f6",
+      "slug": "mimic-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "mimic robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "mimic robotics is headquartered at Zurich",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3d240f0c-3723-5e34-8f6b-6e5b523b193e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "mimic robotics is headquartered in Zurich.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d3a945bf-7378-5926-b10f-da8783f34d72",
+        "url": "https://www.mimicrobotics.com/about",
+        "canonical_url": null,
+        "publisher": "mimic robotics",
+        "title": "mimic robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

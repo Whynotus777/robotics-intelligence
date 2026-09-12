@@ -4,12 +4,12 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 65
+      "count": 77
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 13
+      "count": 18
     },
     {
       "id": "MANUFACTURED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 20
+      "count": 24
     },
     {
       "id": "FUNDED",
@@ -93,6 +93,55 @@
     },
     {
       "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 22.54,
+      "lng": 114.06,
+      "country_code": "CN",
+      "cluster_label": "Shenzhen",
+      "weight": 3,
+      "entities": [
+        {
+          "id": "95a54839-94ba-5a13-b8b6-068db4841677",
+          "slug": "leadshine-technology",
+          "entity_type": "ORGANIZATION",
+          "name": "Leadshine Technology",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
+          "slug": "robosense",
+          "entity_type": "ORGANIZATION",
+          "name": "RoboSense",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "62db8a22-e468-572f-9089-fb55527c5001",
+          "slug": "zhaowei-machinery-electronics",
+          "entity_type": "ORGANIZATION",
+          "name": "Zhaowei Machinery & Electronics",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
         "slug": "tokyo",
         "entity_type": "PLACE",
@@ -131,6 +180,34 @@
     },
     {
       "place": {
+        "id": "3869bb1d-b6a7-5cf8-a2df-10d83086b011",
+        "slug": "almelo-nl",
+        "entity_type": "PLACE",
+        "name": "Almelo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 52.35667,
+      "lng": 6.6625,
+      "country_code": "NL",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "656b2e7b-afdc-5adf-b754-602ed71f4679",
+          "slug": "tecnotion",
+          "entity_type": "ORGANIZATION",
+          "name": "Tecnotion",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c5da4207-66e6-58af-b465-9432764e2a62",
         "slug": "hangzhou",
         "entity_type": "PLACE",
@@ -153,6 +230,34 @@
           "roles": [
             "COMPONENT_SUPPLIER",
             "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "09f9ed75-7fa3-5f34-bfb4-2d64e0b01cb7",
+        "slug": "kippenheim-de",
+        "entity_type": "PLACE",
+        "name": "Kippenheim",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.29564,
+      "lng": 7.8251,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "214cd9d3-eb43-5950-8bf6-33f4e5c3ca64",
+          "slug": "neugart",
+          "entity_type": "ORGANIZATION",
+          "name": "Neugart",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
           ]
         }
       ],
@@ -303,35 +408,6 @@
     },
     {
       "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
-        "entity_type": "PLACE",
-        "name": "Shenzhen",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 22.54,
-      "lng": 114.06,
-      "country_code": "CN",
-      "cluster_label": "Shenzhen",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
-          "slug": "robosense",
-          "entity_type": "ORGANIZATION",
-          "name": "RoboSense",
-          "primary_embodiment": null,
-          "roles": [
-            "CHIPMAKER",
-            "COMPONENT_SUPPLIER"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "f89a18fb-337d-5e25-91da-66048da131d4",
         "slug": "suwon",
         "entity_type": "PLACE",
@@ -360,25 +436,54 @@
         }
       ],
       "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "212688c4-8a28-5955-9cc4-ad6541c91681",
+        "slug": "torrance-us",
+        "entity_type": "PLACE",
+        "name": "Torrance",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 33.83585,
+      "lng": -118.34063,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "b4c8d070-a234-5efe-bbb5-cd45f66692ef",
+          "slug": "blue-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Blue Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
     }
   ],
   "countries": [
     {
-      "id": "JP",
-      "label": "JP",
-      "weight": 4,
+      "id": "CN",
+      "label": "CN",
+      "weight": 5,
       "places": 3
     },
     {
       "id": "US",
       "label": "US",
-      "weight": 4,
-      "places": 2
+      "weight": 5,
+      "places": 3
     },
     {
-      "id": "CN",
-      "label": "CN",
-      "weight": 3,
+      "id": "JP",
+      "label": "JP",
+      "weight": 4,
       "places": 3
     },
     {
@@ -388,8 +493,20 @@
       "places": 1
     },
     {
+      "id": "DE",
+      "label": "DE",
+      "weight": 1,
+      "places": 1
+    },
+    {
       "id": "KR",
       "label": "KR",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "NL",
+      "label": "NL",
       "weight": 1,
       "places": 1
     }
@@ -398,6 +515,12 @@
     {
       "id": "Bay Area",
       "label": "Bay Area",
+      "weight": 3,
+      "places": 1
+    },
+    {
+      "id": "Shenzhen",
+      "label": "Shenzhen",
       "weight": 3,
       "places": 1
     },
@@ -440,12 +563,6 @@
     {
       "id": "Shanghai",
       "label": "Shanghai",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "Shenzhen",
-      "label": "Shenzhen",
       "weight": 1,
       "places": 1
     }
@@ -518,6 +635,67 @@
     },
     {
       "entity": {
+        "id": "95a54839-94ba-5a13-b8b6-068db4841677",
+        "slug": "leadshine-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Leadshine Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
+        "slug": "robosense",
+        "entity_type": "ORGANIZATION",
+        "name": "RoboSense",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "62db8a22-e468-572f-9089-fb55527c5001",
+        "slug": "zhaowei-machinery-electronics",
+        "entity_type": "ORGANIZATION",
+        "name": "Zhaowei Machinery & Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
         "slug": "harmonic-drive",
         "entity_type": "ORGANIZATION",
@@ -558,6 +736,26 @@
     },
     {
       "entity": {
+        "id": "656b2e7b-afdc-5adf-b754-602ed71f4679",
+        "slug": "tecnotion",
+        "entity_type": "ORGANIZATION",
+        "name": "Tecnotion",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "3869bb1d-b6a7-5cf8-a2df-10d83086b011",
+        "slug": "almelo-nl",
+        "entity_type": "PLACE",
+        "name": "Almelo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
         "slug": "unitree",
         "entity_type": "ORGANIZATION",
@@ -573,6 +771,26 @@
         "slug": "hangzhou",
         "entity_type": "PLACE",
         "name": "Hangzhou",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "214cd9d3-eb43-5950-8bf6-33f4e5c3ca64",
+        "slug": "neugart",
+        "entity_type": "ORGANIZATION",
+        "name": "Neugart",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "09f9ed75-7fa3-5f34-bfb4-2d64e0b01cb7",
+        "slug": "kippenheim-de",
+        "entity_type": "PLACE",
+        "name": "Kippenheim",
         "primary_embodiment": null,
         "roles": []
       }
@@ -682,27 +900,6 @@
     },
     {
       "entity": {
-        "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
-        "slug": "robosense",
-        "entity_type": "ORGANIZATION",
-        "name": "RoboSense",
-        "primary_embodiment": null,
-        "roles": [
-          "CHIPMAKER",
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
-        "entity_type": "PLACE",
-        "name": "Shenzhen",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
         "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
         "slug": "samsung",
         "entity_type": "ORGANIZATION",
@@ -720,6 +917,27 @@
         "slug": "suwon",
         "entity_type": "PLACE",
         "name": "Suwon",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b4c8d070-a234-5efe-bbb5-cd45f66692ef",
+        "slug": "blue-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Blue Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "212688c4-8a28-5955-9cc4-ad6541c91681",
+        "slug": "torrance-us",
+        "entity_type": "PLACE",
+        "name": "Torrance",
         "primary_embodiment": null,
         "roles": []
       }

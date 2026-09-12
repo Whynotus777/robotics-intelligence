@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "7428bc0b-2d5e-5bba-a1a9-682657c8c6c3",
+    "subject": {
+      "id": "554db289-7174-5ac8-8697-2b498ab0dd9b",
+      "slug": "tencent",
+      "entity_type": "ORGANIZATION",
+      "name": "Tencent",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Tencent was founded on 1998-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1998-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1998-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f3e14474-8d1d-5603-ab46-584ca4334a63",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Tencent was established in 1998 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "9f871cd3-c4e2-5009-8539-6b09e7c0c341",
+        "url": "https://www.tencent.com/who-we-are/",
+        "canonical_url": null,
+        "publisher": "Tencent",
+        "title": "Tencent — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Builds robotic vacuum and floor-cleaning systems.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: beijing
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-1c1ab71db59393a2
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Roborock is headquartered in Beijing.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2014-01-01'
+  valid_from: '2014-01-01'
+  evidence:
+  - source: enrich-1c1ab71db59393a2
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Roborock was established in 2014 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: CN

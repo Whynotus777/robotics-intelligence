@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "10e9b2cf-a8c5-51e0-a076-5ce8ede0d0b0",
+    "subject": {
+      "id": "d4ac61fc-fb87-50e4-a61b-5481c38e60e2",
+      "slug": "elite-robots",
+      "entity_type": "ORGANIZATION",
+      "name": "Elite Robots",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Elite Robots is headquartered at Shanghai",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "aeb21026-1a09-5692-8289-38c9cda0b17f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Elite Robots is headquartered in Shanghai.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "524fcfa9-9f15-5a2b-9cb6-36947ecae99c",
+        "url": "https://www.eliterobots.com/contact",
+        "canonical_url": null,
+        "publisher": "Elite Robots",
+        "title": "Elite Robots — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

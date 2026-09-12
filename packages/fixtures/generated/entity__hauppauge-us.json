@@ -1,0 +1,100 @@
+{
+  "entity": {
+    "id": "9aeaed56-4f22-55e5-99c5-679ea1c18694",
+    "slug": "hauppauge-us",
+    "entity_type": "PLACE",
+    "name": "Hauppauge",
+    "short_description": null,
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": null,
+    "city": "Hauppauge",
+    "lat": 40.82565,
+    "lng": -73.20261,
+    "cluster_label": null
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "604d2459-fc64-5d11-8364-b7c7c7a1a376",
+          "source": {
+            "id": "67892fe3-9853-522f-8b6d-e47d61c35c9c",
+            "slug": "ulc-technologies",
+            "entity_type": "ORGANIZATION",
+            "name": "ULC Technologies",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "67892fe3-9853-522f-8b6d-e47d61c35c9c",
+        "slug": "ulc-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "ULC Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

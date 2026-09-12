@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "7d618b9f-ca51-505c-ba45-c293edf9ff95",
+          "source": {
+            "id": "db60f85f-9f38-557f-bb22-2a346e929d38",
+            "slug": "murata-machinery-muratec",
+            "entity_type": "ORGANIZATION",
+            "name": "Murata Machinery (Muratec)",
+            "primary_embodiment": null,
+            "roles": [
+              "INTEGRATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "e75f00fd-a1f0-5369-9aae-917afce1def2",
           "source": {
             "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
@@ -67,6 +89,16 @@
   "lateral_links": {
     "company": [
       {
+        "id": "db60f85f-9f38-557f-bb22-2a346e929d38",
+        "slug": "murata-machinery-muratec",
+        "entity_type": "ORGANIZATION",
+        "name": "Murata Machinery (Muratec)",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR"
+        ]
+      },
+      {
         "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
         "slug": "omron",
         "entity_type": "ORGANIZATION",
@@ -94,7 +126,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

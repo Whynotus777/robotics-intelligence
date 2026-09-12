@@ -59,12 +59,44 @@
             "confidence": "MEDIUM",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "8cb8612c-b5c9-5f30-adb4-2e01d7806fb4",
+          "source": {
+            "id": "2aeaff69-c55d-541d-938c-236937988386",
+            "slug": "distalmotion",
+            "entity_type": "ORGANIZATION",
+            "name": "Distalmotion",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "2aeaff69-c55d-541d-938c-236937988386",
+        "slug": "distalmotion",
+        "entity_type": "ORGANIZATION",
+        "name": "Distalmotion",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
       {
         "id": "8f3dd14f-c1f5-53e2-899e-b433935b79be",
         "slug": "flyability",
@@ -92,7 +124,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

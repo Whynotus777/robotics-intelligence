@@ -506,6 +506,42 @@
       "origin": "SEED"
     },
     {
+      "id": "0f07cd42-bd35-509c-ac70-eebe713f8853",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "30c33b1a-f72d-52cf-a8f4-7497bb3e5809",
+        "slug": "starship-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "Starship Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+          "slug": "san-francisco-us",
+          "entity_type": "PLACE",
+          "name": "San Francisco",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at San Francisco",
+      "origin": "SEED"
+    },
+    {
       "id": "0f92a907-0362-5fd2-81e4-213e9bc3f57d",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1355,33 +1391,6 @@
         "slug": "neros-technologies",
         "entity_type": "ORGANIZATION",
         "name": "Neros Technologies",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "20b9006d-7d93-5dad-818d-f446fad8986f",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "7c3f1312-e098-5632-9136-812a1bf6987b",
-        "slug": "hd-hyundai-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "HD Hyundai Robotics",
         "primary_embodiment": null,
         "roles": [
           "OEM"

@@ -35,16 +35,16 @@
   "relationships": [],
   "inbound_relationships": [
     {
-      "predicate": "MANUFACTURES_AT",
-      "label": "manufactures at",
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
       "items": [
         {
-          "claim_id": "7a8bd307-63cd-592a-872a-0311dfc90eb4",
+          "claim_id": "10e9b2cf-a8c5-51e0-a076-5ce8ede0d0b0",
           "source": {
-            "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
-            "slug": "abb-robotics",
+            "id": "d4ac61fc-fb87-50e4-a61b-5481c38e60e2",
+            "slug": "elite-robots",
             "entity_type": "ORGANIZATION",
-            "name": "ABB Robotics",
+            "name": "Elite Robots",
             "primary_embodiment": null,
             "roles": [
               "OEM"
@@ -52,20 +52,14 @@
           },
           "stack_layer": null,
           "qualifier": null,
-          "valid_from": "2026-09-01",
+          "valid_from": "2026-09-11",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
-            "confidence": "MEDIUM",
+            "confidence": "HIGH",
             "source_count": 1
           }
-        }
-      ]
-    },
-    {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
-      "items": [
+        },
         {
           "claim_id": "a4613e8d-6ab4-54e5-800d-66c4dc31a2f7",
           "source": {
@@ -134,6 +128,34 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "MANUFACTURES_AT",
+      "label": "manufactures at",
+      "items": [
+        {
+          "claim_id": "7a8bd307-63cd-592a-872a-0311dfc90eb4",
+          "source": {
+            "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+            "slug": "abb-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "ABB Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "lateral_links": {
@@ -156,6 +178,16 @@
         "primary_embodiment": null,
         "roles": [
           "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      {
+        "id": "d4ac61fc-fb87-50e4-a61b-5481c38e60e2",
+        "slug": "elite-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Elite Robots",
+        "primary_embodiment": null,
+        "roles": [
           "OEM"
         ]
       },
@@ -196,7 +228,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 4
+    "related_count": 5
   },
   "as_of": null
 }

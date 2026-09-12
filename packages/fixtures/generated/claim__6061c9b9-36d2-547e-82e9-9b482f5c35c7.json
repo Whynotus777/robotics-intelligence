@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "6061c9b9-36d2-547e-82e9-9b482f5c35c7",
+    "subject": {
+      "id": "656b2e7b-afdc-5adf-b754-602ed71f4679",
+      "slug": "tecnotion",
+      "entity_type": "ORGANIZATION",
+      "name": "Tecnotion",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Tecnotion is headquartered at Almelo",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "3869bb1d-b6a7-5cf8-a2df-10d83086b011",
+        "slug": "almelo-nl",
+        "entity_type": "PLACE",
+        "name": "Almelo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "015e689b-c450-56f4-8009-b6377a1f50ab",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Tecnotion is headquartered in Almelo.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "c320f998-16cc-51a6-84d4-e4b26db7c320",
+        "url": "https://www.tecnotion.com/about-us/",
+        "canonical_url": null,
+        "publisher": "Tecnotion",
+        "title": "Tecnotion — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

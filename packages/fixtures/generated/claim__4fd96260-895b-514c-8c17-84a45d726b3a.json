@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "4fd96260-895b-514c-8c17-84a45d726b3a",
+    "subject": {
+      "id": "b4c8d070-a234-5efe-bbb5-cd45f66692ef",
+      "slug": "blue-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Blue Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Blue Robotics is headquartered at Torrance",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "212688c4-8a28-5955-9cc4-ad6541c91681",
+        "slug": "torrance-us",
+        "entity_type": "PLACE",
+        "name": "Torrance",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c11ca9f3-8350-5c12-983e-e9de5cb413cf",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Blue Robotics is headquartered in Torrance.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "00594946-55e5-5daa-a26f-87789675fac3",
+        "url": "https://bluerobotics.com/about",
+        "canonical_url": null,
+        "publisher": "Blue Robotics",
+        "title": "Blue Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

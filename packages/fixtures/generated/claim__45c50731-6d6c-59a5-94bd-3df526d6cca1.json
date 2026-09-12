@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "45c50731-6d6c-59a5-94bd-3df526d6cca1",
+    "subject": {
+      "id": "71bcca72-40aa-5ca5-8334-b3f215077af1",
+      "slug": "monumental",
+      "entity_type": "ORGANIZATION",
+      "name": "Monumental",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Monumental was founded on 2021-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2021-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2021-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b19752bf-5aea-5ed5-a32e-dfef6080a001",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Monumental was established in 2021 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "f0186de9-eb36-5c49-96c2-af9f11d9eef3",
+        "url": "https://www.monumental.co/about",
+        "canonical_url": null,
+        "publisher": "Monumental",
+        "title": "Monumental — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "406b98d7-e3a7-578e-b5ad-0182189f535d",
+    "subject": {
+      "id": "e0c1b37d-e408-50a3-a062-006a67b4f887",
+      "slug": "duality-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Duality AI",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Duality AI is headquartered at San Mateo",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "a04379bf-bfe9-5c45-a07a-9eb4118fe484",
+        "slug": "san-mateo-us",
+        "entity_type": "PLACE",
+        "name": "San Mateo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "787c7100-157b-5ad7-8fab-5fb3926c6b41",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Duality AI is headquartered in San Mateo.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d39f594b-d7da-5183-a8f5-dc5825c86f2b",
+        "url": "https://www.duality.ai/about-us",
+        "canonical_url": null,
+        "publisher": "Duality AI",
+        "title": "Duality AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

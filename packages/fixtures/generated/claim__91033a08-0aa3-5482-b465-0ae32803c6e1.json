@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "91033a08-0aa3-5482-b465-0ae32803c6e1",
+    "subject": {
+      "id": "2e11a936-9415-5681-81e1-1b3f7b5e959f",
+      "slug": "weride",
+      "entity_type": "ORGANIZATION",
+      "name": "WeRide",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "WeRide was founded on 2017-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2017-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2017-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1adebe11-8405-5658-bea5-4b6554600589",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "WeRide was established in 2017 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "c5327a1a-aed5-5841-a86d-d7c15e9f741d",
+        "url": "https://www.weride.ai/about",
+        "canonical_url": null,
+        "publisher": "WeRide",
+        "title": "WeRide — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

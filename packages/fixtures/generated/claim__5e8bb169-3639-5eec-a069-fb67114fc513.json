@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "5e8bb169-3639-5eec-a069-fb67114fc513",
+    "subject": {
+      "id": "e7af5c8e-c064-5996-b4a9-07202f2328f2",
+      "slug": "robodk",
+      "entity_type": "ORGANIZATION",
+      "name": "RoboDK",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "RoboDK was founded on 2015-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2015-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2015-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "26e3b516-c7a1-5465-b267-46b09c2e62fd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "RoboDK was established in 2015 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "c3438ce6-f928-5a9c-a3fa-130241898fa2",
+        "url": "https://robodk.com/about",
+        "canonical_url": null,
+        "publisher": "RoboDK",
+        "title": "RoboDK — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

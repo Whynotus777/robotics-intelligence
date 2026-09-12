@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "5fefefb9-1f5d-56b7-b59f-0b58d81ab785",
+    "subject": {
+      "id": "698e5de5-1374-5cd4-bfe9-ed825b2069a6",
+      "slug": "ssi-schaefer",
+      "entity_type": "ORGANIZATION",
+      "name": "SSI Schaefer",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR",
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "SSI Schaefer was founded on 1937-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1937-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1937-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "41b72e06-73b8-5a55-9834-219760106725",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "SSI Schaefer was established in 1937 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "2d6375cd-c5ea-5834-ac1e-73b3a91a3336",
+        "url": "https://www.ssi-schaefer.com/en-us/about-us",
+        "canonical_url": null,
+        "publisher": "SSI Schaefer",
+        "title": "SSI Schaefer — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

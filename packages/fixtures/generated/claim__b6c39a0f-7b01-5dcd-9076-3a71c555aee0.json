@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "b6c39a0f-7b01-5dcd-9076-3a71c555aee0",
+    "subject": {
+      "id": "d4f49109-9afe-5248-940e-4506bc09ec88",
+      "slug": "synapticon",
+      "entity_type": "ORGANIZATION",
+      "name": "Synapticon",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Synapticon was founded on 2012-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2012-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2012-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "80ff0dca-942c-5de5-a65a-db1c468957d8",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Synapticon was established in 2012 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bad5c03b-9283-5475-8fff-1169584cec52",
+        "url": "https://www.synapticon.com/en/company/about-us",
+        "canonical_url": null,
+        "publisher": "Synapticon",
+        "title": "Synapticon — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

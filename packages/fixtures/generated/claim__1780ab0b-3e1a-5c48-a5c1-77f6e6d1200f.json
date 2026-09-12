@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "1780ab0b-3e1a-5c48-a5c1-77f6e6d1200f",
+    "subject": {
+      "id": "02713306-1ec3-54f7-a0f8-a6618ddcaed0",
+      "slug": "dematic",
+      "entity_type": "ORGANIZATION",
+      "name": "Dematic",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Dematic is headquartered at Atlanta",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ec534916-2d00-56ee-aeb4-ad073bc4980f",
+        "slug": "atlanta-us",
+        "entity_type": "PLACE",
+        "name": "Atlanta",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3c7b98dc-c73f-5a9d-a066-582033a061ac",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Dematic is headquartered in Atlanta.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "97a3d6ab-f7fb-5090-a642-3733dda8b15b",
+        "url": "https://www.dematic.com/en-us/about/",
+        "canonical_url": null,
+        "publisher": "Dematic",
+        "title": "Dematic — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

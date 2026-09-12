@@ -22,4 +22,23 @@ claims:
     confidence: HIGH
     excerpt: Builds and operates autonomous bricklaying robots on construction sites.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: amsterdam-nl
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d6012886b25ee2c4
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Monumental is headquartered in Amsterdam.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2021-01-01'
+  valid_from: '2021-01-01'
+  evidence:
+  - source: enrich-d6012886b25ee2c4
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Monumental was established in 2021 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: NL

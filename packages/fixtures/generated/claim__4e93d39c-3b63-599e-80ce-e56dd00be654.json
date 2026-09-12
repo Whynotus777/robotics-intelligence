@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "4e93d39c-3b63-599e-80ce-e56dd00be654",
+    "subject": {
+      "id": "b34506e9-5b1a-556a-9d7b-3f56038e1822",
+      "slug": "richtech-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Richtech Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Richtech Robotics is headquartered at Las Vegas",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "40a54cc9-d4be-5ca4-a7a5-fc819c45a979",
+        "slug": "las-vegas-us",
+        "entity_type": "PLACE",
+        "name": "Las Vegas",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d064ce80-05f5-50c9-bdc3-0d80e82cde70",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Richtech Robotics is headquartered in Las Vegas.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "e6dd6ea9-a8e5-5893-a02d-c4faad0af759",
+        "url": "https://richtechrobotics.com/contact",
+        "canonical_url": null,
+        "publisher": "Richtech Robotics",
+        "title": "Richtech Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

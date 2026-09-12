@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Manufactures direct-drive motors for robotics and precision machinery.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: almelo-nl
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-990b108d255a46d1
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Tecnotion is headquartered in Almelo.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1998-01-01'
+  valid_from: '1998-01-01'
+  evidence:
+  - source: enrich-990b108d255a46d1
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Tecnotion was established in 1998 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: NL

@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Develops the Dexter robot-assisted surgical system.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: lausanne
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-879a48051b567772
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Distalmotion is headquartered in Lausanne.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2012-01-01'
+  valid_from: '2012-01-01'
+  evidence:
+  - source: enrich-879a48051b567772
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Distalmotion was established in 2012 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: CH

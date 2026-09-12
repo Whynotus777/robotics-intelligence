@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "43e6c3fc-3cb5-5c34-87aa-89b2365b3144",
+    "subject": {
+      "id": "71bcca72-40aa-5ca5-8334-b3f215077af1",
+      "slug": "monumental",
+      "entity_type": "ORGANIZATION",
+      "name": "Monumental",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Monumental is headquartered at Amsterdam",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "60186f54-ff25-54b0-bee0-f4d2a55d5e2e",
+        "slug": "amsterdam-nl",
+        "entity_type": "PLACE",
+        "name": "Amsterdam",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "dfded8a5-7235-57b8-886d-3475b4925b67",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Monumental is headquartered in Amsterdam.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "f0186de9-eb36-5c49-96c2-af9f11d9eef3",
+        "url": "https://www.monumental.co/about",
+        "canonical_url": null,
+        "publisher": "Monumental",
+        "title": "Monumental — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

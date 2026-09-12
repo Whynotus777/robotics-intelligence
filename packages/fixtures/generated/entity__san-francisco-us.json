@@ -39,6 +39,29 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "8aa5558c-134a-5744-b42f-90de4cece98b",
+          "source": {
+            "id": "30c33b1a-f72d-52cf-a8f4-7497bb3e5809",
+            "slug": "starship-technologies",
+            "entity_type": "ORGANIZATION",
+            "name": "Starship Technologies",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "a3b0d981-cf95-562f-923b-f4d2ad2fc622",
           "source": {
             "id": "b6a79648-53aa-52c4-b749-dc9e63a0fd9e",
@@ -76,6 +99,17 @@
           "OEM",
           "TOOLING_OPS_PROVIDER"
         ]
+      },
+      {
+        "id": "30c33b1a-f72d-52cf-a8f4-7497bb3e5809",
+        "slug": "starship-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "Starship Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       }
     ]
   },
@@ -94,7 +128,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

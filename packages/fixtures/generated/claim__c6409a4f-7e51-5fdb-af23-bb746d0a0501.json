@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "c6409a4f-7e51-5fdb-af23-bb746d0a0501",
+    "subject": {
+      "id": "ab09234e-b3d8-51de-b4a0-06b051ac3a6d",
+      "slug": "stober",
+      "entity_type": "ORGANIZATION",
+      "name": "STOBER",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "STOBER was founded on 1934-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1934-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1934-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4905c997-5e8c-5c6d-9e10-b77c5dd0470c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "STOBER was established in 1934 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "efa08aa1-408a-59a7-8c9c-25d9371bc403",
+        "url": "https://www.stober.com/contact/",
+        "canonical_url": null,
+        "publisher": "STOBER",
+        "title": "STOBER — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

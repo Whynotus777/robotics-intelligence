@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "5f6d1838-c184-5037-a9c4-02e8a570222d",
+          "source": {
+            "id": "71d897d0-4c79-5632-9553-b8e6029bbde3",
+            "slug": "roborock",
+            "entity_type": "ORGANIZATION",
+            "name": "Roborock",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "8199a8f1-5711-5363-9813-fe4f7015d873",
           "source": {
             "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
@@ -108,6 +130,16 @@
         "roles": [
           "OEM"
         ]
+      },
+      {
+        "id": "71d897d0-4c79-5632-9553-b8e6029bbde3",
+        "slug": "roborock",
+        "entity_type": "ORGANIZATION",
+        "name": "Roborock",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ]
   },
@@ -126,7 +158,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "604d2459-fc64-5d11-8364-b7c7c7a1a376",
+    "subject": {
+      "id": "67892fe3-9853-522f-8b6d-e47d61c35c9c",
+      "slug": "ulc-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "ULC Technologies",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "ULC Technologies is headquartered at Hauppauge",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9aeaed56-4f22-55e5-99c5-679ea1c18694",
+        "slug": "hauppauge-us",
+        "entity_type": "PLACE",
+        "name": "Hauppauge",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "39591f5f-4e45-5ca1-a4ea-bf6402e79195",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "ULC Technologies is headquartered in Hauppauge.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "959088c4-0af0-5403-bbf4-2353f1fbad2f",
+        "url": "https://ulctechnologies.com/contact-us/",
+        "canonical_url": null,
+        "publisher": "ULC Technologies",
+        "title": "ULC Technologies — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

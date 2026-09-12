@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "d0217131-dfa0-50ab-94fb-62f8fc53e838",
+    "subject": {
+      "id": "6b17293f-2bce-55a1-bfd3-716bff03b97c",
+      "slug": "hello-robot",
+      "entity_type": "ORGANIZATION",
+      "name": "Hello Robot",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Hello Robot was founded on 2017-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2017-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2017-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2142e65d-1e44-515e-814e-a8da9744145f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Hello Robot was established in 2017 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8df4fe62-bebc-5685-ad2a-3822a472fcd5",
+        "url": "https://hello-robot.com/about/",
+        "canonical_url": null,
+        "publisher": "Hello Robot",
+        "title": "Hello Robot — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

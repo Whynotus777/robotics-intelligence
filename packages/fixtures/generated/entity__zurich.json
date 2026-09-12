@@ -39,6 +39,29 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "18a3199b-c78f-5804-8e9b-bf61aa446b58",
+          "source": {
+            "id": "698b16a9-4ca1-5f12-9b07-f0b5d0e0c6f6",
+            "slug": "mimic-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "mimic robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "e83e202e-d8a9-5838-b8e1-ef47715a0c22",
           "source": {
             "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
@@ -106,6 +129,17 @@
         "roles": [
           "OEM"
         ]
+      },
+      {
+        "id": "698b16a9-4ca1-5f12-9b07-f0b5d0e0c6f6",
+        "slug": "mimic-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "mimic robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
       }
     ]
   },
@@ -124,7 +158,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }
