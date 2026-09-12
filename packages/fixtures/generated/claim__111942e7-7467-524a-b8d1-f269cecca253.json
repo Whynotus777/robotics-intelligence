@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "111942e7-7467-524a-b8d1-f269cecca253",
+    "subject": {
+      "id": "d0e0ee17-b4ac-5c8a-b382-1af9516d2e9f",
+      "slug": "roboteam",
+      "entity_type": "ORGANIZATION",
+      "name": "Roboteam",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Roboteam role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "84eb28d1-91a9-51cc-bc23-f27a9a41518f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds tactical ground robots and multi-robot command software.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "89b750a8-1650-5939-9ff0-9e7d5962e225",
+        "url": "https://robo-team.com/",
+        "canonical_url": null,
+        "publisher": "Roboteam",
+        "title": "Roboteam — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "aacf1570-ae16-5abb-95a2-7d6d1219d028",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

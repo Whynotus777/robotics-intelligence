@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "43176a00-89c5-594d-92c9-5e369f7803a6",
+    "subject": {
+      "id": "a4f46ccb-0bc2-5895-965a-2c40dfd9b9a3",
+      "slug": "manna-drone-delivery",
+      "entity_type": "ORGANIZATION",
+      "name": "Manna Drone Delivery",
+      "primary_embodiment": null,
+      "roles": [
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Manna Drone Delivery role OPERATOR",
+    "value": {
+      "kind": "enum",
+      "value": "OPERATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d0a7e82b-a87f-57f1-9061-b0aaa5f27b70",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Operates drone delivery services for food, medical supplies and other goods.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1a2a356c-3a1a-5481-8690-ac4e7c10ae72",
+        "url": "https://www.manna.aero/",
+        "canonical_url": null,
+        "publisher": "Manna Drone Delivery",
+        "title": "Manna Drone Delivery — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

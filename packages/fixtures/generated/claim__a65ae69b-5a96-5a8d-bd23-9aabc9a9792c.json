@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "a65ae69b-5a96-5a8d-bd23-9aabc9a9792c",
+    "subject": {
+      "id": "33283b10-3527-5a24-8035-68d3c1011020",
+      "slug": "elbit-systems",
+      "entity_type": "ORGANIZATION",
+      "name": "Elbit Systems",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Elbit Systems role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "71b767c5-b2ca-5254-ac33-b0428ae504e7",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops unmanned and autonomous systems for military applications.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "14593296-a07f-5e61-b4eb-bc47ab1f2d67",
+        "url": "https://www.elbitsystems.com/",
+        "canonical_url": null,
+        "publisher": "Elbit Systems",
+        "title": "Elbit Systems — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

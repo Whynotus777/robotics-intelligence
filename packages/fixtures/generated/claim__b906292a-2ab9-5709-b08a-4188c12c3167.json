@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "b906292a-2ab9-5709-b08a-4188c12c3167",
+    "subject": {
+      "id": "459c24fa-9db2-5cac-b2a2-8193d1ca708d",
+      "slug": "noah-medical",
+      "entity_type": "ORGANIZATION",
+      "name": "Noah Medical",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Noah Medical role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e9feb2ca-2d03-50ae-b961-5ef05363488b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops the Galaxy robotic bronchoscopy system.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "22df506c-592c-5bab-ab0e-4fa239b3c4f5",
+        "url": "https://www.noahmed.com/",
+        "canonical_url": null,
+        "publisher": "Noah Medical",
+        "title": "Noah Medical — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "bf1c5a11-2bbb-57c2-bedd-0eadc3358eed",
+    "subject": {
+      "id": "2cc0fa76-a273-5def-b0d5-1cb45ec26f73",
+      "slug": "matternet",
+      "entity_type": "ORGANIZATION",
+      "name": "Matternet",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Matternet is headquartered at Mountain View",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
+        "entity_type": "PLACE",
+        "name": "Mountain View",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1dc6440c-f4e0-5858-af0a-2dc71021537b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Matternet is headquartered in Mountain View.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "6102bcd4-62cc-5ebe-8c26-ce67ca17d343",
+        "url": "https://mttr.net/",
+        "canonical_url": null,
+        "publisher": "Matternet",
+        "title": "Matternet — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

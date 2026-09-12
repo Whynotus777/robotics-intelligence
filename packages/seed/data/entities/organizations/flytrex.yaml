@@ -1,0 +1,25 @@
+slug: flytrex
+entity_type: ORGANIZATION
+name: Flytrex
+short_description: Develops drone delivery systems and coordinates commercial delivery flights.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d689b142db799c74
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops drone delivery systems and coordinates commercial delivery flights.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d689b142db799c74
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops drone delivery systems and coordinates commercial delivery flights.
+    observed_at: '2026-09-11'
+country_code: IL

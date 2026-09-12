@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "c7f62282-7d02-5bd8-b240-2d147ee5fe8a",
+    "subject": {
+      "id": "050586f3-ac44-5ca2-8bda-f9e9387abbd8",
+      "slug": "seasats",
+      "entity_type": "ORGANIZATION",
+      "name": "Seasats",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Seasats role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ecc134c8-c475-5552-a643-3c6518eca086",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds autonomous surface vessels for maritime missions.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ca489849-fbb9-5b77-9d34-b87ce43dda3b",
+        "url": "https://seasats.com/",
+        "canonical_url": null,
+        "publisher": "Seasats",
+        "title": "Seasats — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

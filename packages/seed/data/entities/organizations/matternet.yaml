@@ -1,0 +1,34 @@
+slug: matternet
+entity_type: ORGANIZATION
+name: Matternet
+short_description: Builds and operates autonomous drone networks for package delivery.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-544bcf196242205f
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds and operates autonomous drone networks for package delivery.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-544bcf196242205f
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds and operates autonomous drone networks for package delivery.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: mountain-view-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-544bcf196242205f
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Matternet is headquartered in Mountain View.
+    observed_at: '2026-09-11'
+country_code: US

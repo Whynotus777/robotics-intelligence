@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "02f88d9f-5018-5640-9283-85746898e187",
+    "subject": {
+      "id": "58b33197-ea85-582a-b1dc-b1d3ff207e35",
+      "slug": "saronic-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "Saronic Technologies",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Saronic Technologies role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5f5707ed-8e2b-594a-b662-ed5bd6e48b69",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds autonomous surface vessels and maritime mission software.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "fe79dc9b-8766-5499-847c-bbcb96f101e2",
+        "url": "https://www.saronic.com/vessels",
+        "canonical_url": null,
+        "publisher": "Saronic Technologies",
+        "title": "Saronic Technologies — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

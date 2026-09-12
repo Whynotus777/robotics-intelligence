@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "5bfa6e53-8320-5898-b4e5-a0085534d7f0",
+    "subject": {
+      "id": "e15a2f4c-740a-52c2-a96b-7977b51639a8",
+      "slug": "teal-drones",
+      "entity_type": "ORGANIZATION",
+      "name": "Teal Drones",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Teal Drones role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4e936d4f-eae8-5175-aa51-a3fedb1ac1f9",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Manufactures small unmanned aircraft systems for defense and security.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bc79fed1-cf84-552d-9ed9-bfcb96e9adbb",
+        "url": "https://tealdrones.com/",
+        "canonical_url": null,
+        "publisher": "Teal Drones",
+        "title": "Teal Drones — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -4,7 +4,7 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 63
+      "count": 64
     },
     {
       "id": "SUPPLIED",
@@ -410,6 +410,45 @@
           "roles": [
             "COMPONENT_SUPPLIER",
             "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
+        "entity_type": "PLACE",
+        "name": "Mountain View",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.38605,
+      "lng": -122.08385,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "5779b38d-09d7-554c-ae5c-f09ad34862c1",
+          "slug": "dusty-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Dusty Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "2cc0fa76-a273-5def-b0d5-1cb45ec26f73",
+          "slug": "matternet",
+          "entity_type": "ORGANIZATION",
+          "name": "Matternet",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "OPERATOR"
           ]
         }
       ],
@@ -1043,34 +1082,6 @@
     },
     {
       "place": {
-        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
-        "slug": "mountain-view-us",
-        "entity_type": "PLACE",
-        "name": "Mountain View",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 37.38605,
-      "lng": -122.08385,
-      "country_code": "US",
-      "cluster_label": null,
-      "weight": 1,
-      "entities": [
-        {
-          "id": "5779b38d-09d7-554c-ae5c-f09ad34862c1",
-          "slug": "dusty-robotics",
-          "entity_type": "ORGANIZATION",
-          "name": "Dusty Robotics",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "8d7f2920-6b42-5180-a460-2908206e392f",
         "slug": "nedre-vats",
         "entity_type": "PLACE",
@@ -1472,7 +1483,7 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 29,
+      "weight": 30,
       "places": 18
     },
     {
@@ -2230,6 +2241,47 @@
     },
     {
       "entity": {
+        "id": "5779b38d-09d7-554c-ae5c-f09ad34862c1",
+        "slug": "dusty-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Dusty Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
+        "entity_type": "PLACE",
+        "name": "Mountain View",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "2cc0fa76-a273-5def-b0d5-1cb45ec26f73",
+        "slug": "matternet",
+        "entity_type": "ORGANIZATION",
+        "name": "Matternet",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
+      },
+      "place": {
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
+        "entity_type": "PLACE",
+        "name": "Mountain View",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
         "slug": "mobile-industrial-robots",
         "entity_type": "ORGANIZATION",
@@ -2712,26 +2764,6 @@
         "slug": "moss",
         "entity_type": "PLACE",
         "name": "Moss",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "5779b38d-09d7-554c-ae5c-f09ad34862c1",
-        "slug": "dusty-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "Dusty Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
-        "slug": "mountain-view-us",
-        "entity_type": "PLACE",
-        "name": "Mountain View",
         "primary_embodiment": null,
         "roles": []
       }

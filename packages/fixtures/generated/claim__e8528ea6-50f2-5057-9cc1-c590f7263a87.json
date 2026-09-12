@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "e8528ea6-50f2-5057-9cc1-c590f7263a87",
+    "subject": {
+      "id": "bf9b34af-f670-565d-92ce-903c67306c5a",
+      "slug": "droneup",
+      "entity_type": "ORGANIZATION",
+      "name": "DroneUp",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "DroneUp role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bf8f2e18-ba2f-586d-9a7c-bf2d37edb34c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides airspace coordination and autonomous drone operations software.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3b6adb82-efc4-5c7e-b51f-e1c1886d17f2",
+        "url": "https://www.droneup.com/",
+        "canonical_url": null,
+        "publisher": "DroneUp",
+        "title": "DroneUp — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

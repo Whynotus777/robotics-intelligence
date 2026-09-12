@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "8965c1e8-0b9c-534d-9465-eea772a2eb18",
+    "subject": {
+      "id": "8333afbf-9121-5c79-9e43-95d51c2a02ce",
+      "slug": "moon-surgical",
+      "entity_type": "ORGANIZATION",
+      "name": "Moon Surgical",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Moon Surgical role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1704f84e-d2bf-5a04-ad70-d0522b5abc46",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops robotic surgical assistance systems.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "53847c69-d312-598d-a2fb-0e5626f64ed1",
+        "url": "https://www.moonsurgical.com/",
+        "canonical_url": null,
+        "publisher": "Moon Surgical",
+        "title": "Moon Surgical — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}
