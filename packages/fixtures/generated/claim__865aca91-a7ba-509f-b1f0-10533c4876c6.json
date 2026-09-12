@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "865aca91-a7ba-509f-b1f0-10533c4876c6",
+    "subject": {
+      "id": "ffcb1db6-678f-5d09-9705-7c02e562a7a6",
+      "slug": "kinexon",
+      "entity_type": "ORGANIZATION",
+      "name": "KINEXON",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "KINEXON role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2dab65a5-8cb9-5b01-a89c-2fb5abd51b11",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides real-time industrial automation and mobile robot fleet management software.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "057b0cf2-2582-5f86-9d7a-51d6e3284006",
+        "url": "https://kinexon.com/",
+        "canonical_url": null,
+        "publisher": "KINEXON",
+        "title": "KINEXON — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

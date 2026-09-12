@@ -1,0 +1,118 @@
+{
+  "entity": {
+    "id": "d16c16a3-47ea-5e0e-8fc4-a9503f04da93",
+    "slug": "voxel51",
+    "entity_type": "ORGANIZATION",
+    "name": "Voxel51",
+    "short_description": "Provides multimodal data curation and evaluation tools for physical AI.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "DATA_SIMULATION_PROVIDER",
+      "declared": true,
+      "claim_id": "ab05fa6b-3518-5182-9b3b-619f7445d365",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    },
+    {
+      "role": "TOOLING_OPS_PROVIDER",
+      "declared": true,
+      "claim_id": "900590f5-af79-5a5f-a9fc-10216a13c66a",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "900590f5-af79-5a5f-a9fc-10216a13c66a",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "TOOLING_OPS_PROVIDER"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "ab05fa6b-3518-5182-9b3b-619f7445d365",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "DATA_SIMULATION_PROVIDER"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [],
+  "lateral_links": {},
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 0
+  },
+  "as_of": null
+}

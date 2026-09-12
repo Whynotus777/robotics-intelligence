@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "f1537e34-64ab-599a-8570-e1818e575bef",
+    "subject": {
+      "id": "480b1715-3d6a-5a41-8de2-6238db7035e3",
+      "slug": "roboflow",
+      "entity_type": "ORGANIZATION",
+      "name": "Roboflow",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Roboflow role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a1ff5652-8674-56f6-ad5d-c35551a3a805",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides computer vision development and deployment infrastructure for robotics.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5c88eef0-a7a3-5b6e-b762-73079cd99db3",
+        "url": "https://roboflow.com/industries/robotics",
+        "canonical_url": null,
+        "publisher": "Roboflow",
+        "title": "Roboflow — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

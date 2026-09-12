@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "1251da45-3759-5fc8-a056-3a92237a0ffd",
+    "subject": {
+      "id": "0136a161-3b05-5037-b619-abc19be2386b",
+      "slug": "adamo",
+      "entity_type": "ORGANIZATION",
+      "name": "Adamo",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Adamo role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "db212fe0-08ea-58bc-aaff-1c0bf94903a8",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides teleoperation software for human-assisted robot deployment.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "4aafec73-7b31-5839-a154-c4392a67aab3",
+        "url": "https://adamohq.com/teleoperation",
+        "canonical_url": null,
+        "publisher": "Adamo",
+        "title": "Adamo — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

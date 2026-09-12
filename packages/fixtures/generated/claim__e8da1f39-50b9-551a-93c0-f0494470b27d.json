@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "e8da1f39-50b9-551a-93c0-f0494470b27d",
+    "subject": {
+      "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+      "slug": "hugging-face",
+      "entity_type": "ORGANIZATION",
+      "name": "Hugging Face",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Hugging Face role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f13f7170-6edd-5f7a-856e-4f2c7313d214",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides open-source robot learning models, datasets and tools through LeRobot.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "f86f41c5-0df6-5a0a-928d-2766cf78c49c",
+        "url": "https://huggingface.co/lerobot",
+        "canonical_url": null,
+        "publisher": "Hugging Face",
+        "title": "Hugging Face — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "d46cdc9a-45cb-52e9-a78d-b80ebe7bb891",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

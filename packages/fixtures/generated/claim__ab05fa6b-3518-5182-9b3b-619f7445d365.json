@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "ab05fa6b-3518-5182-9b3b-619f7445d365",
+    "subject": {
+      "id": "d16c16a3-47ea-5e0e-8fc4-a9503f04da93",
+      "slug": "voxel51",
+      "entity_type": "ORGANIZATION",
+      "name": "Voxel51",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Voxel51 role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ea663ee6-a08f-56cd-9495-de3533a375a2",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides multimodal data curation and evaluation tools for physical AI.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bd4e6b41-b84e-5076-afdb-47d62f7f9534",
+        "url": "https://voxel51.com/",
+        "canonical_url": null,
+        "publisher": "Voxel51",
+        "title": "Voxel51 — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "900590f5-af79-5a5f-a9fc-10216a13c66a",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

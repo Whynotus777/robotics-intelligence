@@ -731,6 +731,94 @@
     },
     "as_of": null
   },
+  "entity/adamo": {
+    "entity": {
+      "id": "0136a161-3b05-5037-b619-abc19be2386b",
+      "slug": "adamo",
+      "entity_type": "ORGANIZATION",
+      "name": "Adamo",
+      "short_description": "Provides teleoperation software for human-assisted robot deployment.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "1251da45-3759-5fc8-a056-3a92237a0ffd",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "1251da45-3759-5fc8-a056-3a92237a0ffd",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/aerial-manipulator": {
     "entity": {
       "id": "337c1e71-855d-5403-a3fb-6c1979113161",
@@ -15412,6 +15500,94 @@
     },
     "as_of": null
   },
+  "entity/canonical": {
+    "entity": {
+      "id": "d3072c19-dd4c-5474-9c7a-0705fd860b8f",
+      "slug": "canonical",
+      "entity_type": "ORGANIZATION",
+      "name": "Canonical",
+      "short_description": "Provides Ubuntu-based operating system infrastructure for robot development and fleet maintenance.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "GB",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "761581f4-5cbf-5cdd-ab41-2c8b2197d60b",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "761581f4-5cbf-5cdd-ab41-2c8b2197d60b",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/capitalg": {
     "entity": {
       "id": "8bfe1d52-c20f-51c7-a7c8-d3d3a9bb73e7",
@@ -23804,6 +23980,94 @@
     },
     "as_of": null
   },
+  "entity/dronedeploy": {
+    "entity": {
+      "id": "6c88d7bb-3693-5d72-8525-3d6f57bbd670",
+      "slug": "dronedeploy",
+      "entity_type": "ORGANIZATION",
+      "name": "DroneDeploy",
+      "short_description": "Provides reality capture and site inspection software for drones and robots.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "55244954-c1d5-5313-92ab-ae02a3e93488",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "55244954-c1d5-5313-92ab-ae02a3e93488",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/droneup": {
     "entity": {
       "id": "bf9b34af-f670-565d-92ce-903c67306c5a",
@@ -25060,6 +25324,94 @@
       "recent_change_count": 0,
       "deployment_count": 0,
       "related_count": 3
+    },
+    "as_of": null
+  },
+  "entity/edge-impulse": {
+    "entity": {
+      "id": "451f0621-d063-5f2a-ad4a-7517f561b85c",
+      "slug": "edge-impulse",
+      "entity_type": "ORGANIZATION",
+      "name": "Edge Impulse",
+      "short_description": "Provides machine learning development and deployment tools for edge and physical AI.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "011d396a-5e01-5f7f-8939-084c13b5591e",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "011d396a-5e01-5f7f-8939-084c13b5591e",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -37295,6 +37647,124 @@
     },
     "as_of": null
   },
+  "entity/hugging-face": {
+    "entity": {
+      "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+      "slug": "hugging-face",
+      "entity_type": "ORGANIZATION",
+      "name": "Hugging Face",
+      "short_description": "Provides open-source robot learning models, datasets and tools through LeRobot.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "d46cdc9a-45cb-52e9-a78d-b80ebe7bb891",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "e8da1f39-50b9-551a-93c0-f0494470b27d",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "d46cdc9a-45cb-52e9-a78d-b80ebe7bb891",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "e8da1f39-50b9-551a-93c0-f0494470b27d",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 2,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 2,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/humanoid": {
     "entity": {
       "id": "76120db1-8f9d-580d-af75-379391876eca",
@@ -37683,6 +38153,124 @@
       "recent_change_count": 3,
       "deployment_count": 0,
       "related_count": 2
+    },
+    "as_of": null
+  },
+  "entity/idealworks": {
+    "entity": {
+      "id": "f1bee41d-05e6-5a14-8023-256327db92e7",
+      "slug": "idealworks",
+      "entity_type": "ORGANIZATION",
+      "name": "idealworks",
+      "short_description": "Develops mobile robots and orchestration software for industrial logistics.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "DE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "OEM",
+        "declared": true,
+        "claim_id": "357cfba5-1ebc-52cf-821c-35a93c41aa8a",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "0eaeb5ee-8e40-5e0d-81ac-86e3a6917086",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "0eaeb5ee-8e40-5e0d-81ac-86e3a6917086",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "357cfba5-1ebc-52cf-821c-35a93c41aa8a",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 2,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 2,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -41314,6 +41902,94 @@
             "value": {
               "kind": "enum",
               "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/kinexon": {
+    "entity": {
+      "id": "ffcb1db6-678f-5d09-9705-7c02e562a7a6",
+      "slug": "kinexon",
+      "entity_type": "ORGANIZATION",
+      "name": "KINEXON",
+      "short_description": "Provides real-time industrial automation and mobile robot fleet management software.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "DE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "865aca91-a7ba-509f-b1f0-10533c4876c6",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "865aca91-a7ba-509f-b1f0-10533c4876c6",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -50127,6 +50803,94 @@
             "value": {
               "kind": "enum",
               "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/naise": {
+    "entity": {
+      "id": "92961fb2-0132-5db0-9506-d355d0a5c81c",
+      "slug": "naise",
+      "entity_type": "ORGANIZATION",
+      "name": "NAiSE",
+      "short_description": "Provides intralogistics orchestration for mobile robots and industrial vehicles.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "DE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "8eea33fd-5863-5791-893c-406a87cf7043",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "8eea33fd-5863-5791-893c-406a87cf7043",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -61620,6 +62384,124 @@
     },
     "as_of": null
   },
+  "entity/rerun": {
+    "entity": {
+      "id": "73427a24-227d-5bca-ba25-e50a3b4bd997",
+      "slug": "rerun",
+      "entity_type": "ORGANIZATION",
+      "name": "Rerun",
+      "short_description": "Provides multimodal robotics data visualization and analysis software.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "SE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "be201a5d-8067-54ca-a335-2675a9a8aa4f",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "8a7545ab-f785-51e7-af0a-0ce7145e75bb",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "8a7545ab-f785-51e7-af0a-0ce7145e75bb",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "be201a5d-8067-54ca-a335-2675a9a8aa4f",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 2,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 2,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/retail-service": {
     "entity": {
       "id": "8b8c0af0-2404-5bd1-9a00-ae94406f4b1b",
@@ -62252,6 +63134,94 @@
     },
     "as_of": null
   },
+  "entity/robocurve": {
+    "entity": {
+      "id": "adec2206-58d8-5adc-978e-8d54591fdfd4",
+      "slug": "robocurve",
+      "entity_type": "ORGANIZATION",
+      "name": "Robocurve",
+      "short_description": "Provides independent evaluations of real-world robotics capabilities.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "0343e5c2-d94d-5f8c-80cb-dd5e6d8e87a5",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "0343e5c2-d94d-5f8c-80cb-dd5e6d8e87a5",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/robodk": {
     "entity": {
       "id": "e7af5c8e-c064-5996-b4a9-07202f2328f2",
@@ -62301,6 +63271,94 @@
             "value": {
               "kind": "enum",
               "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/roboflow": {
+    "entity": {
+      "id": "480b1715-3d6a-5a41-8de2-6238db7035e3",
+      "slug": "roboflow",
+      "entity_type": "ORGANIZATION",
+      "name": "Roboflow",
+      "short_description": "Provides computer vision development and deployment infrastructure for robotics.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "f1537e34-64ab-599a-8570-e1818e575bef",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "f1537e34-64ab-599a-8570-e1818e575bef",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -63814,6 +64872,124 @@
             "value": {
               "kind": "enum",
               "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 2,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 2,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/roboto-ai": {
+    "entity": {
+      "id": "499a8795-6f6a-59dc-974e-4722fa7d5fe5",
+      "slug": "roboto-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Roboto AI",
+      "short_description": "Provides analytics software for understanding robot behavior and failures.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "2cfeed41-03e4-53c3-a1c5-970d330755a1",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "6b9d290b-6f20-570a-a623-c06132ff8bd6",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "2cfeed41-03e4-53c3-a1c5-970d330755a1",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "6b9d290b-6f20-570a-a623-c06132ff8bd6",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -73255,6 +74431,94 @@
     },
     "as_of": null
   },
+  "entity/synaos": {
+    "entity": {
+      "id": "8c5c6176-05d3-508e-b006-d0d315b9fdc8",
+      "slug": "synaos",
+      "entity_type": "ORGANIZATION",
+      "name": "SYNAOS",
+      "short_description": "Provides software for coordinating heterogeneous mobile robot fleets.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "DE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "27d93bd3-d3c9-5d97-8a97-8d1457417304",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "27d93bd3-d3c9-5d97-8a97-8d1457417304",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/synapticon": {
     "entity": {
       "id": "d4f49109-9afe-5248-940e-4506bc09ec88",
@@ -73392,6 +74656,94 @@
             "value": {
               "kind": "enum",
               "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/tangram-vision": {
+    "entity": {
+      "id": "fde17fe9-8ff1-5548-9d53-27177c874a8c",
+      "slug": "tangram-vision",
+      "entity_type": "ORGANIZATION",
+      "name": "Tangram Vision",
+      "short_description": "Provides sensor calibration and perception reliability software for robotics.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "eeaa7116-2171-5dc0-b04e-915815a48d8a",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "eeaa7116-2171-5dc0-b04e-915815a48d8a",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -81000,6 +82352,124 @@
       },
       "last_verified_at": "2026-09-01T00:00:00.000Z",
       "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/voxel51": {
+    "entity": {
+      "id": "d16c16a3-47ea-5e0e-8fc4-a9503f04da93",
+      "slug": "voxel51",
+      "entity_type": "ORGANIZATION",
+      "name": "Voxel51",
+      "short_description": "Provides multimodal data curation and evaluation tools for physical AI.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "DATA_SIMULATION_PROVIDER",
+        "declared": true,
+        "claim_id": "ab05fa6b-3518-5182-9b3b-619f7445d365",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "900590f5-af79-5a5f-a9fc-10216a13c66a",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "900590f5-af79-5a5f-a9fc-10216a13c66a",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "ab05fa6b-3518-5182-9b3b-619f7445d365",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 2,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 2,
       "deployment_count": 0,
       "related_count": 0
     },
@@ -98570,12 +100040,12 @@
       {
         "id": "US",
         "label": "US",
-        "count": 247,
+        "count": 256,
         "districts": [
           {
             "id": "US",
             "label": "US",
-            "count": 247,
+            "count": 256,
             "entities": [
               {
                 "chip": {
@@ -98612,6 +100082,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "0136a161-3b05-5037-b619-abc19be2386b",
+                  "slug": "adamo",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Adamo",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "TOOLING_OPS_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -99382,6 +100866,20 @@
               },
               {
                 "chip": {
+                  "id": "6c88d7bb-3693-5d72-8525-3d6f57bbd670",
+                  "slug": "dronedeploy",
+                  "entity_type": "ORGANIZATION",
+                  "name": "DroneDeploy",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "bf9b34af-f670-565d-92ce-903c67306c5a",
                   "slug": "droneup",
                   "entity_type": "ORGANIZATION",
@@ -99446,6 +100944,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "INVESTOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "451f0621-d063-5f2a-ad4a-7517f561b85c",
+                  "slug": "edge-impulse",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Edge Impulse",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "TOOLING_OPS_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -99922,6 +101434,21 @@
                   "primary_embodiment": null,
                   "roles": [
                     "INTEGRATOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+                  "slug": "hugging-face",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Hugging Face",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER",
+                    "TOOLING_OPS_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -100959,6 +102486,34 @@
               },
               {
                 "chip": {
+                  "id": "adec2206-58d8-5adc-978e-8d54591fdfd4",
+                  "slug": "robocurve",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Robocurve",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "480b1715-3d6a-5a41-8de2-6238db7035e3",
+                  "slug": "roboflow",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Roboflow",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
                   "slug": "robotics-and-ai-institute-rai-institute",
                   "entity_type": "ORGANIZATION",
@@ -100966,6 +102521,21 @@
                   "primary_embodiment": null,
                   "roles": [
                     "RESEARCH_LAB"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "499a8795-6f6a-59dc-974e-4722fa7d5fe5",
+                  "slug": "roboto-ai",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Roboto AI",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER",
+                    "TOOLING_OPS_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -101516,6 +103086,20 @@
               },
               {
                 "chip": {
+                  "id": "fde17fe9-8ff1-5548-9d53-27177c874a8c",
+                  "slug": "tangram-vision",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Tangram Vision",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "434e9967-aa12-5d65-8f3c-a24c23eaa3dd",
                   "slug": "tdk-invensense",
                   "entity_type": "ORGANIZATION",
@@ -101778,6 +103362,21 @@
                   "name": "Viam",
                   "primary_embodiment": null,
                   "roles": [
+                    "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "d16c16a3-47ea-5e0e-8fc4-a9503f04da93",
+                  "slug": "voxel51",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Voxel51",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER",
                     "TOOLING_OPS_PROVIDER"
                   ]
                 },
@@ -102884,12 +104483,12 @@
       {
         "id": "DE",
         "label": "DE",
-        "count": 36,
+        "count": 40,
         "districts": [
           {
             "id": "DE",
             "label": "DE",
-            "count": 36,
+            "count": 40,
             "entities": [
               {
                 "chip": {
@@ -103082,6 +104681,21 @@
               },
               {
                 "chip": {
+                  "id": "f1bee41d-05e6-5a14-8023-256327db92e7",
+                  "slug": "idealworks",
+                  "entity_type": "ORGANIZATION",
+                  "name": "idealworks",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM",
+                    "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "922ff18f-2b5a-52f7-a043-353871daf12e",
                   "slug": "infineon-technologies",
                   "entity_type": "ORGANIZATION",
@@ -103118,6 +104732,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "ffcb1db6-678f-5d09-9705-7c02e562a7a6",
+                  "slug": "kinexon",
+                  "entity_type": "ORGANIZATION",
+                  "name": "KINEXON",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "TOOLING_OPS_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -103219,6 +104847,20 @@
               },
               {
                 "chip": {
+                  "id": "92961fb2-0132-5db0-9506-d355d0a5c81c",
+                  "slug": "naise",
+                  "entity_type": "ORGANIZATION",
+                  "name": "NAiSE",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "214cd9d3-eb43-5950-8bf6-33f4e5c3ca64",
                   "slug": "neugart",
                   "entity_type": "ORGANIZATION",
@@ -103297,6 +104939,20 @@
                   "name": "Stuttgart",
                   "primary_embodiment": null,
                   "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "8c5c6176-05d3-508e-b006-d0d315b9fdc8",
+                  "slug": "synaos",
+                  "entity_type": "ORGANIZATION",
+                  "name": "SYNAOS",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "TOOLING_OPS_PROVIDER"
+                  ]
                 },
                 "measure_value": null,
                 "is_primary_membership": true
@@ -104238,12 +105894,12 @@
       {
         "id": "GB",
         "label": "GB",
-        "count": 16,
+        "count": 17,
         "districts": [
           {
             "id": "GB",
             "label": "GB",
-            "count": 16,
+            "count": 17,
             "entities": [
               {
                 "chip": {
@@ -104268,6 +105924,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "d3072c19-dd4c-5474-9c7a-0705fd860b8f",
+                  "slug": "canonical",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Canonical",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "TOOLING_OPS_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -105674,12 +107344,12 @@
       {
         "id": "SE",
         "label": "SE",
-        "count": 5,
+        "count": 6,
         "districts": [
           {
             "id": "SE",
             "label": "SE",
-            "count": 5,
+            "count": 6,
             "entities": [
               {
                 "chip": {
@@ -105732,6 +107402,21 @@
                   "primary_embodiment": null,
                   "roles": [
                     "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "73427a24-227d-5bca-ba25-e50a3b4bd997",
+                  "slug": "rerun",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Rerun",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER",
+                    "TOOLING_OPS_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -115426,6 +117111,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/011d396a-5e01-5f7f-8939-084c13b5591e": {
+    "claim": {
+      "claim_id": "011d396a-5e01-5f7f-8939-084c13b5591e",
+      "subject": {
+        "id": "451f0621-d063-5f2a-ad4a-7517f561b85c",
+        "slug": "edge-impulse",
+        "entity_type": "ORGANIZATION",
+        "name": "Edge Impulse",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Edge Impulse role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "536118a1-e4a9-5c6a-90bb-de925df49a8f",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides machine learning development and deployment tools for edge and physical AI.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "a0bf047f-88a8-567d-ad14-419ffa7f69c5",
+          "url": "https://www.edgeimpulse.com/",
+          "canonical_url": null,
+          "publisher": "Edge Impulse",
+          "title": "Edge Impulse — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/013a8689-9104-5598-9b59-37596a3ee718": {
     "claim": {
       "claim_id": "013a8689-9104-5598-9b59-37596a3ee718",
@@ -116228,6 +117968,61 @@
           "canonical_url": null,
           "publisher": "GRASP Laboratory",
           "title": "GRASP Laboratory — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/0343e5c2-d94d-5f8c-80cb-dd5e6d8e87a5": {
+    "claim": {
+      "claim_id": "0343e5c2-d94d-5f8c-80cb-dd5e6d8e87a5",
+      "subject": {
+        "id": "adec2206-58d8-5adc-978e-8d54591fdfd4",
+        "slug": "robocurve",
+        "entity_type": "ORGANIZATION",
+        "name": "Robocurve",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Robocurve role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "3e715279-6cb8-5427-ab44-003a4dd6de4e",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides independent evaluations of real-world robotics capabilities.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d736c021-fd1d-52cc-8855-01f5637d2701",
+          "url": "https://robocurve.org/",
+          "canonical_url": null,
+          "publisher": "Robocurve",
+          "title": "Robocurve — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -119104,6 +120899,74 @@
     "history": [],
     "dependencies": []
   },
+  "claim/0eaeb5ee-8e40-5e0d-81ac-86e3a6917086": {
+    "claim": {
+      "claim_id": "0eaeb5ee-8e40-5e0d-81ac-86e3a6917086",
+      "subject": {
+        "id": "f1bee41d-05e6-5a14-8023-256327db92e7",
+        "slug": "idealworks",
+        "entity_type": "ORGANIZATION",
+        "name": "idealworks",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "idealworks role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "b488151f-4107-5970-83dc-a3dc3a7f6692",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops mobile robots and orchestration software for industrial logistics.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "0a933208-7b2d-5da4-9a96-275e2a41eda5",
+          "url": "https://idealworks.com/",
+          "canonical_url": null,
+          "publisher": "idealworks",
+          "title": "idealworks — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "357cfba5-1ebc-52cf-821c-35a93c41aa8a",
+        "value": {
+          "kind": "enum",
+          "value": "OEM"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/0f0eb3c6-be07-5e5c-ad66-9b694c6c07d2": {
     "claim": {
       "claim_id": "0f0eb3c6-be07-5e5c-ad66-9b694c6c07d2",
@@ -120419,6 +122282,61 @@
           "canonical_url": null,
           "publisher": "Rollvis",
           "title": "Rollvis — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/1251da45-3759-5fc8-a056-3a92237a0ffd": {
+    "claim": {
+      "claim_id": "1251da45-3759-5fc8-a056-3a92237a0ffd",
+      "subject": {
+        "id": "0136a161-3b05-5037-b619-abc19be2386b",
+        "slug": "adamo",
+        "entity_type": "ORGANIZATION",
+        "name": "Adamo",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Adamo role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "db212fe0-08ea-58bc-aaff-1c0bf94903a8",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides teleoperation software for human-assisted robot deployment.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "4aafec73-7b31-5839-a154-c4392a67aab3",
+          "url": "https://adamohq.com/teleoperation",
+          "canonical_url": null,
+          "publisher": "Adamo",
+          "title": "Adamo — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -126699,6 +128617,61 @@
     ],
     "dependencies": []
   },
+  "claim/27d93bd3-d3c9-5d97-8a97-8d1457417304": {
+    "claim": {
+      "claim_id": "27d93bd3-d3c9-5d97-8a97-8d1457417304",
+      "subject": {
+        "id": "8c5c6176-05d3-508e-b006-d0d315b9fdc8",
+        "slug": "synaos",
+        "entity_type": "ORGANIZATION",
+        "name": "SYNAOS",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "SYNAOS role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "4de67784-1e9f-5767-8e45-3d7bbb11158b",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides software for coordinating heterogeneous mobile robot fleets.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "954df569-b931-520e-8d6a-0ee0cb26e177",
+          "url": "https://www.synaos.com/en/",
+          "canonical_url": null,
+          "publisher": "SYNAOS",
+          "title": "SYNAOS — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/28183d27-556d-55a6-a441-6bd2bab2dc93": {
     "claim": {
       "claim_id": "28183d27-556d-55a6-a441-6bd2bab2dc93",
@@ -128345,6 +130318,74 @@
       }
     ],
     "history": [],
+    "dependencies": []
+  },
+  "claim/2cfeed41-03e4-53c3-a1c5-970d330755a1": {
+    "claim": {
+      "claim_id": "2cfeed41-03e4-53c3-a1c5-970d330755a1",
+      "subject": {
+        "id": "499a8795-6f6a-59dc-974e-4722fa7d5fe5",
+        "slug": "roboto-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Roboto AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Roboto AI role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "76c6a663-e05c-50a1-9302-8a3254147818",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides analytics software for understanding robot behavior and failures.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "3584eb2d-84c0-5ad1-ac18-8db0cf6091dd",
+          "url": "https://www.roboto.ai/",
+          "canonical_url": null,
+          "publisher": "Roboto AI",
+          "title": "Roboto AI — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "6b9d290b-6f20-570a-a623-c06132ff8bd6",
+        "value": {
+          "kind": "enum",
+          "value": "TOOLING_OPS_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
     "dependencies": []
   },
   "claim/2e13a355-7765-5eb6-ba02-427a6d2d96a9": {
@@ -131273,6 +133314,74 @@
         "value": {
           "kind": "enum",
           "value": "OEM"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
+  "claim/357cfba5-1ebc-52cf-821c-35a93c41aa8a": {
+    "claim": {
+      "claim_id": "357cfba5-1ebc-52cf-821c-35a93c41aa8a",
+      "subject": {
+        "id": "f1bee41d-05e6-5a14-8023-256327db92e7",
+        "slug": "idealworks",
+        "entity_type": "ORGANIZATION",
+        "name": "idealworks",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "idealworks role OEM",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "519494a6-85db-5ebb-b92d-a2cf2f95dec8",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops mobile robots and orchestration software for industrial logistics.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "0a933208-7b2d-5da4-9a96-275e2a41eda5",
+          "url": "https://idealworks.com/",
+          "canonical_url": null,
+          "publisher": "idealworks",
+          "title": "idealworks — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "0eaeb5ee-8e40-5e0d-81ac-86e3a6917086",
+        "value": {
+          "kind": "enum",
+          "value": "TOOLING_OPS_PROVIDER"
         },
         "status": "APPROVED",
         "qualifier": null,
@@ -140840,6 +142949,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/55244954-c1d5-5313-92ab-ae02a3e93488": {
+    "claim": {
+      "claim_id": "55244954-c1d5-5313-92ab-ae02a3e93488",
+      "subject": {
+        "id": "6c88d7bb-3693-5d72-8525-3d6f57bbd670",
+        "slug": "dronedeploy",
+        "entity_type": "ORGANIZATION",
+        "name": "DroneDeploy",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "DroneDeploy role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "f290e559-4904-55a4-bbc0-c84ac1b43b05",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides reality capture and site inspection software for drones and robots.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d683f0cb-87ff-5b27-ad39-f61834b4238c",
+          "url": "https://www.dronedeploy.com/",
+          "canonical_url": null,
+          "publisher": "DroneDeploy",
+          "title": "DroneDeploy — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/569159cc-23e4-5caf-9afe-64eda3d0f3ef": {
     "claim": {
       "claim_id": "569159cc-23e4-5caf-9afe-64eda3d0f3ef",
@@ -147969,6 +150133,74 @@
     "history": [],
     "dependencies": []
   },
+  "claim/6b9d290b-6f20-570a-a623-c06132ff8bd6": {
+    "claim": {
+      "claim_id": "6b9d290b-6f20-570a-a623-c06132ff8bd6",
+      "subject": {
+        "id": "499a8795-6f6a-59dc-974e-4722fa7d5fe5",
+        "slug": "roboto-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Roboto AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Roboto AI role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "5abc0833-a3d2-59e6-a0d6-82efb49b6bb5",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides analytics software for understanding robot behavior and failures.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "3584eb2d-84c0-5ad1-ac18-8db0cf6091dd",
+          "url": "https://www.roboto.ai/",
+          "canonical_url": null,
+          "publisher": "Roboto AI",
+          "title": "Roboto AI — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "2cfeed41-03e4-53c3-a1c5-970d330755a1",
+        "value": {
+          "kind": "enum",
+          "value": "DATA_SIMULATION_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/6bbdf25a-4d98-59ee-9a25-8d5604d30037": {
     "claim": {
       "claim_id": "6bbdf25a-4d98-59ee-9a25-8d5604d30037",
@@ -151215,6 +153447,61 @@
           "reviewed_at": "2026-09-01T00:00:00.000Z",
           "notes": null
         }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/761581f4-5cbf-5cdd-ab41-2c8b2197d60b": {
+    "claim": {
+      "claim_id": "761581f4-5cbf-5cdd-ab41-2c8b2197d60b",
+      "subject": {
+        "id": "d3072c19-dd4c-5474-9c7a-0705fd860b8f",
+        "slug": "canonical",
+        "entity_type": "ORGANIZATION",
+        "name": "Canonical",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Canonical role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "876f0fe1-291b-5d64-a13e-8121a5734b1c",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides Ubuntu-based operating system infrastructure for robot development and fleet maintenance.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "5385d268-dc6d-5727-b904-e0d51fdb6ed2",
+          "url": "https://ubuntu.com/robotics",
+          "canonical_url": null,
+          "publisher": "Canonical",
+          "title": "Canonical — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
       }
     ],
     "history": [],
@@ -156810,6 +159097,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/865aca91-a7ba-509f-b1f0-10533c4876c6": {
+    "claim": {
+      "claim_id": "865aca91-a7ba-509f-b1f0-10533c4876c6",
+      "subject": {
+        "id": "ffcb1db6-678f-5d09-9705-7c02e562a7a6",
+        "slug": "kinexon",
+        "entity_type": "ORGANIZATION",
+        "name": "KINEXON",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "KINEXON role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "2dab65a5-8cb9-5b01-a89c-2fb5abd51b11",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides real-time industrial automation and mobile robot fleet management software.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "057b0cf2-2582-5f86-9d7a-51d6e3284006",
+          "url": "https://kinexon.com/",
+          "canonical_url": null,
+          "publisher": "KINEXON",
+          "title": "KINEXON — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/86ac87cd-7081-516b-ae2d-9ce57dd043a9": {
     "claim": {
       "claim_id": "86ac87cd-7081-516b-ae2d-9ce57dd043a9",
@@ -158402,6 +160744,74 @@
     ],
     "dependencies": []
   },
+  "claim/8a7545ab-f785-51e7-af0a-0ce7145e75bb": {
+    "claim": {
+      "claim_id": "8a7545ab-f785-51e7-af0a-0ce7145e75bb",
+      "subject": {
+        "id": "73427a24-227d-5bca-ba25-e50a3b4bd997",
+        "slug": "rerun",
+        "entity_type": "ORGANIZATION",
+        "name": "Rerun",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Rerun role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "d8a2348c-7070-5cac-91f7-476e532bc68d",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides multimodal robotics data visualization and analysis software.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "e865454c-f852-5b08-a20a-119e723f7862",
+          "url": "https://rerun.io/",
+          "canonical_url": null,
+          "publisher": "Rerun",
+          "title": "Rerun — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "be201a5d-8067-54ca-a335-2675a9a8aa4f",
+        "value": {
+          "kind": "enum",
+          "value": "DATA_SIMULATION_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/8a7e8a9e-d8af-5858-8cf8-e3ceee724d75": {
     "claim": {
       "claim_id": "8a7e8a9e-d8af-5858-8cf8-e3ceee724d75",
@@ -159745,6 +162155,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/8eea33fd-5863-5791-893c-406a87cf7043": {
+    "claim": {
+      "claim_id": "8eea33fd-5863-5791-893c-406a87cf7043",
+      "subject": {
+        "id": "92961fb2-0132-5db0-9506-d355d0a5c81c",
+        "slug": "naise",
+        "entity_type": "ORGANIZATION",
+        "name": "NAiSE",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "NAiSE role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "58bfd58b-0228-5139-a5a6-633d03908ad1",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides intralogistics orchestration for mobile robots and industrial vehicles.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "e7a75eb8-40b3-5e8b-bd4a-4d4a8c03c729",
+          "url": "https://naise.eu/",
+          "canonical_url": null,
+          "publisher": "NAiSE",
+          "title": "NAiSE — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/8ef68f09-b1ed-5931-96ff-7de2260cc15a": {
     "claim": {
       "claim_id": "8ef68f09-b1ed-5931-96ff-7de2260cc15a",
@@ -159976,6 +162441,74 @@
       }
     ],
     "history": [],
+    "dependencies": []
+  },
+  "claim/900590f5-af79-5a5f-a9fc-10216a13c66a": {
+    "claim": {
+      "claim_id": "900590f5-af79-5a5f-a9fc-10216a13c66a",
+      "subject": {
+        "id": "d16c16a3-47ea-5e0e-8fc4-a9503f04da93",
+        "slug": "voxel51",
+        "entity_type": "ORGANIZATION",
+        "name": "Voxel51",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Voxel51 role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "0ea6c3b1-ffaa-5919-9239-de2ccc43872f",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides multimodal data curation and evaluation tools for physical AI.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "bd4e6b41-b84e-5076-afdb-47d62f7f9534",
+          "url": "https://voxel51.com/",
+          "canonical_url": null,
+          "publisher": "Voxel51",
+          "title": "Voxel51 — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "ab05fa6b-3518-5182-9b3b-619f7445d365",
+        "value": {
+          "kind": "enum",
+          "value": "DATA_SIMULATION_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
     "dependencies": []
   },
   "claim/9036b13a-f64a-58e3-afdf-cac22e0fa00b": {
@@ -168977,6 +171510,74 @@
     ],
     "dependencies": []
   },
+  "claim/ab05fa6b-3518-5182-9b3b-619f7445d365": {
+    "claim": {
+      "claim_id": "ab05fa6b-3518-5182-9b3b-619f7445d365",
+      "subject": {
+        "id": "d16c16a3-47ea-5e0e-8fc4-a9503f04da93",
+        "slug": "voxel51",
+        "entity_type": "ORGANIZATION",
+        "name": "Voxel51",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Voxel51 role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "ea663ee6-a08f-56cd-9495-de3533a375a2",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides multimodal data curation and evaluation tools for physical AI.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "bd4e6b41-b84e-5076-afdb-47d62f7f9534",
+          "url": "https://voxel51.com/",
+          "canonical_url": null,
+          "publisher": "Voxel51",
+          "title": "Voxel51 — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "900590f5-af79-5a5f-a9fc-10216a13c66a",
+        "value": {
+          "kind": "enum",
+          "value": "TOOLING_OPS_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/ab225ec9-06ee-5078-86f5-0954a9beb23a": {
     "claim": {
       "claim_id": "ab225ec9-06ee-5078-86f5-0954a9beb23a",
@@ -175231,6 +177832,74 @@
         "value": {
           "kind": "enum",
           "value": "COMPONENT_SUPPLIER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
+  "claim/be201a5d-8067-54ca-a335-2675a9a8aa4f": {
+    "claim": {
+      "claim_id": "be201a5d-8067-54ca-a335-2675a9a8aa4f",
+      "subject": {
+        "id": "73427a24-227d-5bca-ba25-e50a3b4bd997",
+        "slug": "rerun",
+        "entity_type": "ORGANIZATION",
+        "name": "Rerun",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Rerun role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "10d233d1-51ed-50b1-92d3-370a0a0f2e0e",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides multimodal robotics data visualization and analysis software.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "e865454c-f852-5b08-a20a-119e723f7862",
+          "url": "https://rerun.io/",
+          "canonical_url": null,
+          "publisher": "Rerun",
+          "title": "Rerun — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "8a7545ab-f785-51e7-af0a-0ce7145e75bb",
+        "value": {
+          "kind": "enum",
+          "value": "TOOLING_OPS_PROVIDER"
         },
         "status": "APPROVED",
         "qualifier": null,
@@ -182865,6 +185534,74 @@
     "history": [],
     "dependencies": []
   },
+  "claim/d46cdc9a-45cb-52e9-a78d-b80ebe7bb891": {
+    "claim": {
+      "claim_id": "d46cdc9a-45cb-52e9-a78d-b80ebe7bb891",
+      "subject": {
+        "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+        "slug": "hugging-face",
+        "entity_type": "ORGANIZATION",
+        "name": "Hugging Face",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Hugging Face role DATA_SIMULATION_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "1b5f050c-910e-5325-82f7-e32346b2ba3e",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides open-source robot learning models, datasets and tools through LeRobot.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "f86f41c5-0df6-5a0a-928d-2766cf78c49c",
+          "url": "https://huggingface.co/lerobot",
+          "canonical_url": null,
+          "publisher": "Hugging Face",
+          "title": "Hugging Face — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "e8da1f39-50b9-551a-93c0-f0494470b27d",
+        "value": {
+          "kind": "enum",
+          "value": "TOOLING_OPS_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/d48c471a-ffb7-5420-9e66-d9b730b5c884": {
     "claim": {
       "claim_id": "d48c471a-ffb7-5420-9e66-d9b730b5c884",
@@ -190052,6 +192789,74 @@
     ],
     "dependencies": []
   },
+  "claim/e8da1f39-50b9-551a-93c0-f0494470b27d": {
+    "claim": {
+      "claim_id": "e8da1f39-50b9-551a-93c0-f0494470b27d",
+      "subject": {
+        "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+        "slug": "hugging-face",
+        "entity_type": "ORGANIZATION",
+        "name": "Hugging Face",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Hugging Face role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "f13f7170-6edd-5f7a-856e-4f2c7313d214",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides open-source robot learning models, datasets and tools through LeRobot.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "f86f41c5-0df6-5a0a-928d-2766cf78c49c",
+          "url": "https://huggingface.co/lerobot",
+          "canonical_url": null,
+          "publisher": "Hugging Face",
+          "title": "Hugging Face — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "d46cdc9a-45cb-52e9-a78d-b80ebe7bb891",
+        "value": {
+          "kind": "enum",
+          "value": "DATA_SIMULATION_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/e8db08a6-d10d-5864-bbfd-966ee36eb89a": {
     "claim": {
       "claim_id": "e8db08a6-d10d-5864-bbfd-966ee36eb89a",
@@ -192039,6 +194844,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/eeaa7116-2171-5dc0-b04e-915815a48d8a": {
+    "claim": {
+      "claim_id": "eeaa7116-2171-5dc0-b04e-915815a48d8a",
+      "subject": {
+        "id": "fde17fe9-8ff1-5548-9d53-27177c874a8c",
+        "slug": "tangram-vision",
+        "entity_type": "ORGANIZATION",
+        "name": "Tangram Vision",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Tangram Vision role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "5e622633-9f3c-5585-9dac-bca93771ce55",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides sensor calibration and perception reliability software for robotics.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "622e6af3-1b92-537a-a3e9-1f8a417974ab",
+          "url": "https://www.tangramvision.com/",
+          "canonical_url": null,
+          "publisher": "Tangram Vision",
+          "title": "Tangram Vision — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/eead1806-d43d-5165-9af9-a0c50a599b57": {
     "claim": {
       "claim_id": "eead1806-d43d-5165-9af9-a0c50a599b57",
@@ -192884,6 +195744,61 @@
           "title": "Apptronik and Mercedes-Benz announce commercial agreement",
           "source_kind": "PRESS_RELEASE",
           "published_at": "2024-03-15T00:00:00.000Z",
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/f1537e34-64ab-599a-8570-e1818e575bef": {
+    "claim": {
+      "claim_id": "f1537e34-64ab-599a-8570-e1818e575bef",
+      "subject": {
+        "id": "480b1715-3d6a-5a41-8de2-6238db7035e3",
+        "slug": "roboflow",
+        "entity_type": "ORGANIZATION",
+        "name": "Roboflow",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Roboflow role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "a1ff5652-8674-56f6-ad5d-c35551a3a805",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Provides computer vision development and deployment infrastructure for robotics.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "5c88eef0-a7a3-5b6e-b762-73079cd99db3",
+          "url": "https://roboflow.com/industries/robotics",
+          "canonical_url": null,
+          "publisher": "Roboflow",
+          "title": "Roboflow — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
           "language": "en"
         },
         "assessment": null

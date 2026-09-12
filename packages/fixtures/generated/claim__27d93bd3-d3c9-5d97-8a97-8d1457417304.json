@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "27d93bd3-d3c9-5d97-8a97-8d1457417304",
+    "subject": {
+      "id": "8c5c6176-05d3-508e-b006-d0d315b9fdc8",
+      "slug": "synaos",
+      "entity_type": "ORGANIZATION",
+      "name": "SYNAOS",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "SYNAOS role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4de67784-1e9f-5767-8e45-3d7bbb11158b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides software for coordinating heterogeneous mobile robot fleets.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "954df569-b931-520e-8d6a-0ee0cb26e177",
+        "url": "https://www.synaos.com/en/",
+        "canonical_url": null,
+        "publisher": "SYNAOS",
+        "title": "SYNAOS — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

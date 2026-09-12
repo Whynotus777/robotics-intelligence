@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "8eea33fd-5863-5791-893c-406a87cf7043",
+    "subject": {
+      "id": "92961fb2-0132-5db0-9506-d355d0a5c81c",
+      "slug": "naise",
+      "entity_type": "ORGANIZATION",
+      "name": "NAiSE",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "NAiSE role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "58bfd58b-0228-5139-a5a6-633d03908ad1",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides intralogistics orchestration for mobile robots and industrial vehicles.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "e7a75eb8-40b3-5e8b-bd4a-4d4a8c03c729",
+        "url": "https://naise.eu/",
+        "canonical_url": null,
+        "publisher": "NAiSE",
+        "title": "NAiSE — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

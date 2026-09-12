@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "55244954-c1d5-5313-92ab-ae02a3e93488",
+    "subject": {
+      "id": "6c88d7bb-3693-5d72-8525-3d6f57bbd670",
+      "slug": "dronedeploy",
+      "entity_type": "ORGANIZATION",
+      "name": "DroneDeploy",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "DroneDeploy role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f290e559-4904-55a4-bbc0-c84ac1b43b05",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides reality capture and site inspection software for drones and robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d683f0cb-87ff-5b27-ad39-f61834b4238c",
+        "url": "https://www.dronedeploy.com/",
+        "canonical_url": null,
+        "publisher": "DroneDeploy",
+        "title": "DroneDeploy — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}
