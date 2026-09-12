@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "86c0f6b7-09ba-576b-841d-0df39c5d877e",
+    "subject": {
+      "id": "2e216e39-ecb9-591b-87d5-e4425e62c4af",
+      "slug": "picknik-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "PickNik Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "PickNik Robotics role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5647bac2-70d9-5e0d-8c03-c060da938810",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops MoveIt-based motion planning software and robotics engineering tools.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ff8e007d-a0fa-5400-822b-53a8a1414835",
+        "url": "https://picknik.ai/ros/",
+        "canonical_url": null,
+        "publisher": "PickNik Robotics",
+        "title": "PickNik Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

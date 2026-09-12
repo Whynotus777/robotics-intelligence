@@ -1,0 +1,57 @@
+{
+  "claim": {
+    "claim_id": "5f9d2830-9ad6-5dad-b2db-ca52760c8cee",
+    "subject": {
+      "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
+      "slug": "applied-intuition",
+      "entity_type": "ORGANIZATION",
+      "name": "Applied Intuition",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER",
+        "MODEL_DEVELOPER",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Applied Intuition was founded on 2017-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2017-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2017-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a0b6907a-a841-59d2-ba17-a59e031af72a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Applied Intuition was established in 2017 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "50e3e852-abda-5c10-910d-ad10708f0fd2",
+        "url": "https://www.appliedintuition.com/press-releases/applied-intuition-opens-uk-office",
+        "canonical_url": null,
+        "publisher": "Applied Intuition",
+        "title": "Applied Intuition — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

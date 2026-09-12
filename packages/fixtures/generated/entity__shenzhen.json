@@ -109,6 +109,29 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "da7f666c-9e06-5b23-9ae2-3278928e751c",
+          "source": {
+            "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
+            "slug": "robosense",
+            "entity_type": "ORGANIZATION",
+            "name": "RoboSense",
+            "primary_embodiment": null,
+            "roles": [
+              "CHIPMAKER",
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -123,6 +146,17 @@
         "primary_embodiment": null,
         "roles": [
           "OEM"
+        ]
+      },
+      {
+        "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
+        "slug": "robosense",
+        "entity_type": "ORGANIZATION",
+        "name": "RoboSense",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
         ]
       },
       {
@@ -152,7 +186,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

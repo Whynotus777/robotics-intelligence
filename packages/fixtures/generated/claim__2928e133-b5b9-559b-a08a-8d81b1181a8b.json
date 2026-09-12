@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "2928e133-b5b9-559b-a08a-8d81b1181a8b",
+    "subject": {
+      "id": "386f26e9-9c99-5b1c-abab-1bf0bcd95fc0",
+      "slug": "viam",
+      "entity_type": "ORGANIZATION",
+      "name": "Viam",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Viam was founded on 2020-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2020-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2020-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1d04aa06-7411-574f-adc3-b60d79fc1f9e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Viam was established in 2020 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "2c36bdee-3615-5591-9e37-a826cd65d174",
+        "url": "https://www.viam.com/about",
+        "canonical_url": null,
+        "publisher": "Viam",
+        "title": "Viam — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

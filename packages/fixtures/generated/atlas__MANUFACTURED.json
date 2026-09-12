@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 44
+      "count": 60
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 11
+      "count": 13
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 0
+      "count": 1
     },
     {
       "id": "DEPLOYED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 12
+      "count": 17
     },
     {
       "id": "FUNDED",
@@ -37,9 +37,66 @@
       "count": 8
     }
   ],
-  "marks": [],
-  "countries": [],
+  "marks": [
+    {
+      "place": {
+        "id": "089d105e-024f-5c17-a3a2-f80bb0cc5bb8",
+        "slug": "new-taipei-tw",
+        "entity_type": "PLACE",
+        "name": "New Taipei",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 25.06199,
+      "lng": 121.45703,
+      "country_code": "TW",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "3dd79380-d3dd-5f4c-9691-75e3e947eb84",
+          "slug": "foxconn",
+          "entity_type": "ORGANIZATION",
+          "name": "Foxconn",
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    }
+  ],
+  "countries": [
+    {
+      "id": "TW",
+      "label": "TW",
+      "weight": 1,
+      "places": 1
+    }
+  ],
   "corridors": [],
-  "list": [],
+  "list": [
+    {
+      "entity": {
+        "id": "3dd79380-d3dd-5f4c-9691-75e3e947eb84",
+        "slug": "foxconn",
+        "entity_type": "ORGANIZATION",
+        "name": "Foxconn",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER"
+        ]
+      },
+      "place": {
+        "id": "089d105e-024f-5c17-a3a2-f80bb0cc5bb8",
+        "slug": "new-taipei-tw",
+        "entity_type": "PLACE",
+        "name": "New Taipei",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    }
+  ],
   "as_of": null
 }

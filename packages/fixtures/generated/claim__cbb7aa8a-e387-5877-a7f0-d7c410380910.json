@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "cbb7aa8a-e387-5877-a7f0-d7c410380910",
+    "subject": {
+      "id": "d682d895-2359-5985-8638-8d1e7e537667",
+      "slug": "foxglove",
+      "entity_type": "ORGANIZATION",
+      "name": "Foxglove",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Foxglove role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "163e33ee-4963-547c-934a-cbaba6ec4d6e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides robotics observability, visualization and sensor-data tools.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ec927e21-005e-5eca-94be-3c8451b8ff61",
+        "url": "https://foxglove.dev/about",
+        "canonical_url": null,
+        "publisher": "Foxglove",
+        "title": "Foxglove — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

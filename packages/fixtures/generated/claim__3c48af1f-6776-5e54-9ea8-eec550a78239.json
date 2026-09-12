@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3c48af1f-6776-5e54-9ea8-eec550a78239",
+    "subject": {
+      "id": "9c989a06-5dc7-5b95-b411-b37bf58169dc",
+      "slug": "intuitive-surgical",
+      "entity_type": "ORGANIZATION",
+      "name": "Intuitive Surgical",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "Intuitive Surgical stock ticker NASDAQ:ISRG",
+    "value": {
+      "kind": "text",
+      "text": "NASDAQ:ISRG"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "37e33306-bd0f-5f8f-8059-617dec700a7d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Intuitive Surgical is listed as NASDAQ:ISRG.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "c5b812eb-8a32-5d5f-9c7b-103e7344f2a9",
+        "url": "https://isrg.intuitive.com/",
+        "canonical_url": null,
+        "publisher": "Intuitive Surgical",
+        "title": "Intuitive Surgical — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

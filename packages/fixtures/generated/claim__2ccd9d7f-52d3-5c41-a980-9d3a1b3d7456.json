@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "2ccd9d7f-52d3-5c41-a980-9d3a1b3d7456",
+    "subject": {
+      "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
+      "slug": "teradyne",
+      "entity_type": "ORGANIZATION",
+      "name": "Teradyne",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "Teradyne stock ticker NASDAQ:TER",
+    "value": {
+      "kind": "text",
+      "text": "NASDAQ:TER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4b175dbb-472c-58fe-bea6-5bd776e376e1",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Teradyne is listed as NASDAQ:TER.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8d862398-ce24-5aac-bcad-66b31a6a87d3",
+        "url": "https://en.wikipedia.org/wiki/Teradyne",
+        "canonical_url": null,
+        "publisher": "Teradyne",
+        "title": "Teradyne — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

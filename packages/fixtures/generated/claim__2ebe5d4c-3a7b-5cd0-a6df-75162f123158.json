@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "2ebe5d4c-3a7b-5cd0-a6df-75162f123158",
+    "subject": {
+      "id": "1ead989d-24d6-5963-a6dd-f118d564c904",
+      "slug": "ready-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "READY Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "READY Robotics role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4cd3418d-4739-5379-83e7-00c18467cf7e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops ForgeOS software for programming industrial robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "71a05e9e-2e99-58f6-95b3-0351809188e7",
+        "url": "https://www.ready-robotics.com/",
+        "canonical_url": null,
+        "publisher": "READY Robotics",
+        "title": "READY Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,47 @@
+slug: agibot
+entity_type: ORGANIZATION
+name: AgiBot
+short_description: Builds humanoid robots and embodied intelligence models.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-32bd315d6044ecb6
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds humanoid robots and embodied intelligence models.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-32bd315d6044ecb6
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds humanoid robots and embodied intelligence models.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: shanghai
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-5425fb923dcd7d71
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: AgiBot is headquartered in Shanghai.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2023-01-01'
+  valid_from: '2023-01-01'
+  evidence:
+  - source: enrich-5425fb923dcd7d71
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: AgiBot was established in 2023 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: CN
+aliases:
+- AgiBot (Zhiyuan Robotics)
+- Zhiyuan Robotics

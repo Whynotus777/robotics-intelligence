@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "962d9eb5-b92c-5cd7-bff9-bcecf3df3806",
+    "subject": {
+      "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
+      "slug": "mitsubishi-electric",
+      "entity_type": "ORGANIZATION",
+      "name": "Mitsubishi Electric",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Mitsubishi Electric was founded on 1921-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1921-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1921-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ad3c86f2-484c-5397-a37c-96975e31bc3c",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Mitsubishi Electric was established in 1921 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "30339638-ff1b-55a3-a365-e8b687c112a4",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_Electric",
+        "canonical_url": null,
+        "publisher": "Mitsubishi Electric",
+        "title": "Mitsubishi Electric — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

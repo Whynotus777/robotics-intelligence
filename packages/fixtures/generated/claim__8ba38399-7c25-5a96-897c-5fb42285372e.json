@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "8ba38399-7c25-5a96-897c-5fb42285372e",
+    "subject": {
+      "id": "67529b36-5a36-5d97-8986-8a6e478af3cf",
+      "slug": "shield-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Shield AI",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Shield AI is headquartered at San Diego",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+        "slug": "san-diego",
+        "entity_type": "PLACE",
+        "name": "San Diego",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "74262a46-4662-562e-8798-c3db7ad6ebf9",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Shield AI is headquartered in San Diego.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "01a248d5-1788-5c51-8dd0-80aa4a1a87cf",
+        "url": "https://en.wikipedia.org/wiki/Shield_AI",
+        "canonical_url": null,
+        "publisher": "Shield AI",
+        "title": "Shield AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

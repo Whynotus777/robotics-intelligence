@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3e5d11c3-0465-5f0a-95ea-cec6132fdfe4",
+    "subject": {
+      "id": "3dd79380-d3dd-5f4c-9691-75e3e947eb84",
+      "slug": "foxconn",
+      "entity_type": "ORGANIZATION",
+      "name": "Foxconn",
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Foxconn was founded on 1974-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1974-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1974-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4ef03b36-944d-5d3f-a6d7-0407668a147d",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Foxconn was established in 1974 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "0dc3e414-9845-5df6-b198-700733ff195f",
+        "url": "https://en.wikipedia.org/wiki/Foxconn",
+        "canonical_url": null,
+        "publisher": "Foxconn",
+        "title": "Foxconn — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

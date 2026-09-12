@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "134912b7-39be-5128-84bb-f25d673bbb8b",
+    "subject": {
+      "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+      "slug": "deere",
+      "entity_type": "ORGANIZATION",
+      "name": "Deere",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Deere was founded on 1837-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1837-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1837-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2b5459bd-1aac-538c-b453-36884d7be731",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Deere was established in 1837 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5c11ebd4-492b-5151-944f-cf6f044fb5c6",
+        "url": "https://en.wikipedia.org/wiki/John_Deere",
+        "canonical_url": null,
+        "publisher": "Deere",
+        "title": "Deere — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

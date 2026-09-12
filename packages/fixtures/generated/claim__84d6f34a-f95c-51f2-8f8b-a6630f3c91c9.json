@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "84d6f34a-f95c-51f2-8f8b-a6630f3c91c9",
+    "subject": {
+      "id": "f594c0d3-52d7-58f5-add7-37de9d62dcde",
+      "slug": "anduril",
+      "entity_type": "ORGANIZATION",
+      "name": "Anduril",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Anduril role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b21b9cf7-5cae-5472-af98-8c20185ee799",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops autonomous defense systems and integrates their sensing and control software.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "25545e01-d894-5eb9-b772-8b1076666253",
+        "url": "https://www.army.mil/article/294224/washington_national_guard_advances_counter_drone_capabilities_with_new_technology",
+        "canonical_url": null,
+        "publisher": "Anduril",
+        "title": "Anduril — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

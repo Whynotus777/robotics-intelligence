@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "600043ea-ba14-5557-aefd-2229c3ac552b",
+    "subject": {
+      "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+      "slug": "deere",
+      "entity_type": "ORGANIZATION",
+      "name": "Deere",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "Deere stock ticker NYSE:DE",
+    "value": {
+      "kind": "text",
+      "text": "NYSE:DE"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "35b00fd3-6500-539a-95d5-1821ad283735",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Deere is listed as NYSE:DE.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5c11ebd4-492b-5151-944f-cf6f044fb5c6",
+        "url": "https://en.wikipedia.org/wiki/John_Deere",
+        "canonical_url": null,
+        "publisher": "Deere",
+        "title": "Deere — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

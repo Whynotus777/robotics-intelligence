@@ -1,0 +1,129 @@
+{
+  "entity": {
+    "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
+    "slug": "mobile-industrial-robots",
+    "entity_type": "ORGANIZATION",
+    "name": "Mobile Industrial Robots",
+    "short_description": "Builds autonomous mobile robots for internal material transportation.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "DK",
+    "aliases": [
+      "MiR",
+      "Mobile Industrial Robots (MiR)"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": true,
+      "claim_id": "8b199a94-1393-59bf-8d66-e0d31aa74efd",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "8b199a94-1393-59bf-8d66-e0d31aa74efd",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OEM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "99c8621f-3c31-519f-a9ea-c547760ff487",
+          "target": {
+            "id": "fc5f8943-817d-5aef-ba62-a8f05810eb74",
+            "slug": "odense",
+            "entity_type": "PLACE",
+            "name": "Odense",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "places": [
+      {
+        "id": "fc5f8943-817d-5aef-ba62-a8f05810eb74",
+        "slug": "odense",
+        "entity_type": "PLACE",
+        "name": "Odense",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

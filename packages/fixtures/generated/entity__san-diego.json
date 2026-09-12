@@ -60,6 +60,29 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "8ba38399-7c25-5a96-897c-5fb42285372e",
+          "source": {
+            "id": "67529b36-5a36-5d97-8986-8a6e478af3cf",
+            "slug": "shield-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Shield AI",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -75,6 +98,17 @@
         "roles": [
           "CHIPMAKER",
           "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
+        "id": "67529b36-5a36-5d97-8986-8a6e478af3cf",
+        "slug": "shield-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Shield AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
         ]
       }
     ]
@@ -94,7 +128,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

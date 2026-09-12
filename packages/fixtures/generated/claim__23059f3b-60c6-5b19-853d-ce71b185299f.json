@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "23059f3b-60c6-5b19-853d-ce71b185299f",
+    "subject": {
+      "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
+      "slug": "honda-motor",
+      "entity_type": "ORGANIZATION",
+      "name": "Honda Motor",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "Honda Motor stock ticker TYO:7267",
+    "value": {
+      "kind": "text",
+      "text": "TYO:7267"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f124545e-58b6-58eb-9012-84d2cd6878da",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Honda Motor is listed as TYO:7267.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1d271b6a-1d53-5781-a116-c628f0666fb9",
+        "url": "https://en.wikipedia.org/wiki/Honda",
+        "canonical_url": null,
+        "publisher": "Honda Motor",
+        "title": "Honda Motor — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

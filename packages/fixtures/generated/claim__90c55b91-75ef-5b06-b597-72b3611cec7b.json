@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "90c55b91-75ef-5b06-b597-72b3611cec7b",
+    "subject": {
+      "id": "3dd79380-d3dd-5f4c-9691-75e3e947eb84",
+      "slug": "foxconn",
+      "entity_type": "ORGANIZATION",
+      "name": "Foxconn",
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Foxconn role CONTRACT_MANUFACTURER",
+    "value": {
+      "kind": "enum",
+      "value": "CONTRACT_MANUFACTURER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "fbb85bed-480c-595e-9801-1c4a1d3ea095",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides electronics contract manufacturing and develops industrial robotics capabilities.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "32831c3b-26a5-58bd-a658-52ed17c2ecb1",
+        "url": "https://www.honhai.com/en-us/press-center/press-releases/latest-news/1975",
+        "canonical_url": null,
+        "publisher": "Foxconn",
+        "title": "Foxconn — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

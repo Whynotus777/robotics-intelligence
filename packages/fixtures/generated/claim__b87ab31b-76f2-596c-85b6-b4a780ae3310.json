@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "b87ab31b-76f2-596c-85b6-b4a780ae3310",
+    "subject": {
+      "id": "f594c0d3-52d7-58f5-add7-37de9d62dcde",
+      "slug": "anduril",
+      "entity_type": "ORGANIZATION",
+      "name": "Anduril",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Anduril was founded on 2017-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2017-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2017-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "dcb9939f-66b2-5c19-a880-212cdab289d4",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Anduril was established in 2017 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "583125f5-ef0f-5690-9258-b9474cb1d447",
+        "url": "https://en.wikipedia.org/wiki/Anduril_Industries",
+        "canonical_url": null,
+        "publisher": "Anduril",
+        "title": "Anduril — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

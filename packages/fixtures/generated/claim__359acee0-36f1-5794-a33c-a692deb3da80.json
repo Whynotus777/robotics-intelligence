@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "359acee0-36f1-5794-a33c-a692deb3da80",
+    "subject": {
+      "id": "5779b38d-09d7-554c-ae5c-f09ad34862c1",
+      "slug": "dusty-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Dusty Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Dusty Robotics is headquartered at Mountain View",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
+        "entity_type": "PLACE",
+        "name": "Mountain View",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a18c6ab7-4000-516b-8da5-808f7926eed9",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Dusty Robotics is headquartered in Mountain View.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "954bc871-8210-5f1e-aaf3-5218f2c5bf01",
+        "url": "https://www.dustyrobotics.com/terms-of-service",
+        "canonical_url": null,
+        "publisher": "Dusty Robotics",
+        "title": "Dusty Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

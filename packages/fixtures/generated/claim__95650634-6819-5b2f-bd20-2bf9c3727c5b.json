@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "95650634-6819-5b2f-bd20-2bf9c3727c5b",
+    "subject": {
+      "id": "9c989a06-5dc7-5b95-b411-b37bf58169dc",
+      "slug": "intuitive-surgical",
+      "entity_type": "ORGANIZATION",
+      "name": "Intuitive Surgical",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Intuitive Surgical is headquartered at Sunnyvale",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+        "slug": "sunnyvale-us",
+        "entity_type": "PLACE",
+        "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7a46b2cb-6a58-5702-8eed-81d3866f2d50",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Intuitive Surgical is headquartered in Sunnyvale.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "c5b812eb-8a32-5d5f-9c7b-103e7344f2a9",
+        "url": "https://isrg.intuitive.com/",
+        "canonical_url": null,
+        "publisher": "Intuitive Surgical",
+        "title": "Intuitive Surgical — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

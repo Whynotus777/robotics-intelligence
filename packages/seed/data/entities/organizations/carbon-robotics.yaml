@@ -1,0 +1,35 @@
+slug: carbon-robotics
+entity_type: ORGANIZATION
+name: Carbon Robotics
+short_description: Builds AI-guided laser weeders and tractor autonomy products for agriculture.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-a46a09336c3dd7a9
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds AI-guided laser weeders and tractor autonomy products for agriculture.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: seattle
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-a46a09336c3dd7a9
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Carbon Robotics is headquartered in Seattle.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2018-01-01'
+  valid_from: '2018-01-01'
+  evidence:
+  - source: enrich-a46a09336c3dd7a9
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Carbon Robotics was established in 2018 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: US

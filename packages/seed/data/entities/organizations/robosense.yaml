@@ -1,0 +1,53 @@
+slug: robosense
+entity_type: ORGANIZATION
+name: RoboSense
+short_description: Develops LiDAR, perception chips and depth cameras for robots and autonomous vehicles.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: COMPONENT_SUPPLIER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-2afa5e1444ba5262
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops LiDAR, perception chips and depth cameras for robots and autonomous vehicles.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: CHIPMAKER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-2afa5e1444ba5262
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops LiDAR, perception chips and depth cameras for robots and autonomous vehicles.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: shenzhen
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-2afa5e1444ba5262
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: RoboSense is headquartered in Shenzhen.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2014-01-01'
+  valid_from: '2014-01-01'
+  evidence:
+  - source: enrich-2afa5e1444ba5262
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: RoboSense was established in 2014 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: HKEX:02498
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-2afa5e1444ba5262
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: RoboSense is listed as HKEX:02498.
+    observed_at: '2026-09-11'
+country_code: CN

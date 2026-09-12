@@ -1,0 +1,55 @@
+slug: ocado
+entity_type: ORGANIZATION
+name: Ocado
+short_description: Develops robotic grocery fulfillment systems and integrates them for retailers.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-0c5b7112a0967304
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops robotic grocery fulfillment systems and integrates them for retailers.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: INTEGRATOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-0c5b7112a0967304
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops robotic grocery fulfillment systems and integrates them for retailers.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: hatfield-gb
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-e487f2f2c8f227df
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Ocado is headquartered in Hatfield.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2000-01-01'
+  valid_from: '2000-01-01'
+  evidence:
+  - source: enrich-e487f2f2c8f227df
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Ocado was established in 2000 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: LSE:OCDO
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-e487f2f2c8f227df
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Ocado is listed as LSE:OCDO.
+    observed_at: '2026-09-11'
+country_code: GB
+aliases:
+- Ocado Group

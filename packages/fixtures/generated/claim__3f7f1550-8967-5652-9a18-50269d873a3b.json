@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3f7f1550-8967-5652-9a18-50269d873a3b",
+    "subject": {
+      "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
+      "slug": "teradyne",
+      "entity_type": "ORGANIZATION",
+      "name": "Teradyne",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Teradyne was founded on 1960-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1960-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1960-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "30ea6a11-30d3-504e-a0be-194bf7bdb89b",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Teradyne was established in 1960 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8d862398-ce24-5aac-bcad-66b31a6a87d3",
+        "url": "https://en.wikipedia.org/wiki/Teradyne",
+        "canonical_url": null,
+        "publisher": "Teradyne",
+        "title": "Teradyne — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

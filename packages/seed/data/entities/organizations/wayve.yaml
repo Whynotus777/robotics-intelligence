@@ -1,0 +1,35 @@
+slug: wayve
+entity_type: ORGANIZATION
+name: Wayve
+short_description: Develops learned driving models and simulation for autonomous vehicles.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-0b5095131af0296d
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops learned driving models and simulation for autonomous vehicles.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: london
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-0b5095131af0296d
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Wayve is headquartered in London.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2017-01-01'
+  valid_from: '2017-01-01'
+  evidence:
+  - source: enrich-0b5095131af0296d
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Wayve was established in 2017 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: GB

@@ -1,0 +1,26 @@
+slug: foxglove
+entity_type: ORGANIZATION
+name: Foxglove
+short_description: Provides robotics observability, visualization and sensor-data tools.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: TOOLING_OPS_PROVIDER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d380e6b99bcacbf4
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Provides robotics observability, visualization and sensor-data tools.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2021-01-01'
+  valid_from: '2021-01-01'
+  evidence:
+  - source: enrich-31754ad8c9955cbe
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Foxglove was established in 2021 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: US

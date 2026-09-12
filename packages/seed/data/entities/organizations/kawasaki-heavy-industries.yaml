@@ -1,0 +1,35 @@
+slug: kawasaki-heavy-industries
+entity_type: ORGANIZATION
+name: Kawasaki Heavy Industries
+short_description: Manufactures industrial robots and develops robotic automation systems.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-f6dd7c73c68f6e99
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Manufactures industrial robots and develops robotic automation systems.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: tokyo
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-f6dd7c73c68f6e99
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Kawasaki Heavy Industries is headquartered in Tokyo.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1896-01-01'
+  valid_from: '1896-01-01'
+  evidence:
+  - source: enrich-f6dd7c73c68f6e99
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Kawasaki Heavy Industries was established in 1896 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: JP

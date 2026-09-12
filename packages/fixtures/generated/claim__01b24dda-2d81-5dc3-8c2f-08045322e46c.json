@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "01b24dda-2d81-5dc3-8c2f-08045322e46c",
+    "subject": {
+      "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
+      "slug": "mitsubishi-electric",
+      "entity_type": "ORGANIZATION",
+      "name": "Mitsubishi Electric",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Mitsubishi Electric role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b9cf79b2-b5f3-549b-b0e4-0e504f93e41c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Manufactures MELFA industrial robots and factory automation controls.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bdb51e0a-fd79-5267-87da-c72f956a9975",
+        "url": "https://www.mitsubishielectric.com/fa/products/rbt/robot/",
+        "canonical_url": null,
+        "publisher": "Mitsubishi Electric",
+        "title": "Mitsubishi Electric — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

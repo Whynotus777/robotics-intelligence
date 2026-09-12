@@ -1,0 +1,44 @@
+slug: intuitive-surgical
+entity_type: ORGANIZATION
+name: Intuitive Surgical
+short_description: Develops and manufactures the da Vinci robot-assisted surgical systems.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-f56a7203359c0368
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops and manufactures the da Vinci robot-assisted surgical systems.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: sunnyvale-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-f56a7203359c0368
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Intuitive Surgical is headquartered in Sunnyvale.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1995-01-01'
+  valid_from: '1995-01-01'
+  evidence:
+  - source: enrich-d64f91e22ace1888
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Intuitive Surgical was established in 1995 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: NASDAQ:ISRG
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-f56a7203359c0368
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Intuitive Surgical is listed as NASDAQ:ISRG.
+    observed_at: '2026-09-11'
+country_code: US

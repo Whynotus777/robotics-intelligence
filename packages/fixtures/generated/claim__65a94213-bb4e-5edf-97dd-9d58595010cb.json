@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "65a94213-bb4e-5edf-97dd-9d58595010cb",
+    "subject": {
+      "id": "a19bf5f6-db27-5318-ae20-28be53104b40",
+      "slug": "dyna-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Dyna Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Dyna Robotics role MODEL_DEVELOPER",
+    "value": {
+      "kind": "enum",
+      "value": "MODEL_DEVELOPER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "90608c4b-c1a8-58b3-8a75-f38bea1fdb79",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops robotic foundation models and manipulation systems for commercial workflows.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "e9773dbe-380d-53ac-bfc2-9f493926373c",
+        "url": "https://www.dyna.co/",
+        "canonical_url": null,
+        "publisher": "Dyna Robotics",
+        "title": "Dyna Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "5e8d618f-92c4-5698-8927-c50613f3aefa",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "c3e711a3-fb76-59c9-94f9-6b88819cdee3",
+    "subject": {
+      "id": "38dfa30f-e5ae-5a39-a3d4-7c7bcefc891e",
+      "slug": "saildrone",
+      "entity_type": "ORGANIZATION",
+      "name": "Saildrone",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Saildrone role OPERATOR",
+    "value": {
+      "kind": "enum",
+      "value": "OPERATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4f0b28db-3bac-5fa5-9cde-910d929c74e7",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds and operates unmanned surface vessels for maritime observation and mapping.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "cdee2809-4c2c-58fb-9ae2-5dd4f47eab68",
+        "url": "https://www.saildrone.com/about",
+        "canonical_url": null,
+        "publisher": "Saildrone",
+        "title": "Saildrone — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "b0ffcbd7-88fb-55c8-8e28-3c79d550f42c",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "64108aca-0825-522f-ac97-53c6ba92d1c4",
+    "subject": {
+      "id": "386f26e9-9c99-5b1c-abab-1bf0bcd95fc0",
+      "slug": "viam",
+      "entity_type": "ORGANIZATION",
+      "name": "Viam",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Viam role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "397a293a-cf1e-5f1f-b069-16a1917a49d5",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides software for building, controlling and managing fleets of robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "2c36bdee-3615-5591-9e37-a826cd65d174",
+        "url": "https://www.viam.com/about",
+        "canonical_url": null,
+        "publisher": "Viam",
+        "title": "Viam — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

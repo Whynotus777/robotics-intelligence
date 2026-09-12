@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "e7ce6c13-4166-5ae2-8ded-b3a9f1db3c60",
+    "subject": {
+      "id": "e1a62352-441d-5638-9cb2-5e9a3a282bfd",
+      "slug": "zoox",
+      "entity_type": "ORGANIZATION",
+      "name": "Zoox",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Zoox was founded on 2014-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2014-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2014-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "37e84522-3d8a-55cc-baa4-d35941b13a4d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Zoox was established in 2014 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5854d966-b882-5126-8331-9095bb43d9d4",
+        "url": "https://zoox.com/journal/10-years-of-building-zoox",
+        "canonical_url": null,
+        "publisher": "Zoox",
+        "title": "Zoox — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,41 @@
+slug: teradyne
+entity_type: ORGANIZATION
+name: Teradyne
+short_description: Owns robotics businesses including Universal Robots and Mobile Industrial Robots.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-e80e86f383f196d4
+    excerpt: Owns robotics businesses including Universal Robots and Mobile Industrial Robots.
+    assessment:
+      rationale: Owns robotics businesses including Universal Robots and Mobile Industrial Robots. The platform
+        role describes involvement across robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.
+- predicate: FOUNDED_ON
+  date: '1960-01-01'
+  valid_from: '1960-01-01'
+  evidence:
+  - source: enrich-b4ffba9e63cecc6e
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Teradyne was established in 1960 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: NASDAQ:TER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-b4ffba9e63cecc6e
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Teradyne is listed as NASDAQ:TER.
+    observed_at: '2026-09-11'
+country_code: US

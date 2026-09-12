@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "9bcfbd17-872a-59dc-979c-bf085101003b",
+    "subject": {
+      "id": "f4eb9eb3-0f94-5921-9567-cea7792759f4",
+      "slug": "carbon-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Carbon Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Carbon Robotics is headquartered at Seattle",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "09fe1f86-0f65-56e7-b94f-de274bdc9a6f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Carbon Robotics is headquartered in Seattle.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "4e1a6926-430b-5220-978d-82ad6548c891",
+        "url": "https://carbonrobotics.com/company",
+        "canonical_url": null,
+        "publisher": "Carbon Robotics",
+        "title": "Carbon Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

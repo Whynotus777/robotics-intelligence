@@ -1,0 +1,37 @@
+slug: anduril
+entity_type: ORGANIZATION
+name: Anduril
+short_description: Develops autonomous defense systems and integrates their sensing and control software.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d724656f72b05def
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops autonomous defense systems and integrates their sensing and control software.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: costa-mesa-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-9fc17c85d0d56130
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Anduril is headquartered in Costa Mesa.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2017-01-01'
+  valid_from: '2017-01-01'
+  evidence:
+  - source: enrich-9fc17c85d0d56130
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Anduril was established in 2017 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: US
+aliases:
+- Anduril Industries

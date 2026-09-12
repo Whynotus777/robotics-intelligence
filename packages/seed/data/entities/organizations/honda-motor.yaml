@@ -1,0 +1,44 @@
+slug: honda-motor
+entity_type: ORGANIZATION
+name: Honda Motor
+short_description: Conducts humanoid, dexterous manipulation and teleoperation robotics research.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: RESEARCH_LAB
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-7c92085956ff2aa1
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Conducts humanoid, dexterous manipulation and teleoperation robotics research.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: tokyo
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-bd8519363cae2ff0
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Honda Motor is headquartered in Tokyo.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1948-01-01'
+  valid_from: '1948-01-01'
+  evidence:
+  - source: enrich-bd8519363cae2ff0
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Honda Motor was established in 1948 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: TYO:7267
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-bd8519363cae2ff0
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Honda Motor is listed as TYO:7267.
+    observed_at: '2026-09-11'
+country_code: JP

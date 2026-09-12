@@ -1,0 +1,53 @@
+slug: omron
+entity_type: ORGANIZATION
+name: Omron
+short_description: Supplies industrial and mobile robots, machine vision and safety components.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-66e70a7f3cf8563f
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Supplies industrial and mobile robots, machine vision and safety components.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: COMPONENT_SUPPLIER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-66e70a7f3cf8563f
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Supplies industrial and mobile robots, machine vision and safety components.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: kyoto-jp
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-75055de145cf66cc
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Omron is headquartered in Kyoto.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1933-01-01'
+  valid_from: '1933-01-01'
+  evidence:
+  - source: enrich-75055de145cf66cc
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Omron was established in 1933 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: TYO:6645
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-75055de145cf66cc
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Omron is listed as TYO:6645.
+    observed_at: '2026-09-11'
+country_code: JP

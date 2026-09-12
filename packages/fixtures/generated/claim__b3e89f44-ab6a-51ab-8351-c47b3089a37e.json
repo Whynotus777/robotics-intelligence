@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "b3e89f44-ab6a-51ab-8351-c47b3089a37e",
+    "subject": {
+      "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
+      "slug": "google-deepmind",
+      "entity_type": "ORGANIZATION",
+      "name": "Google DeepMind",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Google DeepMind was founded on 2010-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2010-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2010-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "32051e81-ba68-58b5-b96a-bb1daca31b8c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Google DeepMind was established in 2010 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "048a4a62-a222-5e2d-b199-46c9517c9ff0",
+        "url": "https://deepmind.google/about/",
+        "canonical_url": null,
+        "publisher": "Google DeepMind",
+        "title": "Google DeepMind — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,48 @@
+slug: foxconn
+entity_type: ORGANIZATION
+name: Foxconn
+short_description: Provides electronics contract manufacturing and develops industrial robotics capabilities.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: CONTRACT_MANUFACTURER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-a6368af77f1ab912
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Provides electronics contract manufacturing and develops industrial robotics capabilities.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: new-taipei-tw
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-a5dd700635b3220b
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Foxconn is headquartered in New Taipei.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1974-01-01'
+  valid_from: '1974-01-01'
+  evidence:
+  - source: enrich-a5dd700635b3220b
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Foxconn was established in 1974 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: TWSE:2317
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-a5dd700635b3220b
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Foxconn is listed as TWSE:2317.
+    observed_at: '2026-09-11'
+country_code: TW
+aliases:
+- Hon Hai Technology Group (Foxconn)
+- Foxconn (Hon Hai Precision Industry)
+- Hon Hai Precision Industry

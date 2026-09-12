@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "a57578cf-e561-5240-8fff-172f497445c2",
+    "subject": {
+      "id": "b992dfb4-b945-5a51-9ccf-368c6da804a1",
+      "slug": "kognic",
+      "entity_type": "ORGANIZATION",
+      "name": "Kognic",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Kognic role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b2f1997c-04f4-5a4e-bf86-070816496311",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides multi-sensor annotation tools for autonomous vehicle development.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "dd87f2bf-8af5-5d10-a495-af7cc26e024a",
+        "url": "https://www.kognic.com/",
+        "canonical_url": null,
+        "publisher": "Kognic",
+        "title": "Kognic — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

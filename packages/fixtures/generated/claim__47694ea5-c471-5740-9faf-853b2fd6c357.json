@@ -1,0 +1,80 @@
+{
+  "claim": {
+    "claim_id": "47694ea5-c471-5740-9faf-853b2fd6c357",
+    "subject": {
+      "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
+      "slug": "applied-intuition",
+      "entity_type": "ORGANIZATION",
+      "name": "Applied Intuition",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER",
+        "MODEL_DEVELOPER",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Applied Intuition role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "98ebe683-fefc-5478-a47f-a59e3f90492b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops autonomy software, vehicle simulation and tools for intelligent vehicles.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "36f18946-3a15-5514-a598-98455abdd8ad",
+        "url": "https://www.appliedintuition.com/about",
+        "canonical_url": null,
+        "publisher": "Applied Intuition",
+        "title": "Applied Intuition — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "16fd25c2-210a-5a50-84f9-76ac54cb8667",
+      "value": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    },
+    {
+      "claim_id": "63747b38-5347-5326-aca3-0703570ee57f",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "67009804-4b14-50c1-a875-add4cb59dcc8",
+    "subject": {
+      "id": "f8945d58-a1e3-525f-913b-aee6b56b78a5",
+      "slug": "ocado",
+      "entity_type": "ORGANIZATION",
+      "name": "Ocado",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "Ocado stock ticker LSE:OCDO",
+    "value": {
+      "kind": "text",
+      "text": "LSE:OCDO"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "56419c4a-b231-5a52-881d-789d0c26d880",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Ocado is listed as LSE:OCDO.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "643cf178-1e72-5986-b0cf-fece6103ec13",
+        "url": "https://en.wikipedia.org/wiki/Ocado_Group",
+        "canonical_url": null,
+        "publisher": "Ocado",
+        "title": "Ocado — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

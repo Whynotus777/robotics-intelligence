@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 44
+      "count": 60
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 11
+      "count": 13
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 0
+      "count": 1
     },
     {
       "id": "DEPLOYED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 12
+      "count": 17
     },
     {
       "id": "FUNDED",
@@ -189,6 +189,35 @@
     },
     {
       "place": {
+        "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
+        "slug": "kyoto-jp",
+        "entity_type": "PLACE",
+        "name": "Kyoto",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.02107,
+      "lng": 135.75385,
+      "country_code": "JP",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
+          "slug": "omron",
+          "entity_type": "ORGANIZATION",
+          "name": "Omron",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "e039d245-0255-5543-bcdb-b0abfd8f9c1c",
         "slug": "sachseln",
         "entity_type": "PLACE",
@@ -274,6 +303,35 @@
     },
     {
       "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 22.54,
+      "lng": 114.06,
+      "country_code": "CN",
+      "cluster_label": "Shenzhen",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
+          "slug": "robosense",
+          "entity_type": "ORGANIZATION",
+          "name": "RoboSense",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "f89a18fb-337d-5e25-91da-66048da131d4",
         "slug": "suwon",
         "entity_type": "PLACE",
@@ -306,22 +364,22 @@
   ],
   "countries": [
     {
+      "id": "JP",
+      "label": "JP",
+      "weight": 4,
+      "places": 3
+    },
+    {
       "id": "US",
       "label": "US",
       "weight": 4,
       "places": 2
     },
     {
-      "id": "JP",
-      "label": "JP",
-      "weight": 3,
-      "places": 2
-    },
-    {
       "id": "CN",
       "label": "CN",
-      "weight": 2,
-      "places": 2
+      "weight": 3,
+      "places": 3
     },
     {
       "id": "CH",
@@ -382,6 +440,12 @@
     {
       "id": "Shanghai",
       "label": "Shanghai",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Shenzhen",
+      "label": "Shenzhen",
       "weight": 1,
       "places": 1
     }
@@ -536,6 +600,27 @@
     },
     {
       "entity": {
+        "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
+        "slug": "omron",
+        "entity_type": "ORGANIZATION",
+        "name": "Omron",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
+        "slug": "kyoto-jp",
+        "entity_type": "PLACE",
+        "name": "Kyoto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "e05f8ee9-729b-5420-8374-2825cab9dcb6",
         "slug": "maxon",
         "entity_type": "ORGANIZATION",
@@ -591,6 +676,27 @@
         "slug": "shanghai",
         "entity_type": "PLACE",
         "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
+        "slug": "robosense",
+        "entity_type": "ORGANIZATION",
+        "name": "RoboSense",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
         "primary_embodiment": null,
         "roles": []
       }

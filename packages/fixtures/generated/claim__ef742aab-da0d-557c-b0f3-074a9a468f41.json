@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "ef742aab-da0d-557c-b0f3-074a9a468f41",
+    "subject": {
+      "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
+      "slug": "agibot",
+      "entity_type": "ORGANIZATION",
+      "name": "AgiBot",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "AgiBot role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0ea6ae71-5ad3-535c-9d95-38e82d7b3afe",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds humanoid robots and embodied intelligence models.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "304902bf-a99b-5a10-94d4-486b8c35c8c0",
+        "url": "https://www.agibot.com/",
+        "canonical_url": null,
+        "publisher": "AgiBot",
+        "title": "AgiBot — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "512feb9e-fcd7-5f7d-9813-76b8a18f6b88",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

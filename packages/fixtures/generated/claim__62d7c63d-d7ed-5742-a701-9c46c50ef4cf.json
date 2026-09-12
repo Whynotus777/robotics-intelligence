@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "62d7c63d-d7ed-5742-a701-9c46c50ef4cf",
+    "subject": {
+      "id": "67529b36-5a36-5d97-8986-8a6e478af3cf",
+      "slug": "shield-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Shield AI",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Shield AI was founded on 2015-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2015-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2015-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3a8bf944-faf4-57a8-a416-ad717c725e50",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Shield AI was established in 2015 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "01a248d5-1788-5c51-8dd0-80aa4a1a87cf",
+        "url": "https://en.wikipedia.org/wiki/Shield_AI",
+        "canonical_url": null,
+        "publisher": "Shield AI",
+        "title": "Shield AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

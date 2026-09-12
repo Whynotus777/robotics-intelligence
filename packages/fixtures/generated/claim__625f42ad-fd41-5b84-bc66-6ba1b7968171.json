@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "625f42ad-fd41-5b84-bc66-6ba1b7968171",
+    "subject": {
+      "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
+      "slug": "omron",
+      "entity_type": "ORGANIZATION",
+      "name": "Omron",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "Omron stock ticker TYO:6645",
+    "value": {
+      "kind": "text",
+      "text": "TYO:6645"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "fa94e375-800f-5042-82bd-c95641e65dd1",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Omron is listed as TYO:6645.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5fe6de76-5fd8-5b40-96fd-4b2b5a158c60",
+        "url": "https://en.wikipedia.org/wiki/Omron",
+        "canonical_url": null,
+        "publisher": "Omron",
+        "title": "Omron — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

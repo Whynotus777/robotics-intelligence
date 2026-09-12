@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "da48f3e9-acad-5952-8516-49e43991b493",
+    "subject": {
+      "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+      "slug": "deere",
+      "entity_type": "ORGANIZATION",
+      "name": "Deere",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Deere role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "23cee55d-4be8-5859-a429-97cc1226880f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops autonomous agricultural equipment and machine guidance technology.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5202cb64-5053-5394-8ce4-c3bcce4aae4d",
+        "url": "https://www.deere.com/en/news/all-news/autonomous-9RX/",
+        "canonical_url": null,
+        "publisher": "Deere",
+        "title": "Deere — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

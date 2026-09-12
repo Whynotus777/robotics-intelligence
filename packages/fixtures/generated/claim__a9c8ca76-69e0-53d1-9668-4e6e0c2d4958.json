@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "a9c8ca76-69e0-53d1-9668-4e6e0c2d4958",
+    "subject": {
+      "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
+      "slug": "omron",
+      "entity_type": "ORGANIZATION",
+      "name": "Omron",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Omron was founded on 1933-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1933-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1933-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a217b165-b2f0-5673-a032-1f1203c8eef8",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Omron was established in 1933 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5fe6de76-5fd8-5b40-96fd-4b2b5a158c60",
+        "url": "https://en.wikipedia.org/wiki/Omron",
+        "canonical_url": null,
+        "publisher": "Omron",
+        "title": "Omron — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

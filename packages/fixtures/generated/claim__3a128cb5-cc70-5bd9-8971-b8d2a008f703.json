@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3a128cb5-cc70-5bd9-8971-b8d2a008f703",
+    "subject": {
+      "id": "26ec9503-090a-5dae-9fa1-6b80dc4fc2b3",
+      "slug": "micropsi-industries",
+      "entity_type": "ORGANIZATION",
+      "name": "Micropsi Industries",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Micropsi Industries role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "21294854-3a07-5c7f-a2a7-1f02cd0ced7c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops learned robot vision and control software for industrial automation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "afabe60b-003d-539f-bcec-c1671357535e",
+        "url": "https://www.micropsi-industries.com/",
+        "canonical_url": null,
+        "publisher": "Micropsi Industries",
+        "title": "Micropsi Industries — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

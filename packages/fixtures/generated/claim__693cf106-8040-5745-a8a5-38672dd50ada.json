@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "693cf106-8040-5745-a8a5-38672dd50ada",
+    "subject": {
+      "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
+      "slug": "honda-motor",
+      "entity_type": "ORGANIZATION",
+      "name": "Honda Motor",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Honda Motor role RESEARCH_LAB",
+    "value": {
+      "kind": "enum",
+      "value": "RESEARCH_LAB"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "be804d4c-97cc-5f57-aef0-175a490de756",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Conducts humanoid, dexterous manipulation and teleoperation robotics research.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "95122e82-4cc7-5b8a-ba37-5cce6dd30115",
+        "url": "https://global.honda/en/robotics/",
+        "canonical_url": null,
+        "publisher": "Honda Motor",
+        "title": "Honda Motor — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

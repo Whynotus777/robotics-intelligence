@@ -1,0 +1,178 @@
+{
+  "entity": {
+    "id": "9c989a06-5dc7-5b95-b411-b37bf58169dc",
+    "slug": "intuitive-surgical",
+    "entity_type": "ORGANIZATION",
+    "name": "Intuitive Surgical",
+    "short_description": "Develops and manufactures the da Vinci robot-assisted surgical systems.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": true,
+      "claim_id": "07aa80b2-1576-536a-9022-ea1b4062fcae",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "07aa80b2-1576-536a-9022-ea1b4062fcae",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OEM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_TICKER",
+      "label": "stock ticker",
+      "claims": [
+        {
+          "claim_id": "3c48af1f-6776-5e54-9ea8-eec550a78239",
+          "predicate": "HAS_TICKER",
+          "value": {
+            "kind": "text",
+            "text": "NASDAQ:ISRG"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "claims": [
+        {
+          "claim_id": "f76760ee-66e6-516c-bf06-5215d96d92fd",
+          "predicate": "FOUNDED_ON",
+          "value": {
+            "kind": "date",
+            "date": "1995-01-01"
+          },
+          "stack_layer": null,
+          "qualifier": "Year precision",
+          "valid_from": "1995-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "95650634-6819-5b2f-bd20-2bf9c3727c5b",
+          "target": {
+            "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+            "slug": "sunnyvale-us",
+            "entity_type": "PLACE",
+            "name": "Sunnyvale",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "places": [
+      {
+        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+        "slug": "sunnyvale-us",
+        "entity_type": "PLACE",
+        "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 1,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 4,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 4,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

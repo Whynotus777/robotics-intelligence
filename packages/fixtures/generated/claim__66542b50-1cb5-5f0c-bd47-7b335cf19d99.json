@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "66542b50-1cb5-5f0c-bd47-7b335cf19d99",
+    "subject": {
+      "id": "5f756779-c070-54c4-be85-73de166e6f4f",
+      "slug": "world-labs",
+      "entity_type": "ORGANIZATION",
+      "name": "World Labs",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "World Labs role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "62bfeb7d-d468-5af3-9ec1-25e35dd8d030",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops spatial world models and simulation tools for robot learning.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "70657eb6-9d86-595f-a34e-343f8a0a3368",
+        "url": "https://www.worldlabs.ai/",
+        "canonical_url": null,
+        "publisher": "World Labs",
+        "title": "World Labs — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

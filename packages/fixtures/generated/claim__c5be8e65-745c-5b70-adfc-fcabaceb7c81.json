@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "c5be8e65-745c-5b70-adfc-fcabaceb7c81",
+    "subject": {
+      "id": "5bfc052b-ebd4-5488-b25b-103640ee34ee",
+      "slug": "flytbase",
+      "entity_type": "ORGANIZATION",
+      "name": "FlytBase",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "FlytBase role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c7c49a44-8924-54ba-9d51-a4702fd05951",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides software for autonomous drone operations and docking workflows.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1e0c5f6b-e037-5a92-9dca-4b6461334f83",
+        "url": "https://flytbase.com/platform",
+        "canonical_url": null,
+        "publisher": "FlytBase",
+        "title": "FlytBase — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

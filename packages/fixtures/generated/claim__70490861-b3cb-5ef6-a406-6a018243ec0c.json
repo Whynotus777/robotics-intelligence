@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "70490861-b3cb-5ef6-a406-6a018243ec0c",
+    "subject": {
+      "id": "4686dd2a-b399-539f-b837-b85b7b6745fa",
+      "slug": "greyorange",
+      "entity_type": "ORGANIZATION",
+      "name": "GreyOrange",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "GreyOrange is headquartered at Roswell",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "58788c76-b2e8-5228-b16e-a8c9819ead68",
+        "slug": "roswell-us",
+        "entity_type": "PLACE",
+        "name": "Roswell",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bae504a1-68fd-5764-81b6-ec8ba4d0c7e4",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "GreyOrange is headquartered in Roswell.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "4b6fd281-7b06-570e-8690-cac3c589fb24",
+        "url": "https://www.greyorange.com/gstore/contact",
+        "canonical_url": null,
+        "publisher": "GreyOrange",
+        "title": "GreyOrange — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,44 @@
+slug: shield-ai
+entity_type: ORGANIZATION
+name: Shield AI
+short_description: Builds autonomous aircraft and Hivemind autonomy software for defense applications.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-763b3d5306d523cb
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds autonomous aircraft and Hivemind autonomy software for defense applications.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-763b3d5306d523cb
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds autonomous aircraft and Hivemind autonomy software for defense applications.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: san-diego
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-f0f913ad79d07d91
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Shield AI is headquartered in San Diego.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2015-01-01'
+  valid_from: '2015-01-01'
+  evidence:
+  - source: enrich-f0f913ad79d07d91
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Shield AI was established in 2015 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: US

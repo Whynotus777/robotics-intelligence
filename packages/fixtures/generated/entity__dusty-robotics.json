@@ -1,0 +1,152 @@
+{
+  "entity": {
+    "id": "5779b38d-09d7-554c-ae5c-f09ad34862c1",
+    "slug": "dusty-robotics",
+    "entity_type": "ORGANIZATION",
+    "name": "Dusty Robotics",
+    "short_description": "Builds FieldPrinter robots that automate construction layout from digital plans.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": true,
+      "claim_id": "13843f44-4f88-55e8-a446-f592d9ae1719",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "13843f44-4f88-55e8-a446-f592d9ae1719",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OEM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "claims": [
+        {
+          "claim_id": "26a7279d-332f-5b02-8b97-1ac23af74b78",
+          "predicate": "FOUNDED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2018-01-01"
+          },
+          "stack_layer": null,
+          "qualifier": "Year precision",
+          "valid_from": "2018-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "359acee0-36f1-5794-a33c-a692deb3da80",
+          "target": {
+            "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+            "slug": "mountain-view-us",
+            "entity_type": "PLACE",
+            "name": "Mountain View",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "places": [
+      {
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
+        "entity_type": "PLACE",
+        "name": "Mountain View",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 3,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 3,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 3,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

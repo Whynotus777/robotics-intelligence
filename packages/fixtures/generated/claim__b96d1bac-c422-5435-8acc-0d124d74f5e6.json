@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "b96d1bac-c422-5435-8acc-0d124d74f5e6",
+    "subject": {
+      "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
+      "slug": "honda-motor",
+      "entity_type": "ORGANIZATION",
+      "name": "Honda Motor",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Honda Motor was founded on 1948-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1948-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1948-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e37e0688-b08c-5c15-aa73-49e99849ff2b",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Honda Motor was established in 1948 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1d271b6a-1d53-5781-a116-c628f0666fb9",
+        "url": "https://en.wikipedia.org/wiki/Honda",
+        "canonical_url": null,
+        "publisher": "Honda Motor",
+        "title": "Honda Motor — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

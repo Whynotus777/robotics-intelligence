@@ -1,0 +1,34 @@
+slug: greyorange
+entity_type: ORGANIZATION
+name: GreyOrange
+short_description: Builds warehouse robots and GreyMatter software to coordinate fulfillment.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-32dc913565c5d5bd
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds warehouse robots and GreyMatter software to coordinate fulfillment.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: TOOLING_OPS_PROVIDER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-32dc913565c5d5bd
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds warehouse robots and GreyMatter software to coordinate fulfillment.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: roswell-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-c09a88a8efbaeb12
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: GreyOrange is headquartered in Roswell.
+    observed_at: '2026-09-11'
+country_code: US

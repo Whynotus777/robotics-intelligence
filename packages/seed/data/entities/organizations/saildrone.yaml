@@ -1,0 +1,34 @@
+slug: saildrone
+entity_type: ORGANIZATION
+name: Saildrone
+short_description: Builds and operates unmanned surface vessels for maritime observation and mapping.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-6d0ac45d90ab1f05
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds and operates unmanned surface vessels for maritime observation and mapping.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-6d0ac45d90ab1f05
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds and operates unmanned surface vessels for maritime observation and mapping.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: alameda-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-6d0ac45d90ab1f05
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Saildrone is headquartered in Alameda.
+    observed_at: '2026-09-11'
+country_code: US

@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 44
+      "count": 60
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 11
+      "count": 13
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 0
+      "count": 1
     },
     {
       "id": "DEPLOYED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 12
+      "count": 17
     },
     {
       "id": "FUNDED",
@@ -151,6 +151,34 @@
     },
     {
       "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 51.51,
+      "lng": -0.13,
+      "country_code": "GB",
+      "cluster_label": "London",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+          "slug": "wayve",
+          "entity_type": "ORGANIZATION",
+          "name": "Wayve",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "87216f35-32ce-54be-9ed9-86c480775092",
         "slug": "pittsburgh",
         "entity_type": "PLACE",
@@ -209,6 +237,35 @@
     },
     {
       "place": {
+        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+        "slug": "san-diego",
+        "entity_type": "PLACE",
+        "name": "San Diego",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 32.72,
+      "lng": -117.16,
+      "country_code": "US",
+      "cluster_label": "San Diego",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "67529b36-5a36-5d97-8986-8a6e478af3cf",
+          "slug": "shield-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Shield AI",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
         "slug": "seattle",
         "entity_type": "PLACE",
@@ -232,6 +289,93 @@
             "INVESTOR",
             "OPERATOR",
             "PLATFORM",
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 31.23,
+      "lng": 121.47,
+      "country_code": "CN",
+      "cluster_label": "Shanghai",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
+          "slug": "agibot",
+          "entity_type": "ORGANIZATION",
+          "name": "AgiBot",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+        "slug": "sunnyvale-us",
+        "entity_type": "PLACE",
+        "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.36883,
+      "lng": -122.03635,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
+          "slug": "applied-intuition",
+          "entity_type": "ORGANIZATION",
+          "name": "Applied Intuition",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "MODEL_DEVELOPER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.68,
+      "lng": 139.69,
+      "country_code": "JP",
+      "cluster_label": "Tokyo",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
+          "slug": "honda-motor",
+          "entity_type": "ORGANIZATION",
+          "name": "Honda Motor",
+          "primary_embodiment": null,
+          "roles": [
             "RESEARCH_LAB"
           ]
         }
@@ -272,12 +416,30 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 11,
-      "places": 4
+      "weight": 13,
+      "places": 6
     },
     {
       "id": "CA",
       "label": "CA",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "CN",
+      "label": "CN",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "GB",
+      "label": "GB",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "JP",
+      "label": "JP",
       "weight": 1,
       "places": 1
     }
@@ -296,8 +458,32 @@
       "places": 2
     },
     {
+      "id": "London",
+      "label": "London",
+      "weight": 1,
+      "places": 1
+    },
+    {
       "id": "Pittsburgh",
       "label": "Pittsburgh",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "San Diego",
+      "label": "San Diego",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Shanghai",
+      "label": "Shanghai",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Tokyo",
+      "label": "Tokyo",
       "weight": 1,
       "places": 1
     },
@@ -484,6 +670,26 @@
     },
     {
       "entity": {
+        "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+        "slug": "wayve",
+        "entity_type": "ORGANIZATION",
+        "name": "Wayve",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
         "slug": "skild-ai",
         "entity_type": "ORGANIZATION",
@@ -526,6 +732,27 @@
     },
     {
       "entity": {
+        "id": "67529b36-5a36-5d97-8986-8a6e478af3cf",
+        "slug": "shield-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Shield AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+        "slug": "san-diego",
+        "entity_type": "PLACE",
+        "name": "San Diego",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
         "slug": "amazon",
         "entity_type": "ORGANIZATION",
@@ -543,6 +770,69 @@
         "slug": "seattle",
         "entity_type": "PLACE",
         "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
+        "slug": "agibot",
+        "entity_type": "ORGANIZATION",
+        "name": "AgiBot",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
+        "slug": "applied-intuition",
+        "entity_type": "ORGANIZATION",
+        "name": "Applied Intuition",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+        "slug": "sunnyvale-us",
+        "entity_type": "PLACE",
+        "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
+        "slug": "honda-motor",
+        "entity_type": "ORGANIZATION",
+        "name": "Honda Motor",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
         "primary_embodiment": null,
         "roles": []
       }

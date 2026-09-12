@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "9bcfbd17-872a-59dc-979c-bf085101003b",
+          "source": {
+            "id": "f4eb9eb3-0f94-5921-9567-cea7792759f4",
+            "slug": "carbon-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Carbon Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "c0139679-b6fa-5be1-8975-4dc5af4c935d",
           "source": {
             "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
@@ -80,6 +102,16 @@
           "PLATFORM",
           "RESEARCH_LAB"
         ]
+      },
+      {
+        "id": "f4eb9eb3-0f94-5921-9567-cea7792759f4",
+        "slug": "carbon-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Carbon Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
       }
     ]
   },
@@ -98,7 +130,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

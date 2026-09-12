@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "d1f08320-5fa0-5e6a-a405-bdd03a01d7cb",
+    "subject": {
+      "id": "d682d895-2359-5985-8638-8d1e7e537667",
+      "slug": "foxglove",
+      "entity_type": "ORGANIZATION",
+      "name": "Foxglove",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Foxglove was founded on 2021-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2021-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2021-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d7ddf3aa-d232-5940-ba9e-a2c9d334d01d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Foxglove was established in 2021 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "4097c075-fea3-5796-82bd-e53ffa3992b3",
+        "url": "https://foxglove.dev/blog/foxglove-joins-the-ros-tsc",
+        "canonical_url": null,
+        "publisher": "Foxglove",
+        "title": "Foxglove — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

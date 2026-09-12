@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "99c8621f-3c31-519f-a9ea-c547760ff487",
+    "subject": {
+      "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
+      "slug": "mobile-industrial-robots",
+      "entity_type": "ORGANIZATION",
+      "name": "Mobile Industrial Robots",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Mobile Industrial Robots is headquartered at Odense",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "fc5f8943-817d-5aef-ba62-a8f05810eb74",
+        "slug": "odense",
+        "entity_type": "PLACE",
+        "name": "Odense",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "442400a6-4872-525e-82d1-dca62e9f4315",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Mobile Industrial Robots is headquartered in Odense.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3f39ea63-0af9-5af2-b39e-77348a047e1d",
+        "url": "https://mobile-industrial-robots.com/about-mir",
+        "canonical_url": null,
+        "publisher": "Mobile Industrial Robots",
+        "title": "Mobile Industrial Robots — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

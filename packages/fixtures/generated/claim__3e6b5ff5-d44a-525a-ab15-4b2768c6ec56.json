@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "3e6b5ff5-d44a-525a-ab15-4b2768c6ec56",
+    "subject": {
+      "id": "b6a79648-53aa-52c4-b749-dc9e63a0fd9e",
+      "slug": "built-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Built Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Built Robotics role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "87de9818-7581-57a0-9d13-1ca06470ed64",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops autonomous construction equipment and retrofit control systems.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "668c1715-45c9-5ee7-8e0d-61f4989babf9",
+        "url": "https://www.builtrobotics.com/about/company",
+        "canonical_url": null,
+        "publisher": "Built Robotics",
+        "title": "Built Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "66ccded4-960e-5e25-a1fb-83c4f7a89ea6",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

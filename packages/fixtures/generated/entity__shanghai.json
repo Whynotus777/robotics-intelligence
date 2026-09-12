@@ -67,6 +67,29 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "a4613e8d-6ab4-54e5-800d-66c4dc31a2f7",
+          "source": {
+            "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
+            "slug": "agibot",
+            "entity_type": "ORGANIZATION",
+            "name": "AgiBot",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "c1246d87-59fb-56c9-9559-3656f32472ba",
           "source": {
             "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
@@ -126,6 +149,17 @@
         ]
       },
       {
+        "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
+        "slug": "agibot",
+        "entity_type": "ORGANIZATION",
+        "name": "AgiBot",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      {
         "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
         "slug": "fourier-intelligence",
         "entity_type": "ORGANIZATION",
@@ -162,7 +196,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 4
   },
   "as_of": null
 }

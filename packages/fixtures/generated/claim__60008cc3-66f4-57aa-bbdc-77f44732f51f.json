@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "60008cc3-66f4-57aa-bbdc-77f44732f51f",
+    "subject": {
+      "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+      "slug": "wayve",
+      "entity_type": "ORGANIZATION",
+      "name": "Wayve",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Wayve role MODEL_DEVELOPER",
+    "value": {
+      "kind": "enum",
+      "value": "MODEL_DEVELOPER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "34161898-e6c3-51d8-bd88-91631a6df21b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops learned driving models and simulation for autonomous vehicles.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d04cf6c2-452c-57c2-886b-dc3814c6db45",
+        "url": "https://wayve.ai/press/series-c/",
+        "canonical_url": null,
+        "publisher": "Wayve",
+        "title": "Wayve — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

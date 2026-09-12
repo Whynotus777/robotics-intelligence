@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "de2cd2df-c2fb-5637-8621-b9bd094a0e76",
+    "subject": {
+      "id": "2a8c10d4-129b-51e2-95fa-d4319032a3c0",
+      "slug": "foretellix",
+      "entity_type": "ORGANIZATION",
+      "name": "Foretellix",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Foretellix role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b2a0f089-f057-546c-bf4e-37d1cf657cb6",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides scenario-based validation and testing software for autonomous vehicles.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "98833012-b975-5267-aefa-1610748ae506",
+        "url": "https://www.foretellix.com/inmedia/ipg-automotive-and-foretellix/",
+        "canonical_url": null,
+        "publisher": "Foretellix",
+        "title": "Foretellix — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

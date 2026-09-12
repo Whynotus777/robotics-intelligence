@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "a1cebfd8-ce27-5bfa-a99a-58deaf33338d",
+    "subject": {
+      "id": "4686dd2a-b399-539f-b837-b85b7b6745fa",
+      "slug": "greyorange",
+      "entity_type": "ORGANIZATION",
+      "name": "GreyOrange",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "GreyOrange role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "262aa8e7-1e05-5f78-9d56-ebb9585bef8f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Builds warehouse robots and GreyMatter software to coordinate fulfillment.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "34729ed6-0558-530c-91ca-6923e49178e8",
+        "url": "https://www.greyorange.com/about-us/",
+        "canonical_url": null,
+        "publisher": "GreyOrange",
+        "title": "GreyOrange — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "bcf32d23-ebe6-57f9-a7c0-575fac83e4cb",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

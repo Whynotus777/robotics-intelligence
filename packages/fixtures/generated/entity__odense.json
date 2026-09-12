@@ -59,12 +59,44 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "99c8621f-3c31-519f-a9ea-c547760ff487",
+          "source": {
+            "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
+            "slug": "mobile-industrial-robots",
+            "entity_type": "ORGANIZATION",
+            "name": "Mobile Industrial Robots",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
+        "slug": "mobile-industrial-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Mobile Industrial Robots",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
       {
         "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
         "slug": "universal-robots",
@@ -92,7 +124,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

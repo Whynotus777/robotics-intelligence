@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "9e1349a6-2080-50bb-a6df-14aefb5a84c7",
+    "subject": {
+      "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
+      "slug": "mitsubishi-electric",
+      "entity_type": "ORGANIZATION",
+      "name": "Mitsubishi Electric",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "Mitsubishi Electric stock ticker TYO:6503",
+    "value": {
+      "kind": "text",
+      "text": "TYO:6503"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "37b04f20-f015-5427-ac6a-fa8be751a217",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Mitsubishi Electric is listed as TYO:6503.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "30339638-ff1b-55a3-a365-e8b687c112a4",
+        "url": "https://en.wikipedia.org/wiki/Mitsubishi_Electric",
+        "canonical_url": null,
+        "publisher": "Mitsubishi Electric",
+        "title": "Mitsubishi Electric — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

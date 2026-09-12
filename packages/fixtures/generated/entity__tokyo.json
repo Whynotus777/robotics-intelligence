@@ -61,6 +61,28 @@
           }
         },
         {
+          "claim_id": "a90f8e54-119b-5469-a2cf-69a2f8a2b64e",
+          "source": {
+            "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
+            "slug": "mitsubishi-electric",
+            "entity_type": "ORGANIZATION",
+            "name": "Mitsubishi Electric",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "be416538-59b2-5814-8d20-ee29413b7b93",
           "source": {
             "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
@@ -81,6 +103,50 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "ce047016-aa04-5e6e-b5b6-bf0ac29daf1f",
+          "source": {
+            "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
+            "slug": "honda-motor",
+            "entity_type": "ORGANIZATION",
+            "name": "Honda Motor",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "f0950fd3-083f-5cb2-9837-b3598be169c4",
+          "source": {
+            "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
+            "slug": "kawasaki-heavy-industries",
+            "entity_type": "ORGANIZATION",
+            "name": "Kawasaki Heavy Industries",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -95,6 +161,36 @@
         "primary_embodiment": null,
         "roles": [
           "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
+        "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
+        "slug": "honda-motor",
+        "entity_type": "ORGANIZATION",
+        "name": "Honda Motor",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      {
+        "id": "f16d1c8b-a83d-545b-ad38-02963ab26b25",
+        "slug": "kawasaki-heavy-industries",
+        "entity_type": "ORGANIZATION",
+        "name": "Kawasaki Heavy Industries",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      {
+        "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
+        "slug": "mitsubishi-electric",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
         ]
       },
       {
@@ -124,7 +220,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 5
   },
   "as_of": null
 }

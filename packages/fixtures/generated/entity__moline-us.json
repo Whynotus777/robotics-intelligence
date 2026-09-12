@@ -1,0 +1,98 @@
+{
+  "entity": {
+    "id": "ac484f1c-9893-553e-af1f-5cb3e582ed24",
+    "slug": "moline-us",
+    "entity_type": "PLACE",
+    "name": "Moline",
+    "short_description": null,
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": null,
+    "city": "Moline",
+    "lat": 41.5067,
+    "lng": -90.51513,
+    "cluster_label": null
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "bc90748e-204f-5e0b-a3d8-5753661473ff",
+          "source": {
+            "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+            "slug": "deere",
+            "entity_type": "ORGANIZATION",
+            "name": "Deere",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+        "slug": "deere",
+        "entity_type": "ORGANIZATION",
+        "name": "Deere",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

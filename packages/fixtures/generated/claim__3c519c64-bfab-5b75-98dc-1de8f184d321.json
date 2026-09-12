@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3c519c64-bfab-5b75-98dc-1de8f184d321",
+    "subject": {
+      "id": "87cf0830-6b89-5576-91dc-7b50e7f670da",
+      "slug": "formant",
+      "entity_type": "ORGANIZATION",
+      "name": "Formant",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Formant role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1049fba0-2f47-5bfb-a6da-dbb2d3c9e31c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides telemetry, remote intervention and operations software for robot fleets.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ec181d1b-2ebe-5959-983f-93924876c774",
+        "url": "https://formant.io/about/",
+        "canonical_url": null,
+        "publisher": "Formant",
+        "title": "Formant — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

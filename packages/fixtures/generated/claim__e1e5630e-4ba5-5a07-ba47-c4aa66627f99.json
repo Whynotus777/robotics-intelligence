@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "e1e5630e-4ba5-5a07-ba47-c4aa66627f99",
+    "subject": {
+      "id": "55ed9ea1-f298-553d-9d28-ecc7daabc444",
+      "slug": "sift",
+      "entity_type": "ORGANIZATION",
+      "name": "Sift",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Sift role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e9d4e04a-e2f7-5385-b10f-7ff39fbe390b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides telemetry monitoring and observability for robotics hardware.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "28c87007-548f-5dbc-bc6d-08379470e4e1",
+        "url": "https://www.siftstack.com/industry/robotics",
+        "canonical_url": null,
+        "publisher": "Sift",
+        "title": "Sift — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

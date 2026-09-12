@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "07aa80b2-1576-536a-9022-ea1b4062fcae",
+    "subject": {
+      "id": "9c989a06-5dc7-5b95-b411-b37bf58169dc",
+      "slug": "intuitive-surgical",
+      "entity_type": "ORGANIZATION",
+      "name": "Intuitive Surgical",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Intuitive Surgical role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e899d242-4504-5fb8-b25a-27a41f115051",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops and manufactures the da Vinci robot-assisted surgical systems.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "c5b812eb-8a32-5d5f-9c7b-103e7344f2a9",
+        "url": "https://isrg.intuitive.com/",
+        "canonical_url": null,
+        "publisher": "Intuitive Surgical",
+        "title": "Intuitive Surgical — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

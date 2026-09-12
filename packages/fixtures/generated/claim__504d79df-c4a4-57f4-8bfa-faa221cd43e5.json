@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "504d79df-c4a4-57f4-8bfa-faa221cd43e5",
+    "subject": {
+      "id": "e7af5c8e-c064-5996-b4a9-07202f2328f2",
+      "slug": "robodk",
+      "entity_type": "ORGANIZATION",
+      "name": "RoboDK",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "RoboDK role DATA_SIMULATION_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "DATA_SIMULATION_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "fd844706-d938-5894-947f-3c217be7c2f1",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops robot arm simulation and offline programming software.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a6269060-7b00-544a-ae95-9f1a0403cb3e",
+        "url": "https://robodk.com/",
+        "canonical_url": null,
+        "publisher": "RoboDK",
+        "title": "RoboDK — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

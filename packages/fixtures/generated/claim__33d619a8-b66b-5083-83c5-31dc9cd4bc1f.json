@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "33d619a8-b66b-5083-83c5-31dc9cd4bc1f",
+    "subject": {
+      "id": "f8945d58-a1e3-525f-913b-aee6b56b78a5",
+      "slug": "ocado",
+      "entity_type": "ORGANIZATION",
+      "name": "Ocado",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Ocado role INTEGRATOR",
+    "value": {
+      "kind": "enum",
+      "value": "INTEGRATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bee0c500-e103-5879-aae8-40c23c4bcb2a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops robotic grocery fulfillment systems and integrates them for retailers.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d9235aef-8c88-5407-9448-5bf8fa09a064",
+        "url": "https://www.ocadogroup.com/about-us/",
+        "canonical_url": null,
+        "publisher": "Ocado",
+        "title": "Ocado — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "db8766a9-ee2a-50b2-ba7b-cb2fa644875f",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

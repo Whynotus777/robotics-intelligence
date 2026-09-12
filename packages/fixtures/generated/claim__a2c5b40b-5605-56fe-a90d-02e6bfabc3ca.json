@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "a2c5b40b-5605-56fe-a90d-02e6bfabc3ca",
+    "subject": {
+      "id": "a2a01f05-5e72-5d6d-b0e5-c7a52c06d9e5",
+      "slug": "auterion",
+      "entity_type": "ORGANIZATION",
+      "name": "Auterion",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Auterion role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2374c49f-e01b-55ba-9645-dfab52a94ba2",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides drone operating software and cloud fleet management tools.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "436bef48-1e0b-5d23-9838-7714d17927c8",
+        "url": "https://auterion.com/product/suite/",
+        "canonical_url": null,
+        "publisher": "Auterion",
+        "title": "Auterion — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

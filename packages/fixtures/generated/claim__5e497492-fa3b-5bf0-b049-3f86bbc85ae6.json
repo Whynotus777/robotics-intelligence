@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "5e497492-fa3b-5bf0-b049-3f86bbc85ae6",
+    "subject": {
+      "id": "f8945d58-a1e3-525f-913b-aee6b56b78a5",
+      "slug": "ocado",
+      "entity_type": "ORGANIZATION",
+      "name": "Ocado",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR",
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Ocado was founded on 2000-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2000-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2000-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "62630c66-ac61-591b-8717-1d1f22fffb13",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Ocado was established in 2000 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "643cf178-1e72-5986-b0cf-fece6103ec13",
+        "url": "https://en.wikipedia.org/wiki/Ocado_Group",
+        "canonical_url": null,
+        "publisher": "Ocado",
+        "title": "Ocado — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

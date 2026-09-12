@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "e6cd879a-2630-5b4d-ab0a-e81f472df08f",
+    "subject": {
+      "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
+      "slug": "robosense",
+      "entity_type": "ORGANIZATION",
+      "name": "RoboSense",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "RoboSense was founded on 2014-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2014-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2014-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "73a3a5a9-1c83-512e-9937-ba93be7716bc",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "RoboSense was established in 2014 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "87a92626-c582-5272-9565-c641b282ebdf",
+        "url": "https://www.robosense.ai/en/about",
+        "canonical_url": null,
+        "publisher": "RoboSense",
+        "title": "RoboSense — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "cea44061-97c6-598b-9f3f-20611e7a2820",
+    "subject": {
+      "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
+      "slug": "applied-intuition",
+      "entity_type": "ORGANIZATION",
+      "name": "Applied Intuition",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER",
+        "MODEL_DEVELOPER",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Applied Intuition is headquartered at Sunnyvale",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+        "slug": "sunnyvale-us",
+        "entity_type": "PLACE",
+        "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "cbeebe2c-d8dc-51ee-8d87-45ec67e51adf",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Applied Intuition is headquartered in Sunnyvale.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "36f18946-3a15-5514-a598-98455abdd8ad",
+        "url": "https://www.appliedintuition.com/about",
+        "canonical_url": null,
+        "publisher": "Applied Intuition",
+        "title": "Applied Intuition — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

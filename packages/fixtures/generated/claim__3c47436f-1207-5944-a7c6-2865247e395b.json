@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "3c47436f-1207-5944-a7c6-2865247e395b",
+    "subject": {
+      "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
+      "slug": "robosense",
+      "entity_type": "ORGANIZATION",
+      "name": "RoboSense",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "RoboSense stock ticker HKEX:02498",
+    "value": {
+      "kind": "text",
+      "text": "HKEX:02498"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e8efc572-42d7-56f2-aaf5-cc1b367cd0d2",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "RoboSense is listed as HKEX:02498.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "87a92626-c582-5272-9565-c641b282ebdf",
+        "url": "https://www.robosense.ai/en/about",
+        "canonical_url": null,
+        "publisher": "RoboSense",
+        "title": "RoboSense — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

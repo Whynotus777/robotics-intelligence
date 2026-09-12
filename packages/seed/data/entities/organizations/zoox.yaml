@@ -1,0 +1,44 @@
+slug: zoox
+entity_type: ORGANIZATION
+name: Zoox
+short_description: Develops purpose-built autonomous passenger vehicles and operates robotaxi services.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-0d07ccd60fcd3edb
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops purpose-built autonomous passenger vehicles and operates robotaxi services.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-0d07ccd60fcd3edb
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops purpose-built autonomous passenger vehicles and operates robotaxi services.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: foster-city-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-eee3d9c985998223
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Zoox is headquartered in Foster City.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2014-01-01'
+  valid_from: '2014-01-01'
+  evidence:
+  - source: enrich-0d07ccd60fcd3edb
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Zoox was established in 2014 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: US

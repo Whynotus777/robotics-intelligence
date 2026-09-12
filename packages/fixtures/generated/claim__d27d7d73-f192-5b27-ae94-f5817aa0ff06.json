@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "d27d7d73-f192-5b27-ae94-f5817aa0ff06",
+    "subject": {
+      "id": "386f26e9-9c99-5b1c-abab-1bf0bcd95fc0",
+      "slug": "viam",
+      "entity_type": "ORGANIZATION",
+      "name": "Viam",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Viam is headquartered at New York",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
+        "slug": "new-york-us",
+        "entity_type": "PLACE",
+        "name": "New York",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a9987902-d313-5661-b85a-1fee4e4047b2",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Viam is headquartered in New York.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "2c36bdee-3615-5591-9e37-a826cd65d174",
+        "url": "https://www.viam.com/about",
+        "canonical_url": null,
+        "publisher": "Viam",
+        "title": "Viam — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

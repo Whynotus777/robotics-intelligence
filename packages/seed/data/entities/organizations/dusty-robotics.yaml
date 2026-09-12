@@ -1,0 +1,35 @@
+slug: dusty-robotics
+entity_type: ORGANIZATION
+name: Dusty Robotics
+short_description: Builds FieldPrinter robots that automate construction layout from digital plans.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-4d2e98a9d9331514
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Builds FieldPrinter robots that automate construction layout from digital plans.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: mountain-view-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-f8c1d1a24ba25d25
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Dusty Robotics is headquartered in Mountain View.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2018-01-01'
+  valid_from: '2018-01-01'
+  evidence:
+  - source: enrich-43f35fbb8acbfe20
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Dusty Robotics was established in 2018 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: US

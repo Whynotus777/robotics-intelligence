@@ -1,38 +1,275 @@
 {
   "events": [
     {
-      "id": "0030e49b-2605-5b9e-9032-c591cf9451d8",
+      "id": "0030ec82-aed8-59f1-9a73-dbeccc8080f0",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "c96b4942-8858-59aa-aac5-09f15dd6bddc",
-        "slug": "deep-robotics-x30",
-        "entity_type": "ROBOT",
-        "name": "Deep Robotics X30",
-        "primary_embodiment": "QUADRUPED",
-        "roles": []
+        "id": "5bb0c87e-afb3-5301-9e47-d4a5e26f62a9",
+        "slug": "bifrost",
+        "entity_type": "ORGANIZATION",
+        "name": "Bifrost",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
       },
       "before": null,
       "after": {
         "kind": "enum",
-        "value": "QUADRUPED"
+        "value": "DATA_SIMULATION_PROVIDER"
       },
       "evidence_summary": {
         "class": "PRIMARY",
         "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Embodiment set to Quadruped",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Data and simulation provider",
       "origin": "SEED"
     },
     {
-      "id": "0066a637-73ac-5037-9b5f-0b090e436ccc",
+      "id": "0440d111-7672-5c88-be2e-bce722b09439",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
-        "slug": "bladebug",
+        "id": "4fbde8cc-101a-5cf0-9265-53a4f28ece89",
+        "slug": "inorbit",
         "entity_type": "ORGANIZATION",
-        "name": "BladeBUG",
+        "name": "InOrbit",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Tooling and operations provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "05907a11-d66b-5e25-a8db-44ff70474978",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "67529b36-5a36-5d97-8986-8a6e478af3cf",
+        "slug": "shield-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Shield AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+          "slug": "san-diego",
+          "entity_type": "PLACE",
+          "name": "San Diego",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at San Diego",
+      "origin": "SEED"
+    },
+    {
+      "id": "0744d87d-e202-5584-a031-4b4f7350eff4",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+        "slug": "wayve",
+        "entity_type": "ORGANIZATION",
+        "name": "Wayve",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+          "slug": "london",
+          "entity_type": "PLACE",
+          "name": "London",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at London",
+      "origin": "SEED"
+    },
+    {
+      "id": "078cae17-daa1-5559-8635-f321114601df",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "a2a01f05-5e72-5d6d-b0e5-c7a52c06d9e5",
+        "slug": "auterion",
+        "entity_type": "ORGANIZATION",
+        "name": "Auterion",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Tooling and operations provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "08c4c107-765e-5274-96fc-fec9a110af8d",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
+        "slug": "robosense",
+        "entity_type": "ORGANIZATION",
+        "name": "RoboSense",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "CHIPMAKER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Chipmaker",
+      "origin": "SEED"
+    },
+    {
+      "id": "0f9ae476-6f1e-52f3-ae8a-7754f28bd649",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "1ead989d-24d6-5963-a6dd-f118d564c904",
+        "slug": "ready-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "READY Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Tooling and operations provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "124835fa-79bf-5a68-84ce-fbf0bb39cb41",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "b6a79648-53aa-52c4-b749-dc9e63a0fd9e",
+        "slug": "built-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Built Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Tooling and operations provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "13cbd3ea-7df7-5c66-810b-e3f4b530088d",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "55ed9ea1-f298-553d-9d28-ecc7daabc444",
+        "slug": "sift",
+        "entity_type": "ORGANIZATION",
+        "name": "Sift",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Tooling and operations provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "13e25049-d061-54b5-8911-cec13b14c0a1",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "f594c0d3-52d7-58f5-add7-37de9d62dcde",
+        "slug": "anduril",
+        "entity_type": "ORGANIZATION",
+        "name": "Anduril",
         "primary_embodiment": null,
         "roles": [
           "OEM"
@@ -42,32 +279,32 @@
       "after": {
         "kind": "entity",
         "entity": {
-          "id": "5c80ebdc-9ecf-53b8-b531-c0346e7d164f",
-          "slug": "energy",
-          "entity_type": "MARKET",
-          "name": "Energy",
+          "id": "89c3fb6d-39f8-56e2-8b98-72892938cf4e",
+          "slug": "costa-mesa-us",
+          "entity_type": "PLACE",
+          "name": "Costa Mesa",
           "primary_embodiment": null,
           "roles": []
         },
         "measure": null
       },
       "evidence_summary": {
-        "class": "PRIMARY",
+        "class": "THIRD_PARTY",
         "confidence": "MEDIUM",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Targets market Energy",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Costa Mesa",
       "origin": "SEED"
     },
     {
-      "id": "0067cd6f-0943-5d53-94c4-5a79e154c029",
+      "id": "1533e24b-4dcf-5bee-a6db-d45e93d46c45",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
-        "slug": "abb-robotics",
+        "id": "5779b38d-09d7-554c-ae5c-f09ad34862c1",
+        "slug": "dusty-robotics",
         "entity_type": "ORGANIZATION",
-        "name": "ABB Robotics",
+        "name": "Dusty Robotics",
         "primary_embodiment": null,
         "roles": [
           "OEM"
@@ -83,68 +320,18 @@
         "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to OEM",
       "origin": "SEED"
     },
     {
-      "id": "01098c7a-9c46-533e-a1c6-1312e0ed9acf",
+      "id": "19b88d2f-650b-5a3a-a83b-c44873d78ae1",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
-        "slug": "in-process-inspection",
-        "entity_type": "TASK",
-        "name": "In-process inspection",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "text",
-        "text": "False reject cost"
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "MEDIUM",
-        "source_count": 0
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Adoption blocker recorded: False reject cost",
-      "origin": "SEED"
-    },
-    {
-      "id": "01531fe0-e88f-57b4-8bc2-0a314c0ba2d1",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "88971ea0-06ff-5899-9ccf-944b3f42fc0f",
-        "slug": "apptronik-apollo",
-        "entity_type": "ROBOT",
-        "name": "Apptronik Apollo",
-        "primary_embodiment": "HUMANOID",
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "HUMANOID"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Embodiment set to Humanoid",
-      "origin": "SEED"
-    },
-    {
-      "id": "0155e365-b112-55e0-a68a-dc51fbbda42c",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
-        "slug": "fourier-intelligence",
+        "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
+        "slug": "mobile-industrial-robots",
         "entity_type": "ORGANIZATION",
-        "name": "Fourier Intelligence",
+        "name": "Mobile Industrial Robots",
         "primary_embodiment": null,
         "roles": [
           "OEM"
@@ -154,10 +341,10 @@
       "after": {
         "kind": "entity",
         "entity": {
-          "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-          "slug": "shanghai",
+          "id": "fc5f8943-817d-5aef-ba62-a8f05810eb74",
+          "slug": "odense",
           "entity_type": "PLACE",
-          "name": "Shanghai",
+          "name": "Odense",
           "primary_embodiment": null,
           "roles": []
         },
@@ -168,544 +355,115 @@
         "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Headquartered at Shanghai",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Odense",
       "origin": "SEED"
     },
     {
-      "id": "01837fde-bc4b-5227-934f-5f5928663293",
+      "id": "1dd412a4-e2b4-5e35-a945-2b62f50afdf8",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
-        "slug": "hyundai",
+        "id": "3dd79380-d3dd-5f4c-9691-75e3e947eb84",
+        "slug": "foxconn",
         "entity_type": "ORGANIZATION",
-        "name": "Hyundai Motor Company",
+        "name": "Foxconn",
         "primary_embodiment": null,
         "roles": [
-          "INVESTOR",
+          "CONTRACT_MANUFACTURER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "CONTRACT_MANUFACTURER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Contract manufacturer",
+      "origin": "SEED"
+    },
+    {
+      "id": "1e27f7c3-f5b8-546b-aa33-edf22347cf2e",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
+        "slug": "teradyne",
+        "entity_type": "ORGANIZATION",
+        "name": "Teradyne",
+        "primary_embodiment": null,
+        "roles": [
           "PLATFORM"
         ]
       },
       "before": null,
       "after": {
         "kind": "enum",
-        "value": "INVESTOR"
-      },
-      "evidence_summary": {
-        "class": "THIRD_PARTY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Role set to Investor",
-      "origin": "SEED"
-    },
-    {
-      "id": "0184783f-b54d-5ce5-8a19-419992b2dffa",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "ffe2409f-f36e-5a0d-9037-e22474aaffc3",
-        "slug": "techman-robot",
-        "entity_type": "ORGANIZATION",
-        "name": "Techman Robot",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
-          "slug": "cnc-machine-tending",
-          "entity_type": "TASK",
-          "name": "CNC machine tending",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Targets task CNC machine tending",
-      "origin": "SEED"
-    },
-    {
-      "id": "01b5e66a-50e3-53e2-84ea-7c1b67fb5971",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
-        "slug": "rope-cable-suspended-robot",
-        "entity_type": "APPROACH",
-        "name": "Rope/cable-suspended robot",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OTHER_MOBILE"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Uses embodiment Field & specialized",
-      "origin": "SEED"
-    },
-    {
-      "id": "021ac7c8-cd97-5c7c-b54d-3f9df4673b02",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "67ba26ca-2cda-58e0-a72a-7afee66e89b7",
-        "slug": "cobot-tending-cell",
-        "entity_type": "APPROACH",
-        "name": "Cobot tending cell",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "text",
-        "text": "Reach into the machine envelope without fencing"
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "HIGH",
-        "source_count": 0
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Technical requirement recorded: Reach into the machine envelope without fencing",
-      "origin": "SEED"
-    },
-    {
-      "id": "02414490-6cf2-5ca4-b1f7-a959fa2e8f94",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "c45de482-f7b3-5c43-9e0e-4d437fd194d3",
-        "slug": "anybotics",
-        "entity_type": "ORGANIZATION",
-        "name": "ANYbotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
-          "slug": "tower-nacelle-inspection",
-          "entity_type": "TASK",
-          "name": "Tower and nacelle inspection",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Targets task Tower and nacelle inspection",
-      "origin": "SEED"
-    },
-    {
-      "id": "024d5306-849b-5afc-99d8-31579b95f824",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
-        "slug": "agility",
-        "entity_type": "ORGANIZATION",
-        "name": "Agility Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "68407748-0447-505b-aa53-0d87ab606e33",
-          "slug": "warehouse-logistics",
-          "entity_type": "MARKET",
-          "name": "Warehouse & Logistics",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Targets market Warehouse & Logistics",
-      "origin": "SEED"
-    },
-    {
-      "id": "026c7d43-3355-5e41-a9c6-7159d3088702",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "0a2e9119-c99f-5d30-ada3-322e55f94d75",
-        "slug": "contact-ndt",
-        "entity_type": "TASK",
-        "name": "Contact NDT",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "d61019b0-7832-557b-8a39-b2ea97c37807",
-          "slug": "wind",
-          "entity_type": "MARKET",
-          "name": "Wind",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "HIGH",
-        "source_count": 0
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Belongs to Wind",
-      "origin": "SEED"
-    },
-    {
-      "id": "028e55d7-4e0e-5c3d-b47b-aa636c9eb8be",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "60245a27-6286-59df-a3ed-9487c3c0d92a",
-        "slug": "palletizing",
-        "entity_type": "TASK",
-        "name": "Palletizing",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "text",
-        "text": "Package variability"
+        "value": "PLATFORM"
       },
       "evidence_summary": {
         "class": "ANALYST",
         "confidence": "MEDIUM",
-        "source_count": 0
+        "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Adoption blocker recorded: Package variability",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Platform",
       "origin": "SEED"
     },
     {
-      "id": "02d85b7d-2638-5f2d-a16a-3d4c7f3a7b11",
+      "id": "1f15d4a4-43ef-5f05-bc02-f348ace25413",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "79815395-59ce-5c93-aef0-8686647839c6",
-        "slug": "locus",
+        "id": "e1a62352-441d-5638-9cb2-5e9a3a282bfd",
+        "slug": "zoox",
         "entity_type": "ORGANIZATION",
-        "name": "Locus Robotics",
+        "name": "Zoox",
         "primary_embodiment": null,
         "roles": [
-          "OEM"
+          "OEM",
+          "OPERATOR"
         ]
       },
       "before": null,
       "after": {
         "kind": "enum",
-        "value": "OEM"
+        "value": "OPERATOR"
       },
       "evidence_summary": {
         "class": "PRIMARY",
         "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Role set to OEM",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Operator",
       "origin": "SEED"
     },
     {
-      "id": "03bd0009-5793-5522-a942-1642de62308c",
-      "event_type": "MATURITY_CHANGED",
-      "entity": {
-        "id": "904afef3-19c9-5b35-b1d0-f612b5a87ef7",
-        "slug": "tower-nacelle-inspection",
-        "entity_type": "TASK",
-        "name": "Tower and nacelle inspection",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "SCALING"
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "MEDIUM",
-        "source_count": 0
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Maturity set to Scaling",
-      "origin": "SEED"
-    },
-    {
-      "id": "03d2f21e-c7b9-578f-bff0-37003b628b1d",
+      "id": "22d88748-b28e-5956-b3e5-c1cf0197218b",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "62e92382-7b45-521e-9c9b-4b52684e9083",
-        "slug": "autonomous-forklift",
-        "entity_type": "APPROACH",
-        "name": "Autonomous forklift",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "de2b7638-b482-5503-a4e1-e5f1d94f30fe",
-          "slug": "third-wave-automation",
-          "entity_type": "ORGANIZATION",
-          "name": "Third Wave Automation",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Example vendor Third Wave Automation",
-      "origin": "SEED"
-    },
-    {
-      "id": "03dee88f-dd46-5725-aaf9-f09d4486e0c5",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "af96607d-e4ee-5ac6-b7de-b4f9d7990783",
-        "slug": "nuro",
+        "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
+        "slug": "applied-intuition",
         "entity_type": "ORGANIZATION",
-        "name": "Nuro",
+        "name": "Applied Intuition",
         "primary_embodiment": null,
         "roles": [
+          "DATA_SIMULATION_PROVIDER",
           "MODEL_DEVELOPER",
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "04014ea9-661d-524a-8b54-929452f74905",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "6a3ad67c-5549-528b-a5ed-0391f2c0f8a3",
-        "slug": "sanctuary-ai",
-        "entity_type": "ORGANIZATION",
-        "name": "Sanctuary AI",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "OEM"
+          "TOOLING_OPS_PROVIDER"
         ]
       },
       "before": null,
       "after": {
         "kind": "entity",
         "entity": {
-          "id": "90378111-31fb-570d-b7c0-605e97dc1b5f",
-          "slug": "manufacturing",
-          "entity_type": "MARKET",
-          "name": "Manufacturing",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Targets market Manufacturing",
-      "origin": "SEED"
-    },
-    {
-      "id": "0432ec04-cfe7-5212-b840-2357b54b4146",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "79815395-59ce-5c93-aef0-8686647839c6",
-        "slug": "locus",
-        "entity_type": "ORGANIZATION",
-        "name": "Locus Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "d0bdf70a-64a1-5faf-8210-b2d4df93141d",
-          "slug": "locus-origin",
-          "entity_type": "ROBOT",
-          "name": "Locus Origin",
-          "primary_embodiment": "AMR",
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Builds Locus Origin",
-      "origin": "SEED"
-    },
-    {
-      "id": "0485be1c-c68c-5cbe-872e-000020524552",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "9c12a0ae-d1aa-5eed-ab85-416b54bece15",
-        "slug": "fox-robotics-foxbot",
-        "entity_type": "ROBOT",
-        "name": "Fox Robotics FoxBot",
-        "primary_embodiment": "AMR",
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "AMR"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Embodiment set to AMR",
-      "origin": "SEED"
-    },
-    {
-      "id": "051190a4-db76-5bed-9072-051c776761e1",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
-        "slug": "fox-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "Fox Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "e0347ca2-b969-58ab-8eee-e9effc52f544",
-          "slug": "truck-unloading",
-          "entity_type": "TASK",
-          "name": "Truck unloading",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Targets task Truck unloading",
-      "origin": "SEED"
-    },
-    {
-      "id": "0543676d-ec1d-5886-b3c5-5f40b1cce4ec",
-      "event_type": "MATURITY_CHANGED",
-      "entity": {
-        "id": "24c0f35d-b133-56cd-94a5-09b9795f7bde",
-        "slug": "blade-visual-inspection",
-        "entity_type": "TASK",
-        "name": "Blade visual inspection",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "MATURE"
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "HIGH",
-        "source_count": 0
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Maturity set to Mature",
-      "origin": "SEED"
-    },
-    {
-      "id": "061ca7de-119b-5609-83a0-010c402a5dc3",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
-        "slug": "figure-ai",
-        "entity_type": "ORGANIZATION",
-        "name": "Figure AI",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
-          "slug": "bay-area",
+          "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+          "slug": "sunnyvale-us",
           "entity_type": "PLACE",
-          "name": "San Francisco Bay Area",
+          "name": "Sunnyvale",
           "primary_embodiment": null,
           "roles": []
         },
@@ -716,43 +474,18 @@
         "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Headquartered at San Francisco Bay Area",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Sunnyvale",
       "origin": "SEED"
     },
     {
-      "id": "0652da6b-47da-5e09-b6db-4f0447f1d40e",
+      "id": "251c1268-ad69-5208-bd47-1c06c85fdcc2",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "1846bec8-e521-5a03-8035-1633f971e390",
-        "slug": "sanctuary-phoenix",
-        "entity_type": "ROBOT",
-        "name": "Sanctuary Phoenix",
-        "primary_embodiment": "HUMANOID",
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "HUMANOID"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Embodiment set to Humanoid",
-      "origin": "SEED"
-    },
-    {
-      "id": "06684ad1-5dc8-5948-9840-71c9dceb2eee",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "a82ce5ff-3dd8-52c7-b7f3-4c16b93e9ae6",
-        "slug": "skydio",
+        "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+        "slug": "deere",
         "entity_type": "ORGANIZATION",
-        "name": "Skydio",
+        "name": "Deere",
         "primary_embodiment": null,
         "roles": [
           "OEM"
@@ -762,97 +495,12 @@
       "after": {
         "kind": "entity",
         "entity": {
-          "id": "1fcc6eb5-3d99-52ea-9f79-d1d882b3957b",
-          "slug": "defense",
-          "entity_type": "MARKET",
-          "name": "Defense",
+          "id": "ac484f1c-9893-553e-af1f-5cb3e582ed24",
+          "slug": "moline-us",
+          "entity_type": "PLACE",
+          "name": "Moline",
           "primary_embodiment": null,
           "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Targets market Defense",
-      "origin": "SEED"
-    },
-    {
-      "id": "066e6e34-6f2c-52ea-9262-53ccea06e14b",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "b4048d3d-e248-5d6c-adb6-f92af4c267f9",
-        "slug": "in-process-inspection",
-        "entity_type": "TASK",
-        "name": "In-process inspection",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "text",
-        "text": "Validation and quality sign-off"
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "HIGH",
-        "source_count": 0
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Adoption blocker recorded: Validation and quality sign-off",
-      "origin": "SEED"
-    },
-    {
-      "id": "06d9a3ab-34da-5cbe-9d3d-202b1cc1cdc4",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "f983eaaf-ab4b-52fb-a311-d1831ee628db",
-        "slug": "boston-dynamics-atlas",
-        "entity_type": "ROBOT",
-        "name": "Boston Dynamics Atlas",
-        "primary_embodiment": "HUMANOID",
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "TELEOPERATION"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Data collection method set to Teleoperation",
-      "origin": "SEED"
-    },
-    {
-      "id": "07d46c22-a435-545a-bf2e-dd82179edc0e",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
-        "slug": "blade-crawler",
-        "entity_type": "APPROACH",
-        "name": "Blade crawler",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
-          "slug": "bladebug",
-          "entity_type": "ORGANIZATION",
-          "name": "BladeBUG",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
         },
         "measure": null
       },
@@ -861,18 +509,18 @@
         "confidence": "MEDIUM",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Example vendor BladeBUG",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Moline",
       "origin": "SEED"
     },
     {
-      "id": "07f37df6-7201-5f9d-9425-448a89235645",
+      "id": "2945ee5b-bcd9-54c0-bf94-86d840f01b0d",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
-        "slug": "fox-robotics",
+        "id": "9c989a06-5dc7-5b95-b411-b37bf58169dc",
+        "slug": "intuitive-surgical",
         "entity_type": "ORGANIZATION",
-        "name": "Fox Robotics",
+        "name": "Intuitive Surgical",
         "primary_embodiment": null,
         "roles": [
           "OEM"
@@ -882,45 +530,10 @@
       "after": {
         "kind": "entity",
         "entity": {
-          "id": "1a97c70c-36f4-5056-a8d3-99741937b6ec",
-          "slug": "pallet-movement",
-          "entity_type": "TASK",
-          "name": "Pallet movement",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Targets task Pallet movement",
-      "origin": "SEED"
-    },
-    {
-      "id": "07f39a10-156a-56d0-be17-15c2ec2edb75",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
-        "slug": "ubtech",
-        "entity_type": "ORGANIZATION",
-        "name": "UBTech Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "5386047b-9431-5521-8e28-d5f238524771",
-          "slug": "shenzhen",
+          "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+          "slug": "sunnyvale-us",
           "entity_type": "PLACE",
-          "name": "Shenzhen",
+          "name": "Sunnyvale",
           "primary_embodiment": null,
           "roles": []
         },
@@ -931,83 +544,183 @@
         "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Headquartered at Shenzhen",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Sunnyvale",
       "origin": "SEED"
     },
     {
-      "id": "085e62dd-21a1-59ae-aeff-f74b6c6c5fe3",
+      "id": "2bc019b7-e877-514d-9431-f06724f40e8e",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
-        "slug": "nabtesco",
+        "id": "26ec9503-090a-5dae-9fa1-6b80dc4fc2b3",
+        "slug": "micropsi-industries",
         "entity_type": "ORGANIZATION",
-        "name": "Nabtesco",
+        "name": "Micropsi Industries",
         "primary_embodiment": null,
         "roles": [
-          "COMPONENT_SUPPLIER"
+          "TOOLING_OPS_PROVIDER"
         ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "e1b756a7-b704-58be-bdc6-603f60b30924",
-          "slug": "nabtesco-rv-series",
-          "entity_type": "COMPONENT_PRODUCT",
-          "name": "Nabtesco RV series",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Provides Nabtesco RV series",
-      "origin": "SEED"
-    },
-    {
-      "id": "087a2edb-cfe2-58c3-8e02-b9f81becf899",
-      "event_type": "COMMERCIAL_STAGE_CHANGED",
-      "entity": {
-        "id": "f48a2189-2c89-576f-a2d6-7ff9ba533210",
-        "slug": "galbot-g1",
-        "entity_type": "ROBOT",
-        "name": "Galbot G1",
-        "primary_embodiment": "HUMANOID",
-        "roles": []
       },
       "before": null,
       "after": {
         "kind": "enum",
-        "value": "PILOT_DEPLOYMENTS"
+        "value": "TOOLING_OPS_PROVIDER"
       },
       "evidence_summary": {
         "class": "PRIMARY",
-        "confidence": "MEDIUM",
+        "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Commercial stage set to Pilot deployments",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Tooling and operations provider",
       "origin": "SEED"
     },
     {
-      "id": "08832faf-5097-51be-a6c1-d46d7f93425a",
+      "id": "2f5aa6a3-5b8f-55df-94fa-5c4bdf9984a8",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
-        "slug": "intel",
+        "id": "2e216e39-ecb9-591b-87d5-e4425e62c4af",
+        "slug": "picknik-robotics",
         "entity_type": "ORGANIZATION",
-        "name": "Intel",
+        "name": "PickNik Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Tooling and operations provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "30632ca0-4c77-57ba-88a4-049b5980b138",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
+        "slug": "mitsubishi-electric",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+          "slug": "tokyo",
+          "entity_type": "PLACE",
+          "name": "Tokyo",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Tokyo",
+      "origin": "SEED"
+    },
+    {
+      "id": "38cb5039-7ec2-5282-bff3-d86a894d04a5",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "f8945d58-a1e3-525f-913b-aee6b56b78a5",
+        "slug": "ocado",
+        "entity_type": "ORGANIZATION",
+        "name": "Ocado",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "be080f8f-ec4c-5458-bba9-99079225e7cd",
+          "slug": "hatfield-gb",
+          "entity_type": "PLACE",
+          "name": "Hatfield",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Hatfield",
+      "origin": "SEED"
+    },
+    {
+      "id": "3b6986bd-0279-5d99-b02b-ce56d88bc9d9",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
+        "slug": "omron",
+        "entity_type": "ORGANIZATION",
+        "name": "Omron",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "b11f18d7-6db6-5b8f-b17f-0876360db61e",
+          "slug": "kyoto-jp",
+          "entity_type": "PLACE",
+          "name": "Kyoto",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Kyoto",
+      "origin": "SEED"
+    },
+    {
+      "id": "3b823d35-bd0c-582a-84e7-78e694d3ca20",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
+        "slug": "robosense",
+        "entity_type": "ORGANIZATION",
+        "name": "RoboSense",
         "primary_embodiment": null,
         "roles": [
           "CHIPMAKER",
-          "COMPONENT_SUPPLIER",
-          "INVESTOR"
+          "COMPONENT_SUPPLIER"
         ]
       },
       "before": null,
@@ -1020,353 +733,73 @@
         "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
+      "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Component supplier",
       "origin": "SEED"
     },
     {
-      "id": "088ebb66-3359-5975-8bce-913f355085bf",
+      "id": "3ccf3cd8-098e-5be5-90d8-1ace98c596e5",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "7a542b1b-ca1d-5b63-9662-485ea564987e",
-        "slug": "blade-crawler",
-        "entity_type": "APPROACH",
-        "name": "Blade crawler",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OTHER_MOBILE"
-      },
-      "evidence_summary": {
-        "class": "THIRD_PARTY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Uses embodiment Field & specialized",
-      "origin": "SEED"
-    },
-    {
-      "id": "08c6c36f-ee62-59dd-b72e-1a4ccb3e259d",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "0a292c52-7b7a-5c88-993b-9974b3839a21",
-        "slug": "meta",
+        "id": "67529b36-5a36-5d97-8986-8a6e478af3cf",
+        "slug": "shield-ai",
         "entity_type": "ORGANIZATION",
-        "name": "Meta",
+        "name": "Shield AI",
         "primary_embodiment": null,
         "roles": [
           "MODEL_DEVELOPER",
-          "PLATFORM",
-          "RESEARCH_LAB"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
-          "slug": "bay-area",
-          "entity_type": "PLACE",
-          "name": "San Francisco Bay Area",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Headquartered at San Francisco Bay Area",
-      "origin": "SEED"
-    },
-    {
-      "id": "0933aa4e-abe3-5583-8481-5dbcb92e0609",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "61256d2b-1b90-51ca-82fe-ff1dfad2be36",
-        "slug": "unitree-g1",
-        "entity_type": "ROBOT",
-        "name": "Unitree G1",
-        "primary_embodiment": "HUMANOID",
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "96f232af-e01b-513b-9e3b-0205fc3b3201",
-          "slug": "nvidia-jetson-orin-nx",
-          "entity_type": "COMPONENT_PRODUCT",
-          "name": "NVIDIA Jetson Orin NX",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Uses NVIDIA Jetson Orin NX",
-      "origin": "SEED"
-    },
-    {
-      "id": "098b78f0-6765-577d-9a5f-ac7e0adaab9d",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "50a1681f-e78c-52cd-9388-0d59b8696a7b",
-        "slug": "lig-nex1",
-        "entity_type": "ORGANIZATION",
-        "name": "LIG Nex1",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "INVESTOR"
-      },
-      "evidence_summary": {
-        "class": "THIRD_PARTY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Role set to Investor",
-      "origin": "SEED"
-    },
-    {
-      "id": "0a125703-f939-575c-a2e5-3f396d3ef62a",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "389ad76a-db8b-5c57-9f12-7af46095d946",
-        "slug": "assembly",
-        "entity_type": "TASK",
-        "name": "Assembly",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "text",
-        "text": "Manual assembly at a bench or a moving line, with jigs, torque drivers and a trained operator absorbing every part variation without anyone writing it down."
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "HIGH",
-        "source_count": 0
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Incumbent process recorded: Manual assembly at a bench or a moving line, with jigs, torque drivers …",
-      "origin": "SEED"
-    },
-    {
-      "id": "0a6735cf-90d5-5fb0-a140-cdbfcc0e44d5",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "03c5fc18-03ae-5263-b931-0c34c315cdbb",
-        "slug": "industrial-welding",
-        "entity_type": "TASK",
-        "name": "Industrial welding",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "text",
-        "text": "A certified welder working from a drawing and a weld procedure, with quality riding on that individual's hand and day."
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "HIGH",
-        "source_count": 0
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Incumbent process recorded: A certified welder working from a drawing and a weld procedure, with qu…",
-      "origin": "SEED"
-    },
-    {
-      "id": "0af6318b-b30a-5b1a-b309-12c1bb7b3789",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
-        "slug": "abb-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "ABB Robotics",
-        "primary_embodiment": null,
-        "roles": [
           "OEM"
         ]
       },
       "before": null,
       "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "79f6e427-bf19-5d37-842e-462da3ee2e21",
-          "slug": "cnc-machine-tending",
-          "entity_type": "TASK",
-          "name": "CNC machine tending",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Targets task CNC machine tending",
-      "origin": "SEED"
-    },
-    {
-      "id": "0b834b72-e03e-58b7-8d99-dfd8b5621bcb",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "725c8452-4827-542d-b7fd-49846d70c637",
-        "slug": "universal-robots-ur20",
-        "entity_type": "ROBOT",
-        "name": "Universal Robots UR20",
-        "primary_embodiment": "COBOT",
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "number",
-        "number": 1.75,
-        "unit": "m",
-        "is_approximate": false,
-        "min": null,
-        "max": null
+        "kind": "enum",
+        "value": "OEM"
       },
       "evidence_summary": {
         "class": "PRIMARY",
         "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Reach set to 1.75 m",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to OEM",
       "origin": "SEED"
     },
     {
-      "id": "0ce687d9-9b42-57c6-9977-0cbf49a75ffc",
+      "id": "3cf3fe8e-b14e-5ca6-aa34-de24353a7546",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
-        "slug": "amazon",
+        "id": "d682d895-2359-5985-8638-8d1e7e537667",
+        "slug": "foxglove",
         "entity_type": "ORGANIZATION",
-        "name": "Amazon",
+        "name": "Foxglove",
         "primary_embodiment": null,
         "roles": [
-          "INVESTOR",
-          "OPERATOR",
-          "PLATFORM",
-          "RESEARCH_LAB"
+          "TOOLING_OPS_PROVIDER"
         ]
       },
       "before": null,
       "after": {
         "kind": "enum",
-        "value": "PLATFORM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Role set to Platform",
-      "origin": "SEED"
-    },
-    {
-      "id": "0d03ce31-5ac3-5b4f-900d-cbd8299eff5d",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "00debf40-2a77-537f-9ee0-c92eb04091f2",
-        "slug": "rope-cable-suspended-robot",
-        "entity_type": "APPROACH",
-        "name": "Rope/cable-suspended robot",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "81571cfa-9773-5740-a33f-0121af56676c",
-          "slug": "rope-robotics",
-          "entity_type": "ORGANIZATION",
-          "name": "Rope Robotics",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM",
-            "OPERATOR"
-          ]
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Example vendor Rope Robotics",
-      "origin": "SEED"
-    },
-    {
-      "id": "0d43119f-a2ae-5fba-80d4-6f01b827d9bd",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "f7f3cd48-fc9b-5272-9b11-8b67a56bafae",
-        "slug": "exotec-skypod",
-        "entity_type": "ROBOT",
-        "name": "Exotec Skypod",
-        "primary_embodiment": "AMR",
-        "roles": []
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "bbe27f9a-9e4b-54f1-a8aa-e37c6cff4fe3",
-          "slug": "automated-storage-and-retrieval",
-          "entity_type": "TASK",
-          "name": "Automated storage and retrieval",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
+        "value": "TOOLING_OPS_PROVIDER"
       },
       "evidence_summary": {
         "class": "PRIMARY",
         "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Targets task Automated storage and retrieval",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Tooling and operations provider",
       "origin": "SEED"
     },
     {
-      "id": "0d4ed8e6-dfdd-5b8b-bbeb-ea790387967e",
+      "id": "3d906e53-21d7-5b34-9065-215e559c8ffc",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "74914967-d3be-58ab-aacb-456441b741b1",
-        "slug": "symbotic",
+        "id": "f8945d58-a1e3-525f-913b-aee6b56b78a5",
+        "slug": "ocado",
         "entity_type": "ORGANIZATION",
-        "name": "Symbotic",
+        "name": "Ocado",
         "primary_embodiment": null,
         "roles": [
           "INTEGRATOR",
@@ -1376,25 +809,134 @@
       "before": null,
       "after": {
         "kind": "enum",
-        "value": "INTEGRATOR"
+        "value": "OEM"
       },
       "evidence_summary": {
         "class": "PRIMARY",
-        "confidence": "MEDIUM",
+        "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Role set to Integrator",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to OEM",
       "origin": "SEED"
     },
     {
-      "id": "0e4f5d71-de4f-504a-b93d-542b5dd248de",
+      "id": "4c24dada-a83a-5ee8-a82d-9df74e1a92e6",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "e795379e-2612-5cb1-926d-8a42bda20d75",
-        "slug": "aerones",
+        "id": "87cf0830-6b89-5576-91dc-7b50e7f670da",
+        "slug": "formant",
         "entity_type": "ORGANIZATION",
-        "name": "Aerones",
+        "name": "Formant",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Tooling and operations provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "4ffa421f-ef79-53ee-b2be-e74ac5b11108",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "f8945d58-a1e3-525f-913b-aee6b56b78a5",
+        "slug": "ocado",
+        "entity_type": "ORGANIZATION",
+        "name": "Ocado",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "LSE:OCDO"
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Stock ticker recorded: LSE:OCDO",
+      "origin": "SEED"
+    },
+    {
+      "id": "534c4e37-d85d-5d40-901a-e82c5b7398c2",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "9ac64544-54aa-5bbb-8ec8-47e634cfda71",
+        "slug": "latent-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Latent AI",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Tooling and operations provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "55b7b235-8160-569c-8b57-d394b5212b5d",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "b992dfb4-b945-5a51-9ccf-368c6da804a1",
+        "slug": "kognic",
+        "entity_type": "ORGANIZATION",
+        "name": "Kognic",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Data and simulation provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "55c41965-d9f3-5219-930c-a03d859bad66",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "e1a62352-441d-5638-9cb2-5e9a3a282bfd",
+        "slug": "zoox",
+        "entity_type": "ORGANIZATION",
+        "name": "Zoox",
         "primary_embodiment": null,
         "roles": [
           "OEM",
@@ -1403,67 +945,80 @@
       },
       "before": null,
       "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "696ce6ce-8965-5628-9ad7-f9abc31012dd",
-          "slug": "lightning-protection-testing",
-          "entity_type": "TASK",
-          "name": "Lightning-protection testing",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
+        "kind": "enum",
+        "value": "OEM"
       },
       "evidence_summary": {
         "class": "PRIMARY",
         "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Targets task Lightning-protection testing",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to OEM",
       "origin": "SEED"
     },
     {
-      "id": "0e50d33c-77c8-50e8-8ba1-a74b5a172044",
+      "id": "58aa0c54-569e-55f2-acdf-7158d802f087",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "077b0165-6d64-55b6-9e86-0df976c238a9",
-        "slug": "figure-02",
-        "entity_type": "ROBOT",
-        "name": "Figure 02",
-        "primary_embodiment": "HUMANOID",
-        "roles": []
+        "id": "3dd79380-d3dd-5f4c-9691-75e3e947eb84",
+        "slug": "foxconn",
+        "entity_type": "ORGANIZATION",
+        "name": "Foxconn",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER"
+        ]
       },
       "before": null,
       "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "c049ae4e-2f0f-54a0-8b83-b899ae3b05cb",
-          "slug": "figure-humanoids",
-          "entity_type": "ROBOT_FAMILY",
-          "name": "Figure humanoids",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
+        "kind": "text",
+        "text": "TWSE:2317"
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Stock ticker recorded: TWSE:2317",
+      "origin": "SEED"
+    },
+    {
+      "id": "5a46ec00-96df-5849-9f63-93282a490673",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "5f756779-c070-54c4-be85-73de166e6f4f",
+        "slug": "world-labs",
+        "entity_type": "ORGANIZATION",
+        "name": "World Labs",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
       },
       "evidence_summary": {
         "class": "PRIMARY",
         "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "A member of Figure humanoids",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Data and simulation provider",
       "origin": "SEED"
     },
     {
-      "id": "0e672180-988b-5936-ab6e-66ec9e7d189e",
+      "id": "5da4a77b-e1e2-5572-96e2-4f41447e2866",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
-        "slug": "abb-robotics",
+        "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+        "slug": "deere",
         "entity_type": "ORGANIZATION",
-        "name": "ABB Robotics",
+        "name": "Deere",
         "primary_embodiment": null,
         "roles": [
           "OEM"
@@ -1471,57 +1026,437 @@
       },
       "before": null,
       "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "0f04ed2f-3cb7-5835-926a-1fbf13fa03ad",
-          "slug": "abb-irb-6700",
-          "entity_type": "ROBOT",
-          "name": "ABB IRB 6700",
-          "primary_embodiment": "INDUSTRIAL_ARM",
-          "roles": []
-        },
-        "measure": null
+        "kind": "text",
+        "text": "NYSE:DE"
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Stock ticker recorded: NYSE:DE",
+      "origin": "SEED"
+    },
+    {
+      "id": "626db448-4aa8-5cd4-8952-2483ba055d46",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "2dbd44de-55e6-5fd2-b741-7d4a92ed16f3",
+        "slug": "omron",
+        "entity_type": "ORGANIZATION",
+        "name": "Omron",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "TYO:6645"
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Stock ticker recorded: TYO:6645",
+      "origin": "SEED"
+    },
+    {
+      "id": "62ad003e-c574-57f0-9a42-aa1f1d96574a",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
+        "slug": "mitsubishi-electric",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "OEM"
       },
       "evidence_summary": {
         "class": "PRIMARY",
         "confidence": "HIGH",
         "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Builds ABB IRB 6700",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to OEM",
       "origin": "SEED"
     },
     {
-      "id": "0e6d3578-8b79-5940-95f0-cc345afc754e",
+      "id": "6676a541-1404-5982-a4e6-18bc82070372",
       "event_type": "CLAIM_CHANGED",
       "entity": {
-        "id": "6eed56ac-41c3-573d-be63-dac3ff72ece3",
-        "slug": "anybotics-anymal-d",
-        "entity_type": "ROBOT",
-        "name": "ANYbotics ANYmal D",
-        "primary_embodiment": "QUADRUPED",
-        "roles": []
+        "id": "48e1da94-9335-5fa6-98e2-573756183668",
+        "slug": "visual-components",
+        "entity_type": "ORGANIZATION",
+        "name": "Visual Components",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Data and simulation provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "6a35efd5-020e-5a17-ba46-3ca4814c4479",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
+        "slug": "google-deepmind",
+        "entity_type": "ORGANIZATION",
+        "name": "Google DeepMind",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Model developer",
+      "origin": "SEED"
+    },
+    {
+      "id": "6a517bed-11ab-511c-9fc8-6d6a334a4e48",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "7c3dff52-dcd7-585e-8e76-a06b4ce10f8c",
+        "slug": "wandelbots",
+        "entity_type": "ORGANIZATION",
+        "name": "Wandelbots",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Tooling and operations provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "6ee1bbb8-1978-5a16-91ec-8d667b22cf71",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
+        "slug": "applied-intuition",
+        "entity_type": "ORGANIZATION",
+        "name": "Applied Intuition",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Model developer",
+      "origin": "SEED"
+    },
+    {
+      "id": "72fc5208-991a-52fc-b200-76f21171e5b3",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "2a8c10d4-129b-51e2-95fa-d4319032a3c0",
+        "slug": "foretellix",
+        "entity_type": "ORGANIZATION",
+        "name": "Foretellix",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Data and simulation provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "784c54fb-481d-55ae-849a-3ea7d3ef3014",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "a19bf5f6-db27-5318-ae20-28be53104b40",
+        "slug": "dyna-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Dyna Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to OEM",
+      "origin": "SEED"
+    },
+    {
+      "id": "7e5f2212-561c-50fb-9730-1c7cd00efa09",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
+        "slug": "robosense",
+        "entity_type": "ORGANIZATION",
+        "name": "RoboSense",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "HKEX:02498"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Stock ticker recorded: HKEX:02498",
+      "origin": "SEED"
+    },
+    {
+      "id": "8078b667-70e4-534c-b462-bbae2f9190bc",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+        "slug": "deere",
+        "entity_type": "ORGANIZATION",
+        "name": "Deere",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to OEM",
+      "origin": "SEED"
+    },
+    {
+      "id": "83666ecd-7e1b-5d1e-894c-a96bd1489fe1",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
+        "slug": "teradyne",
+        "entity_type": "ORGANIZATION",
+        "name": "Teradyne",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "NASDAQ:TER"
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Stock ticker recorded: NASDAQ:TER",
+      "origin": "SEED"
+    },
+    {
+      "id": "84d2d7d4-cfb8-50d9-b803-093385b7d493",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
+        "slug": "google-deepmind",
+        "entity_type": "ORGANIZATION",
+        "name": "Google DeepMind",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Research lab",
+      "origin": "SEED"
+    },
+    {
+      "id": "86de938b-dcc3-54d1-abc6-3f0c3eee29e6",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "a19bf5f6-db27-5318-ae20-28be53104b40",
+        "slug": "dyna-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Dyna Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Model developer",
+      "origin": "SEED"
+    },
+    {
+      "id": "892c3cfa-a20a-5313-86b2-02a931c19364",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "384a78ae-0550-5ad9-9e9c-503f1d1c6af2",
+        "slug": "encord",
+        "entity_type": "ORGANIZATION",
+        "name": "Encord",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "DATA_SIMULATION_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Data and simulation provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "8cafed1a-2edb-5670-9296-6acfc94ff0c9",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "3dd79380-d3dd-5f4c-9691-75e3e947eb84",
+        "slug": "foxconn",
+        "entity_type": "ORGANIZATION",
+        "name": "Foxconn",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER"
+        ]
       },
       "before": null,
       "after": {
         "kind": "entity",
         "entity": {
-          "id": "24ce3144-fe92-59e9-b571-78a92e0951bd",
-          "slug": "boston-dynamics-spot",
-          "entity_type": "ROBOT",
-          "name": "Boston Dynamics Spot",
-          "primary_embodiment": "QUADRUPED",
+          "id": "089d105e-024f-5c17-a3a2-f80bb0cc5bb8",
+          "slug": "new-taipei-tw",
+          "entity_type": "PLACE",
+          "name": "New Taipei",
+          "primary_embodiment": null,
           "roles": []
         },
         "measure": null
       },
       "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "HIGH",
-        "source_count": 0
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
       },
-      "observed_at": "2026-09-01T00:00:00.000Z",
-      "summary": "Competes with Boston Dynamics Spot",
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at New Taipei",
       "origin": "SEED"
     }
   ]
