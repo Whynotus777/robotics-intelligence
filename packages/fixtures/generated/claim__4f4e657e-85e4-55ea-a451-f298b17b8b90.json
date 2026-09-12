@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "4f4e657e-85e4-55ea-a451-f298b17b8b90",
+    "subject": {
+      "id": "381e7bc7-58fb-508a-b5c2-1af6da18e86f",
+      "slug": "hongshan-hsg",
+      "entity_type": "ORGANIZATION",
+      "name": "HongShan (HSG)",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "HongShan (HSG) invested in Genesis AI",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+        "slug": "genesis-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Genesis AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2025-07-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bf7d5fac-2bb6-51f3-b8f0-70f6a36ec30c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "HongShan (HSG) is named as an investor in Genesis AI in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "490360cc-7482-5fec-9aa3-23f4dcdf8344",
+        "url": "https://www.prnewswire.com/news-releases/genesis-ai-emerges-from-stealth-with-105m-to-build-universal-robotics-foundation-model-and-horizontal-platform-for-general-purpose-physical-ai-302495016.html",
+        "canonical_url": null,
+        "publisher": "Genesis AI",
+        "title": "Genesis AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,88 @@
+{
+  "claim": {
+    "claim_id": "8dce5b22-1b1d-59c7-9e53-60245db9c226",
+    "subject": {
+      "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+      "slug": "softbank-group",
+      "entity_type": "ORGANIZATION",
+      "name": "SoftBank Group",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "SoftBank Group invested in Agile Robots",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c9e9aebb-ae69-53e2-be08-17dc8d7e1606",
+        "slug": "agile-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Agile Robots",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "fe2a39d7-6084-5225-b74f-022e5c475b72",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Agile Robots identifies SoftBank as its anchor investor; this does not establish parent control.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1c2dd04c-14da-57cf-9cc5-43d8c2331327",
+        "url": "https://www.agile-robots.com/en/about-us/",
+        "canonical_url": null,
+        "publisher": "Agile Robots",
+        "title": "Agile Robots — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "9a4ebda6-c7e0-5ea7-9885-de6c519a9323",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+          "slug": "wayve",
+          "entity_type": "ORGANIZATION",
+          "name": "Wayve",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+      "valid_from": "2024-05-07",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

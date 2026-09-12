@@ -19,3 +19,22 @@ claims:
       - Sustained robotics activity across three roles or controlled subsidiaries.
       regress_criteria:
       - Robotics involvement contracts to a single product or passive holding.
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-6a7996756bdb5cad
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Schaeffler is named as an investor in NEURA Robotics in this company-issued disclosure.
+    observed_at: '2026-09-11'
+- predicate: INVESTED_IN
+  object: neura-robotics
+  valid_from: '2026-06-10'
+  qualifier: Investor participation disclosed by this date; individual investment amount not asserted
+  evidence:
+  - source: enrich-6a7996756bdb5cad
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Schaeffler is named as an investor in NEURA Robotics in this company-issued disclosure.
+    observed_at: '2026-09-11'

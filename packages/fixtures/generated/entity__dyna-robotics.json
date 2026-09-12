@@ -95,8 +95,178 @@
     }
   ],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "1706c720-6db7-564f-ac15-c4843afc31a4",
+          "source": {
+            "id": "c03ad96b-dbb5-5f23-ab04-d20df5d217a6",
+            "slug": "crv",
+            "entity_type": "ORGANIZATION",
+            "name": "CRV",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2025-09-15",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "25ea452a-68f0-5fc9-9fd1-bdf06201ade9",
+          "source": {
+            "id": "3d348273-7e19-55a7-b897-e59e7d9f0656",
+            "slug": "salesforce-ventures",
+            "entity_type": "ORGANIZATION",
+            "name": "Salesforce Ventures",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2025-09-15",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "3f7236cd-d2dc-5402-bbb7-d59b19e83c80",
+          "source": {
+            "id": "bc83a4a7-887b-5432-99cc-d76044cda823",
+            "slug": "first-round-capital",
+            "entity_type": "ORGANIZATION",
+            "name": "First Round Capital",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2025-09-15",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "c6929fc2-75d2-5013-81d8-b7ffb5fe713e",
+          "source": {
+            "id": "d15ae925-8092-5907-8703-87a3b98eb9f8",
+            "slug": "lg-technology-ventures",
+            "entity_type": "ORGANIZATION",
+            "name": "LG Technology Ventures",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2025-09-15",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "dd74bae2-509a-547d-ad9c-407efdbad4e5",
+          "source": {
+            "id": "933b544e-fc35-52b1-a73d-4b9db190d8b8",
+            "slug": "nventures",
+            "entity_type": "ORGANIZATION",
+            "name": "NVentures",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2025-09-15",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "c03ad96b-dbb5-5f23-ab04-d20df5d217a6",
+        "slug": "crv",
+        "entity_type": "ORGANIZATION",
+        "name": "CRV",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "bc83a4a7-887b-5432-99cc-d76044cda823",
+        "slug": "first-round-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "First Round Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "d15ae925-8092-5907-8703-87a3b98eb9f8",
+        "slug": "lg-technology-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "LG Technology Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "933b544e-fc35-52b1-a73d-4b9db190d8b8",
+        "slug": "nventures",
+        "entity_type": "ORGANIZATION",
+        "name": "NVentures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "3d348273-7e19-55a7-b897-e59e7d9f0656",
+        "slug": "salesforce-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "Salesforce Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -112,7 +282,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 2,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 5
   },
   "as_of": null
 }

@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "12df1231-246e-5383-9697-a6a61daa27ee",
+    "subject": {
+      "id": "56e57cb9-bdb1-532e-93b0-531fe88aa6f5",
+      "slug": "b-capital",
+      "entity_type": "ORGANIZATION",
+      "name": "B Capital",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "B Capital invested in Apptronik",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
+        "slug": "apptronik",
+        "entity_type": "ORGANIZATION",
+        "name": "Apptronik",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-02-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b66cc7e5-3bd2-57b9-872d-8f6b2ca6578e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "B Capital is named as an investor in Apptronik in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "cd43b74a-f510-53d2-9fae-dff459f3cd26",
+        "url": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+        "canonical_url": null,
+        "publisher": "B Capital",
+        "title": "B Capital — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

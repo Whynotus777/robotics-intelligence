@@ -95,8 +95,146 @@
     }
   ],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "4f4e657e-85e4-55ea-a451-f298b17b8b90",
+          "source": {
+            "id": "381e7bc7-58fb-508a-b5c2-1af6da18e86f",
+            "slug": "hongshan-hsg",
+            "entity_type": "ORGANIZATION",
+            "name": "HongShan (HSG)",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2025-07-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "4f5bbb68-91d1-5cf0-a504-094642420774",
+          "source": {
+            "id": "22d976e0-3c83-50e0-8102-bd2c1881a83c",
+            "slug": "khosla-ventures",
+            "entity_type": "ORGANIZATION",
+            "name": "Khosla Ventures",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2025-07-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d1624168-f1c3-5db2-9b3b-53d3975161e8",
+          "source": {
+            "id": "61a6ed94-36e4-5a73-bc2f-39eaf8ae4231",
+            "slug": "bpifrance",
+            "entity_type": "ORGANIZATION",
+            "name": "Bpifrance",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2025-07-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "ed19410e-dca0-5ba2-912f-4933a51f2ecb",
+          "source": {
+            "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
+            "slug": "eclipse-ventures",
+            "entity_type": "ORGANIZATION",
+            "name": "Eclipse Ventures",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2025-07-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "61a6ed94-36e4-5a73-bc2f-39eaf8ae4231",
+        "slug": "bpifrance",
+        "entity_type": "ORGANIZATION",
+        "name": "Bpifrance",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
+        "slug": "eclipse-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "Eclipse Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "381e7bc7-58fb-508a-b5c2-1af6da18e86f",
+        "slug": "hongshan-hsg",
+        "entity_type": "ORGANIZATION",
+        "name": "HongShan (HSG)",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "22d976e0-3c83-50e0-8102-bd2c1881a83c",
+        "slug": "khosla-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "Khosla Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -112,7 +250,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 2,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 4
   },
   "as_of": null
 }

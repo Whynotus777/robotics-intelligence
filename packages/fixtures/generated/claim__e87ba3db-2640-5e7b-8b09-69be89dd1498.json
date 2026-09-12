@@ -1,0 +1,53 @@
+{
+  "claim": {
+    "claim_id": "e87ba3db-2640-5e7b-8b09-69be89dd1498",
+    "subject": {
+      "id": "f32b66e2-50e6-5624-8913-18abdbb46560",
+      "slug": "kuka-kr-agilus",
+      "entity_type": "ROBOT",
+      "name": "KUKA KR AGILUS",
+      "primary_embodiment": "INDUSTRIAL_ARM",
+      "roles": []
+    },
+    "predicate": "HAS_EMBODIMENT",
+    "label": "embodiment",
+    "sentence": "KUKA KR AGILUS embodiment INDUSTRIAL_ARM",
+    "value": {
+      "kind": "enum",
+      "value": "INDUSTRIAL_ARM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e58e3d0a-22f0-530e-856f-4277b0412ccf",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Kollmorgen describes customized AKM synchronous servo motors used in KUKA KR AGILUS robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "09114e2c-71ff-50ec-aac0-f01ed1bd9c19",
+        "url": "https://www.kollmorgen.com/sites/default/files/2025-02/Kuka%20and%20Kollmorgen%20Collaboratively%20Engineer%20Optimized%20Motors_SU_KM_SS_RevB_English.pdf",
+        "canonical_url": null,
+        "publisher": "Kollmorgen",
+        "title": "Kollmorgen — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

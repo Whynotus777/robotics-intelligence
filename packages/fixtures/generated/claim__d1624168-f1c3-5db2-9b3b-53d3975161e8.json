@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "d1624168-f1c3-5db2-9b3b-53d3975161e8",
+    "subject": {
+      "id": "61a6ed94-36e4-5a73-bc2f-39eaf8ae4231",
+      "slug": "bpifrance",
+      "entity_type": "ORGANIZATION",
+      "name": "Bpifrance",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Bpifrance invested in Genesis AI",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+        "slug": "genesis-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Genesis AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2025-07-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6b6ee446-fcd8-55b9-b40c-166785e860bc",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Bpifrance is named as an investor in Genesis AI in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "490360cc-7482-5fec-9aa3-23f4dcdf8344",
+        "url": "https://www.prnewswire.com/news-releases/genesis-ai-emerges-from-stealth-with-105m-to-build-universal-robotics-foundation-model-and-horizontal-platform-for-general-purpose-physical-ai-302495016.html",
+        "canonical_url": null,
+        "publisher": "Genesis AI",
+        "title": "Genesis AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

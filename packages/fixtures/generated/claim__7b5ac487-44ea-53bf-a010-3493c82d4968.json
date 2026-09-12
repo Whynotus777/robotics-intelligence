@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "7b5ac487-44ea-53bf-a010-3493c82d4968",
+    "subject": {
+      "id": "b3671316-449b-579c-8895-6dd4f8d6405f",
+      "slug": "bezos-expeditions",
+      "entity_type": "ORGANIZATION",
+      "name": "Bezos Expeditions",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Bezos Expeditions invested in FieldAI",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "2bd3ab4d-c00b-56f8-a1aa-5c4b5546b007",
+        "slug": "fieldai",
+        "entity_type": "ORGANIZATION",
+        "name": "FieldAI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2025-08-20",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e552fb18-a469-5ef3-8425-1e8f34f54640",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Bezos Expeditions is named as an investor in FieldAI in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "88280926-60e7-56d1-95d2-52efe3c95671",
+        "url": "https://www.fieldai.com/news/fieldai-announces-over-400m-in-funds-raised-to-advance-embodied-ai-at-scale",
+        "canonical_url": null,
+        "publisher": "FieldAI",
+        "title": "FieldAI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,104 @@
+{
+  "robot": {
+    "id": "f32b66e2-50e6-5624-8913-18abdbb46560",
+    "slug": "kuka-kr-agilus",
+    "entity_type": "ROBOT",
+    "name": "KUKA KR AGILUS",
+    "primary_embodiment": "INDUSTRIAL_ARM",
+    "roles": []
+  },
+  "embodiment": "INDUSTRIAL_ARM",
+  "layers": [
+    {
+      "canonical": "INTELLIGENCE",
+      "label": "Application software / programming",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "PLANNING",
+      "label": "Motion planning",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "PERCEPTION",
+      "label": "Vision (if present)",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "CONTROL",
+      "label": "Servo control / controller",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "COMPUTE",
+      "label": "Controller cabinet / PLC",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "SENSORS",
+      "label": "Encoders, F/T, safety",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "ACTUATION",
+      "label": "Joint modules & reducers",
+      "applies": true,
+      "items": [
+        {
+          "entity": {
+            "id": "2f19277c-8f76-5ded-82b7-a9f747091010",
+            "slug": "kollmorgen-akm",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "Kollmorgen AKM servo motors",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "kind": "product",
+          "claim_id": "551739db-8300-5eac-9636-d55c22ce5f2b",
+          "qualifier": "Customized AKM variants documented by supplier; exact motor configuration varies by robot",
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "END_EFFECTOR_PAYLOAD",
+      "label": "End effector / tooling",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "POWER",
+      "label": "Mains power",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    },
+    {
+      "canonical": "MECHANICAL",
+      "label": "Links, base",
+      "applies": true,
+      "items": [],
+      "competing_technologies": []
+    }
+  ],
+  "safety": [],
+  "as_of": null
+}

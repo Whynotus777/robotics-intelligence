@@ -1,0 +1,88 @@
+{
+  "claim": {
+    "claim_id": "4f5bbb68-91d1-5cf0-a504-094642420774",
+    "subject": {
+      "id": "22d976e0-3c83-50e0-8102-bd2c1881a83c",
+      "slug": "khosla-ventures",
+      "entity_type": "ORGANIZATION",
+      "name": "Khosla Ventures",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Khosla Ventures invested in Genesis AI",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+        "slug": "genesis-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Genesis AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2025-07-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9bc61886-479f-5467-9038-af76615f1449",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Khosla Ventures is named as an investor in Genesis AI in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "490360cc-7482-5fec-9aa3-23f4dcdf8344",
+        "url": "https://www.prnewswire.com/news-releases/genesis-ai-emerges-from-stealth-with-105m-to-build-universal-robotics-foundation-model-and-horizontal-platform-for-general-purpose-physical-ai-302495016.html",
+        "canonical_url": null,
+        "publisher": "Genesis AI",
+        "title": "Genesis AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "60290dcf-87b1-503f-94ba-19bf0233f1bc",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "2bd3ab4d-c00b-56f8-a1aa-5c4b5546b007",
+          "slug": "fieldai",
+          "entity_type": "ORGANIZATION",
+          "name": "FieldAI",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+      "valid_from": "2025-08-20",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

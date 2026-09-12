@@ -1,0 +1,146 @@
+{
+  "entity": {
+    "id": "f32b66e2-50e6-5624-8913-18abdbb46560",
+    "slug": "kuka-kr-agilus",
+    "entity_type": "ROBOT",
+    "name": "KUKA KR AGILUS",
+    "short_description": "Compact industrial robot family using customized Kollmorgen AKM servo motors.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": "INDUSTRIAL_ARM",
+    "country_code": "DE",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_EMBODIMENT",
+      "label": "embodiment",
+      "claims": [
+        {
+          "claim_id": "e87ba3db-2640-5e7b-8b09-69be89dd1498",
+          "predicate": "HAS_EMBODIMENT",
+          "value": {
+            "kind": "enum",
+            "value": "INDUSTRIAL_ARM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "USES_PRODUCT",
+      "label": "uses",
+      "items": [
+        {
+          "claim_id": "551739db-8300-5eac-9636-d55c22ce5f2b",
+          "target": {
+            "id": "2f19277c-8f76-5ded-82b7-a9f747091010",
+            "slug": "kollmorgen-akm",
+            "entity_type": "COMPONENT_PRODUCT",
+            "name": "Kollmorgen AKM servo motors",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": "ACTUATION",
+          "qualifier": "Customized AKM variants documented by supplier; exact motor configuration varies by robot",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "BUILDS",
+      "label": "builds",
+      "items": [
+        {
+          "claim_id": "85c8658b-a6c9-5cf7-bb31-67eab8a7ebdb",
+          "source": {
+            "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+            "slug": "kuka",
+            "entity_type": "ORGANIZATION",
+            "name": "KUKA",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+        "slug": "kuka",
+        "entity_type": "ORGANIZATION",
+        "name": "KUKA",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

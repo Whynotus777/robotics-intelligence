@@ -116,10 +116,50 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "d440233d-1b34-50f5-b385-108ee2c4ced9",
+          "target": {
+            "id": "2bd3ab4d-c00b-56f8-a1aa-5c4b5546b007",
+            "slug": "fieldai",
+            "entity_type": "ORGANIZATION",
+            "name": "FieldAI",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2025-08-20",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "2bd3ab4d-c00b-56f8-a1aa-5c4b5546b007",
+        "slug": "fieldai",
+        "entity_type": "ORGANIZATION",
+        "name": "FieldAI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
@@ -134,19 +174,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 2,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

@@ -32,4 +32,14 @@ claims:
     excerpt: European Investment Bank was established in 1958 (year precision).
     observed_at: '2026-09-11'
   qualifier: Year precision
+- predicate: INVESTED_IN
+  object: neura-robotics
+  valid_from: '2026-06-10'
+  qualifier: Investor participation disclosed by this date; individual investment amount not asserted
+  evidence:
+  - source: enrich-6a7996756bdb5cad
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: European Investment Bank is named as an investor in NEURA Robotics in this company-issued disclosure.
+    observed_at: '2026-09-11'
 country_code: LU

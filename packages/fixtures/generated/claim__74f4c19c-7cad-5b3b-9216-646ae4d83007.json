@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "74f4c19c-7cad-5b3b-9216-646ae4d83007",
+    "subject": {
+      "id": "0f0678f4-c5c3-5709-abe5-630cd85dbb65",
+      "slug": "eqt-ventures",
+      "entity_type": "ORGANIZATION",
+      "name": "EQT Ventures",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "EQT Ventures invested in 1X Technologies",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
+        "slug": "onex-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "1X Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "70a2fcdc-8fcd-530c-b292-f8190cf66a26",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "EQT Ventures is named as an investor in 1X in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "6553a4f4-523f-52ee-84d1-3c3e4217a3b6",
+        "url": "https://www.1x.tech/discover/1x-secures-100m-in-series-b-funding",
+        "canonical_url": null,
+        "publisher": "EQT Ventures",
+        "title": "EQT Ventures — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

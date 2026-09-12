@@ -200,10 +200,70 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "d43475e9-fe04-5d3f-8c85-6dbb38271159",
+          "source": {
+            "id": "c003c24d-04e1-5841-903d-4887f13f4bc5",
+            "slug": "dcvc",
+            "entity_type": "ORGANIZATION",
+            "name": "DCVC",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2022-04-22",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d454f506-c1c7-5c43-b178-1a1884a259bc",
+          "source": {
+            "id": "20e6b355-f8b7-55bb-b192-6d02eb96c575",
+            "slug": "playground-global",
+            "entity_type": "ORGANIZATION",
+            "name": "Playground Global",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2022-04-22",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "c003c24d-04e1-5841-903d-4887f13f4bc5",
+        "slug": "dcvc",
+        "entity_type": "ORGANIZATION",
+        "name": "DCVC",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
       {
         "id": "3453edac-f23f-5fea-b881-16321ec6999a",
         "slug": "gxo",
@@ -212,6 +272,16 @@
         "primary_embodiment": null,
         "roles": [
           "OPERATOR"
+        ]
+      },
+      {
+        "id": "20e6b355-f8b7-55bb-b192-6d02eb96c575",
+        "slug": "playground-global",
+        "entity_type": "ORGANIZATION",
+        "name": "Playground Global",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
         ]
       }
     ],
@@ -251,7 +321,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 5
+    "related_count": 7
   },
   "as_of": null
 }

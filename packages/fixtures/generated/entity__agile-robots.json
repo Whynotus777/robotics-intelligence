@@ -118,8 +118,51 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "8dce5b22-1b1d-59c7-9e53-60245db9c226",
+          "source": {
+            "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+            "slug": "softbank-group",
+            "entity_type": "ORGANIZATION",
+            "name": "SoftBank Group",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+        "slug": "softbank-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
@@ -146,7 +189,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

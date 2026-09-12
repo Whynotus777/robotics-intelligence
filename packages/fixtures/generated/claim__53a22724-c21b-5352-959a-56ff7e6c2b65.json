@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "53a22724-c21b-5352-959a-56ff7e6c2b65",
+    "subject": {
+      "id": "9e64fd03-d82d-5ace-8ae3-e7174f30d6e7",
+      "slug": "schaeffler",
+      "entity_type": "ORGANIZATION",
+      "name": "Schaeffler",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Schaeffler role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6a73f7d6-d6a6-59c7-b46f-4073d66fc14d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Schaeffler is named as an investor in NEURA Robotics in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8a752429-445e-570a-ab05-c968debdc6b1",
+        "url": "https://neura-robotics.com/record-series-c/",
+        "canonical_url": null,
+        "publisher": "Neura Robotics",
+        "title": "Neura Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "b2412eac-948e-5014-840d-25d844566999",
+      "value": {
+        "kind": "enum",
+        "value": "PLATFORM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

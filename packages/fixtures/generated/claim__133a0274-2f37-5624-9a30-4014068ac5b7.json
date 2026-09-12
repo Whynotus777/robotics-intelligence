@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "133a0274-2f37-5624-9a30-4014068ac5b7",
+    "subject": {
+      "id": "83dd2c2f-5b2f-58ec-a863-1a81488d3564",
+      "slug": "gates-frontier",
+      "entity_type": "ORGANIZATION",
+      "name": "Gates Frontier",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Gates Frontier invested in FieldAI",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "2bd3ab4d-c00b-56f8-a1aa-5c4b5546b007",
+        "slug": "fieldai",
+        "entity_type": "ORGANIZATION",
+        "name": "FieldAI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2025-08-20",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "990d077e-e99d-5d34-8b43-e7516dfb983b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Gates Frontier is named as an investor in FieldAI in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "88280926-60e7-56d1-95d2-52efe3c95671",
+        "url": "https://www.fieldai.com/news/fieldai-announces-over-400m-in-funds-raised-to-advance-embodied-ai-at-scale",
+        "canonical_url": null,
+        "publisher": "FieldAI",
+        "title": "FieldAI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

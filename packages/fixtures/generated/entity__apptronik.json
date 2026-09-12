@@ -170,6 +170,79 @@
   ],
   "inbound_relationships": [
     {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "12df1231-246e-5383-9697-a6a61daa27ee",
+          "source": {
+            "id": "56e57cb9-bdb1-532e-93b0-531fe88aa6f5",
+            "slug": "b-capital",
+            "entity_type": "ORGANIZATION",
+            "name": "B Capital",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-02-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "4e545a81-38f0-5030-b0f5-5892ea34ce42",
+          "source": {
+            "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+            "slug": "deere",
+            "entity_type": "ORGANIZATION",
+            "name": "Deere",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-02-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "6c06fe48-9233-51b1-9e12-b8fa478eba95",
+          "source": {
+            "id": "179eaee3-6383-554a-be7e-0332bb7f2284",
+            "slug": "peak6",
+            "entity_type": "ORGANIZATION",
+            "name": "Peak6",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-02-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "OPERATED_BY",
       "label": "is operated by",
       "items": [
@@ -199,6 +272,27 @@
   "lateral_links": {
     "company": [
       {
+        "id": "56e57cb9-bdb1-532e-93b0-531fe88aa6f5",
+        "slug": "b-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "B Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+        "slug": "deere",
+        "entity_type": "ORGANIZATION",
+        "name": "Deere",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OEM"
+        ]
+      },
+      {
         "id": "3453edac-f23f-5fea-b881-16321ec6999a",
         "slug": "gxo",
         "entity_type": "ORGANIZATION",
@@ -216,6 +310,16 @@
         "primary_embodiment": null,
         "roles": [
           "OPERATOR"
+        ]
+      },
+      {
+        "id": "179eaee3-6383-554a-be7e-0332bb7f2284",
+        "slug": "peak6",
+        "entity_type": "ORGANIZATION",
+        "name": "Peak6",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
         ]
       }
     ],
@@ -245,7 +349,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 5
+    "related_count": 8
   },
   "as_of": null
 }

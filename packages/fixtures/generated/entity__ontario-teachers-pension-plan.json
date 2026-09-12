@@ -90,10 +90,50 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "72bb2d87-29b7-5325-a24c-626088dbd1da",
+          "target": {
+            "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+            "slug": "wayve",
+            "entity_type": "ORGANIZATION",
+            "name": "Wayve",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-02-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+        "slug": "wayve",
+        "entity_type": "ORGANIZATION",
+        "name": "Wayve",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
@@ -108,19 +148,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

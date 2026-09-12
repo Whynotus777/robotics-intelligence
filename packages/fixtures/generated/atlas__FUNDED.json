@@ -29,7 +29,7 @@
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 19
+      "count": 20
     },
     {
       "id": "PLATFORMS",
@@ -248,6 +248,35 @@
           "primary_embodiment": null,
           "roles": [
             "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "ac484f1c-9893-553e-af1f-5cb3e582ed24",
+        "slug": "moline-us",
+        "entity_type": "PLACE",
+        "name": "Moline",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 41.5067,
+      "lng": -90.51513,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+          "slug": "deere",
+          "entity_type": "ORGANIZATION",
+          "name": "Deere",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "OEM"
           ]
         }
       ],
@@ -521,8 +550,8 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 10,
-      "places": 6
+      "weight": 11,
+      "places": 7
     },
     {
       "id": "JP",
@@ -815,6 +844,27 @@
         "slug": "luxembourg-lu",
         "entity_type": "PLACE",
         "name": "Luxembourg",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+        "slug": "deere",
+        "entity_type": "ORGANIZATION",
+        "name": "Deere",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "ac484f1c-9893-553e-af1f-5cb3e582ed24",
+        "slug": "moline-us",
+        "entity_type": "PLACE",
+        "name": "Moline",
         "primary_embodiment": null,
         "roles": []
       }

@@ -32,4 +32,24 @@ claims:
     excerpt: Khosla Ventures was established in 2004 (year precision).
     observed_at: '2026-09-11'
   qualifier: Year precision
+- predicate: INVESTED_IN
+  object: fieldai
+  valid_from: '2025-08-20'
+  qualifier: Investor participation disclosed by this date; individual investment amount not asserted
+  evidence:
+  - source: enrich-51ce1e151d0b9865
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Khosla Ventures is named as an investor in FieldAI in this company-issued disclosure.
+    observed_at: '2026-09-11'
+- predicate: INVESTED_IN
+  object: genesis-ai
+  valid_from: '2025-07-01'
+  qualifier: Investor participation disclosed by this date; individual investment amount not asserted
+  evidence:
+  - source: enrich-6a2b012e587ca6d1
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Khosla Ventures is named as an investor in Genesis AI in this company-issued disclosure.
+    observed_at: '2026-09-11'
 country_code: US

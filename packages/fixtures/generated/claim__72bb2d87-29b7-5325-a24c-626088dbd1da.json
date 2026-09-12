@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "72bb2d87-29b7-5325-a24c-626088dbd1da",
+    "subject": {
+      "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
+      "slug": "ontario-teachers-pension-plan",
+      "entity_type": "ORGANIZATION",
+      "name": "Ontario Teachers' Pension Plan",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Ontario Teachers' Pension Plan invested in Wayve",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+        "slug": "wayve",
+        "entity_type": "ORGANIZATION",
+        "name": "Wayve",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-02-25",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2ff79f41-f89b-5281-a0b2-22211daceda8",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Ontario Teachers' Pension Plan is named as an investor in Wayve in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "6c36122a-9f60-5d17-8bef-2cf018865434",
+        "url": "https://www.otpp.com/en-ca/about-us/news-and-insights/2026/wayve-secures-funding-to-deploy-global-autonomy-platform/",
+        "canonical_url": null,
+        "publisher": "Ontario Teachers' Pension Plan",
+        "title": "Ontario Teachers' Pension Plan — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

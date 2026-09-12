@@ -13,4 +13,24 @@ claims:
     confidence: HIGH
     excerpt: Invests in robotics companies including Genesis AI.
     observed_at: '2026-09-11'
+- predicate: INVESTED_IN
+  object: genesis-ai
+  valid_from: '2025-07-01'
+  qualifier: Investor participation disclosed by this date; individual investment amount not asserted
+  evidence:
+  - source: enrich-6a2b012e587ca6d1
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Eclipse Ventures is named as an investor in Genesis AI in this company-issued disclosure.
+    observed_at: '2026-09-11'
+- predicate: INVESTED_IN
+  object: wayve
+  valid_from: '2026-02-25'
+  qualifier: Investor participation disclosed by this date; individual investment amount not asserted
+  evidence:
+  - source: enrich-90c8bbd2daf1be05
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Eclipse Ventures is named as an investor in Wayve in this company-issued disclosure.
+    observed_at: '2026-09-11'
 country_code: US

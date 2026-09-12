@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "d43475e9-fe04-5d3f-8c85-6dbb38271159",
+    "subject": {
+      "id": "c003c24d-04e1-5841-903d-4887f13f4bc5",
+      "slug": "dcvc",
+      "entity_type": "ORGANIZATION",
+      "name": "DCVC",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "DCVC invested in Agility Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
+        "slug": "agility",
+        "entity_type": "ORGANIZATION",
+        "name": "Agility Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2022-04-22",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7c7f50fc-7163-5d0c-98c6-81fca85382c5",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "DCVC is named as an investor in Agility Robotics in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "60333ee0-7b92-51e3-a38b-fd216d16be7d",
+        "url": "https://www.agilityrobotics.com/content/agility-robotics-raises-150m-series-b-led-by-dcvc-and-playground-global",
+        "canonical_url": null,
+        "publisher": "DCVC",
+        "title": "DCVC — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

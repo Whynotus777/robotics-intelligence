@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "d6fdd6da-b59e-5574-a19f-e78c53a43936",
+    "subject": {
+      "id": "36062562-2d11-531a-849e-95516baf1f96",
+      "slug": "parkway-venture-capital",
+      "entity_type": "ORGANIZATION",
+      "name": "Parkway Venture Capital",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Parkway Venture Capital invested in Figure AI",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+        "slug": "figure-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Figure AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2025-09-16",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "57a94f5b-1cf0-59a2-a26d-247ae7fdba3b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Parkway Venture Capital is named as an investor in Figure AI in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1c61fce4-8274-50d5-b016-bcc9e19b5de8",
+        "url": "https://www.figure.ai/news/series-c",
+        "canonical_url": null,
+        "publisher": "LG Technology Ventures",
+        "title": "LG Technology Ventures — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

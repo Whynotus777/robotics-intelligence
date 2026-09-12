@@ -176,7 +176,58 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "8dce5b22-1b1d-59c7-9e53-60245db9c226",
+          "target": {
+            "id": "c9e9aebb-ae69-53e2-be08-17dc8d7e1606",
+            "slug": "agile-robots",
+            "entity_type": "ORGANIZATION",
+            "name": "Agile Robots",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "9a4ebda6-c7e0-5ea7-9885-de6c519a9323",
+          "target": {
+            "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+            "slug": "wayve",
+            "entity_type": "ORGANIZATION",
+            "name": "Wayve",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2024-05-07",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [
     {
       "predicate": "PART_OF",
@@ -233,6 +284,16 @@
   "lateral_links": {
     "company": [
       {
+        "id": "c9e9aebb-ae69-53e2-be08-17dc8d7e1606",
+        "slug": "agile-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Agile Robots",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      {
         "id": "01336b7b-0919-57e1-9ec6-946ab8f34a7b",
         "slug": "berkshire-grey",
         "entity_type": "ORGANIZATION",
@@ -252,25 +313,35 @@
           "INVESTOR",
           "PLATFORM"
         ]
+      },
+      {
+        "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+        "slug": "wayve",
+        "entity_type": "ORGANIZATION",
+        "name": "Wayve",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
       }
     ]
   },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 3,
         "THIRD_PARTY": 2,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 1
       },
-      "claim_count": 4,
+      "claim_count": 6,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 4,
+    "recent_change_count": 6,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 4
   },
   "as_of": null
 }

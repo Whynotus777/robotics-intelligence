@@ -163,12 +163,12 @@
     {
       "id": "INDUSTRIAL_ARM",
       "label": "Industrial arms",
-      "count": 3,
+      "count": 4,
       "districts": [
         {
           "id": "INDUSTRIAL_ARM",
           "label": "Industrial arms",
-          "count": 3,
+          "count": 4,
           "entities": [
             {
               "chip": {
@@ -176,6 +176,18 @@
                 "slug": "abb-irb-6700",
                 "entity_type": "ROBOT",
                 "name": "ABB IRB 6700",
+                "primary_embodiment": "INDUSTRIAL_ARM",
+                "roles": []
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "f32b66e2-50e6-5624-8913-18abdbb46560",
+                "slug": "kuka-kr-agilus",
+                "entity_type": "ROBOT",
+                "name": "KUKA KR AGILUS",
                 "primary_embodiment": "INDUSTRIAL_ARM",
                 "roles": []
               },

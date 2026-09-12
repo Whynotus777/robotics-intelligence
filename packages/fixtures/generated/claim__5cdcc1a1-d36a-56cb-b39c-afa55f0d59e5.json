@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "5cdcc1a1-d36a-56cb-b39c-afa55f0d59e5",
+    "subject": {
+      "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
+      "slug": "deere",
+      "entity_type": "ORGANIZATION",
+      "name": "Deere",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Deere role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1ae5ea7d-71b0-52d5-a669-8efcc959a2cb",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Deere is named as an investor in Apptronik in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "cd43b74a-f510-53d2-9fae-dff459f3cd26",
+        "url": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+        "canonical_url": null,
+        "publisher": "B Capital",
+        "title": "B Capital — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "da48f3e9-acad-5952-8516-49e43991b493",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

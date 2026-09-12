@@ -18,6 +18,16 @@
   },
   "roles": [
     {
+      "role": "INVESTOR",
+      "declared": true,
+      "claim_id": "5cdcc1a1-d36a-56cb-b39c-afa55f0d59e5",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    },
+    {
       "role": "OEM",
       "declared": true,
       "claim_id": "da48f3e9-acad-5952-8516-49e43991b493",
@@ -67,6 +77,52 @@
       ]
     },
     {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "5cdcc1a1-d36a-56cb-b39c-afa55f0d59e5",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "INVESTOR"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "da48f3e9-acad-5952-8516-49e43991b493",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OEM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HAS_TICKER",
       "label": "stock ticker",
       "claims": [
@@ -91,24 +147,28 @@
           }
         }
       ]
-    },
+    }
+  ],
+  "relationships": [
     {
-      "predicate": "HAS_ROLE",
-      "label": "role",
-      "claims": [
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
         {
-          "claim_id": "da48f3e9-acad-5952-8516-49e43991b493",
-          "predicate": "HAS_ROLE",
-          "value": {
-            "kind": "enum",
-            "value": "OEM"
+          "claim_id": "4e545a81-38f0-5030-b0f5-5892ea34ce42",
+          "target": {
+            "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
+            "slug": "apptronik",
+            "entity_type": "ORGANIZATION",
+            "name": "Apptronik",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
           },
           "stack_layer": null,
-          "qualifier": null,
-          "valid_from": "2026-09-11",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-02-11",
           "has_evidence": true,
           "evidence_summary": {
             "class": "PRIMARY",
@@ -117,9 +177,7 @@
           }
         }
       ]
-    }
-  ],
-  "relationships": [
+    },
     {
       "predicate": "HQ_AT",
       "label": "is headquartered at",
@@ -149,6 +207,18 @@
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
+        "slug": "apptronik",
+        "entity_type": "ORGANIZATION",
+        "name": "Apptronik",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "ac484f1c-9893-553e-af1f-5cb3e582ed24",
@@ -163,19 +233,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 3,
         "THIRD_PARTY": 3,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 4,
+      "claim_count": 6,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 4,
+    "recent_change_count": 6,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

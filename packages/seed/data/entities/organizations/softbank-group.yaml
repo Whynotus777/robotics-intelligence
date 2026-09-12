@@ -47,4 +47,24 @@ claims:
     confidence: MEDIUM
     excerpt: SoftBank Group is listed as TSE:9984.
     observed_at: '2026-09-11'
+- predicate: INVESTED_IN
+  object: wayve
+  valid_from: '2024-05-07'
+  qualifier: Investor participation disclosed by this date; individual investment amount not asserted
+  evidence:
+  - source: enrich-d6bd75c3b5cde232
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: SoftBank Group is named as an investor in Wayve in this company-issued disclosure.
+    observed_at: '2026-09-11'
+- predicate: INVESTED_IN
+  object: agile-robots
+  valid_from: '2026-09-11'
+  qualifier: Investor participation disclosed by this date; individual investment amount not asserted
+  evidence:
+  - source: enrich-26d7e09fd6261475
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Agile Robots identifies SoftBank as its anchor investor; this does not establish parent control.
+    observed_at: '2026-09-11'
 country_code: JP

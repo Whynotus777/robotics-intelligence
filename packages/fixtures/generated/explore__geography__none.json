@@ -865,6 +865,7 @@
                 "name": "Deere",
                 "primary_embodiment": null,
                 "roles": [
+                  "INVESTOR",
                   "OEM"
                 ]
               },
@@ -4778,12 +4779,12 @@
     {
       "id": "DE",
       "label": "DE",
-      "count": 46,
+      "count": 47,
       "districts": [
         {
           "id": "DE",
           "label": "DE",
-          "count": 46,
+          "count": 47,
           "entities": [
             {
               "chip": {
@@ -5094,6 +5095,18 @@
                 "roles": [
                   "OEM"
                 ]
+              },
+              "measure_value": null,
+              "is_primary_membership": true
+            },
+            {
+              "chip": {
+                "id": "f32b66e2-50e6-5624-8913-18abdbb46560",
+                "slug": "kuka-kr-agilus",
+                "entity_type": "ROBOT",
+                "name": "KUKA KR AGILUS",
+                "primary_embodiment": "INDUSTRIAL_ARM",
+                "roles": []
               },
               "measure_value": null,
               "is_primary_membership": true

@@ -15,6 +15,16 @@
   },
   "roles": [
     {
+      "role": "INVESTOR",
+      "declared": true,
+      "claim_id": "53a22724-c21b-5352-959a-56ff7e6c2b65",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    },
+    {
       "role": "PLATFORM",
       "declared": true,
       "claim_id": "b2412eac-948e-5014-840d-25d844566999",
@@ -57,6 +67,26 @@
       "label": "role",
       "claims": [
         {
+          "claim_id": "53a22724-c21b-5352-959a-56ff7e6c2b65",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "INVESTOR"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "b2412eac-948e-5014-840d-25d844566999",
           "predicate": "HAS_ROLE",
           "value": {
@@ -79,7 +109,37 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "66b8d9c0-18f6-5c7f-90fe-1f86bf6dd0b7",
+          "target": {
+            "id": "30732daf-8b5f-56bf-885c-a40749a12219",
+            "slug": "neura-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Neura Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-06-10",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [
     {
       "predicate": "PART_OF",
@@ -121,25 +181,36 @@
         "roles": [
           "COMPONENT_SUPPLIER"
         ]
+      },
+      {
+        "id": "30732daf-8b5f-56bf-885c-a40749a12219",
+        "slug": "neura-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Neura Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
       }
     ]
   },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 0,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 1
       },
-      "claim_count": 1,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 1,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

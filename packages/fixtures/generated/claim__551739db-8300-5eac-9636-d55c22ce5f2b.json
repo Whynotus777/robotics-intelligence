@@ -1,0 +1,61 @@
+{
+  "claim": {
+    "claim_id": "551739db-8300-5eac-9636-d55c22ce5f2b",
+    "subject": {
+      "id": "f32b66e2-50e6-5624-8913-18abdbb46560",
+      "slug": "kuka-kr-agilus",
+      "entity_type": "ROBOT",
+      "name": "KUKA KR AGILUS",
+      "primary_embodiment": "INDUSTRIAL_ARM",
+      "roles": []
+    },
+    "predicate": "USES_PRODUCT",
+    "label": "uses",
+    "sentence": "KUKA KR AGILUS uses Kollmorgen AKM servo motors",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "2f19277c-8f76-5ded-82b7-a9f747091010",
+        "slug": "kollmorgen-akm",
+        "entity_type": "COMPONENT_PRODUCT",
+        "name": "Kollmorgen AKM servo motors",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": "ACTUATION",
+    "qualifier": "Customized AKM variants documented by supplier; exact motor configuration varies by robot",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c5abcac4-89d7-545f-944f-06a3fbea18b4",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Kollmorgen describes customized AKM synchronous servo motors used in KUKA KR AGILUS robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "09114e2c-71ff-50ec-aac0-f01ed1bd9c19",
+        "url": "https://www.kollmorgen.com/sites/default/files/2025-02/Kuka%20and%20Kollmorgen%20Collaboratively%20Engineer%20Optimized%20Motors_SU_KM_SS_RevB_English.pdf",
+        "canonical_url": null,
+        "publisher": "Kollmorgen",
+        "title": "Kollmorgen — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

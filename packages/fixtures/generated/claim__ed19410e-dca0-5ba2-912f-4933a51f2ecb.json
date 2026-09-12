@@ -1,0 +1,88 @@
+{
+  "claim": {
+    "claim_id": "ed19410e-dca0-5ba2-912f-4933a51f2ecb",
+    "subject": {
+      "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
+      "slug": "eclipse-ventures",
+      "entity_type": "ORGANIZATION",
+      "name": "Eclipse Ventures",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Eclipse Ventures invested in Genesis AI",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+        "slug": "genesis-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Genesis AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2025-07-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "73fcbad8-1e2d-5bcc-bf94-79a9e24c6752",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Eclipse Ventures is named as an investor in Genesis AI in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "490360cc-7482-5fec-9aa3-23f4dcdf8344",
+        "url": "https://www.prnewswire.com/news-releases/genesis-ai-emerges-from-stealth-with-105m-to-build-universal-robotics-foundation-model-and-horizontal-platform-for-general-purpose-physical-ai-302495016.html",
+        "canonical_url": null,
+        "publisher": "Genesis AI",
+        "title": "Genesis AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "7591e2cd-e110-53ad-9388-6d8ccc598bd2",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+          "slug": "wayve",
+          "entity_type": "ORGANIZATION",
+          "name": "Wayve",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+      "valid_from": "2026-02-25",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

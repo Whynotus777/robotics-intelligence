@@ -1,0 +1,147 @@
+{
+  "entity": {
+    "id": "2f19277c-8f76-5ded-82b7-a9f747091010",
+    "slug": "kollmorgen-akm",
+    "entity_type": "COMPONENT_PRODUCT",
+    "name": "Kollmorgen AKM servo motors",
+    "short_description": "Synchronous servo motor family with customized versions used in KUKA KR AGILUS robots.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": null,
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [],
+  "relationships": [
+    {
+      "predicate": "MADE_BY",
+      "label": "is made by",
+      "items": [
+        {
+          "claim_id": "1430ea7c-b2d0-546d-8e8b-d86de055956f",
+          "target": {
+            "id": "e86f3cac-3313-56ce-a062-28c71633fcde",
+            "slug": "kollmorgen",
+            "entity_type": "ORGANIZATION",
+            "name": "Kollmorgen",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [
+    {
+      "predicate": "USES_PRODUCT",
+      "label": "uses",
+      "items": [
+        {
+          "claim_id": "551739db-8300-5eac-9636-d55c22ce5f2b",
+          "source": {
+            "id": "f32b66e2-50e6-5624-8913-18abdbb46560",
+            "slug": "kuka-kr-agilus",
+            "entity_type": "ROBOT",
+            "name": "KUKA KR AGILUS",
+            "primary_embodiment": "INDUSTRIAL_ARM",
+            "roles": []
+          },
+          "stack_layer": "ACTUATION",
+          "qualifier": "Customized AKM variants documented by supplier; exact motor configuration varies by robot",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "PROVIDES",
+      "label": "provides",
+      "items": [
+        {
+          "claim_id": "aeeed04c-90ea-55e6-be84-590c5c93a15c",
+          "source": {
+            "id": "e86f3cac-3313-56ce-a062-28c71633fcde",
+            "slug": "kollmorgen",
+            "entity_type": "ORGANIZATION",
+            "name": "Kollmorgen",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "e86f3cac-3313-56ce-a062-28c71633fcde",
+        "slug": "kollmorgen",
+        "entity_type": "ORGANIZATION",
+        "name": "Kollmorgen",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 1,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 1,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 1,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

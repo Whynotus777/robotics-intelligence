@@ -32,4 +32,14 @@ claims:
     excerpt: Balderton Capital was established in 2000 (year precision).
     observed_at: '2026-09-11'
   qualifier: Year precision
+- predicate: INVESTED_IN
+  object: wayve
+  valid_from: '2026-02-25'
+  qualifier: Investor participation disclosed by this date; individual investment amount not asserted
+  evidence:
+  - source: enrich-90c8bbd2daf1be05
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Balderton Capital is named as an investor in Wayve in this company-issued disclosure.
+    observed_at: '2026-09-11'
 country_code: GB

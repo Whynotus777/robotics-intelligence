@@ -1,0 +1,83 @@
+{
+  "claim": {
+    "claim_id": "85c8658b-a6c9-5cf7-bb31-67eab8a7ebdb",
+    "subject": {
+      "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+      "slug": "kuka",
+      "entity_type": "ORGANIZATION",
+      "name": "KUKA",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "BUILDS",
+    "label": "builds",
+    "sentence": "KUKA builds KUKA KR AGILUS",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "f32b66e2-50e6-5624-8913-18abdbb46560",
+        "slug": "kuka-kr-agilus",
+        "entity_type": "ROBOT",
+        "name": "KUKA KR AGILUS",
+        "primary_embodiment": "INDUSTRIAL_ARM",
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d8f80ca8-9414-57aa-bccb-d6d4d24a7737",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Kollmorgen describes customized AKM synchronous servo motors used in KUKA KR AGILUS robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "09114e2c-71ff-50ec-aac0-f01ed1bd9c19",
+        "url": "https://www.kollmorgen.com/sites/default/files/2025-02/Kuka%20and%20Kollmorgen%20Collaboratively%20Engineer%20Optimized%20Motors_SU_KM_SS_RevB_English.pdf",
+        "canonical_url": null,
+        "publisher": "Kollmorgen",
+        "title": "Kollmorgen — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "ad1ef078-fdc7-506a-9332-8f7616648fb6",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "fca9f317-0e6b-54a4-97ca-ff54a37b4c49",
+          "slug": "kuka-kr-quantec",
+          "entity_type": "ROBOT",
+          "name": "KUKA KR QUANTEC",
+          "primary_embodiment": "INDUSTRIAL_ARM",
+          "roles": []
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

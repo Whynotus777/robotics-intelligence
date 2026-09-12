@@ -1,0 +1,22 @@
+slug: kuka-kr-agilus
+entity_type: ROBOT
+name: KUKA KR AGILUS
+short_description: Compact industrial robot family using customized Kollmorgen AKM servo motors.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_EMBODIMENT
+  enum: INDUSTRIAL_ARM
+  evidence: &id001
+  - source: enrich-ff295e659bb129c5
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Kollmorgen describes customized AKM synchronous servo motors used in KUKA KR AGILUS robots.
+    observed_at: '2026-09-11'
+- predicate: USES_PRODUCT
+  object: kollmorgen-akm
+  stack_layer: ACTUATION
+  valid_from: '2026-09-11'
+  qualifier: Customized AKM variants documented by supplier; exact motor configuration varies by robot
+  evidence: *id001
+primary_embodiment: INDUSTRIAL_ARM
+country_code: DE

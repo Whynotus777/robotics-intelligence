@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "3e23ae86-57c0-5459-998b-988366e61f08",
+    "subject": {
+      "id": "cb0783b9-f236-5ced-be66-2c0e79851011",
+      "slug": "delta-electronics",
+      "entity_type": "ORGANIZATION",
+      "name": "Delta Electronics",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Delta Electronics invested in Neura Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "30732daf-8b5f-56bf-885c-a40749a12219",
+        "slug": "neura-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Neura Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2025-01-15",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "999d04b4-778f-5ae9-9549-24c599c735ee",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Delta Electronics is named as an investor in NEURA Robotics in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "70d72ff9-8d78-5fa2-9c25-23677f6630ca",
+        "url": "https://neura-robotics.com/neura-robotics-secures-euro-120-million-series-b/",
+        "canonical_url": null,
+        "publisher": "Lingotto Investment Management",
+        "title": "Lingotto Investment Management — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

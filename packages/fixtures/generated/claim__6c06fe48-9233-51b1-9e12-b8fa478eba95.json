@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "6c06fe48-9233-51b1-9e12-b8fa478eba95",
+    "subject": {
+      "id": "179eaee3-6383-554a-be7e-0332bb7f2284",
+      "slug": "peak6",
+      "entity_type": "ORGANIZATION",
+      "name": "Peak6",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Peak6 invested in Apptronik",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c2979d53-617e-53e8-a05c-76a0567a843f",
+        "slug": "apptronik",
+        "entity_type": "ORGANIZATION",
+        "name": "Apptronik",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-02-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e5d5bfce-8faf-55de-84df-b38c8094696a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Peak6 is named as an investor in Apptronik in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "cd43b74a-f510-53d2-9fae-dff459f3cd26",
+        "url": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+        "canonical_url": null,
+        "publisher": "B Capital",
+        "title": "B Capital — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

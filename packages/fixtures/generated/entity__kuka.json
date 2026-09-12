@@ -205,6 +205,26 @@
       "label": "builds",
       "items": [
         {
+          "claim_id": "85c8658b-a6c9-5cf7-bb31-67eab8a7ebdb",
+          "target": {
+            "id": "f32b66e2-50e6-5624-8913-18abdbb46560",
+            "slug": "kuka-kr-agilus",
+            "entity_type": "ROBOT",
+            "name": "KUKA KR AGILUS",
+            "primary_embodiment": "INDUSTRIAL_ARM",
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "ad1ef078-fdc7-506a-9332-8f7616648fb6",
           "target": {
             "id": "fca9f317-0e6b-54a4-97ca-ff54a37b4c49",
@@ -338,19 +358,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 7,
+        "PRIMARY": 8,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 7,
+      "claim_count": 8,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 7,
+    "recent_change_count": 8,
     "deployment_count": 0,
-    "related_count": 8
+    "related_count": 9
   },
   "as_of": null
 }

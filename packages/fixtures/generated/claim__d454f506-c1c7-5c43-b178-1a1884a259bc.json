@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "d454f506-c1c7-5c43-b178-1a1884a259bc",
+    "subject": {
+      "id": "20e6b355-f8b7-55bb-b192-6d02eb96c575",
+      "slug": "playground-global",
+      "entity_type": "ORGANIZATION",
+      "name": "Playground Global",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Playground Global invested in Agility Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "96419933-86cf-5dc0-8cbf-10bd8562aa40",
+        "slug": "agility",
+        "entity_type": "ORGANIZATION",
+        "name": "Agility Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2022-04-22",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2a5b935b-466b-5c10-9c86-6400532d26da",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Playground Global is named as an investor in Agility Robotics in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "60333ee0-7b92-51e3-a38b-fd216d16be7d",
+        "url": "https://www.agilityrobotics.com/content/agility-robotics-raises-150m-series-b-led-by-dcvc-and-playground-global",
+        "canonical_url": null,
+        "publisher": "DCVC",
+        "title": "DCVC — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

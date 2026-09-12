@@ -1,0 +1,89 @@
+{
+  "claim": {
+    "claim_id": "231b786e-a8eb-53db-95d6-145249f13050",
+    "subject": {
+      "id": "d15ae925-8092-5907-8703-87a3b98eb9f8",
+      "slug": "lg-technology-ventures",
+      "entity_type": "ORGANIZATION",
+      "name": "LG Technology Ventures",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "LG Technology Ventures invested in Figure AI",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b98379a2-fa93-561a-b8ac-4d4e2bc02bef",
+        "slug": "figure-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Figure AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2025-09-16",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6049dfe5-1ade-5150-8730-7f870b1f634a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "LG Technology Ventures is named as an investor in Figure AI in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1c61fce4-8274-50d5-b016-bcc9e19b5de8",
+        "url": "https://www.figure.ai/news/series-c",
+        "canonical_url": null,
+        "publisher": "LG Technology Ventures",
+        "title": "LG Technology Ventures — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "c6929fc2-75d2-5013-81d8-b7ffb5fe713e",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "a19bf5f6-db27-5318-ae20-28be53104b40",
+          "slug": "dyna-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Dyna Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+      "valid_from": "2025-09-15",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

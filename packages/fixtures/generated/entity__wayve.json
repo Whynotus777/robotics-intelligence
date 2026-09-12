@@ -118,8 +118,147 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "72bb2d87-29b7-5325-a24c-626088dbd1da",
+          "source": {
+            "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
+            "slug": "ontario-teachers-pension-plan",
+            "entity_type": "ORGANIZATION",
+            "name": "Ontario Teachers' Pension Plan",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-02-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "7591e2cd-e110-53ad-9388-6d8ccc598bd2",
+          "source": {
+            "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
+            "slug": "eclipse-ventures",
+            "entity_type": "ORGANIZATION",
+            "name": "Eclipse Ventures",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-02-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "75d22167-023c-5eed-a918-a26f830446fb",
+          "source": {
+            "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
+            "slug": "balderton-capital",
+            "entity_type": "ORGANIZATION",
+            "name": "Balderton Capital",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-02-25",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "9a4ebda6-c7e0-5ea7-9885-de6c519a9323",
+          "source": {
+            "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+            "slug": "softbank-group",
+            "entity_type": "ORGANIZATION",
+            "name": "SoftBank Group",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2024-05-07",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
+        "slug": "balderton-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "Balderton Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
+        "slug": "eclipse-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "Eclipse Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
+        "slug": "ontario-teachers-pension-plan",
+        "entity_type": "ORGANIZATION",
+        "name": "Ontario Teachers' Pension Plan",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+        "slug": "softbank-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
@@ -146,7 +285,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 5
   },
   "as_of": null
 }

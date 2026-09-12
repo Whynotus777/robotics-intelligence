@@ -23,4 +23,24 @@ claims:
     confidence: HIGH
     excerpt: NVentures is part of NVIDIA.
     observed_at: '2026-09-11'
+- predicate: INVESTED_IN
+  object: fieldai
+  valid_from: '2025-08-20'
+  qualifier: Investor participation disclosed by this date; individual investment amount not asserted
+  evidence:
+  - source: enrich-51ce1e151d0b9865
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: NVentures is named as an investor in FieldAI in this company-issued disclosure.
+    observed_at: '2026-09-11'
+- predicate: INVESTED_IN
+  object: dyna-robotics
+  valid_from: '2025-09-15'
+  qualifier: Investor participation disclosed by this date; individual investment amount not asserted
+  evidence:
+  - source: enrich-ff1f49b216ea1e25
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: NVentures is named as an investor in Dyna Robotics in this company-issued disclosure.
+    observed_at: '2026-09-11'
 country_code: US

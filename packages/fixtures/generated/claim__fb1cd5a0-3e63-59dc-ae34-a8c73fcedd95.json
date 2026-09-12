@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "fb1cd5a0-3e63-59dc-ae34-a8c73fcedd95",
+    "subject": {
+      "id": "3cf799cd-ef80-5485-bef6-1659559a102f",
+      "slug": "hv-capital",
+      "entity_type": "ORGANIZATION",
+      "name": "HV Capital",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "HV Capital invested in Neura Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "30732daf-8b5f-56bf-885c-a40749a12219",
+        "slug": "neura-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Neura Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2025-01-15",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "aeb609b8-9757-5ed1-a038-0a3ef112fc8a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "HV Capital is named as an investor in NEURA Robotics in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "70d72ff9-8d78-5fa2-9c25-23677f6630ca",
+        "url": "https://neura-robotics.com/neura-robotics-secures-euro-120-million-series-b/",
+        "canonical_url": null,
+        "publisher": "Lingotto Investment Management",
+        "title": "Lingotto Investment Management — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

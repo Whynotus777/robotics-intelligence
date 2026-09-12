@@ -147,8 +147,81 @@
       ]
     }
   ],
-  "inbound_relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "74f4c19c-7cad-5b3b-9216-646ae4d83007",
+          "source": {
+            "id": "0f0678f4-c5c3-5709-abe5-630cd85dbb65",
+            "slug": "eqt-ventures",
+            "entity_type": "ORGANIZATION",
+            "name": "EQT Ventures",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d84dbc1f-aa55-5654-8c2c-a01097ceebcf",
+          "source": {
+            "id": "c906ef27-da2f-5c6e-8413-0e16d30f66d4",
+            "slug": "openai",
+            "entity_type": "ORGANIZATION",
+            "name": "OpenAI",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "lateral_links": {
+    "company": [
+      {
+        "id": "0f0678f4-c5c3-5709-abe5-630cd85dbb65",
+        "slug": "eqt-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "EQT Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "c906ef27-da2f-5c6e-8413-0e16d30f66d4",
+        "slug": "openai",
+        "entity_type": "ORGANIZATION",
+        "name": "OpenAI",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      }
+    ],
     "markets": [
       {
         "id": "8b8c0af0-2404-5bd1-9a00-ae94406f4b1b",
@@ -185,7 +258,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 5
   },
   "as_of": null
 }

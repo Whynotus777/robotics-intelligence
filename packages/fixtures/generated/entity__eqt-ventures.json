@@ -92,6 +92,34 @@
   ],
   "relationships": [
     {
+      "predicate": "INVESTED_IN",
+      "label": "invested in",
+      "items": [
+        {
+          "claim_id": "74f4c19c-7cad-5b3b-9216-646ae4d83007",
+          "target": {
+            "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
+            "slug": "onex-technologies",
+            "entity_type": "ORGANIZATION",
+            "name": "1X Technologies",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HQ_AT",
       "label": "is headquartered at",
       "items": [
@@ -120,6 +148,18 @@
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
+        "slug": "onex-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "1X Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "4d0fff86-620b-5fcd-b8d9-ccb1fb0b0b2f",
@@ -134,19 +174,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 2,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

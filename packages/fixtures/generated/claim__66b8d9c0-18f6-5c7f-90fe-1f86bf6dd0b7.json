@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "66b8d9c0-18f6-5c7f-90fe-1f86bf6dd0b7",
+    "subject": {
+      "id": "9e64fd03-d82d-5ace-8ae3-e7174f30d6e7",
+      "slug": "schaeffler",
+      "entity_type": "ORGANIZATION",
+      "name": "Schaeffler",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "INVESTED_IN",
+    "label": "invested in",
+    "sentence": "Schaeffler invested in Neura Robotics",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "30732daf-8b5f-56bf-885c-a40749a12219",
+        "slug": "neura-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Neura Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Investor participation disclosed by this date; individual investment amount not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-06-10",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6bbf0810-41c6-5f5d-9b05-b5c28d69f837",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Schaeffler is named as an investor in NEURA Robotics in this company-issued disclosure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8a752429-445e-570a-ab05-c968debdc6b1",
+        "url": "https://neura-robotics.com/record-series-c/",
+        "canonical_url": null,
+        "publisher": "Neura Robotics",
+        "title": "Neura Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}
