@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Invests in robotics companies including Agility Robotics.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: palo-alto-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-1b8e4e0f809272c3
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Playground Global is headquartered in Palo Alto.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2015-01-01'
+  valid_from: '2015-01-01'
+  evidence:
+  - source: enrich-1b8e4e0f809272c3
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Playground Global was established in 2015 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: US

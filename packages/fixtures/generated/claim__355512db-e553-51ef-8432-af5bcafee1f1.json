@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "355512db-e553-51ef-8432-af5bcafee1f1",
+    "subject": {
+      "id": "6d2acc87-aa2d-5831-a6ab-1b611b18955d",
+      "slug": "pony-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Pony.ai",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Pony.ai was founded on 2016-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2016-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2016-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "82363c56-7562-5e1d-80c9-aee542aba5af",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Pony.ai was established in 2016 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d3a69811-c343-5187-a6f6-263326b138ab",
+        "url": "https://www.wikidata.org/wiki/Q65056153",
+        "canonical_url": null,
+        "publisher": "Pony.ai",
+        "title": "Pony.ai — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,130 @@
+{
+  "entity": {
+    "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+    "slug": "menlo-park-us",
+    "entity_type": "PLACE",
+    "name": "Menlo Park",
+    "short_description": null,
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": null,
+    "city": "Menlo Park",
+    "lat": 40.51872,
+    "lng": -74.4121,
+    "cluster_label": null
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "38fcd669-3582-55ab-accf-9e4cf0c08ef0",
+          "source": {
+            "id": "adbc0f95-691a-5e06-aa4a-43b499df9f12",
+            "slug": "sequoia-capital",
+            "entity_type": "ORGANIZATION",
+            "name": "Sequoia Capital",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "547d404a-e2c9-5fa8-ab67-467e4399ee4e",
+          "source": {
+            "id": "22d976e0-3c83-50e0-8102-bd2c1881a83c",
+            "slug": "khosla-ventures",
+            "entity_type": "ORGANIZATION",
+            "name": "Khosla Ventures",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "22d976e0-3c83-50e0-8102-bd2c1881a83c",
+        "slug": "khosla-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "Khosla Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "adbc0f95-691a-5e06-aa4a-43b499df9f12",
+        "slug": "sequoia-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "Sequoia Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

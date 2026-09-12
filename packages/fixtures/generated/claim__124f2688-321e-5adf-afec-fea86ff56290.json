@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "124f2688-321e-5adf-afec-fea86ff56290",
+    "subject": {
+      "id": "786d50dd-7afa-5ca5-b720-09b31c1f38a8",
+      "slug": "vanderlande",
+      "entity_type": "ORGANIZATION",
+      "name": "Vanderlande",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Vanderlande is headquartered at Veghel",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "4d98aae5-4456-5f2f-8050-66d75c9fe99f",
+        "slug": "veghel-nl",
+        "entity_type": "PLACE",
+        "name": "Veghel",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "319a9046-3d47-5960-a174-0ca3a800e6ed",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Vanderlande is headquartered in Veghel.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "fbcf898e-41fa-5c54-839f-0805e1338155",
+        "url": "https://www.wikidata.org/wiki/Q1336411",
+        "canonical_url": null,
+        "publisher": "Vanderlande",
+        "title": "Vanderlande — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

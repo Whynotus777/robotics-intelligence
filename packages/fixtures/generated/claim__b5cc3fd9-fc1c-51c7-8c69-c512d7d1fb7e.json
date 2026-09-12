@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "b5cc3fd9-fc1c-51c7-8c69-c512d7d1fb7e",
+    "subject": {
+      "id": "2e11a936-9415-5681-81e1-1b3f7b5e959f",
+      "slug": "weride",
+      "entity_type": "ORGANIZATION",
+      "name": "WeRide",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "WeRide is headquartered at Guangzhou",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "0426073c-0ee2-52b4-b47c-46bf6eb49c73",
+        "slug": "guangzhou-cn",
+        "entity_type": "PLACE",
+        "name": "Guangzhou",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e40f157c-a13c-5697-951c-bf69a3ce97d8",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "WeRide is headquartered in Guangzhou.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "cb7430c0-3565-5738-aaa4-df01b1ff6727",
+        "url": "https://www.wikidata.org/wiki/Q112892633",
+        "canonical_url": null,
+        "publisher": "WeRide",
+        "title": "WeRide — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

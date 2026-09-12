@@ -33,8 +33,50 @@
   },
   "claims": [],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "1621864e-36c0-5d71-92e2-c55a9cecb05a",
+          "source": {
+            "id": "8e8c2e6b-0edf-52e6-a99a-20d0065dbb25",
+            "slug": "ecovacs-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Ecovacs Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "8e8c2e6b-0edf-52e6-a99a-20d0065dbb25",
+        "slug": "ecovacs-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Ecovacs Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -50,7 +92,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "8602ca48-616d-520f-bcd2-3c21b66718d2",
+    "subject": {
+      "id": "517baf4b-df10-5fad-a844-0e3029433d74",
+      "slug": "sharkninja",
+      "entity_type": "ORGANIZATION",
+      "name": "SharkNinja",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "SharkNinja is headquartered at Needham",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d6d2cf4f-8c1f-54dc-8f8d-51607ae44805",
+        "slug": "needham-us",
+        "entity_type": "PLACE",
+        "name": "Needham",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a705637e-a5bb-5a1d-9c73-f6ad42e17cf0",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "SharkNinja is headquartered in Needham.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "7cdc9cc7-8e11-5891-b08c-ef808c298a00",
+        "url": "https://www.wikidata.org/wiki/Q97164583",
+        "canonical_url": null,
+        "publisher": "SharkNinja",
+        "title": "SharkNinja — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

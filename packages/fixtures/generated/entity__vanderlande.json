@@ -90,25 +90,63 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "124f2688-321e-5adf-afec-fea86ff56290",
+          "target": {
+            "id": "4d98aae5-4456-5f2f-8050-66d75c9fe99f",
+            "slug": "veghel-nl",
+            "entity_type": "PLACE",
+            "name": "Veghel",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "places": [
+      {
+        "id": "4d98aae5-4456-5f2f-8050-66d75c9fe99f",
+        "slug": "veghel-nl",
+        "entity_type": "PLACE",
+        "name": "Veghel",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
         "PRIMARY": 2,
-        "THIRD_PARTY": 0,
+        "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

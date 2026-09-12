@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "a43cebf1-94e9-5583-bb97-7a2f36978792",
+    "subject": {
+      "id": "2cb5d7b9-060f-54d2-b610-63fd6f22b06d",
+      "slug": "european-investment-bank",
+      "entity_type": "ORGANIZATION",
+      "name": "European Investment Bank",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "European Investment Bank is headquartered at Luxembourg",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "fb67052e-e0d6-5f34-a403-5de6253629e8",
+        "slug": "luxembourg-lu",
+        "entity_type": "PLACE",
+        "name": "Luxembourg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0d8d7007-3f67-5f58-862f-3109c3c6ba91",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "European Investment Bank is headquartered in Luxembourg.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "22f991d8-6eeb-5f7e-8820-61b5f03c54a7",
+        "url": "https://www.wikidata.org/wiki/Q192247",
+        "canonical_url": null,
+        "publisher": "European Investment Bank",
+        "title": "European Investment Bank — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

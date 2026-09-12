@@ -39,6 +39,29 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "17d1d7c9-a8b2-5139-b96a-50de18bd01ed",
+          "source": {
+            "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
+            "slug": "baidu",
+            "entity_type": "ORGANIZATION",
+            "name": "Baidu",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "5f6d1838-c184-5037-a9c4-02e8a570222d",
           "source": {
             "id": "71d897d0-4c79-5632-9553-b8e6029bbde3",
@@ -104,12 +127,57 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "d722cb10-24a7-5c19-85cd-f1981feecb66",
+          "source": {
+            "id": "dafdc220-f204-5ad5-9e31-674bc0a986b1",
+            "slug": "bytedance",
+            "entity_type": "ORGANIZATION",
+            "name": "ByteDance",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
+        "slug": "baidu",
+        "entity_type": "ORGANIZATION",
+        "name": "Baidu",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      {
+        "id": "dafdc220-f204-5ad5-9e31-674bc0a986b1",
+        "slug": "bytedance",
+        "entity_type": "ORGANIZATION",
+        "name": "ByteDance",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
       {
         "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
         "slug": "galbot",
@@ -158,7 +226,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 5
   },
   "as_of": null
 }

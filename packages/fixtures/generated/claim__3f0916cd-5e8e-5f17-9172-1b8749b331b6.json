@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3f0916cd-5e8e-5f17-9172-1b8749b331b6",
+    "subject": {
+      "id": "8f8d645d-4ac0-50e6-b880-4df0b5229e47",
+      "slug": "irobot",
+      "entity_type": "ORGANIZATION",
+      "name": "iRobot",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "iRobot was founded on 1990-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1990-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1990-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2b5a3e04-da0e-5577-9d10-7df97140d58a",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "iRobot was established in 1990 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "31a1e858-fa8f-5f66-ae98-d64e0d2853f8",
+        "url": "https://www.wikidata.org/wiki/Q285161",
+        "canonical_url": null,
+        "publisher": "iRobot",
+        "title": "iRobot — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

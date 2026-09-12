@@ -35,37 +35,32 @@
   "relationships": [],
   "inbound_relationships": [
     {
-      "predicate": "MANUFACTURES_AT",
-      "label": "manufactures at",
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
       "items": [
         {
-          "claim_id": "2457f1fe-ef81-51be-9a98-4393a92c2ee7",
+          "claim_id": "2003a070-a6e6-55c9-826e-708aec8361c5",
           "source": {
-            "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
-            "slug": "dji",
+            "id": "738faacd-b6ff-50f9-8ee9-e116282284dc",
+            "slug": "shenzhen-inovance-technology",
             "entity_type": "ORGANIZATION",
-            "name": "DJI",
+            "name": "Shenzhen Inovance Technology",
             "primary_embodiment": null,
             "roles": [
+              "COMPONENT_SUPPLIER",
               "OEM"
             ]
           },
           "stack_layer": null,
           "qualifier": null,
-          "valid_from": "2026-09-01",
+          "valid_from": "2026-09-11",
           "has_evidence": true,
           "evidence_summary": {
-            "class": "PRIMARY",
+            "class": "THIRD_PARTY",
             "confidence": "MEDIUM",
             "source_count": 1
           }
-        }
-      ]
-    },
-    {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
-      "items": [
+        },
         {
           "claim_id": "256a1a81-3c27-5df1-84fc-f47bafba4b5c",
           "source": {
@@ -108,6 +103,28 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "993d506b-78d5-58b8-ad78-2c49abeaba5b",
+          "source": {
+            "id": "5b1f1358-9f7b-56b2-ab93-e6f3e896dacb",
+            "slug": "pudu-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Pudu Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
             "source_count": 1
           }
         },
@@ -246,6 +263,34 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "MANUFACTURES_AT",
+      "label": "manufactures at",
+      "items": [
+        {
+          "claim_id": "2457f1fe-ef81-51be-9a98-4393a92c2ee7",
+          "source": {
+            "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
+            "slug": "dji",
+            "entity_type": "ORGANIZATION",
+            "name": "DJI",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-01",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "lateral_links": {
@@ -292,6 +337,16 @@
         ]
       },
       {
+        "id": "5b1f1358-9f7b-56b2-ab93-e6f3e896dacb",
+        "slug": "pudu-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Pudu Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      {
         "id": "676c89fa-bb92-58f8-aa70-0b9db354c956",
         "slug": "robosense",
         "entity_type": "ORGANIZATION",
@@ -300,6 +355,17 @@
         "roles": [
           "CHIPMAKER",
           "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
+        "id": "738faacd-b6ff-50f9-8ee9-e116282284dc",
+        "slug": "shenzhen-inovance-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Shenzhen Inovance Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
         ]
       },
       {
@@ -350,7 +416,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 8
+    "related_count": 10
   },
   "as_of": null
 }

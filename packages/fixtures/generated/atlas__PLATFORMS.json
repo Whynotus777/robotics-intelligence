@@ -4,12 +4,12 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 77
+      "count": 91
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 18
+      "count": 21
     },
     {
       "id": "MANUFACTURED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 24
+      "count": 29
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 8
+      "count": 18
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 8
+      "count": 9
     }
   ],
   "marks": [
@@ -87,6 +87,34 @@
             "CHIPMAKER",
             "INVESTOR",
             "MODEL_DEVELOPER",
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "d93cbf53-89b0-5b3b-9df9-7f3d199ea1ea",
+        "slug": "north-reading-us",
+        "entity_type": "PLACE",
+        "name": "North Reading",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.57509,
+      "lng": -71.07867,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
+          "slug": "teradyne",
+          "entity_type": "ORGANIZATION",
+          "name": "Teradyne",
+          "primary_embodiment": null,
+          "roles": [
             "PLATFORM"
           ]
         }
@@ -248,8 +276,8 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 5,
-      "places": 3
+      "weight": 6,
+      "places": 4
     },
     {
       "id": "KR",
@@ -360,6 +388,26 @@
         "slug": "bay-area",
         "entity_type": "PLACE",
         "name": "San Francisco Bay Area",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
+        "slug": "teradyne",
+        "entity_type": "ORGANIZATION",
+        "name": "Teradyne",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "d93cbf53-89b0-5b3b-9df9-7f3d199ea1ea",
+        "slug": "north-reading-us",
+        "entity_type": "PLACE",
+        "name": "North Reading",
         "primary_embodiment": null,
         "roles": []
       }

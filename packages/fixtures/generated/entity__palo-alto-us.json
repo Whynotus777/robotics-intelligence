@@ -1,0 +1,130 @@
+{
+  "entity": {
+    "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+    "slug": "palo-alto-us",
+    "entity_type": "PLACE",
+    "name": "Palo Alto",
+    "short_description": null,
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": null,
+    "city": "Palo Alto",
+    "lat": 37.44188,
+    "lng": -122.14302,
+    "cluster_label": null
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "745e7af1-69f7-5481-9e90-8b55261ed375",
+          "source": {
+            "id": "20e6b355-f8b7-55bb-b192-6d02eb96c575",
+            "slug": "playground-global",
+            "entity_type": "ORGANIZATION",
+            "name": "Playground Global",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "8465d86d-c06e-5ad0-8c0a-678b7a5cfb41",
+          "source": {
+            "id": "b58bf4bb-31da-5fda-adbe-f03db092e511",
+            "slug": "emerson-collective",
+            "entity_type": "ORGANIZATION",
+            "name": "Emerson Collective",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "b58bf4bb-31da-5fda-adbe-f03db092e511",
+        "slug": "emerson-collective",
+        "entity_type": "ORGANIZATION",
+        "name": "Emerson Collective",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "20e6b355-f8b7-55bb-b192-6d02eb96c575",
+        "slug": "playground-global",
+        "entity_type": "ORGANIZATION",
+        "name": "Playground Global",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 2
+  },
+  "as_of": null
+}

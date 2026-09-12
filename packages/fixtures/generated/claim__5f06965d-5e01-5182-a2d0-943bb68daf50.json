@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "5f06965d-5e01-5182-a2d0-943bb68daf50",
+    "subject": {
+      "id": "33283b10-3527-5a24-8035-68d3c1011020",
+      "slug": "elbit-systems",
+      "entity_type": "ORGANIZATION",
+      "name": "Elbit Systems",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Elbit Systems is headquartered at Haifa",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5faaeead-a451-57c8-92ce-3cbd1a1ea222",
+        "slug": "haifa-il",
+        "entity_type": "PLACE",
+        "name": "Haifa",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "df5b2e69-4f89-53be-8fea-0201114742c3",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Elbit Systems is headquartered in Haifa.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "f9530058-08d3-55d6-b871-6d2e0e9eef89",
+        "url": "https://www.wikidata.org/wiki/Q1325369",
+        "canonical_url": null,
+        "publisher": "Elbit Systems",
+        "title": "Elbit Systems — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

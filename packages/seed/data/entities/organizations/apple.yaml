@@ -13,4 +13,22 @@ claims:
     confidence: HIGH
     excerpt: Conducts robotics research including expressive tabletop robot motion design.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: cupertino-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-73b0cb263eee6232
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Apple is headquartered in Cupertino.
+    observed_at: '2026-09-11'
+- predicate: HAS_TICKER
+  text: NASDAQ:AAPL
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-73b0cb263eee6232
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Apple is listed as NASDAQ:AAPL.
+    observed_at: '2026-09-11'
 country_code: US

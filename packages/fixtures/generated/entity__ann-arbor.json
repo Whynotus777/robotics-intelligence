@@ -59,12 +59,44 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "3a52ec0d-a9ce-5c5d-9bcb-ae7315e8b4d6",
+          "source": {
+            "id": "f71a4038-da7c-5fa7-93fc-d76c372def22",
+            "slug": "may-mobility",
+            "entity_type": "ORGANIZATION",
+            "name": "May Mobility",
+            "primary_embodiment": null,
+            "roles": [
+              "OPERATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "f71a4038-da7c-5fa7-93fc-d76c372def22",
+        "slug": "may-mobility",
+        "entity_type": "ORGANIZATION",
+        "name": "May Mobility",
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
+      },
       {
         "id": "fe831658-63a2-59b6-8eac-ae8e2cc7d105",
         "slug": "skyspecs",
@@ -92,7 +124,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

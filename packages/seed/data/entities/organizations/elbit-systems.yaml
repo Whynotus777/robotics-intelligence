@@ -13,4 +13,32 @@ claims:
     confidence: HIGH
     excerpt: Develops unmanned and autonomous systems for military applications.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: haifa-il
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-8ed9347c1bac5d78
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Elbit Systems is headquartered in Haifa.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1966-01-01'
+  valid_from: '1966-01-01'
+  evidence:
+  - source: enrich-8ed9347c1bac5d78
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Elbit Systems was established in 1966 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: NASDAQ:ESLT
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-8ed9347c1bac5d78
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Elbit Systems is listed as NASDAQ:ESLT.
+    observed_at: '2026-09-11'
 country_code: IL

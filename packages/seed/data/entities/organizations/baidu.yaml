@@ -22,4 +22,32 @@ claims:
     confidence: HIGH
     excerpt: Develops Apollo autonomous driving software and robotaxi technology.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: beijing
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-04578c21b30c5504
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Baidu is headquartered in Beijing.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2000-01-01'
+  valid_from: '2000-01-01'
+  evidence:
+  - source: enrich-04578c21b30c5504
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Baidu was established in 2000 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: NASDAQ:BIDU
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-04578c21b30c5504
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Baidu is listed as NASDAQ:BIDU.
+    observed_at: '2026-09-11'
 country_code: CN

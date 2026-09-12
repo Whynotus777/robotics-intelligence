@@ -1,0 +1,98 @@
+{
+  "entity": {
+    "id": "bbd32947-aeab-5e3f-af5c-70ee551f805b",
+    "slug": "levallois-perret-fr",
+    "entity_type": "PLACE",
+    "name": "Levallois-Perret",
+    "short_description": null,
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "FR",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": null,
+    "city": "Levallois-Perret",
+    "lat": 48.89389,
+    "lng": 2.28864,
+    "cluster_label": null
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "9f5bec15-9e20-5318-9209-a582f6185deb",
+          "source": {
+            "id": "c27c543d-78ef-5fc6-a90c-67f33a6fb1d5",
+            "slug": "geodis",
+            "entity_type": "ORGANIZATION",
+            "name": "Geodis",
+            "primary_embodiment": null,
+            "roles": [
+              "OPERATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "c27c543d-78ef-5fc6-a90c-67f33a6fb1d5",
+        "slug": "geodis",
+        "entity_type": "ORGANIZATION",
+        "name": "Geodis",
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

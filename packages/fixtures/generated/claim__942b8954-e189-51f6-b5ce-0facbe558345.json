@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "942b8954-e189-51f6-b5ce-0facbe558345",
+    "subject": {
+      "id": "a8a4a0cd-c862-5b09-a907-ca81fd0e34c8",
+      "slug": "aerovironment",
+      "entity_type": "ORGANIZATION",
+      "name": "AeroVironment",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "AeroVironment stock ticker NASDAQ:AVAV",
+    "value": {
+      "kind": "text",
+      "text": "NASDAQ:AVAV"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4a610076-24e3-538b-8985-0aa99a1b7a36",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "AeroVironment is listed as NASDAQ:AVAV.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "37f95faf-6c55-5708-b482-9f0a35accadb",
+        "url": "https://www.wikidata.org/wiki/Q919300",
+        "canonical_url": null,
+        "publisher": "AeroVironment",
+        "title": "AeroVironment — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

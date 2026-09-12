@@ -126,6 +126,28 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "febfc80d-97fd-5883-a88b-cfb586eb75e8",
+          "source": {
+            "id": "668a1a95-9c07-59f3-80aa-fa7955730514",
+            "slug": "shanghai-jiao-tong-university",
+            "entity_type": "ORGANIZATION",
+            "name": "Shanghai Jiao Tong University",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
         }
       ]
     },
@@ -210,6 +232,16 @@
         "roles": [
           "COMPONENT_SUPPLIER"
         ]
+      },
+      {
+        "id": "668a1a95-9c07-59f3-80aa-fa7955730514",
+        "slug": "shanghai-jiao-tong-university",
+        "entity_type": "ORGANIZATION",
+        "name": "Shanghai Jiao Tong University",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
       }
     ]
   },
@@ -228,7 +260,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 5
+    "related_count": 6
   },
   "as_of": null
 }

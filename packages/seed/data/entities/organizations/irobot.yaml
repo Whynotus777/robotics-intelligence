@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Builds household cleaning robots.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: bedford-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-019f74246a7fd9f1
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: iRobot is headquartered in Bedford.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1990-01-01'
+  valid_from: '1990-01-01'
+  evidence:
+  - source: enrich-019f74246a7fd9f1
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: iRobot was established in 1990 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: US

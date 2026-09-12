@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "6af52e90-c8ec-5796-b05f-17d196292a9a",
+    "subject": {
+      "id": "c03f46b8-c992-5c35-bb86-cde2a7f94922",
+      "slug": "diligent-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Diligent Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Diligent Robotics is headquartered at Austin",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c9625e94-0914-541a-a773-0c673a77a1fd",
+        "slug": "austin",
+        "entity_type": "PLACE",
+        "name": "Austin",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "70dd8a7a-192e-559f-b69b-74ad5c400d8b",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Diligent Robotics is headquartered in Austin.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "29ca4fcc-323c-536e-91be-26b75940138c",
+        "url": "https://www.wikidata.org/wiki/Q116185071",
+        "canonical_url": null,
+        "publisher": "Diligent Robotics",
+        "title": "Diligent Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

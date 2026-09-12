@@ -4,12 +4,12 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 77
+      "count": 91
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 18
+      "count": 21
     },
     {
       "id": "MANUFACTURED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 24
+      "count": 29
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 8
+      "count": 18
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 8
+      "count": 9
     }
   ],
   "marks": [
@@ -151,6 +151,124 @@
     },
     {
       "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 39.9,
+      "lng": 116.4,
+      "country_code": "CN",
+      "cluster_label": "Beijing",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
+          "slug": "baidu",
+          "entity_type": "ORGANIZATION",
+          "name": "Baidu",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "dafdc220-f204-5ad5-9e31-674bc0a986b1",
+          "slug": "bytedance",
+          "entity_type": "ORGANIZATION",
+          "name": "ByteDance",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 51.51,
+      "lng": -0.13,
+      "country_code": "GB",
+      "cluster_label": "London",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
+          "slug": "google-deepmind",
+          "entity_type": "ORGANIZATION",
+          "name": "Google DeepMind",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+          "slug": "wayve",
+          "entity_type": "ORGANIZATION",
+          "name": "Wayve",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 31.23,
+      "lng": 121.47,
+      "country_code": "CN",
+      "cluster_label": "Shanghai",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
+          "slug": "agibot",
+          "entity_type": "ORGANIZATION",
+          "name": "AgiBot",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        },
+        {
+          "id": "668a1a95-9c07-59f3-80aa-fa7955730514",
+          "slug": "shanghai-jiao-tong-university",
+          "entity_type": "ORGANIZATION",
+          "name": "Shanghai Jiao Tong University",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "5386047b-9431-5521-8e28-d5f238524771",
         "slug": "shenzhen",
         "entity_type": "PLACE",
@@ -258,6 +376,34 @@
     },
     {
       "place": {
+        "id": "c3ce5e66-38f5-55f6-b6fb-a9fb5d5f5581",
+        "slug": "cupertino-us",
+        "entity_type": "PLACE",
+        "name": "Cupertino",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.323,
+      "lng": -122.03218,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "799bb715-85db-5fb1-a9e9-8a414a90ea6f",
+          "slug": "apple",
+          "entity_type": "ORGANIZATION",
+          "name": "Apple",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "b96cb701-db1f-5155-9957-25580923965c",
         "slug": "irvine-us",
         "entity_type": "PLACE",
@@ -276,34 +422,6 @@
           "slug": "fieldai",
           "entity_type": "ORGANIZATION",
           "name": "FieldAI",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
-        "slug": "london",
-        "entity_type": "PLACE",
-        "name": "London",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 51.51,
-      "lng": -0.13,
-      "country_code": "GB",
-      "cluster_label": "London",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
-          "slug": "wayve",
-          "entity_type": "ORGANIZATION",
-          "name": "Wayve",
           "primary_embodiment": null,
           "roles": [
             "MODEL_DEVELOPER"
@@ -461,35 +579,6 @@
     },
     {
       "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
-        "entity_type": "PLACE",
-        "name": "Shanghai",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 31.23,
-      "lng": 121.47,
-      "country_code": "CN",
-      "cluster_label": "Shanghai",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
-          "slug": "agibot",
-          "entity_type": "ORGANIZATION",
-          "name": "AgiBot",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER",
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
         "slug": "sunnyvale-us",
         "entity_type": "PLACE",
@@ -581,14 +670,20 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 15,
-      "places": 8
+      "weight": 16,
+      "places": 9
     },
     {
       "id": "CN",
       "label": "CN",
-      "weight": 3,
-      "places": 2
+      "weight": 6,
+      "places": 3
+    },
+    {
+      "id": "GB",
+      "label": "GB",
+      "weight": 2,
+      "places": 1
     },
     {
       "id": "JP",
@@ -613,12 +708,6 @@
       "label": "DE",
       "weight": 1,
       "places": 1
-    },
-    {
-      "id": "GB",
-      "label": "GB",
-      "weight": 1,
-      "places": 1
     }
   ],
   "corridors": [
@@ -629,10 +718,28 @@
       "places": 1
     },
     {
+      "id": "Beijing",
+      "label": "Beijing",
+      "weight": 2,
+      "places": 1
+    },
+    {
+      "id": "London",
+      "label": "London",
+      "weight": 2,
+      "places": 1
+    },
+    {
       "id": "Seattle",
       "label": "Seattle",
       "weight": 2,
       "places": 2
+    },
+    {
+      "id": "Shanghai",
+      "label": "Shanghai",
+      "weight": 2,
+      "places": 1
     },
     {
       "id": "Shenzhen",
@@ -653,12 +760,6 @@
       "places": 1
     },
     {
-      "id": "London",
-      "label": "London",
-      "weight": 1,
-      "places": 1
-    },
-    {
       "id": "Pittsburgh",
       "label": "Pittsburgh",
       "weight": 1,
@@ -667,12 +768,6 @@
     {
       "id": "San Diego",
       "label": "San Diego",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "Shanghai",
-      "label": "Shanghai",
       "weight": 1,
       "places": 1
     },
@@ -865,6 +960,130 @@
     },
     {
       "entity": {
+        "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
+        "slug": "baidu",
+        "entity_type": "ORGANIZATION",
+        "name": "Baidu",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "dafdc220-f204-5ad5-9e31-674bc0a986b1",
+        "slug": "bytedance",
+        "entity_type": "ORGANIZATION",
+        "name": "ByteDance",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
+        "slug": "google-deepmind",
+        "entity_type": "ORGANIZATION",
+        "name": "Google DeepMind",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+        "slug": "wayve",
+        "entity_type": "ORGANIZATION",
+        "name": "Wayve",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
+        "slug": "agibot",
+        "entity_type": "ORGANIZATION",
+        "name": "AgiBot",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "668a1a95-9c07-59f3-80aa-fa7955730514",
+        "slug": "shanghai-jiao-tong-university",
+        "entity_type": "ORGANIZATION",
+        "name": "Shanghai Jiao Tong University",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "794f4f80-f85e-5519-a62a-111900984b04",
         "slug": "astribot",
         "entity_type": "ORGANIZATION",
@@ -968,6 +1187,26 @@
     },
     {
       "entity": {
+        "id": "799bb715-85db-5fb1-a9e9-8a414a90ea6f",
+        "slug": "apple",
+        "entity_type": "ORGANIZATION",
+        "name": "Apple",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "c3ce5e66-38f5-55f6-b6fb-a9fb5d5f5581",
+        "slug": "cupertino-us",
+        "entity_type": "PLACE",
+        "name": "Cupertino",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "2bd3ab4d-c00b-56f8-a1aa-5c4b5546b007",
         "slug": "fieldai",
         "entity_type": "ORGANIZATION",
@@ -982,26 +1221,6 @@
         "slug": "irvine-us",
         "entity_type": "PLACE",
         "name": "Irvine",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
-        "slug": "wayve",
-        "entity_type": "ORGANIZATION",
-        "name": "Wayve",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER"
-        ]
-      },
-      "place": {
-        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
-        "slug": "london",
-        "entity_type": "PLACE",
-        "name": "London",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1109,27 +1328,6 @@
         "slug": "seattle",
         "entity_type": "PLACE",
         "name": "Seattle",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
-        "slug": "agibot",
-        "entity_type": "ORGANIZATION",
-        "name": "AgiBot",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
-        "entity_type": "PLACE",
-        "name": "Shanghai",
         "primary_embodiment": null,
         "roles": []
       }

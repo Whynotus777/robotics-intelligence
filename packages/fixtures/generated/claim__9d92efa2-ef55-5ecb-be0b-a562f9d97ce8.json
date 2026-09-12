@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "9d92efa2-ef55-5ecb-be0b-a562f9d97ce8",
+    "subject": {
+      "id": "8f8d645d-4ac0-50e6-b880-4df0b5229e47",
+      "slug": "irobot",
+      "entity_type": "ORGANIZATION",
+      "name": "iRobot",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "iRobot is headquartered at Bedford, Massachusetts",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d0b089f9-33ec-5afd-9f0b-2d371b114841",
+        "slug": "bedford-us",
+        "entity_type": "PLACE",
+        "name": "Bedford, Massachusetts",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7176ecab-239b-5221-b8b9-c72d14085c1b",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "iRobot is headquartered in Bedford.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "31a1e858-fa8f-5f66-ae98-d64e0d2853f8",
+        "url": "https://www.wikidata.org/wiki/Q285161",
+        "canonical_url": null,
+        "publisher": "iRobot",
+        "title": "iRobot — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

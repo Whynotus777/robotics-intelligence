@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "3a52ec0d-a9ce-5c5d-9bcb-ae7315e8b4d6",
+    "subject": {
+      "id": "f71a4038-da7c-5fa7-93fc-d76c372def22",
+      "slug": "may-mobility",
+      "entity_type": "ORGANIZATION",
+      "name": "May Mobility",
+      "primary_embodiment": null,
+      "roles": [
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "May Mobility is headquartered at Ann Arbor",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c1b148a1-6437-5a58-b338-b407537a37e1",
+        "slug": "ann-arbor",
+        "entity_type": "PLACE",
+        "name": "Ann Arbor",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9db36a49-2434-5908-941f-78e69bbbc24b",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "May Mobility is headquartered in Ann Arbor.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "40353217-d9e3-5197-8305-11b3ff6398bd",
+        "url": "https://www.wikidata.org/wiki/Q137049542",
+        "canonical_url": null,
+        "publisher": "May Mobility",
+        "title": "May Mobility — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "05802a2b-235e-594d-a35c-06c1d64e7a23",
+    "subject": {
+      "id": "22485ced-e327-5b0d-9405-a814489ac743",
+      "slug": "knapp",
+      "entity_type": "ORGANIZATION",
+      "name": "KNAPP",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR",
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "KNAPP is headquartered at Hart bei Graz",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ea2d3cfc-435d-5bc4-9635-8814733e87f5",
+        "slug": "hart-bei-graz-at",
+        "entity_type": "PLACE",
+        "name": "Hart bei Graz",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ca6ac54a-8330-506a-a891-3d3aea675a04",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "KNAPP AG is headquartered in Hart bei Graz.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "4cbf11ef-3644-58a9-b8ef-9409b49fe2fe",
+        "url": "https://www.wikidata.org/wiki/Q1283566",
+        "canonical_url": null,
+        "publisher": "KNAPP AG",
+        "title": "KNAPP AG — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Conducts robotics research including manipulation, dexterous hands and simulation.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: shanghai
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-cec83b787dc87444
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Shanghai Jiao Tong University is headquartered in Shanghai.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1896-01-01'
+  valid_from: '1896-01-01'
+  evidence:
+  - source: enrich-cec83b787dc87444
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Shanghai Jiao Tong University was established in 1896 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: CN

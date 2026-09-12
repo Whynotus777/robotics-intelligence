@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "38fcd669-3582-55ab-accf-9e4cf0c08ef0",
+    "subject": {
+      "id": "adbc0f95-691a-5e06-aa4a-43b499df9f12",
+      "slug": "sequoia-capital",
+      "entity_type": "ORGANIZATION",
+      "name": "Sequoia Capital",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Sequoia Capital is headquartered at Menlo Park",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+        "slug": "menlo-park-us",
+        "entity_type": "PLACE",
+        "name": "Menlo Park",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "89c6d702-0241-5c31-a075-9ef32664b175",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Sequoia Capital is headquartered in Menlo Park.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "2525abe8-5d5f-5627-9ab1-7791f1a9471e",
+        "url": "https://www.wikidata.org/wiki/Q1852025",
+        "canonical_url": null,
+        "publisher": "Sequoia Capital",
+        "title": "Sequoia Capital — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

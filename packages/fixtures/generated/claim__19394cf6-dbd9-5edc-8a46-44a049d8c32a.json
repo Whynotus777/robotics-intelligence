@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "19394cf6-dbd9-5edc-8a46-44a049d8c32a",
+    "subject": {
+      "id": "799bb715-85db-5fb1-a9e9-8a414a90ea6f",
+      "slug": "apple",
+      "entity_type": "ORGANIZATION",
+      "name": "Apple",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Apple is headquartered at Cupertino",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c3ce5e66-38f5-55f6-b6fb-a9fb5d5f5581",
+        "slug": "cupertino-us",
+        "entity_type": "PLACE",
+        "name": "Cupertino",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "625fbfaf-ba18-5341-8f4f-e82fc10de8e1",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Apple is headquartered in Cupertino.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "2889fd6a-53b9-585b-b049-8d5ce8fdf89b",
+        "url": "https://www.wikidata.org/wiki/Q312",
+        "canonical_url": null,
+        "publisher": "Apple",
+        "title": "Apple — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

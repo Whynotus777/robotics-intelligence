@@ -32,4 +32,22 @@ claims:
     excerpt: WeRide was established in 2017 (year precision).
     observed_at: '2026-09-11'
   qualifier: Year precision
+- predicate: HQ_AT
+  object: guangzhou-cn
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-27dfaa97d711afc4
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: WeRide is headquartered in Guangzhou.
+    observed_at: '2026-09-11'
+- predicate: HAS_TICKER
+  text: NASDAQ:WRD
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-27dfaa97d711afc4
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: WeRide is listed as NASDAQ:WRD.
+    observed_at: '2026-09-11'
 country_code: CN

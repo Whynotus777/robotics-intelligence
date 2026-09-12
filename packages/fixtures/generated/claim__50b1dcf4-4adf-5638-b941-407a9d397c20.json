@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "50b1dcf4-4adf-5638-b941-407a9d397c20",
+    "subject": {
+      "id": "ca99388d-b855-5b66-80bf-93063c77c9b0",
+      "slug": "medtronic",
+      "entity_type": "ORGANIZATION",
+      "name": "Medtronic",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "Medtronic stock ticker NYSE:MDT",
+    "value": {
+      "kind": "text",
+      "text": "NYSE:MDT"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "33605fe1-c29b-5249-b161-64e714b83cf8",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Medtronic is listed as NYSE:MDT.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "e2b60ace-8a31-5792-9b16-762c188c383a",
+        "url": "https://www.wikidata.org/wiki/Q642189",
+        "canonical_url": null,
+        "publisher": "Medtronic",
+        "title": "Medtronic — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

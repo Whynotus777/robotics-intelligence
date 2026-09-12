@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "39c09a8c-3416-5d36-a649-0d4e74ec1926",
+    "subject": {
+      "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
+      "slug": "balderton-capital",
+      "entity_type": "ORGANIZATION",
+      "name": "Balderton Capital",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Balderton Capital is headquartered at London",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e031ea6a-6423-5d99-b08a-48cff82c7d19",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Balderton Capital is headquartered in London.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ebbdd362-e4db-534a-a99f-b3461a7d7b58",
+        "url": "https://www.wikidata.org/wiki/Q16243430",
+        "canonical_url": null,
+        "publisher": "Balderton Capital",
+        "title": "Balderton Capital — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

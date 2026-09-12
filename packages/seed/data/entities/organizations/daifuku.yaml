@@ -22,4 +22,23 @@ claims:
     confidence: HIGH
     excerpt: Builds and integrates automated material-handling systems.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: osaka-jp
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-6fbfbd83c2806d7a
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Daifuku is headquartered in Osaka.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1937-01-01'
+  valid_from: '1937-01-01'
+  evidence:
+  - source: enrich-6fbfbd83c2806d7a
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Daifuku was established in 1937 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: JP

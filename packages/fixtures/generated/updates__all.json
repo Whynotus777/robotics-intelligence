@@ -28,6 +28,42 @@
       "origin": "SEED"
     },
     {
+      "id": "0084b03d-c48d-569b-bb97-879a4bf768f3",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "dafdc220-f204-5ad5-9e31-674bc0a986b1",
+        "slug": "bytedance",
+        "entity_type": "ORGANIZATION",
+        "name": "ByteDance",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+          "slug": "beijing",
+          "entity_type": "PLACE",
+          "name": "Beijing",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Beijing",
+      "origin": "SEED"
+    },
+    {
       "id": "00cddae9-a764-5e4e-8c97-47303abac24f",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -134,6 +170,76 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Tooling and operations provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "0492b558-3ecd-50aa-9e30-74bfed52e579",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "c27c543d-78ef-5fc6-a90c-67f33a6fb1d5",
+        "slug": "geodis",
+        "entity_type": "ORGANIZATION",
+        "name": "Geodis",
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "bbd32947-aeab-5e3f-af5c-70ee551f805b",
+          "slug": "levallois-perret-fr",
+          "entity_type": "PLACE",
+          "name": "Levallois-Perret",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Levallois-Perret",
+      "origin": "SEED"
+    },
+    {
+      "id": "05188cb4-700d-50fb-8148-7dcdc6b55c53",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "20e6b355-f8b7-55bb-b192-6d02eb96c575",
+        "slug": "playground-global",
+        "entity_type": "ORGANIZATION",
+        "name": "Playground Global",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+          "slug": "palo-alto-us",
+          "entity_type": "PLACE",
+          "name": "Palo Alto",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Palo Alto",
       "origin": "SEED"
     },
     {
@@ -1048,6 +1154,33 @@
       "origin": "SEED"
     },
     {
+      "id": "1963aaac-34a5-5993-bdaf-7c57f8d93cfa",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "fef5a2ec-6dbe-5e9c-8459-8fd14f248774",
+        "slug": "nidec",
+        "entity_type": "ORGANIZATION",
+        "name": "Nidec",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "text",
+        "text": "TSE:6594"
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Stock ticker recorded: TSE:6594",
+      "origin": "SEED"
+    },
+    {
       "id": "19b88d2f-650b-5a3a-a83b-c44873d78ae1",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1247,6 +1380,41 @@
       "origin": "SEED"
     },
     {
+      "id": "1d66c23d-b490-5d84-8ae1-b90a5fb81a94",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "8e8c2e6b-0edf-52e6-a99a-20d0065dbb25",
+        "slug": "ecovacs-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Ecovacs Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "982bbaab-5edb-568f-9470-609e831a3aca",
+          "slug": "suzhou",
+          "entity_type": "PLACE",
+          "name": "Suzhou",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Suzhou",
+      "origin": "SEED"
+    },
+    {
       "id": "1dd412a4-e2b4-5e35-a945-2b62f50afdf8",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1272,142 +1440,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Contract manufacturer",
-      "origin": "SEED"
-    },
-    {
-      "id": "1e27f7c3-f5b8-546b-aa33-edf22347cf2e",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
-        "slug": "teradyne",
-        "entity_type": "ORGANIZATION",
-        "name": "Teradyne",
-        "primary_embodiment": null,
-        "roles": [
-          "PLATFORM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "PLATFORM"
-      },
-      "evidence_summary": {
-        "class": "ANALYST",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Platform",
-      "origin": "SEED"
-    },
-    {
-      "id": "1f10bc1f-5576-50ff-9a00-fcf8b694087c",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "20c927ab-bde5-5968-9b25-f9993eff45ce",
-        "slug": "renishaw",
-        "entity_type": "ORGANIZATION",
-        "name": "Renishaw",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "COMPONENT_SUPPLIER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Component supplier",
-      "origin": "SEED"
-    },
-    {
-      "id": "1f15d4a4-43ef-5f05-bc02-f348ace25413",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "e1a62352-441d-5638-9cb2-5e9a3a282bfd",
-        "slug": "zoox",
-        "entity_type": "ORGANIZATION",
-        "name": "Zoox",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM",
-          "OPERATOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OPERATOR"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Operator",
-      "origin": "SEED"
-    },
-    {
-      "id": "1f805c65-09b7-5ce0-8e8b-fda18762357a",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "b08462e9-bff0-5079-952f-88afbacb9257",
-        "slug": "kinco-automation",
-        "entity_type": "ORGANIZATION",
-        "name": "Kinco Automation",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "COMPONENT_SUPPLIER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Component supplier",
-      "origin": "SEED"
-    },
-    {
-      "id": "1ffeb33d-bf9e-5162-b6e3-30fdfe8e4c41",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "67e17fde-a794-528f-ad6d-083177395d97",
-        "slug": "neros-technologies",
-        "entity_type": "ORGANIZATION",
-        "name": "Neros Technologies",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
       "origin": "SEED"
     }
   ]

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "8cc420df-f28d-5538-9906-41712d4124d0",
+    "subject": {
+      "id": "799bb715-85db-5fb1-a9e9-8a414a90ea6f",
+      "slug": "apple",
+      "entity_type": "ORGANIZATION",
+      "name": "Apple",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "Apple stock ticker NASDAQ:AAPL",
+    "value": {
+      "kind": "text",
+      "text": "NASDAQ:AAPL"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c40201a1-9afa-5d1e-90d0-9468cf84641d",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Apple is listed as NASDAQ:AAPL.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "2889fd6a-53b9-585b-b049-8d5ce8fdf89b",
+        "url": "https://www.wikidata.org/wiki/Q312",
+        "canonical_url": null,
+        "publisher": "Apple",
+        "title": "Apple — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

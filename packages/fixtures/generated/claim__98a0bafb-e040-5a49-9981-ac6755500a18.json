@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "98a0bafb-e040-5a49-9981-ac6755500a18",
+    "subject": {
+      "id": "ca99388d-b855-5b66-80bf-93063c77c9b0",
+      "slug": "medtronic",
+      "entity_type": "ORGANIZATION",
+      "name": "Medtronic",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Medtronic was founded on 1949-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1949-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1949-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d8c1971d-39d7-571a-9c40-ae804f854a88",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Medtronic was established in 1949 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "e2b60ace-8a31-5792-9b16-762c188c383a",
+        "url": "https://www.wikidata.org/wiki/Q642189",
+        "canonical_url": null,
+        "publisher": "Medtronic",
+        "title": "Medtronic — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

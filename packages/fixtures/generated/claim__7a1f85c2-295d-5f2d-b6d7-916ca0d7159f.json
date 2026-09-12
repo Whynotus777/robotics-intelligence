@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "7a1f85c2-295d-5f2d-b6d7-916ca0d7159f",
+    "subject": {
+      "id": "7c3f1312-e098-5632-9136-812a1bf6987b",
+      "slug": "hd-hyundai-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "HD Hyundai Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "HD Hyundai Robotics is headquartered at Daegu",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5334ea44-6f87-5c32-9058-e71eafa36d73",
+        "slug": "daegu-kr",
+        "entity_type": "PLACE",
+        "name": "Daegu",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "48a9b38f-79a6-5d7b-a103-d1bf14ee0707",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "HD Hyundai Robotics is headquartered in Daegu.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "556dc6e6-9c9c-571b-8c3d-0b3abe09beeb",
+        "url": "https://www.wikidata.org/wiki/Q110118448",
+        "canonical_url": null,
+        "publisher": "HD Hyundai Robotics",
+        "title": "HD Hyundai Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

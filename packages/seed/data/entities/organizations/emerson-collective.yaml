@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Invests in robotics companies including FieldAI.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: palo-alto-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-5264c22c191c1177
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Emerson Collective is headquartered in Palo Alto.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2004-01-01'
+  valid_from: '2004-01-01'
+  evidence:
+  - source: enrich-5264c22c191c1177
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Emerson Collective was established in 2004 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: US

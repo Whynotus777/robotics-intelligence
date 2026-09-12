@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3aa9d03d-3bad-5a7c-82e8-6651c95da746",
+    "subject": {
+      "id": "fef5a2ec-6dbe-5e9c-8459-8fd14f248774",
+      "slug": "nidec",
+      "entity_type": "ORGANIZATION",
+      "name": "Nidec",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Nidec was founded on 1973-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1973-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1973-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "cdc41534-df82-5f22-a151-49129461f21a",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Nidec was established in 1973 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "33ba39a0-c17c-5ee6-8372-d3d1ce54b3f3",
+        "url": "https://www.wikidata.org/wiki/Q3341241",
+        "canonical_url": null,
+        "publisher": "Nidec",
+        "title": "Nidec — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "dfb443f4-82fb-5671-a772-c3daa95180e1",
+    "subject": {
+      "id": "1b15c81b-c10b-52aa-8ae2-75c1d9da3083",
+      "slug": "spinea",
+      "entity_type": "ORGANIZATION",
+      "name": "Spinea",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Spinea is headquartered at Presov",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "662eec02-fb9b-5433-bc3b-81cb880c63cb",
+        "slug": "presov-sk",
+        "entity_type": "PLACE",
+        "name": "Presov",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a1bbec2e-026f-53cf-86c4-fba78ce7be34",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Spinea is headquartered in Presov.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d4144eed-ff49-5467-adb5-ac0272bcf932",
+        "url": "https://www.wikidata.org/wiki/Q30297547",
+        "canonical_url": null,
+        "publisher": "Spinea",
+        "title": "Spinea — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "360fe674-998b-504a-a654-cdc256206352",
+    "subject": {
+      "id": "c9e9aebb-ae69-53e2-be08-17dc8d7e1606",
+      "slug": "agile-robots",
+      "entity_type": "ORGANIZATION",
+      "name": "Agile Robots",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Agile Robots is headquartered at Munich",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
+        "entity_type": "PLACE",
+        "name": "Munich",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3e199310-4e4e-5316-addf-e42773b0063b",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Agile Robots is headquartered in Munich.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5fa5c6a7-48a3-57a9-8f7f-6bfa5d297308",
+        "url": "https://www.wikidata.org/wiki/Q136786746",
+        "canonical_url": null,
+        "publisher": "Agile Robots",
+        "title": "Agile Robots — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

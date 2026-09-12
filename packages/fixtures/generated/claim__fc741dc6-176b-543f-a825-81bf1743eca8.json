@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "fc741dc6-176b-543f-a825-81bf1743eca8",
+    "subject": {
+      "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+      "slug": "softbank-group",
+      "entity_type": "ORGANIZATION",
+      "name": "SoftBank Group",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "SoftBank Group was founded on 1981-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1981-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1981-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3cfa3dcd-873d-54d5-81e0-7d267e473ea4",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "SoftBank Group was established in 1981 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "370452d8-58ed-5b19-ab1d-7db3a7021527",
+        "url": "https://www.wikidata.org/wiki/Q201653",
+        "canonical_url": null,
+        "publisher": "SoftBank Group",
+        "title": "SoftBank Group — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

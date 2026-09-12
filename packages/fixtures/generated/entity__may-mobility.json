@@ -64,25 +64,63 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "3a52ec0d-a9ce-5c5d-9bcb-ae7315e8b4d6",
+          "target": {
+            "id": "c1b148a1-6437-5a58-b338-b407537a37e1",
+            "slug": "ann-arbor",
+            "entity_type": "PLACE",
+            "name": "Ann Arbor",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "places": [
+      {
+        "id": "c1b148a1-6437-5a58-b338-b407537a37e1",
+        "slug": "ann-arbor",
+        "entity_type": "PLACE",
+        "name": "Ann Arbor",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
         "PRIMARY": 1,
-        "THIRD_PARTY": 0,
+        "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 1,
+      "claim_count": 2,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 1,
+    "recent_change_count": 2,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

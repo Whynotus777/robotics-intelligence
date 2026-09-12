@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Invests in robotics companies including 1X.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: stockholm-se
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-7be05ed562266ce4
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: EQT Ventures is headquartered in Stockholm.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2016-01-01'
+  valid_from: '2016-01-01'
+  evidence:
+  - source: enrich-7be05ed562266ce4
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: EQT Ventures was established in 2016 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: SE

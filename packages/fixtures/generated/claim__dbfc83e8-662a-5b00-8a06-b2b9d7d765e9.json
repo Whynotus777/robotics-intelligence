@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "dbfc83e8-662a-5b00-8a06-b2b9d7d765e9",
+    "subject": {
+      "id": "1e7c1ef0-56e4-5fd8-97d2-cef733773a61",
+      "slug": "milrem-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Milrem Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Milrem Robotics is headquartered at Tallinn",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "161c93b1-973b-5e36-8462-59d367443952",
+        "slug": "tallinn-ee",
+        "entity_type": "PLACE",
+        "name": "Tallinn",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4faf19e0-82d0-5ee8-8bfb-88d7eb4450f4",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Milrem Robotics is headquartered in Tallinn.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "c9309dfc-1f4f-5007-b74f-01100a3d9c32",
+        "url": "https://www.wikidata.org/wiki/Q65262297",
+        "canonical_url": null,
+        "publisher": "Milrem Robotics",
+        "title": "Milrem Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

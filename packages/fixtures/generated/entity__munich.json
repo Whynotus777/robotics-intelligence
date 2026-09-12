@@ -59,12 +59,44 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "360fe674-998b-504a-a654-cdc256206352",
+          "source": {
+            "id": "c9e9aebb-ae69-53e2-be08-17dc8d7e1606",
+            "slug": "agile-robots",
+            "entity_type": "ORGANIZATION",
+            "name": "Agile Robots",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
         }
       ]
     }
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "c9e9aebb-ae69-53e2-be08-17dc8d7e1606",
+        "slug": "agile-robots",
+        "entity_type": "ORGANIZATION",
+        "name": "Agile Robots",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
       {
         "id": "098db5e0-7b78-56a1-8990-159131dbdb7c",
         "slug": "bmw",
@@ -92,7 +124,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

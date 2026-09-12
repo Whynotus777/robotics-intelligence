@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "cfec99d9-bb81-59b5-a8c2-dbf0bc77954c",
+    "subject": {
+      "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
+      "slug": "baidu",
+      "entity_type": "ORGANIZATION",
+      "name": "Baidu",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Baidu was founded on 2000-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2000-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2000-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "475675c7-410b-567d-9941-e67e7cbaef54",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Baidu was established in 2000 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "e4421fd0-17d0-54c4-9124-c18820504f47",
+        "url": "https://www.wikidata.org/wiki/Q14772",
+        "canonical_url": null,
+        "publisher": "Baidu",
+        "title": "Baidu — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

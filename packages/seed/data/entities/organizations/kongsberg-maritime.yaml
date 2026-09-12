@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Develops maritime automation and unmanned vessel systems.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: kongsberg-no
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-2a5d0846d1087a84
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Kongsberg Maritime is headquartered in Kongsberg.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1998-01-01'
+  valid_from: '1998-01-01'
+  evidence:
+  - source: enrich-2a5d0846d1087a84
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Kongsberg Maritime was established in 1998 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: 'NO'

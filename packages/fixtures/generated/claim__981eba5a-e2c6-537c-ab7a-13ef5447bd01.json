@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "981eba5a-e2c6-537c-ab7a-13ef5447bd01",
+    "subject": {
+      "id": "56941ebf-d493-517a-a826-ddde0f2a7e34",
+      "slug": "kongsberg-maritime",
+      "entity_type": "ORGANIZATION",
+      "name": "Kongsberg Maritime",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Kongsberg Maritime is headquartered at Kongsberg",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "669e5cfc-c048-5322-82c1-589acf7698b1",
+        "slug": "kongsberg-no",
+        "entity_type": "PLACE",
+        "name": "Kongsberg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d5f8b167-53a9-5447-a111-01508a9428c3",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Kongsberg Maritime is headquartered in Kongsberg.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1a9f6fb5-502d-5d2f-8ff2-ef7bf65a6b01",
+        "url": "https://www.wikidata.org/wiki/Q4574129",
+        "canonical_url": null,
+        "publisher": "Kongsberg Maritime",
+        "title": "Kongsberg Maritime — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

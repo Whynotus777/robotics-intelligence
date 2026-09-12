@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Develops the Hugo robot-assisted surgical system.
     observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1949-01-01'
+  valid_from: '1949-01-01'
+  evidence:
+  - source: enrich-3a452ec5e0befd90
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Medtronic was established in 1949 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: NYSE:MDT
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-3a452ec5e0befd90
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Medtronic is listed as NYSE:MDT.
+    observed_at: '2026-09-11'
 country_code: IE

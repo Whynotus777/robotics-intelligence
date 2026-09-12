@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Invests in robotics companies including NEURA Robotics.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: luxembourg-lu
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-7c6223a7f720fd87
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: European Investment Bank is headquartered in Luxembourg.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1958-01-01'
+  valid_from: '1958-01-01'
+  evidence:
+  - source: enrich-7c6223a7f720fd87
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: European Investment Bank was established in 1958 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: LU

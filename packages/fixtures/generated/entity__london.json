@@ -39,6 +39,51 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "0a801cea-4fb5-5a54-b3b0-81121334ffc9",
+          "source": {
+            "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
+            "slug": "google-deepmind",
+            "entity_type": "ORGANIZATION",
+            "name": "Google DeepMind",
+            "primary_embodiment": null,
+            "roles": [
+              "MODEL_DEVELOPER",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "39c09a8c-3416-5d36-a649-0d4e74ec1926",
+          "source": {
+            "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
+            "slug": "balderton-capital",
+            "entity_type": "ORGANIZATION",
+            "name": "Balderton Capital",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "e0e79c54-e03a-5410-a928-6bf51eee2ef3",
           "source": {
             "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
@@ -88,6 +133,16 @@
   "lateral_links": {
     "company": [
       {
+        "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
+        "slug": "balderton-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "Balderton Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
         "id": "d9c8a2cd-a5b9-592f-bb81-a0bb96188612",
         "slug": "bladebug",
         "entity_type": "ORGANIZATION",
@@ -95,6 +150,17 @@
         "primary_embodiment": null,
         "roles": [
           "OEM"
+        ]
+      },
+      {
+        "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
+        "slug": "google-deepmind",
+        "entity_type": "ORGANIZATION",
+        "name": "Google DeepMind",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
         ]
       },
       {
@@ -124,7 +190,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 4
   },
   "as_of": null
 }

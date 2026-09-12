@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Manufactures motors and drive components for robotics.
     observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1973-01-01'
+  valid_from: '1973-01-01'
+  evidence:
+  - source: enrich-c800f0e25d7581a0
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Nidec was established in 1973 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: TSE:6594
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-c800f0e25d7581a0
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Nidec is listed as TSE:6594.
+    observed_at: '2026-09-11'
 country_code: JP

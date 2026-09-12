@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Builds unmanned aircraft and autonomous systems for defense missions.
     observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1971-01-01'
+  valid_from: '1971-01-01'
+  evidence:
+  - source: enrich-cf5272a34d5cc7e9
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: AeroVironment was established in 1971 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: NASDAQ:AVAV
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-cf5272a34d5cc7e9
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: AeroVironment is listed as NASDAQ:AVAV.
+    observed_at: '2026-09-11'
 country_code: US

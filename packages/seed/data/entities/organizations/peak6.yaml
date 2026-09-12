@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Invests in robotics companies including Apptronik.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: chicago-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-b9856c026dd6d6fd
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Peak6 is headquartered in Chicago.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1997-01-01'
+  valid_from: '1997-01-01'
+  evidence:
+  - source: enrich-b9856c026dd6d6fd
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Peak6 was established in 1997 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: US
