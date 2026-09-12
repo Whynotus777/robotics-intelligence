@@ -1,0 +1,31 @@
+slug: softbank-group
+entity_type: ORGANIZATION
+name: SoftBank Group
+short_description: Invests in robotics developers and owns multiple robotics businesses.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-ca002ce4cbe76f1b
+    excerpt: Invests in robotics developers and owns multiple robotics businesses.
+    assessment:
+      rationale: Invests in robotics developers and owns multiple robotics businesses. The platform role describes
+        involvement across robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-ca002ce4cbe76f1b
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Invests in robotics developers and owns multiple robotics businesses.
+    observed_at: '2026-09-11'
+country_code: JP

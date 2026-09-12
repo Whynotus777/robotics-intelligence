@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "f27ef733-f745-55f8-8798-849fbe1b7930",
+    "subject": {
+      "id": "4e38d628-7b7a-57fd-82bc-63f5fdd4f59a",
+      "slug": "sony-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Sony AI",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Sony AI role RESEARCH_LAB",
+    "value": {
+      "kind": "enum",
+      "value": "RESEARCH_LAB"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "522d5aff-2dd6-54b6-a829-71cfb346f712",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Conducts research in artificial intelligence, robotics and sensing.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a86b61dd-46f2-5550-a760-9a106cd1fc74",
+        "url": "https://ai.sony/",
+        "canonical_url": null,
+        "publisher": "Sony AI",
+        "title": "Sony AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

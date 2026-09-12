@@ -27,6 +27,16 @@
         "confidence": "HIGH",
         "source_count": 1
       }
+    },
+    {
+      "role": "OPERATOR",
+      "declared": true,
+      "claim_id": "2bada566-a8e1-545e-8ca0-ea218f631843",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
     }
   ],
   "part_of": null,
@@ -41,6 +51,52 @@
   },
   "place": null,
   "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "2bada566-a8e1-545e-8ca0-ea218f631843",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OPERATOR"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "90c55b91-75ef-5b06-b597-72b3611cec7b",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "CONTRACT_MANUFACTURER"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
     {
       "predicate": "FOUNDED_ON",
       "label": "was founded on",
@@ -92,32 +148,6 @@
           }
         }
       ]
-    },
-    {
-      "predicate": "HAS_ROLE",
-      "label": "role",
-      "claims": [
-        {
-          "claim_id": "90c55b91-75ef-5b06-b597-72b3611cec7b",
-          "predicate": "HAS_ROLE",
-          "value": {
-            "kind": "enum",
-            "value": "CONTRACT_MANUFACTURER"
-          },
-          "stack_layer": null,
-          "qualifier": null,
-          "valid_from": "2026-09-11",
-          "valid_to": null,
-          "observed_at": "2026-09-01T00:00:00.000Z",
-          "last_verified_at": "2026-09-01T00:00:00.000Z",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "HIGH",
-            "source_count": 1
-          }
-        }
-      ]
     }
   ],
   "relationships": [
@@ -164,17 +194,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 3,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 4,
+      "claim_count": 5,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 4,
+    "recent_change_count": 5,
     "deployment_count": 0,
     "related_count": 1
   },

@@ -41,6 +41,15 @@ claims:
     confidence: MEDIUM
     excerpt: Foxconn is listed as TWSE:2317.
     observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-a6368af77f1ab912
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Manufactures electronics and deploys robotics in industrial production.
+    observed_at: '2026-09-11'
 country_code: TW
 aliases:
 - Hon Hai Technology Group (Foxconn)

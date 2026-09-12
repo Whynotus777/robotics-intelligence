@@ -4222,6 +4222,94 @@
     },
     "as_of": null
   },
+  "entity/apple": {
+    "entity": {
+      "id": "799bb715-85db-5fb1-a9e9-8a414a90ea6f",
+      "slug": "apple",
+      "entity_type": "ORGANIZATION",
+      "name": "Apple",
+      "short_description": "Conducts robotics research including expressive tabletop robot motion design.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "RESEARCH_LAB",
+        "declared": true,
+        "claim_id": "0b3fc1fe-6c74-5414-a57f-07da1cd9fc01",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "0b3fc1fe-6c74-5414-a57f-07da1cd9fc01",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "RESEARCH_LAB"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/applied-intuition": {
     "entity": {
       "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
@@ -8746,6 +8834,94 @@
     },
     "as_of": null
   },
+  "entity/berkshire-grey": {
+    "entity": {
+      "id": "01336b7b-0919-57e1-9ec6-946ab8f34a7b",
+      "slug": "berkshire-grey",
+      "entity_type": "ORGANIZATION",
+      "name": "Berkshire Grey",
+      "short_description": "Develops robotic warehouse picking and material-handling systems.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "OEM",
+        "declared": true,
+        "claim_id": "df0304a5-4cba-5957-8362-bc16348b20e6",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "df0304a5-4cba-5957-8362-bc16348b20e6",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/bifrost": {
     "entity": {
       "id": "5bb0c87e-afb3-5301-9e47-d4a5e26f62a9",
@@ -12548,6 +12724,94 @@
       "recent_change_count": 5,
       "deployment_count": 0,
       "related_count": 5
+    },
+    "as_of": null
+  },
+  "entity/capitalg": {
+    "entity": {
+      "id": "8bfe1d52-c20f-51c7-a7c8-d3d3a9bb73e7",
+      "slug": "capitalg",
+      "entity_type": "ORGANIZATION",
+      "name": "CapitalG",
+      "short_description": "Invests in technology businesses including robotics model developer Physical Intelligence.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "INVESTOR",
+        "declared": true,
+        "claim_id": "b7bc64de-ce6b-5e93-8846-0faed8b1ee4e",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "b7bc64de-ce6b-5e93-8846-0faed8b1ee4e",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "INVESTOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -16461,6 +16725,94 @@
             "value": {
               "kind": "enum",
               "value": "INTEGRATOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/denso-wave": {
+    "entity": {
+      "id": "0fd9e03c-f1bf-5be4-bb84-9347514c0106",
+      "slug": "denso-wave",
+      "entity_type": "ORGANIZATION",
+      "name": "Denso Wave",
+      "short_description": "Builds industrial robot arms and integrated robot control systems.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "JP",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "OEM",
+        "declared": true,
+        "claim_id": "d2afe6d1-8834-521b-a98e-67297fa7e39f",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "d2afe6d1-8834-521b-a98e-67297fa7e39f",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "OEM"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -26344,6 +26696,16 @@
           "confidence": "HIGH",
           "source_count": 1
         }
+      },
+      {
+        "role": "OPERATOR",
+        "declared": true,
+        "claim_id": "2bada566-a8e1-545e-8ca0-ea218f631843",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
       }
     ],
     "part_of": null,
@@ -26358,6 +26720,52 @@
     },
     "place": null,
     "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "2bada566-a8e1-545e-8ca0-ea218f631843",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "OPERATOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "90c55b91-75ef-5b06-b597-72b3611cec7b",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "CONTRACT_MANUFACTURER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
       {
         "predicate": "FOUNDED_ON",
         "label": "was founded on",
@@ -26409,32 +26817,6 @@
             }
           }
         ]
-      },
-      {
-        "predicate": "HAS_ROLE",
-        "label": "role",
-        "claims": [
-          {
-            "claim_id": "90c55b91-75ef-5b06-b597-72b3611cec7b",
-            "predicate": "HAS_ROLE",
-            "value": {
-              "kind": "enum",
-              "value": "CONTRACT_MANUFACTURER"
-            },
-            "stack_layer": null,
-            "qualifier": null,
-            "valid_from": "2026-09-11",
-            "valid_to": null,
-            "observed_at": "2026-09-01T00:00:00.000Z",
-            "last_verified_at": "2026-09-01T00:00:00.000Z",
-            "has_evidence": true,
-            "evidence_summary": {
-              "class": "PRIMARY",
-              "confidence": "HIGH",
-              "source_count": 1
-            }
-          }
-        ]
       }
     ],
     "relationships": [
@@ -26481,17 +26863,17 @@
     "intelligence": {
       "evidence_summary": {
         "by_class": {
-          "PRIMARY": 1,
+          "PRIMARY": 2,
           "THIRD_PARTY": 3,
           "ACADEMIC": 0,
           "DERIVED": 0,
           "ANALYST": 0
         },
-        "claim_count": 4,
+        "claim_count": 5,
         "claims_without_evidence": 0
       },
       "last_verified_at": "2026-09-01T00:00:00.000Z",
-      "recent_change_count": 4,
+      "recent_change_count": 5,
       "deployment_count": 0,
       "related_count": 1
     },
@@ -29138,6 +29520,120 @@
     },
     "as_of": null
   },
+  "entity/hanwha-robotics": {
+    "entity": {
+      "id": "a9ae4d42-4802-5844-a57a-1c0ae8e257fd",
+      "slug": "hanwha-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Hanwha Robotics",
+      "short_description": "Builds collaborative robots and automated guided vehicles.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "KR",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "OEM",
+        "declared": true,
+        "claim_id": "57987deb-3df9-5c5e-b1bb-153eb1eb21f9",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "57987deb-3df9-5c5e-b1bb-153eb1eb21f9",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      },
+      {
+        "predicate": "FOUNDED_ON",
+        "label": "was founded on",
+        "claims": [
+          {
+            "claim_id": "a4635690-f731-5c99-b4a8-d7eec9fb59ac",
+            "predicate": "FOUNDED_ON",
+            "value": {
+              "kind": "date",
+              "date": "2023-01-01"
+            },
+            "stack_layer": null,
+            "qualifier": "Year precision",
+            "valid_from": "2023-01-01",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 2,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 2,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/harmonic-drive": {
     "entity": {
       "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
@@ -29532,6 +30028,96 @@
       },
       "last_verified_at": "2026-09-01T00:00:00.000Z",
       "recent_change_count": 2,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/hd-hyundai-robotics": {
+    "entity": {
+      "id": "7c3f1312-e098-5632-9136-812a1bf6987b",
+      "slug": "hd-hyundai-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "HD Hyundai Robotics",
+      "short_description": "Builds industrial robots and collaborative robotic systems.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "KR",
+      "aliases": [
+        "Hyundai Robotics"
+      ],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "OEM",
+        "declared": true,
+        "claim_id": "c64327da-643c-5e45-af88-80ca967eafab",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "c64327da-643c-5e45-af88-80ca967eafab",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
       "deployment_count": 0,
       "related_count": 0
     },
@@ -30577,6 +31163,94 @@
       "recent_change_count": 4,
       "deployment_count": 0,
       "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/honeywell": {
+    "entity": {
+      "id": "c3749791-e72b-5876-9e0d-9a8b6ae4da4e",
+      "slug": "honeywell",
+      "entity_type": "ORGANIZATION",
+      "name": "Honeywell",
+      "short_description": "Integrates mobile robotics and automation for logistics and supply chains.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "INTEGRATOR",
+        "declared": true,
+        "claim_id": "bd4c13dd-9ede-5d75-8419-fb09f0cf8372",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "bd4c13dd-9ede-5d75-8419-fb09f0cf8372",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "INTEGRATOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -32536,6 +33210,124 @@
     },
     "as_of": null
   },
+  "entity/intrinsic": {
+    "entity": {
+      "id": "cd542423-3dd5-591c-8636-b0684f26f1eb",
+      "slug": "intrinsic",
+      "entity_type": "ORGANIZATION",
+      "name": "Intrinsic",
+      "short_description": "Develops software to make industrial robot applications easier to build and deploy.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "INTEGRATOR",
+        "declared": true,
+        "claim_id": "fa0fc434-8f22-546b-a286-953196db71ae",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "913de142-d466-54db-bdfd-c1bf44df022f",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "913de142-d466-54db-bdfd-c1bf44df022f",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "fa0fc434-8f22-546b-a286-953196db71ae",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "INTEGRATOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 2,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 2,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/intuitive-surgical": {
     "entity": {
       "id": "9c989a06-5dc7-5b95-b411-b37bf58169dc",
@@ -33119,6 +33911,94 @@
           "ACADEMIC": 0,
           "DERIVED": 0,
           "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/kion-group": {
+    "entity": {
+      "id": "979bdd41-064b-55bc-8ce6-eeb4b316ee7a",
+      "slug": "kion-group",
+      "entity_type": "ORGANIZATION",
+      "name": "KION Group",
+      "short_description": "Develops warehouse robotics through material-handling and automation businesses.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "DE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "PLATFORM",
+        "declared": true,
+        "claim_id": "d8d0529a-3d41-5c1f-8a2e-de9a849649d9",
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "MEDIUM",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "d8d0529a-3d41-5c1f-8a2e-de9a849649d9",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "PLATFORM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "ANALYST",
+              "confidence": "MEDIUM",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 0,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 1
         },
         "claim_count": 1,
         "claims_without_evidence": 0
@@ -34626,6 +35506,94 @@
       "recent_change_count": 0,
       "deployment_count": 0,
       "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/lg-technology-ventures": {
+    "entity": {
+      "id": "d15ae925-8092-5907-8703-87a3b98eb9f8",
+      "slug": "lg-technology-ventures",
+      "entity_type": "ORGANIZATION",
+      "name": "LG Technology Ventures",
+      "short_description": "Invests in robotics companies including Figure AI.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "INVESTOR",
+        "declared": true,
+        "claim_id": "5e6d6450-ffa2-5e15-b883-f5f38c6c9693",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "5e6d6450-ffa2-5e15-b883-f5f38c6c9693",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "INVESTOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -38761,6 +39729,96 @@
     },
     "as_of": null
   },
+  "entity/mitsubishi-electric-research-laboratories-merl": {
+    "entity": {
+      "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+      "slug": "mitsubishi-electric-research-laboratories-merl",
+      "entity_type": "ORGANIZATION",
+      "name": "Mitsubishi Electric Research Laboratories (MERL)",
+      "short_description": "Researches robot perception, planning and control for industrial and mobile systems.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [
+        "MERL"
+      ],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "RESEARCH_LAB",
+        "declared": true,
+        "claim_id": "baad37ba-8fd1-50c7-9c83-7d397b3aa5c2",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "baad37ba-8fd1-50c7-9c83-7d397b3aa5c2",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "RESEARCH_LAB"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/mobile-industrial-robots": {
     "entity": {
       "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
@@ -39866,6 +40924,97 @@
     },
     "as_of": null
   },
+  "entity/murata-machinery-muratec": {
+    "entity": {
+      "id": "db60f85f-9f38-557f-bb22-2a346e929d38",
+      "slug": "murata-machinery-muratec",
+      "entity_type": "ORGANIZATION",
+      "name": "Murata Machinery (Muratec)",
+      "short_description": "Integrates logistics and clean-factory material-handling automation.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "JP",
+      "aliases": [
+        "Murata Machinery",
+        "Muratec"
+      ],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "INTEGRATOR",
+        "declared": true,
+        "claim_id": "5f06aa5e-ba98-5f7d-8fd8-fe5436f06d58",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "5f06aa5e-ba98-5f7d-8fd8-fe5436f06d58",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "INTEGRATOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/nabtesco": {
     "entity": {
       "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
@@ -40470,6 +41619,124 @@
     },
     "as_of": null
   },
+  "entity/naver-labs": {
+    "entity": {
+      "id": "3020631a-29c5-53d3-b5c6-72ad95a1ec79",
+      "slug": "naver-labs",
+      "entity_type": "ORGANIZATION",
+      "name": "Naver Labs",
+      "short_description": "Researches robotics, physical AI, localization and spatial intelligence.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "KR",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "MODEL_DEVELOPER",
+        "declared": true,
+        "claim_id": "d427d30b-a548-5e25-a2eb-8b96b72ffe02",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
+      {
+        "role": "RESEARCH_LAB",
+        "declared": true,
+        "claim_id": "6dd25df7-1873-5a96-9970-6ff4788ceaf0",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "6dd25df7-1873-5a96-9970-6ff4788ceaf0",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "RESEARCH_LAB"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "d427d30b-a548-5e25-a2eb-8b96b72ffe02",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "MODEL_DEVELOPER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 2,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 2,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 2,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/nedre-vats": {
     "entity": {
       "id": "8d7f2920-6b42-5180-a460-2908206e392f",
@@ -40797,7 +42064,8 @@
               "name": "Foxconn",
               "primary_embodiment": null,
               "roles": [
-                "CONTRACT_MANUFACTURER"
+                "CONTRACT_MANUFACTURER",
+                "OPERATOR"
               ]
             },
             "stack_layer": null,
@@ -40822,7 +42090,8 @@
           "name": "Foxconn",
           "primary_embodiment": null,
           "roles": [
-            "CONTRACT_MANUFACTURER"
+            "CONTRACT_MANUFACTURER",
+            "OPERATOR"
           ]
         }
       ]
@@ -48762,6 +50031,94 @@
     },
     "as_of": null
   },
+  "entity/rainbow-robotics": {
+    "entity": {
+      "id": "01838eab-6fe5-529a-8a6c-9c367c431ace",
+      "slug": "rainbow-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Rainbow Robotics",
+      "short_description": "Develops humanoid, collaborative and mobile robots.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "KR",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "OEM",
+        "declared": true,
+        "claim_id": "b4f71d1c-10d0-5eb5-bef8-285fea86df08",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "b4f71d1c-10d0-5eb5-bef8-285fea86df08",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/reach-subsea": {
     "entity": {
       "id": "11fe75a7-0702-5d67-b765-cb5840c989ea",
@@ -50885,6 +52242,97 @@
       "recent_change_count": 4,
       "deployment_count": 0,
       "related_count": 3
+    },
+    "as_of": null
+  },
+  "entity/robotics-and-ai-institute-rai-institute": {
+    "entity": {
+      "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
+      "slug": "robotics-and-ai-institute-rai-institute",
+      "entity_type": "ORGANIZATION",
+      "name": "Robotics and AI Institute (RAI Institute)",
+      "short_description": "Conducts fundamental robotics and artificial intelligence research.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [
+        "Boston Dynamics AI Institute",
+        "RAI Institute"
+      ],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "RESEARCH_LAB",
+        "declared": true,
+        "claim_id": "eec9d79f-1385-53f4-855b-b691ef814b73",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "eec9d79f-1385-53f4-855b-b691ef814b73",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "RESEARCH_LAB"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -56179,6 +57627,212 @@
     },
     "as_of": null
   },
+  "entity/softbank-group": {
+    "entity": {
+      "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+      "slug": "softbank-group",
+      "entity_type": "ORGANIZATION",
+      "name": "SoftBank Group",
+      "short_description": "Invests in robotics developers and owns multiple robotics businesses.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "JP",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "INVESTOR",
+        "declared": true,
+        "claim_id": "438fc315-3717-51a3-9525-4c358825b769",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
+      {
+        "role": "PLATFORM",
+        "declared": true,
+        "claim_id": "970c92d6-9e7d-50e4-a0f5-6f31a14b865b",
+        "evidence_summary": {
+          "class": "ANALYST",
+          "confidence": "MEDIUM",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "438fc315-3717-51a3-9525-4c358825b769",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "INVESTOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "970c92d6-9e7d-50e4-a0f5-6f31a14b865b",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "PLATFORM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "ANALYST",
+              "confidence": "MEDIUM",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 1
+        },
+        "claim_count": 2,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 2,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/softbank-robotics-group": {
+    "entity": {
+      "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+      "slug": "softbank-robotics-group",
+      "entity_type": "ORGANIZATION",
+      "name": "SoftBank Robotics Group",
+      "short_description": "Develops and commercializes service robots within SoftBank's robotics businesses.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "JP",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "OEM",
+        "declared": true,
+        "claim_id": "b519d858-77fc-5dbf-b4af-ae4e024bf94e",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "b519d858-77fc-5dbf-b4af-ae4e024bf94e",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/solar": {
     "entity": {
       "id": "04a2ead3-953c-5e6f-b05c-d999fdbfc614",
@@ -56264,6 +57918,94 @@
       "recent_change_count": 1,
       "deployment_count": 0,
       "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/sony-ai": {
+    "entity": {
+      "id": "4e38d628-7b7a-57fd-82bc-63f5fdd4f59a",
+      "slug": "sony-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Sony AI",
+      "short_description": "Conducts research in artificial intelligence, robotics and sensing.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "JP",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "RESEARCH_LAB",
+        "declared": true,
+        "claim_id": "f27ef733-f745-55f8-8798-849fbe1b7930",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "f27ef733-f745-55f8-8798-849fbe1b7930",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "RESEARCH_LAB"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -59605,6 +61347,29 @@
         "label": "is headquartered at",
         "items": [
           {
+            "claim_id": "2854ab77-a12b-553b-96f7-f75d4b303656",
+            "source": {
+              "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+              "slug": "woven-by-toyota",
+              "entity_type": "ORGANIZATION",
+              "name": "Woven by Toyota",
+              "primary_embodiment": null,
+              "roles": [
+                "RESEARCH_LAB",
+                "TOOLING_OPS_PROVIDER"
+              ]
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
             "claim_id": "31347bd2-94dd-5c4f-893d-5ed4eebb966b",
             "source": {
               "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
@@ -59768,6 +61533,17 @@
           "roles": [
             "COMPONENT_SUPPLIER"
           ]
+        },
+        {
+          "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+          "slug": "woven-by-toyota",
+          "entity_type": "ORGANIZATION",
+          "name": "Woven by Toyota",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB",
+            "TOOLING_OPS_PROVIDER"
+          ]
         }
       ]
     },
@@ -59786,7 +61562,7 @@
       "last_verified_at": null,
       "recent_change_count": 0,
       "deployment_count": 0,
-      "related_count": 5
+      "related_count": 6
     },
     "as_of": null
   },
@@ -66661,6 +68437,253 @@
             "value": {
               "kind": "enum",
               "value": "DATA_SIMULATION_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/woven-by-toyota": {
+    "entity": {
+      "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+      "slug": "woven-by-toyota",
+      "entity_type": "ORGANIZATION",
+      "name": "Woven by Toyota",
+      "short_description": "Develops automated driving and mobility software and researches robotic applications.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "JP",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "RESEARCH_LAB",
+        "declared": true,
+        "claim_id": "255d875e-5360-5e6d-826b-e117920b3a53",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      },
+      {
+        "role": "TOOLING_OPS_PROVIDER",
+        "declared": true,
+        "claim_id": "4f2e1941-21d4-5d6e-9537-9986692aea12",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "255d875e-5360-5e6d-826b-e117920b3a53",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "RESEARCH_LAB"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          },
+          {
+            "claim_id": "4f2e1941-21d4-5d6e-9537-9986692aea12",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "TOOLING_OPS_PROVIDER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "predicate": "HQ_AT",
+        "label": "is headquartered at",
+        "items": [
+          {
+            "claim_id": "2854ab77-a12b-553b-96f7-f75d4b303656",
+            "target": {
+              "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+              "slug": "tokyo",
+              "entity_type": "PLACE",
+              "name": "Tokyo",
+              "primary_embodiment": null,
+              "roles": []
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "inbound_relationships": [],
+    "lateral_links": {
+      "places": [
+        {
+          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+          "slug": "tokyo",
+          "entity_type": "PLACE",
+          "name": "Tokyo",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      ]
+    },
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 3,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 3,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 3,
+      "deployment_count": 0,
+      "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/x-development-alphabet-x": {
+    "entity": {
+      "id": "f1b57180-afad-56a7-8ea1-de998c10362b",
+      "slug": "x-development-alphabet-x",
+      "entity_type": "ORGANIZATION",
+      "name": "X Development (Alphabet X)",
+      "short_description": "Incubates robotics research and businesses including Intrinsic.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [
+        "Alphabet X",
+        "X Development"
+      ],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "RESEARCH_LAB",
+        "declared": true,
+        "claim_id": "9197c351-6b0d-51c1-b9ec-74d0d57c315b",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "9197c351-6b0d-51c1-b9ec-74d0d57c315b",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "RESEARCH_LAB"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -80663,12 +82686,12 @@
       {
         "id": "US",
         "label": "US",
-        "count": 175,
+        "count": 184,
         "districts": [
           {
             "id": "US",
             "label": "US",
-            "count": 175,
+            "count": 184,
             "entities": [
               {
                 "chip": {
@@ -80878,6 +82901,20 @@
               },
               {
                 "chip": {
+                  "id": "799bb715-85db-5fb1-a9e9-8a414a90ea6f",
+                  "slug": "apple",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Apple",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "RESEARCH_LAB"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
                   "slug": "applied-intuition",
                   "entity_type": "ORGANIZATION",
@@ -81001,6 +83038,20 @@
               },
               {
                 "chip": {
+                  "id": "01336b7b-0919-57e1-9ec6-946ab8f34a7b",
+                  "slug": "berkshire-grey",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Berkshire Grey",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "b4c8d070-a234-5efe-bbb5-cd45f66692ef",
                   "slug": "blue-robotics",
                   "entity_type": "ORGANIZATION",
@@ -81074,6 +83125,20 @@
                   "roles": [
                     "OEM",
                     "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "8bfe1d52-c20f-51c7-a7c8-d3d3a9bb73e7",
+                  "slug": "capitalg",
+                  "entity_type": "ORGANIZATION",
+                  "name": "CapitalG",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INVESTOR"
                   ]
                 },
                 "measure_value": null,
@@ -81597,6 +83662,20 @@
               },
               {
                 "chip": {
+                  "id": "c3749791-e72b-5876-9e0d-9a8b6ae4da4e",
+                  "slug": "honeywell",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Honeywell",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INTEGRATOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "dd23c052-5b08-5fc3-8727-53290033126b",
                   "slug": "honeywell-intelligrated",
                   "entity_type": "ORGANIZATION",
@@ -81647,6 +83726,21 @@
                   "name": "Intel RealSense D435i",
                   "primary_embodiment": null,
                   "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "cd542423-3dd5-591c-8636-b0684f26f1eb",
+                  "slug": "intrinsic",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Intrinsic",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INTEGRATOR",
+                    "TOOLING_OPS_PROVIDER"
+                  ]
                 },
                 "measure_value": null,
                 "is_primary_membership": true
@@ -81717,6 +83811,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "d15ae925-8092-5907-8703-87a3b98eb9f8",
+                  "slug": "lg-technology-ventures",
+                  "entity_type": "ORGANIZATION",
+                  "name": "LG Technology Ventures",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INVESTOR"
                   ]
                 },
                 "measure_value": null,
@@ -81827,6 +83935,20 @@
                   "roles": [
                     "INVESTOR",
                     "PLATFORM",
+                    "RESEARCH_LAB"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+                  "slug": "mitsubishi-electric-research-laboratories-merl",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Mitsubishi Electric Research Laboratories (MERL)",
+                  "primary_embodiment": null,
+                  "roles": [
                     "RESEARCH_LAB"
                   ]
                 },
@@ -82268,6 +84390,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
+                  "slug": "robotics-and-ai-institute-rai-institute",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Robotics and AI Institute (RAI Institute)",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "RESEARCH_LAB"
                   ]
                 },
                 "measure_value": null,
@@ -82970,6 +85106,20 @@
               },
               {
                 "chip": {
+                  "id": "f1b57180-afad-56a7-8ea1-de998c10362b",
+                  "slug": "x-development-alphabet-x",
+                  "entity_type": "ORGANIZATION",
+                  "name": "X Development (Alphabet X)",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "RESEARCH_LAB"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "fa345f9b-2de1-56b2-8e2e-0ab1aa8f72ed",
                   "slug": "xenex-disinfection-services",
                   "entity_type": "ORGANIZATION",
@@ -83608,12 +85758,12 @@
       {
         "id": "JP",
         "label": "JP",
-        "count": 22,
+        "count": 28,
         "districts": [
           {
             "id": "JP",
             "label": "JP",
-            "count": 22,
+            "count": 28,
             "entities": [
               {
                 "chip": {
@@ -83624,6 +85774,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "INTEGRATOR",
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "0fd9e03c-f1bf-5be4-bb84-9347514c0106",
+                  "slug": "denso-wave",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Denso Wave",
+                  "primary_embodiment": null,
+                  "roles": [
                     "OEM"
                   ]
                 },
@@ -83780,6 +85944,20 @@
               },
               {
                 "chip": {
+                  "id": "db60f85f-9f38-557f-bb22-2a346e929d38",
+                  "slug": "murata-machinery-muratec",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Murata Machinery (Muratec)",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INTEGRATOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
                   "slug": "nabtesco",
                   "entity_type": "ORGANIZATION",
@@ -83847,6 +86025,49 @@
               },
               {
                 "chip": {
+                  "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+                  "slug": "softbank-group",
+                  "entity_type": "ORGANIZATION",
+                  "name": "SoftBank Group",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INVESTOR",
+                    "PLATFORM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+                  "slug": "softbank-robotics-group",
+                  "entity_type": "ORGANIZATION",
+                  "name": "SoftBank Robotics Group",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "4e38d628-7b7a-57fd-82bc-63f5fdd4f59a",
+                  "slug": "sony-ai",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Sony AI",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "RESEARCH_LAB"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
                   "slug": "tokyo",
                   "entity_type": "PLACE",
@@ -83886,6 +86107,21 @@
               },
               {
                 "chip": {
+                  "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+                  "slug": "woven-by-toyota",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Woven by Toyota",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "RESEARCH_LAB",
+                    "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "771449f4-1624-5bcf-a888-40b087e1230c",
                   "slug": "yaskawa",
                   "entity_type": "ORGANIZATION",
@@ -83918,12 +86154,12 @@
       {
         "id": "DE",
         "label": "DE",
-        "count": 20,
+        "count": 21,
         "districts": [
           {
             "id": "DE",
             "label": "DE",
-            "count": 20,
+            "count": 21,
             "entities": [
               {
                 "chip": {
@@ -84038,6 +86274,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "OPERATOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "979bdd41-064b-55bc-8ce6-eeb4b316ee7a",
+                  "slug": "kion-group",
+                  "entity_type": "ORGANIZATION",
+                  "name": "KION Group",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "PLATFORM"
                   ]
                 },
                 "measure_value": null,
@@ -84409,6 +86659,173 @@
                   "slug": "zurich",
                   "entity_type": "PLACE",
                   "name": "Zurich",
+                  "primary_embodiment": null,
+                  "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "KR",
+        "label": "KR",
+        "count": 11,
+        "districts": [
+          {
+            "id": "KR",
+            "label": "KR",
+            "count": 11,
+            "entities": [
+              {
+                "chip": {
+                  "id": "fea14c4f-a335-569e-8de3-bc4b6a94b6ea",
+                  "slug": "doosan-m1013",
+                  "entity_type": "ROBOT",
+                  "name": "Doosan M1013",
+                  "primary_embodiment": "COBOT",
+                  "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
+                  "slug": "doosan-robotics",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Doosan Robotics",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "a9ae4d42-4802-5844-a57a-1c0ae8e257fd",
+                  "slug": "hanwha-robotics",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Hanwha Robotics",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "7c3f1312-e098-5632-9136-812a1bf6987b",
+                  "slug": "hd-hyundai-robotics",
+                  "entity_type": "ORGANIZATION",
+                  "name": "HD Hyundai Robotics",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+                  "slug": "hyundai",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Hyundai Motor Company",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INVESTOR",
+                    "PLATFORM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "50a1681f-e78c-52cd-9388-0d59b8696a7b",
+                  "slug": "lig-nex1",
+                  "entity_type": "ORGANIZATION",
+                  "name": "LIG Nex1",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INVESTOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "3020631a-29c5-53d3-b5c6-72ad95a1ec79",
+                  "slug": "naver-labs",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Naver Labs",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "MODEL_DEVELOPER",
+                    "RESEARCH_LAB"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "01838eab-6fe5-529a-8a6c-9c367c431ace",
+                  "slug": "rainbow-robotics",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Rainbow Robotics",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
+                  "slug": "samsung",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Samsung Electronics",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "CHIPMAKER",
+                    "COMPONENT_SUPPLIER",
+                    "INVESTOR",
+                    "PLATFORM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+                  "slug": "seoul",
+                  "entity_type": "PLACE",
+                  "name": "Seoul",
+                  "primary_embodiment": null,
+                  "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "f89a18fb-337d-5e25-91da-66048da131d4",
+                  "slug": "suwon",
+                  "entity_type": "PLACE",
+                  "name": "Suwon",
                   "primary_embodiment": null,
                   "roles": []
                 },
@@ -85032,116 +87449,6 @@
         ]
       },
       {
-        "id": "KR",
-        "label": "KR",
-        "count": 7,
-        "districts": [
-          {
-            "id": "KR",
-            "label": "KR",
-            "count": 7,
-            "entities": [
-              {
-                "chip": {
-                  "id": "fea14c4f-a335-569e-8de3-bc4b6a94b6ea",
-                  "slug": "doosan-m1013",
-                  "entity_type": "ROBOT",
-                  "name": "Doosan M1013",
-                  "primary_embodiment": "COBOT",
-                  "roles": []
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "abe5af01-2a9f-5032-97f4-1eb212494099",
-                  "slug": "doosan-robotics",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Doosan Robotics",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
-                  "slug": "hyundai",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Hyundai Motor Company",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "INVESTOR",
-                    "PLATFORM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "50a1681f-e78c-52cd-9388-0d59b8696a7b",
-                  "slug": "lig-nex1",
-                  "entity_type": "ORGANIZATION",
-                  "name": "LIG Nex1",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "INVESTOR"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
-                  "slug": "samsung",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Samsung Electronics",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "CHIPMAKER",
-                    "COMPONENT_SUPPLIER",
-                    "INVESTOR",
-                    "PLATFORM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
-                  "slug": "seoul",
-                  "entity_type": "PLACE",
-                  "name": "Seoul",
-                  "primary_embodiment": null,
-                  "roles": []
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "f89a18fb-337d-5e25-91da-66048da131d4",
-                  "slug": "suwon",
-                  "entity_type": "PLACE",
-                  "name": "Suwon",
-                  "primary_embodiment": null,
-                  "roles": []
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "DK",
         "label": "DK",
         "count": 6,
@@ -85254,7 +87561,8 @@
                   "name": "Foxconn",
                   "primary_embodiment": null,
                   "roles": [
-                    "CONTRACT_MANUFACTURER"
+                    "CONTRACT_MANUFACTURER",
+                    "OPERATOR"
                   ]
                 },
                 "measure_value": null,
@@ -86978,7 +89286,7 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 17
+        "count": 18
       },
       {
         "id": "FUNDED",
@@ -90037,7 +92345,7 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 17
+        "count": 18
       },
       {
         "id": "FUNDED",
@@ -90766,7 +93074,7 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 17
+        "count": 18
       },
       {
         "id": "FUNDED",
@@ -90802,7 +93110,8 @@
             "name": "Foxconn",
             "primary_embodiment": null,
             "roles": [
-              "CONTRACT_MANUFACTURER"
+              "CONTRACT_MANUFACTURER",
+              "OPERATOR"
             ]
           }
         ],
@@ -90827,7 +93136,8 @@
           "name": "Foxconn",
           "primary_embodiment": null,
           "roles": [
-            "CONTRACT_MANUFACTURER"
+            "CONTRACT_MANUFACTURER",
+            "OPERATOR"
           ]
         },
         "place": {
@@ -90868,7 +93178,7 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 17
+        "count": 18
       },
       {
         "id": "FUNDED",
@@ -90973,7 +93283,7 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 17
+        "count": 18
       },
       {
         "id": "FUNDED",
@@ -91093,6 +93403,45 @@
               "MODEL_DEVELOPER",
               "OEM",
               "OPERATOR"
+            ]
+          }
+        ],
+        "embodiment_mix": {}
+      },
+      {
+        "place": {
+          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+          "slug": "tokyo",
+          "entity_type": "PLACE",
+          "name": "Tokyo",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "lat": 35.68,
+        "lng": 139.69,
+        "country_code": "JP",
+        "cluster_label": "Tokyo",
+        "weight": 2,
+        "entities": [
+          {
+            "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
+            "slug": "honda-motor",
+            "entity_type": "ORGANIZATION",
+            "name": "Honda Motor",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          {
+            "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+            "slug": "woven-by-toyota",
+            "entity_type": "ORGANIZATION",
+            "name": "Woven by Toyota",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB",
+              "TOOLING_OPS_PROVIDER"
             ]
           }
         ],
@@ -91305,34 +93654,6 @@
       },
       {
         "place": {
-          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-          "slug": "tokyo",
-          "entity_type": "PLACE",
-          "name": "Tokyo",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "lat": 35.68,
-        "lng": 139.69,
-        "country_code": "JP",
-        "cluster_label": "Tokyo",
-        "weight": 1,
-        "entities": [
-          {
-            "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
-            "slug": "honda-motor",
-            "entity_type": "ORGANIZATION",
-            "name": "Honda Motor",
-            "primary_embodiment": null,
-            "roles": [
-              "RESEARCH_LAB"
-            ]
-          }
-        ],
-        "embodiment_mix": {}
-      },
-      {
-        "place": {
           "id": "56bcc0f1-a3b4-5563-8db8-5fe89e256929",
           "slug": "vancouver",
           "entity_type": "PLACE",
@@ -91369,6 +93690,12 @@
         "places": 6
       },
       {
+        "id": "JP",
+        "label": "JP",
+        "weight": 2,
+        "places": 1
+      },
+      {
         "id": "CA",
         "label": "CA",
         "weight": 1,
@@ -91385,12 +93712,6 @@
         "label": "GB",
         "weight": 1,
         "places": 1
-      },
-      {
-        "id": "JP",
-        "label": "JP",
-        "weight": 1,
-        "places": 1
       }
     ],
     "corridors": [
@@ -91405,6 +93726,12 @@
         "label": "Seattle",
         "weight": 2,
         "places": 2
+      },
+      {
+        "id": "Tokyo",
+        "label": "Tokyo",
+        "weight": 2,
+        "places": 1
       },
       {
         "id": "London",
@@ -91427,12 +93754,6 @@
       {
         "id": "Shanghai",
         "label": "Shanghai",
-        "weight": 1,
-        "places": 1
-      },
-      {
-        "id": "Tokyo",
-        "label": "Tokyo",
         "weight": 1,
         "places": 1
       },
@@ -91619,6 +93940,47 @@
       },
       {
         "entity": {
+          "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
+          "slug": "honda-motor",
+          "entity_type": "ORGANIZATION",
+          "name": "Honda Motor",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "place": {
+          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+          "slug": "tokyo",
+          "entity_type": "PLACE",
+          "name": "Tokyo",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      },
+      {
+        "entity": {
+          "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+          "slug": "woven-by-toyota",
+          "entity_type": "ORGANIZATION",
+          "name": "Woven by Toyota",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        "place": {
+          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+          "slug": "tokyo",
+          "entity_type": "PLACE",
+          "name": "Tokyo",
+          "primary_embodiment": null,
+          "roles": []
+        }
+      },
+      {
+        "entity": {
           "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
           "slug": "wayve",
           "entity_type": "ORGANIZATION",
@@ -91768,26 +94130,6 @@
       },
       {
         "entity": {
-          "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
-          "slug": "honda-motor",
-          "entity_type": "ORGANIZATION",
-          "name": "Honda Motor",
-          "primary_embodiment": null,
-          "roles": [
-            "RESEARCH_LAB"
-          ]
-        },
-        "place": {
-          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-          "slug": "tokyo",
-          "entity_type": "PLACE",
-          "name": "Tokyo",
-          "primary_embodiment": null,
-          "roles": []
-        }
-      },
-      {
-        "entity": {
           "id": "6a3ad67c-5549-528b-a5ed-0391f2c0f8a3",
           "slug": "sanctuary-ai",
           "entity_type": "ORGANIZATION",
@@ -91836,7 +94178,7 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 17
+        "count": 18
       },
       {
         "id": "FUNDED",
@@ -92315,7 +94657,7 @@
       {
         "id": "TRAINED",
         "label": "Trained",
-        "count": 17
+        "count": 18
       },
       {
         "id": "FUNDED",
@@ -93035,6 +95377,33 @@
         "origin": "SEED"
       },
       {
+        "id": "082d972e-caba-5794-8ece-913212ff175a",
+        "event_type": "CLAIM_CHANGED",
+        "entity": {
+          "id": "799bb715-85db-5fb1-a9e9-8a414a90ea6f",
+          "slug": "apple",
+          "entity_type": "ORGANIZATION",
+          "name": "Apple",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "before": null,
+        "after": {
+          "kind": "enum",
+          "value": "RESEARCH_LAB"
+        },
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        },
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "summary": "Role set to Research lab",
+        "origin": "SEED"
+      },
+      {
         "id": "08c4c107-765e-5274-96fc-fec9a110af8d",
         "event_type": "CLAIM_CHANGED",
         "entity": {
@@ -93070,6 +95439,33 @@
           "slug": "booster-robotics",
           "entity_type": "ORGANIZATION",
           "name": "Booster Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        "before": null,
+        "after": {
+          "kind": "enum",
+          "value": "OEM"
+        },
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        },
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "summary": "Role set to OEM",
+        "origin": "SEED"
+      },
+      {
+        "id": "0db7cd28-35bb-56e2-9a2a-2e70b7cfb9c1",
+        "event_type": "CLAIM_CHANGED",
+        "entity": {
+          "id": "0fd9e03c-f1bf-5be4-bb84-9347514c0106",
+          "slug": "denso-wave",
+          "entity_type": "ORGANIZATION",
+          "name": "Denso Wave",
           "primary_embodiment": null,
           "roles": [
             "OEM"
@@ -93351,6 +95747,33 @@
         "origin": "SEED"
       },
       {
+        "id": "1650c271-eca7-52b4-a374-02f69df97df1",
+        "event_type": "CLAIM_CHANGED",
+        "entity": {
+          "id": "db60f85f-9f38-557f-bb22-2a346e929d38",
+          "slug": "murata-machinery-muratec",
+          "entity_type": "ORGANIZATION",
+          "name": "Murata Machinery (Muratec)",
+          "primary_embodiment": null,
+          "roles": [
+            "INTEGRATOR"
+          ]
+        },
+        "before": null,
+        "after": {
+          "kind": "enum",
+          "value": "INTEGRATOR"
+        },
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        },
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "summary": "Role set to Integrator",
+        "origin": "SEED"
+      },
+      {
         "id": "182b6b1b-6165-5b9d-9369-a81a45829e33",
         "event_type": "CLAIM_CHANGED",
         "entity": {
@@ -93410,6 +95833,34 @@
         },
         "observed_at": "2026-09-11T00:00:00.000Z",
         "summary": "Headquartered at Odense",
+        "origin": "SEED"
+      },
+      {
+        "id": "1a28aa21-661a-555e-b215-99bdbe4553fa",
+        "event_type": "CLAIM_CHANGED",
+        "entity": {
+          "id": "3020631a-29c5-53d3-b5c6-72ad95a1ec79",
+          "slug": "naver-labs",
+          "entity_type": "ORGANIZATION",
+          "name": "Naver Labs",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "RESEARCH_LAB"
+          ]
+        },
+        "before": null,
+        "after": {
+          "kind": "enum",
+          "value": "RESEARCH_LAB"
+        },
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        },
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "summary": "Role set to Research lab",
         "origin": "SEED"
       },
       {
@@ -93558,7 +96009,8 @@
           "name": "Foxconn",
           "primary_embodiment": null,
           "roles": [
-            "CONTRACT_MANUFACTURER"
+            "CONTRACT_MANUFACTURER",
+            "OPERATOR"
           ]
         },
         "before": null,
@@ -93638,6 +96090,33 @@
           "slug": "neros-technologies",
           "entity_type": "ORGANIZATION",
           "name": "Neros Technologies",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        "before": null,
+        "after": {
+          "kind": "enum",
+          "value": "OEM"
+        },
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        },
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "summary": "Role set to OEM",
+        "origin": "SEED"
+      },
+      {
+        "id": "20b9006d-7d93-5dad-818d-f446fad8986f",
+        "event_type": "CLAIM_CHANGED",
+        "entity": {
+          "id": "7c3f1312-e098-5632-9136-812a1bf6987b",
+          "slug": "hd-hyundai-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "HD Hyundai Robotics",
           "primary_embodiment": null,
           "roles": [
             "OEM"
@@ -93816,6 +96295,33 @@
         },
         "observed_at": "2026-09-11T00:00:00.000Z",
         "summary": "Role set to Integrator",
+        "origin": "SEED"
+      },
+      {
+        "id": "2b82878f-25fa-5d91-b1b7-8468edc1552f",
+        "event_type": "CLAIM_CHANGED",
+        "entity": {
+          "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+          "slug": "mitsubishi-electric-research-laboratories-merl",
+          "entity_type": "ORGANIZATION",
+          "name": "Mitsubishi Electric Research Laboratories (MERL)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        "before": null,
+        "after": {
+          "kind": "enum",
+          "value": "RESEARCH_LAB"
+        },
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        },
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "summary": "Role set to Research lab",
         "origin": "SEED"
       },
       {
@@ -94051,180 +96557,6 @@
         },
         "observed_at": "2026-09-11T00:00:00.000Z",
         "summary": "Role set to OEM",
-        "origin": "SEED"
-      },
-      {
-        "id": "336dca56-f991-5df9-a629-80368488cf87",
-        "event_type": "CLAIM_CHANGED",
-        "entity": {
-          "id": "36c15b21-f131-56fc-bb79-c9826cf81942",
-          "slug": "textron-systems",
-          "entity_type": "ORGANIZATION",
-          "name": "Textron Systems",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        },
-        "before": null,
-        "after": {
-          "kind": "enum",
-          "value": "OEM"
-        },
-        "evidence_summary": {
-          "class": "PRIMARY",
-          "confidence": "HIGH",
-          "source_count": 1
-        },
-        "observed_at": "2026-09-11T00:00:00.000Z",
-        "summary": "Role set to OEM",
-        "origin": "SEED"
-      },
-      {
-        "id": "3408ca1b-4328-5697-bd9b-572caf90504d",
-        "event_type": "CLAIM_CHANGED",
-        "entity": {
-          "id": "71bcca72-40aa-5ca5-8334-b3f215077af1",
-          "slug": "monumental",
-          "entity_type": "ORGANIZATION",
-          "name": "Monumental",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM",
-            "OPERATOR"
-          ]
-        },
-        "before": null,
-        "after": {
-          "kind": "enum",
-          "value": "OPERATOR"
-        },
-        "evidence_summary": {
-          "class": "PRIMARY",
-          "confidence": "HIGH",
-          "source_count": 1
-        },
-        "observed_at": "2026-09-11T00:00:00.000Z",
-        "summary": "Role set to Operator",
-        "origin": "SEED"
-      },
-      {
-        "id": "34151950-028d-596d-bc0c-cb217425da79",
-        "event_type": "CLAIM_CHANGED",
-        "entity": {
-          "id": "1f9935c7-723e-5ca0-b4c1-41c6efa5b876",
-          "slug": "bedrock-ocean",
-          "entity_type": "ORGANIZATION",
-          "name": "Bedrock Ocean",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM",
-            "OPERATOR"
-          ]
-        },
-        "before": null,
-        "after": {
-          "kind": "enum",
-          "value": "OPERATOR"
-        },
-        "evidence_summary": {
-          "class": "PRIMARY",
-          "confidence": "HIGH",
-          "source_count": 1
-        },
-        "observed_at": "2026-09-11T00:00:00.000Z",
-        "summary": "Role set to Operator",
-        "origin": "SEED"
-      },
-      {
-        "id": "350749e3-08bc-57e8-b06e-f5bbf0db0b9b",
-        "event_type": "CLAIM_CHANGED",
-        "entity": {
-          "id": "cadcfc14-a9ca-5b29-b6de-ca70abc1fe70",
-          "slug": "balyo",
-          "entity_type": "ORGANIZATION",
-          "name": "BALYO",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        },
-        "before": null,
-        "after": {
-          "kind": "enum",
-          "value": "OEM"
-        },
-        "evidence_summary": {
-          "class": "PRIMARY",
-          "confidence": "HIGH",
-          "source_count": 1
-        },
-        "observed_at": "2026-09-11T00:00:00.000Z",
-        "summary": "Role set to OEM",
-        "origin": "SEED"
-      },
-      {
-        "id": "37f928ca-8add-58d6-9846-979da9c84996",
-        "event_type": "CLAIM_CHANGED",
-        "entity": {
-          "id": "698e5de5-1374-5cd4-bfe9-ed825b2069a6",
-          "slug": "ssi-schaefer",
-          "entity_type": "ORGANIZATION",
-          "name": "SSI Schaefer",
-          "primary_embodiment": null,
-          "roles": [
-            "INTEGRATOR",
-            "OEM"
-          ]
-        },
-        "before": null,
-        "after": {
-          "kind": "enum",
-          "value": "INTEGRATOR"
-        },
-        "evidence_summary": {
-          "class": "PRIMARY",
-          "confidence": "HIGH",
-          "source_count": 1
-        },
-        "observed_at": "2026-09-11T00:00:00.000Z",
-        "summary": "Role set to Integrator",
-        "origin": "SEED"
-      },
-      {
-        "id": "38cb5039-7ec2-5282-bff3-d86a894d04a5",
-        "event_type": "CLAIM_CHANGED",
-        "entity": {
-          "id": "f8945d58-a1e3-525f-913b-aee6b56b78a5",
-          "slug": "ocado",
-          "entity_type": "ORGANIZATION",
-          "name": "Ocado",
-          "primary_embodiment": null,
-          "roles": [
-            "INTEGRATOR",
-            "OEM"
-          ]
-        },
-        "before": null,
-        "after": {
-          "kind": "entity",
-          "entity": {
-            "id": "be080f8f-ec4c-5458-bba9-99079225e7cd",
-            "slug": "hatfield-gb",
-            "entity_type": "PLACE",
-            "name": "Hatfield",
-            "primary_embodiment": null,
-            "roles": []
-          },
-          "measure": null
-        },
-        "evidence_summary": {
-          "class": "THIRD_PARTY",
-          "confidence": "MEDIUM",
-          "source_count": 1
-        },
-        "observed_at": "2026-09-11T00:00:00.000Z",
-        "summary": "Headquartered at Hatfield",
         "origin": "SEED"
       }
     ]
@@ -96678,6 +99010,61 @@
           "title": "Helix: a vision-language-action model for generalist humanoid control",
           "source_kind": "PRESS_RELEASE",
           "published_at": "2025-02-20T00:00:00.000Z",
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/0b3fc1fe-6c74-5414-a57f-07da1cd9fc01": {
+    "claim": {
+      "claim_id": "0b3fc1fe-6c74-5414-a57f-07da1cd9fc01",
+      "subject": {
+        "id": "799bb715-85db-5fb1-a9e9-8a414a90ea6f",
+        "slug": "apple",
+        "entity_type": "ORGANIZATION",
+        "name": "Apple",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Apple role RESEARCH_LAB",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "2fcd37b7-8c47-59bc-9266-280aa3f3ee6f",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Conducts robotics research including expressive tabletop robot motion design.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "93157dee-3b18-52e6-abf6-ff00e175a49f",
+          "url": "https://machinelearning.apple.com/research/elegnt-expressive-functional-movement",
+          "canonical_url": null,
+          "publisher": "Apple",
+          "title": "Apple — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
           "language": "en"
         },
         "assessment": null
@@ -103106,6 +105493,74 @@
     "history": [],
     "dependencies": []
   },
+  "claim/255d875e-5360-5e6d-826b-e117920b3a53": {
+    "claim": {
+      "claim_id": "255d875e-5360-5e6d-826b-e117920b3a53",
+      "subject": {
+        "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+        "slug": "woven-by-toyota",
+        "entity_type": "ORGANIZATION",
+        "name": "Woven by Toyota",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Woven by Toyota role RESEARCH_LAB",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "2b6b9e85-1718-598d-be36-e08833a6c1ae",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops automated driving and mobility software and researches robotic applications.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "b3e68471-7de3-5cc8-8efe-5ee0b2a7dbfc",
+          "url": "https://woven.toyota/en/company/",
+          "canonical_url": null,
+          "publisher": "Woven by Toyota",
+          "title": "Woven by Toyota — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "4f2e1941-21d4-5d6e-9537-9986692aea12",
+        "value": {
+          "kind": "enum",
+          "value": "TOOLING_OPS_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/25ca64ed-2a0d-58b0-99bf-3eadade64958": {
     "claim": {
       "claim_id": "25ca64ed-2a0d-58b0-99bf-3eadade64958",
@@ -104019,6 +106474,70 @@
     "history": [],
     "dependencies": []
   },
+  "claim/2854ab77-a12b-553b-96f7-f75d4b303656": {
+    "claim": {
+      "claim_id": "2854ab77-a12b-553b-96f7-f75d4b303656",
+      "subject": {
+        "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+        "slug": "woven-by-toyota",
+        "entity_type": "ORGANIZATION",
+        "name": "Woven by Toyota",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "sentence": "Woven by Toyota is headquartered at Tokyo",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+          "slug": "tokyo",
+          "entity_type": "PLACE",
+          "name": "Tokyo",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "606ad541-1268-5bc7-99d6-160ccc7d4f5d",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Woven by Toyota is headquartered in Tokyo.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "b3e68471-7de3-5cc8-8efe-5ee0b2a7dbfc",
+          "url": "https://woven.toyota/en/company/",
+          "canonical_url": null,
+          "publisher": "Woven by Toyota",
+          "title": "Woven by Toyota — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/2928e133-b5b9-559b-a08a-8d81b1181a8b": {
     "claim": {
       "claim_id": "2928e133-b5b9-559b-a08a-8d81b1181a8b",
@@ -104513,6 +107032,74 @@
       }
     ],
     "history": [],
+    "dependencies": []
+  },
+  "claim/2bada566-a8e1-545e-8ca0-ea218f631843": {
+    "claim": {
+      "claim_id": "2bada566-a8e1-545e-8ca0-ea218f631843",
+      "subject": {
+        "id": "3dd79380-d3dd-5f4c-9691-75e3e947eb84",
+        "slug": "foxconn",
+        "entity_type": "ORGANIZATION",
+        "name": "Foxconn",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OPERATOR"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Foxconn role OPERATOR",
+      "value": {
+        "kind": "enum",
+        "value": "OPERATOR"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "ee9c072b-f8bf-53f3-9e8b-768bab39453e",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Manufactures electronics and deploys robotics in industrial production.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "32831c3b-26a5-58bd-a658-52ed17c2ecb1",
+          "url": "https://www.honhai.com/en-us/press-center/press-releases/latest-news/1975",
+          "canonical_url": null,
+          "publisher": "Foxconn",
+          "title": "Foxconn — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "90c55b91-75ef-5b06-b597-72b3611cec7b",
+        "value": {
+          "kind": "enum",
+          "value": "CONTRACT_MANUFACTURER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
     "dependencies": []
   },
   "claim/2baf8f68-526a-59db-b371-772826bac1c0": {
@@ -109556,7 +112143,8 @@
         "name": "Foxconn",
         "primary_embodiment": null,
         "roles": [
-          "CONTRACT_MANUFACTURER"
+          "CONTRACT_MANUFACTURER",
+          "OPERATOR"
         ]
       },
       "predicate": "FOUNDED_ON",
@@ -110611,7 +113199,8 @@
         "name": "Foxconn",
         "primary_embodiment": null,
         "roles": [
-          "CONTRACT_MANUFACTURER"
+          "CONTRACT_MANUFACTURER",
+          "OPERATOR"
         ]
       },
       "predicate": "HQ_AT",
@@ -110941,6 +113530,74 @@
       }
     ],
     "history": [],
+    "dependencies": []
+  },
+  "claim/438fc315-3717-51a3-9525-4c358825b769": {
+    "claim": {
+      "claim_id": "438fc315-3717-51a3-9525-4c358825b769",
+      "subject": {
+        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+        "slug": "softbank-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "SoftBank Group role INVESTOR",
+      "value": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "3f66bc0b-9189-5533-98a4-00ac98749695",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Invests in robotics developers and owns multiple robotics businesses.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "327192a2-09f5-517d-bd9d-dcd464719de5",
+          "url": "https://group.softbank/en/news/press/20251008",
+          "canonical_url": null,
+          "publisher": "SoftBank Group",
+          "title": "SoftBank Group — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "970c92d6-9e7d-50e4-a0f5-6f31a14b865b",
+        "value": {
+          "kind": "enum",
+          "value": "PLATFORM"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
     "dependencies": []
   },
   "claim/4420e818-6de5-5059-9b20-933811c4b400": {
@@ -113937,6 +116594,74 @@
     "history": [],
     "dependencies": []
   },
+  "claim/4f2e1941-21d4-5d6e-9537-9986692aea12": {
+    "claim": {
+      "claim_id": "4f2e1941-21d4-5d6e-9537-9986692aea12",
+      "subject": {
+        "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+        "slug": "woven-by-toyota",
+        "entity_type": "ORGANIZATION",
+        "name": "Woven by Toyota",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Woven by Toyota role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "ee3030f6-9e85-551e-8494-3d893e1710e1",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops automated driving and mobility software and researches robotic applications.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "b3e68471-7de3-5cc8-8efe-5ee0b2a7dbfc",
+          "url": "https://woven.toyota/en/company/",
+          "canonical_url": null,
+          "publisher": "Woven by Toyota",
+          "title": "Woven by Toyota — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "255d875e-5360-5e6d-826b-e117920b3a53",
+        "value": {
+          "kind": "enum",
+          "value": "RESEARCH_LAB"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/4f564b7e-4947-551f-99cf-0b1ab0b337c1": {
     "claim": {
       "claim_id": "4f564b7e-4947-551f-99cf-0b1ab0b337c1",
@@ -115655,6 +118380,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/57987deb-3df9-5c5e-b1bb-153eb1eb21f9": {
+    "claim": {
+      "claim_id": "57987deb-3df9-5c5e-b1bb-153eb1eb21f9",
+      "subject": {
+        "id": "a9ae4d42-4802-5844-a57a-1c0ae8e257fd",
+        "slug": "hanwha-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Hanwha Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Hanwha Robotics role OEM",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "db8048aa-126a-5f81-b0e0-3fbbd70e3572",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Builds collaborative robots and automated guided vehicles.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "6f29d993-32b6-56ed-80ce-487788c97566",
+          "url": "https://www.hanwha.com/companies/hanwha-robotics.do",
+          "canonical_url": null,
+          "publisher": "Hanwha Robotics",
+          "title": "Hanwha Robotics — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/57b58b7c-8ddc-582b-9348-57ad769f7ec2": {
     "claim": {
       "claim_id": "57b58b7c-8ddc-582b-9348-57ad769f7ec2",
@@ -117195,6 +119975,61 @@
     ],
     "dependencies": []
   },
+  "claim/5e6d6450-ffa2-5e15-b883-f5f38c6c9693": {
+    "claim": {
+      "claim_id": "5e6d6450-ffa2-5e15-b883-f5f38c6c9693",
+      "subject": {
+        "id": "d15ae925-8092-5907-8703-87a3b98eb9f8",
+        "slug": "lg-technology-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "LG Technology Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "LG Technology Ventures role INVESTOR",
+      "value": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "45d79bdb-dd74-5a84-b758-431e7af9d62e",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Invests in robotics companies including Figure AI.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "1c61fce4-8274-50d5-b016-bcc9e19b5de8",
+          "url": "https://www.figure.ai/news/series-c",
+          "canonical_url": null,
+          "publisher": "LG Technology Ventures",
+          "title": "LG Technology Ventures — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/5e8d618f-92c4-5698-8927-c50613f3aefa": {
     "claim": {
       "claim_id": "5e8d618f-92c4-5698-8927-c50613f3aefa",
@@ -117377,6 +120212,61 @@
           "publisher": "Apptronik",
           "title": "Apollo humanoid robot",
           "source_kind": "PRODUCT_PAGE",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/5f06aa5e-ba98-5f7d-8fd8-fe5436f06d58": {
+    "claim": {
+      "claim_id": "5f06aa5e-ba98-5f7d-8fd8-fe5436f06d58",
+      "subject": {
+        "id": "db60f85f-9f38-557f-bb22-2a346e929d38",
+        "slug": "murata-machinery-muratec",
+        "entity_type": "ORGANIZATION",
+        "name": "Murata Machinery (Muratec)",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Murata Machinery (Muratec) role INTEGRATOR",
+      "value": {
+        "kind": "enum",
+        "value": "INTEGRATOR"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "39c2f2fb-3542-526f-ac87-cfd80a1b1d12",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Integrates logistics and clean-factory material-handling automation.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "3f01b4bc-aed9-53b5-a475-0558f8047415",
+          "url": "https://www.muratec.net/",
+          "canonical_url": null,
+          "publisher": "Murata Machinery (Muratec)",
+          "title": "Murata Machinery (Muratec) — robotics enrichment reference",
+          "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
         },
@@ -118499,7 +121389,8 @@
         "name": "Foxconn",
         "primary_embodiment": null,
         "roles": [
-          "CONTRACT_MANUFACTURER"
+          "CONTRACT_MANUFACTURER",
+          "OPERATOR"
         ]
       },
       "predicate": "HAS_TICKER",
@@ -121975,6 +124866,74 @@
       }
     ],
     "history": [],
+    "dependencies": []
+  },
+  "claim/6dd25df7-1873-5a96-9970-6ff4788ceaf0": {
+    "claim": {
+      "claim_id": "6dd25df7-1873-5a96-9970-6ff4788ceaf0",
+      "subject": {
+        "id": "3020631a-29c5-53d3-b5c6-72ad95a1ec79",
+        "slug": "naver-labs",
+        "entity_type": "ORGANIZATION",
+        "name": "Naver Labs",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Naver Labs role RESEARCH_LAB",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "e16181de-28c4-5dd3-8f77-2a6e664f919a",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Researches robotics, physical AI, localization and spatial intelligence.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "abec517a-b82c-5c03-bbae-796ed10879e2",
+          "url": "https://www.naverlabs.com/en/",
+          "canonical_url": null,
+          "publisher": "Naver Labs",
+          "title": "Naver Labs — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "d427d30b-a548-5e25-a2eb-8b96b72ffe02",
+        "value": {
+          "kind": "enum",
+          "value": "MODEL_DEVELOPER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
     "dependencies": []
   },
   "claim/6e4f9918-4448-51ec-953d-1f2bcc104044": {
@@ -131998,7 +134957,8 @@
         "name": "Foxconn",
         "primary_embodiment": null,
         "roles": [
-          "CONTRACT_MANUFACTURER"
+          "CONTRACT_MANUFACTURER",
+          "OPERATOR"
         ]
       },
       "predicate": "HAS_ROLE",
@@ -132040,7 +135000,19 @@
         "assessment": null
       }
     ],
-    "history": [],
+    "history": [
+      {
+        "claim_id": "2bada566-a8e1-545e-8ca0-ea218f631843",
+        "value": {
+          "kind": "enum",
+          "value": "OPERATOR"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
     "dependencies": []
   },
   "claim/90eda469-693d-593d-ab6a-0bb8e1dd048b": {
@@ -132216,6 +135188,74 @@
     "history": [],
     "dependencies": []
   },
+  "claim/913de142-d466-54db-bdfd-c1bf44df022f": {
+    "claim": {
+      "claim_id": "913de142-d466-54db-bdfd-c1bf44df022f",
+      "subject": {
+        "id": "cd542423-3dd5-591c-8636-b0684f26f1eb",
+        "slug": "intrinsic",
+        "entity_type": "ORGANIZATION",
+        "name": "Intrinsic",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Intrinsic role TOOLING_OPS_PROVIDER",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "c0faf2b9-c993-5e03-a90f-cacfb6bed675",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops software to make industrial robot applications easier to build and deploy.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "aeb6cf8a-504a-570e-89b9-330f60ae4dd8",
+          "url": "https://x.company/projects/intrinsic/",
+          "canonical_url": null,
+          "publisher": "Intrinsic",
+          "title": "Intrinsic — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "fa0fc434-8f22-546b-a286-953196db71ae",
+        "value": {
+          "kind": "enum",
+          "value": "INTEGRATOR"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
+    "dependencies": []
+  },
   "claim/914e50b3-1537-59a4-a930-b2cf4fbbfa2f": {
     "claim": {
       "claim_id": "914e50b3-1537-59a4-a930-b2cf4fbbfa2f",
@@ -132344,6 +135384,61 @@
           "title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
           "source_kind": "PAPER",
           "published_at": "2024-10-31T00:00:00.000Z",
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/9197c351-6b0d-51c1-b9ec-74d0d57c315b": {
+    "claim": {
+      "claim_id": "9197c351-6b0d-51c1-b9ec-74d0d57c315b",
+      "subject": {
+        "id": "f1b57180-afad-56a7-8ea1-de998c10362b",
+        "slug": "x-development-alphabet-x",
+        "entity_type": "ORGANIZATION",
+        "name": "X Development (Alphabet X)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "X Development (Alphabet X) role RESEARCH_LAB",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "17c4ac2a-bedd-5636-b795-29adeb9bc3d5",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Incubates robotics research and businesses including Intrinsic.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "aeb6cf8a-504a-570e-89b9-330f60ae4dd8",
+          "url": "https://x.company/projects/intrinsic/",
+          "canonical_url": null,
+          "publisher": "Intrinsic",
+          "title": "Intrinsic — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
           "language": "en"
         },
         "assessment": null
@@ -133350,6 +136445,86 @@
       }
     ],
     "history": [],
+    "dependencies": []
+  },
+  "claim/970c92d6-9e7d-50e4-a0f5-6f31a14b865b": {
+    "claim": {
+      "claim_id": "970c92d6-9e7d-50e4-a0f5-6f31a14b865b",
+      "subject": {
+        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+        "slug": "softbank-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "SoftBank Group role PLATFORM",
+      "value": {
+        "kind": "enum",
+        "value": "PLATFORM"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "bcbf1b70-6ba7-5c68-bb16-83afb5f1eb17",
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "stance": "SUPPORTS",
+        "excerpt": "Invests in robotics developers and owns multiple robotics businesses.",
+        "published_at": null,
+        "observed_at": "2026-09-01T00:00:00.000Z",
+        "source": {
+          "id": "327192a2-09f5-517d-bd9d-dcd464719de5",
+          "url": "https://group.softbank/en/news/press/20251008",
+          "canonical_url": null,
+          "publisher": "SoftBank Group",
+          "title": "SoftBank Group — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Invests in robotics developers and owns multiple robotics businesses. The platform role describes involvement across robotics businesses and technologies.",
+          "advance_criteria": [
+            "Sustained robotics activity across three roles or controlled subsidiaries."
+          ],
+          "regress_criteria": [
+            "Robotics involvement contracts to a single product or passive holding."
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "438fc315-3717-51a3-9525-4c358825b769",
+        "value": {
+          "kind": "enum",
+          "value": "INVESTOR"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
     "dependencies": []
   },
   "claim/973264ef-22d4-528f-890e-6f56d73bc21f": {
@@ -137164,6 +140339,61 @@
           "canonical_url": null,
           "publisher": "AgiBot",
           "title": "AgiBot — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/a4635690-f731-5c99-b4a8-d7eec9fb59ac": {
+    "claim": {
+      "claim_id": "a4635690-f731-5c99-b4a8-d7eec9fb59ac",
+      "subject": {
+        "id": "a9ae4d42-4802-5844-a57a-1c0ae8e257fd",
+        "slug": "hanwha-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Hanwha Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "sentence": "Hanwha Robotics was founded on 2023-01-01",
+      "value": {
+        "kind": "date",
+        "date": "2023-01-01"
+      },
+      "stack_layer": null,
+      "qualifier": "Year precision",
+      "status": "APPROVED",
+      "valid_from": "2023-01-01",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "8a823893-5c07-5dd0-a81c-5f9c323d35e1",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Hanwha Robotics was established in 2023 (year precision).",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "6f29d993-32b6-56ed-80ce-487788c97566",
+          "url": "https://www.hanwha.com/companies/hanwha-robotics.do",
+          "canonical_url": null,
+          "publisher": "Hanwha Robotics",
+          "title": "Hanwha Robotics — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -141728,6 +144958,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/b4f71d1c-10d0-5eb5-bef8-285fea86df08": {
+    "claim": {
+      "claim_id": "b4f71d1c-10d0-5eb5-bef8-285fea86df08",
+      "subject": {
+        "id": "01838eab-6fe5-529a-8a6c-9c367c431ace",
+        "slug": "rainbow-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Rainbow Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Rainbow Robotics role OEM",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "49a3d09e-bea2-5b7c-a071-60c6c0d470c2",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops humanoid, collaborative and mobile robots.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "c6b2d85d-860d-5a99-b71b-2ff7f1b41e38",
+          "url": "https://news.samsung.com/global/samsung-electronics-to-become-largest-shareholder-in-rainbow-robotics-accelerating-future-robot-development",
+          "canonical_url": null,
+          "publisher": "Rainbow Robotics",
+          "title": "Rainbow Robotics — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/b50a3a3f-642d-583b-84ec-86e2483640af": {
     "claim": {
       "claim_id": "b50a3a3f-642d-583b-84ec-86e2483640af",
@@ -141803,6 +145088,61 @@
         "valid_to": null
       }
     ],
+    "dependencies": []
+  },
+  "claim/b519d858-77fc-5dbf-b4af-ae4e024bf94e": {
+    "claim": {
+      "claim_id": "b519d858-77fc-5dbf-b4af-ae4e024bf94e",
+      "subject": {
+        "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+        "slug": "softbank-robotics-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Robotics Group",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "SoftBank Robotics Group role OEM",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "5797a620-def2-5b32-bdd5-703f607e3111",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops and commercializes service robots within SoftBank's robotics businesses.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "327192a2-09f5-517d-bd9d-dcd464719de5",
+          "url": "https://group.softbank/en/news/press/20251008",
+          "canonical_url": null,
+          "publisher": "SoftBank Group",
+          "title": "SoftBank Group — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
     "dependencies": []
   },
   "claim/b524ba71-a01d-52ca-af78-9ac870325b6b": {
@@ -142303,6 +145643,61 @@
           "publisher": "AutoStore",
           "title": "AutoStore",
           "source_kind": "PRODUCT_PAGE",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/b7bc64de-ce6b-5e93-8846-0faed8b1ee4e": {
+    "claim": {
+      "claim_id": "b7bc64de-ce6b-5e93-8846-0faed8b1ee4e",
+      "subject": {
+        "id": "8bfe1d52-c20f-51c7-a7c8-d3d3a9bb73e7",
+        "slug": "capitalg",
+        "entity_type": "ORGANIZATION",
+        "name": "CapitalG",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "CapitalG role INVESTOR",
+      "value": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "582c4149-789e-5064-976d-4852294292fb",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Invests in technology businesses including robotics model developer Physical Intelligence.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "a9e4aea7-aaad-5549-aa4d-eb9c11a2d06c",
+          "url": "https://www.capitalg.com/portfolio",
+          "canonical_url": null,
+          "publisher": "CapitalG",
+          "title": "CapitalG — robotics enrichment reference",
+          "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
         },
@@ -143446,6 +146841,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/baad37ba-8fd1-50c7-9c83-7d397b3aa5c2": {
+    "claim": {
+      "claim_id": "baad37ba-8fd1-50c7-9c83-7d397b3aa5c2",
+      "subject": {
+        "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+        "slug": "mitsubishi-electric-research-laboratories-merl",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric Research Laboratories (MERL)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Mitsubishi Electric Research Laboratories (MERL) role RESEARCH_LAB",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "b01edda9-5147-5a68-90c9-ace4e05b37b6",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Researches robot perception, planning and control for industrial and mobile systems.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "b65ebe98-c502-528f-bde9-b49dd0f878c4",
+          "url": "https://www.merl.com/research/robotics",
+          "canonical_url": null,
+          "publisher": "Mitsubishi Electric Research Laboratories (MERL)",
+          "title": "Mitsubishi Electric Research Laboratories (MERL) — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/badc1051-1f0f-5594-ad04-b8bed26e1436": {
     "claim": {
       "claim_id": "badc1051-1f0f-5594-ad04-b8bed26e1436",
@@ -144381,6 +147831,61 @@
           "reviewed_at": "2026-09-01T00:00:00.000Z",
           "notes": null
         }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/bd4c13dd-9ede-5d75-8419-fb09f0cf8372": {
+    "claim": {
+      "claim_id": "bd4c13dd-9ede-5d75-8419-fb09f0cf8372",
+      "subject": {
+        "id": "c3749791-e72b-5876-9e0d-9a8b6ae4da4e",
+        "slug": "honeywell",
+        "entity_type": "ORGANIZATION",
+        "name": "Honeywell",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Honeywell role INTEGRATOR",
+      "value": {
+        "kind": "enum",
+        "value": "INTEGRATOR"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "d44d2a48-26d9-53ce-bfd1-7534d42cb486",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Integrates mobile robotics and automation for logistics and supply chains.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "ae0fdbd5-9e95-577c-a852-389a0a473d60",
+          "url": "https://www.honeywell.com/us/en/news/featured-stories/2025/05/honeywell-teradyne-robotics-automate-material-transport-scale-automation-solutions",
+          "canonical_url": null,
+          "publisher": "Honeywell",
+          "title": "Honeywell — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
       }
     ],
     "history": [],
@@ -146741,6 +150246,61 @@
           "title": "Symbotic Inc. Form 10-K",
           "source_kind": "FILING",
           "published_at": "2024-11-25T00:00:00.000Z",
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/c64327da-643c-5e45-af88-80ca967eafab": {
+    "claim": {
+      "claim_id": "c64327da-643c-5e45-af88-80ca967eafab",
+      "subject": {
+        "id": "7c3f1312-e098-5632-9136-812a1bf6987b",
+        "slug": "hd-hyundai-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "HD Hyundai Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "HD Hyundai Robotics role OEM",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "7b8e10bd-7f31-536d-9061-a35e61aa2b68",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Builds industrial robots and collaborative robotic systems.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "5755d77c-0cc7-526d-b871-3a7819183b2d",
+          "url": "https://hd-hyundairobotics.com/en/company/history",
+          "canonical_url": null,
+          "publisher": "HD Hyundai Robotics",
+          "title": "HD Hyundai Robotics — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
           "language": "en"
         },
         "assessment": null
@@ -150175,6 +153735,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/d2afe6d1-8834-521b-a98e-67297fa7e39f": {
+    "claim": {
+      "claim_id": "d2afe6d1-8834-521b-a98e-67297fa7e39f",
+      "subject": {
+        "id": "0fd9e03c-f1bf-5be4-bb84-9347514c0106",
+        "slug": "denso-wave",
+        "entity_type": "ORGANIZATION",
+        "name": "Denso Wave",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Denso Wave role OEM",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "f5495c50-971b-5daa-a986-8e30a1999218",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Builds industrial robot arms and integrated robot control systems.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "82a700fa-f8f0-5749-8472-d5a8b29237f1",
+          "url": "https://www.denso-wave.com/en/robot/",
+          "canonical_url": null,
+          "publisher": "Denso Wave",
+          "title": "Denso Wave — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/d3543cf9-3efe-598c-8d17-512c8d90d0e4": {
     "claim": {
       "claim_id": "d3543cf9-3efe-598c-8d17-512c8d90d0e4",
@@ -150463,6 +154078,74 @@
       }
     ],
     "history": [],
+    "dependencies": []
+  },
+  "claim/d427d30b-a548-5e25-a2eb-8b96b72ffe02": {
+    "claim": {
+      "claim_id": "d427d30b-a548-5e25-a2eb-8b96b72ffe02",
+      "subject": {
+        "id": "3020631a-29c5-53d3-b5c6-72ad95a1ec79",
+        "slug": "naver-labs",
+        "entity_type": "ORGANIZATION",
+        "name": "Naver Labs",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Naver Labs role MODEL_DEVELOPER",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "5e6a1080-99c5-5a0b-94f8-587db69ee154",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Researches robotics, physical AI, localization and spatial intelligence.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "abec517a-b82c-5c03-bbae-796ed10879e2",
+          "url": "https://www.naverlabs.com/en/",
+          "canonical_url": null,
+          "publisher": "Naver Labs",
+          "title": "Naver Labs — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "6dd25df7-1873-5a96-9970-6ff4788ceaf0",
+        "value": {
+          "kind": "enum",
+          "value": "RESEARCH_LAB"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
     "dependencies": []
   },
   "claim/d43fc8ee-6d93-5b87-80be-b798bcc3072a": {
@@ -152101,6 +155784,73 @@
     "history": [],
     "dependencies": []
   },
+  "claim/d8d0529a-3d41-5c1f-8a2e-de9a849649d9": {
+    "claim": {
+      "claim_id": "d8d0529a-3d41-5c1f-8a2e-de9a849649d9",
+      "subject": {
+        "id": "979bdd41-064b-55bc-8ce6-eeb4b316ee7a",
+        "slug": "kion-group",
+        "entity_type": "ORGANIZATION",
+        "name": "KION Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "KION Group role PLATFORM",
+      "value": {
+        "kind": "enum",
+        "value": "PLATFORM"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "3c4f6a75-224a-52eb-ae80-d11ff87395f7",
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops warehouse robotics through material-handling and automation businesses.",
+        "published_at": null,
+        "observed_at": "2026-09-01T00:00:00.000Z",
+        "source": {
+          "id": "ccfa5463-5047-5577-9505-dae05499e317",
+          "url": "https://www.kiongroup.com/en/",
+          "canonical_url": null,
+          "publisher": "KION Group",
+          "title": "KION Group — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": {
+          "author": "editorial",
+          "rationale": "Develops warehouse robotics through material-handling and automation businesses. The platform role describes involvement across robotics businesses and technologies.",
+          "advance_criteria": [
+            "Sustained robotics activity across three roles or controlled subsidiaries."
+          ],
+          "regress_criteria": [
+            "Robotics involvement contracts to a single product or passive holding."
+          ],
+          "evidence_considered": [],
+          "reviewed_at": "2026-09-01T00:00:00.000Z",
+          "notes": null
+        }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/d943ceb0-3513-5858-8f87-43116205b3d4": {
     "claim": {
       "claim_id": "d943ceb0-3513-5858-8f87-43116205b3d4",
@@ -153354,6 +157104,61 @@
           "publisher": "Geek+",
           "title": "Goods-to-person picking robots",
           "source_kind": "PRODUCT_PAGE",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/df0304a5-4cba-5957-8362-bc16348b20e6": {
+    "claim": {
+      "claim_id": "df0304a5-4cba-5957-8362-bc16348b20e6",
+      "subject": {
+        "id": "01336b7b-0919-57e1-9ec6-946ab8f34a7b",
+        "slug": "berkshire-grey",
+        "entity_type": "ORGANIZATION",
+        "name": "Berkshire Grey",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Berkshire Grey role OEM",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "bc0b4b25-b9a1-5502-b768-9f959b8fcf97",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops robotic warehouse picking and material-handling systems.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "327192a2-09f5-517d-bd9d-dcd464719de5",
+          "url": "https://group.softbank/en/news/press/20251008",
+          "canonical_url": null,
+          "publisher": "SoftBank Group",
+          "title": "SoftBank Group — robotics enrichment reference",
+          "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
         },
@@ -158104,6 +161909,61 @@
     ],
     "dependencies": []
   },
+  "claim/eec9d79f-1385-53f4-855b-b691ef814b73": {
+    "claim": {
+      "claim_id": "eec9d79f-1385-53f4-855b-b691ef814b73",
+      "subject": {
+        "id": "1ec0cea9-7b42-584f-a361-d59928ac1880",
+        "slug": "robotics-and-ai-institute-rai-institute",
+        "entity_type": "ORGANIZATION",
+        "name": "Robotics and AI Institute (RAI Institute)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Robotics and AI Institute (RAI Institute) role RESEARCH_LAB",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "29397f34-989d-5533-99a0-a1f6f6365b71",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Conducts fundamental robotics and artificial intelligence research.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "974d1233-590f-5e7c-bedd-0439db006810",
+          "url": "https://rai-inst.com/about/",
+          "canonical_url": null,
+          "publisher": "Robotics and AI Institute (RAI Institute)",
+          "title": "Robotics and AI Institute (RAI Institute) — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/ef742aab-da0d-557c-b0f3-074a9a468f41": {
     "claim": {
       "claim_id": "ef742aab-da0d-557c-b0f3-074a9a468f41",
@@ -159031,6 +162891,61 @@
           "publisher": "Toyota Motor Corporation",
           "title": "Toyota global",
           "source_kind": "PRODUCT_PAGE",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/f27ef733-f745-55f8-8798-849fbe1b7930": {
+    "claim": {
+      "claim_id": "f27ef733-f745-55f8-8798-849fbe1b7930",
+      "subject": {
+        "id": "4e38d628-7b7a-57fd-82bc-63f5fdd4f59a",
+        "slug": "sony-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Sony AI",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Sony AI role RESEARCH_LAB",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "522d5aff-2dd6-54b6-a829-71cfb346f712",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Conducts research in artificial intelligence, robotics and sensing.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "a86b61dd-46f2-5550-a760-9a106cd1fc74",
+          "url": "https://ai.sony/",
+          "canonical_url": null,
+          "publisher": "Sony AI",
+          "title": "Sony AI — robotics enrichment reference",
+          "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
         },
@@ -160188,6 +164103,74 @@
       }
     ],
     "history": [],
+    "dependencies": []
+  },
+  "claim/fa0fc434-8f22-546b-a286-953196db71ae": {
+    "claim": {
+      "claim_id": "fa0fc434-8f22-546b-a286-953196db71ae",
+      "subject": {
+        "id": "cd542423-3dd5-591c-8636-b0684f26f1eb",
+        "slug": "intrinsic",
+        "entity_type": "ORGANIZATION",
+        "name": "Intrinsic",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Intrinsic role INTEGRATOR",
+      "value": {
+        "kind": "enum",
+        "value": "INTEGRATOR"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "ac9f23ed-0586-56e8-8eda-fd8731ca96eb",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops software to make industrial robot applications easier to build and deploy.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "aeb6cf8a-504a-570e-89b9-330f60ae4dd8",
+          "url": "https://x.company/projects/intrinsic/",
+          "canonical_url": null,
+          "publisher": "Intrinsic",
+          "title": "Intrinsic — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [
+      {
+        "claim_id": "913de142-d466-54db-bdfd-c1bf44df022f",
+        "value": {
+          "kind": "enum",
+          "value": "TOOLING_OPS_PROVIDER"
+        },
+        "status": "APPROVED",
+        "qualifier": null,
+        "valid_from": "2026-09-11",
+        "valid_to": null
+      }
+    ],
     "dependencies": []
   },
   "claim/fa6b4b60-feec-50c5-8b03-b30f22df59ed": {

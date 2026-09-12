@@ -39,6 +39,29 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "2854ab77-a12b-553b-96f7-f75d4b303656",
+          "source": {
+            "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+            "slug": "woven-by-toyota",
+            "entity_type": "ORGANIZATION",
+            "name": "Woven by Toyota",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "31347bd2-94dd-5c4f-893d-5ed4eebb966b",
           "source": {
             "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
@@ -202,6 +225,17 @@
         "roles": [
           "COMPONENT_SUPPLIER"
         ]
+      },
+      {
+        "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+        "slug": "woven-by-toyota",
+        "entity_type": "ORGANIZATION",
+        "name": "Woven by Toyota",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB",
+          "TOOLING_OPS_PROVIDER"
+        ]
       }
     ]
   },
@@ -220,7 +254,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 5
+    "related_count": 6
   },
   "as_of": null
 }

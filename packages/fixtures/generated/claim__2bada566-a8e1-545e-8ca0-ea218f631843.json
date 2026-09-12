@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "2bada566-a8e1-545e-8ca0-ea218f631843",
+    "subject": {
+      "id": "3dd79380-d3dd-5f4c-9691-75e3e947eb84",
+      "slug": "foxconn",
+      "entity_type": "ORGANIZATION",
+      "name": "Foxconn",
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Foxconn role OPERATOR",
+    "value": {
+      "kind": "enum",
+      "value": "OPERATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ee9c072b-f8bf-53f3-9e8b-768bab39453e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Manufactures electronics and deploys robotics in industrial production.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "32831c3b-26a5-58bd-a658-52ed17c2ecb1",
+        "url": "https://www.honhai.com/en-us/press-center/press-releases/latest-news/1975",
+        "canonical_url": null,
+        "publisher": "Foxconn",
+        "title": "Foxconn — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "90c55b91-75ef-5b06-b597-72b3611cec7b",
+      "value": {
+        "kind": "enum",
+        "value": "CONTRACT_MANUFACTURER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

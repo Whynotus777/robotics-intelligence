@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "b7bc64de-ce6b-5e93-8846-0faed8b1ee4e",
+    "subject": {
+      "id": "8bfe1d52-c20f-51c7-a7c8-d3d3a9bb73e7",
+      "slug": "capitalg",
+      "entity_type": "ORGANIZATION",
+      "name": "CapitalG",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "CapitalG role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "582c4149-789e-5064-976d-4852294292fb",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Invests in technology businesses including robotics model developer Physical Intelligence.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a9e4aea7-aaad-5549-aa4d-eb9c11a2d06c",
+        "url": "https://www.capitalg.com/portfolio",
+        "canonical_url": null,
+        "publisher": "CapitalG",
+        "title": "CapitalG — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

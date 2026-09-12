@@ -8,7 +8,8 @@
       "name": "Foxconn",
       "primary_embodiment": null,
       "roles": [
-        "CONTRACT_MANUFACTURER"
+        "CONTRACT_MANUFACTURER",
+        "OPERATOR"
       ]
     },
     "predicate": "HAS_ROLE",
@@ -50,6 +51,18 @@
       "assessment": null
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "claim_id": "2bada566-a8e1-545e-8ca0-ea218f631843",
+      "value": {
+        "kind": "enum",
+        "value": "OPERATOR"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
   "dependencies": []
 }

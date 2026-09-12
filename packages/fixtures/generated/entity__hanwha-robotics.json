@@ -1,0 +1,114 @@
+{
+  "entity": {
+    "id": "a9ae4d42-4802-5844-a57a-1c0ae8e257fd",
+    "slug": "hanwha-robotics",
+    "entity_type": "ORGANIZATION",
+    "name": "Hanwha Robotics",
+    "short_description": "Builds collaborative robots and automated guided vehicles.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "KR",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "OEM",
+      "declared": true,
+      "claim_id": "57987deb-3df9-5c5e-b1bb-153eb1eb21f9",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "57987deb-3df9-5c5e-b1bb-153eb1eb21f9",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "OEM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "claims": [
+        {
+          "claim_id": "a4635690-f731-5c99-b4a8-d7eec9fb59ac",
+          "predicate": "FOUNDED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2023-01-01"
+          },
+          "stack_layer": null,
+          "qualifier": "Year precision",
+          "valid_from": "2023-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [],
+  "lateral_links": {},
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 2,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 2,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 2,
+    "deployment_count": 0,
+    "related_count": 0
+  },
+  "as_of": null
+}

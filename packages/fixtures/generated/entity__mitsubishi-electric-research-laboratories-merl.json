@@ -1,0 +1,90 @@
+{
+  "entity": {
+    "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+    "slug": "mitsubishi-electric-research-laboratories-merl",
+    "entity_type": "ORGANIZATION",
+    "name": "Mitsubishi Electric Research Laboratories (MERL)",
+    "short_description": "Researches robot perception, planning and control for industrial and mobile systems.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "US",
+    "aliases": [
+      "MERL"
+    ],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "RESEARCH_LAB",
+      "declared": true,
+      "claim_id": "baad37ba-8fd1-50c7-9c83-7d397b3aa5c2",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "baad37ba-8fd1-50c7-9c83-7d397b3aa5c2",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "RESEARCH_LAB"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "inbound_relationships": [],
+  "lateral_links": {},
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 1,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 1,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 1,
+    "deployment_count": 0,
+    "related_count": 0
+  },
+  "as_of": null
+}

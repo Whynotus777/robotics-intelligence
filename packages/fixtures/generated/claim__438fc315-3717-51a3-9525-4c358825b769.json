@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "438fc315-3717-51a3-9525-4c358825b769",
+    "subject": {
+      "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+      "slug": "softbank-group",
+      "entity_type": "ORGANIZATION",
+      "name": "SoftBank Group",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "SoftBank Group role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3f66bc0b-9189-5533-98a4-00ac98749695",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Invests in robotics developers and owns multiple robotics businesses.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "327192a2-09f5-517d-bd9d-dcd464719de5",
+        "url": "https://group.softbank/en/news/press/20251008",
+        "canonical_url": null,
+        "publisher": "SoftBank Group",
+        "title": "SoftBank Group — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "970c92d6-9e7d-50e4-a0f5-6f31a14b865b",
+      "value": {
+        "kind": "enum",
+        "value": "PLATFORM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "d427d30b-a548-5e25-a2eb-8b96b72ffe02",
+    "subject": {
+      "id": "3020631a-29c5-53d3-b5c6-72ad95a1ec79",
+      "slug": "naver-labs",
+      "entity_type": "ORGANIZATION",
+      "name": "Naver Labs",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Naver Labs role MODEL_DEVELOPER",
+    "value": {
+      "kind": "enum",
+      "value": "MODEL_DEVELOPER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5e6a1080-99c5-5a0b-94f8-587db69ee154",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Researches robotics, physical AI, localization and spatial intelligence.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "abec517a-b82c-5c03-bbae-796ed10879e2",
+        "url": "https://www.naverlabs.com/en/",
+        "canonical_url": null,
+        "publisher": "Naver Labs",
+        "title": "Naver Labs — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "6dd25df7-1873-5a96-9970-6ff4788ceaf0",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

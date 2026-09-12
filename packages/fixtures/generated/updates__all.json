@@ -262,6 +262,33 @@
       "origin": "SEED"
     },
     {
+      "id": "082d972e-caba-5794-8ece-913212ff175a",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "799bb715-85db-5fb1-a9e9-8a414a90ea6f",
+        "slug": "apple",
+        "entity_type": "ORGANIZATION",
+        "name": "Apple",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Research lab",
+      "origin": "SEED"
+    },
+    {
       "id": "08c4c107-765e-5274-96fc-fec9a110af8d",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -297,6 +324,33 @@
         "slug": "booster-robotics",
         "entity_type": "ORGANIZATION",
         "name": "Booster Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to OEM",
+      "origin": "SEED"
+    },
+    {
+      "id": "0db7cd28-35bb-56e2-9a2a-2e70b7cfb9c1",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "0fd9e03c-f1bf-5be4-bb84-9347514c0106",
+        "slug": "denso-wave",
+        "entity_type": "ORGANIZATION",
+        "name": "Denso Wave",
         "primary_embodiment": null,
         "roles": [
           "OEM"
@@ -578,6 +632,33 @@
       "origin": "SEED"
     },
     {
+      "id": "1650c271-eca7-52b4-a374-02f69df97df1",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "db60f85f-9f38-557f-bb22-2a346e929d38",
+        "slug": "murata-machinery-muratec",
+        "entity_type": "ORGANIZATION",
+        "name": "Murata Machinery (Muratec)",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "INTEGRATOR"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Integrator",
+      "origin": "SEED"
+    },
+    {
       "id": "182b6b1b-6165-5b9d-9369-a81a45829e33",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -637,6 +718,34 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Headquartered at Odense",
+      "origin": "SEED"
+    },
+    {
+      "id": "1a28aa21-661a-555e-b215-99bdbe4553fa",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "3020631a-29c5-53d3-b5c6-72ad95a1ec79",
+        "slug": "naver-labs",
+        "entity_type": "ORGANIZATION",
+        "name": "Naver Labs",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Research lab",
       "origin": "SEED"
     },
     {
@@ -785,7 +894,8 @@
         "name": "Foxconn",
         "primary_embodiment": null,
         "roles": [
-          "CONTRACT_MANUFACTURER"
+          "CONTRACT_MANUFACTURER",
+          "OPERATOR"
         ]
       },
       "before": null,
@@ -865,6 +975,33 @@
         "slug": "neros-technologies",
         "entity_type": "ORGANIZATION",
         "name": "Neros Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to OEM",
+      "origin": "SEED"
+    },
+    {
+      "id": "20b9006d-7d93-5dad-818d-f446fad8986f",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "7c3f1312-e098-5632-9136-812a1bf6987b",
+        "slug": "hd-hyundai-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "HD Hyundai Robotics",
         "primary_embodiment": null,
         "roles": [
           "OEM"
@@ -1043,6 +1180,33 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Integrator",
+      "origin": "SEED"
+    },
+    {
+      "id": "2b82878f-25fa-5d91-b1b7-8468edc1552f",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "fc48a53b-ebf7-5af1-bfdb-766d96b8d82e",
+        "slug": "mitsubishi-electric-research-laboratories-merl",
+        "entity_type": "ORGANIZATION",
+        "name": "Mitsubishi Electric Research Laboratories (MERL)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Research lab",
       "origin": "SEED"
     },
     {
@@ -1278,180 +1442,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "336dca56-f991-5df9-a629-80368488cf87",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "36c15b21-f131-56fc-bb79-c9826cf81942",
-        "slug": "textron-systems",
-        "entity_type": "ORGANIZATION",
-        "name": "Textron Systems",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "3408ca1b-4328-5697-bd9b-572caf90504d",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "71bcca72-40aa-5ca5-8334-b3f215077af1",
-        "slug": "monumental",
-        "entity_type": "ORGANIZATION",
-        "name": "Monumental",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM",
-          "OPERATOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OPERATOR"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Operator",
-      "origin": "SEED"
-    },
-    {
-      "id": "34151950-028d-596d-bc0c-cb217425da79",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "1f9935c7-723e-5ca0-b4c1-41c6efa5b876",
-        "slug": "bedrock-ocean",
-        "entity_type": "ORGANIZATION",
-        "name": "Bedrock Ocean",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM",
-          "OPERATOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OPERATOR"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Operator",
-      "origin": "SEED"
-    },
-    {
-      "id": "350749e3-08bc-57e8-b06e-f5bbf0db0b9b",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "cadcfc14-a9ca-5b29-b6de-ca70abc1fe70",
-        "slug": "balyo",
-        "entity_type": "ORGANIZATION",
-        "name": "BALYO",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "37f928ca-8add-58d6-9846-979da9c84996",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "698e5de5-1374-5cd4-bfe9-ed825b2069a6",
-        "slug": "ssi-schaefer",
-        "entity_type": "ORGANIZATION",
-        "name": "SSI Schaefer",
-        "primary_embodiment": null,
-        "roles": [
-          "INTEGRATOR",
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "INTEGRATOR"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Integrator",
-      "origin": "SEED"
-    },
-    {
-      "id": "38cb5039-7ec2-5282-bff3-d86a894d04a5",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "f8945d58-a1e3-525f-913b-aee6b56b78a5",
-        "slug": "ocado",
-        "entity_type": "ORGANIZATION",
-        "name": "Ocado",
-        "primary_embodiment": null,
-        "roles": [
-          "INTEGRATOR",
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "be080f8f-ec4c-5458-bba9-99079225e7cd",
-          "slug": "hatfield-gb",
-          "entity_type": "PLACE",
-          "name": "Hatfield",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "THIRD_PARTY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Hatfield",
       "origin": "SEED"
     }
   ]

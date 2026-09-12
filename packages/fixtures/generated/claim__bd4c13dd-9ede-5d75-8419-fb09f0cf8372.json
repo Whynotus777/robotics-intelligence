@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "bd4c13dd-9ede-5d75-8419-fb09f0cf8372",
+    "subject": {
+      "id": "c3749791-e72b-5876-9e0d-9a8b6ae4da4e",
+      "slug": "honeywell",
+      "entity_type": "ORGANIZATION",
+      "name": "Honeywell",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Honeywell role INTEGRATOR",
+    "value": {
+      "kind": "enum",
+      "value": "INTEGRATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d44d2a48-26d9-53ce-bfd1-7534d42cb486",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Integrates mobile robotics and automation for logistics and supply chains.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ae0fdbd5-9e95-577c-a852-389a0a473d60",
+        "url": "https://www.honeywell.com/us/en/news/featured-stories/2025/05/honeywell-teradyne-robotics-automate-material-transport-scale-automation-solutions",
+        "canonical_url": null,
+        "publisher": "Honeywell",
+        "title": "Honeywell — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

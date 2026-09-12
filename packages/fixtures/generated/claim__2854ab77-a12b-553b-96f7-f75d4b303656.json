@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "2854ab77-a12b-553b-96f7-f75d4b303656",
+    "subject": {
+      "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+      "slug": "woven-by-toyota",
+      "entity_type": "ORGANIZATION",
+      "name": "Woven by Toyota",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Woven by Toyota is headquartered at Tokyo",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "606ad541-1268-5bc7-99d6-160ccc7d4f5d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Woven by Toyota is headquartered in Tokyo.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "b3e68471-7de3-5cc8-8efe-5ee0b2a7dbfc",
+        "url": "https://woven.toyota/en/company/",
+        "canonical_url": null,
+        "publisher": "Woven by Toyota",
+        "title": "Woven by Toyota — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

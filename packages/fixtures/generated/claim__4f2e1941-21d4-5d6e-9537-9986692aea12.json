@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "4f2e1941-21d4-5d6e-9537-9986692aea12",
+    "subject": {
+      "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+      "slug": "woven-by-toyota",
+      "entity_type": "ORGANIZATION",
+      "name": "Woven by Toyota",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Woven by Toyota role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ee3030f6-9e85-551e-8494-3d893e1710e1",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops automated driving and mobility software and researches robotic applications.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "b3e68471-7de3-5cc8-8efe-5ee0b2a7dbfc",
+        "url": "https://woven.toyota/en/company/",
+        "canonical_url": null,
+        "publisher": "Woven by Toyota",
+        "title": "Woven by Toyota — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "255d875e-5360-5e6d-826b-e117920b3a53",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

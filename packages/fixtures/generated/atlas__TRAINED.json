@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 17
+      "count": 18
     },
     {
       "id": "FUNDED",
@@ -144,6 +144,45 @@
             "MODEL_DEVELOPER",
             "OEM",
             "OPERATOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.68,
+      "lng": 139.69,
+      "country_code": "JP",
+      "cluster_label": "Tokyo",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
+          "slug": "honda-motor",
+          "entity_type": "ORGANIZATION",
+          "name": "Honda Motor",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+          "slug": "woven-by-toyota",
+          "entity_type": "ORGANIZATION",
+          "name": "Woven by Toyota",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB",
+            "TOOLING_OPS_PROVIDER"
           ]
         }
       ],
@@ -356,34 +395,6 @@
     },
     {
       "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 35.68,
-      "lng": 139.69,
-      "country_code": "JP",
-      "cluster_label": "Tokyo",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
-          "slug": "honda-motor",
-          "entity_type": "ORGANIZATION",
-          "name": "Honda Motor",
-          "primary_embodiment": null,
-          "roles": [
-            "RESEARCH_LAB"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "56bcc0f1-a3b4-5563-8db8-5fe89e256929",
         "slug": "vancouver",
         "entity_type": "PLACE",
@@ -420,6 +431,12 @@
       "places": 6
     },
     {
+      "id": "JP",
+      "label": "JP",
+      "weight": 2,
+      "places": 1
+    },
+    {
       "id": "CA",
       "label": "CA",
       "weight": 1,
@@ -436,12 +453,6 @@
       "label": "GB",
       "weight": 1,
       "places": 1
-    },
-    {
-      "id": "JP",
-      "label": "JP",
-      "weight": 1,
-      "places": 1
     }
   ],
   "corridors": [
@@ -456,6 +467,12 @@
       "label": "Seattle",
       "weight": 2,
       "places": 2
+    },
+    {
+      "id": "Tokyo",
+      "label": "Tokyo",
+      "weight": 2,
+      "places": 1
     },
     {
       "id": "London",
@@ -478,12 +495,6 @@
     {
       "id": "Shanghai",
       "label": "Shanghai",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "Tokyo",
-      "label": "Tokyo",
       "weight": 1,
       "places": 1
     },
@@ -670,6 +681,47 @@
     },
     {
       "entity": {
+        "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
+        "slug": "honda-motor",
+        "entity_type": "ORGANIZATION",
+        "name": "Honda Motor",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+        "slug": "woven-by-toyota",
+        "entity_type": "ORGANIZATION",
+        "name": "Woven by Toyota",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
         "slug": "wayve",
         "entity_type": "ORGANIZATION",
@@ -813,26 +865,6 @@
         "slug": "sunnyvale-us",
         "entity_type": "PLACE",
         "name": "Sunnyvale",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "60728194-89a8-566f-b2b4-e7ad2f6ca41c",
-        "slug": "honda-motor",
-        "entity_type": "ORGANIZATION",
-        "name": "Honda Motor",
-        "primary_embodiment": null,
-        "roles": [
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
         "primary_embodiment": null,
         "roles": []
       }
