@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "d4f22078-48b3-5f74-8b39-d206f1eb86fe",
+    "subject": {
+      "id": "3c340b04-f732-519c-a2fa-6ed6d4e4afd0",
+      "slug": "mech-mind-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Mech-Mind Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Mech-Mind Robotics role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5058b133-9c84-542f-a6f3-a5a42b172ae7",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops 3D cameras and vision software for robotic automation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "f9a69485-0fa7-57fe-9e66-1e8c6e4796dd",
+        "url": "https://www.mech-mind.com/products/mech-eye-industrial-3d-camera.html",
+        "canonical_url": null,
+        "publisher": "Mech-Mind Robotics",
+        "title": "Mech-Mind Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

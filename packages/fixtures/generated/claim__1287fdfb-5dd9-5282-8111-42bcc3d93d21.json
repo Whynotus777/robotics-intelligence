@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "1287fdfb-5dd9-5282-8111-42bcc3d93d21",
+    "subject": {
+      "id": "769adb7d-eec3-58cf-8f6d-2448fb3ed6e5",
+      "slug": "basler",
+      "entity_type": "ORGANIZATION",
+      "name": "Basler",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Basler role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b9ef9189-112e-5641-88b2-fc6751da3001",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Supplies cameras and vision software for robotic navigation and manipulation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "45ed0f96-91df-517a-8854-8a4c258779e8",
+        "url": "https://www.baslerweb.com/en/portfolios/3d-cameras/",
+        "canonical_url": null,
+        "publisher": "Basler",
+        "title": "Basler — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

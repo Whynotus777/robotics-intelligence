@@ -6168,6 +6168,94 @@
     },
     "as_of": null
   },
+  "entity/ati-industrial-automation": {
+    "entity": {
+      "id": "ec4fbb1a-4bc7-549e-aa59-3a8d96920152",
+      "slug": "ati-industrial-automation",
+      "entity_type": "ORGANIZATION",
+      "name": "ATI Industrial Automation",
+      "short_description": "Develops robotic tool changers and force-torque sensors.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "0b4c2179-5dfe-53be-a747-8fae77e0a095",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "0b4c2179-5dfe-53be-a747-8fae77e0a095",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/augsburg": {
     "entity": {
       "id": "63ea4a0f-c5cc-5670-bc5d-b8ee14a41b77",
@@ -8287,6 +8375,182 @@
             "value": {
               "kind": "enum",
               "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/banner-engineering": {
+    "entity": {
+      "id": "dfd0d541-9164-5134-93fd-50210e46f1e7",
+      "slug": "banner-engineering",
+      "entity_type": "ORGANIZATION",
+      "name": "Banner Engineering",
+      "short_description": "Supplies sensors for robotic assembly and mobile robot collision avoidance.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "bef435d4-85d6-5d9d-b402-c56949b71b87",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "bef435d4-85d6-5d9d-b402-c56949b71b87",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/basler": {
+    "entity": {
+      "id": "769adb7d-eec3-58cf-8f6d-2448fb3ed6e5",
+      "slug": "basler",
+      "entity_type": "ORGANIZATION",
+      "name": "Basler",
+      "short_description": "Supplies cameras and vision software for robotic navigation and manipulation.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "DE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "1287fdfb-5dd9-5282-8111-42bcc3d93d21",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "1287fdfb-5dd9-5282-8111-42bcc3d93d21",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -13079,6 +13343,94 @@
     },
     "as_of": null
   },
+  "entity/bota-systems": {
+    "entity": {
+      "id": "b74944fa-1e7a-567e-a8b5-a67c94eaf4bb",
+      "slug": "bota-systems",
+      "entity_type": "ORGANIZATION",
+      "name": "Bota Systems",
+      "short_description": "Develops force-torque and tactile sensors for robotics.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "CH",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "8bae64c4-5c26-5ecc-ba65-75dc95a9e309",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "8bae64c4-5c26-5ecc-ba65-75dc95a9e309",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/bpifrance": {
     "entity": {
       "id": "61a6ed94-36e4-5a73-bc2f-39eaf8ae4231",
@@ -16329,6 +16681,94 @@
     },
     "as_of": null
   },
+  "entity/connect-tech": {
+    "entity": {
+      "id": "3fd4ca97-f5eb-52fe-91c1-97c6cc509490",
+      "slug": "connect-tech",
+      "entity_type": "ORGANIZATION",
+      "name": "Connect Tech",
+      "short_description": "Develops embedded computing and carrier boards for robotic vision systems.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "CA",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "d17f1756-23ce-5a08-a4dd-e916f5c95e50",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "d17f1756-23ce-5a08-a4dd-e916f5c95e50",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/construction": {
     "entity": {
       "id": "1d8aa5b1-6284-580e-9b67-a9be7da8bb9f",
@@ -16608,6 +17048,94 @@
       "recent_change_count": 5,
       "deployment_count": 0,
       "related_count": 3
+    },
+    "as_of": null
+  },
+  "entity/contactile": {
+    "entity": {
+      "id": "db286626-b1a0-56dc-8760-6edcb6204bad",
+      "slug": "contactile",
+      "entity_type": "ORGANIZATION",
+      "name": "Contactile",
+      "short_description": "Develops tactile sensors and intelligent end-effectors for robotic manipulation.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "AU",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "3022bf37-4bff-5e32-99c2-a607d98f01b7",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "3022bf37-4bff-5e32-99c2-a607d98f01b7",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -22191,6 +22719,94 @@
     },
     "as_of": null
   },
+  "entity/e-con-systems": {
+    "entity": {
+      "id": "a94f6ca0-54d1-50b2-9c1f-58b055cfefe2",
+      "slug": "e-con-systems",
+      "entity_type": "ORGANIZATION",
+      "name": "e-con Systems",
+      "short_description": "Supplies embedded cameras and computing platforms for robotics.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "IN",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "ff415a82-897f-5a32-b75a-78d1002122d2",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "ff415a82-897f-5a32-b75a-78d1002122d2",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/each-picking-assistance": {
     "entity": {
       "id": "049a4db5-938c-5625-b226-2831e05e34e1",
@@ -25695,6 +26311,94 @@
             "value": {
               "kind": "enum",
               "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/faro-technologies": {
+    "entity": {
+      "id": "ebe5ee76-32df-52b0-b003-94b8fdb3ef66",
+      "slug": "faro-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "FARO Technologies",
+      "short_description": "Supplies metrology systems for robot calibration and industrial measurement.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "e35cb870-2da3-5f99-866a-6e2dc29f4eb1",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "e35cb870-2da3-5f99-866a-6e2dc29f4eb1",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -29799,6 +30503,182 @@
     },
     "as_of": null
   },
+  "entity/framos": {
+    "entity": {
+      "id": "1dd024e2-c5ed-54ad-b3a8-8b7317e5638b",
+      "slug": "framos",
+      "entity_type": "ORGANIZATION",
+      "name": "FRAMOS",
+      "short_description": "Develops embedded imaging components and vision systems for autonomous robots.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "DE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "66770cc9-adcb-581b-9e3b-537b3765c0c7",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "66770cc9-adcb-581b-9e3b-537b3765c0c7",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/futek-advanced-sensor-technology": {
+    "entity": {
+      "id": "118068a6-3448-5cdf-a136-92bda9ad11ea",
+      "slug": "futek-advanced-sensor-technology",
+      "entity_type": "ORGANIZATION",
+      "name": "FUTEK Advanced Sensor Technology",
+      "short_description": "Supplies force and torque sensing components for robotic automation.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "550e843a-2371-5956-b758-d57b89e4d075",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "550e843a-2371-5956-b758-d57b89e4d075",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/galbot": {
     "entity": {
       "id": "6d1a58e3-81d4-5c92-b978-3a520a6bbadd",
@@ -31172,6 +32052,94 @@
       "recent_change_count": 3,
       "deployment_count": 0,
       "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/gelsight": {
+    "entity": {
+      "id": "f9d59e60-d283-5eb7-bd03-769796dfec5a",
+      "slug": "gelsight",
+      "entity_type": "ORGANIZATION",
+      "name": "GelSight",
+      "short_description": "Develops tactile sensing technology for robotic manipulation.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "79b5981f-ca7f-582d-8cd0-f032b3b1e82e",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "79b5981f-ca7f-582d-8cd0-f032b3b1e82e",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -39881,6 +40849,94 @@
     },
     "as_of": null
   },
+  "entity/leopard-imaging": {
+    "entity": {
+      "id": "6a1108ec-e12f-50e7-8011-79761898069e",
+      "slug": "leopard-imaging",
+      "entity_type": "ORGANIZATION",
+      "name": "Leopard Imaging",
+      "short_description": "Manufactures imaging systems and camera modules for robotics and machine vision.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "da02d26f-230b-5918-b0d7-5c9e1d05148d",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "da02d26f-230b-5918-b0d7-5c9e1d05148d",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/lg-technology-ventures": {
     "entity": {
       "id": "d15ae925-8092-5907-8703-87a3b98eb9f8",
@@ -40752,6 +41808,94 @@
             "value": {
               "kind": "enum",
               "value": "INVESTOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/livox": {
+    "entity": {
+      "id": "3ccf8a41-ef3e-5946-9b64-1a1451904c6c",
+      "slug": "livox",
+      "entity_type": "ORGANIZATION",
+      "name": "Livox",
+      "short_description": "Develops lidar sensors for autonomous vehicles and mobile robots.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "CN",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "478ba999-17cf-5446-b32f-57d4cbd887ca",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "478ba999-17cf-5446-b32f-57d4cbd887ca",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -43096,6 +44240,94 @@
             "value": {
               "kind": "enum",
               "value": "OPERATOR"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/mech-mind-robotics": {
+    "entity": {
+      "id": "3c340b04-f732-519c-a2fa-6ed6d4e4afd0",
+      "slug": "mech-mind-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Mech-Mind Robotics",
+      "short_description": "Develops 3D cameras and vision software for robotic automation.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "CN",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "d4f22078-48b3-5f74-8b39-d206f1eb86fe",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "d4f22078-48b3-5f74-8b39-d206f1eb86fe",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -50778,6 +52010,94 @@
     },
     "as_of": null
   },
+  "entity/onrobot": {
+    "entity": {
+      "id": "3466017a-85d6-5123-a86b-907e8173fd08",
+      "slug": "onrobot",
+      "entity_type": "ORGANIZATION",
+      "name": "OnRobot",
+      "short_description": "Supplies grippers, sensors and end-of-arm tools for collaborative robots.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "DK",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "b02f5dc5-45f5-5d15-afbb-4e6d720fc0bf",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "b02f5dc5-45f5-5d15-afbb-4e6d720fc0bf",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/ontario-teachers-pension-plan": {
     "entity": {
       "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
@@ -51008,6 +52328,94 @@
       "recent_change_count": 2,
       "deployment_count": 0,
       "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/orbbec": {
+    "entity": {
+      "id": "9bb4d4cf-d27a-5183-91f4-eb34797dc4b8",
+      "slug": "orbbec",
+      "entity_type": "ORGANIZATION",
+      "name": "Orbbec",
+      "short_description": "Develops depth cameras and perception hardware for robotics.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "CN",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "99663e1a-1a2e-5106-b562-1346c2cb8e34",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "99663e1a-1a2e-5106-b562-1346c2cb8e34",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -57005,6 +58413,94 @@
     },
     "as_of": null
   },
+  "entity/riegl-laser-measurement-systems": {
+    "entity": {
+      "id": "bd434c51-7b13-5b01-b5bc-e2e532bf4c02",
+      "slug": "riegl-laser-measurement-systems",
+      "entity_type": "ORGANIZATION",
+      "name": "RIEGL Laser Measurement Systems",
+      "short_description": "Develops laser scanning sensors for UAV and mobile mapping systems.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "AT",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "e758676d-cdfa-52b0-b20f-53fdbc58cdaf",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "e758676d-cdfa-52b0-b20f-53fdbc58cdaf",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/riga": {
     "entity": {
       "id": "6553850c-ac3a-5321-baec-c47853b493a4",
@@ -61121,6 +62617,94 @@
             "value": {
               "kind": "enum",
               "value": "OEM"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
+  "entity/schunk": {
+    "entity": {
+      "id": "46a32137-d482-526a-9acd-498b27b72a93",
+      "slug": "schunk",
+      "entity_type": "ORGANIZATION",
+      "name": "Schunk",
+      "short_description": "Develops robotic grippers, tool changers and force-torque sensors.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "DE",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "bf696b84-8a54-5407-a8b7-8c17881c190a",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "bf696b84-8a54-5407-a8b7-8c17881c190a",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
             },
             "stack_layer": null,
             "qualifier": null,
@@ -68118,6 +69702,94 @@
     },
     "as_of": null
   },
+  "entity/teledyne-optech": {
+    "entity": {
+      "id": "a3cb9939-1bda-507b-aa53-d27669ffa135",
+      "slug": "teledyne-optech",
+      "entity_type": "ORGANIZATION",
+      "name": "Teledyne Optech",
+      "short_description": "Develops lidar systems for UAV and terrestrial mapping.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "CA",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "35cd178f-bf1c-5805-b9b4-1206cdff0a13",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "35cd178f-bf1c-5805-b9b4-1206cdff0a13",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/teleo": {
     "entity": {
       "id": "cb4bcd1b-1332-5d89-9173-bc9382d8b8c6",
@@ -70751,6 +72423,94 @@
       "recent_change_count": 4,
       "deployment_count": 0,
       "related_count": 2
+    },
+    "as_of": null
+  },
+  "entity/trimble": {
+    "entity": {
+      "id": "77660ef8-6e1a-5dab-8ae7-62729288d803",
+      "slug": "trimble",
+      "entity_type": "ORGANIZATION",
+      "name": "Trimble",
+      "short_description": "Develops positioning and robotic surveying instruments.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "US",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "5ae8e03c-7a28-52f5-9b76-68c2f94bbc57",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "5ae8e03c-7a28-52f5-9b76-68c2f94bbc57",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -77301,6 +79061,94 @@
     },
     "as_of": null
   },
+  "entity/xela-robotics": {
+    "entity": {
+      "id": "3d723639-13ab-5e08-86d1-2ceab53b00ad",
+      "slug": "xela-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "XELA Robotics",
+      "short_description": "Develops tactile sensors for robotic hands and grippers.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "JP",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "0b729f49-0f35-57ee-893f-0884892a5d92",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "0b729f49-0f35-57ee-893f-0884892a5d92",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
+    },
+    "as_of": null
+  },
   "entity/xenex-disinfection-services": {
     "entity": {
       "id": "fa345f9b-2de1-56b2-8e2e-0ab1aa8f72ed",
@@ -78685,6 +80533,94 @@
       "recent_change_count": 3,
       "deployment_count": 0,
       "related_count": 1
+    },
+    "as_of": null
+  },
+  "entity/zivid": {
+    "entity": {
+      "id": "adf3d3bd-8f8a-5add-98be-0a35c3dab898",
+      "slug": "zivid",
+      "entity_type": "ORGANIZATION",
+      "name": "Zivid",
+      "short_description": "Develops industrial 3D cameras for robotic picking and manipulation.",
+      "image_url": null,
+      "image_credit": null,
+      "primary_embodiment": null,
+      "country_code": "NO",
+      "aliases": [],
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "updated_at": "2026-09-01T00:00:00.000Z"
+    },
+    "roles": [
+      {
+        "role": "COMPONENT_SUPPLIER",
+        "declared": true,
+        "claim_id": "9747742a-f03f-54a4-af96-f7fc207210f3",
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        }
+      }
+    ],
+    "part_of": null,
+    "subsidiaries": [],
+    "cached": {
+      "commercial_stage": null,
+      "height_m": null,
+      "mass_kg": null,
+      "payload_kg": null,
+      "list_price_usd": null,
+      "maturity": null
+    },
+    "place": null,
+    "claims": [
+      {
+        "predicate": "HAS_ROLE",
+        "label": "role",
+        "claims": [
+          {
+            "claim_id": "9747742a-f03f-54a4-af96-f7fc207210f3",
+            "predicate": "HAS_ROLE",
+            "value": {
+              "kind": "enum",
+              "value": "COMPONENT_SUPPLIER"
+            },
+            "stack_layer": null,
+            "qualifier": null,
+            "valid_from": "2026-09-11",
+            "valid_to": null,
+            "observed_at": "2026-09-01T00:00:00.000Z",
+            "last_verified_at": "2026-09-01T00:00:00.000Z",
+            "has_evidence": true,
+            "evidence_summary": {
+              "class": "PRIMARY",
+              "confidence": "HIGH",
+              "source_count": 1
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "inbound_relationships": [],
+    "lateral_links": {},
+    "intelligence": {
+      "evidence_summary": {
+        "by_class": {
+          "PRIMARY": 1,
+          "THIRD_PARTY": 0,
+          "ACADEMIC": 0,
+          "DERIVED": 0,
+          "ANALYST": 0
+        },
+        "claim_count": 1,
+        "claims_without_evidence": 0
+      },
+      "last_verified_at": "2026-09-01T00:00:00.000Z",
+      "recent_change_count": 1,
+      "deployment_count": 0,
+      "related_count": 0
     },
     "as_of": null
   },
@@ -91352,12 +93288,12 @@
       {
         "id": "US",
         "label": "US",
-        "count": 214,
+        "count": 221,
         "districts": [
           {
             "id": "US",
             "label": "US",
-            "count": 214,
+            "count": 221,
             "entities": [
               {
                 "chip": {
@@ -91623,6 +93559,20 @@
               },
               {
                 "chip": {
+                  "id": "ec4fbb1a-4bc7-549e-aa59-3a8d96920152",
+                  "slug": "ati-industrial-automation",
+                  "entity_type": "ORGANIZATION",
+                  "name": "ATI Industrial Automation",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "59f79b40-3b9c-5e77-8360-ac5fe81a4dad",
                   "slug": "aurora-innovation",
                   "entity_type": "ORGANIZATION",
@@ -91670,6 +93620,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "INVESTOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "dfd0d541-9164-5134-93fd-50210e46f1e7",
+                  "slug": "banner-engineering",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Banner Engineering",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
                   ]
                 },
                 "measure_value": null,
@@ -92162,6 +94126,20 @@
               },
               {
                 "chip": {
+                  "id": "ebe5ee76-32df-52b0-b003-94b8fdb3ef66",
+                  "slug": "faro-technologies",
+                  "entity_type": "ORGANIZATION",
+                  "name": "FARO Technologies",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "02581ba3-774b-52c7-8a13-f450c116f66e",
                   "slug": "fetch-freight1500",
                   "entity_type": "ROBOT",
@@ -92331,6 +94309,20 @@
               },
               {
                 "chip": {
+                  "id": "118068a6-3448-5cdf-a136-92bda9ad11ea",
+                  "slug": "futek-advanced-sensor-technology",
+                  "entity_type": "ORGANIZATION",
+                  "name": "FUTEK Advanced Sensor Technology",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "a4107d6f-ee01-534f-9a02-4b2760f54ec4",
                   "slug": "gam-enterprises",
                   "entity_type": "ORGANIZATION",
@@ -92379,6 +94371,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "f9d59e60-d283-5eb7-bd03-769796dfec5a",
+                  "slug": "gelsight",
+                  "entity_type": "ORGANIZATION",
+                  "name": "GelSight",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
                   ]
                 },
                 "measure_value": null,
@@ -92742,6 +94748,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "6a1108ec-e12f-50e7-8011-79761898069e",
+                  "slug": "leopard-imaging",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Leopard Imaging",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
                   ]
                 },
                 "measure_value": null,
@@ -94037,6 +96057,20 @@
               },
               {
                 "chip": {
+                  "id": "77660ef8-6e1a-5dab-8ae7-62729288d803",
+                  "slug": "trimble",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Trimble",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "67892fe3-9853-522f-8b6d-e47d61c35c9c",
                   "slug": "ulc-technologies",
                   "entity_type": "ORGANIZATION",
@@ -94292,12 +96326,12 @@
       {
         "id": "CN",
         "label": "CN",
-        "count": 58,
+        "count": 61,
         "districts": [
           {
             "id": "CN",
             "label": "CN",
-            "count": 58,
+            "count": 61,
             "entities": [
               {
                 "chip": {
@@ -94754,6 +96788,34 @@
               },
               {
                 "chip": {
+                  "id": "3ccf8a41-ef3e-5946-9b64-1a1451904c6c",
+                  "slug": "livox",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Livox",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "3c340b04-f732-519c-a2fa-6ed6d4e4afd0",
+                  "slug": "mech-mind-robotics",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Mech-Mind Robotics",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "a56afeaa-668e-5594-89f7-d910785d855e",
                   "slug": "narwal",
                   "entity_type": "ORGANIZATION",
@@ -94761,6 +96823,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "9bb4d4cf-d27a-5183-91f4-eb34797dc4b8",
+                  "slug": "orbbec",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Orbbec",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
                   ]
                 },
                 "measure_value": null,
@@ -95106,12 +97182,12 @@
       {
         "id": "JP",
         "label": "JP",
-        "count": 32,
+        "count": 33,
         "districts": [
           {
             "id": "JP",
             "label": "JP",
-            "count": 32,
+            "count": 33,
             "entities": [
               {
                 "chip": {
@@ -95526,6 +97602,20 @@
               },
               {
                 "chip": {
+                  "id": "3d723639-13ab-5e08-86d1-2ceab53b00ad",
+                  "slug": "xela-robotics",
+                  "entity_type": "ORGANIZATION",
+                  "name": "XELA Robotics",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "771449f4-1624-5bcf-a888-40b087e1230c",
                   "slug": "yaskawa",
                   "entity_type": "ORGANIZATION",
@@ -95558,12 +97648,12 @@
       {
         "id": "DE",
         "label": "DE",
-        "count": 28,
+        "count": 31,
         "districts": [
           {
             "id": "DE",
             "label": "DE",
-            "count": 28,
+            "count": 31,
             "entities": [
               {
                 "chip": {
@@ -95613,6 +97703,20 @@
                   "name": "Augsburg",
                   "primary_embodiment": null,
                   "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "769adb7d-eec3-58cf-8f6d-2448fb3ed6e5",
+                  "slug": "basler",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Basler",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
                 },
                 "measure_value": null,
                 "is_primary_membership": true
@@ -95678,6 +97782,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "OPERATOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "1dd024e2-c5ed-54ad-b3a8-8b7317e5638b",
+                  "slug": "framos",
+                  "entity_type": "ORGANIZATION",
+                  "name": "FRAMOS",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
                   ]
                 },
                 "measure_value": null,
@@ -95836,6 +97954,20 @@
               },
               {
                 "chip": {
+                  "id": "46a32137-d482-526a-9acd-498b27b72a93",
+                  "slug": "schunk",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Schunk",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
                   "id": "698e5de5-1374-5cd4-bfe9-ed825b2069a6",
                   "slug": "ssi-schaefer",
                   "entity_type": "ORGANIZATION",
@@ -95951,12 +98083,12 @@
       {
         "id": "CH",
         "label": "CH",
-        "count": 23,
+        "count": 24,
         "districts": [
           {
             "id": "CH",
             "label": "CH",
-            "count": 23,
+            "count": 24,
             "entities": [
               {
                 "chip": {
@@ -96019,6 +98151,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "TOOLING_OPS_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "b74944fa-1e7a-567e-a8b5-a67c94eaf4bb",
+                  "slug": "bota-systems",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Bota Systems",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
                   ]
                 },
                 "measure_value": null,
@@ -96481,6 +98627,197 @@
         ]
       },
       {
+        "id": "CA",
+        "label": "CA",
+        "count": 13,
+        "districts": [
+          {
+            "id": "CA",
+            "label": "CA",
+            "count": 13,
+            "entities": [
+              {
+                "chip": {
+                  "id": "102a373b-d234-5888-a527-c2d4729551be",
+                  "slug": "brookfield-asset-management",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Brookfield Asset Management",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INVESTOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "3fd4ca97-f5eb-52fe-91c1-97c6cc509490",
+                  "slug": "connect-tech",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Connect Tech",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "a0dbfc00-b38d-5264-a68b-6496fc640f93",
+                  "slug": "draganfly",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Draganfly",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "89cb7062-9c7b-5274-ac5e-75379f738a35",
+                  "slug": "kitchener",
+                  "entity_type": "PLACE",
+                  "name": "Kitchener",
+                  "primary_embodiment": null,
+                  "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "b4f366ac-3564-5ca5-80b5-9f7c3c2519a7",
+                  "slug": "mecka",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Mecka",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
+                  "slug": "ontario-teachers-pension-plan",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Ontario Teachers' Pension Plan",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INVESTOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
+                  "slug": "otto-motors",
+                  "entity_type": "ORGANIZATION",
+                  "name": "OTTO Motors",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "e7af5c8e-c064-5996-b4a9-07202f2328f2",
+                  "slug": "robodk",
+                  "entity_type": "ORGANIZATION",
+                  "name": "RoboDK",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "DATA_SIMULATION_PROVIDER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "6a3ad67c-5549-528b-a5ed-0391f2c0f8a3",
+                  "slug": "sanctuary-ai",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Sanctuary AI",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "MODEL_DEVELOPER",
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "1846bec8-e521-5a03-8035-1633f971e390",
+                  "slug": "sanctuary-phoenix",
+                  "entity_type": "ROBOT",
+                  "name": "Sanctuary Phoenix",
+                  "primary_embodiment": "HUMANOID",
+                  "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "a3cb9939-1bda-507b-aa53-d27669ffa135",
+                  "slug": "teledyne-optech",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Teledyne Optech",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "56bcc0f1-a3b4-5563-8db8-5fe89e256929",
+                  "slug": "vancouver",
+                  "entity_type": "PLACE",
+                  "name": "Vancouver",
+                  "primary_embodiment": null,
+                  "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "54973dcc-f0a8-5acb-83a4-b03a2f8056ab",
+                  "slug": "waabi",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Waabi",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "MODEL_DEVELOPER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "KR",
         "label": "KR",
         "count": 13,
@@ -96677,177 +99014,14 @@
         ]
       },
       {
-        "id": "CA",
-        "label": "CA",
-        "count": 11,
-        "districts": [
-          {
-            "id": "CA",
-            "label": "CA",
-            "count": 11,
-            "entities": [
-              {
-                "chip": {
-                  "id": "102a373b-d234-5888-a527-c2d4729551be",
-                  "slug": "brookfield-asset-management",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Brookfield Asset Management",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "INVESTOR"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "a0dbfc00-b38d-5264-a68b-6496fc640f93",
-                  "slug": "draganfly",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Draganfly",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "89cb7062-9c7b-5274-ac5e-75379f738a35",
-                  "slug": "kitchener",
-                  "entity_type": "PLACE",
-                  "name": "Kitchener",
-                  "primary_embodiment": null,
-                  "roles": []
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "b4f366ac-3564-5ca5-80b5-9f7c3c2519a7",
-                  "slug": "mecka",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Mecka",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "DATA_SIMULATION_PROVIDER"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "ae7efef6-a8cf-5ed4-93f5-4b1f24eec24a",
-                  "slug": "ontario-teachers-pension-plan",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Ontario Teachers' Pension Plan",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "INVESTOR"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "2aa82360-aaa7-54da-83d3-69f23749d7c5",
-                  "slug": "otto-motors",
-                  "entity_type": "ORGANIZATION",
-                  "name": "OTTO Motors",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "e7af5c8e-c064-5996-b4a9-07202f2328f2",
-                  "slug": "robodk",
-                  "entity_type": "ORGANIZATION",
-                  "name": "RoboDK",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "DATA_SIMULATION_PROVIDER"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "6a3ad67c-5549-528b-a5ed-0391f2c0f8a3",
-                  "slug": "sanctuary-ai",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Sanctuary AI",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "MODEL_DEVELOPER",
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "1846bec8-e521-5a03-8035-1633f971e390",
-                  "slug": "sanctuary-phoenix",
-                  "entity_type": "ROBOT",
-                  "name": "Sanctuary Phoenix",
-                  "primary_embodiment": "HUMANOID",
-                  "roles": []
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "56bcc0f1-a3b4-5563-8db8-5fe89e256929",
-                  "slug": "vancouver",
-                  "entity_type": "PLACE",
-                  "name": "Vancouver",
-                  "primary_embodiment": null,
-                  "roles": []
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "54973dcc-f0a8-5acb-83a4-b03a2f8056ab",
-                  "slug": "waabi",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Waabi",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "MODEL_DEVELOPER"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "NO",
         "label": "NO",
-        "count": 10,
+        "count": 11,
         "districts": [
           {
             "id": "NO",
             "label": "NO",
-            "count": 10,
+            "count": 11,
             "entities": [
               {
                 "chip": {
@@ -96981,6 +99155,20 @@
                 },
                 "measure_value": null,
                 "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "adf3d3bd-8f8a-5add-98be-0a35c3dab898",
+                  "slug": "zivid",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Zivid",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
               }
             ]
           }
@@ -97101,6 +99289,115 @@
                   "roles": [
                     "OEM"
                   ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DK",
+        "label": "DK",
+        "count": 7,
+        "districts": [
+          {
+            "id": "DK",
+            "label": "DK",
+            "count": 7,
+            "entities": [
+              {
+                "chip": {
+                  "id": "76996cfc-5434-573c-a1c3-d8610a059ed8",
+                  "slug": "farmdroid",
+                  "entity_type": "ORGANIZATION",
+                  "name": "FarmDroid",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
+                  "slug": "mobile-industrial-robots",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Mobile Industrial Robots",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "fc5f8943-817d-5aef-ba62-a8f05810eb74",
+                  "slug": "odense",
+                  "entity_type": "PLACE",
+                  "name": "Odense",
+                  "primary_embodiment": null,
+                  "roles": []
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "3466017a-85d6-5123-a86b-907e8173fd08",
+                  "slug": "onrobot",
+                  "entity_type": "ORGANIZATION",
+                  "name": "OnRobot",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "81571cfa-9773-5740-a33f-0121af56676c",
+                  "slug": "rope-robotics",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Rope Robotics",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM",
+                    "OPERATOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
+                  "slug": "universal-robots",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Universal Robots",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "725c8452-4827-542d-b7fd-49846d70c637",
+                  "slug": "universal-robots-ur20",
+                  "entity_type": "ROBOT",
+                  "name": "Universal Robots UR20",
+                  "primary_embodiment": "COBOT",
+                  "roles": []
                 },
                 "measure_value": null,
                 "is_primary_membership": true
@@ -97329,101 +99626,6 @@
         ]
       },
       {
-        "id": "DK",
-        "label": "DK",
-        "count": 6,
-        "districts": [
-          {
-            "id": "DK",
-            "label": "DK",
-            "count": 6,
-            "entities": [
-              {
-                "chip": {
-                  "id": "76996cfc-5434-573c-a1c3-d8610a059ed8",
-                  "slug": "farmdroid",
-                  "entity_type": "ORGANIZATION",
-                  "name": "FarmDroid",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
-                  "slug": "mobile-industrial-robots",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Mobile Industrial Robots",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "fc5f8943-817d-5aef-ba62-a8f05810eb74",
-                  "slug": "odense",
-                  "entity_type": "PLACE",
-                  "name": "Odense",
-                  "primary_embodiment": null,
-                  "roles": []
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "81571cfa-9773-5740-a33f-0121af56676c",
-                  "slug": "rope-robotics",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Rope Robotics",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OEM",
-                    "OPERATOR"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "120c2a93-8f78-50ef-8d3d-de4276ef357f",
-                  "slug": "universal-robots",
-                  "entity_type": "ORGANIZATION",
-                  "name": "Universal Robots",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "725c8452-4827-542d-b7fd-49846d70c637",
-                  "slug": "universal-robots-ur20",
-                  "entity_type": "ROBOT",
-                  "name": "Universal Robots UR20",
-                  "primary_embodiment": "COBOT",
-                  "roles": []
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "NL",
         "label": "NL",
         "count": 5,
@@ -97509,6 +99711,77 @@
         ]
       },
       {
+        "id": "AT",
+        "label": "AT",
+        "count": 4,
+        "districts": [
+          {
+            "id": "AT",
+            "label": "AT",
+            "count": 4,
+            "entities": [
+              {
+                "chip": {
+                  "id": "8ce846e6-4168-5353-9f34-02db1d388530",
+                  "slug": "agilox",
+                  "entity_type": "ORGANIZATION",
+                  "name": "AGILOX",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "22485ced-e327-5b0d-9405-a814489ac743",
+                  "slug": "knapp",
+                  "entity_type": "ORGANIZATION",
+                  "name": "KNAPP",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INTEGRATOR",
+                    "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "bd434c51-7b13-5b01-b5bc-e2e532bf4c02",
+                  "slug": "riegl-laser-measurement-systems",
+                  "entity_type": "ORGANIZATION",
+                  "name": "RIEGL Laser Measurement Systems",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "92df1b50-f29e-55bc-989f-cd4e78e1ebba",
+                  "slug": "tgw-logistics-group",
+                  "entity_type": "ORGANIZATION",
+                  "name": "TGW Logistics Group",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "INTEGRATOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "SE",
         "label": "SE",
         "count": 4,
@@ -97579,71 +99852,14 @@
         ]
       },
       {
-        "id": "AT",
-        "label": "AT",
-        "count": 3,
-        "districts": [
-          {
-            "id": "AT",
-            "label": "AT",
-            "count": 3,
-            "entities": [
-              {
-                "chip": {
-                  "id": "8ce846e6-4168-5353-9f34-02db1d388530",
-                  "slug": "agilox",
-                  "entity_type": "ORGANIZATION",
-                  "name": "AGILOX",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "22485ced-e327-5b0d-9405-a814489ac743",
-                  "slug": "knapp",
-                  "entity_type": "ORGANIZATION",
-                  "name": "KNAPP",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "INTEGRATOR",
-                    "OEM"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              },
-              {
-                "chip": {
-                  "id": "92df1b50-f29e-55bc-989f-cd4e78e1ebba",
-                  "slug": "tgw-logistics-group",
-                  "entity_type": "ORGANIZATION",
-                  "name": "TGW Logistics Group",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "INTEGRATOR"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "AU",
         "label": "AU",
-        "count": 2,
+        "count": 3,
         "districts": [
           {
             "id": "AU",
             "label": "AU",
-            "count": 2,
+            "count": 3,
             "entities": [
               {
                 "chip": {
@@ -97654,6 +99870,20 @@
                   "primary_embodiment": null,
                   "roles": [
                     "INVESTOR"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "db286626-b1a0-56dc-8760-6edcb6204bad",
+                  "slug": "contactile",
+                  "entity_type": "ORGANIZATION",
+                  "name": "Contactile",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
                   ]
                 },
                 "measure_value": null,
@@ -97710,6 +99940,48 @@
                   "primary_embodiment": null,
                   "roles": [
                     "OEM"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "IN",
+        "label": "IN",
+        "count": 2,
+        "districts": [
+          {
+            "id": "IN",
+            "label": "IN",
+            "count": 2,
+            "entities": [
+              {
+                "chip": {
+                  "id": "a94f6ca0-54d1-50b2-9c1f-58b055cfefe2",
+                  "slug": "e-con-systems",
+                  "entity_type": "ORGANIZATION",
+                  "name": "e-con Systems",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "COMPONENT_SUPPLIER"
+                  ]
+                },
+                "measure_value": null,
+                "is_primary_membership": true
+              },
+              {
+                "chip": {
+                  "id": "5bfc052b-ebd4-5488-b25b-103640ee34ee",
+                  "slug": "flytbase",
+                  "entity_type": "ORGANIZATION",
+                  "name": "FlytBase",
+                  "primary_embodiment": null,
+                  "roles": [
+                    "TOOLING_OPS_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -97849,34 +100121,6 @@
                   "primary_embodiment": null,
                   "roles": [
                     "DATA_SIMULATION_PROVIDER"
-                  ]
-                },
-                "measure_value": null,
-                "is_primary_membership": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "IN",
-        "label": "IN",
-        "count": 1,
-        "districts": [
-          {
-            "id": "IN",
-            "label": "IN",
-            "count": 1,
-            "entities": [
-              {
-                "chip": {
-                  "id": "5bfc052b-ebd4-5488-b25b-103640ee34ee",
-                  "slug": "flytbase",
-                  "entity_type": "ORGANIZATION",
-                  "name": "FlytBase",
-                  "primary_embodiment": null,
-                  "roles": [
-                    "TOOLING_OPS_PROVIDER"
                   ]
                 },
                 "measure_value": null,
@@ -105687,6 +107931,33 @@
         "origin": "SEED"
       },
       {
+        "id": "0ea3af47-a0ac-5c4f-b552-2123db4e7a6a",
+        "event_type": "CLAIM_CHANGED",
+        "entity": {
+          "id": "b74944fa-1e7a-567e-a8b5-a67c94eaf4bb",
+          "slug": "bota-systems",
+          "entity_type": "ORGANIZATION",
+          "name": "Bota Systems",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        "before": null,
+        "after": {
+          "kind": "enum",
+          "value": "COMPONENT_SUPPLIER"
+        },
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        },
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "summary": "Role set to Component supplier",
+        "origin": "SEED"
+      },
+      {
         "id": "0f9ae476-6f1e-52f3-ae8a-7754f28bd649",
         "event_type": "CLAIM_CHANGED",
         "entity": {
@@ -106592,6 +108863,33 @@
         "origin": "SEED"
       },
       {
+        "id": "24873c1b-4b5b-5765-b4b5-2a2b52f57a43",
+        "event_type": "CLAIM_CHANGED",
+        "entity": {
+          "id": "769adb7d-eec3-58cf-8f6d-2448fb3ed6e5",
+          "slug": "basler",
+          "entity_type": "ORGANIZATION",
+          "name": "Basler",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        "before": null,
+        "after": {
+          "kind": "enum",
+          "value": "COMPONENT_SUPPLIER"
+        },
+        "evidence_summary": {
+          "class": "PRIMARY",
+          "confidence": "HIGH",
+          "source_count": 1
+        },
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "summary": "Role set to Component supplier",
+        "origin": "SEED"
+      },
+      {
         "id": "24cce476-4ef1-5c73-a796-3295d2b31521",
         "event_type": "CLAIM_CHANGED",
         "entity": {
@@ -106616,68 +108914,6 @@
         },
         "observed_at": "2026-09-11T00:00:00.000Z",
         "summary": "Role set to Investor",
-        "origin": "SEED"
-      },
-      {
-        "id": "251c1268-ad69-5208-bd47-1c06c85fdcc2",
-        "event_type": "CLAIM_CHANGED",
-        "entity": {
-          "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
-          "slug": "deere",
-          "entity_type": "ORGANIZATION",
-          "name": "Deere",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        },
-        "before": null,
-        "after": {
-          "kind": "entity",
-          "entity": {
-            "id": "ac484f1c-9893-553e-af1f-5cb3e582ed24",
-            "slug": "moline-us",
-            "entity_type": "PLACE",
-            "name": "Moline",
-            "primary_embodiment": null,
-            "roles": []
-          },
-          "measure": null
-        },
-        "evidence_summary": {
-          "class": "THIRD_PARTY",
-          "confidence": "MEDIUM",
-          "source_count": 1
-        },
-        "observed_at": "2026-09-11T00:00:00.000Z",
-        "summary": "Headquartered at Moline",
-        "origin": "SEED"
-      },
-      {
-        "id": "276d954a-7600-5bb9-86d7-c592a7557146",
-        "event_type": "CLAIM_CHANGED",
-        "entity": {
-          "id": "353fa539-b3bf-5020-8e0b-ee1fae099dcf",
-          "slug": "motional",
-          "entity_type": "ORGANIZATION",
-          "name": "Motional",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER"
-          ]
-        },
-        "before": null,
-        "after": {
-          "kind": "enum",
-          "value": "MODEL_DEVELOPER"
-        },
-        "evidence_summary": {
-          "class": "PRIMARY",
-          "confidence": "HIGH",
-          "source_count": 1
-        },
-        "observed_at": "2026-09-11T00:00:00.000Z",
-        "summary": "Role set to Model developer",
         "origin": "SEED"
       }
     ]
@@ -109808,6 +112044,116 @@
     "history": [],
     "dependencies": []
   },
+  "claim/0b4c2179-5dfe-53be-a747-8fae77e0a095": {
+    "claim": {
+      "claim_id": "0b4c2179-5dfe-53be-a747-8fae77e0a095",
+      "subject": {
+        "id": "ec4fbb1a-4bc7-549e-aa59-3a8d96920152",
+        "slug": "ati-industrial-automation",
+        "entity_type": "ORGANIZATION",
+        "name": "ATI Industrial Automation",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "ATI Industrial Automation role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "32af05f6-60fd-5951-88bc-87aa4a37fc63",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops robotic tool changers and force-torque sensors.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "e873e7ea-aaad-5512-b636-a5ae21395f72",
+          "url": "https://www.ati-ia.com/products/ft/sensors.aspx",
+          "canonical_url": null,
+          "publisher": "ATI Industrial Automation",
+          "title": "ATI Industrial Automation — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/0b729f49-0f35-57ee-893f-0884892a5d92": {
+    "claim": {
+      "claim_id": "0b729f49-0f35-57ee-893f-0884892a5d92",
+      "subject": {
+        "id": "3d723639-13ab-5e08-86d1-2ceab53b00ad",
+        "slug": "xela-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "XELA Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "XELA Robotics role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "81c89fdd-ff38-54d2-86e9-a9a088f4d5e4",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops tactile sensors for robotic hands and grippers.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "fb08d1b8-0dfe-595c-93ec-30df91538ac4",
+          "url": "https://xelarobotics.com/technology/",
+          "canonical_url": null,
+          "publisher": "XELA Robotics",
+          "title": "XELA Robotics — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/0bb769d5-96f4-52e6-bb47-686d83fa9b16": {
     "claim": {
       "claim_id": "0bb769d5-96f4-52e6-bb47-686d83fa9b16",
@@ -111900,6 +114246,61 @@
           "publisher": "Percepto",
           "title": "Percepto autonomous inspection",
           "source_kind": "PRODUCT_PAGE",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/1287fdfb-5dd9-5282-8111-42bcc3d93d21": {
+    "claim": {
+      "claim_id": "1287fdfb-5dd9-5282-8111-42bcc3d93d21",
+      "subject": {
+        "id": "769adb7d-eec3-58cf-8f6d-2448fb3ed6e5",
+        "slug": "basler",
+        "entity_type": "ORGANIZATION",
+        "name": "Basler",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Basler role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "b9ef9189-112e-5641-88b2-fc6751da3001",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Supplies cameras and vision software for robotic navigation and manipulation.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "45ed0f96-91df-517a-8854-8a4c258779e8",
+          "url": "https://www.baslerweb.com/en/portfolios/3d-cameras/",
+          "canonical_url": null,
+          "publisher": "Basler",
+          "title": "Basler — robotics enrichment reference",
+          "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
         },
@@ -120012,6 +122413,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/3022bf37-4bff-5e32-99c2-a607d98f01b7": {
+    "claim": {
+      "claim_id": "3022bf37-4bff-5e32-99c2-a607d98f01b7",
+      "subject": {
+        "id": "db286626-b1a0-56dc-8760-6edcb6204bad",
+        "slug": "contactile",
+        "entity_type": "ORGANIZATION",
+        "name": "Contactile",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Contactile role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "98b69bba-2c19-5b12-93d2-1182e2caaa34",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops tactile sensors and intelligent end-effectors for robotic manipulation.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "65707a3f-c7a6-5e13-825a-f196b233f9af",
+          "url": "https://contactile.com/",
+          "canonical_url": null,
+          "publisher": "Contactile",
+          "title": "Contactile — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/303e4c43-0c4b-59c9-88a1-4929eb75e31a": {
     "claim": {
       "claim_id": "303e4c43-0c4b-59c9-88a1-4929eb75e31a",
@@ -122182,6 +124638,61 @@
           "publisher": "Nuro",
           "title": "Nuro",
           "source_kind": "PRODUCT_PAGE",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/35cd178f-bf1c-5805-b9b4-1206cdff0a13": {
+    "claim": {
+      "claim_id": "35cd178f-bf1c-5805-b9b4-1206cdff0a13",
+      "subject": {
+        "id": "a3cb9939-1bda-507b-aa53-d27669ffa135",
+        "slug": "teledyne-optech",
+        "entity_type": "ORGANIZATION",
+        "name": "Teledyne Optech",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Teledyne Optech role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "c815f4f8-9e17-569c-ad2e-26af3d3132ad",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops lidar systems for UAV and terrestrial mapping.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "3dbd6f08-cf8f-588d-9467-ee64f17fee65",
+          "url": "https://www.teledyneoptech.com/",
+          "canonical_url": null,
+          "publisher": "Teledyne Optech",
+          "title": "Teledyne Optech — robotics enrichment reference",
+          "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
         },
@@ -126919,6 +129430,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/478ba999-17cf-5446-b32f-57d4cbd887ca": {
+    "claim": {
+      "claim_id": "478ba999-17cf-5446-b32f-57d4cbd887ca",
+      "subject": {
+        "id": "3ccf8a41-ef3e-5946-9b64-1a1451904c6c",
+        "slug": "livox",
+        "entity_type": "ORGANIZATION",
+        "name": "Livox",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Livox role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "d1cc1856-568e-5659-a3f8-dd057d55d012",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops lidar sensors for autonomous vehicles and mobile robots.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "986638c1-d0b1-5213-bb24-9002a685af3c",
+          "url": "https://www.livoxtech.com/",
+          "canonical_url": null,
+          "publisher": "Livox",
+          "title": "Livox — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/47cbe5db-6835-53e7-8b4b-da3a8798f240": {
     "claim": {
       "claim_id": "47cbe5db-6835-53e7-8b4b-da3a8798f240",
@@ -130830,6 +133396,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/550e843a-2371-5956-b758-d57b89e4d075": {
+    "claim": {
+      "claim_id": "550e843a-2371-5956-b758-d57b89e4d075",
+      "subject": {
+        "id": "118068a6-3448-5cdf-a136-92bda9ad11ea",
+        "slug": "futek-advanced-sensor-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "FUTEK Advanced Sensor Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "FUTEK Advanced Sensor Technology role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "3f82d058-0f7a-58c7-83ae-f46ddd8d2e97",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Supplies force and torque sensing components for robotic automation.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "fb9568a7-c686-56db-8e6c-f98fda66bea9",
+          "url": "https://www.futek.com/",
+          "canonical_url": null,
+          "publisher": "FUTEK Advanced Sensor Technology",
+          "title": "FUTEK Advanced Sensor Technology — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/56aa9873-c411-581a-ac5e-03f97b2210b0": {
     "claim": {
       "claim_id": "56aa9873-c411-581a-ac5e-03f97b2210b0",
@@ -132043,6 +134664,61 @@
         "valid_to": null
       }
     ],
+    "dependencies": []
+  },
+  "claim/5ae8e03c-7a28-52f5-9b76-68c2f94bbc57": {
+    "claim": {
+      "claim_id": "5ae8e03c-7a28-52f5-9b76-68c2f94bbc57",
+      "subject": {
+        "id": "77660ef8-6e1a-5dab-8ae7-62729288d803",
+        "slug": "trimble",
+        "entity_type": "ORGANIZATION",
+        "name": "Trimble",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Trimble role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "054b6e3d-bbeb-5c38-b99c-aae9cebf6f45",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops positioning and robotic surveying instruments.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "456ade60-e7d2-5657-81d0-fb84e1d60f2c",
+          "url": "https://www.trimble.com/",
+          "canonical_url": null,
+          "publisher": "Trimble",
+          "title": "Trimble — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
     "dependencies": []
   },
   "claim/5b097df4-b6c4-502a-b24b-8f82b5cf1ddb": {
@@ -135849,6 +138525,61 @@
         "valid_to": null
       }
     ],
+    "dependencies": []
+  },
+  "claim/66770cc9-adcb-581b-9e3b-537b3765c0c7": {
+    "claim": {
+      "claim_id": "66770cc9-adcb-581b-9e3b-537b3765c0c7",
+      "subject": {
+        "id": "1dd024e2-c5ed-54ad-b3a8-8b7317e5638b",
+        "slug": "framos",
+        "entity_type": "ORGANIZATION",
+        "name": "FRAMOS",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "FRAMOS role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "209dfa4a-4c29-5712-836c-14a900f93de6",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops embedded imaging components and vision systems for autonomous robots.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "90f94ce5-80ca-5fb3-8394-8cf794861e88",
+          "url": "https://www.framos.com/",
+          "canonical_url": null,
+          "publisher": "FRAMOS",
+          "title": "FRAMOS — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
     "dependencies": []
   },
   "claim/668819b8-0cac-5c5e-90b5-3f44a049b87e": {
@@ -141547,6 +144278,61 @@
           "reviewed_at": "2026-09-01T00:00:00.000Z",
           "notes": null
         }
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/79b5981f-ca7f-582d-8cd0-f032b3b1e82e": {
+    "claim": {
+      "claim_id": "79b5981f-ca7f-582d-8cd0-f032b3b1e82e",
+      "subject": {
+        "id": "f9d59e60-d283-5eb7-bd03-769796dfec5a",
+        "slug": "gelsight",
+        "entity_type": "ORGANIZATION",
+        "name": "GelSight",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "GelSight role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "5e0ba463-6b09-58c5-a9fb-316d8133ee77",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops tactile sensing technology for robotic manipulation.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "6267acbc-5486-5ed3-adf2-6e0f49b979a7",
+          "url": "https://www.gelsight.com/solutions/tactile-robotics-applications/",
+          "canonical_url": null,
+          "publisher": "GelSight",
+          "title": "GelSight — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
       }
     ],
     "history": [],
@@ -147852,6 +150638,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/8bae64c4-5c26-5ecc-ba65-75dc95a9e309": {
+    "claim": {
+      "claim_id": "8bae64c4-5c26-5ecc-ba65-75dc95a9e309",
+      "subject": {
+        "id": "b74944fa-1e7a-567e-a8b5-a67c94eaf4bb",
+        "slug": "bota-systems",
+        "entity_type": "ORGANIZATION",
+        "name": "Bota Systems",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Bota Systems role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "50c3102c-e1b6-5406-90a8-88a070dee59d",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops force-torque and tactile sensors for robotics.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "cb035401-6320-5f04-b5c5-ab8c9242c9ba",
+          "url": "https://botasys.com/",
+          "canonical_url": null,
+          "publisher": "Bota Systems",
+          "title": "Bota Systems — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/8c057179-b7d2-5fad-9e4d-8c759e5be2b8": {
     "claim": {
       "claim_id": "8c057179-b7d2-5fad-9e4d-8c759e5be2b8",
@@ -150773,6 +153614,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/9747742a-f03f-54a4-af96-f7fc207210f3": {
+    "claim": {
+      "claim_id": "9747742a-f03f-54a4-af96-f7fc207210f3",
+      "subject": {
+        "id": "adf3d3bd-8f8a-5add-98be-0a35c3dab898",
+        "slug": "zivid",
+        "entity_type": "ORGANIZATION",
+        "name": "Zivid",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Zivid role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "1bae5784-d869-5ae3-9425-33db3e068d5a",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops industrial 3D cameras for robotic picking and manipulation.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "88d7d20c-1fd5-587a-aaae-202036cd8116",
+          "url": "https://www.zivid.com/",
+          "canonical_url": null,
+          "publisher": "Zivid",
+          "title": "Zivid — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/97817714-d9d1-5f14-b714-cad9edcfbee8": {
     "claim": {
       "claim_id": "97817714-d9d1-5f14-b714-cad9edcfbee8",
@@ -151266,6 +154162,61 @@
           "canonical_url": null,
           "publisher": "Kawasaki Heavy Industries",
           "title": "Kawasaki Heavy Industries — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/99663e1a-1a2e-5106-b562-1346c2cb8e34": {
+    "claim": {
+      "claim_id": "99663e1a-1a2e-5106-b562-1346c2cb8e34",
+      "subject": {
+        "id": "9bb4d4cf-d27a-5183-91f4-eb34797dc4b8",
+        "slug": "orbbec",
+        "entity_type": "ORGANIZATION",
+        "name": "Orbbec",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Orbbec role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "9b6686bf-ab73-5b4d-b4c0-06e284521936",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops depth cameras and perception hardware for robotics.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "eae555e5-7baf-5e3e-85fa-0c6c0ca94dcc",
+          "url": "https://www.orbbec.com/",
+          "canonical_url": null,
+          "publisher": "Orbbec",
+          "title": "Orbbec — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -158319,6 +161270,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/b02f5dc5-45f5-5d15-afbb-4e6d720fc0bf": {
+    "claim": {
+      "claim_id": "b02f5dc5-45f5-5d15-afbb-4e6d720fc0bf",
+      "subject": {
+        "id": "3466017a-85d6-5123-a86b-907e8173fd08",
+        "slug": "onrobot",
+        "entity_type": "ORGANIZATION",
+        "name": "OnRobot",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "OnRobot role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "bb1f083d-a5a0-55a3-933b-0dd59bf6099f",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Supplies grippers, sensors and end-of-arm tools for collaborative robots.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "07cd05c2-dcf6-5685-94d6-02c2aa514441",
+          "url": "https://onrobot.com/en/",
+          "canonical_url": null,
+          "publisher": "OnRobot",
+          "title": "OnRobot — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/b090267f-6c9c-5a32-9a1b-a3b063ab6abe": {
     "claim": {
       "claim_id": "b090267f-6c9c-5a32-9a1b-a3b063ab6abe",
@@ -163357,6 +166363,61 @@
     ],
     "dependencies": []
   },
+  "claim/bef435d4-85d6-5d9d-b402-c56949b71b87": {
+    "claim": {
+      "claim_id": "bef435d4-85d6-5d9d-b402-c56949b71b87",
+      "subject": {
+        "id": "dfd0d541-9164-5134-93fd-50210e46f1e7",
+        "slug": "banner-engineering",
+        "entity_type": "ORGANIZATION",
+        "name": "Banner Engineering",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Banner Engineering role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "d27e2514-67a8-5c4f-a907-63316fd2f8b7",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Supplies sensors for robotic assembly and mobile robot collision avoidance.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "f47d1075-7322-5c61-96d5-0a5c4a0dde8a",
+          "url": "https://www.bannerengineering.com/",
+          "canonical_url": null,
+          "publisher": "Banner Engineering",
+          "title": "Banner Engineering — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/bf06f1bc-076d-525b-a85c-4d111afedb60": {
     "claim": {
       "claim_id": "bf06f1bc-076d-525b-a85c-4d111afedb60",
@@ -163699,6 +166760,61 @@
         "valid_to": null
       }
     ],
+    "dependencies": []
+  },
+  "claim/bf696b84-8a54-5407-a8b7-8c17881c190a": {
+    "claim": {
+      "claim_id": "bf696b84-8a54-5407-a8b7-8c17881c190a",
+      "subject": {
+        "id": "46a32137-d482-526a-9acd-498b27b72a93",
+        "slug": "schunk",
+        "entity_type": "ORGANIZATION",
+        "name": "Schunk",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Schunk role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "ed1d0d6c-9a19-5d90-affa-c89f076b6641",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops robotic grippers, tool changers and force-torque sensors.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "98675d51-fa02-5eb2-923f-f59fb63e9ed3",
+          "url": "https://www.universal-robots.com/marketplace/products/01tP40000071OacIAE/",
+          "canonical_url": null,
+          "publisher": "Schunk",
+          "title": "Schunk — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
     "dependencies": []
   },
   "claim/bf7dbd5a-5ce7-5197-9ea1-ca1df076fd42": {
@@ -168932,6 +172048,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/d17f1756-23ce-5a08-a4dd-e916f5c95e50": {
+    "claim": {
+      "claim_id": "d17f1756-23ce-5a08-a4dd-e916f5c95e50",
+      "subject": {
+        "id": "3fd4ca97-f5eb-52fe-91c1-97c6cc509490",
+        "slug": "connect-tech",
+        "entity_type": "ORGANIZATION",
+        "name": "Connect Tech",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Connect Tech role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "05d8c119-b1c4-56b2-ac21-6f410d267b0b",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops embedded computing and carrier boards for robotic vision systems.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "34358c59-6841-53fb-b4c3-98652ac3a949",
+          "url": "https://connecttech.com/product-category/vision-solutions/",
+          "canonical_url": null,
+          "publisher": "Connect Tech",
+          "title": "Connect Tech — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/d1dffb28-389c-508c-988f-3e65c1bb21c5": {
     "claim": {
       "claim_id": "d1dffb28-389c-508c-988f-3e65c1bb21c5",
@@ -170299,6 +173470,61 @@
           "publisher": "Fourier Intelligence",
           "title": "Fourier Intelligence",
           "source_kind": "PRODUCT_PAGE",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/d4f22078-48b3-5f74-8b39-d206f1eb86fe": {
+    "claim": {
+      "claim_id": "d4f22078-48b3-5f74-8b39-d206f1eb86fe",
+      "subject": {
+        "id": "3c340b04-f732-519c-a2fa-6ed6d4e4afd0",
+        "slug": "mech-mind-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Mech-Mind Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Mech-Mind Robotics role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "5058b133-9c84-542f-a6f3-a5a42b172ae7",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops 3D cameras and vision software for robotic automation.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "f9a69485-0fa7-57fe-9e66-1e8c6e4796dd",
+          "url": "https://www.mech-mind.com/products/mech-eye-industrial-3d-camera.html",
+          "canonical_url": null,
+          "publisher": "Mech-Mind Robotics",
+          "title": "Mech-Mind Robotics — robotics enrichment reference",
+          "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
         },
@@ -171684,6 +174910,61 @@
           "canonical_url": null,
           "publisher": "Xenex Disinfection Services",
           "title": "Xenex Disinfection Services — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/da02d26f-230b-5918-b0d7-5c9e1d05148d": {
+    "claim": {
+      "claim_id": "da02d26f-230b-5918-b0d7-5c9e1d05148d",
+      "subject": {
+        "id": "6a1108ec-e12f-50e7-8011-79761898069e",
+        "slug": "leopard-imaging",
+        "entity_type": "ORGANIZATION",
+        "name": "Leopard Imaging",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "Leopard Imaging role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "0c2b79f3-2b27-5ed7-a327-df4c212e8ebe",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Manufactures imaging systems and camera modules for robotics and machine vision.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "cb9f18fc-6b3c-5757-adfc-50024696282f",
+          "url": "https://leopardimaging.com/product-category/accessories/adapters-carrier-boards/for-nvidia-jetson/",
+          "canonical_url": null,
+          "publisher": "Leopard Imaging",
+          "title": "Leopard Imaging — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -174527,6 +177808,61 @@
     "history": [],
     "dependencies": []
   },
+  "claim/e35cb870-2da3-5f99-866a-6e2dc29f4eb1": {
+    "claim": {
+      "claim_id": "e35cb870-2da3-5f99-866a-6e2dc29f4eb1",
+      "subject": {
+        "id": "ebe5ee76-32df-52b0-b003-94b8fdb3ef66",
+        "slug": "faro-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "FARO Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "FARO Technologies role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "8226df61-6800-5b8a-b77a-a0d661743486",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Supplies metrology systems for robot calibration and industrial measurement.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "d6465600-c934-5e30-ad4e-95c71792fa26",
+          "url": "https://www.faro.com/",
+          "canonical_url": null,
+          "publisher": "FARO Technologies",
+          "title": "FARO Technologies — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
   "claim/e406c5e3-899f-57b8-8f36-5d1dad5eff97": {
     "claim": {
       "claim_id": "e406c5e3-899f-57b8-8f36-5d1dad5eff97",
@@ -175667,6 +179003,61 @@
           "canonical_url": null,
           "publisher": "Tecnotion",
           "title": "Tecnotion — robotics enrichment reference",
+          "source_kind": "OTHER",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/e758676d-cdfa-52b0-b20f-53fdbc58cdaf": {
+    "claim": {
+      "claim_id": "e758676d-cdfa-52b0-b20f-53fdbc58cdaf",
+      "subject": {
+        "id": "bd434c51-7b13-5b01-b5bc-e2e532bf4c02",
+        "slug": "riegl-laser-measurement-systems",
+        "entity_type": "ORGANIZATION",
+        "name": "RIEGL Laser Measurement Systems",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "RIEGL Laser Measurement Systems role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "61fdf041-7043-536f-a13d-682c6cae8103",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Develops laser scanning sensors for UAV and mobile mapping systems.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "e75a7a9e-1cb4-51ab-9e80-61ad633a3990",
+          "url": "https://www.riegl.com/",
+          "canonical_url": null,
+          "publisher": "RIEGL Laser Measurement Systems",
+          "title": "RIEGL Laser Measurement Systems — robotics enrichment reference",
           "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
@@ -181796,6 +185187,61 @@
           "publisher": "Waymo",
           "title": "The Waymo Driver",
           "source_kind": "PRODUCT_PAGE",
+          "published_at": null,
+          "language": "en"
+        },
+        "assessment": null
+      }
+    ],
+    "history": [],
+    "dependencies": []
+  },
+  "claim/ff415a82-897f-5a32-b75a-78d1002122d2": {
+    "claim": {
+      "claim_id": "ff415a82-897f-5a32-b75a-78d1002122d2",
+      "subject": {
+        "id": "a94f6ca0-54d1-50b2-9c1f-58b055cfefe2",
+        "slug": "e-con-systems",
+        "entity_type": "ORGANIZATION",
+        "name": "e-con Systems",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "sentence": "e-con Systems role COMPONENT_SUPPLIER",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "stack_layer": null,
+      "qualifier": null,
+      "status": "APPROVED",
+      "valid_from": "2026-09-11",
+      "valid_to": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "last_verified_at": "2026-09-01T00:00:00.000Z"
+    },
+    "has_evidence": true,
+    "corroboration": "SINGLE",
+    "evidence": [
+      {
+        "id": "ada19cc3-e9bf-5120-8211-99972471b433",
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "stance": "SUPPORTS",
+        "excerpt": "Supplies embedded cameras and computing platforms for robotics.",
+        "published_at": null,
+        "observed_at": "2026-09-11T00:00:00.000Z",
+        "source": {
+          "id": "ccff647b-9738-5479-a639-b9d0e878460c",
+          "url": "https://www.e-consystems.com/nvidia-jetson-camera.asp",
+          "canonical_url": null,
+          "publisher": "e-con Systems",
+          "title": "e-con Systems — robotics enrichment reference",
+          "source_kind": "OTHER",
           "published_at": null,
           "language": "en"
         },

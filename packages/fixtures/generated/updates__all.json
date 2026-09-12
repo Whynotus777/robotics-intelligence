@@ -425,6 +425,33 @@
       "origin": "SEED"
     },
     {
+      "id": "0ea3af47-a0ac-5c4f-b552-2123db4e7a6a",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "b74944fa-1e7a-567e-a8b5-a67c94eaf4bb",
+        "slug": "bota-systems",
+        "entity_type": "ORGANIZATION",
+        "name": "Bota Systems",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Component supplier",
+      "origin": "SEED"
+    },
+    {
       "id": "0f9ae476-6f1e-52f3-ae8a-7754f28bd649",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1330,6 +1357,33 @@
       "origin": "SEED"
     },
     {
+      "id": "24873c1b-4b5b-5765-b4b5-2a2b52f57a43",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "769adb7d-eec3-58cf-8f6d-2448fb3ed6e5",
+        "slug": "basler",
+        "entity_type": "ORGANIZATION",
+        "name": "Basler",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Component supplier",
+      "origin": "SEED"
+    },
+    {
       "id": "24cce476-4ef1-5c73-a796-3295d2b31521",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1354,68 +1408,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Investor",
-      "origin": "SEED"
-    },
-    {
-      "id": "251c1268-ad69-5208-bd47-1c06c85fdcc2",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "93e23ae8-3ca5-5ccb-9933-355247a137df",
-        "slug": "deere",
-        "entity_type": "ORGANIZATION",
-        "name": "Deere",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "ac484f1c-9893-553e-af1f-5cb3e582ed24",
-          "slug": "moline-us",
-          "entity_type": "PLACE",
-          "name": "Moline",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "THIRD_PARTY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Moline",
-      "origin": "SEED"
-    },
-    {
-      "id": "276d954a-7600-5bb9-86d7-c592a7557146",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "353fa539-b3bf-5020-8e0b-ee1fae099dcf",
-        "slug": "motional",
-        "entity_type": "ORGANIZATION",
-        "name": "Motional",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "MODEL_DEVELOPER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Model developer",
       "origin": "SEED"
     }
   ]

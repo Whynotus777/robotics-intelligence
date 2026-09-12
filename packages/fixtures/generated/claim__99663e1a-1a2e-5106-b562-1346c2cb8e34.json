@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "99663e1a-1a2e-5106-b562-1346c2cb8e34",
+    "subject": {
+      "id": "9bb4d4cf-d27a-5183-91f4-eb34797dc4b8",
+      "slug": "orbbec",
+      "entity_type": "ORGANIZATION",
+      "name": "Orbbec",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Orbbec role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9b6686bf-ab73-5b4d-b4c0-06e284521936",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops depth cameras and perception hardware for robotics.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "eae555e5-7baf-5e3e-85fa-0c6c0ca94dcc",
+        "url": "https://www.orbbec.com/",
+        "canonical_url": null,
+        "publisher": "Orbbec",
+        "title": "Orbbec — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

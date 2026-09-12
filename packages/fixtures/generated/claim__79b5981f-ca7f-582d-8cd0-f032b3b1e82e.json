@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "79b5981f-ca7f-582d-8cd0-f032b3b1e82e",
+    "subject": {
+      "id": "f9d59e60-d283-5eb7-bd03-769796dfec5a",
+      "slug": "gelsight",
+      "entity_type": "ORGANIZATION",
+      "name": "GelSight",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "GelSight role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5e0ba463-6b09-58c5-a9fb-316d8133ee77",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops tactile sensing technology for robotic manipulation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "6267acbc-5486-5ed3-adf2-6e0f49b979a7",
+        "url": "https://www.gelsight.com/solutions/tactile-robotics-applications/",
+        "canonical_url": null,
+        "publisher": "GelSight",
+        "title": "GelSight — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

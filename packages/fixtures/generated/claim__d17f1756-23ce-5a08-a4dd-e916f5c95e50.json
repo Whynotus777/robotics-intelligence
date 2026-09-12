@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "d17f1756-23ce-5a08-a4dd-e916f5c95e50",
+    "subject": {
+      "id": "3fd4ca97-f5eb-52fe-91c1-97c6cc509490",
+      "slug": "connect-tech",
+      "entity_type": "ORGANIZATION",
+      "name": "Connect Tech",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Connect Tech role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "05d8c119-b1c4-56b2-ac21-6f410d267b0b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops embedded computing and carrier boards for robotic vision systems.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "34358c59-6841-53fb-b4c3-98652ac3a949",
+        "url": "https://connecttech.com/product-category/vision-solutions/",
+        "canonical_url": null,
+        "publisher": "Connect Tech",
+        "title": "Connect Tech — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

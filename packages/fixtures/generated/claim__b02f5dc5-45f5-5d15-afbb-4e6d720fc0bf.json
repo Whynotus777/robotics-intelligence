@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "b02f5dc5-45f5-5d15-afbb-4e6d720fc0bf",
+    "subject": {
+      "id": "3466017a-85d6-5123-a86b-907e8173fd08",
+      "slug": "onrobot",
+      "entity_type": "ORGANIZATION",
+      "name": "OnRobot",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "OnRobot role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bb1f083d-a5a0-55a3-933b-0dd59bf6099f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Supplies grippers, sensors and end-of-arm tools for collaborative robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "07cd05c2-dcf6-5685-94d6-02c2aa514441",
+        "url": "https://onrobot.com/en/",
+        "canonical_url": null,
+        "publisher": "OnRobot",
+        "title": "OnRobot — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

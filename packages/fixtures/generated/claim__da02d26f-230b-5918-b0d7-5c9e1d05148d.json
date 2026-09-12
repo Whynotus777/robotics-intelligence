@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "da02d26f-230b-5918-b0d7-5c9e1d05148d",
+    "subject": {
+      "id": "6a1108ec-e12f-50e7-8011-79761898069e",
+      "slug": "leopard-imaging",
+      "entity_type": "ORGANIZATION",
+      "name": "Leopard Imaging",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Leopard Imaging role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0c2b79f3-2b27-5ed7-a327-df4c212e8ebe",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Manufactures imaging systems and camera modules for robotics and machine vision.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "cb9f18fc-6b3c-5757-adfc-50024696282f",
+        "url": "https://leopardimaging.com/product-category/accessories/adapters-carrier-boards/for-nvidia-jetson/",
+        "canonical_url": null,
+        "publisher": "Leopard Imaging",
+        "title": "Leopard Imaging — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

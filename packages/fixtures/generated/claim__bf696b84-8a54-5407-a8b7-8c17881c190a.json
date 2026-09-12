@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "bf696b84-8a54-5407-a8b7-8c17881c190a",
+    "subject": {
+      "id": "46a32137-d482-526a-9acd-498b27b72a93",
+      "slug": "schunk",
+      "entity_type": "ORGANIZATION",
+      "name": "Schunk",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Schunk role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ed1d0d6c-9a19-5d90-affa-c89f076b6641",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops robotic grippers, tool changers and force-torque sensors.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "98675d51-fa02-5eb2-923f-f59fb63e9ed3",
+        "url": "https://www.universal-robots.com/marketplace/products/01tP40000071OacIAE/",
+        "canonical_url": null,
+        "publisher": "Schunk",
+        "title": "Schunk — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}
