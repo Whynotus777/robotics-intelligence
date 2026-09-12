@@ -1,0 +1,44 @@
+slug: astribot
+entity_type: ORGANIZATION
+name: Astribot
+short_description: Develops AI-powered robotic assistants with integrated hardware and software.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-575c61f46d4e8c7f
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops AI-powered robotic assistants with integrated hardware and software.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-575c61f46d4e8c7f
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops AI-powered robotic assistants with integrated hardware and software.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: shenzhen
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-575c61f46d4e8c7f
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Astribot is headquartered in Shenzhen.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2022-01-01'
+  valid_from: '2022-01-01'
+  evidence:
+  - source: enrich-575c61f46d4e8c7f
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Astribot was established in 2022 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: CN

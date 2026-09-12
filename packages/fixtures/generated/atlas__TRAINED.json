@@ -4,7 +4,7 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 64
+      "count": 65
     },
     {
       "id": "SUPPLIED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 18
+      "count": 20
     },
     {
       "id": "FUNDED",
@@ -183,6 +183,34 @@
           "roles": [
             "RESEARCH_LAB",
             "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "b96cb701-db1f-5155-9957-25580923965c",
+        "slug": "irvine-us",
+        "entity_type": "PLACE",
+        "name": "Irvine",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 33.66946,
+      "lng": -117.82311,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "2bd3ab4d-c00b-56f8-a1aa-5c4b5546b007",
+          "slug": "fieldai",
+          "entity_type": "ORGANIZATION",
+          "name": "FieldAI",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
           ]
         }
       ],
@@ -365,6 +393,35 @@
     },
     {
       "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 22.54,
+      "lng": 114.06,
+      "country_code": "CN",
+      "cluster_label": "Shenzhen",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "794f4f80-f85e-5519-a62a-111900984b04",
+          "slug": "astribot",
+          "entity_type": "ORGANIZATION",
+          "name": "Astribot",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
         "slug": "sunnyvale-us",
         "entity_type": "PLACE",
@@ -427,8 +484,14 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 13,
-      "places": 6
+      "weight": 14,
+      "places": 7
+    },
+    {
+      "id": "CN",
+      "label": "CN",
+      "weight": 2,
+      "places": 2
     },
     {
       "id": "JP",
@@ -439,12 +502,6 @@
     {
       "id": "CA",
       "label": "CA",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "CN",
-      "label": "CN",
       "weight": 1,
       "places": 1
     },
@@ -495,6 +552,12 @@
     {
       "id": "Shanghai",
       "label": "Shanghai",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Shenzhen",
+      "label": "Shenzhen",
       "weight": 1,
       "places": 1
     },
@@ -722,6 +785,26 @@
     },
     {
       "entity": {
+        "id": "2bd3ab4d-c00b-56f8-a1aa-5c4b5546b007",
+        "slug": "fieldai",
+        "entity_type": "ORGANIZATION",
+        "name": "FieldAI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "b96cb701-db1f-5155-9957-25580923965c",
+        "slug": "irvine-us",
+        "entity_type": "PLACE",
+        "name": "Irvine",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
         "slug": "wayve",
         "entity_type": "ORGANIZATION",
@@ -843,6 +926,27 @@
         "slug": "shanghai",
         "entity_type": "PLACE",
         "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "794f4f80-f85e-5519-a62a-111900984b04",
+        "slug": "astribot",
+        "entity_type": "ORGANIZATION",
+        "name": "Astribot",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
         "primary_embodiment": null,
         "roles": []
       }

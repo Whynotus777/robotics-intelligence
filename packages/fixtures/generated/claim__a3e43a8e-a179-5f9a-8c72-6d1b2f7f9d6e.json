@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "a3e43a8e-a179-5f9a-8c72-6d1b2f7f9d6e",
+    "subject": {
+      "id": "b58bf4bb-31da-5fda-adbe-f03db092e511",
+      "slug": "emerson-collective",
+      "entity_type": "ORGANIZATION",
+      "name": "Emerson Collective",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Emerson Collective role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "af0f4361-28b7-5652-9de9-90164e886adc",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Invests in robotics companies including FieldAI.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "88280926-60e7-56d1-95d2-52efe3c95671",
+        "url": "https://www.fieldai.com/news/fieldai-announces-over-400m-in-funds-raised-to-advance-embodied-ai-at-scale",
+        "canonical_url": null,
+        "publisher": "FieldAI",
+        "title": "FieldAI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

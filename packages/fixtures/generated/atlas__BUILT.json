@@ -4,7 +4,7 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 64
+      "count": 65
     },
     {
       "id": "SUPPLIED",
@@ -24,7 +24,7 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 18
+      "count": 20
     },
     {
       "id": "FUNDED",
@@ -204,6 +204,65 @@
     },
     {
       "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 22.54,
+      "lng": 114.06,
+      "country_code": "CN",
+      "cluster_label": "Shenzhen",
+      "weight": 4,
+      "entities": [
+        {
+          "id": "794f4f80-f85e-5519-a62a-111900984b04",
+          "slug": "astribot",
+          "entity_type": "ORGANIZATION",
+          "name": "Astribot",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        },
+        {
+          "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
+          "slug": "dji",
+          "entity_type": "ORGANIZATION",
+          "name": "DJI",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "593e0170-e678-51f0-8d2f-14e0b1d5e7e2",
+          "slug": "limx-dynamics",
+          "entity_type": "ORGANIZATION",
+          "name": "LimX Dynamics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        },
+        {
+          "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
+          "slug": "ubtech",
+          "entity_type": "ORGANIZATION",
+          "name": "UBTech Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
         "slug": "shanghai",
         "entity_type": "PLACE",
@@ -243,54 +302,6 @@
           "slug": "fourier-intelligence",
           "entity_type": "ORGANIZATION",
           "name": "Fourier Intelligence",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "5386047b-9431-5521-8e28-d5f238524771",
-        "slug": "shenzhen",
-        "entity_type": "PLACE",
-        "name": "Shenzhen",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 22.54,
-      "lng": 114.06,
-      "country_code": "CN",
-      "cluster_label": "Shenzhen",
-      "weight": 3,
-      "entities": [
-        {
-          "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
-          "slug": "dji",
-          "entity_type": "ORGANIZATION",
-          "name": "DJI",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        },
-        {
-          "id": "593e0170-e678-51f0-8d2f-14e0b1d5e7e2",
-          "slug": "limx-dynamics",
-          "entity_type": "ORGANIZATION",
-          "name": "LimX Dynamics",
-          "primary_embodiment": null,
-          "roles": [
-            "OEM"
-          ]
-        },
-        {
-          "id": "e4327ead-89ac-5217-bc1e-3881a5383416",
-          "slug": "ubtech",
-          "entity_type": "ORGANIZATION",
-          "name": "UBTech Robotics",
           "primary_embodiment": null,
           "roles": [
             "OEM"
@@ -1489,7 +1500,7 @@
     {
       "id": "CN",
       "label": "CN",
-      "weight": 10,
+      "weight": 11,
       "places": 4
     },
     {
@@ -1579,14 +1590,14 @@
       "places": 2
     },
     {
-      "id": "Shanghai",
-      "label": "Shanghai",
-      "weight": 3,
+      "id": "Shenzhen",
+      "label": "Shenzhen",
+      "weight": 4,
       "places": 1
     },
     {
-      "id": "Shenzhen",
-      "label": "Shenzhen",
+      "id": "Shanghai",
+      "label": "Shanghai",
       "weight": 3,
       "places": 1
     },
@@ -1998,30 +2009,10 @@
     },
     {
       "entity": {
-        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
-        "slug": "abb-robotics",
+        "id": "794f4f80-f85e-5519-a62a-111900984b04",
+        "slug": "astribot",
         "entity_type": "ORGANIZATION",
-        "name": "ABB Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
-        "entity_type": "PLACE",
-        "name": "Shanghai",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
-        "slug": "agibot",
-        "entity_type": "ORGANIZATION",
-        "name": "AgiBot",
+        "name": "Astribot",
         "primary_embodiment": null,
         "roles": [
           "MODEL_DEVELOPER",
@@ -2029,30 +2020,10 @@
         ]
       },
       "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
         "entity_type": "PLACE",
-        "name": "Shanghai",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
-        "slug": "fourier-intelligence",
-        "entity_type": "ORGANIZATION",
-        "name": "Fourier Intelligence",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
-        "slug": "shanghai",
-        "entity_type": "PLACE",
-        "name": "Shanghai",
+        "name": "Shenzhen",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2113,6 +2084,67 @@
         "slug": "shenzhen",
         "entity_type": "PLACE",
         "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "ce17ede9-6707-5d3f-8004-c81789bd65d2",
+        "slug": "abb-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ABB Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3fd77a9e-4028-5a9c-b4d4-537edcbdd88a",
+        "slug": "agibot",
+        "entity_type": "ORGANIZATION",
+        "name": "AgiBot",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "18b6f653-c80f-5db4-bba1-ee6ded75b7d4",
+        "slug": "fourier-intelligence",
+        "entity_type": "ORGANIZATION",
+        "name": "Fourier Intelligence",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
+        "slug": "shanghai",
+        "entity_type": "PLACE",
+        "name": "Shanghai",
         "primary_embodiment": null,
         "roles": []
       }

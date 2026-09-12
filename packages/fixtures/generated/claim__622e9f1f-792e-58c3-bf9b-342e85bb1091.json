@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "622e9f1f-792e-58c3-bf9b-342e85bb1091",
+    "subject": {
+      "id": "a235ccba-64cc-5c80-ab3e-40a7c7792bc8",
+      "slug": "x-square-robot",
+      "entity_type": "ORGANIZATION",
+      "name": "X Square Robot",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "X Square Robot role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "49c4d401-7dc4-5a45-a752-fbbf6c310c75",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops dexterous robots and generative action models.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "6d9edd51-749a-5841-9837-13c0c2194dca",
+        "url": "https://www.x2robot.com/",
+        "canonical_url": null,
+        "publisher": "X Square Robot",
+        "title": "X Square Robot — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "fa678339-1f62-54fc-b398-784bbab4f8a8",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

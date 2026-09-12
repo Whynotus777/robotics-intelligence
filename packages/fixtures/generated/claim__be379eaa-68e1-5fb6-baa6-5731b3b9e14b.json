@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "be379eaa-68e1-5fb6-baa6-5731b3b9e14b",
+    "subject": {
+      "id": "c003c24d-04e1-5841-903d-4887f13f4bc5",
+      "slug": "dcvc",
+      "entity_type": "ORGANIZATION",
+      "name": "DCVC",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "DCVC role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ca54df58-61b3-53f0-b6fb-90d3215c46b3",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Invests in robotics companies including Agility Robotics.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "60333ee0-7b92-51e3-a38b-fd216d16be7d",
+        "url": "https://www.agilityrobotics.com/content/agility-robotics-raises-150m-series-b-led-by-dcvc-and-playground-global",
+        "canonical_url": null,
+        "publisher": "DCVC",
+        "title": "DCVC — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

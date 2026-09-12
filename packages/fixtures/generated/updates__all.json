@@ -686,6 +686,33 @@
       "origin": "SEED"
     },
     {
+      "id": "1859226a-0819-5884-8e91-43f3452bd6f6",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "18a29658-1e49-52e6-af45-981999addb34",
+        "slug": "intel-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "Intel Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Investor",
+      "origin": "SEED"
+    },
+    {
       "id": "19b88d2f-650b-5a3a-a83b-c44873d78ae1",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1059,6 +1086,61 @@
       "origin": "SEED"
     },
     {
+      "id": "23308ccb-2973-5d68-894a-7a8e56df0e10",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "dbd646ab-2676-5647-ae48-6511c3043dad",
+        "slug": "neuracore",
+        "entity_type": "ORGANIZATION",
+        "name": "Neuracore",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Tooling and operations provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "24cce476-4ef1-5c73-a796-3295d2b31521",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "7f616f3c-d05b-587c-a4c6-346f5d019c73",
+        "slug": "eclipse-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "Eclipse Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "INVESTOR"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Investor",
+      "origin": "SEED"
+    },
+    {
       "id": "251c1268-ad69-5208-bd47-1c06c85fdcc2",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1121,6 +1203,34 @@
       "origin": "SEED"
     },
     {
+      "id": "28b53181-bee0-5a6c-b7ad-94686a83bbda",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+        "slug": "genesis-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Genesis AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Model developer",
+      "origin": "SEED"
+    },
+    {
       "id": "2945ee5b-bcd9-54c0-bf94-86d840f01b0d",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1153,6 +1263,34 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Headquartered at Sunnyvale",
+      "origin": "SEED"
+    },
+    {
+      "id": "2a6dba03-7d01-5460-962b-ecc7771cd9d2",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+        "slug": "genesis-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Genesis AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Research lab",
       "origin": "SEED"
     },
     {
@@ -1289,159 +1427,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Tooling and operations provider",
-      "origin": "SEED"
-    },
-    {
-      "id": "2f7510de-1361-5f92-a92f-e4b406c5f529",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "2a4815f5-ec84-58f0-90b8-12f0d1220b4e",
-        "slug": "ambi-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "Ambi Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "155766f1-647e-5944-96e4-4fd148fb09d2",
-          "slug": "berkeley-us",
-          "entity_type": "PLACE",
-          "name": "Berkeley",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Berkeley",
-      "origin": "SEED"
-    },
-    {
-      "id": "30632ca0-4c77-57ba-88a4-049b5980b138",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
-        "slug": "mitsubishi-electric",
-        "entity_type": "ORGANIZATION",
-        "name": "Mitsubishi Electric",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-          "slug": "tokyo",
-          "entity_type": "PLACE",
-          "name": "Tokyo",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "THIRD_PARTY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Tokyo",
-      "origin": "SEED"
-    },
-    {
-      "id": "30895a38-ec1f-5622-a80f-09b4af89c223",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "30c33b1a-f72d-52cf-a8f4-7497bb3e5809",
-        "slug": "starship-technologies",
-        "entity_type": "ORGANIZATION",
-        "name": "Starship Technologies",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM",
-          "OPERATOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "318c32ac-b99a-545c-bc18-09fc50300c8e",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "f71a4038-da7c-5fa7-93fc-d76c372def22",
-        "slug": "may-mobility",
-        "entity_type": "ORGANIZATION",
-        "name": "May Mobility",
-        "primary_embodiment": null,
-        "roles": [
-          "OPERATOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OPERATOR"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Operator",
-      "origin": "SEED"
-    },
-    {
-      "id": "31ed2323-f477-5917-af80-a988066e5364",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "698e5de5-1374-5cd4-bfe9-ed825b2069a6",
-        "slug": "ssi-schaefer",
-        "entity_type": "ORGANIZATION",
-        "name": "SSI Schaefer",
-        "primary_embodiment": null,
-        "roles": [
-          "INTEGRATOR",
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
       "origin": "SEED"
     }
   ]

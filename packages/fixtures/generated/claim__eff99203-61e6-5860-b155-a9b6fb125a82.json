@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "eff99203-61e6-5860-b155-a9b6fb125a82",
+    "subject": {
+      "id": "427af318-31b9-5b16-86ea-d97fb6b45826",
+      "slug": "tencent-robotics-x",
+      "entity_type": "ORGANIZATION",
+      "name": "Tencent Robotics X",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Tencent Robotics X role RESEARCH_LAB",
+    "value": {
+      "kind": "enum",
+      "value": "RESEARCH_LAB"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "12a0efb9-2155-54d8-b76b-9894bb6d54f7",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Researches embodied intelligence and robotic perception, decision-making and control.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a51ed37c-1b26-54ef-affa-4b351983a086",
+        "url": "https://www.tencent.com/tencent-unveils-full-stack-embodied-intelligence-solution-at-waic-2026/",
+        "canonical_url": null,
+        "publisher": "Tencent",
+        "title": "Tencent — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "8c057179-b7d2-5fad-9e4d-8c759e5be2b8",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "1c3cf638-5087-5b25-bb26-285a1877541f",
+    "subject": {
+      "id": "554db289-7174-5ac8-8697-2b498ab0dd9b",
+      "slug": "tencent",
+      "entity_type": "ORGANIZATION",
+      "name": "Tencent",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Tencent role TOOLING_OPS_PROVIDER",
+    "value": {
+      "kind": "enum",
+      "value": "TOOLING_OPS_PROVIDER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9d551b25-a826-51b4-81f9-5d54e047abbf",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops embodied AI models and development platforms for robot intelligence.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a51ed37c-1b26-54ef-affa-4b351983a086",
+        "url": "https://www.tencent.com/tencent-unveils-full-stack-embodied-intelligence-solution-at-waic-2026/",
+        "canonical_url": null,
+        "publisher": "Tencent",
+        "title": "Tencent — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "daef678b-af42-547f-83ee-475fd411bf06",
+      "value": {
+        "kind": "enum",
+        "value": "MODEL_DEVELOPER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

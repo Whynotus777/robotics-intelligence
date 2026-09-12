@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "ed27ff8d-ac4a-5b44-bc14-db55e4fbf7da",
+    "subject": {
+      "id": "102a373b-d234-5888-a527-c2d4729551be",
+      "slug": "brookfield-asset-management",
+      "entity_type": "ORGANIZATION",
+      "name": "Brookfield Asset Management",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Brookfield Asset Management role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b67b3780-1032-5298-87a1-e95a47b8cc13",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Invests in robotics companies including Figure AI.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1c61fce4-8274-50d5-b016-bcc9e19b5de8",
+        "url": "https://www.figure.ai/news/series-c",
+        "canonical_url": null,
+        "publisher": "LG Technology Ventures",
+        "title": "LG Technology Ventures — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

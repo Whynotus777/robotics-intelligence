@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "dd067d8d-c0e1-58a3-a2c2-337874d8e564",
+    "subject": {
+      "id": "698b16a9-4ca1-5f12-9b07-f0b5d0e0c6f6",
+      "slug": "mimic-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "mimic robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "mimic robotics role MODEL_DEVELOPER",
+    "value": {
+      "kind": "enum",
+      "value": "MODEL_DEVELOPER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "0afb0440-522b-5810-b555-3a3df510470e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops robots powered by video-action models for industrial manipulation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ea34e65f-b6e2-5441-9b89-3d50e16a0ab9",
+        "url": "https://www.mimicrobotics.com/",
+        "canonical_url": null,
+        "publisher": "mimic robotics",
+        "title": "mimic robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "f15e2062-62d5-5b32-80c2-cb07748aa019",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

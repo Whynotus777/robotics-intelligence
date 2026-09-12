@@ -1,0 +1,25 @@
+slug: fieldai
+entity_type: ORGANIZATION
+name: FieldAI
+short_description: Develops risk-aware foundation models for autonomous robot operation.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-51ce1e151d0b9865
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Develops risk-aware foundation models for autonomous robot operation.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: irvine-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-51ce1e151d0b9865
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: FieldAI is headquartered in Irvine.
+    observed_at: '2026-09-11'
+country_code: US

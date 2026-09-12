@@ -1,0 +1,25 @@
+slug: neuracore
+entity_type: ORGANIZATION
+name: Neuracore
+short_description: Provides infrastructure for robot data collection, training and deployment.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: TOOLING_OPS_PROVIDER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-5ab38eb6007cb918
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Provides infrastructure for robot data collection, training and deployment.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: DATA_SIMULATION_PROVIDER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-5ab38eb6007cb918
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Provides infrastructure for robot data collection, training and deployment.
+    observed_at: '2026-09-11'
+country_code: GB

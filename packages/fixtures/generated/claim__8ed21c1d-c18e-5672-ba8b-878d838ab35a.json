@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "8ed21c1d-c18e-5672-ba8b-878d838ab35a",
+    "subject": {
+      "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+      "slug": "genesis-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Genesis AI",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Genesis AI role MODEL_DEVELOPER",
+    "value": {
+      "kind": "enum",
+      "value": "MODEL_DEVELOPER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f4510650-f85e-50e7-8a8e-cccf4b587e11",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops general-purpose robotics foundation models and simulation infrastructure.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "490360cc-7482-5fec-9aa3-23f4dcdf8344",
+        "url": "https://www.prnewswire.com/news-releases/genesis-ai-emerges-from-stealth-with-105m-to-build-universal-robotics-foundation-model-and-horizontal-platform-for-general-purpose-physical-ai-302495016.html",
+        "canonical_url": null,
+        "publisher": "Genesis AI",
+        "title": "Genesis AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "94b9c1a9-391a-59fc-b657-1694424c6490",
+      "value": {
+        "kind": "enum",
+        "value": "RESEARCH_LAB"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

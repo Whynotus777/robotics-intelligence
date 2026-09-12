@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "549e0ec3-2c28-55ff-90d5-45ac62329dbd",
+    "subject": {
+      "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
+      "slug": "baidu",
+      "entity_type": "ORGANIZATION",
+      "name": "Baidu",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Baidu role MODEL_DEVELOPER",
+    "value": {
+      "kind": "enum",
+      "value": "MODEL_DEVELOPER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9e50c2c3-b815-57fc-a198-fcf7086d8814",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops Apollo autonomous driving software and robotaxi technology.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "06b6aad2-219b-5ba3-affd-ae71364f693d",
+        "url": "https://apollo.auto/",
+        "canonical_url": null,
+        "publisher": "Baidu",
+        "title": "Baidu — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "082d0e72-2820-5d87-8f89-1e6054d3d407",
+      "value": {
+        "kind": "enum",
+        "value": "TOOLING_OPS_PROVIDER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}
