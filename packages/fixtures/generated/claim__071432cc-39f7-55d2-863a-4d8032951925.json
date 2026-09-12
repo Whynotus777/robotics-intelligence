@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "071432cc-39f7-55d2-863a-4d8032951925",
+    "subject": {
+      "id": "b08462e9-bff0-5079-952f-88afbacb9257",
+      "slug": "kinco-automation",
+      "entity_type": "ORGANIZATION",
+      "name": "Kinco Automation",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Kinco Automation role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "462f67c6-f245-500f-882d-338082f28ff8",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Supplies servo drives and control components for industrial and mobile robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "787a149e-58bd-5dd2-87c7-c244b45f2246",
+        "url": "https://en.kinco.cn/",
+        "canonical_url": null,
+        "publisher": "Kinco Automation",
+        "title": "Kinco Automation — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

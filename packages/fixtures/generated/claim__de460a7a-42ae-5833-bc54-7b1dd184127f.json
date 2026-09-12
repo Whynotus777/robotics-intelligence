@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "de460a7a-42ae-5833-bc54-7b1dd184127f",
+    "subject": {
+      "id": "20c927ab-bde5-5968-9b25-f9993eff45ce",
+      "slug": "renishaw",
+      "entity_type": "ORGANIZATION",
+      "name": "Renishaw",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Renishaw role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e1d90c88-00bb-50ff-8f13-35cb8a5f7f8c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Manufactures precision encoders for robotic positioning and motion feedback.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "0880abfa-c25d-5cc9-8bd5-3f3ea3de4d0b",
+        "url": "https://info.renishaw.com/Encoders-Robotics",
+        "canonical_url": null,
+        "publisher": "Renishaw",
+        "title": "Renishaw — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "000f0854-f77f-562c-ab86-4607e0b43b93",
+    "subject": {
+      "id": "62db8a22-e468-572f-9089-fb55527c5001",
+      "slug": "zhaowei-machinery-electronics",
+      "entity_type": "ORGANIZATION",
+      "name": "Zhaowei Machinery & Electronics",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Zhaowei Machinery & Electronics role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "cd5b52d1-4a7f-547f-a1a2-93674694e7b5",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops micro-drives and actuator joints for robotics.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "f9334934-0fcc-515e-9275-27b98d2bb6cc",
+        "url": "https://www.zwgearbox.com/",
+        "canonical_url": null,
+        "publisher": "Zhaowei Machinery & Electronics",
+        "title": "Zhaowei Machinery & Electronics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

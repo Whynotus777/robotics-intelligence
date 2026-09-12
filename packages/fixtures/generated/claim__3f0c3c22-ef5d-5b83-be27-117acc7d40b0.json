@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3f0c3c22-ef5d-5b83-be27-117acc7d40b0",
+    "subject": {
+      "id": "7b670695-87ca-5512-b3bd-48a50c16567f",
+      "slug": "iko-nippon-thompson",
+      "entity_type": "ORGANIZATION",
+      "name": "IKO (Nippon Thompson)",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "IKO (Nippon Thompson) role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b6fc771e-078d-5ddb-a401-ab55b4faf0b0",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Manufactures bearings and linear-motion components for industrial automation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "fd989516-85cd-5e32-8a53-87b786778b1d",
+        "url": "https://ikont.com/rotary-bearings/crossed-roller-bearings/",
+        "canonical_url": null,
+        "publisher": "IKO (Nippon Thompson)",
+        "title": "IKO (Nippon Thompson) — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

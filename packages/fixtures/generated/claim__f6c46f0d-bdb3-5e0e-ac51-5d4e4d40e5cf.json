@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "f6c46f0d-bdb3-5e0e-ac51-5d4e4d40e5cf",
+    "subject": {
+      "id": "738faacd-b6ff-50f9-8ee9-e116282284dc",
+      "slug": "shenzhen-inovance-technology",
+      "entity_type": "ORGANIZATION",
+      "name": "Shenzhen Inovance Technology",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Shenzhen Inovance Technology role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "55286396-ee77-5b02-94f7-131db0ae3f6d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops robot components and industrial robot automation systems.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "08e31d9d-1eec-5868-b3d5-e27c5e0431a9",
+        "url": "https://www.inovance.com/global/",
+        "canonical_url": null,
+        "publisher": "Shenzhen Inovance Technology",
+        "title": "Shenzhen Inovance Technology — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "c0a92aad-498f-5879-9387-ce763688eb6b",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

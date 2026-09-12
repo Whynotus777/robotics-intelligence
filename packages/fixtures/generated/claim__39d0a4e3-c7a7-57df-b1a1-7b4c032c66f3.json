@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "39d0a4e3-c7a7-57df-b1a1-7b4c032c66f3",
+    "subject": {
+      "id": "8e0f3289-5439-56c2-a553-f99e5fe53c2f",
+      "slug": "cubemars",
+      "entity_type": "ORGANIZATION",
+      "name": "CubeMars",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "CubeMars role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "666cbf8a-5fa2-51fa-a782-932f6f588abb",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Manufactures compact actuators and motors for humanoid and quadruped robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "244860ea-3acf-5358-bc80-ac864f2b7eea",
+        "url": "https://www.cubemars.com/qdd-motors-for-humanoid-and-quadruped-robots.html",
+        "canonical_url": null,
+        "publisher": "CubeMars",
+        "title": "CubeMars — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

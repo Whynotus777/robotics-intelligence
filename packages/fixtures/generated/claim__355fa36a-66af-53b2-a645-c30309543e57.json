@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "355fa36a-66af-53b2-a645-c30309543e57",
+    "subject": {
+      "id": "326f3ed5-74c7-547b-bd9e-c90c8f6c504d",
+      "slug": "hiwin",
+      "entity_type": "ORGANIZATION",
+      "name": "HIWIN",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "HIWIN role COMPONENT_SUPPLIER",
+    "value": {
+      "kind": "enum",
+      "value": "COMPONENT_SUPPLIER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9a0415e0-77a3-53e1-8adc-d326e3204758",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Manufactures motion components and robotic systems for industrial automation.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "9cec94da-2bab-568e-8039-f50eef647b5e",
+        "url": "https://www.hiwin.tw/",
+        "canonical_url": null,
+        "publisher": "HIWIN",
+        "title": "HIWIN — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "9effcd2c-5d7b-57a8-9791-0cd23c2a95e6",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

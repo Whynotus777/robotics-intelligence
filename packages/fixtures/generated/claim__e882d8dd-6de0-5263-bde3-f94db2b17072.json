@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "e882d8dd-6de0-5263-bde3-f94db2b17072",
+    "subject": {
+      "id": "aa2ab01e-8da3-5366-b186-9cfb0563b3c5",
+      "slug": "realman-robotics",
+      "entity_type": "ORGANIZATION",
+      "name": "Realman Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Realman Robotics role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9588fc22-9988-55ec-a29a-de9738e9a6af",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops robotic arms, integrated joints and teleoperation systems.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "09f1cb27-e771-5f05-900d-238d8c9bc8fe",
+        "url": "https://www.realman-robotics.com/",
+        "canonical_url": null,
+        "publisher": "Realman Robotics",
+        "title": "Realman Robotics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "3c26590c-7aff-5667-98a8-a3759346849e",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

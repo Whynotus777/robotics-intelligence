@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "4b902201-d94c-5b6f-a92b-47134e61bc34",
+    "subject": {
+      "id": "5ab75844-f671-58bd-bd84-107cadf1cd6e",
+      "slug": "robotis",
+      "entity_type": "ORGANIZATION",
+      "name": "ROBOTIS",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "ROBOTIS role OEM",
+    "value": {
+      "kind": "enum",
+      "value": "OEM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6d08d30e-14e1-54e6-bba3-736edd7fa223",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Develops DYNAMIXEL actuators and robotic hardware.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "eba70ffe-fa53-5c07-9e05-ac412b5d379b",
+        "url": "https://www.robotis.com/en/product/dynamixel-q.php",
+        "canonical_url": null,
+        "publisher": "ROBOTIS",
+        "title": "ROBOTIS — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "00008613-863a-54da-84e1-04cd8c8db557",
+      "value": {
+        "kind": "enum",
+        "value": "COMPONENT_SUPPLIER"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}
