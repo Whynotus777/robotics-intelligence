@@ -64,6 +64,32 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "HAS_TICKER",
+      "label": "stock ticker",
+      "claims": [
+        {
+          "claim_id": "a5ef3558-e681-5db1-86b8-fa40043affd5",
+          "predicate": "HAS_TICKER",
+          "value": {
+            "kind": "text",
+            "text": "SIX:ABBN"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "relationships": [
@@ -318,16 +344,16 @@
     "evidence_summary": {
       "by_class": {
         "PRIMARY": 7,
-        "THIRD_PARTY": 0,
+        "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 7,
+      "claim_count": 8,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 7,
+    "recent_change_count": 8,
     "deployment_count": 0,
     "related_count": 8
   },

@@ -92,27 +92,91 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "HAS_TICKER",
+      "label": "stock ticker",
+      "claims": [
+        {
+          "claim_id": "52bea6c0-f377-5c96-966e-b5648159d6a1",
+          "predicate": "HAS_TICKER",
+          "value": {
+            "kind": "text",
+            "text": "NASDAQ:NXPI"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "fad36a7f-75c8-5025-b3d6-2247b98e3413",
+          "target": {
+            "id": "1dbb7728-7e5d-5b1e-9dc1-3949c65cbddc",
+            "slug": "eindhoven-nl",
+            "entity_type": "PLACE",
+            "name": "Eindhoven",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "places": [
+      {
+        "id": "1dbb7728-7e5d-5b1e-9dc1-3949c65cbddc",
+        "slug": "eindhoven-nl",
+        "entity_type": "PLACE",
+        "name": "Eindhoven",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
         "PRIMARY": 2,
-        "THIRD_PARTY": 0,
+        "THIRD_PARTY": 2,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

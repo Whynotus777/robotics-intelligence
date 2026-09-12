@@ -126,6 +126,28 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "fdcac00c-ea03-51f5-869c-cb0eb6f722ee",
+          "source": {
+            "id": "d3072c19-dd4c-5474-9c7a-0705fd860b8f",
+            "slug": "canonical",
+            "entity_type": "ORGANIZATION",
+            "name": "Canonical",
+            "primary_embodiment": null,
+            "roles": [
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -150,6 +172,16 @@
         "primary_embodiment": null,
         "roles": [
           "OEM"
+        ]
+      },
+      {
+        "id": "d3072c19-dd4c-5474-9c7a-0705fd860b8f",
+        "slug": "canonical",
+        "entity_type": "ORGANIZATION",
+        "name": "Canonical",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
         ]
       },
       {
@@ -190,7 +222,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 4
+    "related_count": 5
   },
   "as_of": null
 }

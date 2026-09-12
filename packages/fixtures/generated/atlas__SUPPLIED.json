@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 91
+      "count": 92
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 21
+      "count": 37
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 1
+      "count": 2
     },
     {
       "id": "DEPLOYED",
@@ -51,13 +51,23 @@
       "lng": 114.06,
       "country_code": "CN",
       "cluster_label": "Shenzhen",
-      "weight": 4,
+      "weight": 5,
       "entities": [
         {
           "id": "95a54839-94ba-5a13-b8b6-068db4841677",
           "slug": "leadshine-technology",
           "entity_type": "ORGANIZATION",
           "name": "Leadshine Technology",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "9bb4d4cf-d27a-5183-91f4-eb34797dc4b8",
+          "slug": "orbbec",
+          "entity_type": "ORGANIZATION",
+          "name": "Orbbec",
           "primary_embodiment": null,
           "roles": [
             "COMPONENT_SUPPLIER"
@@ -164,7 +174,7 @@
       "lng": 139.69,
       "country_code": "JP",
       "cluster_label": "Tokyo",
-      "weight": 2,
+      "weight": 3,
       "entities": [
         {
           "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
@@ -183,6 +193,57 @@
           "name": "Nabtesco",
           "primary_embodiment": null,
           "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
+          "slug": "renesas-electronics",
+          "entity_type": "ORGANIZATION",
+          "name": "Renesas Electronics",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "84146879-d20b-58d2-80f9-1d4b15681830",
+        "slug": "santa-clara-us",
+        "entity_type": "PLACE",
+        "name": "Santa Clara",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.35411,
+      "lng": -121.95524,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "88d24707-5d8c-5b63-9203-85c816dd2667",
+          "slug": "ambarella",
+          "entity_type": "ORGANIZATION",
+          "name": "Ambarella",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "284bf379-4102-5614-b60e-39fccb64d568",
+          "slug": "amd",
+          "entity_type": "ORGANIZATION",
+          "name": "AMD",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
             "COMPONENT_SUPPLIER"
           ]
         }
@@ -219,6 +280,121 @@
     },
     {
       "place": {
+        "id": "a277734b-0f48-5ba0-beeb-0d8d5f4109e6",
+        "slug": "chandler-us",
+        "entity_type": "PLACE",
+        "name": "Chandler",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 33.30616,
+      "lng": -111.84125,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "169faf4b-e60c-53d6-a3c6-09ca2fe3d03a",
+          "slug": "microchip-technology",
+          "entity_type": "ORGANIZATION",
+          "name": "Microchip Technology",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "6ec568c7-4fcc-5c90-906f-6f210bee396a",
+        "slug": "dallas-us",
+        "entity_type": "PLACE",
+        "name": "Dallas",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 32.78306,
+      "lng": -96.80667,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "9c5dab7d-8aec-5778-973f-5b6c309f86cf",
+          "slug": "texas-instruments",
+          "entity_type": "ORGANIZATION",
+          "name": "Texas Instruments",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "1dbb7728-7e5d-5b1e-9dc1-3949c65cbddc",
+        "slug": "eindhoven-nl",
+        "entity_type": "PLACE",
+        "name": "Eindhoven",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 51.44083,
+      "lng": 5.47778,
+      "country_code": "NL",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "abc8e142-ca16-50e2-ace3-f3ce803a04cd",
+          "slug": "nxp-semiconductors",
+          "entity_type": "ORGANIZATION",
+          "name": "NXP Semiconductors",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "2318b60e-5190-56fe-9080-ac91f1247ce2",
+        "slug": "glatten-de",
+        "entity_type": "PLACE",
+        "name": "Glatten",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.44246,
+      "lng": 8.51116,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "313ab662-5d43-58ad-8ee8-c8400764ab43",
+          "slug": "j-schmalz",
+          "entity_type": "ORGANIZATION",
+          "name": "J. Schmalz",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c5da4207-66e6-58af-b465-9432764e2a62",
         "slug": "hangzhou",
         "entity_type": "PLACE",
@@ -241,6 +417,34 @@
           "roles": [
             "COMPONENT_SUPPLIER",
             "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "9b56bfd7-a991-50d6-b8c9-ff02aaaeeb70",
+        "slug": "horn-at",
+        "entity_type": "PLACE",
+        "name": "Horn",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.66274,
+      "lng": 15.65663,
+      "country_code": "AT",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "bd434c51-7b13-5b01-b5bc-e2e532bf4c02",
+          "slug": "riegl-laser-measurement-systems",
+          "entity_type": "ORGANIZATION",
+          "name": "RIEGL Laser Measurement Systems",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
           ]
         }
       ],
@@ -334,6 +538,119 @@
     },
     {
       "place": {
+        "id": "edcb1cce-b03d-53af-8f37-0f4a47f75803",
+        "slug": "lake-mary-us",
+        "entity_type": "PLACE",
+        "name": "Lake Mary",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 28.75888,
+      "lng": -81.31784,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "ebe5ee76-32df-52b0-b003-94b8fdb3ef66",
+          "slug": "faro-technologies",
+          "entity_type": "ORGANIZATION",
+          "name": "FARO Technologies",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "01ebd1fe-6a44-5e42-8016-9f2a6b80fa6b",
+        "slug": "lauffen-am-neckar-de",
+        "entity_type": "PLACE",
+        "name": "Lauffen am Neckar",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 49.0734,
+      "lng": 9.14567,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "46a32137-d482-526a-9acd-498b27b72a93",
+          "slug": "schunk",
+          "entity_type": "ORGANIZATION",
+          "name": "Schunk",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "9a2068ef-8719-52a6-92d8-6df8a0245198",
+        "slug": "levis-ca",
+        "entity_type": "PLACE",
+        "name": "Levis",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 46.80326,
+      "lng": -71.17793,
+      "country_code": "CA",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "0823cbc0-498c-5872-aa5d-0ba8e248f97d",
+          "slug": "robotiq",
+          "entity_type": "ORGANIZATION",
+          "name": "Robotiq",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "8d1bf8dd-0d56-5553-8299-b0150a1279b7",
+        "slug": "neubiberg-de",
+        "entity_type": "PLACE",
+        "name": "Neubiberg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.0771,
+      "lng": 11.65812,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "922ff18f-2b5a-52f7-a043-353871daf12e",
+          "slug": "infineon-technologies",
+          "entity_type": "ORGANIZATION",
+          "name": "Infineon Technologies",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "662eec02-fb9b-5433-bc3b-81cb880c63cb",
         "slug": "presov-sk",
         "entity_type": "PLACE",
@@ -419,6 +736,35 @@
     },
     {
       "place": {
+        "id": "80dbec07-b166-5d2a-b5d1-4ba3fa6a1bf5",
+        "slug": "scottsdale-us",
+        "entity_type": "PLACE",
+        "name": "Scottsdale",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 33.50921,
+      "lng": -111.89903,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "b0decc51-896e-5260-b673-b52e4664341c",
+          "slug": "onsemi",
+          "entity_type": "ORGANIZATION",
+          "name": "onsemi",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c28a5fe0-2d9d-5934-ba64-48897a5c077c",
         "slug": "shanghai",
         "entity_type": "PLACE",
@@ -471,6 +817,35 @@
             "COMPONENT_SUPPLIER",
             "INVESTOR",
             "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "7a764593-674e-587e-9afa-ef2ef8f137fd",
+        "slug": "taichung-tw",
+        "entity_type": "PLACE",
+        "name": "Taichung",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 24.1469,
+      "lng": 120.6839,
+      "country_code": "TW",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "326f3ed5-74c7-547b-bd9e-c90c8f6c504d",
+          "slug": "hiwin",
+          "entity_type": "ORGANIZATION",
+          "name": "HIWIN",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "OEM"
           ]
         }
       ],
@@ -532,32 +907,78 @@
         }
       ],
       "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "8e2683f9-6416-5084-b9e3-004043ea0091",
+        "slug": "westminster-us",
+        "entity_type": "PLACE",
+        "name": "Westminster",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 39.83665,
+      "lng": -105.0372,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "77660ef8-6e1a-5dab-8ae7-62729288d803",
+          "slug": "trimble",
+          "entity_type": "ORGANIZATION",
+          "name": "Trimble",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
     }
   ],
   "countries": [
     {
-      "id": "CN",
-      "label": "CN",
-      "weight": 6,
-      "places": 3
-    },
-    {
       "id": "US",
       "label": "US",
-      "weight": 5,
-      "places": 3
+      "weight": 12,
+      "places": 9
     },
     {
-      "id": "JP",
-      "label": "JP",
-      "weight": 4,
+      "id": "CN",
+      "label": "CN",
+      "weight": 7,
       "places": 3
     },
     {
       "id": "DE",
       "label": "DE",
+      "weight": 5,
+      "places": 5
+    },
+    {
+      "id": "JP",
+      "label": "JP",
+      "weight": 5,
+      "places": 3
+    },
+    {
+      "id": "NL",
+      "label": "NL",
       "weight": 2,
       "places": 2
+    },
+    {
+      "id": "AT",
+      "label": "AT",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "CA",
+      "label": "CA",
+      "weight": 1,
+      "places": 1
     },
     {
       "id": "CH",
@@ -572,14 +993,14 @@
       "places": 1
     },
     {
-      "id": "NL",
-      "label": "NL",
+      "id": "SK",
+      "label": "SK",
       "weight": 1,
       "places": 1
     },
     {
-      "id": "SK",
-      "label": "SK",
+      "id": "TW",
+      "label": "TW",
       "weight": 1,
       "places": 1
     }
@@ -588,7 +1009,7 @@
     {
       "id": "Shenzhen",
       "label": "Shenzhen",
-      "weight": 4,
+      "weight": 5,
       "places": 1
     },
     {
@@ -600,7 +1021,7 @@
     {
       "id": "Tokyo",
       "label": "Tokyo",
-      "weight": 2,
+      "weight": 3,
       "places": 1
     },
     {
@@ -647,6 +1068,26 @@
         "slug": "leadshine-technology",
         "entity_type": "ORGANIZATION",
         "name": "Leadshine Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9bb4d4cf-d27a-5183-91f4-eb34797dc4b8",
+        "slug": "orbbec",
+        "entity_type": "ORGANIZATION",
+        "name": "Orbbec",
         "primary_embodiment": null,
         "roles": [
           "COMPONENT_SUPPLIER"
@@ -830,6 +1271,69 @@
     },
     {
       "entity": {
+        "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
+        "slug": "renesas-electronics",
+        "entity_type": "ORGANIZATION",
+        "name": "Renesas Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "88d24707-5d8c-5b63-9203-85c816dd2667",
+        "slug": "ambarella",
+        "entity_type": "ORGANIZATION",
+        "name": "Ambarella",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "84146879-d20b-58d2-80f9-1d4b15681830",
+        "slug": "santa-clara-us",
+        "entity_type": "PLACE",
+        "name": "Santa Clara",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "284bf379-4102-5614-b60e-39fccb64d568",
+        "slug": "amd",
+        "entity_type": "ORGANIZATION",
+        "name": "AMD",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "84146879-d20b-58d2-80f9-1d4b15681830",
+        "slug": "santa-clara-us",
+        "entity_type": "PLACE",
+        "name": "Santa Clara",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "656b2e7b-afdc-5adf-b754-602ed71f4679",
         "slug": "tecnotion",
         "entity_type": "ORGANIZATION",
@@ -844,6 +1348,89 @@
         "slug": "almelo-nl",
         "entity_type": "PLACE",
         "name": "Almelo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "169faf4b-e60c-53d6-a3c6-09ca2fe3d03a",
+        "slug": "microchip-technology",
+        "entity_type": "ORGANIZATION",
+        "name": "Microchip Technology",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "a277734b-0f48-5ba0-beeb-0d8d5f4109e6",
+        "slug": "chandler-us",
+        "entity_type": "PLACE",
+        "name": "Chandler",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9c5dab7d-8aec-5778-973f-5b6c309f86cf",
+        "slug": "texas-instruments",
+        "entity_type": "ORGANIZATION",
+        "name": "Texas Instruments",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "6ec568c7-4fcc-5c90-906f-6f210bee396a",
+        "slug": "dallas-us",
+        "entity_type": "PLACE",
+        "name": "Dallas",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "abc8e142-ca16-50e2-ace3-f3ce803a04cd",
+        "slug": "nxp-semiconductors",
+        "entity_type": "ORGANIZATION",
+        "name": "NXP Semiconductors",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "1dbb7728-7e5d-5b1e-9dc1-3949c65cbddc",
+        "slug": "eindhoven-nl",
+        "entity_type": "PLACE",
+        "name": "Eindhoven",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "313ab662-5d43-58ad-8ee8-c8400764ab43",
+        "slug": "j-schmalz",
+        "entity_type": "ORGANIZATION",
+        "name": "J. Schmalz",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "2318b60e-5190-56fe-9080-ac91f1247ce2",
+        "slug": "glatten-de",
+        "entity_type": "PLACE",
+        "name": "Glatten",
         "primary_embodiment": null,
         "roles": []
       }
@@ -865,6 +1452,26 @@
         "slug": "hangzhou",
         "entity_type": "PLACE",
         "name": "Hangzhou",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "bd434c51-7b13-5b01-b5bc-e2e532bf4c02",
+        "slug": "riegl-laser-measurement-systems",
+        "entity_type": "ORGANIZATION",
+        "name": "RIEGL Laser Measurement Systems",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "9b56bfd7-a991-50d6-b8c9-ff02aaaeeb70",
+        "slug": "horn-at",
+        "entity_type": "PLACE",
+        "name": "Horn",
         "primary_embodiment": null,
         "roles": []
       }
@@ -933,6 +1540,87 @@
     },
     {
       "entity": {
+        "id": "ebe5ee76-32df-52b0-b003-94b8fdb3ef66",
+        "slug": "faro-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "FARO Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "edcb1cce-b03d-53af-8f37-0f4a47f75803",
+        "slug": "lake-mary-us",
+        "entity_type": "PLACE",
+        "name": "Lake Mary",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "46a32137-d482-526a-9acd-498b27b72a93",
+        "slug": "schunk",
+        "entity_type": "ORGANIZATION",
+        "name": "Schunk",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "01ebd1fe-6a44-5e42-8016-9f2a6b80fa6b",
+        "slug": "lauffen-am-neckar-de",
+        "entity_type": "PLACE",
+        "name": "Lauffen am Neckar",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "0823cbc0-498c-5872-aa5d-0ba8e248f97d",
+        "slug": "robotiq",
+        "entity_type": "ORGANIZATION",
+        "name": "Robotiq",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "9a2068ef-8719-52a6-92d8-6df8a0245198",
+        "slug": "levis-ca",
+        "entity_type": "PLACE",
+        "name": "Levis",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "922ff18f-2b5a-52f7-a043-353871daf12e",
+        "slug": "infineon-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "Infineon Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "8d1bf8dd-0d56-5553-8299-b0150a1279b7",
+        "slug": "neubiberg-de",
+        "entity_type": "PLACE",
+        "name": "Neubiberg",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "1b15c81b-c10b-52aa-8ae2-75c1d9da3083",
         "slug": "spinea",
         "entity_type": "ORGANIZATION",
@@ -994,6 +1682,27 @@
     },
     {
       "entity": {
+        "id": "b0decc51-896e-5260-b673-b52e4664341c",
+        "slug": "onsemi",
+        "entity_type": "ORGANIZATION",
+        "name": "onsemi",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "80dbec07-b166-5d2a-b5d1-4ba3fa6a1bf5",
+        "slug": "scottsdale-us",
+        "entity_type": "PLACE",
+        "name": "Scottsdale",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "634f0531-a0d7-5d56-b836-691d66886e2a",
         "slug": "hesai",
         "entity_type": "ORGANIZATION",
@@ -1037,6 +1746,27 @@
     },
     {
       "entity": {
+        "id": "326f3ed5-74c7-547b-bd9e-c90c8f6c504d",
+        "slug": "hiwin",
+        "entity_type": "ORGANIZATION",
+        "name": "HIWIN",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "7a764593-674e-587e-9afa-ef2ef8f137fd",
+        "slug": "taichung-tw",
+        "entity_type": "PLACE",
+        "name": "Taichung",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "b4c8d070-a234-5efe-bbb5-cd45f66692ef",
         "slug": "blue-robotics",
         "entity_type": "ORGANIZATION",
@@ -1072,6 +1802,26 @@
         "slug": "traunreut-de",
         "entity_type": "PLACE",
         "name": "Traunreut",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "77660ef8-6e1a-5dab-8ae7-62729288d803",
+        "slug": "trimble",
+        "entity_type": "ORGANIZATION",
+        "name": "Trimble",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "8e2683f9-6416-5084-b9e3-004043ea0091",
+        "slug": "westminster-us",
+        "entity_type": "PLACE",
+        "name": "Westminster",
         "primary_embodiment": null,
         "roles": []
       }

@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 91
+      "count": 92
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 21
+      "count": 37
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 1
+      "count": 2
     },
     {
       "id": "DEPLOYED",
@@ -1915,6 +1915,35 @@
     },
     {
       "place": {
+        "id": "7a764593-674e-587e-9afa-ef2ef8f137fd",
+        "slug": "taichung-tw",
+        "entity_type": "PLACE",
+        "name": "Taichung",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 24.1469,
+      "lng": 120.6839,
+      "country_code": "TW",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "326f3ed5-74c7-547b-bd9e-c90c8f6c504d",
+          "slug": "hiwin",
+          "entity_type": "ORGANIZATION",
+          "name": "HIWIN",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "161c93b1-973b-5e36-8462-59d367443952",
         "slug": "tallinn-ee",
         "entity_type": "PLACE",
@@ -2152,6 +2181,12 @@
       "places": 2
     },
     {
+      "id": "TW",
+      "label": "TW",
+      "weight": 2,
+      "places": 2
+    },
+    {
       "id": "AT",
       "label": "AT",
       "weight": 1,
@@ -2178,12 +2213,6 @@
     {
       "id": "NL",
       "label": "NL",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "TW",
-      "label": "TW",
       "weight": 1,
       "places": 1
     }
@@ -4108,6 +4137,27 @@
         "slug": "suzhou",
         "entity_type": "PLACE",
         "name": "Suzhou",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "326f3ed5-74c7-547b-bd9e-c90c8f6c504d",
+        "slug": "hiwin",
+        "entity_type": "ORGANIZATION",
+        "name": "HIWIN",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "7a764593-674e-587e-9afa-ef2ef8f137fd",
+        "slug": "taichung-tw",
+        "entity_type": "PLACE",
+        "name": "Taichung",
         "primary_embodiment": null,
         "roles": []
       }

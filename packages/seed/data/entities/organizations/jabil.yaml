@@ -13,4 +13,32 @@ claims:
     confidence: HIGH
     excerpt: Provides electronics engineering and contract manufacturing services including robotics.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: st-petersburg-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-ec689926066ab431
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Jabil is headquartered in St. Petersburg.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1966-01-01'
+  valid_from: '1966-01-01'
+  evidence:
+  - source: enrich-ec689926066ab431
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Jabil was established in 1966 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: NYSE:JBL
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-ec689926066ab431
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Jabil is listed as NYSE:JBL.
+    observed_at: '2026-09-11'
 country_code: US

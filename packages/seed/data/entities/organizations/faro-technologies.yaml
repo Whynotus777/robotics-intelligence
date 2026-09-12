@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Supplies metrology systems for robot calibration and industrial measurement.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: lake-mary-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-b6bee2b9efafabd3
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: FARO Technologies is headquartered in Lake Mary.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1981-01-01'
+  valid_from: '1981-01-01'
+  evidence:
+  - source: enrich-b6bee2b9efafabd3
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: FARO Technologies was established in 1981 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: US

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "ef20a76d-74b2-5cf2-98b0-d0e4ebe77a04",
+    "subject": {
+      "id": "46a32137-d482-526a-9acd-498b27b72a93",
+      "slug": "schunk",
+      "entity_type": "ORGANIZATION",
+      "name": "Schunk",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Schunk was founded on 1945-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1945-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1945-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9c3fae86-7699-587d-9f71-50ce71e9b729",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Schunk was established in 1945 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d0192f31-edae-54f9-a223-c5eb21cbd8ed",
+        "url": "https://www.wikidata.org/wiki/Q2251903",
+        "canonical_url": null,
+        "publisher": "Schunk",
+        "title": "Schunk — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

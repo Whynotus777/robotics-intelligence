@@ -1,7 +1,8 @@
 slug: autostore
 entity_type: ORGANIZATION
 name: AutoStore
-short_description: Norwegian cube-storage vendor; robots drive on top of a stacked bin grid, and the grid itself is the product.
+short_description: Norwegian cube-storage vendor; robots drive on top of a stacked bin grid, and the grid itself
+  is the product.
 country_code: 'NO'
 depth_tier: DISCOVERY
 claims:
@@ -47,3 +48,12 @@ claims:
     confidence: MEDIUM
     source: autostore-site
     excerpt: AutoStore sells an installed system rather than a single machine.
+- predicate: HAS_TICKER
+  text: OSE:AUTO
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-83349301d9b91ca2
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: AutoStore is listed as OSE:AUTO.
+    observed_at: '2026-09-11'

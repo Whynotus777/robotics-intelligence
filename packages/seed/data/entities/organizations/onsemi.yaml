@@ -22,4 +22,22 @@ claims:
     confidence: HIGH
     excerpt: Develops power and sensing semiconductors for robotic systems.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: scottsdale-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-2642e695e9294c80
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: onsemi is headquartered in Scottsdale.
+    observed_at: '2026-09-11'
+- predicate: HAS_TICKER
+  text: NASDAQ:ON
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-2642e695e9294c80
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: onsemi is listed as NASDAQ:ON.
+    observed_at: '2026-09-11'
 country_code: US

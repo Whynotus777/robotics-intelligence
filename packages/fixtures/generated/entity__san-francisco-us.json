@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "738fb3ac-dd03-54b4-af48-73f4ea783afd",
+          "source": {
+            "id": "48f1ee63-b3bd-5c19-b620-6a081562e3ed",
+            "slug": "scale-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Scale AI",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "8aa5558c-134a-5744-b42f-90de4cece98b",
           "source": {
             "id": "30c33b1a-f72d-52cf-a8f4-7497bb3e5809",
@@ -83,6 +105,28 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "f1548d6b-ebd8-54a9-8f88-c824fe637d42",
+          "source": {
+            "id": "6c88d7bb-3693-5d72-8525-3d6f57bbd670",
+            "slug": "dronedeploy",
+            "entity_type": "ORGANIZATION",
+            "name": "DroneDeploy",
+            "primary_embodiment": null,
+            "roles": [
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -98,6 +142,26 @@
         "roles": [
           "OEM",
           "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      {
+        "id": "6c88d7bb-3693-5d72-8525-3d6f57bbd670",
+        "slug": "dronedeploy",
+        "entity_type": "ORGANIZATION",
+        "name": "DroneDeploy",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      {
+        "id": "48f1ee63-b3bd-5c19-b620-6a081562e3ed",
+        "slug": "scale-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Scale AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
         ]
       },
       {
@@ -128,7 +192,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 4
   },
   "as_of": null
 }

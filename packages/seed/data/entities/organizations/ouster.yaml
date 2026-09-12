@@ -1,7 +1,8 @@
 slug: ouster
 entity_type: ORGANIZATION
 name: Ouster
-short_description: San Francisco digital lidar maker; one sensor architecture sold across robotics, industrial and smart-infrastructure buyers.
+short_description: San Francisco digital lidar maker; one sensor architecture sold across robotics, industrial and
+  smart-infrastructure buyers.
 country_code: US
 depth_tier: DISCOVERY
 claims:
@@ -26,3 +27,12 @@ claims:
     confidence: HIGH
     source: ouster-site
     excerpt: Ouster sells robot components to other builders.
+- predicate: HAS_TICKER
+  text: NYSE:OUST
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-4df2c79a5965a5bf
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Ouster is listed as NYSE:OUST.
+    observed_at: '2026-09-11'

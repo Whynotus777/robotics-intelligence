@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "cc2ad12e-8202-5132-ab72-310f65eaafd1",
+    "subject": {
+      "id": "5960ddf6-3e78-589e-845c-009b10f153f3",
+      "slug": "stmicroelectronics",
+      "entity_type": "ORGANIZATION",
+      "name": "STMicroelectronics",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "STMicroelectronics stock ticker NYSE:STM",
+    "value": {
+      "kind": "text",
+      "text": "NYSE:STM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7cd3c339-4b2f-532a-baff-c05488b69e80",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "STMicroelectronics is listed as NYSE:STM.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d3e36a10-3417-5fd6-8f2f-5ee45dd8d905",
+        "url": "https://www.wikidata.org/wiki/Q661845",
+        "canonical_url": null,
+        "publisher": "STMicroelectronics",
+        "title": "STMicroelectronics — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

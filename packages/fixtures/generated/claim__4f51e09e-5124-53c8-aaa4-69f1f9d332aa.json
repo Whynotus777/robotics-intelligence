@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "4f51e09e-5124-53c8-aaa4-69f1f9d332aa",
+    "subject": {
+      "id": "284bf379-4102-5614-b60e-39fccb64d568",
+      "slug": "amd",
+      "entity_type": "ORGANIZATION",
+      "name": "AMD",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "AMD is headquartered at Santa Clara",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "84146879-d20b-58d2-80f9-1d4b15681830",
+        "slug": "santa-clara-us",
+        "entity_type": "PLACE",
+        "name": "Santa Clara",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "415e569e-de40-5fdd-9372-d7042fb9ccdc",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "AMD is headquartered in Santa Clara.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "f6ba6c58-9c6c-5aff-b5f6-5ac60ca65162",
+        "url": "https://www.wikidata.org/wiki/Q128896",
+        "canonical_url": null,
+        "publisher": "AMD",
+        "title": "AMD — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

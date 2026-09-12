@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "8c44ace5-7aa7-5a78-91cf-00f650a4d56e",
+    "subject": {
+      "id": "d3072c19-dd4c-5474-9c7a-0705fd860b8f",
+      "slug": "canonical",
+      "entity_type": "ORGANIZATION",
+      "name": "Canonical",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Canonical was founded on 2004-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2004-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2004-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a3c605bb-bd48-5c50-8af6-e2355fdae24c",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Canonical was established in 2004 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a773dda2-1ec9-5057-a0c6-a093f696a127",
+        "url": "https://www.wikidata.org/wiki/Q39064",
+        "canonical_url": null,
+        "publisher": "Canonical",
+        "title": "Canonical — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

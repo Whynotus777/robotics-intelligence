@@ -22,4 +22,22 @@ claims:
     confidence: HIGH
     excerpt: Develops microcontrollers, motor drivers and sensing chips for robotics.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: tokyo
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-8cd658d83862e1fe
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Renesas Electronics is headquartered in Tokyo.
+    observed_at: '2026-09-11'
+- predicate: HAS_TICKER
+  text: TSE:6723
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-8cd658d83862e1fe
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Renesas Electronics is listed as TSE:6723.
+    observed_at: '2026-09-11'
 country_code: JP

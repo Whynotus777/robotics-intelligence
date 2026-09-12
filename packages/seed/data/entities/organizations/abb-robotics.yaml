@@ -56,3 +56,12 @@ claims:
     confidence: HIGH
     source: abb-robotics-site
     excerpt: ABB Robotics designs and sells robots under its own name.
+- predicate: HAS_TICKER
+  text: SIX:ABBN
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-ca371724889a88dc
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: ABB is listed as SIX:ABBN.
+    observed_at: '2026-09-11'

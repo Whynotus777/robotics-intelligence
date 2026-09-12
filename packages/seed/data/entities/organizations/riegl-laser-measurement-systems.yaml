@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Develops laser scanning sensors for UAV and mobile mapping systems.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: horn-at
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-9f9d861d7f612c20
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: RIEGL Laser Measurement Systems is headquartered in Horn.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1978-01-01'
+  valid_from: '1978-01-01'
+  evidence:
+  - source: enrich-9f9d861d7f612c20
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: RIEGL Laser Measurement Systems was established in 1978 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: AT

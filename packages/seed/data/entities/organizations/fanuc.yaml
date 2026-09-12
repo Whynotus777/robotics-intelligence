@@ -1,7 +1,8 @@
 slug: fanuc
 entity_type: ORGANIZATION
 name: FANUC
-short_description: Oshino, Japan industrial robot OEM with over one million robots installed; CRX collaborative line.
+short_description: Oshino, Japan industrial robot OEM with over one million robots installed; CRX collaborative
+  line.
 country_code: JP
 depth_tier: ANCHOR
 aliases:
@@ -63,3 +64,12 @@ claims:
     confidence: HIGH
     source: fanuc-site
     excerpt: FANUC designs and sells robots under its own name.
+- predicate: HAS_TICKER
+  text: TSE:6954
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d90a40119e59d6f2
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: FANUC is listed as TSE:6954.
+    observed_at: '2026-09-11'

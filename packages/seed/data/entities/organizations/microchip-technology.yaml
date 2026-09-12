@@ -22,4 +22,32 @@ claims:
     confidence: HIGH
     excerpt: Develops embedded computing, control and connectivity chips for robotics.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: chandler-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-eff4669a97686a9f
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Microchip Technology is headquartered in Chandler.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1989-01-01'
+  valid_from: '1989-01-01'
+  evidence:
+  - source: enrich-eff4669a97686a9f
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Microchip Technology was established in 1989 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: NASDAQ:MCHP
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-eff4669a97686a9f
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Microchip Technology is listed as NASDAQ:MCHP.
+    observed_at: '2026-09-11'
 country_code: US

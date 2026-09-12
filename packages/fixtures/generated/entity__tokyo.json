@@ -84,6 +84,29 @@
           }
         },
         {
+          "claim_id": "a1b5340d-2f55-581a-a8b7-aeaca72e4c18",
+          "source": {
+            "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
+            "slug": "renesas-electronics",
+            "entity_type": "ORGANIZATION",
+            "name": "Renesas Electronics",
+            "primary_embodiment": null,
+            "roles": [
+              "CHIPMAKER",
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "a90f8e54-119b-5469-a2cf-69a2f8a2b64e",
           "source": {
             "id": "db3db0fd-e42d-54e0-984b-3c16f584c4dc",
@@ -227,6 +250,17 @@
         ]
       },
       {
+        "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
+        "slug": "renesas-electronics",
+        "entity_type": "ORGANIZATION",
+        "name": "Renesas Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
         "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
         "slug": "woven-by-toyota",
         "entity_type": "ORGANIZATION",
@@ -254,7 +288,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 6
+    "related_count": 7
   },
   "as_of": null
 }

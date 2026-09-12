@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Supplies collaborative robot grippers and palletizing systems.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: levis-ca
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-36058f81d62043f2
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Robotiq is headquartered in Levis.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2008-01-01'
+  valid_from: '2008-01-01'
+  evidence:
+  - source: enrich-36058f81d62043f2
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Robotiq was established in 2008 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: CA

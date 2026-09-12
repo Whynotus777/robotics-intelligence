@@ -22,4 +22,32 @@ claims:
     confidence: HIGH
     excerpt: Develops processors and adaptive computing platforms for autonomous robotics.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: santa-clara-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-17e9c2a93f84dc62
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: AMD is headquartered in Santa Clara.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1969-01-01'
+  valid_from: '1969-01-01'
+  evidence:
+  - source: enrich-17e9c2a93f84dc62
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: AMD was established in 1969 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: NASDAQ:AMD
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-17e9c2a93f84dc62
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: AMD is listed as NASDAQ:AMD.
+    observed_at: '2026-09-11'
 country_code: US

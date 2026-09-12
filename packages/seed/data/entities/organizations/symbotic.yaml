@@ -49,3 +49,12 @@ claims:
     confidence: MEDIUM
     source: symbotic-10k
     excerpt: Symbotic sells an installed system rather than a single machine.
+- predicate: HAS_TICKER
+  text: NASDAQ:SYM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-3c1eb4ecf686e395
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Symbotic is listed as NASDAQ:SYM.
+    observed_at: '2026-09-11'

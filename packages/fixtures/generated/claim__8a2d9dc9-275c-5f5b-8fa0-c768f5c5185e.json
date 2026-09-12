@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "8a2d9dc9-275c-5f5b-8fa0-c768f5c5185e",
+    "subject": {
+      "id": "9c5dab7d-8aec-5778-973f-5b6c309f86cf",
+      "slug": "texas-instruments",
+      "entity_type": "ORGANIZATION",
+      "name": "Texas Instruments",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Texas Instruments is headquartered at Dallas",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "6ec568c7-4fcc-5c90-906f-6f210bee396a",
+        "slug": "dallas-us",
+        "entity_type": "PLACE",
+        "name": "Dallas",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "74824843-488a-5ebc-9cc9-d70681057437",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Texas Instruments is headquartered in Dallas.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8304cb76-8f75-503f-9f9a-98ff4d702c28",
+        "url": "https://www.wikidata.org/wiki/Q193412",
+        "canonical_url": null,
+        "publisher": "Texas Instruments",
+        "title": "Texas Instruments — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

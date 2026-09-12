@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 91
+      "count": 92
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 21
+      "count": 37
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 1
+      "count": 2
     },
     {
       "id": "DEPLOYED",
@@ -66,12 +66,46 @@
         }
       ],
       "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "dbea8ee3-4379-5e56-9e95-9e7555602d95",
+        "slug": "st-petersburg-us",
+        "entity_type": "PLACE",
+        "name": "St. Petersburg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 27.77086,
+      "lng": -82.67927,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "e157429e-5734-51bd-83fa-d943a780e06c",
+          "slug": "jabil",
+          "entity_type": "ORGANIZATION",
+          "name": "Jabil",
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
     }
   ],
   "countries": [
     {
       "id": "TW",
       "label": "TW",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "US",
+      "label": "US",
       "weight": 1,
       "places": 1
     }
@@ -95,6 +129,26 @@
         "slug": "new-taipei-tw",
         "entity_type": "PLACE",
         "name": "New Taipei",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e157429e-5734-51bd-83fa-d943a780e06c",
+        "slug": "jabil",
+        "entity_type": "ORGANIZATION",
+        "name": "Jabil",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER"
+        ]
+      },
+      "place": {
+        "id": "dbea8ee3-4379-5e56-9e95-9e7555602d95",
+        "slug": "st-petersburg-us",
+        "entity_type": "PLACE",
+        "name": "St. Petersburg",
         "primary_embodiment": null,
         "roles": []
       }

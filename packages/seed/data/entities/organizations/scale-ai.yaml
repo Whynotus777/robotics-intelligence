@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Provides real-world data collection and annotation for robotics and embodied AI.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: san-francisco-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-f930956e2f4cc362
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Scale AI is headquartered in San Francisco.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2016-01-01'
+  valid_from: '2016-01-01'
+  evidence:
+  - source: enrich-f930956e2f4cc362
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Scale AI was established in 2016 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: US

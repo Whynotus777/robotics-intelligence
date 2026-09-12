@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "9265373c-1b41-579e-a2b5-e3f4b495e653",
+    "subject": {
+      "id": "9bb4d4cf-d27a-5183-91f4-eb34797dc4b8",
+      "slug": "orbbec",
+      "entity_type": "ORGANIZATION",
+      "name": "Orbbec",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Orbbec is headquartered at Shenzhen",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "173bdfe3-af8b-53f4-a945-aec497cc8a03",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Orbbec is headquartered in Shenzhen.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "571c5b1b-2839-59ef-845d-7f6f11b1b8f2",
+        "url": "https://www.wikidata.org/wiki/Q138391538",
+        "canonical_url": null,
+        "publisher": "Orbbec",
+        "title": "Orbbec — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

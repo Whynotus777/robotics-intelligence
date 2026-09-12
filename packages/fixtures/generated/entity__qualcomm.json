@@ -48,6 +48,32 @@
   "place": null,
   "claims": [
     {
+      "predicate": "HAS_TICKER",
+      "label": "stock ticker",
+      "claims": [
+        {
+          "claim_id": "2187056a-8745-5f70-b591-19d1eb1089cd",
+          "predicate": "HAS_TICKER",
+          "value": {
+            "kind": "text",
+            "text": "NASDAQ:QCOM"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HAS_ROLE",
       "label": "role",
       "claims": [
@@ -192,16 +218,16 @@
     "evidence_summary": {
       "by_class": {
         "PRIMARY": 4,
-        "THIRD_PARTY": 0,
+        "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 4,
+      "claim_count": 5,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 4,
+    "recent_change_count": 5,
     "deployment_count": 0,
     "related_count": 2
   },

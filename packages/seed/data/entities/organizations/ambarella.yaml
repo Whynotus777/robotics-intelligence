@@ -22,4 +22,32 @@ claims:
     confidence: HIGH
     excerpt: Develops vision processors for robotics and autonomous vehicles.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: santa-clara-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-92c289ee42b166e2
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Ambarella is headquartered in Santa Clara.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2004-01-01'
+  valid_from: '2004-01-01'
+  evidence:
+  - source: enrich-92c289ee42b166e2
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Ambarella was established in 2004 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: NASDAQ:AMBA
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-92c289ee42b166e2
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Ambarella is listed as NASDAQ:AMBA.
+    observed_at: '2026-09-11'
 country_code: US

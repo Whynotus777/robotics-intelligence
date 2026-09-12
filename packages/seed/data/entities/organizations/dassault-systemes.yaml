@@ -13,4 +13,32 @@ claims:
     confidence: HIGH
     excerpt: Provides robotic simulation and programming software through DELMIA.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: velizy-villacoublay-fr
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-98007add06ec1023
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Dassault Systemes is headquartered in Velizy-Villacoublay.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1981-01-01'
+  valid_from: '1981-01-01'
+  evidence:
+  - source: enrich-98007add06ec1023
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Dassault Systemes was established in 1981 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: EURONEXT:DSY
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-98007add06ec1023
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Dassault Systemes is listed as EURONEXT:DSY.
+    observed_at: '2026-09-11'
 country_code: FR

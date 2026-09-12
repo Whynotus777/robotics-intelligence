@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "02f5ef0d-046d-5aff-8ffb-c48672a03167",
+    "subject": {
+      "id": "922ff18f-2b5a-52f7-a043-353871daf12e",
+      "slug": "infineon-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "Infineon Technologies",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Infineon Technologies is headquartered at Neubiberg",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "8d1bf8dd-0d56-5553-8299-b0150a1279b7",
+        "slug": "neubiberg-de",
+        "entity_type": "PLACE",
+        "name": "Neubiberg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "62799882-ed72-5196-8596-566236ac3c97",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Infineon Technologies is headquartered in Neubiberg.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "fabaef42-1bf4-5c32-8d2a-681fa6a9083b",
+        "url": "https://www.wikidata.org/wiki/Q311394",
+        "canonical_url": null,
+        "publisher": "Infineon Technologies",
+        "title": "Infineon Technologies — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

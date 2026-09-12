@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "fa438a4b-2de5-5dd1-9621-c0206a323e91",
+    "subject": {
+      "id": "77660ef8-6e1a-5dab-8ae7-62729288d803",
+      "slug": "trimble",
+      "entity_type": "ORGANIZATION",
+      "name": "Trimble",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Trimble is headquartered at Westminster",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "8e2683f9-6416-5084-b9e3-004043ea0091",
+        "slug": "westminster-us",
+        "entity_type": "PLACE",
+        "name": "Westminster",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4cbeb73c-7304-596f-92ff-b95bfee6f2b6",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Trimble is headquartered in Westminster.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "326dde09-7764-5c66-b57e-2f28e52fbb66",
+        "url": "https://www.wikidata.org/wiki/Q2297063",
+        "canonical_url": null,
+        "publisher": "Trimble",
+        "title": "Trimble — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

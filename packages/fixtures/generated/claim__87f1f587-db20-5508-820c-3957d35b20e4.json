@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "87f1f587-db20-5508-820c-3957d35b20e4",
+    "subject": {
+      "id": "284bf379-4102-5614-b60e-39fccb64d568",
+      "slug": "amd",
+      "entity_type": "ORGANIZATION",
+      "name": "AMD",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "AMD was founded on 1969-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1969-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1969-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "24269ff6-3101-59fa-861f-485145a2ac9d",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "AMD was established in 1969 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "f6ba6c58-9c6c-5aff-b5f6-5ac60ca65162",
+        "url": "https://www.wikidata.org/wiki/Q128896",
+        "canonical_url": null,
+        "publisher": "AMD",
+        "title": "AMD — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

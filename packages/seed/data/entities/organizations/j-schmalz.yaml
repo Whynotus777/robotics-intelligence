@@ -13,4 +13,23 @@ claims:
     confidence: HIGH
     excerpt: Develops vacuum grippers and handling systems for robot automation.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: glatten-de
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d367abc9e82fc08c
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: J. Schmalz is headquartered in Glatten.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1910-01-01'
+  valid_from: '1910-01-01'
+  evidence:
+  - source: enrich-d367abc9e82fc08c
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: J. Schmalz was established in 1910 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
 country_code: DE

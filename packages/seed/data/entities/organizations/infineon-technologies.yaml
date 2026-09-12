@@ -22,4 +22,22 @@ claims:
     confidence: HIGH
     excerpt: Supplies power, sensing and motor-control semiconductors for robotics.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: neubiberg-de
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-3563371cd0de95fe
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Infineon Technologies is headquartered in Neubiberg.
+    observed_at: '2026-09-11'
+- predicate: HAS_TICKER
+  text: XETRA:IFX
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-3563371cd0de95fe
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Infineon Technologies is listed as XETRA:IFX.
+    observed_at: '2026-09-11'
 country_code: DE

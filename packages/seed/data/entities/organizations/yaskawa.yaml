@@ -1,10 +1,13 @@
 slug: yaskawa
 entity_type: ORGANIZATION
 name: Yaskawa Electric
-short_description: Kitakyushu motion-control and industrial robot maker; the Motoman arm line and the servo drives under much of the industry.
+short_description: Kitakyushu motion-control and industrial robot maker; the Motoman arm line and the servo drives
+  under much of the industry.
 country_code: JP
 depth_tier: DISCOVERY
-aliases: [Yaskawa, Motoman]
+aliases:
+- Yaskawa
+- Motoman
 claims:
 - predicate: HQ_AT
   object: kitakyushu
@@ -55,3 +58,12 @@ claims:
     confidence: MEDIUM
     source: yaskawa-site
     excerpt: Yaskawa Electric sells robot components to other builders.
+- predicate: HAS_TICKER
+  text: TSE:6506
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-6621dcf966baface
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Yaskawa is listed as TSE:6506.
+    observed_at: '2026-09-11'

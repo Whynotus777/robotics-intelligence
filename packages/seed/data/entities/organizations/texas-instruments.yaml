@@ -22,4 +22,22 @@ claims:
     confidence: HIGH
     excerpt: Develops sensing, motor-control and computing semiconductors for robotics.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: dallas-us
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d46864a777a7239e
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Texas Instruments is headquartered in Dallas.
+    observed_at: '2026-09-11'
+- predicate: HAS_TICKER
+  text: NASDAQ:TXN
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-d46864a777a7239e
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Texas Instruments is listed as NASDAQ:TXN.
+    observed_at: '2026-09-11'
 country_code: US

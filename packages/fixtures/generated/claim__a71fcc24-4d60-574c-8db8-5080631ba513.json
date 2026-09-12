@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "a71fcc24-4d60-574c-8db8-5080631ba513",
+    "subject": {
+      "id": "46a32137-d482-526a-9acd-498b27b72a93",
+      "slug": "schunk",
+      "entity_type": "ORGANIZATION",
+      "name": "Schunk",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Schunk is headquartered at Lauffen am Neckar",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "01ebd1fe-6a44-5e42-8016-9f2a6b80fa6b",
+        "slug": "lauffen-am-neckar-de",
+        "entity_type": "PLACE",
+        "name": "Lauffen am Neckar",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "4eb6a8d8-5fb9-556c-a464-3b3dacf92273",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Schunk is headquartered in Lauffen am Neckar.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "d0192f31-edae-54f9-a223-c5eb21cbd8ed",
+        "url": "https://www.wikidata.org/wiki/Q2251903",
+        "canonical_url": null,
+        "publisher": "Schunk",
+        "title": "Schunk — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

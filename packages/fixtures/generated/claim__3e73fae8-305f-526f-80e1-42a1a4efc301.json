@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3e73fae8-305f-526f-80e1-42a1a4efc301",
+    "subject": {
+      "id": "9ba7039f-6158-5a08-ac87-a5e24c4025f1",
+      "slug": "mathworks",
+      "entity_type": "ORGANIZATION",
+      "name": "MathWorks",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "MathWorks was founded on 1984-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1984-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1984-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "fd1f3249-0316-55b5-b8f0-ee48ef7d04cf",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "MathWorks was established in 1984 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "40aafbee-5c9e-5abe-93be-35655925b715",
+        "url": "https://www.wikidata.org/wiki/Q1518683",
+        "canonical_url": null,
+        "publisher": "MathWorks",
+        "title": "MathWorks — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

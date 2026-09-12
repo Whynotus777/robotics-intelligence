@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "e5bbf1e8-4b05-5714-9d74-29abd1282f6a",
+    "subject": {
+      "id": "480b1715-3d6a-5a41-8de2-6238db7035e3",
+      "slug": "roboflow",
+      "entity_type": "ORGANIZATION",
+      "name": "Roboflow",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Roboflow was founded on 2019-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2019-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2019-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "594a8ac1-9193-5b43-a2ec-2a83466c5726",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Roboflow was established in 2019 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bd7cc7b9-2bf4-5aa0-83a7-3b332c9acbfd",
+        "url": "https://www.wikidata.org/wiki/Q133043238",
+        "canonical_url": null,
+        "publisher": "Roboflow",
+        "title": "Roboflow — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

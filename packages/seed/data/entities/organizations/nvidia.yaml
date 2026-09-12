@@ -67,8 +67,8 @@ claims:
   - class: PRIMARY
     confidence: MEDIUM
     source: nvidia-robotics-page
-    excerpt: NVIDIA is in robotics under four roles at once — the compute, the simulator, the
-      foundation models and the cheque book — which is the declared bar for PLATFORM.
+    excerpt: NVIDIA is in robotics under four roles at once — the compute, the simulator, the foundation models
+      and the cheque book — which is the declared bar for PLATFORM.
 - predicate: INVESTED_IN
   object: figure-ai
   valid_from: 2024-02-29
@@ -77,5 +77,14 @@ claims:
     confidence: MEDIUM
     source: figure-series-b
     published_at: 2024-02-29
-    excerpt: Figure names NVIDIA among its Series B investors. The amount attributable to any one
-      investor was not disclosed.
+    excerpt: Figure names NVIDIA among its Series B investors. The amount attributable to any one investor was not
+      disclosed.
+- predicate: HAS_TICKER
+  text: NASDAQ:NVDA
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-95bdf5bea2b5e2ef
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: NVIDIA is listed as NASDAQ:NVDA.
+    observed_at: '2026-09-11'

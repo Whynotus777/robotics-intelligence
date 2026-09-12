@@ -41,4 +41,13 @@ claims:
     excerpt: Tencent was established in 1998 (year precision).
     observed_at: '2026-09-11'
   qualifier: Year precision
+- predicate: HAS_TICKER
+  text: HKEX:0700
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-db2d1a5937fd17da
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Tencent is listed as HKEX:0700.
+    observed_at: '2026-09-11'
 country_code: CN

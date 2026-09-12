@@ -4,7 +4,8 @@ name: Hesai Technology
 short_description: Shanghai lidar maker shipping at automotive volumes; price per unit is the competitive weapon.
 country_code: CN
 depth_tier: DISCOVERY
-aliases: [Hesai]
+aliases:
+- Hesai
 claims:
 - predicate: HQ_AT
   object: shanghai
@@ -27,3 +28,12 @@ claims:
     confidence: HIGH
     source: hesai-site
     excerpt: Hesai Technology sells robot components to other builders.
+- predicate: HAS_TICKER
+  text: NASDAQ:HSAI
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-92215bbeb6a78ab6
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Hesai is listed as NASDAQ:HSAI.
+    observed_at: '2026-09-11'

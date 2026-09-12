@@ -449,6 +449,41 @@
       "origin": "SEED"
     },
     {
+      "id": "0874ace4-60b3-5d36-b4ec-7e757474bfed",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "d3072c19-dd4c-5474-9c7a-0705fd860b8f",
+        "slug": "canonical",
+        "entity_type": "ORGANIZATION",
+        "name": "Canonical",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+          "slug": "london",
+          "entity_type": "PLACE",
+          "name": "London",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at London",
+      "origin": "SEED"
+    },
+    {
       "id": "08c4c107-765e-5274-96fc-fec9a110af8d",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -474,6 +509,41 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Chipmaker",
+      "origin": "SEED"
+    },
+    {
+      "id": "0a403332-a598-59c7-ac5c-367460e4924a",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "9bb4d4cf-d27a-5183-91f4-eb34797dc4b8",
+        "slug": "orbbec",
+        "entity_type": "ORGANIZATION",
+        "name": "Orbbec",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "5386047b-9431-5521-8e28-d5f238524771",
+          "slug": "shenzhen",
+          "entity_type": "PLACE",
+          "name": "Shenzhen",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Shenzhen",
       "origin": "SEED"
     },
     {
@@ -936,6 +1006,41 @@
       "origin": "SEED"
     },
     {
+      "id": "15a28090-fcee-5803-9394-91dbc83c653c",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "ebe5ee76-32df-52b0-b003-94b8fdb3ef66",
+        "slug": "faro-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "FARO Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "edcb1cce-b03d-53af-8f37-0f4a47f75803",
+          "slug": "lake-mary-us",
+          "entity_type": "PLACE",
+          "name": "Lake Mary",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "THIRD_PARTY",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Lake Mary",
+      "origin": "SEED"
+    },
+    {
       "id": "15c2c125-5037-5f79-95e7-68299dcc5477",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1350,96 +1455,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "1c0786dc-ad7c-585e-800c-249768909fa6",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "e21eb5e2-478a-5a61-8e17-fc52b84e629c",
-        "slug": "keenon-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "KEENON Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "1d66c23d-b490-5d84-8ae1-b90a5fb81a94",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "8e8c2e6b-0edf-52e6-a99a-20d0065dbb25",
-        "slug": "ecovacs-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "Ecovacs Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "982bbaab-5edb-568f-9470-609e831a3aca",
-          "slug": "suzhou",
-          "entity_type": "PLACE",
-          "name": "Suzhou",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "THIRD_PARTY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Suzhou",
-      "origin": "SEED"
-    },
-    {
-      "id": "1dd412a4-e2b4-5e35-a945-2b62f50afdf8",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "3dd79380-d3dd-5f4c-9691-75e3e947eb84",
-        "slug": "foxconn",
-        "entity_type": "ORGANIZATION",
-        "name": "Foxconn",
-        "primary_embodiment": null,
-        "roles": [
-          "CONTRACT_MANUFACTURER",
-          "OPERATOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "CONTRACT_MANUFACTURER"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Contract manufacturer",
       "origin": "SEED"
     }
   ]

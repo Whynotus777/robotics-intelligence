@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "4504f70d-26c4-5688-9239-d0f92ae60a7b",
+    "subject": {
+      "id": "e157429e-5734-51bd-83fa-d943a780e06c",
+      "slug": "jabil",
+      "entity_type": "ORGANIZATION",
+      "name": "Jabil",
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Jabil was founded on 1966-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1966-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1966-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5e675314-6434-5fb6-9818-9b3dfecb164e",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Jabil was established in 1966 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "06708eba-6b2a-5d86-85b1-36d63a0591c9",
+        "url": "https://www.wikidata.org/wiki/Q2171646",
+        "canonical_url": null,
+        "publisher": "Jabil",
+        "title": "Jabil — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

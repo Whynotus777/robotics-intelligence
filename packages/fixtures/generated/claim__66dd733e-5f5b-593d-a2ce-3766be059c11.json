@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "66dd733e-5f5b-593d-a2ce-3766be059c11",
+    "subject": {
+      "id": "326f3ed5-74c7-547b-bd9e-c90c8f6c504d",
+      "slug": "hiwin",
+      "entity_type": "ORGANIZATION",
+      "name": "HIWIN",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "HIWIN was founded on 1989-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1989-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1989-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9fbd6a18-ac9a-51ed-b0e8-33fb665885c8",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "HIWIN was established in 1989 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "855509f0-bc0e-5c47-a79e-55c7eb4ed4b7",
+        "url": "https://www.wikidata.org/wiki/Q15815687",
+        "canonical_url": null,
+        "publisher": "HIWIN",
+        "title": "HIWIN — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

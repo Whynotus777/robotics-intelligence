@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "0583b994-20af-56d1-93cf-ce5f8304b67a",
+    "subject": {
+      "id": "88d24707-5d8c-5b63-9203-85c816dd2667",
+      "slug": "ambarella",
+      "entity_type": "ORGANIZATION",
+      "name": "Ambarella",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Ambarella is headquartered at Santa Clara",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "84146879-d20b-58d2-80f9-1d4b15681830",
+        "slug": "santa-clara-us",
+        "entity_type": "PLACE",
+        "name": "Santa Clara",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "18d45752-3a24-5679-8436-4e105c13a6f5",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Ambarella is headquartered in Santa Clara.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "b643beae-8b3a-5f73-8867-5fde335e8dbc",
+        "url": "https://www.wikidata.org/wiki/Q4741030",
+        "canonical_url": null,
+        "publisher": "Ambarella",
+        "title": "Ambarella — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}
