@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "fac69c48-8058-5160-a2a3-0a223415b69d",
+    "subject": {
+      "id": "eaa12373-f6c5-5544-998b-9655a798e061",
+      "slug": "st-engineering",
+      "entity_type": "ORGANIZATION",
+      "name": "ST Engineering",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "ST Engineering role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5ce1f5af-4385-59fa-bc17-b0a5cce72c71",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "ST Engineering is the parent organization of Aethon.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "3ea7dfd0-8c8e-5f20-b8f5-ba485d4b1d9f",
+        "url": "https://aethon.com/blog/",
+        "canonical_url": null,
+        "publisher": "ST Engineering",
+        "title": "ST Engineering — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "ST Engineering is the parent organization of Aethon. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

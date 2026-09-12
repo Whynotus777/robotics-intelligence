@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "e7d693c7-32d5-549d-8638-a3308684c44d",
+    "subject": {
+      "id": "9ff47755-8f9d-5020-8046-f9d8d5680734",
+      "slug": "textron",
+      "entity_type": "ORGANIZATION",
+      "name": "Textron",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Textron role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "6cecfa02-0327-51af-ae42-a4d3d9e2cf65",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Textron is the parent organization of Textron Systems.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "49e0a4dc-449c-55fa-acb8-6846a4e629af",
+        "url": "https://www.textronsystems.com/our-company/about-textron-systems",
+        "canonical_url": null,
+        "publisher": "Textron",
+        "title": "Textron — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Textron is the parent organization of Textron Systems. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

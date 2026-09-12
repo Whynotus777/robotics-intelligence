@@ -1,0 +1,208 @@
+{
+  "entity": {
+    "id": "e25902f3-80a9-58ff-bc2c-a67d4b0e38fc",
+    "slug": "inventec",
+    "entity_type": "ORGANIZATION",
+    "name": "Inventec",
+    "short_description": "Provides electronics contract manufacturing and integrated computing solutions for robotic safety and control.",
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "TW",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [
+    {
+      "role": "CONTRACT_MANUFACTURER",
+      "declared": true,
+      "claim_id": "caf5aa69-0e2d-5728-a379-4b8c9b9635b8",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    },
+    {
+      "role": "INTEGRATOR",
+      "declared": true,
+      "claim_id": "58b7c72e-e4a9-5c3d-a6a7-87c2f643485e",
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      }
+    }
+  ],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": null,
+  "claims": [
+    {
+      "predicate": "HAS_ROLE",
+      "label": "role",
+      "claims": [
+        {
+          "claim_id": "58b7c72e-e4a9-5c3d-a6a7-87c2f643485e",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "INTEGRATOR"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "caf5aa69-0e2d-5728-a379-4b8c9b9635b8",
+          "predicate": "HAS_ROLE",
+          "value": {
+            "kind": "enum",
+            "value": "CONTRACT_MANUFACTURER"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "HAS_TICKER",
+      "label": "stock ticker",
+      "claims": [
+        {
+          "claim_id": "c69b28b3-91e0-5788-8f43-d507b8b72a4e",
+          "predicate": "HAS_TICKER",
+          "value": {
+            "kind": "text",
+            "text": "TWSE:2356"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "claims": [
+        {
+          "claim_id": "e782f0db-e608-5bf4-8590-1999d9bfe73c",
+          "predicate": "FOUNDED_ON",
+          "value": {
+            "kind": "date",
+            "date": "1975-01-01"
+          },
+          "stack_layer": null,
+          "qualifier": "Year precision",
+          "valid_from": "1975-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "6203d73c-1c90-5916-9d9a-45d861f63abb",
+          "target": {
+            "id": "f8998de8-0c4f-559d-bec7-aca3c9ea2c1e",
+            "slug": "taipei-tw",
+            "entity_type": "PLACE",
+            "name": "Taipei",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "inbound_relationships": [],
+  "lateral_links": {
+    "places": [
+      {
+        "id": "f8998de8-0c4f-559d-bec7-aca3c9ea2c1e",
+        "slug": "taipei-tw",
+        "entity_type": "PLACE",
+        "name": "Taipei",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 4,
+        "THIRD_PARTY": 1,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 5,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": "2026-09-01T00:00:00.000Z",
+    "recent_change_count": 5,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 92
+      "count": 96
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 38
+      "count": 39
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 2
+      "count": 6
     },
     {
       "id": "DEPLOYED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 29
+      "count": 33
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 20
+      "count": 23
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 10
+      "count": 13
     }
   ],
   "marks": [
@@ -976,6 +976,34 @@
     },
     {
       "place": {
+        "id": "e4fec3b6-88a1-5616-b5f5-e8bdea864fd6",
+        "slug": "daejeon-kr",
+        "entity_type": "PLACE",
+        "name": "Daejeon",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 36.34913,
+      "lng": 127.38493,
+      "country_code": "KR",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "01838eab-6fe5-529a-8a6c-9c367c431ace",
+          "slug": "rainbow-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Rainbow Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "6d438612-a3c6-548f-99f6-3f8ee7ba6388",
         "slug": "darmstadt",
         "entity_type": "PLACE",
@@ -1604,6 +1632,35 @@
     },
     {
       "place": {
+        "id": "089d105e-024f-5c17-a3a2-f80bb0cc5bb8",
+        "slug": "new-taipei-tw",
+        "entity_type": "PLACE",
+        "name": "New Taipei",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 25.06199,
+      "lng": 121.45703,
+      "country_code": "TW",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "3c1f275d-fda4-5aa9-9764-84860ceda8e5",
+          "slug": "wistron",
+          "entity_type": "ORGANIZATION",
+          "name": "Wistron",
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "bd7a98fd-f1f3-52eb-b755-751c470e8265",
         "slug": "osaka-jp",
         "entity_type": "PLACE",
@@ -1654,6 +1711,35 @@
           "primary_embodiment": null,
           "roles": [
             "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
+        "entity_type": "PLACE",
+        "name": "Palo Alto",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.44188,
+      "lng": -122.14302,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "fd3fa421-aff0-5f6b-bbbf-c0e511d7ac52",
+          "slug": "wing",
+          "entity_type": "ORGANIZATION",
+          "name": "Wing",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "OPERATOR"
           ]
         }
       ],
@@ -1945,6 +2031,35 @@
     },
     {
       "place": {
+        "id": "f8998de8-0c4f-559d-bec7-aca3c9ea2c1e",
+        "slug": "taipei-tw",
+        "entity_type": "PLACE",
+        "name": "Taipei",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 25.05306,
+      "lng": 121.52639,
+      "country_code": "TW",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "1761e7c8-bb57-5329-a102-9e8a6bc127fe",
+          "slug": "pegatron",
+          "entity_type": "ORGANIZATION",
+          "name": "Pegatron",
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "161c93b1-973b-5e36-8462-59d367443952",
         "slug": "tallinn-ee",
         "entity_type": "PLACE",
@@ -2118,8 +2233,8 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 38,
-      "places": 24
+      "weight": 39,
+      "places": 25
     },
     {
       "id": "CN",
@@ -2152,6 +2267,18 @@
       "places": 4
     },
     {
+      "id": "TW",
+      "label": "TW",
+      "weight": 4,
+      "places": 4
+    },
+    {
+      "id": "KR",
+      "label": "KR",
+      "weight": 3,
+      "places": 3
+    },
+    {
       "id": "CA",
       "label": "CA",
       "weight": 2,
@@ -2172,18 +2299,6 @@
     {
       "id": "IL",
       "label": "IL",
-      "weight": 2,
-      "places": 2
-    },
-    {
-      "id": "KR",
-      "label": "KR",
-      "weight": 2,
-      "places": 2
-    },
-    {
-      "id": "TW",
-      "label": "TW",
       "weight": 2,
       "places": 2
     },
@@ -3469,6 +3584,26 @@
     },
     {
       "entity": {
+        "id": "01838eab-6fe5-529a-8a6c-9c367c431ace",
+        "slug": "rainbow-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Rainbow Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "e4fec3b6-88a1-5616-b5f5-e8bdea864fd6",
+        "slug": "daejeon-kr",
+        "entity_type": "PLACE",
+        "name": "Daejeon",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "2b6c10f5-2b2d-57f9-bca9-b5826f71f58f",
         "slug": "wingcopter",
         "entity_type": "ORGANIZATION",
@@ -3921,6 +4056,27 @@
     },
     {
       "entity": {
+        "id": "3c1f275d-fda4-5aa9-9764-84860ceda8e5",
+        "slug": "wistron",
+        "entity_type": "ORGANIZATION",
+        "name": "Wistron",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "089d105e-024f-5c17-a3a2-f80bb0cc5bb8",
+        "slug": "new-taipei-tw",
+        "entity_type": "PLACE",
+        "name": "New Taipei",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "b4cd6128-33f5-56da-b14a-4cdf7d18b883",
         "slug": "daifuku",
         "entity_type": "ORGANIZATION",
@@ -3956,6 +4112,27 @@
         "slug": "oshino",
         "entity_type": "PLACE",
         "name": "Oshino",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "fd3fa421-aff0-5f6b-bbbf-c0e511d7ac52",
+        "slug": "wing",
+        "entity_type": "ORGANIZATION",
+        "name": "Wing",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
+      },
+      "place": {
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
+        "entity_type": "PLACE",
+        "name": "Palo Alto",
         "primary_embodiment": null,
         "roles": []
       }
@@ -4160,6 +4337,27 @@
         "slug": "taichung-tw",
         "entity_type": "PLACE",
         "name": "Taichung",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "1761e7c8-bb57-5329-a102-9e8a6bc127fe",
+        "slug": "pegatron",
+        "entity_type": "ORGANIZATION",
+        "name": "Pegatron",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "f8998de8-0c4f-559d-bec7-aca3c9ea2c1e",
+        "slug": "taipei-tw",
+        "entity_type": "PLACE",
+        "name": "Taipei",
         "primary_embodiment": null,
         "roles": []
       }

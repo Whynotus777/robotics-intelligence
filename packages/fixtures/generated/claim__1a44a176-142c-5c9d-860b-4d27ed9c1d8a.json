@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "1a44a176-142c-5c9d-860b-4d27ed9c1d8a",
+    "subject": {
+      "id": "f9a104b5-398a-5faf-8d88-301b9f514081",
+      "slug": "square-robot",
+      "entity_type": "ORGANIZATION",
+      "name": "Square Robot",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Square Robot was founded on 2017-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2017-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2017-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "74a41ae2-079b-503a-9f94-5db591c8455a",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Square Robot was established in 2017 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "fc763f4b-3eb9-596b-9845-9ecdba6fb4ee",
+        "url": "https://squarerobot.com/about-us",
+        "canonical_url": null,
+        "publisher": "Square Robot",
+        "title": "Square Robot — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

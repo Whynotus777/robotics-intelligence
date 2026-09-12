@@ -107,6 +107,50 @@
           }
         },
         {
+          "claim_id": "9bcae282-635b-5ddc-b27a-47b351ac9dff",
+          "source": {
+            "id": "1697924f-740e-5079-99ae-4174e704d155",
+            "slug": "sumitomo-heavy-industries",
+            "entity_type": "ORGANIZATION",
+            "name": "Sumitomo Heavy Industries",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "9c45b0f5-1b14-5a35-ac84-cba428916a56",
+          "source": {
+            "id": "fe7b240e-f21e-5290-ba23-199f6ea0bddd",
+            "slug": "sony-group",
+            "entity_type": "ORGANIZATION",
+            "name": "Sony Group",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "a1b5340d-2f55-581a-a8b7-aeaca72e4c18",
           "source": {
             "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
@@ -170,6 +214,28 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "c77b1754-3f9f-5419-bef3-b5912dfb8c84",
+          "source": {
+            "id": "4e38d628-7b7a-57fd-82bc-63f5fdd4f59a",
+            "slug": "sony-ai",
+            "entity_type": "ORGANIZATION",
+            "name": "Sony AI",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
             "source_count": 1
           }
         },
@@ -295,6 +361,36 @@
         ]
       },
       {
+        "id": "4e38d628-7b7a-57fd-82bc-63f5fdd4f59a",
+        "slug": "sony-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Sony AI",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      {
+        "id": "fe7b240e-f21e-5290-ba23-199f6ea0bddd",
+        "slug": "sony-group",
+        "entity_type": "ORGANIZATION",
+        "name": "Sony Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      {
+        "id": "1697924f-740e-5079-99ae-4174e704d155",
+        "slug": "sumitomo-heavy-industries",
+        "entity_type": "ORGANIZATION",
+        "name": "Sumitomo Heavy Industries",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      {
         "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
         "slug": "woven-by-toyota",
         "entity_type": "ORGANIZATION",
@@ -322,7 +418,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 8
+    "related_count": 11
   },
   "as_of": null
 }

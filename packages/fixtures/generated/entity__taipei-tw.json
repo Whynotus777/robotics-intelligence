@@ -39,6 +39,29 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "6203d73c-1c90-5916-9d9a-45d861f63abb",
+          "source": {
+            "id": "e25902f3-80a9-58ff-bc2c-a67d4b0e38fc",
+            "slug": "inventec",
+            "entity_type": "ORGANIZATION",
+            "name": "Inventec",
+            "primary_embodiment": null,
+            "roles": [
+              "CONTRACT_MANUFACTURER",
+              "INTEGRATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "c5613986-ab64-5ef7-94a9-be506abd936c",
           "source": {
             "id": "cb0783b9-f236-5ced-be66-2c0e79851011",
@@ -48,6 +71,29 @@
             "primary_embodiment": null,
             "roles": [
               "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "f17da4a9-515b-5891-a410-b377b0b017ca",
+          "source": {
+            "id": "1761e7c8-bb57-5329-a102-9e8a6bc127fe",
+            "slug": "pegatron",
+            "entity_type": "ORGANIZATION",
+            "name": "Pegatron",
+            "primary_embodiment": null,
+            "roles": [
+              "CONTRACT_MANUFACTURER",
+              "OEM"
             ]
           },
           "stack_layer": null,
@@ -74,6 +120,28 @@
         "roles": [
           "INVESTOR"
         ]
+      },
+      {
+        "id": "e25902f3-80a9-58ff-bc2c-a67d4b0e38fc",
+        "slug": "inventec",
+        "entity_type": "ORGANIZATION",
+        "name": "Inventec",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "INTEGRATOR"
+        ]
+      },
+      {
+        "id": "1761e7c8-bb57-5329-a102-9e8a6bc127fe",
+        "slug": "pegatron",
+        "entity_type": "ORGANIZATION",
+        "name": "Pegatron",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
       }
     ]
   },
@@ -92,7 +160,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 3
   },
   "as_of": null
 }

@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "6e36bbe9-42fe-5008-a841-db23314f9990",
+    "subject": {
+      "id": "ca313211-5385-5520-a688-6979d35d56da",
+      "slug": "volvo-cars",
+      "entity_type": "ORGANIZATION",
+      "name": "Volvo Cars",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Volvo Cars role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "2533f845-fa23-5788-87af-b9b94599f919",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Volvo Cars is the parent organization of Volvo Cars Tech Fund.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "325aa572-81cb-52f0-9d3c-2b39c93df20f",
+        "url": "https://www.volvocars.com/intl/news/technology/Proactive_scouting_for_the_latest_tech/",
+        "canonical_url": null,
+        "publisher": "Volvo Cars",
+        "title": "Volvo Cars — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

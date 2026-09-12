@@ -107,6 +107,28 @@
           }
         },
         {
+          "claim_id": "bbe10c0d-0745-5687-8f24-d6e12f530c95",
+          "source": {
+            "id": "c906ef27-da2f-5c6e-8413-0e16d30f66d4",
+            "slug": "openai",
+            "entity_type": "ORGANIZATION",
+            "name": "OpenAI",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "f1548d6b-ebd8-54a9-8f88-c824fe637d42",
           "source": {
             "id": "6c88d7bb-3693-5d72-8525-3d6f57bbd670",
@@ -155,6 +177,16 @@
         ]
       },
       {
+        "id": "c906ef27-da2f-5c6e-8413-0e16d30f66d4",
+        "slug": "openai",
+        "entity_type": "ORGANIZATION",
+        "name": "OpenAI",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
         "id": "48f1ee63-b3bd-5c19-b620-6a081562e3ed",
         "slug": "scale-ai",
         "entity_type": "ORGANIZATION",
@@ -192,7 +224,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 4
+    "related_count": 5
   },
   "as_of": null
 }

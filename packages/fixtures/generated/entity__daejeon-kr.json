@@ -1,0 +1,98 @@
+{
+  "entity": {
+    "id": "e4fec3b6-88a1-5616-b5f5-e8bdea864fd6",
+    "slug": "daejeon-kr",
+    "entity_type": "PLACE",
+    "name": "Daejeon",
+    "short_description": null,
+    "image_url": null,
+    "image_credit": null,
+    "primary_embodiment": null,
+    "country_code": "KR",
+    "aliases": [],
+    "created_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-01T00:00:00.000Z"
+  },
+  "roles": [],
+  "part_of": null,
+  "subsidiaries": [],
+  "cached": {
+    "commercial_stage": null,
+    "height_m": null,
+    "mass_kg": null,
+    "payload_kg": null,
+    "list_price_usd": null,
+    "maturity": null
+  },
+  "place": {
+    "admin_region": null,
+    "city": "Daejeon",
+    "lat": 36.34913,
+    "lng": 127.38493,
+    "cluster_label": null
+  },
+  "claims": [],
+  "relationships": [],
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "1757717a-f025-5775-ad16-3cf66d871a4e",
+          "source": {
+            "id": "01838eab-6fe5-529a-8a6c-9c367c431ace",
+            "slug": "rainbow-robotics",
+            "entity_type": "ORGANIZATION",
+            "name": "Rainbow Robotics",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "01838eab-6fe5-529a-8a6c-9c367c431ace",
+        "slug": "rainbow-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Rainbow Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ]
+  },
+  "intelligence": {
+    "evidence_summary": {
+      "by_class": {
+        "PRIMARY": 0,
+        "THIRD_PARTY": 0,
+        "ACADEMIC": 0,
+        "DERIVED": 0,
+        "ANALYST": 0
+      },
+      "claim_count": 0,
+      "claims_without_evidence": 0
+    },
+    "last_verified_at": null,
+    "recent_change_count": 0,
+    "deployment_count": 0,
+    "related_count": 1
+  },
+  "as_of": null
+}

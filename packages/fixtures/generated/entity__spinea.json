@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "5614da7c-43ee-5f30-b7a8-0947e7f7d816",
+      "slug": "timken",
+      "entity_type": "ORGANIZATION",
+      "name": "Timken",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "since": "2022-05-31",
+    "claim_id": "ab49935a-12c4-5b94-9934-891fe9d32aac",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -92,6 +110,34 @@
   ],
   "relationships": [
     {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "ab49935a-12c4-5b94-9934-891fe9d32aac",
+          "target": {
+            "id": "5614da7c-43ee-5f30-b7a8-0947e7f7d816",
+            "slug": "timken",
+            "entity_type": "ORGANIZATION",
+            "name": "Timken",
+            "primary_embodiment": null,
+            "roles": [
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Acquisition closing date",
+          "valid_from": "2022-05-31",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HQ_AT",
       "label": "is headquartered at",
       "items": [
@@ -120,6 +166,18 @@
   ],
   "inbound_relationships": [],
   "lateral_links": {
+    "company": [
+      {
+        "id": "5614da7c-43ee-5f30-b7a8-0947e7f7d816",
+        "slug": "timken",
+        "entity_type": "ORGANIZATION",
+        "name": "Timken",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      }
+    ],
     "places": [
       {
         "id": "662eec02-fb9b-5433-bc3b-81cb880c63cb",
@@ -134,19 +192,19 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 2,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

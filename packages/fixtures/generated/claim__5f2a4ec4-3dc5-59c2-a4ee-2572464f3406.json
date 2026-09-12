@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "5f2a4ec4-3dc5-59c2-a4ee-2572464f3406",
+    "subject": {
+      "id": "bae9e9fe-0902-59d5-bbc1-a98bc234970d",
+      "slug": "sumitomo-drive-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "Sumitomo Drive Technologies",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Sumitomo Drive Technologies is part of Sumitomo Heavy Industries",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "1697924f-740e-5079-99ae-4174e704d155",
+        "slug": "sumitomo-heavy-industries",
+        "entity_type": "ORGANIZATION",
+        "name": "Sumitomo Heavy Industries",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Affiliation observed by this date; earlier start not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "70a39a3c-e188-51ae-b870-dd87616d928f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Sumitomo Drive Technologies is part of Sumitomo Heavy Industries.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8380245c-768f-55e1-8941-2bef0e38e7d7",
+        "url": "https://japan.sumitomodrive.com/en-jp/page/company-profile-0",
+        "canonical_url": null,
+        "publisher": "Sumitomo Heavy Industries",
+        "title": "Sumitomo Heavy Industries — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

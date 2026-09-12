@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "90ddbcf4-fa78-5d3f-98b7-5763d9124288",
+    "subject": {
+      "id": "dd23c052-5b08-5fc3-8727-53290033126b",
+      "slug": "honeywell-intelligrated",
+      "entity_type": "ORGANIZATION",
+      "name": "Honeywell Intelligrated",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Honeywell Intelligrated is part of Honeywell",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c3749791-e72b-5876-9e0d-9a8b6ae4da4e",
+        "slug": "honeywell",
+        "entity_type": "ORGANIZATION",
+        "name": "Honeywell",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER",
+          "INTEGRATOR"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Acquisition closing date",
+    "status": "APPROVED",
+    "valid_from": "2016-08-30",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3214636e-7082-5d5a-9514-0be4d7f12696",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Honeywell Intelligrated is part of Honeywell.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bdd5dee6-5edf-50f8-969b-17f1ab07f448",
+        "url": "https://www.prnewswire.com/news-releases/honeywell-completes-acquisition-of-intelligrated-300319856.html",
+        "canonical_url": null,
+        "publisher": "Honeywell",
+        "title": "Honeywell — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

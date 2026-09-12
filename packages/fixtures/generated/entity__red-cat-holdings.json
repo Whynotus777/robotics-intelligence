@@ -26,7 +26,22 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "e15a2f4c-740a-52c2-a96b-7977b51639a8",
+        "slug": "teal-drones",
+        "entity_type": "ORGANIZATION",
+        "name": "Teal Drones",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "since": "2021-08-31",
+      "claim_id": "0b293c99-2c22-5147-8faa-992f736fa180"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -91,8 +106,50 @@
     }
   ],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "0b293c99-2c22-5147-8faa-992f736fa180",
+          "source": {
+            "id": "e15a2f4c-740a-52c2-a96b-7977b51639a8",
+            "slug": "teal-drones",
+            "entity_type": "ORGANIZATION",
+            "name": "Teal Drones",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Acquisition closing date",
+          "valid_from": "2021-08-31",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "e15a2f4c-740a-52c2-a96b-7977b51639a8",
+        "slug": "teal-drones",
+        "entity_type": "ORGANIZATION",
+        "name": "Teal Drones",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -108,7 +165,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 2,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

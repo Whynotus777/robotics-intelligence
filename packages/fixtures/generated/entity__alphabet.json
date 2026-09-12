@@ -109,6 +109,20 @@
       },
       "since": "2026-09-11",
       "claim_id": "a5e3dea7-d8bc-5027-aae6-e981b1a96ab1"
+    },
+    {
+      "organization": {
+        "id": "f1b57180-afad-56a7-8ea1-de998c10362b",
+        "slug": "x-development-alphabet-x",
+        "entity_type": "ORGANIZATION",
+        "name": "X Development (Alphabet X)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "ac8d1b9e-a14e-5329-bf69-360fbec20e65"
     }
   ],
   "cached": {
@@ -312,6 +326,28 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "ac8d1b9e-a14e-5329-bf69-360fbec20e65",
+          "source": {
+            "id": "f1b57180-afad-56a7-8ea1-de998c10362b",
+            "slug": "x-development-alphabet-x",
+            "entity_type": "ORGANIZATION",
+            "name": "X Development (Alphabet X)",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Affiliation observed by this date; earlier start not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -361,6 +397,16 @@
           "OEM",
           "OPERATOR"
         ]
+      },
+      {
+        "id": "f1b57180-afad-56a7-8ea1-de998c10362b",
+        "slug": "x-development-alphabet-x",
+        "entity_type": "ORGANIZATION",
+        "name": "X Development (Alphabet X)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
       }
     ],
     "places": [
@@ -389,7 +435,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 5
+    "related_count": 6
   },
   "as_of": null
 }

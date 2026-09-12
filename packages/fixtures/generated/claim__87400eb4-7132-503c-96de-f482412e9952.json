@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "87400eb4-7132-503c-96de-f482412e9952",
+    "subject": {
+      "id": "090bcbf7-a37a-5846-9890-4fc859cbe92f",
+      "slug": "appen",
+      "entity_type": "ORGANIZATION",
+      "name": "Appen",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Appen was founded on 1996-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1996-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1996-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3ff95b46-8a91-5cb2-8354-144865911d20",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Appen was established in 1996 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1f0d3158-6396-50e4-8266-5b4adc911146",
+        "url": "https://www.appen.com/about-us",
+        "canonical_url": null,
+        "publisher": "Appen",
+        "title": "Appen — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

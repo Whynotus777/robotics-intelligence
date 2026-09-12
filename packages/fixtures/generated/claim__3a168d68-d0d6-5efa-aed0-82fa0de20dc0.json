@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "3a168d68-d0d6-5efa-aed0-82fa0de20dc0",
+    "subject": {
+      "id": "95c149ad-c683-58ef-bd03-674f4d38b758",
+      "slug": "flex",
+      "entity_type": "ORGANIZATION",
+      "name": "Flex",
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Flex role CONTRACT_MANUFACTURER",
+    "value": {
+      "kind": "enum",
+      "value": "CONTRACT_MANUFACTURER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8d374002-7090-56f8-952e-13cf89c82df5",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Manufactures robotics components and deploys robotic automation across its production facilities.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "c5b03e2b-cd2f-5cdc-bc68-1eca26392af2",
+        "url": "https://investors.flex.com/news/news-details/2026/Flex-and-Teradyne-Robotics-Expand-Partnership-to-Scale-Intelligent-Automation-Across-Global-Manufacturing/default.aspx",
+        "canonical_url": null,
+        "publisher": "Flex",
+        "title": "Flex — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "06522bde-5624-5637-8849-e7028dc2cc2e",
+      "value": {
+        "kind": "enum",
+        "value": "OPERATOR"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

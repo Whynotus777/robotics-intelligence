@@ -60,6 +60,29 @@
             "confidence": "MEDIUM",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "c9cf099f-2a88-5020-8d28-559ff585ec79",
+          "source": {
+            "id": "3c1f275d-fda4-5aa9-9764-84860ceda8e5",
+            "slug": "wistron",
+            "entity_type": "ORGANIZATION",
+            "name": "Wistron",
+            "primary_embodiment": null,
+            "roles": [
+              "CONTRACT_MANUFACTURER",
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "THIRD_PARTY",
+            "confidence": "MEDIUM",
+            "source_count": 1
+          }
         }
       ]
     }
@@ -75,6 +98,17 @@
         "roles": [
           "CONTRACT_MANUFACTURER",
           "OPERATOR"
+        ]
+      },
+      {
+        "id": "3c1f275d-fda4-5aa9-9764-84860ceda8e5",
+        "slug": "wistron",
+        "entity_type": "ORGANIZATION",
+        "name": "Wistron",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
         ]
       }
     ]
@@ -94,7 +128,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

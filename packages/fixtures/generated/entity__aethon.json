@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "eaa12373-f6c5-5544-998b-9655a798e061",
+      "slug": "st-engineering",
+      "entity_type": "ORGANIZATION",
+      "name": "ST Engineering",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "ee69b244-444c-507d-81bc-b6bf5edf1973",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -64,25 +82,67 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "ee69b244-444c-507d-81bc-b6bf5edf1973",
+          "target": {
+            "id": "eaa12373-f6c5-5544-998b-9655a798e061",
+            "slug": "st-engineering",
+            "entity_type": "ORGANIZATION",
+            "name": "ST Engineering",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Affiliation observed by this date; earlier start not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "company": [
+      {
+        "id": "eaa12373-f6c5-5544-998b-9655a798e061",
+        "slug": "st-engineering",
+        "entity_type": "ORGANIZATION",
+        "name": "ST Engineering",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 1,
+      "claim_count": 2,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 1,
+    "recent_change_count": 2,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

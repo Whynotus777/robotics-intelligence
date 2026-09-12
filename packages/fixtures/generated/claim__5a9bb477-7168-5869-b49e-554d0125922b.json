@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "5a9bb477-7168-5869-b49e-554d0125922b",
+    "subject": {
+      "id": "c906ef27-da2f-5c6e-8413-0e16d30f66d4",
+      "slug": "openai",
+      "entity_type": "ORGANIZATION",
+      "name": "OpenAI",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "OpenAI was founded on 2015-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2015-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2015-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5b28515c-9dc5-51d2-84cd-995b64cf3387",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "OpenAI was established in 2015 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "ee3767dc-8b98-5b94-b43c-9d409616fb2d",
+        "url": "https://www.wikidata.org/wiki/Q21708200",
+        "canonical_url": null,
+        "publisher": "OpenAI",
+        "title": "OpenAI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

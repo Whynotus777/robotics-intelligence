@@ -1,0 +1,56 @@
+slug: inventec
+entity_type: ORGANIZATION
+name: Inventec
+short_description: Provides electronics contract manufacturing and integrated computing solutions for robotic safety
+  and control.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: CONTRACT_MANUFACTURER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-fe80539542c4707f
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Provides electronics contract manufacturing and integrated computing solutions for robotic safety and
+      control.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: INTEGRATOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-fe80539542c4707f
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Provides electronics contract manufacturing and integrated computing solutions for robotic safety and
+      control.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: taipei-tw
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-9356b4d74fd56593
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Inventec is headquartered in Taipei.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1975-01-01'
+  valid_from: '1975-01-01'
+  evidence:
+  - source: enrich-9356b4d74fd56593
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Inventec was established in 1975 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: TWSE:2356
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-2b871462eadda998
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Inventec is listed as TWSE:2356.
+    observed_at: '2026-09-11'
+country_code: TW

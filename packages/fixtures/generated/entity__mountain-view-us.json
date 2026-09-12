@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "1d37b6c5-f426-55f5-b4a1-a50b2a592504",
+          "source": {
+            "id": "f1b57180-afad-56a7-8ea1-de998c10362b",
+            "slug": "x-development-alphabet-x",
+            "entity_type": "ORGANIZATION",
+            "name": "X Development (Alphabet X)",
+            "primary_embodiment": null,
+            "roles": [
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "359acee0-36f1-5794-a33c-a692deb3da80",
           "source": {
             "id": "5779b38d-09d7-554c-ae5c-f09ad34862c1",
@@ -57,6 +79,51 @@
           "evidence_summary": {
             "class": "PRIMARY",
             "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "5643b0c8-87bd-5df7-a179-cd6fe2b73266",
+          "source": {
+            "id": "cd542423-3dd5-591c-8636-b0684f26f1eb",
+            "slug": "intrinsic",
+            "entity_type": "ORGANIZATION",
+            "name": "Intrinsic",
+            "primary_embodiment": null,
+            "roles": [
+              "INTEGRATOR",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "59f5d48a-b37a-58d1-bc7b-c2995cfbf24e",
+          "source": {
+            "id": "8bfe1d52-c20f-51c7-a7c8-d3d3a9bb73e7",
+            "slug": "capitalg",
+            "entity_type": "ORGANIZATION",
+            "name": "CapitalG",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
             "source_count": 1
           }
         },
@@ -89,6 +156,16 @@
   "lateral_links": {
     "company": [
       {
+        "id": "8bfe1d52-c20f-51c7-a7c8-d3d3a9bb73e7",
+        "slug": "capitalg",
+        "entity_type": "ORGANIZATION",
+        "name": "CapitalG",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
         "id": "5779b38d-09d7-554c-ae5c-f09ad34862c1",
         "slug": "dusty-robotics",
         "entity_type": "ORGANIZATION",
@@ -96,6 +173,17 @@
         "primary_embodiment": null,
         "roles": [
           "OEM"
+        ]
+      },
+      {
+        "id": "cd542423-3dd5-591c-8636-b0684f26f1eb",
+        "slug": "intrinsic",
+        "entity_type": "ORGANIZATION",
+        "name": "Intrinsic",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "TOOLING_OPS_PROVIDER"
         ]
       },
       {
@@ -107,6 +195,16 @@
         "roles": [
           "OEM",
           "OPERATOR"
+        ]
+      },
+      {
+        "id": "f1b57180-afad-56a7-8ea1-de998c10362b",
+        "slug": "x-development-alphabet-x",
+        "entity_type": "ORGANIZATION",
+        "name": "X Development (Alphabet X)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
         ]
       }
     ]
@@ -126,7 +224,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 5
   },
   "as_of": null
 }

@@ -28,7 +28,27 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+      "slug": "alphabet",
+      "entity_type": "ORGANIZATION",
+      "name": "Alphabet",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM",
+        "RESEARCH_LAB"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "ac8d1b9e-a14e-5329-bf69-360fbec20e65",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -67,25 +87,107 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "1d37b6c5-f426-55f5-b4a1-a50b2a592504",
+          "target": {
+            "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+            "slug": "mountain-view-us",
+            "entity_type": "PLACE",
+            "name": "Mountain View",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "ac8d1b9e-a14e-5329-bf69-360fbec20e65",
+          "target": {
+            "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+            "slug": "alphabet",
+            "entity_type": "ORGANIZATION",
+            "name": "Alphabet",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR",
+              "PLATFORM",
+              "RESEARCH_LAB"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Affiliation observed by this date; earlier start not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "company": [
+      {
+        "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
+        "slug": "alphabet",
+        "entity_type": "ORGANIZATION",
+        "name": "Alphabet",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
+        "entity_type": "PLACE",
+        "name": "Mountain View",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 1,
+        "PRIMARY": 2,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
-        "ANALYST": 0
+        "ANALYST": 1
       },
-      "claim_count": 1,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 1,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 2
   },
   "as_of": null
 }

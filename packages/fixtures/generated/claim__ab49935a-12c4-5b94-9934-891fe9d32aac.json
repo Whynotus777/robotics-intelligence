@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "ab49935a-12c4-5b94-9934-891fe9d32aac",
+    "subject": {
+      "id": "1b15c81b-c10b-52aa-8ae2-75c1d9da3083",
+      "slug": "spinea",
+      "entity_type": "ORGANIZATION",
+      "name": "Spinea",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Spinea is part of Timken",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "5614da7c-43ee-5f30-b7a8-0947e7f7d816",
+        "slug": "timken",
+        "entity_type": "ORGANIZATION",
+        "name": "Timken",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Acquisition closing date",
+    "status": "APPROVED",
+    "valid_from": "2022-05-31",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d3405d22-7c11-5739-a680-f2245c04a42f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Spinea is part of Timken.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "a56f0f39-5ce9-5534-968a-f66853457967",
+        "url": "https://news.timken.com/Timken-Completes-Acquisition-of-Spinea",
+        "canonical_url": null,
+        "publisher": "Timken",
+        "title": "Timken — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

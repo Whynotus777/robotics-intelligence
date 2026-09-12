@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "3df2c833-5b00-5e69-a65a-839c34eb44af",
+    "subject": {
+      "id": "7e3d11b0-851c-5936-ad57-e4aa994362be",
+      "slug": "ipg-automotive",
+      "entity_type": "ORGANIZATION",
+      "name": "IPG Automotive",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "IPG Automotive was founded on 1984-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1984-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1984-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e61d629b-0043-5a9d-ae55-6b931537b59e",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "IPG Automotive was established in 1984 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "be5437b2-9f69-5663-9fe9-68b9f7ac313f",
+        "url": "https://www.ipg-automotive.com/company/who-we-are",
+        "canonical_url": null,
+        "publisher": "IPG Automotive",
+        "title": "IPG Automotive — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

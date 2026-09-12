@@ -1,0 +1,66 @@
+{
+  "claim": {
+    "claim_id": "f7e0a2fa-1e38-5bb6-92a0-c6e569fc007a",
+    "subject": {
+      "id": "72f51d3a-e543-55db-97e9-73e9980cdf4d",
+      "slug": "qualcomm-ventures",
+      "entity_type": "ORGANIZATION",
+      "name": "Qualcomm Ventures",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Qualcomm Ventures is part of Qualcomm",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "d41554ca-2df4-5f8b-be56-0be5ce3df101",
+        "slug": "qualcomm",
+        "entity_type": "ORGANIZATION",
+        "name": "Qualcomm",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Affiliation observed by this date; earlier start not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "35b65a86-3529-52ae-a2cc-65eb158ee5dc",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Qualcomm Ventures is part of Qualcomm.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "f233d522-a7ab-54c5-9b6c-b75e8f0fe08d",
+        "url": "https://www.qualcomm.com/news/releases/2020/07/qualcomm-ventures-investment-arm-qualcomm-incorporated-invest-730-crore-jio",
+        "canonical_url": null,
+        "publisher": "Qualcomm",
+        "title": "Qualcomm — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

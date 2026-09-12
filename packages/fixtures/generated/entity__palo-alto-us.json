@@ -39,6 +39,29 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "1c327635-4777-5a83-b6e3-0d34785b988e",
+          "source": {
+            "id": "fd3fa421-aff0-5f6b-bbbf-c0e511d7ac52",
+            "slug": "wing",
+            "entity_type": "ORGANIZATION",
+            "name": "Wing",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM",
+              "OPERATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "745e7af1-69f7-5481-9e90-8b55261ed375",
           "source": {
             "id": "20e6b355-f8b7-55bb-b192-6d02eb96c575",
@@ -106,6 +129,17 @@
         "roles": [
           "INVESTOR"
         ]
+      },
+      {
+        "id": "fd3fa421-aff0-5f6b-bbbf-c0e511d7ac52",
+        "slug": "wing",
+        "entity_type": "ORGANIZATION",
+        "name": "Wing",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "OPERATOR"
+        ]
       }
     ]
   },
@@ -124,7 +158,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

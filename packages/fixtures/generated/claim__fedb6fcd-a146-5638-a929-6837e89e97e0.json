@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "fedb6fcd-a146-5638-a929-6837e89e97e0",
+    "subject": {
+      "id": "b29cf5e1-c444-585d-b0b3-deb351d5ab61",
+      "slug": "dhl-group",
+      "entity_type": "ORGANIZATION",
+      "name": "DHL Group",
+      "primary_embodiment": null,
+      "roles": [
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "DHL Group role OPERATOR",
+    "value": {
+      "kind": "enum",
+      "value": "OPERATOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b09c76d7-0354-5329-9728-1c7cb7aed631",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "DHL Group is the parent organization of DHL Supply Chain.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "6ab1b448-bb6c-5aca-9e06-62f6fd33fae8",
+        "url": "https://group.dhl.com/en/about-us/corporate-divisions/supply-chain.html",
+        "canonical_url": null,
+        "publisher": "DHL Group",
+        "title": "DHL Group — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

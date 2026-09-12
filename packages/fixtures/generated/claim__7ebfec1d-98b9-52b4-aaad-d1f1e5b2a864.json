@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "7ebfec1d-98b9-52b4-aaad-d1f1e5b2a864",
+    "subject": {
+      "id": "d93d8084-751f-5d9c-9d2f-6f68ceb5441c",
+      "slug": "bhp-ventures",
+      "entity_type": "ORGANIZATION",
+      "name": "BHP Ventures",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "BHP Ventures is part of BHP",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "7aae523c-6f4e-552a-a767-829405e0915e",
+        "slug": "bhp",
+        "entity_type": "ORGANIZATION",
+        "name": "BHP",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Affiliation observed by this date; earlier start not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c5ee2ea6-f2cb-59fc-b285-daaf5cf952ff",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "BHP Ventures is part of BHP.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bc127db3-1258-58ac-b99c-27808275be67",
+        "url": "https://www.bhp.com/about/our-businesses",
+        "canonical_url": null,
+        "publisher": "BHP",
+        "title": "BHP — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

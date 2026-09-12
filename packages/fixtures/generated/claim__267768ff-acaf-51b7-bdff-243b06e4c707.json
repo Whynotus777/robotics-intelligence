@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "267768ff-acaf-51b7-bdff-243b06e4c707",
+    "subject": {
+      "id": "5bfc052b-ebd4-5488-b25b-103640ee34ee",
+      "slug": "flytbase",
+      "entity_type": "ORGANIZATION",
+      "name": "FlytBase",
+      "primary_embodiment": null,
+      "roles": [
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "FlytBase was founded on 2017-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2017-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2017-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "55d1ddb9-4d57-522f-8878-134bc7e366cb",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "FlytBase was established in 2017 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "0cdefa54-4c87-5767-88da-4ba349245cae",
+        "url": "https://flytbase.com/about",
+        "canonical_url": null,
+        "publisher": "FlytBase",
+        "title": "FlytBase — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

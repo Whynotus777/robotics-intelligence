@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "8c2ef420-320b-5c3b-949a-b92352818880",
+    "subject": {
+      "id": "36c15b21-f131-56fc-bb79-c9826cf81942",
+      "slug": "textron-systems",
+      "entity_type": "ORGANIZATION",
+      "name": "Textron Systems",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Textron Systems is part of Textron",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9ff47755-8f9d-5020-8046-f9d8d5680734",
+        "slug": "textron",
+        "entity_type": "ORGANIZATION",
+        "name": "Textron",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Affiliation observed by this date; earlier start not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c85a9ef7-94f0-5f2a-a1aa-6d8e81ccbdc0",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Textron Systems is part of Textron.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "49e0a4dc-449c-55fa-acb8-6846a4e629af",
+        "url": "https://www.textronsystems.com/our-company/about-textron-systems",
+        "canonical_url": null,
+        "publisher": "Textron",
+        "title": "Textron — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

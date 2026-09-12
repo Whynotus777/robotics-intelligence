@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "b530533b-1d21-566b-b94d-71cc56fb1e96",
+    "subject": {
+      "id": "d955e8fd-c7ca-515d-ac65-54424f843f8f",
+      "slug": "dhl-supply-chain",
+      "entity_type": "ORGANIZATION",
+      "name": "DHL Supply Chain",
+      "primary_embodiment": null,
+      "roles": [
+        "OPERATOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "DHL Supply Chain is part of DHL Group",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "b29cf5e1-c444-585d-b0b3-deb351d5ab61",
+        "slug": "dhl-group",
+        "entity_type": "ORGANIZATION",
+        "name": "DHL Group",
+        "primary_embodiment": null,
+        "roles": [
+          "OPERATOR"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Affiliation observed by this date; earlier start not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f687ce44-7c7d-5731-b4d0-bff24bdb7d21",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "DHL Supply Chain is part of DHL Group.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "6ab1b448-bb6c-5aca-9e06-62f6fd33fae8",
+        "url": "https://group.dhl.com/en/about-us/corporate-divisions/supply-chain.html",
+        "canonical_url": null,
+        "publisher": "DHL Group",
+        "title": "DHL Group — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

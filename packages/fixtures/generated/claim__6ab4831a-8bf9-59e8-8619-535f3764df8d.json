@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "6ab4831a-8bf9-59e8-8619-535f3764df8d",
+    "subject": {
+      "id": "1f209715-6258-5e1d-bb5e-59a9549dae14",
+      "slug": "avride",
+      "entity_type": "ORGANIZATION",
+      "name": "Avride",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Avride is part of Nebius",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "74cfa3fd-d6ec-573a-bcce-c144f970e6ba",
+        "slug": "nebius",
+        "entity_type": "ORGANIZATION",
+        "name": "Nebius",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Affiliation observed by this date; earlier start not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "cb8eb678-d18c-5a8f-b1d1-6893004963d9",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Avride is part of Nebius.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8daf3f99-15cd-57ca-9d37-14920f8a60a9",
+        "url": "https://nebius.com/newsroom/nebius-reports-second-quarter-2026-financial-results",
+        "canonical_url": null,
+        "publisher": "Nebius",
+        "title": "Nebius — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

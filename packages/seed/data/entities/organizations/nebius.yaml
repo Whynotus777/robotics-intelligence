@@ -1,0 +1,21 @@
+slug: nebius
+entity_type: ORGANIZATION
+name: Nebius
+short_description: Nebius is the parent organization of Avride.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-e0d083b857ddd944
+    excerpt: Nebius is the parent organization of Avride.
+    assessment:
+      rationale: Nebius is the parent organization of Avride. The platform role describes involvement across robotics
+        businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.

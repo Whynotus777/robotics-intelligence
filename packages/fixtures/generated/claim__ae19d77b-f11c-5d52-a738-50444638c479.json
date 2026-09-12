@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "ae19d77b-f11c-5d52-a738-50444638c479",
+    "subject": {
+      "id": "851da841-46b0-5213-a7dc-c3d9f880ed79",
+      "slug": "saab-seaeye",
+      "entity_type": "ORGANIZATION",
+      "name": "Saab Seaeye",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Saab Seaeye is part of Saab",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "566bcad8-57c0-57bf-9959-8330a0cc2ffa",
+        "slug": "saab",
+        "entity_type": "ORGANIZATION",
+        "name": "Saab",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Affiliation observed by this date; earlier start not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8381c3e2-ad0a-54f0-bd07-2a3a1d95d4f5",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Saab Seaeye is part of Saab.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "f8637579-c9cb-57c0-a0f8-e02771c5fcaf",
+        "url": "https://www.saab.com/products/security/underwater-systems",
+        "canonical_url": null,
+        "publisher": "Saab",
+        "title": "Saab — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

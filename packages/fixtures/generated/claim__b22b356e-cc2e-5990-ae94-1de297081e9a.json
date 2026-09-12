@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "b22b356e-cc2e-5990-ae94-1de297081e9a",
+    "subject": {
+      "id": "95c149ad-c683-58ef-bd03-674f4d38b758",
+      "slug": "flex",
+      "entity_type": "ORGANIZATION",
+      "name": "Flex",
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Flex is headquartered at Austin",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c9625e94-0914-541a-a773-0c673a77a1fd",
+        "slug": "austin",
+        "entity_type": "PLACE",
+        "name": "Austin",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9aa27fc8-84c4-5bc7-b43c-46b9bf7ced03",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Flex is headquartered in Austin.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "98c2dc18-2815-555f-b33b-3892b41571ff",
+        "url": "https://flex.com/company/global-locations",
+        "canonical_url": null,
+        "publisher": "Flex",
+        "title": "Flex — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

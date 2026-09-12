@@ -1,0 +1,21 @@
+slug: textron
+entity_type: ORGANIZATION
+name: Textron
+short_description: Textron is the parent organization of Textron Systems.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-90e1c141e4951000
+    excerpt: Textron is the parent organization of Textron Systems.
+    assessment:
+      rationale: Textron is the parent organization of Textron Systems. The platform role describes involvement
+        across robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.

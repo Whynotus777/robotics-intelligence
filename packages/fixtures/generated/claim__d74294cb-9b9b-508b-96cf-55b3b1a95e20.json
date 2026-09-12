@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "d74294cb-9b9b-508b-96cf-55b3b1a95e20",
+    "subject": {
+      "id": "54bbe5f6-ee11-53c9-ba6b-2b5bb30ff799",
+      "slug": "sama",
+      "entity_type": "ORGANIZATION",
+      "name": "Sama",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Sama was founded on 2008-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2008-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2008-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "976ad59c-bf60-5aac-9dd4-d3bfe28ad971",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Sama was established in 2008 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "02508d91-8467-5121-ba63-fb526e4bc652",
+        "url": "https://www.sama.com/our-story",
+        "canonical_url": null,
+        "publisher": "Sama",
+        "title": "Sama — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

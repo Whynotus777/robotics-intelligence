@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "0b293c99-2c22-5147-8faa-992f736fa180",
+    "subject": {
+      "id": "e15a2f4c-740a-52c2-a96b-7977b51639a8",
+      "slug": "teal-drones",
+      "entity_type": "ORGANIZATION",
+      "name": "Teal Drones",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Teal Drones is part of Red Cat Holdings",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "0984054f-ddb7-5435-a2b0-3378d10477bb",
+        "slug": "red-cat-holdings",
+        "entity_type": "ORGANIZATION",
+        "name": "Red Cat Holdings",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Acquisition closing date",
+    "status": "APPROVED",
+    "valid_from": "2021-08-31",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "9c3dce0e-3014-5b5d-8b97-d242d77d5a7f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Teal Drones is part of Red Cat Holdings.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "6e5b18ea-1713-5252-a354-ef3124a69da9",
+        "url": "https://www.sec.gov/Archives/edgar/data/748268/000155479522000101/rcat0317form10q.htm",
+        "canonical_url": null,
+        "publisher": "Red Cat Holdings",
+        "title": "Red Cat Holdings — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -23,4 +23,14 @@ claims:
     confidence: HIGH
     excerpt: BHP Ventures is named as an investor in FieldAI in this company-issued disclosure.
     observed_at: '2026-09-11'
+- predicate: PART_OF
+  object: bhp
+  valid_from: '2026-09-11'
+  qualifier: Affiliation observed by this date; earlier start not asserted
+  evidence:
+  - source: enrich-789a86eba4cb0d25
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: BHP Ventures is part of BHP.
+    observed_at: '2026-09-11'
 country_code: AU

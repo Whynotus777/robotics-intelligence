@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "ca313211-5385-5520-a688-6979d35d56da",
+      "slug": "volvo-cars",
+      "entity_type": "ORGANIZATION",
+      "name": "Volvo Cars",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "bf62c99d-e552-5cc2-a3f5-738813d24ee3",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -51,6 +69,32 @@
           "stack_layer": null,
           "qualifier": null,
           "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "claims": [
+        {
+          "claim_id": "83d09d3d-266c-56b9-943d-57bc7cff5a36",
+          "predicate": "FOUNDED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2018-01-01"
+          },
+          "stack_layer": null,
+          "qualifier": "Year precision",
+          "valid_from": "2018-01-01",
           "valid_to": null,
           "observed_at": "2026-09-01T00:00:00.000Z",
           "last_verified_at": "2026-09-01T00:00:00.000Z",
@@ -93,6 +137,34 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "bf62c99d-e552-5cc2-a3f5-738813d24ee3",
+          "target": {
+            "id": "ca313211-5385-5520-a688-6979d35d56da",
+            "slug": "volvo-cars",
+            "entity_type": "ORGANIZATION",
+            "name": "Volvo Cars",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Affiliation observed by this date; earlier start not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
@@ -108,25 +180,35 @@
           "MODEL_DEVELOPER",
           "OEM"
         ]
+      },
+      {
+        "id": "ca313211-5385-5520-a688-6979d35d56da",
+        "slug": "volvo-cars",
+        "entity_type": "ORGANIZATION",
+        "name": "Volvo Cars",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
       }
     ]
   },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 4,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

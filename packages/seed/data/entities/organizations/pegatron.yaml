@@ -1,0 +1,53 @@
+slug: pegatron
+entity_type: ORGANIZATION
+name: Pegatron
+short_description: Provides electronics contract manufacturing and develops industrial quadruped robots.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: CONTRACT_MANUFACTURER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-62f5106995388559
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Provides electronics contract manufacturing and develops industrial quadruped robots.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-62f5106995388559
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Provides electronics contract manufacturing and develops industrial quadruped robots.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: taipei-tw
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-ae7d947cb0a02777
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Pegatron is headquartered in Taipei.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2007-01-01'
+  valid_from: '2007-01-01'
+  evidence:
+  - source: enrich-ae7d947cb0a02777
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Pegatron was established in 2007 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: TWSE:4938
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-ae7d947cb0a02777
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Pegatron is listed as TWSE:4938.
+    observed_at: '2026-09-11'
+country_code: TW

@@ -1,0 +1,68 @@
+{
+  "claim": {
+    "claim_id": "47140fbe-8706-5ac5-ba0d-57488550f935",
+    "subject": {
+      "id": "1761e7c8-bb57-5329-a102-9e8a6bc127fe",
+      "slug": "pegatron",
+      "entity_type": "ORGANIZATION",
+      "name": "Pegatron",
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Pegatron role CONTRACT_MANUFACTURER",
+    "value": {
+      "kind": "enum",
+      "value": "CONTRACT_MANUFACTURER"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "5cb9aa72-32ef-5c5b-b9c9-826e12ab09c7",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Provides electronics contract manufacturing and develops industrial quadruped robots.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "9d691880-a115-5543-887c-d737c0305f78",
+        "url": "https://www.pegatroncorp.com/media/20260508074846949_2025_Annual_Report_Eng.pdf",
+        "canonical_url": null,
+        "publisher": "Pegatron",
+        "title": "Pegatron — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "8bcd6d79-69d7-59cd-a74c-ce030c7d707b",
+      "value": {
+        "kind": "enum",
+        "value": "OEM"
+      },
+      "status": "APPROVED",
+      "qualifier": null,
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
+  "dependencies": []
+}

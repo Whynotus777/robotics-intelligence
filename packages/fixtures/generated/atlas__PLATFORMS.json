@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 92
+      "count": 96
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 38
+      "count": 39
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 2
+      "count": 6
     },
     {
       "id": "DEPLOYED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 29
+      "count": 33
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 20
+      "count": 23
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 10
+      "count": 13
     }
   ],
   "marks": [
@@ -87,6 +87,102 @@
             "CHIPMAKER",
             "INVESTOR",
             "MODEL_DEVELOPER",
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.68,
+      "lng": 139.69,
+      "country_code": "JP",
+      "cluster_label": "Tokyo",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+          "slug": "softbank-robotics-group",
+          "entity_type": "ORGANIZATION",
+          "name": "SoftBank Robotics Group",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        },
+        {
+          "id": "fe7b240e-f21e-5290-ba23-199f6ea0bddd",
+          "slug": "sony-group",
+          "entity_type": "ORGANIZATION",
+          "name": "Sony Group",
+          "primary_embodiment": null,
+          "roles": [
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "468b9283-363f-5917-bbd5-35104810fdfb",
+        "slug": "herzogenaurach-de",
+        "entity_type": "PLACE",
+        "name": "Herzogenaurach",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 49.56798,
+      "lng": 10.88565,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "9e64fd03-d82d-5ace-8ae3-e7174f30d6e7",
+          "slug": "schaeffler",
+          "entity_type": "ORGANIZATION",
+          "name": "Schaeffler",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "d0f013c5-5ad2-569b-a53a-9ee55d55c58b",
+        "slug": "kariya-jp",
+        "entity_type": "PLACE",
+        "name": "Kariya",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 34.98333,
+      "lng": 136.98333,
+      "country_code": "JP",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "e2dc3d1a-62cf-51f2-929c-212312152e45",
+          "slug": "denso",
+          "entity_type": "ORGANIZATION",
+          "name": "Denso",
+          "primary_embodiment": null,
+          "roles": [
             "PLATFORM"
           ]
         }
@@ -244,35 +340,6 @@
     },
     {
       "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 35.68,
-      "lng": 139.69,
-      "country_code": "JP",
-      "cluster_label": "Tokyo",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
-          "slug": "softbank-robotics-group",
-          "entity_type": "ORGANIZATION",
-          "name": "SoftBank Robotics Group",
-          "primary_embodiment": null,
-          "roles": [
-            "INVESTOR",
-            "PLATFORM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "fe8488ed-8f7c-51e0-94fe-dfa30e931949",
         "slug": "toyota-city",
         "entity_type": "PLACE",
@@ -311,14 +378,20 @@
     {
       "id": "JP",
       "label": "JP",
-      "weight": 2,
-      "places": 2
+      "weight": 4,
+      "places": 3
     },
     {
       "id": "KR",
       "label": "KR",
       "weight": 2,
       "places": 2
+    },
+    {
+      "id": "DE",
+      "label": "DE",
+      "weight": 1,
+      "places": 1
     }
   ],
   "corridors": [
@@ -335,6 +408,12 @@
       "places": 2
     },
     {
+      "id": "Tokyo",
+      "label": "Tokyo",
+      "weight": 2,
+      "places": 1
+    },
+    {
       "id": "Nagoya",
       "label": "Nagoya",
       "weight": 1,
@@ -349,12 +428,6 @@
     {
       "id": "Seoul capital area",
       "label": "Seoul capital area",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "Tokyo",
-      "label": "Tokyo",
       "weight": 1,
       "places": 1
     }
@@ -423,6 +496,88 @@
         "slug": "bay-area",
         "entity_type": "PLACE",
         "name": "San Francisco Bay Area",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+        "slug": "softbank-robotics-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Robotics Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "fe7b240e-f21e-5290-ba23-199f6ea0bddd",
+        "slug": "sony-group",
+        "entity_type": "ORGANIZATION",
+        "name": "Sony Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9e64fd03-d82d-5ace-8ae3-e7174f30d6e7",
+        "slug": "schaeffler",
+        "entity_type": "ORGANIZATION",
+        "name": "Schaeffler",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "468b9283-363f-5917-bbd5-35104810fdfb",
+        "slug": "herzogenaurach-de",
+        "entity_type": "PLACE",
+        "name": "Herzogenaurach",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e2dc3d1a-62cf-51f2-929c-212312152e45",
+        "slug": "denso",
+        "entity_type": "ORGANIZATION",
+        "name": "Denso",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "d0f013c5-5ad2-569b-a53a-9ee55d55c58b",
+        "slug": "kariya-jp",
+        "entity_type": "PLACE",
+        "name": "Kariya",
         "primary_embodiment": null,
         "roles": []
       }
@@ -532,27 +687,6 @@
         "slug": "suwon",
         "entity_type": "PLACE",
         "name": "Suwon",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
-        "slug": "softbank-robotics-group",
-        "entity_type": "ORGANIZATION",
-        "name": "SoftBank Robotics Group",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR",
-          "PLATFORM"
-        ]
-      },
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
         "primary_embodiment": null,
         "roles": []
       }

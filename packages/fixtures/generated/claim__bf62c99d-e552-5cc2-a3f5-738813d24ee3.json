@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "bf62c99d-e552-5cc2-a3f5-738813d24ee3",
+    "subject": {
+      "id": "3bc458c8-b62e-55de-bf93-a6b6d76ad046",
+      "slug": "volvo-cars-tech-fund",
+      "entity_type": "ORGANIZATION",
+      "name": "Volvo Cars Tech Fund",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Volvo Cars Tech Fund is part of Volvo Cars",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "ca313211-5385-5520-a688-6979d35d56da",
+        "slug": "volvo-cars",
+        "entity_type": "ORGANIZATION",
+        "name": "Volvo Cars",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Affiliation observed by this date; earlier start not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "60842b80-9e56-5931-a9e0-2749f97cbd8c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Volvo Cars Tech Fund is part of Volvo Cars.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "325aa572-81cb-52f0-9d3c-2b39c93df20f",
+        "url": "https://www.volvocars.com/intl/news/technology/Proactive_scouting_for_the_latest_tech/",
+        "canonical_url": null,
+        "publisher": "Volvo Cars",
+        "title": "Volvo Cars — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

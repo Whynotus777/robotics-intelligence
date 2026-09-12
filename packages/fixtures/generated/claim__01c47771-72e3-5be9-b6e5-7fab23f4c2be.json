@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "01c47771-72e3-5be9-b6e5-7fab23f4c2be",
+    "subject": {
+      "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+      "slug": "woven-by-toyota",
+      "entity_type": "ORGANIZATION",
+      "name": "Woven by Toyota",
+      "primary_embodiment": null,
+      "roles": [
+        "RESEARCH_LAB",
+        "TOOLING_OPS_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Woven by Toyota was founded on 2023-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2023-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2023-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3c9b2971-0e29-5887-89d6-b037afca6a56",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Woven by Toyota was established in 2023 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8e02f63f-2788-521a-94b1-130d2a5a7018",
+        "url": "https://woven.toyota/en/company/profile/",
+        "canonical_url": null,
+        "publisher": "Toyota Motor Corporation",
+        "title": "Toyota Motor Corporation — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

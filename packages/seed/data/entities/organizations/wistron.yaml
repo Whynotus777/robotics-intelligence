@@ -1,0 +1,53 @@
+slug: wistron
+entity_type: ORGANIZATION
+name: Wistron
+short_description: Provides contract manufacturing and develops Wifundity autonomous mobile and service robots.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: CONTRACT_MANUFACTURER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-c5c12430be3e524e
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Provides contract manufacturing and develops Wifundity autonomous mobile and service robots.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: OEM
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-c5c12430be3e524e
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Provides contract manufacturing and develops Wifundity autonomous mobile and service robots.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: new-taipei-tw
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-f24d297a9a6e1656
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Wistron is headquartered in New Taipei.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2001-01-01'
+  valid_from: '2001-01-01'
+  evidence:
+  - source: enrich-f24d297a9a6e1656
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Wistron was established in 2001 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+- predicate: HAS_TICKER
+  text: TWSE:3231
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-f24d297a9a6e1656
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Wistron is listed as TWSE:3231.
+    observed_at: '2026-09-11'
+country_code: TW

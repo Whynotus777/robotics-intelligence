@@ -50,6 +50,20 @@
       },
       "since": "2026-01-05",
       "claim_id": "1fe6149e-933a-5e1a-b046-eb149cfb2590"
+    },
+    {
+      "organization": {
+        "id": "72f51d3a-e543-55db-97e9-73e9980cdf4d",
+        "slug": "qualcomm-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "Qualcomm Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "since": "2026-09-11",
+      "claim_id": "f7e0a2fa-1e38-5bb6-92a0-c6e569fc007a"
     }
   ],
   "cached": {
@@ -215,6 +229,28 @@
             "confidence": "HIGH",
             "source_count": 1
           }
+        },
+        {
+          "claim_id": "f7e0a2fa-1e38-5bb6-92a0-c6e569fc007a",
+          "source": {
+            "id": "72f51d3a-e543-55db-97e9-73e9980cdf4d",
+            "slug": "qualcomm-ventures",
+            "entity_type": "ORGANIZATION",
+            "name": "Qualcomm Ventures",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Affiliation observed by this date; earlier start not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
         }
       ]
     },
@@ -256,6 +292,16 @@
         "roles": [
           "TOOLING_OPS_PROVIDER"
         ]
+      },
+      {
+        "id": "72f51d3a-e543-55db-97e9-73e9980cdf4d",
+        "slug": "qualcomm-ventures",
+        "entity_type": "ORGANIZATION",
+        "name": "Qualcomm Ventures",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
       }
     ],
     "places": [
@@ -284,7 +330,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 4
   },
   "as_of": null
 }

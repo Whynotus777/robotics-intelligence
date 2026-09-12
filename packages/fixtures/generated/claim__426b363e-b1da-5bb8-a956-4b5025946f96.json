@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "426b363e-b1da-5bb8-a956-4b5025946f96",
+    "subject": {
+      "id": "1761e7c8-bb57-5329-a102-9e8a6bc127fe",
+      "slug": "pegatron",
+      "entity_type": "ORGANIZATION",
+      "name": "Pegatron",
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER",
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Pegatron was founded on 2007-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2007-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2007-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "59a48028-32aa-5d85-94f2-b9dd7b51d59e",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Pegatron was established in 2007 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "fda64719-52f8-5289-84a9-2bb58035c1d2",
+        "url": "https://www.wikidata.org/wiki/Q4046573",
+        "canonical_url": null,
+        "publisher": "Pegatron",
+        "title": "Pegatron — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

@@ -25,7 +25,25 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "0984054f-ddb7-5435-a2b0-3378d10477bb",
+      "slug": "red-cat-holdings",
+      "entity_type": "ORGANIZATION",
+      "name": "Red Cat Holdings",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "since": "2021-08-31",
+    "claim_id": "0b293c99-2c22-5147-8faa-992f736fa180",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -90,25 +108,67 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "0b293c99-2c22-5147-8faa-992f736fa180",
+          "target": {
+            "id": "0984054f-ddb7-5435-a2b0-3378d10477bb",
+            "slug": "red-cat-holdings",
+            "entity_type": "ORGANIZATION",
+            "name": "Red Cat Holdings",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Acquisition closing date",
+          "valid_from": "2021-08-31",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [],
-  "lateral_links": {},
+  "lateral_links": {
+    "company": [
+      {
+        "id": "0984054f-ddb7-5435-a2b0-3378d10477bb",
+        "slug": "red-cat-holdings",
+        "entity_type": "ORGANIZATION",
+        "name": "Red Cat Holdings",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 3,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 2,
+      "claim_count": 3,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 2,
+    "recent_change_count": 3,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

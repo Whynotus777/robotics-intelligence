@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "2779c4dd-52aa-543e-b07c-ad8954b325ac",
+    "subject": {
+      "id": "7aae523c-6f4e-552a-a767-829405e0915e",
+      "slug": "bhp",
+      "entity_type": "ORGANIZATION",
+      "name": "BHP",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "BHP role INVESTOR",
+    "value": {
+      "kind": "enum",
+      "value": "INVESTOR"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "f59516c1-5a0c-53f3-9f57-ec678f636594",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "BHP is the parent organization of BHP Ventures.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bc127db3-1258-58ac-b99c-27808275be67",
+        "url": "https://www.bhp.com/about/our-businesses",
+        "canonical_url": null,
+        "publisher": "BHP",
+        "title": "BHP — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

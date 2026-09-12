@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "c634f2c0-7bfe-52b6-b473-d961dcbc966c",
+    "subject": {
+      "id": "7011e5b3-984a-5b0d-978f-22fb13c72595",
+      "slug": "nsk",
+      "entity_type": "ORGANIZATION",
+      "name": "NSK",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "NSK was founded on 1916-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1916-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1916-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "57172d64-5a8f-583c-aab7-2f42857014ff",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "NSK was established in 1916 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "4b687dfc-b5ce-5bf7-99b9-d69f34818a9a",
+        "url": "https://www.nsk.com/company/",
+        "canonical_url": null,
+        "publisher": "NSK",
+        "title": "NSK — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

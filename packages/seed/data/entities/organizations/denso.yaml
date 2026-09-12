@@ -19,3 +19,23 @@ claims:
       - Sustained robotics activity across three roles or controlled subsidiaries.
       regress_criteria:
       - Robotics involvement contracts to a single product or passive holding.
+- predicate: HQ_AT
+  object: kariya-jp
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-50e2fc00a87f4632
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Denso is headquartered in Kariya.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1949-01-01'
+  valid_from: '1949-01-01'
+  evidence:
+  - source: enrich-50e2fc00a87f4632
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Denso was established in 1949 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: JP

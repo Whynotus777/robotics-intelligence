@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 92
+      "count": 96
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 38
+      "count": 39
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 2
+      "count": 6
     },
     {
       "id": "DEPLOYED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 29
+      "count": 33
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 20
+      "count": 23
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 10
+      "count": 13
     }
   ],
   "marks": [
@@ -199,6 +199,35 @@
     },
     {
       "place": {
+        "id": "468b9283-363f-5917-bbd5-35104810fdfb",
+        "slug": "herzogenaurach-de",
+        "entity_type": "PLACE",
+        "name": "Herzogenaurach",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 49.56798,
+      "lng": 10.88565,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "9e64fd03-d82d-5ace-8ae3-e7174f30d6e7",
+          "slug": "schaeffler",
+          "entity_type": "ORGANIZATION",
+          "name": "Schaeffler",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
         "slug": "london",
         "entity_type": "PLACE",
@@ -284,6 +313,34 @@
     },
     {
       "place": {
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
+        "entity_type": "PLACE",
+        "name": "Mountain View",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.38605,
+      "lng": -122.08385,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "8bfe1d52-c20f-51c7-a7c8-d3d3a9bb73e7",
+          "slug": "capitalg",
+          "entity_type": "ORGANIZATION",
+          "name": "CapitalG",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "2588e14b-b3ca-531f-9426-d37179a708a6",
         "slug": "redmond",
         "entity_type": "PLACE",
@@ -307,6 +364,34 @@
             "INVESTOR",
             "PLATFORM",
             "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.77493,
+      "lng": -122.41942,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "c906ef27-da2f-5c6e-8413-0e16d30f66d4",
+          "slug": "openai",
+          "entity_type": "ORGANIZATION",
+          "name": "OpenAI",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR"
           ]
         }
       ],
@@ -550,8 +635,8 @@
     {
       "id": "US",
       "label": "US",
-      "weight": 11,
-      "places": 7
+      "weight": 13,
+      "places": 9
     },
     {
       "id": "JP",
@@ -568,6 +653,12 @@
     {
       "id": "CA",
       "label": "CA",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "DE",
+      "label": "DE",
       "weight": 1,
       "places": 1
     },
@@ -810,6 +901,27 @@
     },
     {
       "entity": {
+        "id": "9e64fd03-d82d-5ace-8ae3-e7174f30d6e7",
+        "slug": "schaeffler",
+        "entity_type": "ORGANIZATION",
+        "name": "Schaeffler",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "468b9283-363f-5917-bbd5-35104810fdfb",
+        "slug": "herzogenaurach-de",
+        "entity_type": "PLACE",
+        "name": "Herzogenaurach",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "95fd39fc-efd6-5dbd-a11c-f2d9c038d928",
         "slug": "balderton-capital",
         "entity_type": "ORGANIZATION",
@@ -871,6 +983,26 @@
     },
     {
       "entity": {
+        "id": "8bfe1d52-c20f-51c7-a7c8-d3d3a9bb73e7",
+        "slug": "capitalg",
+        "entity_type": "ORGANIZATION",
+        "name": "CapitalG",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
+        "entity_type": "PLACE",
+        "name": "Mountain View",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "7015787f-4e5d-58a6-ae0c-112ce87d4c60",
         "slug": "microsoft",
         "entity_type": "ORGANIZATION",
@@ -887,6 +1019,26 @@
         "slug": "redmond",
         "entity_type": "PLACE",
         "name": "Redmond",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "c906ef27-da2f-5c6e-8413-0e16d30f66d4",
+        "slug": "openai",
+        "entity_type": "ORGANIZATION",
+        "name": "OpenAI",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
         "primary_embodiment": null,
         "roles": []
       }

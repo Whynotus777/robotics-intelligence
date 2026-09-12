@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "9bcae282-635b-5ddc-b27a-47b351ac9dff",
+    "subject": {
+      "id": "1697924f-740e-5079-99ae-4174e704d155",
+      "slug": "sumitomo-heavy-industries",
+      "entity_type": "ORGANIZATION",
+      "name": "Sumitomo Heavy Industries",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Sumitomo Heavy Industries is headquartered at Tokyo",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ec32c010-2e0f-59c9-8941-0c952fde140b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Sumitomo Heavy Industries is headquartered in Tokyo.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8380245c-768f-55e1-8941-2bef0e38e7d7",
+        "url": "https://japan.sumitomodrive.com/en-jp/page/company-profile-0",
+        "canonical_url": null,
+        "publisher": "Sumitomo Heavy Industries",
+        "title": "Sumitomo Heavy Industries — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

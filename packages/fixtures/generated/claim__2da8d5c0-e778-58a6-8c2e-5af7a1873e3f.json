@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "2da8d5c0-e778-58a6-8c2e-5af7a1873e3f",
+    "subject": {
+      "id": "fd3fa421-aff0-5f6b-bbbf-c0e511d7ac52",
+      "slug": "wing",
+      "entity_type": "ORGANIZATION",
+      "name": "Wing",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM",
+        "OPERATOR"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Wing was founded on 2012-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2012-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2012-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "91f9eadf-9fce-5ebd-9fc6-b54aa01b43ea",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Wing was established in 2012 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "c2f87543-c88f-5513-a0f4-d288f80e8558",
+        "url": "https://wing.com/about",
+        "canonical_url": null,
+        "publisher": "Alphabet",
+        "title": "Alphabet — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

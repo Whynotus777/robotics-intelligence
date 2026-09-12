@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "5cbdb281-d4f1-5709-9242-5a2d20c2b619",
+    "subject": {
+      "id": "1761e7c8-bb57-5329-a102-9e8a6bc127fe",
+      "slug": "pegatron",
+      "entity_type": "ORGANIZATION",
+      "name": "Pegatron",
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "Pegatron stock ticker TWSE:4938",
+    "value": {
+      "kind": "text",
+      "text": "TWSE:4938"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "971b8abb-dfd2-5295-954e-d381c741f0ca",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Pegatron is listed as TWSE:4938.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "fda64719-52f8-5289-84a9-2bb58035c1d2",
+        "url": "https://www.wikidata.org/wiki/Q4046573",
+        "canonical_url": null,
+        "publisher": "Pegatron",
+        "title": "Pegatron — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

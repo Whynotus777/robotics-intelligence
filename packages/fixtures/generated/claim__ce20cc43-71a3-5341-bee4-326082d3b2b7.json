@@ -1,0 +1,67 @@
+{
+  "claim": {
+    "claim_id": "ce20cc43-71a3-5341-bee4-326082d3b2b7",
+    "subject": {
+      "id": "74cfa3fd-d6ec-573a-bcce-c144f970e6ba",
+      "slug": "nebius",
+      "entity_type": "ORGANIZATION",
+      "name": "Nebius",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HAS_ROLE",
+    "label": "role",
+    "sentence": "Nebius role PLATFORM",
+    "value": {
+      "kind": "enum",
+      "value": "PLATFORM"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "ed6212c2-25e1-5fa5-9e7b-b3ca653541a9",
+      "class": "ANALYST",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Nebius is the parent organization of Avride.",
+      "published_at": null,
+      "observed_at": "2026-09-01T00:00:00.000Z",
+      "source": {
+        "id": "8daf3f99-15cd-57ca-9d37-14920f8a60a9",
+        "url": "https://nebius.com/newsroom/nebius-reports-second-quarter-2026-financial-results",
+        "canonical_url": null,
+        "publisher": "Nebius",
+        "title": "Nebius — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": {
+        "author": "editorial",
+        "rationale": "Nebius is the parent organization of Avride. The platform role describes involvement across robotics businesses and technologies.",
+        "advance_criteria": [
+          "Sustained robotics activity across three roles or controlled subsidiaries."
+        ],
+        "regress_criteria": [
+          "Robotics involvement contracts to a single product or passive holding."
+        ],
+        "evidence_considered": [],
+        "reviewed_at": "2026-09-01T00:00:00.000Z",
+        "notes": null
+      }
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

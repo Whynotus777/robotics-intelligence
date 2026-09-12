@@ -1,0 +1,15 @@
+slug: timken
+entity_type: ORGANIZATION
+name: Timken
+short_description: Timken is the parent organization of Spinea.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: COMPONENT_SUPPLIER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-409ce3b1c20d9d9b
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Timken is the parent organization of Spinea.
+    observed_at: '2026-09-11'

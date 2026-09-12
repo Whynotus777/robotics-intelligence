@@ -36,7 +36,22 @@
     }
   ],
   "part_of": null,
-  "subsidiaries": [],
+  "subsidiaries": [
+    {
+      "organization": {
+        "id": "dd23c052-5b08-5fc3-8727-53290033126b",
+        "slug": "honeywell-intelligrated",
+        "entity_type": "ORGANIZATION",
+        "name": "Honeywell Intelligrated",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR"
+        ]
+      },
+      "since": "2016-08-30",
+      "claim_id": "90ddbcf4-fa78-5d3f-98b7-5763d9124288"
+    }
+  ],
   "cached": {
     "commercial_stage": null,
     "height_m": null,
@@ -95,8 +110,50 @@
     }
   ],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "90ddbcf4-fa78-5d3f-98b7-5763d9124288",
+          "source": {
+            "id": "dd23c052-5b08-5fc3-8727-53290033126b",
+            "slug": "honeywell-intelligrated",
+            "entity_type": "ORGANIZATION",
+            "name": "Honeywell Intelligrated",
+            "primary_embodiment": null,
+            "roles": [
+              "INTEGRATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Acquisition closing date",
+          "valid_from": "2016-08-30",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "dd23c052-5b08-5fc3-8727-53290033126b",
+        "slug": "honeywell-intelligrated",
+        "entity_type": "ORGANIZATION",
+        "name": "Honeywell Intelligrated",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -112,7 +169,7 @@
     "last_verified_at": "2026-09-01T00:00:00.000Z",
     "recent_change_count": 2,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 1
   },
   "as_of": null
 }

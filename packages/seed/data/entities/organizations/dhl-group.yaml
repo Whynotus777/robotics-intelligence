@@ -1,0 +1,15 @@
+slug: dhl-group
+entity_type: ORGANIZATION
+name: DHL Group
+short_description: DHL Group is the parent organization of DHL Supply Chain.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-0d4d82a8daaf5a07
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: DHL Group is the parent organization of DHL Supply Chain.
+    observed_at: '2026-09-11'

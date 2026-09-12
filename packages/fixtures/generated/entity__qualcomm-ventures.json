@@ -25,7 +25,26 @@
       }
     }
   ],
-  "part_of": null,
+  "part_of": {
+    "parent": {
+      "id": "d41554ca-2df4-5f8b-be56-0be5ce3df101",
+      "slug": "qualcomm",
+      "entity_type": "ORGANIZATION",
+      "name": "Qualcomm",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "COMPONENT_SUPPLIER"
+      ]
+    },
+    "since": "2026-09-11",
+    "claim_id": "f7e0a2fa-1e38-5bb6-92a0-c6e569fc007a",
+    "evidence_summary": {
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "source_count": 1
+    }
+  },
   "subsidiaries": [],
   "cached": {
     "commercial_stage": null,
@@ -119,6 +138,35 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "PART_OF",
+      "label": "is part of",
+      "items": [
+        {
+          "claim_id": "f7e0a2fa-1e38-5bb6-92a0-c6e569fc007a",
+          "target": {
+            "id": "d41554ca-2df4-5f8b-be56-0be5ce3df101",
+            "slug": "qualcomm",
+            "entity_type": "ORGANIZATION",
+            "name": "Qualcomm",
+            "primary_embodiment": null,
+            "roles": [
+              "CHIPMAKER",
+              "COMPONENT_SUPPLIER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Affiliation observed by this date; earlier start not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "inbound_relationships": [],
@@ -134,25 +182,36 @@
           "MODEL_DEVELOPER",
           "OEM"
         ]
+      },
+      {
+        "id": "d41554ca-2df4-5f8b-be56-0be5ce3df101",
+        "slug": "qualcomm",
+        "entity_type": "ORGANIZATION",
+        "name": "Qualcomm",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
       }
     ]
   },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 3,
         "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

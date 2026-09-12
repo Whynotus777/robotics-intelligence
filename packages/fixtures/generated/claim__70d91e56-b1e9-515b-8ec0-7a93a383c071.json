@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "70d91e56-b1e9-515b-8ec0-7a93a383c071",
+    "subject": {
+      "id": "fe7b240e-f21e-5290-ba23-199f6ea0bddd",
+      "slug": "sony-group",
+      "entity_type": "ORGANIZATION",
+      "name": "Sony Group",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Sony Group was founded on 1946-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1946-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1946-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a6af2ff8-43e6-52bd-aa61-7ba8d1557619",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Sony Group was established in 1946 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "7134b2d4-d1b9-5df8-9766-81e1f698fe99",
+        "url": "https://www.wikidata.org/wiki/Q41187",
+        "canonical_url": null,
+        "publisher": "Sony Group",
+        "title": "Sony Group — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

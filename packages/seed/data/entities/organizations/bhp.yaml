@@ -1,0 +1,15 @@
+slug: bhp
+entity_type: ORGANIZATION
+name: BHP
+short_description: BHP is the parent organization of BHP Ventures.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: INVESTOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-789a86eba4cb0d25
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: BHP is the parent organization of BHP Ventures.
+    observed_at: '2026-09-11'

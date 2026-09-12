@@ -1,0 +1,43 @@
+slug: flex
+entity_type: ORGANIZATION
+name: Flex
+short_description: Manufactures robotics components and deploys robotic automation across its production facilities.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: CONTRACT_MANUFACTURER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-4d3a1876423ca817
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Manufactures robotics components and deploys robotic automation across its production facilities.
+    observed_at: '2026-09-11'
+- predicate: HAS_ROLE
+  enum: OPERATOR
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-4d3a1876423ca817
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Manufactures robotics components and deploys robotic automation across its production facilities.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: austin
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-0d00898eea057f21
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Flex is headquartered in Austin.
+    observed_at: '2026-09-11'
+- predicate: HAS_TICKER
+  text: NASDAQ:FLEX
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-4d3a1876423ca817
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Flex is listed as NASDAQ:FLEX.
+    observed_at: '2026-09-11'
+country_code: US

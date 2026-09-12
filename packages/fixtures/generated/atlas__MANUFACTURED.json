@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 92
+      "count": 96
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 38
+      "count": 39
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 2
+      "count": 6
     },
     {
       "id": "DEPLOYED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 29
+      "count": 33
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 20
+      "count": 23
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 10
+      "count": 13
     }
   ],
   "marks": [
@@ -51,13 +51,93 @@
       "lng": 121.45703,
       "country_code": "TW",
       "cluster_label": null,
-      "weight": 1,
+      "weight": 2,
       "entities": [
         {
           "id": "3dd79380-d3dd-5f4c-9691-75e3e947eb84",
           "slug": "foxconn",
           "entity_type": "ORGANIZATION",
           "name": "Foxconn",
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER",
+            "OPERATOR"
+          ]
+        },
+        {
+          "id": "3c1f275d-fda4-5aa9-9764-84860ceda8e5",
+          "slug": "wistron",
+          "entity_type": "ORGANIZATION",
+          "name": "Wistron",
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "f8998de8-0c4f-559d-bec7-aca3c9ea2c1e",
+        "slug": "taipei-tw",
+        "entity_type": "PLACE",
+        "name": "Taipei",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 25.05306,
+      "lng": 121.52639,
+      "country_code": "TW",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "e25902f3-80a9-58ff-bc2c-a67d4b0e38fc",
+          "slug": "inventec",
+          "entity_type": "ORGANIZATION",
+          "name": "Inventec",
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER",
+            "INTEGRATOR"
+          ]
+        },
+        {
+          "id": "1761e7c8-bb57-5329-a102-9e8a6bc127fe",
+          "slug": "pegatron",
+          "entity_type": "ORGANIZATION",
+          "name": "Pegatron",
+          "primary_embodiment": null,
+          "roles": [
+            "CONTRACT_MANUFACTURER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c9625e94-0914-541a-a773-0c673a77a1fd",
+        "slug": "austin",
+        "entity_type": "PLACE",
+        "name": "Austin",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 30.27,
+      "lng": -97.74,
+      "country_code": "US",
+      "cluster_label": "Austin",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "95c149ad-c683-58ef-bd03-674f4d38b758",
+          "slug": "flex",
+          "entity_type": "ORGANIZATION",
+          "name": "Flex",
           "primary_embodiment": null,
           "roles": [
             "CONTRACT_MANUFACTURER",
@@ -100,17 +180,24 @@
     {
       "id": "TW",
       "label": "TW",
-      "weight": 1,
-      "places": 1
+      "weight": 4,
+      "places": 2
     },
     {
       "id": "US",
       "label": "US",
+      "weight": 2,
+      "places": 2
+    }
+  ],
+  "corridors": [
+    {
+      "id": "Austin",
+      "label": "Austin",
       "weight": 1,
       "places": 1
     }
   ],
-  "corridors": [],
   "list": [
     {
       "entity": {
@@ -129,6 +216,90 @@
         "slug": "new-taipei-tw",
         "entity_type": "PLACE",
         "name": "New Taipei",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3c1f275d-fda4-5aa9-9764-84860ceda8e5",
+        "slug": "wistron",
+        "entity_type": "ORGANIZATION",
+        "name": "Wistron",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "089d105e-024f-5c17-a3a2-f80bb0cc5bb8",
+        "slug": "new-taipei-tw",
+        "entity_type": "PLACE",
+        "name": "New Taipei",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e25902f3-80a9-58ff-bc2c-a67d4b0e38fc",
+        "slug": "inventec",
+        "entity_type": "ORGANIZATION",
+        "name": "Inventec",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "INTEGRATOR"
+        ]
+      },
+      "place": {
+        "id": "f8998de8-0c4f-559d-bec7-aca3c9ea2c1e",
+        "slug": "taipei-tw",
+        "entity_type": "PLACE",
+        "name": "Taipei",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "1761e7c8-bb57-5329-a102-9e8a6bc127fe",
+        "slug": "pegatron",
+        "entity_type": "ORGANIZATION",
+        "name": "Pegatron",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "f8998de8-0c4f-559d-bec7-aca3c9ea2c1e",
+        "slug": "taipei-tw",
+        "entity_type": "PLACE",
+        "name": "Taipei",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "95c149ad-c683-58ef-bd03-674f4d38b758",
+        "slug": "flex",
+        "entity_type": "ORGANIZATION",
+        "name": "Flex",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OPERATOR"
+        ]
+      },
+      "place": {
+        "id": "c9625e94-0914-541a-a773-0c673a77a1fd",
+        "slug": "austin",
+        "entity_type": "PLACE",
+        "name": "Austin",
         "primary_embodiment": null,
         "roles": []
       }

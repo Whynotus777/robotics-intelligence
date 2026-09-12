@@ -1,0 +1,35 @@
+slug: sumitomo-heavy-industries
+entity_type: ORGANIZATION
+name: Sumitomo Heavy Industries
+short_description: Sumitomo Heavy Industries is the parent organization of Sumitomo Drive Technologies.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: COMPONENT_SUPPLIER
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-607345d6b7c86106
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Sumitomo Heavy Industries is the parent organization of Sumitomo Drive Technologies.
+    observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: tokyo
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-607345d6b7c86106
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Sumitomo Heavy Industries is headquartered in Tokyo.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1888-01-01'
+  valid_from: '1888-01-01'
+  evidence:
+  - source: enrich-607345d6b7c86106
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Sumitomo Heavy Industries was established in 1888 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+country_code: JP

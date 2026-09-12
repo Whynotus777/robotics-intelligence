@@ -83,6 +83,29 @@
           }
         },
         {
+          "claim_id": "b22b356e-cc2e-5990-ae94-1de297081e9a",
+          "source": {
+            "id": "95c149ad-c683-58ef-bd03-674f4d38b758",
+            "slug": "flex",
+            "entity_type": "ORGANIZATION",
+            "name": "Flex",
+            "primary_embodiment": null,
+            "roles": [
+              "CONTRACT_MANUFACTURER",
+              "OPERATOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "caa64839-8509-584d-bdb4-a7716243c3fd",
           "source": {
             "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
@@ -130,6 +153,17 @@
         ]
       },
       {
+        "id": "95c149ad-c683-58ef-bd03-674f4d38b758",
+        "slug": "flex",
+        "entity_type": "ORGANIZATION",
+        "name": "Flex",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OPERATOR"
+        ]
+      },
+      {
         "id": "9e961ded-7c6b-5347-bdcf-83442ca898c1",
         "slug": "fox-robotics",
         "entity_type": "ORGANIZATION",
@@ -156,7 +190,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 3
+    "related_count": 4
   },
   "as_of": null
 }

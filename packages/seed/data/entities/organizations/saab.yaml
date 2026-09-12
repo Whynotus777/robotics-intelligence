@@ -1,0 +1,21 @@
+slug: saab
+entity_type: ORGANIZATION
+name: Saab
+short_description: Saab is the parent organization of Saab Seaeye.
+depth_tier: DISCOVERY
+claims:
+- predicate: HAS_ROLE
+  enum: PLATFORM
+  valid_from: '2026-09-11'
+  evidence:
+  - class: ANALYST
+    confidence: MEDIUM
+    source: enrich-788df024d26c1f61
+    excerpt: Saab is the parent organization of Saab Seaeye.
+    assessment:
+      rationale: Saab is the parent organization of Saab Seaeye. The platform role describes involvement across
+        robotics businesses and technologies.
+      advance_criteria:
+      - Sustained robotics activity across three roles or controlled subsidiaries.
+      regress_criteria:
+      - Robotics involvement contracts to a single product or passive holding.

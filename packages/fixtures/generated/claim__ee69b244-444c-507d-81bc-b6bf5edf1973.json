@@ -1,0 +1,65 @@
+{
+  "claim": {
+    "claim_id": "ee69b244-444c-507d-81bc-b6bf5edf1973",
+    "subject": {
+      "id": "23cde64f-41d4-50bd-8fbc-1457defe3fe6",
+      "slug": "aethon",
+      "entity_type": "ORGANIZATION",
+      "name": "Aethon",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "PART_OF",
+    "label": "is part of",
+    "sentence": "Aethon is part of ST Engineering",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "eaa12373-f6c5-5544-998b-9655a798e061",
+        "slug": "st-engineering",
+        "entity_type": "ORGANIZATION",
+        "name": "ST Engineering",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Affiliation observed by this date; earlier start not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "907890c7-1aa8-526d-9c9a-b5e10d4e7c40",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Aethon is part of ST Engineering.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3ea7dfd0-8c8e-5f20-b8f5-ba485d4b1d9f",
+        "url": "https://aethon.com/blog/",
+        "canonical_url": null,
+        "publisher": "ST Engineering",
+        "title": "ST Engineering — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

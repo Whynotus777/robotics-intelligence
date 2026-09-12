@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "0f56e060-6e8c-5742-b2d6-edad9928548a",
+    "subject": {
+      "id": "73cf429c-ed6e-57e4-b5b9-e516a44f1a16",
+      "slug": "manus",
+      "entity_type": "ORGANIZATION",
+      "name": "MANUS",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "MANUS was founded on 2014-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2014-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2014-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "1dff71f2-2075-5cb1-b0ad-9fa1370da93c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "MANUS was established in 2014 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "4ef73752-fb22-5160-b1b6-73b17c3b079a",
+        "url": "https://www.manus-meta.com/about-us",
+        "canonical_url": null,
+        "publisher": "MANUS",
+        "title": "MANUS — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

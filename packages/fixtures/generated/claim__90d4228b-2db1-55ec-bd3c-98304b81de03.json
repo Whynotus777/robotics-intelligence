@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "90d4228b-2db1-55ec-bd3c-98304b81de03",
+    "subject": {
+      "id": "9e64fd03-d82d-5ace-8ae3-e7174f30d6e7",
+      "slug": "schaeffler",
+      "entity_type": "ORGANIZATION",
+      "name": "Schaeffler",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Schaeffler was founded on 1946-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1946-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1946-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "da75b811-c9a9-5a7c-a4a7-dfac36a54eb6",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Schaeffler was established in 1946 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "275386fc-6c0b-563d-a714-c0d7a3ecce5c",
+        "url": "https://www.wikidata.org/wiki/Q459367",
+        "canonical_url": null,
+        "publisher": "Schaeffler",
+        "title": "Schaeffler — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

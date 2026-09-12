@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "76a8081e-2d6f-5790-af70-a4bedd66e767",
+    "subject": {
+      "id": "e2dc3d1a-62cf-51f2-929c-212312152e45",
+      "slug": "denso",
+      "entity_type": "ORGANIZATION",
+      "name": "Denso",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Denso was founded on 1949-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1949-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1949-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "081c318e-fb31-5ec6-a676-ebeb4d19b563",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Denso was established in 1949 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1e358dec-6ef2-523d-a279-8ad026279398",
+        "url": "https://www.wikidata.org/wiki/Q176508",
+        "canonical_url": null,
+        "publisher": "Denso",
+        "title": "Denso — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

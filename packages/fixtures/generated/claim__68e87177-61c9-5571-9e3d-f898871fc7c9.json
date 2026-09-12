@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "68e87177-61c9-5571-9e3d-f898871fc7c9",
+    "subject": {
+      "id": "3c1f275d-fda4-5aa9-9764-84860ceda8e5",
+      "slug": "wistron",
+      "entity_type": "ORGANIZATION",
+      "name": "Wistron",
+      "primary_embodiment": null,
+      "roles": [
+        "CONTRACT_MANUFACTURER",
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Wistron was founded on 2001-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2001-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2001-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d31d699a-f940-5c87-898b-2ff6a8f4da32",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Wistron was established in 2001 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "40d642d8-cf03-5231-9f17-d2fbae1cef01",
+        "url": "https://www.wikidata.org/wiki/Q441821",
+        "canonical_url": null,
+        "publisher": "Wistron",
+        "title": "Wistron — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

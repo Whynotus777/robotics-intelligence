@@ -208,6 +208,34 @@
       "origin": "SEED"
     },
     {
+      "id": "04a32878-6caf-553d-9477-ff463ca90a6a",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "e25902f3-80a9-58ff-bc2c-a67d4b0e38fc",
+        "slug": "inventec",
+        "entity_type": "ORGANIZATION",
+        "name": "Inventec",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "INTEGRATOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "CONTRACT_MANUFACTURER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Contract manufacturer",
+      "origin": "SEED"
+    },
+    {
       "id": "05188cb4-700d-50fb-8148-7dcdc6b55c53",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -462,6 +490,42 @@
       "origin": "SEED"
     },
     {
+      "id": "07c2cf66-716d-57ef-a716-dde0626d7cf0",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "e25902f3-80a9-58ff-bc2c-a67d4b0e38fc",
+        "slug": "inventec",
+        "entity_type": "ORGANIZATION",
+        "name": "Inventec",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "INTEGRATOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "entity",
+        "entity": {
+          "id": "f8998de8-0c4f-559d-bec7-aca3c9ea2c1e",
+          "slug": "taipei-tw",
+          "entity_type": "PLACE",
+          "name": "Taipei",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Headquartered at Taipei",
+      "origin": "SEED"
+    },
+    {
       "id": "082d972e-caba-5794-8ece-913212ff175a",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -648,6 +712,34 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Data and simulation provider",
+      "origin": "SEED"
+    },
+    {
+      "id": "0cdad873-4186-5c6f-b535-3839903092d5",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "1761e7c8-bb57-5329-a102-9e8a6bc127fe",
+        "slug": "pegatron",
+        "entity_type": "ORGANIZATION",
+        "name": "Pegatron",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OEM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "CONTRACT_MANUFACTURER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Contract manufacturer",
       "origin": "SEED"
     },
     {
@@ -986,6 +1078,33 @@
       "origin": "SEED"
     },
     {
+      "id": "12d2f85f-283d-5896-9b0f-5c6ed7bfc831",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "566bcad8-57c0-57bf-9959-8330a0cc2ffa",
+        "slug": "saab",
+        "entity_type": "ORGANIZATION",
+        "name": "Saab",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "PLATFORM"
+      },
+      "evidence_summary": {
+        "class": "ANALYST",
+        "confidence": "MEDIUM",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Platform",
+      "origin": "SEED"
+    },
+    {
       "id": "13bc9076-1863-5c68-a7f9-4fffdc9fee32",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1264,6 +1383,34 @@
       "origin": "SEED"
     },
     {
+      "id": "16901d60-7ef6-5dd8-aef3-0b8bb555f0f8",
+      "event_type": "CLAIM_CHANGED",
+      "entity": {
+        "id": "95c149ad-c683-58ef-bd03-674f4d38b758",
+        "slug": "flex",
+        "entity_type": "ORGANIZATION",
+        "name": "Flex",
+        "primary_embodiment": null,
+        "roles": [
+          "CONTRACT_MANUFACTURER",
+          "OPERATOR"
+        ]
+      },
+      "before": null,
+      "after": {
+        "kind": "enum",
+        "value": "CONTRACT_MANUFACTURER"
+      },
+      "evidence_summary": {
+        "class": "PRIMARY",
+        "confidence": "HIGH",
+        "source_count": 1
+      },
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "summary": "Role set to Contract manufacturer",
+      "origin": "SEED"
+    },
+    {
       "id": "171fcde7-e377-5104-b7f2-c61cabe56ed2",
       "event_type": "CLAIM_CHANGED",
       "entity": {
@@ -1352,149 +1499,6 @@
       },
       "observed_at": "2026-09-11T00:00:00.000Z",
       "summary": "Role set to Component supplier",
-      "origin": "SEED"
-    },
-    {
-      "id": "182b6b1b-6165-5b9d-9369-a81a45829e33",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "5b1f1358-9f7b-56b2-ab93-e6f3e896dacb",
-        "slug": "pudu-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "Pudu Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "OEM"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to OEM",
-      "origin": "SEED"
-    },
-    {
-      "id": "1859226a-0819-5884-8e91-43f3452bd6f6",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "18a29658-1e49-52e6-af45-981999addb34",
-        "slug": "intel-capital",
-        "entity_type": "ORGANIZATION",
-        "name": "Intel Capital",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "INVESTOR"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Investor",
-      "origin": "SEED"
-    },
-    {
-      "id": "18f49665-94ce-56fc-a474-b5292d7e358d",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "4907c863-cebf-5b5f-8ac5-eb783c293082",
-        "slug": "tether",
-        "entity_type": "ORGANIZATION",
-        "name": "Tether",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "enum",
-        "value": "INVESTOR"
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Role set to Investor",
-      "origin": "SEED"
-    },
-    {
-      "id": "1963aaac-34a5-5993-bdaf-7c57f8d93cfa",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "fef5a2ec-6dbe-5e9c-8459-8fd14f248774",
-        "slug": "nidec",
-        "entity_type": "ORGANIZATION",
-        "name": "Nidec",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "text",
-        "text": "TSE:6594"
-      },
-      "evidence_summary": {
-        "class": "THIRD_PARTY",
-        "confidence": "MEDIUM",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Stock ticker recorded: TSE:6594",
-      "origin": "SEED"
-    },
-    {
-      "id": "19b88d2f-650b-5a3a-a83b-c44873d78ae1",
-      "event_type": "CLAIM_CHANGED",
-      "entity": {
-        "id": "1ea29650-7789-5e55-94a0-93fd0f99f15f",
-        "slug": "mobile-industrial-robots",
-        "entity_type": "ORGANIZATION",
-        "name": "Mobile Industrial Robots",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      },
-      "before": null,
-      "after": {
-        "kind": "entity",
-        "entity": {
-          "id": "fc5f8943-817d-5aef-ba62-a8f05810eb74",
-          "slug": "odense",
-          "entity_type": "PLACE",
-          "name": "Odense",
-          "primary_embodiment": null,
-          "roles": []
-        },
-        "measure": null
-      },
-      "evidence_summary": {
-        "class": "PRIMARY",
-        "confidence": "HIGH",
-        "source_count": 1
-      },
-      "observed_at": "2026-09-11T00:00:00.000Z",
-      "summary": "Headquartered at Odense",
       "origin": "SEED"
     }
   ]

@@ -1,0 +1,64 @@
+{
+  "claim": {
+    "claim_id": "4572821d-f2f1-556c-90fd-bdb7138dfbeb",
+    "subject": {
+      "id": "9e64fd03-d82d-5ace-8ae3-e7174f30d6e7",
+      "slug": "schaeffler",
+      "entity_type": "ORGANIZATION",
+      "name": "Schaeffler",
+      "primary_embodiment": null,
+      "roles": [
+        "INVESTOR",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Schaeffler is headquartered at Herzogenaurach",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "468b9283-363f-5917-bbd5-35104810fdfb",
+        "slug": "herzogenaurach-de",
+        "entity_type": "PLACE",
+        "name": "Herzogenaurach",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a17c8fd2-9460-5874-b1d1-70c392876e9f",
+      "class": "THIRD_PARTY",
+      "confidence": "MEDIUM",
+      "stance": "SUPPORTS",
+      "excerpt": "Schaeffler is headquartered in Herzogenaurach.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "275386fc-6c0b-563d-a714-c0d7a3ecce5c",
+        "url": "https://www.wikidata.org/wiki/Q459367",
+        "canonical_url": null,
+        "publisher": "Schaeffler",
+        "title": "Schaeffler — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

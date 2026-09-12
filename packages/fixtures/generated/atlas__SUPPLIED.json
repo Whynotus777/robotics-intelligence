@@ -4,17 +4,17 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 92
+      "count": 96
     },
     {
       "id": "SUPPLIED",
       "label": "Supplied",
-      "count": 38
+      "count": 39
     },
     {
       "id": "MANUFACTURED",
       "label": "Manufactured",
-      "count": 2
+      "count": 6
     },
     {
       "id": "DEPLOYED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 29
+      "count": 33
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 20
+      "count": 23
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 10
+      "count": 13
     }
   ],
   "marks": [
@@ -110,6 +110,65 @@
     },
     {
       "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.68,
+      "lng": 139.69,
+      "country_code": "JP",
+      "cluster_label": "Tokyo",
+      "weight": 4,
+      "entities": [
+        {
+          "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
+          "slug": "harmonic-drive",
+          "entity_type": "ORGANIZATION",
+          "name": "Harmonic Drive",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
+          "slug": "nabtesco",
+          "entity_type": "ORGANIZATION",
+          "name": "Nabtesco",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
+          "slug": "renesas-electronics",
+          "entity_type": "ORGANIZATION",
+          "name": "Renesas Electronics",
+          "primary_embodiment": null,
+          "roles": [
+            "CHIPMAKER",
+            "COMPONENT_SUPPLIER"
+          ]
+        },
+        {
+          "id": "1697924f-740e-5079-99ae-4174e704d155",
+          "slug": "sumitomo-heavy-industries",
+          "entity_type": "ORGANIZATION",
+          "name": "Sumitomo Heavy Industries",
+          "primary_embodiment": null,
+          "roles": [
+            "COMPONENT_SUPPLIER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
         "slug": "bay-area",
         "entity_type": "PLACE",
@@ -155,55 +214,6 @@
           "name": "Ouster",
           "primary_embodiment": null,
           "roles": [
-            "COMPONENT_SUPPLIER"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 35.68,
-      "lng": 139.69,
-      "country_code": "JP",
-      "cluster_label": "Tokyo",
-      "weight": 3,
-      "entities": [
-        {
-          "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
-          "slug": "harmonic-drive",
-          "entity_type": "ORGANIZATION",
-          "name": "Harmonic Drive",
-          "primary_embodiment": null,
-          "roles": [
-            "COMPONENT_SUPPLIER"
-          ]
-        },
-        {
-          "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
-          "slug": "nabtesco",
-          "entity_type": "ORGANIZATION",
-          "name": "Nabtesco",
-          "primary_embodiment": null,
-          "roles": [
-            "COMPONENT_SUPPLIER"
-          ]
-        },
-        {
-          "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
-          "slug": "renesas-electronics",
-          "entity_type": "ORGANIZATION",
-          "name": "Renesas Electronics",
-          "primary_embodiment": null,
-          "roles": [
-            "CHIPMAKER",
             "COMPONENT_SUPPLIER"
           ]
         }
@@ -979,16 +989,16 @@
       "places": 3
     },
     {
+      "id": "JP",
+      "label": "JP",
+      "weight": 6,
+      "places": 3
+    },
+    {
       "id": "DE",
       "label": "DE",
       "weight": 5,
       "places": 5
-    },
-    {
-      "id": "JP",
-      "label": "JP",
-      "weight": 5,
-      "places": 3
     },
     {
       "id": "NL",
@@ -1041,14 +1051,14 @@
       "places": 1
     },
     {
-      "id": "Bay Area",
-      "label": "Bay Area",
-      "weight": 3,
+      "id": "Tokyo",
+      "label": "Tokyo",
+      "weight": 4,
       "places": 1
     },
     {
-      "id": "Tokyo",
-      "label": "Tokyo",
+      "id": "Bay Area",
+      "label": "Bay Area",
       "weight": 3,
       "places": 1
     },
@@ -1194,6 +1204,87 @@
     },
     {
       "entity": {
+        "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
+        "slug": "harmonic-drive",
+        "entity_type": "ORGANIZATION",
+        "name": "Harmonic Drive",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
+        "slug": "nabtesco",
+        "entity_type": "ORGANIZATION",
+        "name": "Nabtesco",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
+        "slug": "renesas-electronics",
+        "entity_type": "ORGANIZATION",
+        "name": "Renesas Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "CHIPMAKER",
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "1697924f-740e-5079-99ae-4174e704d155",
+        "slug": "sumitomo-heavy-industries",
+        "entity_type": "ORGANIZATION",
+        "name": "Sumitomo Heavy Industries",
+        "primary_embodiment": null,
+        "roles": [
+          "COMPONENT_SUPPLIER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "0858b95d-0291-58a3-86a8-53c6425a82c9",
         "slug": "intel",
         "entity_type": "ORGANIZATION",
@@ -1253,67 +1344,6 @@
         "slug": "bay-area",
         "entity_type": "PLACE",
         "name": "San Francisco Bay Area",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "0fdf051a-d8f3-529a-b68b-c3ed4ff55759",
-        "slug": "harmonic-drive",
-        "entity_type": "ORGANIZATION",
-        "name": "Harmonic Drive",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "3ea06bfb-5658-540f-9039-a6272d2a3218",
-        "slug": "nabtesco",
-        "entity_type": "ORGANIZATION",
-        "name": "Nabtesco",
-        "primary_embodiment": null,
-        "roles": [
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "5080b978-49c5-56fb-9639-b24ea31715ae",
-        "slug": "renesas-electronics",
-        "entity_type": "ORGANIZATION",
-        "name": "Renesas Electronics",
-        "primary_embodiment": null,
-        "roles": [
-          "CHIPMAKER",
-          "COMPONENT_SUPPLIER"
-        ]
-      },
-      "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
-        "entity_type": "PLACE",
-        "name": "Tokyo",
         "primary_embodiment": null,
         "roles": []
       }
