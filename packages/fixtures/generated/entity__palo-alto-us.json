@@ -151,6 +151,28 @@
           }
         },
         {
+          "claim_id": "c833b00f-b7cf-509c-8ec5-622430b0fa3b",
+          "source": {
+            "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
+            "slug": "onex-technologies",
+            "entity_type": "ORGANIZATION",
+            "name": "1X Technologies",
+            "primary_embodiment": null,
+            "roles": [
+              "OEM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Current headquarters confirmed on this date; relocation date not asserted",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "c8549cc3-f0a2-5941-badb-5ef1015da87a",
           "source": {
             "id": "648a3020-8438-5b48-9a31-134f4671793d",
@@ -199,6 +221,16 @@
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
+        "slug": "onex-technologies",
+        "entity_type": "ORGANIZATION",
+        "name": "1X Technologies",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM"
+        ]
+      },
       {
         "id": "648a3020-8438-5b48-9a31-134f4671793d",
         "slug": "abaka-ai",
@@ -288,7 +320,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 7
+    "related_count": 8
   },
   "as_of": null
 }

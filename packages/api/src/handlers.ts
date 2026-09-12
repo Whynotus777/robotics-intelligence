@@ -204,9 +204,9 @@ const ATLAS_LAYER_SPEC: Record<AtlasLayer, { label: string; roles: OrganizationR
   SUPPLIED: { label: "Supplied", roles: ["COMPONENT_SUPPLIER", "CHIPMAKER"], predicates: ["HQ_AT", "MANUFACTURES_AT"] },
   MANUFACTURED: { label: "Manufactured", roles: ["CONTRACT_MANUFACTURER"], predicates: ["MANUFACTURES_AT", "HQ_AT"] },
   DEPLOYED: { label: "Deployed", roles: null, predicates: ["OCCURS_AT"], subjectTypes: ["DEPLOYMENT"] },
-  TRAINED: { label: "Trained", roles: ["MODEL_DEVELOPER", "RESEARCH_LAB"], predicates: ["HQ_AT", "RND_AT", "LOCATED_AT"] },
+  TRAINED: { label: "Trained", roles: ["MODEL_DEVELOPER", "RESEARCH_LAB", "DATA_SIMULATION_PROVIDER"], predicates: ["HQ_AT", "RND_AT", "LOCATED_AT"] },
   FUNDED: { label: "Funded", roles: ["INVESTOR"], predicates: ["HQ_AT"] },
-  PLATFORMS: { label: "Platforms", roles: ["PLATFORM"], predicates: ["HQ_AT"] },
+  PLATFORMS: { label: "Platforms", roles: ["PLATFORM", "TOOLING_OPS_PROVIDER"], predicates: ["HQ_AT"] },
 };
 
 function atlasMarks(s: Snapshot, layer: AtlasLayer, bbox?: number[]) {

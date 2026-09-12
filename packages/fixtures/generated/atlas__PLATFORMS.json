@@ -4,7 +4,7 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 169
+      "count": 170
     },
     {
       "id": "SUPPLIED",
@@ -24,20 +24,189 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 67
+      "count": 105
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 50
+      "count": 51
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 18
+      "count": 64
     }
   ],
   "marks": [
+    {
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.77493,
+      "lng": -122.41942,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 4,
+      "entities": [
+        {
+          "id": "b6a79648-53aa-52c4-b749-dc9e63a0fd9e",
+          "slug": "built-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Built Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "6c88d7bb-3693-5d72-8525-3d6f57bbd670",
+          "slug": "dronedeploy",
+          "entity_type": "ORGANIZATION",
+          "name": "DroneDeploy",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "87cf0830-6b89-5576-91dc-7b50e7f670da",
+          "slug": "formant",
+          "entity_type": "ORGANIZATION",
+          "name": "Formant",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "d682d895-2359-5985-8638-8d1e7e537667",
+          "slug": "foxglove",
+          "entity_type": "ORGANIZATION",
+          "name": "Foxglove",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 35.68,
+      "lng": 139.69,
+      "country_code": "JP",
+      "cluster_label": "Tokyo",
+      "weight": 4,
+      "entities": [
+        {
+          "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+          "slug": "softbank-group",
+          "entity_type": "ORGANIZATION",
+          "name": "SoftBank Group",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        },
+        {
+          "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+          "slug": "softbank-robotics-group",
+          "entity_type": "ORGANIZATION",
+          "name": "SoftBank Robotics Group",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        },
+        {
+          "id": "fe7b240e-f21e-5290-ba23-199f6ea0bddd",
+          "slug": "sony-group",
+          "entity_type": "ORGANIZATION",
+          "name": "Sony Group",
+          "primary_embodiment": null,
+          "roles": [
+            "PLATFORM"
+          ]
+        },
+        {
+          "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+          "slug": "woven-by-toyota",
+          "entity_type": "ORGANIZATION",
+          "name": "Woven by Toyota",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "194bdd77-70e1-5bdd-97cd-89ec64950946",
+        "slug": "nyc",
+        "entity_type": "PLACE",
+        "name": "New York City",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 40.71,
+      "lng": -74.01,
+      "country_code": "US",
+      "cluster_label": "NYC",
+      "weight": 3,
+      "entities": [
+        {
+          "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+          "slug": "hugging-face",
+          "entity_type": "ORGANIZATION",
+          "name": "Hugging Face",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+          "slug": "ubiquity-global-services",
+          "entity_type": "ORGANIZATION",
+          "name": "Ubiquity Global Services",
+          "primary_embodiment": null,
+          "roles": [
+            "PLATFORM"
+          ]
+        },
+        {
+          "id": "386f26e9-9c99-5b1c-abab-1bf0bcd95fc0",
+          "slug": "viam",
+          "entity_type": "ORGANIZATION",
+          "name": "Viam",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
     {
       "place": {
         "id": "35ab82c6-dd2e-55bc-abc5-29761fcabdbd",
@@ -95,24 +264,221 @@
     },
     {
       "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
         "entity_type": "PLACE",
-        "name": "Tokyo",
+        "name": "London",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 35.68,
-      "lng": 139.69,
-      "country_code": "JP",
-      "cluster_label": "Tokyo",
-      "weight": 3,
+      "lat": 51.51,
+      "lng": -0.13,
+      "country_code": "GB",
+      "cluster_label": "London",
+      "weight": 2,
       "entities": [
         {
-          "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
-          "slug": "softbank-group",
+          "id": "d3072c19-dd4c-5474-9c7a-0705fd860b8f",
+          "slug": "canonical",
           "entity_type": "ORGANIZATION",
-          "name": "SoftBank Group",
+          "name": "Canonical",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "dbd646ab-2676-5647-ae48-6511c3043dad",
+          "slug": "neuracore",
+          "entity_type": "ORGANIZATION",
+          "name": "Neuracore",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
+        "entity_type": "PLACE",
+        "name": "Mountain View",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.38605,
+      "lng": -122.08385,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "4fbde8cc-101a-5cf0-9265-53a4f28ece89",
+          "slug": "inorbit",
+          "entity_type": "ORGANIZATION",
+          "name": "InOrbit",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "cd542423-3dd5-591c-8636-b0684f26f1eb",
+          "slug": "intrinsic",
+          "entity_type": "ORGANIZATION",
+          "name": "Intrinsic",
+          "primary_embodiment": null,
+          "roles": [
+            "INTEGRATOR",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
+        "entity_type": "PLACE",
+        "name": "Munich",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.14,
+      "lng": 11.58,
+      "country_code": "DE",
+      "cluster_label": "Munich",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "f1bee41d-05e6-5a14-8023-256327db92e7",
+          "slug": "idealworks",
+          "entity_type": "ORGANIZATION",
+          "name": "idealworks",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "ffcb1db6-678f-5d09-9705-7c02e562a7a6",
+          "slug": "kinexon",
+          "entity_type": "ORGANIZATION",
+          "name": "KINEXON",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "country_code": "US",
+      "cluster_label": "Seattle",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+          "slug": "amazon",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "OPERATOR",
+            "PLATFORM",
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "499a8795-6f6a-59dc-974e-4722fa7d5fe5",
+          "slug": "roboto-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Roboto AI",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "661bea57-b3e7-5cad-85b3-58e2cb627ed6",
+        "slug": "seongnam-kr",
+        "entity_type": "PLACE",
+        "name": "Seongnam",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.43861,
+      "lng": 127.13778,
+      "country_code": "KR",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "320d3e3b-57ff-5fea-a8ca-49a0b346ef5a",
+          "slug": "hd-hyundai",
+          "entity_type": "ORGANIZATION",
+          "name": "HD Hyundai",
+          "primary_embodiment": null,
+          "roles": [
+            "PLATFORM"
+          ]
+        },
+        {
+          "id": "9eb45452-168c-5db6-96f4-28cf65323864",
+          "slug": "naver",
+          "entity_type": "ORGANIZATION",
+          "name": "Naver",
+          "primary_embodiment": null,
+          "roles": [
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.57,
+      "lng": 126.98,
+      "country_code": "KR",
+      "cluster_label": "Seoul",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+          "slug": "hyundai",
+          "entity_type": "ORGANIZATION",
+          "name": "Hyundai Motor Company",
           "primary_embodiment": null,
           "roles": [
             "INVESTOR",
@@ -120,24 +486,280 @@
           ]
         },
         {
-          "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
-          "slug": "softbank-robotics-group",
+          "id": "1c3a5b94-7476-5678-a0e7-c183150649c9",
+          "slug": "lg-electronics",
           "entity_type": "ORGANIZATION",
-          "name": "SoftBank Robotics Group",
+          "name": "LG Electronics",
           "primary_embodiment": null,
           "roles": [
             "INVESTOR",
+            "OEM",
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 22.54,
+      "lng": 114.06,
+      "country_code": "CN",
+      "cluster_label": "Shenzhen",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "87875f6a-45f9-5af2-af6a-5debd59001fc",
+          "slug": "byd",
+          "entity_type": "ORGANIZATION",
+          "name": "BYD",
+          "primary_embodiment": null,
+          "roles": [
             "PLATFORM"
           ]
         },
         {
-          "id": "fe7b240e-f21e-5290-ba23-199f6ea0bddd",
-          "slug": "sony-group",
+          "id": "554db289-7174-5ac8-8697-2b498ab0dd9b",
+          "slug": "tencent",
           "entity_type": "ORGANIZATION",
-          "name": "Sony Group",
+          "name": "Tencent",
           "primary_embodiment": null,
           "roles": [
-            "PLATFORM"
+            "MODEL_DEVELOPER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c1b148a1-6437-5a58-b338-b407537a37e1",
+        "slug": "ann-arbor",
+        "entity_type": "PLACE",
+        "name": "Ann Arbor",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.28,
+      "lng": -83.74,
+      "country_code": "US",
+      "cluster_label": "Ann Arbor",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "d16c16a3-47ea-5e0e-8fc4-a9503f04da93",
+          "slug": "voxel51",
+          "entity_type": "ORGANIZATION",
+          "name": "Voxel51",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "d0b089f9-33ec-5afd-9f0b-2d371b114841",
+        "slug": "bedford-us",
+        "entity_type": "PLACE",
+        "name": "Bedford",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.49065,
+      "lng": -71.27617,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "3e6da89d-8b91-5b73-9d57-99fbc9aa8ec2",
+          "slug": "oxipital-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Oxipital AI",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 39.9,
+      "lng": 116.4,
+      "country_code": "CN",
+      "cluster_label": "Beijing",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
+          "slug": "baidu",
+          "entity_type": "ORGANIZATION",
+          "name": "Baidu",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "eb049104-8fc6-517d-8295-607771508e8c",
+        "slug": "berlin-de",
+        "entity_type": "PLACE",
+        "name": "Berlin",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 52.52437,
+      "lng": 13.41053,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "26ec9503-090a-5dae-9fa1-6b80dc4fc2b3",
+          "slug": "micropsi-industries",
+          "entity_type": "ORGANIZATION",
+          "name": "Micropsi Industries",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "9066e7ad-4875-5a88-8183-c83672facfd5",
+        "slug": "boulder-us",
+        "entity_type": "PLACE",
+        "name": "Boulder",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 40.01499,
+      "lng": -105.27055,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "2e216e39-ecb9-591b-87d5-e4425e62c4af",
+          "slug": "picknik-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "PickNik Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "d305a574-94d9-5f70-840a-0d705561c0b6",
+        "slug": "columbus-us",
+        "entity_type": "PLACE",
+        "name": "Columbus",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 39.96118,
+      "lng": -82.99879,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "1ead989d-24d6-5963-a6dd-f118d564c904",
+          "slug": "ready-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "READY Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "1253154c-9449-5e9e-a55c-ef5764fabe5f",
+        "slug": "des-moines-us",
+        "entity_type": "PLACE",
+        "name": "Des Moines",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 41.60054,
+      "lng": -93.60911,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "480b1715-3d6a-5a41-8de2-6238db7035e3",
+          "slug": "roboflow",
+          "entity_type": "ORGANIZATION",
+          "name": "Roboflow",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "2ada3d74-ca10-53ab-b0d3-4e67810da84b",
+        "slug": "dresden-de",
+        "entity_type": "PLACE",
+        "name": "Dresden",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 51.05089,
+      "lng": 13.73832,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "7c3dff52-dcd7-585e-8e76-a06b4ce10f8c",
+          "slug": "wandelbots",
+          "entity_type": "ORGANIZATION",
+          "name": "Wandelbots",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
           ]
         }
       ],
@@ -163,6 +785,34 @@
           "slug": "kion-group",
           "entity_type": "ORGANIZATION",
           "name": "KION Group",
+          "primary_embodiment": null,
+          "roles": [
+            "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "b14ce717-4bde-5b52-9d53-16a6553ab305",
+        "slug": "gerlingen-de",
+        "entity_type": "PLACE",
+        "name": "Gerlingen",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.79954,
+      "lng": 9.06316,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "e50c61e3-e19c-566e-b6f0-85bfe37ef167",
+          "slug": "robert-bosch",
+          "entity_type": "ORGANIZATION",
+          "name": "Robert Bosch",
           "primary_embodiment": null,
           "roles": [
             "PLATFORM"
@@ -201,6 +851,34 @@
     },
     {
       "place": {
+        "id": "fbf4ded9-f593-5ed6-978d-3f9d4c8b8cc8",
+        "slug": "hannover-de",
+        "entity_type": "PLACE",
+        "name": "Hannover",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 52.37052,
+      "lng": 9.73322,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "8c5c6176-05d3-508e-b006-d0d315b9fdc8",
+          "slug": "synaos",
+          "entity_type": "ORGANIZATION",
+          "name": "SYNAOS",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "468b9283-363f-5917-bbd5-35104810fdfb",
         "slug": "herzogenaurach-de",
         "entity_type": "PLACE",
@@ -223,6 +901,35 @@
           "roles": [
             "INVESTOR",
             "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c5deecb8-ebcb-5d44-8195-57caf582e04a",
+        "slug": "houston-us",
+        "entity_type": "PLACE",
+        "name": "Houston",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 29.76328,
+      "lng": -95.36327,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "28754281-94bf-56ab-af66-f5b4c2f6e673",
+          "slug": "traclabs",
+          "entity_type": "ORGANIZATION",
+          "name": "TRACLabs",
+          "primary_embodiment": null,
+          "roles": [
+            "INTEGRATOR",
+            "TOOLING_OPS_PROVIDER"
           ]
         }
       ],
@@ -258,27 +965,142 @@
     },
     {
       "place": {
-        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
-        "slug": "new-york-us",
+        "id": "5c6bb35f-3b1e-5387-add2-72d119e217de",
+        "slug": "karlsruhe-de",
         "entity_type": "PLACE",
-        "name": "New York",
+        "name": "Karlsruhe",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 40.71427,
-      "lng": -74.00597,
+      "lat": 49.00937,
+      "lng": 8.40444,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "9fe5ee1e-7ff8-52c2-a4f8-ae06c0f70c1c",
+          "slug": "artiminds-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "ArtiMinds Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "99166e11-f08b-571f-a02e-c1b3ff05a95f",
+        "slug": "leuven-be",
+        "entity_type": "PLACE",
+        "name": "Leuven",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 50.87959,
+      "lng": 4.70093,
+      "country_code": "BE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "cecd1c0f-35b4-5777-bfb6-9c46023e0127",
+          "slug": "intermodalics",
+          "entity_type": "ORGANIZATION",
+          "name": "Intermodalics",
+          "primary_embodiment": null,
+          "roles": [
+            "INTEGRATOR",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "abebad14-cb17-5eba-86a8-c2829c7f827a",
+        "slug": "marina-del-rey-us",
+        "entity_type": "PLACE",
+        "name": "Marina del Rey",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 33.98162,
+      "lng": -118.45371,
       "country_code": "US",
       "cluster_label": null,
       "weight": 1,
       "entities": [
         {
-          "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
-          "slug": "ubiquity-global-services",
+          "id": "55ed9ea1-f298-553d-9d28-ecc7daabc444",
+          "slug": "sift",
           "entity_type": "ORGANIZATION",
-          "name": "Ubiquity Global Services",
+          "name": "Sift",
           "primary_embodiment": null,
           "roles": [
-            "PLATFORM"
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+        "slug": "menlo-park-us",
+        "entity_type": "PLACE",
+        "name": "Menlo Park",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 40.51872,
+      "lng": -74.4121,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "b2019a1f-8ed0-51fd-9f1f-889ae8ff6290",
+          "slug": "cyngn",
+          "entity_type": "ORGANIZATION",
+          "name": "Cyngn",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "e9a7e77b-b3d7-52b4-a06d-fb9f8bd9167d",
+        "slug": "norfolk-us",
+        "entity_type": "PLACE",
+        "name": "Norfolk",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 36.84681,
+      "lng": -76.28522,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "0ac717b4-2dd4-5ca3-a5e5-8e84f4374067",
+          "slug": "svt-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "SVT Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "INTEGRATOR",
+            "TOOLING_OPS_PROVIDER"
           ]
         }
       ],
@@ -307,6 +1129,119 @@
           "primary_embodiment": null,
           "roles": [
             "PLATFORM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
+        "entity_type": "PLACE",
+        "name": "Palo Alto",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.44188,
+      "lng": -122.14302,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "cb4bcd1b-1332-5d89-9173-bc9382d8b8c6",
+          "slug": "teleo",
+          "entity_type": "ORGANIZATION",
+          "name": "Teleo",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "f04a79a5-c933-52aa-bcf5-4a9e79ed2cec",
+        "slug": "petah-tikva-il",
+        "entity_type": "PLACE",
+        "name": "Petah Tikva",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 32.08707,
+      "lng": 34.88747,
+      "country_code": "IL",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "d0e0ee17-b4ac-5c8a-b382-1af9516d2e9f",
+          "slug": "roboteam",
+          "entity_type": "ORGANIZATION",
+          "name": "Roboteam",
+          "primary_embodiment": null,
+          "roles": [
+            "OEM",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "ce8cea00-04bd-55a3-9bbf-8937d1104171",
+        "slug": "princeton-us",
+        "entity_type": "PLACE",
+        "name": "Princeton",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 40.34872,
+      "lng": -74.65905,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "9ac64544-54aa-5bbb-8ec8-47e634cfda71",
+          "slug": "latent-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Latent AI",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "0f7f644c-f999-5e96-9e14-8acc6349d15e",
+        "slug": "pune-in",
+        "entity_type": "PLACE",
+        "name": "Pune",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 18.51957,
+      "lng": 73.85535,
+      "country_code": "IN",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "5bfc052b-ebd4-5488-b25b-103640ee34ee",
+          "slug": "flytbase",
+          "entity_type": "ORGANIZATION",
+          "name": "FlytBase",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
           ]
         }
       ],
@@ -344,58 +1279,28 @@
     },
     {
       "place": {
-        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
-        "slug": "seattle",
+        "id": "58788c76-b2e8-5228-b16e-a8c9819ead68",
+        "slug": "roswell-us",
         "entity_type": "PLACE",
-        "name": "Seattle",
+        "name": "Roswell",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 47.6062,
-      "lng": -122.3321,
+      "lat": 34.02316,
+      "lng": -84.36159,
       "country_code": "US",
-      "cluster_label": "Seattle",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
-          "slug": "amazon",
-          "entity_type": "ORGANIZATION",
-          "name": "Amazon",
-          "primary_embodiment": null,
-          "roles": [
-            "INVESTOR",
-            "OPERATOR",
-            "PLATFORM",
-            "RESEARCH_LAB"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "661bea57-b3e7-5cad-85b3-58e2cb627ed6",
-        "slug": "seongnam-kr",
-        "entity_type": "PLACE",
-        "name": "Seongnam",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 37.43861,
-      "lng": 127.13778,
-      "country_code": "KR",
       "cluster_label": null,
       "weight": 1,
       "entities": [
         {
-          "id": "9eb45452-168c-5db6-96f4-28cf65323864",
-          "slug": "naver",
+          "id": "4686dd2a-b399-539f-b837-b85b7b6745fa",
+          "slug": "greyorange",
           "entity_type": "ORGANIZATION",
-          "name": "Naver",
+          "name": "GreyOrange",
           "primary_embodiment": null,
           "roles": [
-            "PLATFORM"
+            "OEM",
+            "TOOLING_OPS_PROVIDER"
           ]
         }
       ],
@@ -403,28 +1308,143 @@
     },
     {
       "place": {
-        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
-        "slug": "seoul",
+        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+        "slug": "san-diego",
         "entity_type": "PLACE",
-        "name": "Seoul",
+        "name": "San Diego",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 37.57,
-      "lng": 126.98,
-      "country_code": "KR",
-      "cluster_label": "Seoul",
+      "lat": 32.72,
+      "lng": -117.16,
+      "country_code": "US",
+      "cluster_label": "San Diego",
       "weight": 1,
       "entities": [
         {
-          "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
-          "slug": "hyundai",
+          "id": "2546b2b2-db58-5803-a3f8-fbd802ddee49",
+          "slug": "havocai",
           "entity_type": "ORGANIZATION",
-          "name": "Hyundai Motor Company",
+          "name": "HavocAI",
           "primary_embodiment": null,
           "roles": [
-            "INVESTOR",
-            "PLATFORM"
+            "OEM",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "e35b5fd8-076c-5c2d-9118-c6c527641fe3",
+        "slug": "san-jose-us",
+        "entity_type": "PLACE",
+        "name": "San Jose",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.33939,
+      "lng": -121.89496,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "451f0621-d063-5f2a-ad4a-7517f561b85c",
+          "slug": "edge-impulse",
+          "entity_type": "ORGANIZATION",
+          "name": "Edge Impulse",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "4d0fff86-620b-5fcd-b8d9-ccb1fb0b0b2f",
+        "slug": "stockholm-se",
+        "entity_type": "PLACE",
+        "name": "Stockholm",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 59.32938,
+      "lng": 18.06871,
+      "country_code": "SE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "73427a24-227d-5bca-ba25-e50a3b4bd997",
+          "slug": "rerun",
+          "entity_type": "ORGANIZATION",
+          "name": "Rerun",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "1ed177d6-ee08-5363-881c-2f871c046982",
+        "slug": "stuttgart",
+        "entity_type": "PLACE",
+        "name": "Stuttgart",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.78,
+      "lng": 9.18,
+      "country_code": "DE",
+      "cluster_label": "Stuttgart",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "92961fb2-0132-5db0-9506-d355d0a5c81c",
+          "slug": "naise",
+          "entity_type": "ORGANIZATION",
+          "name": "NAiSE",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+        "slug": "sunnyvale-us",
+        "entity_type": "PLACE",
+        "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.36883,
+      "lng": -122.03635,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
+          "slug": "applied-intuition",
+          "entity_type": "ORGANIZATION",
+          "name": "Applied Intuition",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "MODEL_DEVELOPER",
+            "TOOLING_OPS_PROVIDER"
           ]
         }
       ],
@@ -489,41 +1509,139 @@
         }
       ],
       "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "e4436f18-3dd9-5bba-a09e-3e18fb332f58",
+        "slug": "virginia-beach-us",
+        "entity_type": "PLACE",
+        "name": "Virginia Beach",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 36.85293,
+      "lng": -75.97799,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "bf9b34af-f670-565d-92ce-903c67306c5a",
+          "slug": "droneup",
+          "entity_type": "ORGANIZATION",
+          "name": "DroneUp",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 47.38,
+      "lng": 8.54,
+      "country_code": "CH",
+      "cluster_label": "Zurich",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "a2a01f05-5e72-5d6d-b0e5-c7a52c06d9e5",
+          "slug": "auterion",
+          "entity_type": "ORGANIZATION",
+          "name": "Auterion",
+          "primary_embodiment": null,
+          "roles": [
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
     }
   ],
   "countries": [
     {
       "id": "US",
       "label": "US",
-      "weight": 7,
-      "places": 5
+      "weight": 32,
+      "places": 23
+    },
+    {
+      "id": "DE",
+      "label": "DE",
+      "weight": 10,
+      "places": 9
     },
     {
       "id": "JP",
       "label": "JP",
-      "weight": 5,
+      "weight": 6,
       "places": 3
     },
     {
       "id": "KR",
       "label": "KR",
-      "weight": 3,
+      "weight": 5,
       "places": 3
-    },
-    {
-      "id": "DE",
-      "label": "DE",
-      "weight": 2,
-      "places": 2
     },
     {
       "id": "CN",
       "label": "CN",
+      "weight": 4,
+      "places": 3
+    },
+    {
+      "id": "GB",
+      "label": "GB",
+      "weight": 2,
+      "places": 1
+    },
+    {
+      "id": "BE",
+      "label": "BE",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "CH",
+      "label": "CH",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "IL",
+      "label": "IL",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "IN",
+      "label": "IN",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "SE",
+      "label": "SE",
       "weight": 1,
       "places": 1
     }
   ],
   "corridors": [
+    {
+      "id": "Tokyo",
+      "label": "Tokyo",
+      "weight": 4,
+      "places": 1
+    },
     {
       "id": "Bay Area",
       "label": "Bay Area",
@@ -531,16 +1649,52 @@
       "places": 1
     },
     {
-      "id": "Tokyo",
-      "label": "Tokyo",
+      "id": "NYC",
+      "label": "NYC",
       "weight": 3,
       "places": 1
     },
     {
       "id": "Seattle",
       "label": "Seattle",
-      "weight": 2,
+      "weight": 3,
       "places": 2
+    },
+    {
+      "id": "London",
+      "label": "London",
+      "weight": 2,
+      "places": 1
+    },
+    {
+      "id": "Munich",
+      "label": "Munich",
+      "weight": 2,
+      "places": 1
+    },
+    {
+      "id": "Seoul",
+      "label": "Seoul",
+      "weight": 2,
+      "places": 1
+    },
+    {
+      "id": "Shenzhen",
+      "label": "Shenzhen",
+      "weight": 2,
+      "places": 1
+    },
+    {
+      "id": "Ann Arbor",
+      "label": "Ann Arbor",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Beijing",
+      "label": "Beijing",
+      "weight": 1,
+      "places": 1
     },
     {
       "id": "Hangzhou",
@@ -555,8 +1709,8 @@
       "places": 1
     },
     {
-      "id": "Seoul",
-      "label": "Seoul",
+      "id": "San Diego",
+      "label": "San Diego",
       "weight": 1,
       "places": 1
     },
@@ -565,9 +1719,246 @@
       "label": "Seoul capital area",
       "weight": 1,
       "places": 1
+    },
+    {
+      "id": "Stuttgart",
+      "label": "Stuttgart",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "Zurich",
+      "label": "Zurich",
+      "weight": 1,
+      "places": 1
     }
   ],
   "list": [
+    {
+      "entity": {
+        "id": "b6a79648-53aa-52c4-b749-dc9e63a0fd9e",
+        "slug": "built-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Built Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "6c88d7bb-3693-5d72-8525-3d6f57bbd670",
+        "slug": "dronedeploy",
+        "entity_type": "ORGANIZATION",
+        "name": "DroneDeploy",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "87cf0830-6b89-5576-91dc-7b50e7f670da",
+        "slug": "formant",
+        "entity_type": "ORGANIZATION",
+        "name": "Formant",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "d682d895-2359-5985-8638-8d1e7e537667",
+        "slug": "foxglove",
+        "entity_type": "ORGANIZATION",
+        "name": "Foxglove",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
+        "slug": "softbank-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
+        "slug": "softbank-robotics-group",
+        "entity_type": "ORGANIZATION",
+        "name": "SoftBank Robotics Group",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "fe7b240e-f21e-5290-ba23-199f6ea0bddd",
+        "slug": "sony-group",
+        "entity_type": "ORGANIZATION",
+        "name": "Sony Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "8ade89ce-2d09-5bbe-8f4d-975f1cb1cafd",
+        "slug": "woven-by-toyota",
+        "entity_type": "ORGANIZATION",
+        "name": "Woven by Toyota",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
+        "slug": "tokyo",
+        "entity_type": "PLACE",
+        "name": "Tokyo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+        "slug": "hugging-face",
+        "entity_type": "ORGANIZATION",
+        "name": "Hugging Face",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "194bdd77-70e1-5bdd-97cd-89ec64950946",
+        "slug": "nyc",
+        "entity_type": "PLACE",
+        "name": "New York City",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+        "slug": "ubiquity-global-services",
+        "entity_type": "ORGANIZATION",
+        "name": "Ubiquity Global Services",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "194bdd77-70e1-5bdd-97cd-89ec64950946",
+        "slug": "nyc",
+        "entity_type": "PLACE",
+        "name": "New York City",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "386f26e9-9c99-5b1c-abab-1bf0bcd95fc0",
+        "slug": "viam",
+        "entity_type": "ORGANIZATION",
+        "name": "Viam",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "194bdd77-70e1-5bdd-97cd-89ec64950946",
+        "slug": "nyc",
+        "entity_type": "PLACE",
+        "name": "New York City",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
     {
       "entity": {
         "id": "6a5292cf-7961-5ba6-96c5-41555d8dd8ce",
@@ -637,205 +2028,123 @@
     },
     {
       "entity": {
-        "id": "422a7a72-9ab9-504f-95d7-4a7e4df3b67d",
-        "slug": "softbank-group",
+        "id": "d3072c19-dd4c-5474-9c7a-0705fd860b8f",
+        "slug": "canonical",
         "entity_type": "ORGANIZATION",
-        "name": "SoftBank Group",
+        "name": "Canonical",
         "primary_embodiment": null,
         "roles": [
-          "INVESTOR",
-          "PLATFORM"
+          "TOOLING_OPS_PROVIDER"
         ]
       },
       "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
         "entity_type": "PLACE",
-        "name": "Tokyo",
+        "name": "London",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "4ceae02e-9bc9-5417-83fd-0cb206752d18",
-        "slug": "softbank-robotics-group",
+        "id": "dbd646ab-2676-5647-ae48-6511c3043dad",
+        "slug": "neuracore",
         "entity_type": "ORGANIZATION",
-        "name": "SoftBank Robotics Group",
+        "name": "Neuracore",
         "primary_embodiment": null,
         "roles": [
-          "INVESTOR",
-          "PLATFORM"
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
         ]
       },
       "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
         "entity_type": "PLACE",
-        "name": "Tokyo",
+        "name": "London",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "fe7b240e-f21e-5290-ba23-199f6ea0bddd",
-        "slug": "sony-group",
+        "id": "4fbde8cc-101a-5cf0-9265-53a4f28ece89",
+        "slug": "inorbit",
         "entity_type": "ORGANIZATION",
-        "name": "Sony Group",
+        "name": "InOrbit",
         "primary_embodiment": null,
         "roles": [
-          "PLATFORM"
+          "TOOLING_OPS_PROVIDER"
         ]
       },
       "place": {
-        "id": "c5cea1a1-7598-5fd2-b5ef-e0c384daf54f",
-        "slug": "tokyo",
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
         "entity_type": "PLACE",
-        "name": "Tokyo",
+        "name": "Mountain View",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "979bdd41-064b-55bc-8ce6-eeb4b316ee7a",
-        "slug": "kion-group",
+        "id": "cd542423-3dd5-591c-8636-b0684f26f1eb",
+        "slug": "intrinsic",
         "entity_type": "ORGANIZATION",
-        "name": "KION Group",
+        "name": "Intrinsic",
         "primary_embodiment": null,
         "roles": [
-          "PLATFORM"
+          "INTEGRATOR",
+          "TOOLING_OPS_PROVIDER"
         ]
       },
       "place": {
-        "id": "7ee78dcd-919d-58f9-a15d-c3dc1de69259",
-        "slug": "frankfurt-de",
+        "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
+        "slug": "mountain-view-us",
         "entity_type": "PLACE",
-        "name": "Frankfurt",
+        "name": "Mountain View",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "e819d254-2780-5de4-84d0-545f676e957b",
-        "slug": "ant-group",
+        "id": "f1bee41d-05e6-5a14-8023-256327db92e7",
+        "slug": "idealworks",
         "entity_type": "ORGANIZATION",
-        "name": "Ant Group",
+        "name": "idealworks",
         "primary_embodiment": null,
         "roles": [
-          "PLATFORM"
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
         ]
       },
       "place": {
-        "id": "c5da4207-66e6-58af-b465-9432764e2a62",
-        "slug": "hangzhou",
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
         "entity_type": "PLACE",
-        "name": "Hangzhou",
+        "name": "Munich",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "9e64fd03-d82d-5ace-8ae3-e7174f30d6e7",
-        "slug": "schaeffler",
+        "id": "ffcb1db6-678f-5d09-9705-7c02e562a7a6",
+        "slug": "kinexon",
         "entity_type": "ORGANIZATION",
-        "name": "Schaeffler",
+        "name": "KINEXON",
         "primary_embodiment": null,
         "roles": [
-          "INVESTOR",
-          "PLATFORM"
+          "TOOLING_OPS_PROVIDER"
         ]
       },
       "place": {
-        "id": "468b9283-363f-5917-bbd5-35104810fdfb",
-        "slug": "herzogenaurach-de",
+        "id": "43e3873e-dbed-5e5e-893c-ae1c8eb69a4e",
+        "slug": "munich",
         "entity_type": "PLACE",
-        "name": "Herzogenaurach",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "e2dc3d1a-62cf-51f2-929c-212312152e45",
-        "slug": "denso",
-        "entity_type": "ORGANIZATION",
-        "name": "Denso",
-        "primary_embodiment": null,
-        "roles": [
-          "PLATFORM"
-        ]
-      },
-      "place": {
-        "id": "d0f013c5-5ad2-569b-a53a-9ee55d55c58b",
-        "slug": "kariya-jp",
-        "entity_type": "PLACE",
-        "name": "Kariya",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
-        "slug": "ubiquity-global-services",
-        "entity_type": "ORGANIZATION",
-        "name": "Ubiquity Global Services",
-        "primary_embodiment": null,
-        "roles": [
-          "PLATFORM"
-        ]
-      },
-      "place": {
-        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
-        "slug": "new-york-us",
-        "entity_type": "PLACE",
-        "name": "New York",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
-        "slug": "teradyne",
-        "entity_type": "ORGANIZATION",
-        "name": "Teradyne",
-        "primary_embodiment": null,
-        "roles": [
-          "PLATFORM"
-        ]
-      },
-      "place": {
-        "id": "d93cbf53-89b0-5b3b-9df9-7f3d199ea1ea",
-        "slug": "north-reading-us",
-        "entity_type": "PLACE",
-        "name": "North Reading",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "7015787f-4e5d-58a6-ae0c-112ce87d4c60",
-        "slug": "microsoft",
-        "entity_type": "ORGANIZATION",
-        "name": "Microsoft",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR",
-          "PLATFORM",
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "2588e14b-b3ca-531f-9426-d37179a708a6",
-        "slug": "redmond",
-        "entity_type": "PLACE",
-        "name": "Redmond",
+        "name": "Munich",
         "primary_embodiment": null,
         "roles": []
       }
@@ -859,6 +2168,47 @@
         "slug": "seattle",
         "entity_type": "PLACE",
         "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "499a8795-6f6a-59dc-974e-4722fa7d5fe5",
+        "slug": "roboto-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Roboto AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "320d3e3b-57ff-5fea-a8ca-49a0b346ef5a",
+        "slug": "hd-hyundai",
+        "entity_type": "ORGANIZATION",
+        "name": "HD Hyundai",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "661bea57-b3e7-5cad-85b3-58e2cb627ed6",
+        "slug": "seongnam-kr",
+        "entity_type": "PLACE",
+        "name": "Seongnam",
         "primary_embodiment": null,
         "roles": []
       }
@@ -906,6 +2256,724 @@
     },
     {
       "entity": {
+        "id": "1c3a5b94-7476-5678-a0e7-c183150649c9",
+        "slug": "lg-electronics",
+        "entity_type": "ORGANIZATION",
+        "name": "LG Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OEM",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "87875f6a-45f9-5af2-af6a-5debd59001fc",
+        "slug": "byd",
+        "entity_type": "ORGANIZATION",
+        "name": "BYD",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "554db289-7174-5ac8-8697-2b498ab0dd9b",
+        "slug": "tencent",
+        "entity_type": "ORGANIZATION",
+        "name": "Tencent",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "5386047b-9431-5521-8e28-d5f238524771",
+        "slug": "shenzhen",
+        "entity_type": "PLACE",
+        "name": "Shenzhen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "d16c16a3-47ea-5e0e-8fc4-a9503f04da93",
+        "slug": "voxel51",
+        "entity_type": "ORGANIZATION",
+        "name": "Voxel51",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "c1b148a1-6437-5a58-b338-b407537a37e1",
+        "slug": "ann-arbor",
+        "entity_type": "PLACE",
+        "name": "Ann Arbor",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3e6da89d-8b91-5b73-9d57-99fbc9aa8ec2",
+        "slug": "oxipital-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Oxipital AI",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "d0b089f9-33ec-5afd-9f0b-2d371b114841",
+        "slug": "bedford-us",
+        "entity_type": "PLACE",
+        "name": "Bedford",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
+        "slug": "baidu",
+        "entity_type": "ORGANIZATION",
+        "name": "Baidu",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "26ec9503-090a-5dae-9fa1-6b80dc4fc2b3",
+        "slug": "micropsi-industries",
+        "entity_type": "ORGANIZATION",
+        "name": "Micropsi Industries",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "eb049104-8fc6-517d-8295-607771508e8c",
+        "slug": "berlin-de",
+        "entity_type": "PLACE",
+        "name": "Berlin",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "2e216e39-ecb9-591b-87d5-e4425e62c4af",
+        "slug": "picknik-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "PickNik Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "9066e7ad-4875-5a88-8183-c83672facfd5",
+        "slug": "boulder-us",
+        "entity_type": "PLACE",
+        "name": "Boulder",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "1ead989d-24d6-5963-a6dd-f118d564c904",
+        "slug": "ready-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "READY Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "d305a574-94d9-5f70-840a-0d705561c0b6",
+        "slug": "columbus-us",
+        "entity_type": "PLACE",
+        "name": "Columbus",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "480b1715-3d6a-5a41-8de2-6238db7035e3",
+        "slug": "roboflow",
+        "entity_type": "ORGANIZATION",
+        "name": "Roboflow",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "1253154c-9449-5e9e-a55c-ef5764fabe5f",
+        "slug": "des-moines-us",
+        "entity_type": "PLACE",
+        "name": "Des Moines",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "7c3dff52-dcd7-585e-8e76-a06b4ce10f8c",
+        "slug": "wandelbots",
+        "entity_type": "ORGANIZATION",
+        "name": "Wandelbots",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "2ada3d74-ca10-53ab-b0d3-4e67810da84b",
+        "slug": "dresden-de",
+        "entity_type": "PLACE",
+        "name": "Dresden",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "979bdd41-064b-55bc-8ce6-eeb4b316ee7a",
+        "slug": "kion-group",
+        "entity_type": "ORGANIZATION",
+        "name": "KION Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "7ee78dcd-919d-58f9-a15d-c3dc1de69259",
+        "slug": "frankfurt-de",
+        "entity_type": "PLACE",
+        "name": "Frankfurt",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e50c61e3-e19c-566e-b6f0-85bfe37ef167",
+        "slug": "robert-bosch",
+        "entity_type": "ORGANIZATION",
+        "name": "Robert Bosch",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "b14ce717-4bde-5b52-9d53-16a6553ab305",
+        "slug": "gerlingen-de",
+        "entity_type": "PLACE",
+        "name": "Gerlingen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e819d254-2780-5de4-84d0-545f676e957b",
+        "slug": "ant-group",
+        "entity_type": "ORGANIZATION",
+        "name": "Ant Group",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "c5da4207-66e6-58af-b465-9432764e2a62",
+        "slug": "hangzhou",
+        "entity_type": "PLACE",
+        "name": "Hangzhou",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "8c5c6176-05d3-508e-b006-d0d315b9fdc8",
+        "slug": "synaos",
+        "entity_type": "ORGANIZATION",
+        "name": "SYNAOS",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "fbf4ded9-f593-5ed6-978d-3f9d4c8b8cc8",
+        "slug": "hannover-de",
+        "entity_type": "PLACE",
+        "name": "Hannover",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9e64fd03-d82d-5ace-8ae3-e7174f30d6e7",
+        "slug": "schaeffler",
+        "entity_type": "ORGANIZATION",
+        "name": "Schaeffler",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "468b9283-363f-5917-bbd5-35104810fdfb",
+        "slug": "herzogenaurach-de",
+        "entity_type": "PLACE",
+        "name": "Herzogenaurach",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "28754281-94bf-56ab-af66-f5b4c2f6e673",
+        "slug": "traclabs",
+        "entity_type": "ORGANIZATION",
+        "name": "TRACLabs",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "c5deecb8-ebcb-5d44-8195-57caf582e04a",
+        "slug": "houston-us",
+        "entity_type": "PLACE",
+        "name": "Houston",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e2dc3d1a-62cf-51f2-929c-212312152e45",
+        "slug": "denso",
+        "entity_type": "ORGANIZATION",
+        "name": "Denso",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "d0f013c5-5ad2-569b-a53a-9ee55d55c58b",
+        "slug": "kariya-jp",
+        "entity_type": "PLACE",
+        "name": "Kariya",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9fe5ee1e-7ff8-52c2-a4f8-ae06c0f70c1c",
+        "slug": "artiminds-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "ArtiMinds Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "5c6bb35f-3b1e-5387-add2-72d119e217de",
+        "slug": "karlsruhe-de",
+        "entity_type": "PLACE",
+        "name": "Karlsruhe",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "cecd1c0f-35b4-5777-bfb6-9c46023e0127",
+        "slug": "intermodalics",
+        "entity_type": "ORGANIZATION",
+        "name": "Intermodalics",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "99166e11-f08b-571f-a02e-c1b3ff05a95f",
+        "slug": "leuven-be",
+        "entity_type": "PLACE",
+        "name": "Leuven",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "55ed9ea1-f298-553d-9d28-ecc7daabc444",
+        "slug": "sift",
+        "entity_type": "ORGANIZATION",
+        "name": "Sift",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "abebad14-cb17-5eba-86a8-c2829c7f827a",
+        "slug": "marina-del-rey-us",
+        "entity_type": "PLACE",
+        "name": "Marina del Rey",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b2019a1f-8ed0-51fd-9f1f-889ae8ff6290",
+        "slug": "cyngn",
+        "entity_type": "ORGANIZATION",
+        "name": "Cyngn",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "6d0dc06b-acfc-59ad-bb5b-74da4e2b21a1",
+        "slug": "menlo-park-us",
+        "entity_type": "PLACE",
+        "name": "Menlo Park",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "0ac717b4-2dd4-5ca3-a5e5-8e84f4374067",
+        "slug": "svt-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "SVT Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "INTEGRATOR",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "e9a7e77b-b3d7-52b4-a06d-fb9f8bd9167d",
+        "slug": "norfolk-us",
+        "entity_type": "PLACE",
+        "name": "Norfolk",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9ded4773-bc9c-5f22-bcdc-277a3f02bf97",
+        "slug": "teradyne",
+        "entity_type": "ORGANIZATION",
+        "name": "Teradyne",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "d93cbf53-89b0-5b3b-9df9-7f3d199ea1ea",
+        "slug": "north-reading-us",
+        "entity_type": "PLACE",
+        "name": "North Reading",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "cb4bcd1b-1332-5d89-9173-bc9382d8b8c6",
+        "slug": "teleo",
+        "entity_type": "ORGANIZATION",
+        "name": "Teleo",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
+        "entity_type": "PLACE",
+        "name": "Palo Alto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "d0e0ee17-b4ac-5c8a-b382-1af9516d2e9f",
+        "slug": "roboteam",
+        "entity_type": "ORGANIZATION",
+        "name": "Roboteam",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "f04a79a5-c933-52aa-bcf5-4a9e79ed2cec",
+        "slug": "petah-tikva-il",
+        "entity_type": "PLACE",
+        "name": "Petah Tikva",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9ac64544-54aa-5bbb-8ec8-47e634cfda71",
+        "slug": "latent-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Latent AI",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "ce8cea00-04bd-55a3-9bbf-8937d1104171",
+        "slug": "princeton-us",
+        "entity_type": "PLACE",
+        "name": "Princeton",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "5bfc052b-ebd4-5488-b25b-103640ee34ee",
+        "slug": "flytbase",
+        "entity_type": "ORGANIZATION",
+        "name": "FlytBase",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "0f7f644c-f999-5e96-9e14-8acc6349d15e",
+        "slug": "pune-in",
+        "entity_type": "PLACE",
+        "name": "Pune",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "7015787f-4e5d-58a6-ae0c-112ce87d4c60",
+        "slug": "microsoft",
+        "entity_type": "ORGANIZATION",
+        "name": "Microsoft",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "2588e14b-b3ca-531f-9426-d37179a708a6",
+        "slug": "redmond",
+        "entity_type": "PLACE",
+        "name": "Redmond",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "4686dd2a-b399-539f-b837-b85b7b6745fa",
+        "slug": "greyorange",
+        "entity_type": "ORGANIZATION",
+        "name": "GreyOrange",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "58788c76-b2e8-5228-b16e-a8c9819ead68",
+        "slug": "roswell-us",
+        "entity_type": "PLACE",
+        "name": "Roswell",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "2546b2b2-db58-5803-a3f8-fbd802ddee49",
+        "slug": "havocai",
+        "entity_type": "ORGANIZATION",
+        "name": "HavocAI",
+        "primary_embodiment": null,
+        "roles": [
+          "OEM",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "54854374-2db2-5f4a-975e-1ffaf1ef8b97",
+        "slug": "san-diego",
+        "entity_type": "PLACE",
+        "name": "San Diego",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "451f0621-d063-5f2a-ad4a-7517f561b85c",
+        "slug": "edge-impulse",
+        "entity_type": "ORGANIZATION",
+        "name": "Edge Impulse",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "e35b5fd8-076c-5c2d-9118-c6c527641fe3",
+        "slug": "san-jose-us",
+        "entity_type": "PLACE",
+        "name": "San Jose",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "73427a24-227d-5bca-ba25-e50a3b4bd997",
+        "slug": "rerun",
+        "entity_type": "ORGANIZATION",
+        "name": "Rerun",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "4d0fff86-620b-5fcd-b8d9-ccb1fb0b0b2f",
+        "slug": "stockholm-se",
+        "entity_type": "PLACE",
+        "name": "Stockholm",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "92961fb2-0132-5db0-9506-d355d0a5c81c",
+        "slug": "naise",
+        "entity_type": "ORGANIZATION",
+        "name": "NAiSE",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "1ed177d6-ee08-5363-881c-2f871c046982",
+        "slug": "stuttgart",
+        "entity_type": "PLACE",
+        "name": "Stuttgart",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
+        "slug": "applied-intuition",
+        "entity_type": "ORGANIZATION",
+        "name": "Applied Intuition",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+        "slug": "sunnyvale-us",
+        "entity_type": "PLACE",
+        "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "8c24dbfe-0a12-5667-b4a2-262f7a3c8411",
         "slug": "samsung",
         "entity_type": "ORGANIZATION",
@@ -944,6 +3012,46 @@
         "slug": "toyota-city",
         "entity_type": "PLACE",
         "name": "Toyota City",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "bf9b34af-f670-565d-92ce-903c67306c5a",
+        "slug": "droneup",
+        "entity_type": "ORGANIZATION",
+        "name": "DroneUp",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "e4436f18-3dd9-5bba-a09e-3e18fb332f58",
+        "slug": "virginia-beach-us",
+        "entity_type": "PLACE",
+        "name": "Virginia Beach",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "a2a01f05-5e72-5d6d-b0e5-c7a52c06d9e5",
+        "slug": "auterion",
+        "entity_type": "ORGANIZATION",
+        "name": "Auterion",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
         "primary_embodiment": null,
         "roles": []
       }

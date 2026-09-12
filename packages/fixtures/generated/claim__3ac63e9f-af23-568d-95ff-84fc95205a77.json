@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "3ac63e9f-af23-568d-95ff-84fc95205a77",
+    "subject": {
+      "id": "487201c0-0433-5917-815a-30a8f0ff3d64",
+      "slug": "unitree",
+      "entity_type": "ORGANIZATION",
+      "name": "Unitree Robotics",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Unitree Robotics was founded on 2016-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2016-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2016-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "b1dc8916-2449-5f65-a5cb-80035de0fb09",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Unitree was established in 2016 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "1ba7a3fa-1701-5a83-9861-4d45c69468c2",
+        "url": "https://www.unitree.com/about/",
+        "canonical_url": null,
+        "publisher": "Unitree",
+        "title": "Unitree — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

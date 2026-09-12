@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "531dd7c0-6df0-5c0e-af2a-db91428c05ee",
+    "subject": {
+      "id": "bf03e5a6-3d7f-54de-a149-4716bc5c137e",
+      "slug": "dji",
+      "entity_type": "ORGANIZATION",
+      "name": "DJI",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "DJI was founded on 2006-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2006-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2006-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "e3f83f9e-c3a6-591e-bffe-2c533f02adbd",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "DJI was established in 2006 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "b8e042ae-ded0-5c00-9b9a-3a1c566086f7",
+        "url": "https://viewpoints.dji.com/blog/busted-five-common-myths-about-dji",
+        "canonical_url": null,
+        "publisher": "DJI",
+        "title": "DJI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

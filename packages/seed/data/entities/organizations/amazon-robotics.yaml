@@ -40,5 +40,16 @@ claims:
   - class: PRIMARY
     confidence: HIGH
     source: amazon-robotics-news
-    excerpt: Amazon Robotics is Amazon's own robotics arm, from the Kiva Systems acquisition announced
-      in March 2012 and renamed in 2015.
+    excerpt: Amazon Robotics is Amazon's own robotics arm, from the Kiva Systems acquisition announced in March
+      2012 and renamed in 2015.
+- predicate: FOUNDED_ON
+  date: '2003-01-01'
+  valid_from: '2003-01-01'
+  evidence:
+  - source: enrich-73c22d93cb1dc996
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Amazon Robotics was established in 2003 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

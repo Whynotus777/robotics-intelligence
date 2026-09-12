@@ -42,5 +42,16 @@ claims:
   - class: PRIMARY
     confidence: HIGH
     source: bd-site
-    excerpt: Boston Dynamics presents itself as a Hyundai Motor Group company; the controlling stake
-      closed in June 2021. The ACQUIRED event is the day it happened, this is that it is still true.
+    excerpt: Boston Dynamics presents itself as a Hyundai Motor Group company; the controlling stake closed in June
+      2021. The ACQUIRED event is the day it happened, this is that it is still true.
+- predicate: FOUNDED_ON
+  date: '1992-01-01'
+  valid_from: '1992-01-01'
+  evidence:
+  - source: enrich-db2cb95f7745b233
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Boston Dynamics was established in 1992 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

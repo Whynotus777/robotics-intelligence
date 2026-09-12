@@ -1,10 +1,13 @@
 slug: onex-technologies
 entity_type: ORGANIZATION
 name: 1X Technologies
-short_description: Norwegian-American humanoid company; tendon-driven, deliberately soft hardware aimed at the home rather than the factory.
-country_code: 'NO'
+short_description: Norwegian-American humanoid company; tendon-driven, deliberately soft hardware aimed at the home
+  rather than the factory.
+country_code: US
 depth_tier: DISCOVERY
-aliases: [1X, Halodi Robotics]
+aliases:
+- 1X
+- Halodi Robotics
 claims:
 - predicate: HQ_AT
   object: moss
@@ -13,6 +16,8 @@ claims:
     confidence: MEDIUM
     source: onex-site
     excerpt: Company site gives a Norwegian hardware base alongside a US office.
+  valid_to: '2026-09-11'
+  status: SUPERSEDED
 - predicate: TARGETS_MARKET
   object: retail-service
   evidence:
@@ -34,3 +39,24 @@ claims:
     confidence: HIGH
     source: onex-site
     excerpt: 1X Technologies designs and sells robots under its own name.
+- predicate: FOUNDED_ON
+  date: '2014-01-01'
+  valid_from: '2014-01-01'
+  evidence:
+  - source: enrich-6fdea32250887fea
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: 1X was established in 2014 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true
+- predicate: HQ_AT
+  object: palo-alto-us
+  valid_from: '2026-09-11'
+  qualifier: Current headquarters confirmed on this date; relocation date not asserted
+  evidence:
+  - source: enrich-6fdea32250887fea
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: 1X Technologies identifies Palo Alto as its current home or headquarters.
+    observed_at: '2026-09-11'

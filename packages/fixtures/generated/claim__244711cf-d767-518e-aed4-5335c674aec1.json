@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "244711cf-d767-518e-aed4-5335c674aec1",
+    "subject": {
+      "id": "0c56746f-eb1e-5bfc-9ecb-0bd8ea081ecb",
+      "slug": "fanuc",
+      "entity_type": "ORGANIZATION",
+      "name": "FANUC",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "FANUC was founded on 1972-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1972-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision; corporate establishment, not the earlier NC research project",
+    "status": "APPROVED",
+    "valid_from": "1972-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "290190f8-673f-5325-a450-d86b0d75ab21",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "FANUC corporate profile gives 1972 as its establishment year.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3387b8c6-e4c1-5c9a-8251-8f3a2673776e",
+        "url": "https://www.fanuc.co.jp/en/profile/outline.html",
+        "canonical_url": null,
+        "publisher": "FANUC",
+        "title": "FANUC — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

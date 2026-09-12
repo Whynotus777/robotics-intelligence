@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "2f8943bc-46f7-5561-b7fc-7da5c841781f",
+    "subject": {
+      "id": "32f4fe35-c685-537a-8ef0-68cd02e5ccc9",
+      "slug": "autostore",
+      "entity_type": "ORGANIZATION",
+      "name": "AutoStore",
+      "primary_embodiment": null,
+      "roles": [
+        "INTEGRATOR",
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "AutoStore was founded on 1996-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1996-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1996-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "a1e5799d-752e-5577-b132-f1b991c1be6f",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "AutoStore was established in 1996 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "381c70b0-a705-55df-9637-16c8e8c79376",
+        "url": "https://www.autostoresystem.com/investors/press-releases/autostore-minutes-from-special-general-meeting?hsLang=en",
+        "canonical_url": null,
+        "publisher": "AutoStore",
+        "title": "AutoStore — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

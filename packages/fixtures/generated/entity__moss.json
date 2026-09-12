@@ -33,50 +33,8 @@
   },
   "claims": [],
   "relationships": [],
-  "inbound_relationships": [
-    {
-      "predicate": "HQ_AT",
-      "label": "is headquartered at",
-      "items": [
-        {
-          "claim_id": "216bde9a-09aa-5fa5-a928-ae6352ad97ad",
-          "source": {
-            "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
-            "slug": "onex-technologies",
-            "entity_type": "ORGANIZATION",
-            "name": "1X Technologies",
-            "primary_embodiment": null,
-            "roles": [
-              "OEM"
-            ]
-          },
-          "stack_layer": null,
-          "qualifier": null,
-          "valid_from": "2026-09-01",
-          "has_evidence": true,
-          "evidence_summary": {
-            "class": "PRIMARY",
-            "confidence": "MEDIUM",
-            "source_count": 1
-          }
-        }
-      ]
-    }
-  ],
-  "lateral_links": {
-    "company": [
-      {
-        "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
-        "slug": "onex-technologies",
-        "entity_type": "ORGANIZATION",
-        "name": "1X Technologies",
-        "primary_embodiment": null,
-        "roles": [
-          "OEM"
-        ]
-      }
-    ]
-  },
+  "inbound_relationships": [],
+  "lateral_links": {},
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -92,7 +50,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 0
   },
   "as_of": null
 }

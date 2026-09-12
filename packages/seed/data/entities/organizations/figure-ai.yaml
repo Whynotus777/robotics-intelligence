@@ -1,7 +1,8 @@
 slug: figure-ai
 entity_type: ORGANIZATION
 name: Figure AI
-short_description: Sunnyvale humanoid OEM building general-purpose humanoids and the Helix VLA model; piloted at BMW Spartanburg.
+short_description: Sunnyvale humanoid OEM building general-purpose humanoids and the Helix VLA model; piloted at
+  BMW Spartanburg.
 country_code: US
 depth_tier: ANCHOR
 aliases:
@@ -56,3 +57,14 @@ claims:
     confidence: HIGH
     source: figure-site
     excerpt: Figure AI trains the models that drive robots.
+- predicate: FOUNDED_ON
+  date: '2022-01-01'
+  valid_from: '2022-01-01'
+  evidence:
+  - source: enrich-0b363bbed6c85a6d
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Figure AI was established in 2022 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

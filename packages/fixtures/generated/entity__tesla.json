@@ -92,6 +92,32 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "HAS_TICKER",
+      "label": "stock ticker",
+      "claims": [
+        {
+          "claim_id": "9615c1df-8352-5c88-89b7-95b397e4c89f",
+          "predicate": "HAS_TICKER",
+          "value": {
+            "kind": "text",
+            "text": "NASDAQ:TSLA"
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "relationships": [
@@ -127,17 +153,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 3,
+        "PRIMARY": 4,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 3,
+      "claim_count": 4,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 4,
     "deployment_count": 0,
     "related_count": 1
   },

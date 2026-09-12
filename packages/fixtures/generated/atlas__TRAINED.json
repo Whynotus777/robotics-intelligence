@@ -4,7 +4,7 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 169
+      "count": 170
     },
     {
       "id": "SUPPLIED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 67
+      "count": 105
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 50
+      "count": 51
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 18
+      "count": 64
     }
   ],
   "marks": [
@@ -151,6 +151,95 @@
     },
     {
       "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.77493,
+      "lng": -122.41942,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 7,
+      "entities": [
+        {
+          "id": "c2248cdd-f938-5099-bc18-da0fd179290f",
+          "slug": "deepen-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Deepen AI",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "eea5328e-f52f-5e8c-ad18-07781bc11e7c",
+          "slug": "micro1",
+          "entity_type": "ORGANIZATION",
+          "name": "Micro1",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
+          "slug": "odyssey",
+          "entity_type": "ORGANIZATION",
+          "name": "Odyssey",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "MODEL_DEVELOPER"
+          ]
+        },
+        {
+          "id": "59d7fd37-3f06-5d21-b486-573c4a19ed68",
+          "slug": "parallel-domain",
+          "entity_type": "ORGANIZATION",
+          "name": "Parallel Domain",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "54bbe5f6-ee11-53c9-ba6b-2b5bb30ff799",
+          "slug": "sama",
+          "entity_type": "ORGANIZATION",
+          "name": "Sama",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "48f1ee63-b3bd-5c19-b620-6a081562e3ed",
+          "slug": "scale-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Scale AI",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "5f756779-c070-54c4-be85-73de166e6f4f",
+          "slug": "world-labs",
+          "entity_type": "ORGANIZATION",
+          "name": "World Labs",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "e7bae553-307c-5071-8779-e293bef60eb9",
         "slug": "beijing",
         "entity_type": "PLACE",
@@ -162,7 +251,7 @@
       "lng": 116.4,
       "country_code": "CN",
       "cluster_label": "Beijing",
-      "weight": 4,
+      "weight": 5,
       "entities": [
         {
           "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
@@ -207,6 +296,155 @@
           "roles": [
             "MODEL_DEVELOPER",
             "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "a893923d-c6f3-54d8-adf4-a20b4b8e9de0",
+          "slug": "lightwheel",
+          "entity_type": "ORGANIZATION",
+          "name": "Lightwheel",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 51.51,
+      "lng": -0.13,
+      "country_code": "GB",
+      "cluster_label": "London",
+      "weight": 5,
+      "entities": [
+        {
+          "id": "384a78ae-0550-5ad9-9e9c-503f1d1c6af2",
+          "slug": "encord",
+          "entity_type": "ORGANIZATION",
+          "name": "Encord",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
+          "slug": "google-deepmind",
+          "entity_type": "ORGANIZATION",
+          "name": "Google DeepMind",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "dbd646ab-2676-5647-ae48-6511c3043dad",
+          "slug": "neuracore",
+          "entity_type": "ORGANIZATION",
+          "name": "Neuracore",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "59cb91d7-b584-515d-98a1-467b793b90fc",
+          "slug": "sky-engine-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "SKY ENGINE AI",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+          "slug": "wayve",
+          "entity_type": "ORGANIZATION",
+          "name": "Wayve",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 47.38,
+      "lng": 8.54,
+      "country_code": "CH",
+      "cluster_label": "Zurich",
+      "weight": 5,
+      "entities": [
+        {
+          "id": "ad96b44d-2010-5584-9efd-e277d77a5aa5",
+          "slug": "coppelia-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Coppelia Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "3e60dbd4-e8f7-5665-ba1c-0bd8b8e1b76a",
+          "slug": "eth-zurich-autonomous-systems-lab",
+          "entity_type": "ORGANIZATION",
+          "name": "ETH Zurich Autonomous Systems Lab",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "7414d2aa-fd38-51c6-8361-ecda027e47f5",
+          "slug": "eth-zurich-robotic-systems-lab",
+          "entity_type": "ORGANIZATION",
+          "name": "ETH Zurich Robotic Systems Lab",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "14f64657-e634-589e-afdb-f9d0d0b9cd22",
+          "slug": "institute-of-robotics-and-intelligent-systems-iris",
+          "entity_type": "ORGANIZATION",
+          "name": "Institute of Robotics and Intelligent Systems (IRIS)",
+          "primary_embodiment": null,
+          "roles": [
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "698b16a9-4ca1-5f12-9b07-f0b5d0e0c6f6",
+          "slug": "mimic-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "mimic robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
           ]
         }
       ],
@@ -336,58 +574,47 @@
     },
     {
       "place": {
-        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
-        "slug": "zurich",
+        "id": "f08b1d51-2580-5ef2-aa30-3edf44112a8f",
+        "slug": "lausanne",
         "entity_type": "PLACE",
-        "name": "Zurich",
+        "name": "Lausanne",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 47.38,
-      "lng": 8.54,
+      "lat": 46.52,
+      "lng": 6.63,
       "country_code": "CH",
-      "cluster_label": "Zurich",
-      "weight": 4,
+      "cluster_label": "Lake Geneva",
+      "weight": 3,
       "entities": [
         {
-          "id": "3e60dbd4-e8f7-5665-ba1c-0bd8b8e1b76a",
-          "slug": "eth-zurich-autonomous-systems-lab",
+          "id": "58961440-005b-5523-9ed1-e062cc6239d8",
+          "slug": "cyberbotics",
           "entity_type": "ORGANIZATION",
-          "name": "ETH Zurich Autonomous Systems Lab",
+          "name": "Cyberbotics",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "4a899d0c-1967-59af-82f0-ca190022426e",
+          "slug": "epfl-biorobotics-laboratory",
+          "entity_type": "ORGANIZATION",
+          "name": "EPFL Biorobotics Laboratory",
           "primary_embodiment": null,
           "roles": [
             "RESEARCH_LAB"
           ]
         },
         {
-          "id": "7414d2aa-fd38-51c6-8361-ecda027e47f5",
-          "slug": "eth-zurich-robotic-systems-lab",
+          "id": "15a2409d-da28-5dea-88e2-be8899c5350a",
+          "slug": "epfl-laboratory-of-intelligent-systems",
           "entity_type": "ORGANIZATION",
-          "name": "ETH Zurich Robotic Systems Lab",
+          "name": "EPFL Laboratory of Intelligent Systems",
           "primary_embodiment": null,
           "roles": [
             "RESEARCH_LAB"
-          ]
-        },
-        {
-          "id": "14f64657-e634-589e-afdb-f9d0d0b9cd22",
-          "slug": "institute-of-robotics-and-intelligent-systems-iris",
-          "entity_type": "ORGANIZATION",
-          "name": "Institute of Robotics and Intelligent Systems (IRIS)",
-          "primary_embodiment": null,
-          "roles": [
-            "RESEARCH_LAB"
-          ]
-        },
-        {
-          "id": "698b16a9-4ca1-5f12-9b07-f0b5d0e0c6f6",
-          "slug": "mimic-robotics",
-          "entity_type": "ORGANIZATION",
-          "name": "mimic robotics",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER",
-            "OEM"
           ]
         }
       ],
@@ -530,83 +757,6 @@
     },
     {
       "place": {
-        "id": "f08b1d51-2580-5ef2-aa30-3edf44112a8f",
-        "slug": "lausanne",
-        "entity_type": "PLACE",
-        "name": "Lausanne",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 46.52,
-      "lng": 6.63,
-      "country_code": "CH",
-      "cluster_label": "Lake Geneva",
-      "weight": 2,
-      "entities": [
-        {
-          "id": "4a899d0c-1967-59af-82f0-ca190022426e",
-          "slug": "epfl-biorobotics-laboratory",
-          "entity_type": "ORGANIZATION",
-          "name": "EPFL Biorobotics Laboratory",
-          "primary_embodiment": null,
-          "roles": [
-            "RESEARCH_LAB"
-          ]
-        },
-        {
-          "id": "15a2409d-da28-5dea-88e2-be8899c5350a",
-          "slug": "epfl-laboratory-of-intelligent-systems",
-          "entity_type": "ORGANIZATION",
-          "name": "EPFL Laboratory of Intelligent Systems",
-          "primary_embodiment": null,
-          "roles": [
-            "RESEARCH_LAB"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
-        "slug": "london",
-        "entity_type": "PLACE",
-        "name": "London",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 51.51,
-      "lng": -0.13,
-      "country_code": "GB",
-      "cluster_label": "London",
-      "weight": 2,
-      "entities": [
-        {
-          "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
-          "slug": "google-deepmind",
-          "entity_type": "ORGANIZATION",
-          "name": "Google DeepMind",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER",
-            "RESEARCH_LAB"
-          ]
-        },
-        {
-          "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
-          "slug": "wayve",
-          "entity_type": "ORGANIZATION",
-          "name": "Wayve",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "82cb4ccd-62d0-5b75-912f-fa27fc710b63",
         "slug": "mountain-view-us",
         "entity_type": "PLACE",
@@ -645,6 +795,204 @@
     },
     {
       "place": {
+        "id": "194bdd77-70e1-5bdd-97cd-89ec64950946",
+        "slug": "nyc",
+        "entity_type": "PLACE",
+        "name": "New York City",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 40.71,
+      "lng": -74.01,
+      "country_code": "US",
+      "cluster_label": "NYC",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+          "slug": "hugging-face",
+          "entity_type": "ORGANIZATION",
+          "name": "Hugging Face",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+          "slug": "runway",
+          "entity_type": "ORGANIZATION",
+          "name": "Runway",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
+        "entity_type": "PLACE",
+        "name": "Palo Alto",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.44188,
+      "lng": -122.14302,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "648a3020-8438-5b48-9a31-134f4671793d",
+          "slug": "abaka-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Abaka AI",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+          "slug": "genesis-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Genesis AI",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "a04379bf-bfe9-5c45-a07a-9eb4118fe484",
+        "slug": "san-mateo-us",
+        "entity_type": "PLACE",
+        "name": "San Mateo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.56299,
+      "lng": -122.32553,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "e0c1b37d-e408-50a3-a062-006a67b4f887",
+          "slug": "duality-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Duality AI",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "a19bf5f6-db27-5318-ae20-28be53104b40",
+          "slug": "dyna-robotics",
+          "entity_type": "ORGANIZATION",
+          "name": "Dyna Robotics",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER",
+            "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "country_code": "US",
+      "cluster_label": "Seattle",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+          "slug": "amazon",
+          "entity_type": "ORGANIZATION",
+          "name": "Amazon",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "OPERATOR",
+            "PLATFORM",
+            "RESEARCH_LAB"
+          ]
+        },
+        {
+          "id": "499a8795-6f6a-59dc-974e-4722fa7d5fe5",
+          "slug": "roboto-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Roboto AI",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "43948dd8-d19b-5ebd-a5fd-95532837fd9f",
+        "slug": "singapore-sg",
+        "entity_type": "PLACE",
+        "name": "Singapore",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 1.28967,
+      "lng": 103.85007,
+      "country_code": "SG",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "5bb0c87e-afb3-5301-9e47-d4a5e26f62a9",
+          "slug": "bifrost",
+          "entity_type": "ORGANIZATION",
+          "name": "Bifrost",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "f3f641d9-8c1e-573e-8430-db952b3df8db",
+          "slug": "bitrobot-network",
+          "entity_type": "ORGANIZATION",
+          "name": "BitRobot Network",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "379584fb-3bd3-54ee-8afc-91a3605bee16",
         "slug": "stanford-us",
         "entity_type": "PLACE",
@@ -676,6 +1024,113 @@
           "primary_embodiment": null,
           "roles": [
             "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+        "slug": "sunnyvale-us",
+        "entity_type": "PLACE",
+        "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.36883,
+      "lng": -122.03635,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
+          "slug": "applied-intuition",
+          "entity_type": "ORGANIZATION",
+          "name": "Applied Intuition",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "MODEL_DEVELOPER",
+            "TOOLING_OPS_PROVIDER"
+          ]
+        },
+        {
+          "id": "581c7cc9-8475-5b34-adee-1a60403e1db7",
+          "slug": "synopsys",
+          "entity_type": "ORGANIZATION",
+          "name": "Synopsys",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
+        "slug": "toronto-ca",
+        "entity_type": "PLACE",
+        "name": "Toronto",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 43.70643,
+      "lng": -79.39864,
+      "country_code": "CA",
+      "cluster_label": null,
+      "weight": 2,
+      "entities": [
+        {
+          "id": "b4f366ac-3564-5ca5-80b5-9f7c3c2519a7",
+          "slug": "mecka",
+          "entity_type": "ORGANIZATION",
+          "name": "Mecka",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        },
+        {
+          "id": "54973dcc-f0a8-5acb-83a4-b03a2f8056ab",
+          "slug": "waabi",
+          "entity_type": "ORGANIZATION",
+          "name": "Waabi",
+          "primary_embodiment": null,
+          "roles": [
+            "MODEL_DEVELOPER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c1b148a1-6437-5a58-b338-b407537a37e1",
+        "slug": "ann-arbor",
+        "entity_type": "PLACE",
+        "name": "Ann Arbor",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 42.28,
+      "lng": -83.74,
+      "country_code": "US",
+      "cluster_label": "Ann Arbor",
+      "weight": 1,
+      "entities": [
+        {
+          "id": "d16c16a3-47ea-5e0e-8fc4-a9503f04da93",
+          "slug": "voxel51",
+          "entity_type": "ORGANIZATION",
+          "name": "Voxel51",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER",
+            "TOOLING_OPS_PROVIDER"
           ]
         }
       ],
@@ -767,6 +1222,62 @@
     },
     {
       "place": {
+        "id": "05ee6975-2bed-57c5-b795-32e9eb0c92d7",
+        "slug": "canonsburg-us",
+        "entity_type": "PLACE",
+        "name": "Canonsburg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 40.26257,
+      "lng": -80.18728,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "7552bab9-2d66-5af2-b58d-9947e4e612dd",
+          "slug": "ansys",
+          "entity_type": "ORGANIZATION",
+          "name": "Ansys",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "2a9af44a-5784-5983-bd13-86fdaf41038f",
+        "slug": "cerritos-us",
+        "entity_type": "PLACE",
+        "name": "Cerritos",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 33.85835,
+      "lng": -118.06479,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "d6839662-0702-5721-9fed-ba626ee100d4",
+          "slug": "objectways",
+          "entity_type": "ORGANIZATION",
+          "name": "Objectways",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "c3ce5e66-38f5-55f6-b6fb-a9fb5d5f5581",
         "slug": "cupertino-us",
         "entity_type": "PLACE",
@@ -851,6 +1362,90 @@
     },
     {
       "place": {
+        "id": "99b00399-7e73-5eaf-9aed-5c33516cb1e2",
+        "slug": "espoo-fi",
+        "entity_type": "PLACE",
+        "name": "Espoo",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 60.2052,
+      "lng": 24.6522,
+      "country_code": "FI",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "48e1da94-9335-5fa6-98e2-573756183668",
+          "slug": "visual-components",
+          "entity_type": "ORGANIZATION",
+          "name": "Visual Components",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "ba915684-9f3b-51da-8585-a97dd00165e1",
+        "slug": "geldrop-nl",
+        "entity_type": "PLACE",
+        "name": "Geldrop",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 51.42167,
+      "lng": 5.55972,
+      "country_code": "NL",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "73cf429c-ed6e-57e4-b5b9-e516a44f1a16",
+          "slug": "manus",
+          "entity_type": "ORGANIZATION",
+          "name": "MANUS",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "decb0703-a742-5607-9412-1abfc6077802",
+        "slug": "gothenburg-se",
+        "entity_type": "PLACE",
+        "name": "Gothenburg",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 57.70716,
+      "lng": 11.96679,
+      "country_code": "SE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "b992dfb4-b945-5a51-9ccf-368c6da804a1",
+          "slug": "kognic",
+          "entity_type": "ORGANIZATION",
+          "name": "Kognic",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "0426073c-0ee2-52b4-b47c-46bf6eb49c73",
         "slug": "guangzhou-cn",
         "entity_type": "PLACE",
@@ -907,6 +1502,90 @@
     },
     {
       "place": {
+        "id": "5c6bb35f-3b1e-5387-add2-72d119e217de",
+        "slug": "karlsruhe-de",
+        "entity_type": "PLACE",
+        "name": "Karlsruhe",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 49.00937,
+      "lng": 8.40444,
+      "country_code": "DE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "7e3d11b0-851c-5936-ad57-e4aa994362be",
+          "slug": "ipg-automotive",
+          "entity_type": "ORGANIZATION",
+          "name": "IPG Automotive",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "99166e11-f08b-571f-a02e-c1b3ff05a95f",
+        "slug": "leuven-be",
+        "entity_type": "PLACE",
+        "name": "Leuven",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 50.87959,
+      "lng": 4.70093,
+      "country_code": "BE",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "bab07ba6-92c5-5a93-950a-008aadca27a5",
+          "slug": "segments-ai",
+          "entity_type": "ORGANIZATION",
+          "name": "Segments.ai",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "b8916638-00c6-570c-bd85-201cf792661d",
+        "slug": "louisville-us",
+        "entity_type": "PLACE",
+        "name": "Louisville",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 38.25424,
+      "lng": -85.75941,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "42b47c38-52b4-51a9-9298-754c93db9160",
+          "slug": "shaip",
+          "entity_type": "ORGANIZATION",
+          "name": "Shaip",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "e1f47bba-c4c0-597f-90af-d43cf4dc5629",
         "slug": "metzingen-de",
         "entity_type": "PLACE",
@@ -929,6 +1608,62 @@
           "roles": [
             "MODEL_DEVELOPER",
             "OEM"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "6336ca24-b343-5b67-b7ee-86fc62e9ee5f",
+        "slug": "modi-in-il",
+        "entity_type": "PLACE",
+        "name": "Modi'in",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 31.89385,
+      "lng": 35.01504,
+      "country_code": "IL",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "2a8c10d4-129b-51e2-95fa-d4319032a3c0",
+          "slug": "foretellix",
+          "entity_type": "ORGANIZATION",
+          "name": "Foretellix",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "16cc8d2d-19c4-51a3-91ef-f796ecf146ab",
+        "slug": "montreal-ca",
+        "entity_type": "PLACE",
+        "name": "Montreal",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 45.50884,
+      "lng": -73.58781,
+      "country_code": "CA",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "e7af5c8e-c064-5996-b4a9-07202f2328f2",
+          "slug": "robodk",
+          "entity_type": "ORGANIZATION",
+          "name": "RoboDK",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
           ]
         }
       ],
@@ -964,28 +1699,27 @@
     },
     {
       "place": {
-        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
-        "slug": "new-york-us",
+        "id": "73782526-17d8-5fee-b028-d40272cafe4a",
+        "slug": "natick-us",
         "entity_type": "PLACE",
-        "name": "New York",
+        "name": "Natick",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 40.71427,
-      "lng": -74.00597,
+      "lat": 42.28343,
+      "lng": -71.3495,
       "country_code": "US",
       "cluster_label": null,
       "weight": 1,
       "entities": [
         {
-          "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
-          "slug": "runway",
+          "id": "9ba7039f-6158-5a08-ac87-a5e24c4025f1",
+          "slug": "mathworks",
           "entity_type": "ORGANIZATION",
-          "name": "Runway",
+          "name": "MathWorks",
           "primary_embodiment": null,
           "roles": [
-            "DATA_SIMULATION_PROVIDER",
-            "MODEL_DEVELOPER"
+            "DATA_SIMULATION_PROVIDER"
           ]
         }
       ],
@@ -1013,35 +1747,6 @@
           "name": "Oxford Robotics Institute",
           "primary_embodiment": null,
           "roles": [
-            "RESEARCH_LAB"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
-        "slug": "palo-alto-us",
-        "entity_type": "PLACE",
-        "name": "Palo Alto",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 37.44188,
-      "lng": -122.14302,
-      "country_code": "US",
-      "cluster_label": null,
-      "weight": 1,
-      "entities": [
-        {
-          "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
-          "slug": "genesis-ai",
-          "entity_type": "ORGANIZATION",
-          "name": "Genesis AI",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER",
             "RESEARCH_LAB"
           ]
         }
@@ -1078,6 +1783,34 @@
     },
     {
       "place": {
+        "id": "09285d23-853c-5c2d-8801-3eed428f9826",
+        "slug": "plano-us",
+        "entity_type": "PLACE",
+        "name": "Plano",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 33.01984,
+      "lng": -96.69889,
+      "country_code": "US",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "29453e8f-9a98-529f-8d0f-5b6da545ccc5",
+          "slug": "siemens-digital-industries-software",
+          "entity_type": "ORGANIZATION",
+          "name": "Siemens Digital Industries Software",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
         "id": "2588e14b-b3ca-531f-9426-d37179a708a6",
         "slug": "redmond",
         "entity_type": "PLACE",
@@ -1101,6 +1834,34 @@
             "INVESTOR",
             "PLATFORM",
             "RESEARCH_LAB"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "c0d13420-0c43-55b2-b4d2-34835e0b2142",
+        "slug": "rehovot-il",
+        "entity_type": "PLACE",
+        "name": "Rehovot",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 31.89421,
+      "lng": 34.81199,
+      "country_code": "IL",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "22d95e26-98ce-52ce-a11e-4107dae02a97",
+          "slug": "cognata",
+          "entity_type": "ORGANIZATION",
+          "name": "Cognata",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
           ]
         }
       ],
@@ -1166,88 +1927,27 @@
     },
     {
       "place": {
-        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
-        "slug": "san-francisco-us",
+        "id": "e35b5fd8-076c-5c2d-9118-c6c527641fe3",
+        "slug": "san-jose-us",
         "entity_type": "PLACE",
-        "name": "San Francisco",
+        "name": "San Jose",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 37.77493,
-      "lng": -122.41942,
+      "lat": 37.33939,
+      "lng": -121.89496,
       "country_code": "US",
       "cluster_label": null,
       "weight": 1,
       "entities": [
         {
-          "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
-          "slug": "odyssey",
+          "id": "e3bd184e-8337-5bbb-b6c1-d663f838982b",
+          "slug": "imerit",
           "entity_type": "ORGANIZATION",
-          "name": "Odyssey",
+          "name": "iMerit",
           "primary_embodiment": null,
           "roles": [
-            "DATA_SIMULATION_PROVIDER",
-            "MODEL_DEVELOPER"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "a04379bf-bfe9-5c45-a07a-9eb4118fe484",
-        "slug": "san-mateo-us",
-        "entity_type": "PLACE",
-        "name": "San Mateo",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 37.56299,
-      "lng": -122.32553,
-      "country_code": "US",
-      "cluster_label": null,
-      "weight": 1,
-      "entities": [
-        {
-          "id": "a19bf5f6-db27-5318-ae20-28be53104b40",
-          "slug": "dyna-robotics",
-          "entity_type": "ORGANIZATION",
-          "name": "Dyna Robotics",
-          "primary_embodiment": null,
-          "roles": [
-            "MODEL_DEVELOPER",
-            "OEM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
-        "slug": "seattle",
-        "entity_type": "PLACE",
-        "name": "Seattle",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 47.6062,
-      "lng": -122.3321,
-      "country_code": "US",
-      "cluster_label": "Seattle",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
-          "slug": "amazon",
-          "entity_type": "ORGANIZATION",
-          "name": "Amazon",
-          "primary_embodiment": null,
-          "roles": [
-            "INVESTOR",
-            "OPERATOR",
-            "PLATFORM",
-            "RESEARCH_LAB"
+            "DATA_SIMULATION_PROVIDER"
           ]
         }
       ],
@@ -1312,29 +2012,56 @@
     },
     {
       "place": {
-        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
-        "slug": "sunnyvale-us",
+        "id": "4d0fff86-620b-5fcd-b8d9-ccb1fb0b0b2f",
+        "slug": "stockholm-se",
         "entity_type": "PLACE",
-        "name": "Sunnyvale",
+        "name": "Stockholm",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 37.36883,
-      "lng": -122.03635,
-      "country_code": "US",
+      "lat": 59.32938,
+      "lng": 18.06871,
+      "country_code": "SE",
       "cluster_label": null,
       "weight": 1,
       "entities": [
         {
-          "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
-          "slug": "applied-intuition",
+          "id": "73427a24-227d-5bca-ba25-e50a3b4bd997",
+          "slug": "rerun",
           "entity_type": "ORGANIZATION",
-          "name": "Applied Intuition",
+          "name": "Rerun",
           "primary_embodiment": null,
           "roles": [
             "DATA_SIMULATION_PROVIDER",
-            "MODEL_DEVELOPER",
             "TOOLING_OPS_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "46debb86-6c28-51d0-8715-127ace7b455c",
+        "slug": "sydney-au",
+        "entity_type": "PLACE",
+        "name": "Sydney",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": -33.86785,
+      "lng": 151.20732,
+      "country_code": "AU",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "090bcbf7-a37a-5846-9890-4fc859cbe92f",
+          "slug": "appen",
+          "entity_type": "ORGANIZATION",
+          "name": "Appen",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
           ]
         }
       ],
@@ -1363,34 +2090,6 @@
           "primary_embodiment": null,
           "roles": [
             "DATA_SIMULATION_PROVIDER",
-            "MODEL_DEVELOPER"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
-        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
-        "slug": "toronto-ca",
-        "entity_type": "PLACE",
-        "name": "Toronto",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 43.70643,
-      "lng": -79.39864,
-      "country_code": "CA",
-      "cluster_label": null,
-      "weight": 1,
-      "entities": [
-        {
-          "id": "54973dcc-f0a8-5acb-83a4-b03a2f8056ab",
-          "slug": "waabi",
-          "entity_type": "ORGANIZATION",
-          "name": "Waabi",
-          "primary_embodiment": null,
-          "roles": [
             "MODEL_DEVELOPER"
           ]
         }
@@ -1453,32 +2152,78 @@
         }
       ],
       "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "32de5d5c-faa9-5b95-b7f8-8216f7badf41",
+        "slug": "velizy-villacoublay-fr",
+        "entity_type": "PLACE",
+        "name": "Velizy-Villacoublay",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 48.78198,
+      "lng": 2.19395,
+      "country_code": "FR",
+      "cluster_label": null,
+      "weight": 1,
+      "entities": [
+        {
+          "id": "0787b769-c375-561f-b479-cafbb706c095",
+          "slug": "dassault-systemes",
+          "entity_type": "ORGANIZATION",
+          "name": "Dassault Systemes",
+          "primary_embodiment": null,
+          "roles": [
+            "DATA_SIMULATION_PROVIDER"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
     }
   ],
   "countries": [
     {
       "id": "US",
       "label": "US",
-      "weight": 33,
-      "places": 21
+      "weight": 51,
+      "places": 28
     },
     {
       "id": "CN",
       "label": "CN",
-      "weight": 13,
+      "weight": 14,
       "places": 4
     },
     {
       "id": "CH",
       "label": "CH",
-      "weight": 6,
+      "weight": 8,
       "places": 2
     },
     {
       "id": "GB",
       "label": "GB",
-      "weight": 3,
+      "weight": 6,
       "places": 2
+    },
+    {
+      "id": "CA",
+      "label": "CA",
+      "weight": 4,
+      "places": 3
+    },
+    {
+      "id": "DE",
+      "label": "DE",
+      "weight": 3,
+      "places": 3
+    },
+    {
+      "id": "IL",
+      "label": "IL",
+      "weight": 3,
+      "places": 3
     },
     {
       "id": "JP",
@@ -1487,32 +2232,50 @@
       "places": 1
     },
     {
-      "id": "CA",
-      "label": "CA",
-      "weight": 2,
-      "places": 2
-    },
-    {
-      "id": "DE",
-      "label": "DE",
-      "weight": 2,
-      "places": 2
-    },
-    {
       "id": "KR",
       "label": "KR",
       "weight": 2,
       "places": 2
     },
     {
-      "id": "IL",
-      "label": "IL",
+      "id": "NL",
+      "label": "NL",
+      "weight": 2,
+      "places": 2
+    },
+    {
+      "id": "SE",
+      "label": "SE",
+      "weight": 2,
+      "places": 2
+    },
+    {
+      "id": "SG",
+      "label": "SG",
+      "weight": 2,
+      "places": 1
+    },
+    {
+      "id": "AU",
+      "label": "AU",
       "weight": 1,
       "places": 1
     },
     {
-      "id": "NL",
-      "label": "NL",
+      "id": "BE",
+      "label": "BE",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "FI",
+      "label": "FI",
+      "weight": 1,
+      "places": 1
+    },
+    {
+      "id": "FR",
+      "label": "FR",
       "weight": 1,
       "places": 1
     },
@@ -1533,7 +2296,19 @@
     {
       "id": "Beijing",
       "label": "Beijing",
-      "weight": 4,
+      "weight": 5,
+      "places": 1
+    },
+    {
+      "id": "London",
+      "label": "London",
+      "weight": 5,
+      "places": 1
+    },
+    {
+      "id": "Zurich",
+      "label": "Zurich",
+      "weight": 5,
       "places": 1
     },
     {
@@ -1549,9 +2324,9 @@
       "places": 1
     },
     {
-      "id": "Zurich",
-      "label": "Zurich",
-      "weight": 4,
+      "id": "Lake Geneva",
+      "label": "Lake Geneva",
+      "weight": 3,
       "places": 1
     },
     {
@@ -1561,28 +2336,28 @@
       "places": 1
     },
     {
+      "id": "Seattle",
+      "label": "Seattle",
+      "weight": 3,
+      "places": 2
+    },
+    {
       "id": "Tokyo",
       "label": "Tokyo",
       "weight": 3,
       "places": 1
     },
     {
-      "id": "Lake Geneva",
-      "label": "Lake Geneva",
+      "id": "NYC",
+      "label": "NYC",
       "weight": 2,
       "places": 1
     },
     {
-      "id": "London",
-      "label": "London",
-      "weight": 2,
+      "id": "Ann Arbor",
+      "label": "Ann Arbor",
+      "weight": 1,
       "places": 1
-    },
-    {
-      "id": "Seattle",
-      "label": "Seattle",
-      "weight": 2,
-      "places": 2
     },
     {
       "id": "Boston",
@@ -1791,6 +2566,147 @@
     },
     {
       "entity": {
+        "id": "c2248cdd-f938-5099-bc18-da0fd179290f",
+        "slug": "deepen-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Deepen AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "eea5328e-f52f-5e8c-ad18-07781bc11e7c",
+        "slug": "micro1",
+        "entity_type": "ORGANIZATION",
+        "name": "Micro1",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
+        "slug": "odyssey",
+        "entity_type": "ORGANIZATION",
+        "name": "Odyssey",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "59d7fd37-3f06-5d21-b486-573c4a19ed68",
+        "slug": "parallel-domain",
+        "entity_type": "ORGANIZATION",
+        "name": "Parallel Domain",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "54bbe5f6-ee11-53c9-ba6b-2b5bb30ff799",
+        "slug": "sama",
+        "entity_type": "ORGANIZATION",
+        "name": "Sama",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "48f1ee63-b3bd-5c19-b620-6a081562e3ed",
+        "slug": "scale-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Scale AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "5f756779-c070-54c4-be85-73de166e6f4f",
+        "slug": "world-labs",
+        "entity_type": "ORGANIZATION",
+        "name": "World Labs",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
+        "slug": "san-francisco-us",
+        "entity_type": "PLACE",
+        "name": "San Francisco",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "ac1ddf47-e550-5af7-8ed9-bda7bba2df3c",
         "slug": "baidu",
         "entity_type": "ORGANIZATION",
@@ -1870,6 +2786,229 @@
         "slug": "beijing",
         "entity_type": "PLACE",
         "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "a893923d-c6f3-54d8-adf4-a20b4b8e9de0",
+        "slug": "lightwheel",
+        "entity_type": "ORGANIZATION",
+        "name": "Lightwheel",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "e7bae553-307c-5071-8779-e293bef60eb9",
+        "slug": "beijing",
+        "entity_type": "PLACE",
+        "name": "Beijing",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "384a78ae-0550-5ad9-9e9c-503f1d1c6af2",
+        "slug": "encord",
+        "entity_type": "ORGANIZATION",
+        "name": "Encord",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
+        "slug": "google-deepmind",
+        "entity_type": "ORGANIZATION",
+        "name": "Google DeepMind",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "dbd646ab-2676-5647-ae48-6511c3043dad",
+        "slug": "neuracore",
+        "entity_type": "ORGANIZATION",
+        "name": "Neuracore",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "59cb91d7-b584-515d-98a1-467b793b90fc",
+        "slug": "sky-engine-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "SKY ENGINE AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
+        "slug": "wayve",
+        "entity_type": "ORGANIZATION",
+        "name": "Wayve",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
+        "slug": "london",
+        "entity_type": "PLACE",
+        "name": "London",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "ad96b44d-2010-5584-9efd-e277d77a5aa5",
+        "slug": "coppelia-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Coppelia Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "3e60dbd4-e8f7-5665-ba1c-0bd8b8e1b76a",
+        "slug": "eth-zurich-autonomous-systems-lab",
+        "entity_type": "ORGANIZATION",
+        "name": "ETH Zurich Autonomous Systems Lab",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "7414d2aa-fd38-51c6-8361-ecda027e47f5",
+        "slug": "eth-zurich-robotic-systems-lab",
+        "entity_type": "ORGANIZATION",
+        "name": "ETH Zurich Robotic Systems Lab",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "14f64657-e634-589e-afdb-f9d0d0b9cd22",
+        "slug": "institute-of-robotics-and-intelligent-systems-iris",
+        "entity_type": "ORGANIZATION",
+        "name": "Institute of Robotics and Intelligent Systems (IRIS)",
+        "primary_embodiment": null,
+        "roles": [
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "698b16a9-4ca1-5f12-9b07-f0b5d0e0c6f6",
+        "slug": "mimic-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "mimic robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
+        "slug": "zurich",
+        "entity_type": "PLACE",
+        "name": "Zurich",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2042,81 +3181,60 @@
     },
     {
       "entity": {
-        "id": "3e60dbd4-e8f7-5665-ba1c-0bd8b8e1b76a",
-        "slug": "eth-zurich-autonomous-systems-lab",
+        "id": "58961440-005b-5523-9ed1-e062cc6239d8",
+        "slug": "cyberbotics",
         "entity_type": "ORGANIZATION",
-        "name": "ETH Zurich Autonomous Systems Lab",
+        "name": "Cyberbotics",
         "primary_embodiment": null,
         "roles": [
-          "RESEARCH_LAB"
+          "DATA_SIMULATION_PROVIDER"
         ]
       },
       "place": {
-        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
-        "slug": "zurich",
+        "id": "f08b1d51-2580-5ef2-aa30-3edf44112a8f",
+        "slug": "lausanne",
         "entity_type": "PLACE",
-        "name": "Zurich",
+        "name": "Lausanne",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "7414d2aa-fd38-51c6-8361-ecda027e47f5",
-        "slug": "eth-zurich-robotic-systems-lab",
+        "id": "4a899d0c-1967-59af-82f0-ca190022426e",
+        "slug": "epfl-biorobotics-laboratory",
         "entity_type": "ORGANIZATION",
-        "name": "ETH Zurich Robotic Systems Lab",
+        "name": "EPFL Biorobotics Laboratory",
         "primary_embodiment": null,
         "roles": [
           "RESEARCH_LAB"
         ]
       },
       "place": {
-        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
-        "slug": "zurich",
+        "id": "f08b1d51-2580-5ef2-aa30-3edf44112a8f",
+        "slug": "lausanne",
         "entity_type": "PLACE",
-        "name": "Zurich",
+        "name": "Lausanne",
         "primary_embodiment": null,
         "roles": []
       }
     },
     {
       "entity": {
-        "id": "14f64657-e634-589e-afdb-f9d0d0b9cd22",
-        "slug": "institute-of-robotics-and-intelligent-systems-iris",
+        "id": "15a2409d-da28-5dea-88e2-be8899c5350a",
+        "slug": "epfl-laboratory-of-intelligent-systems",
         "entity_type": "ORGANIZATION",
-        "name": "Institute of Robotics and Intelligent Systems (IRIS)",
+        "name": "EPFL Laboratory of Intelligent Systems",
         "primary_embodiment": null,
         "roles": [
           "RESEARCH_LAB"
         ]
       },
       "place": {
-        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
-        "slug": "zurich",
+        "id": "f08b1d51-2580-5ef2-aa30-3edf44112a8f",
+        "slug": "lausanne",
         "entity_type": "PLACE",
-        "name": "Zurich",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "698b16a9-4ca1-5f12-9b07-f0b5d0e0c6f6",
-        "slug": "mimic-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "mimic robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "b635cef7-71fd-5845-acb1-145fbb055bf7",
-        "slug": "zurich",
-        "entity_type": "PLACE",
-        "name": "Zurich",
+        "name": "Lausanne",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2284,87 +3402,6 @@
     },
     {
       "entity": {
-        "id": "4a899d0c-1967-59af-82f0-ca190022426e",
-        "slug": "epfl-biorobotics-laboratory",
-        "entity_type": "ORGANIZATION",
-        "name": "EPFL Biorobotics Laboratory",
-        "primary_embodiment": null,
-        "roles": [
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "f08b1d51-2580-5ef2-aa30-3edf44112a8f",
-        "slug": "lausanne",
-        "entity_type": "PLACE",
-        "name": "Lausanne",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "15a2409d-da28-5dea-88e2-be8899c5350a",
-        "slug": "epfl-laboratory-of-intelligent-systems",
-        "entity_type": "ORGANIZATION",
-        "name": "EPFL Laboratory of Intelligent Systems",
-        "primary_embodiment": null,
-        "roles": [
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "f08b1d51-2580-5ef2-aa30-3edf44112a8f",
-        "slug": "lausanne",
-        "entity_type": "PLACE",
-        "name": "Lausanne",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "dd5a258e-19fc-53cf-b33f-9257d1aa7503",
-        "slug": "google-deepmind",
-        "entity_type": "ORGANIZATION",
-        "name": "Google DeepMind",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
-        "slug": "london",
-        "entity_type": "PLACE",
-        "name": "London",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "d33164ed-ac70-5d3f-941f-5f7a3567e341",
-        "slug": "wayve",
-        "entity_type": "ORGANIZATION",
-        "name": "Wayve",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER"
-        ]
-      },
-      "place": {
-        "id": "c05e04ae-62ec-5eed-b1e5-84fa5f2178f8",
-        "slug": "london",
-        "entity_type": "PLACE",
-        "name": "London",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
         "id": "6458e6b9-a773-513a-8121-5d2eb680443a",
         "slug": "kodiak-robotics",
         "entity_type": "ORGANIZATION",
@@ -2405,6 +3442,214 @@
     },
     {
       "entity": {
+        "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+        "slug": "hugging-face",
+        "entity_type": "ORGANIZATION",
+        "name": "Hugging Face",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "194bdd77-70e1-5bdd-97cd-89ec64950946",
+        "slug": "nyc",
+        "entity_type": "PLACE",
+        "name": "New York City",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+        "slug": "runway",
+        "entity_type": "ORGANIZATION",
+        "name": "Runway",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "194bdd77-70e1-5bdd-97cd-89ec64950946",
+        "slug": "nyc",
+        "entity_type": "PLACE",
+        "name": "New York City",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "648a3020-8438-5b48-9a31-134f4671793d",
+        "slug": "abaka-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Abaka AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
+        "entity_type": "PLACE",
+        "name": "Palo Alto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
+        "slug": "genesis-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Genesis AI",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
+        "entity_type": "PLACE",
+        "name": "Palo Alto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e0c1b37d-e408-50a3-a062-006a67b4f887",
+        "slug": "duality-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Duality AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "a04379bf-bfe9-5c45-a07a-9eb4118fe484",
+        "slug": "san-mateo-us",
+        "entity_type": "PLACE",
+        "name": "San Mateo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "a19bf5f6-db27-5318-ae20-28be53104b40",
+        "slug": "dyna-robotics",
+        "entity_type": "ORGANIZATION",
+        "name": "Dyna Robotics",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER",
+          "OEM"
+        ]
+      },
+      "place": {
+        "id": "a04379bf-bfe9-5c45-a07a-9eb4118fe484",
+        "slug": "san-mateo-us",
+        "entity_type": "PLACE",
+        "name": "San Mateo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
+        "slug": "amazon",
+        "entity_type": "ORGANIZATION",
+        "name": "Amazon",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OPERATOR",
+          "PLATFORM",
+          "RESEARCH_LAB"
+        ]
+      },
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "499a8795-6f6a-59dc-974e-4722fa7d5fe5",
+        "slug": "roboto-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Roboto AI",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
+        "slug": "seattle",
+        "entity_type": "PLACE",
+        "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "5bb0c87e-afb3-5301-9e47-d4a5e26f62a9",
+        "slug": "bifrost",
+        "entity_type": "ORGANIZATION",
+        "name": "Bifrost",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "43948dd8-d19b-5ebd-a5fd-95532837fd9f",
+        "slug": "singapore-sg",
+        "entity_type": "PLACE",
+        "name": "Singapore",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "f3f641d9-8c1e-573e-8430-db952b3df8db",
+        "slug": "bitrobot-network",
+        "entity_type": "ORGANIZATION",
+        "name": "BitRobot Network",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "43948dd8-d19b-5ebd-a5fd-95532837fd9f",
+        "slug": "singapore-sg",
+        "entity_type": "PLACE",
+        "name": "Singapore",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "7623869d-1276-52c3-b0e7-823e9932db3e",
         "slug": "stanford-robotics-center",
         "entity_type": "ORGANIZATION",
@@ -2439,6 +3684,109 @@
         "slug": "stanford-us",
         "entity_type": "PLACE",
         "name": "Stanford",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
+        "slug": "applied-intuition",
+        "entity_type": "ORGANIZATION",
+        "name": "Applied Intuition",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+        "slug": "sunnyvale-us",
+        "entity_type": "PLACE",
+        "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "581c7cc9-8475-5b34-adee-1a60403e1db7",
+        "slug": "synopsys",
+        "entity_type": "ORGANIZATION",
+        "name": "Synopsys",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+        "slug": "sunnyvale-us",
+        "entity_type": "PLACE",
+        "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b4f366ac-3564-5ca5-80b5-9f7c3c2519a7",
+        "slug": "mecka",
+        "entity_type": "ORGANIZATION",
+        "name": "Mecka",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
+        "slug": "toronto-ca",
+        "entity_type": "PLACE",
+        "name": "Toronto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "54973dcc-f0a8-5acb-83a4-b03a2f8056ab",
+        "slug": "waabi",
+        "entity_type": "ORGANIZATION",
+        "name": "Waabi",
+        "primary_embodiment": null,
+        "roles": [
+          "MODEL_DEVELOPER"
+        ]
+      },
+      "place": {
+        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
+        "slug": "toronto-ca",
+        "entity_type": "PLACE",
+        "name": "Toronto",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "d16c16a3-47ea-5e0e-8fc4-a9503f04da93",
+        "slug": "voxel51",
+        "entity_type": "ORGANIZATION",
+        "name": "Voxel51",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "c1b148a1-6437-5a58-b338-b407537a37e1",
+        "slug": "ann-arbor",
+        "entity_type": "PLACE",
+        "name": "Ann Arbor",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2505,6 +3853,46 @@
     },
     {
       "entity": {
+        "id": "7552bab9-2d66-5af2-b58d-9947e4e612dd",
+        "slug": "ansys",
+        "entity_type": "ORGANIZATION",
+        "name": "Ansys",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "05ee6975-2bed-57c5-b795-32e9eb0c92d7",
+        "slug": "canonsburg-us",
+        "entity_type": "PLACE",
+        "name": "Canonsburg",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "d6839662-0702-5721-9fed-ba626ee100d4",
+        "slug": "objectways",
+        "entity_type": "ORGANIZATION",
+        "name": "Objectways",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "2a9af44a-5784-5983-bd13-86fdaf41038f",
+        "slug": "cerritos-us",
+        "entity_type": "PLACE",
+        "name": "Cerritos",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "799bb715-85db-5fb1-a9e9-8a414a90ea6f",
         "slug": "apple",
         "entity_type": "ORGANIZATION",
@@ -2565,6 +3953,66 @@
     },
     {
       "entity": {
+        "id": "48e1da94-9335-5fa6-98e2-573756183668",
+        "slug": "visual-components",
+        "entity_type": "ORGANIZATION",
+        "name": "Visual Components",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "99b00399-7e73-5eaf-9aed-5c33516cb1e2",
+        "slug": "espoo-fi",
+        "entity_type": "PLACE",
+        "name": "Espoo",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "73cf429c-ed6e-57e4-b5b9-e516a44f1a16",
+        "slug": "manus",
+        "entity_type": "ORGANIZATION",
+        "name": "MANUS",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "ba915684-9f3b-51da-8585-a97dd00165e1",
+        "slug": "geldrop-nl",
+        "entity_type": "PLACE",
+        "name": "Geldrop",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "b992dfb4-b945-5a51-9ccf-368c6da804a1",
+        "slug": "kognic",
+        "entity_type": "ORGANIZATION",
+        "name": "Kognic",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "decb0703-a742-5607-9412-1abfc6077802",
+        "slug": "gothenburg-se",
+        "entity_type": "PLACE",
+        "name": "Gothenburg",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "6d2acc87-aa2d-5831-a6ab-1b611b18955d",
         "slug": "pony-ai",
         "entity_type": "ORGANIZATION",
@@ -2605,6 +4053,66 @@
     },
     {
       "entity": {
+        "id": "7e3d11b0-851c-5936-ad57-e4aa994362be",
+        "slug": "ipg-automotive",
+        "entity_type": "ORGANIZATION",
+        "name": "IPG Automotive",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "5c6bb35f-3b1e-5387-add2-72d119e217de",
+        "slug": "karlsruhe-de",
+        "entity_type": "PLACE",
+        "name": "Karlsruhe",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "bab07ba6-92c5-5a93-950a-008aadca27a5",
+        "slug": "segments-ai",
+        "entity_type": "ORGANIZATION",
+        "name": "Segments.ai",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "99166e11-f08b-571f-a02e-c1b3ff05a95f",
+        "slug": "leuven-be",
+        "entity_type": "PLACE",
+        "name": "Leuven",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "42b47c38-52b4-51a9-9298-754c93db9160",
+        "slug": "shaip",
+        "entity_type": "ORGANIZATION",
+        "name": "Shaip",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "b8916638-00c6-570c-bd85-201cf792661d",
+        "slug": "louisville-us",
+        "entity_type": "PLACE",
+        "name": "Louisville",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
         "id": "30732daf-8b5f-56bf-885c-a40749a12219",
         "slug": "neura-robotics",
         "entity_type": "ORGANIZATION",
@@ -2620,6 +4128,46 @@
         "slug": "metzingen-de",
         "entity_type": "PLACE",
         "name": "Metzingen",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "2a8c10d4-129b-51e2-95fa-d4319032a3c0",
+        "slug": "foretellix",
+        "entity_type": "ORGANIZATION",
+        "name": "Foretellix",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "6336ca24-b343-5b67-b7ee-86fc62e9ee5f",
+        "slug": "modi-in-il",
+        "entity_type": "PLACE",
+        "name": "Modi'in",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "e7af5c8e-c064-5996-b4a9-07202f2328f2",
+        "slug": "robodk",
+        "entity_type": "ORGANIZATION",
+        "name": "RoboDK",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "16cc8d2d-19c4-51a3-91ef-f796ecf146ab",
+        "slug": "montreal-ca",
+        "entity_type": "PLACE",
+        "name": "Montreal",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2646,21 +4194,20 @@
     },
     {
       "entity": {
-        "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
-        "slug": "runway",
+        "id": "9ba7039f-6158-5a08-ac87-a5e24c4025f1",
+        "slug": "mathworks",
         "entity_type": "ORGANIZATION",
-        "name": "Runway",
+        "name": "MathWorks",
         "primary_embodiment": null,
         "roles": [
-          "DATA_SIMULATION_PROVIDER",
-          "MODEL_DEVELOPER"
+          "DATA_SIMULATION_PROVIDER"
         ]
       },
       "place": {
-        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
-        "slug": "new-york-us",
+        "id": "73782526-17d8-5fee-b028-d40272cafe4a",
+        "slug": "natick-us",
         "entity_type": "PLACE",
-        "name": "New York",
+        "name": "Natick",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2687,27 +4234,6 @@
     },
     {
       "entity": {
-        "id": "93f3deec-6b3b-54e6-8fb4-2208c293e2e9",
-        "slug": "genesis-ai",
-        "entity_type": "ORGANIZATION",
-        "name": "Genesis AI",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
-        "slug": "palo-alto-us",
-        "entity_type": "PLACE",
-        "name": "Palo Alto",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
         "id": "80c7de02-80c2-5bdc-9350-68376392e875",
         "slug": "grasp-laboratory",
         "entity_type": "ORGANIZATION",
@@ -2722,6 +4248,26 @@
         "slug": "philadelphia-us",
         "entity_type": "PLACE",
         "name": "Philadelphia",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "29453e8f-9a98-529f-8d0f-5b6da545ccc5",
+        "slug": "siemens-digital-industries-software",
+        "entity_type": "ORGANIZATION",
+        "name": "Siemens Digital Industries Software",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "09285d23-853c-5c2d-8801-3eed428f9826",
+        "slug": "plano-us",
+        "entity_type": "PLACE",
+        "name": "Plano",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2744,6 +4290,26 @@
         "slug": "redmond",
         "entity_type": "PLACE",
         "name": "Redmond",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "22d95e26-98ce-52ce-a11e-4107dae02a97",
+        "slug": "cognata",
+        "entity_type": "ORGANIZATION",
+        "name": "Cognata",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "c0d13420-0c43-55b2-b4d2-34835e0b2142",
+        "slug": "rehovot-il",
+        "entity_type": "PLACE",
+        "name": "Rehovot",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2792,65 +4358,20 @@
     },
     {
       "entity": {
-        "id": "4fc9cd09-5aeb-5cee-8ad1-8f48b8796448",
-        "slug": "odyssey",
+        "id": "e3bd184e-8337-5bbb-b6c1-d663f838982b",
+        "slug": "imerit",
         "entity_type": "ORGANIZATION",
-        "name": "Odyssey",
+        "name": "iMerit",
         "primary_embodiment": null,
         "roles": [
-          "DATA_SIMULATION_PROVIDER",
-          "MODEL_DEVELOPER"
+          "DATA_SIMULATION_PROVIDER"
         ]
       },
       "place": {
-        "id": "7f689c20-7b4f-599b-81af-887024cec96f",
-        "slug": "san-francisco-us",
+        "id": "e35b5fd8-076c-5c2d-9118-c6c527641fe3",
+        "slug": "san-jose-us",
         "entity_type": "PLACE",
-        "name": "San Francisco",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "a19bf5f6-db27-5318-ae20-28be53104b40",
-        "slug": "dyna-robotics",
-        "entity_type": "ORGANIZATION",
-        "name": "Dyna Robotics",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER",
-          "OEM"
-        ]
-      },
-      "place": {
-        "id": "a04379bf-bfe9-5c45-a07a-9eb4118fe484",
-        "slug": "san-mateo-us",
-        "entity_type": "PLACE",
-        "name": "San Mateo",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "9a7a4439-008c-54d2-8e23-81f14bf73e34",
-        "slug": "amazon",
-        "entity_type": "ORGANIZATION",
-        "name": "Amazon",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR",
-          "OPERATOR",
-          "PLATFORM",
-          "RESEARCH_LAB"
-        ]
-      },
-      "place": {
-        "id": "d092e7ed-c650-5cc1-986f-8528979fd1c8",
-        "slug": "seattle",
-        "entity_type": "PLACE",
-        "name": "Seattle",
+        "name": "San Jose",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2898,22 +4419,41 @@
     },
     {
       "entity": {
-        "id": "6ffff5c0-b438-521e-8ee2-5c44daa11498",
-        "slug": "applied-intuition",
+        "id": "73427a24-227d-5bca-ba25-e50a3b4bd997",
+        "slug": "rerun",
         "entity_type": "ORGANIZATION",
-        "name": "Applied Intuition",
+        "name": "Rerun",
         "primary_embodiment": null,
         "roles": [
           "DATA_SIMULATION_PROVIDER",
-          "MODEL_DEVELOPER",
           "TOOLING_OPS_PROVIDER"
         ]
       },
       "place": {
-        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
-        "slug": "sunnyvale-us",
+        "id": "4d0fff86-620b-5fcd-b8d9-ccb1fb0b0b2f",
+        "slug": "stockholm-se",
         "entity_type": "PLACE",
-        "name": "Sunnyvale",
+        "name": "Stockholm",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "090bcbf7-a37a-5846-9890-4fc859cbe92f",
+        "slug": "appen",
+        "entity_type": "ORGANIZATION",
+        "name": "Appen",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "46debb86-6c28-51d0-8715-127ace7b455c",
+        "slug": "sydney-au",
+        "entity_type": "PLACE",
+        "name": "Sydney",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2935,26 +4475,6 @@
         "slug": "tel-aviv-il",
         "entity_type": "PLACE",
         "name": "Tel Aviv",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "54973dcc-f0a8-5acb-83a4-b03a2f8056ab",
-        "slug": "waabi",
-        "entity_type": "ORGANIZATION",
-        "name": "Waabi",
-        "primary_embodiment": null,
-        "roles": [
-          "MODEL_DEVELOPER"
-        ]
-      },
-      "place": {
-        "id": "e3fb82b9-1959-55f6-8936-58c2571b1c84",
-        "slug": "toronto-ca",
-        "entity_type": "PLACE",
-        "name": "Toronto",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2996,6 +4516,26 @@
         "slug": "vancouver",
         "entity_type": "PLACE",
         "name": "Vancouver",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "0787b769-c375-561f-b479-cafbb706c095",
+        "slug": "dassault-systemes",
+        "entity_type": "ORGANIZATION",
+        "name": "Dassault Systemes",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
+      },
+      "place": {
+        "id": "32de5d5c-faa9-5b95-b7f8-8216f7badf41",
+        "slug": "velizy-villacoublay-fr",
+        "entity_type": "PLACE",
+        "name": "Velizy-Villacoublay",
         "primary_embodiment": null,
         "roles": []
       }

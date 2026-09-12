@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "c4fdde96-5603-5e57-a0f5-216cb3269d5b",
+    "subject": {
+      "id": "e836e240-7142-52bf-a4ec-fe888d8f01db",
+      "slug": "kuka",
+      "entity_type": "ORGANIZATION",
+      "name": "KUKA",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "KUKA was founded on 1898-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1898-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1898-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "7f6e5b5d-b5c2-5ca3-80d2-9c0eb8fc8ad0",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "KUKA was established in 1898 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "8b970351-e725-5dbc-a943-f5909dbeb74d",
+        "url": "https://www.kuka.com/en-us/company/homeofrobotik",
+        "canonical_url": null,
+        "publisher": "KUKA",
+        "title": "KUKA — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

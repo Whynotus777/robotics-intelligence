@@ -1,10 +1,13 @@
 slug: geek-plus
 entity_type: ORGANIZATION
 name: Geek+
-short_description: Beijing goods-to-person and mobile-robot vendor with one of the largest installed AMR fleets outside Amazon.
+short_description: Beijing goods-to-person and mobile-robot vendor with one of the largest installed AMR fleets
+  outside Amazon.
 country_code: CN
 depth_tier: DISCOVERY
-aliases: [Geekplus, Geek Plus]
+aliases:
+- Geekplus
+- Geek Plus
 claims:
 - predicate: HQ_AT
   object: beijing
@@ -41,3 +44,14 @@ claims:
     confidence: HIGH
     source: geekplus-site
     excerpt: Geek+ designs and sells robots under its own name.
+- predicate: FOUNDED_ON
+  date: '2015-01-01'
+  valid_from: '2015-01-01'
+  evidence:
+  - source: enrich-de38ff30d45c7cd8
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Geek+ was established in 2015 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

@@ -58,3 +58,14 @@ claims:
     confidence: MEDIUM
     excerpt: Symbotic is listed as NASDAQ:SYM.
     observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2007-01-01'
+  valid_from: '2007-01-01'
+  evidence:
+  - source: enrich-c68547499642a1ff
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Symbotic was established in 2007 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

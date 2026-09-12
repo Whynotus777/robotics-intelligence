@@ -39,6 +39,28 @@
       "label": "is headquartered at",
       "items": [
         {
+          "claim_id": "8115cd32-9d7d-5103-ad37-fa22d8db6aaa",
+          "source": {
+            "id": "581c7cc9-8475-5b34-adee-1a60403e1db7",
+            "slug": "synopsys",
+            "entity_type": "ORGANIZATION",
+            "name": "Synopsys",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "95650634-6819-5b2f-bd20-2bf9c3727c5b",
           "source": {
             "id": "9c989a06-5dc7-5b95-b411-b37bf58169dc",
@@ -110,6 +132,16 @@
         "roles": [
           "OEM"
         ]
+      },
+      {
+        "id": "581c7cc9-8475-5b34-adee-1a60403e1db7",
+        "slug": "synopsys",
+        "entity_type": "ORGANIZATION",
+        "name": "Synopsys",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER"
+        ]
       }
     ]
   },
@@ -128,7 +160,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 2
+    "related_count": 3
   },
   "as_of": null
 }

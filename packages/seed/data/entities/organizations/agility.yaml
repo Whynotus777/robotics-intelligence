@@ -1,7 +1,8 @@
 slug: agility
 entity_type: ORGANIZATION
 name: Agility Robotics
-short_description: Salem, Oregon humanoid OEM behind Digit; first commercial RaaS humanoid deployment with GXO in 2024.
+short_description: Salem, Oregon humanoid OEM behind Digit; first commercial RaaS humanoid deployment with GXO in
+  2024.
 country_code: US
 depth_tier: ANCHOR
 aliases:
@@ -42,3 +43,14 @@ claims:
     confidence: HIGH
     source: agility-digit-page
     excerpt: Agility Robotics designs and sells robots under its own name.
+- predicate: FOUNDED_ON
+  date: '2015-01-01'
+  valid_from: '2015-01-01'
+  evidence:
+  - source: enrich-23077c7a1f6835ad
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Agility Robotics was established in 2015 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

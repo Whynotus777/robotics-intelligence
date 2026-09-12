@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "291734c1-96e5-5404-8b1d-dd8f164ec47e",
+    "subject": {
+      "id": "771449f4-1624-5bcf-a888-40b087e1230c",
+      "slug": "yaskawa",
+      "entity_type": "ORGANIZATION",
+      "name": "Yaskawa Electric",
+      "primary_embodiment": null,
+      "roles": [
+        "COMPONENT_SUPPLIER",
+        "OEM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Yaskawa Electric was founded on 1915-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1915-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1915-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d5456eaf-74b2-5703-86cb-cfa06f7abc1d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Yaskawa was established in 1915 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "3d87745d-dbbf-55e5-ab8c-2ee664326f07",
+        "url": "https://www.yaskawa-global.com/ir/faq",
+        "canonical_url": null,
+        "publisher": "Yaskawa",
+        "title": "Yaskawa — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

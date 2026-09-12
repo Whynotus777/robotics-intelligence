@@ -40,4 +40,15 @@ claims:
       - A primary company profile or filing confirms this headquarters city.
       regress_criteria:
       - Primary evidence identifies a different headquarters or contradicts the roster location.
+- predicate: FOUNDED_ON
+  date: '2024-01-01'
+  valid_from: '2024-01-01'
+  evidence:
+  - source: enrich-aa497dbc86d9d51b
+    class: THIRD_PARTY
+    confidence: MEDIUM
+    excerpt: Dyna Robotics was established in 2024 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true
 country_code: US

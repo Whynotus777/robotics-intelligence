@@ -106,6 +106,28 @@
           }
         },
         {
+          "claim_id": "aa14e0d7-8de6-5fd0-ae04-76479505ffbe",
+          "source": {
+            "id": "320d3e3b-57ff-5fea-a8ca-49a0b346ef5a",
+            "slug": "hd-hyundai",
+            "entity_type": "ORGANIZATION",
+            "name": "HD Hyundai",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
           "claim_id": "cff7c69a-0f5e-5354-959d-19b341d72a26",
           "source": {
             "id": "c1963140-0366-52b9-b1fe-3c003b6832d6",
@@ -132,6 +154,16 @@
   ],
   "lateral_links": {
     "company": [
+      {
+        "id": "320d3e3b-57ff-5fea-a8ca-49a0b346ef5a",
+        "slug": "hd-hyundai",
+        "entity_type": "ORGANIZATION",
+        "name": "HD Hyundai",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
       {
         "id": "9eb45452-168c-5db6-96f4-28cf65323864",
         "slug": "naver",
@@ -190,7 +222,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 4
+    "related_count": 5
   },
   "as_of": null
 }

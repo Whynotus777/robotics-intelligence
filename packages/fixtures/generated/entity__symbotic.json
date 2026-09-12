@@ -50,6 +50,32 @@
   "place": null,
   "claims": [
     {
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "claims": [
+        {
+          "claim_id": "6561a6bf-60e0-588a-aa48-d5d0aa85bf62",
+          "predicate": "FOUNDED_ON",
+          "value": {
+            "kind": "date",
+            "date": "2007-01-01"
+          },
+          "stack_layer": null,
+          "qualifier": "Year precision",
+          "valid_from": "2007-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    },
+    {
       "predicate": "HAS_ROLE",
       "label": "role",
       "claims": [
@@ -331,17 +357,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 6,
+        "PRIMARY": 7,
         "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 7,
+      "claim_count": 8,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 7,
+    "recent_change_count": 8,
     "deployment_count": 0,
     "related_count": 6
   },

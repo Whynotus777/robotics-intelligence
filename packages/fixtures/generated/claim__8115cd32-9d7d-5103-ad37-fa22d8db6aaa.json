@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "claim_id": "8115cd32-9d7d-5103-ad37-fa22d8db6aaa",
+    "subject": {
+      "id": "581c7cc9-8475-5b34-adee-1a60403e1db7",
+      "slug": "synopsys",
+      "entity_type": "ORGANIZATION",
+      "name": "Synopsys",
+      "primary_embodiment": null,
+      "roles": [
+        "DATA_SIMULATION_PROVIDER"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "Synopsys is headquartered at Sunnyvale",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "91dc76b6-5c7c-5186-86a5-8640ea35c63c",
+        "slug": "sunnyvale-us",
+        "entity_type": "PLACE",
+        "name": "Sunnyvale",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "670f11f5-bfba-5ab6-b7b6-efe071bd0cb9",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Synopsys is headquartered in Sunnyvale.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "05b24852-47f3-5cca-82a2-0a715255b3b2",
+        "url": "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+        "canonical_url": null,
+        "publisher": "Synopsys",
+        "title": "Synopsys — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

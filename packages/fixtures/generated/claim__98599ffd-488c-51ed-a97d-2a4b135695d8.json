@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "98599ffd-488c-51ed-a97d-2a4b135695d8",
+    "subject": {
+      "id": "debbc27a-81bd-5cdd-bbc5-79fcce1c582e",
+      "slug": "toyota-research-institute",
+      "entity_type": "ORGANIZATION",
+      "name": "Toyota Research Institute",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "RESEARCH_LAB"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Toyota Research Institute was founded on 2016-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2016-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision; operational establishment in 2016, announced in 2015",
+    "status": "APPROVED",
+    "valid_from": "2016-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "bbeb583d-03bd-5b92-80a2-16998cae52d4",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Toyota states TRI was established in North America in 2016.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "e4eedebe-597b-52d4-983d-65cc42035396",
+        "url": "https://pressroom.toyota.com/?generate_pdf=10745",
+        "canonical_url": null,
+        "publisher": "Toyota Research Institute",
+        "title": "Toyota Research Institute — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

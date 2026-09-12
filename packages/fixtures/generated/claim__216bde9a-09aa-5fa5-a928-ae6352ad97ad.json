@@ -28,9 +28,9 @@
     },
     "stack_layer": null,
     "qualifier": null,
-    "status": "APPROVED",
+    "status": "SUPERSEDED",
     "valid_from": "2026-09-01",
-    "valid_to": null,
+    "valid_to": "2026-09-11",
     "observed_at": "2026-09-01T00:00:00.000Z",
     "last_verified_at": "2026-09-01T00:00:00.000Z"
   },
@@ -58,6 +58,26 @@
       "assessment": null
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "claim_id": "c833b00f-b7cf-509c-8ec5-622430b0fa3b",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+          "slug": "palo-alto-us",
+          "entity_type": "PLACE",
+          "name": "Palo Alto",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": "Current headquarters confirmed on this date; relocation date not asserted",
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
   "dependencies": []
 }

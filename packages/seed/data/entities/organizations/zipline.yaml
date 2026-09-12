@@ -1,7 +1,8 @@
 slug: zipline
 entity_type: ORGANIZATION
 name: Zipline
-short_description: Bay Area operator of autonomous delivery drones flying at national scale in Rwanda, Ghana and now US retail and health routes.
+short_description: Bay Area operator of autonomous delivery drones flying at national scale in Rwanda, Ghana and
+  now US retail and health routes.
 country_code: US
 depth_tier: DISCOVERY
 claims:
@@ -40,3 +41,14 @@ claims:
     confidence: MEDIUM
     source: zipline-site
     excerpt: Zipline runs robots in its own operations.
+- predicate: FOUNDED_ON
+  date: '2014-01-01'
+  valid_from: '2014-01-01'
+  evidence:
+  - source: enrich-000f3f68b170ba44
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Zipline was established in 2014 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

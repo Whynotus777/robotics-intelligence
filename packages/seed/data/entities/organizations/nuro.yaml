@@ -1,7 +1,8 @@
 slug: nuro
 entity_type: ORGANIZATION
 name: Nuro
-short_description: Bay Area company that built purpose-made occupantless delivery vehicles and has since pivoted towards licensing its autonomy stack.
+short_description: Bay Area company that built purpose-made occupantless delivery vehicles and has since pivoted
+  towards licensing its autonomy stack.
 country_code: US
 depth_tier: DISCOVERY
 claims:
@@ -40,3 +41,14 @@ claims:
     confidence: MEDIUM
     source: nuro-site
     excerpt: Nuro trains the models that drive robots.
+- predicate: FOUNDED_ON
+  date: '2016-01-01'
+  valid_from: '2016-01-01'
+  evidence:
+  - source: enrich-89278ce1b200a04a
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Nuro was established in 2016 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

@@ -5,23 +5,32 @@ short_description: Electric-vehicle and AI company developing the Optimus humano
 country_code: US
 depth_tier: ANCHOR
 claims:
-  - predicate: BUILDS
-    object: tesla-optimus
-    evidence:
-      - class: PRIMARY
-        confidence: HIGH
-        source: tesla-optimus
-  - predicate: HAS_ROLE
-    enum: OEM
-    evidence:
-      - class: PRIMARY
-        confidence: HIGH
-        source: tesla-optimus
-        excerpt: Tesla designs and sells robots under its own name.
-  - predicate: HAS_ROLE
-    enum: MODEL_DEVELOPER
-    evidence:
-      - class: PRIMARY
-        confidence: MEDIUM
-        source: tesla-optimus
-        excerpt: Optimus runs Tesla's own policies rather than a bought-in stack.
+- predicate: BUILDS
+  object: tesla-optimus
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: tesla-optimus
+- predicate: HAS_ROLE
+  enum: OEM
+  evidence:
+  - class: PRIMARY
+    confidence: HIGH
+    source: tesla-optimus
+    excerpt: Tesla designs and sells robots under its own name.
+- predicate: HAS_ROLE
+  enum: MODEL_DEVELOPER
+  evidence:
+  - class: PRIMARY
+    confidence: MEDIUM
+    source: tesla-optimus
+    excerpt: Optimus runs Tesla's own policies rather than a bought-in stack.
+- predicate: HAS_TICKER
+  text: NASDAQ:TSLA
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-49d4c2a41b7cb013
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Tesla is listed as NASDAQ:TSLA.
+    observed_at: '2026-09-11'

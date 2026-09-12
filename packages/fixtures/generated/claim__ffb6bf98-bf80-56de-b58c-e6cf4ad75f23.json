@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "ffb6bf98-bf80-56de-b58c-e6cf4ad75f23",
+    "subject": {
+      "id": "87875f6a-45f9-5af2-af6a-5debd59001fc",
+      "slug": "byd",
+      "entity_type": "ORGANIZATION",
+      "name": "BYD",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "BYD was founded on 1995-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1995-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1995-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3bf0c1a8-4b9f-52aa-99ce-9356d4c2ec5d",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "BYD was established in 1995 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5998a775-3a61-584c-8cef-6c474836dd46",
+        "url": "https://www.byd.com/eu/blog/Hello-we-are-BYD.html",
+        "canonical_url": null,
+        "publisher": "BYD",
+        "title": "BYD — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

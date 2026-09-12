@@ -147,6 +147,32 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "claims": [
+        {
+          "claim_id": "86ccd580-a3e2-5139-bffd-144b181aaf89",
+          "predicate": "FOUNDED_ON",
+          "value": {
+            "kind": "date",
+            "date": "1985-01-01"
+          },
+          "stack_layer": null,
+          "qualifier": "Year precision",
+          "valid_from": "1985-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
   "relationships": [
@@ -318,17 +344,17 @@
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 4,
+        "PRIMARY": 5,
         "THIRD_PARTY": 1,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 0
       },
-      "claim_count": 5,
+      "claim_count": 6,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 5,
+    "recent_change_count": 6,
     "deployment_count": 0,
     "related_count": 4
   },

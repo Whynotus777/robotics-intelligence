@@ -1,2 +1,6 @@
 # Seed data
 One YAML file per entity under `entities/<type>/<slug>.yaml`, claims inline with evidence. Facts and evidence classes come from `docs/prompts/claude-design-v1.md` §7. ANALYST claims require rationale + advance criteria. Never invent supplier relationships.
+
+The enrichment coverage gate reads `research/must-include.csv` and accepts canonical names or explicit aliases. Original candidate values, final statuses, source URLs, metadata gaps and parent-review outcomes are preserved in `research/roster/`. `research/primary-source-review.csv` records the primary-source review outcomes. The final totals and pending work are in `research/enrichment-report.md`.
+
+Use only PRIMARY or credible THIRD_PARTY evidence with a real source URL for investment, ownership and supplier relationships. Supplier claims follow the product graph (`PROVIDES`, `MADE_BY`, `USES_PRODUCT`), rather than inventing a supplier-to-OEM predicate. Roster-supplied headquarters without independent confirmation remain explicitly provisional ANALYST/LOW claims; they are not verified addresses. Omit unknown years and tickers. A dated affiliation observed in a corporate disclosure does not establish its original acquisition date.

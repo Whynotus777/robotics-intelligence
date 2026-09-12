@@ -12,6 +12,8 @@ claims:
     confidence: HIGH
     source: skydio-site
     excerpt: Company site gives the headquarters location.
+  valid_to: '2026-09-11'
+  status: SUPERSEDED
 - predicate: BUILDS
   object: skydio-x10
   evidence:
@@ -40,3 +42,24 @@ claims:
     confidence: HIGH
     source: skydio-site
     excerpt: Skydio designs and sells robots under its own name.
+- predicate: FOUNDED_ON
+  date: '2014-01-01'
+  valid_from: '2014-01-01'
+  evidence:
+  - source: enrich-fa5761791f706a71
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Skydio was established in 2014 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true
+- predicate: HQ_AT
+  object: san-mateo-us
+  valid_from: '2026-09-11'
+  qualifier: Current headquarters confirmed on this date; relocation date not asserted
+  evidence:
+  - source: enrich-8424fc0a36601ad6
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Skydio identifies San Mateo as its current home or headquarters.
+    observed_at: '2026-09-11'

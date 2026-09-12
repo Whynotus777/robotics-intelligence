@@ -4,7 +4,7 @@
     {
       "id": "BUILT",
       "label": "Built",
-      "count": 169
+      "count": 170
     },
     {
       "id": "SUPPLIED",
@@ -24,17 +24,17 @@
     {
       "id": "TRAINED",
       "label": "Trained",
-      "count": 67
+      "count": 105
     },
     {
       "id": "FUNDED",
       "label": "Funded",
-      "count": 50
+      "count": 51
     },
     {
       "id": "PLATFORMS",
       "label": "Platforms",
-      "count": 18
+      "count": 64
     }
   ],
   "marks": [
@@ -345,17 +345,17 @@
     },
     {
       "place": {
-        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
-        "slug": "new-york-us",
+        "id": "194bdd77-70e1-5bdd-97cd-89ec64950946",
+        "slug": "nyc",
         "entity_type": "PLACE",
-        "name": "New York",
+        "name": "New York City",
         "primary_embodiment": null,
         "roles": []
       },
-      "lat": 40.71427,
-      "lng": -74.00597,
+      "lat": 40.71,
+      "lng": -74.01,
       "country_code": "US",
-      "cluster_label": null,
+      "cluster_label": "NYC",
       "weight": 2,
       "entities": [
         {
@@ -455,6 +455,47 @@
           "primary_embodiment": null,
           "roles": [
             "INVESTOR"
+          ]
+        }
+      ],
+      "embodiment_mix": {}
+    },
+    {
+      "place": {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "lat": 37.57,
+      "lng": 126.98,
+      "country_code": "KR",
+      "cluster_label": "Seoul",
+      "weight": 2,
+      "entities": [
+        {
+          "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+          "slug": "hyundai",
+          "entity_type": "ORGANIZATION",
+          "name": "Hyundai Motor Company",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "PLATFORM"
+          ]
+        },
+        {
+          "id": "1c3a5b94-7476-5678-a0e7-c183150649c9",
+          "slug": "lg-electronics",
+          "entity_type": "ORGANIZATION",
+          "name": "LG Electronics",
+          "primary_embodiment": null,
+          "roles": [
+            "INVESTOR",
+            "OEM",
+            "PLATFORM"
           ]
         }
       ],
@@ -936,35 +977,6 @@
     },
     {
       "place": {
-        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
-        "slug": "seoul",
-        "entity_type": "PLACE",
-        "name": "Seoul",
-        "primary_embodiment": null,
-        "roles": []
-      },
-      "lat": 37.57,
-      "lng": 126.98,
-      "country_code": "KR",
-      "cluster_label": "Seoul",
-      "weight": 1,
-      "entities": [
-        {
-          "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
-          "slug": "hyundai",
-          "entity_type": "ORGANIZATION",
-          "name": "Hyundai Motor Company",
-          "primary_embodiment": null,
-          "roles": [
-            "INVESTOR",
-            "PLATFORM"
-          ]
-        }
-      ],
-      "embodiment_mix": {}
-    },
-    {
-      "place": {
         "id": "43948dd8-d19b-5ebd-a5fd-95532837fd9f",
         "slug": "singapore-sg",
         "entity_type": "PLACE",
@@ -1156,6 +1168,12 @@
       "places": 2
     },
     {
+      "id": "KR",
+      "label": "KR",
+      "weight": 3,
+      "places": 2
+    },
+    {
       "id": "AU",
       "label": "AU",
       "weight": 2,
@@ -1172,12 +1190,6 @@
       "label": "GB",
       "weight": 2,
       "places": 1
-    },
-    {
-      "id": "KR",
-      "label": "KR",
-      "weight": 2,
-      "places": 2
     },
     {
       "id": "SE",
@@ -1248,6 +1260,18 @@
       "places": 1
     },
     {
+      "id": "NYC",
+      "label": "NYC",
+      "weight": 2,
+      "places": 1
+    },
+    {
+      "id": "Seoul",
+      "label": "Seoul",
+      "weight": 2,
+      "places": 1
+    },
+    {
       "id": "Tokyo",
       "label": "Tokyo",
       "weight": 2,
@@ -1262,12 +1286,6 @@
     {
       "id": "San Diego",
       "label": "San Diego",
-      "weight": 1,
-      "places": 1
-    },
-    {
-      "id": "Seoul",
-      "label": "Seoul",
       "weight": 1,
       "places": 1
     },
@@ -1678,10 +1696,10 @@
         ]
       },
       "place": {
-        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
-        "slug": "new-york-us",
+        "id": "194bdd77-70e1-5bdd-97cd-89ec64950946",
+        "slug": "nyc",
         "entity_type": "PLACE",
-        "name": "New York",
+        "name": "New York City",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1698,10 +1716,10 @@
         ]
       },
       "place": {
-        "id": "cd5cfe9b-81e5-59ec-b731-0f2f8a080140",
-        "slug": "new-york-us",
+        "id": "194bdd77-70e1-5bdd-97cd-89ec64950946",
+        "slug": "nyc",
         "entity_type": "PLACE",
-        "name": "New York",
+        "name": "New York City",
         "primary_embodiment": null,
         "roles": []
       }
@@ -1785,6 +1803,49 @@
         "slug": "seattle",
         "entity_type": "PLACE",
         "name": "Seattle",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
+        "slug": "hyundai",
+        "entity_type": "ORGANIZATION",
+        "name": "Hyundai Motor Company",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
+        "primary_embodiment": null,
+        "roles": []
+      }
+    },
+    {
+      "entity": {
+        "id": "1c3a5b94-7476-5678-a0e7-c183150649c9",
+        "slug": "lg-electronics",
+        "entity_type": "ORGANIZATION",
+        "name": "LG Electronics",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR",
+          "OEM",
+          "PLATFORM"
+        ]
+      },
+      "place": {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
         "primary_embodiment": null,
         "roles": []
       }
@@ -2151,27 +2212,6 @@
         "slug": "san-salvador-sv",
         "entity_type": "PLACE",
         "name": "San Salvador",
-        "primary_embodiment": null,
-        "roles": []
-      }
-    },
-    {
-      "entity": {
-        "id": "2c844b8a-6aa8-5a5a-bcc0-e8e268ef96ed",
-        "slug": "hyundai",
-        "entity_type": "ORGANIZATION",
-        "name": "Hyundai Motor Company",
-        "primary_embodiment": null,
-        "roles": [
-          "INVESTOR",
-          "PLATFORM"
-        ]
-      },
-      "place": {
-        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
-        "slug": "seoul",
-        "entity_type": "PLACE",
-        "name": "Seoul",
         "primary_embodiment": null,
         "roles": []
       }

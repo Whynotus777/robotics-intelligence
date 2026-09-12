@@ -1,10 +1,13 @@
 slug: waymo
 entity_type: ORGANIZATION
 name: Waymo
-short_description: Alphabet's autonomous driving unit; the only US operator running paid driverless passenger service across multiple metros.
+short_description: Alphabet's autonomous driving unit; the only US operator running paid driverless passenger service
+  across multiple metros.
 country_code: US
 depth_tier: DISCOVERY
-aliases: [Waymo LLC, Google self-driving car project]
+aliases:
+- Waymo LLC
+- Google self-driving car project
 claims:
 - predicate: HQ_AT
   object: bay-area
@@ -55,5 +58,17 @@ claims:
   - class: PRIMARY
     confidence: HIGH
     source: waymo-site
-    excerpt: Waymo describes itself as an Alphabet company; it was spun out of the Google self-driving
-      project as a separate subsidiary in December 2016.
+    excerpt: Waymo describes itself as an Alphabet company; it was spun out of the Google self-driving project as
+      a separate subsidiary in December 2016.
+- predicate: FOUNDED_ON
+  date: '2016-01-01'
+  valid_from: '2016-01-01'
+  evidence:
+  - source: enrich-62d06bd291c44e00
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Waymo states it became an independent Alphabet company in 2016, following the Google project started
+      in 2009.
+    observed_at: '2026-09-11'
+  qualifier: Year precision; separate company formation, following the 2009 Google project
+  approximate: true

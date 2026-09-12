@@ -37,4 +37,24 @@ claims:
     confidence: HIGH
     excerpt: Develops LG CLOi service robots and holds a controlling investment in Bear Robotics.
     observed_at: '2026-09-11'
+- predicate: HQ_AT
+  object: seoul
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-9ef511a528ef33d8
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: LG Electronics is headquartered in Seoul.
+    observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1958-01-01'
+  valid_from: '1958-01-01'
+  evidence:
+  - source: enrich-9ef511a528ef33d8
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: LG Electronics was established in 1958 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true
 country_code: KR

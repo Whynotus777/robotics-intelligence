@@ -1,10 +1,12 @@
 slug: ubtech
 entity_type: ORGANIZATION
 name: UBTech Robotics
-short_description: Shenzhen listed robotics firm spanning consumer, education and now industrial humanoids trialled on Chinese automotive lines.
+short_description: Shenzhen listed robotics firm spanning consumer, education and now industrial humanoids trialled
+  on Chinese automotive lines.
 country_code: CN
 depth_tier: DISCOVERY
-aliases: [UBTech]
+aliases:
+- UBTech
 claims:
 - predicate: HQ_AT
   object: shenzhen
@@ -34,3 +36,23 @@ claims:
     confidence: HIGH
     source: ubtech-site
     excerpt: UBTech Robotics designs and sells robots under its own name.
+- predicate: FOUNDED_ON
+  date: '2012-01-01'
+  valid_from: '2012-01-01'
+  evidence:
+  - source: enrich-e6b41e81f79975f3
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: UBTech was established in 2012 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true
+- predicate: HAS_TICKER
+  text: HKEX:9880
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-e6b41e81f79975f3
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: UBTech is listed as HKEX:9880.
+    observed_at: '2026-09-11'

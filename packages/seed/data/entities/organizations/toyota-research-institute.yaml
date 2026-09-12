@@ -1,7 +1,8 @@
 slug: toyota-research-institute
 entity_type: ORGANIZATION
 name: Toyota Research Institute
-short_description: Los Altos research subsidiary of Toyota; large behavior models for manipulation, and the partner behind Boston Dynamics' learned Atlas work.
+short_description: Los Altos research subsidiary of Toyota; large behavior models for manipulation, and the partner
+  behind Boston Dynamics' learned Atlas work.
 country_code: US
 depth_tier: STANDARD
 aliases:
@@ -21,8 +22,8 @@ claims:
   - class: PRIMARY
     confidence: HIGH
     source: tri-site
-    excerpt: TRI describes itself as a subsidiary of Toyota, established in 2015 and operating from
-      the start of 2016.
+    excerpt: TRI describes itself as a subsidiary of Toyota, established in 2015 and operating from the start of
+      2016.
 - predicate: HAS_ROLE
   enum: RESEARCH_LAB
   evidence:
@@ -37,3 +38,14 @@ claims:
     confidence: MEDIUM
     source: tri-site
     excerpt: TRI trains large behavior models for robot manipulation.
+- predicate: FOUNDED_ON
+  date: '2016-01-01'
+  valid_from: '2016-01-01'
+  evidence:
+  - source: enrich-f1f8a86bfac144b0
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Toyota states TRI was established in North America in 2016.
+    observed_at: '2026-09-11'
+  qualifier: Year precision; operational establishment in 2016, announced in 2015
+  approximate: true

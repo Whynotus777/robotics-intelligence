@@ -50,6 +50,15 @@ describe("HTTP contract fixtures", () => {
     }
   }, 120_000);
 
+  it("includes data and operations providers in their atlas layers", async () => {
+    for (const [layer, slug] of [["TRAINED", "encord"], ["PLATFORMS", "foxglove"]]) {
+      const response = await app.request(`/atlas?layer=${layer}`);
+      expect(response.status).toBe(200);
+      const atlas = await response.json() as { list: Array<{ entity: { slug: string } }> };
+      expect(atlas.list.some(({ entity }) => entity.slug === slug), `${slug} in ${layer}`).toBe(true);
+    }
+  });
+
   it("serves structured humanoid filters and rejects an empty search", async () => {
     const robots = await app.request("/robots?embodiment=HUMANOID");
     expect(robots.status).toBe(200);

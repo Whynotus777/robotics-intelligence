@@ -1,7 +1,8 @@
 slug: unitree
 entity_type: ORGANIZATION
 name: Unitree Robotics
-short_description: Hangzhou humanoid and quadruped OEM that also sells its own actuators; set the low price point for legged robots.
+short_description: Hangzhou humanoid and quadruped OEM that also sells its own actuators; set the low price point
+  for legged robots.
 country_code: CN
 depth_tier: ANCHOR
 aliases:
@@ -35,3 +36,14 @@ claims:
     confidence: MEDIUM
     source: unitree-site
     excerpt: Unitree Robotics sells robot components to other builders.
+- predicate: FOUNDED_ON
+  date: '2016-01-01'
+  valid_from: '2016-01-01'
+  evidence:
+  - source: enrich-dfd219a14f3361f5
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Unitree was established in 2016 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

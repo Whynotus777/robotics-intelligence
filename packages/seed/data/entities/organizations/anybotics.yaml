@@ -1,7 +1,8 @@
 slug: anybotics
 entity_type: ORGANIZATION
 name: ANYbotics
-short_description: ETH Zurich spin-off selling ANYmal legged inspection robots into oil, gas and power plants on a route-inspection contract, not a research licence.
+short_description: ETH Zurich spin-off selling ANYmal legged inspection robots into oil, gas and power plants on
+  a route-inspection contract, not a research licence.
 country_code: CH
 depth_tier: DISCOVERY
 claims:
@@ -40,3 +41,14 @@ claims:
     confidence: HIGH
     source: anybotics-site
     excerpt: ANYbotics designs and sells robots under its own name.
+- predicate: FOUNDED_ON
+  date: '2016-01-01'
+  valid_from: '2016-01-01'
+  evidence:
+  - source: enrich-c77190a36ea4d1bf
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: ANYbotics was established in 2016 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

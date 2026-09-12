@@ -1,10 +1,12 @@
 slug: skild-ai
 entity_type: ORGANIZATION
 name: Skild AI
-short_description: Pittsburgh foundation-model company out of CMU, training a single robot brain intended to transfer across embodiments.
+short_description: Pittsburgh foundation-model company out of CMU, training a single robot brain intended to transfer
+  across embodiments.
 country_code: US
 depth_tier: DISCOVERY
-aliases: [Skild]
+aliases:
+- Skild
 claims:
 - predicate: HQ_AT
   object: pittsburgh
@@ -27,3 +29,14 @@ claims:
     confidence: HIGH
     source: skild-site
     excerpt: Skild AI trains the models that drive robots.
+- predicate: FOUNDED_ON
+  date: '2023-01-01'
+  valid_from: '2023-01-01'
+  evidence:
+  - source: enrich-ed519ba10f27d471
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Skild AI was established in 2023 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

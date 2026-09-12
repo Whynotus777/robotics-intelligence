@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "f45d74d0-f503-561d-bedd-beecde19f873",
+    "subject": {
+      "id": "a94b0238-d3e4-5a93-bec0-80d3d6180664",
+      "slug": "skild-ai",
+      "entity_type": "ORGANIZATION",
+      "name": "Skild AI",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Skild AI was founded on 2023-01-01",
+    "value": {
+      "kind": "date",
+      "date": "2023-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "2023-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "8ff0df36-d4cd-5f93-906d-3e856b4cd310",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Skild AI was established in 2023 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "5dc2b067-0164-5ae3-babc-e38d50eee4ef",
+        "url": "https://www.skild.ai/blogs/announcing-our-300m-series-a",
+        "canonical_url": null,
+        "publisher": "Skild AI",
+        "title": "Skild AI — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

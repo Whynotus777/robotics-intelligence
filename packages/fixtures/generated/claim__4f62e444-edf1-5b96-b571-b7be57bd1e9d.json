@@ -1,0 +1,55 @@
+{
+  "claim": {
+    "claim_id": "4f62e444-edf1-5b96-b571-b7be57bd1e9d",
+    "subject": {
+      "id": "badc40a8-7ede-5039-98ba-f22e4cbe2f3f",
+      "slug": "siemens",
+      "entity_type": "ORGANIZATION",
+      "name": "Siemens",
+      "primary_embodiment": null,
+      "roles": [
+        "PLATFORM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "Siemens was founded on 1847-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1847-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1847-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "3b6fe314-ce87-50a9-8f67-0d8658228add",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Siemens was established in 1847 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "cf0faa8d-74c9-5ced-b985-373e204314c1",
+        "url": "https://press.siemens.com/global/en/feature/next47-siemens-founds-separate-unit-startups",
+        "canonical_url": null,
+        "publisher": "Siemens",
+        "title": "Siemens — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

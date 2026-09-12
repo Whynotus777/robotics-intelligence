@@ -31,4 +31,15 @@ claims:
     confidence: HIGH
     excerpt: GreyOrange is headquartered in Roswell.
     observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2012-01-01'
+  valid_from: '2012-01-01'
+  evidence:
+  - source: enrich-99bea993336727d4
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: GreyOrange was established in 2012 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true
 country_code: US

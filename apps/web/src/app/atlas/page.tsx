@@ -16,9 +16,9 @@ const LAYER_QUESTION: Record<string, string> = {
   SUPPLIED: "Where the parts come from — component suppliers and chipmakers.",
   MANUFACTURED: "Who builds them for someone else — contract manufacturers.",
   DEPLOYED: "Where robots are actually working, by the place of the deployment.",
-  TRAINED: "Where the models come from — model developers and research labs.",
+  TRAINED: "Where robot intelligence is developed — models, research, data and simulation.",
   FUNDED: "Where the money is — investors backing robotics.",
-  PLATFORMS: "The conglomerates whose robotics reach spans several roles at once.",
+  PLATFORMS: "Robotics platforms and tools for developing and operating robots.",
 };
 
 function readLayer(value: string | string[] | undefined): string {

@@ -28,9 +28,9 @@
     },
     "stack_layer": null,
     "qualifier": null,
-    "status": "APPROVED",
+    "status": "SUPERSEDED",
     "valid_from": "2026-09-01",
-    "valid_to": null,
+    "valid_to": "2026-09-11",
     "observed_at": "2026-09-01T00:00:00.000Z",
     "last_verified_at": "2026-09-01T00:00:00.000Z"
   },
@@ -58,6 +58,26 @@
       "assessment": null
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "claim_id": "85cb06e8-8f4c-5f48-b72c-59b47cd0577e",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "a04379bf-bfe9-5c45-a07a-9eb4118fe484",
+          "slug": "san-mateo-us",
+          "entity_type": "PLACE",
+          "name": "San Mateo",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "status": "APPROVED",
+      "qualifier": "Current headquarters confirmed on this date; relocation date not asserted",
+      "valid_from": "2026-09-11",
+      "valid_to": null
+    }
+  ],
   "dependencies": []
 }

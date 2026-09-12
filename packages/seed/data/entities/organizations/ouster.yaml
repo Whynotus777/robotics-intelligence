@@ -36,3 +36,14 @@ claims:
     confidence: MEDIUM
     excerpt: Ouster is listed as NYSE:OUST.
     observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '2015-01-01'
+  valid_from: '2015-01-01'
+  evidence:
+  - source: enrich-56e45865453fdefc
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Ouster was established in 2015 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

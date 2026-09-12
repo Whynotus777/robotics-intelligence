@@ -1,0 +1,83 @@
+{
+  "claim": {
+    "claim_id": "c833b00f-b7cf-509c-8ec5-622430b0fa3b",
+    "subject": {
+      "id": "18dd91a8-0e0f-5687-80ae-0019231b9945",
+      "slug": "onex-technologies",
+      "entity_type": "ORGANIZATION",
+      "name": "1X Technologies",
+      "primary_embodiment": null,
+      "roles": [
+        "OEM"
+      ]
+    },
+    "predicate": "HQ_AT",
+    "label": "is headquartered at",
+    "sentence": "1X Technologies is headquartered at Palo Alto",
+    "value": {
+      "kind": "entity",
+      "entity": {
+        "id": "9a44d94c-01c1-5fe5-8325-b850b4a69b44",
+        "slug": "palo-alto-us",
+        "entity_type": "PLACE",
+        "name": "Palo Alto",
+        "primary_embodiment": null,
+        "roles": []
+      },
+      "measure": null
+    },
+    "stack_layer": null,
+    "qualifier": "Current headquarters confirmed on this date; relocation date not asserted",
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "29b1660f-0c0d-5d2c-abac-65f0031b5a0c",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "1X Technologies identifies Palo Alto as its current home or headquarters.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "bd0ea6ac-27ae-5201-a6f1-501da5afb899",
+        "url": "https://www.1x.tech/about",
+        "canonical_url": null,
+        "publisher": "1X",
+        "title": "1X — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [
+    {
+      "claim_id": "216bde9a-09aa-5fa5-a928-ae6352ad97ad",
+      "value": {
+        "kind": "entity",
+        "entity": {
+          "id": "5a044caa-f982-56c2-ad96-150e160b6f72",
+          "slug": "moss",
+          "entity_type": "PLACE",
+          "name": "Moss",
+          "primary_embodiment": null,
+          "roles": []
+        },
+        "measure": null
+      },
+      "status": "SUPERSEDED",
+      "qualifier": null,
+      "valid_from": "2026-09-01",
+      "valid_to": "2026-09-11"
+    }
+  ],
+  "dependencies": []
+}

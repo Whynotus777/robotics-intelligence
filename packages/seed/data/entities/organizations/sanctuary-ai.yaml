@@ -1,10 +1,12 @@
 slug: sanctuary-ai
 entity_type: ORGANIZATION
 name: Sanctuary AI
-short_description: Vancouver humanoid company betting on hydraulic dexterous hands and teleoperation-derived data rather than pure end-to-end learning.
+short_description: Vancouver humanoid company betting on hydraulic dexterous hands and teleoperation-derived data
+  rather than pure end-to-end learning.
 country_code: CA
 depth_tier: DISCOVERY
-aliases: [Sanctuary]
+aliases:
+- Sanctuary
 claims:
 - predicate: HQ_AT
   object: vancouver
@@ -41,3 +43,14 @@ claims:
     confidence: MEDIUM
     source: sanctuary-site
     excerpt: Sanctuary AI trains the models that drive robots.
+- predicate: FOUNDED_ON
+  date: '2018-01-01'
+  valid_from: '2018-01-01'
+  evidence:
+  - source: enrich-15235988867eba58
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Sanctuary AI was established in 2018 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

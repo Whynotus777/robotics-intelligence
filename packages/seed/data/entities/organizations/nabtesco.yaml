@@ -1,10 +1,12 @@
 slug: nabtesco
 entity_type: ORGANIZATION
 name: Nabtesco
-short_description: Tokyo maker of RV cycloidal precision reducers; the joint gearbox in a large share of the world's industrial arms.
+short_description: Tokyo maker of RV cycloidal precision reducers; the joint gearbox in a large share of the world's
+  industrial arms.
 country_code: JP
 depth_tier: DISCOVERY
-aliases: [Nabtesco Corporation]
+aliases:
+- Nabtesco Corporation
 claims:
 - predicate: HQ_AT
   object: tokyo
@@ -27,3 +29,23 @@ claims:
     confidence: HIGH
     source: nabtesco-site
     excerpt: Nabtesco sells robot components to other builders.
+- predicate: FOUNDED_ON
+  date: '2003-01-01'
+  valid_from: '2003-01-01'
+  evidence:
+  - source: enrich-67a5a2e514d63304
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Nabtesco was established in 2003 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true
+- predicate: HAS_TICKER
+  text: TSE:6268
+  valid_from: '2026-09-11'
+  evidence:
+  - source: enrich-4a26942f6e2d3110
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Nabtesco is listed as TSE:6268.
+    observed_at: '2026-09-11'

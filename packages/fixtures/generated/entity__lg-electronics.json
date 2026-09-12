@@ -137,9 +137,62 @@
           }
         }
       ]
+    },
+    {
+      "predicate": "FOUNDED_ON",
+      "label": "was founded on",
+      "claims": [
+        {
+          "claim_id": "f8363672-d072-5912-afe3-36d8212d9ac1",
+          "predicate": "FOUNDED_ON",
+          "value": {
+            "kind": "date",
+            "date": "1958-01-01"
+          },
+          "stack_layer": null,
+          "qualifier": "Year precision",
+          "valid_from": "1958-01-01",
+          "valid_to": null,
+          "observed_at": "2026-09-01T00:00:00.000Z",
+          "last_verified_at": "2026-09-01T00:00:00.000Z",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "e6049bde-4d01-5951-baef-1e9ebaa1bd97",
+          "target": {
+            "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+            "slug": "seoul",
+            "entity_type": "PLACE",
+            "name": "Seoul",
+            "primary_embodiment": null,
+            "roles": []
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
   "inbound_relationships": [
     {
       "predicate": "PART_OF",
@@ -182,24 +235,34 @@
           "OEM"
         ]
       }
+    ],
+    "places": [
+      {
+        "id": "3c6ac82c-afec-5436-917b-ef814d0670fe",
+        "slug": "seoul",
+        "entity_type": "PLACE",
+        "name": "Seoul",
+        "primary_embodiment": null,
+        "roles": []
+      }
     ]
   },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
-        "PRIMARY": 2,
+        "PRIMARY": 4,
         "THIRD_PARTY": 0,
         "ACADEMIC": 0,
         "DERIVED": 0,
         "ANALYST": 1
       },
-      "claim_count": 3,
+      "claim_count": 5,
       "claims_without_evidence": 0
     },
     "last_verified_at": "2026-09-01T00:00:00.000Z",
-    "recent_change_count": 3,
+    "recent_change_count": 5,
     "deployment_count": 0,
-    "related_count": 1
+    "related_count": 2
   },
   "as_of": null
 }

@@ -9,7 +9,9 @@
     "image_credit": null,
     "primary_embodiment": null,
     "country_code": "US",
-    "aliases": [],
+    "aliases": [
+      "New York"
+    ],
     "created_at": "2026-09-01T00:00:00.000Z",
     "updated_at": "2026-09-01T00:00:00.000Z"
   },
@@ -33,8 +35,214 @@
   },
   "claims": [],
   "relationships": [],
-  "inbound_relationships": [],
-  "lateral_links": {},
+  "inbound_relationships": [
+    {
+      "predicate": "HQ_AT",
+      "label": "is headquartered at",
+      "items": [
+        {
+          "claim_id": "31a13570-4a26-53e6-9e71-43a85ec12837",
+          "source": {
+            "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+            "slug": "runway",
+            "entity_type": "ORGANIZATION",
+            "name": "Runway",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER",
+              "MODEL_DEVELOPER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "5fe732f0-d9e1-5043-9c8e-e08c6785a552",
+          "source": {
+            "id": "36062562-2d11-531a-849e-95516baf1f96",
+            "slug": "parkway-venture-capital",
+            "entity_type": "ORGANIZATION",
+            "name": "Parkway Venture Capital",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "71a9c57e-1f96-590e-8ce7-728226e70328",
+          "source": {
+            "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+            "slug": "ubiquity-global-services",
+            "entity_type": "ORGANIZATION",
+            "name": "Ubiquity Global Services",
+            "primary_embodiment": null,
+            "roles": [
+              "PLATFORM"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "a21e0008-6689-5a89-b364-d39ba4420d12",
+          "source": {
+            "id": "129a99cc-50ce-5be6-80e8-9d355416dcaa",
+            "slug": "lux-capital",
+            "entity_type": "ORGANIZATION",
+            "name": "Lux Capital",
+            "primary_embodiment": null,
+            "roles": [
+              "INVESTOR"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "c35ba0ec-5283-5327-9a51-da84e4d22f72",
+          "source": {
+            "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+            "slug": "hugging-face",
+            "entity_type": "ORGANIZATION",
+            "name": "Hugging Face",
+            "primary_embodiment": null,
+            "roles": [
+              "DATA_SIMULATION_PROVIDER",
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": "Provisional roster location; city precision; independent HQ verification pending",
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "ANALYST",
+            "confidence": "LOW",
+            "source_count": 1
+          }
+        },
+        {
+          "claim_id": "d27d7d73-f192-5b27-ae94-f5817aa0ff06",
+          "source": {
+            "id": "386f26e9-9c99-5b1c-abab-1bf0bcd95fc0",
+            "slug": "viam",
+            "entity_type": "ORGANIZATION",
+            "name": "Viam",
+            "primary_embodiment": null,
+            "roles": [
+              "TOOLING_OPS_PROVIDER"
+            ]
+          },
+          "stack_layer": null,
+          "qualifier": null,
+          "valid_from": "2026-09-11",
+          "has_evidence": true,
+          "evidence_summary": {
+            "class": "PRIMARY",
+            "confidence": "HIGH",
+            "source_count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "lateral_links": {
+    "company": [
+      {
+        "id": "ab38db35-ca26-51cd-bfc8-c39e71100215",
+        "slug": "hugging-face",
+        "entity_type": "ORGANIZATION",
+        "name": "Hugging Face",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "TOOLING_OPS_PROVIDER"
+        ]
+      },
+      {
+        "id": "129a99cc-50ce-5be6-80e8-9d355416dcaa",
+        "slug": "lux-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "Lux Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "36062562-2d11-531a-849e-95516baf1f96",
+        "slug": "parkway-venture-capital",
+        "entity_type": "ORGANIZATION",
+        "name": "Parkway Venture Capital",
+        "primary_embodiment": null,
+        "roles": [
+          "INVESTOR"
+        ]
+      },
+      {
+        "id": "0a3ffbb9-0204-5b3c-96f6-cb311bba0bcb",
+        "slug": "runway",
+        "entity_type": "ORGANIZATION",
+        "name": "Runway",
+        "primary_embodiment": null,
+        "roles": [
+          "DATA_SIMULATION_PROVIDER",
+          "MODEL_DEVELOPER"
+        ]
+      },
+      {
+        "id": "442a23db-64bb-52ed-9021-6c6aafbc8648",
+        "slug": "ubiquity-global-services",
+        "entity_type": "ORGANIZATION",
+        "name": "Ubiquity Global Services",
+        "primary_embodiment": null,
+        "roles": [
+          "PLATFORM"
+        ]
+      },
+      {
+        "id": "386f26e9-9c99-5b1c-abab-1bf0bcd95fc0",
+        "slug": "viam",
+        "entity_type": "ORGANIZATION",
+        "name": "Viam",
+        "primary_embodiment": null,
+        "roles": [
+          "TOOLING_OPS_PROVIDER"
+        ]
+      }
+    ]
+  },
   "intelligence": {
     "evidence_summary": {
       "by_class": {
@@ -50,7 +258,7 @@
     "last_verified_at": null,
     "recent_change_count": 0,
     "deployment_count": 0,
-    "related_count": 0
+    "related_count": 6
   },
   "as_of": null
 }

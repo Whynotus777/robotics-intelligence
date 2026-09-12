@@ -73,3 +73,14 @@ claims:
     confidence: MEDIUM
     excerpt: FANUC is listed as TSE:6954.
     observed_at: '2026-09-11'
+- predicate: FOUNDED_ON
+  date: '1972-01-01'
+  valid_from: '1972-01-01'
+  evidence:
+  - source: enrich-48f5210c20a06115
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: FANUC corporate profile gives 1972 as its establishment year.
+    observed_at: '2026-09-11'
+  qualifier: Year precision; corporate establishment, not the earlier NC research project
+  approximate: true

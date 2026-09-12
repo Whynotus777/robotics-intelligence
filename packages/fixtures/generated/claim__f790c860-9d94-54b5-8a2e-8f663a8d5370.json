@@ -1,0 +1,58 @@
+{
+  "claim": {
+    "claim_id": "f790c860-9d94-54b5-8a2e-8f663a8d5370",
+    "subject": {
+      "id": "0b15ab9e-1c8c-5431-b32e-a33d857e44f5",
+      "slug": "nvidia",
+      "entity_type": "ORGANIZATION",
+      "name": "NVIDIA",
+      "primary_embodiment": null,
+      "roles": [
+        "CHIPMAKER",
+        "INVESTOR",
+        "MODEL_DEVELOPER",
+        "PLATFORM"
+      ]
+    },
+    "predicate": "FOUNDED_ON",
+    "label": "was founded on",
+    "sentence": "NVIDIA was founded on 1993-01-01",
+    "value": {
+      "kind": "date",
+      "date": "1993-01-01"
+    },
+    "stack_layer": null,
+    "qualifier": "Year precision",
+    "status": "APPROVED",
+    "valid_from": "1993-01-01",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "c73f847d-dbc9-5d47-9706-0d7efb0f463b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "NVIDIA was established in 1993 (year precision).",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "cb561bc1-9d1b-54ea-b5ac-d34e6c97dad6",
+        "url": "https://nvidianews.nvidia.com/bios/jensen-huang",
+        "canonical_url": null,
+        "publisher": "NVIDIA",
+        "title": "NVIDIA — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}

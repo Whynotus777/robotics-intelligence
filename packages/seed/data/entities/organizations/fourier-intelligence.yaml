@@ -1,10 +1,12 @@
 slug: fourier-intelligence
 entity_type: ORGANIZATION
 name: Fourier Intelligence
-short_description: Shanghai company that came from rehabilitation robotics into humanoids; the GR series is sold to research buyers as much as to industry.
+short_description: Shanghai company that came from rehabilitation robotics into humanoids; the GR series is sold
+  to research buyers as much as to industry.
 country_code: CN
 depth_tier: DISCOVERY
-aliases: [Fourier]
+aliases:
+- Fourier
 claims:
 - predicate: HQ_AT
   object: shanghai
@@ -34,3 +36,14 @@ claims:
     confidence: HIGH
     source: fourier-site
     excerpt: Fourier Intelligence designs and sells robots under its own name.
+- predicate: FOUNDED_ON
+  date: '2015-01-01'
+  valid_from: '2015-01-01'
+  evidence:
+  - source: enrich-a2bf806ae27d42f2
+    class: PRIMARY
+    confidence: HIGH
+    excerpt: Fourier was established in 2015 (year precision).
+    observed_at: '2026-09-11'
+  qualifier: Year precision
+  approximate: true

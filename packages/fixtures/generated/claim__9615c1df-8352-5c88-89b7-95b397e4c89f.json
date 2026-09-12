@@ -1,0 +1,56 @@
+{
+  "claim": {
+    "claim_id": "9615c1df-8352-5c88-89b7-95b397e4c89f",
+    "subject": {
+      "id": "dbc36fdb-c288-54fe-ad21-b0d2d0085d27",
+      "slug": "tesla",
+      "entity_type": "ORGANIZATION",
+      "name": "Tesla",
+      "primary_embodiment": null,
+      "roles": [
+        "MODEL_DEVELOPER",
+        "OEM"
+      ]
+    },
+    "predicate": "HAS_TICKER",
+    "label": "stock ticker",
+    "sentence": "Tesla stock ticker NASDAQ:TSLA",
+    "value": {
+      "kind": "text",
+      "text": "NASDAQ:TSLA"
+    },
+    "stack_layer": null,
+    "qualifier": null,
+    "status": "APPROVED",
+    "valid_from": "2026-09-11",
+    "valid_to": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "last_verified_at": "2026-09-01T00:00:00.000Z"
+  },
+  "has_evidence": true,
+  "corroboration": "SINGLE",
+  "evidence": [
+    {
+      "id": "d11e2c30-d1fb-5df9-b58a-3b4b3f6f097b",
+      "class": "PRIMARY",
+      "confidence": "HIGH",
+      "stance": "SUPPORTS",
+      "excerpt": "Tesla is listed as NASDAQ:TSLA.",
+      "published_at": null,
+      "observed_at": "2026-09-11T00:00:00.000Z",
+      "source": {
+        "id": "0161a65a-2091-596b-a721-d6e76b2927b6",
+        "url": "https://ir.tesla.com/contact-us",
+        "canonical_url": null,
+        "publisher": "Tesla",
+        "title": "Tesla — robotics enrichment reference",
+        "source_kind": "OTHER",
+        "published_at": null,
+        "language": "en"
+      },
+      "assessment": null
+    }
+  ],
+  "history": [],
+  "dependencies": []
+}
